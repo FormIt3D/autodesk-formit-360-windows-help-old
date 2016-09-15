@@ -8,6 +8,7 @@
     * [2.1 Place Primative Object](2-1_place-primative-object.md)
     * [2.2 Select and Move Object](2-2_select-and-move-object.md)
     * [2.3 Copy Object](2-3_copy-object.md)
-* [3.0 Modifying Faces, Edges, and Points](
+* [3.0 Modifying Faces, Edges, and Points](3-1_modifying_faces-edges-and-points.md)
+    * 
 
 
