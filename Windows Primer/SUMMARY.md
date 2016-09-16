@@ -51,7 +51,9 @@
 * [16.0 Visual-Settings](16-0_visual-settings.md)
     * [16.1 Scences](16-1_scenes.md)
     * [16.2 Visual Styles](16-2_visual-styles.md)
-* [
+* [17.0 Collaboration](17-1_collaboration.md)
+    * [17.1 Start a Collaboration Session](17-1_start-a-collaboration-session.md)
+
 
 
     
