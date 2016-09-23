@@ -20,7 +20,7 @@ then open the Properties palette to name the Group " **main building** "
 
 Close the edit mode by clicking on the check mark in the upper left
 
-![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
+![](./images/3b0e7944-9cb1-4852-9b3b-aedf75fc5270.png)
 
 **Note** : *Each Group has their own undo/redo "stack" that is distinct
 from the top level project.*

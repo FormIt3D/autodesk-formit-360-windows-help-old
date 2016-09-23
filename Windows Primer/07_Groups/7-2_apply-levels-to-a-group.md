@@ -12,4 +12,4 @@ object(s) and the area of each individual level
 If you do not see blue level lines on the object, go to the Settings
 menu &gt; Visual Style &gt; Display Levels (DL)
 
-![](./images/20c641a4-e2a6-4cb6-b666-4707efdf9a1e.png)
+![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
