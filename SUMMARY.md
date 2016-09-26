@@ -1,4 +1,4 @@
 # Summary
 
-* [About](sample.md)
+* [About](sample.md/sample)
 
