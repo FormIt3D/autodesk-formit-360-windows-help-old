@@ -20,3 +20,4 @@ Establish a geographic location for your sketch.
     * Click Finish. 
         
         This action will return you to the drawing area and set the location of the project without importing the satellite image. You can always return later to the Location screen to import the satellite image.
+[Please send us your comment about this page](#)

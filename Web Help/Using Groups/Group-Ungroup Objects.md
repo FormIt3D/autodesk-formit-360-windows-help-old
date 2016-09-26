@@ -12,3 +12,4 @@ Place geometry into clusters to allow easier manipulation.
 #### Ungroup Objects
 
 1. To ungroup an already grouped set of objects, click the Ungroup icon![](Images/GUID-84132542-FEAC-4D44-9910-08F04ED41187-low.png) and then click the group.
+[Please send us your comment about this page](#)

@@ -19,7 +19,8 @@ Materials can be applied to faces or entire objects.
 
 Materials applied to non-grouped objects in the sketch will appear under the heading Main Sketch. There are two options for applying a material to faces and/or objects in a Group: 
 1. *Group Instance*: If you want to apply a material to an entire group AND you do not want that material to be applied to other instances of the group, you can paint the group instance by following the steps above.
-2. *Group Definition*: If you want the material to be applie to ALL instances of the group, first [edit the group](../../../Using Groups/Edit Group.md) and then follow the steps outlined above. The material will then appear under a heading with the name of the group.
+2. *Group Definition*: If you want the material to be applie to ALL instances of the group, first [edit the group](GUID-AB077755-51AD-4946-9267-734B9A841773.htm) and then follow the steps outlined above. The material will then appear under a heading with the name of the group.
 
 
 ![](Images/GUID-498D5F73-CF4B-46F1-9B26-B3AA32233C6D-low.png)
+[Please send us your comment about this page](#)

@@ -14,3 +14,4 @@ To rotate the grid, right click/tap on empty space in the scene and choose ![](I
 ![](Images/GUID-35918BD8-0867-423B-A6E6-A4960F6D6DD8-low.gif)
 
 To reset the coordinate system and grid back to the default setting, right click/tap on empty space in the scene and choose ![](Images/GUID-EB26F44B-70B2-404A-8A7C-57D094D888C3-low.png)
+[Please send us your comment about this page](#)

@@ -45,3 +45,4 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 4. Click Finish. ![](Images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
     
     ![](Images/GUID-38FF4DEE-D5A4-486B-8859-58087740A342-low.png)
+[Please send us your comment about this page](#)

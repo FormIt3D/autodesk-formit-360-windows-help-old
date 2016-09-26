@@ -12,3 +12,4 @@ An instance of a Group can be scaled and still maintain the relationship between
 3. Edit the scaled Group instance and note that the other smaller group instances also react to the change - while maintaining their original size.
 
 ![](Images/GUID-EA6E68CA-6064-4559-A07C-6A8DCD16B3BC-low.png)
+[Please send us your comment about this page](#)

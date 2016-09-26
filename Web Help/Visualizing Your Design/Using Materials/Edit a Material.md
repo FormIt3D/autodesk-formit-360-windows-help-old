@@ -26,3 +26,4 @@ The texture, color, and other properties of Materials can be modified in the Mat
     * *Reflection Direct*: A higher value will increase the amount of reflectivity visible when looking directly at a face.
     * *Reflection: Oblique*: A higher value will increase the amount of reflectivity visible when looking at a face from an oblique angle.
 5. Click OK to save the changes to the material.
+[Please send us your comment about this page](#)

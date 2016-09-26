@@ -19,3 +19,4 @@ Make changes to your location images.
 #### To reload a satellite image:
 
 1. Simply repeat the process to import a satellite image.
+[Please send us your comment about this page](#)

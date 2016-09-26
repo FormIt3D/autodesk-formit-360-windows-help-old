@@ -4,7 +4,7 @@
 
 Use these built-in capabilities to create more accurate designs.
  
-NoteSee[Keyboard Shortcuts](../../User Interaction/Keyboard Shortcuts.md) for information about how to speed up your use of the software's tools.
+NoteSee[Keyboard Shortcuts](GUID-C404752C-8347-4848-9634-9853E9B1E617.htm) for information about how to speed up your use of the software's tools.
 * To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface. 
     
     ![](Images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
@@ -40,3 +40,4 @@ Automatic selection of inference points is always enabled and will help you cons
     ![](Images/GUID-116D4EA4-F84E-4796-8755-627A1149266B-low.png)
 
 Extending from a point: You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+[Please send us your comment about this page](#)

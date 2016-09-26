@@ -12,3 +12,4 @@ At times, you may want to follow another user's camera and see what they are wor
     ![](Images/GUID-CDBA057F-ADE3-4FAD-B907-BAD534451987-low.png)
 
 A red banner will appear to give you an option to stop following the camera.
+[Please send us your comment about this page](#)

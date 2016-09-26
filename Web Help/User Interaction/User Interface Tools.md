@@ -47,3 +47,4 @@ The Palette Bar appears on the right side of the screen. Click one of these icon
 | ---- | ---- |
 | ![](Images/GUID-39317707-97A9-46F2-B8A4-76115959890F-low.png)   |   <br>*Properties*: Open this palette to view location, gross area, and floor area ratios for your sketch<br><br>*Materials*: Use this palette to create or apply materials<br><br>*Layers*: Create and Manage Layers and assign selected objects to different Layers<br><br>*Scenes*: Create, manage and play Scenes<br><br>*Levels*: Use this palette to display and add levels to your building objects<br><br>*Content Library*: Use the content library to store reusable content such as furniture<br><br>*Collaboration* (FormIt 360 Pro only): Use Collaboration to work simultaneously with others as you create designs<br>  |
 
+[Please send us your comment about this page](#)

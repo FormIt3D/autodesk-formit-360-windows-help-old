@@ -42,3 +42,4 @@ NoteThe spline curve appears automatically.
 ![](Images/GUID-1193F05F-06CC-4415-A8E8-809D5824D25D-low.png) 
 1. Click your mouse once you are ready to place the center point of the circle.
 2. ![](Images/GUID-E665F344-1E0F-41B0-8195-EC68951CAC69-low.png)Follow the same steps of hover, snap/inference, click - to define the radius of the circle.
+[Please send us your comment about this page](#)

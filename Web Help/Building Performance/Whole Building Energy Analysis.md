@@ -7,7 +7,7 @@ Evaluate factors that affect building performance, such a wall insulation and HV
 
 Autodesk FormIt 360 Pro Only
 
-The FormIt 360 Pro Energy Analysis feature allows you to better understand how your design will perform based on a number of factors. To get started, you must first set a [Location for your project](../../Location/README.md) and have at least one solid object with [Levels](GUID-751A25D4-7B56-419F-B339-2236D77CF8E2.htm) applied. Click the Energy Analysis button to start the analysis process.
+The FormIt 360 Pro Energy Analysis feature allows you to better understand how your design will perform based on a number of factors. To get started, you must first set a [Location for your project](GUID-98ECED20-4AD5-4C43-9D25-C75A92C02150.htm) and have at least one solid object with [Levels](../../Levels and Space Usage/README.md) applied. Click the Energy Analysis button to start the analysis process.
 
 ![](Images/GUID-4B5571DF-D3B2-4693-85FF-5BED468431BB-low.png)
 
@@ -22,3 +22,4 @@ The Energy Analysis Dashboard now contains a 3D view of the energy model, a hist
 When you open a Factor Widget, you can vary the factors to see how it affects the Energy Cost Mean.
 
 ![](Images/GUID-3E6202EB-6402-4C51-877A-76363729359A-low.png)
+[Please send us your comment about this page](#)

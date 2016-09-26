@@ -19,3 +19,4 @@ Use the scenes to create and navigate back to saved view points.
 1. Click on a scene to navigate to that scene.
 2. Click Play Scenes to automatically play through each scene.
 3. Click Stop Scenes to stop the presentation.
+[Please send us your comment about this page](#)

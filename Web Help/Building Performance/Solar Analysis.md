@@ -24,3 +24,4 @@ Autodesk FormIt 360 Pro Only
     Change between Month Peak, which gives the peak solar insolation value in BTU/sq ft (or Wh/sq m) for each month, and Year Cumulative, which gives the total insolation in kw/Sq m. Month Peak is useful for developing a shading strategy for the building façade. Year Cumulative is useful for determining the potential for photovoltaic cells.
 6. Move the slider to vary the time of year.
 7. Click ![](Images/GUID-C232B795-396C-4AA4-B933-59EADB149117-low.png) to finish.
+[Please send us your comment about this page](#)

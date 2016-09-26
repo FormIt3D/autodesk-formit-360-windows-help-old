@@ -14,3 +14,4 @@ To create more complex designs after sketching a shape or placing a primitive, y
 4. ![](Images/GUID-EE2A0DBE-4C81-493E-8C92-B9656DB45D9B-low.png) To array edges, faces, or entire objects, click on the array icon from the context menu. You can create both linear and radial arrays. Next, choose either linear or radial and then specify the other parameters. Then, similar to the move tool - click the object to start an array, and click again to place arrayed elements. 
     
     ![](Images/GUID-09C2339D-E234-4464-9FC0-44C6435DAFB7-low.png)
+[Please send us your comment about this page](#)

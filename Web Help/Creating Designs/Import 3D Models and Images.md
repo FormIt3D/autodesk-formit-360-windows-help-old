@@ -20,3 +20,4 @@ You will have the option to scale and crop your image. Your image will then be i
 Edit the image's name and transparency, if needed. Manage the vertical ordering of various ground overlays including the satellite image.
 
 ![](Images/GUID-B1CE5D3F-BA12-477D-842D-6E74ADE9FD8C-low.png)
+[Please send us your comment about this page](#)

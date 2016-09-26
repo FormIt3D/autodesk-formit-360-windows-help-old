@@ -14,3 +14,4 @@ See About Levels to understand levels.
 4. The Properties palette will display the total Gross area for each level as well as a total for this object
 
 5. ![](Images/GUID-EFE18738-2249-4331-B1C4-693F403127E0-low.png)
+[Please send us your comment about this page](#)

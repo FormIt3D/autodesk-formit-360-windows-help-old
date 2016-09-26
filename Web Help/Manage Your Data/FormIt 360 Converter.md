@@ -15,7 +15,7 @@ The FormIt 360 Converter is a Revit add-in that can convert files from other app
 4. Optionally check the Upload to A360 Drive Content Folder
 5. Click OK and Revit will proceed to convert all RFA to FormIt 360 Content (.AXM files.) Only the following categories are supported, all others will be ignored: Casework, Entourage, Furniture, Furniture Systems, Generic Models, Parking, Site, Specialty Equipment, Mass.
 
-If you choose to upload the files to A360 drive, you will be prompted to log into Autodesk 360 (if you are not already logged in Revit.) The AXM files will be placed in the following folder in your A360 drive: /FormIt/Content. See [Content Library](../Content Libraries/README.md) to learn how to use this content within FormIt 360.
+If you choose to upload the files to A360 drive, you will be prompted to log into Autodesk 360 (if you are not already logged in Revit.) The AXM files will be placed in the following folder in your A360 drive: /FormIt/Content. See [Content Library](GUID-396A23FE-ED47-4847-94A1-63826D9A1E1B.htm) to learn how to use this content within FormIt 360.
 
 ## Convert FormIt 360 Sketch (AXM) Files to Revit Project ![](Images/GUID-45D30848-2C40-46BB-AC86-47372BB18DB1-low.png)
 
@@ -36,7 +36,7 @@ If you choose to upload the files to A360 drive, you will be prompted to log int
 4. Optionally check the Upload to A360 Drive Content Folder
 5. Click OK and Revit will proceed to convert all SKP to FormIt 360 Content (.AXM files.)
 
-If you choose to upload the files to A360 drive, you will be prompted to log into Autodesk 360 (if you are not already logged in Revit.) The AXM files will be placed in the following folder in your A360 drive: /FormIt/Content. See [Content Library](../Content Libraries/README.md) to learn how to use this content within FormIt 360.
+If you choose to upload the files to A360 drive, you will be prompted to log into Autodesk 360 (if you are not already logged in Revit.) The AXM files will be placed in the following folder in your A360 drive: /FormIt/Content. See [Content Library](GUID-396A23FE-ED47-4847-94A1-63826D9A1E1B.htm) to learn how to use this content within FormIt 360.
 
 ## Replace FormIt 360 Content with Revit Families ![](Images/GUID-B9500378-87F8-4458-858D-42A451164228-low.png)
 
@@ -44,3 +44,4 @@ If you choose to upload the files to A360 drive, you will be prompted to log int
 2. In the add-in, choose Reload Families
 3. Browse to a local directory that contains RFA files that correspond to converted FormIt 360 content
 4. The add-in will proceed to replace any of the families with the correct families it finds in the selected directory
+[Please send us your comment about this page](#)
