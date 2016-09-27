@@ -8,12 +8,9 @@ to save and hide the building mass for later analysis.
 Click the Layers palette and click the + sign twice to create three
 layers
 
-Double click the layers to rename them: **massing, Floor 1, plan image**
+1. Double click the layers to rename them: **massing, Floor 1, plan image** ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
-![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
-
-Select the massing Group and choose the massing layer from the
-"Selection On" menu in the Layers palette
+2. Select the massing Group and choose the massing layer from the "Selection On" menu in the Layers palette
 
 Create a copy of the Group by pressing **Cntl+C** and then **Cntl+V**
 
@@ -22,8 +19,7 @@ Group is now its own unique Group and will not update with the other one
 
 ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
 
-Select the newly created group and choose **Floor 1** from the menu.
-This will be the basis for the first floor
+Select the newly created group and choose **Floor 1** from the menu. This will be the basis for the first floor
 
 Move it to exact spot of the original Group by selecting the lower left
 corner
