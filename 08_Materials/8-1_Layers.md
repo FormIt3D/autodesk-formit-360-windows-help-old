@@ -1,5 +1,5 @@
-Layers
-------
+### Layers
+---
 
 Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your scene. We are going to create a layer to save and hide the building mass for later analysis.
 
