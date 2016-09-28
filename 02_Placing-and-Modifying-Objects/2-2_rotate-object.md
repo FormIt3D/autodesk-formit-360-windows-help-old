@@ -1,7 +1,5 @@
 ### Exercise 4 – Rotate Object
-
 ---
-
 1. **Right click** **one** of the **cubes** you have **created**.
 
 2. Choose the **Rotate tool**. You can now **drag** the **rotate tool to

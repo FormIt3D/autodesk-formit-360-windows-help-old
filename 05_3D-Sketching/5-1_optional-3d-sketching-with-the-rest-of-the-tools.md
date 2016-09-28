@@ -1,19 +1,20 @@
 ### Optional – 3D Sketching with the rest of the tools
+---
 
 The following exercise is not critical to finishing the house. It will
 allow you to experiment with some of the other 3D Sketching tools.
 
-1. Click to open the Sketching Toolbar.
+1. **Click to open the Sketching Toolbar.**
 
-2. Select the Arc tool.
+2. **Select the Arc tool.**
 	- Click to define the first and second point similar to the Line tool.
 	- The third drag defines the radius of the circle that defines the arc.
 	- Note: as with all sketching tools, you can use the red snap points to snap to other objects in the scene.
 
-3. Select the Spline tool.
+3. **Select the Spline tool.**
 	- Click to define any number of points to draw a spline
 
-4. Select the Circle tool.
+4. **Select the Circle tool.**
 	- Hover and Click to define the center point of the circle.
 	- Click and drag to define the radius of the circle.
 

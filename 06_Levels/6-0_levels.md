@@ -1,11 +1,12 @@
-Levels
-------
-
-Levels allow you to slice masses into individual floors and calculate
+###Levels
+---
+>Levels allow you to slice masses into individual floors and calculate
 gross area for the entire project - or by building. Levels will
 translate to Revit when the file is converted.
 
-### Create , Edit, and Apply Levels
+---
+
+#### Create , Edit, and Apply Levels
 1. You can create new levels using the Level tab on the Levels Palette.
 2. Click Add Level four times to add a single Level at 0’0, 2'2 , 4’6 and 15’8 (you can also click the ++ icon to create multiple levels – handy for tall buildings)
 3. Edit the Level name. Name the first one **Level 1, Terrace, Floor 1, and Top of Cornice** – these level names will now translate into Revit.

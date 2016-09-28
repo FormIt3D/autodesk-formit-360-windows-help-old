@@ -1,5 +1,5 @@
-## Setting up the project
-
+### Setting up the project
+---
 > Autdodesk 360 Drive is the primary storage medium for Formit. However, you can also, open, save, import and export files from a local drive. We will use that method for loading the datasets, but you will use your A360 drive accound to log into Formit and save your work as you move through the course.
 
 ---

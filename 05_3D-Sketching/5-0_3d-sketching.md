@@ -1,12 +1,14 @@
-## 3D Sketching
-
+### 3D Sketching
+---
 >Placing primitives is fine, but the real power of FormIt lies in the
 ability to sketch in 3D. You got a sneak peak at the power of the
 snapping system when you used the Rotate tool in the last exercise.
 If you did not complete the last section, click the File &gt; Open and
 choose **farnsworth01.axm** from the FormIt Primer folder.
 
-### 3D Sketching with lines
+---
+
+#### 3D Sketching with lines
 
 1. We are going to first Group the image plane. This will prevent sketched lines from "sticking" to it. Select the plane by double-clicking it, right-click and choose Group (G).
 

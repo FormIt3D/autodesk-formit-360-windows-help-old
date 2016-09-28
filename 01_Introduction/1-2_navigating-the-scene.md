@@ -1,5 +1,4 @@
-## Navigating the Scene
-
+### Navigating the Scene
 ---
 
 **1. Obiting**

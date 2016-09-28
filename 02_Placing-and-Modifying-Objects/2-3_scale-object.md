@@ -1,4 +1,5 @@
 ### Exercise 5 – Scale Object
+---
 
 1. **Right click one** of the **cubes** you have **created**.
 
