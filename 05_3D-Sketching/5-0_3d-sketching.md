@@ -1,5 +1,4 @@
-3D Sketching
-------------
+## 3D Sketching
 
 >Placing primitives is fine, but the real power of FormIt lies in the
 ability to sketch in 3D. You got a sneak peak at the power of the
