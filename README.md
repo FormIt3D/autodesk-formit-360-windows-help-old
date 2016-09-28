@@ -1,4 +1,2 @@
-# Formit Primer for Windows Application
-
+# FormIt Windows Documentation
 Description...
-
