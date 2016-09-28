@@ -1,4 +1,5 @@
 ### Import a new material
+---
 1. Edit the Glass Walls group by double-click.
 2. Select the Materials palette.
 3. Click the Import Materials button. 

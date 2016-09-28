@@ -1,4 +1,5 @@
 ### Array the columns
+---
 1. Select the Column group.
 2. Right click and choose Array (A R).
 3. Use the following settings:
