@@ -7,18 +7,18 @@ The goal of following exercises is to give you an understanding of the basic ope
 
 ---
 ##### Placing Object
-1. Click to open the Creation toolbar
+1. Click to open the Creation toolbar.
 
 2. Click on the cube and then drag and then click to place the cube.
 
-3. Place a Cylinder as well
+3. Place a Cylinder as well.
 
 ![](/Windows Primer/02_Placing-and-Modifying-Objects/images/placing-object.png)
 
 
 #####Moving Objects
 
-1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which we will get to next exercise)
+1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which we will get to next exercise).
 
 2. Hover over the object to **select the point** you will use as the **snap point.**
 ![move object](/Windows Primer/02_Placing-and-Modifying-Objects/images/moving-object.png)

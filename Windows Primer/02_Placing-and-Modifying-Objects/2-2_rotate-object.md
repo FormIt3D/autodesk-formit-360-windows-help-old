@@ -4,7 +4,7 @@
 
 1. **Right click** **one** of the **cubes** you have **created**.
 
-2. Choose the **Rotate tool** . You can now **drag** the **rotate tool to
+2. Choose the **Rotate tool**. You can now **drag** the **rotate tool to
 define**:
 	- The **axis** on **which** you want **to rotate**
 	- The **rotation** axis point
@@ -16,12 +16,8 @@ define**:
 4. To **Rotate**:
 
  - **Drag the arrows** and use the " **compass** " to **snap** to
-**increments** . You can also **use other objects** in the scene **as
-snap references** during rotation.
- - **Click** on the **Degree value** (or press the **Tab key** ) to enter a
-**specific rotation value** .
- - **Dragging** the **blue circle** **allows** you to **change** the
- - **rotation axis** without having to restart the rotate tool
- - **Dragging** the **blue circle** **allows** you to **use other objects**
-in the scene as **starting point references** .
+**increments** . You can also **use other objects** in the scene **as snap references** during rotation.
+ - **Click** on the **Degree value** (or press the **Tab key** ) to enter a **specific rotation value.** 
+ - **Dragging** the **blue circle** **allows** you to **change** the **rotation axis** without having to restart the rotate tool.
+ - **Dragging** the **blue circle** **allows** you to **use other objects** in the scene as **starting point references**.
 ![](./images/0b8847f4-e2c5-4686-a714-9f7a71fdfee1.png)
