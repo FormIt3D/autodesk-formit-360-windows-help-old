@@ -1,6 +1,5 @@
-###Setting Location
+### Setting Location
 ---
-
 
 > Setting your project’s location in the world is important for the accuracy of down-stream analyses. It also allows you to import a scaled satellite image to use as a background reference.
 

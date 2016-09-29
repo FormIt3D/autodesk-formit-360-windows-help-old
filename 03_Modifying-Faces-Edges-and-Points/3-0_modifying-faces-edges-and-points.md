@@ -1,4 +1,4 @@
-## Modifying Faces, Edges and Points
+### Modifying Faces, Edges and Points
 ---
 
 > Things get really interesting when you start to push and pull the
@@ -8,7 +8,9 @@ point. If you did not complete the last section, click the **Gallery button**
 &gt; **New Sketch** and then **Import** -&gt; **Import 3D Model** -&gt;
 **open** **medical center 01.axm** from the **Datasets folder**
 
-### Exercise 1 – Modifying Faces
+---
+
+#### Exercise 1 – Modifying Faces
 
 1. **Single click one** of the **faces** of the **objects.**
 
@@ -19,7 +21,7 @@ key to **define** the **amount** of **move.**
 ![](./images/b61b2045-21a9-434b-b806-6cfa16e94fdd.png)
 4. You can also **delete a face** by Using **Delete key** **Right click** -&gt; **X button**
 
-###Exercise 2 – Modifying Edges
+#### Exercise 2 – Modifying Edges
 
 1. **Single click one** of the **edges** of one of the **cubes**.
 2. You can now **drag the edge** along one of the **axes** to **redefine** the **shape**.
@@ -28,7 +30,7 @@ key to **define** the **amount** of **move.**
 	- Pressing **Delete key**
 	- **Right click** -&gt; **X button**
 
-### Exercise 3 – Modifying Points
+#### Exercise 3 – Modifying Points
 
 1. **Single click one** of the **corners** of one of the cubes.
 2. Similar to an edge, you **drag the point along one of the axes** to
