@@ -12,7 +12,6 @@ define**:
 3. **Select** the **rotation point** **either** on an **edge** or
 **center** of **face**.
 4. To **Rotate**:
-
  - **Drag the arrows** and use the " **compass** " to **snap** to
 **increments** . You can also **use other objects** in the scene **as snap references** during rotation.
  - **Click** on the **Degree value** (or press the **Tab key** ) to enter a **specific rotation value.** 

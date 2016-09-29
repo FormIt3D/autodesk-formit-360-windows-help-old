@@ -1,7 +1,7 @@
 ### Navigating the Scene
 ---
 
-**1. Obiting**
+**1. Orbiting**
 ![orbit](/Windows Primer/01_Introduction/images/orbit-tool.png)
 Right click and drag,or use the orbit tool from toolbar to click drag the left mouse button to orbit.
 

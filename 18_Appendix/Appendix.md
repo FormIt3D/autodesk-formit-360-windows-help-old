@@ -1,4 +1,5 @@
 ### Appendix 1 - FORMIT 360 DEFAULT KEYBOARD SHORTCUTS
+
 ![](./images/0288d7e6-3ff2-400f-a772-47ad7592a49b.png)
 
 ![](./images/fc9de88c-9de2-4dc4-8fc7-0a0e1bad09ea.png)

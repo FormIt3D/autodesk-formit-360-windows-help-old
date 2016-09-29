@@ -1,7 +1,7 @@
 ### Copy Object
 ---
 
-There are **three ways to copy** an object. First **select** the **object** :
+There are **three ways to copy** an object. First **select** the **object**:
 
 1. **Right click** the **cube** and **select the Copy tool** - then **rightclick anywhere else** in the scene and **choose** the **paste** **button** (this also works with **CTRL + C or V**).
 
