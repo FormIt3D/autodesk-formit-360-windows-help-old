@@ -11,7 +11,7 @@ allow you to experiment with some of the other 3D Sketching tools.
 2. **Select the Arc tool.**
 	- Click to define the first and second point similar to the Line tool.
 	- The third drag defines the radius of the circle that defines the arc.
-	- Note: as with all sketching tools, you can use the red snap points to snap to other objects in the scene.
+	- Note: As with all sketching tools, you can use the red snap points to snap to other objects in the scene.
 
 3. **Select the Spline tool.**
     - Click to define any number of points to draw a spline

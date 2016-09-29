@@ -20,6 +20,6 @@
 
 8. Uncheck the **massing** layer to hide it.
 
-9. Edit the floor 1 group and select the top face. Move it down **11'2"**. The resulting floor should be 1' thick.
+9. Edit the Floor 1 Group and select the top face. Move it down **11'-2"**. The resulting floor should be 1' thick.
 
 10. Select the plan image group and create and assign it to a new **Plan Image** layer.

@@ -8,9 +8,9 @@
 
 4. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
 
-5. Array them three times at a distance of 11'.
+5. **Array** them three times at a distance of 11'.
 
-6. Use the hover + Tab key to select all mullion instances and copy to the south side of the wall.
+6. Use the **hover + Tab key** to select all mullion instances and copy to the south side of the wall.
 
 ### Create Door
-Using the same methods as in the previous two exercises, create a 3'6" double door centered in the western wall. ![](./images/a4f7bb20-db89-4638-a3ad-4ae05c63d351.png)
+Using the same methods as in the previous two exercises, create a 3'-6" double door centered in the western wall. ![](./images/a4f7bb20-db89-4638-a3ad-4ae05c63d351.png)

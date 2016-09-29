@@ -1,11 +1,12 @@
 ### Navigating the Scene
 ---
 
-**1. Orbiting** ![](./images/orbit-tool.png)
+**1. Orbiting**
+![](./images/orbit-tool.png) 
 Right click and drag,or use the orbit tool from toolbar to click drag the left mouse button to orbit.
 
 **2. Zooming**
-![](./images/zoom.png)
+![](./images/zoom.png) 
 Scroll the mouse wheel or use the zoom tool from toobar to click drag the left mouse button to zoom.
 
 **3. Panning**

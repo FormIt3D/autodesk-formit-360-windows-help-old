@@ -1,7 +1,7 @@
 ### Exercise 5 – Scale Object
 ---
 
-1. **Right click one** of the **cubes** you have **created**.
+1. **Right click one** of the **cubes** you have created.
 
 2. **Choose** the **Scale tool**:
     - You can now **drag the arrows** to immediately **define scale value.**
