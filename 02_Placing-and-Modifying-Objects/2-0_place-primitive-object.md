@@ -13,19 +13,19 @@
 
 3. Place a Cylinder as well.
 
-![](/Windows Primer/02_Placing-and-Modifying-Objects/images/placing-object.png)
+![](./images/placing-object.png)
 
 
 #### Moving Objects
 
 1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which we will get to next exercise).
 
-2. Hover over the object to **select the point** you will use as the **snap point.** ![move object](/Windows Primer/02_Placing-and-Modifying-Objects/images/moving-object.png)
+2. Hover over the object to **select the point** you will use as the **snap point.** ![](./images/moving-object.png)
 
 3. **Click and then start dragging** - you are now moving the object and the preselected point will now be your snap point.
 
 4. **Press the tab key.** You can now type in a specific distance to move that object along the current axis.
 
-5. **Right click on the cube.** You will see the context menu. ![object-context-menu](/Windows Primer/01_Introduction/images/context-menu.png)
+5. **Right click on the cube.** You will see the context menu. ![](./images/77a49149-cc7d-4e90-97eb-576c27cef7f4.png)
 
 

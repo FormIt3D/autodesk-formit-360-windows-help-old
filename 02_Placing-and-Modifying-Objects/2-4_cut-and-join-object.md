@@ -11,7 +11,7 @@
     - Using a **standard crossing window** by **left click** and **dragging** in the scene.
     - **Right click** in the scene and **choosing** the **Lasso tool** for a more fine-grained selection.
 
-4. To **Cut** , **right click** **on** the **object** that **will be cut**,**choose** the **Cut tool**.
+4. To **Cut**, **right click** **on** the **object** that **will be cut**,**choose** the **Cut tool**.
 
-5. To **Join** , **right click** on **either** **object** and **choose**
+5. To **Join**, **right click** on **either** **object** and **choose**
 the **join tool**. ![](./images/1e241324-7523-45d1-8cbb-4dedad3c42c7.png)

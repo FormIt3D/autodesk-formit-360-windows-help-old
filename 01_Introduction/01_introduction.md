@@ -7,7 +7,7 @@
 
 In this primer, we are going to go over Formit Tools and build an entire historic modernist house in just under two hours!
 
-![](./images/49e004f3-d500-4890-9188-e8a87c1e396a.png)
+![](./images/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
 #### Prerequisites for this Turorial:
 
