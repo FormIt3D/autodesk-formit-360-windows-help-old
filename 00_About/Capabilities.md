@@ -1,5 +1,0 @@
-### Multiple Clients
-
----
-
-![](./images/multipleclients)
