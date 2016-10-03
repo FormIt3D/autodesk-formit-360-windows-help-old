@@ -14,6 +14,7 @@ Use the Fillet tool to create a rounded edge for the bed.
 2. Select the **Fillet tool (F I)** from the **Advanced Modeling toolbar**. ![](./images/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
 3. Select the top face and choose **2"** as the fillet distance. Click the **check mark** in the top left corner to finish. ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
+---
 
 #### Advanced Modeling – Sweep
 
