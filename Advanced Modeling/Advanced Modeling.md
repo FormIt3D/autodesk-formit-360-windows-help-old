@@ -1,7 +1,7 @@
 ### Advanced Modeling
 ---
 
-> If you did not complete the last section, click the File &gt; Open and choose **farnsworth05.axm** from the FormIt Primer folder. 
+> If you did not complete the last section, click File &gt; Open and choose **farnsworth05.axm** from the FormIt Primer datasets folder. 
 
 ---
 

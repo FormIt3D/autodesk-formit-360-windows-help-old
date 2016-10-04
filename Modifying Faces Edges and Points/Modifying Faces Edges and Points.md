@@ -7,8 +7,8 @@ face, edge or, different than older version of FormIt, a corner or
 point. 
 
 >If you did not complete the last section, click the **Gallery button**
-&gt; **New Sketch** and then **Import** -&gt; **Import 3D Model** -&gt;
-**open** **medical center 01.axm** from the **Datasets folder**
+&gt; **New Sketch** and then **Import** &gt; **Import 3D Model** &gt;
+open **medical center 01.axm** from the **Datasets folder**
 
 ---
 
@@ -18,8 +18,8 @@ point.
 
 2. You can **immediately** **drag that face** to **push** or **pull** it. There is no need to invoke a separate tool. You can **use** the **snapping** to snap this **face aligned** with **other objects** in the scene.
 
-3. As with move, you can **click the temporary dimension** or use **Tab**
-key to **define** the **amount** of **move.**
+3. As with move, you can **click the temporary dimension** or use **Tab
+key** to **define** the **amount** of **move.**
 ![](./images/b61b2045-21a9-434b-b806-6cfa16e94fdd.png)
 4. You can also **delete a face** by using **Delete key**: **Right click &gt; X button**.
 

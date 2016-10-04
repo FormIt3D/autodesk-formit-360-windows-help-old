@@ -1,4 +1,4 @@
-### Create unique Groups
+### Create Unique Groups
 ---
 
 1. Repeat Step 7 above with the two columns on the southwest side of the building.

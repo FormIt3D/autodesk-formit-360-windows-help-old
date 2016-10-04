@@ -1,4 +1,4 @@
-### Array the columns
+### Array the Columns
 ---
 1. Select the Column group.
 
@@ -10,7 +10,7 @@
 	- Number of Copies: 3
 ![](./images/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png) ![](./images/0ef15b54-2b06-4443-823a-e58527e23858.png)
 
-4. Press OK, begin moving the cursor towards the right and lock on to the red axis.
+4. Press **OK**, and begin moving the cursor towards the right and lock on to the red axis.
 
 5. Press Tab and enter **22'** – you now have four columns 22' apart.
 

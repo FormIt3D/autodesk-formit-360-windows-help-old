@@ -8,7 +8,7 @@ choose **farnsworth01.axm** from the FormIt Primer folder.
 
 ---
 
-#### 3D Sketching with lines
+#### 3D Sketching with Lines
 
 1. We are going to first Group the image plane. This will prevent sketched lines from "sticking" to it. Select the **plane** by **double-clicking it, right-click** and **choose Group (G)**.
 

@@ -9,14 +9,14 @@
 
 1. Set location to *Farnsworth House*:
     - Type ***Farnsworth House*** in the search field. Google Maps will fill in the actual location.
-    - As soon as you commit the location search, location is set to the center of the view.
-    - You can now click **Finish** to set the location and return to the 3D scene. Or you may optionally import a scaled satellite image.
+    - As soon as you commit the location search, the location is set to the center of the view.
+2. You can now click **Finish** to set the location and return to the 3D scene.
 ![](./images/4101d5b1-cd39-4a96-b4a8-8d7009c54848.png)
-
-2. Click **Import satellite image** and then **Finish Importing Image**.
+Or you may optionally import a scaled satellite image:
+    - Click **Import satellite image** and then **Finish Importing Image**.
 ![](./images/894bd8ae-cb86-4330-ae3f-fe58ac39ab73.png)
     - Satellite image is imported to scale with True North facing up.
-    - Go to the **Visual Styles palette** and enable **North Arrow** to see an interactive indicator of true north.
+    - Go to the **Visual Styles palette** ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png) and enable **North Arrow** to see an interactive indicator of true north.
     - Once back in the 3D scene, **select the satellite image** by doubleclicking. Open the **Properties panel** and lower the **transparency slider** about 1/3. ![](./images/038168bf-b019-4a1f-8fb7-308ae4fe218e1.png)
 
 

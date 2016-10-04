@@ -1,6 +1,6 @@
-### Import a new material
+### Import a New Material
 ---
-1. Edit the **Glass Walls group** by double-click.
+1. Edit the **Glass Walls group** by double-clicking.
 
 2. Select the Materials palette.
 

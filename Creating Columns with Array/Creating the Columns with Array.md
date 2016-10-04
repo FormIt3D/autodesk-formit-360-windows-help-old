@@ -1,7 +1,7 @@
 ### Creating the Columns with Array
 ---
 
-> If you did not complete the last section, click the File &gt; Open and choose **farnsworth03.axm** from the FormIt Primer folder.
+> If you did not complete the last section, click File &gt; Open and choose **farnsworth03.axm** from the FormIt Primer datasets folder.
 
 ---
 
