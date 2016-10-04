@@ -31,7 +31,7 @@
 4. Turn **Monotone Surfaces** on. This strips all colors from the scene. See image below. ![](./images/74f592a0-e7b3-4168-a6e9-2d1f69453f54.png)
 
 
-### Export Image
+#### Export Image
 
 Once you have you one or more scenes with visual styles to your liking, you can export high resolution images of the scene.
 

@@ -1,4 +1,4 @@
-### Optional – 3D Sketching with the rest of the tools
+### Optional – 3D Sketching with the Rest of the Tools
 ---
 
 > The following exercise is not critical to finishing the house. It will
