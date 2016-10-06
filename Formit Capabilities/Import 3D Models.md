@@ -1,7 +1,8 @@
-## Grasshopper - The Origins
+### Import 3D Models
+---
+   > Grasshopper es un editor de programación visual desarrollado por David Rutten en Robert McNeel & Associates. Como un plug-in para Rhino3D, Grasshopper está embebido en el robusto y versátil entorno de modelación utilizado por profesionales de diversas y variadas industrias creativas, tales como arquitectura, ingeniería, diseño de producto y otras más. En conjunto, Grasshopper y Rhino nos ofrecen la oportunidad de definir control paramétrico preciso sobre nuestros modelos, la capacidad de explorar workflows de diseño generativo, así como una plataforma para desarrollar una lógica de programación de alto nivel - ¡Todo a través una interfaz gráfica e intuitiva!
 
-#####Grasshopper es un editor de programación visual desarrollado por David Rutten en Robert McNeel & Associates. Como un plug-in para Rhino3D, Grasshopper está embebido en el robusto y versátil entorno de modelación utilizado por profesionales de diversas y variadas industrias creativas, tales como arquitectura, ingeniería, diseño de producto y otras más. En conjunto, Grasshopper y Rhino nos ofrecen la oportunidad de definir control paramétrico preciso sobre nuestros modelos, la capacidad de explorar workflows de diseño generativo, así como una plataforma para desarrollar una lógica de programación de alto nivel - ¡Todo a través una interfaz gráfica e intuitiva!
-
+---
 Los orígenes de Grasshopper pueden ser atribuidos a la funcionalidad del botón
 "Record History" contenida en la versión 4 de Rhino3d. Esta característica
 permitía a los usuarios guardar implícitamente las operaciones de modelado mientras 
