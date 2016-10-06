@@ -37,7 +37,8 @@
     * [Visual Settings](Farnsworth House Primer/Visual Settings.md)
 * Tool Library
     * [Tool Bars Extended](Tool Library/Tool Bars Extended.md)
-    * [Work Axes and Planes](Tool Library/Work Axes and Planes.md)
+    * [World Axes](Tool Library/World Axes.md)
+    * [Work Planes](Tool Library/Work Planes.md)
     * [Snaps and Inferences](Tool Library/Snaps and Inferences.md)
     * [Select Edge, Face, or Object](Tool Library/Select Edge, Face, or Object.md)
     * [Delete, Edit, Move](Tool Library/Delete, Edit, Move.md)
