@@ -1,7 +1,7 @@
 ### Multiple Clients
 ---
 
-![](images/analysis.gif)
+![](Images/analysis.gif)
 
 
 #### Solar Analysis

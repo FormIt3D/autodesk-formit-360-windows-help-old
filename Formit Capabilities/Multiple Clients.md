@@ -1,4 +1,4 @@
 ### Multiple Clients
 ---
 
-![](images/multiple-clients.gif)
+![](Images/multiple-clients.gif)

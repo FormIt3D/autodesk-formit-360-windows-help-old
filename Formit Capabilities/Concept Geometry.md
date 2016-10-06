@@ -1,4 +1,4 @@
 ### Concept Geometry
 ---
 
-![](images/conceptgeometry.gif)
+![](Images/conceptgeometry.gif)

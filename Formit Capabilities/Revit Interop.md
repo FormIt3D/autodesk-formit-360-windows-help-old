@@ -1,5 +1,5 @@
 ### Revit Interop
-![](./images/nhcomxn1k5iql8tdldnu.png)
+![](./Images/nhcomxn1k5iql8tdldnu.png)
 
 ---
 >**Make the connection between Schematic Design in FormIt 360 and Design Documentation in Revit seamless.**
