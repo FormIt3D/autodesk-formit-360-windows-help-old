@@ -42,3 +42,8 @@ We are going to create a 2" metal frame and mullions around the window glass.
 
 #### Create Door
 Using the same methods as in the previous two exercises, create a 3'-6" double door centered in the western wall. ![](./images/a4f7bb20-db89-4638-a3ad-4ae05c63d351.png)
+
+---
+####Related Topics:
+
+[Cover, Sweep, Loft](../Tool Library/Cover, Sweep, Loft.md)
