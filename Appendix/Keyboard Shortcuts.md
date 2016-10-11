@@ -1,11 +1,41 @@
 ### Keyboard Shortcuts
 
-| Command | Shortcut|
+| Command | Shortcut(s)|
 |---------|---------|
-| Copy | Ctrl/CMD + C |
-| Paste | Ctrl/CMD + V |
-| Cut | Ctrl/CMD + X |
-
+| Application Settings: Display Dimensions | D, D |
+| Application Settings: Snap to Grid | S, G |
+| Collaboration: Invite to Session | C, I |
+| Collaboration: Join Session | C, J |
+| Collaboration Start Session | C, S |
+| Display: Ambient Shadows | D, A |
+| Display: Axes | D, Z |
+| Display: Back Faces | D, B |
+| Display: Edges | D, E |
+| Display: Extend Lines | D, X |
+| Display: Grid | D, G |
+| Display: Group Bounding Boxes | B, B |
+| Display: Hidden Lines | D, H |
+| Display: Monotone Surfaces | D, M |
+| Display: North Arrow | D, N |
+| Display: Shadows | D, S |
+| Display: Silhouettes | D, O |
+| Display: Sketchy Lines | D, K |
+| Display: Thin Edges | D, T |
+| Display: Watertight Issues | D, W |
+| Draw: Arc | A |
+| Draw: Circle | C |
+| Draw: Line | L |
+| Draw: Rectangle | R |
+| Draw: Spline | S |
+| Edit: Copy | Ctrl + C |
+| Edit: Delete | Delete |
+| Edit: Paste | Ctrl + V |
+| Edit: Preferences | | 
+| Edit: Redo | Ctrl + Y |
+| Edit: Redo | Ctrl + Shift + Z |
+| Edit: Reset Axes | R, Z |
+| Edit: Set Axes | S, Z |
+| Edit: Undo | Ctrl + Z |
 
 ![](./images/0288d7e6-3ff2-400f-a772-47ad7592a49b.png)
 
