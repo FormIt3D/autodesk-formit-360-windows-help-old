@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * FormIt Capabilities
     * [Multiple Clients](Formit Capabilities/Multiple Clients.md)
     * [Concept Geometry](Formit Capabilities/Concept Geometry.md)
@@ -7,7 +8,7 @@
     * [Analysis](Formit Capabilities/Analysis.md)
     * [Revit Interop](Formit Capabilities/Revit Interop.md)
     * [Import 3D Models](Formit Capabilities/Import 3D Models.md)
-* FormIt Introduction
+* [FormIt Introduction](FormIt Introduction/FormIt Introduction.md)
     * [Prerequisites and Installation](FormIt Introduction/Prerequisites and Installation.md)
     * [Setting Up the Project](FormIt Introduction/Setting Up the Project.md)
     * [Tool Bar Navigation](FormIt Introduction/Tool Bar Navigation.md)
@@ -21,7 +22,7 @@
     * [Layers](FormIt Introduction/Layers.md)
 * [Farnsworth House Primer](Farnsworth House Primer/Farnsworth House Primer.md)
     * [Setting Location](Farnsworth House Primer/Setting Location.md)
-    * [Work with Images and the Ground Plane](Farnsworth House Primer/Work with Images and the Ground Plane.md)  
+    * [Work with Images and the Ground Plane](Farnsworth House Primer/Work with Images and the Ground Plane.md)
     * [3D Sketching](Farnsworth House Primer/3D Sketching.md)
     * [Levels](Farnsworth House Primer/Levels.md)
     * [Groups](Farnsworth House Primer/Groups.md)
@@ -31,7 +32,7 @@
     * [Adding Details](Farnsworth House Primer/Adding Details.md)
     * [Advanced Modeling](Farnsworth House Primer/Advanced Modeling.md)
     * [Computational Groups with Dynamo](Farnsworth House Primer/Computation Groups with Dynamo.md)
-    * [Import/Export and Content Library](Farnsworth House Primer/Import Export and Content Library.md)
+    * [Import\/Export and Content Library](Farnsworth House Primer/Import Export and Content Library.md)
     * [Revit Interop](Farnsworth House Primer/Revit Interop.md)
     * [Solar and Energy Analysis](Farnsworth House Primer/Solar and Energy Analysis.md)
     * [Visual Settings](Farnsworth House Primer/Visual Settings.md)
@@ -50,16 +51,4 @@
 * [Appendix](Appendix/Appendix.md)
     * [Collaboration](Appendix/Collaboration.md)
     * [Keyboard Shortcuts](Appendix/Keyboard Shortcuts.md)
-
-
-
-    
-    
-
-
-
-
-
-    
-
 

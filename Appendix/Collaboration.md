@@ -5,7 +5,7 @@
 
 ---
 
-#### Exercise 1 – Start a Collaboration Session
+#### Start a Collaboration Session
 
 1. Start a session – this will start a collaboration session. 
 ![](./images/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
