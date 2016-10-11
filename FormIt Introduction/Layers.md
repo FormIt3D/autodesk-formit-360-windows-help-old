@@ -4,22 +4,15 @@
 
 ---
 
-1. Click the Layers palette and click the + sign twice to create three layers.
+#### Create and Modify Layers
+1. Click the **Layers palette** and click the **+** sign to create a new layer.
 
-2. Double click the layers to rename them: **massing, Floor 1, plan image**. ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
+2. Double click the layers to rename the layer. ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
-3. Select the massing Group and choose the massing layer from the "Selection On" menu in the Layers palette.
+3. To add objects to the layer, select one or more objects in the scene and then choose the desired layer from the **Selection On** drop down list. 
 
-4. Create a copy of the Group by pressing **Cntl+C** and then **Cntl+V.**
 
-5. Right click on the copied Group and choose **Make Unique (MU)** the Group is now its own unique Group and will not update with the other one. ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
-
-6. Select the newly created group and choose **Floor 1** from the menu. This will be the basis for the first floor.
-
-7. Move it to exact spot of the original Group by selecting the lower left corner. 
-
-8. Uncheck the **massing** layer to hide it.
-
-9. Edit the Floor 1 Group and select the top face. Move it down **11'-2"**. The resulting floor should be 1' thick.
-
-10. Select the plan image group and create and assign it to a new **Plan Image** layer.
+#### Using Layers
+1. To turn the layer visibility off, click the checkbox next to the layer name. 
+2. To select all object(s) on the layer, click the selection icon next to the layer name. 
+3. To delete a layer, click the trash icon next to the layer name. Only the layer, not the objects assigned to the layer, will be deleted. 

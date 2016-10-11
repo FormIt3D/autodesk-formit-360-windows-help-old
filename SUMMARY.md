@@ -1,8 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
-* [FormIt Capabilities](Formit Capabilities/FormIt Captabilities.md)
+* [FormIt Capabilities](Formit Capabilities/FormIt Capabilities.md)
     * [Multiple Clients](Formit Capabilities/Multiple Clients.md)
+    * [Collaboration](Formit Capabilities/Collaboration.md)
     * [Concept Geometry](Formit Capabilities/Concept Geometry.md)
     * [Dynamo](Formit Capabilities/Dynamo.md)
     * [Analysis](Formit Capabilities/Analysis.md)

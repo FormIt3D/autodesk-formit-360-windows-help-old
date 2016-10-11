@@ -1,6 +1,8 @@
 ### Navigating the Scene
 ---
+> Here are the key tools for moving around the design area. 
 
+---
 **1. Orbiting**
 ![](./images/orbit-tool.png) 
 Right click and drag, or use the orbit tool from the toolbar to click drag the left mouse button to orbit.

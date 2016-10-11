@@ -5,6 +5,16 @@
 
 ---
 
+With a FormIt 360 Pro subscription you have access to the Real-time Collaboration feature which allows you to:
+- Start a collaboration session and invite colleagues, or clients who do not need to be Pro to join.
+- Join a collaboration from the Windows, web, or mobile apps - all you need is an A360 log-in.
+- Charette with colleagues to explore designs in a shared sandbox environment.
+- Follow another collaborator's camera to see the model from their viewpoint.
+- Let a client follow your camera as you drive them through the design.
+- Chat with collaborators in the session.
+- [Purchase a Pro subscription now.](http://www.autodesk.com/products/formit-360/try-buy)
+
+
 #### Start a Collaboration Session
 
 1. Start a session – this will start a collaboration session. 
