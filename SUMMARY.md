@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* FormIt Capabilities
+* [FormIt Capabilities](Formit Capabilities/FormIt Captabilities.md)
     * [Multiple Clients](Formit Capabilities/Multiple Clients.md)
     * [Concept Geometry](Formit Capabilities/Concept Geometry.md)
     * [Dynamo](Formit Capabilities/Dynamo.md)
@@ -36,7 +36,7 @@
     * [Revit Interop](Farnsworth House Primer/Revit Interop.md)
     * [Solar and Energy Analysis](Farnsworth House Primer/Solar and Energy Analysis.md)
     * [Visual Settings](Farnsworth House Primer/Visual Settings.md)
-* Tool Library
+* [Tool Library](Tool Library/Tool Library.md)
     * [Tool Bars Extended](Tool Library/Tool Bars Extended.md)
     * [World Axes](Tool Library/World Axes.md)
     * [Work Planes](Tool Library/Work Planes.md)
