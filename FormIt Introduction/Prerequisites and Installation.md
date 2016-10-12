@@ -1,4 +1,4 @@
-![](./images/startupimage.png) 
+![](./images/startupimage.PNG) 
 
 ### Prerequisites and Installation 
 
