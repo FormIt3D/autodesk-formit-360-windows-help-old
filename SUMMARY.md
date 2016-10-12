@@ -2,16 +2,16 @@
 
 * [FormIt Capabilities](Formit Capabilities/FormIt Capabilities.md)
     * [Multiple Clients](Formit Capabilities/Multiple Clients.md)
-    * [Collaboration](Formit Capabilities/Collaboration.md)
     * [Concept Geometry](Formit Capabilities/Concept Geometry.md)
     * [Dynamo](Formit Capabilities/Dynamo.md)
     * [Analysis](Formit Capabilities/Analysis.md)
     * [Revit Interop](Formit Capabilities/Revit Interop.md)
     * [Import 3D Models](Formit Capabilities/Import 3D Models.md)
+
 * [FormIt Introduction](FormIt Introduction/FormIt Introduction.md)
     * [Prerequisites and Installation](FormIt Introduction/Prerequisites and Installation.md)
     * [Setting Up the Project](FormIt Introduction/Setting Up the Project.md)
-    * [Tool Bar Navigation](FormIt Introduction/Tool Bar Navigation.md)
+    * [Tool Bars](FormIt Introduction/Tool Bars.md)
     * [Navigating the Scene](FormIt Introduction/Navigating the Scene.md)
     * [Placing and Modifying Objects](FormIt Introduction/Placing and Modifying Objects/Place Primitive Object.md)
         * [Copy Object](FormIt Introduction/Placing and Modifying Objects/Copy Object.md)
