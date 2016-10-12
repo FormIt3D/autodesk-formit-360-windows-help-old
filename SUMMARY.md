@@ -7,7 +7,7 @@
     * [Analysis](Formit Capabilities/Analysis.md)
     * [Revit Interop](Formit Capabilities/Revit Interop.md)
     * [Import 3D Models](Formit Capabilities/Import 3D Models.md)
-
+    * [Collaboration](Formit Capabilities/Collaboration.md)
 * [FormIt Introduction](FormIt Introduction/FormIt Introduction.md)
     * [Prerequisites and Installation](FormIt Introduction/Prerequisites and Installation.md)
     * [Setting Up the Project](FormIt Introduction/Setting Up the Project.md)
@@ -49,6 +49,5 @@
     * [Extrude, Cut and Offset Faces](Tool Library/Extrude, Cut and Offset Faces.md)
     * [Boolean Operations](Tool Library/Boolean Operations.md)
 * [Appendix](Appendix/Appendix.md)
-    * [Collaboration](Appendix/Collaboration.md)
     * [Keyboard Shortcuts](Appendix/Keyboard Shortcuts.md)
 

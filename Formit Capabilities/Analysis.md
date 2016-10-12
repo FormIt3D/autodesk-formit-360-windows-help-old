@@ -3,10 +3,10 @@
 > Start a BIM workflow by evaluating the performance of elements from the beginning of the design process. 
 
 ---
-![](Images/analysis.gif)
 
-![](Videos/160929_Analysis Small.mp4)
-
+<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+  <source src="Videos/160929_Analysis Small.mp4" type="video/mp4">
+</video>
 
 #### Solar Analysis
 With a *** FormIt 360 Pro subscription *** you have can visualize the sun's impact on your building:
