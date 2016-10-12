@@ -1,3 +1,5 @@
+![](./images/startupimage.png) 
+
 ### Prerequisites and Installation 
 
 - Download FormIt 360 for Windows from: [formit360.autodesk.com\/page\/download](http://formit360.autodesk.com/page/download)
