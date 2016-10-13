@@ -46,7 +46,7 @@
     * [Cover, Sweep, Loft](tool-library/cover-sweep-loft.md)
     * [Scale and Rotate](tool-library/scale-and-rotate.md)
     * [Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
-    * [Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offse-tfaces.md)
+    * [Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
     * [Boolean Operations](tool-library/boolean-operations.md)
 * [Appendix](Appendix/Appendix.md)
     * [Keyboard Shortcuts](Appendix/Keyboard Shortcuts.md)

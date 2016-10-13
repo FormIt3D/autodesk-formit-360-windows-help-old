@@ -10,7 +10,7 @@ Setting the location allows you to accurately analyze how sun shadows ill fall a
 
 1. Click on the Sun Icon and check **Display Shadows**.
 
-2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design! 
+2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design!
 ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
 #### Solar Analysis

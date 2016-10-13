@@ -18,7 +18,7 @@ The Tool Bar is found at the top of the screen. The tools here will help you cre
 - Selection Filter: Click to choose options for filtering out object types (edges, faces, solids, groups) from the selection tool.
 - Measure Tools: Click to choose a linear or angular measure tool.
 
-**4. Create and Modify Tools**
+**4. Creation and Modification Tools**
 ![](images/Tool Bar-Create.PNG)
 - Sketch Tools: Click to bring up a menu of creation tools (line, arc, spline, rectangle, circle) that will help you draw shapes.
 - Primitives: Click to bring up a menu of basic 3D shapes (cube, dome, pyramid, cylinder, roof) that you can place in your scene.

@@ -4,7 +4,7 @@
 
 ---
 #### Placing Primitive Object
-1. Click to open the **Creation toolbar** and select the cube. ![](./images/placing-object.png)
+1. In the Action Toolbar click to open **Primitives button** and select the cube. ![](./images/placing-object.png)
 
 2. Then drag and **click to place** the cube.
 
@@ -14,7 +14,7 @@
 
 #### Moving Objects
 
-1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying Faces, Edges, and Points](FormIt Introduction/Modifying Faces Edges and Points.md).)
+1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying Faces Edges and Points](../FormIt Introduction/Modifying Faces Edges and Points.md).)
 
 2. Hover over the object to select the point you will use as the **snap point.** ![](./images/moving-object.png)
 

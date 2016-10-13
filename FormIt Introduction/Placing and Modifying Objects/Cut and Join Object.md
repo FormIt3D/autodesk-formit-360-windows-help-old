@@ -1,4 +1,4 @@
-### Exercise 6 – Cut and Join Objects
+### Cut and Join Objects
 ---
 
 1. Double click to select one of the cubes you have created.

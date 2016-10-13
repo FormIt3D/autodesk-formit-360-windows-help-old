@@ -1,4 +1,4 @@
-### Exercise 5 – Scale Object
+### Scale Object
 
 ---
 

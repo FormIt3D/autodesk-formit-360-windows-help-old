@@ -14,7 +14,7 @@
 
 3. Choose the **Line tool \(L\)**. ![](./images/b73dbf13-d655-42fa-ae12-164e8bda28ad.png)
 
-4. You can immediately start to sketch using straight lines segments. [Click here to learn more about 3D sketching with World Axes.](../tool-library/world-axes.md)
+4. You can immediately start to sketch using straight lines segments. Click [here](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes.
 
 5. Start with creating a rectangle on the ground plane.
 

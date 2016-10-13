@@ -1,6 +1,6 @@
 ### Tool Bars
 ---
-![](images/Interface.png)
+![](images/Interface.PNG)
 
 > For further descriptions of each tool, please see [Tool Bars Extended](../tool-library/tool-bars-extended.md).
 
@@ -8,24 +8,24 @@
 
 #### Action Tool Bar
 The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
-![](images/action tool bar.png)
+![](images/action tool bar.PNG)
 
 1. Gallery Menu
 2. Undo Redo
 3. Selection and Measurement
-4. Create and Modify Tools
+4. Creattion and Modification Tools
 5. Location and Analysis Tools
 6. User Identity
 
 #### Navigation Tool Bar
-![](images/Navigation Tool Bar.png)
+![](images/Navigation Tool Bar.PNG)
 
 1. Scene View Modes
 2. 3D View Tools
 3. Zoom Tools
 
 #### Palette Bar
-![](images/palette tool bar.png)
+![](images/palette tool bar.PNG)
 
 1. Properties
 2. Materials
