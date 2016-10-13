@@ -3,7 +3,7 @@
 ### Prerequisites and Installation 
 
 - Download FormIt 360 for Windows from: **[AutoDesk.com](http://formit360.autodesk.com/page/download)**
-- Running FormIt 360 for Windows requires a subscription to FormIt 360 Pro, which can be purchased from: **[Autodesk.com](http://www.autodesk.com/store/products/formit-360-pro)**
+- Running FormIt 360 for Windows requires a subscription to FormIt 360 Pro, which can be purchased from **[Autodesk.com](http://www.autodesk.com/store/products/formit-360-pro)**.
 - Optionally, you can start a 30 day trial from the start up screen.
 - Revit 2016 or 2017. 
 **Note:** *This is only required for the section on Revit Interoperability.* 

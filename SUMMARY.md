@@ -50,4 +50,5 @@
     * [Boolean Operations](Tool Library/Boolean Operations.md)
 * [Appendix](Appendix/Appendix.md)
     * [Keyboard Shortcuts](Appendix/Keyboard Shortcuts.md)
+    * [Collaboration](Appendix/Collaboration.md)
 

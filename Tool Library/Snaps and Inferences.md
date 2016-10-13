@@ -4,7 +4,7 @@
 
 ---
 
-**Note:** *See [Keyboard Shortcuts](Appendix/Keyboard Shortcuts.md) for information about how to speed up your use of the software's tools.*
+**Note:** *See [Keyboard Shortcuts](../Appendix/Keyboard Shortcuts.md) for information about how to speed up your use of the software's tools.*
 ![](Images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
 
 #### Snapping
@@ -13,7 +13,7 @@ There are several snaps that can aid you while you are sketching and modeling. S
 
 * On Edge
 * On Midpoint
-* Endpoints (On vertex)
+* Endpoints (on vertex)
 * On Face
 * Center of Face
 * On Ground Plane

@@ -4,7 +4,7 @@
 
 # Introduction to FormIt 360
 
-In this introduction section you will learn the general format of FormIt 360 and basic tools for modeling. Let's start our journey with FormIt by setting some context - how do I begin a project and navigate through the program? 
+In this section you will learn the general format of FormIt 360 and basic tools for modeling. Let's start our journey with FormIt by setting some context - how do I begin a project and navigate through the program? 
 
 
 
