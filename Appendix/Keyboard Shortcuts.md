@@ -36,6 +36,21 @@
 | Edit: Reset Axes | R, Z |
 | Edit: Set Axes | S, Z |
 | Edit: Undo | Ctrl + Z |
+| Energy Analysis: Cancel Insight | |
+| Energy Analysis: Generate Insight | |
+| Energy Analysis: View Insight | |
+| File: Export Image | | 
+| File: Export Model To | Ctrl + E |
+| File: Import 3D Model | Ctrl + I |
+| File: Import Image | Ctrl + Shift + I |
+| File: New | Ctrl + N |
+| File: Open A360 | Alt + O |
+| File: Open | Ctrl + O |
+| File: Save As to A360 | Alt + S |
+| File: Save with History | Ctrl + S, Ctrl + H |
+| File: Save | Ctrl + S |
+| Group: Edit Group (Context Menu) | E | 
+| Group: 
 
 ![](./images/0288d7e6-3ff2-400f-a772-47ad7592a49b.png)
 

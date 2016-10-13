@@ -6,11 +6,11 @@
 
 **1. Gallery** 
 ![](Images/Tool Bar-Gallery.png)
-New sketch, open sketch, save sketch, import or export files.
+- New sketch, open sketch, save sketch, import or export files.
 
 **2. Undo Redo**
 ![](Images/Tool Bar-Undo Redo.png)
-Click to undo or redo recent actions. 
+- Click to undo or redo recent actions. 
 
 **3. Select**
 ![](Images/Tool Bar-Select.png)
@@ -34,4 +34,18 @@ Click to undo or redo recent actions.
 ![](Images/Tool Bar-User Identity.png)
 - Settings: Set application and sketch settings along with visual style and perform model diagnostics. 
 - Touch Mode:
-- 
+- Collaboration: 
+- Login to Autodesk360: Use the Autodesk 360 Cloud Services for free to store and share your sketches.
+- Help: Use the information tools to learn more about FormIt 360.
+
+#### Palette Bar
+**1. Properties**
+![](Images/)
+**2. Materials**
+**3. Layers**
+**4. Visual Styles**
+**5. Group Tree**
+**6. Dyanmo**
+**7. Levels**
+**8. Content Library**
+**9. Undo Manager**
