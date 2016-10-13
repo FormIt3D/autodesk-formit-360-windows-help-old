@@ -30,7 +30,7 @@
 | Edit: Copy | Ctrl + C |
 | Edit: Delete | Delete |
 | Edit: Paste | Ctrl + V |
-| Edit: Preferences | | 
+| Edit: Preferences | |
 | Edit: Redo | Ctrl + Y |
 | Edit: Redo | Ctrl + Shift + Z |
 | Edit: Reset Axes | R, Z |
@@ -39,7 +39,7 @@
 | Energy Analysis: Cancel Insight | |
 | Energy Analysis: Generate Insight | |
 | Energy Analysis: View Insight | |
-| File: Export Image | | 
+| File: Export Image | |
 | File: Export Model To | Ctrl + E |
 | File: Import 3D Model | Ctrl + I |
 | File: Import Image | Ctrl + Shift + I |
@@ -49,8 +49,20 @@
 | File: Save As to A360 | Alt + S |
 | File: Save with History | Ctrl + S, Ctrl + H |
 | File: Save | Ctrl + S |
-| Group: Edit Group (Context Menu) | E | 
-| Group: 
+| Group: Edit Group (Context Menu) | E |
+| Group: Edit Group (Tool Bar) | Alt + E |
+| Group: Finish Group Action | F |
+| Group: Group (Context Menu) | G |
+| Group: Group (Toolbar) | Alt + G |
+| Group: Make Unique (Context Menu) | M, U |
+| Group: Make Unique (Toolbar) | Alt + M |
+| Group: UnGroup (Context Menu) | U |
+| Group: UnGroup (Toolbar) | Alt + U |
+| Group: UnGroup All (Context Menu) | U, A |
+| Group: UnGroup All (Toolbar) | Alt + A |
+| Group UnGroup Model | U, M |
+| Help: About | |
+
 
 ![](./images/0288d7e6-3ff2-400f-a772-47ad7592a49b.png)
 

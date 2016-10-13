@@ -1,7 +1,8 @@
-### Tool Bar and Palette Bar
+### Tool Bars
 ---
 
 #### Tool Bar
+The Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
 ![](Images/Tool Bar-All.png)
 
 **1. Gallery**
