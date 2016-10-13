@@ -4,7 +4,7 @@
 
 ---
 
-<video style = "min-width=100%; min-height=100%; width = 960 ; height = 540;" controls>
+<video style = "min-width=50%; min-height=50%; width = 960 ; height = 540;" controls>
   <source src="Videos/Analysis.mp4" type="video/mp4">
 </video>
 
