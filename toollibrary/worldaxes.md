@@ -1,4 +1,4 @@
-# World Axes
+### World Axes
 
 ---
 > The default coordinate system and grid can be modified by changing the world axis.
