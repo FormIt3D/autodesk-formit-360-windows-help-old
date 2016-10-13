@@ -9,7 +9,7 @@
     * [Import 3D Models](Formit Capabilities/Import 3D Models.md)
     * [Collaboration](Formit Capabilities/Collaboration.md)
 * [FormIt Introduction](formit-introduction/FormIt Introduction.md)
-    * [Prerequisites and Installation](formit-introduction/Prerequisites and Installation.md)
+    * [Prerequisites and Installation](formit-introduction/prerequisites-and-installation.md)
     * [Setting Up the Project](formit-introduction/Setting Up the Project.md)
     * [Tool Bars](formit-introduction/Tool Bars.md)
     * [Navigating the Scene](formit-introduction/navigating-the-scene.md)
