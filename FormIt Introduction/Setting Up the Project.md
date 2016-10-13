@@ -26,5 +26,5 @@
 ####Related Topics:
 [Modifying-Work-Planes](../toollibrary/workplanes.md)
 
-[Modifying World Axes](../toollibrary/worldaxes.md)
+[Modifying-World-Axes](../toollibrary/worldaxes.md)
 
