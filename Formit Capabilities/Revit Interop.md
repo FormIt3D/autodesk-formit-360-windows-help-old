@@ -39,4 +39,4 @@
 2. Revit Families can be exported as FormIt Groups, and then in the future, automatically converted back to the original Revit Family.
 
 
-[Learn more about the FormIt 360 and Revit connection using the add-in for Revit](http://formit360.autodesk.com/page/formit-360-revit)
+[Learn more about the FormIt 360 and Revit connection using the add-in for Revit.](http://formit360.autodesk.com/page/formit-360-revit)

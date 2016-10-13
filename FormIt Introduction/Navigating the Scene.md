@@ -20,5 +20,5 @@ Click and drag the middle mouse button, or use the pan \(hand\) tool from naviga
 The “Jetpack” allows you to walk and fly through the scene. This will be covered in detail in a later section.
 
 **5. Swivel**
-![](images/Swivel.png)
+![](images/Swivel.PNG)
 Use the swivel tool from the navigation toolbar to swivel around the scene from a specific point. 

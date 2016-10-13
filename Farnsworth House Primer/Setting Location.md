@@ -18,6 +18,3 @@ Or you may optionally import a scaled satellite image:
     - Satellite image is imported to scale with True North facing up.
     - Go to the **Visual Styles palette** ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png) and enable **North Arrow** to see an interactive indicator of true north.
     - Once back in the 3D scene, **select the satellite image** by doubleclicking. Open the **Properties panel** and lower the **transparency slider** about 1/3. ![](./images/038168bf-b019-4a1f-8fb7-308ae4fe218e1.png)
-
-
-
