@@ -1,6 +1,8 @@
 ### Revit Interop
-![](./Images/nhcomxn1k5iql8tdldnu.png)
-![](Videos/160929_Revit Interop Small.mp4)
+
+<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+  <source src="Videos/Revit Interop.mp4" type="video/mp4">
+</video>
 
 ---
 >Make the connection between Schematic Design in FormIt 360 and Design Documentation in Revit seamless.

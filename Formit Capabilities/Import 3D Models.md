@@ -4,4 +4,6 @@
 
 ---
 
-![](Videos/160929_Import 3D model Small.mp4)
+<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+  <source src="Videos/Import 3D model.mp4" type="video/mp4">
+</video>

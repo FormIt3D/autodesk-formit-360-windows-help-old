@@ -4,6 +4,6 @@
 
 ---
 
-![](Images/dynamo.gif)
-
-![](Videos/160929_Dynamo Small.mp4)
+<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+  <source src="Videos/Dynamo.mp4" type="video/mp4">
+</video>

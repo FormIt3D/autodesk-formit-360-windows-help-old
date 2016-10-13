@@ -5,7 +5,7 @@
 ---
 
 <video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
-  <source src="Videos/160929_Analysis Small.mp4" type="video/mp4">
+  <source src="Videos/Analysis.mp4" type="video/mp4">
 </video>
 
 #### Solar Analysis
