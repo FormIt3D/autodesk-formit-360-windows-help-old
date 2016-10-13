@@ -24,7 +24,7 @@
 ---
 
 ####Related Topics:
-[Modifying Work Planes](../Tool-Library/Work-Planes.md)
+[Modifying Work Planes](../tool-library/work-planes.md)
 
-[Modifying World Axes](../Tool-Library/World-Axes.md)
+[Modifying World Axes](../tool-library/world-axes.md)
 
