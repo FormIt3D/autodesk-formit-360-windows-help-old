@@ -4,7 +4,7 @@
 
 ---
 
-**Note:** *See [Keyboard Shortcuts](../Appendix/Keyboard Shortcuts.md) for information about how to speed up your use of the software's tools.*
+**Note:** *See [Keyboard-Shortcuts](../Appendix/keyboard-shortcuts.md) for information about how to speed up your use of the software's tools.*
 ![](images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
 
 #### Snapping

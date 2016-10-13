@@ -40,7 +40,7 @@ The Tool Bar is found at the top of the screen. The tools here will help you cre
 - Help: Use the information tools to learn more about FormIt 360.
 
 #### Navigation Tool Bar
-See [Navigating the Scene](../FormIt Introduction/Navigating the Scene.md).
+See [Navigating-the-Scene](../formit-introduction/navigating-the-scene.md).
 
 #### Palette Bar
 The Palette Bar appears on the right side of the screen. Click one of these icons to open a side palette to display building properties, materials, a content library, and collaboration tools.
