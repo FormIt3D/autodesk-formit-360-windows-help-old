@@ -3,7 +3,10 @@
 
 #### Tool Bar
 The Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
-![](images/Tool Bar-All.png)
+![](images/toolbarall.png)
+![](images/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+
+![](../images/Tool Bar-All.png)
 
 **1. Gallery**
 ![](images/Tool Bar-Gallery.png)
