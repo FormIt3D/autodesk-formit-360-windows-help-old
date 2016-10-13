@@ -4,8 +4,8 @@
 
 ---
 
-<video style = "min-width=50%; min-height=50%; width = 960 ; height = 540;" controls>
-  <source src="Videos/Analysis.mp4" type="video/mp4">
+<video style = "min-width=100%; min-height=100%; width = auto ; height = auto;" controls>
+  <source src="Videos/Analysis test.mp4" type="video/mp4">
 </video>
 
 #### Solar Analysis
