@@ -48,6 +48,7 @@
     * [Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
     * [Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
     * [Boolean Operations](tool-library/boolean-operations.md)
+    * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
     * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
     * [Collaboration](Appendix/Collaboration.md)
