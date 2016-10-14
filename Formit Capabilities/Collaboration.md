@@ -7,6 +7,10 @@
 
 ---
 
+<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+  <source src="Videos/Collaboration.mp4" type="video/mp4">
+</video>
+
 #### Start a Collaboration Session
 
 1. Start a session – this will start a collaboration session. 
