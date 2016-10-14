@@ -32,7 +32,7 @@
     * [Adding Details](Farnsworth House Primer/Adding Details.md)
     * [Advanced Modeling](Farnsworth House Primer/Advanced Modeling.md)
     * [Computational Groups with Dynamo](Farnsworth House Primer/Computation Groups with Dynamo.md)
-    * [Import\/Export and Content Library](Farnsworth House Primer/Import Export and Content Library.md)
+    * [Import/Export and Content Library](Farnsworth House Primer/Import Export and Content Library.md)
     * [Revit Interop](Farnsworth House Primer/Revit Interop.md)
     * [Solar and Energy Analysis](Farnsworth House Primer/Solar and Energy Analysis.md)
     * [Visual Settings](Farnsworth House Primer/Visual Settings.md)
