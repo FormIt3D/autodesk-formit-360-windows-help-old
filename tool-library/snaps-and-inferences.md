@@ -33,7 +33,6 @@ Automatic selection of inference points is always enabled and will help you cons
 * Parallel: You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
 ![](images/GUID-63C305D6-8313-44A3-94F0-9A84199E2D86-low.png)
 
-* Perpendicular: You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
- ![](images/GUID-116D4EA4-F84E-4796-8755-627A1149266B-low.png)
+* Perpendicular: You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.		![](images/GUID-116D4EA4-F84E-4796-8755-627A1149266B-low.png)
 
 * Extending from a point: You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
