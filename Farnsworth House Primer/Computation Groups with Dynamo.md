@@ -21,7 +21,7 @@
 
 6. **Double click the Group** to edit it and go to the Properties Palette.
 
-7. Modify the settings:  
+7. Modify the settings: 
 ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
 8. Once it is placed, **copy** the stair to the upper terrace. Right click on copied group and select **Make Unique (M U)**.

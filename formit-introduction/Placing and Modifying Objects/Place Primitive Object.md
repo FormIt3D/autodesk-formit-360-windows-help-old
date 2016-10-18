@@ -9,12 +9,11 @@
 2. Then drag and **click to place** the cube.
 
 3. Place a **Cylinder** as well.
-![](./images/placing-objects-cube.png)
 
 
 #### Moving Objects
 
-1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying-Faces-Edges-and-Points](../formit-introduction/modifying-faces-edges-and-points.md).)
+1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying-Faces-Edges-and-Points](../modifying-faces-edges-and-points.md).)
 
 2. Hover over the object to select the point you will use as the **snap point.** ![](./images/moving-object.png)
 
