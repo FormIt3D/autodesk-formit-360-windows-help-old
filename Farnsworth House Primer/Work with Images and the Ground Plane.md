@@ -5,7 +5,7 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 
 
-1. Choose the **Rectangle tool ( keyboard shortcut R)** and draw a rectangle **144'** by **96'** - use the **Tab key** to type in exact dimensions.
+1. Choose the **Rectangle tool (R)** and draw a rectangle **144'** by **96'** - use the **Tab key** to type in exact dimensions.
 ![](./images/49fbf65d-2c44-4cc3-9bc6-e172cd19ca81.png)
 
 2. Open the **Material palette** and click the **+** icon to create a new material.
@@ -21,6 +21,6 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 6. **Double-click** the **entire plane** to select it. **Right click** and choose **Rotate (Q)**. Move the Rotate widget to the bottom left corner and rotate the image **9 degrees counter clockwise**.
 ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263.png)
 
-7. **Right click** on the **ground plane** and choose **Set Axes (S Z)**. **Move the axis to the bottom left corner of the of the image plane**. Move the axis so that it is alinged to the angle of the plane. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
+7. **Right click** on the **ground plane** and choose **Set Axes (S Z)**. Move the axis to the bottom left corner of the of the image plane. Move the axis so that it is alinged to the angle of the plane. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
 ![](./images/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
 
