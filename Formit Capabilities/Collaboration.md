@@ -13,4 +13,4 @@
 
 ---
 
-#####[Click to Learn how to Start a Collaboration Session](../tool-library/collaboration.md)
+[Click to Learn how to Start a Collaboration Session](../tool-library/collaboration.md)

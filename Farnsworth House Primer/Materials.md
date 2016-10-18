@@ -22,7 +22,7 @@
 2. Select the Materials palette.
 
 3. Click the **Import Materials button**. 
-![](./images/00cac281-dff8-4ff3-8ba3-c13bb868ebc1.png)
+     ![](./images/00cac281-dff8-4ff3-8ba3-c13bb868ebc1.png)
 
 4. From the Materials Library, choose **Glazing** from the menu and then choose **Blue Reflective**. ![](./images/63c0bcfa-98af-48ec-ac30-44fbed8c802b.png)
 

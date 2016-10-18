@@ -14,11 +14,11 @@
     - Click the **Gallery Icon and click Save** to save this to the FormIt folder in your A360 Drive.
   ![](./images/a6482b8b-021e-4ebe-b9c3-b1299231b104.png)
     - Name your FormIt Sketch.
-    -  Each time you save to **A360 two things happen:**
+    -  Each time you save to A360 two things happen:
         - A native FormIt file \(.AXM\) is saved to the FormIt folder in A360.
         - A few minutes later, a RVT File of the design will be copied to the FormIt folder in A360. We will review another way to bring FormIt.
 
-4. **Change the Units** between **Imperial** and Metric using the **Settings Menu.**
+4. Change the **Units** between Imperial and Metric using the **Settings Menu.**
 ![](./images/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
 
 ---

@@ -13,7 +13,7 @@
 
 #### Moving Objects
 
-1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying-Faces-Edges-and-Points](../modifying-faces-edges-and-points.md).)
+1. **Double Click** to select an entire object (single click will select a face, edge or vertex, which is explained in [Modifying Faces Edges and Points](../modifying-faces-edges-and-points.md).)
 
 2. Hover over the object to select the point you will use as the **snap point.** ![](./images/moving-object.png)
 

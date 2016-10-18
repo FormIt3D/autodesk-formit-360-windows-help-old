@@ -11,7 +11,7 @@ Setting the location allows you to accurately analyze how sun shadows ill fall a
 1. Click on the Sun Icon and check **Display Shadows**.
 
 2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design!
- ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
+     ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
 #### Solar Analysis
 
@@ -28,6 +28,6 @@ Setting the location allows you to accurately analyze how sun shadows ill fall a
 1. Hide all of the layers except for Massing.
 
 2. Click the **Insight 360 &gt; Generate Insight button.** Any visible masses with levels applied will be sent to Insight 360 for Analysis. 
- ![](./images/deac2672-e76b-478c-8e12-fc7b270e59f2.png)
+     ![](./images/deac2672-e76b-478c-8e12-fc7b270e59f2.png)
 
 3. Once the analysis is complete – click View Insight to view the results. Optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight360.autodesk.com/).
