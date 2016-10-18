@@ -4,7 +4,7 @@
 
 ### Building the Farnsworth House
 
-In this primer, we are going to go over FormIt Tools and build an entire historic modernist house in just under two hours!
+In this primer, we are going to go over FormIt Tools and build an entire historic modernist house in just under two hours! Reference the [Tool Library](../tool-library/tool-library.md) for detailed explanations on tool bars, tools and operations discussed here. 
 
 ![](./images/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 

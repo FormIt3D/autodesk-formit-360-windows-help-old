@@ -9,12 +9,13 @@
 #### To enclose a series of faces
 
 1. Click the cover tool from the action bar. 
-    ![](images/GUID-7E4A9FE6-19C9-49CF-B080-71B7714F0DE0-low.png)
+![](images/GUID-7E4A9FE6-19C9-49CF-B080-71B7714F0DE0-low.png)
+
 2. Click the edges of the object to cover. 
-    ![](images/GUID-1624FD66-39BB-4976-8494-3048E4A4362A-low.png)
+![](images/GUID-1624FD66-39BB-4976-8494-3048E4A4362A-low.png)
 
 3. Click Finish.![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
-    ![](images/GUID-45F52251-A394-4432-8E5C-6D8210D89256-low.png)
+![](images/GUID-45F52251-A394-4432-8E5C-6D8210D89256-low.png)
 
 #### To change geometry along a path
 
