@@ -60,16 +60,16 @@ The Palette Bar appears on the right side of the screen. Click one of these icon
 ![](./images/Palette Bar-Scenes.PNG)
 
 **5. Visual Styles** Use this palette to edit the how the sketch is viewed by controlling shadows, surfaces, edges, and the environment.
- ![](./images/Palette Bar-Visual Styles.PNG)
+     ![](./images/Palette Bar-Visual Styles.PNG)
 
 **6. Group Tree** Use this palette to view groups and objects within each group. 
-![](./images/Palette Bar-Groups Tree.PNG)
+    ![](./images/Palette Bar-Groups Tree.PNG)
 
 **7. Dynamo** Use this palette to load and manage computational models created in Dynamo Studio.
-![](./images/Palette Bar-Dynamo.PNG)
+    ![](./images/Palette Bar-Dynamo.PNG)
 
 **8. Levels** Use this palette to display and add levels to your building objects. 
-![](./images/Palette Bar-Levels.PNG)
+    ![](./images/Palette Bar-Levels.PNG)
 
 **9. Content Library** Use the content library to store reusable content such as furniture.
 ![](./images/Palette Bar-Content Library.PNG)
