@@ -59,8 +59,8 @@ The Palette Bar appears on the right side of the screen. Click one of these icon
 **4. Scenes** Use this palette to create, manage, and play scenes.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Visual Styles** Use this palette to edit the how the sketch is viewed by controlling shadows, surfaces, edges, and the environment.
-     ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Visual Styles** Use this palette to edit the how the sketch is viewed by controlling shadows, surfaces, edges, and the environment. 
+![](./images/Palette Bar-Visual Styles.PNG)
 
 **6. Group Tree** Use this palette to view groups and objects within each group. 
     ![](./images/Palette Bar-Groups Tree.PNG)
