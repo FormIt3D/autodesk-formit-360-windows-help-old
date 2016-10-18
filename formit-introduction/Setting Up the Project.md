@@ -4,8 +4,8 @@
 
 ---
 
-#### Download, Install, Start FormIt 360
-1. After downloading and installing FormIt 360 following the directions found [here](formit-introduction/prerequisites-and-installation.md), open the program.
+#### Download, Install, and Start FormIt 360
+1. After downloading and installing FormIt 360 following the directions found [here](prerequisites-and-installation.md), open the program.
 
 2. **Log into FormIt** using your own Autodesk 360 credentials. ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
 

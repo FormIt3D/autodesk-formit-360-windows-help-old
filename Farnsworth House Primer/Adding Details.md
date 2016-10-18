@@ -46,4 +46,4 @@ Using the same methods as in the previous two exercises, create a 3'-6" double d
 ---
 ####Related Topics:
 
-[Cover-Sweep-Loft](../tool-library/cover-sweep-loft.md)
+[Cover Sweep Loft](../tool-library/cover-sweep-loft.md)

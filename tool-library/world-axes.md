@@ -16,7 +16,7 @@ To rotate the grid, right click on empty space in the scene and choose ![](image
 ![](images/GUID-35918BD8-0867-423B-A6E6-A4960F6D6DD8-low.gif)
 
 To reset the coordinate system and grid back to the default setting, right click on empty space in the scene and choose 
-![](images/GUID-EB26F44B-70B2-404A-8A7C-57D094D888C3-low.png)
+![](images/GUID-EB26F44B-70B2-404A-8A7C-57D094D888C3-low.png).
 
 * The **red, green and blue axes** display to allow you to sketch in 3D without leaving the tool.
 
