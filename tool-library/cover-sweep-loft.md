@@ -15,7 +15,6 @@
 ![](images/cover selection.PNG)
 
 3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
-
 ![](images/cover finish.PNG)
 
 #### To change geometry along a path
@@ -33,19 +32,21 @@
     
     ![](images/select edge for sweep.PNG)
 
-5. Click the Finish icon.![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) The original object is modified along the sweep path. 
+5. Click the Finish icon. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) The original object is modified along the sweep path. 
     ![](images/sweep finish.PNG)
     
 
 #### To connect multiple profiles or edges
 
 1. Click the Loft icon.
+![](images/loft tool.PNG)
+
 2. Click the edges on the first object and click the arrow. 
     
-    ![](images/GUID-7FC8B7C7-BBDE-4E34-9CCE-CE0E682CC519-low.png)
+    ![](images/loft select face.PNG)
 3. Click the edges on the second object. 
     
-    ![](images/GUID-1429E123-6ED9-4697-8512-24C4AD2E96D1-low.png)
+    ![](images/loft select second edge.PNG)
 4. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
     
-    ![](images/GUID-38FF4DEE-D5A4-486B-8859-58087740A342-low.png)
+    ![](images/loft finish.PNG)
