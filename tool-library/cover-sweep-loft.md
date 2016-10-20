@@ -9,7 +9,7 @@
 #### To enclose a series of faces
 
 1. Click the cover tool from the action bar. 
-![](images/cover tool.PNG)
+![](images/cover tool.png)
 
 2. Click the edges of the object to cover. 
 ![](images/cover selection.PNG)
@@ -23,7 +23,7 @@
     ![](images/mark face.PNG)
 
 2. Click the sweep tool icon.
-    ![](images/sweep tool.PNG)
+    ![](images/sweep tool.png)
 
 3. Select the face you marked earlier. 
     ![](images/select face for sweep.PNG)
@@ -39,7 +39,7 @@
 #### To connect multiple profiles or edges
 
 1. Click the Loft icon.
-![](images/loft tool.PNG)
+![](images/loft tool.png)
 
 2. Click the edges on the first object and click the arrow. 
     
