@@ -1,4 +1,4 @@
-### Import 3D Models
+### Working with External Data
 ---
 > Add overlays and images to your designs for a variety of purposes. Ground overlays add additional information to your sketch or provide a schematic to trace over. 
 
