@@ -17,8 +17,7 @@
 
 4. Click File &gt; Import &gt; Import 3D Model (Cntl + I) and Import **mies\_ottoman.SKP** from FormIt Primer/content/SKP and **place** it in the living area.
 
-5. Select the **ottoman group**, right-click and choose **UnGroup All (U A)**. This will ungroup all nested groups.
-     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
+5. Select the **ottoman group**, right-click and choose **UnGroup All (U A)**. This will ungroup all nested groups.<br>![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
 
 6. Select the ungrouped ottoman geometry. To make this easier, use the **Selection Filter** tool and choose **only Solids**. 
      ![](./images/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
