@@ -6,8 +6,7 @@
 > **Note:** Collaboration works only after your activate FormIt 360 Pro. Clicking on the Collaboration icon will prompt you to lof in with an AutoDesk 360 account entitled for FormIt 360 Pro. 
 
 ---
-
-<video style = "min-width=100%; min-height=100%; width = auto; height = auto;" controls>
+<video width="100%" controls>
   <source src="Videos/Collaboration.mp4" type="video/mp4">
 </video>
 
