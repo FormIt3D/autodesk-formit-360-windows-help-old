@@ -15,7 +15,7 @@
 
 3. Select the Group by single-clicking. **Move** the entire Group up **4'-6"**. Press and hold the **Shift key** when the blue Z axis guide appears to lock onto that axis. ![](./images/293f6046-366c-43ca-858b-389f0c260be6.png)
 
-4. It is important to name Groups as you will have many of them to keep track of. To name the Group, **double-click** to start the edit mode and then open the **Properties Palette** to name the Group **"main building"**. 
+4. It is important to name Groups as you will have many of them to keep track of. To name the Group, **double-click** to start the edit mode and then open the **Properties Palette** to name the Group **"main building"**. <br>
     ![](./images/93c9106d-7676-4cd7-b5e2-b00a56c4e30f.png)
 
 5. Close the edit mode by clicking on the **check mark** in the upper left. ![](./images/3b0e7944-9cb1-4852-9b3b-aedf75fc5270.png)
@@ -33,5 +33,5 @@
 
 3. The **Area by Level** will display gross area of the currently selected object(s) and the area of each individual level.
 
-4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**. 
+4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**. <br>
      ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)

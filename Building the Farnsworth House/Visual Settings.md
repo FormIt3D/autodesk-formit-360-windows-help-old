@@ -17,7 +17,7 @@
 
 5. Click on the Aerial scene once and then click the update icon. ![](./images/a6828bff-7d6e-4cc9-b00c-1db0de96d0b1.png) This will set the scene to current camera viewpoint. ![](./images/a3529158-1a4a-4fac-a8ee-6f60247bce4d.png)
 
-6. The Scene properties checkboxes determine whether or not changes to those settings will affect the scene. ![](./images/777d3348-1472-4afb-a617-54bffb9b947f.png)
+6. The Scene properties checkboxes determine whether or not changes to those settings will affect the scene. <br> ![](./images/777d3348-1472-4afb-a617-54bffb9b947f.png)
 
 7. Press the Play button ![](./images/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png) to cycle through the scenes.
 

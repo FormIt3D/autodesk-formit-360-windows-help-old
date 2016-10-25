@@ -5,7 +5,7 @@
 2. Choose the **Rotate tool**. You can now drag the rotate tool to
 define:
 	- The **axis** on which you want to rotate
-	- The **rotation axis point**     
+	- The **rotation axis point** <br>
         ![](./images/06a5244e-0845-4199-bd4a-8f1456b55f76.png) ![](./images/5b1aa70c-05e1-4e96-b152-48dfe6f858c7.png)
 
 3. Select the **rotation point** either on an **edge** or

@@ -8,13 +8,13 @@
 
 #### To enclose a series of faces
 
-1. Click the cover tool from the action bar. 
+1. Click the cover tool from the action bar. <br>
 ![](images/cover tool.png)
 
 2. Click the edges of the object to cover. 
 ![](images/cover selection.PNG)
 
-3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
+3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) <br>
 ![](images/cover finish.PNG)
 
 #### To change geometry along a path
@@ -22,7 +22,7 @@
 1. Mark a face of an object that you want to cut. 
     ![](images/mark face.PNG)
 
-2. Click the sweep tool icon.
+2. Click the sweep tool icon. <br>
     ![](images/sweep tool.png)
 
 3. Select the face you marked earlier. 
@@ -38,7 +38,7 @@
 
 #### To connect multiple profiles or edges
 
-1. Click the Loft icon.
+1. Click the Loft icon. <br>
 ![](images/loft tool.png)
 
 2. Click the edges on the first object and click the arrow. 

@@ -7,7 +7,7 @@
 
 1. Click the **Layers palette** and click the **+** sign twice to create three layers.
 
-2. Double click the layers to rename them: **massing, Floor 1, plan image**. 
+2. Double click the layers to rename them: **massing, Floor 1, plan image**. <br>
      ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
 3. Select the **massing Group** and choose the **massing layer** from the "Selection On" menu in the Layers Palette.

@@ -7,7 +7,7 @@
 #### Create and Modify Layers
 1. Click the **Layers palette** and click the **+** sign to create a new layer.
 
-2. Double click the layers to rename the layer. 
+2. Double click the layers to rename the layer. <br>
     ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
 3. To add objects to the layer, select one or more objects in the scene and then choose the desired layer from the **Selection On** drop down list. 
