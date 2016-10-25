@@ -7,7 +7,8 @@
 #### Download, Install, and Start FormIt 360
 1. After downloading and installing FormIt 360 following the directions found [here](prerequisites-and-installation.md), open the program.
 
-2. **Log into FormIt** using your own Autodesk 360 credentials in the User Identity menu in the [Action Tool Bar](../tool-library/tool-bars-extended.md). <br> ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
+2. **Log into FormIt** using your own Autodesk 360 credentials in the User Identity menu in the [Action Tool Bar](../tool-library/tool-bars-extended.md). <br> 
+![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
 
 3. Start a new 'sketch' by clicking the **Gallery button &gt; New**. ![](images/new-sketch.png) 
     - Click the **Gallery button &gt; Save Sketch &gt; to A360 drive** to save this to the FormIt folder in your A360 Drive.
