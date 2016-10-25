@@ -12,7 +12,7 @@ We are going to create a 2" metal frame and mullions around the window glass.
 
 1. **Hide** the Roof Layer.
 
-2. Use the **Rectangle tool ( R )** to draw a surface over the western face of glass.
+2. Use the [**Rectangle tool ( R )**](../tool-library/tool-bars-extended.md) to draw a surface over the western face of glass.
 
 3. Use the **Offset Face tool (O F)** and the **Tab key** to offset another rectangle **2"** towards the interior.
 

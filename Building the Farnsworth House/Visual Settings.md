@@ -9,7 +9,7 @@
 
 1. Navigate the camera to match the scene below.
 
-2. Open the Scenes palette and click the + twice to add two more scenes.
+2. Open the [**Scenes Palette**](../tool-library/tool-bars-extended.md) and click the + twice to add two more scenes.
 
 3. Rename the current scene **Southwest Ground** and rename the other scene **Aerial**. ![](./images/5e322aa6-efc9-4555-8b73-5788021960c7.png)
 
@@ -25,7 +25,7 @@
 
 1. Select the **Southwest Ground** scene by double-clicking it.
 
-2. Select the Visual Styles palette. ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
+2. Select the [**Visual Styles Palette**](../tool-library/tool-bars-extended.md). ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
 
 3. The check boxes determine the visibility of the items. The sliders allow you to affect the weight of normal edges and silhouette edges.
 

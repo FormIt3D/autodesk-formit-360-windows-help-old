@@ -26,7 +26,7 @@
 #### Set Up and Use the Content Library
 ---
 
-1. Open the **Content Library Palette**.
+1. Open the [**Content Library Palette**](../tool-library/tool-bars-extended.md).
      ![](./images/15e16abd-9b7a-4762-9364-0f31e81ded8a.png)
 
 2. Click the **+** icon to create a path to your local Content Library. Select the **FormIt Primer\\content** folder and click OK. 
