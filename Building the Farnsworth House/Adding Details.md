@@ -2,7 +2,7 @@
 
 ---
 
-> If you did not complete the last section, click File &gt; Open and choose **farnsworth04.axm** from the FormIt Primer datasets folder.
+> If you did not complete the last section, download and open the **farnsworth04.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 ---
 

@@ -2,13 +2,13 @@
 
 ---
 
-> Placing primitives is fine, but the real power of FormIt lies in the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, click the File &gt; Open and choose **farnsworth01.axm** from the FormIt Primer folder.
+> Placing primitives is fine, but the real power of FormIt lies in the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 ---
 
 #### 3D Sketching with Lines
 
-1. We are going to first Group the image plane. This will prevent sketched lines from "sticking" to it. Select the **plane** by **double-clicking it, right-click** and **choose Group \(G\)**.
+1. To group the image plan in order to prevent sketched lines from "sticking", select the plane by double-clicking it, right-click and choose **Group \(G\)**.
 
 2. Click the **Pencil** to open the Sketching Toolbar.
 
@@ -26,7 +26,7 @@
 
 **Note**: _The red and green axes keep you at 90 degrees. When you draw at an angle to the grid, a purple guide will allow you to stay 90 degrees relative to your current line._
 
-### Optional – 3D Sketching with the Rest of the Tools
+#### Optional – 3D Sketching with the Rest of the Tools
 
 ---
 

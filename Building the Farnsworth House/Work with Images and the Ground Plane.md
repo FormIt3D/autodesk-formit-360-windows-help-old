@@ -12,7 +12,7 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 3. Click the **folder icon** and open **plan.png** from the FormIt Primer/Drawings subfolder.
 
-4. Enter **144'** in the Horizontal field and **96'** in the Vertical field and name the material **Floor Plan**.
+4. Enter **144'** in the Horizontal field and **96'** in the Vertical field and name the material "**Floor Plan**".
 ![](./images/8f0f2e11-ecfb-484d-94f6-0930c8ad7b20.png)
 
 5. **Click OK** to return to the scene. In the Material Palette **right click** on the Floor Plan material and choose **Paint with Material** and then **click on the plane** you sketched.

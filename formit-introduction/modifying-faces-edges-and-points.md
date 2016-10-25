@@ -8,7 +8,7 @@ point.
 
 ---
 
-#### Exercise 1 – Modifying Faces
+#### Modifying Faces
 
 1. **Single click one** of the faces of the objects.
 
@@ -19,7 +19,7 @@ key** to define the amount of move.
 ![](./images/b61b2045-21a9-434b-b806-6cfa16e94fdd.png)
 4. You can also delete a face by using **Delete key**: **Right click &gt; X button**.
 
-#### Exercise 2 – Modifying Edges
+#### Modifying Edges
 
 1. Single click one of the edges of one of the cubes.
 
@@ -30,7 +30,7 @@ key** to define the amount of move.
     - Pressing **Delete key**
     - **Right click &gt; X button**
 
-#### Exercise 3 – Modifying Points
+#### Modifying Points
 
 1. Single click one of the corners of one of the cubes.
 
