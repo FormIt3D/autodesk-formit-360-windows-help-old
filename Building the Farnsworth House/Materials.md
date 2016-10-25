@@ -5,7 +5,7 @@
 ---
 
 #### Create the glass walls
-1. Use the ]**Rectangle tool ( R )**](../tool-library/tool-bars-extended.md) to create another surface on top of the floor, **28'-8" x 55'-5 ½"**.
+1. Use the [**Rectangle tool ( R )**](../tool-library/tool-bars-extended.md) to create another surface on top of the floor, **28'-8" x 55'-5 ½"**.
 
 2. Pull the new surface up **11'-2"**.
 
