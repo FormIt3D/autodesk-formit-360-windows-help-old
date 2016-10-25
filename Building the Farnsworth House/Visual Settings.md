@@ -1,6 +1,7 @@
 ### Visual Settings
 ---
-> If you did not complete the last section, click the File &gt; Open and choose **farnsworth07.axm** from the FormIt Primer folder.
+> If you did not complete the last section, download and open the **farnsworth07.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+
 
 ---
 
@@ -35,7 +36,7 @@
 
 Once you have you one or more scenes with visual styles to your liking, you can export high resolution images of the scene.
 
-1. **Click File &gt; Export (Cntrl – E)**.
+1. **Click File &gt; Export (Ctrl + E)**.
 
 2. Choose **As Image** from the list.
 
