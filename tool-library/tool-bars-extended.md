@@ -22,7 +22,7 @@ The Tool Bar is found at the top of the screen. The tools here will help you cre
 ![](images/Tool Bar-Create.PNG)
 - Sketch Tools: Click to bring up a menu of creation tools (line, arc, spline, rectangle, circle) that will help you draw shapes.
 - Primitives: Click to bring up a menu of basic 3D shapes (cube, dome, pyramid, cylinder, roof) that you can place in your scene.
-- Advanced Tools: Click to use boolean cut or join, cover, sweep, or loft operations.
+- Advanced Modeling Tools: Click to use boolean cut or join, cover, sweep, or loft operations.
 - Groups: Click to locate tools for grouping objects.
 
 **5. Location and Analysis Tools**

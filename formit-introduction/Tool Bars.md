@@ -13,7 +13,7 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 1. Gallery Menu
 2. Undo Redo
 3. Selection and Measurement
-4. Creattion and Modification Tools
+4. Creation and Modification Tools
 5. Location and Analysis Tools
 6. User Identity
 

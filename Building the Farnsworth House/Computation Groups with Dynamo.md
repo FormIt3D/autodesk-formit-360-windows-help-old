@@ -3,13 +3,13 @@
 
 > In this section we will leverage the computational power of [Dynamo](http://dynamobim.org/) to place and modify flexible groups.
 
-> If you did not complete the last section, click File &gt; Open and choose **farnsworth06.axm** from the FormIt Primer datasets folder.
+> If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 ---
 
 #### Place and Modify Dynamo Groups
 
-1. Open the **Dynamo Palette**. ![](./images/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
+1. Open the **Dynamo Palette** in the Palette Bar. ![](./images/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
 2. Click the **+** icon.
 
@@ -19,7 +19,7 @@
 
 5. Go to the **Plan view** and **place the stair** roughly centered where the stair to the lower terrace appears on the plan. 
 
-6. **Double click the Group** to edit it and go to the Properties Palette.
+6. Double click the Group to edit it and go to the Properties Palette.
 
 7. Modify the settings: 
 ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)

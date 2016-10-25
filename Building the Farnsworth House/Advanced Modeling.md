@@ -1,7 +1,8 @@
 ### Advanced Modeling
 ---
 
-> If you did not complete the last section, click File &gt; Open and choose **farnsworth05.axm** from the FormIt Primer datasets folder. 
+> If you did not complete the last section, download and open the **farnsworth05.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+
 
 ---
 
@@ -11,10 +12,10 @@ Use the Fillet tool to create a rounded edge for the bed.
 
 1. Create a **4' x 7' x 1'-6" high** rectangle in the living area of the house.
 
-2. Select the **Fillet tool (F I)** from the **Advanced Modeling toolbar**.
+2. Select the **Fillet tool (F I)** from the **Advanced Modeling tools** in the Action Tool bar..
 ![](./images/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-3. Select the top face and choose **2"** as the fillet distance. Click the **check mark** in the top left corner to finish. 
+3. Select the top face and choose **2"** as the fillet distance. Click the **check mark** in the top left corner to finish.                                                             
 ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 ---
 
