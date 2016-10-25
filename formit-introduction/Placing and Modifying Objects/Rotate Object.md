@@ -2,7 +2,7 @@
 ---
 1. Right click one of the cubes you have created.
 
-2. Choose the **Rotate tool**. You can now drag the rotate tool to
+2. Choose the [**Rotate tool**](../tool-library/scale-and-rotate.md). You can now drag the rotate tool to
 define:
 	- The **axis** on which you want to rotate
 	- The **rotation axis point** <br>

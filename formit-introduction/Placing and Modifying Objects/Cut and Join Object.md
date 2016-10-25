@@ -11,10 +11,10 @@
     - Using a standard crossing window by **left click** and **dragging** in the scene.
     - Right click in the scene and choosing the **Lasso tool** for a more fine-grained selection.
 
-4. To **Cut**, right click on the object that will be cut, and choose the **Cut tool** in the Context Menu.
+4. To **Cut**, right click on the object that will be cut, and choose the [**Cut tool**](../tool-library/boolean-operations.md) in the Context Menu.
 ![](../images/cut tool.png)
 ![](../images/cut finish.PNG)
 
 5. To **Join**, right click on either object and choose
-the **Join tool** in the Context Menu. 
+the [**Join tool**](../tool-library/tool-bars-extended.md) in the Context Menu. 
 ![](../images/join tool.png)

@@ -7,17 +7,17 @@
 #### Download, Install, and Start FormIt 360
 1. After downloading and installing FormIt 360 following the directions found [here](prerequisites-and-installation.md), open the program.
 
-2. **Log into FormIt** using your own Autodesk 360 credentials. ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
+2. **Log into FormIt** using your own Autodesk 360 credentials in the User Identity menu in the [Action Tool Bar](../tool-library/tool-bars-extended.md). ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
 
-3. Start a **new 'sketch' by clicking** the **Gallery button &gt; New**. ![](images/new-sketch.png) 
-    - Click the **Gallery Icon and click Save** to save this to the FormIt folder in your A360 Drive.
+3. Start a new 'sketch' by clicking the **Gallery button &gt; New**. ![](images/new-sketch.png) 
+    - Click the **Gallery button &gt; Save Sketch &gt; to A360 drive** to save this to the FormIt folder in your A360 Drive.
   ![](images/A360-Save.png)
     - Name your FormIt Sketch.
     -  Each time you save to A360 two things happen:
         - A native FormIt file \(.AXM\) is saved to the FormIt folder in A360.
         - A few minutes later, a RVT File of the design will be copied to the FormIt folder in A360. We will review another way to bring FormIt.
 
-4. Change the **Units** between Imperial and Metric using the **Settings Menu.**
+4. Change the **Units** between Imperial and Metric using the [Settings Menu](../tool-library/tool-bars-extended.md) in the Action Tool Bar.
 ![](./images/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
 
 ---
