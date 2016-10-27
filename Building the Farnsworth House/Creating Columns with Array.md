@@ -12,7 +12,7 @@
 
 3. Once the shape is complete, **extrude it** and use snap to the top of the roof.
 
-4. Double click to select the object. Right click and select the [**Mirror Tool (M I)**](../tool-library/tool-bars-extended.md).
+4. Double click to select the object. Right click and select the **Mirror Tool (M I)**.
 
 5. Move the Mirror widget and snap to the vertical edge of the column to create an I shape. ![](./images/a52928c7-5c9c-46f8-b23c-241f454ccb79.png)
 
@@ -26,7 +26,7 @@
 ---
 1. Select the Column group.
 
-2. Right click and choose **Array (A R)**.
+2. Right click and choose [**Array (A R)**](../tool-library/tilt-array-copy-and-paste.md).
 
  ![](./images/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png)
 

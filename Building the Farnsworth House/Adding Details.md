@@ -22,7 +22,7 @@ We are going to create a 2" metal frame and mullions around the window glass.
 
 6. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
 
-7. **Copy** or **Array** the assembly to the eastern side of the building.
+7. [**Copy** or **Array**](../tool-library/tilt-array-copy-and-paste.md) the assembly to the eastern side of the building.
 
 8. Repeat steps 1-6 for the North and South sides as well.
 
@@ -36,7 +36,7 @@ We are going to create a 2" metal frame and mullions around the window glass.
 
 4. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
 
-5. **Array** them three times at a distance of **11'**.
+5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
 
 6. Use the **hover + Tab key** to select all mullion instances and **copy** to the south side of the wall.
 
