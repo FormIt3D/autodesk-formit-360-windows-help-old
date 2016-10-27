@@ -4,7 +4,7 @@
 
 1. Right click one of the cubes you have created.
 
-2. Choose the **Scale tool** in the Context Menu: <br>
+2. Choose the [**Scale tool**](/tool-library/scale-and-rotate.md) in the Context Menu: <br>
 ![](../images/scale tool.png)
 
   * You can now **drag the arrows** to immediately define scale value.
