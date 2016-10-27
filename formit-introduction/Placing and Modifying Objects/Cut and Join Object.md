@@ -16,5 +16,5 @@
 ![](../images/cut finish.PNG)
 
 5. To **Join**, right click on either object and choose
-the [**Join tool**](/tool-library/tool-bars-extended.md) in the Context Menu. 
+the [**Join tool**](/tool-library/boolean-operations.md) in the Context Menu. 
 ![](../images/join tool.png)
