@@ -1,4 +1,4 @@
-### Cut and Join Objects
+### Boolean Cut and Join
 ---
 
 1. Double click to select one of the cubes you have created.
