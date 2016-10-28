@@ -5,17 +5,17 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 
 
-1. Choose the [**Rectangle tool (R)**](../tool-library/tool-bars-extended.md) and draw a rectangle **144'** by **96'** - use the **Tab key** to type in exact dimensions.
+1. Choose the [**Rectangle tool (R)**](../formit-introduction/tool-bars.md) and draw a rectangle **144'** by **96'** - use the **Tab key** to type in exact dimensions.
 ![](./images/49fbf65d-2c44-4cc3-9bc6-e172cd19ca81.png)
 
-2. Open the [**Material Palette**](../tool-library/tool-bars-extended.md) and click the **+** icon to create a new material.
+2. Open the [**Material Palette**](../formit-introduction/tool-bars.md) and click the **+** icon to create a new material.
 
 3. Click the **folder icon** and open **plan.png** from the FormIt Primer/Drawings subfolder.
 
 4. Enter **144'** in the Horizontal field and **96'** in the Vertical field and name the material "**Floor Plan**".
 ![](./images/8f0f2e11-ecfb-484d-94f6-0930c8ad7b20.png)
 
-5. **Click OK** to return to the scene. In the [Material Palette](../tool-library/tool-bars-extended.md) **right click** on the Floor Plan material and choose **Paint with Material** and then **click on the plane** you sketched.
+5. **Click OK** to return to the scene. In the [Material Palette](../formit-introduction/tool-bars.md) **right click** on the Floor Plan material and choose **Paint with Material** and then **click on the plane** you sketched.
 ![](./images/ec9f4404-281a-4fb4-a104-e3dd92f67e62.png)
 
 6. **Double-click** the **entire plane** to select it. **Right click** and choose [**Rotate (Q)**](../tool-library/scale-and-rotate.md). Move the Rotate widget to the bottom left corner and rotate the image **9 degrees counter clockwise**.

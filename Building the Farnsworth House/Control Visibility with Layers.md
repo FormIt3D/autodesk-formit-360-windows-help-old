@@ -5,7 +5,7 @@
 
 ---
 
-1. Click the [**Layers Palette**](../tool-library/tool-bars-extended.md) and click the **+** sign twice to create three layers.
+1. Click the [**Layers Palette**](../formit-introduction/tool-bars.md) and click the **+** sign twice to create three layers.
 
 2. Double click the layers to rename them: **massing, Floor 1, plan image**. <br>
      ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)

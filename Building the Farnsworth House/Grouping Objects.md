@@ -27,7 +27,7 @@
 #### Apply Levels to a Group
 ---
 
-1. Select the **main building by single-clicking** and open the [**Properties Palette**](../tool-library-tool-bars-extended.md) of the Palette Bar.
+1. Select the **main building by single-clicking** and open the [**Properties Palette**](../formit-introduction/tool-bars.md) of the Palette Bar.
 
 2. Check the **Use Levels ON**. This will "slice" these masses by the levels you choose. Click **Check All**.
 

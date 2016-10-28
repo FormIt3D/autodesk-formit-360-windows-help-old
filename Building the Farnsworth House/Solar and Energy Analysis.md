@@ -8,13 +8,13 @@
 
 Setting the location allows you to accurately analyze how sun shadows ill fall and affect your design – allowing you to make better ecisions.
 
-1. Click on the Sun Icon in the [Action Tool Bar](../tool-library/tool-bars-extended.md) and check **Display Shadows**.
+1. Click on the Sun Icon in the [Action Tool Bar](../formit-introduction/tool-bars.md) and check **Display Shadows**.
 
 2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design! <br> ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
 #### Solar Analysis
 
-1. From the same [Sun menu](../tool-library/tool-bars-extended.md), click **Solar Analysis**.
+1. From the same [Sun menu](../formit-introduction/tool-bars.md), click **Solar Analysis**.
 
 2. Click on the surfaces you want to study and click **Analyze**.
 

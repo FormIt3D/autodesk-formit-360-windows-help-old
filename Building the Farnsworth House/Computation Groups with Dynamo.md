@@ -9,7 +9,7 @@
 
 #### Place and Modify Dynamo Groups
 
-1. Open the [**Dynamo Palette**](../tool-library/tool-bars-extended.md) in the Palette Bar. ![](./images/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
+1. Open the [**Dynamo Palette**](../formit-introduction/tool-bars.md) in the Palette Bar. ![](./images/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
 2. Click the **+** icon.
 
@@ -19,7 +19,7 @@
 
 5. Go to the **Plan view** and **place the stair** roughly centered where the stair to the lower terrace appears on the plan. 
 
-6. Double click the Group to edit it and go to the [Properties Palette](../tool-library/tool-bars-extended.md).
+6. Double click the Group to edit it and go to the [Properties Palette](../formit-introduction/tool-bars.md).
 
 7. Modify the settings: <br>
 ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
