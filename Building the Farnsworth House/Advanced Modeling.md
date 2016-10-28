@@ -12,7 +12,7 @@ Use the Fillet tool to create a rounded edge for the bed.
 
 1. Create a **4' x 7' x 1'-6" high** rectangle in the living area of the house.
 
-2. Select the **Fillet tool (F I)** from the **Advanced Modeling tools** in the [Action Tool Bar](../tool-library/tool-bars-extended.md).
+2. Select the **Fillet tool (F I)** from the **Advanced Modeling tools** in the [Action Tool Bar](../formit-introduction/tool-bars.md).
 ![](./images/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
 3. Select the top face and choose **2"** as the fillet distance. Click the **check mark** in the top left corner to finish. <br>
@@ -29,7 +29,7 @@ Use the Sweep tool to create a cornice along the roof.
 
 3. **Delete** the line between the two rectangles to create a single shape. ![](./images/e14f62ce-1872-4d4a-9dcf-031086cc07e2.png)
 
-4. Select the **Sweep tool (S W)** from the [**Advanced Modeling menu**](../tool-library/tool-bars-extended.md). ![](./images/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
+4. Select the **Sweep tool (S W)** from the [**Advanced Modeling menu**](../formit-introduction/tool-bars.md). ![](./images/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
 5. Select the shape to sweep. 
 ![](./images/7b23a551-3ad6-4068-aca9-e2c0b4f1da27.png)
