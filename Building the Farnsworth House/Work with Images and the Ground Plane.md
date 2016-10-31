@@ -18,9 +18,9 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 5. **Click OK** to return to the scene. In the [**Material Palette**](../formit-introduction/tool-bars.md) **right click** on the Floor Plan material and choose **Paint with Material** and then **click on the plane** you sketched.
 ![](./images/ec9f4404-281a-4fb4-a104-e3dd92f67e62.png)
 
-6. **Double-click** the **entire plane** to select it. **Right click** and choose [**Rotate (Q)**](../tool-library/scale-and-rotate.md). Move the Rotate widget to the bottom left corner and rotate the image **9 degrees counter clockwise**.
+6. **Double-click** the **entire plane** to select it. **Right click** and choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md). Move the Rotate widget to the bottom left corner and rotate the image **9 degrees counter clockwise**.
 ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263.png)
 
-7. **Right click** on the **ground plane** and choose [**Set-Axes-(SZ)**](../tool-library/world-axes.md). Move the axis to the bottom left corner of the of the image plane. Move the axis so that it is alinged to the angle of the plane. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
+7. **Right click** on the **ground plane** and choose [**Set Axes (SZ)**](../tool-library/world-axes.md). Move the axis to the bottom left corner of the of the image plane. Move the axis so that it is alinged to the angle of the plane. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
 ![](./images/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
 
