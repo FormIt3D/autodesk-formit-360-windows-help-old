@@ -10,9 +10,9 @@
 
 1. To group the image plan in order to prevent sketched lines from "sticking", select the plane by double-clicking it, right-click and choose **Group \(G\)**.
 
-2. Click the **Pencil** to open the [**Sketching-Toolbar**](../formit-introduction/tool-bars.md).
+2. Click the **Pencil** to open the [**Sketching Toolbar**](../formit-introduction/tool-bars.md).
 
-3. Choose the [**Line-tool-(L)**](../tool-library/line-tool.md).
+3. Choose the [**Line tool (L)**](../tool-library/line-tool.md).
 
 4. You can immediately start to sketch using straight lines segments. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes.
 
@@ -34,16 +34,16 @@
 
 ---
 
-1. In the [**Action-Tool-Bar**](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the [**Arc-tool**](../tool-library/arc-tool.md).
+1. In the [**Action Tool Bar**](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the [**Arc tool**](../tool-library/arc-tool.md).
   * Click to define the first and second point similar to the Line tool.
   * The third drag defines the radius of the circle that defines the arc.
   * **Note:** _As with all sketching tools, you can use the red snap points to snap to other objects in the scene._
 
-3. Select the [**Spline-Tool**](../tool-library/spline-tool.md).
+3. Select the [**Spline Tool**](../tool-library/spline-tool.md).
 
   * Click to define any number of points to draw a spline
 
-4. Select the [**Circle-Tool**](../tool-library/circle-tool.md).
+4. Select the [**Circle Tool**](../tool-library/circle-tool.md).
 
   * Hover and Click to define the center point of the circle.
   * Click and drag to define the radius of the circle.
