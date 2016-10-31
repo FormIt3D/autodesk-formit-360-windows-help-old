@@ -5,13 +5,13 @@
 ---
 
 #### Create the glass walls
-1. Use the [**Rectangle tool ( R )**](../formit-introduction/tool-bars.md) to create another surface on top of the floor, **28'-8" x 55'-5 ½"**.
+1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the floor, **28'-8" x 55'-5 ½"**.
 
 2. Pull the new surface up **11'-2"**.
 
 3. Group it and name it **Glass Walls**.
 
-4. Right click on the top face and choose the [**Offset Face tool (O F)**](../formit-introduction/tool-bars.md).
+4. Right click on the top face and choose the [**Offset-Face-tool-(OF)**](../tool-library/extrude-cut-and-offset-faces.md).
 
 5. Press **Tab** and type in **4"**. ![](./images/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
 
@@ -19,7 +19,7 @@
 ---
 1. Edit the **Glass Walls group** by double-clicking.
 
-2. Select the [Materials Palette](../tool-library/tool-bars-extended.md).
+2. Select the [Materials Palette](../formit-introduction/tool-bars.md).
 
 3. Click the **Import Materials button**. <br>
      ![](./images/00cac281-dff8-4ff3-8ba3-c13bb868ebc1.png)

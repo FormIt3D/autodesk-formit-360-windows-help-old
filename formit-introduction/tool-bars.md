@@ -2,8 +2,6 @@
 ---
 ![](images/Interface.PNG)
 
-> For further descriptions of each tool, please see [Tool Bars Extended](../tool-library/tool-bars-extended.md).
-
 ---
 
 #### Action Tool Bar
