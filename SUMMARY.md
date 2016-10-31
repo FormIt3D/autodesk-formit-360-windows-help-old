@@ -59,7 +59,7 @@
     * [Layers](tool-library/Layers.md)
     * [Setting Location](tool-library/setting-location.md)
     * [Shadows](tool-library/shadows.md)
-    * [Collaboration](Appendix/Collaboration.md)
+    * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
     * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
    
