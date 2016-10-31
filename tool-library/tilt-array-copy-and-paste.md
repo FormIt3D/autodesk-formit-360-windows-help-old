@@ -37,6 +37,5 @@ Linear:
 Radial:
 
 ![](images/array radial 1.PNG)
-![](images/array radial 2.PNG)
 ![](images/array radial 3.PNG)
 ![](images/array radial finish.PNG)

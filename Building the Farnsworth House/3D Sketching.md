@@ -10,11 +10,11 @@
 
 1. To group the image plan in order to prevent sketched lines from "sticking", select the plane by double-clicking it, right-click and choose **Group \(G\)**.
 
-2. Click the **Pencil** to open the [Sketching Toolbar](../formit-introduction/tool-bars.md).
+2. Click the **Pencil** to open the [**Sketching Toolbar**](../formit-introduction/tool-bars.md).
 
-3. Choose the [**Line tool \(L\)**](../formit-introduction/tool-bars.md). ![](./images/b73dbf13-d655-42fa-ae12-164e8bda28ad.png)
+3. Choose the [**Line tool \(L\)**](../tool-library/line-tool.md).
 
-4. You can immediately start to sketch using straight lines segments. Click [here](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes.
+4. You can immediately start to sketch using straight lines segments. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes.
 
 5. Start with creating a rectangle on the ground plane.
 
@@ -34,7 +34,7 @@
 
 ---
 
-1. In the [Action Tool Bar](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the **Arc tool**.
+1. In the [**Action Tool Bar**](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the **Arc tool**.
   * Click to define the first and second point similar to the Line tool.
   * The third drag defines the radius of the circle that defines the arc.
   * **Note:** _As with all sketching tools, you can use the red snap points to snap to other objects in the scene._

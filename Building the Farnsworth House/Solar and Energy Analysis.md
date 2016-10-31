@@ -6,7 +6,7 @@
 
 #### Shadows
 
-Setting the location allows you to accurately analyze how sun shadows ill fall and affect your design – allowing you to make better ecisions.
+Setting the location allows you to accurately analyze how sun shadows ill fall and affect your design – allowing you to make better decisions.
 
 1. Click on the Sun Icon in the [Action Tool Bar](../formit-introduction/tool-bars.md) and check **Display Shadows**.
 
