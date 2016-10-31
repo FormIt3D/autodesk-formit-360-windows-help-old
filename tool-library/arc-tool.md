@@ -14,3 +14,5 @@ You can see the length between the first point and the second point as you're de
 
 ![](images/arc tool 2.png)
 
+After drawing the arc You can make a face by then using the [line tool](../tool-library/line-tool.md) to connected point 1 and point 2.
+
