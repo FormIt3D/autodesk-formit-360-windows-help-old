@@ -19,7 +19,7 @@
 ---
 1. Edit the **Glass Walls group** by double-clicking.
 
-2. Select the [Materials Palette](../formit-introduction/tool-bars.md).
+2. Select the [**Materials Palette**](../formit-introduction/tool-bars.md).
 
 3. Click the **Import Materials button**. <br>
      ![](./images/00cac281-dff8-4ff3-8ba3-c13bb868ebc1.png)

@@ -12,9 +12,9 @@ We are going to create a 2" metal frame and mullions around the window glass.
 
 1. **Hide** the Roof Layer.
 
-2. Use the [**Rectangle tool ( R )**](../formit-introduction/tool-bars.md) to draw a surface over the western face of glass.
+2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass.
 
-3. Use the **Offset Face tool (O F)** and the **Tab key** to offset another rectangle **2"** towards the interior.
+3. Use the [**Offset Face tool (OF)**](../tool-library/extrude-cut-and-offset-faces.md) and the **Tab key** to offset another rectangle **2"** towards the interior.
 
 4. **Select** and **extrude** the frame 2" towards the interior. ![](./images/24f63252-b1e6-4071-ba24-961269bf4490.png)
 
@@ -46,4 +46,4 @@ Using the same methods as in the previous two exercises, create a 3'-6" double d
 ---
 ####Related Topics:
 
-[Cover Sweep Loft](../tool-library/cover-sweep-loft.md)
+[**Cover Sweep Loft**](../tool-library/cover-sweep-loft.md)

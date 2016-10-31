@@ -19,7 +19,7 @@
 
 5. Go to the **Plan view** and **place the stair** roughly centered where the stair to the lower terrace appears on the plan. 
 
-6. Double click the Group to edit it and go to the [Properties Palette](../formit-introduction/tool-bars.md).
+6. Double click the Group to edit it and go to the [**Properties Palette**](../formit-introduction/tool-bars.md).
 
 7. Modify the settings: <br>
 ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
