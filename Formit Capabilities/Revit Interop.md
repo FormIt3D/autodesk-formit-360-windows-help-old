@@ -1,7 +1,7 @@
 ### Revit Interop
 
 ---
-> Make the connection beween Schematic Design in FormIt 360 and Design Documentation in Revit seamless. 
+> Make the connection between Schematic Design in FormIt 360 and Design Documentation in Revit seamless. 
 
 ---
 
