@@ -1,11 +1,9 @@
 ### Setting Up the Project
----
-> Autodesk 360 Drive is the primary storage medium for FormIt. However, you can also open, save, import and export files from a local drive. We will use that method for loading datasets in the Farnsworth House Primer, but you will use your A360 drive accound to log into FormIt and save your work as you move through the course.
 
----
+Autodesk 360 Drive is the primary storage medium for FormIt. However, you can also open, save, import and export files from a local drive. We will use that method for loading datasets in the Farnsworth House Primer, but you will use your A360 drive accound to log into FormIt and save your work as you move through the course
 
-#### Download, Install, and Start FormIt 360
-1. After downloading and installing FormIt 360 following the directions found [**here**](prerequisites-and-installation.md), open the program.
+#### Download, Install, and Start FormIt
+1. After downloading and installing FormIt following the directions found [**here**](prerequisites-and-installation.md), open the program
 
 2. **Log into FormIt** using your own Autodesk 360 credentials in the [**User Identity menu in the Action Tool Bar**](../formit-introduction/tool-bars.md). <br> 
 ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
