@@ -15,7 +15,6 @@
 **Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
 
 #### Import Data from FormIt into Revit
----
 
 1. Still inside Revit, choose **Import FormIt 360 to RVT** from the add-in. 
 
