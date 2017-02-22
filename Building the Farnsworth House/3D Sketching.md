@@ -1,10 +1,6 @@
 ### 3D Sketching
 
----
-
-> Placing primitives is fine, but the real power of FormIt lies in the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
-
----
+Placing primitives is fine, but the real power of FormIt lies in the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### 3D Sketching with Lines
 
@@ -21,18 +17,16 @@
   * Click **Settings &gt; turn off Snap to Grid \(S G\)**.
   * With the **Line tool**, click on **one corner** of the imported sketch. **Drag** along to define one edge of the upper terrace.
   * Use the **Tab key** to input exact dimensions. Make the long side **77'-4 1\8"** and the short side **28'-8**".
-  * Press **Esc**. You are back in Select mode. You can now select the top face and immediately pull the volume up **12'-2"**. ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
+  * Press **Esc**. You are back in Select mode. You can now select the top face and immediately pull the volume up **12'-2"**. 
+  
+    ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
 
 **Note**: _The red and green axes keep you at 90 degrees. When you draw at an angle to the grid, a purple guide will allow you to stay 90 degrees relative to your current line._
 
 #### Optional – 3D Sketching with the Rest of the Tools
 
----
-
-> The following exercise is not critical to finishing the house. It will allow you to experiment with some of the other 3D Sketching tools.
-
----
+The following exercise is not critical to finishing the house. It will allow you to experiment with some of the other 3D Sketching tools.
 
 1. In the [**Action Tool Bar**](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the [**Arc tool**](../tool-library/arc-tool.md).
   * Click to define the first and second point similar to the Line tool.

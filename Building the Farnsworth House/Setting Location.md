@@ -1,9 +1,7 @@
 ### Setting Location
----
 
-> Setting your project’s location in the world is important for the accuracy of down-stream analyses. It also allows you to import a scaled satellite image to use as a background reference.
+Setting your project’s location in the world is important for the accuracy of down-stream analyses. It also allows you to import a scaled satellite image to use as a background reference.
 
----
 
 #### Set Location:
 
@@ -11,7 +9,8 @@
     - Type ***Farnsworth House*** in the search field. Google Maps will fill in the actual location.
     - As soon as you commit the location search, the location is set to the center of the view.
 2. You can now click **Finish** to set the location and return to the 3D scene.
-![](./images/4101d5b1-cd39-4a96-b4a8-8d7009c54848.png)
+
+    ![](./images/4101d5b1-cd39-4a96-b4a8-8d7009c54848.png)
 Or you may optionally import a scaled satellite image:
     - Click **Import satellite image** and then **Finish Importing Image**.
 ![](./images/894bd8ae-cb86-4330-ae3f-fe58ac39ab73.png)
