@@ -1,11 +1,10 @@
 ### Tool Bars
----
 ![](images/Interface.PNG)
 
----
 
 #### Action Tool Bar
 The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
+
 ![](images/action tool bar.PNG)
 
 1. Gallery Menu
