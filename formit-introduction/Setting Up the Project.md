@@ -6,20 +6,24 @@ Autodesk 360 Drive is the primary storage medium for FormIt. However, you can al
 1. After downloading and installing FormIt following the directions found [**here**](prerequisites-and-installation.md), open the program
 
 2. **Log into FormIt** using your own Autodesk 360 credentials in the [**User Identity menu in the Action Tool Bar**](../formit-introduction/tool-bars.md) 
-<br> ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
+
+  ![](./images/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
 
 3. Start a new 'sketch' by clicking the **Gallery button &gt; New**
-<br> ![](images/new-sketch.png) 
+
+  ![](images/new-sketch.png) 
  
 4. Click the **Gallery button &gt; Save Sketch &gt; to A360 drive** to save this to the FormIt folder in your A360 Drive 
-<br> ![](images/A360-Save.png)
+
+  ![](images/A360-Save.png)
+  
 5. Name your FormIt Sketch
 6. Each time you save to A360 two things happen:
  - A native FormIt file \(.AXM\) is saved to the FormIt folder in A360
  - A few minutes later, a RVT File of the design will be copied to the FormIt folder in A360. We will review another way to bring FormIt
 7. Change the **Units** between Imperial and Metric using the [**Settings Menu in the Action Tool Bar**](../formit-introduction/tool-bars.md)
 
- <br> ![](./images/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
+  ![](./images/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
 
 
 ---
