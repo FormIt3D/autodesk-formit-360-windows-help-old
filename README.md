@@ -1,10 +1,7 @@
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
 
 # FormIt Windows Documentation
 
-Description...
-
-=======  
 ![](./Appendix/images/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
 
 # Welcome to FormIt Windows DocumentationTES
@@ -15,7 +12,6 @@ With FormIt® 360 architectural modeling software, architects can sketch, collab
 
 * Optionally, you can start a 30 day trial from the start up screen.
 
-  > > > > > > > origin/Phase\_01\_OneToOne
 
 
 
