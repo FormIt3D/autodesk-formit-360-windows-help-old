@@ -1,6 +1,6 @@
 ### Revit Interop
 
-Make the connection between Schematic Design in FormIt and Design Documentation in Revit seamless. 
+Use FormIt and Revit together to move seamlessly between Schematic Design and Design Documentation
 
 <video width="100%" controls>
   <source src="Videos/Revit Interop.mp4" type="video/mp4">
