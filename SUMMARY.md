@@ -52,7 +52,7 @@
   * [Measure](tool-library/measure-tool.md)
   * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Faces: Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
-  * [Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
+  * [Faces: Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
   * [Boolean Operations](tool-library/boolean-operations.md)
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Layers](tool-library/Layers.md)
