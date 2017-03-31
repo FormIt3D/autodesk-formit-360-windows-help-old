@@ -2,7 +2,7 @@
 
 # FormIt Windows Documentation
 
-![](./Appendix/images/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
 
 # Welcome to FormIt Windows Documentation
 

@@ -11,7 +11,6 @@ To mirror an object, double click to select entire object. To start the mirror r
 1. ![](images/mirror 1.png)
 2. ![](images/mirror 2.png)
 3. ![](images/mirror 3.png)
-4. ![](/assets/import.png)
 
 
 
