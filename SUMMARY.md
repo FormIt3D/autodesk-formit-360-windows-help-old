@@ -13,7 +13,7 @@
 * [FormIt-Introduction](formit-introduction/FormIt-Introduction.md)
   * [Prerequisites and Installation](formit-introduction/prerequisites-and-installation.md)
   * [Setting Up the Project](formit-introduction/Setting-Up-the-Project.md)
-  * [Tool Bars](formit-introduction/tool-bars.md)
+  * [Tool Bars and Palettes](formit-introduction/tool-bars.md)
   * [Navigating the Scene](formit-introduction/navigating-the-scene.md)
 * [Building-the-Farnsworth-House](Building-the-Farnsworth-House/Building-the-Farnsworth-House.md)
   * [Setting Location](Building-the-Farnsworth-House/Setting-Location.md)

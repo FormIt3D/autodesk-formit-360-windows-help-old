@@ -1,8 +1,9 @@
-### Tool Bars
+### Tool Bars and Palettes
+
 ![](images/Interface.PNG)
 
-
 #### Action Tool Bar
+
 The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
 
 ![](images/action tool bar.PNG)
@@ -15,6 +16,7 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 6. User Identity
 
 #### Navigation Tool Bar
+
 ![](images/Navigation Tool Bar.PNG)
 
 1. Scene View Modes
@@ -22,6 +24,7 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 3. Zoom Tools
 
 #### Palette Bar
+
 ![](images/palette tool bar.PNG)
 
 1. Properties
@@ -34,3 +37,6 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 8. Levels
 9. Content Library
 10. Undo Manager
+
+
+
