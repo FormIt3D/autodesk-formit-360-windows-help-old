@@ -1,10 +1,6 @@
 ### Tool Bars and Palettes
 
-FormIt has a few simple interface elements that you'll benefit from learning early on
-
-
-
-![](images/Interface.PNG)
+FormIt has a simple interface, with only a few user interface elements with powerful tools located there
 
 #### Action Tool Bar
 
