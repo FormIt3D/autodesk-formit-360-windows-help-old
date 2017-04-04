@@ -1,11 +1,11 @@
-![](/formit-introduction/images/splash_screen.png)
-
 ### Prerequisites and Installation
 
 * FormIt for Windows. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
 
 * Revit 2016, 2017, or 2018  
   **Note:** _This is only required for the section on Revit Interoperability_
+
+![](/formit-introduction/images/splash_screen.png)
 
 ### FormIt and FormIt Pro
 

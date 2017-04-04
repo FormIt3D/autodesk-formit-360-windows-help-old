@@ -1,5 +1,9 @@
 ### Tool Bars and Palettes
 
+FormIt has a few simple interface elements that you'll benefit from learning early on
+
+
+
 ![](images/Interface.PNG)
 
 #### Action Tool Bar
