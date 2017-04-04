@@ -4,7 +4,7 @@ FormIt has a simple interface, with only a few user interface elements with powe
 
 #### Action Tool Bar
 
-The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
+The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design.
 
 ![](images/action-tool-bar-1.PNG)
 
