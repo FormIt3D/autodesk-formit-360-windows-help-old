@@ -23,7 +23,7 @@ Download, Install, and Start FormIt
 6. Each time you save to A360 two things happen:
 
    * A FormIt AXM file is saved to the FormIt folder in A360
-   * A few minutes later, an RVT file will appear in the FormIt folder in A360. We will review [**another way to bring FormIt into Revit**](../Building-the-Farnsworth-House/Revit-Interop.md).
+   * An RVT file will appear in the FormIt folder in A360. We will review [**another way to bring FormIt into Revit**](../Building-the-Farnsworth-House/Revit-Interop.md).
    
      
 7. Change the **Units** between Imperial and Metric using the [**Settings Menu in the Action Tool Bar**](../formit-introduction/tool-bars.md)
