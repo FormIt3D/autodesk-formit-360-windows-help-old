@@ -22,5 +22,5 @@ With a ** FormIt Pro subscription ** you have access to Energy Analysis with **I
 - Adjust the Energy Analysis factor widgets like Window to Wall Ration, Building Orientation, and others
 - Summarize your building's energy impact with a single number calculated as a bottom line cost per area
 - Save your Energy Analysis results for future review with clients and other stakeholders
-- [Learn more about the Insight and FormIt connection.](http://autodesk.typepad.com/bpa/2015/05/release-news-formit-360-pro.html)
+- [Learn more about the Insight and FormIt connection](http://autodesk.typepad.com/bpa/2015/05/release-news-formit-360-pro.html)
 - [Purchase a Pro subscription now.](http://www.autodesk.com/products/formit-360/try-buy)
