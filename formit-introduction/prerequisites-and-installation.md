@@ -1,4 +1,4 @@
-![](./images/startupimage.PNG)
+![](/formit-introduction/images/splash_screen.png)
 
 ### Prerequisites and Installation
 
