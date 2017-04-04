@@ -6,11 +6,12 @@ FormIt has a simple interface, with only a few user interface elements with powe
 
 The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
 
-![](images/action tool bar.PNG)
+![](images/action-tool-bar-1.PNG)
 
 1. Gallery Menu
 2. Undo Redo
 3. Selection and Measurement
+
 4. Creation and Modification Tools
 5. Location and Analysis Tools
 6. User Identity
