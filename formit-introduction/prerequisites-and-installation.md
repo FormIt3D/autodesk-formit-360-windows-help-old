@@ -17,7 +17,7 @@ With **FormIt**, you get:
 - SketchUp import
 
 With **FormIt Pro**, you get everything listed above FormIt plus:
-- FormIt 360 for Windows
+- FormIt for Windows
 - Dynamo Studio integration
 - Insight analysis
 - Autodesk material library

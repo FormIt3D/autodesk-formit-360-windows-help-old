@@ -62,10 +62,10 @@
 | Group: UnGroup All (Toolbar) | Alt + A |
 | Group: UnGroup Model | U, M |
 | Help: About | |
-| Help: Check for FormIt 360 Updates | |
-| Help: FormIt 360 Blog | |
-| Help: FormIt 360 Gallery | |
-| Help: FormIt 360 Videos | |
+| Help: Check for FormIt Updates | |
+| Help: FormIt Blog | |
+| Help: FormIt Gallery | |
+| Help: FormIt Videos | |
 | Help: Get Support | |
 | Help: Help | |
 | Help: What's New | |

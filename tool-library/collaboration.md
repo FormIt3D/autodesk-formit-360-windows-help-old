@@ -5,7 +5,7 @@
 
 ---
 
-With a FormIt 360 Pro subscription you have access to the Real-time Collaboration feature which allows you to:
+With a FormIt Pro subscription you have access to the Real-time Collaboration feature which allows you to:
 - Start a collaboration session and invite colleagues, or clients who do not need to be Pro to join.
 - Join a collaboration from the Windows, web, or mobile apps - all you need is an A360 log-in.
 - Charette with colleagues to explore designs in a shared sandbox environment.

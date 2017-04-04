@@ -37,7 +37,7 @@ The Tool Bar is found at the top of the screen. The tools here will help you cre
 - Touch Mode: Model and navigate with touch-enabled Windows devides using your finger, stylus, mouse and keyboard. 
 - Collaboration: Start a session, join a session, or invite others to collaborate.
 - Login to Autodesk360: Use the Autodesk 360 Cloud Services for free to store and share your sketches.
-- Help: Use the information tools to learn more about FormIt 360.
+- Help: Use the information tools to learn more about FormIt.
 
 #### Navigation Tool Bar
 See [Navigating the Scene](../formit-introduction/navigating-the-scene.md).

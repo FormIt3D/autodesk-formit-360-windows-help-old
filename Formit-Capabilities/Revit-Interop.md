@@ -28,7 +28,7 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 
 - The Group Name in FormIt is remembered upon Revit Import allowing Filters
 
-#### Iteration between Revit and FormIt 360
+#### Iteration between Revit and FormIt
 
 - Revit System Families can be exported to FormIt using SAT export options
 

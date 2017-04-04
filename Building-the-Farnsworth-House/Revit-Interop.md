@@ -2,7 +2,7 @@
 
 1. Open Revit 2016 or 2017 and start a blank file from the Architectural Template. 
 
-2. From the Add-Ins tab select **Convert RFA to FormIt 360** from the FormIt 360 Converter. 
+2. From the Add-Ins tab select **Convert RFA to FormIt ** from the FormIt Converter. 
 
     ![](./images/957577ef-e004-4b33-9ec7-350649a90755.png)
 
@@ -10,13 +10,13 @@
 
     ![](./images/032cef9c-00dd-4e03-9b89-01d93ff6e1ac.png)
 
-4. This process will take a number of minutes as Revit opens each RFA in the first path and converts it to a format that FormIt 360 can read.
+4. This process will take a number of minutes as Revit opens each RFA in the first path and converts it to a format that FormIt can read.
 
 **Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
 
 #### Import Data from FormIt into Revit
 
-1. Still inside Revit, choose **Import FormIt 360 to RVT** from the add-in. 
+1. Still inside Revit, choose **Import FormIt to RVT** from the add-in. 
 
     ![](./images/9a7673f7-a265-49c8-b665-325e9618ac65.png)
 
@@ -40,4 +40,4 @@
 
 There may be times when you need to bring data from Revit into FormIt – e.g. when you have an existing Revit project that needs an area of the design to be iterated on. Export a 3D scene to the SAT file format from Revit and you will be able to import that data back into FormIt.
 
-**Note**: *Family and category information is not transferred back to FormIt 360.*
+**Note**: *Family and category information is not transferred back to FormIt.*
