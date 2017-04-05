@@ -1,10 +1,10 @@
-### Tool Bars and Palettes
+### Tool Bars, Palettes, and Context Menu
 
-FormIt has a simple interface, with only a few user interface elements with powerful tools located there
+FormIt has a simple icon based interface, with only a few UI components to learn
 
 #### Action Tool Bar
 
-The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design.
+The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design
 
 ![](/formit-introduction/images/action-tool-bar-1.png)
 
@@ -35,6 +35,8 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 
 #### Navigation Tool Bar
 
+The Navigation Tool Bar is found at the right side of the canvas. The tools here will help you orient the camera to view the model
+
 ![](/formit-introduction/images/Navigation Tool Bar-1.png)
 
 1. 2D Top View
@@ -55,6 +57,8 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 
 #### Palette Tabs
 
+The Palette Tabs are found at the right side of the screen. The tools here will help you manipulate and organize the elements you've created in the model
+
 ![](/formit-introduction/images/Palette Bar-All-1.png)
 
 1. Properties
@@ -67,6 +71,13 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 8. Levels
 9. Content Library
 10. Undo Manager
+
+#### Context Menu
+
+The Context Menu is a circular menu with options to edit the selected element. The context menu will show you different tools depending on what you have selected
+
+![](/formit-introduction/images/Palette Bar-All-1.png)
+
 
 
 
