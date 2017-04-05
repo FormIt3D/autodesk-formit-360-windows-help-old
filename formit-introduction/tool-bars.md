@@ -56,14 +56,14 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 
 #### Palette Tabs
 
-![](images/palette tool bar.PNG)
+![](/formit-introduction/images/Palette Bar-All-1.png)
 
 1. Properties
 2. Materials
 3. Layers
 4. Scenes
 5. Visual Styles
-6. Group Tree
+6. Groups Tree
 7. Dynamo
 8. Levels
 9. Content Library
