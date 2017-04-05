@@ -45,6 +45,8 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 7. Now we will align the grid with the Satellite image and the floor plan. **Right click** on the **ground plane** and choose [**Set Axes (SZ)**](../tool-library/world-axes.md). 
 
+    ![](./images/SetAxis.png)
+
 8. Move the axis to the bottom left corner of the of the rectanle. Move the red axis so that it is alinged to the bottom edge of the plane. Click off in space to commit this change. 
 
 9. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
