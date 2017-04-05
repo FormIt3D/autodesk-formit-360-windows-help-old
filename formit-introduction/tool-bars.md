@@ -8,39 +8,53 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 
 ![](/formit-introduction/images/action-tool-bar-1.png)
 
-1. Gallery Menu
-2. Undo and Redo
-3. Selection 
-4. Measure 
-5. Section
+1. Gallery menu with file operations like Open, Save, Export
+2. Undo
+3. Redo
+3. Selection and area selection filters
+4. Measure and angular measure tools
+5. Section tool
 
 ![](/formit-introduction/images/action-tool-bar-2.png)
 
-4. Sketch Toolbar
-5. Primitives Toolbar
-6. Advanced Geometry Toolbar
+4. 3d Sketch toolbar
+5. Primitive placement toolbar
+6. Advanced Geometry toolbar with Join, Cut, Sweep, Loft, Shell
 7. Groups Toolbar
 5. Location 
-6. Sun, Shadows and Solar Analysis Tools
+6. Sun, Shadows and Solar Analysis tools
 6. Energy Analysis
 
 ![](/formit-introduction/images/action-tool-bar-3.png)
 
 1. Settings
-2. Touch Mode
+2. Touch Mode toggle
 3. Collaboration
 4. A360 Log in
 5. Information and Links
 
 #### Navigation Tool Bar
 
-![](images/Navigation Tool Bar.PNG)
+![](/formit-introduction/images/Navigation Tool Bar-1.png)
 
-1. Scene View Modes
-2. 3D View Tools
-3. Zoom Tools
+1. 2D Top View
+2. 3D Perspective View 
+3. Flythrough Mode
 
-#### Palette Bar
+![](/formit-introduction/images/Navigation Tool Bar-2.png)
+
+1. Orbit Model
+2. Swivel Model
+3. Pan the Model
+
+![](/formit-introduction/images/Navigation Tool Bar-3.png)
+
+1. Zoom
+2. Zoom Extents 
+3. Zoom to Selected
+
+
+#### Palette Tabs
 
 ![](images/palette tool bar.PNG)
 
