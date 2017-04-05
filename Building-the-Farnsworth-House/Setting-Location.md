@@ -25,4 +25,8 @@ Setting your project’s location in the world is important for the accuracy of 
 
 6. Go to the [**Visual Styles Palette**](../tool-library/tool-bars-extended.md), choose the Environment tab, and enable **North Arrow** to see a north arrow compass. You can also type DN keyboard shortcut to toggle the North arrow on and off
 
-7. Once back in the 3D scene, **select the satellite image** by doubleclicking. Open the [**Properties Palette**](../tool-library/tool-bars-extended.md) and lower the transparency slider about **1/3**. ![](./images/038168bf-b019-4a1f-8fb7-308ae4fe218e1.png)
+    ![](./images/NorthArrow.png)
+
+7. Finally **select the satellite image** by double clicking it. Click the [**Properties Palette**](../tool-library/tool-bars-extended.md) and lower the transparency slider about **1/3**. 
+
+    ![](./images/Properties.png)
