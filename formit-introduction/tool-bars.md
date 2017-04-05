@@ -6,7 +6,7 @@ FormIt has a simple interface, with only a few user interface elements with powe
 
 The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design.
 
-![](/assets/action-tool-bar-1.png)
+![](/formit-introduction/images/action-tool-bar-1.png)
 
 1. Gallery Menu
 2. Undo and Redo
@@ -14,7 +14,7 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 4. Measure 
 5. Section
 
-![](/assets/action-tool-bar-2.png)
+![](/formit-introduction/images/action-tool-bar-2.png)
 
 4. Sketch Toolbar
 5. Primitives Toolbar
@@ -23,6 +23,14 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 5. Location 
 6. Sun, Shadows and Solar Analysis Tools
 6. Energy Analysis
+
+![](/formit-introduction/images/action-tool-bar-3.png)
+
+1. Settings
+2. Touch Mode
+3. Collaboration
+4. A360 Log in
+5. Information and Links
 
 #### Navigation Tool Bar
 
