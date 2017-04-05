@@ -4,7 +4,7 @@ Here are the key tools on the Navigation Tool Bar for moving around the design a
 
 **1. Orbit**
 ![](./images/orbit-tool.png) 
-Right click and drag, or use the orbit tool from the navigation toolbar to click drag the left mouse button to orbit.
+Right click and drag, or use the orbit tool from the navigation toolbar to click drag the left mouse button to orbit around the model.
 
 **2. Zoom**
 ![](./images/zoom.png) 
@@ -16,8 +16,8 @@ Click and drag the middle mouse button, or use the pan \(hand\) tool from naviga
 
 **4. Walkthrough**
 ![](./images/jet-pack.png)
-The “Jetpack” allows you to walk and fly through the scene. This will be covered in detail in a later section.
+The “Jetpack” mode allows you to walk through the scene using keyboard inputs AWSD, then move up or down with Q and E - and even fly with the space bar.
 
 **5. Swivel**
 ![](images/Swivel.PNG)
-Use the swivel tool from the navigation toolbar to swivel around the scene from a specific point. 
+Use the swivel tool from the navigation toolbar to look around the scene from a stable point. 

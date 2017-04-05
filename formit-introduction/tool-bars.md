@@ -53,7 +53,6 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 2. Zoom Extents 
 3. Zoom to Selected
 
-
 #### Palette Tabs
 
 ![](/formit-introduction/images/Palette Bar-All-1.png)
