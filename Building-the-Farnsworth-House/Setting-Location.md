@@ -20,5 +20,5 @@ Setting your project’s location in the world is important for the accuracy of 
     ![](./images/894bd8ae-cb86-4330-ae3f-fe58ac39ab73.png)
     
 5. The Satellite image is imported to real world scale with true North facing up
-    - Go to the [**Visual Styles Palette**](../tool-library/tool-bars-extended.md) and enable **North Arrow** to see an interactive indicator of true north.
-    - Once back in the 3D scene, **select the satellite image** by doubleclicking. Open the [**Properties Palette**](../tool-library/tool-bars-extended.md) and lower the transparency slider about **1/3**. ![](./images/038168bf-b019-4a1f-8fb7-308ae4fe218e1.png)
+6. Go to the [**Visual Styles Palette**](../tool-library/tool-bars-extended.md) and enable **North Arrow** to see an interactive indicator of true north.
+7. Once back in the 3D scene, **select the satellite image** by doubleclicking. Open the [**Properties Palette**](../tool-library/tool-bars-extended.md) and lower the transparency slider about **1/3**. ![](./images/038168bf-b019-4a1f-8fb7-308ae4fe218e1.png)
