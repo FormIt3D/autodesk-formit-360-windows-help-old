@@ -1,7 +1,9 @@
 ### Work with Images and the Ground Plane
 
-You may import PNG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will place a material texture onto a plane. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly in the scene.
+You may import PNG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will place a material texture onto a plane that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly in the scene
 
+
+1. Click the Top View icon to see the scene from above
 
 
 1. Choose the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) and draw a rectangle **144'** by **96'** - use the **Tab key** to type in exact dimensions.
