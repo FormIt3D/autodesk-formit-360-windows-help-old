@@ -76,7 +76,7 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 
 The Context Menu is a circular menu with options to edit the selected element. The context menu will show you different tools depending on what you have selected
 
-![](/formit-introduction/images/Palette Bar-All-1.png)
+![](/formit-introduction/images/ContextMenu_Intro.png)
 
 
 
