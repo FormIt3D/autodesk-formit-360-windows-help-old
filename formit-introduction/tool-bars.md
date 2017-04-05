@@ -80,7 +80,7 @@ The Context Menu is a circular menu with options to edit the selected element. T
 
 #### Keyboard Shortcuts
 
-The [Keyboard shortcuts](/Appendix/keyboard-shortcuts.md) in FormIt are accessible via the Edit menu, preferences... and can be customized here
+The [Keyboard shortcuts](/Appendix/keyboard-shortcuts.md) in FormIt are accessible via the Edit menu, preferences... and can be customized
 
 ![](/formit-introduction/images/keyboardShortcuts.png)
 
