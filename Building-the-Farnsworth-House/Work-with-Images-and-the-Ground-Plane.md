@@ -11,9 +11,9 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
     ![](./images/rectangleToolbar.png)  
 
-3. While the dimension string is on the screen, click the **Tab key** to bring up a dialog box that allows you to type in exact dimensions
+3. While the dimension string is on the screen, click the **Tab key** to bring up a dialog box that allows you to type in exact dimensions. Click OK
 
-    ![](./images/49fbf65d-2c44-4cc3-9bc6-e172cd19ca81.png)
+    ![](./images/RectangleCanvas.png)
 
 2. Open the [**Material Palette**](../formit-introduction/tool-bars.md) and click the **+** icon to create a new material.
 
