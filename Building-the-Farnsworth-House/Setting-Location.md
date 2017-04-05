@@ -7,9 +7,8 @@ Setting your project’s location in the world is important for the accuracy of 
 
 1. Click the Location Icon from the toolbar
  
-2. Set location to *Farnsworth House*:
-    - Type ***Farnsworth House*** in the search field. Google Maps will fill in the actual location.
-    - As soon as you commit the location search, the location is set to the center of the view.
+2. Search for *Farnsworth House*:
+
 
 2. You can now click **Finish** to set the location and return to the 3D scene.
 
