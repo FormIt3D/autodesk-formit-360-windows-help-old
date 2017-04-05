@@ -11,7 +11,7 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
     ![](./images/rectangleToolbar.png)  
 
-3. While the dimension string is on the screen, click the **Tab key** to bring up a dialog box that allows you to type in exact dimensions. Click OK
+3. While the dimension string is on the screen, click the **Tab key** to bring up a dialog box that allows you to type in exact dimensions. Click OK to commit the dimension. Click Esc to clear the Rectangle tool
 
     ![](./images/RectangleCanvas.png)
 
