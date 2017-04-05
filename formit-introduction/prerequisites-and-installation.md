@@ -2,8 +2,9 @@
 
 * FormIt for Windows. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
 
-* Revit 2016, 2017, or 2018  
-  **Note:** _This is only required for the section on Revit Interoperability_
+* An Autodesk 360 Account. You can create one for free from [**A360.com**](https://a360.autodesk.com/)
+
+* Revit 2016, 2017, or 2018  - _This is only required for the section on Revit Interoperability_
 
 ![](/formit-introduction/images/splash_screen.png)
 
