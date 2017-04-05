@@ -1,4 +1,4 @@
-### Work with Images and the Ground Plane
+### Setting up the Project with Images and the Ground Plane
 
 You may import PNG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will place a material texture onto a plane that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly in the scene
 
@@ -47,9 +47,13 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
     ![](./images/SetAxis.png)
 
-8. Move the axis to the bottom left corner of the of the rectanle. Move the red axis so that it is alinged to the bottom edge of the plane. Click off in space to commit this change. 
+8. The Set Axis widget appears. Move the axis to the bottom left corner of the of the rectanle. Click to place it
 
-9. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
+9. Click the grip at the end of the red axis. Move the grip so that it snaps to the bottom edge of the plane. Click off in space to commit this change
 
     ![](./images/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
+
+9. The satellite image, the rectangle and the grid are now aligned – which will make 3D sketching much easier
+
+![](./images/SiteFinished.png)
 
