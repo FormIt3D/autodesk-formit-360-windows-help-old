@@ -9,9 +9,9 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 2. Choose the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) from the 3D Sketch toolbar and draw a rectangle **144'** by **96'**
 
-![](./images/TopView.png)  
+    ![](./images/rectangleToolbar.png)  
 
-3. use the **Tab key** to bring up a dialog box that allows you to type in exact dimensions
+3. While the dimension string is on the screen, click the **Tab key** to bring up a dialog box that allows you to type in exact dimensions
 
     ![](./images/49fbf65d-2c44-4cc3-9bc6-e172cd19ca81.png)
 
