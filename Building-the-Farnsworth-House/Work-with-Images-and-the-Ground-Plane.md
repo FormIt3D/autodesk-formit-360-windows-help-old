@@ -33,15 +33,21 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 6. Now we'll rotate the rectangle to align with the Satellite image. **Double-click** the **rectangle** to select it 
 
-7. **Right click** to bring up the context menu. Choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md). 
+7. **Right click** to bring up the context menu. Choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md)
 
     ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263.png)
 
-8. The Rotate widget appears. Move the Rotate widget to the bottom left corner of the rectangle. It will snap to the corner. Hit the Tab key and input **9 degrees counter clockwise**.
+8. The Rotate widget appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it
 
+9. Hit the Tab key and input **9 degrees** the rectangle will rotate counter clockwise
 
+    ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263_2.png)
 
-7. **Right click** on the **ground plane** and choose [**Set Axes (SZ)**](../tool-library/world-axes.md). Move the axis to the bottom left corner of the of the image plane. Move the axis so that it is alinged to the angle of the plane. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
+7. Now we will align the grid with the Satellite image and the floor plan. **Right click** on the **ground plane** and choose [**Set Axes (SZ)**](../tool-library/world-axes.md). 
+
+8. Move the axis to the bottom left corner of the of the rectanle. Move the red axis so that it is alinged to the bottom edge of the plane. Click off in space to commit this change. 
+
+9. The ground plan grid is now aligned to the image – which will make 3D sketching much easier.
 
     ![](./images/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
 
