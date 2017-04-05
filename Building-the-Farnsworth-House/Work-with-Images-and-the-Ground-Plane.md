@@ -21,17 +21,21 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 3. Name the new material **Floor Plan**
 
-4. Find the Texture preview tile and click the **folder icon**, browse to **plan.png** in the **FormIt Primer release\Part 1 datasets\drawings** folder, click OK
+4. Import the image texture. Find the Texture preview tile and click the **folder icon**, browse to **plan.png** in the **FormIt Primer release\Part 1 datasets\drawings** folder, click OK
 
 4. Change the scale of the image. Enter **144'** in the Horizontal field and **96'** in the Vertical field, click OK to finish the material
 
     ![](./images/8f0f2e11-ecfb-484d-94f6-0930c8ad7b20.png)
 
-5. In the [**Material Palette**](../formit-introduction/tool-bars.md) **single click** on the **Floor Plan material tile** to paint with this material
-6. Click on the **rectangle** you sketched
-![](./images/ec9f4404-281a-4fb4-a104-e3dd92f67e62.png)
+5. In the [**Material Palette**](../formit-introduction/tool-bars.md) **single click** on the **Floor Plan material** tile to paint with this material
 
-6. **Double-click** the **entire plane** to select it. **Right click** and choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md). Move the Rotate widget to the bottom left corner and rotate the image **9 degrees counter clockwise**.
+6. Click on the **rectangle** you sketched to paint it with the material. Click **Esc** to clear the paintbrush tool
+
+6. Now we'll rotate the rectangle to align with the Satellite image. **Double-click** the **rectangle** to select it 
+
+7. **Right click** to bring up the context menu. Choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md). 
+
+8. Move the Rotate widget to the bottom left corner of the rectangle. It will snap to the corner. Hit the Tab key and input **9 degrees counter clockwise**.
 
     ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263.png)
 
