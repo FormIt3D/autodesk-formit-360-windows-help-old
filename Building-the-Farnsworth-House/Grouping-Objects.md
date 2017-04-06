@@ -4,7 +4,7 @@ When you draw lines on an existing object, the new lines "stick" to the existing
 
 If you did not complete the last section, download and open the **farnsworth02.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-#### Create and Edit a Group
+#### Create a Group
 
 1. Select the upper terrace mass by **double clicking** it
 
@@ -12,7 +12,17 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
     ![](./images/c2f57781-ec11-4fbd-87b0-c5fd33ad8b07.png)
 
-3. Select the Group by single-clicking. **Move** the entire Group up **4'-6"**. Press and hold the **Shift key** when the blue Z axis guide appears to lock onto that axis. 
+3. Select the mass with a **single click** and notice that you are in the Move tool. 
+
+#### Move a Group
+
+4. Turn on Grid Snapping by clicking SG
+
+4. Click once on the lower edge of the mass. then move your cursor 'up' and you should see a blue axis line appear
+
+5. Press and hold the **Shift key** when the blue Z axis guide appears to lock onto that axis
+
+6. Press the **Tab key** and enter **4'-6"**. This will move the entire mass up 
 
     ![](./images/293f6046-366c-43ca-858b-389f0c260be6.png)
 
