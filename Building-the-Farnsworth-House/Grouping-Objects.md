@@ -6,9 +6,9 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 #### Create and Edit a Group
 
-1. **Double click** to select the **upper terrace mass** that you created in the previous exercises
+1. Select the upper terrace mass by **double clicking** it
 
-2. **Right click** and create a **Group (G)**. 
+2. **Right click** and **Group (G)**
 
     ![](./images/c2f57781-ec11-4fbd-87b0-c5fd33ad8b07.png)
 
