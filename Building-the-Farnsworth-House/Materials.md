@@ -24,6 +24,15 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
 
+5. Click **Esc** twice to clear the tool, and the selection
+
+6. **Single click** the top face to select it, then click again to start the drag face tool. Push the face all the way down, until it disappears
+
+     ![](./images/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
+
+7. End **Edit Group mode** by double clicking off in space
+
+
 #### Import a New Material
 1. Edit the **Glass Walls group** by double-clicking.
 
