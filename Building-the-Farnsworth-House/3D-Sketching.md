@@ -40,30 +40,21 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
     ![](./images/UpperTerraceSketch_3.png)
 
-14. **Single click** to start the drag face operation. Click **Tab** and input **12'-2"**. You've created a mass!
+14. **Single click** to start the drag face operation. Move your mouse up to drag in that direction. Click **Tab** and input **12'-2"**. You've created a mass!
 
     ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
-**Note**: _The red and green axes keep you at 90 degrees. When you draw at an angle to the grid, a purple guide will allow you to stay 90 degrees relative to your current line._
+**Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off axis line_
 
-#### Optional – 3D Sketching with the Rest of the Tools
+#### Optional – 3D Sketching with Arc, Spline, and Circle
 
 The following exercise is not critical to finishing the house. It will allow you to experiment with some of the other 3D Sketching tools.
 
-1. In the [**Action Tool Bar**](../formit-introduction/tool-bars.md), select the Sketch tools (pencil icon) and select the [**Arc tool**](../tool-library/arc-tool.md).
-  * Click to define the first and second point similar to the Line tool.
-  * The third drag defines the radius of the circle that defines the arc.
-  * **Note:** _As with all sketching tools, you can use the red snap points to snap to other objects in the scene._
+2. Select the [**Arc tool**](../tool-library/arc-tool.md). Click to define the start, and then the end point. The third click defines the radius of the circle that defines the arc
 
-3. Select the [**Spline Tool**](../tool-library/spline-tool.md).
+3. Select the [**Spline Tool**](../tool-library/spline-tool.md). Click to define any number of points to draw a spline
 
-  * Click to define any number of points to draw a spline
+4. Select the [**Circle Tool**](../tool-library/circle-tool.md). Hover and Click to define the center point of the circle. Click and drag to define the radius of the circle.
 
-4. Select the [**Circle Tool**](../tool-library/circle-tool.md).
-
-  * Hover and Click to define the center point of the circle.
-  * Click and drag to define the radius of the circle.
-
-
-**Important Note:** _When you snap any curve segment to any other point, line or object face/edge/point, the objects will now be joined as one object. To avoid this, we will use Groups in a later exercise._
+**Note:** _When you snap any curve segment to any other point, line or object face/edge/point, the objects will now be joined as one object. To avoid this, we will use Groups in a later exercise._
 
