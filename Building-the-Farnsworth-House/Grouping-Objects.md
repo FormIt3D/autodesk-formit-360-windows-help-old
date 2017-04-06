@@ -44,15 +44,17 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 1. If you had applied Levels to geometry in the previous exercise, then you will have to re-apply Levels to the new group you just created
 
-2. Select the **main building** group by single-clicking it
+2. Select the **main building** group by **single-click** on it
 
-2. Go to the [**Properties Palette**](../formit-introduction/tool-bars.md) of the Palette Bar check the **Use Levels**
+2. Go to the [**Properties Palette**](../formit-introduction/tool-bars.md) and check **Use Levels**
 
-3. Check only the **Floor 1** Level - and uncheck the others
+3. Check only the **Floor 1** Level and uncheck the other Levels
 
     ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
 
 3. The **Area by Level** field will display gross area of the currently selected object(s) and the area of each individual level
 
-4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**.
+4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**
+
+5. Unselect the Group by clicking **Esc** or single clicking off in space
 
