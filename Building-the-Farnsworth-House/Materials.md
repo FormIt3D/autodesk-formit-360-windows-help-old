@@ -107,6 +107,6 @@ _**Note:** This is a special painting technique that allows you to paint differe
 
 6. In the **Materials Palette**, find the **Travertine** material and **Double click** the preview tile
 
-7. This launches the **Material Editor**. Click the **Color value** and change it to **190** to lighten the effect of the material. 
+7. This launches the **Material Editor**. Click the **Color** preview. Change the **Val** to **190** to lighten the **tint** on the material 
 
      ![](./images/7d23f82c-2f5f-4e09-b3bf-24841cccbd0a.png)
