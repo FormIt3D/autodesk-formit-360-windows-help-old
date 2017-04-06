@@ -24,7 +24,7 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 
 6. In the [**Properties Palette**](../formit-introduction/tool-bars.md), click **Use Levels** 
 
-7. You can uncheck Levels you don't want applied to your mass. **Uncheck** Floor 1 and Terrace so only the **Level 1** is checked 
+7. You can uncheck Levels you don't want to contribute towards gross area. **Uncheck** Floor 1 and Terrace so only the **Level 1** is checked 
 
 8. The Properties Palette now reads the area of this mass!
 
