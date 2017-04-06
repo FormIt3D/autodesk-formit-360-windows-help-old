@@ -16,15 +16,21 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
     ![](./images/3DSketchLineTool.png)
 
-4. You are ready to start sketching with straight lines segments. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes. Now let's start by creating a rectangle on the ground plane
+4. You are ready to start sketching out the upper terrace of the Farnsworth house. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes. Now let's start by creating a rectangle on the imported image
 
 6. Click **Settings &gt; turn off Snap to Grid \(S G\)**
 
-7. With the **Line tool**, click near **one corner** of the upper terrace in the imported sketch. **Move** your mouse along the axis that appears. This will define the long edge of the upper terrace. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"** then the short side **28'-8**"
+7. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch 
+
+8. **Move** your mouse along the red axis that appears. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"** 
 
     ![](./images/UpperTerraceSketch.png)
 
-9. Enclose the rectangle by drawing all four edges. Press **Esc** twice to clear the sketch tool. **Single click** to select the face you just created, then click again to drag the face up. Click **Tab** again and input **12'-2"**
+9. **Move your mouse** down along the green axis to define the short edge of the upper terrace. Set the dimension of the short side **28'-8**"
+
+10. To define the other edge of the rectangle, **move your mouse** along the red axis. Hold down the **Shift key** to lock the line to this axis. The red line will thicken to indicate it is locked! 
+
+11. While the **Shift key** is pressed - move your mouse to the first point you drew. our edges. Press **Esc** twice to clear the sketch tool. **Single click** to select the face you just created, then click again to drag the face up. Click **Tab** again and input **12'-2"**
   
     ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
