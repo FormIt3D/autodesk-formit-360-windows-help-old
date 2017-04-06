@@ -30,7 +30,7 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 5. Rename the Group in the [**Properties Palette**](../tool-library/tool-bars-extended.md) 
 
-6. Name the Group **"main building"**
+6. Name the Group **"main building"**. We'll talk about the Category option in future steps
 
     ![](./images/93c9106d-7676-4cd7-b5e2-b00a56c4e30f.png)
 
