@@ -1,26 +1,30 @@
 ### 3D Sketching
 
-Placing primitives is fine, but the real power of FormIt lies in the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+Placing primitives is a fast way to get started, but the real power of FormIt is the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### 3D Sketching with Lines
 
-1. To group the image plan in order to prevent sketched lines from "sticking", select the plane by double-clicking it, right-click and choose **Group \(G\)**.
+1. Make sure that you're in the **3D Perspective** view by clicking the 3D cube in the Navigation bar
 
-2. Click the **Pencil** to open the [**Sketching Toolbar**](../formit-introduction/tool-bars.md).
+  ![](./images/3D_View.png)
 
-3. Choose the [**Line tool (L)**](../tool-library/line-tool.md).
+1. **Group** the rectangle in order to prevent new geometry from "sticking" to it. **Double click** the rectangle to select it. **Right-click** and choose **Group \(G\)**
 
-4. You can immediately start to sketch using straight lines segments. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes.
+  ![](./images/GroupContext.png)
 
-5. Start with creating a rectangle on the ground plane.
+2. Click the **Pencil** to open the [**Sketching Toolbar**](../formit-introduction/tool-bars.md) Choose the [**Line tool (L)**](../tool-library/line-tool.md)
 
-  * Click **Settings &gt; turn off Snap to Grid \(S G\)**.
-  * With the **Line tool**, click on **one corner** of the imported sketch. **Drag** along to define one edge of the upper terrace.
-  * Use the **Tab key** to input exact dimensions. Make the long side **77'-4 1\8"** and the short side **28'-8**".
-  * Press **Esc**. You are back in Select mode. You can now select the top face and immediately pull the volume up **12'-2"**. 
+  ![](./images/3DSketchLineTool.png)
+
+4. You are ready to start sketching with straight lines segments. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes. Now let's start by creating a rectangle on the ground plane
+
+6. Click **Settings &gt; turn off Snap to Grid \(S G\)**
+
+7. With the **Line tool**, click near **one corner** of the upper terrace in the imported sketch. **Move** your mouse along the axis that appears. This will define long edge of the upper terrace. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"** then the short side **28'-8**"
+
+9. Enclose the rectangle by drawing all four edges. Press **Esc** twice to clear the sketch tool. **Single click** to select the face you just created, then click again to drag the face up. Click **Tab** again and input **12'-2"**
   
     ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
-
 
 **Note**: _The red and green axes keep you at 90 degrees. When you draw at an angle to the grid, a purple guide will allow you to stay 90 degrees relative to your current line._
 
