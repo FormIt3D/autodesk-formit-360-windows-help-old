@@ -1,5 +1,5 @@
 ###Materials
-As we saw in the last exercise, you can apply materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Materials library.
+As we saw in the previous exercise, you can apply materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Materials library.
 
 #### Create the glass walls
 1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the floor, **28'-8" x 55'-5 ½"**.
