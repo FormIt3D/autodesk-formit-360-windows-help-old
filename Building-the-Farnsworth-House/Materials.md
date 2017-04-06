@@ -79,11 +79,17 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/WhiteConcrete.png)
 
-5. Single click the Paintbrush tool on the Roof group. The entire group is painted
+5. Single click the **Roof group** to paint it with the material. The entire group is painted!
 
-**Note:** This is a special painting technique that allows you to paint different instances of a group with different materials 
+_**Note:** This is a special painting technique that allows you to paint different instances of a group with different materials_
 
-3. Create the lower terrace by following the plan and using the Rectangle tool ( R ) **55' 3" long and 22'-7 3/4" wide** and extruding it **1'**. Group this and name it **Lower Terrace**.
+#### Create the Lower Terrace
+
+3. Find the lower terrace on the floor plan and using the **Rectangle tool (R)** 
+
+4. Draw a rectangle **55' 3" long and 22'-7 3/4" wide**, then extrude it **1'**
+
+5. Select and group the geometry, edit the group and name it **Lower Terrace**
 
 4. Move it **2'-2"** off the ground.
 
