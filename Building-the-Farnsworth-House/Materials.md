@@ -71,7 +71,15 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 #### Edit the Roof
 
-2. Make the copied Group unique, edit it and name it **Roof**. Import and paint the Roof with the material **Concrete &gt; White**.
+2. While the copied group is still selected, use the **Make Unique (MU)** command
+
+3. **Double click** the group, re-name the group **Roof** in the **Properties Palette** 
+
+4. Import the **Concrete &gt; White** material. **Single click** the material tile so you can paint with it
+
+5. Single click the Paintbrush tool on the Roof group. The entire group is painted. 
+
+**Note:** This is a special painting technique that allows you to paint different instances of a group with different materials 
 
 3. Create the lower terrace by following the plan and using the Rectangle tool ( R ) **55' 3" long and 22'-7 3/4" wide** and extruding it **1'**. Group this and name it **Lower Terrace**.
 
