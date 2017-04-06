@@ -30,7 +30,7 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 5. Rename the Group in the [**Properties Palette**](../tool-library/tool-bars-extended.md) 
 
-6. Name the Group **"main building"**. We'll talk about the Category option in future steps
+6. Name the Group **"main building"**. We'll talk about the **[Category option in future steps](/Building-the-Farnsworth-House/Revit-Interop.md)**
 
     ![](./images/93c9106d-7676-4cd7-b5e2-b00a56c4e30f.png)
 
@@ -44,7 +44,7 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 1. If you had applied Levels to geometry in the previous exercise, then you will have to re-apply Levels to the new group you just created
 
-2. Select the **main building** group by **single-click** on it
+2. Select the **main building** group by **single-clicking** on it
 
 2. Go to the [**Properties Palette**](../formit-introduction/tool-bars.md) and check **Use Levels**
 
