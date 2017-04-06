@@ -9,11 +9,17 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
      
      ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
-3. Select the **massing Group** and choose the **massing layer** from the "Selection On" menu in the Layers Palette.
+3. Select the **main building** mass and choose the **massing layer** from the **Selection On** drop down in the Layers palette
 
-4. Create a copy of the Group by pressing **Ctrl+C** and then **Ctrl+V**.
+### Duplicate Group
 
-5. Right click on the copied Group and choose **Make Unique (MU)**. The Group is now its own unique Group and will not update with the other one. 
+4. Create a copy of the Group by selecting it with a **single click** 
+
+5. Press **Ctrl+C** to copy, and then **Ctrl+Shift+V** to paste the mass in the same place
+
+5. The **new** copy is still selected. **Right click** and choose **Make Unique (MU)**. 
+
+**Note**: The new Group is now severed from the original and will not update with the other one
 
      ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
 
