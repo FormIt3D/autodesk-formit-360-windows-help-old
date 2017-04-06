@@ -93,13 +93,16 @@ _**Note:** This is a special painting technique that allows you to paint differe
 
 5. **Double click** to select the geometry, then **Group (G)** it
 
-     ![](./images/WhiteConcrete.png)
+6. **Double click** to edit the group and name it **Lower Terrace**. **Double click** off in space to exit the group
+
+     ![](./images/UpperTerraceSketch_10.png)
 
 6. **Double click** to edit the group and name it **Lower Terrace**
+4. **Single click** to select the Lower Terrace group. Click one of the corners and move it up **2'-2"** off the ground plane
 
-4. Move it **2'-2"** off the ground
+5. Import the material **Stone &gt; Travertine**
 
-5. Import and paint the Floor 1 and Lower Terrace with the material **Stone &gt; Travertine**.
+6. Paint the **Floor 1** and **Lower Terrace** groups with the **Travertine** material 
 
 6. Edit the Travertine material in both groups. Click the **Color value** and change it to **190** to lighten the effect of the material. 
 
