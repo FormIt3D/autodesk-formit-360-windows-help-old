@@ -62,10 +62,11 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 3. Start moving the Floor up along the blue axis. Create a **quick copy** by clicking the **Ctrl key**. A "ghost" preview of the copy should appear 
 
-     ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
+     ![](./images/UpperTerraceSketch_9.png)
 
 4. While dragging along the blue axis, click the **Tab key** and enter **12' 2"**
 
+     ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
 
 2. Make the copied Group unique, edit it and name it **Roof**. Import and paint the Roof with the material **Concrete &gt; White**.
 
