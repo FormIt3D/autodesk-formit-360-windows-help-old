@@ -77,7 +77,9 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 4. Import the **Concrete &gt; White** material. **Single click** the material tile so you can paint with it
 
-5. Single click the Paintbrush tool on the Roof group. The entire group is painted. 
+     ![](./images/WhiteConcrete.png)
+
+5. Single click the Paintbrush tool on the Roof group. The entire group is painted
 
 **Note:** This is a special painting technique that allows you to paint different instances of a group with different materials 
 
