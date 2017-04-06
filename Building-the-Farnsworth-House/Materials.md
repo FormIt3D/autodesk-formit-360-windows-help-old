@@ -85,13 +85,19 @@ _**Note:** This is a special painting technique that allows you to paint differe
 
 #### Create the Lower Terrace
 
-3. Find the lower terrace on the floor plan and using the **Rectangle tool (R)** 
+3. Find the **lower terrace** on the floor plan and zoom into that area. 
 
-4. Draw a rectangle **55' 3" long and 22'-7 3/4" wide**, then extrude it **1'**
+4. You may need to toggle **Snap to Grid (SG)** on or off to hit the corner of image
 
-5. Select and group the geometry, edit the group and name it **Lower Terrace**
+4. Draw a **Rectangle (R)** **55' 3" long and 22'-7 3/4" wide**, then extrude it **1'**
 
-4. Move it **2'-2"** off the ground.
+5. **Double click** to select the geometry, then **Group (G)** it
+
+     ![](./images/WhiteConcrete.png)
+
+6. **Double click** to edit the group and name it **Lower Terrace**
+
+4. Move it **2'-2"** off the ground
 
 5. Import and paint the Floor 1 and Lower Terrace with the material **Stone &gt; Travertine**.
 
