@@ -33,7 +33,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 7. End **Edit Group mode** by double clicking off in space
 
 
-#### Import a New Material
+#### Import a Material from the Autodesk Material Library
 1. Edit the **Glass Walls** group by double-clicking into it
 
 2. Select the [**Materials Palette**](../formit-introduction/tool-bars.md)
@@ -42,7 +42,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
      
      ![](./images/00cac281-dff8-4ff3-8ba3-c13bb868ebc1.png)
 
-4. From the Materials Library, choose **Glazing** from the menu and then choose **Blue Reflective**. 
+4. In Materials Library dialog, choose **Glazing** from the categories on the left, and then choose **Blue Reflective**, and click **OK** 
 
      ![](./images/63c0bcfa-98af-48ec-ac30-44fbed8c802b.png)
 
