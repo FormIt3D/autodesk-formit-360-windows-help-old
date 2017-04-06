@@ -20,7 +20,7 @@
   * [Project Set Up With Images and Grid](Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)
   * [3D Sketch and Drag Face](Building-the-Farnsworth-House/3D-Sketching.md)
   * [Add Floors with Levels](Building-the-Farnsworth-House/Adding-Floors-with-Levels.md)
-  * [Grouping Objects](Building-the-Farnsworth-House/Grouping-Objects.md)
+  * [Group Objects](Building-the-Farnsworth-House/Grouping-Objects.md)
   * [Materials](Building-the-Farnsworth-House/Materials.md)
   * [Control Visibility with Layers](Building-the-Farnsworth-House/Control-Visibility-with-Layers.md)
   * [Creating Columns with Array](Building-the-Farnsworth-House/Creating-Columns-with-Array.md)
