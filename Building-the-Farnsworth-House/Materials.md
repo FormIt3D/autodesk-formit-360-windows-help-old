@@ -73,7 +73,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 2. While the copied group is still selected, use the **Make Unique (MU)** command
 
-3. **Double click** the group, re-name the group **Roof** in the **Properties Palette** 
+3. **Double click** the group to edit it. Re-name the group **Roof** in the **Properties Palette** 
 
 4. Import the **Concrete &gt; White** material. **Single click** the material tile so you can paint with it
 
