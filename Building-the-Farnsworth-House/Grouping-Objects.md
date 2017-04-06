@@ -34,20 +34,25 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
     ![](./images/93c9106d-7676-4cd7-b5e2-b00a56c4e30f.png)
 
-5. Close the edit mode by clicking on the **check mark** in the upper left, or by single clicking, or double clicking off in space
+5. Close out of Group Edit mode by clicking on the **check mark** in the panel on the upper left corner of the canvas - or double click off in space
 
     ![](./images/3b0e7944-9cb1-4852-9b3b-aedf75fc5270.png)
 
-**Note**: *Each Group has their own undo/redo "stack" that is distinct from the overall project.*
+**Note**: *Each Group has their own undo/redo "stack" that is distinct from the overall project - you can click the undo and redo arrows in this panel.*
 
 #### Apply Levels to a Group
 
-1. Select the **main building by single-clicking** and open the [**Properties Palette**](../formit-introduction/tool-bars.md) of the Palette Bar.
+1. If you had applied Levels to geometry in the previous exercise, then you will have to re-apply Levels to the new group you just created
 
-2. Check the **Use Levels ON**. This will "slice" these masses by the levels you choose. Click **Check All**.
+2. Select the **main building** group by single-clicking it
 
-3. The **Area by Level** will display gross area of the currently selected object(s) and the area of each individual level.
+2. Go to the [**Properties Palette**](../formit-introduction/tool-bars.md) of the Palette Bar check the **Use Levels**
+
+3. Check only the **Floor 1** Level - and uncheck the others
+
+    ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
+
+3. The **Area by Level** field will display gross area of the currently selected object(s) and the area of each individual level
 
 4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**.
 
-     ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
