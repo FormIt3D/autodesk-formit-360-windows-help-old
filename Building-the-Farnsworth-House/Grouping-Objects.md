@@ -16,26 +16,29 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 #### Move a Group
 
-4. Turn on Grid Snapping by clicking SG
+4. Turn Grid Snapping back on by clicking SG
 
-4. Click once on the lower edge of the mass. then move your cursor 'up' and you should see a blue axis line appear
+4. Click once on the lower corner of the mass. then move your cursor 'up' and you should see a blue axis line appear
 
-5. Press and hold the **Shift key** when the blue Z axis guide appears to lock onto that axis
-
-6. Press the **Tab key** and enter **4'-6"**. This will move the entire mass up 
+5. With the blue axis visible, press the **Tab key** and enter **4'-6"**. This will move the entire mass up 
 
     ![](./images/293f6046-366c-43ca-858b-389f0c260be6.png)
 
-4. It is important to name Groups as you will have many of them to keep track of. To name the Group, **double-click** to start the edit mode and then open the [**Properties Palette**](../tool-library/tool-bars-extended.md) to name the Group **"main building"**. <br>
+#### Edit a Group
+
+4. **Double-click** the mass to edit it. You are now in a Group Edit mode
+
+5. Rename the Group in the [**Properties Palette**](../tool-library/tool-bars-extended.md) 
+
+6. Name the Group **"main building"**
+
     ![](./images/93c9106d-7676-4cd7-b5e2-b00a56c4e30f.png)
 
-5. Close the edit mode by clicking on the **check mark** in the upper left. 
+5. Close the edit mode by clicking on the **check mark** in the upper left, or by single clicking, or double clicking off in space
 
     ![](./images/3b0e7944-9cb1-4852-9b3b-aedf75fc5270.png)
 
-
-
-**Note**: *Each Group has their own undo/redo "stack" that is distinct from the top level project.*
+**Note**: *Each Group has their own undo/redo "stack" that is distinct from the overall project.*
 
 #### Apply Levels to a Group
 
