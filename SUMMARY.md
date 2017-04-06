@@ -23,7 +23,7 @@
   * [Group Objects](Building-the-Farnsworth-House/Grouping-Objects.md)
   * [Control Visibility with Layers](Building-the-Farnsworth-House/Control-Visibility-with-Layers.md)
   * [Paint with Materials](Building-the-Farnsworth-House/Materials.md)
-  * [Creating Columns with Array](Building-the-Farnsworth-House/Creating-Columns-with-Array.md)
+  * [Create Columns with Array](Building-the-Farnsworth-House/Creating-Columns-with-Array.md)
   * [Adding Details](Building-the-Farnsworth-House/Adding-Details.md)
   * [Advanced Modeling](Building-the-Farnsworth-House/Advanced-Modeling.md)
   * [Computational Groups with Dynamo](Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.md)

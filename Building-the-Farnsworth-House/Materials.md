@@ -1,7 +1,7 @@
-###Paint with Materials
+### Paint with Materials
 As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)**, you can create your own materials, and then paint those materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Material library
 
-#### Create the glass walls
+#### Create the Glass Walls
 1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the floor
 
 2. From the back corner of the floor  **28'-8" x 55'-5 ½"**.
