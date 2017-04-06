@@ -1,8 +1,8 @@
-### 3D Sketching
+### 3D Sketch and Drag Face
 
 Placing primitives is a fast way to get started, but the real power of FormIt is the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-#### 3D Sketching with Lines
+#### Drawing Lines
 
 1. Make sure that you're in the **3D Perspective** view by clicking the 3D cube in the Navigation bar
 
@@ -36,6 +36,8 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
 12. Release the **Shift key** and click the first point you drew to finish enclosing the rectangle. Press **Esc** twice to clear the sketch tool 
 
+#### Drag the Face
+
 13. **Single click** inside the outline you just drew to select it the face. You are automatically in the drag face tool
 
     ![](./images/UpperTerraceSketch_3.png)
@@ -46,7 +48,7 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
 **Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off axis line_
 
-#### Optional – 3D Sketching with Arc, Spline, and Circle
+#### 3D Sketching with Arc, Spline, and Circle
 
 The following exercise is not critical to finishing the house. It will allow you to experiment with some of the other 3D Sketching tools.
 

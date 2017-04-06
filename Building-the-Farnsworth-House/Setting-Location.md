@@ -1,9 +1,7 @@
-### Setting Location
+### Set the Location
 
 Setting your project’s location in the world is important for the accuracy of down-stream analyses. It also allows you to import a scaled satellite image to use as a background reference. This is an ideal first step on almost every FormIt project.
 
-
-#### Set Location:
 
 1. Click the Location Icon from the toolbar
 

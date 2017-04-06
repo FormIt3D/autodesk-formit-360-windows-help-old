@@ -1,9 +1,9 @@
 ###Levels
-Levels allow you to slice masses into individual floors and calculate gross area for the entire project - or by building. 
-FormIt Levels will translate to Revit Levels when the file is converted.
+Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels translate to Revit Levels when the file is converted to Revit
 
 #### Create, Edit, and Apply Levels
-1. You can create new levels using the [**Level Palette**](../formit-introduction/tool-bars.md) in the **Palette Bar**.
+1. Create levels using the [**Level Palette**](../formit-introduction/tool-bars.md) in the **Palette Bar**.
+
 
 2. Click **+** (**Add Level**) four times to add a single Level at **0’-0", 2'-2" , 4’-6" **and** 15’-8"** (you can also click the **++** icon to create multiple levels – handy for tall buildings).
 

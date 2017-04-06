@@ -1,7 +1,8 @@
-### Project set up with Images and Grid
+### Project Set Up With Images and Grid
 
 You may import PNG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will place a material texture onto a plane that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly in the scene
 
+#### Import an Image to scale
 
 1. Click the Top View icon from the Navigation Bar to see the scene from above
 
@@ -31,6 +32,8 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 6. Click on the **rectangle** you sketched to paint it with the material. Click **Esc** to clear the paintbrush tool
 
+#### Align the Imported Image to the Satellite Image
+
 6. Now we'll rotate the rectangle to align with the Satellite image. **Double-click** the **rectangle** to select it 
 
 7. **Right click** to bring up the context menu. Choose [**Rotate (Q)**](../tool-library/placing-and-modifying-objects/rotate.md)
@@ -42,6 +45,8 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 9. Hit the Tab key and input **9 degrees** the rectangle will rotate counter clockwise
 
     ![](./images/eab003c6-c95c-4003-9068-0eb43f41a263_2.png)
+
+#### Align the Grid to the Satellite Image
 
 7. Now we will align the grid with the Satellite image and the floor plan. **Right click** on the **ground plane** and choose [**Set Axes (SZ)**](../tool-library/world-axes.md). 
 
