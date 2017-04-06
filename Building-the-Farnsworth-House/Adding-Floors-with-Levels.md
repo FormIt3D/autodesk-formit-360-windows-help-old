@@ -28,7 +28,7 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 
 8. The Properties Palette now reads the area of this mass!
 
-    ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
+    ![](./images/LevelsProperties.png)
     
 **Note**: You can click the **++** icon to create multiple levels, a specificed distance apart. Very handy for tall buildings
 
