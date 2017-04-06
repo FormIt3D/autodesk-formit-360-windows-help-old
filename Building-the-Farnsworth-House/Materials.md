@@ -46,9 +46,11 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/63c0bcfa-98af-48ec-ac30-44fbed8c802b.png)
 
-5. **Right-click** on the Blue Reflective material you just imported and choose **Paint with Material**. **Double-click the Glass Walls group** to apply the material.
+5. In the Materials palette, **Single click** on the preview tile for the Blue Reflective material you just imported, now you can paint with this material
 
-**Note**: *Much like undo/redo, materials are applied and edited on a per group basis.*
+6. **Double click** the **Glass Walls** geometry to apply the material to the entire object
+
+#### Copy the Floor to Create the Roof
 
 1. **Copy the Floor 1 Group** to create the roof by holding the **Ctrl key** down while **dragging** the group. 
 
