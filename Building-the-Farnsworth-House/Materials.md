@@ -50,9 +50,13 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 6. **Double click** the **Glass Walls** geometry to apply the material to the entire object
 
+7. Click **Esc** to exit the **Paintbrush** tool, then **double click** off in space to exit the group
+
 #### Copy the Floor to Create the Roof
 
-1. **Copy the Floor 1 Group** to create the roof by holding the **Ctrl key** down while **dragging** the group. 
+1. Select the **Floor 1** group with a **single click** 
+
+2. Click one of the lower corners to start the **Move** tool. Create a **quick copy** by clicking the **Ctrl key** while **dragging** the mouse up along the blue axis 
 
      ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
 
