@@ -34,6 +34,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 
 #### Import a Material from the Autodesk Material Library
+
 1. Edit the **Glass Walls** group by double-clicking into it
 
 2. Select the [**Materials Palette**](../formit-introduction/tool-bars.md)
@@ -56,7 +57,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 #### Quick Copy the Floor to Create the Roof
 
-1. Select the **Floor 1** group with a **single click** 
+1. Select the **Floor** group with a **single click** 
 
 2. Click one of the lower corners to start the **Move** tool 
 
@@ -67,6 +68,8 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 4. While dragging along the blue axis, click the **Tab key** and enter **12' 2"**
 
      ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
+
+#### Edit the Roof
 
 2. Make the copied Group unique, edit it and name it **Roof**. Import and paint the Roof with the material **Concrete &gt; White**.
 
