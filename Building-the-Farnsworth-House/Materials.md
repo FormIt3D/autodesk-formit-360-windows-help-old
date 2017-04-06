@@ -103,10 +103,12 @@ _**Note:** This is a special painting technique that allows you to paint differe
 
 5. Import the material **Stone &gt; Travertine**
 
-6. **Paint** the **Floor 1** and **Lower Terrace** groups with the **Travertine** material 
-
 6. In the **Materials Palette**, find the **Travertine** material and **Double click** the preview tile
 
 7. This launches the **Material Editor**. Click the **Color** preview. Change the **Val** to **190** to lighten the **tint** on the material 
 
      ![](./images/7d23f82c-2f5f-4e09-b3bf-24841cccbd0a.png)
+     
+6. **Paint** the **Floor 1** and **Lower Terrace** groups with the **Travertine** material 
+
+     ![](./images/UpperTerraceSketch_11.png)
