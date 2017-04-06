@@ -20,7 +20,7 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
 6. Click **Settings &gt; turn off Snap to Grid \(S G\)**
 
-7. With the **Line tool**, click near **one corner** of the upper terrace in the imported sketch. **Move** your mouse along the axis that appears. This will define long edge of the upper terrace. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"** then the short side **28'-8**"
+7. With the **Line tool**, click near **one corner** of the upper terrace in the imported sketch. **Move** your mouse along the axis that appears. This will define the long edge of the upper terrace. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"** then the short side **28'-8**"
 
     ![](./images/UpperTerraceSketch.png)
 
