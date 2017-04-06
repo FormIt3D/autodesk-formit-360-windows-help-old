@@ -2,17 +2,25 @@
 As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)**, you can create your own materials, and then paint those materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Material library
 
 #### Create the Glass Walls
-1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the floor
+1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the existing floor group
 
-2. From the back corner of the floor  **28'-8" x 55'-5 ½"**.
+     ![](./images/rectangleToolbar.png)
 
-2. Pull the new surface up **11'-2"**.
+2. Click to start the rectangle sketch at the back corner of the existing floor. Draw the rectangle at these dimensions: **28'-8" x 55'-5 ½"**
+     
+3. Click **Esc** to exit the rectangle tool. **Single click** inside the new rectangle to select the face
 
-3. Group it and name it **Glass Walls**.
+     ![](./images/UpperTerraceSketch_6.png)
 
-4. Right click on the top face and choose the [**Offset-Face-tool-(OF)**](../tool-library/extrude-cut-and-offset-faces.md).
+2. Click to start the **Drag face** operation. Click the **Tab key** to set the height to **11'-2"**
 
-5. Press **Tab** and type in **4"**. 
+3. **Double click** and **Group (G)** the new geometry
+
+5. **Double click** the group to edit it. In the **Properties Palette** name the group **Glass Walls**
+
+4. Right click on the top face and choose the [**Offset-Face-tool-(OF)**](../tool-library/extrude-cut-and-offset-faces.md)
+
+5. Move you mouse cursor inward, and press the **Tab key** and type in **4"**
 
      ![](./images/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
 
