@@ -19,9 +19,11 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 5. The **new** copy is still selected. **Right click** and choose **Make Unique (MU)**. 
 
+     ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
+
 **Note**: The new Group is now severed from the original and will not update with the other one
 
-     ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
+
 
 6. Select the **newly created group** and choose **Floor 1** from the menu. This will be the basis for the first floor.
 
