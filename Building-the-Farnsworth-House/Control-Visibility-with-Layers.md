@@ -31,11 +31,11 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 7. Put the group on the **Floor 1** layer using the **Selection On** drop down in the Layers panel
 
-8. Uncheck the **Massing** layer to hide it - and keep it safe from any edits
+8. Uncheck the **Massing** layer to hide it - and keep it safe from any accidental edits!
 
-9. **Double click** the **Floor 1 Group** to edit it. **Single click** the **top face** 
+9. **Double click** the **Floor 1 Group** to edit it. Re-name the group **Floor**
 
-10. Click to start moving the face down, click the **Tab key** and enter **11'2"**. The resulting floor should be 1' thick
+10. **Single click** the **top face** to select it. Click again to start dragging the face down, click the **Tab key** and enter **11'2"**. The resulting floor should be 1' thick
 
 11. **Double click** off in space to exit the group
 
