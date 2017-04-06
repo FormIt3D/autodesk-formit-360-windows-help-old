@@ -12,15 +12,15 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
     ![](./images/c2f57781-ec11-4fbd-87b0-c5fd33ad8b07.png)
 
-3. Select the mass with a **single click** and notice that you are in the Move tool. 
+3. Select the mass with a **single click** and notice that you are in the Move tool
 
 #### Move a Group
 
-4. Turn Grid Snapping back on by clicking SG
+4. Turn Grid Snapping back on by typing **SG** keyboard shortcut
 
-4. Click once on the lower corner of the mass. then move your cursor 'up' and you should see a blue axis line appear
+4. Click once on the lower corner of the mass, then move your cursor 'up' and you should see a blue axis line appear
 
-5. With the blue axis visible, press the **Tab key** and enter **4'-6"**. This will move the entire mass up 
+5. With the blue axis visible, press the **Tab key** and enter **4'-6"**. This will move the entire mass up off of the ground plane
 
     ![](./images/293f6046-366c-43ca-858b-389f0c260be6.png)
 
