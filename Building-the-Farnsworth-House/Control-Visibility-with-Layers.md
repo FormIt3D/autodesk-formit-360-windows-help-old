@@ -27,9 +27,9 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 ### Create the Floor
 
-6. **Single click** to select either of the **Groups**
+6. **Single click** to select either of the **main building** groups
 
-7. Choose **Floor 1** from the **Selection On** drop down in the Layers panel
+7. Put the group on the **Floor 1** layer using the **Selection On** drop down in the Layers panel
 
 8. Uncheck the **Massing** layer to hide it - and keep it safe from any edits
 
