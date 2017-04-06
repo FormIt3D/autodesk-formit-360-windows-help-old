@@ -17,7 +17,7 @@
   * [Navigating the Scene](formit-introduction/navigating-the-scene.md)
 * [Building-the-Farnsworth-House](Building-the-Farnsworth-House/Building-the-Farnsworth-House.md)
   * [Setting Location](Building-the-Farnsworth-House/Setting-Location.md)
-  * [Project set up with Images and the Grid](Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)
+  * [Project set up with Images and Grid](Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)
   * [3D Sketching](Building-the-Farnsworth-House/3D-Sketching.md)
   * [Adding Floors with Levels](Building-the-Farnsworth-House/Adding-Floors-with-Levels.md)
   * [Grouping Objects](Building-the-Farnsworth-House/Grouping-Objects.md)

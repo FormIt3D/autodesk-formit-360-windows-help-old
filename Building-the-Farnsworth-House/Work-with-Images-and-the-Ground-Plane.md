@@ -1,4 +1,4 @@
-### Project set up with Images and the Grid
+### Project set up with Images and Grid
 
 You may import PNG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will place a material texture onto a plane that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly in the scene
 
@@ -55,5 +55,5 @@ You may import PNG images onto the ground plane by using the File &gt; Import me
 
 9. The satellite image, the rectangle and the grid are now aligned – which will make 3D sketching much easier
 
-![](./images/SiteFinished.png)
+    ![](./images/SiteFinished.png)
 
