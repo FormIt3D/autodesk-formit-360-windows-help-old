@@ -14,6 +14,8 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 
     ![](./images/9e8a88d9-1eef-4f5e-9061-5aa8f5319067.png)
 
+**Note**: You can click the **++** icon to create multiple levels, a specificed distance apart. Very handy for tall buildings
+
 #### Apply Levels to Geometry
 
 4. In the previous steps we only created levels - we haven't yet applied them to our mass
@@ -29,6 +31,6 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 8. The Properties Palette now reads the area of this mass!
 
     ![](./images/LevelsProperties.png)
-    
-**Note**: You can click the **++** icon to create multiple levels, a specificed distance apart. Very handy for tall buildings
+
+**Note**: If you do not see blue Level lines on your mass, type DL to Display Levels.
 
