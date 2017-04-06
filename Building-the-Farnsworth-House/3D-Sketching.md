@@ -28,10 +28,20 @@ Placing primitives is a fast way to get started, but the real power of FormIt is
 
 9. **Move your mouse** down along the green axis to define the short edge of the upper terrace. Set the dimension of the short side **28'-8**"
 
-10. To define the other edge of the rectangle, **move your mouse** along the red axis. Hold down the **Shift key** to lock the line to this axis. The red line will thicken to indicate it is locked! 
+10. To define the other edge of the rectangle, **move your mouse** along the red axis and hold down the **Shift key**. The red axis line with thicken to indicate that the line is locked to this axis
 
-11. While the **Shift key** is pressed - move your mouse to the first point you drew. our edges. Press **Esc** twice to clear the sketch tool. **Single click** to select the face you just created, then click again to drag the face up. Click **Tab** again and input **12'-2"**
-  
+    ![](./images/UpperTerraceSketch_2.png) 
+
+11. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the end point.
+
+12. Release the **Shift key** and click the first point you drew to finish enclosing the rectangle. Press **Esc** twice to clear the sketch tool 
+
+13. **Single click** inside the outline you just drew to select it the face. You are automatically in the drag face tool
+
+    ![](./images/UpperTerraceSketch_3.png)
+
+14. **Single click** to start the drag face operation. Click **Tab** and input **12'-2"**. You've created a mass!
+
     ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
 **Note**: _The red and green axes keep you at 90 degrees. When you draw at an angle to the grid, a purple guide will allow you to stay 90 degrees relative to your current line._
