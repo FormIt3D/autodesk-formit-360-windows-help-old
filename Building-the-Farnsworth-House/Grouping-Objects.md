@@ -54,7 +54,14 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 3. The **Area by Level** field will display gross area of the currently selected object(s) and the area of each individual level
 
-4. If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**
+    * If you do not see area reported on the Floor 1 Level, then your geometry may not intersect 4' 6"
+     
+    * If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels (DL)**
 
-5. Unselect the Group by clicking **Esc** or single clicking off in space
+5. **Deselect** the Group by clicking **Esc** or single clicking off in space - 
+
+6. Now the **Properties Palette** reports the **Gross Area** of the overall sketch - not just the area of the selected object
+
+    ![](./images/GrossArea.png)
+
 
