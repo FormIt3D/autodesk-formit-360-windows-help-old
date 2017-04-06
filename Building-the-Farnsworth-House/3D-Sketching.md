@@ -1,6 +1,8 @@
 ### 3D Sketch and Drag Face
 
-Placing primitives is a fast way to get started, but the real power of FormIt is the ability to sketch in 3D. You got a sneak peak at the power of the snapping system when you used the Rotate tool in the last exercise. If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+Placing primitives is a fast way to get started, but the real power of FormIt is the ability to sketch in 3D. You got a sneak peek at the power of the snapping system when you used the Rotate tool in the last exercise
+
+If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)
 
 #### Drawing Lines
 
