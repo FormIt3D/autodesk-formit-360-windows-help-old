@@ -20,11 +20,11 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 
 5. Select the entire mass by **double clicking** it 
 
+    ![](./images/UpperTerraceSketch_4.png)
 
+6. In the [**Properties Palette**](../formit-introduction/tool-bars.md), click **Use Levels** 
 
-6. In the [**Properties Palette**](../formit-introduction/tool-bars.md), click **Apply Levels** 
-
-7. Check the **Main Floor** only. The Properties Palette now reads the area of this mass!
+7. Uncheck Floor 1 and Terrace so only the **Main Floor** is check on. The Properties Palette now reads the area of this mass!
 
     ![](./images/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
     
