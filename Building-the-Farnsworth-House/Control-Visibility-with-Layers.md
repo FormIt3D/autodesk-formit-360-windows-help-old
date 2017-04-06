@@ -9,15 +9,15 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
      
      ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
 
-3. Select the **main building** mass and choose the **Massing** layer from the **Selection On** drop down from the top of the Layers tab
+3. Select the **main building** group and choose the **Massing** layer from the **Selection On:** drop down at the top of the Layers tab
 
 10. **Single click** to select the **plan image** group and put it on the **Plan Image** layer
 
 ### Duplicate Group
 
-4. Select the **main building** group with a **single click** 
+4. Select the **main building** group again 
 
-5. Press **Ctrl+C** to copy, and then **Ctrl+Shift+V** to paste the mass in the same place
+5. Press **Ctrl + C** to copy, and then **Ctrl + Shift + V** to paste the mass in the same place
 
 5. The **new** copy is still selected. **Right click** and choose **Make Unique (MU)**
 
@@ -39,5 +39,5 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 11. **Double click** off in space to exit the group
 
-     ![](./images/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
+     ![](./images/UpperTerraceSketch_5.png)
 
