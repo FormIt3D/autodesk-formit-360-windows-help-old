@@ -2,6 +2,8 @@
 
 When you draw lines on an existing object, the new lines "stick" to the existing objects. To avoid this "stickiness", you have to Group existing objects first. But this is not all Groups are good for! Copies of Groups maintain their connection to the original, such that editing any copy updates all of them. This concept is similar to Components in SketchUp and Families in Revit.
 
+If you did not complete the last section, download and open the **farnsworth02.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)
+
 #### Create a Group
 
 1. Select the upper terrace mass by **double clicking** it
