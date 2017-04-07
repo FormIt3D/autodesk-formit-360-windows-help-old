@@ -84,11 +84,13 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 4. **Single click** to start the **array**. Move the cursor to the right, along the red axis. Hold down **Shift** to lock to the red axis
 
-5. Press the **Tab key** and enter **22'**. You now have **four** columns **22'** apart
+5. Press the **Tab key** and enter **22'**. Click **Esc** to clear the selection. You now have **four** columns **22'** apart
 
-6. **Hover over the first Column** and press the **Tab key** – all four columns will be selected.
+	![](./images/ArrayPreview.png)
 
-7. Repeat the array, but this time do 1 copy of all four and snap the copies to the south side of the building. 
+6. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. Click once to select them
+
+7. Perform another **Array** but this time make **1 copy** and snap the copies to the south side of the building 
 
 	![](./images/5582b957-9965-43ba-bfa0-8102b6892f28.png)
 
