@@ -103,9 +103,11 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 2. **Single click** one of the columns. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it
 
-	![](./images/9ffda7dc-4259-4e4b-8b72-37009701f81a.png)
+	![](./images/5582b957-9965-43ba-bfa0-8102b6892f28.png)
 
-3. **Right-click** both copied groups and select **Make Unique (M U)** - now both copied columns belong to a new group.
+3. Click to start moving the 3 selected columns. Press the **Ctrl key** once to create a **quick copy**. A ghost preview of the copy should appear
+
+  **Right-click** both copied groups and select **Make Unique (M U)** - now both copied columns belong to a new group.
 
 4. Edit one of the new groups and name it **Column short**.
 
