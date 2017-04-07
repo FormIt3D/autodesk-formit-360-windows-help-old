@@ -1,10 +1,10 @@
 ### Create Columns with Array
-As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)**, you can create your own materials, and then paint those materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Material library
+In this exercise we'll sketch a detail element - an I beam column. Then use the Array tool to copy multiple items with a specific distance between them.
 
 If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 ### Create the Column
-1. Zoom into the upper left of the drawing to where the column is indicated on the plan.
+1. Zoom into the upper left of the imported floor plan image so you can view the column in detail
 
 	![](./images/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
 
@@ -24,9 +24,11 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/e1265e6e-8a2a-4663-83ae-32bef74f3c25.png)
 
-7. Group the column, edit the group and name it **Column Tall** and select **Generic** **Models** from the Category menu.
+7. **Double click** to select the column. **Group (G)** the column
 
-8. Import and paint the column with the material **Metal &gt; Anodized – White**.
+8. **Double click** to edit the group and name it **Column Tall** and change the Category to be **Generic Models** from the drop down menu
+
+8. Import the material **Metal &gt; Anodized – White**. Then **Paint (PT)** the material onto the Column group
 
 ### Array the Columns
 1. Select the Column group.
