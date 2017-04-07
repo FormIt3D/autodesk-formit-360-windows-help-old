@@ -4,7 +4,13 @@ In this exercise we'll sketch a detail element - an I beam column. Then use the 
 If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 ### Create the Column
-1. Zoom into the upper left of the imported floor plan image so you can view the column in detail
+1. Go to the **Top View (ZT)** to view the plan image from above 
+
+	![](./images/TopView.png)
+
+2. **Turn off** the **Floor 1** layer so that you don't snap to the Roof element we drew in the last exercise
+
+2. Zoom into the upper left of the imported floor plan image so you can view the column in detail
 
 	![](./images/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
 
