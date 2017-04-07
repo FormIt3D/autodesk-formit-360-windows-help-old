@@ -78,10 +78,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png)
 
-3. Use the following settings:
-	- Length Between Copies
-	- Linear
-	- Number of Copies: 3
+3. Use the following settings in the **Array** dialog: **Length Between Copies**, **Linear**, **Number of Copies: 3**
 
  	![](./images/0ef15b54-2b06-4443-823a-e58527e23858.png)
 
