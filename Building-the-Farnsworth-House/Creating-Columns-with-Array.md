@@ -28,15 +28,20 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/MirrorWidget_1.png)
 
-6. **Single click** to select the blue grip and move to the 90' mark - the result should look like an I shape. 
+6. **Single click** the lower arrow and move it 90' clock wise. Snap it to the blue compass line. The result should look like an I beam profile
 
-	![](./images/a52928c7-5c9c-46f8-b23c-241f454ccb79.png)
+	![](./images/MirrorWidget_2.png)
 
+6. **Single click** off in space to commit the mirror command. Click **Esc** to clear the selection
+
+7. **Double click** to select one of the profiles. Hold down the **Ctrl** or the **Shift** key and **Double click** the other profile. Both of the profiles should be in selection
+
+8. **Join the two profiles** 
 
 Once the outline is complete, the profile becomes a face. Select the face with a **single click**
 
 
-### Extrude, Mirror, and Join the Column
+### Extrude and Array the Column
 
 1. While the profile is still selected, go to the **3D View (ZD)** to change to the perspective view 
 
