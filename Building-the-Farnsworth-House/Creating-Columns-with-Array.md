@@ -25,11 +25,19 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 ### Extrude, Mirror, and Join the Column
 
-1. Go to the **3D View (ZD)** to view the profile in the perspective view 
+1. While the profile is still selected, go to the **3D View (ZD)** to change to the perspective view 
 
 	![](./images/3D_View.png)
 
-3. Once the outline is complete,  **extrude it** and use snap to the top of the roof.
+3. You'll be zoomed out to see the entire model, but you can zoom to your selection with the **ZS** keyboard shortcut! You'll most likely need to scroll zoom back a bit as you'll be too close to the small profile
+
+	![](./images/ZoomSelection.png)
+
+3. Click to select the face, and again to start the drag face operation on the column profile. Startt to **extrude** the column
+
+4. Turn on the Floor 1 Layer. Snap to the top of the roof to determine the height of the column
+
+
 
 4. Double click to select the object. Right click and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
 
