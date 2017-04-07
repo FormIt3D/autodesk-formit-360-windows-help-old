@@ -38,24 +38,24 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 8. **Right click** to bring up the context menu. Choose the **Join Geometry (JC)** command to merge the two profiles into one
 
-	![](./images/MirrorWidget_2.png)
+	![](./images/MirrorWidget_3.png)
 
-Once the outline is complete, the profile becomes a face. Select the face with a **single click**
+9. Once the outline of the profile is complete, the profile becomes a single face. Select the face with a **single click**
 
 
 ### Extrude and Array the Column
 
-1. While the profile is still selected, go to the **3D View (ZD)** to change to the perspective view 
+1. While the profile is still selected, go to the **3D View (ZD)** to change to a perspective view 
 
 	![](./images/3D_View.png)
 
-3. You'll be zoomed out to see the entire model, but you can zoom to your selection with the **ZS** keyboard shortcut! You'll most likely need to scroll zoom back a bit as you'll be too close to the small profile
+3. Zoom to your selection with the **ZS**! You'll need to **scroll zoom** back as you're too close to the small profile
 
 	![](./images/ZoomSelection.png)
 
-3. Click to select the profile face, and click again to start the drag face operation. Start to **extrude** the column up
+3. Click to select the profile face, and click again to start the drag face operation. Start to **drag the face** up
 
-4. Turn on the Floor 1 Layer. Click on the top of the roof to snap the height of the column - it should be **17' 8"**
+4. Turn on the **Floor 1** layer. Click on the top of the roof to snap the height of the column - it should be **17' 8"**
 
 	![](./images/UpperTerraceSketch_12.png)
 
