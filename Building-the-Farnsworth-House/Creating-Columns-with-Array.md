@@ -103,7 +103,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 2. **Single click** one of the columns. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it
 
-
+	![](./images/9ffda7dc-4259-4e4b-8b72-37009701f81a.png)
 
 3. **Right-click** both copied groups and select **Make Unique (M U)** - now both copied columns belong to a new group.
 
@@ -113,4 +113,4 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 6. Using the plan image as a guide, copy Column short two more times to get to this result:
 
-	![](./images/9ffda7dc-4259-4e4b-8b72-37009701f81a.png)
+	
