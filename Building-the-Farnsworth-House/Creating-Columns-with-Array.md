@@ -3,22 +3,33 @@ In this exercise we'll sketch a detail element - an I beam column. Then use the 
 
 If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-### Create the Column
+### Sketch the Column Profile
 1. Go to the **Top View (ZT)** to view the plan image from above 
 
 	![](./images/TopView.png)
 
 2. **Turn off** the **Floor 1** layer so that you don't snap to the **Roof or Floor** geometry we drew in the last exercise
 
-2. Zoom into the upper left of the **imported floor plan** image so you can view the column in detail
+3. Zoom into the upper left of the **imported floor plan** image so you can view the column in detail
 
 	![](./images/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
 
-2. Use the [**Line tool (L)**](../formit-introduction/tool-bars.md) to make the following sketch. 
+4. Turn off the **Snap to Grid (SG)** feature if you have it on. This will help with drawing details like this 
+
+5. Use the [**Line tool (L)**](../formit-introduction/tool-bars.md) to make the following sketch using the specified dimensions
 
 	![](./images/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
 
-3. Once the shape is complete, **extrude it** and use snap to the top of the roof.
+3. Once the outline is complete, the profile becomes a face. Select the face with a **single click**
+
+
+### Extrude, Mirror, and Join the Column
+
+1. Go to the **3D View (ZD)** to view the profile in the perspective view 
+
+	![](./images/3D_View.png)
+
+3. Once the outline is complete,  **extrude it** and use snap to the top of the roof.
 
 4. Double click to select the object. Right click and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
 
