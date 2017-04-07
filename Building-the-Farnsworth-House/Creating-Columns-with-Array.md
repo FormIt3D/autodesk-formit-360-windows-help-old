@@ -59,22 +59,22 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/UpperTerraceSketch_12.png)
 
-
-
-6. Clean up the edges to create a single, solid shape. 
-
-	![](./images/e1265e6e-8a2a-4663-83ae-32bef74f3c25.png)
-
 7. **Double click** to select the column. **Group (G)** the column
 
 8. **Double click** to edit the group and name it **Column Tall** and change the Category to be **Generic Models** from the drop down menu
 
-8. Import the material **Metal &gt; Anodized – White**. Then **Paint (PT)** the material onto the Column group
+8. Import the material **Metal &gt; Anodized – White**. Then **paint** the material onto the column group
+
+9. Click **Esc** to clear the paintbrush tool
 
 ### Array the Columns
-1. Select the Column group.
+1. Go to the **Top View (ZT)** to view the plan image from above 
 
-2. Right click and choose [**Array (AR)**](../tool-library/tilt-array-copy-and-paste.md).
+	![](./images/TopView.png)
+
+2. **Turn off** the **Floor 1** layer, **turn on** the **plan image** layer
+
+1. **Single click** to select the column group. **Right click** and choose [**Array (AR)**](../tool-library/tilt-array-copy-and-paste.md).
 
 	![](./images/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png)
 
