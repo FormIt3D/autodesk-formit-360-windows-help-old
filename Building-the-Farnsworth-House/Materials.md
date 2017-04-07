@@ -26,11 +26,13 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 5. Click **Esc** twice to clear the tool, and the selection
 
-6. **Single click** the top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears
+6. **Single click** the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears
 
      ![](./images/UpperTerraceSketch_7.png)
 
 7. End **Edit Group mode** by double clicking off in space
+
+8. Select the **Glass Walls** group with a **single click** and put it on the **Floor 1** layer
 
 
 #### Import a Material from the Autodesk Material Library
