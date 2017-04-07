@@ -88,17 +88,22 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/ArrayPreview.png)
 
-6. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. Click once to select them
+6. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. **Single click** to select them
 
-7. Perform another **Array** but this time make **1 copy** and snap the copies to the south side of the building 
+7. Perform another **Array** but this time make **1 copy** and snap the copies to the south side of the building. You can use **Tab** and input **29'5"**
 
-	![](./images/5582b957-9965-43ba-bfa0-8102b6892f28.png)
+	![](./images/ArrayPreview_2.png)
 
 ### Create Unique Groups
+1. Go to the **3D View (ZD)** to change to a perspective view 
 
-1. Repeat Step 7 above with the two columns on the southwest side of the building.
+	![](./images/3D_View.png)
 
-2. Copy them to the south side of the lower terrace.
+2. **Turn on** the **Floor 1** layer if it is off
+
+2. **Single click** one of the columns. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it
+
+
 
 3. **Right-click** both copied groups and select **Make Unique (M U)** - now both copied columns belong to a new group.
 
