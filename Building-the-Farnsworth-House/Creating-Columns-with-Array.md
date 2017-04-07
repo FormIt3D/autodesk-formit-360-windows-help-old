@@ -26,7 +26,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 5. **Single click** to select the orange center grip of the Mirror widget. **Move** it and click to snap to the mid point of the long edge
 
-	![](./images/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
+	![](./images/MirrorWidget_1.png)
 
 6. **Single click** to select the blue grip and move to the 90' mark - the result should look like an I shape. 
 
