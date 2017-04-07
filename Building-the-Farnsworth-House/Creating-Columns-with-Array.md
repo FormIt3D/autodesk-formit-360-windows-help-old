@@ -78,13 +78,13 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png)
 
-3. Use the following settings in the **Array** dialog: **Length Between Copies**, **Linear**, **Number of Copies: 3**
+3. Use the following settings in the **Array** dialog: **Length Between Copies**, **Linear**, **Number of Copies: 3**. Press **OK** to close the dialog
 
- 	![](./images/0ef15b54-2b06-4443-823a-e58527e23858.png)
+	![](./images/0ef15b54-2b06-4443-823a-e58527e23858.png)
 
-4. Press **OK**, and begin moving the cursor towards the right and lock on to the red axis.
+4. **Single click** to start the **array**. Move the cursor to the right, along the red axis. Hold down **Shift** to lock to the red axis
 
-5. Press Tab and enter **22'** – you now have four columns 22' apart.
+5. Press the **Tab key** and enter **22'**. You now have **four** columns **22'** apart
 
 6. **Hover over the first Column** and press the **Tab key** – all four columns will be selected.
 
