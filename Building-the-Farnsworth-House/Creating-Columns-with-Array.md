@@ -20,7 +20,9 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
 
-3. Once the outline is complete, the profile becomes a face. Select the face with a **single click**
+3. **Double click** to select the profile   
+
+Once the outline is complete, the profile becomes a face. Select the face with a **single click**
 
 
 ### Extrude, Mirror, and Join the Column
@@ -33,15 +35,15 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/ZoomSelection.png)
 
-3. Click to select the face, and again to start the drag face operation on the column profile. Start to **extrude** the column
+3. Click to select the profile face, and click again to start the drag face operation. Start to **extrude** the column up
 
-4. Turn on the Floor 1 Layer. Snap to the top of the roof to determine the height of the column
+4. Turn on the Floor 1 Layer. Click on the top of the roof to snap the height of the column - it should be **17' 8"**
 
+	![](./images/UpperTerraceSketch_12.png)
 
+4. Double click to select the entire column. Right click and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
 
-4. Double click to select the object. Right click and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
-
-5. Move the Mirror widget and snap to the vertical edge of the column to create an I shape. 
+5. Move the Mirror widget and snap to the mid point of the long edge - the result should look like an I shape. 
 
 	![](./images/a52928c7-5c9c-46f8-b23c-241f454ccb79.png)
 
