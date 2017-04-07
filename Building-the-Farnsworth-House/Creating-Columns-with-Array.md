@@ -34,9 +34,11 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 6. **Single click** off in space to commit the mirror command. Click **Esc** to clear the selection
 
-7. **Double click** to select one of the profiles. Hold down the **Ctrl** or the **Shift** key and **Double click** the other profile. Both of the profiles should be in selection
+7. **Double click** to select one of the profiles. Hold down the **Ctrl** or the **Shift** key and **double click** the other profile. Both of the profiles should be in selection
 
-8. **Join the two profiles** 
+8. **Right click** to bring up the context menu. Choose the **Join Geometry (JC)** command to merge the two profiles into one
+
+	![](./images/MirrorWidget_2.png)
 
 Once the outline is complete, the profile becomes a face. Select the face with a **single click**
 
