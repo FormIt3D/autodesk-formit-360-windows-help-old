@@ -10,17 +10,28 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 2. **Turn off** the **Floor 1** layer so that you don't snap to the **Roof or Floor** geometry we drew in the last exercise
 
-3. Zoom into the upper left of the **imported floor plan** image so you can view the column in detail
+3. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail
 
 	![](./images/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
 
-4. Turn off the **Snap to Grid (SG)** feature if you have it on. This will help with drawing details like this 
+4. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing detail lines
 
 5. Use the [**Line tool (L)**](../formit-introduction/tool-bars.md) to make the following sketch using the specified dimensions
 
 	![](./images/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
+	
+6. **Turn off** the **Plan Image** layer so that you can see the profile lines
 
-3. **Double click** to select the profile   
+4. **Double click** to select the entire profile. **Right click** and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
+
+5. **Single click** to select the orange center grip of the Mirror widget. **Move** it and click to snap to the mid point of the long edge
+
+	![](./images/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
+
+6. **Single click** to select the blue grip and move to the 90' mark - the result should look like an I shape. 
+
+	![](./images/a52928c7-5c9c-46f8-b23c-241f454ccb79.png)
+
 
 Once the outline is complete, the profile becomes a face. Select the face with a **single click**
 
@@ -41,11 +52,7 @@ Once the outline is complete, the profile becomes a face. Select the face with a
 
 	![](./images/UpperTerraceSketch_12.png)
 
-4. Double click to select the entire column. Right click and select the [**Mirror Tool (MI)**](../tool-library/mirror.md).
 
-5. Move the Mirror widget and snap to the mid point of the long edge - the result should look like an I shape. 
-
-	![](./images/a52928c7-5c9c-46f8-b23c-241f454ccb79.png)
 
 6. Clean up the edges to create a single, solid shape. 
 
