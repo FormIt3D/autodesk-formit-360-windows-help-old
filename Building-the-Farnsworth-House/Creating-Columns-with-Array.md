@@ -8,9 +8,9 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/TopView.png)
 
-2. **Turn off** the **Floor 1** layer so that you don't snap to the Roof element we drew in the last exercise
+2. **Turn off** the **Floor 1** layer so that you don't snap to the **Roof or Floor** geometry we drew in the last exercise
 
-2. Zoom into the upper left of the imported floor plan image so you can view the column in detail
+2. Zoom into the upper left of the **imported floor plan** image so you can view the column in detail
 
 	![](./images/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
 
