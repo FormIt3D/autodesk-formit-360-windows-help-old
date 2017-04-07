@@ -33,7 +33,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/ZoomSelection.png)
 
-3. Click to select the face, and again to start the drag face operation on the column profile. Startt to **extrude** the column
+3. Click to select the face, and again to start the drag face operation on the column profile. Start to **extrude** the column
 
 4. Turn on the Floor 1 Layer. Snap to the top of the roof to determine the height of the column
 
