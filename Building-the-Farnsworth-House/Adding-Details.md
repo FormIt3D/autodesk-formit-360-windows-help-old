@@ -1,13 +1,14 @@
 ### Adding Detail
+FormIt is a great massing tool - and it is **also** a great modeling tool. We'll start to add a bit more detail to the Farnsworth house in the form of doors and mullions for the glass box. We'll cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management.
+
 If you did not complete the last section, download and open the **farnsworth04.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### Door Frames
+We are going to create a 2" metal frame and mullions around the window glass. These mullions will overlap with the glass box, and that is intentional. 
 
-We are going to create a 2" metal frame and mullions around the window glass.
+1. **Turn off** the **Roof** layer so we can see the entire glass box. Turn on the **North Arrow** with the **DN** keyboard shortcut
 
-1. **Hide** the Roof Layer.
-
-2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass.
+2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass. Since the glass box is a group, then this new rectangle will not "stick" to the glass box!
 
 3. Use the [**Offset Face tool (OF)**](../tool-library/extrude-cut-and-offset-faces.md) and the **Tab key** to offset another rectangle **2"** towards the interior.
 
