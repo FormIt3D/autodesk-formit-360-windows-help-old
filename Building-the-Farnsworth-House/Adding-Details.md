@@ -64,11 +64,13 @@ We want this mullion to appear at the midpoint between the columns. We'll draw a
 
     ![](./images/UpperTerraceSketch_17.png)
 
-4. **Single click** to select the mullion group. **Zoom in** and pick the **mid point** of the mullion as the **move start point**
+4. **Single click** to select the mullion group. **Zoom in** and pick the **mid point** of the mullion as the **move start point**. Zoom back out
 
     ![](./images/MullionSnap.png)
     
-5. Move your cursor along the red axis
+5. Move your cursor to the side, along the **red axis**. Hold the **Shift** key to lock the axis. Find the **midpoint** of the guideline we drew. Now click to place the mullion
+
+    ![](./images/UpperTerraceSketch_18.png)    
 
 5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
 
