@@ -84,8 +84,8 @@ We want this mullion to appear at the midpoint between the columns. We'll draw a
 
 6. **Hover the mouse** over a mullion, hit the **Tab key** to highlight, then **click** to select all mullions. Use **Mirror** or **Array** or **quick copy** to copy these to the south side of the wall
 
-#### Create Door
-Draw 2" mullions (as in the previous two exercises) at the center of the Western wall. The doors should be 3'-6" each. The results should be similar to the picture below
+#### Create the Door Mullions
+Draw 2" mullion frames for double doors (using similar steps as the previous exercises) at the center of the Western wall. The doors should be 3'-6" each. The results should be similar to the picture below
 
 ![](./images/a4f7bb20-db89-4638-a3ad-4ae05c63d351.png)
 
