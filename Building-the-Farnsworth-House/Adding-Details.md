@@ -3,7 +3,7 @@ FormIt is a great massing tool - and it is **also** a great modeling tool. We'll
 
 If you did not complete the last section, download and open the **farnsworth04.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-#### Door Frames
+#### Create Window Frames
 We are going to create a 2" metal frame and mullions around the glass box. These mullions will overlap with the glass box, and that is intentional
 
 1. Create a new layer called **glass walls** and put the glass box onto this layer
@@ -36,17 +36,24 @@ We are going to create a 2" metal frame and mullions around the glass box. These
 
 7. **Quick copy**, **Array** or **Mirror** the mullion to the eastern side of the building
 
-Repeat the steps above for the **North and South** sides of the glass box. You may want to turn off the **columns** layer. The mullion frames will overlap each other at the corners and this is intentional
+8. Repeat the steps above for the **North and South** sides of the glass box
 
+    ![](./images/UpperTerraceSketch_16.png)
+
+You may want to turn off the **columns** layer. The mullion frames will overlap each other at the corners and this is intentional
+
+    
 #### Create Mullions
 
-1. Using the same methods in the previous exercise, create a 2" thick and deep mullion **11'-10 ¾"** from the North West corner. 
+1. Turn off the **glass walls** layer. **Orbit** the camera so you're viewing the **North** side of the glass box
+
+2. Draw a **Rectangle (R)** vertically between top and bottom of the frame. The rectangle should be **2" wide and 10'10" tall**
 
     ![](./images/7657c4da-7a46-4b50-9458-d08286f9efa4.png)
 
 2. Make the mullion the entire height of the glass walls (11'10").
 
-3. Group and name the assembly **mullion**.
+3. Group and name the group **mullion**
 
 4. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
 
