@@ -58,11 +58,13 @@ You may want to turn off the **columns** layer. The mullion frames will overlap 
 #### Locate Mullions
 We want this mullion to appear at the midpoint between the columns. We'll draw a 'guideline' to help us locate the mullion correctly
 
-3. Turn on the columns layer. Draw a **Line (L)** between the end points of two columns
+3. Turn on the columns layer. Draw a **Line (L)** between the end points of two columns - the distance should be **21' 3"**
 
-    ![](./images/7657c4da-7a46-4b50-9458-d08286f9efa4.png)
+    ![](./images/UpperTerraceSketch_17.png)
 
-4. We'll use the **Measure** tool to get the mullion in the right place
+4. **Single click** to select the mullion group. **Zoom in** and pick the **mid point** of the mullion as the **move start point**
+
+    ![](./images/UpperTerraceSketch_17.png)
 
 5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
 
