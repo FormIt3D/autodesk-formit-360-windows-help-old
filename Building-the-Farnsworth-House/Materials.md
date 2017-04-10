@@ -77,13 +77,15 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 3. **Double click** the group to edit it. Re-name the group **Roof** in the **Properties Palette** 
 
+4. Exit the group by **double clicking** off in space. Make a new **Layer** called **Roof** and put Roof group on it
+
 4. Import the **Concrete &gt; White** material. **Single click** the material tile so you can paint with it
 
      ![](./images/WhiteConcrete.png)
 
 5. Single click the **Roof group** to paint it with the material. The entire group is painted!
 
-_**Note:** This is a special painting technique that allows you to paint different instances of a group with different materials_
+_**Note:** This is a special technique that allows you to paint different group instances with different materials_
 
 #### Create the Lower Terrace
 
