@@ -115,6 +115,8 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 5. Adjust the new columns by dragging the top face down to the same height as the **lower terrace** floor height. They should be **3’-2”**
 
-6. Using the plan image as a guide, copy one Column short two mo
+6. Using the plan image as a guide, copy the last short column so your result looks like this
+
+	![](./images/UpperTerraceSketch_14.png)
 
 	
