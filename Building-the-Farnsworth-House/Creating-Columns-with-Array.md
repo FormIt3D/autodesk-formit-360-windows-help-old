@@ -90,7 +90,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 6. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. **Single click** to select them
 
-7. Perform another **Array** but this time make **1 copy** and snap the copies to the south side of the building. You can use **Tab** and input **29'5"**
+7. Perform another **Array (AR)** but this time make **1 copy** and move the copies long the green axis to the south side of the building. You can click **Tab** and input **29'5"**
 
 	![](./images/ArrayPreview_2.png)
 
@@ -109,12 +109,12 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/UpperTerraceSketch_13.png)
 
-4. Click to place the new columns. **Right-click** both copied groups and select **Make Unique (M U)** - now both copied columns belong to a new group.
+4. **Single click** to place the new columns. **Right-click** the copied columns and select **Make Unique (M U)** - now these columns are associated with each other, and unique from the originals
 
-4. Edit one of the new groups and name it **Column short**.
+4. **Double click** to edit one of the new groups and name it **Column short**
 
-5. Edit the group and shorten the new columns to the same height as the lower terrace. They should be **3’-2”**.
+5. Adjust the new columns by dragging the top face down to the same height as the **lower terrace** floor height. They should be **3’-2”**
 
-6. Using the plan image as a guide, copy Column short two more times to get to this result:
+6. Using the plan image as a guide, copy one Column short two mo
 
 	
