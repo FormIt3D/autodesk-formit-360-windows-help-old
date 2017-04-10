@@ -4,13 +4,17 @@ FormIt is a great massing tool - and it is **also** a great modeling tool. We'll
 If you did not complete the last section, download and open the **farnsworth04.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### Door Frames
-We are going to create a 2" metal frame and mullions around the window glass. These mullions will overlap with the glass box, and that is intentional. 
+We are going to create a 2" metal frame and mullions around the glass box. These mullions will overlap with the glass box, and that is intentional
+
+1. Create a new layer called **glass walls** and put the glass box onto this layer
 
 1. **Turn off** the **Roof** layer so we can see the entire glass box. Turn on the **North Arrow** with the **DN** keyboard shortcut
 
-2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass. Since the glass box grouped, then this new rectangle will **not "stick"** to the glass box
+2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass. _**Note**: Since the glass box is grouped, then this new rectangle will **not "stick"** to the glass box_
 
-3. **Single click** to select the new face, then **single click** to start a drag face. **Push** the face 2" towards the interior. Click **Esc** to clear the selection
+3. **Single click** to select the new face, then **single click** to start a drag face. **Push** the face 2" towards the interior. Click **Esc** to clear the selection. 
+
+4. If you have trouble selecting the new face, turn off the **glass walls** layer, or hover on the face, hit the **space bar** to choose different selection candidates
 
     ![](./images/24f63252-b1e6-4071-ba24-961269bf4490.png)
     
@@ -20,18 +24,19 @@ We are going to create a 2" metal frame and mullions around the window glass. Th
 
 5. **Single click** to select the interior rectangle you just created. Click again to start a drag face. **Push** this face through the model to remove it
 
-6. **Double click** to select the frame. **Group (G)** the frame
+6. **Double click** to select the mullion frame. **Group (G)** the selection
 
-    ![](./images/24f63252-b1e6-4071-ba24-961269bf4490.png)
-7. Create a layer named **Mullions** and  put the new group on it
+    ![](./images/UpperTerraceSketch_15.png)
+    
+7. Create a layer named **mullions** and  put the new group on it
 
-8. Edit the mullion group and name it **EW Frame**
+8. Edit the mullion group by **double clicking** it. Name it **EW Frame** in the **Properties palette**
 
-6. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
+6. Import and paint the **mullion group** with the material **Metal &gt; Anodized – Gray**
 
-7. [**Copy** or **Array**](../tool-library/tilt-array-copy-and-paste.md) the assembly to the eastern side of the building.
+7. **Quick copy**, **Array** or **Mirror** the mullion to the eastern side of the building
 
-8. Repeat steps 1-6 for the North and South sides as well.
+Repeat the steps above for the **North and South** sides of the glass box. You may want to turn off the **columns** layer. The mullion frames will overlap each other at the corners and this is intentional
 
 #### Create Mullions
 
