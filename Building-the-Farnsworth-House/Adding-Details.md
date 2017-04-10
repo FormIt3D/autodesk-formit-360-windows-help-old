@@ -60,7 +60,7 @@ You may want to turn off the **columns** layer. The mullion frames will overlap 
 #### Locate Mullions
 We want this mullion to appear at the midpoint between the columns. We'll draw a 'guideline' to help us locate the mullion correctly
 
-3. Turn on the columns layer. Draw a **Line (L)** between the end points of two columns - the distance should be **21' 3"**
+3. Turn on the columns layer. Draw a guideline with the **Line (L)** between the end points of two columns - the distance should be **21' 3"**
 
     ![](./images/UpperTerraceSketch_17.png)
 
@@ -68,16 +68,24 @@ We want this mullion to appear at the midpoint between the columns. We'll draw a
 
     ![](./images/MullionSnap.png)
     
-5. Move your cursor to the side, along the **red axis**. Hold the **Shift** key to lock the axis. Find the **midpoint** of the guideline we drew. Now click to place the mullion
+5. Move your cursor to the left, along the **red axis**. Hold the **Shift** key to lock the axis
+
+6. With the **Shift key** down, move your mouse to find the **midpoint** of the guideline. Now click to place the mullion
 
     ![](./images/UpperTerraceSketch_18.png)    
+    
+7. Press **Esc** to clear the move tool. Now select the guideline and delete it before you forget!
 
-5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
+6. Select the mullion, click the **Ctrl** key to make a **Quick copy**. Click to place the copy **11'** to the right of the original
 
-6. Use the **hover + Tab key** to select all mullion instances and **copy** to the south side of the wall.
+5. Select the original mullion, and [**Array**](../tool-library/tilt-array-copy-and-paste.md) it three times at a **distance between** of **11'**
+
+    ![](./images/UpperTerraceSketch_19.png)
+
+6. **Hover the mouse** over a mullion, hit the **Tab key** to highlight, then **click** to select all mullions. Use **Mirror** or **Array** or **quick copy** to copy these to the south side of the wall
 
 #### Create Door
-Using the same methods as in the previous two exercises, create a 3'-6" double door centered in the western wall.
+Draw 2" mullions (as in the previous two exercises) at the center of the Western wall. The doors should be 3'-6" each. The results should be similar to the picture below
 
 ![](./images/a4f7bb20-db89-4638-a3ad-4ae05c63d351.png)
 
