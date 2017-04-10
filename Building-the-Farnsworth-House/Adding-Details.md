@@ -47,15 +47,22 @@ You may want to turn off the **columns** layer. The mullion frames will overlap 
 
 1. Turn off the **glass walls** layer. **Orbit** the camera so you're viewing the **North** side of the glass box
 
-2. Draw a **Rectangle (R)** vertically between top and bottom of the frame. The rectangle should be **2" wide and 10'10" tall**
+2. Draw a **Rectangle (R)** vertically between the top and bottom of the frame. The rectangle should be **2" wide and 10' 10" tall**
 
     ![](./images/7657c4da-7a46-4b50-9458-d08286f9efa4.png)
 
-2. Make the mullion the entire height of the glass walls (11'10").
+2. Push the face inward 2" to make a mullion. Group it and name the group **mullion**. Put the mullion on the **mullions layer**
 
-3. Group and name the group **mullion**
+4. Paint the mullion with the material **Metal &gt; Anodized – Gray**
 
-4. Import and paint the column with the material **Metal &gt; Anodized – Gray**.
+#### Locate Mullions
+We want this mullion to appear at the midpoint between the columns. We'll draw a 'guideline' to help us locate the mullion correctly
+
+3. Turn on the columns layer. Draw a **Line (L)** between the end points of two columns
+
+    ![](./images/7657c4da-7a46-4b50-9458-d08286f9efa4.png)
+
+4. We'll use the **Measure** tool to get the mullion in the right place
 
 5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
 
