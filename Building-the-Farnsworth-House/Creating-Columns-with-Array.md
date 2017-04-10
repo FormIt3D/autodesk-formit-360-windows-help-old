@@ -118,5 +118,8 @@ If you did not complete the last section, download and open the **farnsworth03.a
 6. Using the plan image as a guide, copy the last short column so your result looks like this
 
 	![](./images/UpperTerraceSketch_14.png)
+	
+7. Before moving on - make a new **Layer** called **columns** and put all of the columns on that layer
+
 
 	
