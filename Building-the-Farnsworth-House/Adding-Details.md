@@ -51,7 +51,9 @@ You may want to turn off the **columns** layer. The mullion frames will overlap 
 
     ![](./images/7657c4da-7a46-4b50-9458-d08286f9efa4.png)
 
-2. Push the face inward 2" to make a mullion. Group it and name the group **mullion**. Put the mullion on the **mullions layer**
+2. Push the face inward 2" to make a mullion
+
+3. **Double click** to select the mullion. **Group (G)** and name the group **mullion**. Put the mullion on the **mullions** layer
 
 4. Paint the mullion with the material **Metal &gt; Anodized – Gray**
 
@@ -64,7 +66,9 @@ We want this mullion to appear at the midpoint between the columns. We'll draw a
 
 4. **Single click** to select the mullion group. **Zoom in** and pick the **mid point** of the mullion as the **move start point**
 
-    ![](./images/UpperTerraceSketch_17.png)
+    ![](./images/MullionSnap.png)
+    
+5. Move your cursor along the red axis
 
 5. [**Array**](../tool-library/tilt-array-copy-and-paste.md) them three times at a distance of **11'**.
 
