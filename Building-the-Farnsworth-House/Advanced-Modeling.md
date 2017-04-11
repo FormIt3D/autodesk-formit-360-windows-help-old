@@ -75,10 +75,15 @@ Now you'll learn the Fillet tool to create a rounded edge to give a softer look 
 
     ![](./images/UpperTerraceSketch_215.png)
     
-6. Now, **Single click** to select the remaining arc and edge at the corner. Then **right click** and choose **Smooth Edges (SE)** 
+6. Now, **Single click** to select the arc and edge at the corner. **Right click** and choose **Smooth Edges (SE)**
 
     ![](./images/UpperTerraceSketch_216.png)
+    
+7. To make these edges visible again, **single click** to select the top face of the bed, **right click** and choose **Facet Smooth Edges** (UE)
 
-7. Turn the **roof** layer back on, your Farnsworth house is coming along nicely!
+    ![](./images/UpperTerraceSketch_217.png)
+
+    ![](./images/UpperTerr
+Your Farnsworth house model is coming along nicely!
 
     ![](./images/UpperTerraceSketch_22.png)
