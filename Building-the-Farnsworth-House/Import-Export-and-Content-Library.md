@@ -20,13 +20,19 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_2.png)
      
-7. **Single click** to place the **ottoman** group at the origin  
+7. **Single click** to place the **ottoman** group at the origin. Clear the selection with an **Esc**, then delete the reference line  
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_3.png)
 
+7. Turn off the **Grid (DG)** and the **X, Y, Z axes (DZ)** and do a **Zoom All (ZA)**. FormIt will store the current **Visual Styles** for the **Content Library** thumbnail preview image
 
+     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_4.png)
 
-#### Set Up and Use the Content Library
+8. **Save As (Ctrl + Shift + S)**. Put the file in the **content/Seating** folder with the name **Mies Ottoman.AXM**. Note that an **example** is there in case you want to review
+
+You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the **mob_cadeira_barcelona** files in the **content/SKP** folder
+
+####Content Library
 
 1. Open the [**Content Library Palette**](../formit-introduction/tool-bars.md).
 
