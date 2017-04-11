@@ -8,7 +8,7 @@ First we'll go through the process of adding a piece of downloaded content (stra
 
 4. Start a new session of FormIt - you can either **Save (Ctrl + S)** your existing work, and start a **New file (Ctrl + N)**, or start another session of the app, so you have two running side by side
 
-5. In an empty FormIt scene, click File &gt; Import &gt; **Import 3D Model (Ctrl + I)** and Import **mies\_ottoman.SKP** from **FormIt Primer/content/SKP**. 
+5. In an empty FormIt scene, click File &gt; Import &gt; **Import 3D Model (Ctrl + I)** and Import **mies\_ottoman.SKP** from **FormIt Primer/content/SKP**
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
 
