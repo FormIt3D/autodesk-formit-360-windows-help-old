@@ -38,13 +38,13 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
      ![](./images/ContentLibrary.png)
 
-2. Click the **+** icon to connect to a Content Library folder. Click the **+** icon in the dialog to define a path to a local folder 
+2. Click the **+** icon to link a Content Library folder. Click the **+** icon in the dialog to define a path to a local folder 
 
 3. Select the **FormIt Primer\content** folder and click OK
 
-     ![](./images/6937274a-c9fe-4875-a86a-d1e12e662c0f.png)
+     ![](./images/15e16abd-9b7a-4762-9364-0f31e81ded8a.png)
 
-3. Select the **content** folder** from the menu.
+3. Look in the **Content Library** palette and select the **content** folder** from the drop down menu
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
