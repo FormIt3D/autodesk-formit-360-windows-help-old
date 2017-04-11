@@ -19,6 +19,12 @@ First we'll go through the process of adding a piece of downloaded content to yo
 7. **Single click** to select the **ottoman** group. Click the lowest corner of the leg to set the start point of the move. 
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_2.png)
+     
+7. **Single click** to place the **ottoman** group at the origin  
+
+     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_3.png)
+
+
 
 #### Set Up and Use the Content Library
 
