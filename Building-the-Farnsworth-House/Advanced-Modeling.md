@@ -66,3 +66,5 @@ As a bonus in this **Advanced Geometry** section of the primer, let's use the Fi
     ![](./images/UpperTerraceSketch_21.png)
     
 5. **Group (G)** the bed. Edit the group and name it **bed**. Change the category to **Furniture**
+
+    ![](./images/UpperTerraceSketch_22.png)
