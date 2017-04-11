@@ -37,8 +37,22 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
     ![](./images/UpperTerraceSketch_24.png)
 
-10. Next, we'll center the stairs between the two columns. This could be done with **guide lines** as we did in the previous exercise, but we'll introduce the **Measure (ME)** tool
+10. Next, **center** the stairs between the two columns. This could be done with **guide lines** as we did in the previous exercise, but we'll introduce the **Measure (ME)** tool
 
-8. Click the **Measure (ME)** tool. Once it is placed, **copy** the stair to the upper terrace. Right click on copied group and select **Make Unique (M U)**.
+    ![](./images/Measure.png)
+
+8. Start the **Measure (ME)** tool. Your first click should be the edge of the lower terrace. This is where you are measuring **from**
+
+9. You second click should be the **mid point** of the stair. A dimension will appear
+
+    ![](./images/UpperTerraceSketch_25.png)
+    
+10. Press the **Tab key** and enter **16' 7"**. The measure tool will actually move the geometry for you
+
+11. **Single click** to select the stair group, click the same mid point to start the **move tool** 
+
+12. Press the **Ctrl key** once to make a **quick copy** - and move the ghost preview geometry to the upper terrace 
+
+11. Right click on copied group and select **Make Unique (M U)**.
 
 9. Double click the copied group to edit and **change the Floor to Floor height setting** to **1.5**.
