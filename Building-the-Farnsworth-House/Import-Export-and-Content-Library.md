@@ -4,7 +4,7 @@ In this section we will import models existing models from the SketchUp warehous
 If you did not complete the last section, download and open the **farnsworth07.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### Import SKP files
-First we'll go through the process of adding a piece of downloaded content (straight from the SketchUp Warehouse) to your own personal content library.
+First we'll go through the process of adding a piece of downloaded content to your own personal content library
 
 4. Start a new session of FormIt - you can either **Save (Ctrl + S)** your existing work, and start a **New file (Ctrl + N)**, or start another session of the app, so you have two running side by side
 
