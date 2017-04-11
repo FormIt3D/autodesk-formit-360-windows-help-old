@@ -3,7 +3,7 @@ In this section we will leverage the computational power of [Dynamo](http://dyna
 
 If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-#### Place and Modify Dynamo Groups
+#### Place and Modify Dynamo Content
 
 1. Open the [**Dynamo Palette**](../formit-introduction/tool-bars.md) in the Palette Bar
 
@@ -21,12 +21,24 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
     ![](./images/7f47eb16-9bde-4a17-bf63-898774c31338.png)
 
-6. Edit the Dynamo stairs, just like you would a normal group, by **double clicking** into it. 
+6. Edit the Simple Stair group, just like you would a normal group, by **double clicking** into it
 
 7. Look in the [**Properties Palette**](../formit-introduction/tool-bars.md) to view the stair's parameters. Modify the settings so they are the same as the picture below
 
     ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
-8. Once it is placed, **copy** the stair to the upper terrace. Right click on copied group and select **Make Unique (M U)**.
+#### Locate the Stair Groups
+
+8. **Single click** to select the stairs, click one of the top corners to start the move tool 
+
+    ![](./images/UpperTerraceSketch_23.png)
+
+9. **Move** the top of the stairs so it aligns with the edge of the terrace
+
+    ![](./images/UpperTerraceSketch_24.png)
+
+10. Next, we'll center the stairs between the two columns. This could be done with **guide lines** as we did in the previous exercise, but we'll introduce the **Measure (ME)** tool
+
+8. Click the **Measure (ME)** tool. Once it is placed, **copy** the stair to the upper terrace. Right click on copied group and select **Make Unique (M U)**.
 
 9. Double click the copied group to edit and **change the Floor to Floor height setting** to **1.5**.
