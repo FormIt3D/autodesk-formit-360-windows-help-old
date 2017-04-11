@@ -16,7 +16,7 @@ Use the Sweep tool to create a cornice along the roof
 
 3. **Single click** to select the line between the profiles. Use the **Delete** key to remove the line - this creates a single outline 
 
-    ![](./images/e14f62ce-1872-4d4a-9dcf-031086cc07e2.png)
+    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
 4. Select the [**Sweep tool (SW)**](../tool-library/cover-sweep-loft.md) from the [**Advanced Modeling menu**](../formit-introduction/tool-bars.md)
 
