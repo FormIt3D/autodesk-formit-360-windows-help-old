@@ -6,8 +6,7 @@ If you did not complete the last section, download and open the **farnsworth05.a
 #### Sweep
 Use the Sweep tool to create a cornice along the roof
 
-1. With the **Rectangle (R)** tool, create a **6" high by 4 5/8"** profile at the south west corner of the roof
-
+1. With the **Rectangle (R)** tool, create a **6" high by 4 5/8"** profile at any corner of the roof
     ![](./images/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
 
 2. Create another **Rectangle (R)** profile that is **2" x 2"** 
