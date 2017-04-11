@@ -12,17 +12,13 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
 
-5. Select the **ottoman group**, right-click and choose **UnGroup All (U A)**. This will ungroup all nested groups.
+5. **Double click** to edit the **ottoman** group. Name the group **Mies Ottoman** and set the category to **Furniture**
 
-     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
+6. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the origin point defined by the X, Y, Z axis. Click anywhere to place the second point
 
-6. Select the ungrouped ottoman geometry. To make this easier, use the **Selection Filter** tool and choose **only Solids**.
+7. **Single click** to select the **ottoman** group. Click the lowest corner of the leg to set the start point of the move. 
 
-     ![](./images/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
-
-7. Re-Group this geometry. Edit the group and name it **Mies Ottoman**. Choose **Furniture** from the category list.
-
-     ![](./images/ec8353fb-ad58-4370-862b-6541cc15c467.png)
+     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_2.png)
 
 #### Set Up and Use the Content Library
 
