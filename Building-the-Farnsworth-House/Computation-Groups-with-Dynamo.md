@@ -5,15 +5,19 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 #### Place and Modify Dynamo Groups
 
-1. Open the [**Dynamo Palette**](../formit-introduction/tool-bars.md) in the Palette Bar. 
+1. Open the [**Dynamo Palette**](../formit-introduction/tool-bars.md) in the Palette Bar
 
     ![](./images/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
-2. Click the **+** icon.
+2. Click the **+** icon to **add Dynamo content** from a URL
 
-3. Paste the following URL into the box: <https://www.dynamoreach.com/share/5780fb888794379c4b65b941>
+3. Paste the following URL into the dialog **<https://www.dynamoreach.com/share/5780fb888794379c4b65b941>**. This will refresh the Dynamo panel to include a **Simple Stair tool** 
 
-4. This will load a previously created Dynamo Group named Simple Stair. Click the **icon in the palette** and the stair will be loaded into the scene. 
+    ![](./images/SimpleStair.png)
+
+4. Single click the **Simple Stair**. FormIt will load the Dynamo graph, this will take a few seconds
+
+5. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair
 
     ![](./images/7f47eb16-9bde-4a17-bf63-898774c31338.png)
 
