@@ -53,6 +53,8 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 12. Press the **Ctrl key** once to make a **quick copy** - and move the ghost preview geometry to the upper terrace 
 
-11. Right click on copied group and select **Make Unique (M U)**.
+    ![](./images/UpperTerraceSketch_26.png)
 
-9. Double click the copied group to edit and **change the Floor to Floor height setting** to **1.5**.
+11. Right click on copied group and select **Make Unique (M U)**
+
+12. **Double click** to edit the copied group, and **change the Floor to Floor height setting** to **1.5**
