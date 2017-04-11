@@ -26,27 +26,32 @@ Use the Sweep tool to create a cornice along the roof
 
     ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **Single click** the face you just drew. This will be the profile you want to sweep
+6. **Single click** to select the face you just drew. This will be the **profile** you want to sweep
 
+    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_3.png)
 
-
-7. The toolbar in the upper left corner advances when you select a face
+7. The **Advanced Geometry** toolbar changes once you select a face. Now it is prompts you to select a **path** for the sweep
 
     ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-6. Now select the top face of the roof to act as the path. Click the **check box** to complete the sweep
+6. **Single click** to select the **top face of the roof**. The tool infers the edges of the face as the path
 
+    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
+7. The sweep completes automatically. Double click to select the entire cornice element. **Group (G)** the cornice. Edit the group and name it **cornice**
 
-7. Double click to select the entire cornice element. **Group (G)** the cornice. Edit the group and name it **Cornice**
+    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
 8. Paint the cornice group with the material **Concrete &gt; White** to match the roof. Put the **cornice group** on the **roof** layer
 
+You need to adjust the **height of the columns** to end into the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments.
+
 #### Advanced Modeling – Fillet
+As a bonus feature in the **Advanced Geometry** section of the primer, let's use the Fillet tool to create a rounded edge for a piece of furniture
 
-Use the Fillet tool to create a rounded edge for the bed.
+1. Turn off the **roof** layer so you can see inside the house
 
-1. Create a **4' x 7' x 1'-6" high** rectangle in the living area of the house.
+2. Create a **4' x 7'** **Rectangle (R)** in the North East corner of the house. Select the face and extrude it **1'-6" high** 
 
 2. Select the [**Fillet tool (FI)**](../tool-library/cover-sweep-loft.md) from the **Advanced Modeling tools** in the [**Action Tool Bar**](../formit-introduction/tool-bars.md).
 
