@@ -80,18 +80,16 @@ We'll graphically hide many unwanted edges on our furniture, to give it a smooth
 
     ![](./images/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-7. **Drag the mouse** from the upper left to the lower right corner to perform a **window selection**. Select the arc and edge at each corner of the bed. Hold down **Ctrl** or **Shift** to add to the selection set
+7. **Drag the mouse** from the upper left to the lower right corner to perform a **window selection**. Window select the arc and edge at each corner of the bed. Hold down **Ctrl** or **Shift** to add to the selection set
 
 8. **Right click** and choose **Smooth Edges (SE)**
 
-    ![](./images/UpperTerraceSketch_218.png)
-    
-7. Another **Selection
+    ![](./images/UpperTerraceSketch_216.png)
     
 7. To make these edges visible again, **single click** to select the top face of the bed, **right click** and choose **Facet Smooth Edges** (UE)
 
     ![](./images/UpperTerraceSketch_217.png)
 
-Your Farnsworth house model is coming along nicely!
+8. Change your **Selection Filter** back to include Faces and Groups again. Turn the **roof** layer back on. Your Farnsworth house model is coming along nicely!
 
-![](./images/UpperTerraceSketch_22.png)
+    ![](./images/UpperTerraceSketch_22.png)
