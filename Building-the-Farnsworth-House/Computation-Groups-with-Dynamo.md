@@ -23,9 +23,7 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 6. Edit the Dynamo stairs, just like you would a normal group, by **double clicking** into it. 
 
-7. Look in the [**Properties Palette**](../formit-introduction/tool-bars.md) to view the stair's parameters
-
-7. Modify the settings so they are the same as the picture below
+7. Look in the [**Properties Palette**](../formit-introduction/tool-bars.md) to view the stair's parameters. Modify the settings so they are the same as the picture below
 
     ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
