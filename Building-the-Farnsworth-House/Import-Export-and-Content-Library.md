@@ -1,18 +1,14 @@
 ### Import/Export and Content Library
+In this section we will import models existing models from the SketchUp warehouse, and use the FormIt Content Library to place Families we've converted from Revit. **Note** that SKP files import to FormIt with Materials, Groups and Components, Layers and Scenes in tact
 
-In this section we will use various tools to import and export data into and out of FormIt 360.
+If you did not complete the last section, download and open the **farnsworth07.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+#### Import SKP files
+First we'll go through the process of adding a piece of downloaded content (straight from the SketchUp Warehouse) to your own personal content library.
 
-#### Import the Core and Furniture
+4. Start a new session of FormIt - you can either **Save (Ctrl + S)** your existing work, and start a **New file (Ctrl + N)**, or start another session of the app, so you have two running side by side
 
-1. Click File &gt; Import &gt; Import 3D Model (Ctrl + I) and Import the **core.axm** from the FormIt Primer/content/components.
-
-2. **Hide Floor 1 layer** to see plan image below.
-
-3. **Move the core** object roughly into place using the plan as an image.
-
-4. Click File &gt; Import &gt; Import 3D Model (Ctrl + I) and Import **mies\_ottoman.SKP** from FormIt Primer/content/SKP and **place** it in the living area.
+5. In an empty FormIt scene, click File &gt; Import &gt; **Import 3D Model (Ctrl + I)** and Import **mies\_ottoman.SKP** from **FormIt Primer/content/SKP**. 
 
 5. Select the **ottoman group**, right-click and choose **UnGroup All (U A)**. This will ungroup all nested groups.
 
@@ -40,6 +36,12 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
+1. Click File &gt; Import &gt; Import 3D Model (Ctrl + I) and Import the **core.axm** from the FormIt Primer/content/components.
+
+2. **Hide Floor 1 layer** to see plan image below.
+
+3. **Move the core** object roughly into place using the plan as a guide
+
 4. Select the **Seating sub-folder**.
 
      ![](./images/ba020113-7f1e-4b8e-a11c-f336dbb68e41.png)
@@ -47,3 +49,5 @@ If you did not complete the last section, download and open the **farnsworth06.a
 5. Select the **Corbu Chair** and **place two** instances of it. 
 
      ![](./images/1f193941-4bf0-4394-8316-e5a103fa8949.png)
+     
+     
