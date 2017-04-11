@@ -3,7 +3,7 @@ In our Farnsworth House exercises we've focused on basic modeling tools like Ske
 
 If you did not complete the last section, download and open the **farnsworth05.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-#### Sweep
+####Sweep
 Use the Sweep tool to create a cornice along the roof
 
 1. With the **Rectangle (R)** tool, create a **6" high by 4 5/8"** profile at any corner of the roof
@@ -46,8 +46,8 @@ Use the Sweep tool to create a cornice along the roof
 
 You need to adjust the **height of the columns** to end into the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments.
 
-#### Advanced Modeling – Fillet
-As a bonus in this **Advanced Geometry** section of the primer, let's use the Fillet tool to create a rounded edge for a piece of furniture
+####Fillet
+Now you'll learn the Fillet tool to create a rounded edge to give a softer look to a piece of furniture
 
 1. Turn **off** the **roof** layer so you can see inside the house
 
@@ -65,6 +65,20 @@ As a bonus in this **Advanced Geometry** section of the primer, let's use the Fi
 
     ![](./images/UpperTerraceSketch_21.png)
     
-5. **Group (G)** the bed. Edit the group and name it **bed**. Change the category to **Furniture**
+5. **Double click** to select the entire bed. **Group (G)** the bed, then edit the group and name it **Bed**, set the category to **Furniture** 
+
+6. Exit the group, and put the bed on a new layer called **furniture** 
+
+####Merge and Smooth Edges
+
+7. **Double click** to edit the group. Select the entire bed with a **double click**. **Right click** and choose **Merge (MG)** from the context menu
+
+    ![](./images/UpperTerraceSketch_215.png)
+    
+6. Now, **Single click** to select the remaining arc and edge at the corner. Then **right click** and choose **Smooth Edges (SE)** 
+
+    ![](./images/UpperTerraceSketch_216.png)
+
+7. Turn the **roof** layer back on, your Farnsworth house is coming along nicely!
 
     ![](./images/UpperTerraceSketch_22.png)
