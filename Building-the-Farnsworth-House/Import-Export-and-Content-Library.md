@@ -10,6 +10,8 @@ First we'll go through the process of adding a piece of downloaded content (stra
 
 5. In an empty FormIt scene, click File &gt; Import &gt; **Import 3D Model (Ctrl + I)** and Import **mies\_ottoman.SKP** from **FormIt Primer/content/SKP**. 
 
+     ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
+
 5. Select the **ottoman group**, right-click and choose **UnGroup All (U A)**. This will ungroup all nested groups.
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195.png)
