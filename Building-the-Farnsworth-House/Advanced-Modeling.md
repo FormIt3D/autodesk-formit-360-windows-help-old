@@ -1,5 +1,40 @@
 ### Advanced Modeling
+In our Farnsworth House exercises we've focused on basic modeling tools like Sketching, Drag Face, Move, Array, and Offset Face. We've also covered the essential workflows involving Groups, Layers, Materials and Levels. In this section we'll introduce you to the Advanced Modeling tool **Sweep**!
+
 If you did not complete the last section, download and open the **farnsworth05.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+
+#### Sweep
+Use the Sweep tool to create a cornice along the roof
+
+1. With the **Rectangle (R)** tool, create a **6" high by 4 5/8"** profile at the south west corner of the roof
+
+    ![](./images/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
+
+2. Create another **Rectangle (R)** profile that is **2" x 2"** 
+
+    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
+
+3. **Single click** to select the line between the profiles. Use the **Delete** key to remove the line - this creates a single outline 
+
+    ![](./images/e14f62ce-1872-4d4a-9dcf-031086cc07e2.png)
+
+4. Select the [**Sweep tool (SW)**](../tool-library/cover-sweep-loft.md) from the [**Advanced Modeling menu**](../formit-introduction/tool-bars.md)
+
+    ![](./images/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
+
+5. Note the toolbar that appears in the upper left corner of the canvas. Note the helper text with instructions. 
+
+6. **Single click** the face you just drew. This will be profile you want to sweep. Note the toolbar in the upper left corner advances automatically when you select a face
+
+    ![](./images/7b23a551-3ad6-4068-aca9-e2c0b4f1da27.png)
+
+6. Now select the top face of the roof to act as the path. Click the **check box** to complete the sweep
+
+    ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
+
+7. Double click to select the entire cornice element. **Group (G)** the cornice. Edit the group and name it **Cornice**
+
+8. Paint the cornice group with the material **Concrete &gt; White** to match the roof. Put the **cornice group** on the **roof** layer
 
 #### Advanced Modeling – Fillet
 
@@ -15,31 +50,3 @@ Use the Fillet tool to create a rounded edge for the bed.
 
     ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-#### Advanced Modeling – Sweep
-Use the Sweep tool to create a cornice along the roof.
-
-1. Create a **6" high by 4 5/8"** rectangle at the south west corner of the roof. 
-
-    ![](./images/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
-
-2. Using 3D sketching, create a **2" x 2"** reveal.
-
-    ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
-
-3. **Delete** the line between the two rectangles to create a single shape. 
-
-    ![](./images/e14f62ce-1872-4d4a-9dcf-031086cc07e2.png)
-
-4. Select the [**Sweep tool (SW)**](../tool-library/cover-sweep-loft.md) from the [**Advanced Modeling menu**](../formit-introduction/tool-bars.md). 
-
-    ![](./images/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
-
-5. Select the shape to sweep. 
-
-    ![](./images/7b23a551-3ad6-4068-aca9-e2c0b4f1da27.png)
-
-6. Then select the top face of the roof as the path. Click the **check box** to complete the sweep. 
-
-    ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
-
-7. Import and paint the cornice with the material **Concrete &gt; White** to match the roof.
