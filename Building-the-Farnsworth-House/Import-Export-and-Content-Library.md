@@ -28,17 +28,17 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_4.png)
 
-8. **Save As (Ctrl + Shift + S)**. Put the file in the **content/Seating** folder with the name **Mies Ottoman.AXM**. Note that an **example** is there in case you want to review
+8. **Save As (Ctrl + Shift + S)**. Put the file in the **content\Seating** folder with the name **Mies Ottoman.AXM**. Note that an **example** is there in case you want to review
 
-You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the **mob_cadeira_barcelona** files in the **content/SKP** folder
+You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the **mob_cadeira_barcelona** files in the **content\SKP** folder
 
 ####Content Library
 
 1. Open the [**Content Library Palette**](../formit-introduction/tool-bars.md)
 
-     ![](./images/15e16abd-9b7a-4762-9364-0f31e81ded8a.png)
+     ![](./images/ContentLibrary.png)
 
-2. Click the **+** icon to create a path to your local Content Library. Select the **FormIt Primer\\content** folder and click OK. 
+2. Click the **+** icon to create a path to your local Content Library. Select the **FormIt Primer\content** folder and click OK
 
      ![](./images/6937274a-c9fe-4875-a86a-d1e12e662c0f.png)
 
