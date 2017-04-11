@@ -57,4 +57,8 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 11. Right click on copied group and select **Make Unique (M U)**
 
-12. **Double click** to edit the copied group, and **change the Floor to Floor height setting** to **1.5**
+12. **Double click** to edit the copied group. Change the **Floor to Floor height** setting to **1.75**. You will need to **move** the stairs up to align with the upper terrace floor
+
+    ![](./images/UpperTerraceSketch_27.png)
+
+13. Create a new **layer** called **stairs** and put both stairs on that layer
