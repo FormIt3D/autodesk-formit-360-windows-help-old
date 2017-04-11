@@ -34,11 +34,11 @@ Use the Sweep tool to create a cornice along the roof
 
     ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-6. **Single click** to select the **top face of the roof**. The tool infers the edges of the face as the path
+6. **Single click** to select the **top face of the roof**. The tool infers the edges of the face as the path. The sweep is created after picking the roof 
 
     ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
-7. The sweep completes automatically. Double click to select the entire cornice element. **Group (G)** the cornice. Edit the group and name it **cornice**
+7. Double click to select the entire cornice element. **Group (G)** the cornice. Edit the group and name it **cornice**
 
     ![](./images/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
@@ -47,17 +47,22 @@ Use the Sweep tool to create a cornice along the roof
 You need to adjust the **height of the columns** to end into the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments.
 
 #### Advanced Modeling – Fillet
-As a bonus feature in the **Advanced Geometry** section of the primer, let's use the Fillet tool to create a rounded edge for a piece of furniture
+As a bonus in this **Advanced Geometry** section of the primer, let's use the Fillet tool to create a rounded edge for a piece of furniture
 
-1. Turn off the **roof** layer so you can see inside the house
+1. Turn **off** the **roof** layer so you can see inside the house
 
 2. Create a **4' x 7'** **Rectangle (R)** in the North East corner of the house. Select the face and extrude it **1'-6" high** 
+
+    ![](./images/UpperTerraceSketch_20.png)
 
 2. Select the [**Fillet tool (FI)**](../tool-library/cover-sweep-loft.md) from the **Advanced Modeling tools** in the [**Action Tool Bar**](../formit-introduction/tool-bars.md)
 
     ![](./images/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-3. Select the top face and choose **2"** as the fillet distance. Click the **check mark** in the top left corner to finish.
+3. Change the default **fillet** value to 1" in the dialog that appears
 
-    ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
+4. **Single click** the top face of the bed. The fillet is created automatically after selecting the face
 
+    ![](./images/UpperTerraceSketch_21.png)
+    
+5. **Group (G)** the bed. Edit the group and name it **bed**. Change the category to **Furniture**
