@@ -44,7 +44,7 @@ Use the Sweep tool to create a cornice along the roof
 
 8. Paint the cornice group with the material **Concrete &gt; White** to match the roof. Put the **cornice group** on the **roof** layer
 
-You need to adjust the **height of the columns** to end into the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments.
+You need to adjust the **height of the columns** to end into the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments
 
 ####Fillet
 Now you'll learn the Fillet tool to create a rounded edge to give a softer look to a piece of furniture
@@ -75,15 +75,20 @@ Now you'll learn the Fillet tool to create a rounded edge to give a softer look 
 
     ![](./images/UpperTerraceSketch_215.png)
     
-6. Now, **Single click** to select the arc and edge at the corner. **Right click** and choose **Smooth Edges (SE)**
+6. Use the **Area Selection Filter** to limit a window selection to only **Edges**
+
+
+
+**Single click** to select the arc and edge at the corner. **Right click** and choose **Smooth Edges (SE)**
 
     ![](./images/UpperTerraceSketch_216.png)
+    
+7. Another **Selection
     
 7. To make these edges visible again, **single click** to select the top face of the bed, **right click** and choose **Facet Smooth Edges** (UE)
 
     ![](./images/UpperTerraceSketch_217.png)
 
-    ![](./images/UpperTerr
 Your Farnsworth house model is coming along nicely!
 
-    ![](./images/UpperTerraceSketch_22.png)
+![](./images/UpperTerraceSketch_22.png)
