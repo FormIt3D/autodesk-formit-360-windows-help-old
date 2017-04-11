@@ -16,7 +16,7 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
 6. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the origin point defined by the X, Y, Z axis. Click anywhere to place the second point
 
-7. **Single click** to select the **ottoman** group. Click the lowest corner of the leg to set the start point of the move. 
+7. **Single click** to select the **ottoman** group. Click the lowest corner of the leg to set the **start point** of a **move command** 
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_2.png)
      
@@ -24,7 +24,7 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_3.png)
 
-7. Turn off the **Grid (DG)** and the **X, Y, Z axes (DZ)** and do a **Zoom All (ZA)**. FormIt will store the current **Visual Styles** for the **Content Library** thumbnail preview image
+7. Turn off the **Grid (DG)** and the **X, Y, Z axes (DZ)** and do a **Zoom All (ZA)**. FormIt will store the current [**Visual Styles**](/Building-the-Farnsworth-House/Visual-Settings.md) for the **Content Library** thumbnail preview image
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_4.png)
 
@@ -34,7 +34,7 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
 ####Content Library
 
-1. Open the [**Content Library Palette**](../formit-introduction/tool-bars.md).
+1. Open the [**Content Library Palette**](../formit-introduction/tool-bars.md)
 
      ![](./images/15e16abd-9b7a-4762-9364-0f31e81ded8a.png)
 
