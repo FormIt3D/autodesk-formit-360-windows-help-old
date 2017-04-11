@@ -22,11 +22,15 @@ Use the Sweep tool to create a cornice along the roof
 
     ![](./images/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
-5. Note the toolbar that appears in the upper left corner of the canvas. Note the helper text with instructions
+5. The **Advanced Geometry** toolbar appears in the upper left corner of the canvas with helper text instructions
 
     ![](./images/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **Single click** the face you just drew. This will be profile you want to sweep. Note the toolbar in the upper left corner advances automatically when you select a face
+6. **Single click** the face you just drew. This will be the profile you want to sweep
+
+
+
+7. The toolbar in the upper left corner advances when you select a face
 
     ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
