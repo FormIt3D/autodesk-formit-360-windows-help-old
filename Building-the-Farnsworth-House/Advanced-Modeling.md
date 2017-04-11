@@ -53,7 +53,7 @@ As a bonus feature in the **Advanced Geometry** section of the primer, let's use
 
 2. Create a **4' x 7'** **Rectangle (R)** in the North East corner of the house. Select the face and extrude it **1'-6" high** 
 
-2. Select the [**Fillet tool (FI)**](../tool-library/cover-sweep-loft.md) from the **Advanced Modeling tools** in the [**Action Tool Bar**](../formit-introduction/tool-bars.md).
+2. Select the [**Fillet tool (FI)**](../tool-library/cover-sweep-loft.md) from the **Advanced Modeling tools** in the [**Action Tool Bar**](../formit-introduction/tool-bars.md)
 
     ![](./images/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
