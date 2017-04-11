@@ -27,7 +27,7 @@
   * [Adding Details](Building-the-Farnsworth-House/Adding-Details.md)
   * [Advanced Modeling](Building-the-Farnsworth-House/Advanced-Modeling.md)
   * [Computational Groups with Dynamo](Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.md)
-  * [Import/Export and Content Library](Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
+  * [Import Models with Content Library](Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
   * [Solar and Energy Analysis](Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
   * [Revit Interop](Building-the-Farnsworth-House/Revit-Interop.md)
   * [Visual Settings](Building-the-Farnsworth-House/Visual-Settings.md)
