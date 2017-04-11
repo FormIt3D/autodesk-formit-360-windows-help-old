@@ -17,15 +17,15 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 4. Single click the **Simple Stair**. FormIt will load the Dynamo graph, this will take a few seconds
 
-5. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair
+5. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair. Click **Esc** to clear the selection
 
     ![](./images/7f47eb16-9bde-4a17-bf63-898774c31338.png)
 
-5. Go to the **Plan view** and **place the stair** roughly centered where the stair to the lower terrace appears on the plan. 
+6. Edit the Dynamo stairs, just like you would a normal group, by **double clicking** into it. 
 
-6. Double click the Group to edit it and go to the [**Properties Palette**](../formit-introduction/tool-bars.md).
+7. Look in the [**Properties Palette**](../formit-introduction/tool-bars.md) to view the stair's parameters
 
-7. Modify the settings: <br>
+7. Modify the settings so they are the same as the picture below
 
     ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
