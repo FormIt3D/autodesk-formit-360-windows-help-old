@@ -69,7 +69,8 @@ Now you'll learn the Fillet tool to create a rounded edge to give a softer look 
 
 6. Exit the group, and put the bed on a new layer called **furniture** 
 
-####Merge and Smooth Edges
+####Merge Edges, Smooth Edges, and Selection Filtering
+We'll graphically hide many unwanted edges on our furniture, to give it a smoother, softer look
 
 7. **Double click** to edit the group. Select the entire bed with a **double click**. **Right click** and choose **Merge (MG)** from the context menu
 
@@ -77,11 +78,11 @@ Now you'll learn the Fillet tool to create a rounded edge to give a softer look 
     
 6. Use the **Area Selection Filter** to limit a window selection to only **Edges**
 
-
+    ![](./images/UpperTerraceSketch_215.png)
 
 **Single click** to select the arc and edge at the corner. **Right click** and choose **Smooth Edges (SE)**
 
-    ![](./images/UpperTerraceSketch_216.png)
+    ![](./images/UpperTerraceSketch_218.png)
     
 7. Another **Selection
     
