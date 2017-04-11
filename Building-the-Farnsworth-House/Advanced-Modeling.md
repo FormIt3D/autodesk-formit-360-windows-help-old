@@ -28,8 +28,6 @@ Use the Sweep tool to create a cornice along the roof
 
 6. **Single click** the face you just drew. This will be profile you want to sweep. Note the toolbar in the upper left corner advances automatically when you select a face
 
-    ![](./images/7b23a551-3ad6-4068-aca9-e2c0b4f1da27.png)
-
 6. Now select the top face of the roof to act as the path. Click the **check box** to complete the sweep
 
     ![](./images/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
