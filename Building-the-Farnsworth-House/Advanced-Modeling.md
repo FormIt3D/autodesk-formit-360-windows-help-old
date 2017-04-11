@@ -76,11 +76,13 @@ We'll graphically hide many unwanted edges on our furniture, to give it a smooth
 
     ![](./images/UpperTerraceSketch_215.png)
     
-6. Use the **Area Selection Filter** to limit a window selection to only **Edges**
+6. Use the **Selection Filter** to constrain a window selection to only pick-up **Edges**
 
-    ![](./images/UpperTerraceSketch_215.png)
+    ![](./images/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-**Single click** to select the arc and edge at the corner. **Right click** and choose **Smooth Edges (SE)**
+7. **Drag the mouse** from the upper left to the lower right corner to perform a **window selection**. Select the arc and edge at each corner of the bed. Hold down **Ctrl** or **Shift** to add to the selection set
+
+8. **Right click** and choose **Smooth Edges (SE)**
 
     ![](./images/UpperTerraceSketch_218.png)
     
