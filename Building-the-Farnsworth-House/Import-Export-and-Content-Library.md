@@ -52,7 +52,7 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
-1. **Single click** the **components** folder to open it. **Drag and drop** the **core** file into the canvas. Place it in the middle of the floor
+1. **Single click** the **components** folder to open it. **Single click** the **core** preview tile, then **single click** into the canvas to place it. Place it in the middle of the floor
 
      ![](./images/UpperTerraceSketch_29.png)
 
@@ -68,14 +68,13 @@ Make sure to **move along the red and green axes** while working in Top View. Ot
 
 ####Place Furniture from the Library
 
-4. Go back to the **perspective view (ZD)**, turn on the **Floor 1** layer 
+4. Go back to the **Perspective view (ZD)**, turn on the **Floor 1** layer 
 
 5. Look into the **Content Library** palette. Click into the **Seating** sub-folder
 
      ![](./images/1f193941-4bf0-4394-8316-e5a103fa8949.png)
 
-5. Select the **Corbu Chair** and a few of the ** **place two** instances of it. 
-
-     ![](./images/1f193941-4bf0-4394-8316-e5a103fa8949.png)
-     
+5. Select the **Corbu Chair** and place one in the scene, in front of the fire place. Place a few of the other furniture pieces. Put whatever furniture you just placed onto the **furniture** layer
+  
+     ![](./images/UpperTerraceSketch_30.png)
      
