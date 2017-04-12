@@ -49,23 +49,23 @@ Being visual people, designers can learn and communicate an incredible amount of
 ### Energy Analysis with Insight 
 FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of building system parameters that be can be adjusted to reflect potential scenarios without requiring you to **re-analyze** model geometry. Insight works best with FormIt **massing** geometry
 
-1. Turn off **all** of the layers **except** for the **massing** layer. FormIt will only send **visible** geometry to Insight. Note that this simple **mass** will yield a trove of useful data from **Insight**
+1. Make sure you are logged into A360. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
+
+2. FormIt will only send **visible** geometry to Insight. Note that even a simple **mass** will yield a trove of data from **Insight**
 
     ![](./images/EnergyMassing.png)
 
-2. Click the **Insight &gt; Generate Insight** button. Your geometry must have at least one **Level** applied
+2. Click the **Insight &gt; Generate Insight** button. The analysis will run in the cloud, so you can continue to model during the computation 
 
-    ![](./images/deac2672-e76b-478c-8e12-fc7b270e59f2.png)
+    ![](./images/EnergyMenu.png)
 
-3. The analysis will run in the cloud, so you can continue to model during the computation 
-
-4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and the **dashboard of Energy factors** (optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight.autodesk.com/)
+4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** (optionally, you can visit the website directly at **[http://insight.autodesk.com](http://insight.autodesk.com/)**
 
     ![](./images/EnergyDashboard.png)
     
-5. On the Insight dashboard, you can set the values for the individual **Energy factor widgets** by clicking on one, then choosing a value, or a range of values (if you don't know the specific system your building will use) 
+5. On the Insight dashboard, you can set a value (or a value range) for each **Performance Factor** widget by clicking the factor and dragging the blue dots. The range is helpful if you don't know the specific system your building will use yet
 
-6. With each change the overall **Energy** calculation (measured in USD / sq m / yr) updates to show your projected cost as increasing or decreasing. Also you can see your progress against a benchmark like **Ashrae 90.1** and the **Architecture 2030** challenge
+6. With each change to a **Factor** the overall **Energy Cost Range** (measured in USD / sq m / yr) updates. You can see your design's performance against benchmarks like **Ashrae 90.1** and the **Architecture 2030** challenge
 
 5. If your design changes form drastically - then you can re-send the updated mass to the same dashboard. If you want to create a **new** dashboard for the updated design, then you will need to **Save As** in FormIt first
 
