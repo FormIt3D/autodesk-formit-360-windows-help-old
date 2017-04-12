@@ -46,7 +46,9 @@ Being visual people, designers can learn and communicate an incredible amount of
 ### Energy Analysis with Insight 
 FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of parameters that be can be adjusted to reflect many potential scenarios without **re-analyzing** model geometry. Insight works best with FormIt **massing** geometry
 
-1. Turn off **all** of the layers **except** for massing. FormIt will only send **visible** geometry to Insight
+1. Turn off **all** of the layers **except** for the **massing** layer. FormIt will only send **visible** geometry to Insight. Note that this simple **mass** will yield a trove of useful data from **Insight**
+
+    ![](./images/EnergyMassing.png)
 
 2. Click the **Insight &gt; Generate Insight** button. Your geometry must have at least one **Level** applied
 
