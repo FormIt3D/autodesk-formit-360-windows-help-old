@@ -35,16 +35,19 @@ Being visual people, designers can learn and communicate an incredible amount of
 
     ![](./images/SolarAnalysis.png)
 
-3. The **Month Peak** setting shows the **peak** values (in BTU/sq. ft) for the specified month. This is intended for **shading studies**. You can change the month setting and the graphics update instantly. **Hover your cursor** over an analyzed surface to get a **specific** value
+3. The **Month Peak** setting shows the **peak** values (in BTU / sq ft) for the specified month. This is intended for **shading studies**. You can change the month setting and the graphics update instantly. **Hover your cursor** over an analyzed surface to get a **specific** value
 
     ![](./images/460060a0-ea3b-4095-af45-40045811be22.png)
 
-4. The **Year Cumulative** setting shows the **cumulative** energy for the entire year (in KwH/sq. meter). This is intended for **PV potential studies** 
+4. The **Year Cumulative** setting shows the **cumulative** energy for the entire year (in KwH / sq m). This is intended for **PV potential studies** 
 
     ![](./images/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
+4. These **Solar Analysis** studies can be exported by clicking **File > Export (Ctrl + E)** and choosing **Image** from the list on the left
+
+
 ### Energy Analysis with Insight 
-FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of parameters that be can be adjusted to reflect many potential scenarios without **re-analyzing** model geometry. Insight works best with FormIt **massing** geometry
+FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of building system parameters that be can be adjusted to reflect potential scenarios without requiring you to **re-analyze** model geometry. Insight works best with FormIt **massing** geometry
 
 1. Turn off **all** of the layers **except** for the **massing** layer. FormIt will only send **visible** geometry to Insight. Note that this simple **mass** will yield a trove of useful data from **Insight**
 
@@ -56,10 +59,14 @@ FormIt has integrated the same Building Performance analysis tools that Revit us
 
 3. The analysis will run in the cloud, so you can continue to model during the computation 
 
-4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and the **dashboard of Energy factors** (optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight360.autodesk.com/)
+4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and the **dashboard of Energy factors** (optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight.autodesk.com/)
 
     ![](./images/EnergyDashboard.png)
     
+5. On the Insight dashboard, you can set the values for the individual **Energy factor widgets** by clicking on one, then choosing a value, or a range of values (if you don't know the specific system your building will use) 
+
+6. With each change the overall **Energy** calculation (measured in USD / sq m / yr) updates to show your projected cost as increasing or decreasing. Also you can see your progress against a benchmark like **Ashrae 90.1** and the **Architecture 2030** challenge
+
 5. If your design changes form drastically - then you can re-send the updated mass to the same dashboard. If you want to create a **new** dashboard for the updated design, then you will need to **Save As** in FormIt first
 
 6. If your Energy Analysis is unsuccessful - you may have geometry based **Watertight Issues (DW)** these can be reviewed and fixed in FormIt
