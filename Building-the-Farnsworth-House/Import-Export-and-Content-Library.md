@@ -62,16 +62,19 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
      ![](./images/UpperTerraceSketch_30.png)
 
-3. **Move the core** along the **green axis** until it is roughly in place, using the plan as a guide. 
+3. **Move the core** along the **green axis** until it is roughly in place, using the plan as a guide. You should also adjust the location of the bed while you're here!
 
-Make sure to **move along the axes** otherwise you may snap to elements above or below, and the core will move in the Z direction
+Make sure to **move along the red and green axes** while working in Top View. Otherwise you may snap to elements above or below, and the object you're moving will jump in the Z direction
 
 ####Place Furniture from the Library
-4. Select the **Seating sub-folder**
+
+4. Go back to the **perspective view (ZD)**, turn on the **Floor 1** layer 
+
+5. Look into the **Content Library** palette. Click into the **Seating** sub-folder
 
      ![](./images/ba020113-7f1e-4b8e-a11c-f336dbb68e41.png)
 
-5. Select the **Corbu Chair** and **place two** instances of it. 
+5. Select the **Corbu Chair** and a few of the ** **place two** instances of it. 
 
      ![](./images/1f193941-4bf0-4394-8316-e5a103fa8949.png)
      
