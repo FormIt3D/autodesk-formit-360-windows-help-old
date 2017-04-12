@@ -59,7 +59,7 @@ FormIt has integrated the same Building Performance analysis tools that Revit us
 
     ![](./images/EnergyMenu.png)
 
-4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** (optionally, you can visit the website directly at **[http://insight.autodesk.com](http://insight.autodesk.com/)**
+4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** (optionally, you can visit the website directly at **[http://insight.autodesk.com](http://insight.autodesk.com/))**
 
     ![](./images/EnergyDashboard.png)
     
@@ -70,3 +70,5 @@ FormIt has integrated the same Building Performance analysis tools that Revit us
 5. If your design changes form drastically - then you can re-send the updated mass to the same dashboard. If you want to create a **new** dashboard for the updated design, then you will need to **Save As** in FormIt first
 
 6. If your Energy Analysis is unsuccessful - you may have geometry based **Watertight Issues (DW)** these can be reviewed and fixed in FormIt
+
+7. Turn the **massing** layer off and turn all of the other layers back on
