@@ -1,11 +1,11 @@
 ### Revit Interop
-One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt to a powerful parametric environment like Revit. We'll go through a few exercises that move elements from FormIt to Revit, and from Revit to FormIt
+One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt, to a powerful parametric environment like Revit. We'll go through a few exercises that move elements from FormIt to Revit, and from Revit to FormIt
 
 If you did not complete the last section, click the File &gt; Open and choose **farnsworth09.axm** from the FormIt Primer folder
 
 #### Import Data from FormIt into Revit
 
-1. Inside Revit, choose **Import FormIt to RVT** from the add-in. 
+1. Open Revit. Start a new project. Go to the **Add-Ins** tab. Find the **FormIt Converter** panel. Choose **Import FormIt to RVT** from the drop down menu 
 
     ![](./images/9a7673f7-a265-49c8-b665-325e9618ac65.png)
 
