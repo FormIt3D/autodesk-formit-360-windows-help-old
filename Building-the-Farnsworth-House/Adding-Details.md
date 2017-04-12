@@ -76,7 +76,7 @@ We want this mullion to appear at the midpoint between the columns. We'll draw a
     
 7. Press **Esc** to clear the move tool. Now select the guideline and delete it before you forget!
 
-6. Select the mullion, click the **Ctrl** key to make a **Quick copy**. Click to place the copy **11'** to the right of the original
+6. Select the mullion, **single click** to start the move tool. Move your mouse to the right, along the **red axis**. Click the **Ctrl** key to make a **quick copy**. Press the **Tab key** and input **11'** to the right of the original
 
 5. Select the original mullion, and [**Array**](../tool-library/tilt-array-copy-and-paste.md) it three times at a **distance between** of **11'**
 
