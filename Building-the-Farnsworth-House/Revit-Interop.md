@@ -6,11 +6,11 @@ If you did not complete the last section, click the File &gt; Open and choose **
 #### Import Data from FormIt into Revit
 In this exercise we will use Revit 2018 which has improved importing capabilities, as well as the ability to import materials from FormIt! Previous versions of the FormIt Converter do not have these features
 
-1. Open the **farnsworth09.axm** file in FormIt. The **plan image** and the **furniture** layer are turned **off**
+1. Open the **farnsworth09.axm** file in FormIt. The **plan image** and the **furniture** layers are turned **off**
 
-2. Only visible objects will be imported to Revit in order to save processing time. This also gives you control over what is imported
+2. Only visible objects from the FormIt model will be imported to Revit in order to save processing time. This also gives you control over what is imported
 
-1. Start **Revit 2018**. Start a new project with an **Architectural template** 
+1. Start **Revit 2018**. Start a new project from an **Architectural template** 
 
 4. Go to the **Add-Ins** tab. Find the **FormIt Converter** panel. Choose **Import FormIt to RVT** from the drop down menu 
 
@@ -18,15 +18,33 @@ In this exercise we will use Revit 2018 which has improved importing capabilitie
 
 2. Choose **farnsworth09.axm** from the FormIt Primer folder
 
-3. This process will take a minute. Revit converts each FormIt group into a family of the category we specified
+3. This process will take a minute. Revit converts each FormIt group into a family of the category we specified in FormIt
 
 4. If there are any errors importing FormIt geometry, then Revit will list those. You can go back to FormIt and investigate these groups
 
-5. Go to the default 3D view, and turn on Realistic visual style. Our model has imported with materials applied
+5. Go to the **default 3D view**, and turn on **Realistic visual style**. Our model has imported with materials applied!
 
     ![](./images/cce7e450-4f6b-4f05-bdb1-88c385f58040.png)
 
-4. If we inspect the various objects, we will see that most are mass families. The Columns however, are Generic family. This will allow us to edit the family and convert to another category such as Structural Column.
+If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics (VG)** dialog
+
+#### Revit Conceptual Mass Tools
+
+1. Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels
+
+    ![](./images/MassRibbon.png)
+
+4. Select the **lower terrace**, it is a **Mass family**. Select the **Mass Floors** button in the ribbon. Choose the **Terrace** level from the dialog that appears. Now you can apply a Revit **Floor by Face** to this geometry. 
+
+5. Click the **Floor by Face** tool from the **Massing and Site** panel in the ribbon. Hover over the edge of the lower terrace - it should highlight blue - click to select. Click the **Create Floor** button in the Ribbon. The floor is created **below** our FormIt floor. In the **Properties panel** change the **Offset from Level** parameter to be **1' 0"**. Repeat this step for the upper floor too
+
+    ![](./images/MassFloors.png)
+
+5. Select the **glass wall**, it is also a **Mass family**. You can apply a **Curtain system by Face**
+
+5. The Columns however, are Generic family. This will allow us to edit the family and convert to another category such as Structural Column.
+
+#### Reload Revit Families from FormIt
 
 5. The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
 
