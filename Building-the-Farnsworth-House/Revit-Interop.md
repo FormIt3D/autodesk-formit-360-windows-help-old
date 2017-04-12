@@ -1,5 +1,5 @@
 ### Revit Interop
-One of FormIt's most appealing features is the way that you can work between a flexible modeling environment like FormIt and a powerful parametric environment like Revit. We'll go through a few exercises that move data FormIt to Revit, and from Revit to FormIt
+One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt to a powerful parametric environment like Revit. We'll go through a few exercises that move elements from FormIt to Revit, and from Revit to FormIt
 
 If you did not complete the last section, click the File &gt; Open and choose **farnsworth09.axm** from the FormIt Primer folder
 
