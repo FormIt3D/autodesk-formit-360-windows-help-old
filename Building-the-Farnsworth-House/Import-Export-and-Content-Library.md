@@ -24,6 +24,8 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_3.png)
 
+7. When you import **SKP** files to FormIt, you may want to delete the layers that come in. Go to the **Layers** panel, select **Layer 0**, and click the **"-"** button. This will delete the **layer**, but not the geometry on that layer  
+
 7. Turn off the **Grid (DG)** and the **X, Y, Z axes (DZ)** and do a **Zoom All (ZA)**. FormIt will store the current [**Visual Styles**](/Building-the-Farnsworth-House/Visual-Settings.md) for the **Content Library** thumbnail preview image
 
      ![](./images/6d0397d3-3c97-46cd-90f9-878c34e90195_4.png)
@@ -76,5 +78,7 @@ Make sure to **move along the red and green axes** while working in Top View. Ot
 
 5. Select the **Corbu Chair** and place one in the scene, in front of the fire place. Place a few of the other furniture pieces. Put whatever furniture you just placed onto the **furniture** layer
   
-     ![](./images/UpperTerraceSketch_30.png)
+     ![](./images/UpperTerraceSketch_31.png)
+     
+As you place furniture you can enter the **Rotate (Q)** command to change the direction the furniture if facing
      
