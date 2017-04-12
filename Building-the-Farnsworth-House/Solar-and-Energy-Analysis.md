@@ -1,7 +1,7 @@
 ### Solar and Energy Analysis
 Now that the model has been created we can utilize it to study the **solar and energy impact** of our design. These features are built into FormIt so your earliest studies can be understood from a building performance perspective. These features are **FormIt Pro** only, if you are following along on the web app, you may not have access.
 
-If you did not complete the last section, click the File &gt; Open and choose **farnsworth09.axm** from the FormIt Primer folder.
+If you did not complete the last section, click the File &gt; Open and choose **farnsworth08.axm** from the FormIt Primer folder.
 
 #### Shadows
 Before any of these analysis tools can be used, you need to [set the location](/Building-the-Farnsworth-House/Setting-Location.md). This gives FormIt access to accurate sun, shadows and climate data
