@@ -72,7 +72,7 @@ Make sure to **move along the red and green axes** while working in Top View. Ot
 
 5. Look into the **Content Library** palette. Click into the **Seating** sub-folder
 
-     ![](./images/ba020113-7f1e-4b8e-a11c-f336dbb68e41.png)
+     ![](./images/1f193941-4bf0-4394-8316-e5a103fa8949.png)
 
 5. Select the **Corbu Chair** and a few of the ** **place two** instances of it. 
 
