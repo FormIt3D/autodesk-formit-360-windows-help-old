@@ -6,7 +6,7 @@ If you did not complete the last section, click the File &gt; Open and choose **
 #### Shadows
 Before any of these analysis tools can be used, you need to [set the location](/Building-the-Farnsworth-House/Setting-Location.md). This gives FormIt access to accurate sun, shadows and climate data
 
-1. Click on the Sun Icon in the [**Action Tool Bar**](../formit-introduction/tool-bars.md) and check **Display Shadows**.
+1. Click on the Sun Icon in the [**Action Tool Bar**](../formit-introduction/tool-bars.md) and check on **Shadows (DS)**
 
     ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
@@ -23,7 +23,7 @@ Being visual people, designers can learn and communicate an incredible amount of
 
 1. From the bottom of the [**Sun menu**](../formit-introduction/tool-bars.md), click the **Solar Analysis** button
 
-2. You are put into a special mode where **shadows**, **ambient shadows**, **keyboard shortcuts**, and other UI elements are disabled. 
+2. You are put into a special mode where **shadows**, **keyboard shortcuts**, and other **toolbars** are disabled
 
 3. The selection behavior is modified in **Solar Analysis** mode. You can select **through groups**, you don't need to hold down **Ctrl** or **Shift** to add to your selection set, and you can unselect items by clicking them again. You can **Single click**, **double click**, or **window select** geometry
 
@@ -35,19 +35,27 @@ Being visual people, designers can learn and communicate an incredible amount of
 
     ![](./images/SolarAnalysis.png)
 
-3. The **Month Peak** setting shows the **peak** values (in BTU/sq. ft) for the specified month. This is intended for **glazing studies**. You can change the month and the graphics update instantly. Also, you can **hover your cursor** over an analyzed surface to get a **specific** value
+3. The **Month Peak** setting shows the **peak** values (in BTU/sq. ft) for the specified month. This is intended for **shading studies**. You can change the month setting and the graphics update instantly. **Hover your cursor** over an analyzed surface to get a **specific** value
 
     ![](./images/460060a0-ea3b-4095-af45-40045811be22.png)
 
-4. The **Year Cumulative** setting shows the **cumulative** energy for the entire year (in KwH/sq. meter). This is intended for **solar panel PV potential studies** 
+4. The **Year Cumulative** setting shows the **cumulative** energy for the entire year (in KwH/sq. meter). This is intended for **PV potential studies** 
 
     ![](./images/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-### Energy Analysis with Insight 360
-1. Hide all of the layers except for Massing.
+### Energy Analysis with Insight 
+FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of parameters that be can be adjusted to reflect many potential scenarios without **re-analyzing** model geometry. Insight works best with FormIt **massing** geometry
 
-2. Click the **Insight 360 &gt; Generate Insight button.** Any visible masses with levels applied will be sent to Insight 360 for Analysis.
+1. Turn off **all** of the layers **except** for massing. FormIt will only send **visible** geometry to Insight
+
+2. Click the **Insight &gt; Generate Insight** button. Your geometry must have at least one **Level** applied
 
     ![](./images/deac2672-e76b-478c-8e12-fc7b270e59f2.png)
 
-3. Once the analysis is complete – click View Insight to view the results. Optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight360.autodesk.com/).
+3. The analysis will run in the cloud, so you can continue to model during the computation 
+
+4. Once the analysis is complete, click the **View Insight** button to see your design's dashboard of energy factors. Optionally, you can visit the website directly at [http://insight360.autodesk.com](http://insight360.autodesk.com/)
+
+5. If your design changes form drastically - then you can re-send the updated mass to the same dashboard. If you want to create a **new** dashboard for the updated design, then you will need to **Save As** in FormIt first
+
+6. If your Energy Analysis is unsuccessful - you may have geometry based **Watertight Issues (DW)** these can be reviewed and fixed in FormIt
