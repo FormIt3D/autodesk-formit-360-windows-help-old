@@ -11,6 +11,9 @@ Before any of these analysis tools can be used, you need to [set the location](/
 2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design! 
 
     ![](./images/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
+    
+    
+2. Move the Day and Hour sliders to see the shadow effects. Note in this house how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident but a matter of design! 
 
 #### Solar Analysis
 1. From the same [**Sun menu**](../formit-introduction/tool-bars.md), click **Solar Analysis**.
