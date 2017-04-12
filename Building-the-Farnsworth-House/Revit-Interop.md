@@ -4,14 +4,25 @@ One of FormIt's most exciting features is the ability to move your model from a 
 If you did not complete the last section, click the File &gt; Open and choose **farnsworth09.axm** from the FormIt Primer folder
 
 #### Import Data from FormIt into Revit
+In this exercise we will use Revit 2018 which has improved importing capabilities, as well as the ability to import materials from FormIt! Previous versions of the FormIt Converter do not have these features
 
-1. Open Revit. Start a new project. Go to the **Add-Ins** tab. Find the **FormIt Converter** panel. Choose **Import FormIt to RVT** from the drop down menu 
+1. Open the **farnsworth09.axm** file in FormIt. The **plan image** and the **furniture** layer are turned **off**
+
+2. Only visible objects will be imported to Revit in order to save processing time. This also gives you control over what is imported
+
+1. Start **Revit 2018**. Start a new project with an **Architectural template** 
+
+4. Go to the **Add-Ins** tab. Find the **FormIt Converter** panel. Choose **Import FormIt to RVT** from the drop down menu 
 
     ![](./images/9a7673f7-a265-49c8-b665-325e9618ac65.png)
 
-2. Choose **farnsworth07.axm** from the FormIt Primer folder.
+2. Choose **farnsworth09.axm** from the FormIt Primer folder
 
-3. This process will take a few minutes as Revit converts each object in the FormIt file into individual Mass, Generic, and Furniture family instances. 
+3. This process will take a minute. Revit converts each FormIt group into a family of the category we specified
+
+4. If there are any errors importing FormIt geometry, then Revit will list those. You can go back to FormIt and investigate these groups
+
+5. Go to the default 3D view, and turn on Realistic visual style. Our model has imported with materials applied
 
     ![](./images/cce7e450-4f6b-4f05-bdb1-88c385f58040.png)
 
