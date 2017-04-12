@@ -46,19 +46,28 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
 ####Place Content from the Library
 
-1. Turn off the **roof** layer
+1. Turn off the **roof** layer so you can see inside the house
 
-3. Look in the **Content Library** palette and select the **content** folder** from the drop down menu
+3. Look in the **Content Library** palette and choose the **content** folder** you just linked from the drop down menu
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
-1. Click the **components** folder and drag and drop **core** into the canvas
+1. **Single click** the **components** folder to open it. **Drag and drop** the **core** file into the canvas. Place it in the middle of the floor
 
-2. **Hide Floor 1 layer** to see plan image below.
+     ![](./images/UpperTerraceSketch_29.png)
 
-3. **Move the core** object roughly into place using the plan as a guide
+2. Go to the **Top View (ZT)** and turn off the **Floor 1** layer to see the plan image below
 
-4. Select the **Seating sub-folder**.
+3. Select the **core** and move it along the **red axis** until it roughly lines up to the plan below. You may want to turn off **Snap to Grid (SG)** 
+
+     ![](./images/UpperTerraceSketch_30.png)
+
+3. **Move the core** along the **green axis** until it is roughly in place, using the plan as a guide. 
+
+Make sure to **move along the axes** otherwise you may snap to elements above or below, and the core will move in the Z direction
+
+####Place Furniture from the Library
+4. Select the **Seating sub-folder**
 
      ![](./images/ba020113-7f1e-4b8e-a11c-f336dbb68e41.png)
 
