@@ -35,11 +35,11 @@ Being visual people, designers can learn and communicate an incredible amount of
 
     ![](./images/SolarAnalysis.png)
 
-3. The Month Peak setting shows what the peak solar insolation (in BTU/sq. ft) for the specified month. You can change the month anytime to see the graphics update. Also, you can hover your cursor over an analyzed surface to get a specific value
+3. The **Month Peak** setting shows the **peak** values (in BTU/sq. ft) for the specified month. This is intended for **glazing studies**. You can change the month and the graphics update instantly. Also, you can **hover your cursor** over an analyzed surface to get a **specific** value
 
     ![](./images/460060a0-ea3b-4095-af45-40045811be22.png)
 
-4. The Year Cumulative setting displays the cumulative energy for the entire year in KwH/sq. meter. This is useful for gaining an early idea of solar PV potential for surfaces of your design. 
+4. The **Year Cumulative** setting shows the **cumulative** energy for the entire year (in KwH/sq. meter). This is intended for **solar panel PV potential studies** 
 
     ![](./images/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
