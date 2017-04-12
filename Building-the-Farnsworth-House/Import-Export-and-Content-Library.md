@@ -32,7 +32,7 @@ First we'll go through the process of adding a piece of downloaded content to yo
 
 You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the **mob_cadeira_barcelona** files in the **content\SKP** folder
 
-####Content Library
+####Link a Content Library
 
 1. Open the [**Content Library Palette**](../formit-introduction/tool-bars.md)
 
@@ -44,11 +44,15 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
      ![](./images/15e16abd-9b7a-4762-9364-0f31e81ded8a.png)
 
+####Place Content from the Library
+
+1. Turn off the **roof** layer
+
 3. Look in the **Content Library** palette and select the **content** folder** from the drop down menu
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
-1. Click File &gt; Import &gt; Import 3D Model (Ctrl + I) and Import the **core.axm** from the FormIt Primer/content/components.
+1. Click the **components** folder and drag and drop **core** into the canvas
 
 2. **Hide Floor 1 layer** to see plan image below.
 
