@@ -59,7 +59,7 @@ FormIt has integrated the same Building Performance analysis tools that Revit us
 
     ![](./images/EnergyMenu.png)
 
-4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** (optionally, you can visit the website directly at **[http://insight.autodesk.com](http://insight.autodesk.com/))**
+4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** (optionally, you can visit the website directly at **[http://insight.autodesk.com](http://insight.autodesk.com/)**)
 
     ![](./images/EnergyDashboard.png)
     
