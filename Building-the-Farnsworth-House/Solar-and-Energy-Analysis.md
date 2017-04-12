@@ -25,15 +25,17 @@ Being visual people, designers can learn and communicate an incredible amount of
 
 2. You are put into a special mode where **shadows**, **ambient shadows**, **keyboard shortcuts**, and other UI elements are disabled. 
 
-3. The selection behavior is modified in **Solar Analysis** mode. You can select **through groups**, you don't need to hold down **Ctrl** or **Shift** to add to your selection set, and you can unselect items by clicking them again
+3. The selection behavior is modified in **Solar Analysis** mode. You can select **through groups**, you don't need to hold down **Ctrl** or **Shift** to add to your selection set, and you can unselect items by clicking them again. You can **Single click**, **double click**, or **window select** geometry
 
-3. Choose the faces you want to study. **Single click**, **double click**, or **window select** faces. Avoid selecting small elements like furniture
+3. Choose the faces you want to study. **Single click** the top of the **roof**, and the top of the **floors**. Avoid selecting small elements like furniture
 
     ![](./images/UpperTerraceSketch_33.png)
 
-4. and click **Analyze**.
+4. In the top, left corner of the canvas find the **Solar Analysis** toolbar. Click **Analyze**. FormIt will calculate and render the surfaces. The settings here can be adjusted before **and** after the analysis finishes
 
-3. The Month Peak setting displays the peak solar insolation in BTU/sq. ft for that month. Hover your cursor over an analyzed surface to get a specific value. 
+    ![](./images/SolarAnalysis.png)
+
+3. The Month Peak setting shows what the peak solar insolation (in BTU/sq. ft) for the specified month. You can change the month anytime to see the graphics update. Also, you can hover your cursor over an analyzed surface to get a specific value
 
     ![](./images/460060a0-ea3b-4095-af45-40045811be22.png)
 
