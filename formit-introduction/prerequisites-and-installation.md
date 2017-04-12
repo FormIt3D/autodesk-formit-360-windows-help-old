@@ -6,6 +6,8 @@
 
 * Revit 2016, 2017, or 2018  - _This is only required for the section on Revit Interoperability_
 
+* FormIt Add-In for Revit 2016, 2017, 2018. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
+
 ![](/formit-introduction/images/splash_screen.png)
 
 ### FormIt and FormIt Pro
