@@ -34,9 +34,11 @@ If you do not see some of the **Mass geometry** then you may need to enable the 
 
     ![](./images/MassRibbon.png)
 
-4. Select the **lower terrace**, it is a **Mass family**. Select the **Mass Floors** button in the ribbon. Choose the **Terrace** level from the dialog that appears. Now you can apply a Revit **Floor by Face** to this geometry. 
+4. Select the **lower terrace**, it is a **Mass family**. Select the **Mass Floors** button in the ribbon. Choose the **Terrace** level from the dialog that appears. Now you can apply a Revit **Floor by Face** to this geometry
 
-5. Click the **Floor by Face** tool from the **Massing and Site** panel in the ribbon. Hover over the edge of the lower terrace - it should highlight blue - click to select. Click the **Create Floor** button in the Ribbon. The floor is created **below** our FormIt floor. In the **Properties panel** change the **Offset from Level** parameter to be **1' 0"**. Repeat this step for the upper floor too
+5. Click the **Floor by Face** tool from the **Massing and Site** panel in the ribbon. Hover over the edge of the lower terrace - it should highlight blue - click to select
+
+6. Click the **Create Floor** button in the Ribbon. The Revit floor is created **below** the FormIt floor. While the Revit floor is selected, look in the **Properties panel**, change the **Offset from Level** parameter to be **1' 0"**. Repeat these steps for the upper floor
 
     ![](./images/MassFloors.png)
 
