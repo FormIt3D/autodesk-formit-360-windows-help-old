@@ -144,6 +144,8 @@ A few tips to make this process work well
 
 9. Use **Temporary Hide Isolate** or filters to hide additional model elements that you don't need. **Section Box** does not work to filter out elements for export
 
+    ![](./images/ExportSAT.png)
+
 10. If you want to import a **large** Revit model to FormIt, then turn on only one category at a time. Export just that category to SAT. Import just one SAT at a time to FormIt and put that import on a **layer**. This process will keep elements isolated from each other. Repeat for however many categories you want
 
 **Note**: *Family and category information is not transferred back to FormIt when exporting to SAT*
