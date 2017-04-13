@@ -74,8 +74,7 @@ In the previous section we learned what to do with **Masses** from FormIt. In th
 
 9. Verify the columns are behaving correctly by turning off the **Structural Columns** category in the **Visibility Graphics (VG)** dialog
 
-This technique allows you to flexibly adjust the category of groups from FormIt. One caveat, if your group is a **Mass** when imported from FormIt, you cannot change to another category using this technique - you have to see the category to **Generic** in FormIt first.
-
+This technique allows you to flexibly adjust the category of groups from FormIt. One caveat, if your group is a **Mass** when imported from FormIt, you cannot change to another category using this technique - you have to set the category to **Generic Models** in FormIt first
 
 ### Convert Revit Families for Use in FormIt
 If you (or your firm) has a trove of Revit Families that you want to use in FormIt, then you'll be interested in the next section which discusses how to export RFA to FormIt, and then replace them with the original RFA when importing back into Revit
@@ -96,13 +95,23 @@ If you (or your firm) has a trove of Revit Families that you want to use in Form
 
 4. This process will take a number of minutes as Revit opens each RFA in the first path - then converts, and saves it as an AXMF format for FormIt
 
-5. Once the process has finished you can go to FormIt and link to the folder of **content** following these instructions
+5. Once the process has finished you can go to FormIt and link to the folder of **content** following [these instructions](/Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
 
-**Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
-
+**Note**: *Not all categories from Revit are supported for export. The 'free standing' families are supported, but the 'host based' families are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported*
 
 #### Reload Families from FormIt
-5. The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
+In this exercise we'll cover a powerful tool in FormIt called **Export Selected** then **Reload Families** in Revit
+
+1. Open the **farnsworth09.axm** file in FormIt. Turn off the **roof** layer 
+
+2. Select the **Corbu chair** that we placed in an earlier exercise
+
+3. Choose **File > Export (Ctrl + E)**. The dialog defaults to choose AXM from the list on the left - this is what we want
+
+4. Choose the **selected** button from the options along the top of the dialog
+
+
+5. In FormIt, open the The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
 
     ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
