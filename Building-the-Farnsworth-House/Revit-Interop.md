@@ -119,6 +119,8 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
 6. Choose to **Import FormIt to Revit**. Choose the **Chair.AXM** file from the previous steps
 
+7. You can **hide** the roof by selecting it, right click, and choosing **Hide in View > Element**
+
 7. Revit will import the geometry, and place it in the correct location relative to the previously imported geometry. The origin point of the FormIt and Revit file are in sync
     
     ![](./images/ChairRevit.png)
