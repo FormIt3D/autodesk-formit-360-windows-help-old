@@ -76,8 +76,26 @@ In the previous section we learned what to do with **Masses** from FormIt. In th
 
 This technique allows you to flexibly adjust the category of groups from FormIt. One caveat, if your group is a **Mass** when imported from FormIt, you cannot change to another category using this technique - you have to see the category to **Generic** in FormIt first.
 
-#### Reload Revit Families from FormIt
 
+### Convert Revit Families for Use in FormIt
+If you (or your firm) has a trove of Revit Families that you want to use in FormIt, then you'll be interested in the next section which discusses how to export RFA to FormIt, and then replace them with the original RFA when importing back into Revit
+
+1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template 
+
+2. From the Add-Ins tab select **Convert RFA to FormIt ** from the FormIt Converter. 
+
+    ![](./images/957577ef-e004-4b33-9ec7-350649a90755.png)
+
+3. Set the first path to **FormIt Primer\\content\\RFA** and the Converted Files path to **FormIt Primer\\content** and press OK.
+
+    ![](./images/032cef9c-00dd-4e03-9b89-01d93ff6e1ac.png)
+
+4. This process will take a number of minutes as Revit opens each RFA in the first path and converts it to a format that FormIt can read.
+
+**Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
+
+
+#### Reload Families from FormIt
 5. The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
 
     ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
@@ -92,20 +110,6 @@ There may be times when you need to bring data from Revit into FormIt – e.g. w
 
 **Note**: *Family and category information is not transferred back to FormIt.*
 
-### Convert Revit Families for Use in FormIt
 
-1. Open Revit 2016 or 2017 and start a blank file from the Architectural Template. 
-
-2. From the Add-Ins tab select **Convert RFA to FormIt ** from the FormIt Converter. 
-
-    ![](./images/957577ef-e004-4b33-9ec7-350649a90755.png)
-
-3. Set the first path to **FormIt Primer\\content\\RFA** and the Converted Files path to **FormIt Primer\\content** and press OK.
-
-    ![](./images/032cef9c-00dd-4e03-9b89-01d93ff6e1ac.png)
-
-4. This process will take a number of minutes as Revit opens each RFA in the first path and converts it to a format that FormIt can read.
-
-**Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
 
 
