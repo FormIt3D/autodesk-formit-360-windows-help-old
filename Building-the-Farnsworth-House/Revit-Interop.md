@@ -29,22 +29,31 @@ In this exercise we will use Revit 2018 which has improved importing capabilitie
 If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics (VG)** dialog
 
 #### Revit Conceptual Mass Tools
+Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels. These tools are how you can take FormIt Masses and turn them into Revit based BIM elements. If you're familiar with these steps then feel free to skip ahead in this section.
 
-1. Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels
+![](./images/MassRibbon.png)
 
-    ![](./images/MassRibbon.png)
-
-4. Select the **lower terrace**, it is a **Mass family**. Select the **Mass Floors** button in the ribbon. Choose the **Terrace** level from the dialog that appears. Now you can apply a Revit **Floor by Face** to this geometry
-
-5. Click the **Floor by Face** tool from the **Massing and Site** panel in the ribbon. Hover over the edge of the lower terrace - it should highlight blue - click to select
-
-6. Click the **Create Floor** button in the Ribbon. The Revit floor is created **below** the FormIt floor. While the Revit floor is selected, look in the **Properties panel**, change the **Offset from Level** parameter to be **1' 0"**. Repeat these steps for the upper floor
+4. Select the **lower terrace**. Select the **Mass Floors** button from the ribbon. Check the **Terrace** level from the dialog that appears
 
     ![](./images/MassFloors.png)
+    
+5. Click the **Floor by Face** tool from the **Massing and Site** ribbon. Hover over the edge of the lower terrace, it highlights blue - click to select it
 
-5. Select the **glass wall**, it is also a **Mass family**. You can apply a **Curtain system by Face**
+6. Click the **Create Floor** button in the Ribbon. The Revit floor is created **below** the FormIt floor 
 
-5. The Columns however, are Generic family. This will allow us to edit the family and convert to another category such as Structural Column.
+7. While the Revit floor is selected, look in the **Properties panel**, change the **Height Offset from Level** parameter to be **1' 0"**
+
+8. Turn off the **Mass** category in the **Visibility Graphics (VG)** menu in order to see just Revit geometry
+
+Repeat these steps for the **other floor**, but choose the **Floor 1** level when creating a Mass Floor
+
+#### Swap Revit Family Categories
+
+5. The Columns imported as **Generic model** families. We'll go through the steps to change the category to **Structural Column**
+
+2. First select a column, and from the ribbon choose the **Edit Family** button
+
+This will allow us to edit the family and convert to another category such as Structural Column.
 
 #### Reload Revit Families from FormIt
 
