@@ -1,7 +1,7 @@
 ### Control Visibility with Layers
 Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your scene. We are going to create a layer to save and hide the building mass for analysis in the future.
 
-### Create Layers
+#### Create Layers
 
 1. Go to the [**Layers Palette**](../formit-introduction/tool-bars.md) and click the **+** sign three times to create three layers
 
@@ -13,7 +13,7 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 10. **Single click** to select the **plan image** group and put it on the **Plan Image** layer
 
-### Duplicate Group
+#### Duplicate Group
 
 4. Select the **main building** group again 
 
@@ -25,7 +25,7 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 **Note**: The new Group is now severed from the original and they will not update each other any longer
 
-### Create the Floor
+#### Create the Floor
 
 6. **Single click** to select either of the **main building** groups
 
