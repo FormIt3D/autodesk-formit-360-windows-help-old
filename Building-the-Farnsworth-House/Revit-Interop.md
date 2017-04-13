@@ -127,9 +127,13 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
     ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
-6. In the dialog, select **FormIt Primer\\content.** This will point the converter at all sub-folders under this folder. Press OK. This process will take a number of minutes as it looks at each family and tries to make a match and reload the proper RFA file in its place. 
+6. In the dialog, input the path to the folder containing the original RFA **FormIt Primer\\content\\RFA**
 
-    ![](./images/a97d2f55-e13c-4c34-b885-789f272949cc.png)
+7. Revit will swap out the FormIt version for the original RFA
+
+    ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
+
+
 
 #### Export Data from Revit into FormIt
 
