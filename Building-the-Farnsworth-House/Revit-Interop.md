@@ -121,10 +121,9 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
 7. Revit will import the geometry, and place it in the correct location relative to the previously imported geometry. The origin point of the FormIt and Revit file are in sync
     
-    ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
+    ![](./images/ChairRevit.png)
 
-
-7. various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
+7. This imported chair is NOT the original RFA yet. We have to perform one more step. Go to the **Reload Families** option in the **FormIt Converter** Add-In
 
     ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
