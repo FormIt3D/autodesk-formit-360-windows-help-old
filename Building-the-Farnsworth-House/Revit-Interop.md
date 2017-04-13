@@ -131,13 +131,10 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
 7. Revit will swap out the FormIt version for the original RFA
 
-    ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
+    ![](./images/ChairExport2.png)
 
-
-
-#### Export Data from Revit into FormIt
-
-There may be times when you need to bring data from Revit into FormIt – e.g. when you have an existing Revit project that needs an area of the design to be iterated on. Export a 3D scene to the SAT file format from Revit and you will be able to import that data back into FormIt.
+#### Export Walls, Floors, Windows, or Doors from Revit to FormIt
+If you want to export Revit model elements (like Walls and Floors) into FormIt for reference, or design iteration, you can Export a 3D scene to the SAT file format from Revit and you will be able to import that data back into FormIt.
 
 **Note**: *Family and category information is not transferred back to FormIt.*
 
