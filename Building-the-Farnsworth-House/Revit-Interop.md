@@ -80,17 +80,23 @@ This technique allows you to flexibly adjust the category of groups from FormIt.
 ### Convert Revit Families for Use in FormIt
 If you (or your firm) has a trove of Revit Families that you want to use in FormIt, then you'll be interested in the next section which discusses how to export RFA to FormIt, and then replace them with the original RFA when importing back into Revit
 
-1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template 
+1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template
 
-2. From the Add-Ins tab select **Convert RFA to FormIt ** from the FormIt Converter. 
+2. The steps below are for **your reference**. These files have already been converted for you!
+
+2. From the Add-Ins tab, find the **FormIt Converter** and select **Convert RFA to FormIt ** from the drop down
 
     ![](./images/957577ef-e004-4b33-9ec7-350649a90755.png)
 
-3. Set the first path to **FormIt Primer\\content\\RFA** and the Converted Files path to **FormIt Primer\\content** and press OK.
+3. Set the first path (where the Revit RFA are) to **FormIt Primer\\content\\RFA** 
+
+4. Set the second path (where the FormIt files will go) to **FormIt Primer\\content** and press OK
 
     ![](./images/032cef9c-00dd-4e03-9b89-01d93ff6e1ac.png)
 
-4. This process will take a number of minutes as Revit opens each RFA in the first path and converts it to a format that FormIt can read.
+4. This process will take a number of minutes as Revit opens each RFA in the first path - then converts, and saves it as an AXMF format for FormIt
+
+5. Once the process has finished you can go to FormIt and link to the folder of **content** following these instructions
 
 **Note**: *You do not need to run this process during the tutorial, since all of the conversions have been made already. That is where the Corbu Chair and other content in the previous exercise came from.*
 
