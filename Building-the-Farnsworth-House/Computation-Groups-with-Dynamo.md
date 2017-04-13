@@ -27,7 +27,7 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
     ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
-#### Locate the Stair Groups
+#### Locate the Stair Group
 
 8. **Single click** to select the stairs, click one of the top corners to start the move tool 
 
@@ -48,6 +48,8 @@ If you did not complete the last section, download and open the **farnsworth06.a
     ![](./images/UpperTerraceSketch_25.png)
     
 10. Press the **Tab key** and enter **16' 7"**. The measure tool will actually move the geometry for you
+
+#### Locate the Upper Stair Group
 
 11. **Single click** to select the stair group, click the same mid point to start the **move tool** 
 
