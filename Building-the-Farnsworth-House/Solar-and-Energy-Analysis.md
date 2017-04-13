@@ -46,7 +46,7 @@ Being visual people, designers can learn and communicate an incredible amount of
 4. These **Solar Analysis** studies can be exported by clicking **File > Export (Ctrl + E)** and choosing **Image** from the list on the left
 
 
-### Energy Analysis with Insight 
+#### Energy Analysis with Insight 
 FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of building system parameters that be can be adjusted to reflect potential scenarios without requiring you to **re-analyze** model geometry. Insight works best with FormIt **massing** geometry
 
 1. Make sure you are logged into A360. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
