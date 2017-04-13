@@ -54,13 +54,27 @@ In the previous section we learned what to do with **Masses** from FormIt. In th
 
 5. Notice that the Columns imported from FormIt as **Generic Model** category families. But we want them to be categorized as **Structural Column**
 
-2. First select a column, and from the ribbon choose the **Edit Family** button
+2. First select one of the **tall column** families. From the ribbon, choose the **Edit Family** button
     
 3. This will open the Revit **Family Editor**. Click the **folder icon** in the upper left corner to launch the **Family Category and Parameters** dialog
 
-    ![](./images/FamilyCategory.png)
+    ![](./images/Family_CatParam.png)
 
-This will allow us to edit the family and convert to another category such as Structural Column
+4. Scroll down the list of Categories and choose **Structural Columns**. Click OK to confirm, and exit the dialog
+
+    ![](./images/Family_Category.png)
+
+5. Choose the **Load into Project** button from the Ribbon
+
+6. Revit asks you to confirm the reload, choose to **Overwrite the existing version**
+
+7. Confirm the category change by hovering your mouse over the tall columns. The **tooltip** reports the category of the family
+
+8. Repeat these steps for the **short column** family 
+
+9. Verify the columns are behaving correctly by turning off the **Structural Columns** category in the **Visibility Graphics (VG)** dialog
+
+This technique allows you to flexibly adjust the category of groups from FormIt. One caveat, if your group is a **Mass** when imported from FormIt, you cannot change to another category using this technique - you have to see the category to **Generic** in FormIt first.
 
 #### Reload Revit Families from FormIt
 
