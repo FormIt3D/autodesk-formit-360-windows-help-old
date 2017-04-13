@@ -3,7 +3,7 @@ In this exercise we'll sketch a detail element - an I beam column. Then use the 
 
 If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-### Sketch the Column Profile
+#### Sketch the Column Profile
 1. Go to the **Top View (ZT)** to view the plan image from above 
 
 	![](./images/TopView.png)
@@ -43,7 +43,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 9. Once the outline of the profile is complete, the profile becomes a single face. Select the face with a **single click**
 
 
-### Extrude and Array the Column
+#### Extrude and Array the Column
 
 1. While the profile is still selected, go to the **3D View (ZD)** to change to a perspective view 
 
@@ -67,7 +67,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 9. Click **Esc** to clear the paintbrush tool
 
-### Array the Columns
+#### Array the Columns
 1. Go to the **Top View (ZT)** to view the plan image from above 
 
 	![](./images/TopView.png)
@@ -94,7 +94,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/ArrayPreview_2.png)
 
-### Create Unique Groups
+#### Create Unique Groups
 1. Go to the **3D View (ZD)** to change to a perspective view 
 
 	![](./images/3D_View.png)
