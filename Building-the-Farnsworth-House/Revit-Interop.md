@@ -47,13 +47,19 @@ Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **
 
 Repeat these steps for the **other floor**, but choose the **Floor 1** level when creating a Mass Floor
 
-#### Swap Revit Family Categories
+#### Change Revit Family Category
 
 5. The Columns imported as **Generic model** families. We'll go through the steps to change the category to **Structural Column**
 
 2. First select a column, and from the ribbon choose the **Edit Family** button
+    
+    ![](./images/MassFloors.png)
+    
+3. This will open the Revit **Family Editor**. Click the folder icon in the upper left corner to launch the **Family Category and Parameters** dialog
 
-This will allow us to edit the family and convert to another category such as Structural Column.
+    ![](./images/Family_CatParam.png)
+
+This will allow us to edit the family and convert to another category such as Structural Column
 
 #### Reload Revit Families from FormIt
 
