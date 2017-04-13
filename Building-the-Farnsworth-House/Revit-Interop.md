@@ -1,9 +1,9 @@
-### Revit Interop
+#### Revit Interop
 One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt, to a powerful parametric environment like Revit. We'll go through a few exercises that move elements from FormIt to Revit, and from Revit to FormIt
 
 If you did not complete the last section, click the File &gt; Open and choose **farnsworth09.axm** from the FormIt Primer folder
 
-#### Import Data from FormIt into Revit
+### Import Data from FormIt into Revit
 In this exercise we will use Revit 2018 which has improved importing capabilities, as well as the ability to import materials from FormIt! Previous versions of the FormIt Converter do not have these features
 
 1. Open the **farnsworth09.axm** file in FormIt. The **plan image** and the **furniture** layers are turned **off**
@@ -28,7 +28,7 @@ In this exercise we will use Revit 2018 which has improved importing capabilitie
 
 If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics (VG)** dialog. You can now Render, create Elevation views, and other presentation drawings!
 
-#### Revit Conceptual Mass Tools
+### Revit Conceptual Mass Tools
 In order to turn your Mass elements into Revit elements, we'll discuss the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels. These tools allow you to turn FormIt Masses into Revit BIM elements
 
 ![](./images/MassRibbon.png)
@@ -49,7 +49,7 @@ In order to turn your Mass elements into Revit elements, we'll discuss the **Mas
 
 You can apply **Wall by Face**, **Roof by Face** and **Curtain System by Face** to build up your Revit model using the FormIt model as a reference
 
-#### Change Revit Family Category
+### Change Revit Family Category
 In the previous section we learned what to do with **Masses** from FormIt. In this section we'll show you a technique to manipulate FormIt groups using the **Revit Family Editor**
 
 5. Notice that the Columns imported from FormIt as **Generic Model** category families. But we want them to be categorized as **Structural Column**
@@ -74,14 +74,16 @@ In the previous section we learned what to do with **Masses** from FormIt. In th
 
 9. Verify the columns are behaving correctly by turning off the **Structural Columns** category in the **Visibility Graphics (VG)** dialog
 
+10. Save your Revit file as **Farnsworth.RVT** as we'll need this file for the next few exercises
+
 This technique allows you to flexibly adjust the category of groups from FormIt. One caveat, if your group is a **Mass** when imported from FormIt, you cannot change to another category using this technique - you have to set the category to **Generic Models** in FormIt first
 
 ### Convert Revit Families for Use in FormIt
 If you (or your firm) has a trove of Revit Families that you want to use in FormIt, then you'll be interested in the next section which discusses how to export RFA to FormIt, and then replace them with the original RFA when importing back into Revit
 
-1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template
+The steps below are for **your reference**. These files have already been converted for you! We used them when we placed the **Corbu Chair** previously
 
-2. The steps below are for **your reference**. These files have already been converted for you!
+1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template
 
 2. From the Add-Ins tab, find the **FormIt Converter** and select **Convert RFA to FormIt ** from the drop down
 
@@ -97,7 +99,7 @@ If you (or your firm) has a trove of Revit Families that you want to use in Form
 
 **Note**: *Not all categories from Revit are supported for export. The 'free standing' families are supported, but the 'host based' families are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported*
 
-#### Reload Families from FormIt
+### Export Selected from FormIt
 In this exercise we'll cover a powerful tool in FormIt called **Export Selected** then **Reload Families** in Revit
 
 1. Open the **farnsworth09.axm** file in FormIt. Turn on the **furniture** layer, and turn off the **roof** layer 
@@ -108,10 +110,11 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
 4. Choose the **Selected Only** option from the list along the top of the dialog
 
-    ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
+    ![](./images/ExportSelected.png)
 
+5. Click the **Export** button, and save the file on your system. Name it **Chair.AXM**
 
-5. In FormIt, open the The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
+5. In Revit, open the The various furniture objects are Furniture category. There is one more tool that we can use to automatically swap out the ones that were converted in the previous exercise. Select **Reload Families** from the add-in. 
 
     ![](./images/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
@@ -119,7 +122,7 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected*
 
     ![](./images/a97d2f55-e13c-4c34-b885-789f272949cc.png)
 
-#### Export Data from Revit into FormIt
+### Export Data from Revit into FormIt
 
 There may be times when you need to bring data from Revit into FormIt – e.g. when you have an existing Revit project that needs an area of the design to be iterated on. Export a 3D scene to the SAT file format from Revit and you will be able to import that data back into FormIt.
 
