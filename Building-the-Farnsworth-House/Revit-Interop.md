@@ -26,10 +26,10 @@ In this exercise we will use Revit 2018 which has improved importing capabilitie
 
     ![](./images/cce7e450-4f6b-4f05-bdb1-88c385f58040.png)
 
-If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics (VG)** dialog
+If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics (VG)** dialog. You can now Render, create Elevation views, and other presentation drawings!
 
 #### Revit Conceptual Mass Tools
-Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels. These tools are how you can take FormIt Masses and turn them into Revit based BIM elements. If you're familiar with these steps then feel free to skip ahead in this section.
+In order to turn your Mass elements into Revit elements, we'll discuss the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels. These tools allow you to turn FormIt Masses into Revit BIM elements
 
 ![](./images/MassRibbon.png)
 
@@ -45,19 +45,20 @@ Go to the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **
 
 8. Turn off the **Mass** category in the **Visibility Graphics (VG)** menu in order to see just Revit geometry
 
-Repeat these steps for the **other floor**, but choose the **Floor 1** level when creating a Mass Floor
+9. Repeat these steps for the **upper floor**, but choose the **Floor 1** level when creating a Mass Floor 
+
+You can apply **Wall by Face**, **Roof by Face** and **Curtain System by Face** to build up your Revit model using the FormIt model as a reference
 
 #### Change Revit Family Category
+In the previous section we learned what to do with **Masses** from FormIt. In this section we'll show you a technique to manipulate FormIt groups using the **Revit Family Editor**
 
-5. The Columns imported as **Generic model** families. We'll go through the steps to change the category to **Structural Column**
+5. Notice that the Columns imported from FormIt as **Generic Model** category families. But we want them to be categorized as **Structural Column**
 
 2. First select a column, and from the ribbon choose the **Edit Family** button
     
-    ![](./images/MassFloors.png)
-    
-3. This will open the Revit **Family Editor**. Click the folder icon in the upper left corner to launch the **Family Category and Parameters** dialog
+3. This will open the Revit **Family Editor**. Click the **folder icon** in the upper left corner to launch the **Family Category and Parameters** dialog
 
-    ![](./images/Family_CatParam.png)
+    ![](./images/FamilyCategory.png)
 
 This will allow us to edit the family and convert to another category such as Structural Column
 
