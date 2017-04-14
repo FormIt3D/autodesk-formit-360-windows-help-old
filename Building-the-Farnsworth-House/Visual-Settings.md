@@ -13,9 +13,9 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
 3. The visual styles, shadow settings, and layer states update to what was stored when that scene was set up
 
-2. In the [**Scenes Palette**](../formit-introduction/tool-bars.md) and click the **"+"** icon twice to add two more scenes
+2. In the [**Scenes Palette**](../formit-introduction/tool-bars.md) click the **"+"** icon to add a new scene
 
-3. Rename the new scenes (in the Scene properties, lower in the palette) **Southwest ground** and **Aerial**. This is where you set which properties update
+3. In the **Scene Properties** - lower in the palette - rename the new scene and **Aerial**. The checkboxes determine whether changes to these settings affect the scene
 
     ![](./images/777d3348-1472-4afb-a617-54bffb9b947f.png)
 
@@ -27,13 +27,9 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
     ![](./images/a6828bff-7d6e-4cc9-b00c-1db0de96d0b1.png) 
 
-6. The Scene properties checkboxes determine whether or not changes to those settings will affect the scene. 
+7. Press the **Play** icon to cycle through the saved scenes
 
-
-
-7. Press the Play button 
-
-    ![](./images/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png) to cycle through the scenes.
+    ![](./images/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png)
 
 #### Visual Settings
 
