@@ -30,12 +30,12 @@ If you did not complete the last section, download and open the **farnsworth10.a
 7. Press the **Play** icon to animate the camera through the saved scenes
 
     ![](./images/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png)
+    
+1. Click the **Stop** icon to end the animation
 
 #### Visual Settings
 
-1. Click the **Stop** icon to end the animation
-
-2. **Double click** the original **Scene** to navigate to it. Turn on the **trees** layer and turn off the **plan image** layer. Update the scene to record these changes
+2. **Double click** the original **Scene** to navigate to it. Turn on the **trees** layer and turn off the **plan image** layer
 
 2. Select the [**Visual Styles Palette**](../formit-introduction/tool-bars.md). There are four tabs at the top for different effects: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**
 
@@ -45,18 +45,18 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
     ![](./images/74f592a0-e7b3-4168-a6e9-2d1f69453f54.png)
 
-5. Turn on Ambient Shadows, and from the Edge tab, adjust the sliders to make the contrast of the edges and silhouette edges lighter
+5. Turn on **Ambient Shadows (DA)**, and from the Edge tab, adjust the sliders to lighten the contrast of the edges and silhouettes to **30%**. Also turn on the **Extend Edges (DX)**
 
-
+    ![](./images/74f592a0-e7b3-4168-a6e9-2d1f69453f54_2.png)
+    
+6. You can update the scene to record the changes, or click the **"+"** icon to save a new scene with the current settings
 
 #### Export Image
 
-Once you have you one or more scenes with visual styles to your liking, you can export high resolution images of the scene.
+1. Click **File &gt; Export (Ctrl + E)**
 
-1. **Click File &gt; Export (Ctrl + E)**.
+2. Choose **As Image** from the bottom of the list
 
-2. Choose **As Image** from the list.
-
-3. Choose the resolution from the Preset list or enter a custom pixel dimension. 
+3. Choose the resolution from the Preset list or enter a custom pixel dimension
 
     ![](./images/03b98705-6f53-4856-aea7-a48a906b981f.png)
