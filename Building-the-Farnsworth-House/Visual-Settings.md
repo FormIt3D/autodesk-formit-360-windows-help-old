@@ -27,13 +27,15 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
     ![](./images/a6828bff-7d6e-4cc9-b00c-1db0de96d0b1.png) 
 
-7. Press the **Play** icon to cycle through the saved scenes
+7. Press the **Play** icon to animate the camera through the saved scenes
 
     ![](./images/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png)
 
 #### Visual Settings
 
-1. Select the **Southwest Ground** scene by double-clicking it.
+1. Click the **Stop** icon to end the animation
+
+2. **Double click** the original **Scene** to navigate to it
 
 2. Select the [**Visual Styles Palette**](../formit-introduction/tool-bars.md). 
 
