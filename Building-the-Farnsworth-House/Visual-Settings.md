@@ -60,3 +60,5 @@ If you did not complete the last section, download and open the **farnsworth10.a
 3. Choose the resolution from the Preset drop down list. Note that if you have any element selected in the canvas, the selection color will be exported too
 
     ![](./images/03b98705-6f53-4856-aea7-a48a906b981f.png)
+    
+If you want to the file for this completed section, download and open the **farnsworth11.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
