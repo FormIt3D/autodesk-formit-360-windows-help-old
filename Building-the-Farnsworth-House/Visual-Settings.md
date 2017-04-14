@@ -57,6 +57,6 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
 2. Choose **As Image** from the bottom of the list
 
-3. Choose the resolution from the Preset list or enter a custom pixel dimension
+3. Choose the resolution from the Preset drop down list. Note that if you have any element selected in the canvas, the selection color will be exported too
 
     ![](./images/03b98705-6f53-4856-aea7-a48a906b981f.png)
