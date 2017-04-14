@@ -35,17 +35,18 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
 1. Click the **Stop** icon to end the animation
 
-2. **Double click** the original **Scene** to navigate to it
+2. **Double click** the original **Scene** to navigate to it. Turn on the **trees** layer and turn off the **plan image** layer. Update the scene to record these changes
 
-2. Select the [**Visual Styles Palette**](../formit-introduction/tool-bars.md). 
+2. Select the [**Visual Styles Palette**](../formit-introduction/tool-bars.md). There are four tabs at the top for different effects: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**
 
     ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
 
-3. The check boxes determine the visibility of the items. The sliders allow you to affect the weight of normal edges and silhouette edges.
-
-4. Turn **Monotone Surfaces** on. This strips all colors from the scene. See image below. 
+4. Turn **Monotone Surfaces (DM)** on. This makes an abstract black and white image without any materials 
 
     ![](./images/74f592a0-e7b3-4168-a6e9-2d1f69453f54.png)
+
+5. Turn on Ambient Shadows, and from the Edge tab, adjust the sliders to make the contrast of the edges and silhouette edges lighter
+
 
 
 #### Export Image
