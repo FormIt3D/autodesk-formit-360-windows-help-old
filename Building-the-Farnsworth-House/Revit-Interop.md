@@ -142,9 +142,11 @@ A few tips to make this process work well
 
 7. Work in a default 3D view in Revit
 
-8. Turn off all of the categories in the Revit view, then turn on **ONLY** the categories you need
+8. Turn off all of the categories in the Revit view, then turn on **ONLY** the categories you need. The SAT export brings visible elements only
 
-9. Use **Temporary Hide Isolate** or filters to hide additional model elements that you don't need. **Section Box** does not work to filter out elements for export
+9. Use **Temporary Hide Isolate** or filters to export specific elements. **Section Box** does not work to filter out elements for export
+
+10. When you **Import SAT** models to FormIt, they will appear in the same location relative the origin point in **Revit**. This makes going back and forth between the applications easier
 
 10. If you want to import a **large** Revit model to FormIt, then turn on only one category at a time. Export just that category to SAT. Import just one SAT at a time to FormIt and put that import on a **layer**. This process will keep elements isolated from each other. Repeat for however many categories you want
 
