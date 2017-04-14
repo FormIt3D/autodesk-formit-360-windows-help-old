@@ -15,19 +15,21 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
 2. In the [**Scenes Palette**](../formit-introduction/tool-bars.md) and click the **"+"** icon twice to add two more scenes
 
-3. Rename the new scenes (in the Scene properties, lower in the palette) **Southwest ground** and **Aerial**
+3. Rename the new scenes (in the Scene properties, lower in the palette) **Southwest ground** and **Aerial**. This is where you set which properties update
+
+    ![](./images/777d3348-1472-4afb-a617-54bffb9b947f.png)
 
 4. Navigate the camera to an aerial view. Turn on the **trees** layer and turn off the **plan image** layer
 
     ![](./images/a3529158-1a4a-4fac-a8ee-6f60247bce4d.png)
 
-5. **Single click** on the **Aerial** scene once and then click the **update** icon. This will set the scene to current camera viewpoint. 
+5. **Single click** on the **Aerial** scene and then click the **update** icon. This will reset the scene to the current camera viewpoint and properties
 
     ![](./images/a6828bff-7d6e-4cc9-b00c-1db0de96d0b1.png) 
 
 6. The Scene properties checkboxes determine whether or not changes to those settings will affect the scene. 
 
-    ![](./images/777d3348-1472-4afb-a617-54bffb9b947f.png)
+
 
 7. Press the Play button 
 
