@@ -1,9 +1,15 @@
 ### Visual Settings
-If you did not complete the last section, download and open the **farnsworth07.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+Moving your conceptual model to Revit for documentation is only half of the deliverables that come from FormIt. The other half are beautiful graphics that help to tell a story to a client, or team member. We'll cover ways to set up your **camera scenes**, your **graphic visual styles**, and **export your images** at high resolution.
+
+If you did not complete the last section, download and open the **farnsworth10.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
 #### Scenes
 
-1. Navigate the camera to match the scene below.
+1. Find the **Scenes** icon in the palette
+
+    ![](./images/5e322aa6-efc9-4555-8b73-5788021960c7.png)
+
+2. Navigate the camera to match the scene below.
 
 2. Open the [**Scenes Palette**](../formit-introduction/tool-bars.md) and click the + twice to add two more scenes.
 
