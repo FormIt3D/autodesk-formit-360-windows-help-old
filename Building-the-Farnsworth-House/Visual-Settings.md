@@ -41,7 +41,7 @@ If you did not complete the last section, download and open the **farnsworth10.a
 
     ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
 
-4. Turn **Monotone Surfaces (DM)** on. This makes an abstract black and white image without any materials 
+4. Turn **Monotone Surfaces (DM)** on. This makes an abstract black and white image without any materials. To turn Monotone off just type DM again
 
     ![](./images/74f592a0-e7b3-4168-a6e9-2d1f69453f54.png)
 
