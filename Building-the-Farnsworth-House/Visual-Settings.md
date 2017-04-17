@@ -60,7 +60,7 @@ When working with Scenes, Graphics, Layers, and other settings you can also intr
     
 2. Hover your mouse over one of the glass faces - the arrow indicators show that the section will cut **into** the building
 
-    ![](./images/sectionIcon.png)
+    ![](./images/sectionTemp.png)
 
 
 #### Export Image
