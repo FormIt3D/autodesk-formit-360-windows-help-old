@@ -1,6 +1,6 @@
 ![](/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
 
-### FormIt Primer Part 1: Building the Farnsworth House
+# FormIt Primer Part 1: Building the Farnsworth House
 
 In this primer, we are going to go over FormIt tools and interactions to build an entire historic modernist house in just under two hours!  Reference the [**Tool Library**](../tool-library/tool-library.md) for detailed explanations on tool bars, tools and operations discussed here.
 
