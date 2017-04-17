@@ -1,9 +1,5 @@
 ### Delete, Edit, Move
----
-
-> Remove an object, change its location, or modify its properties.
-
----
+Remove an object, change its location, or modify its properties.
 
 #### Delete
 First make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
