@@ -1,12 +1,8 @@
 ### Modifying Faces, Edges and Points
----
-
-> Things get really interesting when you start to push and pull the
+Things get really interesting when you start to push and pull the
 objects you have placed. Single click will allow you to select a single
 face, edge or, different than older version of FormIt, a corner or
 point. 
-
----
 
 #### Modifying Faces
 
