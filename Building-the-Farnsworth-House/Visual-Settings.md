@@ -60,8 +60,11 @@ When working with Scenes, Graphics, Layers, and other settings you can also intr
     
 2. Hover your mouse over one of the glass faces - the arrow indicators show that the section will cut **into** the building
 
-    ![](./images/sectionTemp.png)
+    ![](./images/SectionTemp.png)
 
+2. **Click** to place the **Section plane**. The plane scales to the size of your model, and stays selected (hence the blue color). Click to start the **move** tool and push the plane **inward**. Click to **place** the plane down, and **click Esc** to clear your selection
+
+    ![](./images/SectionTemp.png)
 
 #### Export Image
 
