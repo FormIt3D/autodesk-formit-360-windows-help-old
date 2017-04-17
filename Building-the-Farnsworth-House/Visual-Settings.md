@@ -56,10 +56,11 @@ When working with Scenes, Graphics, Layers, and other settings you can also intr
 
 2. Click the Section icon from the **main toolbar**
 
-    ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
+    ![](./images/sectionIcon.png)
     
-2. Click the Section icon from the **main toolbar**
+2. Hover your mouse over one of the glass faces - the arrow indicators show that the section will cut **into** the building
 
+    ![](./images/sectionIcon.png)
 
 
 #### Export Image
