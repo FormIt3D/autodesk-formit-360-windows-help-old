@@ -1,9 +1,6 @@
 ### Collaboration
----
+And now for “one last thing!” Real time collaboration. FormIt allows multiple users (on any combination of iOS or Web clients) to collaboratively edit a FormIt model – while seeing all of their changes in real time!
 
-> And now for “one last thing!” Real time collaboration. FormIt allows multiple users (on any combination of iOS or Web clients) to collaboratively edit a FormIt model – while seeing all of their changes in real time!
-
----
 
 With a FormIt Pro subscription you have access to the Real-time Collaboration feature which allows you to:
 - Start a collaboration session and invite colleagues, or clients who do not need to be Pro to join.
