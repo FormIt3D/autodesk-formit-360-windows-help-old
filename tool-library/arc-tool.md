@@ -1,9 +1,5 @@
 ### Arc Tool
-
----
-> Use the arc tool to create half circles or symetrical arcs.
-
----
+Use the arc tool to create half circles or symetrical arcs.
 
 An arc is defined by three points and can be draw on the X, Y and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this the arc line will extend past the first two points.
 
