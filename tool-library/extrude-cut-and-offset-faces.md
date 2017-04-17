@@ -1,10 +1,6 @@
 ### Working with Faces: Extrude, Cut and Offset 
+Push or pull a face, or imprint new shapes on existing ones, or change create new edges offset from the original ones.
 
----
-
-> Push or pull a face, or imprint new shapes on existing ones, or change create new edges offset from the original ones.
-
----
 
 #### Extrude
 
