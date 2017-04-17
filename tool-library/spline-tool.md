@@ -1,9 +1,5 @@
 ### Spline Tool
-
----
-> Spline tool allows you to create organic sketches in space or on other objects.
-
----
+Spline tool allows you to create organic sketches in space or on other objects.
 
 A spline is drawn from at least 3 interpolated points. The connected geometry in simplified creating a smooth and organic curve between the specified points. 
 
