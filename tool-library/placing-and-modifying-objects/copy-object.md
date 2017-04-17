@@ -1,5 +1,4 @@
 ### Copy Object
----
 
 There are three ways to copy an object. First select the object by **double-clicking** on it:
 
