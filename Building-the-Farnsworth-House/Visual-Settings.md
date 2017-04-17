@@ -51,6 +51,17 @@ If you did not complete the last section, download and open the **farnsworth10.a
     
 6. You can update the scene to record the changes, or click the **"+"** icon to save a new scene with the current settings
 
+#### Section Planes
+When working with Scenes, Graphics, Layers, and other settings you can also introduce multiple **Section Planes** to see inside of your model
+
+2. Click the Section icon from the **main toolbar**
+
+    ![](./images/aa340156-b0de-4132-8b24-98fe2533dbfe.png)
+    
+2. Click the Section icon from the **main toolbar**
+
+
+
 #### Export Image
 
 1. Click **File &gt; Export (Ctrl + E)**

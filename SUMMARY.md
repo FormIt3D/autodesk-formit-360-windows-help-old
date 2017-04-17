@@ -30,7 +30,7 @@
   * [Import Models with Content Library](Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
   * [Solar and Energy Analysis](Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
   * [Revit Interop](Building-the-Farnsworth-House/Revit-Interop.md)
-  * [Visual Settings](Building-the-Farnsworth-House/Visual-Settings.md)
+  * [Visual Styles and Sections](Building-the-Farnsworth-House/Visual-Settings.md)
 * [Tool Library](tool-library/tool-library.md)
   * [World Axes](tool-library/world-axes.md)
   * [Work Planes](tool-library/work-planes.md)
