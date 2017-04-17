@@ -2,7 +2,8 @@
 To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
 
 **Note:** *See [Keyboard Shortcuts](../Appendix/keyboard-shortcuts.md) for information about how to speed up your use of the software's tools.*
-![](images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
+
+
 
 #### Snapping
 
@@ -15,7 +16,9 @@ There are several snaps that can aid you while you are sketching and modeling. S
 * Center of Face
 * On Ground Plane
 
-To snap to the grid, you must enable the Snap to Grid toggle from the Settings menu.
+![](images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
+
+To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
 
 #### Inference Points
 
