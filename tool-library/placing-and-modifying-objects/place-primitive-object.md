@@ -1,8 +1,6 @@
 ### Placing and Modifying Objects
----
-> The goal of following exercises is to give you an understanding of the basic operations within FormIt. We will cover ** copy, array, rotate, select/move, scale, **and** cut/join.** 
+The goal of the following exercises is to give you an understanding of the basic operations within FormIt. We will cover ** copy, array, rotate, select/move, scale, **and** cut/join.** 
 
----
 #### Placing Primitive Object
 1. In the [Action Toolbar](/tool-library/tool-bars-extended.md) click to open **Primitives button** and [select](/tool-library/select-edge-face-or-object.md) the cube. <br>
 ![](../images/primitive-cube.png)
