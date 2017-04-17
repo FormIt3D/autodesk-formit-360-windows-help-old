@@ -70,11 +70,13 @@ When working with Scenes, Graphics, Layers, and other settings you can also intr
     
 4. Go to the **Layers** tab. Two new layers have been generated - **Section Indicators** and **Section Cut 1**. Toggle **Section Cut 1** off and back on. This controls the cut effect. Now toggle the **Section Indicator** layer off, this hides the plane, and the arrow indicators
     
-4. Go to the **Visual Styles** tab. On the **Surfaces** panel, turn on the Poche color - it defaults to Black. which will add a color to the inside faces of the section cut - black or bright colors
+4. Go to the **Visual Styles** tab. On the **Surfaces** panel, turn on the Poche color - it defaults to Black. This effect will color the inside faces of the section cut with a specified color
 
-5. You can add up to 6 section planes to cut along different planes of your model
+    ![](./images/Section_2.png)
 
-6. Go to the Scenes tab and update the **Scene** so that your Section graphics are stored 
+5. You can add up to **6 section cuts** to your model. You can experiment by navigating to the **Aerial View** scene and placing a section plane that removes the roof
+
+6. Make sure to return to the Scenes tab and update your scenes, so that your Section graphics are stored 
 
 #### Export Image
 
