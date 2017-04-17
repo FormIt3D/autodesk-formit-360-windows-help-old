@@ -33,7 +33,6 @@
   * [Visual Styles and Sections](Building-the-Farnsworth-House/Visual-Settings.md)
 * [Tool Library](tool-library/tool-library.md)
   * [Selection](tool-library/select-edge-face-or-object.md)
-  * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [World Axes](tool-library/world-axes.md)
   * [Work Planes](tool-library/work-planes.md)
   * [Line](tool-library/line-tool.md)
@@ -53,25 +52,23 @@
   * [Measure](tool-library/measure-tool.md)
   * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Cover, Sweep, Loft](tool-library/cover-sweep-loft.md)
-  * [Spline](tool-library/spline-tool.md)
-  * [Rectangle](tool-library/rectangle-tool.md)
+  * Groups
+  * Levels and Area
   * [Setting Location](tool-library/setting-location.md)
+  * [Shadows](tool-library/shadows.md)
   * Materials
   * [Layers](tool-library/Layers.md)
-  * [Shadows](tool-library/shadows.md)
-  * [Dynamo ](tool-library/dynamo.md)
   * [Scenes](tool-library/scenes.md)
-  * [Collaboration](tool-library/collaboration.md)
-  * Groups
+  * Visual Styles
+  * Section Planes
+  * Content Library
+  * [Dynamo ](tool-library/dynamo.md)
   * Groups Tree
   * Undo Manager
-  * Visual Styles
-  * Levels
-  * Content Library
-  * Section Planes
-  * Energy Analysis
-  * Sun, Shadows, Solar Analysis
   * Revit 
+  * Solar Analysis
+  * Energy Analysis
+  * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
   * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
 
