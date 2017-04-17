@@ -65,9 +65,22 @@ Now you'll learn the Fillet tool to create a rounded edge to give a softer look 
 
     ![](./images/UpperTerraceSketch_21.png)
     
-5. **Double click** to select the entire bed. **Group (G)** the bed, then edit the group and name it **Bed**, set the category to **Furniture** 
+####Groups Tree
+Instead of editing the group to name and categorize it, let's introduce the **Groups Tree** where you can do many model management tasks quickly
 
-6. Exit the group, and put the bed on a new layer called **furniture** 
+5. **Double click** to select the entire bed. **Group (G)** the bed
+
+6. Click the **Groups Tree** icon from the palettes on the right
+
+    ![](./images/GroupsTree.png)
+
+8. If you select the bed group in the canvas, it will highlight in the **Groups Tree** list (the opposite is also true, if you select a group in the list, it will highlight in the canvas)
+
+9. You can **double click** the name in the list and change it to **Bed** - all instances of the group will update - in our case there is only one
+
+10. While the **Bed group** is selected in the list, you can set the category to **Furniture** from the drop down list at the top of the Groups Tree palette
+    
+    ![](./images/GroupsTree_Palette.png)
 
 ####Merge Edges, Smooth Edges, and Selection Filtering
 We'll graphically hide many unwanted edges on our furniture, to give it a smoother, softer look
