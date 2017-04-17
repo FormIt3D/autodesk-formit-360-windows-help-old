@@ -33,6 +33,7 @@
   * [Visual Styles and Sections](Building-the-Farnsworth-House/Visual-Settings.md)
 * [Tool Library](tool-library/tool-library.md)
   * [Selection](tool-library/select-edge-face-or-object.md)
+  * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [World Axes](tool-library/world-axes.md)
   * [Work Planes](tool-library/work-planes.md)
   * [Line](tool-library/line-tool.md)
@@ -40,28 +41,37 @@
   * [Spline](tool-library/spline-tool.md)
   * [Arc](tool-library/arc-tool.md)
   * [Snaps and Inferences](tool-library/snaps-and-inferences.md)
+  * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Placing and Modifying Objects](tool-library/placing-and-modifying-objects/place-primitive-object.md)
     * [Copy Object](tool-library/placing-and-modifying-objects/copy-object.md)
     * [Rotate Object](tool-library/placing-and-modifying-objects/rotate.md)
     * [Scale Object](tool-library/placing-and-modifying-objects/scale.md)
     * [Boolean Cut and Join](tool-library/placing-and-modifying-objects/boolean-cut-and-join.md)
   * [Delete, Edit, Move](tool-library/delete-edit-move.md)
+  * [Faces: Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
+  * [Faces: Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
+  * [Measure](tool-library/measure-tool.md)
+  * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Cover, Sweep, Loft](tool-library/cover-sweep-loft.md)
   * [Spline](tool-library/spline-tool.md)
   * [Rectangle](tool-library/rectangle-tool.md)
-  * [Measure](tool-library/measure-tool.md)
-  * [Measure Angle](tool-library/measure-angle-tool.md)
-  * [Faces: Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
-  * [Faces: Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
-  * [Boolean Operations](tool-library/boolean-operations.md)
-  * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
+  * [Setting Location](tool-library/setting-location.md)
   * Materials
   * [Layers](tool-library/Layers.md)
-  * [Setting Location](tool-library/setting-location.md)
   * [Shadows](tool-library/shadows.md)
+  * [Dynamo ](tool-library/dynamo.md)
+  * [Scenes](tool-library/scenes.md)
   * [Collaboration](tool-library/collaboration.md)
-  * Dynamo 
-  * Scenes
+  * Groups
+  * Groups Tree
+  * Undo Manager
+  * Visual Styles
+  * Levels
+  * Content Library
+  * Section Planes
+  * Energy Analysis
+  * Sun, Shadows, Solar Analysis
+  * Revit 
 * [Appendix](Appendix/Appendix.md)
   * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
 
