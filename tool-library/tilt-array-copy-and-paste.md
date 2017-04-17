@@ -1,10 +1,6 @@
 ### Working with Faces: Tilt, Array, Copy and Paste
+To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
 
----
-
-> To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
-
----
 
 To **tilt a face**, select a face, right-click to see the context menu. Then choose the tilt icon from the context menu. Next, define the tilt axis by drawing a line. Then, click a third point to start the tilt operation.
 
