@@ -1,8 +1,6 @@
 ### Select Edge, Face, or Object
----
-> Choosing an object or surface is the first step to making modifications.
+Choosing an object or surface is the first step to making modifications to that object
 
----
 
 To **select a face, edge or vertex**, hover over them - then single click to select.
 
