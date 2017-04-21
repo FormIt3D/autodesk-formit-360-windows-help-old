@@ -63,9 +63,9 @@
   * [Section Planes](tool-library/section-planes.md)
   * [Content Library](tool-library/content-library.md)
   * [Dynamo ](tool-library/dynamo.md)
-  * Groups Tree
+  * [Groups Tree](tool-library/groups-tree.md)
   * Undo Manager
-  * Revit 
+  * [Revit ](tool-library/revit.md)
   * Solar Analysis
   * Energy Analysis
   * [Collaboration](tool-library/collaboration.md)
