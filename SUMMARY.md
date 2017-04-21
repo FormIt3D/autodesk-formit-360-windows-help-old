@@ -66,7 +66,7 @@
   * [Groups Tree](tool-library/groups-tree.md)
   * Undo Manager
   * [Revit ](tool-library/revit.md)
-  * Solar Analysis
+  * [Solar Analysis](tool-library/solar-analysis.md)
   * Energy Analysis
   * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
