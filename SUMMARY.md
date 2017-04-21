@@ -56,7 +56,7 @@
   * [Levels and Area](tool-library/levels-and-area.md)
   * [Setting Location](tool-library/setting-location.md)
   * [Shadows](tool-library/shadows.md)
-  * Materials
+  * [Materials](tool-library/materials.md)
   * [Layers](tool-library/Layers.md)
   * [Scenes](tool-library/scenes.md)
   * Visual Styles
