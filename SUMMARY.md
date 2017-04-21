@@ -60,7 +60,7 @@
   * [Layers](tool-library/Layers.md)
   * [Scenes](tool-library/scenes.md)
   * [Visual Styles](tool-library/visual-styles.md)
-  * Section Planes
+  * [Section Planes](tool-library/section-planes.md)
   * Content Library
   * [Dynamo ](tool-library/dynamo.md)
   * Groups Tree
