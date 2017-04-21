@@ -67,7 +67,7 @@
   * Undo Manager
   * [Revit ](tool-library/revit.md)
   * [Solar Analysis](tool-library/solar-analysis.md)
-  * Energy Analysis
+  * [Energy Analysis](tool-library/energy-analysis.md)
   * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
   * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
