@@ -61,7 +61,7 @@
   * [Scenes](tool-library/scenes.md)
   * [Visual Styles](tool-library/visual-styles.md)
   * [Section Planes](tool-library/section-planes.md)
-  * Content Library
+  * [Content Library](tool-library/content-library.md)
   * [Dynamo ](tool-library/dynamo.md)
   * Groups Tree
   * Undo Manager
