@@ -52,7 +52,7 @@
   * [Measure](tool-library/measure-tool.md)
   * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Cover, Sweep, Loft](tool-library/cover-sweep-loft.md)
-  * Groups
+  * [Groups](tool-library/groups.md)
   * Levels and Area
   * [Setting Location](tool-library/setting-location.md)
   * [Shadows](tool-library/shadows.md)
