@@ -41,9 +41,11 @@ Groups can be created and edited in two ways - either from the context menu or f
 
 
 
-#### Groups and Revit Families
+#### Groups and Revit
 If you're familiar with Revit Families, then you are familiar with the concept of Groups in FormIt. FormIt groups have extended a few features to make them translate to Revit with more intelligence. 
 
-You can specify the 'category' of Groups in FormIt and they will become families of this category in Revit. You can do this in the Properties palette of an edited group - or in the Groups Tree list view of the tabbed UI.
+You can specify the 'category' of Groups in FormIt and they will become families of this category when you import FormIt to Revit. You can set the category in FormIt in the Properties palette of an edited group - or in the Groups Tree palette
 
-Note that you can specify the name of your FormIt group too - this is handy for general legibility of your model - and when you import to Revit you can Filter visibility of elements by using the name of the group.
+You can specify the name of your FormIt group too - this is handy for general legibility of your model - and when you import to Revit you can Filter visibility of elements by using the name of the group.
+
+Note that Nested Groups in FormIt are un-nested when importing to Revit - this prevents a deeply nested Revit family which may not have been your intention when modeling in FormIt.
