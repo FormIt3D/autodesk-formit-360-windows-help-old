@@ -11,7 +11,7 @@ Groups can be created and edited in two ways - either from the context menu or f
 
 2. Once you've created a group you can select it with a single click. Note the dashed lines when selecting - this helps indicate the group's extents
 
-3. Double click on a group to edit it - this puts you into a special mode where you cannot select (but you can see and snap to) elements outside of the current group
+3. Double click on a group to edit it - this puts you into a special mode where you cannot select (but you can see and snap to) elements outside of the current group. You can also hide the elements outside of the current group by hitting the **H** keyboard shortcut
 
 4. You can create groups within groups - these are called nested groups
 
