@@ -1,5 +1,5 @@
 ### Materials
-FormIt has a variety of tools associated with painting, editing, importing, and sending materials to Revit.
+FormIt has a variety of tools associated with painting, editing, importing, and sending materials to Revit. Learn more about materials [here](/Building-the-Farnsworth-House/Materials.md)
 
 #### Apply Materials
 When you single click on a material preview tile in the Materials palette you are placed into the paint brush tool. Now you can apply materials to geometry in the model
