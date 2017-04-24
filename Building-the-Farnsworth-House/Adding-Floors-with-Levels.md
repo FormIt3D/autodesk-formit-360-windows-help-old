@@ -14,7 +14,7 @@ Levels allow you to slice masses with individual floor datums and calculate gros
 
     ![](./images/9e8a88d9-1eef-4f5e-9061-5aa8f5319067.png)
 
-**Note**: You can click the **++** icon to create multiple levels, a specificed distance apart. Very handy for tall buildings
+**Note**: You can click the **++** icon to create multiple levels, with a specified and uniform distance apart. This is handy for tall buildings.
 
 #### Apply Levels to Geometry
 
