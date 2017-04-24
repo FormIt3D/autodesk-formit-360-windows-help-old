@@ -21,7 +21,7 @@ Before any of these analysis tools can be used, you need to [set the location](/
 #### Solar Analysis
 Being visual people, designers can learn and communicate an incredible amount of information from heat map diagrams like the one we're about to create
 
-1. From the bottom of the [**Sun menu**](../formit-introduction/tool-bars.md), click the **Solar Analysis** button
+1. At the bottom of the [**Sun menu**](../formit-introduction/tool-bars.md), click the **Solar Analysis** button
 
 2. You are put into a special mode where **shadows**, **keyboard shortcuts**, and other **toolbars** are disabled
 
