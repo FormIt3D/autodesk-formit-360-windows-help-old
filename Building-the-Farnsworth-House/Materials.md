@@ -30,7 +30,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/UpperTerraceSketch_7.png)
 
-7. End Edit Group mode by double clicking off in space
+7. End Edit Group mode by double clicking off in space or hitting **Esc**
 
 8. Select the **Glass Walls** group with a **single click** and put it on the **Floor 1** layer
 
