@@ -18,9 +18,9 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 4. Turn Grid Snapping back on by typing **SG** keyboard shortcut
 
-4. Click once on the lower corner of the mass, then move your cursor 'up' and you should see a blue axis line appear
+4. Click once on the lower corner of the mass, then move your cursor up and you should see a blue (Z) axis line appear
 
-5. With the blue axis visible, press the **Tab key** and enter **4'-6"**. This will move the entire mass up off of the ground plane
+5. With the blue axis visible, press the **Tab key** and enter **4'-6"**. This will move the entire mass up off of the ground plane along the Z axis.
 
     ![](./images/293f6046-366c-43ca-858b-389f0c260be6.png)
 
