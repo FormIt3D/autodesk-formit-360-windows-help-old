@@ -2,7 +2,7 @@
 As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)**, you can create your own materials, and then paint those materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Material library
 
 #### Create the Glass Walls
-1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the existing floor group
+1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the existing floor group. Make sure you are not editing the Floor group, but drawing on top of the grouped object.
 
      ![](./images/rectangleToolbar.png)
 
@@ -12,7 +12,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/UpperTerraceSketch_6.png)
 
-2. Click to start the **Drag face** operation. Click the **Tab key** to set the height to **11'-2"**
+2. Click once to start the **Drag face** operation. Move your mouse upwards along the Z axis, and click the **Tab key** to set the height to **11'-2"**
 
 3. **Double click** and **Group (G)** the new geometry
 
