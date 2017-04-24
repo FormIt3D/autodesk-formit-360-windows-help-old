@@ -6,11 +6,11 @@ If you did not complete the last section, download and open the **farnsworth04.a
 #### Create Window Frames
 We are going to create a 2" metal frame and mullions around the glass box. These mullions will overlap with the glass box, and that is intentional
 
-1. Create a new layer called **glass walls** and put the glass box onto this layer
+1. Create a new layer called **glass walls** and put the glass box group onto this layer
 
 1. **Turn off** the **Roof** layer so we can see the entire glass box. Turn on the **North Arrow** with the **DN** keyboard shortcut
 
-2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass. _**Note**: Since the glass box is grouped, then this new rectangle will **not "stick"** to the glass box_
+2. Use the [**Rectangle tool (R)**](../tool-library/rectangle-tool.md) to draw a surface over the western face of glass. _**Note**: Since the glass box is grouped, draw this rectangle outside the Group, so this new rectangle will **not "stick"** to the glass box_
 
 3. **Single click** to select the new face, then **single click** to start a drag face. **Push** the face 2" towards the interior. Click **Esc** to clear the selection. 
 
