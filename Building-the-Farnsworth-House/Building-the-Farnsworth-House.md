@@ -9,7 +9,7 @@ In this primer, we are going to go over FormIt tools and interactions to build a
 #### Prerequisites for this Turorial:
 
 * Download and install FormIt following the directions found in the FormIt Introduction section: [**Prerequisites and Installation**](../formit-introduction/prerequisites-and-installation.md).
-* The Farnsworth House datasets can be downloaded from: [**Autodesk Primer Data Sets**](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv).
+* The Farnsworth House datasets can be downloaded from: [**FormIt Primer Data Sets**](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv).
 
 _If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [**Web Application**](https://formit.autodesk.com/app)
 
