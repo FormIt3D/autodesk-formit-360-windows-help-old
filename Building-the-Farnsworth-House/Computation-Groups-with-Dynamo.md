@@ -23,7 +23,7 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 6. Edit the Simple Stair group, just like you would a normal group, by **double clicking** into it
 
-7. Look in the [**Properties Palette**](../formit-introduction/tool-bars.md) to view the stair's parameters. Modify the settings so they are the same as the picture below
+7. The [**Properties Palette**](../formit-introduction/tool-bars.md) automatically toggles to view the stair's parameters. Modify the settings so they are the same as the picture below
 
     ![](./images/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
@@ -43,11 +43,11 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
 8. Start the **Measure (ME)** tool. Your first click should be the edge of the lower terrace. This is where you are measuring **from**
 
-9. You second click should be the **mid point** of the stair. A dimension will appear
+9. You second click should be the **mid point** of the stair. A dimension string will appear
 
     ![](./images/UpperTerraceSketch_25.png)
     
-10. Press the **Tab key** and enter **16' 7"**. The measure tool will actually move the geometry for you
+10. Press the **Tab key** and enter **16' 7"**. The measure tool will move the geometry using the reference and target points you provided
 
 #### Locate the Upper Stair Group
 

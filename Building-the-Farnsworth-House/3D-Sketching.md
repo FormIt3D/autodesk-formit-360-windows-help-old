@@ -1,7 +1,5 @@
 ### 3D Sketch and Drag Face
 
-Placing primitives is a fast way to get started, but the real power of FormIt is the ability to sketch in 3D. You got a sneak peek at the power of the snapping system when you used the Rotate tool in the last exercise
-
 If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)
 
 #### Drawing Lines
@@ -32,6 +30,8 @@ If you did not complete the last section, download and open the **farnsworth01.a
 
 10. To define the other edge of the rectangle, **move your mouse** along the red axis and hold down the **Shift key**. The red axis line with thicken to indicate that the line is locked to this axis
 
+**Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off axis line_
+
     ![](./images/UpperTerraceSketch_2.png) 
 
 11. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the end point.
@@ -40,15 +40,13 @@ If you did not complete the last section, download and open the **farnsworth01.a
 
 #### Drag the Face
 
-13. **Single click** inside the outline you just drew to select it the face. You are automatically in the drag face tool
+13. **Single click** inside the outline you just drew to select the face. You are automatically in the drag face tool
 
     ![](./images/UpperTerraceSketch_3.png)
 
-14. **Single click** to start the drag face operation. Move your mouse up to drag in that direction. Click **Tab** and input **12'-2"**. You've created a mass!
+14. **Single click** to start the drag face operation. Move your mouse away from the face to drag in that direction. Hit **Tab** and input **12'-2"**, then hit **Enter**. You've created a mass!
 
     ![](./images/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
-
-**Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off axis line_
 
 #### 3D Sketching with Arc, Spline, and Circle
 
@@ -60,5 +58,5 @@ The following exercise is not critical to finishing the house. It will allow you
 
 4. Select the [**Circle Tool**](../tool-library/circle-tool.md). Hover and Click to define the center point of the circle. Click and drag to define the radius of the circle.
 
-**Note:** _When you snap any curve segment to any other point, line or object face/edge/point, the objects will now be joined as one object. To avoid this, we will use Groups in a later exercise._
+**Note:** _When you draw a curve that intersects with other points, curves, and solids, the objects may be jointed into one object. To avoid this, we will use Groups in a later exercise to isolate geometry._
 

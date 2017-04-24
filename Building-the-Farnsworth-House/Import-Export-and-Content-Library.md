@@ -1,5 +1,5 @@
 ### Import/Export and Content Library
-In this section we will import models existing models from the SketchUp warehouse, and use the FormIt Content Library to place Families we've converted from Revit. **Note** that SKP files import to FormIt with Materials, Groups and Components, Layers and Scenes in tact
+In this section we will import models existing models from the SketchUp warehouse, and use the FormIt Content Library to place Families we've converted from Revit. **Note** that SKP files import to FormIt with Materials, Groups and Components, Layers and Scenes intact
 
 If you did not complete the last section, download and open the **farnsworth07.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
@@ -50,7 +50,7 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
 1. Turn off the **roof** layer so you can see inside the house
 
-3. Look in the **Content Library** palette and choose the **content** folder** you just linked from the drop down menu
+3. Look in the **Content Library** palette and choose the **content folder** you just linked from the drop down menu
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
@@ -80,5 +80,5 @@ Make sure to **move along the red and green axes** while working in Top View. Ot
   
      ![](./images/UpperTerraceSketch_31.png)
      
-As you place furniture you can enter the **Rotate (Q)** command to change the direction the furniture if facing
+After placing furniture, it remains selected. You can quickly use the **Rotate (Q)** command to adjust furniture rotation as you place each piece.
      

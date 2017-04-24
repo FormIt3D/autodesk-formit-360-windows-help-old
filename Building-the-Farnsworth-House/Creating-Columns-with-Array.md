@@ -1,5 +1,5 @@
 ### Create Columns with Array
-In this exercise we'll sketch a detail element - an I beam column. Then use the Array tool to copy multiple items with a specific distance between them.
+In this exercise we'll sketch a detail element - an I-beam column. Then use the Array tool to copy multiple items with a specific distance between them.
 
 If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
@@ -28,7 +28,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/MirrorWidget_1.png)
 
-6. **Single click** the lower arrow and move it 90' clock wise. Snap it to the blue compass line. The result should look like an I beam profile
+6. **Single click** the lower arrow and move it 90' clock wise. Snap it to the blue compass line. The result should look like an I-beam profile
 
 	![](./images/MirrorWidget_2.png)
 
@@ -101,7 +101,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 2. **Turn on** the **Floor 1** layer if it is off
 
-2. **Single click** one of the columns. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it
+2. **Single click** one of the columns at the base. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it
 
 	![](./images/5582b957-9965-43ba-bfa0-8102b6892f28.png)
 

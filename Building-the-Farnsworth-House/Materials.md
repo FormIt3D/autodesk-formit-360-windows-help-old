@@ -2,7 +2,7 @@
 As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)**, you can create your own materials, and then paint those materials to faces in FormIt. In this exercise you will create and edit your own materials and import materials from the Autodesk Material library
 
 #### Create the Glass Walls
-1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the existing floor group
+1. Use the [**Rectangle-Tool-(R)**](../tool-library/rectangle-tool.md) to create another surface on top of the existing floor group. Make sure you are not editing the Floor group, but drawing on top of the grouped object.
 
      ![](./images/rectangleToolbar.png)
 
@@ -12,15 +12,15 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/UpperTerraceSketch_6.png)
 
-2. Click to start the **Drag face** operation. Click the **Tab key** to set the height to **11'-2"**
+2. Click once to start the **Drag face** operation. Move your mouse upwards along the Z axis, and click the **Tab key** to set the height to **11'-2"**
 
 3. **Double click** and **Group (G)** the new geometry
 
 5. **Double click** the group to edit it. In the **Properties Palette** name the group **Glass Walls**
 
-4. Right click on the top face and choose the [**Offset-Face-tool-(OF)**](../tool-library/extrude-cut-and-offset-faces.md)
+4. Right click on the top face and choose the [**Offset Face tool (OF)**](../tool-library/extrude-cut-and-offset-faces.md)
 
-5. Move you mouse cursor inward, and press the **Tab key** and type in **4"**
+5. Move your mouse cursor inward, press the **Tab key** and type in **4"**
 
      ![](./images/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
 
@@ -30,7 +30,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/UpperTerraceSketch_7.png)
 
-7. End **Edit Group mode** by double clicking off in space
+7. End Edit Group mode by double clicking off in space or hitting **Esc**
 
 8. Select the **Glass Walls** group with a **single click** and put it on the **Floor 1** layer
 
@@ -49,13 +49,13 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/63c0bcfa-98af-48ec-ac30-44fbed8c802b.png)
 
-5. In the Materials palette, **Single click** on the preview tile for the Blue Reflective material you just imported, now you can paint with this material
+5. In the Materials palette, **Single click** on the preview tile for the Blue Reflective material you just imported. This launches the Paintbrush tool with the Blue Reflective material active
 
 6. **Double click** the **Glass Walls** geometry to apply the material to the entire object
 
      ![](./images/UpperTerraceSketch_8.png)
 
-7. Click **Esc** to exit the **Paintbrush** tool, then **double click** off in space to exit the group
+7. Click **Esc** to exit the **Paintbrush** tool, then **ESC** again, or **double click** off in space to exit the group
 
 #### Quick Copy the Floor to Create the Roof
 
@@ -63,11 +63,11 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 2. Click one of the lower corners to start the **Move** tool 
 
-3. Start moving the Floor up along the blue axis. Create a **quick copy** by clicking the **Ctrl key**. A "ghost" preview of the copy should appear 
+3. Start moving the Floor up along the blue axis. Create a **quick copy** by tapping the **Ctrl key**. A "ghost" preview of the copy should appear 
 
      ![](./images/UpperTerraceSketch_9.png)
 
-4. While dragging along the blue axis, click the **Tab key** and enter **12' 2"**
+4. While moving along the blue axis, click the **Tab key** and enter **12' 2"**
 
      ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
 
@@ -85,7 +85,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 5. Single click the **Roof group** to paint it with the material. The entire group is painted!
 
-_**Note:** This is a special technique that allows you to paint different group instances with different materials_
+_**Note:** This is a helpful technique that allows you to paint different instances of the same group with different materials_
 
 #### Create the Lower Terrace
 
