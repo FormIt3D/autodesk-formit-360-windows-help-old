@@ -50,7 +50,7 @@ You can follow the same steps above with the **Mies_van_der_Rohe_Couch** and the
 
 1. Turn off the **roof** layer so you can see inside the house
 
-3. Look in the **Content Library** palette and choose the **content** folder** you just linked from the drop down menu
+3. Look in the **Content Library** palette and choose the **content folder** you just linked from the drop down menu
 
      ![](./images/627dd398-eefa-4407-842f-e42c2e4350f1.png)
 
