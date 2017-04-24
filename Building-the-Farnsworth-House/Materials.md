@@ -18,7 +18,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 5. **Double click** the group to edit it. In the **Properties Palette** name the group **Glass Walls**
 
-4. Right click on the top face and choose the [**Offset-Face-tool-(OF)**](../tool-library/extrude-cut-and-offset-faces.md)
+4. Right click on the top face and choose the [**Offset Face tool (OF)**](../tool-library/extrude-cut-and-offset-faces.md)
 
 5. Move your mouse cursor inward, and press the **Tab key** and type in **4"**
 
