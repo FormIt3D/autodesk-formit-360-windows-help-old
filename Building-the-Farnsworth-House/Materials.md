@@ -63,11 +63,11 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 2. Click one of the lower corners to start the **Move** tool 
 
-3. Start moving the Floor up along the blue axis. Create a **quick copy** by clicking the **Ctrl key**. A "ghost" preview of the copy should appear 
+3. Start moving the Floor up along the blue axis. Create a **quick copy** by tapping the **Ctrl key**. A "ghost" preview of the copy should appear 
 
      ![](./images/UpperTerraceSketch_9.png)
 
-4. While dragging along the blue axis, click the **Tab key** and enter **12' 2"**
+4. While moving along the blue axis, click the **Tab key** and enter **12' 2"**
 
      ![](./images/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
 
@@ -85,7 +85,7 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
 5. Single click the **Roof group** to paint it with the material. The entire group is painted!
 
-_**Note:** This is a special technique that allows you to paint different group instances with different materials_
+_**Note:** This is a helpful technique that allows you to paint different instances of the same group with different materials_
 
 #### Create the Lower Terrace
 
