@@ -8,11 +8,11 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 1. Select the upper terrace mass by **double clicking** it
 
-2. **Right click** and **Group (G)**
+2. **Right click** and **Group (G)** or just hit shortcut **G**.
 
     ![](./images/c2f57781-ec11-4fbd-87b0-c5fd33ad8b07.png)
 
-3. Select the mass with a **single click** and notice that you are in the Move tool
+3. Notice that after creating a Group, you are automatically placed in the Move tool
 
 #### Move a Group
 
