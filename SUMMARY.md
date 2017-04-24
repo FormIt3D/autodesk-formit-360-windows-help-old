@@ -59,7 +59,7 @@
   * Materials
   * [Layers](tool-library/Layers.md)
   * [Scenes](tool-library/scenes.md)
-  * Visual Styles
+  * [Visual Styles](tool-library/visual-styles.md)
   * Section Planes
   * Content Library
   * [Dynamo ](tool-library/dynamo.md)
