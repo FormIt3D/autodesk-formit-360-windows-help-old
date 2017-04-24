@@ -49,13 +49,13 @@ As we saw in an **[earlier exercise](/Building-the-Farnsworth-House/Work-with-Im
 
      ![](./images/63c0bcfa-98af-48ec-ac30-44fbed8c802b.png)
 
-5. In the Materials palette, **Single click** on the preview tile for the Blue Reflective material you just imported, now you can paint with this material
+5. In the Materials palette, **Single click** on the preview tile for the Blue Reflective material you just imported. This launches the Paintbrush tool with the Blue Reflective material active
 
 6. **Double click** the **Glass Walls** geometry to apply the material to the entire object
 
      ![](./images/UpperTerraceSketch_8.png)
 
-7. Click **Esc** to exit the **Paintbrush** tool, then **double click** off in space to exit the group
+7. Click **Esc** to exit the **Paintbrush** tool, then **ESC** again, or **double click** off in space to exit the group
 
 #### Quick Copy the Floor to Create the Roof
 
