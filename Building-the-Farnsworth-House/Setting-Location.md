@@ -21,10 +21,10 @@ Setting your project’s location in the world is important for the accuracy of 
 
     ![](./images/SatImageInCanvas.png)
 
-6. Go to the [**Visual Styles Palette**](../tool-library/tool-bars-extended.md), choose the Environment tab, and enable **North Arrow** to see a north arrow compass. You can also type DN keyboard shortcut to toggle the North arrow on and off
+6. Go to the [**Visual Styles Palette**](../formit-introduction/tool-bars.md), choose the Environment tab, and enable **North Arrow** to see a north arrow compass. You can also type DN keyboard shortcut to toggle the North arrow on and off
 
     ![](./images/NorthArrow.png)
 
-7. Finally **select the satellite image** by double clicking it. Click the [**Properties Palette**](../tool-library/tool-bars-extended.md) and lower the transparency slider about **1/3**. 
+7. Finally **select the satellite image** by double clicking it. Click the [**Properties Palette**](../formit-introduction/tool-bars.md) and lower the transparency slider about **1/3**. 
 
     ![](./images/Properties.png)
