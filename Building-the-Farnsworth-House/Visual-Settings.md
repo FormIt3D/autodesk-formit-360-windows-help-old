@@ -33,7 +33,7 @@ If you did not complete the last section, download and open the **farnsworth10.a
     
 1. Click the **Stop** icon to end the animation
 
-#### Visual Settings
+#### Visual Styles
 
 2. **Double click** the original **Scene** to navigate to it. Turn on the **trees** layer and turn off the **plan image** layer
 
