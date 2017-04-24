@@ -58,5 +58,5 @@ The following exercise is not critical to finishing the house. It will allow you
 
 4. Select the [**Circle Tool**](../tool-library/circle-tool.md). Hover and Click to define the center point of the circle. Click and drag to define the radius of the circle.
 
-**Note:** _When you snap any curve segment to any other point, line or object face/edge/point, the objects will now be joined as one object. To avoid this, we will use Groups in a later exercise._
+**Note:** _When you draw a curve that intersects with other points, curves, and solids, the objects may be jointed into one object. To avoid this, we will use Groups in a later exercise to isolate geometry._
 
