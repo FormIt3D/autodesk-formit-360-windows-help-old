@@ -80,5 +80,5 @@ Make sure to **move along the red and green axes** while working in Top View. Ot
   
      ![](./images/UpperTerraceSketch_31.png)
      
-As you place furniture you can enter the **Rotate (Q)** command to change the direction the furniture if facing
+After placing furniture, it remains selected. You can quickly use the **Rotate (Q)** command to adjust furniture rotation as you place each piece.
      
