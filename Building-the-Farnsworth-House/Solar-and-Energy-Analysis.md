@@ -16,7 +16,7 @@ Before any of these analysis tools can be used, you need to [set the location](/
 
 3. Notice how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident, but a matter of design! 
 
-**Note**: Shadows can cause software performance to slow down. Two suggestions for mitigating this: turn shadows off if you notice navigation getting slow; turn layers like **furniture** off if they aren't necessary to studying shadows
+**Note**: Shadows may cause a decrease in application performance. Two suggestions for mitigating this: turn shadows off if you notice navigation getting slow; or turn layers like **furniture** off if they aren't necessary for studying shadows
 
 #### Solar Analysis
 Being visual people, designers can learn and communicate an incredible amount of information from heat map diagrams like the one we're about to create
