@@ -1,6 +1,6 @@
 ### Project Set Up With Images and Grid
 
-You may import PNG or JPG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will create a custom material and apply it to a rectangle that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly
+You may import PNG or JPG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will create a custom material and apply it to a rectangle that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly.
 
 #### Import an Image to scale
 
