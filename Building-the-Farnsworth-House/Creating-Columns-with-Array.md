@@ -28,7 +28,7 @@ If you did not complete the last section, download and open the **farnsworth03.a
 
 	![](./images/MirrorWidget_1.png)
 
-6. **Single click** the lower arrow and move it 90' clock wise. Snap it to the blue compass line. The result should look like an I beam profile
+6. **Single click** the lower arrow and move it 90' clock wise. Snap it to the blue compass line. The result should look like an I-beam profile
 
 	![](./images/MirrorWidget_2.png)
 
