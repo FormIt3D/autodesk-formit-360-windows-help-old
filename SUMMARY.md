@@ -10,6 +10,7 @@
   * [Working with External Data](Formit-Capabilities/Working-with-External-Data.md)
   * [Collaboration](Formit-Capabilities/Collaboration.md)
   * [Presentation Graphics](Formit-Capabilities/Presentation-Graphics.md)
+  * [FormIt Plugin API](Formit-Capabilities/formit-plugin-api.md)
 * [FormIt-Introduction](formit-introduction/FormIt-Introduction.md)
   * [Prerequisites and Installation](formit-introduction/prerequisites-and-installation.md)
   * [Setting Up the Project](formit-introduction/Setting-Up-the-Project.md)
