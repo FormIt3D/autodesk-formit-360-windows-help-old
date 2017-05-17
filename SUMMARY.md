@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [What's New](http://formit.autodesk.com/help-windows)
 * [FormIt Capabilities](Formit-Capabilities/FormIt-Capabilities.md)
   * [Multiple Clients](Formit-Capabilities/Multiple-Clients.md)
   * [Conceptual Modeling](Formit-Capabilities/Conceptual-Modeling.md)
