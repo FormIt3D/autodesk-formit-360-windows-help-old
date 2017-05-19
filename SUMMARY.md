@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [What's New](https://formit.autodesk.com/page/release-notes)
 * [FormIt Capabilities](Formit-Capabilities/FormIt-Capabilities.md)
   * [Multiple Clients](Formit-Capabilities/Multiple-Clients.md)
   * [Conceptual Modeling](Formit-Capabilities/Conceptual-Modeling.md)
@@ -74,4 +73,5 @@
   * [Collaboration](tool-library/collaboration.md)
 * [Appendix](Appendix/Appendix.md)
   * [Keyboard Shortcuts](Appendix/keyboard-shortcuts.md)
+* [What's New](https://formit.autodesk.com/page/release-notes)
 
