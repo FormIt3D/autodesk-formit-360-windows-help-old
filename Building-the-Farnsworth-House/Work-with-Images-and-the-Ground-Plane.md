@@ -32,6 +32,8 @@ You may import PNG or JPG images onto the ground plane by using the File &gt; Im
 
 6. Click on the **rectangle** you sketched to paint it with the material. Click **Esc** to clear the paintbrush tool
 
+7. If the material appears inverted, or backwards, you may need to Flip the Face (single click to select the face, and type FF keyboard shortcut)
+
 #### Align the Imported Image to the Satellite Image
 
 6. Now we'll rotate the rectangle to align with the Satellite image. **Double-click** the **rectangle** to select it 
