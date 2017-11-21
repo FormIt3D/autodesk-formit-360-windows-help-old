@@ -2,10 +2,10 @@
 
 | Requirement | Details |
 | --- | ---- |
-| Operating System * | Microsoft® Windows® 7 SP1 64-bit: Windows 7 Enterprise, Ultimate, Professional, or Home Premium<br>Microsoft® Windows® 8 64-bit:Windows 8 Enterprise, Pro, or Windows 8 <br>Microsoft® Windows® 8.1 64-bit: Windows 8.1 Enterprise, Pro, or Windows 8.1 <br> Microsoft® Windows® 10 64-bit: Windows 10 Home, Enterprise, Pro <br><br>*Note: Parallels on Mac OS X is not supported|
-|CPU Type |Single- or Multi-Core Intel® Pentium®, Xeon®, or i-Series processor or AMD® equivalent with SSE2 technology. Highest affordable CPU speed rating recommended. |
+| Operating System * | Microsoft&#xAE; Windows&#xAE; 7 SP1 64-bit: Windows 7 Enterprise, Ultimate, Professional, or Home Premium<br>Microsoft&#xAE; Windows&#xAE; 8 64-bit:Windows 8 Enterprise, Pro, or Windows 8 <br>Microsoft&#xAE; Windows&#xAE; 8.1 64-bit: Windows 8.1 Enterprise, Pro, or Windows 8.1 <br> Microsoft&#xAE; Windows&#xAE; 10 64-bit: Windows 10 Home, Enterprise, Pro <br><br>* **Note: Parallels on Mac OS X is not supported**|
+|CPU Type |Single- or Multi-Core Intel&#xAE; Pentium&#xAE;, Xeon&#xAE;, or i-Series processor or AMD&#xAE; equivalent with SSE2 technology. Highest affordable CPU speed rating recommended. |
 |Memory |4 GB RAM, Usually sufficient for a typical editing session. Individual models will vary in their use of computer resources and performance characteristics. For higher performance use for either 8GB, 16GB or higher RAM. |
-|Video Adapter|DirectX® 11 capable graphics card. A discrete, dedicated Nvidia or AMD GPU is strongly recommended.  |
+|Video Adapter|DirectX&#xAE; 11 capable graphics card. A discrete, dedicated Nvidia or AMD GPU is strongly recommended.  |
 |Disk Space |500 MB free disk space |
 |Pointing Device |MS-Mouse or compliant device |
 |Connectivity and Licensing |An Autodesk 360 account entitled with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. FormIt Pro is available as part of the [**Autodesk AEC Collection**](https://www.autodesk.com/collections/architecture-engineering-construction/overview). |
