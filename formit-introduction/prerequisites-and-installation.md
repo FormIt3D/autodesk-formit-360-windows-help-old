@@ -1,33 +1,21 @@
-### Prerequisites and Installation
+### Minimum System Requirements for Windows
 
+| Requirement | Details |
+| --- | ---- |
+| Operating System * | Microsoft® Windows® 7 SP1 64-bit: Windows 7 Enterprise, Ultimate, Professional, or Home Premium<br>Microsoft® Windows® 8 64-bit:Windows 8 Enterprise, Pro, or Windows 8 <br>Microsoft® Windows® 8.1 64-bit: Windows 8.1 Enterprise, Pro, or Windows 8.1 <br> Microsoft® Windows® 10 64-bit: Windows 10 Home, Enterprise, Pro <br><br>*Note: Parallels on Mac OS X is not supported|
+|CPU Type |Single- or Multi-Core Intel® Pentium®, Xeon®, or i-Series processor or AMD® equivalent with SSE2 technology. Highest affordable CPU speed rating recommended. |
+|Memory |4 GB RAM, Usually sufficient for a typical editing session. Individual models will vary in their use of computer resources and performance characteristics. For higher performance use for either 8GB, 16GB or higher RAM. |
+|Video Adapter|DirectX® 11 capable graphics card. A discrete, dedicated Nvidia or AMD GPU is strongly recommended.  |
+|Disk Space |500 MB free disk space |
+|Pointing Device |MS-Mouse or compliant device |
+|Connectivity and Licensing |An Autodesk 360 account entitled with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. FormIt Pro is available as part of the [**Autodesk AEC Collection**](https://www.autodesk.com/collections/architecture-engineering-construction/overview). |
+ 
+### Download and Installation
 * FormIt for Windows. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
-
 * An Autodesk 360 Account. You can create one for free from [**A360.com**](https://a360.autodesk.com/)
-
 * Revit 2016, 2017, or 2018  - _This is only required for the section on Revit Interoperability_
+* FormIt Add-In for Revit is included with the 2016, 2017, 2018 versions of Revit. If it is not installed, you can download and manually install the plugin from our website on [**Autodesk.com**](http://formit360.autodesk.com/page/download)
 
-* FormIt Add-In for Revit 2016, 2017, 2018. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
-
-![](/formit-introduction/images/splash_screen.png)
-
-### FormIt and FormIt Pro
-
-With **FormIt**, you get:
-
-* FormIt for Web, iOS, and Android
-* 3D sketching, advanced geometry
-* Materials, layers, scenes
-* Levels, area, location
-* Revit import and export
-* SketchUp import
-
-With **FormIt Pro**, you get everything listed above FormIt plus:
-
-* FormIt for Windows
-* Dynamo Studio integration
-* Insight analysis
-* Autodesk material library
-* Real-time collaboration
 
 
 
