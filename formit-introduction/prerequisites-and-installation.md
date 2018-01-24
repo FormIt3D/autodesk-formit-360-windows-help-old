@@ -1,3 +1,9 @@
+### Download and Installation
+* FormIt for Windows. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
+* An Autodesk 360 Account. You can create one for free from [**A360.com**](https://a360.autodesk.com/)
+* Revit 2016, 2017, or 2018  - _This is only required for the section on Revit Interoperability_
+* FormIt Add-In for Revit is included with the 2016, 2017, 2018 versions of Revit. If it is not installed, you can download and manually install the plugin from our website on [**Autodesk.com**](http://formit360.autodesk.com/page/download)
+
 ### Minimum System Requirements for Windows
 
 | Requirement | Details |
@@ -10,11 +16,7 @@
 |Pointing Device |MS-Mouse or compliant device |
 |Connectivity and Licensing |An Autodesk 360 account entitled with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. FormIt Pro is available as part of the [**Autodesk AEC Collection**](https://www.autodesk.com/collections/architecture-engineering-construction/overview). |
  
-### Download and Installation
-* FormIt for Windows. You can download from [**Autodesk.com**](http://formit360.autodesk.com/page/download)
-* An Autodesk 360 Account. You can create one for free from [**A360.com**](https://a360.autodesk.com/)
-* Revit 2016, 2017, or 2018  - _This is only required for the section on Revit Interoperability_
-* FormIt Add-In for Revit is included with the 2016, 2017, 2018 versions of Revit. If it is not installed, you can download and manually install the plugin from our website on [**Autodesk.com**](http://formit360.autodesk.com/page/download)
+
 
 
 
