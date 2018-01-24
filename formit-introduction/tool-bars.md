@@ -1,31 +1,42 @@
-### Tool Bars, Palettes, and Context Menu
+# Tool Bars, Palettes, and Context Menu
 
-FormIt has a simple icon based interface, with only a few UI components to learn
+FormIt has a simple icon based interface, with only a few user interfacve components to learn
 
-#### Action Tool Bar
+## Tool Bars
 
-The Action Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design
+The Standard toolbar is split into the following sections. You can enable, disable and arrange individual sections using the Window menu.
+
+### File
+
+The File Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design
 
 ![](/formit-introduction/images/action-tool-bar-1.png)
 
-1. Gallery menu with file operations like Open, Save, Export
+1. File menu with file operations like Open, Save, Export
 2. Undo
 3. Redo
-3. Selection and area selection filters
-4. Measure and angular measure tools
-5. Section tool
+
+### Geometry
 
 ![](/formit-introduction/images/action-tool-bar-2.png)
 
-4. 3d Sketch toolbar
+1. Selection and area selection filters
+2. Measure and angular measure tools
+3. Section tool
+4. 3D Sketch toolbar
 5. Primitive placement toolbar
 6. Advanced Geometry toolbar with Join, Cut, Sweep, Loft, Shell
 7. Groups Toolbar
-5. Location 
-6. Sun, Shadows and Solar Analysis tools
-6. Energy Analysis
+
+### Design
+
+1. Location 
+2. Sun, Shadows and Solar Analysis tools
+3. Energy Analysis
 
 ![](/formit-introduction/images/action-tool-bar-3.png)
+
+### Settings
 
 1. Settings
 2. Touch Mode toggle
@@ -33,11 +44,17 @@ The Action Tool Bar is found at the top of the screen. The tools here will help 
 4. A360 Log in
 5. Information and Links
 
-#### Navigation Tool Bar
+## Navigation Bar
 
 The Navigation Tool Bar is found at the right side of the canvas. The tools here will help you orient the camera to view the model
 
 ![](/formit-introduction/images/Navigation Tool Bar-1.png)
+
+| Toolbar | Tools |
+| :--- | :--- |
+|  |  |
+
+
 
 1. 2D Top View
 2. 3D Perspective View 
@@ -55,9 +72,13 @@ The Navigation Tool Bar is found at the right side of the canvas. The tools here
 2. Zoom Extents 
 3. Zoom to Selected
 
-#### Palette Tabs
+## Palette 
 
 The Palette Tabs are found at the right side of the screen. The tools here will help you manipulate and organize the elements you've created in the model
+
+| Palette | Function |
+| :--- | :--- |
+|  |  |
 
 ![](/formit-introduction/images/Palette Bar-All-1.png)
 
@@ -72,19 +93,15 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 9. Content Library
 10. Undo Manager
 
-#### Context Menu
+## Context Menu
 
 The Context Menu is a circular menu with options to edit the selected element. The context menu will show you different tools depending on what you have selected
 
 ![](/formit-introduction/images/ContextMenu_Intro.png)
 
-#### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 The [Keyboard shortcuts](/Appendix/keyboard-shortcuts.md) in FormIt are accessible via the Edit menu, preferences... and can be customized
 
 ![](/formit-introduction/images/keyboardShortcuts.png)
-
-
-
-
 
