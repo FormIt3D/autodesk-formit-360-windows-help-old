@@ -4,7 +4,7 @@ Here are the key tools on the Navigation Tool Bar for moving around the design a
 
 ![](/formit-introduction/images/plan_view.png) Top **View \(Z T\)**  Navigates to a orthographic plan view
 
-![](/assets/default_3D.png) **Default 3D View \(Z D\)  **Navigates to the default 3D view
+![](/formit-introduction/images/default_3D.png) **Default 3D View \(Z D\)  **Navigates to the default 3D view
 
 ![](./images/jet-pack.png) **Walkthrough \(F T\) ** The “Jetpack” mode allows you to walk through the scene using keyboard inputs AWSD, then move up or down with Q and E - and even fly with the space bar
 
