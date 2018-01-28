@@ -2,7 +2,9 @@
 
 Here are the key tools on the Navigation Tool Bar for moving around the design area.
 
-|	|**Plan View**	| 	|
+|Icon | Tool | Description |
+| :--- | :--- | | :--- | 
+|	|**Plan View**	| n	|
 |	|**Default 3D View**	| 	|
 |![](./images/jet-pack.png) |**Walkthrough** |	The “Jetpack” mode allows you to walk through the scene using keyboard inputs AWSD, then move up or down with Q and E - and even fly with the space bar | 
 |![](/formit-introduction/images/orbit-tool.png) | **Orbit**|Right click and drag, or use the orbit tool from the navigation toolbar to click drag the left mouse button to orbit around the model |
