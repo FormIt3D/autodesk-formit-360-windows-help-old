@@ -4,7 +4,7 @@ FormIt has a simple icon based interface, with only a few user interfacve compon
 
 ## Tool Bars
 
-The Standard toolbar is split into the following sections. You can enable, disable and arrange individual sections using the Window menu.
+The Standard toolbar is split into the following sections. You can optionally enable, disable and arrange individual sections using the Window menu.
 
 ### File
 
@@ -38,8 +38,6 @@ The File Tool Bar is found at the top of the screen. The tools here will help yo
 4. **A360 Log in**
 5. **Information** help and Links
 
-
-
 ### Design
 
 ![](/formit-introduction/images/design_tools.png)
@@ -51,8 +49,6 @@ The File Tool Bar is found at the top of the screen. The tools here will help yo
 ## Palette
 
 The Palette Tabs are found at the right side of the screen. The tools here will help you manipulate and organize the elements you've created in the model
-
-
 
 ![](/formit-introduction/images/Palette01_properties.png) **Properties**
 
@@ -70,13 +66,13 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 
 ![](/formit-introduction/images/Palette08_levels.png) [**Levels**](/tool-library/levels-and-area.md)
 
- ![](/formit-introduction/images/Palette09_content.png) [**Content Library**](/tool-library/content-library.md)
+![](/formit-introduction/images/Palette09_content.png) [**Content Library**](/tool-library/content-library.md)
 
 ![](/formit-introduction/images/Palette10_undo.png) **Undo Manager**
 
 ## Context Menu
 
-The Context Menu is a circular menu with options to edit the selected element. You invoke it by right-clicking.The context menu will show you different tools depending on what you have selected. 
+The Context Menu is a circular menu with options to edit the selected element. You invoke it by right-clicking.The context menu will show you different tools depending on what you have selected.
 
 ![](/formit-introduction/images/ContextMenu_Intro.png)
 
