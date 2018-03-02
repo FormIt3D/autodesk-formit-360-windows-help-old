@@ -7,8 +7,3 @@ In addition to our Windows and web apps, we have a mobile version that runs on A
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ce5LFy5KxN8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-%accordion%Some title here%accordion%
-
-Any content here
-
-%/accordion%
