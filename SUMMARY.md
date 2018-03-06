@@ -67,7 +67,7 @@
   * [Content Library](tool-library/content-library.md)
   * [Dynamo ](tool-library/dynamo.md)
   * [Groups Tree](tool-library/groups-tree.md)
-  * Undo Manager
+  * [Undo Manager](tool-library/undo-manager.md)
   * [Revit ](tool-library/revit.md)
   * [Solar Analysis](tool-library/solar-analysis.md)
   * [Energy Analysis](tool-library/energy-analysis.md)
