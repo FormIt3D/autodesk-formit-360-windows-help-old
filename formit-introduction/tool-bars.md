@@ -60,7 +60,7 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 
 ![](/formit-introduction/images/Palette05_Visual_styles.png) [**Visual Styles**](/tool-library/visual-styles.md)
 
-![](/formit-introduction/images/Palette06_Groups.png) **Groups Tree**
+![](/formit-introduction/images/Palette06_Groups.png) [**Groups Tree**](/tool-library/groups-tree.md)
 
 ![](/formit-introduction/images/Palette07_Dynamo.png) [**Dynamo**](/tool-library/dynamo.md)
 
@@ -68,7 +68,7 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 
 ![](/formit-introduction/images/Palette09_content.png) [**Content Library**](/tool-library/content-library.md)
 
-![](/formit-introduction/images/Palette10_undo.png) **Undo Manager**
+![](/formit-introduction/images/Palette10_undo.png) [**Undo Manager**](/tool-library/undo-manager.md)
 
 ## Context Menu
 
