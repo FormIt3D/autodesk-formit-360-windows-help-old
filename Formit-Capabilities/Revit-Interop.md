@@ -28,4 +28,4 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 
 - Revit Families can be exported as FormIt Groups, and then in the future, automatically converted back to the original Revit Family
 
-[Learn more about the FormIt and Revit connection ](/Formit-Capabilities/Revit-Interop.md)
+[Learn more about the FormIt and Revit connection ](/Building-the-Farnsworth-House/Revit-Interop.md)
