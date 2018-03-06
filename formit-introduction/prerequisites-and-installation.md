@@ -13,9 +13,6 @@
 |Memory |4 GB RAM, Usually sufficient for a typical editing session. Individual models will vary in their use of computer resources and performance characteristics. For higher performance use for either 8GB, 16GB or higher RAM. |
 <<<<<<< HEAD
 |Video Adapter|DirectX&#xAE; 11 capable graphics card. A discrete, dedicated Nvidia or AMD GPU is strongly recommended. For systems with switchable graphics cards, follow manufacturer instructions to force FormIt to always use the dedicated GPU. Instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) Instructions for [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)|
-=======
-|Video Adapter|DirectX&#xAE; 11 capable graphics card. A discrete, dedicated Nvidia or AMD Graphics Processor (GPU) is strongly recommended. For systems with switchable graphics cards, follow manufacturer instructions to force FormIt to always use the dedicated GPU. Instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) Instructions for [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)|
->>>>>>> fd5480761387e061fd6c415a02a574c4429141c8
 |Disk Space |500 MB free disk space |
 |Pointing Device |MS-Mouse or compliant device |
 |Connectivity and Licensing |An Autodesk 360 account entitled with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. FormIt Pro is available as part of the [**Autodesk AEC Collection**](https://www.autodesk.com/collections/architecture-engineering-construction/overview). |
