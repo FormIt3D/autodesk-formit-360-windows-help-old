@@ -8,7 +8,7 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 
 #### Conceptual Massing in FormIt
 
-- FormIt objects become Revit Mass Families which support Wall by Face, Curtain System by Face, and Roof by Face
+- FormIt objects become Revit Mass Families with materials applied. This supports the Wall by Face, Curtain System by Face, and Roof by Face workflow for creating detailed elements
 
 - FormIt Levels become Revit Levels and support Mass Floors, Floor by Face, and Floor Plan view creation
 
@@ -20,19 +20,12 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 
 #### Iteration between FormIt and Revit projects
 
-- The Import FormIt command allows you to place FormIt objects into the Revit template of your choice
+- The FormIt Converter add-in allows you to place FormIt objects into the Revit template of your choice for easy update as the design evolves
 
-- The Import FormIt to Revit command adds FormIt objects into an existing Revit project for easy update as the design evolves
+- The FormIt origin point uses the Revit base point for reliable placement of imported FormIt objects
 
-- The FormIt origin point uses the Revit base point for reliable placement of Imported FormIt objects
-
-- The Group Name in FormIt is remembered upon Revit Import allowing Filters
-
-#### Iteration between Revit and FormIt
-
-- Revit System Families can be exported to FormIt using SAT export options
+- Revit geometry can be exported to FormIt using SAT export options
 
 - Revit Families can be exported as FormIt Groups, and then in the future, automatically converted back to the original Revit Family
 
-
-[Learn more about the FormIt and Revit connection using the add-in for Revit](http://formit360.autodesk.com/page/formit-360-revit)
+[Learn more about the FormIt and Revit connection ](/Building-the-Farnsworth-House/Revit-Interop.md)

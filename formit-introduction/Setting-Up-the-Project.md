@@ -2,7 +2,7 @@
 
 FormIt provides two ways to save your work
 
-1. You can also open, save, import and export files from a local drive. 
+1. You can also open, save, import and export files from a local drive.
 
 2. Or, you can save your work to A360 Drive. This will allow you to share data outside of your office.
 

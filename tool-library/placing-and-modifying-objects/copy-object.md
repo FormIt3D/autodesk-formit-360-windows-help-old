@@ -2,7 +2,7 @@
 
 There are three ways to copy an object. First select the object by **double-clicking** on it:
 
-1. Right click the cube. Select the [**Copy tool**](/tool-library/tilt-array-copy-and-paste.md) in the Context Menu and then right click anywhere else in the scene and choose the **Paste button**. (This also works with **CTRL + C **or** V**).
+1. Right click the cube. Select the [**Copy tool**](/tool-library/tilt-array-copy-and-paste.md) in the Context Menu and then right click anywhere else in the scene and choose the **Paste button**. (This also works with **CTRL + C **or** V**). Use Paste In Place (CTRL+Shift+V) to paste an object exactly where it was copied from.
 
 2. Hold the **CTRL key down** and start dragging the object - a copy will be available to drag.
 
