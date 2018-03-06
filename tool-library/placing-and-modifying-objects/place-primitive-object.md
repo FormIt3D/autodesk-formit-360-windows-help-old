@@ -5,7 +5,7 @@
 2. Then drag and **click to place** the cube. <br>
 ![](/formit-introduction/images/primitive-cube-place.png)
 
-3. Place a **Cylinder** as well.
+
 
 
 
