@@ -41,6 +41,7 @@
   * [Rectangle](tool-library/rectangle-tool.md)
   * [Spline](tool-library/spline-tool.md)
   * [Arc](tool-library/arc-tool.md)
+  * [Circle](tool-library/circle-tool.md)
   * [Snaps and Inferences](tool-library/snaps-and-inferences.md)
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Placing Primitives](tool-library/placing-and-modifying-objects/place-primitive-object.md)
@@ -67,7 +68,7 @@
   * [Content Library](tool-library/content-library.md)
   * [Dynamo ](tool-library/dynamo.md)
   * [Groups Tree](tool-library/groups-tree.md)
-  * Undo Manager
+  * [Undo Manager](tool-library/undo_manager.md)
   * [Revit ](tool-library/revit.md)
   * [Solar Analysis](tool-library/solar-analysis.md)
   * [Energy Analysis](tool-library/energy-analysis.md)
