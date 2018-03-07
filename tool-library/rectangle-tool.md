@@ -1,4 +1,4 @@
-### Rectangle Tool
+#Rectangle Tool
 
 Draws a rectangle that becomes a face when opteration is complete. The resulting face can be extruded into a volume.
 
