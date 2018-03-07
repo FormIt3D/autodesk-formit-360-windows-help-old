@@ -28,5 +28,5 @@ Click the check mark to finish the command.
 
 3. Right click on any of the ojects and choose the Join Tool in the Context Menu  
 
-![](../images/join tool.png)
+![](images/join tool.png)
 
