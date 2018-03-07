@@ -48,7 +48,7 @@
   * [Delete, Edit, Move](tool-library/delete-edit-move.md)
   * [Dynamo ](tool-library/dynamo.md)
   * [Faces: Extrude, Cut and Offset](tool-library/extrude-cut-and-offset-faces.md)
-  * [Faces: Flatten] (tool-library/flatten-face.md)
+  * [Faces: Flatten](tool-library/flatten-face.md)
   * [Faces: Tilt and Facet/Smooth](tool-library/tilt-array-copy-and-paste.md)
   * [Groups Tree](tool-library/groups-tree.md)
   * [Groups](tool-library/groups.md)
