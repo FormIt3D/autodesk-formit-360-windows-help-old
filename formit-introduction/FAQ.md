@@ -1,7 +1,3 @@
-# Frequently Asked Questions
-
-# What FormIt is and how to get it
-
 %accordion% What is the difference between Formit, FormIt 360, and FormIt Pro? %accordion%  
 The "360" in FormIt has been retired.  "FormIt" refers to the entire product. The free versions are on Web and iOS. FormIt PRO refers to a subscription available only if you purchase the Autodesk AEC Industry Collection. The subscription enables some additional features on iOS and Web and also enables you to run the Windows client.  
 %/accordion%  
@@ -24,9 +20,6 @@ In an effort to streamline the FormIt product offering, we had to make the hard 
 * The best place to start is the FormIt Primer tutorial. There are multiple parts ranging from beginner \(creating an entire modern house\) to more advanced \(working with Revit and Dynamo in more advanced ways\).
 * We also have over 20 videos in our FormIt Friday webinar series. These can be found on our YouTube channel.
   %/accordion%
-  %accordion%  %accordion%
-
-%/accordion%
 
 ## Working with External Data
 
