@@ -29,5 +29,5 @@ Click the check mark to finish the command. The object that was removed remains 
 3. Right click on the object that will be cut, and choose the [**Cut tool**](/tool-library/boolean-operations.md) in the Context Menu  
    ![](../images/cut tool.png)
 
-![](../images/join tool.png)
+
 
