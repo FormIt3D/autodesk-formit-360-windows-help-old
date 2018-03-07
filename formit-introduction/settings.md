@@ -1,4 +1,4 @@
-* [ ] # Settings
+# Settings
 
 Settings can be accessed from the Menu or Toolbar. All settings are saved once FormIt is closed.
 
@@ -17,6 +17,4 @@ Settings can be accessed from the Menu or Toolbar. All settings are saved once F
 ![](/assets/touch_mode_icon.png)
 
 Touch Mode allows you to use Windows equipped with touch screens. When on, you can use a single touch and drag to select and interact with drawing, modeling and modification tools. **Note: While in Touch Mode, drawing and modification tools will not work properly with the mouse. **
-
-
 
