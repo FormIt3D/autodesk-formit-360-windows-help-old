@@ -14,7 +14,7 @@ When you single click on a material preview tile in the Materials palette you ar
 
 When you select an object in the scene, the material\(s\) applied to that object are highlighted in the palette
 
-![](/assets/material_selected.png)
+![](/tool-library/images/material_selected.png)
 
 ## Create Materials
 
