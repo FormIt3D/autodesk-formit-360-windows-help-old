@@ -18,7 +18,7 @@ Single click to Select an object\(s\) or Group\(s\) to be joined
 
 ![](/assets/cut_mode02.png)
 
-Click the check mark to finish the command. 
+Click the check mark to finish the command.
 
 ## Select objects first
 
@@ -26,7 +26,7 @@ Click the check mark to finish the command.
 
 2. Holding the **CTRL key** double click an overlapping object\(s\) to join.
 
-3. Right click on any of the ojects and choose the Join Tool in the Context Menu  
+3. Right click on any of the ojects and choose the Join Tool in the Context Menu
 
 ![](images/join tool.png)
 
