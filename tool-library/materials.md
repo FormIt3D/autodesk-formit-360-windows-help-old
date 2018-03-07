@@ -37,7 +37,7 @@ Beyond the maps you can adjust these advanced parameters to give your materials 
 2. Reflection will reflect a default image that FormIt uses for a background image
 3. Gloss increases the impact of a light shining on your materials that already have reflection applied
 
-![](/assets/material_edit.png)
+![](/tool-library/images/material_edit.png)
 
 ## Import Materials
 
