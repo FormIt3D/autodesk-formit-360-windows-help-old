@@ -12,7 +12,7 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) <br>
 ![](images/cover finish.PNG)
 
-#### To change geometry along a path
+#### To sweep geometry along a path
 
 1. Mark a face of an object that you want to cut. 
     ![](images/mark face.PNG)
@@ -31,7 +31,7 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
     ![](images/sweep finish.PNG)
     
 
-#### To connect multiple profiles or edges
+#### To loft multiple profiles or edges
 
 1. Click the Loft icon. <br>
 ![](images/loft tool.png)
