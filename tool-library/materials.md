@@ -12,6 +12,10 @@ When you single click on a material preview tile in the Materials palette you ar
 4. You can paint groups in FormIt. When you single click on a group, this will apply a material to each face of the group that doesn't already have a material. Consider this a material override
 5. In order to 'remove' paint from any of the above elements - you can choose to paint with the 'default' material
 
+When you select an object in the scene, the material\(s\) applied to that object are highlighted in the palette
+
+![](/assets/material_selected.png)
+
 ## Create Materials
 
 Hit the "+" icon to create a new material. You can double click the material name in the palette to rename it
@@ -40,6 +44,4 @@ FormIt gives you access to the Autodesk Material Library so that you can import 
 ## Material translation to Revit
 
 When you take the time to create and apply a material texture in FormIt - your geometry will maintain this material when importing to Revit. This gives you an incredibly fast transition between conceptual and detailed design phases of projects. You can also render, create presentation elevation views, and utilize other visualization Add-Ins in Revit.
-
-
 
