@@ -20,9 +20,11 @@ Groups can be created and edited in two ways - either from the context menu or f
 
 7. Once you copy a group, then you have automatically made a relationship between these groups - if you edit one and change it, the same change will occur in all related groups
 
-8. If you want to sever the relationship between groups - select one, or several - and choose to make that group unique
+8. If you want to sever the relationship between groups - select one, or several -  and choose to make that group unique \(use either the Groups toolbar or the Context Menu.\)
 
 9. There is a shortcut to select all of the related groups. Hover over a group and hit the Tab key - this will highlight all related groups. Now click to select them - and you can perform an action on all groups at once - delete, group, etc...
+
+10. The [**Groups Tree**](/tool-library/groups-tree.md) provides a single place to view and manage all of the groups in a project.
 
 ## Groups Context menu and Toolbar access
 
