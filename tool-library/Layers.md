@@ -1,8 +1,8 @@
-### Layers
+# Layers
 
 FormIt utilizes the concept of Layers to control visibility of objects. Learn more about Layers [here](/Building-the-Farnsworth-House/Control-Visibility-with-Layers.md)
 
-#### Create Layers
+## Create Layers
 
 On the Layers tab you can create and name your own layers by clicking the "+" icon. Then select the geometry you'd like to place on that layer. On the Layers tab you can choose from the dropdown list which layer you want the geometry to be on. Finally toggle off the layer you chose. This will verify that you've accomplished what you intended.
 
