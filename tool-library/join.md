@@ -1,6 +1,6 @@
 # Boolean Join
 
-You can join one object or Group into another with the Join Tool. There are two ways to access the Join tool:
+You can join one object or group into another with the Join Tool. There are two ways to access the Join tool:
 
 ## Run the Join command first
 
@@ -14,7 +14,7 @@ Single click to Select an object to join into
 
 ![](/assets/cut_mode01.png)
 
-Single click to Select an object\(s\) or Group\(s\) to be joined
+Single click to Select an object\(s\) or group\(s\) to be joined
 
 ![](/assets/cut_mode02.png)
 
@@ -22,7 +22,7 @@ Click the check mark to finish the command.
 
 ## Select objects first
 
-1. Double click to select the object to be join. \(Single click for a Group\)
+1. Double click to select the object to be join. \(Single click for a group\)
 
 2. Holding the **CTRL key** double click an overlapping object\(s\) to join.
 
