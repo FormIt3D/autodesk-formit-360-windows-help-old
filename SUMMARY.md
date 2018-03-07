@@ -32,7 +32,7 @@
   * [Computational Groups with Dynamo](Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.md)
   * [Import Models with Content Library](Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
   * [Solar and Energy Analysis](Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
-  * [Revit Interop](Building-the-Farnsworth-House/Revit-Interop.md)
+  * [Working with Revit](Building-the-Farnsworth-House/Revit-Interop.md)
   * [Visual Styles](Building-the-Farnsworth-House/Visual-Settings.md)
   * [Section Planes](Building-the-Farnsworth-House/Section_planes.md)
   * [Export Image](Building-the-Farnsworth-House/export_image.md)
