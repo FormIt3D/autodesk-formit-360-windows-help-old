@@ -1,6 +1,6 @@
 # Boolean Cut
 
-You can cut one object or Group from another with the Cut Tool. There are two ways to access the Cut tool:
+You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
 
 ## Run the Cut command first
 
@@ -14,7 +14,7 @@ Single click to Select an object to cut into
 
 ![](/assets/cut_mode01.png)
 
-Single click to Select an object\(s\) or Group\(s\) to be removed
+Single click to Select an object\(s\) or group\(s\) to be removed
 
 ![](/assets/cut_mode02.png)
 
