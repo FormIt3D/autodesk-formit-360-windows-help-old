@@ -1,4 +1,4 @@
-### Line Tool
+# Line Tool
 
 Draw a lines to divide faces and construct geometry.
 
