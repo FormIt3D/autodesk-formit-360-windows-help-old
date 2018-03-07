@@ -1,26 +1,25 @@
-### Snaps and Inferences
+# Snaps and Inferences
+
 To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
 
-**Note:** *See [Keyboard Shortcuts](../Appendix/keyboard-shortcuts.md) for information about how to speed up your use of the software's tools.*
+**Note:** _See _[_Keyboard Shortcuts_](../Appendix/keyboard-shortcuts.md)_ for information about how to speed up your use of the software's tools._
 
-
-
-#### Snapping
+## Snapping
 
 There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
 
 * On Edge
 * On Midpoint
-* Endpoints (on vertex)
+* Endpoints \(on vertex\)
 * On Face
 * Center of Face
 * On Ground Plane
 
 ![](images/GUID-10AC3DDC-0BB3-4C3A-9BA3-4DE37FE97ADF-low.png)
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+To snap to the grid, you must enable the **Snap to Grid \(SG\)** toggle from the Settings menu.
 
-#### Inference Points
+## Inference Points
 
 Automatic selection of inference points is always enabled and will help you constrain the movement of geometry.
 
@@ -41,3 +40,4 @@ Automatic selection of inference points is always enabled and will help you cons
 ![](images/GUID-116D4EA4-F84E-4796-8755-627A1149266B-low.png)
 
 **Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+
