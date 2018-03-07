@@ -1,4 +1,4 @@
-### Energy Analysis
+# Energy Analysis
 
 Start a BIM workflow by evaluating the performance of elements from the beginning of the design process. 
 
@@ -6,7 +6,7 @@ Start a BIM workflow by evaluating the performance of elements from the beginnin
   <source src="Videos/Analysis.mp4" type="video/mp4">
 </video>
 
-#### Solar Analysis
+## Solar Analysis
 With a ** FormIt Pro subscription ** you have can visualize the sun's impact on your building:
 - Specify relevant faces to be analyzed for solar impact
 - Visualize results in seconds within the app canvas
@@ -14,7 +14,7 @@ With a ** FormIt Pro subscription ** you have can visualize the sun's impact on 
 - Choose to view results as a monthly glazing study, or as a yearly solar panel feasibility study
 - Learn more about [Solar Analysis](/Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
 
-#### Energy Analysis with Insight
+## Energy Analysis with Insight
 
 With a ** FormIt Pro subscription ** you have access to Energy Analysis with **Insight:**
 - Analyze early stage design models with Green Building Studio's analysis engine
