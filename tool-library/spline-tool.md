@@ -1,4 +1,4 @@
-### Spline Tool
+# Spline Tool
 
 Spline tool allows you to create organic sketches in space or on other objects.
 
