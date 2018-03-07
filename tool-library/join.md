@@ -6,7 +6,7 @@ You can join one object or Group into another with the Join Tool. There are two 
 
 Keyboard: J G
 
-![](/assets/cut_tool.png)
+![](/assets/join_tool.png)
 
 Run the Join command and follow the mode instruction in the upper left of the screen
 
