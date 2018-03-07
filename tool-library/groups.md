@@ -1,6 +1,6 @@
 # Groups
 
-One of the most basic, and important techniques in FormIt workflows involves Grouping. Groups allow you to keep your geometry from 'sticking together'. In addition Groups allow you to set up parent + child relationships between copied elements - so if you update one, they both update. Learn more about Groups [here](/Building-the-Farnsworth-House/Grouping-Objects.md)
+One of the most basic, and important techniques in FormIt workflows involves grouping. groups allow you to keep your geometry from 'sticking together'. In addition groups allow you to set up parent + child relationships between copied elements - so if you update one, they both update. Learn more about groups [here](/Building-the-Farnsworth-House/Grouping-Objects.md)
 
 Groups can be created and edited in two ways - either from the context menu or from the main toolbar.
 
@@ -44,11 +44,11 @@ Groups can be created and edited in two ways - either from the context menu or f
 
 ## Groups and Revit
 
-If you're familiar with Revit Families, then you are familiar with the concept of Groups in FormIt. FormIt groups have extended a few features to make them translate to Revit with more intelligence.
+If you're familiar with Revit Families, then you are familiar with the concept of groups in FormIt. FormIt groups have extended a few features to make them translate to Revit with more intelligence.
 
-You can specify the 'category' of Groups in FormIt and they will become families of this category when you import FormIt to Revit. You can set the category in FormIt in the Properties palette of an edited group - or in the Groups Tree palette
+You can specify the 'category' of groups in FormIt and they will become families of this category when you import FormIt to Revit. You can set the category in FormIt in the Properties palette of an edited group - or in the Groups Tree palette
 
 You can specify the name of your FormIt group too - this is handy for general legibility of your model - and when you import to Revit you can Filter visibility of elements by using the name of the group.
 
-Note that Nested Groups in FormIt are un-nested when importing to Revit - this prevents a deeply nested Revit family which may not have been your intention when modeling in FormIt.
+Note that nested groups in FormIt are un-nested when importing to Revit - this prevents a deeply nested Revit family which may not have been your intention when modeling in FormIt.
 
