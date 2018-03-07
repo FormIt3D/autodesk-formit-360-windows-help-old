@@ -1,4 +1,4 @@
-# Boolean Cut 
+# Boolean Cut
 
 You can cut one object or Group from another with the Cut Tool. There are two ways to access the Cut tool:
 
