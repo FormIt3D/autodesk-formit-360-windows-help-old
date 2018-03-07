@@ -17,6 +17,7 @@
   * [Setting Up the Project](formit-introduction/Setting-Up-the-Project.md)
   * [Tool Bars and Palettes](formit-introduction/tool-bars.md)
   * [Navigating the Scene](formit-introduction/navigating-the-scene.md)
+  * [Settings](formit-introduction/settings.md)
 * [FormIt Primer](Building-the-Farnsworth-House/Building-the-Farnsworth-House.md)
   * [Set the Location](Building-the-Farnsworth-House/Setting-Location.md)
   * [Project Set Up with Images and Grid](Building-the-Farnsworth-House/Work-with-Images-and-the-Ground-Plane.md)
