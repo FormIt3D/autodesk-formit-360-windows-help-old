@@ -1,3 +1,4 @@
-###Solar Analysis
+### Solar Analysis
 
-Learn more here [here](/Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
+Learn more about here [here](/Building-the-Farnsworth-House/Solar-and-Energy-Analysis.md)
+
