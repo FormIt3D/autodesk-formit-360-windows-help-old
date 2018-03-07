@@ -51,7 +51,7 @@
   * [Rotate Object](tool-library/placing-and-modifying-objects/rotate.md)
   * [Scale Object](tool-library/placing-and-modifying-objects/scale.md)
   * [Boolean Cut](tool-library/placing-and-modifying-objects/boolean-cut-and-join.md)
-  * [Boolean Join](tool-library/placing-and-modifying-objects/join.md)
+  * [Boolean Join](tool-library/join.md)
   * [Delete, Edit, Move](tool-library/delete-edit-move.md)
   * [Faces: Extrude, Cut and Offset Faces](tool-library/extrude-cut-and-offset-faces.md)
   * [Faces: Tilt, Array, Copy and Paste](tool-library/tilt-array-copy-and-paste.md)
