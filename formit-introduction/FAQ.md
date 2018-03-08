@@ -4,11 +4,7 @@
 
 %accordion% What is the difference between Formit, FormIt 360, and FormIt Pro? %accordion%
 
-The "360" in FormIt has been retired ."**FormIt**" refers to the entire product. The free versions are on Web and iOS.
-
-**FormIt PRO **refers to a subscription available only if you purchase the Autodesk AEC Industry Collection.
-
-The subscription enables some additional features on iOS and Web and also enables you to run the Windows client.
+The "360" in FormIt has been retired."**FormIt**" refers to the entire product. The free versions are on Web and iOS. **FormIt PRO ** refers to a subscription available only if you purchase the Autodesk AEC Industry Collection. The subscription enables some additional features on iOS and Web and also enables you to run the Windows client.
 
 %/accordion%
 
@@ -26,11 +22,7 @@ In an effort to streamline the FormIt product offering, we had to make the hard 
 
 %accordion% How do I get FormIt? %accordion%
 
-To run the Windows version, you must have access to FormIt Pro, which is part of our AEC Industry Collection subscription
-
-So, if your office has Revit, there is a good chance you have access to FormIt already! 
-
-You can download it directly from our website or from the Autodesk Desktop App. 
+To run the Windows version, you must have access to FormIt Pro, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can download it directly from our website or from the Autodesk Desktop App. 
 
 The Web version can be run directly for free from our website: http://formit.autodesk.com 
 
@@ -58,32 +50,25 @@ We also have over 20 videos in our FormIt Friday webinar series. These can be fo
 
 %accordion% How does FormIt work with Revit? %accordion%
 
-This is where things get really interesting! It's a bit of a long answer, so we made [this video](https://youtu.be/teKsLX99_FA) to explain it 
+This is where things get really interesting! It's a bit of a long answer, so we made [this video](https://youtu.be/teKsLX99_FA) to explain it. 
 
-For a short version: FormIt is a completely separate 3D sketching and design application. The file that FormIt creates 
-
-can be read into Revit to automatically create individual families which maintian materials from FormIt.
+For a short version: FormIt is a completely separate 3D sketching and design application. The file that FormIt creates can be read into Revit to automatically create individual families which maintian materials from FormIt.
 
 %/accordion%
 
 %accordion% What happens when you import into Revit? %accordion%
 
-Starting in 2016, Revit ships with an add-in for working with FormIt data. When you import a FormIt AXM file into Revit, 
+Starting in 2016, Revit ships with an add-in for working with FormIt data. When you import a FormIt AXM file into Revit, it looks at each object in the file and re-creates it in Revit using the API. By default, everything in FormIt is categorized as Mass. 
 
-it looks at each object in the file and re-creates it in Revit using the API. By default, everything in FormIt is categorized
+The FormIt Converter takes each Mass object and creates a Mass family in Revit using the [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
-as Mass. The FormIt Converter takes each Mass object and creates a Mass family in Revit using the [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
-
-What is Direct Shape? It is a non-editable object used in IFC workflows. Although it is not editable, it has the distinct 
-
-advantage of transferring full material textures between FormIt and Revit. [Here is a tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) that explains the FormIt to Revit workflow in more detail.
+What is Direct Shape? It is a non-editable object used in IFC workflows. Although it is not editable, it has the distinct advantage of transferring full material textures between FormIt and Revit. [Here is a tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) that explains the FormIt to Revit workflow in more detail.
 
 %/accordion%
 
 %accordion% Can FormIt create walls, floors, windows, doors and other Revit system families? %accordion%
 
-Not directly. As stated above, each object is 
-
+Not directly. As stated above, each object defaults to Mass category. 
 %/accordion%
 
 %accordion% ?? %accordion%
