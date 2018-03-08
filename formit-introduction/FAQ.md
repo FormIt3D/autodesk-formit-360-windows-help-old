@@ -22,11 +22,11 @@ In an effort to streamline the FormIt product offering, we had to make the hard 
 
 %accordion% How do I get FormIt? %accordion%
 
-To run the Windows version, you must have access to FormIt Pro, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can download it directly from our website or from the Autodesk Desktop App. 
+To run the Windows version, you must have access to FormIt Pro, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can download it directly from our website or from the Autodesk Desktop App.
 
-The Web version can be run directly for free from our website: http://formit.autodesk.com 
+The Web version can be run directly for free from our website: [http://formit.autodesk.com](http://formit.autodesk.com)
 
-The iOS version can be downloaded for free from the Apple App Store (iPad only). 
+The iOS version can be downloaded for free from the Apple App Store \(iPad only\).
 
 %/accordion%
 
@@ -38,9 +38,9 @@ Yes! You can access the FormIt Pro subscription through the [Autodesk Education 
 
 %accordion% How do I learn FormIt? %accordion%
 
-The best place to start is the [FormIt Primer tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html). 
+The best place to start is the [FormIt Primer tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html).
 
-There are multiple parts ranging from beginner (creating an entire modern house) to more advanced (working with Revit and Dynamo in more advanced ways).
+There are multiple parts ranging from beginner \(creating an entire modern house\) to more advanced \(working with Revit and Dynamo in more advanced ways\).
 
 We also have over 20 videos in our FormIt Friday webinar series. These can be found on our [YouTube channel](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH).
 
@@ -50,7 +50,7 @@ We also have over 20 videos in our FormIt Friday webinar series. These can be fo
 
 %accordion% How does FormIt work with Revit? %accordion%
 
-This is where things get really interesting! It's a bit of a long answer, so we made [this video](https://youtu.be/teKsLX99_FA) to explain it. 
+This is where things get really interesting! It's a bit of a long answer, so we made [this video](https://youtu.be/teKsLX99_FA) to explain it.
 
 For a short version: FormIt is a completely separate 3D sketching and design application. The file that FormIt creates can be read into Revit to automatically create individual families which maintian materials from FormIt.
 
@@ -58,7 +58,7 @@ For a short version: FormIt is a completely separate 3D sketching and design app
 
 %accordion% What happens when you import into Revit? %accordion%
 
-Starting in 2016, Revit ships with an add-in for working with FormIt data. When you import a FormIt AXM file into Revit, it looks at each object in the file and re-creates it in Revit using the API. By default, everything in FormIt is categorized as Mass. 
+Starting in 2016, Revit ships with an add-in for working with FormIt data. When you import a FormIt AXM file into Revit, it looks at each object in the file and re-creates it in Revit using the API. By default, everything in FormIt is categorized as Mass.
 
 The FormIt Converter takes each Mass object and creates a Mass family in Revit using the [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
@@ -66,11 +66,14 @@ What is Direct Shape? It is a non-editable object used in IFC workflows. Althoug
 
 %/accordion%
 
-%accordion% Can FormIt create walls, floors, windows, doors and other Revit system families? %accordion%
+%accordion% Can FormIt create walls, floors and other Revit system families? %accordion%
 
-Not directly. As stated above, each object defaults to Mass category. 
+Not directly. As stated above, each object defaults to Mass category. To create walls, floors, etc. you should import the model into Revit using the converter add-in and use native Revit tools to create system families from the underlying mass model.
+
+  
 %/accordion%
 
-%accordion% ?? %accordion%
+%accordion% %accordion%
 
 %/accordion%
+
