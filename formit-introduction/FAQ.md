@@ -70,10 +70,67 @@ What is Direct Shape? It is a non-editable object used in IFC workflows. Althoug
 
 Not directly. As stated above, each object defaults to Mass category. To create walls, floors, etc. you should import the model into Revit using the converter add-in and use native Revit tools to create system families from the underlying mass model.
 
-  
 %/accordion%
 
-%accordion% %accordion%
+%accordion% Can Revit send data back to FormIt? %accordion%
+
+Yes. To import data back into FormIt, export all, or preferably *part* of your Revit file to the SAT file format. There is usually no need to send ALL of your Revit data to FormIt. Instead, create a filtered view in Revit that only includes the minimal data (for instance, floors and walls) before saving to SAT. 
+
+## Working with other apps
 
 %/accordion%
 
+%accordion% Why is the default file format ".AXM" %accordion%
+
+The internal codename before FormIt was officially named was XModeler - so the file format we created was Autodesk X Modeler - hence AXM
+
+%/accordion%
+
+%accordion% What kind of 3D formats can FormIt import? %accordion%
+
+- Windows:  AXM, OBJ, DWG, STL, SAT, SKP
+- Web: OBJ, STL
+- iOS: OBJ, STL, SAT
+
+%/accordion%
+
+%accordion% What kind of formats can FormIt export? %accordion%
+
+Windows: FBX, OBJ, SAT, STL, DAE, DXF
+
+Web: OBJ, SAT, STL
+
+iOS: OBJ
+
+%/accordion%
+
+%accordion% How does FormIt work with Dynamo? %accordion%
+
+Dynamo Studio, the standalone version that runs separately from Revit, can publish scripts to https://dynamo.autodesk.com. These scripts can be run (but not edited) inside FormIt. See this [tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.html) page for more detail. 
+
+%/accordion%
+
+%accordion% How is FormIt similar to SketchUp? %accordion%
+
+Better interop with Revit 
+
+Dynamo integration
+
+Native Solar Analysis and Energy Analysis powered by Autodesk Insight
+
+A more robust solid modeling system
+
+Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
+
+Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
+
+Export selected/visible
+
+Native STL export
+
+%/accordion%
+
+%accordion% ?? %accordion%
+
+
+%/accordion>
