@@ -119,18 +119,50 @@ Dynamo integration
 Native Solar Analysis and Energy Analysis powered by Autodesk Insight
 
 A more robust solid modeling system
-
+ 
 Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
 
 Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
 
-Export selected/visible
+Export pieces of the model based on what is selected and/or visible
 
 Native STL export
 
 %/accordion%
 
-%accordion% ?? %accordion%
+%accordion% Can I use my SketchUp keyboard shortcuts? %accordion%
 
+Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit > Preferences menu.
+
+%/accordion>
+
+%accordion% Can I use my DWG files? %accordion%
+
+Yes! FormIt imports DWG files. 
+
+%/accordion>
+
+## Common support questions
+
+%accordion% How do I get support? %accordion%
+
+As with most Autodesk products, it is best to start with your reseller. Another great place to find common questions and solution is our [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). Did not find an answer by searching? Post your question and our team is there every day answering questions. 
+
+%/accordion>
+
+
+%accordion% What do I do if I cannot log in? %accordion%
+
+This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
+
+If you have PC with switchable graphics processor (GPU) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)
+
+%/accordion>
+
+%accordion% What do I do if the Energy Analysis seems to fail? %accordion%
+
+Check gbs.autodesk.com
+
+Rename the file
 
 %/accordion>
