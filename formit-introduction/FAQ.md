@@ -20,11 +20,7 @@ Windows, Web, and iOS
 
 %accordion% What happened to the Android version?%accordion%
 
-In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app.
-
-If you have it installed, it will continue to run. However, you will no longer be able to install it from the Play Store as of January 30, 2018.
-
-Any files you saved to Autodesk 360 Drive from the Android app are still available. You can access them using any of the current apps, including the free Web version.
+In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app. If you have it installed, it will continue to run. However, you will no longer be able to install it from the Play Store as of January 30, 2018. Any files you saved to Autodesk 360 Drive from the Android app are still available. You can access them using any of the current apps, including the free Web version.
 
 %/accordion%
 
@@ -62,7 +58,7 @@ We also have over 20 videos in our FormIt Friday webinar series. These can be fo
 
 %accordion% How does FormIt work with Revit? %accordion%
 
-This is where things get really interesting! It's a bit of a long answer, so we made [this video] (https://youtu.be/teKsLX99_FA) to explain it 
+This is where things get really interesting! It's a bit of a long answer, so we made [this video](https://youtu.be/teKsLX99_FA) to explain it 
 
 For a short version: FormIt is a completely separate 3D sketching and design application. The file that FormIt creates 
 
@@ -84,6 +80,12 @@ advantage of transferring full material textures between FormIt and Revit. [Here
 
 %/accordion%
 
-%accordion% How do I get FormIt? %accordion%
+%accordion% Can FormIt create walls, floors, windows, doors and other Revit system families? %accordion%
+
+Not directly. As stated above, each object is 
+
+%/accordion%
+
+%accordion% ?? %accordion%
 
 %/accordion%
