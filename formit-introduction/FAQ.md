@@ -18,11 +18,13 @@ Windows, Web, and iOS
 
 %/accordion%
 
-%accordion% What happened to the Android version?%accordion% 
+%accordion% What happened to the Android version?%accordion%
 
-In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app.   
-If you have it installed, it will continue to run. However, you will no longer be able to install it from the Play Store as of January 30, 2018.   
-Any files you saved to Autodesk 360 Drive from the Android app are still available. You can access them using any of the current apps, including the free Web version. 
+In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app.
+
+If you have it installed, it will continue to run. However, you will no longer be able to install it from the Play Store as of January 30, 2018.
+
+Any files you saved to Autodesk 360 Drive from the Android app are still available. You can access them using any of the current apps, including the free Web version.
 
 %/accordion%
 
