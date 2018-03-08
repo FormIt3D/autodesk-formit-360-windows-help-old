@@ -16,11 +16,13 @@ When you select an object in the scene, the material\(s\) applied to that object
 
 ![](/tool-library/images/material_selected.png)
 
-## Create Materials
+### Eye Dropper
+
+You can use the Eye Dropper tool to select an existing material in the scene. The material is immediately selected and ready to be painted onto other surfaces in the model.
+
+## Create and Edit Materials
 
 Hit the "+" icon to create a new material. You can double click the material name in the palette to rename it
-
-## Edit Materials
 
 When you create a material you are put into the Material Editor dialog where you can specify material properties. Once a material is created and the editor is close, you can edit the material again by double clicking the preview tile in the palette.
 
@@ -39,9 +41,13 @@ Beyond the maps you can adjust these advanced parameters to give your materials 
 
 ![](/tool-library/images/material_edit.png)
 
+## Purge Unused Materials
+
+Materials can significantly increase the size of your file. If you have materials that are not being used in the scene, you can use the Purge tool - located in the palette toolbar. 
+
 ## Import Materials
 
-FormIt gives you access to the Autodesk Material Library so that you can import pre made materials to your models
+FormIt gives you access to the Autodesk Material Library so that you can import pre made materials to your models. 
 
 ## Material translation to Revit
 
