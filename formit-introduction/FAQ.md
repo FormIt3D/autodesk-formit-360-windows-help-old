@@ -96,11 +96,9 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 %accordion% What kind of formats can FormIt export? %accordion%
 
-Windows: FBX, OBJ, SAT, STL, DAE, DXF
-
-Web: OBJ, SAT, STL
-
-iOS: OBJ
+- Windows: FBX, OBJ, SAT, STL, DAE, DXF
+- Web: OBJ, SAT, STL
+- iOS: OBJ
 
 %/accordion%
 
@@ -112,21 +110,14 @@ Dynamo Studio, the standalone version that runs separately from Revit, can publi
 
 %accordion% How is FormIt similar to SketchUp? %accordion%
 
-Better interop with Revit 
-
-Dynamo integration
-
-Native Solar Analysis and Energy Analysis powered by Autodesk Insight
-
-A more robust solid modeling system
- 
-Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
-
-Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
-
-Export pieces of the model based on what is selected and/or visible
-
-Native STL export
+- Better interop with Revit 
+- Dynamo integration
+- Native Solar Analysis and Energy Analysis powered by Autodesk Insight
+- A more robust solid modeling system
+- Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
+- Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
+- Export pieces of the model based on what is selected and/or visible
+- Native STL export
 
 %/accordion%
 
@@ -150,7 +141,6 @@ As with most Autodesk products, it is best to start with your reseller. Another 
 
 %/accordion>
 
-
 %accordion% What do I do if I cannot log in? %accordion%
 
 This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
@@ -159,10 +149,12 @@ If you have PC with switchable graphics processor (GPU) it is important to ensur
 
 %/accordion>
 
-%accordion% What do I do if the Energy Analysis seems to fail? %accordion%
+%accordion% What do I do if the Insight Energy Analysis seems to fail? %accordion%
 
-Check gbs.autodesk.com
+If the Insight Energy Analysis reports and error or fails to return any results, here are a few things to try
 
-Rename the file
+- If you are working on a local version of the file, try to save the file to A360 Drive first, and then try again to Generate Insight
+- If your file is already saved to A360 Drive. Try to re-save with a different file name and then try again to Generate Insight
+- If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
 
 %/accordion>
