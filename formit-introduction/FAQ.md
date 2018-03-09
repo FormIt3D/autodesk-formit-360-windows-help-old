@@ -124,15 +124,15 @@ Dynamo Studio, the standalone version that runs separately from Revit, can publi
 
 %accordion% Can I use my SketchUp keyboard shortcuts? %accordion%
 
-Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit &gt; Preferences menu.
+Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit % Preferences menu.
 
-%/accordion&gt;
+%/accordion%
 
 %accordion% Can I use my DWG files? %accordion%
 
 Yes! FormIt imports 2D and 3D DWG files.
 
-%/accordion&gt;
+%/accordion%
 
 ## Common support questions
 
@@ -140,14 +140,14 @@ Yes! FormIt imports 2D and 3D DWG files.
 
 As with most Autodesk products, it is best to start with your reseller. Another great place to find common questions and solution is our [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). Did not find an answer by searching? Post your question and our team is there every day answering questions.
 
-%/accordion&gt;
+%/accordion%
 
 %accordion% What do I do if I cannot log in? %accordion%
 
 * This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
 * If you have PC with switchable graphics processor \(GPU\) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage 3d settings/related/1)
 
-%/accordion&gt;
+%/accordion%
 
 %accordion% What do I do if the Insight Energy Analysis seems to fail? %accordion%
 
@@ -157,5 +157,5 @@ If the Insight Energy Analysis reports and error or fails to return any results,
 * If your file is already saved to A360 Drive. Try to re-save with a different file name and then try again to Generate Insight
 * If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
 
-%/accordion&gt;
+%/accordion%
 
