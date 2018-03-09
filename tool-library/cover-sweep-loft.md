@@ -1,7 +1,7 @@
-### Cover, Sweep, Loft
+# Cover, Sweep, Loft
 Enclose open edges, make geometry changes along a path of edges, and connect multiple profiles or edges.
 
-#### To enclose a series of faces
+### To close a series of faces
 
 1. Click the cover tool from the action bar. <br>
 ![](images/cover tool.png)
@@ -12,7 +12,7 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) <br>
 ![](images/cover finish.PNG)
 
-#### To sweep geometry along a path
+### To sweep geometry along a path
 
 1. Mark a face of an object that you want to cut. 
     ![](images/mark face.PNG)
@@ -29,9 +29,13 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 
 5. Click the Finish icon. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) The original object is modified along the sweep path. 
     ![](images/sweep finish.PNG)
+	
+Here is video demonstrating Sweep:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uds8lYp3Dkk?rel=0&amp;start=1234" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     
 
-#### To loft multiple profiles or edges
+### To loft multiple profiles or edges
 
 1. Click the Loft icon. <br>
 ![](images/loft tool.png)
