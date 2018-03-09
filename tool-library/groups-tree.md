@@ -10,3 +10,4 @@ The Groups Tree palette provides a single place to manage all of the groups in t
 
 ![](/assets/groups_tree.png)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H1D5RDUYyLo?rel=0&amp;start=2362" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
