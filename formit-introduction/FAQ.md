@@ -74,7 +74,7 @@ Not directly. As stated above, each object defaults to Mass category. To create 
 
 %accordion% Can Revit send data back to FormIt? %accordion%
 
-Yes. To import data back into FormIt, export all, or preferably *part* of your Revit file to the SAT file format. There is usually no need to send ALL of your Revit data to FormIt. Instead, create a filtered view in Revit that only includes the minimal data (for instance, floors and walls) before saving to SAT. 
+Yes. To import data back into FormIt, export all, or preferably _part_ of your Revit file to the SAT file format. There is usually no need to send ALL of your Revit data to FormIt. Instead, create a filtered view in Revit that only includes the minimal data \(for instance, floors and walls\) before saving to SAT.
 
 ## Working with other apps
 
@@ -88,73 +88,73 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 %accordion% What kind of 3D formats can FormIt import? %accordion%
 
-- Windows:  AXM, OBJ, DWG, STL, SAT, SKP
-- Web: OBJ, STL
-- iOS: OBJ, STL, SAT
+* Windows:  AXM, OBJ, DWG, STL, SAT, SKP
+* Web: OBJ, STL
+* iOS: OBJ, STL, SAT
 
 %/accordion%
 
 %accordion% What kind of formats can FormIt export? %accordion%
 
-- Windows: FBX, OBJ, SAT, STL, DAE, DXF
-- Web: OBJ, SAT, STL
-- iOS: OBJ
+* Windows: FBX, OBJ, SAT, STL, DAE, DXF
+* Web: OBJ, SAT, STL
+* iOS: OBJ
 
 %/accordion%
 
 %accordion% How does FormIt work with Dynamo? %accordion%
 
-Dynamo Studio, the standalone version that runs separately from Revit, can publish scripts to https://dynamo.autodesk.com. These scripts can be run (but not edited) inside FormIt. See this [tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.html) page for more detail. 
+Dynamo Studio, the standalone version that runs separately from Revit, can publish scripts to [https://dynamo.autodesk.com](https://dynamo.autodesk.com). These scripts can be run \(but not edited\) inside FormIt. See this [tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Computation-Groups-with-Dynamo.html) page for more detail.
 
 %/accordion%
 
 %accordion% How is FormIt similar to SketchUp? %accordion%
 
-- Better interop with Revit 
-- Dynamo integration
-- Native Solar Analysis and Energy Analysis powered by Autodesk Insight
-- A more robust solid modeling system
-- Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
-- Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
-- Export pieces of the model based on what is selected and/or visible
-- Native STL export
+* Better interop with Revit 
+* Dynamo integration
+* Native Solar Analysis and Energy Analysis powered by Autodesk Insight
+* A more robust solid modeling system
+* Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
+* Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
+* Export pieces of the model based on what is selected and/or visible
+* Native STL export for 3D printing
 
 %/accordion%
 
 %accordion% Can I use my SketchUp keyboard shortcuts? %accordion%
 
-Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit > Preferences menu.
+Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit &gt; Preferences menu.
 
-%/accordion>
+%/accordion&gt;
 
 %accordion% Can I use my DWG files? %accordion%
 
-Yes! FormIt imports DWG files. 
+Yes! FormIt imports 2D and 3D DWG files.
 
-%/accordion>
+%/accordion&gt;
 
 ## Common support questions
 
 %accordion% How do I get support? %accordion%
 
-As with most Autodesk products, it is best to start with your reseller. Another great place to find common questions and solution is our [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). Did not find an answer by searching? Post your question and our team is there every day answering questions. 
+As with most Autodesk products, it is best to start with your reseller. Another great place to find common questions and solution is our [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). Did not find an answer by searching? Post your question and our team is there every day answering questions.
 
-%/accordion>
+%/accordion&gt;
 
 %accordion% What do I do if I cannot log in? %accordion%
 
-This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
+* This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
+* If you have PC with switchable graphics processor \(GPU\) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage 3d settings/related/1)
 
-If you have PC with switchable graphics processor (GPU) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)
-
-%/accordion>
+%/accordion&gt;
 
 %accordion% What do I do if the Insight Energy Analysis seems to fail? %accordion%
 
 If the Insight Energy Analysis reports and error or fails to return any results, here are a few things to try
 
-- If you are working on a local version of the file, try to save the file to A360 Drive first, and then try again to Generate Insight
-- If your file is already saved to A360 Drive. Try to re-save with a different file name and then try again to Generate Insight
-- If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
+* If you are working on a local version of the file, try to save the file to A360 Drive first, and then try again to Generate Insight
+* If your file is already saved to A360 Drive. Try to re-save with a different file name and then try again to Generate Insight
+* If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
 
-%/accordion>
+%/accordion&gt;
+
