@@ -110,12 +110,12 @@ Dynamo Studio, the standalone version that runs separately from Revit, can publi
 
 %accordion% How is FormIt similar to SketchUp? %accordion%
 
-* Better interop with Revit 
-* Dynamo integration
-* Native Solar Analysis and Energy Analysis powered by Autodesk Insight
+* Better [**interop with Revit**](/tool-library/revit.md)** **
+* [**Dynamo integration**](/tool-library/dynamo.md) for computational design
+* Native tools for [**solar analysis**](/tool-library/solar-analysis.md) and [**energy analysis powered**](/tool-library/energy-analysis.md) by Autodesk Insight
 * A more robust solid modeling system
-* Native advanced modeling tools, like Sweep, Cover, Loft, Offset/Shell Solid, and 3D Blend/Fillet
-* Diagnostic tools, like Display Watertight issues, Display Back Faces, and Flatten.
+* Native advanced modeling tools, like [**Sweep, Cover, Loft**](/tool-library/cover-sweep-loft.md), Offset/Shell Solid, and 3D Blend/Fillet and [**Flatten Faces**](/tool-library/flatten-face.md)
+* Diagnostic tools like [Display Watertight issues and Display Back Faces](/tool-library/visual-styles.md)
 * Export pieces of the model based on what is selected and/or visible
 * Native STL export for 3D printing
 
