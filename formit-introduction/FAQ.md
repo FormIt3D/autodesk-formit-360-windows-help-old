@@ -115,9 +115,10 @@ Dynamo Studio, the standalone version that runs separately from Revit, can publi
 * Native tools for [**solar analysis**](/tool-library/solar-analysis.md) and [**energy analysis powered**](/tool-library/energy-analysis.md) by Autodesk Insight
 * A more robust solid modeling system
 * Native advanced modeling tools, like [**Sweep, Cover, Loft**](/tool-library/cover-sweep-loft.md), Offset/Shell Solid, and 3D Blend/Fillet and [**Flatten Faces**](/tool-library/flatten-face.md)
-* Diagnostic tools like [Display Watertight issues and Display Back Faces](/tool-library/visual-styles.md)
-* Export pieces of the model based on what is selected and/or visible
-* Native STL export for 3D printing
+* Multiple visible [**section planes **](/tool-library/section-planes.md)
+* Diagnostic tools like [**Display Watertight issues and Display Back Faces**](/tool-library/visual-styles.md)
+* [**Export pieces of the model**](/tool-library/export-data.md) based on what is selected and/or visible
+* Native OBJ, SAT, and STL export
 
 %/accordion%
 
