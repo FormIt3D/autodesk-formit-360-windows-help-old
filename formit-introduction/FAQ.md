@@ -76,9 +76,9 @@ Not directly. As stated above, each object defaults to Mass category. To create 
 
 Yes. To import data back into FormIt, export all, or preferably _part_ of your Revit file to the SAT file format. There is usually no need to send ALL of your Revit data to FormIt. Instead, create a filtered view in Revit that only includes the minimal data \(for instance, floors and walls\) before saving to SAT.
 
-## Working with other apps
-
 %/accordion%
+
+## Working with other apps
 
 %accordion% Why is the default file format ".AXM" %accordion%
 
@@ -158,4 +158,3 @@ If the Insight Energy Analysis reports and error or fails to return any results,
 * If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
 
 %/accordion%
-
