@@ -18,4 +18,9 @@
 
 ### Recommended Windows DPI Settings
 
-FormIt runs best when the screen it's on is set to 125% or less DPI scaling in Windows. 
+FormIt for Windows works best when the screen it's displayed on is set to 125% or less DPI scaling in Windows. 
+
+You can change this in Windows 10 by doing the following:
+- Search "Display" in the Start Menu, and choose "Change Display Settings." 
+- Select the rectangle representing the monitor you'll be using FormIt on
+- Under "Scale and Layout" section, change the "size of text, apps, and other items" dropdown to 125% or less.
