@@ -8,7 +8,7 @@
 
 | Requirement | Details |
 | --- | ---- |
-| **Operating System** | Microsoft&#xAE; Windows&#xAE; 7 or 10<br><br>**Note: Parallels on Mac OS X is not supported**|
+| **Operating System** | Microsoft&#xAE; Windows&#xAE; 7, 8.1, or 10<br><br>*Note: Parallels on Mac OS X is not supported*|
 |**CPU** |Single- or Multi-Core Intel&#xAE; Pentium&#xAE;, Xeon&#xAE;, or i-Series processor or AMD&#xAE; equivalent with SSE2 technology. Highest affordable CPU speed rating recommended. |
 |**Memory** |4 GB RAM minimum, 8GB or higher recommended. |
 |Video Adapter (GPU) |A discrete NVIDIA or AMD GPU that supports OpenGL 3.2 and DirectX 11 or higher is strongly recommended. For systems with switchable graphics cards, follow manufacturer instructions to force FormIt to always use the dedicated GPU. See instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).|
