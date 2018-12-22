@@ -12,7 +12,7 @@
   * [Collaboration](formit-capabilities/collaboration.md)
   * [Presentation Graphics](formit-capabilities/presentation-graphics.md)
   * [FormIt Plugin API](formit-capabilities/formit-plugin-api.md)
-* [FormIt-Introduction](formit-introduction/README.md)
+* [FormIt Introduction](formit-introduction/README.md)
   * [Frequently Asked Questions](formit-introduction/faq.md)
   * [Prerequisites and Installation](formit-introduction/prerequisites-and-installation.md)
   * [Setting Up the Project](formit-introduction/setting-up-the-project.md)
