@@ -2,7 +2,7 @@
 
 Settings can be accessed from the Menu or Toolbar. All settings are saved once FormIt is closed.
 
-![](/assets/settings_menu.png)
+![](../.gitbook/assets/settings_menu.png)
 
 * **Units**: Change between Imperial and Metric units
 * **Snap to Grid**: Toggle whether drawing and modeling tools snap to the underlying ground-place grid
@@ -14,7 +14,7 @@ Settings can be accessed from the Menu or Toolbar. All settings are saved once F
 
 ## Touch Mode
 
-![](/assets/touch_mode_icon.png)
+![](../.gitbook/assets/touch_mode_icon.png)
 
-Touch Mode allows you to use Windows equipped with touch screens. When on, you can use a single touch and drag to select and interact with drawing, modeling and modification tools. **Note: While in Touch Mode, drawing and modification tools will not work properly with the mouse. **
+Touch Mode allows you to use Windows equipped with touch screens. When on, you can use a single touch and drag to select and interact with drawing, modeling and modification tools. **Note: While in Touch Mode, drawing and modification tools will not work properly with the mouse.** 
 

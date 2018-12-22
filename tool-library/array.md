@@ -4,13 +4,13 @@ To **array edges, faces, or entire objects**, click on the array icon from the c
 
 ## Linear
 
-![](/tool-library/images/array_tool.png)  
-![](images/array properties.PNG)  
-![](images/array step 1.png)
+![](../.gitbook/assets/array_tool.png)  
+![](../.gitbook/assets/array-properties.PNG)  
+![](../.gitbook/assets/array-step-1.png)
 
 ## Radial
 
-![](images/array radial 1.PNG)  
-![](images/array radial 3.PNG)  
-![](images/array radial finish.PNG)
+![](../.gitbook/assets/array-radial-1.PNG)  
+![](../.gitbook/assets/array-radial-3.PNG)  
+![](../.gitbook/assets/array-radial-finish.PNG)
 

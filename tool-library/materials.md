@@ -1,6 +1,6 @@
 # Materials
 
-FormIt has a variety of tools associated with painting, editing, importing, and sending materials to Revit. Learn more about how to use materials [here](/Building-the-Farnsworth-House/Materials.md)
+FormIt has a variety of tools associated with painting, editing, importing, and sending materials to Revit. Learn more about how to use materials [here](../building-the-farnsworth-house/materials.md)
 
 ## Apply Materials
 
@@ -14,7 +14,7 @@ When you single click on a material preview tile in the Materials palette you ar
 
 When you select an object in the scene, the material\(s\) applied to that object are highlighted in the palette
 
-![](/tool-library/images/material_selected.png)
+![](../.gitbook/assets/material_selected.png)
 
 ### Eye Dropper
 
@@ -39,15 +39,15 @@ Beyond the maps you can adjust these advanced parameters to give your materials 
 2. Reflection will reflect a default image that FormIt uses for a background image
 3. Gloss increases the impact of a light shining on your materials that already have reflection applied
 
-![](/tool-library/images/material_edit.png)
+![](../.gitbook/assets/material_edit.png)
 
 ## Purge Unused Materials
 
-Materials can significantly increase the size of your file. If you have materials that are not being used in the scene, you can use the Purge tool - located in the palette toolbar. 
+Materials can significantly increase the size of your file. If you have materials that are not being used in the scene, you can use the Purge tool - located in the palette toolbar.
 
 ## Import Materials
 
-FormIt gives you access to the Autodesk Material Library so that you can import pre made materials to your models. 
+FormIt gives you access to the Autodesk Material Library so that you can import pre made materials to your models.
 
 ## Material translation to Revit
 

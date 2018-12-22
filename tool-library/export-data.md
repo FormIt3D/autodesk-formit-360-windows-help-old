@@ -10,7 +10,7 @@ The following file formats can be imported.
 * **SAT**: SAT solid model files are imported as a single FormIt Group.
 * **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported. 
 
-[**Find out more about how to work with imported data**](/Building-the-Farnsworth-House/Import-Export-and-Content-Library.md)
+[**Find out more about how to work with imported data**](../building-the-farnsworth-house/import-export-and-content-library.md)
 
 ## Exporting Data
 
@@ -18,7 +18,5 @@ FormIt can export the following file formats: AXM \(FormIt file\), FBX, SAT, STL
 
 When exporting individual files you can choose export All objects, those that are visible, or those that are currently selected.
 
-![](/assets/export_data.png)
-
-
+![](../.gitbook/assets/export_data.png)
 

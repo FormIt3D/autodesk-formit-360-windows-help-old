@@ -6,5 +6,5 @@ Levels in FormIt are like Levels in Revit - datums that correspond to Floor heig
 
 When Levels are applied to geometry they will import to Revit - you can then create Mass floors, floor by face, and floor plans associated with the FormIt levels.
 
-[See this page for more](/Building-the-Farnsworth-House/Adding-Floors-with-Levels.md)
+[See this page for more](../building-the-farnsworth-house/adding-floors-with-levels.md)
 

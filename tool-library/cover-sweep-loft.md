@@ -1,51 +1,38 @@
 # Cover, Sweep, Loft
+
 Enclose open edges, make geometry changes along a path of edges, and connect multiple profiles or edges.
 
-### To close a series of faces
+## To close a series of faces
 
-1. Click the cover tool from the action bar. <br>
-![](images/cover tool.png)
+1. Click the cover tool from the action bar.   ![](../.gitbook/assets/cover-tool.png)
+2. Click the edges of the object to cover. ![](../.gitbook/assets/cover-selection.PNG)
+3. Click Finish. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)   ![](../.gitbook/assets/cover-finish.PNG)
 
-2. Click the edges of the object to cover. 
-![](images/cover selection.PNG)
+## To sweep geometry along a path
 
-3. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) <br>
-![](images/cover finish.PNG)
+1. Mark a face of an object that you want to cut. ![](../.gitbook/assets/mark-face.PNG)
+2. Click the sweep tool icon.   ![](../.gitbook/assets/sweep-tool.png)
+3. Select the face you marked earlier. ![](../.gitbook/assets/select-face-for-sweep.PNG)
+4. Select the edge you want to cut.
 
-### To sweep geometry along a path
+   ![](../.gitbook/assets/select-edge-for-sweep.PNG)
 
-1. Mark a face of an object that you want to cut. 
-    ![](images/mark face.PNG)
+5. Click the Finish icon. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png) The original object is modified along the sweep path. ![](../.gitbook/assets/sweep-finish.PNG)
 
-2. Click the sweep tool icon. <br>
-    ![](images/sweep tool.png)
-
-3. Select the face you marked earlier. 
-    ![](images/select face for sweep.PNG)
-
-4. Select the edge you want to cut. 
-    
-    ![](images/select edge for sweep.PNG)
-
-5. Click the Finish icon. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) The original object is modified along the sweep path. 
-    ![](images/sweep finish.PNG)
-	
 Here is video demonstrating Sweep:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uds8lYp3Dkk?rel=0&amp;start=1234" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    
+## To loft multiple profiles or edges
 
-### To loft multiple profiles or edges
+1. Click the Loft icon.   ![](../.gitbook/assets/loft-tool.png)
+2. Click the edges on the first object and click the arrow.
 
-1. Click the Loft icon. <br>
-![](images/loft tool.png)
+   ![](../.gitbook/assets/loft-select-face.PNG)
 
-2. Click the edges on the first object and click the arrow. 
-    
-    ![](images/loft select face.PNG)
-3. Click the edges on the second object. 
-    
-    ![](images/loft select second edge.PNG)
-4. Click Finish. ![](images/GUID-E23D787E-5F90-4DE1-B690-03306F0CB4B2-low.png) 
-    
-    ![](images/loft finish.PNG)
+3. Click the edges on the second object.
+
+   ![](../.gitbook/assets/loft-select-second-edge.PNG)
+
+4. Click Finish. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+
+   ![](../.gitbook/assets/loft-finish.PNG)
+
