@@ -1,22 +1,43 @@
 # Frequently Asked Questions
 
-## What FormIt is and how to get it
+## About FormIt
 
-**What is the difference between Formit, FormIt 360, and FormIt Pro?**
+**What is FormIt and FormIt Pro?**
 
-The "360" in FormIt has been retired."**FormIt**" refers to the entire product. The free versions are on Web and iOS. **FormIt PRO**  refers to a subscription available only if you purchase the Autodesk AEC Industry Collection. The subscription enables some additional features on iOS and Web and also enables you to run the Windows client.
+FormIt is a 3D modeling, visualization, analysis, and computation environment for architectural design. 
 
-**What platforms does FormIt work on?**
+FormIt features:
 
-Windows, Web, and iOS
+* A robust solid modeling engine, with powerful tools and workflows optimized for for building design
+* Enhanced environmental visualization to illustrate design options, including saved model states using Scenes
+* Location and satellite imagery using Google Maps
+* Materials from the Autodesk Material Library
+* Model organization and visibility tools like Groups, Layers, Scenes
+* Analysis tools
+  * Watertight and Back Faces validation for solid model diagnostic and repair
+  * Sun and Shadows
+  * Solar Analysis
+  * Energy Analysis
+* Autodesk product integrations:
+  * A360 Drive
+  * Insight \(Energy Analysis\)
+  * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
+  * [Revit](https://formit.autodesk.com/page/formit-revit)
+* File format support
+  * Open/Import
+    * AXM, DWG, SAT, STL, OBJ, WSM, SketchUp, Image
+  * Export
+    * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-**What happened to the Android version?**
+FormIt is available for free on [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) and [in your browser](https://app.formit.autodesk.com/). A **FormIt Pro** subscription is required for [FormIt for Windows](https://formit.autodesk.com/page/download), the most powerful and feature-rich FormIt. The subscription also enables additional features on iOS and Web, like Solar and Energy Analysis. **FormIt Pro** is included in the [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
 
-In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app. If you have it installed, it will continue to run. However, you will no longer be able to install it from the Play Store as of January 30, 2018. Any files you saved to Autodesk 360 Drive from the Android app are still available. You can access them using any of the current apps, including the free Web version.
+**What happened to FormIt for Android?**
+
+In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app. If you have it installed, it will continue to run, but it is no longer available from the Play Store.
 
 **How do I get FormIt?**
 
-To run the Windows version, you must have access to FormIt Pro, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can [download it directly from our website](https://formit.autodesk.com/page/download) or from the Autodesk Desktop App.
+To run the Windows version, you must have access to **FormIt Pro**, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can [download it directly from our website](https://formit.autodesk.com/page/download) or from the Autodesk Desktop App.
 
 The Web version can be run directly for free from our website: [http://formit.autodesk.com](http://formit.autodesk.com)
 
