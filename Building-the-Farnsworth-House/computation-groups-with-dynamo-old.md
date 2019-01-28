@@ -58,3 +58,5 @@ If you did not complete the last section, download and open the **farnsworth06.a
 5. Create a new **layer** called **stairs** and put both stairs on that layer
 6. Paint both of the **stair** groups with the material **Travertine** to match the floors
 
+   ![](../.gitbook/assets/upperterracesketch_28.png)
+
