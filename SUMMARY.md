@@ -30,7 +30,7 @@
   * [Create Columns with Array](building-the-farnsworth-house/creating-columns-with-array.md)
   * [Adding Details](building-the-farnsworth-house/adding-details.md)
   * [Advanced Modeling](building-the-farnsworth-house/advanced-modeling.md)
-  * [Computational Groups with Dynamo](building-the-farnsworth-house/computation-groups-with-dynamo.md)
+  * [Computational Groups with Dynamo](building-the-farnsworth-house/computational-design-with-dynamo.md)
   * [Import Models with Content Library](building-the-farnsworth-house/import-export-and-content-library.md)
   * [Solar and Energy Analysis](building-the-farnsworth-house/solar-and-energy-analysis.md)
   * [Working with Revit](building-the-farnsworth-house/revit-interop.md)
@@ -85,5 +85,4 @@
   * [World Axes](tool-library/world-axes.md)
 * [Appendix](appendix/README.md)
   * [Keyboard Shortcuts](appendix/keyboard-shortcuts.md)
-  * [test](appendix/test.md)
 
