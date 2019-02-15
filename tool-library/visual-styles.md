@@ -6,11 +6,15 @@ Learn more about how to use Visual Styles [**here**](../building-the-farnsworth-
 
 ## Surfaces
 
-Toggle on shadows from sun direction, ambient shadows and Monotone mode - which turns the entire scene black and white
+Lighten or darken all materials using the **Ambient Brightness** control.
 
-Manage the default colors of faces, lines and the poche’ effect when the[ Section Plane](section-planes.md) tool is used
+Control how much lighting from the sun affects materials with **Ambient Contrast**. A value of 0 means that lighting has no effect, whereas 100 will lighting effects more pronounced.
 
-![](../.gitbook/assets/visual_styles01.png)
+Toggle on shadows from sun direction; you can use the **Shadow Intensity** slider to determine how visible shadows will be. **Ambient shadows** and **Monotone** mode - which turns the entire scene black and white - can also be toggled on and off.
+
+Manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used
+
+![](../.gitbook/assets/screenshot-2019-02-15-at-11.41.54-am.png)
 
 ## Edges
 
@@ -20,9 +24,11 @@ Manage the display of edges and silhouettes
 
 ## Environment
 
-Toggle display of environment visual settings
+Toggle display of environment visual settings such as the **Grid**, **Axes**, [**Levels**](levels-and-area.md), **Fog**, and **North Arrow**.
 
-![](../.gitbook/assets/visual_styles03.png)
+The sky colors are comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. Only the **Lower / Background** color is visible when the **Sky** is not drawn \(unchecked\).
+
+![](../.gitbook/assets/screenshot-2019-02-15-at-11.53.54-am.png)
 
 ## Diagnostics
 
