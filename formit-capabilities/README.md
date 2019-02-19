@@ -4,7 +4,7 @@
 
 ## FormIt Capabilities
 
-Discover how to create conceptual building designs while initiating a BIM workflow.
+Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
 
-Use Autodesk ® FormIt ® to capture building design concepts when ideas occur. Create those ideas in a portable digital format that can use real-world site information, such as satellite images, to orient your designs. Use real building and environmental data to support design brainstorming. Move your preliminary designs to centralized data storage for access and refinement in Autodesk ® Revit ® software or other applications.
+Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
 
