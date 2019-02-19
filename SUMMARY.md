@@ -4,7 +4,7 @@
 * [What's New](https://formit.autodesk.com/page/release-notes#release-notes-windows)
 * [FormIt Capabilities](formit-capabilities/README.md)
   * [Multiple Clients](formit-capabilities/multiple-clients.md)
-  * [Conceptual Modeling](formit-capabilities/conceptual-modeling.md)
+  * [Conceptual Solid Modeling](formit-capabilities/conceptual-modeling.md)
   * [Computational Design with Dynamo](formit-capabilities/computational-design-with-dynamo.md)
   * [Analysis](formit-capabilities/analysis.md)
   * [Revit Interop](formit-capabilities/revit-interop.md)
