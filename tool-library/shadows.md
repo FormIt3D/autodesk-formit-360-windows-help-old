@@ -1,10 +1,20 @@
-# Shadows
+# Sun + Shadows
 
-This feature allows you to accurately study the effects of the sun path on your project. You will be able to predict how context will effect your project and vise versa.
+Study the effects of the sun's path on your projects.
 
-The first step for accurate shadows studies is to [**set your project location**](setting-location.md). Once you have set your location and imported the scaled image; model your project, context, and trees. For quick studies try using the [**Content Library Palatte**](../formit-introduction/tool-bars.md) to bring existing context models.
+The first step for accurate shadow studies is to [**set your project location**](setting-location.md). 
 
-* Next step is to make sure you have shadows turned on. This can be found in the [**Visual Styles Palette**](../formit-introduction/tool-bars.md). ![](../.gitbook/assets/shadows-1.png)
-* Click the _Sun and Shadows Button_ in the [**Action Tool Bar**](../formit-introduction/tool-bars.md). This will give you a box that allows you to adjust date and time. ![](../.gitbook/assets/shadows-2.png)
-* You can then export screen shots of your studies for presentation and even animate them with the use of scenes. ![](../.gitbook/assets/shadows-3.png)
+Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+
+Turn shadows on:
+
+This can also be found in [**Visual Styles**](../formit-introduction/tool-bars.md).
+
+From here, you can adjust the time of day and day of year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+
+You can also toggle the Sun Editor, which provides a graphical display of the sun's location in space:
+
+The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
+
+
 

@@ -74,7 +74,7 @@
   * [Section Planes](tool-library/section-planes.md)
   * [Selection](tool-library/select-edge-face-or-object.md)
   * [Setting Location](tool-library/setting-location.md)
-  * [Shadows](tool-library/shadows.md)
+  * [Sun + Shadows](tool-library/shadows.md)
   * [Shell](tool-library/shell.md)
   * [Snaps and Inferences](tool-library/snaps-and-inferences.md)
   * [Solar Analysis](tool-library/solar-analysis.md)
