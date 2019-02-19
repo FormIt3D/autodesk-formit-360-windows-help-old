@@ -18,23 +18,55 @@ Toggle **Shadows** to see how your design would be [shaded at the current time o
 
 **Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
 
+The Surface Colors section defines default colors for faces when no material is applied.
+
+**Faces** is the default color of all front-facing FormIt faces \(or both sides, if Back Faces is unchecked\).
+
+**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported.
+
 Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
 
-![](../.gitbook/assets/screenshot-2019-02-15-at-11.41.54-am.png)
+![](../.gitbook/assets/surfaces.PNG)
 
 ## Edges
 
-Manage the display of edges and silhouettes
+Manage the display style of edges.
 
-![](../.gitbook/assets/visual_styles02.png)
+**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+
+**Color** affects the color of all edges in the model. The default is black.
+
+**Thick Edges** make all edges thicker, including Silhouette Edges.
+
+**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+
+**Hidden Edges** displays edges otherwise occluded by surfaces.
+
+**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+
+![](../.gitbook/assets/edges.PNG)
 
 ## Environment
 
-Toggle display of environment visual settings such as the **Grid**, **Axes**, [**Levels**](levels-and-area.md), **Fog**, and **North Arrow**.
+Toggle display of environmental effects and objects.
 
-The sky colors are comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. Only the **Lower / Background** color is visible when the **Sky** is unchecked.
+**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
 
-![](../.gitbook/assets/screenshot-2019-02-15-at-11.53.54-am.png)
+**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+
+**Levels** controls the display of [**Levels**](levels-and-area.md) ****set in the Levels Panel.
+
+**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane \(if enabled\) meets the sky.
+
+**North Arrow** controls the display of a small graphical widget that indicates the direction of project north \(as determined by location and satellite imagery\).
+
+Environmental colors like sky, background, and ground plane can also be customized.
+
+The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. 
+
+If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+
+![](../.gitbook/assets/environment.PNG)
 
 ## Diagnostics
 
@@ -46,5 +78,5 @@ Toggle the display of diagnostic tools.
 
 [Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://www.youtube.com/watch?v=XFL-b1DgZiQ).
 
-![](../.gitbook/assets/visual_styles04.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
