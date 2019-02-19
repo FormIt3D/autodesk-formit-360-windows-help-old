@@ -62,6 +62,7 @@
   * [Materials](tool-library/materials.md)
   * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Measure](tool-library/measure-tool.md)
+  * [Meshes](tool-library/meshes.md)
   * [Mirror](tool-library/mirror.md)
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Move Object](tool-library/move-object.md)
