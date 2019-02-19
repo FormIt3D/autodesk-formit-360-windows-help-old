@@ -6,7 +6,7 @@ Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/bu
 
 ## Surfaces
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
 
 **Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect \(all materials will appear at their full brightness regardless of orientation\), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
 
@@ -14,15 +14,15 @@ Toggle **Shadows** to see how your design would be [shaded at the current time o
 
 **Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
 
-**Ambient Shadows** add a touch of shading to corners to add a touch of realism to your FormIt model. 
+**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model. 
 
 **Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
 
 The Surface Colors section defines default colors for faces when no material is applied.
 
-**Faces** is the default color of all front-facing FormIt faces \(or both sides, if Back Faces is unchecked\).
+**Faces** is the default color of all front-facing FormIt faces \(or both sides, if Back Faces is unchecked\) when no material is applied.
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported.
+**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
 
 Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
 
