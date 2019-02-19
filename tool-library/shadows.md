@@ -12,7 +12,7 @@ Turn shadows on in the Sun + Shadows flyout at the top of the application \(this
 
 From here, you can adjust the time of day and day of year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
 
-You can also toggle the Sun Editor, which provides a graphical display of the sun's location in space:
+You can also toggle the Sun Editor from this panel \(or use shortcut DR\), which provides a graphical display of the sun's location in space:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
