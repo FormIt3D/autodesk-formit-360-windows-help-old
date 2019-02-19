@@ -26,7 +26,7 @@ Manage the display of edges and silhouettes
 
 Toggle display of environment visual settings such as the **Grid**, **Axes**, [**Levels**](levels-and-area.md), **Fog**, and **North Arrow**.
 
-The sky colors are comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. Only the **Lower / Background** color is visible when the **Sky** is not drawn \(unchecked\).
+The sky colors are comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. Only the **Lower / Background** color is visible when the **Sky** is unchecked.
 
 ![](../.gitbook/assets/screenshot-2019-02-15-at-11.53.54-am.png)
 
