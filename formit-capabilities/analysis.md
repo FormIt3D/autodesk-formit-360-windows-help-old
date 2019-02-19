@@ -4,7 +4,7 @@ Start a BIM workflow by evaluating the performance of elements from the beginnin
 
 ## Solar Analysis
 
-With a  **FormIt Pro subscription**  you have can visualize the sun's impact on your building:
+With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), ****you have can visualize the sun's impact on your building:
 
 * Specify relevant faces to be analyzed for solar impact
 * Visualize results in seconds within the app canvas
@@ -14,7 +14,7 @@ With a  **FormIt Pro subscription**  you have can visualize the sun's impact on 
 
 ## Energy Analysis with Insight
 
-With a  **FormIt Pro subscription**  you have access to Energy Analysis with **Insight:**
+With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), you have access to Energy Analysis with **Insight:**
 
 * Analyze early stage design models with Green Building Studio's analysis engine
 * Connect to a dashboard view of your results of your design, and compare options
