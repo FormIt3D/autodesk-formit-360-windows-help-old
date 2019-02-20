@@ -67,6 +67,7 @@
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Move Object](tool-library/move-object.md)
   * [Non-Uniform Scale](tool-library/non-uniform-scale.md)
+  * [Orthographic Views](tool-library/orthographic-views.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
   * [Rectangle](tool-library/rectangle-tool.md)
   * [Revit](tool-library/revit.md)
