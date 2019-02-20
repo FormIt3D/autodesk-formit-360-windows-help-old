@@ -1,12 +1,12 @@
 # Non-Uniform Scale
 
-Use Non-Uniform Scale to distort objects along 1, 2, or 3 axes.
+**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
 
 Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using shortcut NU or from the Context Menu:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously. 
+**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.** 
 
 For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
 
