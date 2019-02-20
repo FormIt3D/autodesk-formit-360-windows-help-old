@@ -16,25 +16,25 @@ Once you click a grip, you'll see a series of editable text boxes where you can 
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-Once the dimension boxes are visible, you can:
+**Once the dimension boxes are visible, you can:**
 
 * Start typing a number to automatically edit the percentage box and specify a scale factor.
   * Entering a negative number will reverse the direction of the scale.
-* Or click to set the grip location, then click the box containing the dimension to scale by distance.
+* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
 * Click off into space or hit ESC to finish the Non-Uniform Scale operation.
 
-Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:
+**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
 
 * Start typing a number to edit the percentage value.
-* Or click to set the grip location, then click one of the two dimension boxes to scale by distance.
+* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
 * Click off into space or hit ESC to finish the Non-Uniform Scale operation.
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:
+**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
 
 * Start typing a number to edit the percentage value.
-* Or click to set the grip location, then click one of the three dimension boxes to scale by distance.
+* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
 * Click off into space or hit ESC to finish the Non-Uniform Scale operation.
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
