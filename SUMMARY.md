@@ -66,6 +66,7 @@
   * [Mirror](tool-library/mirror.md)
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Move Object](tool-library/move-object.md)
+  * [Non-Uniform Scale](tool-library/non-uniform-scale.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
   * [Rectangle](tool-library/rectangle-tool.md)
   * [Revit](tool-library/revit.md)
