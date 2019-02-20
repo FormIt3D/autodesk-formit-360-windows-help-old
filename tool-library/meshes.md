@@ -8,7 +8,7 @@ Objects can be converted to Meshes, and Meshes can be converted back to Objects 
 
 ### Converting Objects to Meshes
 
-Any combination of edges, faces, or solid bodies can be converted to Meshes. 
+Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
 
 Simply select Objects, and either use shortcut OM \(Objects to Meshes\) or right-click and select Objects to Meshes in the Context Menu:
 
@@ -24,6 +24,8 @@ Once the Objects have been converted to Meshes, you'll see a confirmation messag
 * Material orientations on the Objects will remain unchanged in the resulting Meshes.
 * A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
   * Converting back to an Object will re-seal the individual meshes back into a solid body.
+* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
+* Converting a set of edges or vertices will create a single Linemesh \(a mesh made of edges\) or a single Pointmesh \(a mesh made of points\), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
 
 **Converting Grouped geometry to Meshes:**
 
@@ -41,7 +43,7 @@ Once the Objects have been converted to Meshes, you'll see a confirmation messag
 
 ### Interacting With Meshes
 
-Because of their lightweight nature, Meshes have certain limitations and behaviors:
+**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
 
 * You won't be able to edit the individual faces, edges, or vertices of a Mesh.
   * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces \(see above\).
@@ -54,11 +56,16 @@ Because of their lightweight nature, Meshes have certain limitations and behavio
 
 Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
 
-You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:
+**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
+
+**Some file types are automatically imported as Meshes to improve performance:**
+
+* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
+* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
 
 ### Converting Meshes Back to Objects
 
@@ -70,11 +77,14 @@ Once the objects have been converted to Meshes, you'll see a confirmation messag
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes to Objects:**
+**When converting Meshes back to Objects:**
 
 * Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
+* Converting a series of edges \(for example from a DWG file\) or a series of vertices \(for example from a pointcloud\) to a Mesh and back will automatically put the unmeshed Objects into a Group.
+  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
+  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
 
 **Converting Grouped Meshes back to Objects:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin.
+* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects..
 
