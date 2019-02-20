@@ -14,7 +14,7 @@ Simply select Objects, and either use shortcut OM \(Objects to Meshes\) or right
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
@@ -35,7 +35,9 @@ Once the objects have been converted to Meshes, you'll see a confirmation messag
     * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG) 
   * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
     * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG) 
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation. 
+  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+
+![](../.gitbook/assets/success_mesh-all.PNG)
 
 ### Interacting With Meshes
 
@@ -43,13 +45,36 @@ Because of their lightweight nature, Meshes have certain limitations and behavio
 
 * You won't be able to edit the individual faces, edges, or vertices of a Mesh.
   * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces \(see above\).
-* Snapping to Meshes is limited to the "faces" that comprise the mesh.
-  * You won't be able to snap to edges or vertices of a Mesh
+* Snapping to Meshes is limited to the "faces" that comprise the Mesh - you won't be able to snap to edges or vertices of a Mesh
   * However, DWG files converted to Meshes \(a different type of mesh known as a Linemesh\) will retain the ability to snap to edges and vertices.
 * Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.
+* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not. 
+  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
+* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+
+Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+
+You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:
+
+![](../.gitbook/assets/snap_on-mesh.PNG)
+
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
 ### Converting Meshes Back to Objects
 
 Simply select Meshes, and either use shortcut MO \(Meshes to Objects\) or right-click and select Meshes to Objects in the Context Menu:
+
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
+
+Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+
+![](../.gitbook/assets/success_mesh-to-object.PNG)
+
+**When converting Meshes to Objects:**
+
+* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
+
+**Converting Grouped Meshes back to Objects:**
+
+* See the instructions above to use the Mesh + Unmesh All plugin.
 
