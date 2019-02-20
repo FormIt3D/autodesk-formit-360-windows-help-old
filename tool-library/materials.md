@@ -1,8 +1,25 @@
 # Materials
 
-FormIt has a variety of tools associated with painting, editing, importing, and sending materials to Revit. Learn more about how to use materials [here](../building-the-farnsworth-house/materials.md)
+Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
 
-## Apply Materials
+## The Materials Panel
+
+![](../.gitbook/assets/materials-panel.PNG)
+
+### Create, Import, and Delete
+
+![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss.
+
+![](../.gitbook/assets/materials_import.PNG) **Import a Material** from the Autodesk Materials Library.
+
+![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\)
+
+### Eyedropper
+
+Use the Eyedropper to sample an existing Material painted in the scene, and immediately start painting with it. 
+
+* Click the Eyedropper tool, then click a face painted with a material
+* The Material you sampled will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
 
 When you single click on a material preview tile in the Materials palette you are placed into the paint brush tool. Now you can apply materials to geometry in the model
 
