@@ -6,7 +6,7 @@ Make your FormIt models pop with Materials that support reflection, gloss, and b
 
 ![](../.gitbook/assets/materials-panel.PNG)
 
-### Create, Import, and Delete
+### Create, Import, and Delete Materials
 
 ![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss.
 
@@ -16,57 +16,90 @@ Make your FormIt models pop with Materials that support reflection, gloss, and b
 
 ### Eyedropper
 
-Use the Eyedropper to sample an existing Material painted in the scene, and immediately start painting with it. 
+![](../.gitbook/assets/materials_eyedropper.PNG) 
 
-* Click the Eyedropper tool, then click a face painted with a material
-* The Material you sampled will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
+Use the Eyedropper to sample a Material painted in the scene, and immediately start painting with it. 
 
-When you single click on a material preview tile in the Materials palette you are placed into the paint brush tool. Now you can apply materials to geometry in the model
+* Click the Eyedropper tool, then click a face painted with a Material
+* The Material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
 
-1. Paint faces of geometry by single clicking on them
-2. Paint solids by double clicking on them to paint all faces at once
-3. If you have groups in your model - you need to edit the group that has geometry you want to paint
-4. You can paint groups in FormIt. When you single click on a group, this will apply a material to each face of the group that doesn't already have a material. Consider this a material override
-5. In order to 'remove' paint from any of the above elements - you can choose to paint with the 'default' material
+### Purge Unused
 
-When you select an object in the scene, the material\(s\) applied to that object are highlighted in the palette
+![](../.gitbook/assets/materials_purge-all.PNG) 
+
+Unused Materials can accumulate naturally through the process of iteration, but they can add significantly to the file size if they use high-quality textures.
+
+Click the Purge Unused tool to delete all unused Materials. You'll see a prompt first, so you can cancel if you have second thoughts.
+
+### List Management
+
+Adjust the size of the thumbnails by adjusting the width of the column \(click and drag the vertical line to the right of "Material"\).
+
+Filter for specific Materials by typing in the "Filter..." bar.
+
+### Material Interactions
+
+**Paint a Material** by single-clicking clicking the thumbnail. You'll be placed into the Paintbrush tool, where you can now hover over geometry in the FormIt canvas and click faces or Groups to paint them.
+
+Once you're in the Paintbrush tool:
+
+* Paint faces and Groups by single clicking.
+  * When painting Groups, the Material will cascade into the nested geometry and will cover any surface or Group painted with the Default Material.
+* Paint entire solids by double-clicking a face to select everything attached.
+
+You can also select faces and Groups first, then single-click a Material thumbnail to paint the selection with that Material.
+
+**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor \(see below\).
+
+**Rename a Material** by double-clicking the name.
+
+**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material\(s\) are painted on the selected geometry.
 
 ![](../.gitbook/assets/material_selected.png)
 
-### Eye Dropper
-
-You can use the Eye Dropper tool to select an existing material in the scene. The material is immediately selected and ready to be painted onto other surfaces in the model.
+**The Default Material** can be used to effectively "clear" a face or a Group of any Materials. Any geometry not painted with a Material is implicitly painted with the Default Material.
 
 ## Create and Edit Materials
 
-Hit the "+" icon to create a new material. You can double click the material name in the palette to rename it
+![](../.gitbook/assets/material_create-dialog.PNG)
 
-When you create a material you are put into the Material Editor dialog where you can specify material properties. Once a material is created and the editor is close, you can edit the material again by double clicking the preview tile in the palette.
+  
+When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
 
-1. Specify a color \(or tint\) that shades the material surface
-2. Choose an image file texture to give a realistic appearance to surfaces
-3. Bump maps \(derived from a texture\) can be added to the material to give 3d relief to a surface
-4. Cut out maps can be added to give a transparent pattern to surfaces like a chain link fence or perforated panel
+* **Color**
+* **Texture from an image file**
+  * JPG or PNG
+* **Bump map from an image file**
+  * JPG recommended
+  * Great for adding depth effects to Materials.
+  * You can use freeware like Shaderforge to generate bump maps given a texture.
+* **Cutout map from an image file**
+  * PNG
+  * Great for Materials that have selective transparency, like chainlink fences or perforated panels. 
+* **Name**
+* **Horizontal and Vertical Scale**
+  * Stretch a Material by adjusting horizontal scale independently from vertical scale.
+  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool \(see below\).
+* **Transparency**, **Reflection**, and **Gloss**
 
-The Vertical and Horizontal scale parameters give you an opportunity to scale up the texture size
+## Adjusting Material Placement
 
-Beyond the maps you can adjust these advanced parameters to give your materials a more dynamic appearance in the canvas
+When painting a Material on a face, FormIt takes a best guess as to the best orientation:
 
-1. Transparency is a slider which simulates glass
-2. Reflection will reflect a default image that FormIt uses for a background image
-3. Gloss increases the impact of a light shining on your materials that already have reflection applied
+* Vertical faces will orient with the texture's top oriented along the Z axis.
+* Horizontal faces will orient the texture lengthwise along the longest side of the face.
 
-![](../.gitbook/assets/material_edit.png)
+Use the **Adjust Material Placement** tool to override the default Material placement, as well as the Material's scale on specific faces:
 
-## Purge Unused Materials
+* Select a face or faces painted with a Material
+  * If the face is inheriting its Material from its parent Group, you'll need to paint the face directly first.
+* Access the Adjust Material Placement dialog through the shortcut MP or from the right-click context menu:
 
-Materials can significantly increase the size of your file. If you have materials that are not being used in the scene, you can use the Purge tool - located in the palette toolbar.
+![](../.gitbook/assets/adjust-material-placement.PNG)
 
-## Import Materials
+The Adjust Material Placement dialog will display, and it can modify any selected faces
 
-FormIt gives you access to the Autodesk Material Library so that you can import pre made materials to your models.
+## Material Translation to Revit
 
-## Material translation to Revit
-
-When you take the time to create and apply a material texture in FormIt - your geometry will maintain this material when importing to Revit. This gives you an incredibly fast transition between conceptual and detailed design phases of projects. You can also render, create presentation elevation views, and utilize other visualization Add-Ins in Revit.
+Materials will transfer to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) for Revit 2018 or later.
 
