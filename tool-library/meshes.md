@@ -4,7 +4,7 @@ Starting in v17.0, FormIt offers a new type of geometry: Meshes.
 
 Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance. 
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
 
 ### Converting Objects to Meshes
 
@@ -86,5 +86,5 @@ Once the objects have been converted to Meshes, you'll see a confirmation messag
 
 **Converting Grouped Meshes back to Objects:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects..
+* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
 
