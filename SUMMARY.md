@@ -40,6 +40,7 @@
 * [Tool Library](tool-library/README.md)
   * [Arc](tool-library/arc-tool.md)
   * [Array](tool-library/array.md)
+  * [AutoSave](tool-library/autosave.md)
   * [Boolean Cut](tool-library/boolean-cut-and-join.md)
   * [Boolean Join](tool-library/join.md)
   * [Circle](tool-library/circle-tool.md)
