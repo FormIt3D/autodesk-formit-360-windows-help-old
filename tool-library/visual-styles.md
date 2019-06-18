@@ -76,7 +76,7 @@ Toggle the display of diagnostic tools.
 
 **Back Faces** highlights in red all faces that are facing the wrong way \(all solid objects should have the back faces facing towards the inside of the solid shape\).
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://www.youtube.com/watch?v=XFL-b1DgZiQ).
+[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
