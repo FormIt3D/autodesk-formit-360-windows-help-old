@@ -2,13 +2,13 @@
 
 Use your mouse or touchscreen to easily navigate in and around your FormIt models:
 
-* **Orbit** by right-clicking and dragging the mouse. This will use a point in 3D space about which to orbit the camera.
+* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
   * You can also hold Shift to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
+* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
   * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking a point on the screen and dragging the mouse.
+* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
 
-You can also use the floating navigation toolbar to go into specific view presets or modes. Shortcuts noted in parentheses.
+You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts noted in parentheses.
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: click to reveal a flyout of available [orthographic views](../tool-library/orthographic-views.md).
 
