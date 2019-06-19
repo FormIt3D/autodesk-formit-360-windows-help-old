@@ -2,7 +2,7 @@
 
 In this section we will leverage the computational power of [Dynamo](http://dynamobim.org/) to place and modify flexible groups.
 
-If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](./#prerequisites-for-this-turorial).
 
 ## Place and Modify Dynamo Content
 
@@ -10,18 +10,14 @@ If you did not complete the last section, download and open the **farnsworth06.a
 
    ![](../.gitbook/assets/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
-2. Click the **+** icon to **add Dynamo content** from a URL
-3. Paste the following URL into the dialog [https://www.dynamoreach.com/share/5780fb888794379c4b65b941](https://www.dynamoreach.com/share/5780fb888794379c4b65b941). This will refresh the Dynamo panel to include a **Simple Stair tool**
-
-   ![](../.gitbook/assets/simplestair.png)
-
-4. Single click the **Simple Stair**. FormIt will load the Dynamo graph, this will take a few seconds
-5. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair. Click **Esc** to clear the selection
+2. You should see a few built-in Dynamo objects in the Dynamo Samples directory
+3. Single click the **Stairs** Dynamo sample. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
+4. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair. Click **Esc** to clear the selection
 
    ![](../.gitbook/assets/7f47eb16-9bde-4a17-bf63-898774c31338.png)
 
-6. Edit the Simple Stair group, just like you would a normal group, by **double clicking** into it
-7. The [**Properties Palette**](../formit-introduction/tool-bars.md) automatically toggles to view the stair's parameters. Modify the settings so they are the same as the picture below
+5. Edit the Simple Stair group, just like you would a normal group, by **double clicking** into it
+6. The [**Properties Palette**](../formit-introduction/tool-bars.md) automatically toggles to view the stair's parameters. Modify the settings so they are the same as the picture below
 
    ![](../.gitbook/assets/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
 
