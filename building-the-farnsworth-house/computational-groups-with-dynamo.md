@@ -11,15 +11,15 @@ If you did not complete the last section, download and open the **farnsworth06.a
    ![](../.gitbook/assets/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
 2. You should see a few built-in Dynamo objects in the Dynamo Samples directory
-3. Single click the **Stairs** Dynamo sample. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
+3. Single click the **Stairs** Dynamo sample. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.  ![](../.gitbook/assets/20190618-dynamo-stairs.png) 
 4. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair. Click **Esc** to clear the selection
 
    ![](../.gitbook/assets/7f47eb16-9bde-4a17-bf63-898774c31338.png)
 
 5. Edit the Simple Stair group, just like you would a normal group, by **double clicking** into it
-6. The [**Properties Palette**](../formit-introduction/tool-bars.md) automatically toggles to view the stair's parameters. Modify the settings so they are the same as the picture below
+6. The [**Properties Palette**](../formit-introduction/tool-bars.md) automatically toggles to view the stair's parameters. Modify the settings so they are the same as below \(you might see more settings than this\):
 
-   ![](../.gitbook/assets/c068120a-7b4b-4816-ba48-8f7a8066262c.png)
+   ![](../.gitbook/assets/20190618-dynamo-stair-params.png) 
 
 ## Locate the Stair Group
 
