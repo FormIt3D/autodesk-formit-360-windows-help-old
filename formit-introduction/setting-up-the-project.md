@@ -25,5 +25,17 @@ Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md
 * Preselection Highlight
   * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4). 
 
+## Touch Mode
 
+![](../.gitbook/assets/20190619-touch-mode-off.png)
+
+If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
+
+When Touch Mode is on, FormIt calibrates its navigation and modification tools to work with a touch interface, so using FormIt with a mouse/keyboard while Touch Mode is on is not recommended. 
+
+When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
+
+![](../.gitbook/assets/20190619-touch-mode-on.png)
+
+![](../.gitbook/assets/20190618-touch-mode-banner.png)
 

@@ -4,5 +4,7 @@
 
 ## Introduction to FormIt
 
-In this section you will learn the general format of FormIt and basic tools for modeling. Let's start our journey with FormIt by setting some context - how do I begin a project and navigate through the program?
+Learn some of the basics about FormIt - what it can do, where you can get it, and how you can customize it. 
+
+If you're done with the initial setup and ready to learn how to use it, check out the [FormIt Primer](../building-the-farnsworth-house/).
 
