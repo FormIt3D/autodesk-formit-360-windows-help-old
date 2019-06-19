@@ -1,12 +1,20 @@
 # Navigating the Scene
 
-Here are the key tools on the Navigation Tool Bar for moving around the design area. The keyboard shortcut is in \(parentheses\)
+Use your mouse or touchscreen to easily navigate in and around your FormIt models:
 
-![](../.gitbook/assets/plan_view.png) Top **View \(Z T\)** Navigates to a orthographic plan view
+* **Orbit** by right-clicking and dragging the mouse. This will use a point in 3D space about which to orbit the camera.
+  * You can also hold Shift to Pan.
+* **Zoom** in and out by scrolling the mouse wheel up and down. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
+  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
+* **Pan** by middle-clicking a point on the screen and dragging the mouse.
 
-![](../.gitbook/assets/default_3d.png) **Default 3D View \(Z D\)** Navigates to the default 3D view
+You can also use the floating navigation toolbar to go into specific view presets or modes. Shortcuts noted in parentheses.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough \(F T\)**  The “Jetpack” mode allows you to walk through the scene using keyboard inputs AWSD, then move up or down with Q and E - and even fly with the space bar
+![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: click to reveal a flyout of available [orthographic views](../tool-library/orthographic-views.md).
+
+![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View \(ZD\)** Navigates to the default 3D view
+
+![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\)**  The “Jetpack” mode allows you to walk through the scene using keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use spacebar to fly
 
 ![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\)**  Click drag the left mouse button to orbit the model view. You can also do this at any time by right click and drag.
 
@@ -16,7 +24,7 @@ Here are the key tools on the Navigation Tool Bar for moving around the design a
 
 ![](../.gitbook/assets/zoom.png) **Zoom \(Z\)** Scroll the mouse wheel or use the zoom tool from the navigation toolbar to click drag the left mouse button to zoom
 
-![](../.gitbook/assets/zoom_all.png) **Zoom All \(Z E\)** Zoom to fit all of the scene into the current view
+![](../.gitbook/assets/zoom_all.png) **Zoom All \(ZE\)** Zoom to fit all of the scene into the current view
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom Selection \(Z S\)** Zoom to fit all of the currently selected object\(s\) into the current view
+![](../.gitbook/assets/zoom_selection.png) **Zoom Selection \(ZS\)** Zoom to fit all of the currently selected object\(s\) into the current view
 
