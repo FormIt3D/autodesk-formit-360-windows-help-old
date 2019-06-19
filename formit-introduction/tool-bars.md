@@ -1,14 +1,10 @@
-# Tool Bars and Palettes
+# Toolbars and Palettes
 
-FormIt has a simple icon based interface, with only a few user interfacve components to learn
+## Toolbars
 
-## Tool Bars
-
-The Standard toolbar is split into the following sections. You can optionally enable, disable and arrange individual sections using the Window menu.
+The Standard toolbar is enabled by default, but is split into the following sections. You can optionally enable, disable and arrange individual sections using the Window menu.
 
 ### File
-
-The File Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share your design
 
 ![](../.gitbook/assets/file_tools.png)
 
@@ -48,8 +44,6 @@ The File Tool Bar is found at the top of the screen. The tools here will help yo
 
 ## Palette
 
-The Palette Tabs are found at the right side of the screen. The tools here will help you manipulate and organize the elements you've created in the model
-
 ![](../.gitbook/assets/palette01_properties.png) **Properties**
 
 ![](../.gitbook/assets/palette02_materials.png) [**Materials**](../tool-library/materials.md)
@@ -72,13 +66,13 @@ The Palette Tabs are found at the right side of the screen. The tools here will 
 
 ## Context Menu
 
-The Context Menu is a circular menu with options to edit the selected element. You invoke it by right-clicking.The context menu will show you different tools depending on what you have selected.
+Right-click an element in the 3D canvas to bring up a menu of commands and modifications you can take on that type of geometry. Hover over the icons to see their names.
 
 ![](../.gitbook/assets/contextmenu_intro.png)
 
 ## Keyboard Shortcuts
 
-The [**Keyboard shortcuts**](../appendix/keyboard-shortcuts.md) in FormIt are accessible via the Edit menu, preferences... and can be customized
+Customize your [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in FormIt in Edit &gt; Preferences &gt; Shortcuts.
 
 ![](../.gitbook/assets/keyboardshortcuts.png)
 

@@ -16,7 +16,7 @@
   * [Frequently Asked Questions](formit-introduction/faq.md)
   * [Prerequisites and Installation](formit-introduction/prerequisites-and-installation.md)
   * [Setting Up the Project](formit-introduction/setting-up-the-project.md)
-  * [Tool Bars and Palettes](formit-introduction/tool-bars.md)
+  * [Toolbars and Palettes](formit-introduction/tool-bars.md)
   * [Navigating the Scene](formit-introduction/navigating-the-scene.md)
   * [Settings](formit-introduction/settings.md)
 * [FormIt Primer](building-the-farnsworth-house/README.md)
