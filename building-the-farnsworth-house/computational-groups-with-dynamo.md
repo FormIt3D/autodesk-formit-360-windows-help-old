@@ -11,7 +11,7 @@ If you did not complete the last section, download and open the **farnsworth06.a
    ![](../.gitbook/assets/99a4e906-2dd3-4a71-bcc9-578018dc5fb8.png)
 
 2. You should see a few built-in Dynamo objects in the Dynamo Samples directory
-3. Single click the **Stairs** Dynamo sample. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.  ![](../.gitbook/assets/20190618-dynamo-stairs.png) 
+3. Single click the **Stairs** Dynamo sample. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.   ![](../.gitbook/assets/20190618-dynamo-stairs.png)  Note that [you can also link local directories](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) containing Dynamo graphs, and run your own local Dynamo graphs just like these samples.
 4. Once the stair is loaded, move your cursor over the canvas, near the terrace. Click to place the stair. Click **Esc** to clear the selection
 
    ![](../.gitbook/assets/7f47eb16-9bde-4a17-bf63-898774c31338.png)
