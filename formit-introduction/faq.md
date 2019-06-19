@@ -19,7 +19,7 @@ FormIt features:
   * Solar Analysis
   * Energy Analysis
 * Autodesk product integrations:
-  * A360 Drive
+  * BIM 360 Docs
   * Insight \(Energy Analysis\)
   * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
   * [Revit](https://formit.autodesk.com/page/formit-revit)
@@ -123,18 +123,18 @@ Yes! FormIt imports 2D and 3D DWG files.
 
 **How do I get support?**
 
-You can start with your Autodesk reseller, or find us on the  [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). It's best to search for the question you have first, and if it hasn't been answered, post a new topic and the FormIt team will respond.
+You can start with your Autodesk reseller, or find us on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). It's best to search for the question you have first, and if it hasn't been answered, post a new topic and the FormIt team will respond.
 
 **What do I do if I cannot log in?**
 
 * This [Forum Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
 * If you have PC with switchable graphics processor \(GPU\) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)
 
-**What do I do if the Insight Energy Analysis seems to fail?**
+**What do I do if Insight Energy Analysis fails?**
 
-If the Insight Energy Analysis reports and error or fails to return any results, here are a few things to try
+If the Insight Energy Analysis reports and error or fails to return any results, here are a few things to try:
 
-* If you are working on a local version of the file, try to save the file to A360 Drive first, and then try again to Generate Insight
-* If your file is already saved to A360 Drive. Try to re-save with a different file name and then try again to Generate Insight
-* If you are working on the Windows client, try opening the file with Web cient and try again to Generate Insight. The Web client provides better progress feedback about 
+* [Ensure your model is solid and manifold](https://formit.autodesk.com/blog/post/repairing-solid-models).
+* Try opening the file in FormIt Web using Google Chrome and try to run Energy Analysis again. 
+  * If it fails, hit F12 to pull up the Developer tools, go to the Console tab, and [post on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142) with a screenshot of the errors or warnings in the console.
 

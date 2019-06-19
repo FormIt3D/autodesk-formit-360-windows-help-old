@@ -49,7 +49,7 @@ Being visual people, designers can learn and communicate an incredible amount of
 
 FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of building system parameters that be can be adjusted to reflect potential scenarios without requiring you to **re-analyze** model geometry. Insight works best with FormIt **massing** geometry
 
-1. Make sure you are logged into A360. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
+1. Make sure you are logged into your Autodesk account. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
 2. FormIt will only send **visible** geometry to Insight. Note that even a simple **mass** will yield a trove of data from **Insight**
 
    ![](../.gitbook/assets/energymassing.png)

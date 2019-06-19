@@ -44,9 +44,9 @@
 | File: Import 3D Model | Ctrl + I |
 | File: Import Image | Ctrl + Shift + I |
 | File: New | Ctrl + N |
-| File: Open A360 | Alt + O |
+| File: Open from BIM 360 Docs | Alt + O |
 | File: Open | Ctrl + O |
-| File: Save As to A360 | Alt + S |
+| File: Save As to BIM 360 Docs | Alt + S |
 | File: Save with History | Ctrl + S, Ctrl + H |
 | File: Save | Ctrl + S |
 | Group: Edit Group \(Context Menu\) | E |

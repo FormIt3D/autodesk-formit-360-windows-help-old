@@ -1,8 +1,10 @@
 # Setting Location
 
-Setting your your project's location in the world it is important for the accuracy of the down-stream analyses. It also allows you to import a scaled satellite image to use as a backgroud reference.
+Setting your your project's location in the world it is important for the accuracy of the downstream analyses. It also allows you to import a scaled satellite image to use as a background reference.
 
-The first step in setting a location is to make sure you are signed into your A360 account. Once you are signed in you will be able to access the location \(LS\) feature.
+The first step in setting a location is to make sure you are signed into your Autodesk account. Once you are signed in, you'll be able to access location and satellite imagery services. 
+
+Launch the Set Location dialog from the location pin in the toolbar, or with shortcut SL.
 
 * Begin by typing the location of your project into the search box in the upper left hand corner of the _Specify Location_ window. 
 
@@ -12,7 +14,7 @@ The first step in setting a location is to make sure you are signed into your A3
 
   ![](../.gitbook/assets/location-2.png)
 
-* The image will then be imported to scale with true north facing up. You can change the appreance of the imported image by double clicking and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
+* The image will then be imported to scale with true north facing up. You can change the appearance of the imported image by double clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
 
   ![](../.gitbook/assets/location-3.png)
 
