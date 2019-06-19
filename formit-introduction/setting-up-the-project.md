@@ -1,29 +1,29 @@
 # Setting Up the Project
 
-## Setting Up the Project
+## Starting Off
 
-When you start FormIt, you'll be in an empty 3D environment. You can start drawing new geometry, 
+When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project \([here's how](../building-the-farnsworth-house/)\) or use the File menu to open an existing FormIt project, or import a variety of other file types.
 
 FormIt allows opening, saving, and exporting to files both locally and on BIM 360 Docs. [Using BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) is a great way to share models in the cloud.
 
-## Saving Your Work
+Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md) once you start making changes to the model. Saving often is still recommended, as doing so will clean up the backup file and save space.
 
-1. **Log into FormIt** using your Autodesk account
+## App Settings
 
-   ![](../.gitbook/assets/f20e489d-d5b3-4cd7-8d10-68b68eb8c5e4.png)
+* Units
 
-2. Start a new 'sketch' by clicking the **File button &gt; New** 
+  ![](../.gitbook/assets/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
 
-   ![](../.gitbook/assets/new-sketch.png)
+  * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
 
-3. Click the **File button &gt; Save Sketch &gt; to A360 drive** to save this to the FormIt folder in your A360 Drive
+* Snap to Grid
+  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../building-the-farnsworth-house/visual-settings.md), if the grid is off, snapping to it will be disabled as well.
+* Display Editable Dimensions
+  * Choose whether to keep the dimension boxes visible \(we recommend keeping this on if you want to draw with accuracy\)
+* Hide Context/Show Edited Group Only
+  * This affects whether editing a Group will show its surroundings or not. This is best used from the shortcut \(H\). Toggling H while modeling in and out of Groups is useful to see Groups both in isolation and context as needed.
+* Preselection Highlight
+  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4). 
 
-   ![](../.gitbook/assets/a360-save.png)
 
-4. Name your FormIt Sketch
-5. Each time you save to A360 two things happen:
-   * A FormIt AXM file is saved to the FormIt folder in A360
-6. Change the **Units** between Imperial and Metric
-
-   ![](../.gitbook/assets/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
 

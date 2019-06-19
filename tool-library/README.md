@@ -4,5 +4,5 @@
 
 ## Tool Library
 
-Want to understand the function of a specific tool? In this section each tool and operation is explained and broken down step by step.
+Learn about FormIt's various tools, features, and integrations.
 
