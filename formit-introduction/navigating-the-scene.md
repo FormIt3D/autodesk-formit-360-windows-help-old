@@ -16,15 +16,15 @@ You can also use the floating navigation toolbar to go into specific view preset
 
 ![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\)**  The “Jetpack” mode allows you to walk through the scene using keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use spacebar to fly
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\)**  Click drag the left mouse button to orbit the model view. You can also do this at any time by right click and drag.
+![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\)**  When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
 
-![](../.gitbook/assets/swivel.PNG) **Swivel \(S V\)** Use the swivel tool from the navigation toolbar to look around the scene from a stable point.
+![](../.gitbook/assets/swivel.PNG) **Swivel \(SV\)** Use the swivel tool from the navigation toolbar to look around the scene from a fixed point.
 
-![](../.gitbook/assets/panning.png) **Pan \(P\)**  Click and drag the middle mouse button, or use the pan \(hand\) tool from navigation toolbar to click drag the left mouse button to pan
+![](../.gitbook/assets/panning.png) **Pan \(P\)**  Click and drag the middle mouse button, or use the pan \(hand\) tool from navigation toolbar to pan across the scene.
 
 ![](../.gitbook/assets/zoom.png) **Zoom \(Z\)** Scroll the mouse wheel or use the zoom tool from the navigation toolbar to click drag the left mouse button to zoom
 
-![](../.gitbook/assets/zoom_all.png) **Zoom All \(ZE\)** Zoom to fit all of the scene into the current view
+![](../.gitbook/assets/zoom_all.png) **Zoom All \(ZE or ZA\)** Zoom to fit all the entire model into the current view
 
 ![](../.gitbook/assets/zoom_selection.png) **Zoom Selection \(ZS\)** Zoom to fit all of the currently selected object\(s\) into the current view
 
