@@ -5,7 +5,7 @@
 * Download the latest [FormIt for Windows](https://formit.autodesk.com/page/download).
 * Use your Autodesk account to sign in, or [create a free Autodesk account here](https://accounts.autodesk.com/).
 * Use Revit 2017, 2018, or 2019 for sections on Revit interoperability.
-* The FormIt Add-In for Revit is included with the 2017, 2018, or 2019 versions of Revit. You can also download and manually install the plugin [from our website](https://formit.autodesk.com/page/formit-revit).
+* The FormIt Add-In for Revit is included with Revit 2017 and newer. You can also download and manually install the add-in [from our website](https://formit.autodesk.com/page/formit-revit).
 
 ## Recommended System Configuration for FormIt on Windows
 

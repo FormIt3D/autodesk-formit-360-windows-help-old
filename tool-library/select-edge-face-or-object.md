@@ -1,31 +1,35 @@
 # Selection
 
-## Select Edge, Face, or Object
+## Direct Selection
 
-Choosing an object or surface is the first step to making modifications to that object
-
-To **select a face, edge or vertex**, hover over them - then single click to select.
+To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
 
 ![](../.gitbook/assets/select-edge.PNG)
 
-To **select an entire object**, double click the object.
+To **select an entire object**, or an object and anything attached to it, double click the object.
 
 ![](../.gitbook/assets/select-object.PNG)
+
+You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+
+## Selection Filtering
+
+For area or lasso selection \(see below\), you can filter the selection based on type. 
+
+This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+
+![](../.gitbook/assets/selection-filter.png)
+
+## Area/Window Selection
 
 To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then you can click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
 
 ![](../.gitbook/assets/select-multiple-objects.png)
 
-## Lasso
+## Lasso Selection
 
-For **more precise control** in selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a line around your desired selection area.
+For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
 
 ![](../.gitbook/assets/lasso-context-menu.png)  
 ![](../.gitbook/assets/select-lasso.png)
-
-## Selection Filter
-
-The window selection and lasso tools can be filtered to only select edges, faces, solids, groups or any combination of the four options
-
-![](../.gitbook/assets/selection_filter.png)
 
