@@ -97,21 +97,11 @@ Use the **Adjust Material Placement** tool to override the default Material plac
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-The Adjust Material Placement dialog will pop up, which can modify the orientation, placement, and scale of Materials on multiple faces simultaneously:
+On screen graphic controls are now displayed, which can be used to interactively move, rotate and scale the material textures directly on the face.
 
-![](../.gitbook/assets/admust-material-placement_dialog.PNG)
+![](../.gitbook/assets/materialplacement.gif)
 
-* **Horizontal and Vertical Scale** can be used to stretch Materials, and the values override the scale factors defined in the Material.
-* **Horizontal and Vertical Offset** can be used to move the starting point of the tiled texture, and uses the current FormIt units.
-* **Rotation** can be used to quickly make horizontal and vertical applications of Materials, without creating separate Material definitions.
-
-After the dialog appears, you can continue selecting or deselecting faces in the canvas, and the dialog will remain visible so you can easily apply Material overrides to a variety of faces.
-
-**Apply** will add the values in the dialog to the current values, i.e. setting a 10-degree rotation, and clicking Apply twice will result in a 20 degree rotation.
-
-**Reset** will clear any overrides for the selected faces, and will return the faces to their default Material orientation, scale, and position.
-
-The FormIt team is working on creating an interactive Material Placement tool to replace this dialog in a future update. Stay tuned!
+To reset any of the changes to the material placement, simply paint the face again with the original material.
 
 ## Material Translation to Revit
 
