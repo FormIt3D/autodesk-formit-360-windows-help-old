@@ -48,6 +48,7 @@
   * [Content Library](tool-library/content-library.md)
   * [Copy Object](tool-library/copy-object.md)
   * [Cover, Sweep, Loft](tool-library/cover-sweep-loft.md)
+  * [Curve + Surface Faceting](tool-library/curve-+-surface-faceting.md)
   * [Delete, Edit, Move](tool-library/delete-edit-move.md)
   * [Dynamo](tool-library/dynamo.md)
   * [Energy Analysis with Insight](tool-library/energy-analysis.md)
