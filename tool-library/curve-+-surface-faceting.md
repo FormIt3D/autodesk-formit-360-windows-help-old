@@ -6,17 +6,17 @@ By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facet
 
 In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
 
+![](../.gitbook/assets/faceting_planter.gif)
+
+![](../.gitbook/assets/faceting.png)
+
 **Curves**
 
 Changing this global setting will affect how many facets are used when drawing new circles and arcs in FormIt. For example, setting this to 64 would create a 64-sided full circle, or a quarter-circle arc with 16 facets.
 
-\[image\]
-
 This will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry to Dynamo. You can set this value for all new models, or just the current model.
 
 For existing curves, you can use the Rebuild Curve plugin to retroactively rebuild an existing arc or circle with a new faceting count:
-
-\[image\]
 
 **Surfaces**
 
@@ -26,7 +26,7 @@ For example, setting this to 64 then baking a sphere from Dynamo will use 64 fac
 
 As with curves, you can set this value for all new models, or for the current model only.
 
-\[image\]
+![](../.gitbook/assets/units-+-precision.png)
 
 Faceting values are currently locked to multiples of 4, so typing numbers in manually will round to the nearest multiple. Use the sliders and arrows to cycle through accepted values.
 
