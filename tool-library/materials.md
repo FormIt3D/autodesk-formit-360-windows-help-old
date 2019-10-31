@@ -93,15 +93,17 @@ Use the **Adjust Material Placement** tool to override the default Material plac
 
 * Select a face or faces painted with a Material
   * If the face is inheriting its Material from its parent Group, you'll need to paint the face directly first.
-* Access the Adjust Material Placement dialog through the shortcut MP or from the right-click context menu:
+* Access the Adjust Material Placement tool through the shortcut MP or from the right-click context menu:
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-On screen graphic controls are now displayed, which can be used to interactively move, rotate and scale the material textures directly on the face.
+Use the on-screen controls to interactively move, rotate and scale the material textures directly on the face:
 
 ![](../.gitbook/assets/materialplacement.gif)
 
-To reset any of the changes to the material placement, simply paint the face again with the original material.
+![](../.gitbook/assets/adjust-material-placement.gif)
+
+To reset any of the changes to the material placement, simply paint the face again with the original material, from the Materials panel.
 
 ## Material Translation to Revit
 
