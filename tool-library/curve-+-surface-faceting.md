@@ -18,6 +18,10 @@ This will also affect the quality of circles and arcs imported from SAT files, a
 
 For existing curves, you can use the Rebuild Curve plugin to retroactively rebuild an existing arc or circle with a new faceting count:
 
+![](../.gitbook/assets/rebuild-curve.png)
+
+![](../.gitbook/assets/faceting_rebuild-curve.gif)
+
 **Surfaces**
 
 Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo. 
