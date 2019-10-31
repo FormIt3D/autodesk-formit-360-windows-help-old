@@ -10,27 +10,29 @@ In FormIt for Windows v18 and newer, the curve and surface faceting values are c
 
 ![](../.gitbook/assets/faceting.png)
 
-**Curves**
+**Curve Faceting Quality**
 
-Changing this global setting will affect how many facets are used when drawing new circles and arcs in FormIt. For example, setting this to 64 would create a 64-sided full circle, or a quarter-circle arc with 16 facets.
+Changing this global setting will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle, or a quarter-circle arc with 16 facets.
 
-This will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry to Dynamo. You can set this value for all new models, or just the current model.
+This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry to Dynamo. You can set this value for all new models, or just the current model.
 
-For existing curves, you can use the Rebuild Curve plugin to retroactively rebuild an existing arc or circle with a new faceting count:
+For existing curves, you can still use the Rebuild Curve plugin to retroactively rebuild an existing arc or circle with a new faceting count:
 
 ![](../.gitbook/assets/rebuild-curve.png)
 
 ![](../.gitbook/assets/faceting_rebuild-curve.gif)
 
-**Surfaces**
+**Surface Faceting Quality**
 
 Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo. 
 
 For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases.
 
+Note that to change the faceting quality of the built-in primitive shapes, use the Curve faceting value instead.
+
 As with curves, you can set this value for all new models, or for the current model only.
 
 ![](../.gitbook/assets/units-+-precision.png)
 
-Faceting values are currently locked to multiples of 4, so typing numbers in manually will round to the nearest multiple. Use the sliders and arrows to cycle through accepted values.
+Faceting values are currently locked to multiples of 4, so typing numbers in manually will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
 
