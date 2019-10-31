@@ -30,9 +30,13 @@ For example, setting this to 64 then baking a sphere from Dynamo will use 64 fac
 
 Note that to change the faceting quality of the built-in primitive shapes, use the Curve faceting value instead.
 
-As with curves, you can set this value for all new models, or for the current model only.
+As with curves, you can set this value for all new models, or for the current model only. 
+
+Note that faceting values are currently locked to multiples of 4, so typing numbers in manually will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
 
 ![](../.gitbook/assets/units-+-precision.png)
 
-Faceting values are currently locked to multiples of 4, so typing numbers in manually will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+
+![](../.gitbook/assets/faceting_column.gif)
 
