@@ -2,7 +2,7 @@
 
 Use **Section Planes** to cut your model, revealing interior spaces and structural elements. FormIt supports multiple Section Planes at once for a Section Box-like effect. 
 
-1. Click the Section Plane tool from the **main toolbar**
+1. Click the Section Plane tool from the **main toolbar.** You can also use shortcut **SP** to start the Section Plane tool.
 
    ![](../.gitbook/assets/sectionicon.png)
 
