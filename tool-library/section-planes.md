@@ -1,6 +1,6 @@
 # Section Planes
 
-Section Planes are a powerful method for seeing inside of your building temporarily.
+Use Section Planes to cut into your FormIt model, revealing interior spaces and structural elements.
 
-Learn more about using Section Planes [here](../building-the-farnsworth-house/section_planes.md)
+Learn about Section Planes in the [FormIt Primer](../building-the-farnsworth-house/section_planes.md).
 
