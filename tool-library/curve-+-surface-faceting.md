@@ -12,9 +12,9 @@ In FormIt for Windows v18 and newer, the curve and surface faceting values are c
 
 **Curve Faceting Quality**
 
-Changing this global setting will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle, or a quarter-circle arc with 16 facets.
+Changing the Curve Faceting Quality value will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle, or a quarter-circle arc with 16 facets.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry to Dynamo. You can set this value for all new models, or just the current model.
+This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry to Dynamo. You can set this value for all new sketches, or just the current sketch.
 
 For existing curves, you can still use the Rebuild Curve plugin to retroactively rebuild an existing arc or circle with a new faceting count:
 
