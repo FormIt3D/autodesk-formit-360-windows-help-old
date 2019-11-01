@@ -6,7 +6,7 @@ Setting your project’s location in the world is important for the accuracy of 
 
    ![](../.gitbook/assets/setlocation.png)
 
-2. Search for **Farnsworth House** in the Google Maps search bar
+2. Search for **Farnsworth House** in the Bing Maps search bar
 3. Click **Import Satellite Image** to set the location and define the satellite image crop
 
    ![](../.gitbook/assets/4101d5b1-cd39-4a96-b4a8-8d7009c54848.png)
