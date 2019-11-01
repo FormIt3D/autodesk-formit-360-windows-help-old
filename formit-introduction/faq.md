@@ -10,7 +10,7 @@ FormIt features:
 
 * A robust solid modeling engine, with powerful tools and workflows optimized for for building design
 * Enhanced environmental visualization to illustrate design options, including saved model states using Scenes
-* Location and satellite imagery using Google Maps
+* Location and satellite imagery using Bing Maps
 * Materials from the Autodesk Material Library
 * Model organization and visibility tools like Groups, Layers, Scenes
 * Analysis tools
