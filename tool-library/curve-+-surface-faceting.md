@@ -28,13 +28,15 @@ Changing this global setting will affect the quality of 3D curved surfaces impor
 
 For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
 
-As with curves, you can set the faceting quality for all new models, or for the current model only. 
-
-Note that faceting values are currently locked to multiples of 4, so entering values manually will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
-
-![](../.gitbook/assets/units-+-precision.png)
-
 When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
 
 ![](../.gitbook/assets/faceting_column.gif)
+
+As with curves, you can set the surface faceting quality for all new sketches, or for the current sketch only. 
+
+Note that faceting values are currently limited to multiples of 4, so when entering values, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+
+![](../.gitbook/assets/units-+-precision.png)
+
+
 
