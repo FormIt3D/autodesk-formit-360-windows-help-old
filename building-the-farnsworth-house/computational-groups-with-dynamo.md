@@ -2,7 +2,9 @@
 
 In this section we will leverage the computational power of [Dynamo](http://dynamobim.org/) to place and modify flexible groups.
 
-If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](./#prerequisites-for-this-turorial).
+If you did not complete the last section, download and open the **farnsworth06.axm** file from the [FormIt Primer folder](./#prerequisites-for-this-turorial). 
+
+You can [learn more here](http://formit.autodesk.com/page/formit-dynamo) about how FormIt and Dynamo work together for computational design workflows.
 
 ## Place and Modify Dynamo Content
 
