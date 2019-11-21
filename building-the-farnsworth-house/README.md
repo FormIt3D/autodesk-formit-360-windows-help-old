@@ -15,5 +15,5 @@ Download and install FormIt following the directions found in the FormIt Introdu
 * [**FormIt Primer Data Sets part 1**](https://s3-us-west-1.amazonaws.com/downloads.autodeskformit.com/Primer/Part1_datasets.zip)
 * [**FormIt Primer Data Sets part 2**](https://s3-us-west-1.amazonaws.com/downloads.autodeskformit.com/Primer/Part2_datasets.zip)
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [**Web Application**](https://formit.autodesk.com/app)
+_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [**Web Application**](https://formit.autodesk.com/app)**.** _For more information or to download FormIt for Windows visit the_ ****[**FormIt web site.**](https://formit.autodesk.com)\*\*\*\*
 
