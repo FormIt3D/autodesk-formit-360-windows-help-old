@@ -72,7 +72,7 @@ When you create or edit a Material, you'll see the Material Editor dialog, where
 * **Bump map from an image file**
   * JPG recommended
   * Great for adding depth effects to Materials.
-  * You can use freeware like Shaderforge to generate bump maps given a texture.
+  * You can use freeware like ShaderMap to generate bump maps given a texture.
 * **Cutout map from an image file**
   * PNG
   * Great for Materials that have selective transparency, like chainlink fences or perforated panels. 
