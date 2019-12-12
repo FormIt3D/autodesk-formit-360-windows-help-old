@@ -16,17 +16,17 @@ Note that these preferences are application-level, and will not change when open
 
 ### How AutoSave Works
 
-When AutoSave is enabled, it will determine whether the current FormIt file has unsaved changes, and if so, it will create a backup copy of the file at the specified interval.
+When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
 
 Backup files are stored next to the original file, and have an extension of `.axmb`.
 
 For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session \(without opening a file,\) unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start saving unsaved changes next to the new location, as noted above.
+If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
 
-When you save changes to the original file, AutoSave will automatically delete the backup file, since the backup is now older than the original file. However, making subsequent changes to the saved file will again prompt AutoSave to start backing up at the specified interval.
+When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
 
-If the file has unsaved changes, and you close FormIt without electing to save, the backup file will remain - just in case those unsaved changes were important. Similarly, if FormIt is forced to close - either through a computer shutdown or an application crash - the AutoSave backup file will not be deleted, and can be used later to recover data.
+If a file has unsaved changes and you close FormIt without choosing to Save, the backup file will retain those unsaved changes. Similarly, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will not be deleted, and can be used later to recover data.
 
 ### Working With AutoSave Enabled
 
@@ -36,7 +36,7 @@ If you're wondering if AutoSave is currently backing up, you can watch the statu
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window &gt; Status Bar or via shortcut HS.
+If your status bar is disabled, you can enable it at Window &gt; Status Bar or via the shortcut HS.
 
 ### Recovering Data with AutoSave
 

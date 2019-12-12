@@ -1,6 +1,6 @@
 # Array
 
-To **array edges, faces, or entire objects**, click on the array icon from the context menu. You can create both linear and radial arrays. Next, choose either linear or radial and then specify the other parameters. Then, similar to the move tool - click the object to start an array, and click again to place arrayed elements.
+You can create both linear and radial arrays in FormIt. To **array edges, faces, or entire objects**, click on the Array icon from the Context Menu. Next, choose Linear or Radial, specify the other parameters, and click the object to start an array. Click again to place the arrayed elements.
 
 ## Linear
 

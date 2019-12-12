@@ -10,11 +10,11 @@ Keyboard: C G
 
 Run the Cut command and follow the mode instruction in the upper left of the screen
 
-Single click to Select an object to cut into
+Single click to Select an object to cut into:
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Single click to Select an object\(s\) or group\(s\) to be removed
+Single click to Select an object\(s\) or group\(s\) to be removed:
 
 ![](../.gitbook/assets/cut_mode02.png)
 

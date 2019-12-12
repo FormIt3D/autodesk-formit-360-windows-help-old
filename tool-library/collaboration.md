@@ -1,19 +1,19 @@
 # Collaboration
 
-FormIt allows multiple users \(on any combination of iOS or Web clients\) to collaboratively edit a FormIt model – while seeing all of their changes in real time!
+FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iOS, or Web clients, all while seeing their changes in real time!
 
-With a FormIt Pro subscription you have access to the Real-time Collaboration feature which allows you to:
+With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
 
-* Start a collaboration session and invite colleagues, or clients who do not need to be Pro to join.
-* Join a collaboration from the Windows, web, or mobile apps - all you need is an Autodesk account
-* Charette with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you drive them through the design.
-* Chat with collaborators in the session.
+* Start a collaboration session and invite colleagues.You can also invite clients, who do not need to have FormIt Pro in order to join.
+* Join a collaboration from the FormIt Windows, Web, or iOS apps — all you need is an Autodesk account
+* Collaborate with colleagues to explore designs in a shared sandbox environment
+* Follow another collaborator's camera to see the model from their viewpoint
+* Let a client follow your camera as you guide them through your design
+* Chat with collaborators in the session
 
 ## Start a Collaboration Session
 
-1. Start a session – this will start a collaboration session. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. You can now email a link to a colleague. When they open the link, they will be asked to log into their Autodesk account and then you can start collaborating immediately. ![](../.gitbook/assets/0b10d035-0145-4762-aaeb-3d4d628cc4a7.png)
-3. To see this in action, see [http://formit.autodesk.com/blog/2014/12/04/design-is-a-team-sport-ios-version/](http://formit.autodesk.com/blog/2014/12/04/design-is-a-team-sport-ios-version/).
+1. From the Collaboration drop-down, choose "Start sharing session." ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediate start collaborating.  ![](../.gitbook/assets/0b10d035-0145-4762-aaeb-3d4d628cc4a7.png)
+3. To watch this in action, see [http://formit.autodesk.com/blog/2014/12/04/design-is-a-team-sport-ios-version/](http://formit.autodesk.com/blog/2014/12/04/design-is-a-team-sport-ios-version/).
 
