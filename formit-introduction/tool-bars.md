@@ -2,15 +2,15 @@
 
 ## Toolbars
 
-The Standard toolbar is enabled by default, but is split into the following sections. You can optionally enable, disable and arrange individual sections using the Window menu.
+The standard toolbar is enabled by default, but is split into the following sections. You can optionally enable, disable, and rearrange individual sections using the Windows menu.
 
 ### File
 
 ![](../.gitbook/assets/file_tools.png)
 
-1. **File menu** with file operations like Open, Save, Export
-2. **Undo**
-3. **Redo**
+1. **File menu** with file operations like Open, Save, and Export
+2. **Undo** your last change
+3. **Redo** a change you undid
 
 ### Geometry
 
@@ -20,19 +20,19 @@ The Standard toolbar is enabled by default, but is split into the following sect
 2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) ****tools
 3. [**Section Planes**](../tool-library/section-planes.md)
 4. [**3D Sketching Tools**](../building-the-farnsworth-house/3d-sketching.md)
-5. [**Primitive** ](../tool-library/place-primitive-object.md) toolbar
-6. [**Advanced Geometry**](../building-the-farnsworth-house/advanced-modeling.md) toolbar with Join, Cut, Sweep, Loft, Shell
-7. [**Groups** ](../tool-library/groups.md)Toolbar
+5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
+6. [**Advanced Geometry**](../building-the-farnsworth-house/advanced-modeling.md) toolbar with Join, Cut, Sweep, Loft, and Shell
+7. [**Groups** ](../tool-library/groups.md)**t**oolbar
 
 ### Settings
 
 ![](../.gitbook/assets/settings_tools.png)
 
-1. **Settings**
-2. **Touch Mode**
-3. [**Collaboration**](../tool-library/collaboration.md)
-4. **Autodesk account login**
-5. **Information** help and Links
+1. **Settings** menu for UI and app settings.
+2. **Touch Mode** to enable interactions on touch screen devices.
+3. [**Collaboration**](../tool-library/collaboration.md) for managing collaboration sessions with multiple users.
+4. **Autodesk account login.**
+5. **Information** menu for help and links.
 
 ### Design
 
@@ -66,13 +66,13 @@ The Standard toolbar is enabled by default, but is split into the following sect
 
 ## Context Menu
 
-Right-click an element in the 3D canvas to bring up a menu of commands and modifications you can take on that type of geometry. Hover over the icons to see their names.
+Right-click on an element in the 3D canvas to display a menu of commands and modifications for that type of geometry. Hover over the icons to see their names.
 
 ![](../.gitbook/assets/contextmenu_intro.png)
 
 ## Keyboard Shortcuts
 
-Customize your [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in FormIt in Edit &gt; Preferences &gt; Shortcuts.
+Customize your FormIt [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in Edit &gt; Preferences &gt; Shortcuts.
 
 ![](../.gitbook/assets/keyboardshortcuts.png)
 
