@@ -1,12 +1,16 @@
 # Layers
 
-FormIt utilizes the concept of Layers to control visibility of objects. Learn more about Layers [here](../building-the-farnsworth-house/control-visibility-with-layers.md)
+Use Layers to control visibility of FormIt objects. You can see Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
 ## Create Layers
 
-On the Layers tab you can create and name your own layers by clicking the "+" icon. Then select the geometry you'd like to place on that layer. On the Layers tab you can choose from the dropdown list which layer you want the geometry to be on. Finally toggle off the layer you chose. This will verify that you've accomplished what you intended.
+In the Layers panel, you can create and name your Layers by clicking the "+" icon. You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the box.
 
-Layers are Scene specific. So in any saved scene you can have unique layer states - this way you can create and display different design options in a controlled and pre-set way.
+## Managing Objects on Layers
 
-Layers can be sorted by dragging and dropping the layer names in the palette.
+Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on. 
+
+You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+
+You can also reorder the Layers in the panel, but this has no impact on geometry visibility - this is purely an organizational tool in the panel.
 
