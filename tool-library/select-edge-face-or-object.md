@@ -22,7 +22,7 @@ This is especially useful when you've got a mix of geometry types in close proxi
 
 ## Area/Window Selection
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then you can click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
 
 ![](../.gitbook/assets/select-multiple-objects.png)
 

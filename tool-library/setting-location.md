@@ -1,16 +1,16 @@
 # Setting Location
 
-Setting your your project's location in the world it is important for the accuracy of the downstream analyses. It also allows you to import a scaled satellite image to use as a background reference.
+Setting your your project's location in the world it is important for the accuracy of downstream analyses. It also allows you to import a scaled satellite image to use as a background reference.
 
 The first step in setting a location is to make sure you are signed into your Autodesk account. Once you are signed in, you'll be able to access location and satellite imagery services. 
 
-Launch the Set Location dialog from the location pin in the toolbar, or with shortcut SL.
+Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
 
 * Begin by typing the location of your project into the search box in the upper left hand corner of the _Specify Location_ window. 
 
   ![](../.gitbook/assets/location-1.png)
 
-* Once you have located the position of your project site and the extends your want to import click the **Finish Importing Image**
+* Once you have located the position of your project site and the extends your want to import click the **Finish Importing Image.**
 
   ![](../.gitbook/assets/location-2.png)
 

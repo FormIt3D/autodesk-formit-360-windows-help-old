@@ -6,7 +6,12 @@ To create more complex designs after sketching a shape or placing a primitive, y
 
 ### Tilt Face
 
-To **tilt a face**, select a face, right-click to see the context menu. Then choose the tilt icon from the context menu. Next, define the tilt axis by drawing a line. Then, click a third point to start the tilt operation.
+To **tilt a face:**
+
+1. Select a face and right-click to see the context menu. 
+2. Choose the **Tilt** icon from the context menu 
+3. Define the tilt axis by drawing a line. 
+4. Click a third point to start the tilt operation.
 
 ![](../.gitbook/assets/tilt-tool.png)  
 ![](../.gitbook/assets/tilt-step-1.PNG)  
@@ -14,14 +19,24 @@ To **tilt a face**, select a face, right-click to see the context menu. Then cho
 
 ### Facet / Smooth Faces
 
-If you hover over a face and notice dotted lines - this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges**, first select the face - or object - and right-click to see the context menu. Then choose the Facet Smooth Faces command from the context menu. This will add edges, where before the face was smooth. This command works in the reverse as well. You can select faces that are facetted and choose the same command to hide the edges and make the faces appear smooth.
+If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:** 
+
+1. Select the face or object that you want to change and right-click to see the context menu. 
+2. From the context menu, choose the **Facet Smooth Faces** tool. 
+3. Edges are automatically added where the face was previously smooth. 
+
+This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
 
 ![](../.gitbook/assets/facet-tool.png)  
 ![](../.gitbook/assets/facet-finish.PNG)
 
 ## Array
 
-To **array edges, faces, or entire objects**, click on the array icon from the context menu. You can create both linear and radial arrays. Next, choose either linear or radial and then specify the other parameters. Then, similar to the move tool - click the object to start an array, and click again to place arrayed elements.
+To **array edges, faces, or entire objects:** 
+
+1. From the context menu, click on the **Array** tool. 
+2. Choose to create a linear or radial array and specify the other parameters. 
+3. Click the object to start an array, and click again to place arrayed elements.
 
 Linear:
 

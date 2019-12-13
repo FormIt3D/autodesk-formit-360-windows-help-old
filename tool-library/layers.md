@@ -4,7 +4,7 @@ Use Layers to control visibility of FormIt objects. You can see Layers in action
 
 ## Create Layers
 
-In the Layers panel, you can create and name your Layers by clicking the "+" icon. You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the box.
+In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the box.
 
 ## Managing Objects on Layers
 

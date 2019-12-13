@@ -1,18 +1,18 @@
-# Line
+# Lines
 
-Draw a lines to divide faces and construct geometry.
+Use lines to divide faces and construct geometry.
 
 Keyboard: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-A line can be draw on all the X, Y and Z axis and also on existing geometry. When you're snapped to an axis a colored line will extend beyond the line you are drawing. You can see the length of the line as you draw; to manually a specfic length press **tab** and enter that length.
+You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+
+Line colors by axis:
 
 * X = Red
 * Y = Green
 * Z = Blue
-
-You can see the length of the line as you draw; to manually specify a length press **tab**.
 
 ![](../.gitbook/assets/line-tool.png)
 

@@ -4,7 +4,7 @@ FormIt has been designed to work well with Revit. To learn more about the basics
 
 ## Working with data from Revit
 
-If you have a project started, you can send geometry from Revit to FormIt. This is useful for doing quick study models and then sending geometry back to Revit. Here is a video demonstration:
+You can send geometry from Revit to FormIt. This is useful for doing quick study models and then sending geometry back to Revit. Here is a video demonstration:
 
 ## Creating Revit Content
 

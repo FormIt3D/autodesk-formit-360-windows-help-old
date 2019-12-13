@@ -1,6 +1,6 @@
 # Sun + Shadows
 
-Study the effects of the sun's path on your projects.
+Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
 
 The first step for accurate shadow studies is to [**set your project location**](setting-location.md). 
 

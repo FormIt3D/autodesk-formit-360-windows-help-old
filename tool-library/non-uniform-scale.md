@@ -2,7 +2,7 @@
 
 **Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using shortcut NU or from the Context Menu:
+Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 

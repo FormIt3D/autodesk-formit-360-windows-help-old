@@ -60,7 +60,7 @@
   * [Import and Export Data](tool-library/export-data.md)
   * [Layers](tool-library/layers.md)
   * [Levels and Area](tool-library/levels-and-area.md)
-  * [Line](tool-library/line-tool.md)
+  * [Lines](tool-library/line-tool.md)
   * [Materials](tool-library/materials.md)
   * [Measure Angle](tool-library/measure-angle-tool.md)
   * [Measure](tool-library/measure-tool.md)

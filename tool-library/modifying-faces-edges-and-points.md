@@ -4,10 +4,13 @@ Things get really interesting when you start to push and pull the objects you ha
 
 ## Modifying Faces
 
-1. [**Single click one**](select-edge-face-or-object.md) of the faces of the objects.
-2. You can immediately drag that face to **push** or **pull** it. There is no need to invoke a separate tool. You can use the **snapping** to snap this face aligned with other objects in the scene.
-3. As with move, you can click the **temporary dimension** or use **Tab key** to define the amount of move. ![](../.gitbook/assets/b61b2045-21a9-434b-b806-6cfa16e94fdd.png)
-4. You can also delete a face by using **Delete key**: **Right click &gt; X button**.
+1. [**Single click one**](select-edge-face-or-object.md) a faces of an object.
+2. You can drag the selected face to **push** or **pull** it. There is no need to invoke a separate tool. You can use the **snapping** to snap this face aligned with other objects in the scene.
+3. You can click the **temporary dimension** or use **Tab key** to define the distance the face should move. 
+
+       ![](../.gitbook/assets/b61b2045-21a9-434b-b806-6cfa16e94fdd.png)
+
+4.   You can also delete a face by using **Delete key**: **Right click &gt; X button**.
 
 ## Modifying Edges
 
