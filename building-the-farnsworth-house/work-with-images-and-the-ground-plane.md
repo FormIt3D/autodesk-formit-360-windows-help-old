@@ -12,7 +12,7 @@ You may import PNG or JPG images onto the ground plane by using the File &gt; Im
 
    ![](../.gitbook/assets/rectangletoolbar.png)
 
-3. While the dimension is visible, click the **Tab key** to access a dialog where you can input exact dimensions. Click **OK** to commit the dimension. Click **Esc** to clear the Rectangle tool
+3. While the dimension is visible, simply start typing a value to access a dialog where you can input exact dimensions. Click **OK** to commit the dimension. Click **Esc** to clear the Rectangle tool
 
    ![](../.gitbook/assets/rectanglecanvas.png)
 
@@ -38,7 +38,7 @@ You may import PNG or JPG images onto the ground plane by using the File &gt; Im
    ![](../.gitbook/assets/eab003c6-c95c-4003-9068-0eb43f41a263.png)
 
 3. The Rotate widget appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it
-4. Hit the Tab key and input **9 degrees** the rectangle will rotate counter clockwise
+4. Type **9**, and the dimension box will appear. Click OK to rotate the rectangle counter-clockwise
 
    ![](../.gitbook/assets/eab003c6-c95c-4003-9068-0eb43f41a263_2.png)
 

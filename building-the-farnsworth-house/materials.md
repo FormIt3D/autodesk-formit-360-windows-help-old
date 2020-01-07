@@ -56,7 +56,7 @@ As we saw in an [**earlier exercise**](work-with-images-and-the-ground-plane.md)
 
    ![](../.gitbook/assets/upperterracesketch_9.png)
 
-4. While moving along the blue axis, click the **Tab key** and enter **12' 2"**
+4. While moving along the blue axis, start typing **12' 2"** and a dimension box will appear. Hit OK or press Enter to finalize the position.
 
    ![](../.gitbook/assets/d6793055-4c50-4e96-a44e-15e5cfeeea83.png)
 
