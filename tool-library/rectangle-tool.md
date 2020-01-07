@@ -4,9 +4,11 @@ You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quic
 
 Keyboard shortcut: R
 
-![](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/assets/rectangle_toolbar.png)
+Use the axes to ensure you're drawing in the correct direction:
 
 You can rectangles on the X, Y, or Z axis. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+
+As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
 
 Line colors by axis:
 
