@@ -77,7 +77,7 @@
   * [Scenes](tool-library/scenes.md)
   * [Section Planes](tool-library/section-planes.md)
   * [Selection](tool-library/select-edge-face-or-object.md)
-  * [Location](tool-library/setting-location.md)
+  * [Setting Location](tool-library/setting-location.md)
   * [Sun + Shadows](tool-library/shadows.md)
   * [Shell](tool-library/shell.md)
   * [Snaps and Inferences](tool-library/snaps-and-inferences.md)

@@ -1,4 +1,4 @@
-# Location
+# Setting Location
 
 Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
 
