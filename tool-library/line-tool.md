@@ -10,8 +10,6 @@ You can draw lines on the X, Y, or Z axis and also on existing geometry. When yo
 
 Line colors by axis:
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value. 
-
 * X = Red
 * Y = Green
 * Z = Blue

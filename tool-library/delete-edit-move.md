@@ -10,9 +10,7 @@ First make a geometry selection. Then, right-click to see the Context Menu where
 
 ## Edit
 
-When using many of the editing tools like Move, Array, Push Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
-
-![](../.gitbook/assets/edit-dimension.png)
+When using many of the editing tools like Move, Array, Push Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also press the Tab key to access the Edit Dimension dialog. ![](../.gitbook/assets/edit-dimension.png)
 
 ## Move Edges, Faces, or Objects
 

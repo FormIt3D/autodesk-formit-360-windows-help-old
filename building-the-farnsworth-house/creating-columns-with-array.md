@@ -74,12 +74,12 @@ If you did not complete the last section, download and open the **farnsworth03.a
    ![](../.gitbook/assets/0ef15b54-2b06-4443-823a-e58527e23858.png)
 
 5. **Single click** to start the **array**. Move the cursor to the right, along the red axis. Hold down **Shift** to lock to the red axis
-6. Start typing **22'** to bring up the Edit Dimension dialog, then hit **OK.** Press **Esc** to clear the selection. You now have **four** columns **22'** apart
+6. Press the **Tab key** and enter **22'**. Click **Esc** to clear the selection. You now have **four** columns **22'** apart
 
    ![](../.gitbook/assets/arraypreview.png)
 
 7. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. **Single click** to select them
-8. Perform another **Array \(AR\)** but this time make **1 copy** and move the copies long the green axis to the south side of the building. Start typing **29'-5"** to bring up the Edit Dimension dialog, and hit Enter or press OK to accept the value.
+8. Perform another **Array \(AR\)** but this time make **1 copy** and move the copies long the green axis to the south side of the building. You can click **Tab** and input **29'5"**
 
    ![](../.gitbook/assets/arraypreview_2.png)
 

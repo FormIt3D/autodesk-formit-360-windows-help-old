@@ -41,7 +41,7 @@ If you did not complete the last section, download and open the **farnsworth01.a
 
    ![](../.gitbook/assets/upperterracesketch_3.png)
 
-2. **Single click** to start the drag face operation. Move your mouse away from the face to drag in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**. You've created a mass!
+2. **Single click** to start the drag face operation. Move your mouse away from the face to drag in that direction. Hit **Tab** and input **12'-2"**, then hit **Enter**. You've created a mass!
 
    ![](../.gitbook/assets/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
