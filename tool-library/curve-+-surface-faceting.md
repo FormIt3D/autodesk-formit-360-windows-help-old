@@ -18,7 +18,7 @@ This value will also affect the quality of circles and arcs imported from SAT fi
 
 For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
 
-![](../.gitbook/assets/rebuild-curve.png)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting_rebuild-curve.gif)
 
