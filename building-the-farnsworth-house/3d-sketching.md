@@ -28,9 +28,7 @@ If you did not complete the last section, download and open the **farnsworth01.a
 
 **Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off axis line_
 
-```text
-![](./images/UpperTerraceSketch_2.png) 
-```
+![](../.gitbook/assets/upperterracesketch2.png)
 
 1. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the end point.
 2. Release the **Shift key** and click the first point you drew to finish enclosing the rectangle. Press **Esc** twice to clear the sketch tool
