@@ -37,6 +37,7 @@
   * [Section Planes](building-the-farnsworth-house/section_planes.md)
   * [Export Image](building-the-farnsworth-house/export_image.md)
 * [Tool Library](tool-library/README.md)
+  * [3D Text](tool-library/3d-text.md)
   * [Align Camera With Face](tool-library/align-camera-with-face.md)
   * [Arc](tool-library/arc-tool.md)
   * [Array](tool-library/array.md)
