@@ -26,7 +26,7 @@ If you start a new FormIt session without opening an existing file, unsaved chan
 
 When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
 
-If a file has unsaved changes and you close FormIt without choosing to Save, the backup file will retain those unsaved changes. Similarly, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will not be deleted, and can be used later to recover data.
+If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
 
 ### Working With AutoSave Enabled
 
