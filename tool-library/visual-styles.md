@@ -1,10 +1,16 @@
 # Visual Styles
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects.
+Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+
+![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
 Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite styles settings and apply them to other Scenes.
 
 ## Surfaces
+
+Manage the way surfaces are displayed and shaded.
+
+![](../.gitbook/assets/surfaces.PNG)
 
 **Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
 
@@ -26,11 +32,11 @@ The Surface Colors section defines default colors for faces when no material is 
 
 Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
 
-![](../.gitbook/assets/surfaces.PNG)
-
 ## Edges
 
-Manage the display style of edges.
+Manage the display style of all edges in the model.
+
+![](../.gitbook/assets/edges.PNG)
 
 **Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
 
@@ -44,11 +50,11 @@ Manage the display style of edges.
 
 **Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
 
-![](../.gitbook/assets/edges.PNG)
-
 ## Environment
 
-Toggle display of environmental effects and objects.
+Toggle display of environmental effects and helper objects.
+
+![](../.gitbook/assets/environment.PNG)
 
 **Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
 
@@ -66,17 +72,15 @@ The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **
 
 If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
 
-![](../.gitbook/assets/environment.PNG)
-
 ## Diagnostics
 
 Toggle the display of diagnostic tools. 
+
+![](../.gitbook/assets/diagnostics.PNG)
 
 **Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
 
 **Back Faces** highlights in red all faces that are facing the wrong way \(all solid objects should have the back faces facing towards the inside of the solid shape\).
 
 [Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
-
-![](../.gitbook/assets/diagnostics.PNG)
 
