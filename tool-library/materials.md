@@ -1,16 +1,18 @@
 # Materials
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
+Make your FormIt models pop with Materials that support reflection, gloss, and bump maps. FormIt now includes a robust library of sample Materials for any project.
 
 ## The Materials Panel
 
-![](../.gitbook/assets/materials-panel.PNG)
+![FormIt Materials now include a robust sample library.](../.gitbook/assets/screen-shot-2020-03-27-at-1.46.50-pm.png)
+
+In the materials panel, you can link Materials libraries, choose from a wide array of sample Materials, and now access .AXM files.
 
 ### Create, Import, and Delete
 
 ![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss.
 
-![](../.gitbook/assets/materials_import.PNG) **Import a Material** from the Autodesk Materials Library.
+\*\*\*\*![](../.gitbook/assets/screen-shot-2020-03-27-at-9.59.56-am%20%281%29.png) **Link Materials libraries** from local directories.
 
 ![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\)
 
