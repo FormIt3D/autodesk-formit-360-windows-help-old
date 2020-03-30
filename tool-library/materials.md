@@ -4,7 +4,7 @@ Make your FormIt models pop with Materials that support reflection, gloss, and b
 
 ## The Materials Panel
 
-![The Materials Panel now includes a robust library of Material Samples.](../.gitbook/assets/screen-shot-2020-03-27-at-3.29.00-pm.png)
+![The Materials Panel now includes a robust samples library.](../.gitbook/assets/screen-shot-2020-03-30-at-12.44.42-pm.png)
 
 In the materials panel, you can link Materials libraries, choose from a wide array of sample Materials, and now access .AXM files.
 
