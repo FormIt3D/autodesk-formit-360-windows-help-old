@@ -22,8 +22,6 @@ FormIt now offers flexible linking options — a linked Material Library can now
 
 ![FormIt files can be added as Materials Libraries.](../.gitbook/assets/image-1.png)
 
-
-
 ### Eyedropper
 
 ![](../.gitbook/assets/materials_eyedropper.PNG) 
