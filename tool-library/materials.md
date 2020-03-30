@@ -4,17 +4,25 @@ Make your FormIt models pop with Materials that support reflection, gloss, and b
 
 ## The Materials Panel
 
-![FormIt Materials now include a robust sample library.](../.gitbook/assets/screen-shot-2020-03-27-at-1.46.50-pm.png)
+![The Materials Panel now includes a robust library of Material Samples.](../.gitbook/assets/screen-shot-2020-03-27-at-3.29.00-pm.png)
 
 In the materials panel, you can link Materials libraries, choose from a wide array of sample Materials, and now access .AXM files.
 
-### Create, Import, and Delete
+### Create, Link, and Delete
 
 ![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss.
 
 \*\*\*\*![](../.gitbook/assets/screen-shot-2020-03-27-at-9.59.56-am%20%281%29.png) **Link Materials libraries** from local directories.
 
 ![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\)
+
+### Linking Material Libraries
+
+FormIt now offers flexible linking options — a linked Material Library can now be a folder of JPGs, PNGs, or even FormIt files:
+
+![FormIt files can be added as Materials Libraries.](../.gitbook/assets/image-1.png)
+
+
 
 ### Eyedropper
 
@@ -63,7 +71,7 @@ You can also select faces and Groups first, then single-click a Material thumbna
 
 ## Create and Edit Materials
 
-![](../.gitbook/assets/material_create-dialog.PNG)
+![Material Editor dialog](../.gitbook/assets/screen-shot-2020-03-27-at-3.19.05-pm.png)
 
   
 When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
