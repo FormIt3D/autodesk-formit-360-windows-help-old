@@ -32,6 +32,14 @@ The Surface Colors section defines default colors for faces when no material is 
 
 Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
 
+## Ground Planes
+
+When the Ground Plane is toggled off in Group Edit Mode, the blue Work Plane grid is now toggled off, also. 
+
+The color of the Work Plane can also be customized from the Visual Styles panel. 
+
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
+
 ## Edges
 
 Manage the display style of all edges in the model.
