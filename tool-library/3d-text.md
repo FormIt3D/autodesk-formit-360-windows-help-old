@@ -11,7 +11,7 @@ Starting with FormIt 2021, you can generate and modify 3D Text objects, which ar
 ![](../.gitbook/assets/3d-text-placement.gif)
 
 * Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the 3D Text Dynamo Sample
+* Click the 3D Text sample
 * Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor
   * Before placing, you can hover over geometry to orient the 3D Text differently - for example, on a vertical surface to get the text to align itself vertically. You can also hit Tab to cycle between orientations.
 * Click to place the 3D Text, which will be generated inside a FormIt Group.
