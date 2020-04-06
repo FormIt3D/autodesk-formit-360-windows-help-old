@@ -31,7 +31,7 @@ After editing the options, click the "Run" button to generate the new geometry. 
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. Learn more. 
+Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. [Learn more](https://windows.help.formit.autodesk.com/tool-library/3d-text#iterate-faster-in-dynamo). 
 
 ### Text
 
