@@ -10,7 +10,7 @@ In the materials panel, you can choose from a wide variety of Material Samples, 
 
 ### Material Library Sources
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/~/drafts/-M4C1vBuS8XRITiY9Zod/tool-library/materials#linking-material-libraries). 
+In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries). 
 
 ![](../.gitbook/assets/materials-directory-picker%20%281%29.png)
 
@@ -30,7 +30,7 @@ Shows a list of available sample Materials. These offerings are stored on a clou
 
 **Linked Libraries**
 
-Other directories and locations will appear after [linking Material libraries](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/~/drafts/-M4C1vBuS8XRITiY9Zod/tool-library/materials#linking-material-libraries).
+Other directories and locations will appear after [linking Material libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ### Create, Delete, and Eyedropper
 
@@ -45,7 +45,7 @@ Other directories and locations will appear after [linking Material libraries](h
 
 ### Refresh, Link Libraries, and Purge Unused
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM \(FormIt\) files will display content. See [Linking Material Libraries](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/~/drafts/-M4C1vBuS8XRITiY9Zod/tool-library/materials#linking-material-libraries) for more information.
+\*\*\*\*![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM \(FormIt\) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
 
 ![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory \(not In Sketch or Material Samples\).
 
