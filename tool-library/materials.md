@@ -1,26 +1,20 @@
 # Materials
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps. FormIt now includes a robust library of sample Materials for any project.
+Make your FormIt models pop with Materials that support reflection, gloss, and bump maps. 
 
 ## The Materials Panel
 
 ![The Materials Panel now includes a robust samples library.](../.gitbook/assets/screen-shot-2020-03-30-at-12.44.42-pm.png)
 
-In the materials panel, you can link Materials libraries, choose from a wide array of sample Materials, and now access .AXM files.
+In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt \(.AXM\) files.
 
 ### Create, Link, and Delete
 
-![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss.
+![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
 
-\*\*\*\*![](../.gitbook/assets/screen-shot-2020-03-27-at-9.59.56-am%20%281%29.png) **Link Materials libraries** from local directories.
+\*\*\*\*![](../.gitbook/assets/screen-shot-2020-03-27-at-9.59.56-am%20%281%29.png) **Link Materials libraries** from local directories. Directories containing JPG, PNG, or AXM \(FormIt\) files will display content. See Linking Material Libraries for more information.
 
 ![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\)
-
-### Linking Material Libraries
-
-FormIt now offers flexible linking options — a linked Material Library can now be a folder of JPGs, PNGs, or even FormIt files:
-
-![FormIt files can be added as Materials Libraries.](../.gitbook/assets/image-1.png)
 
 ### Eyedropper
 
@@ -38,6 +32,21 @@ Use the Eyedropper to sample a Material painted in the scene, and immediately st
 Unused Materials can accumulate naturally through the process of iteration, but they can add significantly to the file size if they use high-quality textures.
 
 Click the Purge Unused tool to delete all unused Materials. You'll see a prompt first, so you can cancel if you have second thoughts.
+
+### Material Libraries
+
+FormIt 2021 and newer offers the ability to link the Materials panel to local directories \(libraries\) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
+
+![Material content from FormIt files will be shown as a folder.](../.gitbook/assets/image-1.png)
+
+![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
+
+* **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
+  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch. 
+  * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
+* **FormIt files \(\*.axm\)** will display as folders with a FormIt icon. 
+  * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
+  * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
 
 ### List Management
 
