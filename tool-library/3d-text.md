@@ -17,7 +17,7 @@ Starting with FormIt 2021, you can generate 3D Text objects which are powered by
 * Click to place the 3D Text, which will be generated inside a FormIt Group.
 * After placing, the Properties panel will show up to reveal the available options for 3D Text.
 
-## Modifying Options In-Place
+## Iterating In Place
 
 ![](../.gitbook/assets/3d-text-options.png)
 
