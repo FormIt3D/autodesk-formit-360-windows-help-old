@@ -61,7 +61,7 @@ Click the Purge Unused tool to delete all unused Materials. You'll see a prompt 
 
 FormIt 2021 and newer offers the ability to link the Materials panel to local directories \(libraries\) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
 
-![Material content from FormIt files will be shown as a folder.](../.gitbook/assets/image-1.png)
+![](../.gitbook/assets/materials-axms.png)
 
 ![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
 
