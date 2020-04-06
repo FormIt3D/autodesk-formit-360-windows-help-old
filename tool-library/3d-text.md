@@ -93,6 +93,16 @@ Curves from fonts are converted to line segments using 3D Text, so this value co
 
 Lower numbers will result in more coarse faceting \(longer segments\) and higher numbers will result in finer faceting \(shorter segments\). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
 
+## Iterate Faster in Dynamo
+
+If you're iterating on 3D Text options, it might be faster to launch the Dynamo graph editor, which will allow you to adjust parameters and see the changes in real-time. This also allows you to inspect the logic behind the graph, in case there are issues. 
+
+![](../.gitbook/assets/3d-text-edit-embedded.png)
+
+You can click the "Edit Embedded Graph" button in the Properties panel, to start the Dynamo graph editor.
+
+![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+
 ## Troubleshooting
 
 3D Text uses Dynamo behind the scenes, and Dynamo uses a modeling kernel called ASM to generate its geometry, which is passed back to FormIt. 
