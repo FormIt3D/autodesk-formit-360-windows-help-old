@@ -2,7 +2,7 @@
 
 ## Powered by Dynamo
 
-Starting with FormIt 2021, you can generate and modify 3D Text objects, which are powered by Dynamo. Dynamo enables editing the font, size, and other properties of the text in-place, without having to re-generate and re-position the text when edits are needed.
+In FormIt 2021 and newer, you can generate and modify 3D Text objects, which are powered by Dynamo. Dynamo enables editing the font, size, and other properties of the text in-place, without having to re-generate and re-position the text when edits are needed.
 
 ![](../.gitbook/assets/3d-text_original.png)
 
