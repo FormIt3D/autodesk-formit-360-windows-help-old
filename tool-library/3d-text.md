@@ -45,15 +45,17 @@ Note that some fonts have more complex geometry, and may take more time to gener
 
 ### Justification
 
-This will move the text to align relative to the Group's Local Coordinate System origin. If you double-click the Group to edit it, you'll see its origin location, and the text's position relative to that:
+This will move the text to align relative to the Group's Local Coordinate System origin. 
 
-Left
+* Left will ensure the text starts at the Group's origin, and expands to the right
+* Center will ensure the text is always centered about the Group's origin
+* Right will ensure the text ends at the Group's origin
 
-Center
-
-Right
+![](../.gitbook/assets/3d-text-justification-combined.png)
 
 ### Text Size
+
+![](../.gitbook/assets/3d-text-text-size.png)
 
 The height of the text, in the current FormIt units.
 
@@ -63,17 +65,25 @@ The amount of 3D extrusion of the text, in the current FormIt units. 3D Text is 
 
 ### Tracking
 
+![](../.gitbook/assets/3d-text-tracking.png)
+
 Tracking is useful to adjust the default spacing between letters from a particular font. Uses the current FormIt units, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer. 
 
 ### Multi-Line Spacing
+
+![](../.gitbook/assets/3d-text-multi-line.png)
 
 If you have multiple lines in the Text field, this value controls how much space is between each line of text. Uses the current FormIt units.
 
 ### Invert Text
 
+![](../.gitbook/assets/3d-text-inverted.png)
+
 When True, this option will create a solid around the text, and will remove the text from it, giving the result of "inverted" text - as if the text was cut out of a material. 
 
 ### Inverted Text Border
+
+![](../.gitbook/assets/3d-text-inverted-border.png)
 
 Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. Uses the current FormIt units.
 
