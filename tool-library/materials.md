@@ -26,6 +26,8 @@ Shows a list of available sample Materials. These offerings are stored on a clou
 * When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download. 
 * The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest. 
 
+![](../.gitbook/assets/materials-samples_original.png)
+
 **Linked Libraries**
 
 Other directories and locations will appear after [linking Material libraries](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/~/drafts/-M4C1vBuS8XRITiY9Zod/tool-library/materials#linking-material-libraries).
