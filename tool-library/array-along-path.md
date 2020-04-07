@@ -79,7 +79,7 @@ For closed paths only. When using Array Along Path with a closed path, the direc
 
 ### Run <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
+After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
 
 ### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
