@@ -19,11 +19,13 @@ In FormIt 2021 and newer, you can generate and modify 3D Text objects, which are
 
 ## Iterating In Place
 
-![](../.gitbook/assets/3d-text-options.png)
-
 The beauty of using Dynamo to generate 3D Text is that editing it is easy, and keeps the text in its current position, for quick iteration.
 
-3D Text options are available in the Properties panel when the 3D Text Group is selected. After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically reveal its Properties.
+3D Text options are available in the Properties panel when the 3D Text Group is selected, or when editing the Group. 
+
+After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically switch to the Properties panel.
+
+![](../.gitbook/assets/3d-text-options.png)
 
 ### Run
 
