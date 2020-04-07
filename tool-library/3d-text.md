@@ -27,17 +27,9 @@ After placing the 3D Text initially, the Properties panel will be displayed auto
 
 ![](../.gitbook/assets/3d-text-options.png)
 
-### Run
-
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
-
-### Edit Embedded Graph
-
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. [Learn more](https://windows.help.formit.autodesk.com/tool-library/3d-text#iterate-faster-in-dynamo). 
-
 ### Text
 
-Enter the text you'd like the 3D Text geometry to display. This field also previews the selected font and justification. Hit Enter/Return to have multiple lines. 
+Enter the text you'd like the 3D Text geometry to display. This field also previews the selected font and justification. Hit Enter/Return for multiple lines. 
 
 ### Font
 
@@ -94,6 +86,14 @@ Only applies when Invert Text is true. Specifies the amount of border around the
 Curves from fonts are converted to line segments using 3D Text, so this value controls how fine the curves are faceted. 
 
 Lower numbers will result in more coarse faceting \(longer segments\) and higher numbers will result in finer faceting \(shorter segments\). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
+
+### Run
+
+After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
+
+### Edit Embedded Graph
+
+Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. See below for more.
 
 ## Iterate Faster in Dynamo
 
