@@ -29,7 +29,7 @@ After placing the 3D Text initially, the Properties panel will be displayed auto
 
 ### Run
 
-After editing the options, click the "Run" button to generate the new geometry. This button will turn blue to indicate that parameters have changed, and "Run" needs to be clicked to see the updates in the final geometry.
+After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
 
 ### Edit Embedded Graph
 
