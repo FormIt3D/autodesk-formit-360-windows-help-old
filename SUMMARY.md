@@ -71,6 +71,7 @@
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Non-Uniform Scale](tool-library/non-uniform-scale.md)
   * [Orthographic Views](tool-library/orthographic-views.md)
+  * [Orthographic Camera](tool-library/orthographic-camera.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
   * [Railing Along Path](tool-library/railing-along-path.md)
   * [Rectangle](tool-library/rectangle-tool.md)
