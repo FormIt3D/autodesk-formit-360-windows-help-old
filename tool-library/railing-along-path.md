@@ -4,7 +4,7 @@
 
 In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
 
-![](../.gitbook/assets/railing-along-path_original.png)
+![](../.gitbook/assets/railing-along-path.gif)
 
 ## Starting Railing Along Path
 

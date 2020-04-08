@@ -10,5 +10,5 @@ Once in Orthographic camera, any other camera tools will respect the current mod
 
 If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position,  making it easier to access those pre-set views.
 
-![Orthographic Camera View](../.gitbook/assets/ortho_building.png)
+![](../.gitbook/assets/ortho-camera.gif)
 

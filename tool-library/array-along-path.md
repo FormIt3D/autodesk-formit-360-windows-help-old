@@ -4,7 +4,7 @@
 
 In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
 
-![](../.gitbook/assets/array-along-path_original.png)
+![](../.gitbook/assets/array-along-path.gif)
 
 ## Starting Array Along Path
 
