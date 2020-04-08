@@ -12,3 +12,5 @@ If you navigate manually to a pre-set Orthographic View, like Top View, or Front
 
 ![](../.gitbook/assets/ortho-camera.gif)
 
+**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again. 
+
