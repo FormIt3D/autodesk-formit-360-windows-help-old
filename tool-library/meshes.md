@@ -47,8 +47,8 @@ Once the Objects have been converted to Meshes, you'll see a confirmation messag
 
 * You won't be able to edit the individual faces, edges, or vertices of a Mesh.
   * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces \(see above\).
-* Snapping to Meshes is limited to the "faces" that comprise the Mesh - you won't be able to snap to edges or vertices of a Mesh
-  * However, DWG files converted to Meshes \(a different type of mesh known as a Linemesh\) will retain the ability to snap to edges and vertices.
+* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
+  * However, DWG files converted to Meshes \(a different type of mesh known as a Linemesh\) will retain the ability to snap to and inference to Mesh edges.
 * Meshes cannot have Levels applied to them.
 * Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not. 
   * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
