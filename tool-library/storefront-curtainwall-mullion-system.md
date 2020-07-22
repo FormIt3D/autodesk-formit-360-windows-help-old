@@ -43,9 +43,12 @@ Once you select glass and run the script, you'll get a result in the FormIt canv
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
+* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this. 
+* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
+* **Select Glass \(Surface or Solid\)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+
 The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
 
-* **Select Glass \(Surface or Solid\)**: Click this to update the selection to a different piece of glass around which to generate mullions.
 * **Mullion Width + Depth**: The width and depth of all mullion elements.
 * **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
 * **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
