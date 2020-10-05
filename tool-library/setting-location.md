@@ -8,6 +8,12 @@ Setting your your project's location in the world it is important for the accura
 
 You'll need to be signed in with your Autodesk account to access location and satellite imagery services. 
 
+### Importing Terrain
+
+The FormIt 2021.3 release adds the ability to import terrain from the **Set Location** dialog. By default, imported terrain is placed on a Terrain layer. Toggle this layer to see your imported terrain.
+
+![](../.gitbook/assets/terrain_solid.png)
+
 ### Getting Started With Location
 
 * Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
