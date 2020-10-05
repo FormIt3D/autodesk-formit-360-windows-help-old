@@ -2,17 +2,13 @@
 
 Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
 
-Keyboard: Y
-
 ![](../.gitbook/assets/image%20%289%29.png)
 
-To draw a polygon, first choose the center point and then specify the radius by drawing the second point. 
+Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-By default the polygon is generated with 5 sides. Hitting the **Tab** key will invoke the **Tool Options** dialog, where you can change the number of sides and the radius.
-
-
+**Tool Options** allows you to change the number of sides and specify a particular radius.
 
 ![](../.gitbook/assets/image.png)
 
