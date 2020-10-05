@@ -4,7 +4,7 @@ Draw parallel, or offset, lines using the Offset Line tool. This is useful to cr
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works similar to the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool: 
+The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool: 
 
 * Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes. 
 * A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
