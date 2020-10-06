@@ -10,7 +10,7 @@ FormIt features:
 
 * A robust solid modeling engine, with powerful tools and workflows optimized for building design
 * Enhanced environmental visualization to illustrate design options, including saved model states using Scenes
-* Location and satellite imagery using Bing Maps
+* Location, satellite imagery, and 3D terrain using Bing Maps
 * Materials from the Autodesk Material Library
 * Model organization and visibility tools like Groups, Layers, and Scenes
 * Analysis tools, including:
@@ -25,7 +25,7 @@ FormIt features:
   * [Revit](https://formit.autodesk.com/page/formit-revit)
 * File format support:
   * Open/Import
-    * AXM, DWG, SAT, STL, OBJ, WSM, SketchUp, Image
+    * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, Image
   * Export
     * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
@@ -85,7 +85,7 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 **What kind of 3D formats can FormIt import?**
 
-* Windows:  AXM, OBJ, DWG, STL, SAT, SKP
+* Windows:  AXM, DWG, FBX, OBJ, SAT, SKP, STL
 * Web: OBJ, STL
 * iOS: OBJ, STL, SAT
 
