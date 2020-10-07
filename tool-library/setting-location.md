@@ -3,16 +3,11 @@
 Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
 
 * Location is used to import a satellite image which can be used to trace an existing site or building
-* Location is used for accurate positioning of the sun in the sky, affecting calculation of shadows and shade studies
+* Location is used to import 3D terrain, which can be used to reference topological data for a site
+* Location is used for accurate positioning of the sun in the sky, affecting calculation of shadows
 * Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations
 
-You'll need to be signed in with your Autodesk account to access location and satellite imagery services. 
-
-### Importing Terrain
-
-The FormIt 2021.3 release adds the ability to import terrain from the **Set Location** dialog. By default, imported terrain is placed on a Terrain layer. Toggle this layer to see your imported terrain.
-
-![](../.gitbook/assets/terrain_solid.png)
+You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services. 
 
 ### Getting Started With Location
 
@@ -27,16 +22,16 @@ The FormIt 2021.3 release adds the ability to import terrain from the **Set Loca
 * Select one of the auto-populating location options, or hit Enter to choose the first one
 * You'll zoom in to the location you searched for automatically
 
-### Set Location Only vs. Import Satellite Image
+### Set Location Only vs. Import Satellite Image and Terrain
 
 Once you've searched for a location, you can choose one of two options:
 
 *  **Set Location Only** will set the location in the file without importing satellite imagery
-* **Import Satellite Image** will set the location, and will also import satellite imagery using a zoom level and extents you can configure
+* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure
 
 ### Importing Satellite Imagery
 
-* Click **Import Satellite Image** at the top right of the **Set Location** window
+* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window
 * A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery
 
 ![](../.gitbook/assets/location-step-2.png)
@@ -52,10 +47,53 @@ Once you've searched for a location, you can choose one of two options:
 After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
 
 * Start the **Set Location** window again by accessing it from the toolbar, as outlined above
-* Click **Import Satellite Image**
+* Click **Import Satellite Image and Terrain**
 * You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
 * Simply adjust the position or zoom, and click **Finish Importing** as you did before
 * When the image is re-imported into the canvas, it will move to the correct location relative to the original image position \(and may no longer be centered at the origin\):
 
 ![](../.gitbook/assets/location-step-4.png)
+
+### Importing Terrain
+
+New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain. 
+
+![](../.gitbook/assets/terrain-button_original.png)
+
+When terrain is imported, it's placed on a layer, which is off by default \(in case you've started modeling, your model may be covered by the terrain\). 
+
+When you're ready to view terrain, toggle the Terrain layer by checking the box:
+
+![](../.gitbook/assets/terrain-layer%20%281%29.png)
+
+![](../.gitbook/assets/terrain_solid.png)
+
+### Working with Terrain
+
+Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+
+Inside, you'll find two Meshes: One for the sides and bottom, and one for the top. 
+
+If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+
+* Select both Meshes
+* Right click, and choose the Meshes to Objects option, or use shortcut MO
+
+![](../.gitbook/assets/terrain-mesh-context.png)
+
+When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+
+From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+
+![](../.gitbook/assets/terrain-cutter-before.png)
+
+Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+
+![](../.gitbook/assets/terrain-cut-menu.png)
+
+The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation. 
+
+![](../.gitbook/assets/terrain-cutter-after.png)
+
+You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
 
