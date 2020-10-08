@@ -104,21 +104,25 @@ Materials with names that display in a grey font indicate that those Materials t
 
 ## Create and Edit Materials
 
-![](../.gitbook/assets/materials-editor.png)
+![](../.gitbook/assets/materials-editor%20%281%29.png)
 
   
 When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
 
 * **Color**
-* **Texture from an image file**
-  * JPG or PNG
-* **Bump map from an image file**
-  * JPG recommended
-  * Great for adding depth effects to Materials.
-  * You can use freeware like ShaderMap to generate bump maps given a texture.
-* **Cutout map from an image file**
-  * PNG
-  * Great for Materials that have selective transparency, like chainlink fences or perforated panels. 
+* **Image Maps**
+  * Click the thumbnail to choose a new map
+  * Click the Save icon to save the map for editing in another application
+  * Click the Delete icon to delete the map from this material
+    * **Texture from an image file**
+      * JPG or PNG
+    * **Bump map from an image file**
+      * JPG recommended
+      * Great for adding depth effects to Materials.
+      * You can use freeware like ShaderMap to generate bump maps given a texture.
+    * **Cutout map from an image file**
+      * PNG
+      * Great for Materials that have selective transparency, like chainlink fences or perforated panels.
 * **Name**
 * **Horizontal and Vertical Scale**
   * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio. 
