@@ -4,7 +4,7 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 
 ## Conceptual Massing in FormIt
 
-* FormIt objects become Revit Mass Families with materials applied. This supports the Wall by Face, Curtain System by Face, and Roof by Face workflow for creating detailed elements
+* FormIt objects become Revit Mass Families with materials applied. This supports the Wall by Face, Curtain System by Face, and Roof by Face workflows for creating detailed elements
 * FormIt Levels become Revit Levels and support Mass Floors, Floor by Face, and Floor Plan view creation
 
 ## Conceptual Modeling with Revit content in FormIt

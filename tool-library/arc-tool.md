@@ -6,7 +6,7 @@ Use the Arc tool to create half circles or symmetrical arcs. There are two ways 
 
 ![](../.gitbook/assets/arc_by_3points.png)
 
-An arc is defined by three points and can be draw on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
 
 You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
 
