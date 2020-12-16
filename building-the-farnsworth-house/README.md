@@ -8,7 +8,7 @@ In this primer, we are going to go over FormIt tools and interactions to build a
 
 ![](../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Prerequisites for this Turorial:
+### Prerequisites for this Tutorial:
 
 Download and install FormIt following the directions found in the FormIt Introduction section: [**Prerequisites and Installation**](../formit-introduction/prerequisites-and-installation.md). The Farnsworth House datasets can be downloaded from:
 
