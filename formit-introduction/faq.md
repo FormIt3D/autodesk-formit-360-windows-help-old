@@ -43,7 +43,7 @@ Additionally, the Web version can be run directly for free from our website: [ht
 
 The iOS version can be downloaded for free from the Apple App Store \(iPad only\).
 
-**If I am a student or educator, can I get access for FormIt Pro for no cost?**
+**If I am a student or educator, can I get access to FormIt Pro for no cost?**
 
 Yes! You can access the FormIt Pro subscription through the [Autodesk Education Portal](https://www.autodesk.com/education/free-software/formit-pro).
 
