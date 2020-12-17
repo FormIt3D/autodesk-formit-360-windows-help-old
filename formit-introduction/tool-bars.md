@@ -22,7 +22,7 @@ The standard toolbar is enabled by default, but is split into the following sect
 4. [**3D Sketching Tools**](../building-the-farnsworth-house/3d-sketching.md)
 5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
 6. [**Advanced Geometry**](../building-the-farnsworth-house/advanced-modeling.md) toolbar with Join, Cut, Sweep, Loft, and Shell
-7. [**Groups** ](../tool-library/groups.md)**t**oolbar
+7. [**Groups** ](../tool-library/groups.md)toolbar
 
 ### Settings
 
