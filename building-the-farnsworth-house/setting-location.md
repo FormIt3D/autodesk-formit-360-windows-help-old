@@ -15,7 +15,7 @@ Setting your project’s location in the world is important for the accuracy of 
 
    ![](../.gitbook/assets/894bd8ae-cb86-4330-ae3f-fe58ac39ab73.png)
 
-5. The Satellite image is imported to real world scale with true North facing up
+5. The Satellite image is imported to real-world scale with true North facing up
 
    ![](../.gitbook/assets/satimageincanvas.png)
 
@@ -23,7 +23,7 @@ Setting your project’s location in the world is important for the accuracy of 
 
    ![](../.gitbook/assets/northarrow.png)
 
-7. Finally **select the satellite image** by double clicking it. Click the [**Properties Palette**](../formit-introduction/tool-bars.md) and lower the transparency slider about **1/3**.
+7. Finally, **select the satellite image** by double clicking it. Click the [**Properties Palette**](../formit-introduction/tool-bars.md) and lower the transparency slider about **1/3**.
 
    ![](../.gitbook/assets/properties.png)
 

@@ -12,7 +12,7 @@ Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md
 
 * Units:
 
-  ![](../.gitbook/assets/69fa8a69-57f3-4eaa-a00a-4976732b1547.png)
+  ![](../.gitbook/assets/formit_units.png)
 
   * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
 
