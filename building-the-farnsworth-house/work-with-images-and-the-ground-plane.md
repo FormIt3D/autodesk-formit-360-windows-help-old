@@ -8,23 +8,23 @@ You may import PNG or JPG images onto the ground plane by using the File &gt; Im
 
    ![](../.gitbook/assets/topview.png)
 
-2. Choose the [**Rectangle tool \(R\)**](../tool-library/rectangle-tool.md) from the 3D Sketch toolbar and draw a rectangle **144'** by **96'**
+2. Choose the [**Rectangle tool \(R\)**](../tool-library/rectangle-tool.md) from the 3D Sketch toolbar. Draw a rectangle **144'** by **96'** by clicking to set the points**.** 
 
    ![](../.gitbook/assets/rectangletoolbar.png)
 
-3. While the dimension is visible, simply start typing a value to access a dialog where you can input exact dimensions. Click **OK** to commit the dimension. Click **Esc** to clear the Rectangle tool
+3. After setting a point and defining the length of a side, the dimension will remain visible. Start typing a dimension value to access a dialog where you can input exact dimensions. Click **OK** to commit the dimension. Click **Esc** to clear the Rectangle tool
 
    ![](../.gitbook/assets/rectanglecanvas.png)
 
 4. Open the [**Material Palette**](../formit-introduction/tool-bars.md) and click the **+** icon to create a new material
 
-   ![](../.gitbook/assets/newmaterial.png)
+   ![](../.gitbook/assets/new-materials.png)
 
 5. Name the new material **Floor Plan**
 6. Import the image texture. Find the Texture preview tile and click the **folder icon**, browse to **plan.png** in the **FormIt Primer release\Part 1 datasets\drawings** folder, click OK
 7. Change the scale of the image. Enter **144'** in the Horizontal field and **96'** in the Vertical field, click OK to finish the material
 
-   ![](../.gitbook/assets/8f0f2e11-ecfb-484d-94f6-0930c8ad7b20.png)
+   ![](../.gitbook/assets/plan_material%20%281%29.png)
 
 8. In the [**Material Palette**](../formit-introduction/tool-bars.md) **single click** on the **Floor Plan material** tile to paint with this material
 9. Click on the **rectangle** you sketched to paint it with the material. Click **Esc** to clear the paintbrush tool
@@ -44,16 +44,16 @@ You may import PNG or JPG images onto the ground plane by using the File &gt; Im
 
 ## Align the Grid to the Satellite Image
 
-1. Now we will align the grid with the Satellite image and the floor plan. **Right click** on the **ground plane** and choose [**Set Axes \(SZ\)**](../tool-library/world-axes.md).
+1. Now we will align the grid with the Satellite image and the floor plan. **Right-click** on the **ground plane** and choose [**Set Axes \(SZ\)**](../tool-library/world-axes.md).
 
    ![](../.gitbook/assets/setaxis.png)
 
-2. The Set Axis widget appears. Move the axis to the bottom left corner of the of the rectanle. Click to place it
-3. Click the grip at the end of the red axis. Move the grip so that it snaps to the bottom edge of the plane. Click off in space to commit this change
+2. The Set Axis widget appears. Move the axis to the bottom left corner of the of the rectanle. Click to place it.
+3. Click the grip at the end of the red axis. Move the grip so that it snaps to the bottom edge of the plane. Click off in space to commit this change.
 
    ![](../.gitbook/assets/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
 
-4. The satellite image, the rectangle and the grid are now aligned – which will make 3D sketching much easier
+4. The satellite image, the rectangle, and the grid are now aligned, simplifying 3D sketching.
 
-   ![](../.gitbook/assets/sitefinished.png)
+   ![](../.gitbook/assets/aligned-axis.png)
 

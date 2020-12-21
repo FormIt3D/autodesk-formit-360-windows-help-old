@@ -24,7 +24,7 @@ Levels allow you to slice masses with individual floor datums and calculate gros
    ![](../.gitbook/assets/upperterracesketch_4.png)
 
 3. In the [**Properties Palette**](../formit-introduction/tool-bars.md), click **Use Levels**
-4. You can uncheck Levels you don't want to contribute towards gross area. **Uncheck** Floor 1 and Terrace so only the **Level 1** is checked
+4. You can uncheck Levels you don't want to contribute towards the gross area. **Uncheck** Floor 1 and Terrace so only **Level 1** is checked
 5. The Properties Palette now reads the area of this mass!
 
    ![](../.gitbook/assets/levelsproperties.png)
