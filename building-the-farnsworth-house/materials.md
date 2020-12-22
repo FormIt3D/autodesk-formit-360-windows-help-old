@@ -8,16 +8,16 @@ As we saw in an [**earlier exercise**](work-with-images-and-the-ground-plane.md)
 
    ![](../.gitbook/assets/rectangletoolbar.png)
 
-2. Click to start the rectangle sketch at the back corner of the existing floor. Draw the rectangle at these dimensions: **28'-8" x 55'-5 ½"**
-3. Click **Esc** to exit the rectangle tool. **Single click** inside the new rectangle to select the face
+2. Click to start the rectangle sketch at the back corner of the existing floor. Draw the rectangle at these dimensions: **28'-8" x 55'-5 ½".**
+3. Click **Esc** to exit the rectangle tool. **Single-click** inside the new rectangle to select the face.
 
    ![](../.gitbook/assets/upperterracesketch_6.png)
 
-4. Click once to start the **Drag face** operation. Move your mouse upwards along the Z axis, and click the **Tab key** to set the height to **11'-2"**
-5. **Double click** and **Group \(G\)** the new geometry
-6. **Double click** the group to edit it. In the **Properties Palette** name the group **Glass Walls**
-7. Right click on the top face and choose the [**Offset Face tool \(OF\)**](../tool-library/extrude-cut-and-offset-faces.md)
-8. Move your mouse cursor inward, press the **Tab key** and type in **4"**
+4. Click once to start the **Drag face** operation. Move your mouse upwards along the Z-axis, and click the **Tab key** to set the height to **11'-2".**
+5. **Double-click** and **Group \(G\)** the new geometry.
+6. **Double-click** the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+7. Right-click on the top face and choose the [**Offset Face tool \(OF\)**](../tool-library/extrude-cut-and-offset-faces.md)**.**
+8. Move your mouse cursor inward, press the **Tab key,** and type in **4".**
 
    ![](../.gitbook/assets/e4e0493a-36f3-488e-9df1-f0daa1dcf407.png)
 
