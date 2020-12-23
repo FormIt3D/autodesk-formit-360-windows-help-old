@@ -11,16 +11,16 @@ Use **Section Planes** to cut your model, revealing interior spaces and structur
 
    ![](../.gitbook/assets/sectiontemp.png)
 
-4. **Click** to place the **Section plane**. The plane scales to the size of your model, and stays selected.
-5. Click the plane again to start the **move** tool and push the plane **inward**. Click again to **place** the plane in its final location. Once you're happy with the position, hit **Esc** to clear the selection
+4. **Click** to place the **Section plane**. The plane scales to the size of your model and stays selected.
+5. Click the plane again to start the **move** tool and push the plane **inward**. Click again to **place** the plane in its final location. Once you're happy with the position, hit **Esc** to clear the selection.
 
    ![](../.gitbook/assets/section_1.png)
 
-6. Go to the **Layers** tab. Two new layers have been generated - **Section Indicators** and **Section Cut 1**. Toggle **Section Cut 1** off and back on. This controls the cut effect. Now toggle the **Section Indicator** layer off, this hides the plane, and the arrow indicators, but leaves the cut effective
-7. Go to the **Visual Styles** tab. On the **Surfaces** panel, turn on the Poche color - it defaults to Black. This effect will color the inside faces of the section cut with a specified color
+6. Go to the **Layers** tab. Two new layers have been generated - **Section Indicators** and **Section Cut 1**. Toggle **Section Cut 1** off and back on. This controls the cut effect. Now toggle the **Section Indicator** layer off, this hides the plane, and the arrow indicators, but leaves the cut effective.
+7. Go to the **Visual Styles** tab. On the **Surfaces** panel, turn on the Poche color - it defaults to Black. This effect will color the inside faces of the section cut with a specified color.
 
-   ![](../.gitbook/assets/section_2.png)
+   ![](../.gitbook/assets/section_2.png).
 
-8. You can add up to **6 section cuts** to your model. You can experiment by navigating to the **Aerial View** scene and placing a section plane that removes the roof
-9. Make sure to return to the Scenes tab and update your scenes, so that your Section graphics are stored as desired
+8. You can add up to **6 section cuts** to your model. You can experiment by navigating to the **Aerial View** scene and placing a section plane that removes the roof.
+9. Make sure to return to the Scenes tab and update your scenes, so that your Section graphics are stored as desired.
 
