@@ -2,16 +2,16 @@
 
 Use **Section Planes** to cut your model, revealing interior spaces and structural elements. FormIt supports multiple Section Planes at once for a Section Box-like effect. 
 
-1. Click the Section Plane tool from the **main toolbar.** You can also use shortcut **SP** to start the Section Plane tool.
+1. Click the Section Plane tool from the **main toolbar.** You can also use the shortcut **SP** to activate the Section Plane tool.
 
    ![](../.gitbook/assets/sectionicon.png)
 
-2. Hover your mouse over one of the glass faces. The arrow indicators on the Section Plane indicate the direction of the section cut - in this case, towards the building
-3. Note that while placing the Section Plane, you can hit Tab to change the orientation of the plane
+2. Hover your mouse over one of the glass faces. The arrow indicators on the Section Plane indicate the direction of the section cut - in this case, towards the building.
+3. Note that while placing the Section Plane, you can hit Tab to change the orientation of the plane.
 
    ![](../.gitbook/assets/sectiontemp.png)
 
-4. **Click** to place the **Section plane**. The plane scales to the size of your model, and stays selected
+4. **Click** to place the **Section plane**. The plane scales to the size of your model, and stays selected.
 5. Click the plane again to start the **move** tool and push the plane **inward**. Click again to **place** the plane in its final location. Once you're happy with the position, hit **Esc** to clear the selection
 
    ![](../.gitbook/assets/section_1.png)
