@@ -85,32 +85,32 @@ The steps below are for **your reference**. These files have already been conver
 
 ## Export Selected from FormIt
 
-In this exercise we'll cover a powerful tool in FormIt called **Export Selected** then **Reload Families** in Revit
+In this exercise we'll cover a powerful tool in FormIt called **Export Selected.** After, we'll explore the **Reload Families** feature in Revit.
 
-1. Open the **farnsworth09.axm** file in FormIt. Turn on the **furniture** layer, and turn off the **roof** layer
-2. Select the **Corbu chair** that we placed in an earlier exercise
-3. Choose **File &gt; Export \(Ctrl + E\)**. The dialog defaults to choose AXM from the list on the left - this is what we want
-4. Choose the **Selected Only** option from the list along the top of the dialog
+1. Open the **farnsworth09.axm** file in FormIt. Turn on the **furniture** layer, and turn off the **roof** layer.
+2. Select the **Corbu chair** that we placed in an earlier exercise.
+3. Choose **File &gt; Export \(Ctrl + E\)**. The dialog defaults to choose AXM from the list on the left - this is what we want.
+4. Choose the **Selected Only** option from the list along the top of the dialog.
 
    ![](../.gitbook/assets/exportselected.png)
 
-5. Click the **Export** button, and save the file on your system. Name it **Chair.AXM**
+5. Click the **Export** button, and save the file on your system. Name it **Chair.AXM.**
 
 ## Reload Families in Revit
 
-1. In Revit, open the the **Farnsworth.RVT** file
-2. Choose to **Import FormIt to Revit**. Choose the **Chair.AXM** file from the previous steps
-3. You can **hide** the roof by selecting it, right click, and choosing **Hide in View &gt; Element**
-4. Revit will import the geometry, and place it in the correct location relative to the previously imported geometry. The origin point of the FormIt and Revit file are in sync
+1. In Revit, open the the **Farnsworth.RVT** file.
+2. Choose to **Import FormIt to Revit**. Choose the **Chair.AXM** file from the previous steps.
+3. You can **hide** the roof by selecting it, right click, and choosing **Hide in View &gt; Element.**
+4. Revit will import the geometry, and place it in the correct location relative to the previously imported geometry. The origin point of the FormIt and Revit file are in sync.
 
    ![](../.gitbook/assets/chairrevit.png)
 
-5. This imported chair is NOT the original RFA yet. We have to perform one more step. Go to the **Reload Families** option in the **FormIt Converter** Add-In
+5. This imported chair is NOT the original RFA yet. We have to perform one more step. Go to the **Reload Families** option in the **FormIt Converter** Add-In.
 
    ![](../.gitbook/assets/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
-6. In the dialog, input the path to the folder containing the original RFA **FormIt Primer\content\RFA**
-7. Revit will swap out the FormIt version for the original RFA
+6. In the dialog, input the path to the folder containing the original RFA **FormIt Primer\content\RFA.**
+7. Revit will swap out the FormIt version for the original RFA.
 
    ![](../.gitbook/assets/chairexport2.png)
 
@@ -121,12 +121,12 @@ If you want to export Revit model elements \(like Walls and Floors\) for use in 
 A few tips to make this process work well
 
 1. Work in a default 3D view in Revit
-2. Turn off all of the categories in the Revit view, then turn on **ONLY** the categories you need. The SAT export brings visible elements only
-3. Use **Temporary Hide Isolate** or filters to export specific elements. **Section Box** does not work to filter out elements for export
-4. When you **Import SAT** models to FormIt, they will appear in the same location relative the origin point in **Revit**. This makes going back and forth between the applications easier
-5. If you want to import a **large** Revit model to FormIt, then turn on only one category at a time. Export just that category to SAT. Import just one SAT at a time to FormIt and put that import on a **layer**. This process will keep elements isolated from each other. Repeat for however many categories you want
+2. Turn off all of the categories in the Revit view, then turn on **ONLY** the categories you need. The SAT export brings visible elements only.
+3. Use **Temporary Hide Isolate** or filters to export specific elements. **Section Box** does not work to filter out elements for export.
+4. When you **Import SAT** models to FormIt, they will appear in the same location relative the origin point in **Revit**. This makes going back and forth between the applications easier.
+5. If you want to import a **large** Revit model to FormIt, then turn on only one category at a time. Export just that category to SAT. Import just one SAT at a time to FormIt and put that import on a **layer**. This process will keep elements isolated from each other. Repeat for as many categories you want.
 
-   ![](../.gitbook/assets/exportsat.png)
+   ![](../.gitbook/assets/export-as-acis.png)
 
-**Note**: _Family and category information is not transferred back to FormIt when exporting to SAT_
+**Note**: _Family and category information is not transferred back to FormIt when exporting to SAT._
 
