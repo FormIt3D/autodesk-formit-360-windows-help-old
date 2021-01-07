@@ -6,11 +6,9 @@ Keyboard: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-To draw a circle, first choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
+To draw a circle, first, choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
 
-![](../.gitbook/assets/circle-1.png)
+![](../.gitbook/assets/circle1.png)
 
-![](../.gitbook/assets/circle-2.png)
-
-![](../.gitbook/assets/circle-3.png)
+![](../.gitbook/assets/circle2.png)
 
