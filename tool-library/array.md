@@ -4,9 +4,9 @@ You can create both linear and radial arrays in FormIt. To **array edges, faces,
 
 ## Linear
 
-![](../.gitbook/assets/array_tool.png)  
-![](../.gitbook/assets/array-properties.PNG)  
-![](../.gitbook/assets/array-step-1.png)
+![](../.gitbook/assets/array.png)  
+![](../.gitbook/assets/array_linear2.png)  
+![](../.gitbook/assets/linear_array_3.png)
 
 ## Radial
 

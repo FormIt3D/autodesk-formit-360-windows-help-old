@@ -10,9 +10,9 @@ In FormIt 2021 and newer, you can generate and modify 3D Text objects, which are
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the 3D Text sample
-* Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor
+* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
+* Click the 3D Text sample.
+* Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor.
   * Before placing, you can hover over geometry to orient the 3D Text differently - for example, on a vertical surface to get the text to align itself vertically. You can also hit Tab to cycle between orientations.
 * Click to place the 3D Text, which will be generated inside a FormIt Group.
 * After placing, the Properties panel will show up to reveal the available options for 3D Text.
@@ -41,9 +41,9 @@ Note that some fonts have more complex geometry, and may take more time to gener
 
 This will move the text to align relative to the Group's Local Coordinate System origin. 
 
-* Left will ensure the text starts at the Group's origin, and expands to the right
-* Center will ensure the text is always centered about the Group's origin
-* Right will ensure the text ends at the Group's origin
+* Left will ensure the text starts at the Group's origin, and expands to the right.
+* Center will ensure the text is always centered about the Group's origin.
+* Right will ensure the text ends at the Group's origin.
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 

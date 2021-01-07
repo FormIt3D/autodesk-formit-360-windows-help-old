@@ -8,8 +8,8 @@ In FormIt 2021 and newer, you can array objects along a path, and quickly custom
 
 ## Starting Array Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Array Along Path sample
+* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
+* Click the Array Along Path sample.
 * On the left side of the screen, you'll see a prompt to "Select object\(s\) to array."
   * You can select any mix of FormIt objects for this step.
   * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
