@@ -8,7 +8,7 @@ See Layers in action by following the [FormIt Primer.](https://windows.help.form
 
 In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. 
 
-![](../.gitbook/assets/20191216-layers-panel-1.png)
+![](../.gitbook/assets/layers_window.png)
 
 You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the box.
 

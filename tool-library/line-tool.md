@@ -16,5 +16,5 @@ To specify a length, simply type a dimension value, and an Edit Dimension dialog
 * Y = Green
 * Z = Blue
 
-![](../.gitbook/assets/line-tool.png)
+![](../.gitbook/assets/lines.png)
 

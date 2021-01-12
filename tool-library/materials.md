@@ -41,7 +41,7 @@ Other directories and locations will appear after [linking Material libraries](h
 ![](../.gitbook/assets/materials_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it. 
 
 * Click the Eyedropper tool, then click a face painted with a Material
-* The Material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
+* The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
 
 ### Refresh, Link Libraries, and Purge Unused
 
@@ -78,7 +78,7 @@ FormIt 2021 and newer offers the ability to link the Materials panel to local di
 
 Once you're in the Paintbrush tool:
 
-* Paint faces and Groups by single clicking.
+* Paint faces and Groups by single-clicking.
   * When painting Groups, the Material will cascade into the nested geometry and will cover any surface or Group painted with the Default Material.
 * Paint entire solids by double-clicking a face to select everything attached.
 
@@ -111,9 +111,9 @@ When you create or edit a Material, you'll see the Material Editor dialog, where
 
 * **Color**
 * **Image Maps**
-  * Click the thumbnail to choose a new map
-  * Click the Save icon to save the map for editing in another application
-  * Click the Delete icon to delete the map from this material
+  * Click the thumbnail to choose a new map.
+  * Click the Save icon to save the map for editing in another application.
+  * Click the Delete icon to delete the map from this material.
     * **Texture from an image file**
       * JPG or PNG
     * **Bump map from an image file**
@@ -134,7 +134,7 @@ When you create or edit a Material, you'll see the Material Editor dialog, where
 
 When painting a Material on a face, FormIt takes a best guess as to the best orientation:
 
-* Vertical faces will orient with the texture's top oriented along the Z axis.
+* Vertical faces will orient with the texture's top oriented along the Z-axis.
 * Horizontal faces will orient the texture lengthwise along the longest side of the face.
 
 Use the **Adjust Material Placement** tool to override the default Material placement, as well as the Material's scale on specific faces:
