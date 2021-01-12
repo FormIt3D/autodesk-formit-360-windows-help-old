@@ -1,6 +1,6 @@
 # Layers
 
-Use Layers to control visibility of FormIt objects. 
+Use Layers to control the visibility of FormIt objects. 
 
 See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 

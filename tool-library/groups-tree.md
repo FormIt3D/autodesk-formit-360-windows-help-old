@@ -5,8 +5,8 @@ The **Groups Tree** palette provides a single place to manage all of the groups 
 * **Select**: Each instance is listed individually. Select an instance in the tree and the instance\(s\) are selected in the 3D scene.
 * **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
 * **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: : To delete a group, use the \(**-**\) icon at the top of the palette or right-click and choose Delete.
+* **Delete**: To delete a group, use the \(**-**\) icon at the top of the palette or right-click and choose Delete.
 * **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
 
-![](../.gitbook/assets/groups_tree.png)
+![](../.gitbook/assets/groups.png)
 

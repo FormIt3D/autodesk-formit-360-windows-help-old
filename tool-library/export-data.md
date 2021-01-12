@@ -14,9 +14,9 @@ The following file formats can be imported.
 
 ## Exporting Data
 
-FormIt can export the following file formats: AXM \(FormIt file\), FBX, SAT, STL, DAE, DXF, OBJ \(materials and 3D in a single ZIP file\), PNG images.
+FormIt can export the following file formats: AXM \(FormIt file\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materials and 3D in a single ZIP file\), PNG images.
 
 When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
 
-![](../.gitbook/assets/export_data.png)
+![](../.gitbook/assets/export_window.png)
 

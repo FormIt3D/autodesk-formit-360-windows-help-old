@@ -9,13 +9,13 @@ To create more complex designs after sketching a shape or placing a primitive, y
 To **tilt a face:**
 
 1. Select a face and right-click to see the context menu. 
-2. Choose the **Tilt** icon from the context menu 
+2. Choose the **Tilt** icon from the context menu.
 3. Define the tilt axis by drawing a line. 
 4. Click a third point to start the tilt operation.
 
-![](../.gitbook/assets/tilt-tool.png)  
-![](../.gitbook/assets/tilt-step-1.PNG)  
-![](../.gitbook/assets/tilt-step-2.png)
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
+![](../.gitbook/assets/tilt3.png)
 
 ### Facet / Smooth Faces
 
@@ -30,23 +30,5 @@ This command works in the opposite way, also: you can select faces that are face
 ![](../.gitbook/assets/facet-tool.png)  
 ![](../.gitbook/assets/facet-finish.PNG)
 
-## Array
-
-To **array edges, faces, or entire objects:** 
-
-1. From the context menu, click on the **Array** tool. 
-2. Choose to create a linear or radial array and specify the other parameters. 
-3. Click the object to start an array, and click again to place arrayed elements.
-
-Linear:
-
-![](../.gitbook/assets/array-tool.png)  
-![](../.gitbook/assets/array-properties.PNG)  
-![](../.gitbook/assets/array-step-1.png)
-
-Radial:
-
-![](../.gitbook/assets/array-radial-1.PNG)  
-![](../.gitbook/assets/array-radial-3.PNG)  
-![](../.gitbook/assets/array-radial-finish.PNG)
+## 
 

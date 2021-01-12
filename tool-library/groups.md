@@ -8,9 +8,9 @@ Groups can be created and edited in two ways: either from the context menu of a 
 
 To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group \(G\)** tool from the context menu. Imported images and satellite images cannot be grouped.
 
-To **select a group**,  single click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+To **select a group**,  single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
 
-To **edit a group**, double click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
 
 You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
 
@@ -20,7 +20,7 @@ You can **copy a group** to create a relationship between the original group and
 
 To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them.You can then perform an action on all groups at once.
+To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
 
 The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
 
