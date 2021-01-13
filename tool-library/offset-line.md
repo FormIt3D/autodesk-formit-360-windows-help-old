@@ -8,7 +8,7 @@ The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.
 
 * Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes. 
 * A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool
+* Continue adding points, and **Escape** or double click to finish the tool.
 * Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
 
 ![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
@@ -46,7 +46,7 @@ Start drawing on the side of a cube, for example, to use the plane of that face.
 You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image. 
 
 * Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). 
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md)
+* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
 
 ![](../.gitbook/assets/walls9.png)
 
