@@ -9,6 +9,6 @@ You can change the orientation of objects using the Rotate tool in the Context M
 
 Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
 
-![](../.gitbook/assets/rotate-tool.png)  
-![](../.gitbook/assets/rotate.PNG)
+![](../.gitbook/assets/rotate1.png)  
+![](../.gitbook/assets/rotate2.png)
 
