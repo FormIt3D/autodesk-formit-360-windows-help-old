@@ -12,5 +12,5 @@ You can toggle the grid line's visibility on and off to benefit from work plane 
 
 You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings &gt; **Snap to Grid \(SG\)**
 
-![](../.gitbook/assets/guid-ccdc46ef-8523-430c-8b6e-074d6d5236e1-low.gif)
+![](../.gitbook/assets/work-plane.gif)
 
