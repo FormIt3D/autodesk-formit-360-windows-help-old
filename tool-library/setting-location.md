@@ -2,10 +2,10 @@
 
 Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
 
-* Location is used to import a satellite image which can be used to trace an existing site or building
-* Location is used to import 3D terrain, which can be used to reference topological data for a site
-* Location is used for accurate positioning of the sun in the sky, affecting calculation of shadows
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations
+* Location is used to import a satellite image which can be used to trace an existing site or building.
+* Location is used to import 3D terrain, which can be used to reference topological data for a site.
+* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
+* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
 
 You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services. 
 
@@ -26,19 +26,19 @@ You'll need to be signed in with your Autodesk account to access the Set Locatio
 
 Once you've searched for a location, you can choose one of two options:
 
-*  **Set Location Only** will set the location in the file without importing satellite imagery
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure
+*  **Set Location Only** will set the location in the file without importing satellite imagery.
+* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
 
 ### Importing Satellite Imagery
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery
+* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
+* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
 
 ![](../.gitbook/assets/location-step-2.png)
 
 * Drag the satellite imagery within the square to adjust its position
 * Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
+* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -46,8 +46,8 @@ Once you've searched for a location, you can choose one of two options:
 
 After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above
-* Click **Import Satellite Image and Terrain**
+* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
+* Click **Import Satellite Image and Terrain.**
 * You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
 * Simply adjust the position or zoom, and click **Finish Importing** as you did before
 * When the image is re-imported into the canvas, it will move to the correct location relative to the original image position \(and may no longer be centered at the origin\):

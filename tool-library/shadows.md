@@ -12,7 +12,7 @@ Turn shadows on in the Sun + Shadows menu at the top of the application \(you ca
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
 
 ### The Sun Editor
 
