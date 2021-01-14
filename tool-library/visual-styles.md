@@ -10,7 +10,7 @@ Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/bu
 
 Manage the way surfaces are displayed and shaded.
 
-![](../.gitbook/assets/surfaces.PNG)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
 **Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
 
