@@ -24,5 +24,5 @@ Click the checkmark to finish the command. The object that was removed remains i
 
 1. Double-click to select the object to be cut into. \(Single-click for a Group\)
 2. Holding the **CTRL key** double click an overlapping object\(s\) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](../.gitbook/assets/cut-tool.png)
+3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](../.gitbook/assets/booleancut.png)
 
