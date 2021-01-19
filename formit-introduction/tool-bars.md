@@ -16,7 +16,7 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. **Selection** and area selection filters
+1. \*\*\*\*[**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****and area selection filters
 2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) ****tools
 3. [**Section Planes**](../tool-library/section-planes.md)
 4. [**3D Sketching Tools**](../building-the-farnsworth-house/3d-sketching.md)
