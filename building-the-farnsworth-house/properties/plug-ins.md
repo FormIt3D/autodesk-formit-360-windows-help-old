@@ -8,7 +8,7 @@ The FormIt Plugin Manager works as a hub for discovering and managing Formit plu
 
 The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
 
-You can access it by clicking its tab icon on the right side of the application window:
+You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
@@ -28,7 +28,8 @@ You can access it by clicking its tab icon on the right side of the application 
   * Toggle the switch to install or uninstall it.
     * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
 * If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit \(+\):
-* ![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+
+![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
 #### How Plugins Work
 
