@@ -33,6 +33,7 @@
   * [Import Models with Content Library](building-the-farnsworth-house/import-export-and-content-library.md)
   * [Solar and Energy Analysis](building-the-farnsworth-house/solar-and-energy-analysis.md)
   * [Working with Revit](building-the-farnsworth-house/revit-interop.md)
+  * [Properties](building-the-farnsworth-house/properties.md)
   * [Visual Styles](building-the-farnsworth-house/visual-settings.md)
   * [Section Planes](building-the-farnsworth-house/section_planes.md)
   * [Export Image](building-the-farnsworth-house/export_image.md)

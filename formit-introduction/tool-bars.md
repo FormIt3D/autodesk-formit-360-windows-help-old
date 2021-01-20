@@ -62,7 +62,7 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ![](../.gitbook/assets/undo.png) [**Undo Manager**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin_img.png) [**P**lug-Ins](../tool-library/materials.md)
+![](../.gitbook/assets/plugin_img.png) **Plug-Ins**
 
 ## Context Menu
 

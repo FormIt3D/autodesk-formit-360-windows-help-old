@@ -27,8 +27,8 @@ If you hover over a face and notice dotted lines, this means the face is made up
 
 This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
 
-![](../.gitbook/assets/facet-tool.png)  
-![](../.gitbook/assets/facet-finish.PNG)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
 
 ## 
 
