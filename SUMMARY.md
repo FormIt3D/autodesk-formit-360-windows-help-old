@@ -21,7 +21,7 @@
 * [FormIt Primer - Part 1](building-the-farnsworth-house/README.md)
   * [1.1 - Set the Location](building-the-farnsworth-house/setting-location.md)
   * [1.2 - Project Set-Up with Images and Grid](building-the-farnsworth-house/work-with-images-and-the-ground-plane.md)
-  * [3D Sketch and Drag Face](building-the-farnsworth-house/3d-sketching.md)
+  * [1.3 - 3D Sketch and Drag Face](building-the-farnsworth-house/3d-sketching.md)
   * [Add Floors with Levels](building-the-farnsworth-house/adding-floors-with-levels.md)
   * [Group Objects](building-the-farnsworth-house/grouping-objects.md)
   * [Control Visibility with Layers](building-the-farnsworth-house/control-visibility-with-layers.md)
