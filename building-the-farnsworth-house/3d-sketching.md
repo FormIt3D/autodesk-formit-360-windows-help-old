@@ -1,76 +1,55 @@
-# 1.3 - 3D Sketch and Drag Face
+# 3D Sketch and Drag Face
 
-~~We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes.~~
+If you did not complete the last section, download and open the **farnsworth01.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-If you did not complete the last section, download and open the **1.3 - 3D Sketch and Drag Face.axm** file from the[ **Farnsworth House Data Set**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house).
+## Drawing Lines
 
-‌
+1. Make sure that you're in the **3D Perspective** view by clicking the 3D icon in the Navigation bar
 
-**Draw Faces with Lines**
+   ![](../.gitbook/assets/3d-view.png)
 
-‌
+2. **Group** the rectangle in order to prevent new geometry from "sticking" to it. **Double click** the rectangle to select it. **Right-click** and choose **Group \(G\)**
 
-1. To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective \(VP\)** and **3D View \(V3\).**
+   ![](../.gitbook/assets/groupcontext.png)
 
-![](../.gitbook/assets/0%20%282%29.png)
+3. Click the **Pencil** to open the [**Sketching Toolbar**](../formit-introduction/tool-bars.md) Choose the [**Line tool \(L\)**](../tool-library/line-tool.md)
 
-1. Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group \(G\).**
+   ![](../.gitbook/assets/3dsketchlinetool.png)
 
-![](../.gitbook/assets/1%20%282%29.png)
+4. You are ready to start sketching out the upper terrace of the Farnsworth house. Click [**here**](../tool-library/world-axes.md) to learn more about 3D sketching with World Axes. Now let's start by creating a rectangle on the imported image
+5. Click **Settings &gt; turn off Snap to Grid \(S G\)**
+6. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch
+7. **Move** your mouse along the red axis that appears. Click the **Tab key** to input the exact dimension. Make the long side **77'-4 1\8"**
 
-1. When tracing plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid \(SG\).**
+   ![](../.gitbook/assets/upperterracesketch.png)
 
-![](../.gitbook/assets/2%20%282%29.png)
+8. **Move your mouse** down along the green axis to define the short edge of the upper terrace. Set the dimension of the short side **28'-8**"
+9. To define the other edge of the rectangle, **move your mouse** along the red axis and hold down the **Shift key**. The red axis line with thicken to indicate that the line is locked to this axis
 
-1. To start drawing, click the **Create Sketch** \(Pencil\) icon in the **Standard Toolbar** and choose the [**Line tool \(L\)**](https://onenote.officeapps.live.com/@formit3d/s/autodesk-formit-360-windows-help/tool-library/line-tool).
+**Note**: _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off of the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line_
 
-![](../.gitbook/assets/3%20%282%29.png)
+![](../.gitbook/assets/upperterracesketch2.png)
 
-1. Let's start by creating a rectangle on the imported image. To create the first line:
-   * 1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-     2. Move your mouse along the red axis that appears.
-     3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the end-point.
+2. Release the **Shift key** and click the first point you drew to finish enclosing the rectangle. Press **Esc** twice to clear the sketch tool.
 
-![](../.gitbook/assets/4%20%282%29.png)
+## Drag the Face
 
-_Note that anytime a temporary dimension appears while sketching, you can either press_ _**Tab or just start typing a number**_ _to open the_ _**Dimension Dialog**._
+1. **Single-click** inside the outline you just drew to select the face. You are automatically in the drag face tool.
 
-1. To create the second line, **move your mouse** down along the green axis and enter **28'-8**" for the upper terrace’s short edge.
-2. To define the rectangle’s third edge and finish:
-   * 1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-     2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
+   ![](../.gitbook/assets/upperterracesketch_3.png)
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+2. **Single-click** to start the drag face operation. Move your mouse away from the face to drag in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**. You've created a mass!
 
-* * 1. The third point will automatically be set, parallel to the red - axis defined by \(A\) - and the green axis - defined by \(B\).
-    2. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+   ![](../.gitbook/assets/bba6b093-7e05-4a92-b792-1601dbf26ecc.png)
 
-![](../.gitbook/assets/5%20%282%29.png)
+## 3D Sketching with Arc, Spline, and Circle
 
-‌
+The following exercise is not critical to finishing the house. It will allow you to experiment with some of the other 3D Sketching tools.
 
-**Drag the Face to Create Volume**
+1. Select the [**Arc tool**](../tool-library/arc-tool.md). Click to define the start, and then the endpoint. The third click defines the radius of the circle that defines the arc
+2. Select the [**Spline Tool**](../tool-library/spline-tool.md). Click to define any number of points to draw a spline
+3. Select the [**Circle Tool**](../tool-library/circle-tool.md). Hover and Click to define the center point of the circle. Click and drag to define the radius of the circle.
 
-‌
-
-1. **Single-click** inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
-2. **Single-click** again to start the dragging. Move your mouse upwards \(along the positive Z-axis\) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
-
-![](../.gitbook/assets/6%20%282%29.png)
-
-_Note: A_ _**single-click**_ _will select just a single face, whereas a_ _**double-click**_ _will select all \(ungrouped\) adjacent edges and faces._
-
-**3D Sketching with Arc, Spline, and Circle**
-
-‌
-
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ [_**here**_](https://onenote.officeapps.live.com/@formit3d/s/autodesk-formit-360-windows-help/tool-library/world-axes) _to learn more about 3D sketching with World Axes._
-
-‌
-
-1. Select the [**Arc by three arc points \(A\) tool**](https://onenote.officeapps.live.com/@formit3d/s/autodesk-formit-360-windows-help/tool-library/arc-tool). Click to define the start, and then the endpoint. The third click defines the arc's radius.
-2. Select the [**Spline \(S\) Tool**](https://onenote.officeapps.live.com/@formit3d/s/autodesk-formit-360-windows-help/tool-library/spline-tool). Click to define any number of points to draw a spline.
-3. Select the [**Circle \(C\) Tool**](https://onenote.officeapps.live.com/@formit3d/s/autodesk-formit-360-windows-help/tool-library/circle-tool). Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
-
-![](../.gitbook/assets/7.png)
+**Note:** _When you draw a curve that intersects with other points, curves, and solids, the objects may be jointed into one object. To avoid this, we will use Groups in a later exercise to isolate geometry._
 
