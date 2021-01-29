@@ -8,5 +8,5 @@ The following file formats can be imported:
 * Web: OBJ, STL
 * iOS: OBJ, STL, SAT
 
-See the section on [Importing Models](../building-the-farnsworth-house/import-export-and-content-library.md) for more on importing data and working with the Content Library.
+See the section on [Importing Models](../building-the-farnsworth-house/part-i/import-export-and-content-library.md) for more on importing data and working with the Content Library.
 

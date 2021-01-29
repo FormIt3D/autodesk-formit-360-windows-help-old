@@ -19,9 +19,9 @@ The standard toolbar is enabled by default, but is split into the following sect
 1. \*\*\*\*[**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****and area selection filters
 2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) ****tools
 3. [**Section Planes**](../tool-library/section-planes.md)
-4. [**3D Sketching Tools**](../building-the-farnsworth-house/3d-sketching.md)
+4. [**3D Sketching Tools**](../building-the-farnsworth-house/part-i/3d-sketching.md)
 5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
-6. [**Advanced Geometry**](../building-the-farnsworth-house/advanced-modeling.md) toolbar with Join, Cut, Sweep, Loft, and Shell
+6. [**Advanced Geometry**](../building-the-farnsworth-house/part-ii/advanced-modeling.md) toolbar with Join, Cut, Sweep, Loft, and Shell
 7. [**Groups** ](../tool-library/groups.md)toolbar
 
 ### Settings

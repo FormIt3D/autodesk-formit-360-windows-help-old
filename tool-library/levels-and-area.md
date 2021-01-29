@@ -2,7 +2,7 @@
 
 After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
 
-Take a look at the [FormIt Primer ](../building-the-farnsworth-house/adding-floors-with-levels.md)to see Levels in action.
+Take a look at the [FormIt Primer ](../building-the-farnsworth-house/part-i/adding-floors-with-levels.md)to see Levels in action.
 
 ## Creating and Configuring Levels
 
