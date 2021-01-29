@@ -25,7 +25,7 @@ If you did not complete the last section, download and open the **farnsworth02.a
 
 1. **Double-click** the mass to edit it. You are now in a Group Edit mode.
 2. Rename the Group in the [**Properties Palette**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)**.**
-3. Name the Group **"main building"**. We'll talk about the [**Category option in future steps**](../part-ii/revit-interop.md)**.**
+3. Name the Group **"main building"**. We'll talk about the [**Category option in future steps**](revit-interop.md)**.**
 
    ![](../../.gitbook/assets/group-properties.png)
 

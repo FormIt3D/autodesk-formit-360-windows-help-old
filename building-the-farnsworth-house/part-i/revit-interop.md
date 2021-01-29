@@ -79,7 +79,7 @@ The steps below are for **your reference**. These files have already been conver
 3. Set the first path \(location of the Revit RFA\) to **FormIt Primer\content\RFA.**
 4. Set the second path \(location the FormIt files will be saved to\) to **FormIt Primer\content** and click OK.
 5. This process will take a number of minutes as Revit opens each RFA in the first path - then converts, and saves it as an AXMF format for FormIt.
-6. Once the process is completed you can go to FormIt and link to the folder of **content** following [these instructions](../part-i/import-export-and-content-library.md)
+6. Once the process is completed you can go to FormIt and link to the folder of **content** following [these instructions](import-export-and-content-library.md)
 
 **Note**: _Not all categories from Revit are supported for export. The 'free standing' families are supported, but the 'host based' families are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported_
 

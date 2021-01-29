@@ -6,7 +6,7 @@ If you did not complete the last section, click the File &gt; Open and choose **
 
 ## Shadows
 
-Before any of these analysis tools can be used, you need to [set the location](../part-i/setting-location.md). This gives FormIt access to accurate sun, shadows and climate data
+Before any of these analysis tools can be used, you need to [set the location](setting-location.md). This gives FormIt access to accurate sun, shadows and climate data
 
 1. Click on the Sun Icon in the [**Action Tool Bar**](../../formit-introduction/tool-bars.md) and check on **Shadows \(DS\)**
 
