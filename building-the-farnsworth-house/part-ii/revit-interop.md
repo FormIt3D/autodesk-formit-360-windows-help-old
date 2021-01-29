@@ -13,14 +13,14 @@ In this exercise we will use Revit 2021 which has improved importing capabilitie
 3. Start **Revit 2021**. Start a new project from an **Architectural template**
 4. Go to the **Add-Ins** tab. Select **Import Formit to Revit** in **FormIt Converter** panel. 
 
-   ![](../.gitbook/assets/formit-revit.png)
+   ![](../../.gitbook/assets/formit-revit.png)
 
 5. Choose **farnsworth09.axm** from the FormIt Primer folder.
 6. This process will take a minute. Revit converts each FormIt group into a family of the category we specified in FormIt.
 7. If there are any errors importing FormIt geometry, then Revit will list those. You can go back to FormIt and investigate these groups.
 8. Go to the **default 3D view**, and turn on **Realistic visual style**. Our model has been imported with materials applied!
 
-   ![](../.gitbook/assets/cce7e450-4f6b-4f05-bdb1-88c385f58040.png)
+   ![](../../.gitbook/assets/cce7e450-4f6b-4f05-bdb1-88c385f58040.png)
 
 If you do not see some of the **Mass geometry** then you may need to enable the **Mass** category in the **Visibility Graphics \(VG\)** dialog. You can now Render, create Elevation views, and other presentation drawings!
 
@@ -28,11 +28,11 @@ If you do not see some of the **Mass geometry** then you may need to enable the 
 
 In order to turn your Mass elements into Revit elements, we'll discuss the **Massing and Site** tab in Revit. Find the **Conceptual Mass** and **Model by Face** panels. These tools allow you to turn FormIt Masses into Revit BIM elements
 
-![](../.gitbook/assets/site-and-massing.png)
+![](../../.gitbook/assets/site-and-massing.png)
 
 1. Select the **lower terrace**. Select the **Mass Floors** button from the ribbon. Check the **Terrace** level from the dialog that appears
 
-   ![](../.gitbook/assets/massfloors.png)
+   ![](../../.gitbook/assets/massfloors.png)
 
 2. Click the **Floor by Face** tool from the **Massing and Site** ribbon. Hover over the edge of the lower terrace, it highlights blue - click to select it.
 3. Click the **Create Floor** button in the Ribbon. The Revit floor is created **below** the FormIt floor.
@@ -50,11 +50,11 @@ In the previous section we learned what to do with **Masses** from FormIt. In th
 2. First select one of the **tall column** families. From the ribbon, choose the **Edit Family** button.
 3. This will open the Revit **Family Editor**. Click the **folder icon** in the upper left corner to launch the **Family Category and Parameters** dialog.
 
-   ![](../.gitbook/assets/family_catparam.png)
+   ![](../../.gitbook/assets/family_catparam.png)
 
 4. Scroll down the list of Categories and choose **Structural Columns**. Click OK to confirm, and exit the dialog.
 
-   ![](../.gitbook/assets/family_category.png)
+   ![](../../.gitbook/assets/family_category.png)
 
 5. Choose the **Load into Project** button from the Ribbon.
 6. Revit asks you to confirm the reload, choose to **Overwrite the existing version**
@@ -74,12 +74,12 @@ The steps below are for **your reference**. These files have already been conver
 1. Open **Revit 2016, 2017, or 2018** and start a new file from the Architectural Template.
 2. From the Add-Ins tab, find the **FormIt Converter** and select **Convert RFA to FormIt**  from the drop down.
 
-   ![](../.gitbook/assets/convert-rfa.png)
+   ![](../../.gitbook/assets/convert-rfa.png)
 
 3. Set the first path \(location of the Revit RFA\) to **FormIt Primer\content\RFA.**
 4. Set the second path \(location the FormIt files will be saved to\) to **FormIt Primer\content** and click OK.
 5. This process will take a number of minutes as Revit opens each RFA in the first path - then converts, and saves it as an AXMF format for FormIt.
-6. Once the process is completed you can go to FormIt and link to the folder of **content** following [these instructions](import-export-and-content-library.md)
+6. Once the process is completed you can go to FormIt and link to the folder of **content** following [these instructions](../part-i/import-export-and-content-library.md)
 
 **Note**: _Not all categories from Revit are supported for export. The 'free standing' families are supported, but the 'host based' families are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported_
 
@@ -92,7 +92,7 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected.
 3. Choose **File &gt; Export \(Ctrl + E\)**. The dialog defaults to choose AXM from the list on the left - this is what we want.
 4. Choose the **Selected Only** option from the list along the top of the dialog.
 
-   ![](../.gitbook/assets/exportselected.png)
+   ![](../../.gitbook/assets/exportselected.png)
 
 5. Click the **Export** button, and save the file on your system. Name it **Chair.AXM.**
 
@@ -103,16 +103,16 @@ In this exercise we'll cover a powerful tool in FormIt called **Export Selected.
 3. You can **hide** the roof by selecting it, right click, and choosing **Hide in View &gt; Element.**
 4. Revit will import the geometry, and place it in the correct location relative to the previously imported geometry. The origin point of the FormIt and Revit file are in sync.
 
-   ![](../.gitbook/assets/chairrevit.png)
+   ![](../../.gitbook/assets/chairrevit.png)
 
 5. This imported chair is NOT the original RFA yet. We have to perform one more step. Go to the **Reload Families** option in the **FormIt Converter** Add-In.
 
-   ![](../.gitbook/assets/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
+   ![](../../.gitbook/assets/fbd116b0-fbb7-4d89-a15a-83ae42639705.png)
 
 6. In the dialog, input the path to the folder containing the original RFA **FormIt Primer\content\RFA.**
 7. Revit will swap out the FormIt version for the original RFA.
 
-   ![](../.gitbook/assets/chairexport2.png)
+   ![](../../.gitbook/assets/chairexport2.png)
 
 ## Export Walls, Floors, Windows from Revit to FormIt
 
@@ -126,7 +126,7 @@ A few tips to make this process work well
 4. When you **Import SAT** models to FormIt, they will appear in the same location relative the origin point in **Revit**. This makes going back and forth between the applications easier.
 5. If you want to import a **large** Revit model to FormIt, then turn on only one category at a time. Export just that category to SAT. Import just one SAT at a time to FormIt and put that import on a **layer**. This process will keep elements isolated from each other. Repeat for as many categories you want.
 
-   ![](../.gitbook/assets/export-as-acis.png)
+   ![](../../.gitbook/assets/export-as-acis.png)
 
 **Note**: _Family and category information is not transferred back to FormIt when exporting to SAT._
 

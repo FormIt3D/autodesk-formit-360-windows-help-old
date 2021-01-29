@@ -4,10 +4,10 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 
 ## Create Layers
 
-1. Go to the [**Layers Palette**](../formit-introduction/tool-bars.md) and click the **+** sign three times to create three layers
+1. Go to the [**Layers Palette**](../../formit-introduction/tool-bars.md) and click the **+** sign three times to create three layers
 2. Double click the layer names to rename them **Massing**, **Floor 1**, and **Plan Image**
 
-   ![](../.gitbook/assets/layer-naming.png)
+   ![](../../.gitbook/assets/layer-naming.png)
 
 3. Select the **main building** group and choose the **Massing** layer from the **Selection On:** drop-down at the top of the Layers tab.
 4. **Single-click** to select the **plan image** group and put it on the **Plan Image** layer.
@@ -18,7 +18,7 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 2. Press **Ctrl + C** to copy, and then **Ctrl + Shift + V** to paste the mass in the same place.
 3. The **new** copy is still selected. **Right-click** and choose **Make Unique \(MU\).**
 
-   ![](../.gitbook/assets/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
+   ![](../../.gitbook/assets/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
 
 **Note**: The new Group is now severed from the original.  The new group and the original group will no longer update each other.
 
@@ -31,5 +31,5 @@ Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibi
 5. **Single-click** the **top face** to select it. Click again to start dragging the face down, and start typing **1',** and a dimension box will appear. Hit OK when you've entered the value. The resulting floor should be 1' thick.
 6. **Double-click** off in space to exit the group.
 
-   ![](../.gitbook/assets/upperterracesketch_5.png)
+   ![](../../.gitbook/assets/upperterracesketch_5.png)
 

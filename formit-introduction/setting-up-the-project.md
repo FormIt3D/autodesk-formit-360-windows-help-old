@@ -17,7 +17,7 @@ Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md
   * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
 
 * Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../building-the-farnsworth-house/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
+  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../building-the-farnsworth-house/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
 * Display Editable Dimensions:
   * Choose whether to keep the dimension boxes visible \(we recommend keeping this on if you want to draw with accuracy\).
 * Hide Context/Show Edited Group Only:

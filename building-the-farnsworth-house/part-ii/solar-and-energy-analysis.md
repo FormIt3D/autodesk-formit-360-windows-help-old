@@ -6,15 +6,15 @@ If you did not complete the last section, click the File &gt; Open and choose **
 
 ## Shadows
 
-Before any of these analysis tools can be used, you need to [set the location](setting-location.md). This gives FormIt access to accurate sun, shadows and climate data
+Before any of these analysis tools can be used, you need to [set the location](../part-i/setting-location.md). This gives FormIt access to accurate sun, shadows and climate data
 
-1. Click on the Sun Icon in the [**Action Tool Bar**](../formit-introduction/tool-bars.md) and check on **Shadows \(DS\)**
+1. Click on the Sun Icon in the [**Action Tool Bar**](../../formit-introduction/tool-bars.md) and check on **Shadows \(DS\)**
 
-   ![](../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
+   ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
 2. Adjust the **Day** and **Time** sliders to see how the shadows change
 
-   ![](../.gitbook/assets/upperterracesketch_32.png)
+   ![](../../.gitbook/assets/upperterracesketch_32.png)
 
 3. Notice how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident, but a matter of design!
 
@@ -24,24 +24,24 @@ Before any of these analysis tools can be used, you need to [set the location](s
 
 Being visual people, designers can learn and communicate an incredible amount of information from heat map diagrams like the one we're about to create
 
-1. At the bottom of the [**Sun menu**](../formit-introduction/tool-bars.md), click the **Solar Analysis** button
+1. At the bottom of the [**Sun menu**](../../formit-introduction/tool-bars.md), click the **Solar Analysis** button
 2. You are put into a special mode where **shadows**, **keyboard shortcuts**, and other **toolbars** are disabled
 3. The selection behavior is modified in **Solar Analysis** mode. You can select **through groups**, you don't need to hold down **Ctrl** or **Shift** to add to your selection set, and you can unselect items by clicking them again. You can **Single click**, **double click**, or **window select** geometry
 4. Choose the faces you want to study. **Single click** the top of the **roof**, and the top of the **floors**. Avoid selecting small elements like furniture
 
-   ![](../.gitbook/assets/upperterracesketch_33.png)
+   ![](../../.gitbook/assets/upperterracesketch_33.png)
 
 5. In the top, left corner of the canvas find the **Solar Analysis** toolbar. Click **Analyze**. FormIt will calculate and render the surfaces. The settings here can be adjusted before **and** after the analysis finishes
 
-   ![](../.gitbook/assets/solaranalysis.png)
+   ![](../../.gitbook/assets/solaranalysis.png)
 
 6. The **Month Peak** setting shows the **peak** values \(in BTU / sq ft\) for the specified month. This is intended for **shading studies**. You can change the month setting and the graphics update instantly. **Hover your cursor** over an analyzed surface to get a **specific** value
 
-   ![](../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
+   ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
 7. The **Year Cumulative** setting shows the **cumulative** energy for the entire year \(in KwH / sq m\). This is intended for **PV potential studies**
 
-   ![](../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
+   ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
 8. These **Solar Analysis** studies can be exported by clicking **File &gt; Export \(Ctrl + E\)** and choosing **Image** from the list on the left
 
@@ -52,15 +52,15 @@ FormIt has integrated the same Building Performance analysis tools that Revit us
 1. Make sure you are logged into your Autodesk account. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
 2. FormIt will only send **visible** geometry to Insight. Note that even a simple **mass** will yield a trove of data from **Insight**
 
-   ![](../.gitbook/assets/energymassing.png)
+   ![](../../.gitbook/assets/energymassing.png)
 
 3. Click the **Insight &gt; Generate Insight** button. The analysis will run in the cloud, so you can continue to model during the computation
 
-   ![](../.gitbook/assets/energymenu.png)
+   ![](../../.gitbook/assets/energymenu.png)
 
 4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** \(optionally, you can visit the website directly at [**http://insight.autodesk.com**](http://insight.autodesk.com/)\)
 
-   ![](../.gitbook/assets/energydashboard.png)
+   ![](../../.gitbook/assets/energydashboard.png)
 
 5. On the Insight dashboard, you can set a value \(or a value range\) for each **Performance Factor** widget by clicking the factor and dragging the blue dots. The range is helpful if you don't know the specific system your building will use yet
 6. With each change to a **Factor** the overall **Energy Cost Range** \(measured in USD / sq m / yr\) updates. You can see your design's performance against benchmarks like **Ashrae 90.1** and the **Architecture 2030** challenge

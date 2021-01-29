@@ -11,7 +11,7 @@ With a **FormIt Pro** subscription through the [AEC Collection](https://www.auto
 * Hover your mouse over an input point to see specific calculated values of solar impact
 * Choose to view results as a monthly glazing study, or as a yearly solar panel feasibility study
 
-Learn more about [Solar Analysis](../building-the-farnsworth-house/solar-and-energy-analysis.md) in FormIt Pro.
+Learn more about [Solar Analysis](../building-the-farnsworth-house/part-ii/solar-and-energy-analysis.md) in FormIt Pro.
 
 ## Energy Analysis with Insight
 
