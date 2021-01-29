@@ -1,6 +1,6 @@
 # Groups
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../building-the-farnsworth-house/part-i/grouping-objects.md).
+One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../building-the-farnsworth-house/grouping-objects.md).
 
 Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
 

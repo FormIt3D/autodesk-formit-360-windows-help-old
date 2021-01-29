@@ -10,7 +10,7 @@ The following file formats can be imported.
 * **SAT**: SAT solid model files are imported as a single FormIt Group.
 * **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported. 
 
-[**Find out more about how to work with imported data**](../building-the-farnsworth-house/part-i/import-export-and-content-library.md)
+[**Find out more about how to work with imported data**](../building-the-farnsworth-house/import-export-and-content-library.md)
 
 ## Exporting Data
 
