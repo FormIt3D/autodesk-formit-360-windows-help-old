@@ -37,7 +37,7 @@
     * [Visual Styles](building-the-farnsworth-house/part-i/visual-settings.md)
     * [Section Planes](building-the-farnsworth-house/part-i/section_planes.md)
     * [Export Image](building-the-farnsworth-house/part-i/export_image.md)
-  * [Part II](building-the-farnsworth-house/part-ii.md)
+  * [Part II \(coming soon\)](building-the-farnsworth-house/part-ii.md)
 * [Tool Library](tool-library/README.md)
   * [3D Text](tool-library/3d-text.md)
   * [Align Camera With Face](tool-library/align-camera-with-face.md)
