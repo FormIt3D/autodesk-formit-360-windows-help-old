@@ -22,7 +22,7 @@
   * [Part I](building-the-farnsworth-house/part-i/README.md)
     * [1.1 - Set the Location](building-the-farnsworth-house/part-i/1.1-set-the-location.md)
     * [1.2 - Project Set Up with Images and Grid](building-the-farnsworth-house/part-i/work-with-images-and-the-ground-plane.md)
-    * [3D Sketch and Drag Face](building-the-farnsworth-house/part-i/3d-sketching.md)
+    * [1.3 - 3D Sketch and Drag Face](building-the-farnsworth-house/part-i/3d-sketching.md)
     * [Add Floors with Levels](building-the-farnsworth-house/part-i/adding-floors-with-levels.md)
     * [Group Objects](building-the-farnsworth-house/part-i/grouping-objects.md)
     * [Control Visibility with Layers](building-the-farnsworth-house/part-i/control-visibility-with-layers.md)
