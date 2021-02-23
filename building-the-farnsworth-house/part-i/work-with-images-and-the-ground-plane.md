@@ -1,59 +1,93 @@
-# Project Set Up with Images and Grid
+# 1.2 - Project Set Up with Images and Grid
 
-You may import PNG or JPG images onto the ground plane by using the File &gt; Import menu. However, to gain more control over the scale and position, we will create a custom material and apply it to a rectangle that we will draw ourselves. The **plan.png** image is 3600 pixels wide by 2400 pixels high. By measuring the scale on the plan, we see that 1' is 25 pixels. This will allow us to scale the image properly.
+_You can import PNG or JPG images onto the ground plane of the model by selecting File &gt; Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
 
-## Import an Image to scale
+_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**Farnsworth House Data Set**._
 
-1. Click the Top View icon from the Navigation Bar to see the scene from above
+## **Calculate Image Size**
 
-   ![](../../.gitbook/assets/topview.png)
+The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet \(ARCH D\) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale \(¼"=1'-0"\) and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
 
-2. Choose the [**Rectangle tool \(R\)**](../../tool-library/rectangle-tool.md) from the 3D Sketch toolbar. Draw a rectangle **144'** by **96'** by clicking to set the points**.** 
+![](../../.gitbook/assets/0%20%281%29.png)
 
-   ![](../../.gitbook/assets/rectangletoolbar.png)
+## **Import an Image to scale**
 
-3. After setting a point and defining the length of a side, the dimension will remain visible. Start typing a dimension value to access a dialog where you can input exact dimensions. Click **OK** to commit the dimension. Click **Esc** to clear the Rectangle tool
+1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
 
-   ![](../../.gitbook/assets/rectanglecanvas.png)
+![](../../.gitbook/assets/1%20%281%29.png)
 
-4. Open the [**Material Palette**](../../formit-introduction/tool-bars.md) and click the **+** icon to create a new material
+2 - Choose the **Rectangle Tool \(R\)** from the 3D Sketch toolbar.
 
-   ![](../../.gitbook/assets/new-materials.png)
+![](../../.gitbook/assets/2%20%281%29.png)
 
-5. Name the new material **Floor Plan**
-6. Import the image texture. Find the Texture preview tile and click the **folder icon**, browse to **plan.png** in the **FormIt Primer release\Part 1 datasets\drawings** folder, click OK
-7. Change the scale of the image. Enter **144'** in the Horizontal field and **96'** in the Vertical field, click OK to finish the material
+3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
 
-   ![](../../.gitbook/assets/plan_material%20%281%29.png)
+![ Enter length for rectangle&#x2019;s first side.](../../.gitbook/assets/3%20%281%29.png)
 
-8. In the [**Material Palette**](../../formit-introduction/tool-bars.md) **single click** on the **Floor Plan material** tile to paint with this material
-9. Click on the **rectangle** you sketched to paint it with the material. Click **Esc** to clear the paintbrush tool
-10. If the material appears inverted, or backwards, you may need to Flip the Face \(single click to select the face, and type FF keyboard shortcut\)
+![Enter length for rectangle&#x2019;s second side.](../../.gitbook/assets/4%20%281%29.png)
 
-## Align the Imported Image to the Satellite Image
+![Finish the rectangle.](../../.gitbook/assets/5%20%281%29.png)
 
-1. Now we'll rotate the rectangle to align with the Satellite image. **Double-click** the **rectangle** to select it
-2. **Right click** to bring up the context menu. Choose [**Rotate \(Q\)**](../../tool-library/rotate.md)
+4 - To create the new “Floor Plan” material:
 
-   ![](../../.gitbook/assets/eab003c6-c95c-4003-9068-0eb43f41a263.png)
+1. Open the **Material Palette**.
+2. Click the **+** icon to create a new material.
+3. Name the new material “**Floor Plan”.**
+4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set &gt;  Supporting Files &gt; Images** folder. Then click **Open**.
+5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale \(**chain link** icon\) may be required to insert values that change the image proportions.
+6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
+7. Click **OK** to finish the material.
 
-3. The Rotate widget appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it
-4. Type **9**, and the dimension box will appear. Click OK to rotate the rectangle counter-clockwise
+![](../../.gitbook/assets/create-1.png)
 
-   ![](../../.gitbook/assets/eab003c6-c95c-4003-9068-0eb43f41a263_2.png)
+5 - To paint the rectangle:
 
-## Align the Grid to the Satellite Image
+1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
+2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
 
-1. Now we will align the grid with the Satellite image and the floor plan. **Right-click** on the **ground plane** and choose [**Set Axes \(SZ\)**](../../tool-library/world-axes.md).
+![](../../.gitbook/assets/7.jpeg)
 
-   ![](../../.gitbook/assets/setaxis.png)
+6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face \(FF\) button.
 
-2. The Set Axis widget appears. Move the axis to the bottom left corner of the of the rectanle. Click to place it.
-3. Click the grip at the end of the red axis. Move the grip so that it snaps to the bottom edge of the plane. Click off in space to commit this change.
+![](../../.gitbook/assets/8.png)
 
-   ![](../../.gitbook/assets/ed8afd35-af8a-4cf3-b3a7-71def22f9b2e.png)
+## **Align the Imported Image to the Satellite Image**
 
-4. The satellite image, the rectangle, and the grid are now aligned, simplifying 3D sketching.
+1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
 
-   ![](../../.gitbook/assets/aligned-axis.png)
+![](../../.gitbook/assets/9.png)
+
+2 - To rotate the rectangle to align with the Satellite image:
+
+1. Right-click on the rectangle to bring up the context menu. Choose **Rotate \(Q\).**
+2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
+3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+
+![](../../.gitbook/assets/10.png)
+
+![](../../.gitbook/assets/11.png)
+
+## **Align the Grid to the Satellite Image**
+
+1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes \(SZ\)**.
+
+![](../../.gitbook/assets/12.png)
+
+2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+
+![](../../.gitbook/assets/13.png)
+
+3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+
+![](../../.gitbook/assets/14.png)
+
+4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+
+![](../../.gitbook/assets/15.png)
+
+5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+
+![](../../.gitbook/assets/16.png)
+
+6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
 
