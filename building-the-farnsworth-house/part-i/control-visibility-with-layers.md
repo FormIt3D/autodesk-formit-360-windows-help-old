@@ -1,35 +1,54 @@
-# Control Visibility with Layers
+# 1.6 - Control Visibility with Layers
 
-Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your scene. We are going to create a layer to save and hide the building mass for analysis in the future.
+_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
 
-## Create Layers
+_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**Farnsworth House Data Set**._
 
-1. Go to the [**Layers Palette**](../../formit-introduction/tool-bars.md) and click the **+** sign three times to create three layers
-2. Double click the layer names to rename them **Massing**, **Floor 1**, and **Plan Image**
+## **Create Layers**
 
-   ![](../../.gitbook/assets/layer-naming.png)
+1 - To create the new layers:
 
-3. Select the **main building** group and choose the **Massing** layer from the **Selection On:** drop-down at the top of the Layers tab.
-4. **Single-click** to select the **plan image** group and put it on the **Plan Image** layer.
+1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
+2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
 
-## Duplicate Group
+![](../../.gitbook/assets/0%20%286%29.png)
 
-1. Select the **main building** group again
-2. Press **Ctrl + C** to copy, and then **Ctrl + Shift + V** to paste the mass in the same place.
-3. The **new** copy is still selected. **Right-click** and choose **Make Unique \(MU\).**
+_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
 
-   ![](../../.gitbook/assets/3f46a20c-a1ab-44a1-8ba3-d2cdb050f1bd.png)
+2 - To assign the **Massing - Main Building** group to the **Massing** layer:
 
-**Note**: The new Group is now severed from the original.  The new group and the original group will no longer update each other.
+1. In the canvas, select the **Massing - Main Building** group.
+2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
 
-## Create the Floor
+![](../../.gitbook/assets/1%20%285%29.png)
 
-1. **Single-click** to select either of the **main building** groups.
-2. Put the group on the **Floor 1** layer using the **Selection On** drop-down in the Layers panel.
-3. Uncheck the **Massing** layer to hide it to keep it safe from any accidental edits.
-4. **Double-click** the **Floor 1 Group** to edit it. Re-name the group **Floor** in the Properties palette.
-5. **Single-click** the **top face** to select it. Click again to start dragging the face down, and start typing **1',** and a dimension box will appear. Hit OK when you've entered the value. The resulting floor should be 1' thick.
-6. **Double-click** off in space to exit the group.
+## **Duplicate Group**
 
-   ![](../../.gitbook/assets/upperterracesketch_5.png)
+_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+
+1 - Select the **Massing - Main Building** group again. Press **Ctrl + C \(Copy\)** to copy, and then **Ctrl + Shift + V \(Paste in Place\)** to paste the mass in the same place.
+
+2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique \(MU\)** option.
+
+![](../../.gitbook/assets/2%20%287%29.png)
+
+_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+
+## **Create the Floor Geometry**
+
+1 - Reassign group’s layer:
+
+1. Single-click to select either of the **Massing – Main Building** groups.
+2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
+3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+
+![](../../.gitbook/assets/3%20%286%29.png)
+
+2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+
+![](../../.gitbook/assets/4%20%283%29.png)
+
+3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+
+![](../../.gitbook/assets/5%20%283%29.png)
 

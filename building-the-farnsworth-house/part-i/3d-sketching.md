@@ -8,7 +8,7 @@ _We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at it
 
 1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective \(VP\)** and **3D View \(V3\).**
 
-![](../../.gitbook/assets/0%20%283%29.png)
+![](../../.gitbook/assets/0%20%284%29.png)
 
 2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group \(G\).**
 
@@ -16,11 +16,11 @@ _We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at it
 
 3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid \(SG\).**
 
-![](../../.gitbook/assets/2%20%282%29.png)
+![](../../.gitbook/assets/2%20%285%29.png)
 
 4 – To start drawing, click the **Create Sketch** \(Pencil\) icon in the **Standard Toolbar** and choose the **Line tool \(L\)**.
 
-![](../../.gitbook/assets/3%20%283%29.png)
+![](../../.gitbook/assets/3%20%285%29.png)
 
 5 - Let's start by creating a rectangle on the imported image. To create the first line:
 
@@ -28,7 +28,7 @@ _We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at it
 2. Move your mouse along the red axis that appears.
 3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
 
-![](../../.gitbook/assets/4%20%283%29.png)
+![](../../.gitbook/assets/4%20%285%29.png)
 
 _**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
 
@@ -65,5 +65,5 @@ _The following exercise is not critical to finishing the house. However, it will
 
 3 - Select the **Circle \(C\)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
 
-![](../../.gitbook/assets/7.png)
+![](../../.gitbook/assets/7%20%281%29.png)
 

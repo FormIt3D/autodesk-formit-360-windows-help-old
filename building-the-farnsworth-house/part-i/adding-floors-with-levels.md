@@ -1,33 +1,36 @@
-# Add Floors with Levels
+# 1.4 - Add Floors with Levels
 
-Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file is converted to Revit
+_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
 
-## Create, and Customize Levels
+_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **Farnsworth House Data Set**._
 
-1. Create levels using the [**Level Palette**](../../formit-introduction/tool-bars.md) in the **Palette Bar**.
+## **Create, and Customize Levels**
 
-   ![](../../.gitbook/assets/levelsicon.png)
+1 - To create levels:
 
-2. Click **+** \(**Add Level**\) four times to add four Levels
-3. **Double click** the Elevation to set the heights to **0’-0", 2'-2" , 4’-6"** and **15’-8"**
-4. **Double click** the Name to give the Levels custom names **Level 1, Terrace, Floor 1,** and **Top of Cornice**
+1. Go to the **Level Palette** in the **Palette Bar**.
+2. Click **+** \(**Add Level**\) four times to create four Levels.
+3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
+4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
 
-   ![](../../.gitbook/assets/9e8a88d9-1eef-4f5e-9061-5aa8f5319067.png)
+![](../../.gitbook/assets/0%20%285%29.png)
 
-**Note**: You can click the **++** icon to create multiple levels, with a specified and uniform distance apart. This is handy for tall buildings.
+_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
 
-## Apply Levels to Geometry
+## **Apply Levels to Geometry**
 
-1. In the previous steps we only created levels - we haven't yet applied them to any geometry
-2. Select the entire upper terrace mass by **double clicking** it
+_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
 
-   ![](../../.gitbook/assets/upperterracesketch_4.png)
+1 - To apply levels to the exiting geometry:
 
-3. In the [**Properties Palette**](../../formit-introduction/tool-bars.md), click **Use Levels**
-4. You can uncheck Levels you don't want to contribute towards the gross area. **Uncheck** Floor 1 and Terrace so only **Level 1** is checked
-5. The Properties Palette now reads the area of this mass!
+1. Select the entire upper terrace mass by double-clicking it.
+2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
+3. Now the currently selected geometry has three levels applied to it \(**Main Building, Terrace,** and **Ground**\), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
+4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
 
-   ![](../../.gitbook/assets/levelsproperties.png)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-**Note**: If you do not see blue Level lines on your mass, type DL to Display Levels.
+_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+
+![](../../.gitbook/assets/2%20%283%29.png)
 

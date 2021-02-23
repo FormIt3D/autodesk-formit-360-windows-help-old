@@ -1,54 +1,98 @@
-# Group Objects
+# 1.5 - Group Objects
 
-When you draw lines on an existing object, the new lines "stick" to and may modify the existing objects. To avoid this, you can Group existing objects first. But this is not all Groups are good for! Copies of Groups maintain their connection to the original, such that editing any copy updates all of them. This concept is similar to Components in SketchUp and Families in Revit.
+_Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
 
-If you did not complete the last section, download and open the **farnsworth02.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)
+_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**Farnsworth House Data Set**._
 
-## Create a Group
+## **Create a Group**
 
-1. Select the upper terrace mass by **double-clicking** it.
-2. **Right-click** and select **Group \(G\)** or just hit shortcut **G**.
+1 - Select the upper terrace mass by double-clicking it.
 
-   ![](../../.gitbook/assets/c2f57781-ec11-4fbd-87b0-c5fd33ad8b07.png)
+2 - Right-click and select **Group \(G\)**, or simply press ‘**G**’.
 
-3. Notice that after creating a Group, you are automatically placed in the Move tool.
+![](../../.gitbook/assets/0.jpeg)
 
-## Move a Group
+3 - Notice that after creating a Group, you get automatically placed in the Move tool.
 
-1. Turn Grid Snapping back on by typing **SG** keyboard shortcut.
-2. Click once on the lower corner of the mass, then move your cursor up and you should see a blue \(Z\) axis line appear.
-3. With the blue axis visible, type 4'-6" and a dimension dialog will appear. Once you've entered the dimension, click OK or hit Enter. This will move the entire mass up off of the ground plane along the Z axis.
+## **Move a Group**
 
-   ![](../../.gitbook/assets/293f6046-366c-43ca-858b-389f0c260be6.png)
+1 - To assist in the modeling process, turn on **Grid Snapping \(SG\)**, if it was off.
 
-## Edit a Group
+![](../../.gitbook/assets/1%20%286%29.png)
 
-1. **Double-click** the mass to edit it. You are now in a Group Edit mode.
-2. Rename the Group in the [**Properties Palette**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)**.**
-3. Name the Group **"main building"**. We'll talk about the [**Category option in future steps**](revit-interop.md)**.**
+2 - To start moving the selected object, while still in the **Move \(M\)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue \(Z\) axis line appear. This line will assist you in moving the object straight up.
 
-   ![](../../.gitbook/assets/group-properties.png)
+3 - With the blue axis visible, type **4'-6"** and a dimension dialog will appear. After entering the dimension, click **OK** or press **Enter** on the keyboard. This will move the entire mass up off the ground plane along the **Z axis**.
 
-4. Closeout of Group Edit mode by clicking on the **checkmark** in the panel on the upper left corner of the canvas - or double click off in space.
+_**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _or_ _**4.5**, and the program will interpret the value as 4\(feet\) 6\(inches\) when using imperial units._
 
-   ![](../../.gitbook/assets/3b0e7944-9cb1-4852-9b3b-aedf75fc5270.png)
+![](../../.gitbook/assets/2%20%282%29.png)
 
-**Note**: _Each Group has its own undo/redo "stack" that is distinct from the overall project - you can click the undo and redo arrows in this panel._
+## **Edit a Group**
 
-## Apply Levels to a Group
+1 - To enter the **Group Edit Mode**, double-click the mass.
 
-1. If you had applied Levels to geometry in the previous exercise, then you will have to re-apply Levels to the new group you just created.
-2. Select the **main building** group by **single-clicking** on it.
-3. Go to the [**Properties Palette**](../../formit-introduction/tool-bars.md) and check **Use Levels.**
-4. Check only the **Floor 1** Level and uncheck the other Levels.
+1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
+2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
 
-   ![](../../.gitbook/assets/8b2036b8-b627-44a2-ada8-b901cdb380d2.png)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-5. The **Area by Level** field will display the gross area of the currently selected object\(s\) and the area of each individual level.
-   * If you do not see the area reported on the Floor 1 Level, then your geometry may not intersect 4' 6".
-   * If you do not see blue level lines on the object, go to the **Settings menu &gt; Visual Style &gt; Display Levels \(DL\).**
-6. **Deselect** the Group by clicking **Esc** or single-clicking off in space.
-7. Now the **Properties Palette** reports the **Gross Area** of the overall sketch - not just the area of the selected object.
+_**Notes**:_ 
 
-   ![](../../.gitbook/assets/grossarea.png)
+* _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
+* _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
+
+## **Apply Levels to a Group**
+
+_**Note:**_ _Grouping a geometry overrides previous settings you may have applied to the geometry. Because of that, you will require to re-apply the Levels from the previous exercise._
+
+1 - To apply levels to a group:
+
+1. Single-click the **Massing** **- Main Building** group to select it.
+2. Go to the **Properties Palette** and check **Use Levels.**
+3. Keep only the **Main Building** level by unchecking all the others.
+4. The **Area by Level** field will display the currently selected object\(s\) gross area. The area of each **Level** is displayed in front of each **Level**’s name.
+5. If you do not see a blue level line crossing the object horizontally, turn on the level display by going to the **Settings menu &gt; Visual Style &gt; Display Levels \(DL\).**
+
+_**Note**: If there is no area reported for the_ _**Main Building**_ _level, the geometry may not be intersecting the Level, which should be at 4’-6” height. Troubleshoot by repositioning the geometry or the_ _**Level**_ _height so they intersect._
+
+![](../../.gitbook/assets/levels-to-groups.png)
+
+2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area. 
+
+![](../../.gitbook/assets/5%20%286%29.png)
+
+## **Manage Groups**
+
+1 - To view and manage all groups in the sketch:
+
+1. Go to the **Group Tree Palette**. There you will see:
+   * **Terrain** group – group automatically created when the **satellite image was imported**.
+   * **Massing - Main Building** – the building mass geometry group we just created.
+   * **group 2** – unnamed group containing the floor plan image.
+2. To rename **group 2** through the Group Tree Palette, double-click on **group 2**, and then type **Plan Image**.
+
+![](../../.gitbook/assets/6%20%284%29.png)
+
+_**Notes:**_
+
+* _For a tidy model, we recommend keeping the group names descriptive._
+* _This is a handy way to manage and edit all groups in the model from one place._
+
+2 - With the **Plan Image** group still selected, navigate to the **Properties Palette**. Note that the group name was also updated in the **Group** field.
+
+![](../../.gitbook/assets/7.png)
+
+## **Hide Group Context**
+
+_This tool is a quick way to hide all geometry outside the group you are currently editing. It becomes very handy whenever you have a large and complex model and other geometries get in the way._
+
+1 - To isolate a group:
+
+1. Double-click on its geometry to edit the group.
+2. Navigate to **Settings** in the **Main Menu** and check **Hide Group Context** or simply press **H** on your keyboard. Note how the **Plan Image** disappears.
+3. Finish editing the group. Note that the **Hide Group Context \(H\)** mode is only active while inside the **Group Edit Wizard**.
+4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
+
+![](../../.gitbook/assets/8%20%281%29.png)
 
