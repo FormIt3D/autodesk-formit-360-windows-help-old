@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [2.8 - Advanced Revit Workflows \(Coming Soon\)](2.8-advanced-revit-workflows-coming-soon.md)
 * [What's New](https://formit.autodesk.com/page/release-notes#release-notes-windows)
 * [FormIt Capabilities](formit-capabilities/README.md)
   * [Multiple Clients](formit-capabilities/multiple-clients.md)
