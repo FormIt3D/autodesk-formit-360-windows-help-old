@@ -8,7 +8,7 @@ If you are new to FormIt, we recommend starting with **Part I**, as **Part II** 
 
 Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on specific tools, toolbars, palettes, and processes discussed herein.
 
-![Encode Campus Sample Model](../../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![](../../.gitbook/assets/screen1.jpg)
 
 ### Pre-requisites
 

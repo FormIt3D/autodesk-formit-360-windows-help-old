@@ -10,7 +10,7 @@
 
 \*\*\*\*[**Part II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) covers some more advanced tools using a pre-modeled fictional architectural project to explore advanced modeling features, analytical tools, and computational tools to help you take FormIt to the next level.
 
-![](../.gitbook/assets/encode-campus-sample-model-intro-image%20%281%29.png)
+![](../.gitbook/assets/screen1.jpg)
 
 ## Credits
 
