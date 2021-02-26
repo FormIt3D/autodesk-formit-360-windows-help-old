@@ -20,7 +20,9 @@ _If you cannot run FormIt for Windows, the majority of the tutorial can be compl
 
 ### Data Set
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts. This data set contains two versions of the Encode Campus Sample Model; one ready to be modified by you throughout the tutorial, and a second containing a finished version of everything described in **Part II**, so you can open and explore the expected results for yourself.
+The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts. 
+
+All facade elements of the Encode building are controlled by Dynamo scripts, driven by a path at the base of the building that defines the facade shape.
 
 * \*\*\*\*[**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
 
