@@ -1,50 +1,66 @@
-# Visual Styles
+# 1.12 - Visual Styles
 
-Moving your conceptual model to Revit for documentation is only half of the deliverables that come from FormIt. The other half are beautiful graphics that help to tell a story to a client, or team member. We'll cover ways to set up your **camera scenes**, your **graphic visual styles**, and **export your images** at high resolution.
+_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
 
-If you did not complete the last section, download and open the **farnsworth10.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
 
-## Scenes
+## **Create an Animation**
 
-1. Open the **Scenes** palette
+_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
 
-   ![](../../.gitbook/assets/scenesicon.png)
+1 – To create the first **Scene**:
 
-2. **Double click** the only saved Scene - the camera animates to take you to that stored viewpoint.
-3. The visual styles, shadow settings, and layer states update to what was stored when that scene was set up.
-4. In the [**Scenes Palette**](../../formit-introduction/tool-bars.md) click the **"+"** icon to add a new scene.
-5. In the **Scene Properties** - lower in the palette - rename the new scene and **Aerial**. The checkboxes determine whether changes to these settings affect the scene
+1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
+2. Make sure the camera mode is set to **Perspective \(VP\)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
+3. Open the **Scenes Palette**.
+4. Click on the **+** icon to create a new scene from our current view.
+5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
 
-   ![](../../.gitbook/assets/777d3348-1472-4afb-a617-54bffb9b947f.png)
+![](../../.gitbook/assets/0%20%2811%29.png)
 
-6. Navigate the camera to an aerial view. Turn on the **trees** layer and turn off the **plan image** layer
+2 - To create the second **Scene** and then animate between them:
 
-   ![](../../.gitbook/assets/a3529158-1a4a-4fac-a8ee-6f60247bce4d.png)
+1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
+2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
 
-7. **Single-click** on the **Aerial** scene and then click the **update** icon. This will reset the scene to the current camera viewpoint and properties.
+![](../../.gitbook/assets/1%20%288%29.png)
 
-   ![](../../.gitbook/assets/a6828bff-7d6e-4cc9-b00c-1db0de96d0b1.png)
+_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
 
-8. Press the **Play** icon to animate the camera through the saved scenes.
+## **Customize the Visual Styles**
 
-   ![](../../.gitbook/assets/7badfc11-b64f-45d4-b0d3-0433ce8c5b79.png)
+_Now we are going to create another scene with some customized **Visual Styles** settings._
 
-9. Click the **Stop** icon to end the animation.
+1 - First, open the **Visual Styles Palette**. Note there are four \(4\) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
 
-## Visual Styles
+2 – To customize some settings in the **Surface Tab**:
 
-1. **Double-click** the original **Scene** to navigate to it. Turn on the **trees** layer and turn off the **plan image** layer.
-2. Select the [**Visual Styles Palette**](../../formit-introduction/tool-bars.md). There are four tabs at the top for different effects: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics.**
+1. Turn on **Shadows \(DS\)**.
+2. Turn on **Ambient Shadows \(DA\)**.
+3. Turn on **Monotone Surfaces \(DM\)**. This makes an abstract black and white image without any materials.
 
-   ![](../../.gitbook/assets/monotone_surfaces.png)
+![](../../.gitbook/assets/2%20%2813%29.png)
 
-3. Turn **Monotone Surfaces \(DM\)** on. This makes an abstract black and white image without any materials. To turn Monotone off just type DM again
+3 – To customize some settings in the **Edge Tab**:
 
-   ![](../../.gitbook/assets/74f592a0-e7b3-4168-a6e9-2d1f69453f54.png)
+* 1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
+  2.  Turn on the **Extend Edges \(DX\).**
+  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
 
-4. Turn on **Ambient Shadows \(DA\)**, and from the Edge tab, adjust the sliders to lighten the contrast of the edges and silhouettes to **30%**. Also turn on the **Extend Edges \(DX\).**
+![](../../.gitbook/assets/3%20%287%29.png)
 
-   ![](../../.gitbook/assets/74f592a0-e7b3-4168-a6e9-2d1f69453f54_2.png)
+4 - To customize some settings in the **Environment Tab**:
 
-5. You can update the scene to record the changes, or click the **"+"** icon to save a new scene with the current settings.
+1. Turn off **Axes**.
+2. Turn off **Levels**, if on.
+
+![](../../.gitbook/assets/4%20%284%29.png)
+
+5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+
+![](../../.gitbook/assets/5%20%283%29.png)
+
+_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+
+_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
 

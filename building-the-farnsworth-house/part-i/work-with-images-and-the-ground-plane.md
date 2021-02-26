@@ -2,7 +2,7 @@
 
 _You can import PNG or JPG images onto the ground plane of the model by selecting File &gt; Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**Farnsworth House Data Set**._
+_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
 
 ## **Calculate Image Size**
 

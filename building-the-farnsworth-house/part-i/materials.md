@@ -2,7 +2,7 @@
 
 As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**Farnsworth House Data Set**._
+_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
 
 ## **Create the Glass Walls**
 
@@ -39,13 +39,13 @@ _**Note:**_ _Anytime you are using a tool for which you can enter a dimension, y
 2. Move your mouse cursor inward, and type in **4".**
 3. Click **Esc** twice to clear the tool, and the selection.
 
-![](../../.gitbook/assets/4%20%286%29.png)
+![](../../.gitbook/assets/4%20%2811%29.png)
 
 ​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet \(4’\)**_ _and not_ _**4 inches \(4”\)**._
 
 8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
 
-![](../../.gitbook/assets/5%20%284%29.png)
+![](../../.gitbook/assets/5%20%288%29.png)
 
 _**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
 
@@ -53,7 +53,7 @@ _**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the 
 
 10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
 
-![](../../.gitbook/assets/6%20%285%29.png)
+![](../../.gitbook/assets/6%20%289%29.png)
 
 ## **Import a Material from the Autodesk Material Library**
 
@@ -67,9 +67,9 @@ _**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the 
 4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
 5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
 
-![](../../.gitbook/assets/7%20%282%29.png)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-![](../../.gitbook/assets/8%20%282%29.png)
+![](../../.gitbook/assets/8%20%286%29.png)
 
 3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](../../.gitbook/assets/9%20%281%29.png)​
 

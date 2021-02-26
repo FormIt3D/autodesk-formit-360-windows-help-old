@@ -2,7 +2,7 @@
 
 _Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **Farnsworth House Data Set**._
+_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
 
 ## **Create, and Customize Levels**
 
@@ -13,7 +13,7 @@ _If you did not complete the last section, download and open the **1.4 - Add Flo
 3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
 4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
 
-![](../../.gitbook/assets/0%20%285%29.png)
+![](../../.gitbook/assets/0%20%2810%29.png)
 
 _**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
 

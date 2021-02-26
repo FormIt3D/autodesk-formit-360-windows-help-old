@@ -2,7 +2,7 @@
 
 _Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
 
-_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**Farnsworth House Data Set**._
+_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
 
 ## **Create a Group**
 
@@ -10,7 +10,7 @@ _If you did not complete the last section, download and open the_ _**1.5 - Group
 
 2 - Right-click and select **Group \(G\)**, or simply press ‘**G**’.
 
-![](../../.gitbook/assets/0.jpeg)
+![](../../.gitbook/assets/0%20%281%29.jpeg)
 
 3 - Notice that after creating a Group, you get automatically placed in the Move tool.
 
@@ -18,7 +18,7 @@ _If you did not complete the last section, download and open the_ _**1.5 - Group
 
 1 - To assist in the modeling process, turn on **Grid Snapping \(SG\)**, if it was off.
 
-![](../../.gitbook/assets/1%20%286%29.png)
+![](../../.gitbook/assets/1%20%2810%29.png)
 
 2 - To start moving the selected object, while still in the **Move \(M\)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue \(Z\) axis line appear. This line will assist you in moving the object straight up.
 
@@ -35,7 +35,7 @@ _**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _
 1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
 2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
 
-![](../../.gitbook/assets/3%20%284%29.png)
+![](../../.gitbook/assets/3%20%288%29.png)
 
 _**Notes**:_ 
 
@@ -60,7 +60,7 @@ _**Note**: If there is no area reported for the_ _**Main Building**_ _level, the
 
 2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area. 
 
-![](../../.gitbook/assets/5%20%286%29.png)
+![](../../.gitbook/assets/5%20%2810%29.png)
 
 ## **Manage Groups**
 
@@ -94,5 +94,5 @@ _This tool is a quick way to hide all geometry outside the group you are current
 3. Finish editing the group. Note that the **Hide Group Context \(H\)** mode is only active while inside the **Group Edit Wizard**.
 4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
 
-![](../../.gitbook/assets/8%20%281%29.png)
+![](../../.gitbook/assets/8%20%284%29.png)
 

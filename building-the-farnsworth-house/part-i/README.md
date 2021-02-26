@@ -20,5 +20,5 @@ _If you cannot run FormIt for Windows, the majority of the tutorial can be compl
 
 Throughout Part I, we will build the Farnsworth House step by step, breaking up the modeling into manageable chapters. If you wish to only complete specific chapters, the data set below will provide you with the progress up until the chapter you chose to do. Besides the **Chapter Files**, the data set also contains the necessary **Supporting Files** to complete all exercises.
 
-* \*\*\*\*[**FormIt Primer Data Set Part I**](https://s3-us-west-1.amazonaws.com/downloads.autodeskformit.com/Primer/Part1_datasets.zip)\*\*\*\*
+* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
 

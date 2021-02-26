@@ -1,109 +1,147 @@
-# Create Columns with Array
+# 1.8 - Create Columns with Array
 
-In this exercise we'll sketch a detail element - an I-beam column. Then use the Array tool to copy multiple items with a specific distance between them.
+_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
 
-If you did not complete the last section, download and open the **farnsworth03.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
 
-## Sketch the Column Profile
+## **Sketch the Column Profile**
 
-1. Go to the **Top View \(VT\)** to view the plan image from above.
+1 - To facilitate the drafting process:
 
-   ![](../../.gitbook/assets/top-view-icon.png)
+1. Go to the **Top View \(VT\)**.
+2. Switch the view mode to **Orthographic \(VO\)**.
+3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
+4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
+5. Turn off the **Snap to Grid \(SG\)** feature \(if you have it on\). This will help with drawing the detail lines.
 
-2. **Turn off** the **Floor 1** layer so that you don't snap to the **Roof or Floor** geometry we drew in the last exercise.
-3. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
+![](../../.gitbook/assets/0%20%288%29.png)
 
-   ![](../../.gitbook/assets/5140a00b-351f-4fa8-8a18-a9e6c72012f4.png)
+_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
 
-4. Turn off the **Snap to Grid \(SG\)** feature \(if you have it on\). This will help with drawing detail lines.
-5. Use the [**Line tool \(L\)**](../../formit-introduction/tool-bars.md) to make the following sketch using the specified dimensions.
+2 - To create the first half of the I-beam, use the **Line tool \(L\)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
 
-   ![](../../.gitbook/assets/09cf32a7-a359-4a56-a863-60fd03053ea2.png)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-6. **Turn off** the **Plan Image** layer so that you can see the profile lines.
-7. **Double-click** to select the entire profile. **Right-click** and select the [**Mirror Tool \(MI\)**](../../tool-library/mirror.md).
-8. **Single click** to select the orange center grip of the Mirror widget. **Move** it and click to snap to the mid point of the long edge.
+3 - To mirror the shape you have just drawn:
 
-   ![](../../.gitbook/assets/mirrorwidget_1.png)
+1. Double-click to select all the faces and edges of the drawn geometry.
+2. Right-click and select the **Mirror Tool \(MI\)**.
+3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
+4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees \(clockwise\).
+5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
 
-9. **Single click** the lower arrow and move it 90**°** clock wise. Snap it to the blue compass line. The result should look like an I-beam profile.
+![](../../.gitbook/assets/2%20%285%29.png)
 
-   ![](../../.gitbook/assets/mirrorwidget_2.png)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-10. **Single-click** off in space to commit the mirror command. Click **Esc** to clear the selection.
-11. **Double-click** to select one of the profiles. Hold down the **Ctrl** or the **Shift** key and **double click** the other profile. Both of the profiles should be in selection.
-12. **Right-click** to bring up the context menu. Choose the **Join Geometry \(JC\)** command to merge the two profiles into one.
+_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
 
-    ![](../../.gitbook/assets/mirrorwidget_3.png)
+4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
 
-13. Once the outline of the profile is complete, the profile becomes a single face. Select the face with a **single click.**
+5 - To move the geometry to its final location:
 
-## Extrude and Array the Column
+1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
+2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis \(**Y Axis**\). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
+3. Similar to the previous step, move the geometry once again, this time locking it to the red axis \(**X Axis**\).
+4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
 
-1. While the profile is still selected, go to the **3D View \(ZD\)** to change to a perspective view
+_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green \(**Y Axis**\). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
 
-   ![](../../.gitbook/assets/3d-view.png)
+![](../../.gitbook/assets/4%20%285%29.png)
 
-2. Zoom to your selection with the **ZS** command. You'll need to **scroll zoom** back as you're too close to the small profile
+## **Extrude and Array the Column**
 
-   ![](../../.gitbook/assets/zoomselection.png)
+1 - To facilitate the next drafting process, switch the view mode back to **Perspective \(VP\)** and **Orbit \(O\)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
 
-3. Click to select the profile face, and click again to start the drag face operation. Start to **drag the face** up
-4. Turn on the **Floor 1** layer. Click on the top of the roof to snap the height of the column - it should be **17' 8".**
+![](../../.gitbook/assets/5.jpeg)
 
-   ![](../../.gitbook/assets/upperterracesketch_12.png)
+_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
 
-5. **Double-click** to select the column. Add the column to  **Group \(G\).**
-6. **Double-click** to edit the group and name it **Column Tall** and change the Category to be **Generic Models** from the drop down menu.
-7. Import the material **Metal &gt; Anodized – White**. Next, **paint** the material onto the column group
-8. Click **Esc** to clear the paintbrush tool.
+2- Select the column profile face and extrude the face up to **17’-8”**.
 
-## Array the Columns
+_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**  
+instead of up._
 
-1. Go to the **Top View \(ZT\)** to view the plan image from above.
+3 - Zoom out and turn the **Roof** layer on \(if off\). The top of the column should line up with the top of the roof.
 
-   ![](../../.gitbook/assets/top-view-icon.png)
+![](../../.gitbook/assets/6%20%286%29.png)
 
-2. **Turn off** the **Floor 1** layer, **turn on** the **plan image** layer.
-3. **Single-click** to select the column group. **Right-click** and choose [**Array \(AR\)**](../../tool-library/tilt-array-copy-and-paste.md).
+4 - To keep the model organized and tidy, select the column geometry again and do the following:
 
-   ![](../../.gitbook/assets/2fd9793f-8306-496b-b323-b9b9e1d7e89a.png)
+1. **Group \(G\)** and name it **Column Tall**.
+2. Create a new **Layer** called **Column** and add the group to it.
+3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
 
-4. Use the following settings in the **Array** dialog: **Length Between Copies**, **Linear**, **Number of Copies: 3**. Press **OK** to close the dialog.
+![](../../.gitbook/assets/7%20%281%29.png)
 
-   ![](../../.gitbook/assets/0ef15b54-2b06-4443-823a-e58527e23858.png)
+_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
 
-5. **Single-click** to start the **array**. Move the cursor to the right, along the red axis. Hold down **Shift** to lock to the red axis.
-6. Start typing **22'** to bring up the Edit Dimension dialog, then hit **OK.** Press **Esc** to clear the selection. You now have **four** columns **22'** apart.
+4 - Click **Esc** to clear the paintbrush tool.
 
-   ![](../../.gitbook/assets/arraypreview.png)
+## **Array the Columns**
 
-7. **Hover** your mouse over the first Column and press the **Tab key** once. All four columns will be highlighted. **Single click** to select them.
-8. Perform another **Array \(AR\)** but this time make **1 copy** and move the copies long the green axis to the south side of the building. Start typing **29'-5"** to bring up the Edit Dimension dialog, and hit Enter or press OK to accept the value.
+1 - Go to the **Top View \(VT\)** and switch the camera mode to **Orthographic \(VO\)** again.
 
-   ![](../../.gitbook/assets/arraypreview_2.png)
+2 - Turn off the **Roof** layer.
 
-## Create Unique Groups
+3 - To start the array process:
 
-1. Go to the **3D View \(ZD\)** to change to a perspective view.
+1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array \(AR\)**.
+2. In the **Array Properties** dialog, use the following settings:
+   * **Length Between Copies**
+   * **Linear** \(default\)
+   * **Group each solid then array** \(default\)
+   * **Number of Copies: 3**
+   * Press **OK** to close the dialog.
 
-   ![](../../.gitbook/assets/3d-view.png)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-2. **Turn on** the **Floor 1** layer if it is off.
-3. **Single click** one of the columns at the base. Hold down the **Ctrl** or the **Shift** key and select two of the columns next to it.
+4 - To place the new elements:
 
-   ![](../../.gitbook/assets/5582b957-9965-43ba-bfa0-8102b6892f28.png)
+1. Single-click on the column to start the **Array**. Move the cursor along the red axis \(**X axis**\).
+2. Set dimension to **22'**. You now have **four** columns **22'** apart.
+3. **Esc** to clear your selection.
 
-4. Click to start moving the 3 selected columns. Press the **Ctrl key** once to create a **quick copy**. A ghost preview of the copy should appear.
+![](../../.gitbook/assets/9%20%284%29.png)
 
-   ![](../../.gitbook/assets/upperterracesketch_13.png)
+5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
 
-5. **Single-click** to place the new columns. **Right-click** the copied columns and select **Make Unique \(M U\)** - These columns are now associated with each other, and unique from the originals.
-6. **Double click** to edit one of the new groups and name it **Column Short.**
-7. Adjust the new columns by dragging the top face down to the same height as the **lower terrace** floor height. They should be **3’-2”.**
-8. Using the plan image as a guide, copy the last short column so your result looks like this.
+6 - Perform another **Array \(AR\)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
 
-   ![](../../.gitbook/assets/upperterracesketch_14.png)
+_**Note:**_ _29’ 4 5/8” = 8 5/8” \(column depth\) + 28’-8” \(main building width\)._
 
-9. Before moving on - make a new **Layer** called **columns** and put all of the columns on that layer.
+7 - To visualize the whole building, go to the **3D View \(V3\)** and set it to **Perspective \(VP\)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+
+![](../../.gitbook/assets/10%20%284%29.png)
+
+## **Create the Terrace Columns**
+
+_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+
+1 - To facilitate drafting, we recommend going back to an **Orthogonal \(OV\)** and **Top View \(VT\)** setting.
+
+2 - To create the new columns:
+
+1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
+2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
+3. Move the copies down along the green axis \(**Y Axis**\) by **23’-4 3/8**”. Press **Esc**.
+4. Without deselecting, move the copied columns along the red axis \(**X Axis**\) by **22’** to place them in their final position.
+5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique \(MU\)**. These columns are now associated with each other, but unique from the originals.
+
+_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+
+![](../../.gitbook/assets/11%20%284%29.png)
+
+3 - Modify the new column group:
+
+1. Double-click to edit one of the new groups and rename it **Column Short.**
+2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** \(3’-2”\). To do that, select and drag the column’s face down along the blue axis \(**Z axis**\) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+
+![](../../.gitbook/assets/12%20%283%29.png)
+
+_**Note:**_ _You can check the height of the short columns by using the_ _**Measure \(ME\)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+
+4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+
+![](../../.gitbook/assets/13%20%282%29.png)
 
