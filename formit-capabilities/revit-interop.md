@@ -19,5 +19,5 @@ Use FormIt and Revit together to move seamlessly between Schematic Design and De
 * Revit geometry can be exported to FormIt using SAT export options
 * Revit Families can be exported as FormIt Groups, and then in the future, automatically converted back to the original Revit Family
 
-[Learn more about the FormIt and Revit connection. ](../building-the-farnsworth-house/part-i/revit-interop.md)
+[Learn more about the FormIt and Revit connection. ](../formit-primer/part-i/revit-interop.md)
 

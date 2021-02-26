@@ -2,7 +2,7 @@
 
 ## Starting Off
 
-When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project \([here's how](../building-the-farnsworth-house/)\), use the File menu to open an existing FormIt project, or import a variety of other file types.
+When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project \([here's how](../formit-primer/)\), use the File menu to open an existing FormIt project, or import a variety of other file types.
 
 FormIt allows opening, saving, and exporting to files both locally and on BIM 360 Docs. [Using BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) is a great way to share models in the cloud.
 
@@ -17,7 +17,7 @@ Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md
   * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
 
 * Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../building-the-farnsworth-house/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
+  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../formit-primer/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
 * Display Editable Dimensions:
   * Choose whether to keep the dimension boxes visible \(we recommend keeping this on if you want to draw with accuracy\).
 * Hide Context/Show Edited Group Only:

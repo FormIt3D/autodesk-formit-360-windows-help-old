@@ -4,7 +4,7 @@ Content Libraries are a convenient way to store components and other items you w
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.39.13-pm.png)
 
-Learn more about using the Content Library [here](../building-the-farnsworth-house/part-i/import-export-and-content-library.md).
+Learn more about using the Content Library [here](../formit-primer/part-i/import-export-and-content-library.md).
 
 To see a few Content Libraries [see this blog post](https://formit.autodesk.com/blog/post/content-library).
 
