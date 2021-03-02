@@ -10,7 +10,7 @@ You can create both linear and radial arrays in FormIt. To **array edges, faces,
 
 ## Radial
 
-![](../.gitbook/assets/array-radial-1.PNG)  
-![](../.gitbook/assets/array-radial-3.PNG)  
-![](../.gitbook/assets/array-radial-finish.PNG)
+![](../.gitbook/assets/array_radial1.png)  
+![](../.gitbook/assets/radial_array2.png)  
+![](../.gitbook/assets/radial_array3.png)
 
