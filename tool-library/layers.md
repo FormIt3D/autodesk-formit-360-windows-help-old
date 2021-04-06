@@ -8,9 +8,9 @@ See Layers in action by following the [FormIt Primer.](https://windows.help.form
 
 In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. 
 
-![](../.gitbook/assets/layers_window.png)
+ ![](../.gitbook/assets/layer-locking-image.jpg) 
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the box.
+You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible  but not selectable or editable.
 
 ## Managing Objects on Layers
 
