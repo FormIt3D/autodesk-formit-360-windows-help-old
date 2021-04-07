@@ -1,4 +1,4 @@
-# 1.15 - Working With Revit \(Coming Soon\)
+# 1.15 - Working With Revit
 
 One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt, to a powerful parametric environment like Revit. We'll go through a few exercises that move elements from FormIt to Revit, and from Revit to FormIt.
 

@@ -35,7 +35,7 @@
     * [1.12 - Visual Styles](formit-primer/part-i/visual-settings.md)
     * [1.13 - Section Planes](formit-primer/part-i/section_planes.md)
     * [1.14 - Export Image](formit-primer/part-i/export_image.md)
-    * [1.15 - Working With Revit \(Coming Soon\)](formit-primer/part-i/revit-interop.md)
+    * [1.15 - Working With Revit](formit-primer/part-i/revit-interop.md)
   * [Part II](formit-primer/part-ii/README.md)
     * [2.1 - Offset Line Tool](formit-primer/part-ii/2.1-offset-line-tool.md)
     * [2.2 - Advanced Modeling Tools: Shell and Cover](formit-primer/part-ii/2.2-advanced-modeling-tools-shell-and-cover.md)
