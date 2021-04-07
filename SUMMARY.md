@@ -38,6 +38,7 @@
     * [1.15 - Working With Revit \(Coming Soon\)](formit-primer/part-i/revit-interop.md)
   * [Part II](formit-primer/part-ii/README.md)
     * [2.1 - Offset Line Tool](formit-primer/part-ii/2.1-offset-line-tool.md)
+    * [2.6 - Dynamo FormIt Nodes](formit-primer/part-ii/2.6-dynamo-formit-nodes.md)
     * [2.2 - Advanced Modeling Tools: Shell and Cover](formit-primer/part-ii/2.2-advanced-modeling-tools-shell-and-cover.md)
     * [2.3 Orthographic View Workflow](formit-primer/part-ii/2.3-orthographic-view-workflow.md)
     * [2.4 - 3D Terrain Workflows](formit-primer/part-ii/2.4-3d-terrain-workflows.md)
