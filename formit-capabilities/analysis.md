@@ -1,4 +1,4 @@
-# Analysis
+# Solar + Energy Analysis
 
 Start a BIM workflow by evaluating the performance of elements from the beginning of the design process.
 
@@ -11,7 +11,7 @@ With a **FormIt Pro** subscription through the [AEC Collection](https://www.auto
 * Hover your mouse over an input point to see specific calculated values of solar impact
 * Choose to view results as a monthly glazing study, or as a yearly solar panel feasibility study
 
-Learn more about [Solar Analysis]() in FormIt Pro.
+Learn more about [Solar Analysis](../tool-library/solar-analysis.md) in FormIt Pro.
 
 ## Energy Analysis with Insight
 
@@ -23,5 +23,5 @@ With a **FormIt Pro** subscription through the [AEC Collection](https://www.auto
 * Summarize your building's energy impact with a single number calculated as a bottom-line cost per area
 * Save your Energy Analysis results for future review with clients and other stakeholders
 
-[Learn more about the Insight and FormIt connection](http://autodesk.typepad.com/bpa/2015/05/release-news-formit-360-pro.html).
+Learn about [Energy Analysis](https://formit.autodesk.com/page/formit-insight) in FormIt Pro.
 

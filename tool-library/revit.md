@@ -1,6 +1,6 @@
 # Revit
 
-FormIt has been designed to work well with Revit. To learn more about the basics, refer to [**this section in the FormIt Primer tutorial**](../formit-capabilities/revit-interop.md).
+FormIt has been designed to work well with Revit. To learn more about the basics, refer to [**this section in the FormIt Primer tutorial**]().
 
 ## Working with data from Revit
 
