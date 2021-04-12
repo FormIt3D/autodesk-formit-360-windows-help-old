@@ -31,7 +31,7 @@ Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md
 
 If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
 
-When Touch Mode is on, FormIt calibrates its navigation and modification tools to work with a touch interface, so using FormIt with a mouse/keyboard while Touch Mode is on is not recommended. 
+When Touch Mode is on, FormIt's interaction becomes more like FormIt on iPad, calibrating navigation and modification tools to work with a touch interface. Because of this, using FormIt with a mouse and keyboard while Touch Mode is on is not recommended. 
 
 When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
 
