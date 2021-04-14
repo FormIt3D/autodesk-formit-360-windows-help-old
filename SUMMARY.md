@@ -79,6 +79,7 @@
   * [Measure](tool-library/measure-tool.md)
   * [Meshes](tool-library/meshes.md)
   * [Mirror](tool-library/mirror.md)
+  * [Model Tree](tool-library/model-tree.md)
   * [Modifying Faces, Edges, and Points](tool-library/modifying-faces-edges-and-points.md)
   * [Non-Uniform Scale](tool-library/non-uniform-scale.md)
   * [Offset Line](tool-library/offset-line.md)
