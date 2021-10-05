@@ -8,7 +8,7 @@ Groups can be created and edited in two ways: either from the context menu of a 
 
 To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group \(G\)** tool from the context menu. Imported images and satellite images cannot be grouped.
 
-To **select a group**,  single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
 
 To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
 

@@ -8,5 +8,3 @@ Learn more about using the Content Library [here](../formit-primer/part-i/import
 
 To see a few Content Libraries [see this blog post](https://formit.autodesk.com/blog/post/content-library).
 
-
-

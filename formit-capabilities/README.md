@@ -1,6 +1,6 @@
 # FormIt Capabilities
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78%20%281%29.png)
 
 ## FormIt Capabilities
 

@@ -8,7 +8,7 @@ Use the axes to ensure you're drawing in the correct direction:
 
 You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
 
-To draw a rectangle, click to set the first point in your sketch. 
+To draw a rectangle, click to set the first point in your sketch.
 
 Line colors by axis:
 

@@ -2,19 +2,19 @@
 
 Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
 
-### Toggling AutoSave
+## Toggling AutoSave
 
 Find configuration options for AutoSave in Edit &gt; Preferences &gt; AutoSave.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box. 
+AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
 
 Set the interval \(in minutes\) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
 
 Note that these preferences are application-level, and will not change when opening different files.
 
-### How AutoSave Works
+## How AutoSave Works
 
 When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
 
@@ -28,7 +28,7 @@ When you save changes to the original file, AutoSave automatically deletes the b
 
 If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
 
-### Working With AutoSave Enabled
+## Working With AutoSave Enabled
 
 FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files \(~400MB and above\), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
 
@@ -38,7 +38,7 @@ If you're wondering if AutoSave is currently backing up, you can watch the statu
 
 If your status bar is disabled, you can enable it at Window &gt; Status Bar or via the shortcut HS.
 
-### Recovering Data with AutoSave
+## Recovering Data with AutoSave
 
 When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
 
@@ -49,6 +49,4 @@ Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
 Similarly, you can use File &gt; Open, and manually select the `.axmb` file from the file explorer to open a backup.
 
 Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file \(`.axm`\) to overwrite. You cannot overwrite FormIt backup files \(`.axmb`\).
-
-
 

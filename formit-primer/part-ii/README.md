@@ -14,13 +14,13 @@ Refer to the **FormIt Introduction** and **Tool Library** sections for detailed 
 
 Before beginning Part II, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
 
-For most chapters, you will also need to download and make use of the data set found at the link below. 
+For most chapters, you will also need to download and make use of the data set found at the link below.
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ ****[_**FormIt website.**_](https://formit.autodesk.com)_\*\*\*\*_
+_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ **\*\*\[\_**FormIt website._\*\]\(_[https://formit.autodesk.com](https://formit.autodesk.com)_\)\_\*\*\*\_
 
 ### Data Set
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts. 
+The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts.
 
 All facade elements of the Encode building are controlled by Dynamo scripts, driven by a path at the base of the building that defines the facade shape.
 

@@ -19,7 +19,7 @@ To **tilt a face:**
 
 ### Facet / Smooth Faces
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:** 
+If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
 
 1. Select the face or object that you want to change and right-click to see the context menu. 
 2. From the context menu, choose the **Facet Smooth Faces** tool. 
@@ -29,6 +29,4 @@ This command works in the opposite way, also: you can select faces that are face
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)
-
-## 
 

@@ -4,7 +4,7 @@ Start a BIM workflow by evaluating the performance of elements from the beginnin
 
 ## Solar Analysis
 
-With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), ****you can visualize the sun's impact on your building:
+With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), _\*\*_you can visualize the sun's impact on your building:
 
 * Specify relevant faces to be analyzed for solar impact
 * Visualize results in seconds within the app canvas

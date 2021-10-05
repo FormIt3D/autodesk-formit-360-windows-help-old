@@ -17,7 +17,7 @@ To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles
 
 ## Offset
 
-To offset the face of an object: 
+To offset the face of an object:
 
 1. First select the face you would like to edit, then right-click to view the **Context** menu. 
 2. From the **Context** menu, click on the **Offset Face** tool. 

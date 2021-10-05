@@ -12,5 +12,3 @@ Start the polygon and click to choose the center point. Specify the radius by dr
 
 ![](../.gitbook/assets/image.png)
 
-
-

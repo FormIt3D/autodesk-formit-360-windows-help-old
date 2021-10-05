@@ -6,7 +6,7 @@ Enable the Model Tree by going to the Window menu, and checking the box next to 
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack. 
+Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack.
 
 Within each History, you'll see a list of nested Groups, instances, or geometric objects like bodies.
 

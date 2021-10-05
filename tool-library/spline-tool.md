@@ -8,7 +8,7 @@ A spline is drawn from at least 3 interpolated points. The connected geometry is
 
 To specify a distance, start typing a dimension value, and hit OK or press Enter in the Edit Dimension dialog.
 
- Splines can also close on themselves creating a face.
+Splines can also close on themselves creating a face.
 
 ![](../.gitbook/assets/spline2.png)
 

@@ -28,9 +28,9 @@ _In the previous steps, we only created levels. Now we are ready to apply those 
 3. Now the currently selected geometry has three levels applied to it \(**Main Building, Terrace,** and **Ground**\), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
 4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
 
-![](../../.gitbook/assets/1%20%284%29.png)
+![](../../.gitbook/assets/1%20%284%29%20%281%29.png)
 
 _**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
 
-![](../../.gitbook/assets/2%20%283%29.png)
+![](../../.gitbook/assets/2%20%283%29%20%281%29.png)
 

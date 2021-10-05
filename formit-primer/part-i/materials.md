@@ -17,7 +17,7 @@ _If you did not complete the last section, download and open the_ _**1.7 - Paint
 1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
 2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
 3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4.  Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+4. Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
 
 ![](../../.gitbook/assets/1%20%283%29.png)
 

@@ -4,7 +4,7 @@
 
 **What is FormIt and FormIt Pro?**
 
-FormIt is a 3D modeling, visualization, analysis, and computation environment for architectural design. 
+FormIt is a 3D modeling, visualization, analysis, and computation environment for architectural design.
 
 FormIt features:
 
@@ -101,7 +101,7 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 **How does FormIt compare to SketchUp?**
 
-* Better [**interop with Revit**](../tool-library/revit.md) ****
+* Better [**interop with Revit**](../tool-library/revit.md) _\*\*_
 * [**Dynamo integration**](../tool-library/dynamo.md) for computational design
 * Native tools for [**solar analysis**](../tool-library/solar-analysis.md) and [**energy analysis powered**](../tool-library/energy-analysis.md) by Autodesk Insight
 * A more robust solid modeling kernel that enables advanced modeling operations

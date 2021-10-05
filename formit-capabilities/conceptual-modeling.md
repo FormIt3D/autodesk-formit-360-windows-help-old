@@ -6,17 +6,13 @@ FormIt's solid modeling kernel enables incredible, time-saving workflows to make
 
 **Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
 
-{% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
+{% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" caption="" %}
 
 **Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
 
-{% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
+{% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" caption="" %}
 
 **Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
 
-{% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
+{% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" caption="" %}
 

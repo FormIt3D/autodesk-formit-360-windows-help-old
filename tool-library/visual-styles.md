@@ -20,7 +20,7 @@ Toggle **Shadows** to see how your design would be [shaded at the current time o
 
 **Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model. 
+**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
 
 **Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
 
@@ -34,9 +34,9 @@ Use the Section Cut Effects and Section Poche Effects sections to manage the def
 
 ## Ground Planes
 
-When the Ground Plane is toggled off in Group Edit Mode, the blue Work Plane grid is now toggled off, also. 
+When the Ground Plane is toggled off in Group Edit Mode, the blue Work Plane grid is now toggled off, also.
 
-The color of the Work Plane can also be customized from the Visual Styles panel. 
+The color of the Work Plane can also be customized from the Visual Styles panel.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
@@ -68,7 +68,7 @@ Toggle display of environmental effects and helper objects.
 
 **Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) ****set in the Levels Panel.
+**Levels** controls the display of [**Levels**](levels-and-area.md) _\*\*_set in the Levels Panel.
 
 **Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane \(if enabled\) meets the sky.
 
@@ -76,13 +76,13 @@ Toggle display of environmental effects and helper objects.
 
 Environmental colors like sky, background, and ground plane can also be customized.
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. 
+The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
 
 If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
 
 ## Diagnostics
 
-Toggle the display of diagnostic tools. 
+Toggle the display of diagnostic tools.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 

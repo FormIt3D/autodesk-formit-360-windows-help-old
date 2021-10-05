@@ -20,9 +20,9 @@ In FormIt 2021 and newer, you can array objects along a path, and quickly custom
 
 ## Iterating In Place
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs. 
+After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance. 
+When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
 
 You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
 
@@ -85,8 +85,6 @@ After editing the options, click the "Run" button to run the underlying Dynamo g
 
 Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
 
-
-
 ## Selecting Geometry
 
 When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
@@ -98,6 +96,4 @@ When selecting objects for Array Along Path, and other selection-based Dynamo gr
 * You can use the area selection window to grab a series of objects.
 * You can select objects already selected to deselect them.
 * At least one object is required to proceed with a selection-based step.
-
-
 

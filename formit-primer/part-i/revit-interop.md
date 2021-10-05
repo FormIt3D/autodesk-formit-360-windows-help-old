@@ -12,7 +12,7 @@ _In these exercises, we will use Revit 2022, which has improved interoperability
 
 If you \(or your firm\) have a trove of Revit Families that you want to use in FormIt, then you will be interested in this section, which discusses how to batch export RFA files to FormIt.
 
- _**Note:**_ _The steps below show the interface and the necessary steps when using Revit 2022, but the_ _**Convert RFA to FormIt**_ _tools has been available since Revit 2016._
+_**Note:**_ _The steps below show the interface and the necessary steps when using Revit 2022, but the_ _**Convert RFA to FormIt**_ _tools has been available since Revit 2016._
 
 1 – Open a New Revit Project or Family. Then:
 

@@ -16,5 +16,3 @@ With a FormIt Pro subscription, you have access to the Real-time Collaboration f
 1. From the Collaboration drop-down, choose "Start sharing session." ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
 2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](../.gitbook/assets/collaborate.png)
 
-
-

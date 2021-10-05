@@ -1,20 +1,20 @@
 # Layers
 
-Use Layers to control the visibility of FormIt objects. 
+Use Layers to control the visibility of FormIt objects.
 
 See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
 ## Creating and Naming Layers
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. 
+In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
 
- ![](../.gitbook/assets/layer-locking-image.jpg) 
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible  but not selectable or editable.
+You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
 
 ## Managing Objects on Layers
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on. 
+Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 

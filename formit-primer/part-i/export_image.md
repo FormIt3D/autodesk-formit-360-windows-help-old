@@ -6,7 +6,7 @@ _Although not required to complete this chapter, if you did not follow the whole
 
 1 - When exporting an image, whatever is shown in the canvas will be exported almost exactly as you see it in FormIt. We would like to export an image of the **Section** Scene.
 
-1.  So first we need to open up that scene form the **Scenes Palette** by double-click on it.
+1. So first we need to open up that scene form the **Scenes Palette** by double-click on it.
 2. From the **Main Manu** bar, go to **File &gt; Export &gt; Locally \(Ctrl + E\)**. The **Export File** window will pop-up.
 3. In the new window, under **File type options** scroll down and select **As Image** \(it is the last one\). In the export options box, after **Preset:** changes the dropdown option to be **4K UHD** instead of **Viewport**. This will automatically define the output image resolution, **Dimension \(px\)**, to **3840** x **2160** pixels.
 4. Click on **Export** and the **Specify file to save to…** window will pop-up.

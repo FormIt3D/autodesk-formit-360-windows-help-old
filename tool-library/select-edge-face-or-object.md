@@ -14,7 +14,7 @@ You can also hold Ctrl or Shift, and add or remove elements from the current sel
 
 ## Selection Filtering
 
-For area or lasso selection \(see below\), you can filter the selection based on type. 
+For area or lasso selection \(see below\), you can filter the selection based on type.
 
 This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
 

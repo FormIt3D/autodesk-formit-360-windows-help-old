@@ -1,12 +1,12 @@
 # Meshes
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes. 
+Starting in v17.0, FormIt offers a new type of geometry: Meshes.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance. 
+Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
 
 Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
 
-### Converting Objects to Meshes
+## Converting Objects to Meshes
 
 Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
 
@@ -41,7 +41,7 @@ Once the Objects have been converted to Meshes, you'll see a confirmation messag
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### Interacting With Meshes
+## Interacting With Meshes
 
 **Because of their lightweight nature, Meshes have certain limitations and behaviors:**
 
@@ -67,7 +67,7 @@ Otherwise, Meshes will display and behave like any other FormIt Object: placed i
 * STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
 * DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
 
-### Converting Meshes Back to Objects
+## Converting Meshes Back to Objects
 
 Simply select Meshes, and either use shortcut MO \(Meshes to Objects\) or right-click and select Meshes to Objects in the Context Menu:
 

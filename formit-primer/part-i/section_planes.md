@@ -29,7 +29,7 @@ _**Note:**_ _You can add up to 6 section cuts to your model at once._
 
 4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
 
-1.  Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
+1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
 2. Turn of **Shadows \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)

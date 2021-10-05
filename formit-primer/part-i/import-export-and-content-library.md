@@ -10,7 +10,7 @@ _First, we will go through the process of adding a piece of downloaded content t
 
 1 - Make sure to **Save \(Ctrl + S\)** any open work, then start a new FormIt sketch. To do this, you can either:
 
-1.  Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
+1. Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
 2. OR, after saving, start a **New Sketch \(Ctrl + N\)** from the **File** dropdown in the **Main Menu** bar.
 
 ![](../../.gitbook/assets/0%20%2819%29.png)
@@ -21,7 +21,7 @@ _First, we will go through the process of adding a piece of downloaded content t
 
 4 - In the new empty FormIt file:
 
-1.  **Import a Local File \(Ctrl + I\)** by selecting **Import &gt; Locally…** from the **File** dropdown in the **Main Menu** bar.
+1. **Import a Local File \(Ctrl + I\)** by selecting **Import &gt; Locally…** from the **File** dropdown in the **Main Menu** bar.
 2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** and click **Open**.
 
 _**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
@@ -52,7 +52,7 @@ _This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, 
 1 - To define the view settings for the thumbnail scene:
 
 1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2.  Make sure your view mode is set to **Perspective** **\(VP\)**.
+2. Make sure your view mode is set to **Perspective** **\(VP\)**.
 3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
 
 ![](../../.gitbook/assets/4%20%2813%29.png)

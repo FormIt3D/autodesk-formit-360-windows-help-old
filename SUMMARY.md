@@ -108,6 +108,10 @@
   * [Visual Styles](tool-library/visual-styles.md)
   * [Work Planes](tool-library/work-planes.md)
   * [World Axes](tool-library/world-axes.md)
+* [Plug-ins](plug-ins/README.md)
+  * [Introduction](plug-ins/introduction.md)
+  * [How to use plug-ins](plug-ins/how-to-use-plug-ins.md)
+  * [How to develop plug-ins](plug-ins/how-to-develop-plug-ins.md)
 * [Appendix](appendix/README.md)
   * [Keyboard Shortcuts](appendix/keyboard-shortcuts.md)
 

@@ -37,7 +37,7 @@ _**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notes**:_ 
+_**Notes**:_
 
 * _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
 * _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
@@ -58,7 +58,7 @@ _**Note**: If there is no area reported for the_ _**Main Building**_ _level, the
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area. 
+2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area.
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 

@@ -7,9 +7,9 @@ Setting your your project's location in the world it is important for the accura
 * Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
 * Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services. 
+You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
 
-### Getting Started With Location
+## Getting Started With Location
 
 * Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
 
@@ -22,14 +22,14 @@ You'll need to be signed in with your Autodesk account to access the Set Locatio
 * Select one of the auto-populating location options, or hit Enter to choose the first one
 * You'll zoom in to the location you searched for automatically
 
-### Set Location Only vs. Import Satellite Image and Terrain
+## Set Location Only vs. Import Satellite Image and Terrain
 
 Once you've searched for a location, you can choose one of two options:
 
-*  **Set Location Only** will set the location in the file without importing satellite imagery.
+* **Set Location Only** will set the location in the file without importing satellite imagery.
 * **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
 
-### Importing Satellite Imagery
+## Importing Satellite Imagery
 
 * Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
 * A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
@@ -42,7 +42,7 @@ Once you've searched for a location, you can choose one of two options:
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+## Updating Satellite Imagery
 
 After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
 
@@ -54,13 +54,13 @@ After importing satellite imagery the first time, you can use the Set Location w
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+## Importing Terrain
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain. 
+New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default \(in case you've started modeling, your model may be covered by the terrain\). 
+When terrain is imported, it's placed on a layer, which is off by default \(in case you've started modeling, your model may be covered by the terrain\).
 
 When you're ready to view terrain, toggle the Terrain layer by checking the box:
 
@@ -68,11 +68,11 @@ When you're ready to view terrain, toggle the Terrain layer by checking the box:
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+## Working with Terrain
 
 Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top. 
+Inside, you'll find two Meshes: One for the sides and bottom, and one for the top.
 
 If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
 
@@ -91,7 +91,7 @@ Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" 
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation. 
+The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 

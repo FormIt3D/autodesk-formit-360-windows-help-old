@@ -14,13 +14,13 @@ You can also use the floating navigation toolbar on the right side of the canvas
 
 ![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View \(ZD\):** Launches the default 3D view.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\):**  “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\):** “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\):**  When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\):** When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
 
 ![](../.gitbook/assets/swivel.PNG) **Swivel \(SV\):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
 
-![](../.gitbook/assets/panning.png) **Pan \(P\):**  Click and drag the middle mouse button, or use the Pan \(hand\) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png) **Pan \(P\):** Click and drag the middle mouse button, or use the Pan \(hand\) tool from the Navigation toolbar to pan across the scene.
 
 ![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
 

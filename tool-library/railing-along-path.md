@@ -19,7 +19,7 @@ In FormIt 2021 and newer, you can generate a railing along a path, and quickly c
 
 After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance. 
+When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
 
 You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
 
@@ -35,7 +35,7 @@ The spacing between main vertical posts. Uses the current FormIt units.
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point. 
+When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
 
 For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction \(like going up stairs or turning corners\) where a post would naturally occur.
 

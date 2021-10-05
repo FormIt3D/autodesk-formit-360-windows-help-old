@@ -2,7 +2,7 @@
 
 Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-#### The FormIt Plugin Manager
+## The FormIt Plugin Manager
 
 The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
 
@@ -12,7 +12,7 @@ You can access the Plug-In Manager by clicking its tab icon on the right side of
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### The Plugin Manager categorizes different types of plugins:
+## The Plugin Manager categorizes different types of plugins:
 
 * **Installed plugins**
 * **Recommended plugins**
@@ -21,7 +21,7 @@ You can access the Plug-In Manager by clicking its tab icon on the right side of
 * **Public plugins**
   * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
 
-#### The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+## The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
 
 * **Managing Plugins:**
   * Click on a plugin name to see its description.
@@ -31,7 +31,7 @@ You can access the Plug-In Manager by clicking its tab icon on the right side of
 
 ![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### How Plugins Work
+## How Plugins Work
 
 * Plugins are web-based and available in FormIt for Windows and FormIt for Web.
 * Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.

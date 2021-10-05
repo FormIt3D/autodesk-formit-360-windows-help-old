@@ -6,7 +6,7 @@ Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access No
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.** 
+**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
 
 For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
 

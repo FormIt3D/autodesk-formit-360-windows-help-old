@@ -2,7 +2,7 @@
 
 Use the Mirror tool to create a mirrored duplicate of an object.
 
-To mirror an object: 
+To mirror an object:
 
 1. Double-click to select a single object, or single-click to select a group. 
 2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**. 

@@ -10,13 +10,11 @@ Things get really interesting when you start to push and pull the objects you ha
 4. After you click, you can snap to other objects to align this face.
 5. As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
 
- ![](../.gitbook/assets/modify.png)
-
-       
+   ![](../.gitbook/assets/modify.png)
 
 You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
 
-You can also delete a face by using  **Right click &gt; X button**.
+You can also delete a face by using **Right click &gt; X button**.
 
 ## Modifying Edges
 
@@ -33,6 +31,4 @@ You can also delete a face by using  **Right click &gt; X button**.
 2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/~/drafts/-MQs8s_UgCysrQBxlywu/tool-library/non-uniform-scale)
 
 ![](../.gitbook/assets/modify3%20%281%29.png)
-
-
 

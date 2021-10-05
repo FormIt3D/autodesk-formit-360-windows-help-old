@@ -4,7 +4,7 @@
 
 ## Content
 
-\*\*\*\*[**Part I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) ****covers a single workflow tutorial that goes over the basic tools while modeling the famous Farnsworth House step-by-step to help you start modeling today.
+\*\*\*\*[**Part I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) _\*\*_covers a single workflow tutorial that goes over the basic tools while modeling the famous Farnsworth House step-by-step to help you start modeling today.
 
 ![](../.gitbook/assets/farnsworth-house%20%281%29.png)
 
@@ -14,9 +14,7 @@
 
 ## Credits
 
-This 2021 Edition of the FormIt Primer is a redesign and expansion upon the first Primer, developed in partnership with [EvolveLAB](https://www.evolvelab.io/).  
+This 2021 Edition of the FormIt Primer is a redesign and expansion upon the first Primer, developed in partnership with [EvolveLAB](https://www.evolvelab.io/).
 
 [![](../.gitbook/assets/evolvelab_logo__horizontal%20%281%29.png)](https://www.evolvelab.io/)
-
-
 

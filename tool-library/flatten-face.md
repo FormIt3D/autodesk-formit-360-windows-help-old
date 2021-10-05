@@ -1,6 +1,6 @@
 # Faces: Flatten
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane. 
+Use the **Flatten Faces** tool to force two or more object faces into the same plane.
 
 When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
 
@@ -12,9 +12,5 @@ You can also use **Flatten Faces** as a design tool for aligning or extending sh
 
 Check out the video below to see the power and versatility of **Flatten Faces**:
 
-{% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
-
-
-
-
+{% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" caption="" %}
 

@@ -1,6 +1,6 @@
 # Materials
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps. 
+Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
 
 ## The Materials Panel
 
@@ -10,13 +10,13 @@ In the materials panel, you can choose from a wide variety of Material Samples, 
 
 ### Material Library Sources
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries). 
+In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ![](../.gitbook/assets/materials-directory-picker%20%281%29.png)
 
 #### In Sketch
 
-Shows the Materials saved to the current FormIt sketch. 
+Shows the Materials saved to the current FormIt sketch.
 
 #### Material Samples
 
@@ -38,7 +38,7 @@ Other directories and locations will appear after [linking Material libraries](h
 
 ![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\).
 
-![](../.gitbook/assets/materials_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it. 
+![](../.gitbook/assets/materials_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it.
 
 * Click the Eyedropper tool, then click a face painted with a Material
 * The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
@@ -106,7 +106,6 @@ Materials with names that display in a grey font indicate that those Materials t
 
 ![](../.gitbook/assets/materials-editor%20%281%29.png)
 
-  
 When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
 
 * **Color**

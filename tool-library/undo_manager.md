@@ -6,7 +6,7 @@ FormIt features a unique Undo/Redo system, which can be used in two different wa
   * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
 * Undo/Redo from the Main Sketch \(not while editing a Group\) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
 
- The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+  The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
 
 ![](../.gitbook/assets/undo-manager.png)
 
