@@ -110,8 +110,8 @@
   * [World Axes](tool-library/world-axes.md)
 * [Plug-ins](plug-ins/README.md)
   * [Introduction](plug-ins/introduction.md)
-  * [How to use plug-ins](plug-ins/how-to-use-plug-ins.md)
+  * [How to use plug-ins](plug-ins/how-to-use-plug-ins/README.md)
+    * [Example 1](plug-ins/how-to-use-plug-ins/example-1.md)
   * [How to develop plug-ins](plug-ins/how-to-develop-plug-ins.md)
 * [Appendix](appendix/README.md)
   * [Keyboard Shortcuts](appendix/keyboard-shortcuts.md)
-
