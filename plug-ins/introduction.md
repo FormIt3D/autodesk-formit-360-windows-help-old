@@ -1,3 +1,7 @@
+---
+description: huey just adding some lorem ipsum description
+---
+
 # Introduction
 
 ## What Are Plugins?
