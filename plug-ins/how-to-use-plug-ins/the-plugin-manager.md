@@ -1,0 +1,41 @@
+# The Plugin Manager
+
+The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+
+The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+
+Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+
+![](../../.gitbook/assets/c1.PNG)
+
+### The Plugin manager's window
+
+The plugin manager organizes plugins into categories outlining each number of plugins in each cathegory. 
+
+![](../../.gitbook/assets/d3.PNG)
+
+### Plugin Categories 
+
+The 3 different categories are:
+
+#### **Installed Plugins:** 
+
+Plugins already installed by user
+
+#### Recommended Plugins
+
+Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
+
+Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
+
+#### Public plugins
+
+Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+
+### Add your private local plugin
+
+If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
+
+![](../../.gitbook/assets/d4.PNG)
+
+(ADD MORE INFORMATION INTO WHAT THIS NEEDS)

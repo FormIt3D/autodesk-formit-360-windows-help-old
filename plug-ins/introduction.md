@@ -1,4 +1,4 @@
-# Introduction to plugins
+# Introduction to Plugins
 
 ## What Are Plugins?
 
@@ -56,5 +56,9 @@ are looking for a better concept-modeling environment
 ```
 
 Is available through the web environment, not just desktop
+
+## Is it open source
+
+
 
  
