@@ -119,6 +119,7 @@
       * [Manage Cameras Plugin](plug-ins/how-to-use-plug-ins/example-1/manage-cameras-plugin.md)
       * [Properties Plus Plugin](plug-ins/how-to-use-plug-ins/example-1/properties-plus-plugin.md)
       * [Plugin Playground](plug-ins/how-to-use-plug-ins/example-1/plugin-playground.md)
-  * [How to develop plug-ins](plug-ins/how-to-develop-plug-ins.md)
+  * [How to develop plug-ins](plug-ins/how-to-develop-plug-ins/README.md)
+    * [Clone other plug-ins repos](plug-ins/how-to-develop-plug-ins/clone-other-plug-ins-repos.md)
 * [Appendix](appendix/README.md)
   * [Keyboard Shortcuts](appendix/keyboard-shortcuts.md)

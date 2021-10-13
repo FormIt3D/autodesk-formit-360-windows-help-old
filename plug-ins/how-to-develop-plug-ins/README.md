@@ -8,13 +8,13 @@ If you're building your first FormIt plugin, the Plugin Playground is a great pl
 
 1. Install/enable plug-in playground
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 
 
 2\. Switch to plug-in playground palette
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 
 
@@ -34,15 +34,15 @@ This will show a plugin with 3 number inputs and button to create button. Go ahe
 
 This launches a dialog which shows the main pieces to a any FormIt plugin - html, javascript, and css.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
 
 
 5\. Make some modifications to this code and when you’re ready to see the results, click the Play Arrow button again.
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 ### Save your work
 
