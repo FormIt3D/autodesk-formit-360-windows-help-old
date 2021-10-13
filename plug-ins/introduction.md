@@ -2,62 +2,37 @@
 
 ## What Are Plugins?
 
- Plug-ins are additions that expand FormIt's core functionality.
+ Plug-ins are additions that expand FormIt's core functionality. Created to help enhance/empower/simplify the modeling process, productivity, or workflow when 3d modeling in FormIt. Plug-ins can be used for generating objects, making modifications or extracting info & properties of an object. Features of plug-ins may be as simple as fillet 2 edges, or as advance as generating a string of light fixtures. You may find plug-ins developed by the communities or Autodesk from GitHub. You may even create your own plug-ins to suit the needs of different project.
 
-Created to help enhance/empower/simplify the modelling process, productivity or workflow when 3d modelling in FormIt.
+![](../.gitbook/assets/g1.gif)
 
-The are available both on desktop or web version
+## Where are they available?
 
-Plug-ins can be used for generating objects, making modification or extracting info & properties of an object.
+They are available both on desktop or web version, as long as you have an internet connection. You can find them on the [plugin manager](how-to-use-plug-ins/the-plugin-manager.md)
 
-Features of plug-ins may be as simple as fillet 2 edges, or as advance as generating string of light fixtures
+**(DIFFERENCES BETWEEN DESKTOP AND WEB?)** 
 
-You may find plug-ins developed by the communities or Autodesk from the github. You may even create your own plug-ins to suit the needs of different project.
+## Is it open source?
 
-There are three categories of plug-ins:
+Plugins are open source.....Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Installed:
+**(LICENSE MORE INFO?)**
 
-Recommended:
+## Connectivity to services
 
-Public Plug-ins:
+Talk about connectivity to different services.
 
+**(WHICH ONES SHOULD WE TALK ABOUT?)**
 
+## **Using Formit Plugins for Concept Modeling** 
 
-## Where to find plugins
+Are you a developer looking for a concept modeling environment? If you are interested in developing plug-ins go to the following section on[ how to develop plugins](how-to-develop-plug-ins.md)
 
-How to find plugins
+**(ADD SPECIFIC SECTION ABOUT CONCEPT MODELING)**
 
-## Who develops plug-ins
+## Need help with formit plugins?
 
-Some are 
-
-If you are interested in developing plug-ins go to the following section:
-
-{% content-ref url="how-to-develop-plug-ins.md" %}
-[how-to-develop-plug-ins.md](how-to-develop-plug-ins.md)
-{% endcontent-ref %}
-
-
-
-plugins are
-
-
-
-```
-⭕ Its open source
-
-⭕ Has playback capabilities
-
-⭕ Connectivity to services
-
-⭕ Geared towards technologists and developers who do not currently use FormIt and
-are looking for a better concept-modeling environment
-```
-
-Is available through the web environment, not just desktop
-
-## Is it open source
+Drop us a line on the [Autodesk forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
 
 
 

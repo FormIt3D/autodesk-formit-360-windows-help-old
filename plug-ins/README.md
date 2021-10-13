@@ -1,10 +1,10 @@
 # Plugins
 
-**Plugins** can improve your **Autodesk FormIt®** experience by expanding your modelling toolset. It enables tailoring specific design needs not included in FormIt's tool library. 
+**Plugins** can improve your **Autodesk FormIt®** experience by expanding your modeling toolset. It enables tailoring specific design needs not included in FormIt's tool library. 
 
 _**(ADD HERO-GIF showing most interesting plugins)**_
 
-![](../.gitbook/assets/g1.gif)
+![](../.gitbook/assets/G5.gif)
 
 The Plugins section of this primer includes 3 chapters:
 
