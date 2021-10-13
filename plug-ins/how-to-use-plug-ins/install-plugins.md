@@ -12,20 +12,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ![](../../.gitbook/assets/d7.PNG)
 
-## Examples
-
 ##
 
-
-
-![](<../../.gitbook/assets/9 (7).png>)
-
-##
-
-Using plug-ins is really straightforward
-
-The plug-in section
-
-The plug-in section is located at the left right side
-
-A list of existing plygins

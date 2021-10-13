@@ -114,7 +114,7 @@
     * [The Plugin Manager](plug-ins/how-to-use-plug-ins/the-plugin-manager.md)
     * [Install Plugins](plug-ins/how-to-use-plug-ins/install-plugins.md)
     * [Examples](plug-ins/how-to-use-plug-ins/example-1/README.md)
-      * [Installing Plugins](plug-ins/how-to-use-plug-ins/example-1/installing-plugins.md)
+      * [Encode Campus](plug-ins/how-to-use-plug-ins/example-1/encode-campus.md)
       * [Generate String Lights](plug-ins/how-to-use-plug-ins/example-1/generate-string-lights.md)
       * [Manage Cameras Plugin](plug-ins/how-to-use-plug-ins/example-1/manage-cameras-plugin.md)
       * [Properties Plus Plugin](plug-ins/how-to-use-plug-ins/example-1/properties-plus-plugin.md)

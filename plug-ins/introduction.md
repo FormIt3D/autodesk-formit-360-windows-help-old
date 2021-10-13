@@ -30,9 +30,9 @@ Are you a developer looking for a concept modeling environment? If you are inter
 
 **(ADD SPECIFIC SECTION ABOUT CONCEPT MODELING)**
 
-## Need help with formit plugins?
+## Need any help?
 
-Drop us a line on the [Autodesk forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+If you need any help with Formit Plugins drop us a line on the [Autodesk forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
 
 
 
