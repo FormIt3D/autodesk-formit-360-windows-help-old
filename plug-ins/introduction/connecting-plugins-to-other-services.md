@@ -1,4 +1,4 @@
-# Connectivity to other services
+# Connecting Plugins to Other Services
 
 Talk about connectivity to different services.
 

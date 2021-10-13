@@ -1,7 +1,5 @@
 # How do Plugins Work?
 
-
-
 Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
 
 ### Plugins and connection

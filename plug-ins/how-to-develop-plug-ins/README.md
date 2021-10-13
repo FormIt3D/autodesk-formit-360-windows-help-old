@@ -1,5 +1,13 @@
-# How to develop plug-ins
+# How to Develop Plugins
 
-If you are a developer and want to go the extra mile this section will guide you into developing plugins. Welcome!
+_For the tinkerers and developers out there, FormIt also ships with a plugin that allows you to create and test your own custom plugins right inside of FormIt. Knowledge of HTML, CSS, and JavaScript is required to take full advantage of this tool so we will not go into detail here, but if you are interested in learning more you can visit_ [_**Building FormIt JavaScript Plugins**_](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)_._
 
-If you're building your first FormIt plugin, the Plugin Playground is a great place to start. Write, test, debug, and view your plugin directly inside FormIt for Web or Windows, then publish instantly to GitHub for others to try.
+1 - You can install the **Plugin Playground** the same way we installed the previous plugins from the **Plugin Palette**.
+
+2 - Here is a basic overview of the **Plugin Playground**:
+
+1. Open the **Plugin Playground Palette** by clicking on the _<_ pencil _>_ icon.
+2. Inside the palette, click on the **Edit** button to open the built-in code editor for making custom plugins. This plugin comes pre-loaded with code for a plugin that creates a cube.
+3. Click on the **Play** button the test run the current code. In this case, the cube creator plugin content will appear in the palette.
+
+![](<../../.gitbook/assets/14 (3).png>)
