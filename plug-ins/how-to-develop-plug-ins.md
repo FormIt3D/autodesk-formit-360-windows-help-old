@@ -4,7 +4,7 @@ If you are a developer and want to go the extra mile this section will guide you
 
 If you're building your first FormIt plugin, the Plugin Playground is a great place to start. Write, test, debug, and view your plugin directly inside FormIt for Web or Windows, then publish instantly to GitHub for others to try.
 
-
+### How To Start
 
 1. Install/enable plug-in playground
 
@@ -20,11 +20,7 @@ If you're building your first FormIt plugin, the Plugin Playground is a great pl
 
 
 
-### How To Start
-
-An example plugin comes loaded with the Plugin Playground
-
-1. Click the Play Arrow button to run a plugin.
+3\. An example plugin comes loaded with the Plugin Playground. Click the Play Arrow button to run a plugin.
 
 ![Step1](https://formit3d.github.io/PluginPlayground/images/step1.png)
 
