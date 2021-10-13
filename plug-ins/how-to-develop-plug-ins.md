@@ -2,11 +2,21 @@
 
 If you are a developer and want to go the extra mile this section will guide you into developing plugins. Welcome!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer orci quam, mattis vitae bibendum gravida, placerat in libero. Vivamus arcu eros, eleifend at metus vel, vulputate pretium nisi. Morbi eu elementum mi. Morbi at aliquet nibh. Etiam varius metus urna. Vestibulum rhoncus erat vel lacus interdum, sit amet maximus turpis euismod. Pellentesque at ipsum ullamcorper, interdum enim a, convallis enim. Fusce quis volutpat enim, a egestas lorem. Nam ultricies augue risus.
+If you're building your first FormIt plugin, the Plugin Playground is a great place to start. Write, test, debug, and view your plugin directly inside FormIt for Web or Windows, then publish instantly to GitHub for others to try.
 
 
 
-sdc
+1. Install/enable plug-in playground
 
-sdc
+![](<../.gitbook/assets/image (6).png>)
+
+
+
+2\. Switch to plug-in playground palette
+
+![](broken-reference)
+
+
+
+
 
