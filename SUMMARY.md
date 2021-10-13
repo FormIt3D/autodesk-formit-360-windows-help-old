@@ -121,7 +121,7 @@
   * [How to develop plug-ins](plug-ins/how-to-develop-plug-ins/README.md)
     * [Your first plugin from the Plugin Playground](plug-ins/how-to-develop-plug-ins/your-first-plugin-from-the-plugin-playground.md)
     * [Setting up your Environment](plug-ins/how-to-develop-plug-ins/setting-up-your-environment.md)
-    * [Clone other plug-ins repos](plug-ins/how-to-develop-plug-ins/clone-other-plug-ins-repos.md)
+    * [Working With the Sample Plugins](plug-ins/how-to-develop-plug-ins/working-with-the-sample-plugins.md)
     * [Setting Up FormIt](plug-ins/how-to-develop-plug-ins/setting-up-formit.md)
     * [Page 1](plug-ins/how-to-develop-plug-ins/page-1.md)
     * [Formit Plugins for Concept Modeling](plug-ins/how-to-develop-plug-ins/formit-plugins-for-concept-modeling.md)
