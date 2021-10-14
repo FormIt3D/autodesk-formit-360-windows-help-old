@@ -4,32 +4,6 @@
 
 
 
-
-
-3\. An example plugin comes loaded with the Plugin Playground. Click the Play Arrow button to run a plugin.
-
-![Step1](https://formit3d.github.io/PluginPlayground/images/step1.png)
-
-This will show a plugin with 3 number inputs and button to create button. Go ahead and test the plugin, which will create a cube based on the input values.
-
-
-
-4\. Want to see how the code behind the plugin? Click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This launches a dialog which shows the main pieces to a any FormIt plugin - html, javascript, and css.
-
-![](<../../../.gitbook/assets/image (4).png>)
-
-
-
-5\. Make some modifications to this code and when you’re ready to see the results, click the Play Arrow button again.
-
-![](<../../../.gitbook/assets/image (11).png>)
-
-![](<../../../.gitbook/assets/image (5).png>)
-
 ### Save your work
 
 As you work on your plugin, you’ll want to save your progress. We have made an integration with GitHub to make this achievable.
