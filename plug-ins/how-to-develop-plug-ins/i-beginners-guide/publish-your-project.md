@@ -1,12 +1,4 @@
-# My First Plugin
-
-###
-
-
-
-### Save your work
-
-### Ready to share?
+# Publish your project
 
 When you’re ready to share with others, use the bullhorn icon to publish your project!
 

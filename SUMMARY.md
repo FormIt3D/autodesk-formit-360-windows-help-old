@@ -131,7 +131,7 @@
       * [Using code editor](plug-ins/how-to-develop-plug-ins/i-beginners-guide/using-code-editor.md)
       * [Coding to add your own feature](plug-ins/how-to-develop-plug-ins/i-beginners-guide/coding-to-add-your-own-feature.md)
       * [Saving your work to your github account](plug-ins/how-to-develop-plug-ins/i-beginners-guide/saving-your-work-to-your-github-account.md)
-      * [My First Plugin](plug-ins/how-to-develop-plug-ins/i-beginners-guide/my-first-plugin.md)
+      * [Publish your project](plug-ins/how-to-develop-plug-ins/i-beginners-guide/publish-your-project.md)
       * [Develop plug-ins in an IDE](plug-ins/how-to-develop-plug-ins/i-beginners-guide/develop-plug-ins-in-an-ide.md)
       * [Working With Sample Plugins](plug-ins/how-to-develop-plug-ins/i-beginners-guide/working-with-sample-plugins.md)
       * [Using Formit for Concept Modeling](plug-ins/how-to-develop-plug-ins/i-beginners-guide/using-formit-for-concept-modeling.md)
