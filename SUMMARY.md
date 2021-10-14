@@ -133,6 +133,8 @@
       * [Saving your work to your github account](plug-ins/how-to-develop-plug-ins/i-beginners-guide/saving-your-work-to-your-github-account.md)
       * [Publish your project](plug-ins/how-to-develop-plug-ins/i-beginners-guide/publish-your-project.md)
       * [Develop plug-ins in an IDE](plug-ins/how-to-develop-plug-ins/i-beginners-guide/develop-plug-ins-in-an-ide.md)
+      * [Modify existing plug-ins](plug-ins/how-to-develop-plug-ins/i-beginners-guide/modify-existing-plug-ins.md)
+      * [Host local server](plug-ins/how-to-develop-plug-ins/i-beginners-guide/host-local-server.md)
       * [Working With Sample Plugins](plug-ins/how-to-develop-plug-ins/i-beginners-guide/working-with-sample-plugins.md)
       * [Using Formit for Concept Modeling](plug-ins/how-to-develop-plug-ins/i-beginners-guide/using-formit-for-concept-modeling.md)
     * [Setting up](plug-ins/how-to-develop-plug-ins/setting-up/README.md)
