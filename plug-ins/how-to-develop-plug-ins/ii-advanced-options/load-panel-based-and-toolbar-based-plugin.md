@@ -1,8 +1,8 @@
-# Working With the Sample Plugins
+# Load panel-based and toolbar-based plugin
 
 
 
-If you've cloned the repositories and set up a web server from the [previous steps](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpEnvironment), you can now get the local plugins to show up in FormIt.
+
 
 You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
 
