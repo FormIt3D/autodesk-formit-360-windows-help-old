@@ -1,13 +1,13 @@
-# Install Plug-in Playground
+# Install Plugin Playground
 
 ### How To Start
 
-1. Install/enable plug-in playground
+Install/enable plugin playground
 
 ![](<../../../.gitbook/assets/image (6).png>)
 
 
 
-2\. Switch to plug-in playground palette
+Switch to plugin playground palette
 
 ![](<../../../.gitbook/assets/image (16).png>)
