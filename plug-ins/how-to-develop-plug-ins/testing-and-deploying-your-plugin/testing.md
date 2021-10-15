@@ -1,4 +1,4 @@
-# Testing Plugins
+# Testing
 
 If your web server is running [per the instructions above](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpEnvironment), you can test your in-progress plugins easily using the built-in [Script Editor](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpFormIt) in FormIt for Windows:
 
@@ -22,15 +22,7 @@ We recommend using FormIt.LoadPlugin("URL"); when testing, which loads plugins t
       * FormIt.LoadPlugin("http://localhost:8080/YourPluginName");
     * Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
 
-**Previewing Your Plugin with the Plugin Manager**
-
-To preview how your plugin would appear in the Plugin Manager (updated title, description, etc) before it's pushed to GitHub, you can paste the localhost URL into the box at the bottom of the Plugin Manager:
-
-![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerInstallLocal.png)
-
-Then look for your plugin in the Installed section at the top:
-
-![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerInstalledList.png)
+****
 
 **Force Clearing the Web Cache for .JSON Files**
 
