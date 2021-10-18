@@ -2,7 +2,7 @@
 
 
 
-![](<../../.gitbook/assets/c13 (1).PNG>)
+![](../../.gitbook/assets/c14.PNG)
 
 Plugins are open source, this means that you may use plugins in the [installed plugins](../how-to-use-plug-ins/the-plugin-manager.md#installed-plugins) section and the [recommended plugins](../how-to-use-plug-ins/the-plugin-manager.md#recommended-plugins) section free of charge.&#x20;
 
