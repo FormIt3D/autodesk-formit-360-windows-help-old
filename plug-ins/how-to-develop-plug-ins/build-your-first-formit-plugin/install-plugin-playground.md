@@ -1,13 +1,9 @@
 # Install Plugin Playground
 
-### How To Start
+Open your plugin manager, you will find plugin playground under the recommended list. Toggle the button to install/enable plugin playground ![](<../../../.gitbook/assets/image (8).png>).
 
-Install/enable plugin playground
+![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-![](<../../../.gitbook/assets/image (6).png>)
+Once installed, plugin playground will appear at the end of your tool list. Click to view the window.
 
-
-
-Switch to plugin playground palette
-
-![](<../../../.gitbook/assets/image (16).png>)
+![](<../../../.gitbook/assets/image (16) (1).png>)
