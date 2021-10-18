@@ -1,4 +1,4 @@
-# How to use Plugins
+# How to Use Plugins
 
 This section is intended to help Formit users understand and use plugins. _We will review the following subjects: _
 
@@ -6,6 +6,4 @@ This section is intended to help Formit users understand and use plugins. _We wi
 * [How to install plugins:](example-1/encode-campus.md) Easy guide into using plugins
 * [Examples](example-1/) Sample worflows you can follow along to learn how to use plugins
 
-![](../../.gitbook/assets/d9.PNG)
-
-__
+![](../../.gitbook/assets/g6.gif)

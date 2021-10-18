@@ -1,18 +1,15 @@
 # Introduction to Plugins
 
-This section will answer some of your basic questions, before diving into Formit plugins. Some of the questions we will answer are:
+![](../.gitbook/assets/c3.PNG)
 
-* [What are Plugins?](introduction/what-are-plugins.md)
-* [How do Plugins work?](introduction/how-do-they-work.md)
-* [Where are Plugins available?](introduction/where-are-they-available.md)
-* [Are Plugins open source?](introduction/are-plugins-open-source.md)
-* [How do I connect to other services?](introduction/connecting-plugins-to-other-services.md)
-* [How to use formit for concept modeling?](how-to-develop-plug-ins/build-your-first-formit-plugin/using-formit-for-concept-modeling.md)
-* [How to contact us if you need any help?](introduction/contact.md)
+This section will answer some of the basic questions you may have before diving into Formit Plugins. Some of the questions we will answer are:
 
-![](<../.gitbook/assets/g1 (1).gif>)
-
-
+* [What Are Plugins?](introduction/what-are-plugins.md)
+* [How Do Plugins Work?](broken-reference)
+* [Where Are Plugins Available?](introduction/where-are-they-available.md)
+* [Are Plugins Open Source?](introduction/are-plugins-open-source.md)
+* [How Do I Connect to Other Services?](introduction/how-do-i-connect-to-other-services.md)
+* [How to Contact Us if You Need Any Help?](introduction/how-to-contact-us-if-you-need-any-help.md)
 
 ****
 
