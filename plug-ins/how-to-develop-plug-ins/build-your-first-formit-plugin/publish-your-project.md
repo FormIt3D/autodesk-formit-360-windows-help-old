@@ -1,22 +1,31 @@
 # Publish your project
 
-1.  When you’re ready to share with others, use the bullhorn icon to publish your project!
+### Publish via plugin playground
 
+When you’re ready to share your plugin with others, use the bullhorn icon ![](<../../../.gitbook/assets/image (17).png>) to publish your project!
 
+![](https://formit3d.github.io/PluginPlayground/images/save4.png)
 
-    ![Publish](https://formit3d.github.io/PluginPlayground/images/save4.png)
+### Host your plugin on Github
 
-That’s it. We look forward to seeing the plugins you build. Have fun!
+Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
 
-2\. Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+Go to your new GitHub plugins repo, i.e. [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
 
-3\. Go to your new GitHub plugins repo, i.e. https://github.com/Joe/JoesPlugins
+In the top-right corner, click the Settings > Pages
 
-4\. In the top-right corner, click the Settings tab.
+Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _main _branch.
 
-\[add pic]
+![](<../../../.gitbook/assets/image (11).png>)
 
-5\. Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _master_ branch.
+### Deploy your plugin in FormIt 
 
-\[add pic]
+To use the plugin your plugin hosted on github, copy the page link and paste it under 'Add your private or local plugin' plugin manager then click the ![](<../../../.gitbook/assets/image (15).png>) button
 
+![](<../../../.gitbook/assets/image (18).png>)
+
+![](<../../../.gitbook/assets/image (20).png>)
+
+Once the plugin is installed, it will be added to the bottom of your toolbar tab and ready for use.
+
+![](<../../../.gitbook/assets/image (12).png>)

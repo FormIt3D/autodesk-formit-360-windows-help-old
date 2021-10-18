@@ -8,7 +8,7 @@ The html file (left) allows you to modify the user interface of your plugin, the
 
 Let's add a feature to this plugin for creating cylinder.
 
-First, configure the input field and UI button in the html file, copy the following code and paste it after line 23 and before 
+First, configure the input field and UI button in the html file, copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -27,9 +27,9 @@ First, configure the input field and UI button in the html file, copy the follow
         
 ```
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (20) (1).png>)
 
-Next, add the function in the js file. Copy the following code and paste it at the end of the file, after line 16.
+Next, add the function in the js file. Copy the following code and paste it at the end of the file (after line 16)
 
 ```
 // Create cylinder
@@ -44,7 +44,7 @@ const createCylinder = async (r,h) =>
 }
 
 
-// Execute function when 'create cylinder' button is click
+// Execute function when 'create cylinder' button is clicked
 document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 {
     console.log('create cylinder clicked')
@@ -61,7 +61,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ### Run and preview plugin
 
-When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18).png>) again and you will see the update of your plugin in the same window.
+When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18) (1).png>) again and you will see the update of your plugin in the same window.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 

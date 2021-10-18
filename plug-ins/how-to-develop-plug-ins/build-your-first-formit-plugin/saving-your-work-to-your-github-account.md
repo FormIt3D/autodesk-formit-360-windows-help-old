@@ -14,18 +14,18 @@ To create a project, type in a name and click the ![](<../../../.gitbook/assets/
 
 In a few moments the newly created project will show in your projects list. Select the project from the drop down to load it.
 
-![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (17) (1).png>)
 
-As mentioned in previous chapter, your new project comes with a set of sample code with a simple feature to create cube.
+As mentioned in previous chapter, your new project comes with a set of sample code with a simple feature to create a cube.
 
 ### Save your work
 
-To ensure all your progress are saved to your github project, click the save button ![](<../../../.gitbook/assets/image (12).png>)
+Once you have have changes, in order to ensure all your progress are saved to your github project, click the save button ![](<../../../.gitbook/assets/image (12) (1).png>)
 
 ### View your project on github
 
 You can also find and edit your files in GitHub interface or another editor of your choice. To access the files in GitHub, use the GitHub button.
 
-![Save Step 3](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](https://formit3d.github.io/PluginPlayground/images/save3.png)
 
 ###
