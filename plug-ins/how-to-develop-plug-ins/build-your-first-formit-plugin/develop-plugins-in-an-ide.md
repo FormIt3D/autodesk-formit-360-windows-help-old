@@ -1,14 +1,19 @@
-# Develop plug-ins in an IDE
+# Develop plugins in an IDE
 
-It is super easy and convenient to develop plugin inside plugin playground, we have also covered the pros and cons earlier in the guide, if you prefer to develop in an IDE, the concept is quite similar to developing using the playground. This guide will show you how to do that in an IDE (you may use any of your prefered IDE, we will be using Visual studio code for this demonstration)
+It is very simple and convenient to develop plugin inside plugin playground. However, for any reason, such as ones listed below: 
 
-#### Install an IDE
+* Collaborate with your colleagues on developing FormIt plugin
+* Develop within your chosen Intergrated Development Environment (IDE)
+* Keep your respository private 
+* Want to understand how to develop plugin outside of Plugin Playground
 
-Write your code in an integrated development environment (IDE) that helps identify issues, correct syntax errors, and includes a terminal for running your local server.
+This guide demonstrates how to do so and the concept is quite similar to developing using the plugin playground.
+
+### Install an IDE
+
+You may use any of your prefered code editor, we will be using Visual Studio Code for this demonstration. Write your code in an IDE that helps identify issues, correct syntax errors, and includes a terminal for running your local server.
 
 A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download).
 
-Once installed:
+Follow the link to download setup file and complete the installation.
 
-* File > Open Folder
-* Select the folder that contains your plugin files and folders.
