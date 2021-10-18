@@ -1,6 +1,6 @@
 # Where Are They Available?
 
-![](../../.gitbook/assets/c4.PNG)
+![](../../.gitbook/assets/c17.PNG)
 
 Plugins are comprised of a series of files and folders hosted on **GitHub**, or on a **local server** when building your own.
 
