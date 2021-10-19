@@ -10,5 +10,5 @@ In previous chapters, we have covered the [basic steps on developing a FormIt pl
 * [General Plugin Setup](general-plugin-setup.md)
 * [Versioning](versioning.md)
 * [Debugging](debugging.md)
-* [Testing Toolbar Plugin and HTML Plugin](testing-toolbar-based-plugin-html-based-plugin.md)
-* [Load Panel-based and Toolbar-based plugin](load-panel-based-and-toolbar-based-plugin.md)
+* [Testing Toolbar Plugin and HTML Plugin](testing-toolbar-based-plugin-html-panel-based-plugin.md)
+* [Load Panel-based and Toolbar-based plugin](load-panel-based-and-toolbar-based-plugin/)

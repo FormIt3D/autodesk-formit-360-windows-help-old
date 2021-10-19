@@ -1,12 +1,24 @@
 # Creating an Add-In
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs. To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download. Once logged in, the FormIt API is available under SOFTWARE.
+An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
 
-![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg) ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIDownload.jpg)
+
+
+### Download FormIt API
+
+To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+
+Once logged in, the FormIt API is available under SOFTWARE.
+
+&#x20;
+
+![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIDownload.jpg)
+
+![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
 An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
 
-An add-in has the following structure-
+An add-in has the following structure:
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -42,7 +54,7 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
         
 ```
 
-Either JSON_UNDEFINED or any json object can be returned. Use to_json to convert your C++ variable to json-
+Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
 
 ```
             // Create a JS API with 2 argument
