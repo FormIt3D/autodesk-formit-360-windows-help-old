@@ -1,19 +1,23 @@
-# 1.9 - Host local server
+# Host local server
 
-Before you can use it in formit, you need to host it on a server, perhaps a local server in order to deploy it in the formit web/desktop
+Before you can preview a clone plugin in FormIt, you need to host it on a local server in order to deploy it in both FormIt web/desktop
 
-**Start your server from the IDE**
+### **Start local server from IDE**
 
-Now, you have the option of starting the server you installed previously right inside Visual Studio Code, instead of from a separate terminal window:
+You have the option of starting the server inside Visual Studio Code, instead of from a separate terminal window, in your Visual Studio Code, open your project folder (to make s:
 
-1. View > Terminal (or shortcut Ctrl + \`)
-2.  You should already be in the correct folder, so simply run the command to start your npm http-server from previous steps: 
+View > Terminal (or shortcut Ctrl + \`)
 
-    ```
-    http-server
-    ```
-3. You can verify your server by navigate to the following: http://localhost:8080/YourPluginFolder/manifest.json
-4.  FormIt for Windows only requires a simple HTTP server to host plugins on a local web server.
+![](broken-reference)
+
+Simply run the command to start your npm http-server from previous steps:&#x20;
+
+```
+http-server
+```
+
+1. You can verify your server by navigate to the following: http://localhost:8080/YourPluginFolder/manifest.json
+2.  FormIt for Windows only requires a simple HTTP server to host plugins on a local web server.
 
     An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server), which you can install by:
 
@@ -33,7 +37,7 @@ Now, you have the option of starting the server you installed previously right i
 **Verify the Web Server**
 
 * In a web browser, navigate to the following: [\
-      http://localhost:8080/YourPluginFolder/manifest.json\
+  &#x20;   http://localhost:8080/YourPluginFolder/manifest.json\
   ](http://localhost:8080/YourPluginFolder/manifest.json)
 * You should see a json object in the browser window.
 * If you use a different web server than npm, the default address/port might be different.
