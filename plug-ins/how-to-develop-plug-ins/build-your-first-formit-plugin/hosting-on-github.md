@@ -34,7 +34,7 @@ Click on settings
 
 Add your plugin description, add formit-plugin to your topic field then save changes
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15) (1).png>)
 
 Once saved, your plugin project will be added to [community plugins](https://github.com/topics/formit-plugin) list.
 

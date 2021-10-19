@@ -4,7 +4,7 @@
 
 The html file (left) allows you to modify the user interface of your plugin, the js file (middle) is where you write the code for how the function works and the css file (right) includes styles to determine the appearance of your html elements.
 
-![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1) (1).png>)
 
 ###
 
@@ -69,7 +69,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18) (1) (1).png>) again and you will see the update of your plugin in the same window.
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 ###
 

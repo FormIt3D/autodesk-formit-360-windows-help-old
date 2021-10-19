@@ -8,7 +8,7 @@ You have the option of starting the server inside Visual Studio Code, instead of
 
 View > Terminal (or shortcut Ctrl + \`)
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 ### Setup http server
 
@@ -20,7 +20,7 @@ If you encounter errors in the following steps, try restarting your computer for
 
 In the Command Prompt, enter the following to install npm's _http-server_ globally (also a one-time setup)
 
-* npm install http-server -g
+* `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (14) (1).png>)
 
@@ -28,9 +28,21 @@ In the Command Prompt, enter the following to install npm's _http-server_ global
 
 Once the setup is complete, simply run the following command in the terminal to start your npm http-server
 
-* http-server
+* `http-server`
 
 ![](<../../../.gitbook/assets/image (21).png>)
+
+
+
+### Develop for FormIt for Web
+
+To develop on FormIt Web, simply run the following command instead:
+
+* `http-server --cors`
+
+![](<../../../.gitbook/assets/image (5).png>)
+
+###
 
 ### Verify your server
 
