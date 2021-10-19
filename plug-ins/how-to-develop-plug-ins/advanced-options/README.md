@@ -11,4 +11,4 @@ In previous chapters, we have covered the [basic steps on developing a FormIt pl
 * [versioning.md](versioning.md "mention")
 * [testing-toolbar-based-plugin-html-panel-based-plugin.md](testing-toolbar-based-plugin-html-panel-based-plugin.md "mention")
 * [debugging.md](debugging.md "mention")
-* [working-with-sample-plugins.md](working-with-sample-plugins.md "mention")
+* [load-panel-based-and-toolbar-based-plugin](load-panel-based-and-toolbar-based-plugin/ "mention")

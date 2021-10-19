@@ -54,23 +54,30 @@ If running a local server:
 If loading from the [FormIt Github repo](https://github.com/FormIt3D/) (requires an internet connection):
 
 * FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");
-* You should see the Properties Plus panel appear on the right side of the application window:
-* ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
+* You should see the Properties Plus panel appear on the right side of the application window
+
+![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
 ### ****
 
 ### **Modal + Modeless Dialog Plugin Sample**
 
-Dialog plugins are unique: they can only be loaded, not installed.
+Dialog plugins are unique, they can only be loaded, not installed.
 
-* In the Script Editor, run the following:
-*
-  * If running a local server:
-  *
-    * Modal: FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");
-    * Modeless: FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");
-  * If loading from the [FormIt Github repo](https://github.com/FormIt3D/) (requires an internet connection):
-  *
-    * Modal: FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");
-    * Modal: FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");
-* You should see the Hello Block! panel from the HTML Panel example appear on screen as either a modal or modeless dialog.
+In the Script Editor, run the following:
+
+If running a local server:
+
+* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+
+
+
+If loading from the [FormIt Github repo](https://github.com/FormIt3D/) (requires an internet connection):
+
+* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+
+``
+
+You should see the Hello Block! panel from the HTML Panel example appear on screen as either a modal or modeless dialog.

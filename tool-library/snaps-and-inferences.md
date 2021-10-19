@@ -2,7 +2,7 @@
 
 To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Note:** _See_ [_Keyboard Shortcuts_](../plug-ins/how-to-develop-plug-ins/advanced-options/load-panel-based-and-toolbar-based-plugin/appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
 
 ## Snapping
 

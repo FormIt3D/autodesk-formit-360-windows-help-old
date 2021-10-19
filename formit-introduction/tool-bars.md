@@ -72,6 +72,6 @@ Right-click on an element in the 3D canvas to display a menu of commands and mod
 
 ## Keyboard Shortcuts
 
-Customize your FormIt [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in Edit > Preferences > Shortcuts.
+Customize your FormIt [k**eyboard shortcuts**](../plug-ins/how-to-develop-plug-ins/advanced-options/load-panel-based-and-toolbar-based-plugin/appendix/keyboard-shortcuts.md) in Edit > Preferences > Shortcuts.
 
 ![](../.gitbook/assets/shortcuts\_img.png)
