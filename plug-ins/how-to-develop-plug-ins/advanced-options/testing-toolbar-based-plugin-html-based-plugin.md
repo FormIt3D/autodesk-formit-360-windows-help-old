@@ -1,6 +1,6 @@
-# Testing
+# Testing toolbar-based plugin HTML-based plugin
 
-If your web server is running [per the instructions above](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpEnvironment), you can test your in-progress plugins easily using the built-in [Script Editor](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpFormIt) in FormIt for Windows:
+You can test your in-progress plugins easily using the built-in [Script Editor](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#SettingUpFormIt) in FormIt for Windows:
 
 We recommend using FormIt.LoadPlugin("URL"); when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted). Once testing is complete, you can persist the plugin between sessions using FormIt.InstallPlugin("URL");.
 

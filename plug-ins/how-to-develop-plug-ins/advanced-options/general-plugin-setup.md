@@ -4,7 +4,11 @@ FormIt plugins are comprised of a key core component called a _manifest.json_ fi
 
 The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
 
-A _manifest.json_ file has the following structure, but has additional properties depending on whether it's a toolbar or a panel-based plugin (see the following sections for more info):
+
+
+### Manifest.json structure and properties
+
+A _manifest.json_ file has the following structure, but has additional properties depending on whether it's a [toolbar-based](creating-toolbar-based-plugin.md) or a [HTML panel-based plugin](creating-an-html-panel-based-plugin.md)
 
 ```
 {
