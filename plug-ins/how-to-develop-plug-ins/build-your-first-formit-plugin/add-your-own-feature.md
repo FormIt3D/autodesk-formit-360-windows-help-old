@@ -1,8 +1,12 @@
 # Add your own feature
 
-The html file (left) allows you to modify the user interface of your plugin, the js file (middle) is where you write the code for how the function works and the css file (right) is styles to determine the appearance of your html elements.
+### Sample files and code
 
-![](<../../../.gitbook/assets/image (10).png>)
+The html file (left) allows you to modify the user interface of your plugin, the js file (middle) is where you write the code for how the function works and the css file (right) includes styles to determine the appearance of your html elements.
+
+![](<../../../.gitbook/assets/image (10) (1).png>)
+
+###
 
 ### Add a function to create cylinder&#x20;
 
@@ -57,7 +61,9 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 });
 ```
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19) (1).png>)
+
+###
 
 ### Run and preview plugin
 
@@ -65,4 +71,8 @@ When you’re ready to see the results, click the Play Arrow button ![](<../../.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-For a complete documentation on the FormIt plug-ins API please refer: [https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/)
+###
+
+### FormIt plugins API
+
+For a complete documentation on the FormIt plugins API please refer: [https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/)

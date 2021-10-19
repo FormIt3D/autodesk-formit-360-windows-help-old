@@ -6,6 +6,8 @@ When you’re ready to share your plugin with others, use the bullhorn icon ![](
 
 ![](https://formit3d.github.io/PluginPlayground/images/save4.png)
 
+###
+
 ### Host your plugin on Github
 
 Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
@@ -16,7 +18,9 @@ In the top-right corner, click the Settings > Pages
 
 Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _main _branch.
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
+
+###
 
 ### Deploy your plugin in FormIt&#x20;
 

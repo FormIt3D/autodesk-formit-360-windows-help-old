@@ -6,8 +6,6 @@ You can clone various first-party FormIt plugin repos, which demonstrate differe
 
 Each first-party plugin is now stored in its own repo. You'll find them all here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
 
-_\[add instructions for cloning an existing repo]_
-
 __
 
 ### GitHub Desktop
@@ -24,11 +22,25 @@ You can also download [GitHub Desktop](https://desktop.github.com), which provid
 
 ### Clone a sample plugin repo from GitHub desktop
 
+Choose a plugin project you wish to clone or modify on github.
 
+Copy the address from the **code **dropdown.
+
+![](<../../../.gitbook/assets/image (19).png>)
+
+Open your github desktop app, click '**Current repository**' then select '**Clone repository**' .
+
+![](<../../../.gitbook/assets/image (11).png>)
+
+Select **URL **tab, paste copied link into first field and choose a local folder path on your computer to save these files then click '**Clone**'
+
+![](<../../../.gitbook/assets/image (14).png>)
 
 
 
 ### Open your project in Visual Studio Code
 
-Use File > Open Folder to select the folder that contains your plugin files and folders
+Launch Visual Studio Code, use **File** > **Open Folder** to select the folder that contains your plugin files and folders to open it, e.g: C:\Users\Documents\GenerateStringLights\v22\_0
+
+
 
