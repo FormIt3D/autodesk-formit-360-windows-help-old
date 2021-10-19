@@ -42,5 +42,5 @@ You should see your project folder files in the browser window.
 
 \*\*If you use a different web server than npm, the default address/port might be different.
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 

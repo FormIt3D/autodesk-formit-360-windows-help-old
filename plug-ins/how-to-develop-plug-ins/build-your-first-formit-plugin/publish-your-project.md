@@ -20,9 +20,9 @@ Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _main 
 
 ### Deploy your plugin in FormIt&#x20;
 
-To use the plugin your plugin hosted on github, copy the page link and paste it under 'Add your private or local plugin' plugin manager then click the ![](<../../../.gitbook/assets/image (15).png>) button
+To use the plugin your plugin hosted on github, copy the page link and paste it under 'Add your private or local plugin' plugin manager then click the ![](<../../../.gitbook/assets/image (15) (1).png>) button
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18) (1).png>)
 
 ![](<../../../.gitbook/assets/image (20) (1).png>)
 

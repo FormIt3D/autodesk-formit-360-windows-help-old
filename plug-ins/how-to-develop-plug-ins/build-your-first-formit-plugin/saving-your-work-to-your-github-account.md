@@ -8,9 +8,9 @@ Simply click the button to login to GitHub and allow FormIt3D to have access to 
 
 ![](<../../../.gitbook/assets/image (14) (1).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (15).png>) button.
+To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (15) (1).png>) button.
 
-![](<../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1).png>)
 
 In a few moments the newly created project will show in your projects list. Select the project from the drop down to load it.
 

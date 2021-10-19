@@ -61,7 +61,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ### Run and preview plugin
 
-When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18) (1).png>) again and you will see the update of your plugin in the same window.
+When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18) (1) (1).png>) again and you will see the update of your plugin in the same window.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
