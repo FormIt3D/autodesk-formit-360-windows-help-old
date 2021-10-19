@@ -134,7 +134,7 @@
       * [Develop plugins in an IDE](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/develop-plugins-in-an-ide.md)
       * [Start with a sample plugin](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/start-with-a-sample-plugin.md)
       * [Host local server](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/host-local-server.md)
-      * [Previewing Your Plug-in with the Plug-in Manager](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/previewing-your-plug-in-with-the-plug-in-manager.md)
+      * [Previewing Your Plugin with the Plugin Manager](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/previewing-your-plugin-with-the-plugin-manager.md)
       * [Hosting on GitHub](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/hosting-on-github.md)
       * [Plugins from the community](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/plugins-from-the-community.md)
       * [Using Formit for Concept Modeling](plug-ins/how-to-develop-plug-ins/build-your-first-formit-plugin/using-formit-for-concept-modeling.md)

@@ -2,43 +2,45 @@
 
 Before you can preview a clone plugin in FormIt, you need to host it on a local server in order to deploy it in both FormIt web/desktop
 
-### **Start local server from IDE**
+### **View terminal from IDE**
 
-You have the option of starting the server inside Visual Studio Code, instead of from a separate terminal window, in your Visual Studio Code, open your project folder (to make s:
+You have the option of starting the server inside Visual Studio Code, instead of from a separate terminal window, make sure the right folder is opened in Visual Studio Code before opening a terminal:
 
 View > Terminal (or shortcut Ctrl + \`)
 
-![](broken-reference)
+![](<../../../.gitbook/assets/image (4).png>)
 
-Simply run the command to start your npm http-server from previous steps:&#x20;
+### Setup http server
 
-```
-http-server
-```
+An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server)
 
-1. You can verify your server by navigate to the following: http://localhost:8080/YourPluginFolder/manifest.json
-2.  FormIt for Windows only requires a simple HTTP server to host plugins on a local web server.
+First you will need to download and install [NodeJS](https://nodejs.org/en/) (this is a one-time setup, do this if NodeJS is not already installed)
 
-    An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server), which you can install by:
+If you encounter errors in the following steps, try restarting your computer for the NodeJS installation to complete.
 
-    * First, download and install [NodeJS](https://nodejs.org/en/) if it's not already installed (one-time setup).
-    *
-      * If you encounter errors in the following steps, try restarting your computer for the NodeJS installation to complete.
-    * In the Command Prompt, enter the following to install npm's _http-server_ globally (one-time setup):
-    *
-      * npm install http-server -g
-    * In Command Prompt, navigate to the directory containing the folders of repos you've cloned.
-    * Run the following:
-    *
-      * http-server
+In the Command Prompt, enter the following to install npm's _http-server_ globally (also a one-time setup)
 
+* npm install http-server -g
 
+![](<../../../.gitbook/assets/image (14).png>)
 
-**Verify the Web Server**
+### Start local server
 
-* In a web browser, navigate to the following: [\
-  &#x20;   http://localhost:8080/YourPluginFolder/manifest.json\
-  ](http://localhost:8080/YourPluginFolder/manifest.json)
-* You should see a json object in the browser window.
-* If you use a different web server than npm, the default address/port might be different.
+Once the setup is complete, simply run the following command in the terminal to start your npm http-server
+
+* http-server
+
+![](<../../../.gitbook/assets/image (21).png>)
+
+### Verify your server
+
+You can verify your server by navigating to the following address in your web browser:&#x20;
+
+* http://localhost:8080
+
+You should see your project folder files in the browser window.
+
+\*\*If you use a different web server than npm, the default address/port might be different.
+
+![](<../../../.gitbook/assets/image (13).png>)
 

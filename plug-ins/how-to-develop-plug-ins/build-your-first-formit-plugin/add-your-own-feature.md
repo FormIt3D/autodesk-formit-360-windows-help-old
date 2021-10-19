@@ -4,7 +4,7 @@ The html file (left) allows you to modify the user interface of your plugin, the
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Add a function to create cylinder 
+### Add a function to create cylinder&#x20;
 
 Let's add a feature to this plugin for creating cylinder.
 
@@ -27,7 +27,7 @@ First, configure the input field and UI button in the html file, copy the follow
         
 ```
 
-![](<../../../.gitbook/assets/image (20) (1).png>)
+![](<../../../.gitbook/assets/image (20) (1) (1).png>)
 
 Next, add the function in the js file. Copy the following code and paste it at the end of the file (after line 16)
 

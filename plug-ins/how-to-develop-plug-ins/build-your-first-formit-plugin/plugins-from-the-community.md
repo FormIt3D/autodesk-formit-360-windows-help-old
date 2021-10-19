@@ -8,4 +8,4 @@ If you are looking for some ideas on developing your FormIt plugin, check out so
 
 ### Want FormIt to feature your plugin?
 
-If you have develop a plugin that would be useful for other FormIt users, we would love to review it to consider adding it **formit-plugin-recommended** list or feature it as [examples](../../how-to-use-plug-ins/example-1/) in our primer. Contact us!
+If you have develop a plugin that would be useful for other FormIt users, we would love to hear about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](../../how-to-use-plug-ins/example-1/) in our primer.&#x20;
