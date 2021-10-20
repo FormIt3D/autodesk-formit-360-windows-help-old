@@ -124,7 +124,6 @@
       * [Setting the Plugin Playground](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/setting-the-plugin-playground.md)
       * [View and Edit Sample Code](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/view-and-edit-sample-code.md)
       * [Add Your Own Feature](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/add-your-own-feature.md)
-      * [View code from Plugin manager](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/view-code-from-plugin-manager.md)
       * [Saving Your Work to GitHub](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/saving-your-work-to-github.md)
       * [Publish Your Project](plug-ins/how-to-develop-plug-ins/build-your-first-plugin/publish-your-project.md)
     * [Advanced: Using Your Own IDE](plug-ins/how-to-develop-plug-ins/advanced-using-your-own-ide/README.md)
