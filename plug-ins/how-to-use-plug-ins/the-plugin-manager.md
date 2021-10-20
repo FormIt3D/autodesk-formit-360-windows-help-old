@@ -26,7 +26,7 @@ The 3 different categories are:
 
 ![](../../.gitbook/assets/d3.PNG)
 
-## Add your private local plugin
+## Add Your Private Local Plugin
 
 If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
 
