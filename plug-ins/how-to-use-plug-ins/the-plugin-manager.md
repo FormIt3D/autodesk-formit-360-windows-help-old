@@ -24,7 +24,7 @@ The 3 different categories are:
 
 **Public Plugins:** Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
 
-### Add your private local plugin
+## Add your private local plugin
 
 If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
 
