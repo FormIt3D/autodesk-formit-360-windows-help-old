@@ -1,10 +1,10 @@
-# Add your own feature
+# Add Your Own Feature
 
 ### Sample files and code
 
 The html file (left) allows you to modify the user interface of your plugin, the js file (middle) is where you write the code for how the function works and the css file (right) includes styles to determine the appearance of your html elements.
 
-![](<../../../.gitbook/assets/image (10) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (10) (1) (1).png>)
 
 ###
 
@@ -31,7 +31,7 @@ First, configure the input field and UI button in the html file, copy the follow
         
 ```
 
-![](<../../../.gitbook/assets/image (20) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (20) (1) (1).png>)
 
 Next, add the function in the js file. Copy the following code and paste it at the end of the file (after line 16)
 
@@ -61,15 +61,15 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 });
 ```
 
-![](<../../../.gitbook/assets/image (19) (1).png>)
+![](<../../../../.gitbook/assets/image (19) (1).png>)
 
 ###
 
 ### Run and preview plugin
 
-When you’re ready to see the results, click the Play Arrow button ![](<../../../.gitbook/assets/image (18) (1) (1).png>) again and you will see the update of your plugin in the same window.
+When you’re ready to see the results, click the Play Arrow button ![](<../../../../.gitbook/assets/image (18) (1) (1).png>) again and you will see the update of your plugin in the same window.
 
-![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../../.gitbook/assets/image (5) (1).png>)
 
 ###
 

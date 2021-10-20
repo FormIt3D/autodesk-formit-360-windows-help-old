@@ -8,7 +8,7 @@ If you are looking for some ideas to develop your FormIt plugin, check out some 
 
 ### Want FormIt to feature your plugin?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](../../how-to-use-plug-ins/example-1/) in our primer.&#x20;
+If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
 
 
 
@@ -20,4 +20,4 @@ If you would like to take this further, please check out our [advanced options](
 
 ### Help from FormIt and the community
 
-Having issues building or running plugins? [Reach out to us!](../../introduction/how-to-contact-us-if-you-need-any-help.md)
+Having issues building or running plugins? [Reach out to us!](../introduction/how-to-contact-us.md)

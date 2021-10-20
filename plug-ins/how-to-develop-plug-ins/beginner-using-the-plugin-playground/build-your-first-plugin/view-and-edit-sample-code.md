@@ -1,4 +1,4 @@
-# View and edit sample code
+# View and Edit Sample Code
 
 ### Running sample code
 
@@ -18,4 +18,4 @@ Want to see how the code behind the plugin? Click the Edit button.
 
 This launches a dialog which shows the main pieces to a any FormIt plugin - html, javascript, and css.
 
-![](<../../../.gitbook/assets/02-view and edit playground code.gif>)
+![](<../../../../.gitbook/assets/02-view and edit playground code.gif>)

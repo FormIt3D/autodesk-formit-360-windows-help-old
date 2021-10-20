@@ -8,7 +8,7 @@ The manifest file is a [JSON object](http://www.json.org) that tells the FormIt 
 
 ### Manifest.json structure and properties
 
-A _manifest.json_ file has the following structure, but has additional properties depending on whether it's a [toolbar-based](creating-toolbar-based-plugin.md) or a [HTML panel-based plugin](creating-an-html-panel-based-plugin.md)
+A _manifest.json_ file has the following structure, but has additional properties depending on whether it's a [toolbar-based](../additional-options/creating-toolbar-based-plugin.md) or a [HTML panel-based plugin](../additional-options/creating-an-html-panel-based-plugin.md)
 
 ```
 {
