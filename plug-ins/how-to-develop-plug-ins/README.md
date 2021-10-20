@@ -1,8 +1,7 @@
 # How to Develop Plugins
 
-For the tinkerers and developers out there, FormIt also ships with a plugin that allows you to create and test your own custom plugins right inside of FormIt. Knowledge of HTML, CSS, and JavaScript is required to take full advantage of this tool so we will not go into detail here.&#x20;
+For the tinkerers and developers out there, FormIt is a great tool to develop Plugins. There are two modes of development you can choose from depending on your development skills and the complexity of the project you wish to execute.&#x20;
 
-This section is broken into 2 parts to simplify your journey:
-
-* [Beginner:](build-your-first-plugin/) Guide for developing your plugin using FormIt Plugin Playground.
-* [Advanced](advanced-using-your-own-ide/): Configuring plugin, add-in, etc
+* We recommend that you start with the [Build Your First Plugin](build-your-first-plugin/) section. That guides you to creating a simple plugin using the plugin playground.&#x20;
+* If you want to develop a more complex project we recommend following the [Advanced: Using Your Own IDE](advanced-using-your-own-ide/) section.
+* You can also check the [Tips and Tricks](tips-and-tricks/) section for some suggestions on improving your developer experience.&#x20;
