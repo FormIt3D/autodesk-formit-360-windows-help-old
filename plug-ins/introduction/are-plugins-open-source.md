@@ -8,5 +8,5 @@ Plugins are open source, this means that you may use plugins in the [installed p
 
 If you are a developer and want more information on how to publish your plugins you can do it through the following section: [Publish your project and hosting on GitHub](../how-to-develop-plug-ins/advanced-using-your-own-ide/deployment/hosting-on-github.md)&#x20;
 
-If you want to make a plugin for private use you can always develop and host using a local service. For more information refer to the following section: [Develop plugins in an IDE ](../how-to-develop-plug-ins/advanced-using-your-own-ide/set-up/develop-plugins-in-an-ide.md)
+If you want to make a plugin for private use you can always develop and host using a local service. For more information refer to the following section: [Develop plugins in an IDE ](../how-to-develop-plug-ins/advanced-using-your-own-ide/set-up-and-cloning/develop-plugins-in-an-ide.md)
 

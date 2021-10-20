@@ -1,4 +1,4 @@
-# Start with a sample plugin
+# Start With a Sample Plugin
 
 ### Clone an existing FormIt plugin repo
 
@@ -26,15 +26,15 @@ Choose a plugin project you wish to clone or modify on github.
 
 Copy the address from the **code **dropdown.
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../../.gitbook/assets/image (19).png>)
 
 Open your github desktop app, click '**Current repository**' then select '**Clone repository**' .
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../../.gitbook/assets/image (11).png>)
 
 Select **URL **tab, paste copied link into first field and choose a local folder path on your computer to save these files then click '**Clone**'
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../../.gitbook/assets/image (14).png>)
 
 
 
