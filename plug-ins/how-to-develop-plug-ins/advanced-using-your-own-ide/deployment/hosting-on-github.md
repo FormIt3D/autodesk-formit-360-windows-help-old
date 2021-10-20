@@ -24,7 +24,7 @@ At this point, you can continue adding, modifying, and testing plugins locally, 
 
 For project created in an IDE instead of [Plugin Playground](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#PluginPlayground), you can publish your plugin by adding a **formit-plugin** topic to your plugin's repository.
 
-This allows your plugin to be discovered in the [community plugins](../../../example-1/community-and-formit-forum.md) list.
+This allows your plugin to be discovered in the [community plugins](../../../example-1/formit-plugin-community.md) list.
 
 View your repo on Github by visiting your project link, e.g: https://github.com/Joe/JoesPlugin
 

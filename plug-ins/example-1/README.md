@@ -1,10 +1,11 @@
 # Examples
 
-Here is a list of examples you can use to follow along to learn how to use plugins.
+In this section you will find sample plugin implementations to follow along:
 
-* [Encode Campus](encode-campus.md)
 * [Generate string lights](generate-string-lights.md)
 * [Manage Cameras Plugin](manage-cameras-plugin.md)
 * [Properties Plus Plugin](properties-plus-plugin.md)
 
-![](<../../../.gitbook/assets/gif formit 1200 x 800.gif>)
+We also recommend that you check the [Formit Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider Formit community. &#x20;
+
+![](<../../.gitbook/assets/gif formit 1200 x 800.gif>)
