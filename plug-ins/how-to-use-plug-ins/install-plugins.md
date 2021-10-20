@@ -1,14 +1,14 @@
 # Install Plugins
 
-Inside the plugin manager you will see a series of plugins. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr
+Inside the plugin manager, you will see a series of plugins classified into their categories. Each plugin will contain a title, description, GitHub link, and a toggle button.&#x20;
 
 ![](../../.gitbook/assets/d5.PNG)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr
+To install a plugin you only need to turn on the toggle next to the plugin's title.&#x20;
 
 ![](../../.gitbook/assets/d6.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repr
+You will see that the icon of the selected plugin will appear on your right panel. Click on it to reveal the plugin UI.
 
 ![](../../.gitbook/assets/d7.PNG)
 
