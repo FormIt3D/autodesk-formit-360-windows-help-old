@@ -30,4 +30,4 @@ If you're [developing your own plugin](https://formit3d.github.io/FormItExampleP
 
 ![](../../.gitbook/assets/d4.PNG)
 
-For more information on adding your private local plugin, refer to the following section: [Previewing your Plugin With the Plugin Manager ](../how-to-develop-plug-ins/advanced-using-your-own-ide/deployment/previewing-your-plugin-with-the-plugin-manager.md)
+For more information on adding your private local plugin, refer to the following section: [Previewing your Plugin With the Plugin Manager ](../how-to-develop-plug-ins/advanced-using-your-own-ide/deployment/previewing-a-plugin-in-the-plugin-manager.md)

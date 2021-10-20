@@ -36,7 +36,7 @@ Make some changes, then simply right-click the panel and select "Hard Reload" to
 
 ### **Preview your plugin with Plugin Manager**
 
-Once your plugin is loaed, refer an [earlier chapter](../deployment/previewing-your-plugin-with-the-plugin-manager.md) for this guide.
+Once your plugin is loaed, refer an [earlier chapter](../deployment/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
 
 ****
 
