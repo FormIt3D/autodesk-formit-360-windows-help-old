@@ -20,4 +20,4 @@ If you would like to take this further, please check out our [advanced options](
 
 ### Help from FormIt and the community
 
-Having issues building or running plugins? Reach out to us on the [FormIt forums.](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+Having issues building or running plugins? [Reach out to us!](../../introduction/how-to-contact-us-if-you-need-any-help.md)
