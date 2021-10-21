@@ -1,4 +1,4 @@
-# The Plugin Manager
+# Plugin Manager
 
 The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
 
@@ -10,7 +10,7 @@ Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePl
 
 ## The Plugin Manager's Window
 
-The plugin manager organizes plugins into categories outlining each number of plugins in each category.&#x20;
+The Plugin Manager organizes plugins into categories outlining each number of plugins in each category.&#x20;
 
 ![](<../../.gitbook/assets/d10 (1).PNG>)
 
@@ -32,4 +32,4 @@ If you're [developing your own plugin](https://formit3d.github.io/FormItExampleP
 
 ![](../../.gitbook/assets/d4.PNG)
 
-For more information on adding your private local plugin, refer to the following section: [Previewing your Plugin With the Plugin Manager ](../how-to-develop-plug-ins/advanced-using-your-own-ide/deployment/previewing-a-plugin-in-the-plugin-manager.md)
+For more information on adding your private local plugin, refer to the following section: [Previewing your Plugin With the Plugin Manager ](../how-to-develop-plug-ins/advanced/deployment/previewing-a-plugin-in-the-plugin-manager.md)

@@ -1,6 +1,6 @@
 # Introduction to Plugins
 
-If you are thinking about using Plugins, here is some basic information you may want to know:
+If you are thinking about using plugins, here is some basic information you may want to know:
 
 * [What Are Plugins?](introduction/what-are-plugins.md)
 * [Where Are Plugins Available?](introduction/where-are-they-available.md)

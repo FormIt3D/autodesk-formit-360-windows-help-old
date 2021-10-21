@@ -1,10 +1,10 @@
-# Hosting on GitHub
+# Hosting a Plugin on GitHub
 
 Built a useful plugin that you want to share? Host your repository on GitHub so others can install your plugins from the [Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/index.html)!
 
 ### Host your plugin project
 
-The process is similar to and earlier chapter where we discuss how to [publish your plugin](../../build-your-first-plugin/publish-your-project.md) create from the Plugin Playground. &#x20;
+The process is similar to and earlier chapter where we discuss how to [publish your plugin](../../your-first-plugin/publishing-your-project.md) create from the Plugin Playground. &#x20;
 
 Go to your new GitHub plugins repo, i.e. https://github.com/Joe/JoesPlugins
 

@@ -1,6 +1,6 @@
 # Develop plugins in an IDE
 
-It is very simple and convenient to develop plugin inside [plugin playground](../../build-your-first-plugin/setting-the-plugin-playground.md). However, for any reason, such as ones listed below:&#x20;
+It is very simple and convenient to develop plugin inside [plugin playground](../../your-first-plugin/plugin-playground.md). However, for any reason, such as ones listed below:&#x20;
 
 * Collaborate with your colleagues on developing FormIt plugin
 * Develop within your chosen Intergrated Development Environment (IDE)
