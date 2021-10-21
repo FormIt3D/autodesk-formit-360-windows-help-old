@@ -1,4 +1,4 @@
-# Start With a Sample Plugin
+# Cloning a Sample Plugin
 
 ### Clone an existing FormIt plugin repo
 
@@ -10,7 +10,7 @@ __
 
 ### GitHub Desktop
 
-You can also download [GitHub Desktop](https://desktop.github.com), which provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features github desktop provides are:
+You can also download [GitHub Desktop](https://desktop.github.com), which provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
 
 * Create a new repo to host your plugin on GitHub.
 * Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
@@ -20,21 +20,21 @@ You can also download [GitHub Desktop](https://desktop.github.com), which provid
 
 
 
-### Clone a sample plugin repo from GitHub desktop
+### Clone a Sample Plugin Repo From GitHub Desktop
 
-Choose a plugin project you wish to clone or modify on github.
+Choose a plugin project you wish to clone or modify on GitHub.
 
 Copy the address from the **code **dropdown.
 
-![](<../../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 Open your github desktop app, click '**Current repository**' then select '**Clone repository**' .
 
-![](<../../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11).png>)
 
 Select **URL **tab, paste copied link into first field and choose a local folder path on your computer to save these files then click '**Clone**'
 
-![](<../../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14).png>)
 
 
 

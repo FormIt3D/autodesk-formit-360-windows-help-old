@@ -1,6 +1,6 @@
 # Where Are They Available?
 
-Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own. They are available both on desktop or web version, as long as you have an internet connection on the [plugin manager](../how-to-use-plug-ins/plugin-manager.md)
+Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own. They are available both on desktop or web version, as long as you have an internet connection on the [plugin manager](../how-to-use-plug-ins/the-plugin-manager.md)
 
 ![](../../.gitbook/assets/c17.PNG)
 

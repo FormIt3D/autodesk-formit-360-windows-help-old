@@ -1,4 +1,4 @@
-# Host local server
+# Hosting a Plugin in the Local Server
 
 Before you can preview a clone plugin in FormIt, you need to host it on a local server in order to deploy it in both FormIt web/desktop
 
@@ -8,7 +8,7 @@ You have the option of starting the server inside Visual Studio Code, instead of
 
 View > Terminal (or shortcut Ctrl + \`)
 
-![](<../../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1).png>)
 
 ### Setup http server
 
@@ -22,7 +22,7 @@ In the Command Prompt, enter the following to install npm's _http-server_ global
 
 * `npm install http-server -g`
 
-![](<../../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 ### Start local server
 
@@ -30,7 +30,7 @@ Once the setup is complete, simply run the following command in the terminal to 
 
 * `http-server`
 
-![](<../../../../.gitbook/assets/image (21).png>)
+![](<../../../.gitbook/assets/image (21).png>)
 
 
 
@@ -40,7 +40,7 @@ To develop on FormIt Web, simply run the following command instead:
 
 * `http-server --cors`
 
-![](<../../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5).png>)
 
 ###
 
@@ -54,5 +54,5 @@ You should see your project folder files in the browser window.
 
 \*\*If you use a different web server than npm, the default address/port might be different.
 
-![](<../../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 

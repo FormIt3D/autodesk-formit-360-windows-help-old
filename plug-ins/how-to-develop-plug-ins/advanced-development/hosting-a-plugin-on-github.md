@@ -4,7 +4,7 @@ Built a useful plugin that you want to share? Host your repository on GitHub so 
 
 ### Host your plugin project
 
-The process is similar to and earlier chapter where we discuss how to [publish your plugin](../../your-first-plugin/publishing-your-project.md) create from the Plugin Playground. &#x20;
+The process is similar to and earlier chapter where we discuss how to [publish your plugin](../build-your-first-plugin/publish-your-project.md) create from the Plugin Playground. &#x20;
 
 Go to your new GitHub plugins repo, i.e. https://github.com/Joe/JoesPlugins
 
@@ -12,7 +12,7 @@ In the top-right corner, click the Settings tab.
 
 Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _main _branch.
 
-![](<../../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18).png>)
 
 ### Continue update your plugin project locally
 
@@ -24,17 +24,17 @@ At this point, you can continue adding, modifying, and testing plugins locally, 
 
 For project created in an IDE instead of [Plugin Playground](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#PluginPlayground), you can publish your plugin by adding a **formit-plugin** topic to your plugin's repository.
 
-This allows your plugin to be discovered in the [community plugins](../../../example-1/formit-plugin-community.md) list.
+This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
 
 View your repo on Github by visiting your project link, e.g: https://github.com/Joe/JoesPlugin
 
 Click on settings
 
-![](<../../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13).png>)
 
 Add your plugin description, add formit-plugin to your topic field then save changes
 
-![](<../../../../.gitbook/assets/image (15) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1).png>)
 
 Once saved, your plugin project will be added to [community plugins](https://github.com/topics/formit-plugin) list.
 

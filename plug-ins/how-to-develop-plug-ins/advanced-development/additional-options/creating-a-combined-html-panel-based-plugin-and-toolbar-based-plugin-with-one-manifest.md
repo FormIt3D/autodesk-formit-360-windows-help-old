@@ -1,6 +1,4 @@
-# Creating a Combined HTML Panel and Toolbar with One Manifest
-
-
+# Creating a combined HTML Panel-based plugin and Toolbar-based plugin with one manifest
 
 With a single _manifest.json_, you can initialize both a toolbar and an HTML panel, offering a variety of UI types and tools, all loaded from the same directory.
 
