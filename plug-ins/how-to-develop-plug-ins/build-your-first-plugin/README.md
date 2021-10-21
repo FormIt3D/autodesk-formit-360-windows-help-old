@@ -8,5 +8,5 @@ Let's start creating and editing a simple plugin using the Plugin Playground. Th
 * [Saving Your Work to GitHub](saving-your-work-to-github.md)
 * [Publishing Your Project](publish-your-project.md)
 
-**(ADD IMAGE/GIFF OF RESULTING PLUGIN)**
+![](<../../../.gitbook/assets/03-FormIt plugin cylinder demo.gif>)
 

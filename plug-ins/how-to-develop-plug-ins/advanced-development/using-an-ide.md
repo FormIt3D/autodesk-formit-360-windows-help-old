@@ -14,3 +14,4 @@ A free IDE that works well for FormIt plugin development is Microsoft's [Visual 
 
 Follow the link to download the setup file and complete the installation.
 
+![](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

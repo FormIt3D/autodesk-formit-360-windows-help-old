@@ -8,4 +8,4 @@ In this section you will find sample plugin implementations to follow along:
 
 We also recommend that you check the [Formit Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider Formit community. &#x20;
 
-![](<../../.gitbook/assets/gif formit 1200 x 800.gif>)
+![](<../../.gitbook/assets/g6 (2).gif>)

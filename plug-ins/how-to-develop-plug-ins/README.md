@@ -3,7 +3,8 @@
 For the tinkerers and developers out there, FormIt is a great tool to develop plugins. There are two modes of development you can choose from, depending on your development skills and the complexity of the project you wish to execute.&#x20;
 
 * We recommend that you start with the [Build Your First Plugin](build-your-first-plugin/) section. That guides you through creating a simple plugin using the plugin playground.&#x20;
-* If you want to develop a more complex project we recommend following the [Advanced: Using Your Own IDE](advanced-development/) section.
+* If you want to develop a more complex project we recommend following the [Advanced Development](advanced-development/) section.
+* Check the [Additional Development Options](additional-development-options/) for developing other types of plugins.
 * You can also check the [Tips and Tricks](tips-and-tricks/) section for some suggestions on improving your developer experience.
 
 ![](../../.gitbook/assets/g5.gif)
