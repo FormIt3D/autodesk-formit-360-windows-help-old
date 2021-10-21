@@ -32,7 +32,9 @@ Once the setup is complete, simply run the following command in the terminal to 
 
 ![](<../../../.gitbook/assets/image (21).png>)
 
+Tip: in case of any issues with running the http-server (installed globally or locally) it might be helpful to run it directly via npx:
 
+* `npx http-server`
 
 ### Develop for FormIt for Web
 
