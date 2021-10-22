@@ -32,9 +32,14 @@ Once the setup is complete, simply run the following command in the terminal to 
 
 ![](<../../../.gitbook/assets/image (21).png>)
 
-Tip: in case of any issues with running the http-server (installed globally or locally) it might be helpful to run it directly via npx:
+Tip 1: in case of any issues with running the http-server (installed globally or locally) it might be helpful to run it directly via npx:
 
 * `npx http-server`
+
+Tip 2: For Windows 10/11 users, if you have encountered an error in running script on your new machine, this may be due to the settings being disabl. To fix this:
+
+* Launch PowerShell script as an administrator&#x20;
+* Enter: `Set-ExecutionPolicy RemoteSigned `
 
 ### Develop for FormIt for Web
 
