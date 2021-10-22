@@ -14,15 +14,15 @@ Scroll down to the GitHub Pages section, enable GitHub Pages, and use the _main 
 
 ![](<../../../.gitbook/assets/image (18).png>)
 
-### Continue update your plugin project locally
+### Continue to Update your Plugin Project Locally
 
 At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
 
 
 
-### Publish your project
+### Publish your Project
 
-For project created in an IDE instead of [Plugin Playground](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#PluginPlayground), you can publish your plugin by adding a **formit-plugin** topic to your plugin's repository.
+For projects created in an IDE instead of [Plugin Playground](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html#PluginPlayground), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
 
 This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
 
