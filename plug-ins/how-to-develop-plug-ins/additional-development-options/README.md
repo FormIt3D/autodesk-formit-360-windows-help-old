@@ -1,9 +1,11 @@
-# Additional Options
+# Additional Development Options
 
-Creating more advanced plugins:
+As an advanced developer, there are also some additional development options may want to try:
 
-* Creating an Add-In
-* Creating a combined HTML Panel-based plugin and Toolbar-based plugin with one manifest
-* Creating Toolbar-based Plugin
-* Creating an HTML Panel-based Plugin
-* Testing Toolbar-based plugin HTML Panel
+* [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)&#x20;
+* [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
+* [Creating an Add-In](creating-an-add-in.md)
+* [Creating a Combined HTML Panel and Toolbar Plugin](creating-a-combined-html-panel-and-toolbar-plugin.md)
+* [Testing a Combined HTML Panel and Toolbar Plugin](testing-a-combined-html-panel-and-toolbar-plugin.md)
+
+![](../../../.gitbook/assets/c23.PNG)

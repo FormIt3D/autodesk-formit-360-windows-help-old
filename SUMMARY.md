@@ -139,7 +139,7 @@
       * [Creating an HTML Panel Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-an-html-panel-plugin.md)
       * [Creating an Add-In](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-an-add-in.md)
       * [Creating a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-a-combined-html-panel-and-toolbar-plugin.md)
-      * [Testing a Combined HTML Panel and Toolbar plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/testing-a-combined-html-panel-and-toolbar-plugin.md)
+      * [Testing a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/testing-a-combined-html-panel-and-toolbar-plugin.md)
     * [Tips and Tricks](plug-ins/how-to-develop-plug-ins/tips-and-tricks/README.md)
       * [Improve Performance](plug-ins/how-to-develop-plug-ins/tips-and-tricks/improve-performance.md)
       * [Debugging](plug-ins/how-to-develop-plug-ins/tips-and-tricks/debugging.md)
