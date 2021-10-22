@@ -36,7 +36,7 @@ Tip 1: in case of any issues with running the http-server (installed globally or
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you have encountered an error in running script on your new machine, this may be due to the settings being disabl. To fix this:
+Tip 2: For Windows 10/11 users, if you have encountered an error in running script on your new machine, this may be due to the settings being disabled. To fix this:
 
 * Launch PowerShell script as an administrator&#x20;
 * Enter: `Set-ExecutionPolicy RemoteSigned `
