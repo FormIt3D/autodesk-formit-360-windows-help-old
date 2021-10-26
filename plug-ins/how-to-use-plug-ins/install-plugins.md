@@ -1,14 +1,14 @@
 # Installing Plugins
 
-Inside the Plugin Manager, you will see a series of plugins classified into their categories. Each plugin will contain a title, description, GitHub link, and a toggle button.&#x20;
+The [Plugin Manager](the-plugin-manager.md) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
 
 ![](../../.gitbook/assets/d5.PNG)
 
-To install a plugin you only need to turn on the toggle next to the plugin's title.&#x20;
+To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
 
 ![](../../.gitbook/assets/d6.png)
 
-You will see the icon of the selected plugin appear on your right panel. Click on it to reveal the plugin's UI.
+The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
 
 ![](../../.gitbook/assets/d7.PNG)
 
