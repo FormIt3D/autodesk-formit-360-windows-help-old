@@ -1,9 +1,9 @@
 # What Are Plugins?
 
-Plugins are additions that expand FormIt's core functionality. Created to help enhance/empower/simplify the modeling process, productivity, or workflow when 3d modeling in FormIt.&#x20;
+Plugins are additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflow in FormIt.&#x20;
 
-Plugins can be used for generating objects, making modifications, or extracting information & properties of an object. Features of plugins may be as simple as creating fillet 2 edges, or as advanced as generating a string of light fixtures.&#x20;
+Plugins can be used to generate objects, make modifications, or extract information about an object. Plugins may be as simple as filleting 2D edges, or as advanced as generating a string of light fixtures.&#x20;
 
-You may find plugins developed by the communities or Autodesk from GitHub. You may even create your own plugins to suit the needs of different projects.
+You can find plugins developed by the FormIt community or by Autodesk on GitHub. You can also create your own plugins to fit the needs of various projects.
 
 ![](../../.gitbook/assets/gg4.gif)
