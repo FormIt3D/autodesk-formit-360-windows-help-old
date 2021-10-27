@@ -5,7 +5,7 @@ Use plugins to extend FormIt's built-in capabilities. Let's take a look at what 
 * [Plugin Basics](introduction/plugin-basics.md)
 * [Accessing Plugins](introduction/accessing-plugins.md)
 * [Open Source](introduction/open-source.md)
-* [Connecting to Other Services](introduction/connecting-to-other-services.md)
+* [Connecting to Other Services](how-to-develop-plug-ins/additional-development-options/invoking-plugins-and-api-from-dynamo.md)
 * [Contact Us](introduction/contact-us.md)
 
 ![](../.gitbook/assets/c3.PNG)
