@@ -79,4 +79,4 @@ When you’re ready to see the results, click the 'Play Arrow' button ![](<../..
 
 ### FormIt plugins API
 
-For a complete documentation on the FormIt plugins API please refer: [https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/)
+For complete documentation on the FormIt plugin's API please refer to the [useful links](../tips-and-tricks/useful-links.md) section.
