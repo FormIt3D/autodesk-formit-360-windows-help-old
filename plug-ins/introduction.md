@@ -1,6 +1,6 @@
 # Introduction to Plugins
 
-If you are thinking about using plugins, here is some basic information you may want to know:
+Use plugins to extend FormIt's built-in capabilities. Let's take a look at what plugins are and how they work:
 
 * [Plugin Basics](introduction/plugin-basics.md)
 * [Accessing Plugins](introduction/accessing-plugins.md)
