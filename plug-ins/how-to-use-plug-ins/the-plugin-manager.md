@@ -8,21 +8,17 @@ Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePl
 
 ![](../../.gitbook/assets/c1.PNG)
 
-## The Plugin Manager Panel
+## Plugin Categories
 
-The Plugin Manager organizes plugins into categories. The number of plugins in each category is displayed.&#x20;
+The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
 
 ![](<../../.gitbook/assets/d10 (1).PNG>)
-
-## Plugin Categories&#x20;
 
 **Installed Plugins: **Plugins already installed by the user.&#x20;
 
 **Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team. More details to come on this in the future.
 
 **Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team.
-
-![](../../.gitbook/assets/d3.PNG)
 
 ## Add Your Private or Local Plugin
 
