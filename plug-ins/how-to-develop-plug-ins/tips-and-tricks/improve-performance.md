@@ -1,6 +1,11 @@
 # Improve Performance
 
-In order to improve performance, you may need to understand how FormIt's engine runs. Here is a little bit more information on how FormIt runs on FormIt's-side vs the web-side:
+In order to improve performance, you may need to understand how FormIt's engine runs. FormIt plugins utilize two distinct JavaScript engines:&#x20;
+
+* The panel displaying the HTML (web side)
+* FormIt client, which can make calls to FormIt and its geometry kernel.&#x20;
+
+These JavaScript engines work in two different processes.
 
 ## **FormIt-Side vs Web-Side**
 
