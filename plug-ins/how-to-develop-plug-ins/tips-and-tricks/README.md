@@ -5,6 +5,9 @@ This section includes tips and tricks to improve your developer experience. We w
 * How to[ improve your performance](improve-performance.md)
 * [Debugging](debugging.md) your code.
 * [Versioning ](versioning.md)your plugins.
+* [Useful links](useful-links.md) to FormIt's API
+
+
 
 ![](../../../.gitbook/assets/c25.PNG)
 
