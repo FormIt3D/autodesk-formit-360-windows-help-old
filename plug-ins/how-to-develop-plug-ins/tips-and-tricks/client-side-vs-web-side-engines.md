@@ -1,13 +1,13 @@
-# Improve Performance
+# Client-Side vs Web-Side Engines
 
-In order to improve performance, you may need to understand how FormIt's engine runs. FormIt plugins utilize two distinct JavaScript engines:&#x20;
+FormIt plugins utilize two distinct JavaScript engines:&#x20;
 
-* The panel displaying the HTML (web side)
-* FormIt client, which can make calls to FormIt and its geometry kernel.&#x20;
+* The panel displaying the HTML (Web-Side)
+* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.&#x20;
 
-These JavaScript engines work in two different processes.
+These two JavaScript engines work in distinct processes.
 
-## **FormIt-Side vs Web-Side**
+## **Client-Side (FormIt) vs Web-Side (HTML)**
 
 FormIt runs multiple JavaScript engines simultaneously:
 
@@ -17,9 +17,9 @@ FormIt runs multiple JavaScript engines simultaneously:
 
 Plugins can specify where the JavaScript is loaded:
 
-![](../../../.gitbook/assets/d13.png)
+![](../../../.gitbook/assets/d14.png)
 
-### FormIt-side:
+### Client-Side (FormIt)
 
 Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
 
@@ -31,15 +31,14 @@ Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins
 
 ```
 
-### Web-side:
+### Web-side (HTML)
 
 Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
 
-Web Side scripts are loaded from the web page.&#x20;
+* Web-side scripts are loaded from the web page.
+* Web-side scripts can call into the Client-Side (FormIt) JavaScript using multiple async calls.
 
-Web Side scripts can call into the FormIt Side JavaScript using multiple async calls.
-
-## Three methods to call FormIt-side commands from a Web-based plugin:
+## Three methods to call Client-side (FormIt) commands from a Web-based plugin:
 
 ### Method 1: FormItInterface.CallMethod
 
@@ -73,7 +72,7 @@ Web Side scripts can call into the FormIt Side JavaScript using multiple async c
 
 **\*Available in FormIt 2022.1 and newer only**
 
-CallJS takes the JavaScript function to be called on the FormIt Side and the arguments json object.
+CallJS takes the JavaScript function to be called on the FormIt Side and the arguments.json object.
 
 ```
 var args =
@@ -124,7 +123,7 @@ Only built-in FormIt APIs can be called by default.
 
 To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
 
-**FormIt Side**
+**Client-Side (FormIt)**
 
 ```
 FormIt.RegisterAsyncAPI("HelloBlockAsync", "CreateBlock", "l, w, h");
@@ -135,7 +134,7 @@ HelloBlockAsync.CreateBlock = function(args)
 }
 ```
 
-**Web Side**
+**Web-Side (HTML)**
 
 ```
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
@@ -153,6 +152,6 @@ See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/mast
 
 ➖** **Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
 
-➖** **Potentially slower due to await.
+➖** **Potentially slower due to` await.`
 
 ##

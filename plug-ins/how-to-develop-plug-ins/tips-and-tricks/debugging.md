@@ -1,6 +1,6 @@
 # Debugging
 
-FormIt plugins utilize two distinct JavaScript engines: one in the panel displaying the HTML, and another engine in the FormIt client, which can make calls to FormIt and its geometry kernel. These JavaScript engines are in two different processes.
+Debugging a FormIt plugin requires different procedures depending on the engine you are debugging.&#x20;
 
 ### **Client-Side (FormIt) Debugging**
 

@@ -141,7 +141,7 @@
       * [Creating a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-a-combined-html-panel-and-toolbar-plugin.md)
       * [Testing a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/testing-a-combined-html-panel-and-toolbar-plugin.md)
     * [Tips and Tricks](plug-ins/how-to-develop-plug-ins/tips-and-tricks/README.md)
-      * [Improve Performance](plug-ins/how-to-develop-plug-ins/tips-and-tricks/improve-performance.md)
+      * [Client-Side vs Web-Side Engines](plug-ins/how-to-develop-plug-ins/tips-and-tricks/client-side-vs-web-side-engines.md)
       * [Debugging](plug-ins/how-to-develop-plug-ins/tips-and-tricks/debugging.md)
       * [Versioning](plug-ins/how-to-develop-plug-ins/tips-and-tricks/versioning.md)
       * [Useful Links](plug-ins/how-to-develop-plug-ins/tips-and-tricks/useful-links.md)
