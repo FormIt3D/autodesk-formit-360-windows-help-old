@@ -144,6 +144,7 @@
       * [Improve Performance](plug-ins/how-to-develop-plug-ins/tips-and-tricks/improve-performance.md)
       * [Debugging](plug-ins/how-to-develop-plug-ins/tips-and-tricks/debugging.md)
       * [Versioning](plug-ins/how-to-develop-plug-ins/tips-and-tricks/versioning.md)
+      * [Useful Links](plug-ins/how-to-develop-plug-ins/tips-and-tricks/useful-links.md)
   * [Examples](plug-ins/example-1/README.md)
     * [Generate String Lights](plug-ins/example-1/generate-string-lights.md)
     * [Manage Cameras Plugin](plug-ins/example-1/manage-cameras-plugin.md)
