@@ -31,3 +31,11 @@ If you're [developing your own plugin](https://formit3d.github.io/FormItExampleP
 ![](../../.gitbook/assets/d4.PNG)
 
 For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](../how-to-develop-plug-ins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+
+## Resetting the Plugin Manager
+
+The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+
+`Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
+
+⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
