@@ -1,17 +1,15 @@
 # Using an IDE
 
-It is very simple and convenient to develop plugins inside the [Plugin Playground](../build-your-first-plugin/setting-the-plugin-playground.md). However, you may want to develop plugins using an external IDE. Some of the reasons for this are listed below:&#x20;
+Developing plugins with the [Plugin Playground](../build-your-first-plugin/setting-the-plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
 
-* You can use your preferred Integrated Development Environment (IDE) that may contain syntax error correction, extensions, etc.
-* You can collaborate with colleagues on developing a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server
+* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
+* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
+* You can develop private plugins and host them on a local server.
 
 ### Install an IDE
 
-You may use your preferred code editor, we will be using Visual Studio Code for this demonstration. Make sure your IDE includes a terminal for running your local server.
+A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download).
+We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
 
-Follow the link to download the setup file and complete the installation.
-
-![](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)
+![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)
