@@ -6,7 +6,7 @@ As you work on your plugin, you’ll want to save your progress. To make this po
 
 Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
 
-![](<../../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (15) (1) (1).png>) button.
 

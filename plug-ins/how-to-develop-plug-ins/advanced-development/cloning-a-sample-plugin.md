@@ -28,7 +28,7 @@ Open your GitHub desktop app, click **Current Repository**, and then select **Cl
 
 Select the **URL **tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 ### Open Your Project in Visual Studio Code
 

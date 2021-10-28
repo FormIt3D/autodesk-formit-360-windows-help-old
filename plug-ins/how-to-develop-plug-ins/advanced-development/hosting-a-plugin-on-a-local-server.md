@@ -22,7 +22,7 @@ In the Command Prompt, enter the following to install npm's _http-server_ global
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 ### Start the Local Server
 
