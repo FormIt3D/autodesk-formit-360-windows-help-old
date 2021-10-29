@@ -129,7 +129,7 @@
       * [Cloning a Sample Plugin](plug-ins/how-to-develop-plug-ins/advanced-development/cloning-a-sample-plugin.md)
       * [Hosting a Plugin on a Local Server](plug-ins/how-to-develop-plug-ins/advanced-development/hosting-a-plugin-on-a-local-server.md)
       * [Previewing a Plugin in the Plugin Manager](plug-ins/how-to-develop-plug-ins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
-      * [Setting up FormIt for Development](plug-ins/how-to-develop-plug-ins/advanced-development/setting-up-formit-for-development.md)
+      * [Setting Up FormIt for Development](plug-ins/how-to-develop-plug-ins/advanced-development/setting-up-formit-for-development.md)
       * [Hosting a Plugin on GitHub](plug-ins/how-to-develop-plug-ins/advanced-development/hosting-a-plugin-on-github.md)
       * [General Plugin Setup in the Manifest](plug-ins/how-to-develop-plug-ins/advanced-development/general-plugin-setup-in-the-manifest.md)
     * [Additional Development Options](plug-ins/how-to-develop-plug-ins/additional-development-options/README.md)
