@@ -1,6 +1,6 @@
 # Additional Development Options
 
-As an advanced developer, there are also some additional development options may want to try:
+As an advanced developer, you also have some additional development options you may want to try:
 
 * [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)&#x20;
 * [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
