@@ -8,80 +8,19 @@ To make sketching and modeling easier, use snaps and inference points to accurat
 
 There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
 
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)           |
+| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)           |
+| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)           |
+| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)           |
+| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)           |
+| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)           |
+| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)           |
+| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)           |
 
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Vertices</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf3 (3).png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Edges. When hovering over the edge, small red dots will be drawn at the
-        ends and at the mid point.</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf4.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>Edge mid points</p>
-      </td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf5.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">The plane of a face. When hovering over the face a small red dot will
-        be drawn at the face centroid. This will make it easy to find that point,
-        if you want to snap to it.</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf6.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Face centroids</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf7.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">The work plane, if you don&apos;t snap to anything else.</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf8.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Circle or arc centers</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf9.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Mesh vertices</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf2.png" alt/>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">The plane of a mesh facet.</td>
-      <td style="text-align:left">
-        <img src="../.gitbook/assets/inf1.png" alt/>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-To snap to the grid, you must enable the **Snap to Grid \(SG\)** toggle from the Settings menu.
+To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
 
 ## Inference Axes and Points
 
@@ -120,6 +59,3 @@ Automatic selection of inference points is always enabled and will help you cons
 ![Before clearing inferences](../.gitbook/assets/inf19.png)
 
 ![After clearing inferences](../.gitbook/assets/inf20.png)
-
-
-

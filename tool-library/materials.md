@@ -1,32 +1,32 @@
 # Materials
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps. 
+Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
 
 ## The Materials Panel
 
-![](../.gitbook/assets/materials-sample-category%20%282%29.png)
+![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt \(.AXM\) files.
+In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt (.AXM) files.
 
 ### Material Library Sources
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries). 
+In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-![](../.gitbook/assets/materials-directory-picker%20%281%29.png)
+![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
 #### In Sketch
 
-Shows the Materials saved to the current FormIt sketch. 
+Shows the Materials saved to the current FormIt sketch.
 
 #### Material Samples
 
 Shows a list of available sample Materials. These offerings are stored on a cloud-based server, so please note:
 
 * An internet connection is required when accessing Material Samples categories for the first time.
-* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download. 
-* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest. 
+* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.
+* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.
 
-![](../.gitbook/assets/materials-samples_original.png)
+![](../.gitbook/assets/materials-samples\_original.png)
 
 **Linked Libraries**
 
@@ -34,20 +34,20 @@ Other directories and locations will appear after [linking Material libraries](h
 
 ### Create, Delete, and Eyedropper
 
-![](../.gitbook/assets/materials_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
+![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
 
-![](../.gitbook/assets/materials_delete%20%281%29.PNG) **Delete** selected Material\(s\).
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Delete** selected Material(s).
 
-![](../.gitbook/assets/materials_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it. 
+![](../.gitbook/assets/materials\_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it.
 
 * Click the Eyedropper tool, then click a face painted with a Material
 * The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
 
 ### Refresh, Link Libraries, and Purge Unused
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM \(FormIt\) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
+\*\*\*\*![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM (FormIt) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
 
-![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory \(not In Sketch or Material Samples\).
+![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory (not In Sketch or Material Samples).
 
 ![](../.gitbook/assets/materials-purge.png) **Purged unused** Materials from the current FormIt sketch.
 
@@ -59,16 +59,16 @@ Click the Purge Unused tool to delete all unused Materials. You'll see a prompt 
 
 ### Linking Material Libraries
 
-FormIt 2021 and newer offers the ability to link the Materials panel to local directories \(libraries\) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
+FormIt 2021 and newer offers the ability to link the Materials panel to local directories (libraries) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
+![View individual Materials from a FormIt file, or JPG/PNG files in a directory.](../.gitbook/assets/materials-axm-content.png)
 
 * **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
-  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch. 
+  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.
   * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
-* **FormIt files \(\*.axm\)** will display as folders with a FormIt icon. 
+* **FormIt files (\*.axm)** will display as folders with a FormIt icon.
   * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
   * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
 
@@ -84,19 +84,19 @@ Once you're in the Paintbrush tool:
 
 You can also select faces and Groups first, then single-click a Material thumbnail to paint the selection with that Material.
 
-**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor \(see below\).
+**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor (see below).
 
 **Rename a Material** by double-clicking the name.
 
-**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material\(s\) are painted on the selected geometry.
+**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material(s) are painted on the selected geometry.
 
-![](../.gitbook/assets/material_selected.png)
+![](../.gitbook/assets/material\_selected.png)
 
 **The Default Material** can be used to effectively "clear" a face or a Group of any Materials. Any geometry not painted with a Material is implicitly painted with the Default Material.
 
 ### List Management
 
-Adjust the size of the thumbnails by adjusting the width of the column \(click and drag the vertical line to the right of "Material"\).
+Adjust the size of the thumbnails by adjusting the width of the column (click and drag the vertical line to the right of "Material").
 
 Filter for specific Materials by typing in the "Filter..." bar.
 
@@ -104,9 +104,8 @@ Materials with names that display in a grey font indicate that those Materials t
 
 ## Create and Edit Materials
 
-![](../.gitbook/assets/materials-editor%20%281%29.png)
+![](<../.gitbook/assets/materials-editor (1).png>)
 
-  
 When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
 
 * **Color**
@@ -125,9 +124,9 @@ When you create or edit a Material, you'll see the Material Editor dialog, where
       * Great for Materials that have selective transparency, like chainlink fences or perforated panels.
 * **Name**
 * **Horizontal and Vertical Scale**
-  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio. 
+  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.
   * Stretch a Material by adjusting horizontal scale independently from vertical scale.
-  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool \(see below\).
+  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool (see below).
 * **Transparency**, **Reflection**, and **Gloss**
 
 ## Adjusting Material Placement
@@ -156,4 +155,3 @@ To reset any of the changes to the material placement, simply paint the face aga
 ## Material Translation to Revit
 
 Materials will transfer to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) for Revit 2018 or later.
-
