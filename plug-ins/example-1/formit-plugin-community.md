@@ -18,4 +18,4 @@ If you have developed a plugin that would be useful for other FormIt users, we w
 
 ### Help from FormIt and the community
 
-Having issues building or running plugins? [Reach out to us!](../introduction/contact-us.md)
+Having issues building or running plugins? [Reach out to us!](broken-reference)

@@ -2,11 +2,11 @@
 
 This section includes tips and tricks to improve your developer experience. We will cover:
 
-* How to[ improve your performance](client-side-vs-web-side-engines.md)
-* [Debugging](debugging.md) your code.
-* [Versioning ](versioning.md)your plugins through the versions.json file.
+* How to[ improve your performance](../advanced-development/client-side-vs-web-side-engines.md)
+* [Debugging](../advanced-development/debugging.md) your code.
+* [Versioning ](../advanced-development/versioning.md)your plugins through the versions.json file.
 * [Useful links](useful-links.md) to FormIt's API documentation.&#x20;
-* [Extra tips ](extra-tips.md)to improve your developer experience.&#x20;
+* [Extra tips ](reloading.md)to improve your developer experience.&#x20;
 
 
 
