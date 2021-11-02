@@ -6,7 +6,7 @@ This section includes tips and tricks to improve your developer experience. We w
 * [Debugging](../advanced-development/debugging.md) your code.
 * [Versioning ](../advanced-development/versioning.md)your plugins through the versions.json file.
 * [Useful links](useful-links.md) to FormIt's API documentation.&#x20;
-* [Extra tips ](reloading.md)to improve your developer experience.&#x20;
+* [Extra tips ](../advanced-development/reloading-for-local-changes.md)to improve your developer experience.&#x20;
 
 
 
