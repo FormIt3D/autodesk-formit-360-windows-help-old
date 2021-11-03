@@ -133,7 +133,7 @@
     * [Additional Development Options](plug-ins/how-to-develop-plug-ins/additional-development-options/README.md)
       * [Creating an HTML Panel Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-an-html-panel-plugin.md)
       * [Creating a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-a-combined-html-panel-and-toolbar-plugin.md)
-      * [Creating a Toolbar-based Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-a-toolbar-based-plugin.md)
+      * [Creating a Toolbar-Based Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-a-toolbar-based-plugin.md)
       * [Testing a Combined HTML Panel and Toolbar Plugin](plug-ins/how-to-develop-plug-ins/additional-development-options/testing-a-combined-html-panel-and-toolbar-plugin.md)
       * [Creating an Add-In](plug-ins/how-to-develop-plug-ins/additional-development-options/creating-an-add-in.md)
       * [Invoking Plugins and API from Dynamo](plug-ins/how-to-develop-plug-ins/additional-development-options/invoking-plugins-and-api-from-dynamo.md)
