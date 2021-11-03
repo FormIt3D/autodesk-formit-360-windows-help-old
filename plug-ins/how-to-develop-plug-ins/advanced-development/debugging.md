@@ -1,6 +1,6 @@
 # Debugging
 
-Debugging a FormIt plugin requires different procedures depending on the engine you are debugging.&#x20;
+Debugging a FormIt plugin requires different procedures depending on the engine you are debugging. (For more information on engines check the [previous section](client-side-vs-web-side-engines.md))
 
 ### **Client-Side (FormIt) Debugging**
 
