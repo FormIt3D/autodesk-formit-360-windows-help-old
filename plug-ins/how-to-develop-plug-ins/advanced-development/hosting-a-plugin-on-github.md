@@ -10,7 +10,7 @@ Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlug
 
 In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
 
-![](<../../../.gitbook/assets/image (18) (1).png>)
+![](<../../../.gitbook/assets/image (18) (1) (1).png>)
 
 ### Continue to Update Your Plugin Project Locally
 

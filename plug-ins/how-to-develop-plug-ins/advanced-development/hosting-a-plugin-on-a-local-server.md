@@ -30,7 +30,7 @@ Once the setup is complete, run the following command in the terminal to start y
 
 * `http-server`
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../../.gitbook/assets/image (21) (1).png>)
 
 Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
 

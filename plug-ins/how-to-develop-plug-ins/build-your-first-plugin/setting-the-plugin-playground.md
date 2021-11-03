@@ -12,7 +12,7 @@ Here are some of the benefits of developing in the Plugin Playground:
 * Save your project to your own GitHub account
 * Use the recording feature
 
-![](<../../../.gitbook/assets/image (22) (1).png>)
+![](<../../../.gitbook/assets/image (22) (1) (1).png>)
 
 ## Installing the Plugin Playground
 

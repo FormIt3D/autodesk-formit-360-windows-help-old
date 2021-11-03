@@ -22,9 +22,9 @@ In the top menu, click Settings > Pages. Under Source, click the None button and
 
 To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (15) (1) (1) (1).png>) button.
 
-![](<../../../.gitbook/assets/image (18) (1) (1).png>)
+![](<../../../.gitbook/assets/image (18) (1) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (20) (1).png>)
+![](<../../../.gitbook/assets/image (20) (1) (1).png>)
 
 Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
 
