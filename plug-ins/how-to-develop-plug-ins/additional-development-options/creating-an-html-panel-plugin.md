@@ -1,5 +1,7 @@
 # Creating an HTML Panel Plugin
 
+![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
+
 A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
 
 ```

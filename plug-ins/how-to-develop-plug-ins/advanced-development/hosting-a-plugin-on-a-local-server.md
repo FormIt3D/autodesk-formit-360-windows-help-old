@@ -8,7 +8,7 @@ You have the option of starting the server inside Visual Studio Code, instead of
 
 View > Terminal (or shortcut Ctrl + \`)
 
-![](<../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1).png>)
 
 ### Set Up an HTTP Server
 
@@ -22,7 +22,7 @@ In the Command Prompt, enter the following to install npm's _http-server_ global
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 ### Start the Local Server
 
@@ -59,5 +59,5 @@ You should see your project folder files in the browser window.
 
 \*\*If you use a different web server than npm, the default address/port might be different.
 
-![](<../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1).png>)
 

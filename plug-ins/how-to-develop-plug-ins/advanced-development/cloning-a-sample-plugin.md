@@ -20,15 +20,15 @@ Each plugin is stored in its own repo. You can find them here: [FormIt3D Organiz
 
 In GitHub, choose a plugin project you wish to clone or modify. Click the **Code **button, and copy the address from the dropdown.
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19) (1).png>)
 
 Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 Select the **URL **tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
 
-![](<../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 ### Open Your Project in Visual Studio Code
 

@@ -63,14 +63,14 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 });
 ```
 
-![](<../../../.gitbook/assets/image (19) (1).png>)
+![](<../../../.gitbook/assets/image (19) (1) (1).png>)
 
 ### Running and previewing
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (18) (1) (1).png>) again and you will see your updates to the plugin in the same panel.
+When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (18) (1) (1) (1).png>) again and you will see your updates to the plugin in the same panel.
 
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
 ### FormIt plugins API
 
-For complete documentation on the FormIt plugins API, see the [useful links](../tips-and-tricks/useful-links.md) section.
+For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.

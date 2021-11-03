@@ -1,5 +1,7 @@
 # Creating a Toolbar-Based Plugin
 
+![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
+
 ### Structure of a Toolbar-Based Plugin manifest.json
 
 A toolbar-based plugin has a _manifest.json_ file with the following structure:

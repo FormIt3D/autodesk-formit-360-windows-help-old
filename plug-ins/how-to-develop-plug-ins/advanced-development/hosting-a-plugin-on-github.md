@@ -10,7 +10,7 @@ Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlug
 
 In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
 
-![](<../../../.gitbook/assets/image (18).png>)
+![](<../../../.gitbook/assets/image (18) (1).png>)
 
 ### Continue to Update Your Plugin Project Locally
 
@@ -26,11 +26,11 @@ View your repo on GitHub by visiting your project link, for example, https://git
 
 Click on Settings in the top right corner.
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 
 Add a plugin description, add formit-plugin to the Topics field, and save changes.
 
-![](<../../../.gitbook/assets/image (15) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1).png>)
 
 Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
 

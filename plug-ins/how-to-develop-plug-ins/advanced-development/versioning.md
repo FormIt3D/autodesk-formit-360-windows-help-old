@@ -40,6 +40,12 @@ Your _versions.json_ should look like this:
 
 The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of your directory/repository.
 
+![](../../../.gitbook/assets/i1.png)
+
+![](../../../.gitbook/assets/i2.png)
+
+![](../../../.gitbook/assets/i3.png)
+
 A great way to handle this is to move your plugin code into subdirectories. Using the above _versions.json_, a directory structure would look like this:
 
 * **versions.json** (file)
