@@ -142,7 +142,7 @@
     * [Generate String Lights](plug-ins/example-1/generate-string-lights.md)
     * [Manage Cameras Plugin](plug-ins/example-1/manage-cameras-plugin.md)
     * [Properties Plus Plugin](plug-ins/example-1/properties-plus-plugin.md)
-    * [3D Context Generator](plug-ins/example-1/3d-context-generator.md)
+    * [3D Context Creator](plug-ins/example-1/3d-context-creator.md)
     * [FormIt Plugin Community](plug-ins/example-1/formit-plugin-community.md)
 * [Appendix](plug-ins/how-to-develop-plug-ins/advanced-options/load-panel-based-and-toolbar-based-plugin/appendix/README.md)
   * [Keyboard Shortcuts](plug-ins/how-to-develop-plug-ins/advanced-options/load-panel-based-and-toolbar-based-plugin/appendix/keyboard-shortcuts.md)

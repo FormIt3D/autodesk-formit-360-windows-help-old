@@ -20,6 +20,6 @@ You can think of the Plugin Playground as a plugin that makes plugins. This is b
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (8) (1).png>) icon in the right menu.
+Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (8) (1) (1).png>) icon in the right menu.
 
 ![](<../../../.gitbook/assets/image (16) (1) (1).png>)
