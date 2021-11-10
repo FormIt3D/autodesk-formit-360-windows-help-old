@@ -61,6 +61,30 @@ A great way to handle this is to move your plugin code into subdirectories. Usin
   * **plugin.html** (file)
   * **plugin.js** (file)
 
+Optional properties on version are "exactVersion" and "lastVersion". "exactVersion" indicates the version has to match FormIt's version exactly. "lastVersion" indicates the last version allowed to run in FormIt.\
+
+
+```
+[
+    {
+      "version":{
+        "major":18,
+        "minor":0,
+        "exactVersion":true
+        },
+        "path":"v18_0"
+    },
+    {
+        "version":{
+            "major":19,
+            "minor":1,
+            "lastVersion":true
+       },
+        "path":"v19_0"
+    }
+ ]
+```
+
 It's also possible to use git branches/tags/commits for your paths.
 
 If you're working with a pre-release or beta build of FormIt, and would like to test changes to a plugin that only works with the pre-release version:
