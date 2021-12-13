@@ -1,129 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 - 添加详图
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt 既是一款出色的体量工具，也是一款出色的建模工具。我们将开始以玻璃盒子的门和竖梃的形式，向 Farnsworth 住宅添加详图。然后，我们将介绍一些其他工具，并练习添加新几何图形、图层、材质和组管理的过程。_
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果未完成最后一部分，请从_ _**FormIt Primer Part 1 数据集**中下载并打开_ _**1.9 - Adding Details.axm**_ _文件。_
 
-## **Create Window Frames**
+## **创建窗框**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_我们将在玻璃盒子周围创建 2" 的金属框架和竖梃。请注意，这些竖梃将有意地与玻璃盒子重叠。_
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 - 创建一个名为**“玻璃墙”**的新图层，并将**“玻璃墙”**组移动到该图层。
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 - 为了便于查看，请关闭**“屋顶”**图层，以便可以看到整个玻璃盒子。
 
-3 - To start creating the first window frame:
+3 - 开始创建第一个窗框的步骤：
 
-1. At the building’s western side, use the **Rectangle Tool \(R\)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool \(OF\).**
+1. 在建筑物的西侧，使用**“矩形工具(R)”**在外部玻璃面上直接绘制一个新曲面。确保在**“玻璃墙”**组之外创建曲面。
+2. 选择新创建的面，并将其朝内部拖动 **2"**。按 **Esc** 键以清除选择。 最终结果应类似于下图。
+3. 单击刚刚创建的面。单击鼠标右键以访问**“关联菜单”**，来使用**“偏移面工具(OF)”。**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**注意：**_ _如果在选择新面时遇到问题，请按_ _**空格键**_ _键在不同可选对象之间进行切换，或临时关闭_ _**“玻璃墙”**_ _图层。_
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 - 要设置偏移尺寸，请将鼠标光标移向面的内侧，然后输入**“2"”**以创建一个新的较小矩形。
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 - 单击以选择刚刚创建的内部矩形。再次单击该面并将其拖向建筑物的内部，直到它消失。再次单击一下，以完成从结构件几何图形中删除中心体积。
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group \(G\)** it. Name the group **Mullion Frame – EW**.​
+6 - 双击以选中刚刚创建的几何图形，然后对其进行**“分组(G)”**。将该组命名为**“竖梃框架 – EW”**。
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 - 创建一个名为**“竖梃”**的图层，并将新组放置在该图层上。
 
-8 - To set the frame’s material:
+8 - 设置框架的材质的步骤：
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. 在**“材质选项板”**中，通过在**“金属 - 拉丝 - 着色”**材质上单击鼠标右键并选择**“复制材质”**来复制该材质。
+2. 双击新材质的预览磁贴以进行编辑。
+3. 将其重命名为**“金属 – 拉丝 – 灰色”**。
+4. 通过单击**“贴图”**区域中的**“颜色”**磁贴修改材质的颜色，然后通过将**“值:”**更改为**“150”**使灰色变暗。
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 - 单击**“确定”**以保存对材质进行的这些更改，然后使用它绘制**“竖梃框架 - EW”**组。之后，组的**“特性选项板”**应与下图中所示内容匹配：
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 - 使用以下任一工具在东侧创建框架的新实例：**“快速复制”**、**“阵列”**或**“镜像”**。
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 - 对玻璃盒子的南北侧重复上述步骤。将新组命名为**“竖梃框架 – NS”**。不要忘记绘制它们，并将它们放置在**“竖梃”**图层上！
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**注意：**_ _竖梃框架在角点处彼此重叠。这是有意为之。上述结果显示了在__**“玻璃墙”**__和__**“柱”**__图层关闭时所生成的竖梃框架几何图形。_
 
-**Create Mullions**
+**创建竖梃**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle \(R\)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 - 在外部玻璃面位于建筑物的南侧或北侧的平面中，绘制一个从竖梃框架底部和顶部之间延伸的**“2” x 10’-10” 矩形(R)”**。不必担心矩形沿框架的确切位置，我们将在以下步骤中将其移至适当位置。
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group \(G\)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 - 将矩形向后拉伸 **2”**，然后对该矩形**“分组(G)”**，并将该组命名为**“竖梃 - 垂直”**。将组放置在**“竖梃”**图层上，然后使用**“金属 - 拉丝 - 灰色”**材质进行绘制。
 
-**Locating the Mullions**
+**定位竖梃**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_现在，我们将设置第一个竖梃的位置，使其中心位于柱的__**中点**__上。_
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 - 要再次查看柱，请打开**“柱”**图层（如果已关闭）。在**“图层选项板”**中时，还可以关闭**“下阶地”**和**“平面图像”**图层，以简化后续步骤。
 
-2 - To move the mullion to its new location:
+2 - 将竖梃移动到其新位置的步骤：
 
-1. Single-click to select the vertical mullion group you just created. **Zoom \(Z\)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis \(**X Axis**\). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis \(**X Axis**\), but will align to the **Mid-Point** you just clicked on.
+1. 单击以选择刚刚创建的垂直竖梃组。**“放大(Z)”**，然后单击竖梃底部外部边的**“中点”**（由红色三角形**符号化）。**
+2. 开始将几何图形水平移向柱。按 **Shift** 键，以锁定红色轴（即 **X 轴**）中的移动。请注意，一旦锁定移动，红色轴将变厚。
+3. 缩小视图，直到可以看到柱的底部。在仍按住 **Shift** 键的同时，单击柱外部面底部的**“中点”**。竖梃将继续仅沿红色轴（即 **X 轴**）移动，但会与刚刚单击的**“中点”**对齐。
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit \(O\)**_ _to visualize the mullion._
+_**注意：**_ _竖梃现在位于柱的正后面。关闭__**“柱”**__图层或__**“环绕(O)”**__，以可视化竖梃。_
 
-3 - Press **Esc** to clear the **Move** tool.
+3 - 按 **Esc** 键以清除**“移动”**工具。
 
-4 - Use the **Array \(AR\)** or **Quick Copy** tool to create four \(4\) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 - 使用**“阵列(AR)”**或**“快速复制”**工具，以沿同一侧再创建四 (4) 个垂直竖梃（间距为 **11’**）。要了解如何使用**“阵列工具”**，请参见前面各章。
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 - 使用 Tab 键选择所有**“垂直”**竖梃组，然后将它们复制到建筑物的另一侧，以便**“北”**和**“南”**框架具有相同的竖梃布局，如下图所示：
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **创建门竖梃**
 
-1 - **Orbit \(O\)** the perspective view until you are looking at the center of the West mullion frame.
+1 -**“环绕(O)”**透视视图，直到您看到西竖梃框架的中心。
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group \(G\)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 - 与创建竖梃框架类似，绘制一个 **3’-6”** 宽的门板（其中框架为 **2”x 2”**）。使其成为具有以下特性的**“组(G)”**：组名称为**“幕墙门”**；图层为**“竖梃”**；材质为**“金属 - 拉丝 - 灰色”**。
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 - 复制此组以创建第二个门框，然后移动它们，以使它们位于**“竖梃框架 - EW”**组的中心，如下图所示。
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **使用扫掠创建屋顶檐口**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_现在，我们将使用 FormIt 的高级建模工具之一（_ _**“扫掠”**）创建 Farnsworth 住宅的檐口。要了解其他高级建模，请查看_ _**FormIt Primer - Part II** 中的_ **2.2 -** _**高级建模** 一章。_
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_创建__**“扫掠”**__的第一步是绘制与扫掠“拉伸”垂直的轮廓。为此，我们将屋顶几何图形用作指导。_
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 - 打开**“屋顶”**图层，并放大其一个角。
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 - 使用屋顶的一个垂直边作为参照，绘制两个相邻的矩形。第一个矩形高度为 **6”**，宽度为**4 5/8”**；第二个矩形尺寸为 **2”x 2”**。删除分割两个矩形的线，以创建一个面。结果应如下所示。
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 - 创建扫掠的步骤：
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep \(SW\)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face \(or edges\) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face \(or edge\) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. 在未选择几何图形的情况下，单击**“标准工具栏”**中的**“高级建模工具”**按钮，然后选择**“扫掠(SW)”**。
+2. **“扫掠选择向导”**将启动，并提示您**“选择要用于扫掠轮廓的面(或边)”**。选择刚刚创建的轮廓面。
+3. 选择轮廓后，系统将提示您**“选择要用于扫掠路径的面(或边)”**，然后单击“完成”。选定屋顶的顶面。FormIt 将自动使用选定面的边界作为扫掠的路径，并将围绕整个屋顶创建扫掠。
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit \(O\)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**注意：**_ _如果在选择其中一个面时遇到问题，请_ _**“环绕(O)”**_ _以更好地查看面，然后重试。作为替代选项，选择屋顶的所有边（而不是屋顶的顶面）以完成扫掠。_
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 - 使模型保持井然有序，方法是创建**“屋顶 - 檐口”**组、将其添加到**“屋顶”**图层，然后为其指定**“金属 - 拉丝 - 着色”**材质。
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 - 要完成操作，请打开**“柱”**图层，您将看到新创建的扫掠与柱顶部相交。通过编辑任一**“柱高”**组，然后向下拖动顶面，直到其与檐口底部对齐，即可解决此问题。
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

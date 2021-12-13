@@ -1,80 +1,81 @@
-# Storefront/Curtainwall Mullion System
+# 店面/幕墙竖梃系统
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## 由 Dynamo 提供支持
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+Dynamo 支持在 FormIt 中快速创建店面/幕墙竖梃系统。可以在 Dynamo 面板的“Dynamo 样例”目录中找到“店面幕墙系统”系统：
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## 为竖梃系统选择“玻璃”
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" \(a single face or an extruded solid\) around which to generate a mullion system.
+从 FormIt 2021.2 开始，店面幕墙系统使用新的 [SelectFromFormIt 节点](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)，从而让您可以选择一块围绕其生成竖梃系统的“玻璃”（一个面或拉伸实体）。
 
-![A simple plane of &quot;glass&quot; with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![一个简单的“玻璃”平面，其底部为门的洞口。](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail \(notice the icon indicating that a selection is required\), FormIt will prompt you to select the glass geometry to continue:
+单击“店面幕墙”缩略图（注意图标，指示需要选择）时，FormIt 将提示您选择玻璃几何图形以继续：
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+有关如何选择玻璃的一些注意事项：
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces \(for example, a "curved" surface comprised of smaller planar surfaces\), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* 当前，仅支持平面曲面。如果选择一系列曲面（例如，由较小平面曲面组成的“弯曲”曲面），则脚本将查找最大的平面并使用它。
+* 如果玻璃是实体（即一个稍微拉伸的面以传达一点厚度），则脚本将查找最大的曲面，因此生成的竖梃将在玻璃实体的一侧生成。
+* 可以为门绘制洞口、从玻璃边界删除生成的曲面，然后生成的竖梃将遵循门洞口，从而为添加门将其保留为空。
+* 由于 Dynamo 的限制，如果玻璃几何图形中间有洞口，则此脚本将不起作用。
 
-## Tips and Tricks
+## 提示和技巧
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+在 FormIt 中为 Dynamo 图形选择几何图形时，某些组织技巧可以简化体验并允许轻松实例化结果：
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar. 
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection. 
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances \(adjusting the glass shape or parameters\) without issue.
+* 将玻璃放在组中，然后使用该组作为“店面/幕墙”脚本的选择。 
+   这样一来，在生成竖梃后，可以更轻松地编辑玻璃轮廓；如果梯段之间的玻璃已经过大量修改，且面 ID 已更改，则组将确保脚本始终会找到该玻璃 - 因为它使用的是组 ID，而不是面 ID。
+* 如果计划将竖梃系统的结果复制并粘贴到模型中的其他位置，则最好将玻璃和生成的竖梃包含在组中。这还将防止在仅复制并粘贴生成的竖梃组时，选择节点不知道要使用哪个玻璃实例的问题。
+   * 先将玻璃放入组中。双击它以选择玻璃，然后点击 G 或使用上下文菜单或工具栏中的组命令。
+   * 选择生成的组，然后将其放入其他组。
+   * 双击以进入第一个组。这是玻璃和生成的竖梃的“容器”。
+   * 单击“店面幕墙”缩略图，然后将玻璃组用作选择。
+   * 脚本运行后，可以退出组，然后根据需要复制/粘贴容器。可以编辑任何实例（调整玻璃形状或参数），而不会出现问题。
 
-## Mullion System Options
+## 竖梃系统选项
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+选择玻璃并运行脚本后，您将在 FormIt 画布中以 FormIt 组的形式获得结果。此组将自动选中，“特性”面板将显示可用选项。
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this. 
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass \(Surface or Solid\)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **运行**：如果修改玻璃的形状，并且要重新运行图形以更新竖梃结果，请单击此按钮。
+* **编辑嵌入的图形**：编辑将生成几何图形的 Dynamo 脚本。此脚本嵌入在 FormIt 文件中，并且特定于此组。
+* **选择玻璃(曲面或实体)**：单击此按钮，可将选择更新为一块不同的要围绕其生成竖梃的玻璃。
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+该脚本会将默认值用于其首次运行，因此您需要针对您的独特用例调整这些值。所有值都将使用当前 FormIt 单位。
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above. 
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **竖梃宽度 + 深度**：所有竖梃图元的宽度和深度。
+* **垂直竖梃间距**：每个竖梃之间的中心距离。
+* **翻转垂直竖梃布局**：脚本从任意选择的一侧开始垂直竖梃间距。如果结果在您用例的错误一侧开始竖梃间距，请将该选项设置为“True”，以将布局翻转为从另一侧开始。
+* **中心垂直竖梃布局**：从玻璃的中间开始计算垂直竖梃间距，而不是从玻璃的一端开始计算，从而创建垂直竖梃的对称布局。
+* **第一个水平竖梃间距**：设置从底部开始的第一个水平竖梃间距。如果底部需要一排较短的玻璃模块，且与水平竖梃间距的其余部分分开，则此选项非常有用。
+* **水平竖梃间距**：从上述第一个竖梃之后开始，在中心上的典型水平竖梃间距。
+* **翻转水平竖梃布局**：如果希望水平竖梃布局从顶部而不是底部开始，请将该选项设置为“True”。
+* **中心水平竖梃布局**：从玻璃的中间开始计算水平竖梃间距，而不是从玻璃的底部或顶部开始计算，从而创建水平竖梃的对称布局。
 
-## Hidden Options
+## 隐藏的选项
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+需要更多自定义？FormIt 特性面板中隐藏了多个高级选项，但可以通过单击“编辑嵌入的图形”访问这些选项，以在 Dynamo 中显示完整的图形内容：
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### 随机化的竖梃
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing \(if random\)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **随机化垂直和水平竖梃布局**：将该选项设置为“True”，可随机间隔垂直或水平竖梃
+* **最小/最大竖梃间距(如果随机)**：调整这些值，可设置最小和最大随机间距值的范围
 
-### Border Mullions
+### 边竖梃
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **翻转边界竖梃的偏移方向：**默认情况下，竖梃系统将使用玻璃边界，并向内偏移它以创建边界竖梃。要向外偏移，请将此选项设置为“True”。这将通过“竖梃宽度”设置，增加玻璃边界之外竖梃系统的总体大小。
+* **选择与边界竖梃之间的公差**：默认情况下，竖梃系统将恰好在玻璃的边界处生成，这可能会导致玻璃边缘与边界竖梃外表面碰撞处出现 Z 方向冲突。在大多数情况下，这将不可见，但如果用例要求系统的边缘可见，并且您想要避免出现 Z 方向冲突，请启用该选项并根据需要调整公差值。
 

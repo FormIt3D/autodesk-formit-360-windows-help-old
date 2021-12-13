@@ -1,30 +1,28 @@
-# World Axes
+# 世界轴
 
-The default coordinate system and grid can be modified by changing the world axis.
+可以通过更改世界轴来修改默认坐标系和栅格。
 
-## Drawing and Modeling with Axes
+## 使用轴绘制和建模
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+在 FormIt 中打开空白草图时，世界轴将在屏幕中心显示为三条红、绿和蓝线。这三条线定义用于定义三维世界的三个笛卡尔方向。“X”方向由红线定义、“Y”方向由绿线定义、“Z”或“向上”方向由蓝线定义。
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes \(SZ\)** icon from the context menu  
-![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
+要旋转栅格并重新定义草图的原点，请在场景中的空白区域上**单击鼠标右键**，然后从上下文菜单中选择**“设置轴(SZ)”**图标  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change  
-![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+将显示“设置轴”控件。单击中心的大夹点，以选取控件。再次单击以设置原点。现在，单击红色轴上的点以旋转栅格，或者单击蓝色轴上的点以垂直旋转栅格平面。在空白处单击关闭，以确认更改  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes \(RZ\)**
+要将原点和栅格**重置**回默认设置，请在场景中的空白区域上单击鼠标右键，然后选择**“重置轴(RZ)”**
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## 世界轴和局部轴
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+上述步骤介绍了如何控制草图的**全局坐标系**。开始使用[**组**](groups.md)时，可以从整个草图中唯一地控制该组的**局部坐标系**。编辑组时，可以按照上述相同步骤编辑局部坐标系，但这些更改将仅应用于该组
 
-## Interactions with Axes
+## 与轴交互
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* 当使用草图工具时将显示**红色、绿色和蓝色轴**，以指导三维草图绘制
+* **紫色轴**显示相对于以一定角度绘制的线的垂直轴和平行轴
+* 在绘制草图或移动时按住 **Shift 键**，以**锁定到当前轴**
 

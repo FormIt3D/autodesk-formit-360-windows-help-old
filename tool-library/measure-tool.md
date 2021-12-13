@@ -1,12 +1,12 @@
-# Measure
+# 测量
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+**“测量”**工具位于[“工具栏”](../formit-introduction/tool-bars.md)上。
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+可以使用**“测量”**工具测量模型中的现有几何图形。还可以使用**“测量”**工具为几何图形指定尺寸。
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. 选择**“测量”**工具。
+2. 选择两个点来测量它们之间的距离。
+3. 选择要调整的面或边、单击显示的值，然后在将显示的对话框中添加新值。
 
 ![](../.gitbook/assets/measure%20%281%29.png)  
 ![](../.gitbook/assets/measure2.png)  

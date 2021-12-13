@@ -1,11 +1,11 @@
-# Scale Object
+# 缩放对象
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+可以使用**“缩放”工具**调整对象的大小和方向。
 
-1. Select an object you want to adjust. 
-2. Right-click to launch the **Context Menu**. 
-3. From the Context Menu, select the **Scale tool**. 
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. 选择要调整的对象。
+2. 单击鼠标右键以启动**“上下文菜单”**。
+3. 从“上下文菜单”中，选择**“缩放”工具**。
+4. 使用鼠标滚轮放大或缩小几何图形。
 
 ![](../.gitbook/assets/scale1.png)
 

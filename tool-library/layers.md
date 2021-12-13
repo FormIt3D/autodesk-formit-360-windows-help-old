@@ -1,28 +1,28 @@
-# Layers
+# 图层
 
-Use Layers to control the visibility of FormIt objects. 
+使用“图层”控制 FormIt 对象的可见性。
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+按照 [FormIt Primer](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) 查看图层的实际操作
 
-## Creating and Naming Layers
+## 创建和命名图层
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. 
+在“图层”面板中，可以通过单击**“+”**图标来创建和命名图层。
 
- ![](../.gitbook/assets/layer-locking-image.jpg) 
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible  but not selectable or editable.
+可以双击名称来重命名图层，也可以通过选中和取消选中左侧框来切换其对象的可见性。使用右侧复选框锁定和解锁图层。锁定的图层仍将可见，但不可选，也不可编辑。
 
-## Managing Objects on Layers
+## 管理图层上的对象
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on. 
+在画布中选择对象，然后使用“图层”面板顶部的下拉列表来指示应将选定对象放置到哪个图层。
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt 没有“默认”或“工作图层”的概念。所有新的几何图形都基于“无图层”创建，您需要将生成的对象重新指定给图层。
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+可以在图层上单击鼠标右键，然后选择“选择图层上的所有对象”来选择当前指定给该图层的所有几何图形。
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+还可以在面板中通过将图层拖放到新位置，来对图层重新排序。请注意，这不会影响几何图形可见性 - 这纯粹是面板中的组织工具。
 

@@ -1,16 +1,16 @@
-# Work Planes
+# 工作平面
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+当更改主草图中的世界轴或组的局部轴时，工作平面将与 X 轴和 Y 轴相关联。**工作平面**是用作草图绘制的默认平面的二维虚拟曲面。此工作平面将无限拉伸，并提供一个要在其上绘制草图的曲面，而不捕捉到其后的图元。
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+要了解如何编辑地平面，请参见[视觉样式。](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## 修改工作平面
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+将[世界轴](world-axes.md)旋转到草图中其他对象的平面。这将对齐活动工作平面，以对应于此面。现在，可以相对于新 XY 平面（而不是默认地平面）绘制草图、放置图元和修改图元。可以在栅格和工作平面的后面或下面进行动态观察，以捕捉和推断到栅格和工作平面后面的图元。
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style &gt; Environment &gt; **Display Grid \(DG\).**
+可以打开/关闭栅格线的可见性，以受益于基于工作平面的草图绘制。可以在“视觉样式”>“环境”>**显示栅格 (DG) **中控制此设置。
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings &gt; **Snap to Grid \(SG\).**
+还可以控制在绘制时是否捕捉到栅格。在“设置”>**"捕捉到栅格(SG)"** 中打开/关闭此设置。
 
 ![](../.gitbook/assets/work-plane.gif)
 

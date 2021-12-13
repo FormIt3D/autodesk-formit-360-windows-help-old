@@ -1,47 +1,47 @@
-# Plug-Ins
+# 插件
 
-Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+使用“插件管理器”从 FormIt 团队安装有用的插件，或了解如何[**构建您自己的 FormIt 插件**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**。**
 
-#### The FormIt Plugin Manager
+#### FormIt 插件管理器
 
-The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
+“FormIt 插件管理器”用作发现和管理 Formit 插件的中心。
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+只要 FormIt 可以访问 Internet，则当 FormIt 启动时就会自动加载“插件管理器”。
 
-You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
+通过单击应用程序窗口右侧的“插件管理器”选项卡图标，可以访问该插件管理器：
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### The Plugin Manager categorizes different types of plugins:
+#### “插件管理器”会对不同类型的插件进行分类：
 
-* **Installed plugins**
-* **Recommended plugins**
-  * Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
-  * Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
-* **Public plugins**
-  * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+* **已安装的插件**
+* **建议的插件**
+   * FormIt 团队建议用于扩展 FormIt 的核心功能并解锁新工作流的插件。
+   * 社区开发的插件在获得 FormIt 团队批准后将显示在此处。以后将对此进行详细介绍。
+* **公共插件**
+   * 由社区构建的插件，但尚未由 FormIt 团队审阅或批准。
 
-#### The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+#### “插件管理器”是使用一系列可展开和可收拢的界面进行设计的，这使管理插件及其存储库变得轻松：
 
-* **Managing Plugins:**
-  * Click on a plugin name to see its description.
-  * Toggle the switch to install or uninstall it.
-    * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
-* If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit \(+\):
+* **管理插件：**
+   * 单击插件名称，即可查看其说明。
+   * 切换开关，即可安装或卸载它。
+      * 该插件将显示为应用程序顶部的工具栏、右侧的面板或中间的对话框，具体取决于插件类型。
+* 如果您正在[开发自己的插件](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)，可以将其私有 URL 添加到底部的字段中，然后点击 (+)：
 
-![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![FormIt 插件管理器](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### How Plugins Work
+#### 插件的工作方式
 
-* Plugins are web-based and available in FormIt for Windows and FormIt for Web.
-* Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
-* External plugins \(plugins not hosted locally\) require an internet connection to initially load, which means:
-  * External plugins will not load if no internet connection is detected when FormIt starts.
-  * Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.
-  * External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change.
-* Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
-* The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins.
-  * If you need to reset your Plugin Manager to its defaults, delete the following registry key:
-    * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-    * Note this will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+* 插件是基于 Web 的，在 FormIt for Windows 和 FormIt for Web 中可用。
+* 插件由托管在 GitHub 或本地服务器（构建自己的插件时）上的一些列文件和文件夹组成。
+* 外部插件（插件不在本地托管）需要 Internet 连接，才能初始加载，这意味着：
+   * 如果在 FormIt 启动时未检测到 Internet 连接，则将加载外部插件。
+   * 加载后，一些外部插件可以继续在脱机模式下为该任务工作，但其他外部插件可能会中断工作，直到恢复连接。
+   * 外部插件在每次运行时都在服务器上加载最新代码，因此只要作者推送更改，其功能就会更新。
+* 插件异步加载，这意味着 FormIt 界面中插件的顺序可能会随每个新任务而变化。
+* “插件管理器”使用 Windows 上的注册表项，来存储您安装的储存库和插件。
+   * 如果需要将“插件管理器”重置为其默认值，请删除以下注册表项：
+      * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
+      * 请注意，这将卸载用户添加的所有存储库和插件，从而重置“插件管理器”以仅包含内置的存储库和插件。
 

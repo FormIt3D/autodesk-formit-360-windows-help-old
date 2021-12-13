@@ -1,26 +1,26 @@
-# Part II \(coming soon\)
+# 第 II 部分（即将推出）
 
-## Advanced Tools
+## 高级工具
 
-In **Part II** of this Primer, we are going to dive into some of the more advanced tools FormIt has to offer. We will explore how to use simple yet powerful modeling, diagnostic, analysis, and interoperability tools to modify and enhance the Encode Campus Model pictured below.
+在本 Primer 的**第 II 部分**中，我们将深入介绍 FormIt 一定会提供的一些更高级的工具。我们将探讨如何使用简单但功能强大的建模、诊断、分析和互操作工具来修改和增强下图所示的“编码校园模型”。
 
-If you are new to FormIt, we recommend starting with **Part I**, as **Part II** will assume you are already familiar with the basics of FormIt.
+如果您是 FormIt 新手，建议您从**第 I 部分**开始，因为**第 II 部分**假定您已经熟悉 FormIt 的基础知识。
 
-Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on specific tools, toolbars, palettes, and processes discussed herein.
+有关本文中所讨论的特定工具、工具栏、选项板和流程的详细说明，请参见**“FormIt 简介”**和**“工具库”**部分。
 
-![Encode Campus Sample Model](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![编码校园样例模型](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
 
-### Pre-requisites
+### 先决条件
 
-Before beginning Part II, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../formit-introduction/prerequisites-and-installation.md).
+在开始“第 II 部分”之前，请按照“FormIt 简介”部分中的以下说明下载并安装 FormIt for Windows：[**先决条件和安装**](../formit-introduction/prerequisites-and-installation.md)。
 
-For most chapters, you will also need to download and make use of the data set found at the link below. 
+对于大多数章节，还需要下载并使用通过下面的链接找到的数据集。
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ ****[_**FormIt website.**_](https://formit.autodesk.com)_\*\*\*\*_
+_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_完成大部分教程。有关 FormIt 版本和许可的详细信息，请访问_ ****[_**FormIt 网站。**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Data Set
+### 数据来源
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts. This data set contains two versions of the Encode Campus Sample Model; one ready to be modified by you throughout the tutorial, and a second containing a finished version of everything described in **Part II**, so you can open and explore the expected results for yourself.
+“编码校园”（如上图所示）是城市打印中一个虚构的中等规模多用途项目集，包含有组织的图层、场景、材质，甚至与实时可编辑的 Dynamo 脚本绑定的几何图形。该数据集包含两个版本的“编码校园样例模型”：一个版本可供您在整个教程中进行修改，另一个版本包含**第 II 部分**中所述所有内容的完成版本；因此您可以自行打开并浏览预期结果。
 
-* **FormIt Primer Data Sets Part II**
+* **FormIt Primer 数据集第 II 部分**
 

@@ -1,54 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - 使用图层控制可见性
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_与 AutoCAD 和 Photoshop 非常类似，FormIt 中的图层允许您管理模型中对象的可见性。在本章中，我们将创建一个图层来保存和隐藏建筑体量，以供将来分析。_
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”**下载并打开_ _**“1.6 - Control Visibility with Layers.axm”**_ _文件。_
 
-## **Create Layers**
+## **创建图层**
 
-1 - To create the new layers:
+1 - 创建新图层的步骤：
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. 转到**“图层选项板”**，然后单击**“+”**号三次以创建三个图层。
+2. 双击图层名称，以将其分别重命名为**“体量”**、**“主建筑物”**和**“平面图像”。**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**注意：**_ _可以单击图层名称，然后将其向上或向下拖动以重新排序图层。_
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - 将**“体量 - 主建筑物”**组指定给**“体量”**图层的步骤：
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. 在画布中，选择**“体量 - 主建筑物”**组。
+2. 在**“图层选项板”**中，从**“选择开:”**下拉菜单中选择**“体量”**图层。同样，将**“平面图像”**组指定给**“平面图像”**图层。
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **复制组**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_我们现在将开始更详细地建筑物建模过程。第一步是根据我们已有的建筑体量创建楼层几何图形。_
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C \(Copy\)** to copy, and then **Ctrl + Shift + V \(Paste in Place\)** to paste the mass in the same place.
+1 - 再次选择**“体量 - 主建筑物”**组。按**“Ctrl + C (复制)”**进行复制，然后按**“Ctrl + Shift + V (原地粘贴)”**将体量粘贴到同一位置。
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique \(MU\)** option.
+2 - 要将新组几何图形与原始组取消关联：请单击鼠标右键以访问**“上下文菜单”**，然后选择**“使唯一(MU)”**选项。
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**注意**：新组将不再与原始组相关联。对新组所做的更改不会改变原始组。_
 
-## **Create the Floor Geometry**
+## **创建楼层几何图形**
 
-1 - Reassign group’s layer:
+1 - 重新指定组的图层：
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. 单击以选择**“体量 - 主建筑物”**组之一。
+2. 使用**“图层选项板”**中的**“选择开:”**下拉菜单，将组放置在**“主建筑物楼层”**图层上。
+3. 取消选中**“体量”**图层以隐藏其几何图形，从而确保其不会出现任何意外编辑。
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - 双击可见的**“体量 - 主建筑物”**组以对其进行编辑。在**“特性选项板”**中，将组重命名为**“楼层”**。
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - **单击**几何图形的**顶面**以将其选中。再次单击，然后开始向下拖动面。向下拖动面时，键入**“11’-2””**，将显示**“尺寸”对话框**。输入值后，单击**“确定”**。生成的楼层厚度应为 1'。在空白处双击关闭，以退出组。
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

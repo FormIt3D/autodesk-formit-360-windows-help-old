@@ -1,24 +1,24 @@
-# Part I
+# 第 I 部分
 
-## Modeling Mies van der Rohe's Farnsworth House
+## Mies van der Rohe 的 Farnsworth 住宅建模
 
-In Part I of this Primer, we are going to go over the basic FormIt tools and workflows to build a historic modernist house in just under two hours! Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on tools, toolbars, palettes, and processes discussed herein.
+在本 Primer 的第 I 部分中，我们将介绍基本的 FormIt 工具和工作流，以在不到两个小时的时间内构建一座历史悠久的现代主义风格住宅！有关此处所讨论的工具、工具栏、选项板和流程的详细说明，请参见**“FormIt 简介”**和**“工具库”**部分。
 
 
 
-![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
+![Farnsworth 住宅](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Pre-requisites
+### 先决条件
 
-Before beginning Part I, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+在开始第 I 部分之前，请按照“FormIt 简介”部分中的以下说明下载并安装 FormIt for Windows：[**先决条件和安装**](../../formit-introduction/prerequisites-and-installation.md)。
 
-You will also need to download the data set found at the link below. The data set is a collection of files used throughout Part I.
+还需要下载通过下面的链接找到的数据集。数据集是整个“第 I 部分”中所使用的文件集合。
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ ****[_**FormIt website.**_](https://formit.autodesk.com)_\*\*\*\*_
+_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_**完成大部分教程。** 有关 FormIt 版本和许可的详细信息，请访问_ ****[_**FormIt 网站。**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Data Set
+### 数据来源
 
-Throughout Part I, we will build the Farnsworth House step by step, breaking up the modeling into manageable chapters. If you wish to only complete specific chapters, the data set below will provide you with the progress up until the chapter you chose to do. Besides the **Chapter Files**, the data set also contains the necessary **Supporting Files** to complete all exercises.
+在第 I 部分中，我们将分步构建 Farnsworth 住宅，以便将建模分解为多个可管理的章节。如果您只想完成特定章节，下面的数据集将为您提供直到您完成所选章节的进度。除了**“章节文件”**之外，数据集还包含完成所有练习所需的**“支持文件”**。
 
-* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**FormIt Primer 数据集第 I 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
 

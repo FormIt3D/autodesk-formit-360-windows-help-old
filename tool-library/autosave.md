@@ -1,54 +1,54 @@
-# AutoSave
+# 自动保存
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+从 v17.3 开始，FormIt for Windows 包括“自动保存”功能，该功能会在您工作时创建 FormIt 模型的备份副本。如果 FormIt 关闭时未保存更改，则此备份文件可用于恢复数据。
 
-### Toggling AutoSave
+### 切换自动保存
 
-Find configuration options for AutoSave in Edit &gt; Preferences &gt; AutoSave.
+在“编辑”>“首选项”>“自动保存”中，查找“自动保存”的配置选项。
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box. 
+“自动保存”默认处于启用状态，但只需取消选中该框即可完全禁用。
 
-Set the interval \(in minutes\) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+通过在“自动保存间隔”数字框中输入值，即可设置“自动保存”将创建备份副本的间隔（以分钟为单位）。
 
-Note that these preferences are application-level, and will not change when opening different files.
+请注意，这些首选项是应用程序级别的，在打开不同文件时不会更改。
 
-### How AutoSave Works
+### 自动保存的工作方式
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+启用“自动保存”后，它会确定当前 FormIt 文件是否有未保存的更改。如果有未保存的更改，“自动保存”会按指定间隔创建文件的备份副本。
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+备份文件存储在原始文件的旁边，扩展名为 `.axmb`。
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+例如，如果原始 FormIt 文件存储在 `C:/Users/<user>/FormIt/MyProject.axm`，则可以在 `C:/Users/<user>/FormIt/MyProject.axmb` 中找到备份文件。
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+如果启动新的 FormIt 任务而不打开现有文件，则可以在 `C:/Users/<user>/Documents/Untitled.axmb` 中找到未保存的更改。将新模型保存到其他位置后，备份将开始在新位置旁边添加未保存的更改，如上所述。
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+将更改保存到原始文件时，“自动保存”会自动删除备份文件，因为备份现在比原始文件旧。但是，对保存的文件进行后续更改时将提示“自动保存”，以在指定间隔重新开始备份。
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+如果工作文件有未保存的更改，并且选择关闭 FormIt 并放弃更改，则将删除“自动保存”备份。但是，如果 FormIt 因计算机关机或应用程序崩溃而被强制关闭，则“自动保存”备份文件将保留，并可以稍后用于恢复数据。
 
-### Working With AutoSave Enabled
+### “自动保存”已启用时工作
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files \(~400MB and above\), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+FormIt 通过在单独进程中执行备份，从而最大程度地降低“自动保存”对性能的潜在影响。对于中小型文件，您应该不会注意到“自动保存”何时备份。对于非常大的文件（~400MB 及以上），在 FormIt 复制整个模型并在单独进程中开始备份时，您才可能会注意到出现短暂暂停。
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+如果您想知道“自动保存”当前是否正在备份，可以查看应用程序左下角的状态栏是否显示“正在自动保存...”简短消息：
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window &gt; Status Bar or via the shortcut HS.
+如果状态栏处于禁用状态，则可以在“窗口”>“状态栏”中或通过快捷键 HS 启用它。
 
-### Recovering Data with AutoSave
+### 使用“自动保存”恢复数据
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+当打开有可用备份的 FormIt 文件时，FormIt 会提醒您存在备份文件。如上所述，这可能仅仅是因为您关闭 FormIt 而没有选择保存上次编辑该项目的更改，或者由于 FormIt 意外关闭。
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+单击“打开它？”超链接将加载 `.axmb` 备份文件。
 
-Similarly, you can use File &gt; Open, and manually select the `.axmb` file from the file explorer to open a backup.
+同样，可以使用“文件”>“打开”，然后从文件资源管理器中手动选择 `.axmb` 文件以打开备份。
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file \(`.axm`\) to overwrite. You cannot overwrite FormIt backup files \(`.axmb`\).
+备份文件打开后，下次保存时，FormIt 会要求您拾取其他 FormIt 文件 (`.axm`) 以覆盖。无法覆盖 FormIt 备份文件 (`.axmb`)。
 
 
 

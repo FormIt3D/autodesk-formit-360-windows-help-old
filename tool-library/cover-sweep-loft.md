@@ -1,43 +1,42 @@
-# Cover, Sweep, Loft
+# 覆盖、扫掠、放样
 
-Enclose open edges, make geometry changes along a path of edges, and connect multiple profiles or edges.
+封闭开放边、沿边路径更改几何图形，以及连接多个轮廓或边。
 
-## To close a series of faces
+## 闭合一系列面的步骤
 
-1. From the **Advanced Geometry Tools** menu in the action bar, click the **Cover** tool.  ![](../.gitbook/assets/cover-tool.png)
-2. Click the edges of the object you want to cover.
+1. 在操作栏的**“高级几何图形工具”**菜单中，单击**“覆盖”**工具。![](../.gitbook/assets/cover-tool.png)
+2. 单击要覆盖的对象的边。
 
- ![](../.gitbook/assets/cover_tool1.png)
+![](../.gitbook/assets/cover_tool1.png)
 
-  3. Click **Finish**    
- ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
+3. 单击**“完成”**    
+   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
 
-## To sweep geometry along a path
+## 沿路径扫掠几何图形的步骤
 
-1. Use a line to mark the face of an object that you want to cut. ![](../.gitbook/assets/sweep.png)
-2. Click the sweep tool icon.   ![](../.gitbook/assets/sweep-tool.png)
-3. Select the face you marked earlier. 
+1. 使用线来标记要切割的对象的面。![](../.gitbook/assets/sweep.png)
+2. 单击“扫掠”工具图标。![](../.gitbook/assets/sweep-tool.png)
+3. 选择之前标记的面。
 
-        ![](../.gitbook/assets/sweep2.png) 
+        ![](../.gitbook/assets/sweep2.png)
+4. 选择要切割的边。
 
-  4. Select the edge you want to cut.
+   ![](../.gitbook/assets/sweep3.png)
 
-        ![](../.gitbook/assets/sweep3.png)
+5. 单击**“完成”**图标。原始对象将沿扫掠路径进行修改。![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-  5. Click the **Finish** icon.  The original object is modified along the sweep path. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+## 放样多个轮廓或边的步骤
 
-## To loft multiple profiles or edges
-
-1. From the **Advanced Geometry Tools** menu in the Action bar, click the **Loft** tool.  ![](../.gitbook/assets/loft-tool.png)
-2. Select the face or edges you want to loft on the first object.
+1. 在操作栏的**“高级几何图形工具”**菜单中，单击**“放样”**工具。![](../.gitbook/assets/loft-tool.png)
+2. 选择要在第一个对象上放样的面或边。
 
    ![](../.gitbook/assets/loft1.png)
 
-3. Select the face or edges you want to loft on the second object. Repeat this step for additional objects.
+3. 选择要在第二个对象上放样的面或边。对其他对象重复此步骤。
 
    ![](../.gitbook/assets/loft2.png)
 
-4. Click the **Finish** icon. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+4. 单击**“完成”**图标。![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
    ![](../.gitbook/assets/loft3.png)
 

@@ -1,12 +1,12 @@
 # Revit
 
-FormIt has been designed to work well with Revit. To learn more about the basics, refer to [**this section in the FormIt Primer tutorial**]().
+FormIt 设计为与 Revit 配合使用。要详细了解基础知识，请参见 [**FormIt Primer 教程中的此部分**]()。
 
-## Working with data from Revit
+## 使用 Revit 中的数据
 
-You can send geometry from Revit to FormIt. This is useful for doing quick study models and then sending geometry back to Revit. Here is a video demonstration:
+可以将 Revit 中的几何图形发送到 FormIt。这对于快速分析模型，然后将几何图形发送回 Revit 非常有用。下面是视频演示：
 
-## Creating Revit Content
+## 创建 Revit 内容
 
-FormIt can be used to create content for use in Revit families. Here is a video demonstration:
+FormIt 可用于创建要在 Revit 族中使用的内容。下面是视频演示：
 

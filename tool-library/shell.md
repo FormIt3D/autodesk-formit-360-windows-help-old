@@ -1,4 +1,4 @@
-# Shell
+# 壳
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+基于实体对象，可以创建指定宽度的“壳”。壳对于基于体量模型快速创建墙非常有用：
 

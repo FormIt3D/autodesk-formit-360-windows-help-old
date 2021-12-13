@@ -1,39 +1,39 @@
-# Setting Up the Project
+# 设置项目
 
-## Starting Off
+## 开始操作
 
-When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project \([here's how](../formit-primer/)\), use the File menu to open an existing FormIt project, or import a variety of other file types.
+启动 FormIt 时，您将处于三维环境中。花些时间学习[如何在三维空间中导航](navigating-the-scene.md)，然后开始构建项目（[此处为操作方法](../formit-primer/)）、使用“文件”菜单打开现有 FormIt 项目，或输入各种其他文件类型。
 
-FormIt allows opening, saving, and exporting to files both locally and on BIM 360 Docs. [Using BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) is a great way to share models in the cloud.
+FormIt 允许在本地和 BIM 360 Docs 上打开、保存和输出到文件。[在 FormIt 中使用 BIM 360 Docs](https://formit.autodesk.com/page/formit-bim-360-docs) 是在云中共享模型的绝佳方式。
 
-Speaking of saving, FormIt will [AutoSave your work](../tool-library/autosave.md) once you start making changes to the model. Saving often is still recommended because it will clean up the backup file and save space.
+说到保存，在开始对模型进行更改后，FormIt 将[自动保存工作](../tool-library/autosave.md)。仍建议经常保存，因为这样会清理备份文件并节省空间。
 
-## App Settings
+## 应用设置
 
-* Units:
+* 单位:
 
-  ![](../.gitbook/assets/formit_units.png)
+   ![](../.gitbook/assets/formit_units.png)
 
-  * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
+   * 设置该选项将影响所有工具和输入的几何图形（如 Dynamo）中的单位和无单位文件类型（如 STL）。
 
-* Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../formit-primer/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
-* Display Editable Dimensions:
-  * Choose whether to keep the dimension boxes visible \(we recommend keeping this on if you want to draw with accuracy\).
-* Hide Context/Show Edited Group Only:
-  * This affects whether editing a Group will show its surroundings or not. You can easily change this setting using the shortcut \(H\). Toggling H while modeling in and out of Groups allows you to view Groups both in isolation and in context as needed.
-* Preselection Highlight:
-  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4). 
+* 捕捉到栅格：
+   * 强制带有放置点的工具捕捉到栅格交点。请注意，可以在[“视觉样式”](../formit-primer/part-i/visual-settings.md)中关闭栅格；如果栅格处于关闭状态，则捕捉到栅格也将被禁用。
+* 显示可编辑的尺寸：
+   * 选择是否使尺寸框保持可见（如果要精确绘制，建议启用此选项）。
+* 隐藏上下文/仅显示编辑的组：
+   * 这会影响编辑组是否会显示其周围环境。可以使用快捷键 (H) 轻松更改此设置。在组内和组外建模时切换 H，可以根据需要在隔离环境和上下文中查看组。
+* 选择前亮显：
+   * 默认情况下，将光标悬停在对象上时，FormIt 将“预选”这些对象。这有助于确保要选择的对象是您获得的对象，但在呈现设计时可能会分散注意力。使用此选项或快捷键，可以根据需要在显示和隐藏选择前亮显之间快速切换。请注意，需要启用此选项才能使用[智能选择](https://www.youtube.com/watch?v=akLeB1FADt4)等功能。
 
-## Touch Mode
+## 触摸模式
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
+如果计算机有触摸屏，则使用“触摸模式”可轻松导航模型和创建几何图形。如果您也在使用 FormIt for iOS，就会感到很熟悉。
 
-When Touch Mode is on, FormIt's interaction becomes more like FormIt on iPad, calibrating navigation and modification tools to work with a touch interface. Because of this, using FormIt with a mouse and keyboard while Touch Mode is on is not recommended. 
+启用“触摸模式”后，FormIt 的交互变得更像 iPad 上的 FormIt，从而通过触摸界面使用校准导航和修改工具。因此，建议不要在“触摸模式”处于启用状态时，通过鼠标和键盘使用 FormIt。
 
-When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
+当“触摸模式”处于启用状态时，您会看到它在工具栏中亮显，同时屏幕左下角还显示“触摸模式”横幅。
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

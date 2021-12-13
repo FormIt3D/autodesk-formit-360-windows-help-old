@@ -1,26 +1,26 @@
-# Measure Angle
+# 测量角度
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+“测量角度”工具位于[工具栏](../formit-introduction/tool-bars.md)上。
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+“测量角度”工具用于测量顶点、边、面和体积之间的角度。还可以使用“测量角度”工具驱动几何图形的尺寸。
 
-* From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* 在**“测量”**工具栏菜单中，选择**“测量角度”**工具，或者使用键盘快捷键**“M A”**并选择起点。
 
-  ![](../.gitbook/assets/measure-angle.png)
+   ![](../.gitbook/assets/measure-angle.png)
 
-* Click and drag the handle to the starting vertex.
+* 单击控制柄并将其拖动到起始顶点。
 
-  ![](../.gitbook/assets/measure-angle2.png)
+   ![](../.gitbook/assets/measure-angle2.png)
 
-* Use the arrows to measure the angle between one point to another.
+* 使用箭头测量一点与另一点之间的角度。
 
-  ![](../.gitbook/assets/measure-angle4.png)
+   ![](../.gitbook/assets/measure-angle4.png)
 
-* To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+* 要更改几何图形，请单击边或面，然后通过单击显示的角度来输入新的角度值。
 
-  ![](../.gitbook/assets/measure-angle3.png)
+   ![](../.gitbook/assets/measure-angle3.png)
 
-* Your changes or measurements display:
+* 所做的更改或测量将显示：
 
-  ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle5.png)
 

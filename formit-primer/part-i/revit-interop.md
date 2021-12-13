@@ -1,70 +1,70 @@
-# 1.15 - Working With Revit
+# 1.15 - 使用 Revit
 
-_One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt, to a powerful parametric environment like Revit. In this chapter, we will go through a few exercises that move various elements from FormIt to Revit, and from Revit to FormIt._
+_FormIt 最令人兴奋的功能之一是能够将模型从 FormIt 等灵活建模环境移动到 Revit 等功能强大的参数化环境。在本章中，我们将介绍几个练习，这些练习将各种图元从 FormIt 移动到 Revit，以及从 Revit 移动到 FormIt。_
 
-_This chapter will make use of sample Revit families. If you have not already, you can download them from the **Farnsworth House Data Set.** If you did not follow the whole tutorial up until this point, you can also download and open the **1.15 – Working With Revit.axm** file from the **FormIt Primer Part 1 Datasets**._
+_本章将使用样例 Revit 族。如果尚未下载，可以从**“Farnsworth 住宅数据集”下载。**如果直到此时您才学完整个教程，还可以从**“FormIt Primer Part 1 数据集”**下载并打开**“1.15 – Working With Revit.axm”**文件。_
 
-_In these exercises, we will use Revit 2022, which has improved interoperability capabilities with FormIt. Previous versions of Revit will not have some or any of the features shown in this tutorial, and will have different UI._
+_在这些练习中，我们将使用 Revit 2022，它改进了与 FormIt 的互操作性功能。Revit 的早期版本将不具有本教程中所涉及的部分或任何功能，并且 UI 也不同。_
 
-## From Revit to FormIt
+## 从 Revit 到 FormIt
 
-### Convert Revit Families for Use in FormIt
+### 转换 Revit 族以在 FormIt 中使用
 
-If you \(or your firm\) have a trove of Revit Families that you want to use in FormIt, then you will be interested in this section, which discusses how to batch export RFA files to FormIt.
+如果您（或贵公司）拥有要在 FormIt 中使用的 Revit 族的宝库，那么您就会对本部分感兴趣，本部分将讨论如何将 RFA 文件批量输出到 FormIt。
 
- _**Note:**_ _The steps below show the interface and the necessary steps when using Revit 2022, but the_ _**Convert RFA to FormIt**_ _tools has been available since Revit 2016._
+_**注意：**_ _以下步骤显示了使用 Revit 2022 时的界面和必要步骤，但_ _**“将 RFA 转换为 FormIt”**_ _工具自 Revit 2016 开始已可用。_
 
-1 – Open a New Revit Project or Family. Then:
+1 - 打开新的 Revit 项目或族。然后：
 
-1. From the **Add-Ins** ribbon, find the **FormIt Converter** panel and click on the **Convert RFA to FormIt** button. The **Convert Revit Families Dialog** will pop-up.
-2. In the **Path to Revit Family File** field, browse to wherever you saved the following folder on your computer: **Farnsworth House Data Set &gt; Supporting Files &gt; Revit**.
-3. In the **Path to FormIt Content** field, browser to **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Custom FormIt Content**. If you have not completed chapter **1.11 Import Models with Content Library**, you may need to create the **Custom FormIt Content** folder, or choose another destination.
-4. Click **OK** to start the conversion process.
+1. 在**“附加模块”**功能区中，找到**“FormIt 转换器”**面板，然后单击**“将 RFA 转换为 FormIt”**按钮。**“转换 Revit 族”对话框**将弹出。
+2. 在**“Revit 族文件路径”**字段中，浏览到计算机上已保存以下文件夹的位置：**“Farnsworth 住宅数据集”>“支持文件”>“Revit”**。
+3. 在**“FormIt 内容路径”**字段中，浏览到**“Farnsworth 住宅数据集”>“支持文件”>“FormIt”>“自定义 FormIt 内容”**。如果尚未完成**“1.11 使用内容库输入模型”**一章，则可能需要创建**“自定义 FormIt 工具集”**文件夹，或选择其他目标。
+4. 单击**“确定”**以开始转换过程。
 
 ![](../../.gitbook/assets/0%20%2823%29.png)
 
-_**Notes:**_
+_**注意：**_
 
-* _This process will take some time as Revit opens the_ _**RFA**_ _in the first path, then converts and saves it as an_ _**AXMF**_ _format for FormIt._
-* _In this exercise, we are only converting a single file, but you can use this process to batch-convert all_ _**RFAs**_ _in the selected folder \(including any_ _**RFAs**_ _in nested folders\)._
+* _此过程需要一些时间，因为 Revit 会在第一个路径中打开_ _**“RFA”**_ _，然后转换并将其另存为 FormIt 的_ _**“AXMF”**_ _格式。_
+* _在本练习中，我们将仅转换单个文件，但可以使用此过程批量转换选定文件夹（包括嵌套文件夹中的任何__**“RFA”**__）中的所有__**“RFA”**__。_
 
-2 - Once the process is completed, go back to FormIt. There you will see the new content appear in the **Content Library Palette**, inside the **FormIt &gt;** **Custom FormIt Content** folder we previously linked. If you saved your converted **AXMF** file\(s\) to a different location, or did not complete chapter **1.11 Import Models with Content Library**, you may need to add that folder to your content library to see its contents. Refer to chapter 1.11 for instructions on how to add folders to your content library.
+2 - 该过程完成后，返回 FormIt。您将看到新内容显示在**“内容库选项板”**中（位于我们之前链接的**“FormIt”**>**“自定义 FormIt 内容”**文件夹内）。如果已将转换后的**“AXMF”**文件保存到其他位置，或未完成**“1.11 使用内容库输入模型”**一章，则可能需要将该文件夹添加到内容库才能查看其内容。有关如何将文件夹添加到内容库的说明，请参见“第 1.11 章”。
 
 ![](../../.gitbook/assets/1%20%2824%29.png)‌
 
-**Note**: _Not all categories from Revit are supported for export. The 'free standing' or ‘level based’ families are supported, but the 'host based' families like doors and windows are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported. Any unsupported families in the selected fold will simply be skipped._
+**注意：**_并非 Revit 中的所有类别都支持输出。支持“独立”或“基于标高”族，但不支持“基于主体”族（如门和窗）。体量、橱柜、环境、家具、家具系统、常规模型、停车场、场地和专用设备均受支持。将只跳过选定折叠中任何不受支持的族。_
 
-## From FormIt to Revit
+## 从 FormIt 到 Revit
 
-_There are two different ways to bring geometry from FormIt to Revit. You can import an existing_ _**.axm**, into either a Revit project or Revit family file, which will behave similarly to an imported model or CAD file. Alternatively, you can launch FormIt from within Revit, and bring each FormIt group into Revit as an individual Generic Model element. The second method is covered in the **Part II** chapter_ _**2.8**_ _**Advanced Revit Workflows**._
+_有两种不同的方法可将几何图形从 FormIt 输入 Revit。可以将现有_ _**“.axm”**输入 Revit 项目或 Revit 族文件，其行为与输入的模型或 CAD 文件类似。或者，可以从 Revit 中启动 FormIt，然后将每个 FormIt 组作为单个“常规模型”图元输入到 Revit。第二个方法将在**“第 II 部分”**的_ _**“2.8**_ _**高级 Revit 工作流”**一章中进行介绍。_
 
-### Importing the Farnsworth House to Revit
+### 将 Farnsworth 住宅输入 Revit
 
-1 – To import an FormIt file \(**.axm**\) to Revit, start a new Revit project and open the default 3D view. Then:
+1 - 要将 FormIt 文件（**“.axm”**）输入 Revit，请启动新的 Revit 项目并打开默认的三维视图。然后：
 
-1. Go to the **Insert Tab**, and click on the **Import CAD** button. The **Import CAD Formats** window will open.
-2. Make sure the **Files of type** dropdown is set to **FormIt Files \(\*.axm\)**.
-3. Navigate to and select the Farnsworth **.axm** file you have been working on. If you have not been following along with the Primer Part I, you can also open **1.15 – Working With Revit.axm** file the **Farnsworth House Data Set &gt; Chapter Files** folder.
-4. Make sure that **Import FormIt Levels** is checked.
-5. Once the settings are defined, click **Open**, and the FormIt geometry will be brought into Revit as a single element.
+1. 转到**“插入”选项卡**，然后单击**“输入 CAD”**按钮。**“输入 CAD 格式”**窗口将打开。
+2. 确保**“文件类型”**下拉列表设置为**“FormIt 文件(*.axm)”**。
+3. 导航到已在处理的 Farnsworth **.axm** 文件并选择该文件。如果尚未使用“Primer Part I”，还可以打开**“1.15 – Working With Revit.axm”**文件（位于**“Farnsworth 住宅数据集”>“章节文件”**文件夹中）。
+4. 确保**“输入 FormIt 标高”**处于选中状态。
+5. 在完成定义设置后，单击**“打开”**，FormIt 几何图形将作为单个图元输入到 Revit。
 
 ![](../../.gitbook/assets/2%20%2824%29.png)
 
-Importing a FormIt file using the import CAD button.
+使用“输入 CAD”按钮输入 FormIt 文件。
 
 ![](../../.gitbook/assets/3%20%2821%29.png)  
-Imported .axm element. Note that the Levels from the FormIt model are also imported into Revit.
+输入的 .axm 图元。请注意，FormIt 模型中的标高也会输入到 Revit 中。
 
-_Similar to other CAD formats, the layers in the original file are imported to Revit. This feature allows you to define different visibility settings for each layer to easily manipulate the graphic appearance of your FormIt file in any Revit view._
+_与其他 CAD 格式类似，原始文件中的图层将输入到 Revit。此功能允许您为每个图层定义不同的可见性设置，以便轻松操纵任何 Revit 视图中 FormIt 文件的图形外观。_
 
-2 – To adjust the imported .axm file’s layer visibility:
+2 - 调整输入的 .axm 文件的图层可见性的步骤：
 
-1. Go to the **Visibility/Graphic Overrides \(VG or VV\)** window, **Imported Categories** tab, expand your imported FormIt file, and uncheck the **Planting** layer to turn off the layer in the current view, and click **OK**.
-2. Change the **Visual Style** to **Realistic**, and you will see that all the FormIt materials have been imported into Revit.
+1. 转到**“可见性/图形替换(VG 或 VV)”**窗口的**“输入的类别”**选项卡、展开输入的 FormIt 文件、取消选中**“植物”**图层以关闭当前视图中的图层，然后单击**“确定”**。
+2. 将**“视觉样式”**更改为**“真实”**，您将看到所有 FormIt 材质都已输入到 Revit 中。
 
 ![](../../.gitbook/assets/4%20%2820%29.png)
 
-3 - In fact, the imported FormIt materials will now be available in this Revit project, tagged with the Class **FormIt**. Just open the **Material Browser** and search for “FormIt” and you will see them all. These can now be used in your Revit project just like any other material.
+3 - 实际上，输入的 FormIt 材质现在将在此 Revit 项目中可用，并标记为**“FormIt”**类。只需打开**“材质浏览器”**并搜索“FormIt”，您就会看到所有内容。现在，这些材质可以像任何其他材质一样在 Revit 项目中使用。
 
 ![](../../.gitbook/assets/5%20%2819%29.png)
 

@@ -1,98 +1,98 @@
-# 1.5 - Group Objects
+# 1.5 - 组对象
 
-_Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
+_FormIt 中的组的功能与 Revit 中的族和 SketchUp 中的构件类似。将不同的对象分组会阻止其几何图形连接。组的副本充当原始几何图形的实例，这意味着对一个副本的更改会影响所有副本。_
 
-_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”**中下载并打开_ _**“1.5 - Group Objects.axm”**_ _文件。_
 
-## **Create a Group**
+## **创建组**
 
-1 - Select the upper terrace mass by double-clicking it.
+1 - 通过双击上阶地体量将其选中。
 
-2 - Right-click and select **Group \(G\)**, or simply press ‘**G**’.
+2 - 单击鼠标右键并选择**“组(G)”**，或直接按**“G”**。
 
 ![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Notice that after creating a Group, you get automatically placed in the Move tool.
+3 - 请注意，创建“组”后，将自动转到“移动”工具。
 
-## **Move a Group**
+## **移动组**
 
-1 - To assist in the modeling process, turn on **Grid Snapping \(SG\)**, if it was off.
+1 - 要在建模过程中提供帮助，请启用**“栅格捕捉(SG)”**（如果已禁用）。
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - To start moving the selected object, while still in the **Move \(M\)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue \(Z\) axis line appear. This line will assist you in moving the object straight up.
+2 - 要开始移动选定对象，请在仍处于**“移动(M)”**命令中时，单击体量的任意下角一次。然后，向上移动光标，您应该会看到一条蓝色的 (Z) 轴线出现。该线将有助于笔直向上移动对象。
 
-3 - With the blue axis visible, type **4'-6"** and a dimension dialog will appear. After entering the dimension, click **OK** or press **Enter** on the keyboard. This will move the entire mass up off the ground plane along the **Z axis**.
+3 - 蓝色轴可见时，键入**“4'-6"”**，将显示尺寸对话框。输入尺寸后，单击**“确定”**或按键盘上的 **Enter** 键。这将沿**“Z 轴”**将整个体量从地平面向上移动。
 
-_**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _or_ _**4.5**, and the program will interpret the value as 4\(feet\) 6\(inches\) when using imperial units._
+_**注意：**_ _与 Revit 类似，当使用英制单位时，还可以键入_ _**“4’6”**、_ _**“4’6"”**_ _或_ _**“4.5”**，程序会将该值解释为 4（英尺）6（英寸）。_
 
 ![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Edit a Group**
+## **编辑组**
 
-1 - To enter the **Group Edit Mode**, double-click the mass.
+1 - 要进入**“组编辑模式”**，请双击体量。
 
-1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
-2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
+1. 在**“特性选项板”**中，将组重命名为**“体量 - 主建筑物”**。
+2. 要保存更改并退出**“组编辑模式”**，请单击画布左上角的**“完成组编辑”**复选标记图标，或在空白处双击关闭。
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notes**:_ 
+_**注意：**_
 
-* _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
-* _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
+* _要了解_ _**“类别”**_ _选项，请转到_ _**“使用 Revit”**_ _章。_‌
+* _每个组都有其自己的撤消/重做历史记录（这与整个项目不同），可以单击画布左上角__**“组编辑向导”**__中的__**“撤消”**__和__**“重做”**__箭头。_
 
-## **Apply Levels to a Group**
+## **将标高应用于组**
 
-_**Note:**_ _Grouping a geometry overrides previous settings you may have applied to the geometry. Because of that, you will require to re-apply the Levels from the previous exercise._
+_**注意：**_ _对几何图形分组会替换之前可能已应用于几何图形的设置。因此，将需要重新应用上一练习中的标高。_
 
-1 - To apply levels to a group:
+1 - 将标高应用于组的步骤：
 
-1. Single-click the **Massing** **- Main Building** group to select it.
-2. Go to the **Properties Palette** and check **Use Levels.**
-3. Keep only the **Main Building** level by unchecking all the others.
-4. The **Area by Level** field will display the currently selected object\(s\) gross area. The area of each **Level** is displayed in front of each **Level**’s name.
-5. If you do not see a blue level line crossing the object horizontally, turn on the level display by going to the **Settings menu &gt; Visual Style &gt; Display Levels \(DL\).**
+1. 单击**“体量** **- 主建筑物”**组以将其选中。
+2. 转到**“特性选项板”**，然后选中**“使用标高”。**
+3. 通过取消选中所有其他标高，仅保留**“主建筑物”**标高。
+4. **“按标高划分的面积”**字段将显示当前选定对象的总面积。每个**“标高”**的面积会显示在每个**“标高”**的名称前面。
+5. 如果未看到与对象水平交叉的蓝色标高线，请通过转到 **“设置”菜单 >“视觉样式”>“显示标高(DL)” 来打开标高显示。**
 
-_**Note**: If there is no area reported for the_ _**Main Building**_ _level, the geometry may not be intersecting the Level, which should be at 4’-6” height. Troubleshoot by repositioning the geometry or the_ _**Level**_ _height so they intersect._
+_**注意：**如果没有报告__**“主建筑物”**__标高的面积，则几何图形可能与标高不相交，该标高应为 4’-6" 高。通过重新定位几何图形或__**“标高”**__高度使其相交，来进行故障排除。_
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area. 
+2 - 通过按 **Esc** 键或在空间中单击关闭，来取消选择组。在未选择对象的情况下，**“特性选项板”**将报告整个草图的总面积，而不是特定对象的面积。
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Manage Groups**
+## **管理组**
 
-1 - To view and manage all groups in the sketch:
+1 - 查看和管理草图中所有组的步骤：
 
-1. Go to the **Group Tree Palette**. There you will see:
-   * **Terrain** group – group automatically created when the **satellite image was imported**.
-   * **Massing - Main Building** – the building mass geometry group we just created.
-   * **group 2** – unnamed group containing the floor plan image.
-2. To rename **group 2** through the Group Tree Palette, double-click on **group 2**, and then type **Plan Image**.
+1. 转到**“组树选项板”**。在此处，您将看到：
+   * **“地形”**组 - **输入卫星图像**时自动创建的组。
+   * **“体量 - 主建筑物”**- 我们刚刚创建的建筑体量几何图形组。
+   * **“组 2”**- 包含楼层平面图像的未命名组。
+2. 要通过“组树选项板”重命名**“组 2”**，请双击**“组 2”**，然后键入**“平面图像”**。
 
 ![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Notes:**_
+_**注意：**_
 
-* _For a tidy model, we recommend keeping the group names descriptive._
-* _This is a handy way to manage and edit all groups in the model from one place._
+* _为了使模型整洁，建议您保持组名称的描述性。_
+* _这是一种从一个位置管理和编辑模型中所有组的便捷方法。_
 
-2 - With the **Plan Image** group still selected, navigate to the **Properties Palette**. Note that the group name was also updated in the **Group** field.
+2 - 在**“平面图像”**组仍处于选中状态时，导航到**“特性选项板”**。请注意，组名称也已在**“组”**字段中更新。
 
 ![](../../.gitbook/assets/7.png)
 
-## **Hide Group Context**
+## **隐藏组上下文**
 
-_This tool is a quick way to hide all geometry outside the group you are currently editing. It becomes very handy whenever you have a large and complex model and other geometries get in the way._
+_此工具是一种用于隐藏当前正在编辑的组外所有几何图形的快捷方法。只要其他几何图形妨碍了大型复杂模型，该工具就会变得非常方便。_
 
-1 - To isolate a group:
+1 - 隔离组的步骤：
 
-1. Double-click on its geometry to edit the group.
-2. Navigate to **Settings** in the **Main Menu** and check **Hide Group Context** or simply press **H** on your keyboard. Note how the **Plan Image** disappears.
-3. Finish editing the group. Note that the **Hide Group Context \(H\)** mode is only active while inside the **Group Edit Wizard**.
-4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
+1. 双击其几何图形以编辑组。
+2. 导航到**“主菜单”**中的**“设置”**，然后选中**“隐藏组上下文”**，或直接按键盘上的 **H** 键。请注意**“平面图像”**如何消失。
+3. 完成编辑组。请注意，**“隐藏组上下文(H)”**模式仅在**“组编辑向导”**内处于活动状态。
+4. 要再次关闭此模式，只需按 **H** 键。可以随时在组内或组外切换此选项。
 
 ![](../../.gitbook/assets/8%20%285%29.png)
 

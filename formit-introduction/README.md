@@ -1,9 +1,9 @@
-# FormIt Introduction
+# FormIt 简介
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Introduction to FormIt
+## FormIt 简介
 
-Learn some of the basics about FormIt - what it can do, where you can get it, and how you can customize it.
+了解有关 FormIt 的一些基础知识 - 它可以做什么、从何处可以获得它，以及如何自定义它。
 
-If you're done with the initial setup and ready to learn how to use it, check out the [FormIt Primer](../formit-primer/).
+如果已完成初始设置并准备学习如何使用它，请查看 [FormIt Primer](../formit-primer/)。

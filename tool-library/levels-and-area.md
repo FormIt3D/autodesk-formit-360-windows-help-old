@@ -1,48 +1,48 @@
-# Levels and Area
+# 标高和面积
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+在 FormIt 中创建几何图形后，可以应用标高以指示楼板高程所在的位置，并生成面积计算。
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+请查看 [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md)，以了解标高的实际应用。
 
-## Creating and Configuring Levels
+## 创建和配置标高
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+您会在 FormIt for Windows 的右侧找到“标高”面板：
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Create and Delete Levels
+#### 创建和删除标高
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* 通过单击“+”按钮，创建新的标高。
+* 通过单击“++”按钮，创建一系列标高。
+   * 这将允许指定要创建的标高数及其之间的垂直距离。
+* 选择一个或多个标高，然后单击“-”即可将其删除。
 
-#### Rename, Set Elevations, and Renumber Levels
+#### 重命名、设置高程和重新编号标高
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync \(i.e. Level 1, Level 2, Level 5\).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* 通过双击标高名称或单击鼠标右键并选择“编辑名称”，来重命名标高。
+* 通过双击编号或单击鼠标右键并选择“编辑高程”，来调整标高的高程。
+* 单击顶部的“刷新”图标，以重新编号标高。
+   * 如果已添加或删除标高，并且默认命名方案未同步（即标高 1、标高 2、标高 5），则这一方法非常有用。
+   * 此按钮将忽略名称自定义的任何标高，但会重新编号名称遵循“标高 1”语法的任何标高。
 
-## Applying Levels
+## 应用标高
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel. 
+要将标高应用于对象，需要选择该对象，然后转到“特性”面板。
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+请注意，要将标高应用于对象，该对象必须是实体，且没有背面或无间隙问题。[了解如何检查模型是否存在无间隙和背面问题](https://formit.autodesk.com/blog/post/repairing-solid-models)。
 
-With a solid object selected in the canvas \(in this example, a simple building shell\), the Properties panel will show a "Use Levels" checkbox.
+在画布中选择实体对象（在本例中，为简单建筑外壳）后，“特性”面板将显示“使用标高”复选框。
 
-* If the FormIt sketch already has Levels defined \(see above\), then checking this box will use all Levels that would intersect this shape \(ignoring any that would be too high or too low\).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.\(12' floor-to-floor height\) to intersect the entire shape, and will automatically apply those Levels to this object.
+* 如果 FormIt 草图已定义“标高”（如上所述），则选中此框将使用与此形状相交的所有“标高”（忽略任何过高或过低的“标高”）。
+* 如果 FormIt 草图尚未包含标高，则选中此框将创建足够的默认标高。（12' 楼板之间的高度）以与整个形状相交，并自动将这些标高应用于该对象。
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## 标高 + Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit). 
+将标高应用于 FormIt 几何图形后，使用 [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) 时，这些标高将发送到 Revit。
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+在 Revit 中，可以使用 FormIt 标高创建体量楼层、面楼板和与 FormIt 标高关联的楼层平面。
 
 
 

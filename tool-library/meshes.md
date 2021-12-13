@@ -1,90 +1,90 @@
-# Meshes
+# 网格
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes. 
+从 v17.0 开始，FormIt 提供一种新型的几何图形：网格。
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance. 
+网格是标准 FormIt 对象的轻量表示，非常适用于提高高多边形几何图形（如家具）或三维环境（如人物、树木、汽车和标志）的性能。网格也非常适用于可能会影响 FormIt 性能的复杂 DWG 几何图形。
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+对象可以转换为网格，网格可以转换回对象（而不会丢失任何数据）。某些文件类型会自动输入为网格，如 OBJ、STL 和 DWG。在下面详细了解如何在类型之间转换，以及网格的其他优点和限制。
 
-### Converting Objects to Meshes
+### 将对象转换为网格
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+顶点、边、面或实体的任意组合都可以转换为网格。
 
-Simply select Objects, and either use shortcut OM \(Objects to Meshes\) or right-click and select Objects to Meshes in the Context Menu:
+只需选择“对象”，然后使用快捷键 OM（对象到网格），或者单击鼠标右键并在上下文菜单中选择“对象到网格”：
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+在将对象转换为网格后，屏幕顶部将显示一条确认消息：
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**将对象转换为网格时：**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh \(a mesh made of edges\) or a single Pointmesh \(a mesh made of points\), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* 在对象上平滑的边将在生成的网格中保持平滑。
+* 对象上的材质方向将在生成的网格中保持不变。
+* 将为应用的每种材质创建网格。例如，如果转换涂有 6 种不同颜色的单个立方体，将得到 6 种不同的网格。
+   * 转换回对象会将各个网格重新密封回实体。
+* 选择实体会转换整个实体并将其替换为网格，但选择实体所拥有的各个边或顶点将在现有几何图形的顶部创建新网格，而不会影响原始实体。
+* 转换一组边或顶点将创建单个线网格（由边组成的网格）或单个点网格（由点组成的网格），这意味着在将各个边或顶点组合为单个网格后，将无法选择它们。如果要调整单个图元的位置，请将其转换回对象。
 
-**Converting Grouped geometry to Meshes:**
+**将分组的几何图形转换为网格：**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager_icon.PNG) 
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG) 
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG) 
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* 如果可以将整个组及其所有嵌套组转换为网格，则网格将变得更强大。
+* 可以使用插件将组及其嵌套内容转换为组：
+   * 在应用程序右侧查找“插件管理器”图标：
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * 找到“划分网格 + 全部取消划分网格”插件，然后单击复选框以安装它：
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * 将加载“划分网格 + 全部取消划分网格”插件。只需选择包含要转换为网格的对象的组，然后单击“全部划分网格”。
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * 使用此插件转换嵌套对象或网格时，屏幕顶部将显示一条更新消息，告知您有多少个组和组实例受该操作影响：
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### Interacting With Meshes
+### 与网格交互
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**由于网格的轻质特性，因此网格有特定的限制和行为：**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces \(see above\).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes \(a different type of mesh known as a Linemesh\) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not. 
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* 将无法编辑网格的各个面、边或顶点。
+   * 但是，可以重新绘制网格，并移动因应用于面的不同材质而创建的各个网格（如上所述）。
+* 捕捉到网格仅限于网格的面和顶点。为了提高性能，捕捉和推断将不会用于网格的边。
+   * 但是，转换为网格（一种不同类型的网格，称为“点网格”）的 DWG 文件将能够捕捉到和推断到网格边。
+* 网格不能应用标高。
+* 网格不会报告无间隙或背面问题。将它们转换回对象，以查看它们是否是无间隙。
+   * 转换为网格之前无间隙的对象将在转换回对象之后保持无间隙。
+* 网格不能用于高级建模操作，如实体连接/剪切、三维抽壳、三维偏移、圆角、放样、扫掠或覆盖。
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+否则，网格将像任何其他 FormIt 对象一样显示和运作：放置在组中、指定给图层、在场景中可视化、用于分析等。
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**如果工具提示报告“在网格上”或“特性”面板报告网格，则您就会知道正在与网格交互：**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**某些文件类型会自动输入为网格以提高性能：**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* STL 和 OBJ 文件（可能包含密集几何图形，如来自其他应用程序的点云）将自动输入为网格。
+* DWG 文件（在高质量曲线上可能包含数百万个小边段）将自动输入为网格。
 
-### Converting Meshes Back to Objects
+### 将网格转换回对象
 
-Simply select Meshes, and either use shortcut MO \(Meshes to Objects\) or right-click and select Meshes to Objects in the Context Menu:
+只需选择网格，然后使用快捷键 MO（网格到对象），或单击鼠标右键并在上下文菜单中选择“网格到对象”：
 
 ![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+在将对象转换为网格后，屏幕顶部将显示一条确认消息：
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**将网格转换回对象时：**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges \(for example from a DWG file\) or a series of vertices \(for example from a pointcloud\) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* 转换回对象时，任何在转换为网格之前为实体/无间隙的对象都将重新连接为无间隙实体。
+* 将一系列边（例如，来自 DWG 文件）或一系列顶点（例如，来自点云）转换为网格并转换回时，会自动将未划分网格的对象放入组。
+   * 这将防止新的边或顶点与其他可能造成不利影响和影响性能的几何图形合并。
+   * 只需将生成的组解组，即可释放边和/或顶点。
 
-**Converting Grouped Meshes back to Objects:**
+**将分组网格转换回对象：**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* 请参见上述说明，以使用“划分网格 + 全部取消划分网格”插件将组及其嵌套网格重新转换回对象。
 

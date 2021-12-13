@@ -1,116 +1,121 @@
-# 3D Text
+# 三维文字
 
-## Powered by Dynamo
+## 由 Dynamo 提供支持
 
-In FormIt 2021 and newer, you can generate and modify 3D text objects, which are powered by Dynamo. Dynamo enables editing the font, size, and other properties of the text in place, without having to regenerate and reposition the text when edits are needed.
+在 FormIt 2021 及更高版本中，可以生成和修改由 Dynamo 提供支持的三维文字对象。Dynamo 支持在位编辑文字的字体、大小和其他特性，而无需在需要编辑时重新生成和重新定位文字。
 
 ![](../.gitbook/assets/3d-text.gif)
 
-## Placing 3D Text
+## 放置三维文字
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the 3D Text sample.
-* Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor.
-  * Before placing, you can hover over geometry to orient the 3D Text differently - for example, on a vertical surface to get the text to align itself vertically. You can also hit Tab to cycle between orientations.
-* Click to place the 3D Text, which will be generated inside a FormIt Group.
-* After placing, the Properties panel will show up to reveal the available options for 3D Text.
+* 转到 FormIt for Windows 中的 Dynamo 面板，确保位于“Dynamo 样例”目录中。
+* 单击“三维文字”样例。
+* 将光标移动到画布上，您会看到三维文字显示在光标上。
+   * 放置之前，可以将光标悬停在几何图形上以不同方式定向三维文字（例如，悬停在垂直曲面上使文字垂直对齐）。还可以按 Tab 键循环切换方向。
+* 单击以放置将在 FormIt 组内生成的三维文字。
+* 放置后，“特性”面板将显示，以显示三维文字的可用选项。
 
-## Iterating In Place
+## 在位迭代
 
-The beauty of using Dynamo to generate 3D Text is that editing it is easy, and keeps the text in its current position, for quick iteration.
+使用 Dynamo 生成三维文字的好处是：编辑它非常简单，并可以将文字保留在其当前位置，以便快速迭代。
 
-3D Text options are available in the Properties panel when the 3D Text Group is selected, or when editing the Group.
+选择“三维文字组”或编辑“组”时，“特性”面板中会提供“三维文字”选项。
 
-After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically switch to the Properties panel.
+最初放置三维文字后，将自动显示“特性”面板。还可以选择“组”并自行切换到“特性”，或双击“组”以自动切换到“特性”面板。
 
 ![](../.gitbook/assets/3d-text-options.png)
 
-### Text
+### 文字
 
-Enter the text you'd like the 3D Text geometry to display. This field also previews the selected font and justification. Hit Enter/Return for multiple lines.
+输入希望三维文字几何图形显示的文字。此字段还可预览选定的字体和对正。按 Enter 键/回车键可输入多行文字。
 
-### Font
+### 字体
 
-Select the font for the 3D Text. This list will display the fonts available on the machine, and selecting a new font will update the Text field.
+选择三维文字的字体。此列表将显示计算机上可用的字体，选择新字体将会更新“文字”字段。
 
-Note that some fonts have more complex geometry, and may take more time to generate using Dynamo.
+请注意，某些字体有更复杂的几何图形，使用 Dynamo 生成可能需要更多时间。
 
-### Justification
+### 对正
 
-This will move the text to align relative to the Group's Local Coordinate System origin.
+这将移动文字以相对于组的局部坐标系原点对齐。
 
-* Left will ensure the text starts at the Group's origin, and expands to the right.
-* Center will ensure the text is always centered about the Group's origin.
-* Right will ensure the text ends at the Group's origin.
+* “左侧”将确保文字从组的原点开始，并向右展开。
+* “居中”将确保文字始终以组的原点为中心。
+* “右侧”将确保文字于组的原点处结束。
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 
-### Text Size
+### 文字大小
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-The height of the text, in the current FormIt units.
+文字的高度以当前 FormIt 单位表示。
 
-### Extrusion Depth
+### 拉伸深度
 
-The amount of 3D extrusion of the text, in the current FormIt units. 3D Text is designed to be solid, so this value can't be zero, but you can get it very close to 0 so it's less obvious that it's extruded.
+文字的三维拉伸量以当前 FormIt 单位表示。三维文字设计为实体样式，因此该值不能为零；但可以让其接近为 0，以便它在拉伸时不太明显。
 
-### Tracking
+### 追踪
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tracking is useful to adjust the default spacing between letters from a particular font. Uses the current FormIt units, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer.
+跟踪对于调整特定字体中字母之间的默认间距非常有用。使用当前 FormIt 单位，可以是正值或负值。例如，在英尺中，0.25 将在每个字母之间增加 3" 的间距。相反，-0.25 将使所有字母靠近 3"。
 
-### Multi-Line Spacing
+### 多行间距
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-If you have multiple lines in the Text field, this value controls how much space is between each line of text. Uses the current FormIt units.
+如果“文字”字段中有多行，则此值控制每行文字之间的间距。使用当前 FormIt 单位。
 
-### Invert Text
+### 反转文字
 
 ![](../.gitbook/assets/3d-text-inverted.png)
 
-When True, this option will create a solid around the text, and will remove the text from it, giving the result of "inverted" text - as if the text was cut out of a material.
+如果为 True，此选项将围绕文字创建实体，并从中删除文字，从而得到“反转”文字的结果 - 就像文字从材质中剪除一样。
 
-### Inverted Text Border
+### 反转的文字边框
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. Uses the current FormIt units.
+仅当“反转文字”为“True”时才适用。指定要用于删除其中文字的实体的文字周围边框数量。使用当前 FormIt 单位。
 
-### Curve Faceting Quality
+### 曲线镶嵌面质量
 
-Curves from fonts are converted to line segments using 3D Text, so this value controls how fine the curves are faceted.
+使用三维文字将字体中的曲线转换为线段，因此该值控制曲线镶嵌面的精细程度。
 
-Lower numbers will result in more coarse faceting (longer segments) and higher numbers will result in finer faceting (shorter segments). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
+数字越小，镶嵌面越粗糙（分段较长）；数字越大，镶嵌面越精细（分段较短）。该值会替换“首选项”中 FormIt 的“曲线”和“曲面”镶嵌面设置。
 
-### Run
+### 梯段
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
+编辑选项后，单击“运行”按钮以运行基础 Dynamo 图形，并生成新结果。当参数更改后，此按钮将变为蓝色，以便让您知道需要单击“运行”才能看到最终几何图形中的更新。‌
 
-### Edit Embedded Graph
+### 编辑嵌入的图形
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. See below for more.
+单击此按钮将启动 Dynamo 图形编辑器环境，以便可以查看和编辑基础 Dynamo 图形以快速更改参数并查看实时更新，或检查/调整逻辑。这并不是必需的，但对于故障排除或更快的编辑可能很有用。有关详细信息，请参见下文。
 
-## Iterate Faster in Dynamo
+## 在 Dynamo 中更快地迭代
 
-If you're iterating on 3D Text options, it might be faster to launch the Dynamo graph editor, which will allow you to adjust parameters and see the changes in real-time. This also allows you to inspect the logic behind the graph, in case there are issues.
+如果要迭代三维文字选项，则启动 Dynamo 图形编辑器可能会更快，这样就可以调整参数并实时查看更改。这还允许您检查图形背后的逻辑，以防出现问题。
 
 ![](../.gitbook/assets/3d-text-edit-embedded.png)
 
-You can click the "Edit Embedded Graph" button in the Properties panel, to start the Dynamo graph editor.
+可以单击“特性”面板中的“编辑嵌入的图形”按钮，以启动 Dynamo 图形编辑器。
 
 ![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
 
-## Troubleshooting
+## 疑难解答
 
-3D Text uses Dynamo behind the scenes, and Dynamo uses a modeling kernel called ASM to generate its geometry, which is passed back to FormIt.
+三维文字在后台使用 Dynamo，而 Dynamo 使用称为“ASM”的建模内核生成其几何图形（该几何图形将传递回 FormIt）。
 
-Some fonts may create "self-intersecting curves", or other problematic geometry, which cause errors in ASM.
+某些字体可能会创建“自交曲线”或其他有问题的几何图形，这会导致 ASM 出现错误。
 
-If you get an error when trying to run 3D Text, or if letters disappear, it's worth clicking "Edit Embedded Graph" to see what's going wrong with the graph, and where the failure might be happening.
+如果尝试运行三维文字时出现错误，或者字母消失，则有必要单击“编辑嵌入的图形”以查看图形的问题所在以及可能发生问题的位置。
 
-Some fonts also have known issues that prevent them from being turned into proper geometry. Bahnschrift is one example of this. If you run into another font that's problematic, [let us know on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142). We'll do what we can to fix issues with specific fonts.
+某些字体还存在已知问题，导致它们无法转换为正确的几何图形。Bahnschrift 就是其中一个例子。如果遇到其他有问题的字体，请[在论坛上告知我们](https://forums.autodesk.com/t5/formit-forum/bd-p/142)。我们将尽我们所能解决特定字体的问题。
+
+
+
+
+

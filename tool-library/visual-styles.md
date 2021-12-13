@@ -1,94 +1,94 @@
-# Visual Styles
+# 视觉样式
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+自定义模型的视觉外观，包括整体照明、边样式和环境效果。单击选项板栏中的太阳镜图标，即可找到“视觉样式”面板：
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+[可以按场景](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings)设置“视觉样式”，以便可以保存您喜欢的样式设置并将其应用于其他场景。
 
-## Surfaces
+## 面
 
-Manage the way surfaces are displayed and shaded.
+管理曲面的显示和着色方式。
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**“环境光亮度”**控制场景中所有材质的总体亮度。值为 100 表示暴露在光线下的材质将以材质颜色或纹理中定义的全亮度显示。超过 100 的值会使材质过度曝光，但对于在 FormIt 中仍然看起来很暗的 SketchUp 模型可能有用。默认值为 100。
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect \(all materials will appear at their full brightness regardless of orientation\), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+**“环境光对比度”**控制与暴露在阳光直射下的面相比时，阴影中所显示面的较暗程度。值为 0 表示照明没有效果（无论方向如何，所有材质都将以其全亮度显示），而更高的值将使阴影中的面看起来越来越暗。默认值是 25。
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+切换**“阴影”**，以查看设计[在一天中的当前时间如何着色](https://windows.help.formit.autodesk.com/tool-library/shadows)。
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+**“阴影强度”**控制在地平面和其他面上绘制阴影的暗黑程度。值为 0 将使阴影完全不可见，值为 100 将使阴影变为黑色。默认值是 20。
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model. 
+**“环境光阴影”**为角点添加一点阴影，以增加 FormIt 模型的真实感。
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+**“单调曲面”**禁用所有材质的颜色和纹理，并使周围环境变为白色。对阴影或着色分析很有用。
 
-The Surface Colors section defines default colors for faces when no material is applied.
+“曲面颜色”部分定义未应用材质时面的默认颜色。
 
-**Faces** is the default color of all front-facing FormIt faces \(or both sides, if Back Faces is unchecked\) when no material is applied.
+**“面”**是未应用任何材质时所有正面 FormIt 面的默认颜色（或两侧，如果未选中“背面”）。
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+对于输入到 FormIt 并需要使用此选项的 SketchUp 模型，**“背面”**用于在单个面的任一侧显示不同的材质。此选项默认处于取消选中状态，但在打开或输入 SketchUp 模型时会处于选中状态。在非 SketchUp 几何图形中，指定的“背面”颜色将显示在面的背面。
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+使用[“剖切平面”](section-planes.md)工具时，“剖面剖切效果”和“剖面土层效果”部分用于管理面、线和土层效果的默认颜色。
 
-## Ground Planes
+## 地平面
 
-When the Ground Plane is toggled off in Group Edit Mode, the blue Work Plane grid is now toggled off, also. 
+在“组编辑模式”下禁用“地平面”时，蓝色的“工作平面”栅格现在也处于禁用状态。
 
-The color of the Work Plane can also be customized from the Visual Styles panel. 
+还可以从“视觉样式”面板自定义工作平面的颜色。
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Edges
+## 边
 
-Manage the display style of all edges in the model.
+管理模型中所有边的显示样式。
 
 ![](../.gitbook/assets/edges.PNG)
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+**“对比度”**影响所有边的可见性。值为 0 将使边完全不可见。默认值为 60。
 
-**Color** affects the color of all edges in the model. The default is black.
+**“颜色”**影响模型中所有边的颜色。默认颜色为黑色。
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+**“厚边”**使所有边变厚，包括轮廓边。
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+**“勾绘边”**向所有边添加勾绘效果，以模拟手绘效果。
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+**“隐藏边”**显示遭曲面遮挡的边。
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**“延伸边”**为某些边添加延伸，以模拟手绘效果。
 
-## Environment
+## 环境
 
-Toggle display of environmental effects and helper objects.
+切换环境效果和辅助对象的显示。
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+**“栅格”**控制显示地平面上的栅格以及编辑组时显示的栅格。禁用“栅格”时，将禁用“捕捉到栅格”选项。
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+**“轴”**控制显示世界原点处或组原点处（编辑组时）所显示的 XYZ 轴。
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) ****set in the Levels Panel.
+**“标高”**控制显示在“标高”面板所设置的[**“标高”**](levels-and-area.md)****。
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane \(if enabled\) meets the sky.
+**“雾”**控制雾的显示，绘制雾是为了使地平面和天空之间的过渡看起来无缝。禁用“雾”将导致地平面（如果启用）与天空相交处出现硬地平线。
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north \(as determined by location and satellite imagery\).
+**“北向箭头”**控制指示项目北向（由位置和卫星图像确定）的小图形控件的显示。
 
-Environmental colors like sky, background, and ground plane can also be customized.
+还可以自定义环境颜色，如天空、背景和地平面。
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors. 
+天空由**“下/背景”**、**“中”**和**“上”**颜色的渐变组成。
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+如果未选中**“天空”**选项，则仅**“下/背景”**颜色可见。
 
-## Diagnostics
+## 诊断
 
-Toggle the display of diagnostic tools. 
+切换诊断工具的显示。
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+**“无间隙问题”**以红色亮显不属于无间隙实体对象的所有边。
 
-**Back Faces** highlights in red all faces that are facing the wrong way \(all solid objects should have the back faces facing towards the inside of the solid shape\).
+**“背面”**以红色亮显朝向错误的方向的所有面（所有实体对象的背面都应朝向实体形状的内部）。
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[详细了解如何使用“无间隙”和“背面”诊断来确定和修复实体模型的问题](https://formit.autodesk.com/blog/post/repairing-solid-models)。
 

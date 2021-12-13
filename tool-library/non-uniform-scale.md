@@ -1,41 +1,41 @@
-# Non-Uniform Scale
+# 非均匀缩放
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**使用“非均匀缩放”，以在 1、2 或 3 维中拉伸对象。**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+选择边、面、实体、网格或组的任意组合，然后使用键盘快捷键**“NU”**或从“上下文菜单”选项访问“非均匀缩放”：
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.** 
+**激活后，您将看到一系列夹点，这些夹点可用于同时非均匀地缩放 1、2 或 3 轴上的对象。**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+为了清晰起见，将仅绘制面向相机的夹点。如果需要调整另一侧的夹点，请围绕对象进行动态观察。
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+单击夹点后，您将看到一系列可编辑的文本框，可以在其中按百分比或距离调整比例：
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**尺寸框显示后，可以执行以下操作：**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 开始键入数字，以自动编辑百分比框并指定比例因子。
+   * 输入负数将反转缩放方向。
+* 或者，单击以临时设置夹点位置，然后单击包含要按距离缩放的尺寸的框。
+* 在空白处单击关闭，或者点击 ESC 键以完成“非均匀缩放”操作。
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**在其中一个角边夹点处缩放将遵循相邻尺寸的纵横比：**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 开始键入数字以编辑百分比值。
+* 或者，单击以临时设置夹点位置，然后单击两个尺寸框之一以按距离缩放。
+* 在空白处单击关闭，或者点击 ESC 键以完成“非均匀缩放”操作。
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**同样，在其中一个角夹点处缩放将遵循整个形状的纵横比，并有效地均匀缩放：**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 开始键入数字以编辑百分比值。
+* 或者，单击以临时设置夹点位置，然后单击三个尺寸框之一以按距离缩放。
+* 在空白处单击关闭，或者点击 ESC 键以完成“非均匀缩放”操作。
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

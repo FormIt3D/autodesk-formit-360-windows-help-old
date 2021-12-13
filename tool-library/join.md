@@ -1,30 +1,30 @@
-# Boolean Join
+# 布尔连接
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+可以使用“连接”工具，将一个对象或组连接到另一个对象或组。有两种方法可以访问“连接”工具：
 
-## Run the Join command first
+## 先运行“连接”命令
 
-Keyboard: J G
+键盘：J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+运行“连接”命令，然后按照屏幕左上角的模式说明进行操作
 
-Single-click to select an object to join into.
+单击以选择要连接到的对象。
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+单击以选择要连接的对象或组。
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+单击复选标记以完成命令。
 
-## Select objects first
+## 先选择对象
 
-1. Double-click to select the object to be joined \(single click for a group\).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. 双击以选择要连接的对象（单击以选择组）。
+2. 按住 **CTRL** 键，双击要与第一个对象连接的重叠对象。
+3. 在任一对象上单击鼠标右键，然后在上下文菜单中选择“连接工具”。
 
 ![](../.gitbook/assets/join-tool.png)
 

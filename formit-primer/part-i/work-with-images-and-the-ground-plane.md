@@ -1,93 +1,93 @@
-# 1.2 - Project Set Up with Images and Grid
+# 1.2 - 使用图像和栅格设置项目
 
-_You can import PNG or JPG images onto the ground plane of the model by selecting File &gt; Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
+_通过从导航栏中选择“文件”>“输入”，可以将 PNG 或 JPG 图像输入到模型的地平面。但是，为了更好地控制已输入图像的比例和位置，可以创建自定义材质并将其应用于已绘制的矩形。_
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”**下载并打开_ _**“1.2 - Project Set Up with Images and Grid.axm”**_ _文件。_
 
-## **Calculate Image Size**
+## **计算图像大小**
 
-The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet \(ARCH D\) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale \(¼"=1'-0"\) and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
+所提供的**“plan.png”**是一个平面的图像，该平面打印在 24” x 26” 图纸 (ARCH D) 上（宽度为 3600 像素，高度为 2400 像素）。通过了解图形比例 (¼"=1'-0") 和图像尺寸，可以计算出 1’ = 25 像素，这意味着图像在以全比例输入到 FormIt 中时应为 144'x96'。
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import an Image to scale**
+## **输入要缩放的图像**
 
-1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
+1 - 单击**“浮动导航栏”**中的**“俯视图”**图标，以从上方查看场景。
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Choose the **Rectangle Tool \(R\)** from the 3D Sketch toolbar.
+2 - 从“三维草图”工具栏中，选择**“矩形工具(R)”**。
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
+3 - 要创建恰好为 **144’** x **96’** 的矩形，请单击工作空间中的任意位置以定义起点，然后移动鼠标以预览并定义第一个边长。开始键入尺寸值以访问一个对话框，从中可以输入精确尺寸。单击**“确定”**或按 **Enter** 键，以提交尺寸。重复该过程以设置第二条边的长度，并完成矩形。
 
-![ Enter length for rectangle&#x2019;s first side.](../../.gitbook/assets/3%20%281%29.png)
+![输入矩形第一条边的长度。](../../.gitbook/assets/3%20%281%29.png)
 
-![Enter length for rectangle&#x2019;s second side.](../../.gitbook/assets/4%20%281%29.png)
+![输入矩形第二条边的长度。](../../.gitbook/assets/4%20%281%29.png)
 
-![Finish the rectangle.](../../.gitbook/assets/5%20%281%29.png)
+![完成矩形。](../../.gitbook/assets/5%20%281%29.png)
 
-4 - To create the new “Floor Plan” material:
+4 - 创建新的“楼层平面”材质的步骤：
 
-1. Open the **Material Palette**.
-2. Click the **+** icon to create a new material.
-3. Name the new material “**Floor Plan”.**
-4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set &gt;  Supporting Files &gt; Images** folder. Then click **Open**.
-5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale \(**chain link** icon\) may be required to insert values that change the image proportions.
-6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
-7. Click **OK** to finish the material.
+1. 打开**“材质选项板”**。
+2. 单击 **+** 图标，以创建新材质。
+3. 将新材质命名为**“楼层平面”。**
+4. 在**“MAPS”**下，单击**“纹理”**预览分幅，然后浏览到**“Farnsworth 住宅数据集”>“支持文件”>“图像”**文件夹中的**“plan.png”**。然后单击**“打开”**。
+5. 在**“特性”**下，通过在**“水平比例”**字段中输入**“144'”**、在**“垂直比例”**字段中输入**“96'”**，来更改图像的比例。请注意，可能需要解锁水平和垂直比例（**链式链接**图标），才能插入更改图像比例的值。
+6. 选中**“透明度”**，并将其设置为大约一半。这将有助于将输入的楼层平面图像与卫星图像对齐。
+7. 单击**“确定”**，以完成材质。
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - To paint the rectangle:
+5 - 绘制矩形的步骤：
 
-1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
-2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
+1. 在**“材质选项板”**中，单击**“楼层平面”材质**分幅，以使用此材质进行绘制。
+2. 单击以草图方式绘制的矩形，以绘制它。按 **Esc** 键，以退出“笔刷”工具。
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face \(FF\) button.
+6 - 如果材质显示为倒置或反向，则可能需要反转面。为此，可以使用鼠标单击鼠标右键访问**“上下文菜单”**，然后选择“反转面(FF)”按钮。
 
 ![](../../.gitbook/assets/8.png)
 
-## **Align the Imported Image to the Satellite Image**
+## **将输入的图像与卫星图像对齐**
 
-1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
+1 - 要移动图像，请先双击矩形以将其选中。然后，单击并拖动该矩形并移动它，直到它与卫星图像中的建筑物重叠。稍后我们将返回以将其完全对齐，现在仅尝试让其接近。
 
 ![](../../.gitbook/assets/9.png)
 
-2 - To rotate the rectangle to align with the Satellite image:
+2 - 旋转矩形以与卫星图像对齐的步骤：
 
-1. Right-click on the rectangle to bring up the context menu. Choose **Rotate \(Q\).**
-2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
-3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+1. 在矩形上单击鼠标右键，以显示上下文菜单。选择**“旋转(Q)”。**
+2. **“旋转控件”**将显示在矩形的中间。单击一下中间的橙色夹点，以选中该控件。将控件向矩形的左下角移动。它将捕捉到角点。单击以放置它。
+3. 键入**“9”**，尺寸框将显示。单击**“确定”**将，以将矩形逆时针旋转 9 度。
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Align the Grid to the Satellite Image**
+## **将栅格与卫星图像对齐**
 
-1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes \(SZ\)**.
+1 - 现在，我们将栅格与卫星图像和楼层平面对齐。在**“地平面”**上的任意位置单击鼠标右键，然后选择**“设置轴(SZ)”**。
 
 ![](../../.gitbook/assets/12.png)
 
-2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+2 - **“设置轴”**控件将显示。将轴向矩形的左下角移动，它应捕捉到的位置。单击以放置它。
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+3 - 单击红色轴末端的夹点。将夹点向矩形的右下角移动，从而使红色轴与平面的底边对齐。在空白处单击关闭，以提交此更改。
 
 ![](../../.gitbook/assets/14.png)
 
-4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+4 - 要将视图与新栅格对齐，请单击“导航栏”中的“俯视图”图标以重置场景。
 
 ![](../../.gitbook/assets/15.png)
 
-5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+5 - 要确保两个图像中的建筑物重叠，请选择平面以再次移动它，直到它与卫星图像正确重叠。
 
 ![](../../.gitbook/assets/16.png)
 
-6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
+6 - 卫星图像、矩形和栅格现在已对齐，这将简化三维草图绘制。
 

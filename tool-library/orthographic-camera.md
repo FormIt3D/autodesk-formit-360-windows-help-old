@@ -1,18 +1,18 @@
-# Orthographic Camera
+# 正交摄影机
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+FormIt 2021 添加了新的“正交相机”功能。可以在“导航”菜单中找到“正交”和“透视”按钮：
 
-![Orthographic \(bottom\) and Perspective \(top\) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![正交（底部）和透视（顶部）相机视图按钮](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views. 
+通过这一新选项，您可以轻松地在“正交”和“透视”相机视图之间切换。 
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](../.gitbook/assets/ortho-camera.gif)
+![模型可以从“透视相机”模式切换为“正交相机”模式。](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+进入“正交”相机后，任何其他相机工具将遵循当前模式。例如，**“将相机与面对齐”**会将正交相机与面对齐，从而生成正交立面视图。
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position,  making it easier to access those pre-set views.
+如果手动导航到预设的“正交视图”（如“俯视图”或“前视图”），则“正交相机”将捕捉到该位置，从而更轻松地访问这些预设视图。
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again. 
+**注意：**如果相机剪裁发生在“正交相机”模式下，则可以切换回“透视”模式、缩小，然后重试。
 

@@ -1,31 +1,31 @@
-# Faces: Tilt and Facet/Smooth
+# 面：倾斜和镶嵌/平滑
 
-## Working with Faces: Tilt and Facet/Smooth
+## 使用面：倾斜和镶嵌/平滑
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+要在草绘形状或放置基本体后创建更复杂的设计，可以使用多个上下文工具修改几何图形。这些操作包括“倾斜”、“阵列”、“复制”和“粘贴”。
 
-### Tilt Face
+### 倾斜面
 
-To **tilt a face:**
+**倾斜面**的步骤：
 
-1. Select a face and right-click to see the context menu. 
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line. 
-4. Click a third point to start the tilt operation.
+1. 选择面并单击鼠标右键，以查看上下文菜单。
+2. 从上下文菜单中，选择**“倾斜”**图标。
+3. 通过绘制线，定义倾斜轴。
+4. 单击第三个点，以开始倾斜操作。
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### 镶嵌/平滑面
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:** 
+如果将光标悬停在面上并注意到虚线，这意味着该面因变形而由较小的面组成。**将虚线转换为模型边**的步骤：
 
-1. Select the face or object that you want to change and right-click to see the context menu. 
-2. From the context menu, choose the **Facet Smooth Faces** tool. 
-3. Edges are automatically added where the face was previously smooth. 
+1. 选择要修改的面或对象，然后单击鼠标右键以查看上下文菜单。
+2. 从上下文菜单中，选择**“镶嵌平滑面”**工具。
+3. 边将自动添加到面先前平滑的位置。
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+此命令以相反的方式工作，同样：可以选择已镶嵌的面，然后从上下文菜单中选择**“镶嵌平滑面”**工具，以隐藏边并使面看起来平滑。
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

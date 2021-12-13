@@ -1,108 +1,108 @@
-# Advanced Modeling
+# 高级建模
 
-In our Farnsworth House exercises we've focused on basic modeling tools like Sketching, Drag Face, Move, Array, and Offset Face. We've also covered the essential workflows involving Groups, Layers, Materials and Levels. In this section we'll introduce you to the Advanced Modeling tools **Sweep** and **Fillet**
+在 Farnsworth 住宅练习中，我们重点介绍了基本建模工具，如草图绘制、拖动面、移动、阵列和偏移面。我们还介绍了涉及组、图层、材质和标高的基本工作流。在本部分中，我们将向您介绍高级建模工具**“扫掠”**和**“圆角”**
 
-If you did not complete the last section, download and open the **farnsworth05.axm** file from the [FormIt Primer folder](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+如果您未完成最后一部分，请从 [FormIt Primer 文件夹](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)下载并打开**“farnsworth05.axm”**文件。
 
-## Sweep
+## 扫掠
 
-Use the Sweep tool to create a cornice along the roof.
+使用“扫掠”工具沿屋顶创建檐口。
 
-1. With the **Rectangle \(R\)** tool, create a **6" high by 4 5/8"** profile at any corner of the roof.
+1. 使用**“矩形(R)”**工具，在屋顶的任意角点处创建**“6" 高 x 4 5/8"”**的轮廓。
 
    ![](../../.gitbook/assets/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
 
-2. Create another **Rectangle \(R\)** profile that is **2" x 2".**
+2. 创建另一个**“矩形(R)”**轮廓，其尺寸为**“2" x 2"”。**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
 
-3. **Single click** to select the line between the profiles. Use the **Delete** key to remove the line - this creates a single outline.
+3. **单击**以选择轮廓之间的线。使用 **Delete** 键删除线 - 这将创建单个轮廓。
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
-4. Select the [**Sweep tool \(SW\)**](../../tool-library/cover-sweep-loft.md) from the [**Advanced Modeling menu**](../../formit-introduction/tool-bars.md)**.**
+4. 在 [**“高级建模”菜单**](../../formit-introduction/tool-bars.md)中，选择 [**“扫掠工具(SW)”**](../../tool-library/cover-sweep-loft.md) **。**
 
    ![](../../.gitbook/assets/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
-5. The **Advanced Geometry** toolbar appears in the upper left corner of the canvas with helper text instructions.
+5. **“高级几何图形”**工具栏将显示在画布的左上角，其中包含辅助文字说明。
 
    ![](../../.gitbook/assets/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **Single-click** to select the face you just drew. This will be the **profile** you want to sweep.
+6. **单击**以选择刚刚绘制的面。这将是要扫掠的**轮廓**。
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_3.png)
 
-7. The **Advanced Geometry** toolbar changes once you select a face. Now it is prompts you to select a **path** for the sweep.
+7. 选择一个面后，**“高级几何图形”**工具栏将发生变化。现在，系统提示您为扫掠选择**“路径”**。
 
    ![](../../.gitbook/assets/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-8. **Single-click** to select the **top face of the roof**. The tool infers the edges of the face as the path. The sweep is created after picking the roof.
+8. **单击**以选择**“屋顶的顶面”**。该工具会将面的边缘推断为路径。拾取屋顶后，将创建扫掠。
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
-9. Double click to select the entire cornice element. **Group \(G\)** the cornice. Edit the group and name it **cornice.**
+9. 双击以选择整个檐口图元。对檐口**“分组(G)”**。编辑组，并将其命名为**“檐口”。**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
-10. Paint the cornice group with the material **Concrete &gt; White** to match the roof. Add the **cornice group** to the **roof** layer.
+10. 使用材质**“混凝土 > 白色”**绘制檐口组以匹配屋顶。将**“檐口组”**添加到**“屋顶”**图层。
 
-You need to adjust the **height of the columns** to end in the cornice. Edit one of the tall column groups, select the top face, and bring it down to the correct height. You may also need to adjust the location of the columns so they are flush to the slabs. Now is a good time to make these minor adjustments
+需要调整**柱的高度**，以在檐口处结束。编辑一个高柱组、选择顶面，然后将其下调到正确的高度。可能还需要调整柱的位置，以使其与楼板齐平。现在正是进行这些微调的好时机
 
-## Fillet
+## 圆角
 
-Now you'll learn the Fillet tool to create a rounded edge to give a softer look to a piece of furniture
+现在，您将学习使用“圆角”工具来创建圆边，从而使家具看起来更柔和
 
-1. Turn **off** the **roof** layer so you can see inside the house.
-2. Create a **4' x 7'** **Rectangle \(R\)** in the North East corner of the house. Select the face and extrude it **1'-6" high.**
+1. **关闭** **“屋顶”** 图层，以便可以看到住宅内部。
+2. 在住宅的东北角，创建 **4' x 7'** **“矩形(R)”**。选择面，然后将其拉伸 **1'-6" 高。**
 
    ![](../../.gitbook/assets/upperterracesketch_20.png)
 
-3. Select the [**Fillet tool \(FI\)**](../../tool-library/cover-sweep-loft.md) from the **Advanced Modeling tools** in the [**Action Tool Bar**](../../formit-introduction/tool-bars.md)**.**
+3. 从 [**“操作工具栏”**](../../formit-introduction/tool-bars.md)的 **“高级建模工具”** 中，选择 [**“圆角工具(FI)” **](../../tool-library/cover-sweep-loft.md)**。**
 
    ![](../../.gitbook/assets/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-4. Change the default **fillet** value to 1" in the dialog that appears.
-5. **Single-click** the top face of the bed. The fillet is created automatically after selecting the face.
+4. 在显示的对话框中，将默认的**“圆角”**值更改为 1"。
+5. **单击**床的顶面。选择面后，将自动创建圆角。
 
    ![](../../.gitbook/assets/upperterracesketch_21.png)
 
-## Groups Tree
+## 组树
 
-Instead of editing the group to name and categorize it, let's use the **Groups Tree** which allows you to quickly conduct multiple model management tasks.
+我们不是通过编辑组来命名和分类组，而是使用**“组树”**，它允许您快速执行多个模型管理任务。
 
-1. **Double-click** to select the entire bed. Add the bed to **Group \(G\).**
-2. Click the **Groups Tree** icon from the palettes on the right.
+1. **双击**以选择整个床。将床添加到**“组(G)”。**
+2. 单击右侧选项板中的**“组树”**图标。
 
    ![](../../.gitbook/assets/groupstree.png)
 
-3. If you select the bed group in the canvas, it will highlight in the **Groups Tree** list \(the opposite is also true, if you select a group in the list, it will highlight in the canvas\).
-4. You can **double-click** the name in the list and change it to **Bed** - all instances of the group will update - in our case there is only one.
-5. While the **Bed group** is selected in the list, you can set the category to **Furniture** from the drop-down list at the top of the Groups Tree palette.
+3. 如果在画布中选择床组，它将在**“组树”**列表中亮显（反之亦然，如果在列表中选择组，它将在画布中亮显）。
+4. 可以**双击**列表中的名称，并将其更改为**“床”**（该组的所有实例都将更新）；在本例中，仅有一个实例。
+5. 在列表中选择**“床组”**后，可以从“组树”选项板顶部的下拉列表中将类别设置为**“家具”**。
 
    ![](../../.gitbook/assets/groupstree_palette.png)
 
-## Merge Edges, Smooth Edges, and Selection Filtering
+## 合并边、平滑边和选择过滤
 
-We'll now hide unwanted edges on our furniture, to give it a smoother, softer look.
+现在，我们将隐藏家具上不需要的边，以使其看起来更平滑、更柔和。
 
-1. **Double-click** to edit the group. Select the entire bed with a **double-click**. **Right-click** and choose **Merge \(MG\)** from the context menu.
+1. **双击**以编辑组。通过**双击**选择整个床。**单击鼠标右键**，并从关联菜单中选择**“合并(MG)”**。
 
    ![](../../.gitbook/assets/upperterracesketch_215.png)
 
-2. Use the **Selection Filter** to constrain a window selection to only pick-up **Edges.**
+2. 使用**“选择过滤器”**，将窗口选择约束为仅拾取**“边”。**
 
    ![](../../.gitbook/assets/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-3. **Drag the mouse** from the upper left to the lower right corner to perform a **window selection**. Window select the arc and edge at each corner of the bed. Hold down **Ctrl** or **Shift** to add to the selection set.
-4. **Right click** and choose **Smooth Edges \(SE\)**
+3. 从左上角向右下角**拖动鼠标**，以执行**窗选**。窗选床的每个角点处的圆弧和边。按住 **Ctrl** 或 **Shift** 键以添加到选择集。
+4. **单击鼠标右键**，并选择**“平滑边(SE)”**
 
    ![](../../.gitbook/assets/upperterracesketch_216.png)
 
-5. To make these edges visible again, **single-click** to select the top face of the bed, **right-click** and choose **Facet Smooth Edges** \(UE\).
+5. 要再次显示这些边，请**单击**以选择床的顶面，**单击鼠标右键**并选择**“镶嵌面平滑边(UE)”**。
 
    ![](../../.gitbook/assets/upperterracesketch_217.png)
 
-6. Change your **Selection Filter** back to include Faces and Groups again. Turn the **roof** layer back on. Your Farnsworth house model is coming along nicely!
+6. 重新更改**“选择过滤器”**，以再次包括面和组。重新打开**“屋顶”**图层。您的 Farnsworth 住宅模型进展顺利！
 
    ![](../../.gitbook/assets/upperterracesketch_22.png)
 

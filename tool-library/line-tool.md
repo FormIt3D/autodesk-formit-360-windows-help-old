@@ -1,20 +1,20 @@
-# Lines
+# 直线
 
-Use lines to divide faces and construct geometry.
+使用线分割面，并构造几何图形。
 
-Keyboard: L
+键盘：L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+可以在 X、Y 或 Z 轴上绘制线，也可以在现有几何图形上绘制线。捕捉到轴时，一条彩色线将延伸到正在绘制的线之外，以便指示正在哪个轴上绘制。可以在绘制时看到线的长度，并且可以通过按 **Tab** 键并输入值来手动输入特定长度。
 
-Line colors by axis:
+按轴定义线颜色：
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value. 
+要指定长度，只需键入尺寸值，然后“编辑尺寸”对话框将显示。单击“确定”或按 Enter 键接受该值。
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = 红色
+* Y = 绿色
+* Z = 蓝色
 
 ![](../.gitbook/assets/lines.png)
 

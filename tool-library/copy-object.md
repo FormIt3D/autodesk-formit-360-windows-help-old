@@ -1,29 +1,29 @@
-# Copy Object
+# “复制对象”
 
-There are three ways to copy an object.
+有三种方法可以复制对象。
 
-**Copy Using the Context Menu**
+**使用上下文菜单复制**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. 通过双击选择对象。
+2. 在对象上单击鼠标右键。
+3. 在“上下文菜单”中，选择[**“复制工具”**](tilt-array-copy-and-paste.md)。
+4. 在场景中的其他任意位置单击鼠标右键，并选择**“粘贴”按钮**。
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place \(**CTRL+Shift+V**\) to paste an object exactly where it was copied from.
+注意：这也可使用**“CTRL + C”**或**“V”**。使用“原地粘贴”(**CTRL+Shift+V**)，将对象精确粘贴到复制该对象的位置。
 
-**Copy Using the CTRL Key**
+**使用 CTRL 键复制**
 
-1. Select the object by clicking it \(double-click to select a whole body or everything attached\).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled. 
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu \(press and hold\) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. 通过单击选择对象（双击以选择整个实体或所有附着的对象）。
+2. 按住 **CTRL 键**并开始拖动对象，或者开始移动对象，然后点击 **CTRL 键**
+3. 现在，将要移动的是对象副本，而不是移动对象。
+4. 请注意，当“触摸模式”处于启用状态时，“Ctrl-复制”当前不起作用。
+   1. 在“触摸模式”下，需要使用“上下文菜单”（按住）中的复制/粘贴工具，或者使用“Ctrl+C”和“Ctrl+V”，然后向下放置对象，并根据需要将其重新定位。
 
-**Copy Using the Array Tool**
+**使用阵列工具复制**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](../.gitbook/assets/array_properties.png)
+1. 通过双击选择对象
+2. 在对象上**单击鼠标右键**并选择[**“阵列”工具**](tilt-array-copy-and-paste.md)
+3. 选择要创建的副本数
+4. 选择下次拖动将定义两个对象之间的距离，还是定义阵列的总长度。
+5. 单击**“确定”。**  ![](../.gitbook/assets/array_properties.png)
 

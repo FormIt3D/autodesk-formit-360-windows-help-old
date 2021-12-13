@@ -1,18 +1,18 @@
-# Undo Manager
+# 撤消管理器
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt 具有独特的“撤消/重做”系统，可以通过两种不同的方式使用它来按组撤消，或者按时间顺序和全局撤消：
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-* Undo/Redo from the Main Sketch \(not while editing a Group\) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* 编辑嵌套组时撤消/重做只会影响该组内所做的更改
+   * 这意味着可以在此组中进行更改、在其他组中进行许多更改，然后返回原始组并可以选择撤消在此组中所做的上次更改，而不会影响最近在其他位置所做的更改
+* “主草图”中的“撤消/重做”（不在编辑组时）与传统的“撤消/重做”系统类似：将根据时间顺序撤消在**任何**组中上次所做的更改。
 
- The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+“撤消管理器”会记录 FormIt 模型中每个组内的每次更改，包括在“主草图”中所做的更改。这对于直观了解模型中任何组中已撤消的操作非常有用。
 
 ![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+“撤消管理器”将以**粗体**指示当前状态、此状态之前的任何操作，以及曾经存在但已撤消的任何操作。
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+可以在状态上单击鼠标右键并选择“滚动到”，以根据需要有效地撤消或重做，从而返回到该模型状态。
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+已明确删除的组或者由于“撤消”或“重做”而不再存在的组将显示为“不活动”。这些组可以通过在其父组内撤消或重做来恢复，直到它们重新存在。
 

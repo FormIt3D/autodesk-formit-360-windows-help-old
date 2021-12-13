@@ -1,12 +1,12 @@
-# Groups Tree
+# 组树
 
-The **Groups Tree** palette provides a single place to manage all of the groups in the file. The tree view displays nested groups and the Status column shows which group is currently being edited and whether the group is from Dynamo or Revit.
+**“组树”**选项板提供一个位置来管理文件中的所有组。树状图会显示嵌套组，而“状态”列会显示当前正在编辑的组，以及组是来自 Dynamo 还是 Revit。
 
-* **Select**: Each instance is listed individually. Select an instance in the tree and the instance\(s\) are selected in the 3D scene.
-* **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
-* **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: To delete a group, use the \(**-**\) icon at the top of the palette or right-click and choose Delete.
-* **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
+* **选择**：每个实例都将单独列出。在树中选择一个实例，然后在三维场景中选择实例。
+* **编辑**：要编辑组，请使用选项板顶部的笔图标，或单击鼠标右键并选择“编辑”。
+* **重命名**：要重命名组，请双击名称，或单击鼠标右键并选择“重命名”。
+* **删除**：要删除组，请使用选项板顶部的 (**-**) 图标，或单击鼠标右键并选择“删除”。
+* **更改类别**：要更改组的类别，请选择组，然后使用选项板顶部的“类别”下拉列表。
 
 ![](../.gitbook/assets/groups.png)
 

@@ -1,12 +1,12 @@
-# Working with Data Formats
+# 使用数据格式
 
-Import a variety of image file formats and 3D file formats to add detail to your sketch.
+输入各种图像文件格式和三维文件格式，以为草图添加细节。
 
-The following file formats can be imported:
+可以输入以下文件格式：
 
-* Windows:  OBJ, DWG, STL, SAT, SKP 
-* Web: OBJ, STL
-* iOS: OBJ, STL, SAT
+* Windows：OBJ、DWG、STL、SAT、SKP
+* Web：OBJ、STL
+* iOS：OBJ、STL、SAT
 
-See [Importing Models](../formit-primer/part-i/import-export-and-content-library.md) for more on importing data and working with the Content Library.
+有关输入数据和使用“内容库”的详细信息，请参见[输入模型](../formit-primer/part-i/import-export-and-content-library.md)。
 

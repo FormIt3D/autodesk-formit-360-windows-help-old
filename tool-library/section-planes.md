@@ -1,6 +1,6 @@
-# Section Planes
+# 剖切平面
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+使用**“剖面平面”**剖切 FormIt 模型，显示内部空间和结构图元。
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section_planes.md).
+在 [FormIt Primer](../formit-primer/part-i/section_planes.md) 中，了解“剖面平面”。
 

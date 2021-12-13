@@ -1,28 +1,28 @@
-# Sun + Shadows
+# 太阳 + 阴影
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+使用**“日光 + 阴影”**工具分析日光路径对项目的影响。
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md). 
+精确阴影分析的第一步是[**设置项目位置**](setting-location.md)。
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+设置位置并（可选）输入卫星图像后，对项目进行建模，包括建筑环境和着色图元（如如百叶窗和树木）。
 
-### The Sun + Shadows Menu
+### “日光 + 阴影”菜单
 
-Turn shadows on in the Sun + Shadows menu at the top of the application \(you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)\):
+在应用程序顶部的“日光 + 阴影”菜单中启用阴影（还可以在[**“视觉样式”**](../formit-introduction/tool-bars.md)中启用阴影并调整阴影强度）：
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+在此处，可以调整一天中的时刻和一年中的第几天。默认年份显示为 2000 年 - 不用担心，这不会影响日光阴影分析的准确性。
 
-### The Sun Editor
+### 日光编辑器
 
-You can also toggle the Sun Editor from the Sun + Shadows menu \(or use shortcut DR\), which provides a graphical display of the sun's location in space:
+还可以从“日光 + 阴影”菜单（或使用快捷键“DR”）切换“日光编辑器”，它将以图形方式显示日光在空间中的位置：
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* “日光编辑器”将随相机移动，因此可能需要调整缩放级别和/或相机方向，以便将控件放置在对于您正在分析的设计有意义的位置。
+* 抓取圆形夹点以沿其路径移动日光，并有效调整一天中的时刻。
+* 从“日光 + 阴影”菜单，调整一年中的时刻。这样做将基于一年中的时刻调整图形日光路径的角度和方向。
 
 
 

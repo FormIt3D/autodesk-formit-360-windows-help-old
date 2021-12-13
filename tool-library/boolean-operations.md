@@ -1,13 +1,13 @@
-### Boolean Operations
-Use Join and Cut operations to alter objects.
+### 布尔运算
+使用“连接”和“切割”操作来改变对象。
 
-#### Join
-To perform a union, select all the objects you want to boolean. Then, select the **Join Tool** from the Context Menu. The intersecting/overlapping portion of the geometry will be united into one object. 
+#### 连接
+要执行合并，请选择要进行布尔运算的所有对象。然后，从上下文菜单中选择**“连接工具”**。几何图形的相交/重叠部分将合并为一个对象。
 
 ![](images/join tool.png)
 
-#### Cut 
-To subtract volumes from existing geometry, first select the original object. Next select the object you want to subtract from it. Then select the **Cut Tool** from the Context Menu. The intersected volume will be subtracted from the original object.
+#### 剪切
+要从现有几何图形中减去体积，请先选择原始对象。接下来，选择要从中减去的对象。然后，从上下文菜单中选择**“切割工具”**。相交的体积将从原始对象中减去。
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

@@ -1,13 +1,13 @@
-# Mirror
+# 镜像
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+使用“镜像”工具创建对象的镜像副本。
 
-To mirror an object: 
+要镜像对象，请执行以下操作：
 
-1. Double-click to select a single object, or single-click to select a group. 
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**. 
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. 双击以选择单个对象，或单击以选择组。
+2. 单击鼠标右键并从上下文菜单中选择“镜像”工具，或者键入键盘快捷键**“MI”**。
+3. 平面将显示，并显现对象将镜像到的轴。可以移动或旋转平面，以自定义镜像的轴。
+4. 调整完镜像对象的平面后，单击选择范围之外的任意位置。
 
 ![](../.gitbook/assets/mirror.png)
 

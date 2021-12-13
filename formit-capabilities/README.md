@@ -1,9 +1,9 @@
-# FormIt Capabilities
+# FormIt 功能
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt Capabilities
+## FormIt 功能
 
-Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
+使用功能强大的内置实体建模系统、令人难以置信的可视化选项和原生 Dynamo 集成创建概念建筑设计，同时启动 BIM 工作流。
 
-Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
+使用 Autodesk® FormIt®，以在灵感闪现时捕获建筑设计概念。利用精确而简单的实体建模、在组和图层中组织您的想法并获取真实场地信息（如卫星图像），以使用阴影、日光分析和能量分析正确定向和分析设计。从初步设计转到集中化数据存储，以便在 Autodesk® Revit® 软件或其他软件中访问和优化。

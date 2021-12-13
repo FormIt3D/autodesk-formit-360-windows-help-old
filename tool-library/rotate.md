@@ -1,13 +1,13 @@
-# Rotate Object
+# 旋转对象
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+可以使用上下文菜单中的“旋转”工具更改对象的方向。
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool. 
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle. 
+1. 选择要旋转的图元，然后单击鼠标右键以启动上下文菜单。
+2. 从上下文菜单中，选择“旋转”工具。
+3. 当量角器图形显示在鼠标光标上时，单击以设置旋转平面。
+4. 使用蓝色夹点指定旋转的起点，并重置轴（如有必要）。使用箭头或可编辑的尺寸框，设置旋转角度。
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+请注意，还可以在选择图元后，使用**“Q”**键盘快捷键访问“旋转”工具。
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

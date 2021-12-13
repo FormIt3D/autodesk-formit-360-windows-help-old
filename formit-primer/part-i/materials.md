@@ -1,138 +1,138 @@
-# 1.7 - Paint with Materials
+# 1.7 - 使用材质绘制
 
-As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
+正如我们在**先前的练习**中所看到的那样，可以创建自己的材质，然后在 FormIt 中使用这些材质绘制面。在本练习中，将创建和编辑更多材质，以及从“Autodesk 材质库”输入材质。
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”**下载并打开_ _**“1.7 - Paint with Materials.axm”**_ _文件。。_
 
-## **Create the Glass Walls**
+## **创建玻璃墙**
 
-1 - To view the plan containing the dimensions we are going to reference, go to the **Layer Palette** and turn on the **Plan Image** layer.
+1 - 要查看包含要参照的尺寸的平面，请转到**“图层选项板”**，然后打开**“平面图像”**图层。
 
-2 - Select the **Rectangle Tool \(R\)**. We are going to create a rectangle directly on top of the existing floor group. Make sure you are not editing the Floor Group but drawing on top of the existing grouped object.
+2 - 选择**“矩形工具(R)”**。我们将直接在现有楼层组的顶部创建一个矩形。确保不编辑楼层组，而是在现有分组对象的顶部进行绘制。
 
 ![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - To start the rectangle for the glass area:
+3 - 开始绘制玻璃区域的矩形的步骤：
 
-1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
-2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
-3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4.  Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+1. 单击现有楼层的后角，并沿其较短的边移动鼠标。
+2. 键入**“28’-8””**以定义第一条边长，然后单击**“确定”**。该长度应与楼层的现有短边长度相同。
+3. 要定义第二条边，请开始沿现有楼层的较长边移动鼠标。键入**“55'-5 ½"”**以设置第二条边长度，然后单击**“确定”**。
+4. 单击 **Esc** 键以退出矩形工具。在新矩形内单击以选择面，然后开始向上拖动。
 
 ![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - To define the height, move the mouse upwards along the **Z Axis**, press the **Tab** key, and enter **11'-2"**.
+4 - 要定义高度，请沿 **Z 轴**向上移动鼠标、按 **Tab** 键，然后输入**“11'-2"”**。
 
 ![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Note:**_ _Anytime you are using a tool for which you can enter a dimension, you can either press_ _**Tab**_ _or just start typing numbers!_
+_**注意：**_ _无论何时使用可输入尺寸的工具时，都可以按_ _**Tab**_ _键或直接开始键入数字！_
 
-5 - Double-click and **Group \(G\)** the new geometry.
+5 - 双击新几何图形并对其**“分组(G)”**。
 
-6 - Double-click the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+6 - 双击该组以对其进行编辑。在**“特性选项板”**中，将组命名为**“玻璃墙”。**
 
 ![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - To define the glass wall’s thickness:
+7 - 定义玻璃壁厚度的步骤：
 
-1. Right-click on the top face and choose the **Offset Face Tool \(OF\).**
-2. Move your mouse cursor inward, and type in **4".**
-3. Click **Esc** twice to clear the tool, and the selection.
+1. 在顶面上单击鼠标右键，并选择**“偏移面工具(OF)”。**
+2. 向内移动鼠标光标，然后键入**“4"”。**
+3. 单击 **Esc** 键两次，以清除该工具和选择对象。
 
 ![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet \(4’\)**_ _and not_ _**4 inches \(4”\)**._
+_**注​意：**_ _英制项目的默认单位为英尺，与 Revit 类似。如果输入一个不带指定单位的数字，如_ _**“4”**，将获得_ _**4 英尺 (4’)**_ _，而不是_ _**4 英寸 (4”)**。_
 
-8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
+8 - 要雕刻内部区域，请单击内部顶面以将其选中，然后再次单击以开始**“拖动面”**操作。将面一直向下推，直到它消失，然后在空间中单击以完成该过程。
 
 ![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
+_**注意：**_ _与其他软件不同，在 FormIt 中，无法随意推动要尝试删除的面“过远”（从而形成新的负拉伸）。_
 
-9 - End **Edit Group** mode by double-clicking off in space or pressing **Esc.**
+9 - 通过在空间中双击关闭或按 **Esc 键，来结束**“编辑组”**模式。**
 
-10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
+10 - 单击一下即可选择**“玻璃墙”**组，然后将其放置在**“主建筑物楼层”**图层上。
 
 ![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Import a Material from the Autodesk Material Library**
+## **从 Autodesk 材质库输入材质**
 
-1 - Edit the **Glass Walls** group again by double-clicking into it.
+1 - 双击**“玻璃墙”**组，以再次编辑该组。
 
-2 - To import a new material to the model:
+2 - 将新材质输入到模型的步骤：
 
-1. Go to the **Materials Palette**.
-2. Choose **Material Sample** in the drop-down menu at the top of the palette to navigate through the **Autodesk Material Library.** ​
-3. Click on the **Glass+Glazing** folder to open it.
-4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
-5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
+1. 转到**“材质选项板”**。
+2. 在选项板顶部的下拉菜单中选择**“材质样例”**，以浏览**“Autodesk 材质库”。** ​
+3. 单击**“玻璃+玻璃制品”**文件夹以将其打开。
+4. 找到**“玻璃 - 蓝色染色”**材质，然后单击它以将该材质添加到**“在草图中”**材质库。
+5. 请注意，应该返回**“在草图中”**库，该库现在包含新选择的材质。
 
 ![](../../.gitbook/assets/7%20%288%29.png)
 
 ![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](../../.gitbook/assets/9%20%281%29.png)​
+3 - 添加材质后，应会自动位于**“画笔”**工具中。如果不是，只需再次单击**“玻璃 - 蓝色染色”**材质。要绘制所有墙，请使用**“画笔”**工具双击几何图形。这会将选定材质应用于整个对象。![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Click **Esc** to exit the **Paintbrush** tool. Click **Esc** again, or double-click off in space to exit the group.
+4 - 单击 **Esc** 键，以退出**“画笔”**工具。再次单击 **Esc** 键或在空白处双击关闭，以退出组。
 
-## **Quick Copy the Floor to Create the Roof**
+## **快速复制楼板以创建屋顶**
 
-1 - To quickly create the roof based on the floor geometry:
+1 - 基于楼板几何图形快速创建屋顶的步骤：
 
-1. Select the **Floor** group with a single-click.
-2. Click one of the lower corners to start the **Move** tool.
-3. Start moving the floor up along the blue axis \(**Z Axis**\). Create a **quick copy** by tapping the **Ctrl** key. A "ghost" preview of the copy should appear. ​
-4. While moving along the blue axis \(**Z Axis**\), start typing **12' 2"** and a **Dimension Dialog** will appear. Click **OK** or press **Enter** to finalize the position.
+1. 单击一次即可选择**“楼板”**组。
+2. 单击下角之一，以启动**“移动”**工具。
+3. 开始沿蓝色轴（即 **Z 轴**）向上移动楼板。通过点击 **Ctrl** 键，以创建**“快速复制”**。应显示副本的“重影”预览。
+4. 沿蓝色轴（即 **Z 轴**）移动时，首先键入**“12' 2"”**，将显示**“尺寸对话框”**。单击**“确定”**或按 **Enter** 键，以完成定位。
 
 ![](../../.gitbook/assets/10%20%281%29.png)
 
 ![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edit the Roof**
+## **编辑屋顶**
 
-1 - While the copied group is still selected, use the **Make Unique \(MU\)** command to disassociate this group from the floor group.
+1 - 当复制的组仍处于选中状态时，使用**“使唯一(MU)”**命令将此组与楼板组取消关联。
 
-2 - Double-click the group to edit it. Re-name the group to **Roof** in the **Properties Palette**. Exit the group by double-clicking off in space.
+2 - 双击该组以对其进行编辑。在**“特性选项板”**中，将组重命名为**“屋顶”**。通过在空间中双击关闭，以退出组。
 
-3 - In the **Layers Palette**, make a new **Layer** called **Roof** and add the **Roof** group to it. You can toggle the layer on and off to verify the correct elements are on the roof. Refer to **Chapter 6** for more information on how to work with **Layers**.
+3 - 在**“图层选项板”**中，创建一个名为**“屋顶”**的新**图层**，并向其中添加**“屋顶”**组。可以打开/关闭图层，以验证屋顶上的图元是否正确。有关如何使用**图层**的详细信息，请参见**第 6 章**。
 
-4 - Navigate back to the **Materials Palette** and import the **Concrete - Broom Finish - Colorized 1** material from the **Concrete+Asphalt** folder in the **Material Samples** **\(Production\)** library. Note that by clicking on the material, the selected geometry will be automatically painted, and the new material will be added to the **In Sketch** material library.
+4 - 导航回 **“材质选项板”**，然后从 **“材质样例”** **（生产）** 库的 **“混凝土+沥青”** 文件夹中导入 **“混凝土 - 扫面 — 着色 1”** 材质。请注意，单击该材质后，将自动绘制选定的几何图形，并且新材质将添加到**“在草图中”**材质库。
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Note:**_ _Painting a group outside of_ _**Group Edit Mode**_ _is a helpful technique that allows you to paint different instances of the same group with different materials._
+_**注意：**_ _在_ _**“组编辑模式”**_ _之外绘制组是一种非常有用的方法，允许使用不同材质绘制同一组的不同实例。_
 
-## **Create the Lower Terrace**
+## **创建下阶地**
 
-1 - Based on the **Plan Image**, create the lower terrace as a **Rectangle \(R\)** that is **55' 3"** long and **22'-7 3/4"** wide, and extrude it by 1’. Position the new rectangle so that it is 8 5/8” away from the main building South edge \(the depth of the columns we will create later\).
+1 - 基于**“平面图像”**，将下阶地创建为**“矩形(R)”**（即长度为 **55' 3"**，宽度为 **22'-7 3/4"**），然后将其拉伸 1’。定位新矩形，使其距主建筑物南边的距离为 8 5/8”（稍后我们将创建的柱的深度）。
 
-_**Notes**:_
+_**注意：**_
 
-* _Refer to previous chapters to learn how to draw and extrude rectangles._
-* _You may need to toggle_ _**Snap to Grid \(SG\)**_ _on or off to click at_ the terrace's corner.
+* _请参见前面几章，以了解如何绘制和拉伸矩形。_
+* _可能需要启用/禁用__**“捕捉到栅格(SG)”**__，以单击_阶地的角点。
 
-2 - To finalize the lower terrace:
+2 - 完成下阶地的步骤：
 
-1. **Group \(G\)** the geometry and name it **Lower Terrace Floor**.
-2. **Move** the group up **2'-2"** off the ground plane.
-3. Create a new **Layer** called **Lower Terrace** and add the group to it.
-4. Add the **Terrace Level Floor** to the group.
+1. 将几何图形**“分组(G)”**，并将其命名为**“下阶地楼层”**。
+2. 将该组向上**移动** **2'-2"**，使其离开地面。
+3. 创建一个名为**“下阶地”**的新**图层**，并将该组添加到其中。
+4. 将**“阶地标高楼层”**添加到组。
 
 ![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Note:**_ _This image doesn’t represent the step-by-step process to create and assign the geometry to groups, levels, and layers. For more information on these processes, refer to previous chapters in this Primer._
+_**注意：**_ _此图像不表示创建几何图形并将其指定给组、标高和图层的分步过程。有关这些过程的详细信息，请参见本入门手册中的前几章。_
 
-3 - Import the material **Stone &gt; Stone - Travertine**.
+3 - 输入**“石头”>“石头 - 石灰华”**材质。
 
-4 - In the **Materials Palette**, find the imported **Travertine** material and modify it:
+4 - 在**“材质选项板”**中，找到输入的**“石灰华”**材质并进行修改：
 
-1. Double-click the preview tile to open the **Material Editor** pop-up.
-2. Click the **Color** preview tile to open the **Color Editor** pop-up.
-3. Change the **Val** field to **190** to darken the tint of the material.
+1. 双击预览磁贴，以打开**“材质编辑器”**弹出窗口。
+2. 单击**“颜色”**预览磁贴，以打开**“颜色编辑器”**弹出窗口。
+3. 将**“值”**字段更改为**“190”**，以暗化材质的染色。
 
 ![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Paint** the **Floor** and **Lower Terrace Floor** groups with the modified **Travertine** material.
+5 - 使用修改的**“石灰华”**材质**绘制** **“楼层”**和**“下阶地楼层”**组。。
 
 ![](../../.gitbook/assets/15.jpeg)
 

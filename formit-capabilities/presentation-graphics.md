@@ -1,6 +1,6 @@
-# Presentation Graphics
+# 演示图形
 
-Enjoy a suite of [Visual Styles](../tool-library/visual-styles.md) options to customize FormIt's graphics and create eye-popping presentations.
+享用一套[视觉样式](../tool-library/visual-styles.md)选项，来自定义 FormIt 的图形并创建令人惊叹的演示。
 
 ![](../.gitbook/assets/screen1.jpg)
 

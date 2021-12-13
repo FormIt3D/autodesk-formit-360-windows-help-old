@@ -1,58 +1,58 @@
-# Groups
+# 组
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+FormIt 工作流中最基本但最重要的技术之一涉及分组。借助组，可以防止几何图形粘合在一起，并可以设置已复制图元之间的父/子关系，以便在更新一个图元时，两个图元都会一起更新。在[此处](../formit-primer/part-i/grouping-objects.md)了解有关组的详细信息。
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+可以通过以下两种方式创建和编辑组：从选定组的上下文菜单或从主工具栏。
 
-## Groups Interactions
+## 组交互
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group \(G\)** tool from the context menu. Imported images and satellite images cannot be grouped.
+要**创建组**，请选择要分组在一起的图元（这可以包括边、面、实体或其他组），然后单击鼠标右键。从上下文菜单中选择**“组(G)”**工具。无法对输入的图像和卫星图像进行分组。
 
-To **select a group**,  single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+要**选择组**，请单击该组。请注意选择组时显示的虚线，这些线表示组的总大小。
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+要**编辑组**，请双击该组。这将启动编辑模式，在该模式下只能查看和捕捉到当前组外的图元，但无法选择这些图元。还可以使用 **H** 键盘快捷键隐藏当前组外的图元。
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+可以创建**“组内组”**：这些组称为**“嵌套组”**，可以在组编辑模式下创建。要在嵌套组中上移一个标高，请单击组外的任意位置。
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+要**退出组编辑模式**，请双击组外的任意位置。
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+可以**复制组**以在原始组及其副本之间创建关系：如果编辑任何复制的组，则相同更改会影响所有相关组。
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+要**断开复制的组之间的关系**，请选择要分开的一个或多个组、单击鼠标右键，然后从上下文菜单中选择**“使唯一”**。还可以从“组”工具栏中选择“使唯一”。
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+要**选择所有相关组**，请将光标悬停在某个组上，然后按 Tab 键。当所有相关组都亮显时，单击组以选择它们。然后，可以同时对所有组执行操作。
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+[**“组树”**](groups-tree.md)提供了一个位置，可用于查看和管理项目中的所有组。
 
-## Groups Context menu and Toolbar access
+## 组上下文菜单和工具栏访问
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**组图元**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+要从“组”工具栏项目创建组，请选择一个或多个图元、选择**“创建组”**图标，然后选择**“完成”**图标。或者，可以从“组”工具栏项中选择**“创建组”**、选择要分组的图元，然后选择**“完成”**图标。
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+要**从“组”工具栏项编辑组**，请选择**“编辑组”**图标，然后单击要编辑的组。完成编辑后，选择**“完成”**图标。借助此工具，可以选择要编辑的特定组，即使它深度嵌套。
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**要使某个组在工具栏中唯一，**请在“组”工具栏项中选择**“使唯一”**图标。此外，还可以从“组”工具栏项中选择**“使唯一”**、选择要使其唯一的组，然后单击**“完成”**图标。
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**要从“组”工具栏项解组某个组，**请选择要更改的组，然后从“组”工具栏菜单中选择**“解组”**图标。这将解组当前选择，但不会解组任何嵌套组。或者，可以从工具栏中选择**“解组”**、选择要更改的组，然后选择**“完成”**图标。
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**要解组当前选定组下嵌套的所有组，**请选择具有嵌套组的组，然后从“组”工具栏中选择**“解组所有嵌套组”**。
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**要解组模型中的所有组，**请从“组”工具栏中选择**“全部解组”**工具。
 
-## Groups and Revit
+## 组和 Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+如果您熟悉 Revit **族**，那么对 FormIt 中组的概念也不会感到陌生。FormIt 组具有一些功能，可用于将组智能地传输到 Revit 中。
 
-**FormIt Group Categories**
+**FormIt 组类别**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+可以为 FormIt 中的组指定**类别**，以便在将 FormIt 组输入到 Revit 中时，这些组将成为类别相同的族。可以将类别指定给 FormIt 组，方法是：选择组、进入**“组编辑”**模式，然后使用**“特性”**面板选择类别。还可以在**“组树”**面板中指定类别。
 
-**FormIt Group Names**
+**FormIt 组名称**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+还可以使用**“特性”**面板为 FormIt 组指定名称。这有助于导航您自己的模型，并且在将模型输入到 Revit 时，可以使用组名称轻松过滤图元。
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+请注意，**FormIt 中的嵌套组不会作为嵌套组输入到 Revit 中**。这可防止出现深度嵌套的 Revit 族。
 

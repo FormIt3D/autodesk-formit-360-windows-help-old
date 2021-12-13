@@ -1,81 +1,81 @@
-# Railing Along Path
+# 沿路径栏杆扶手
 
-## Powered By Dynamo
+## 由 Dynamo 提供支持
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+在 FormIt 2021 及更高版本中，可以沿路径生成栏杆扶手，并在位快速自定义结果。Dynamo 支持“沿路径栏杆扶手”，这意味着可以轻松配置生成的栏杆扶手以获得所需的结果，并且重新运行逻辑将在位更新几何图形。
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## 开始“沿路径栏杆扶手”
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying \(see below\).
+* 转到 FormIt for Windows 中的 Dynamo 面板，并确保位于“Dynamo 样例”目录中
+* 单击“沿路径栏杆扶手”样例
+* 在屏幕左侧，将显示“为栏杆扶手选择路径”提示
+   * 应仅选择一系列连续边，或仅包含一系列边的组。
+   * 完成选择路径后，单击“完成”按钮，或点击 Enter/回车键。
+* Dynamo 面板将指示它正在处理更改。完成后，FormIt 组中将有一个由 Dynamo 生成的栏杆扶手，可供修改（请参见下文）。
 
-## Iterating In Place
+## 在位迭代
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+在运行“沿路径栏杆扶手”后，您会注意到其结果已设置为默认值。这些栏杆扶手可能适合您，但可以根据需要对栏杆扶手进行大量自定义。
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance. 
+当“沿路径栏杆扶手”运行时，它将创建包含结果的新组，并且 FormIt 将自动选择该组并显示该“沿路径栏杆扶手”实例的可用选项。
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+始终可以通过以下方法返回“沿路径栏杆扶手”特性：选择“组”并切换到“特性”面板，或者编辑将自动显示“特性”的“组”。
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height
+### 栏杆扶手高度
 
-The overall height of the railing. Uses the current FormIt units.
+栏杆扶手的总高度。使用当前 FormIt 单位。
 
-### Post Spacing
+### 栏柱间距
 
-The spacing between main vertical posts. Uses the current FormIt units.
+主垂直立柱之间的间距。使用当前 FormIt 单位。
 
-### Add Posts at Path Vertices
+### 在路径顶点处添加立柱
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point. 
+如果为**“True”**，则将在选定路径的每个顶点处添加立柱，并且在该点处重置对下一个立柱定位的计算。
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction \(like going up stairs or turning corners\) where a post would naturally occur.
+例如，如果选择了一系列 3 条边，则两个内部点中的每个点处都将显示一个立柱。如果顶点指示立柱自然出现的位置处方向发生变化（如上楼或拐弯），则此选项非常有用。
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+如果为**“False”**，将仅沿路径从一端开始添加立柱、沿路径测量距离、忽略沿途的顶点。如果已选择圆弧、样条曲线或圆（其中顶点并不重要），并且希望立柱间距忽略它们，则此选项非常有用。
 
-### Reverse Path Direction
+### 反转路径方向
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+计算立柱的位置时，所选路径的方向将确定路径的哪一端将开始立柱间距测量。
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+如果立柱间距导致不需要的路径端上出现剩余空间，可以将此值更改为**“True”**以翻转曲线，并在另一端开始立柱间距测量。
 
-### Post Width + Depth
+### 立柱宽度 + 深度
 
-The size \(in plan\) of the rectangular vertical post profiles. Uses the current FormIt units.
+矩形垂直立柱轮廓的尺寸（在平面中）。使用当前 FormIt 单位。
 
-### Handrail Width + Height
+### 扶手宽度 + 高度
 
-The size \(in section\) of the rectangular handrail profile. Uses the current FormIt units.
+矩形扶手轮廓的尺寸（在截面中）。使用当前 FormIt 单位。
 
-### Baluster Orientation
+### 栏杆方向
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+如果为 True，栏杆将像电缆一样水平定向。如果为 False，栏杆将垂直定向，以获得更传统的美感。
 
-### Baluster width + Depth
+### 栏杆宽度 + 深度
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+栏杆的矩形轮廓尺寸。使用当前 FormIt 单位。
 
-### Baluster Spacing
+### 栏杆间距
 
-The amount of space between each baluster. Uses the current FormIt units.
+每个栏杆之间的间距。使用当前 FormIt 单位。
 
-### Bottom Rail Start Height
+### 底部扶栏起始高度
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+栏杆扶手底部与支撑栏杆的底部扶栏之间的距离。使用当前 FormIt 单位。
 
-### Run
+### 梯段
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+编辑选项后，单击“运行”按钮以运行基础 Dynamo 图形，并生成新结果。当参数更改时，此按钮将变为蓝色，因此您就知道需要单击它才能查看最终几何图形中的更新。‌
 
-### Edit Embedded Graph
+### 编辑嵌入的图形
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+单击此按钮将启动 Dynamo 图形编辑器环境，以便可以查看和编辑基础 Dynamo 图形以更快地更改参数并查看实时更新，或检查/调整逻辑。
 

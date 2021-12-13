@@ -1,24 +1,24 @@
-# Rectangle
+# 矩形
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+可以使用**“创建草图”**工具栏菜单中的**“矩形”**工具，快速绘制矩形面。拉伸面以创建矩形体积。
 
-Keyboard shortcut: R
+键盘快捷键：R
 
-Use the axes to ensure you're drawing in the correct direction:
+使用轴可确保在正确方向上绘制：
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+可以在 X、Y 或 Z 轴上绘制矩形。绘制时，只需键入值（这将显示“编辑尺寸”对话框），即可指定尺寸。点击 Enter 键或按“确定”以接受尺寸。
 
-To draw a rectangle, click to set the first point in your sketch. 
+要绘制矩形，请单击以在草图中设置第一个点。
 
-Line colors by axis:
+按轴定义线颜色：
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = 红色
+* Y = 绿色
+* Z = 蓝色
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+完成绘制矩形后，该矩形将成为可拉伸以创建体积的面。
 

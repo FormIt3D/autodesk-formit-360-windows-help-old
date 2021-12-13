@@ -1,70 +1,70 @@
-# Solar and Energy Analysis
+# 日光和能量分析
 
-Now that the model has been created we can utilize it to study the **solar and energy impact** of our design. These features are built into FormIt so your earliest studies can be understood from a building performance perspective. These features are **FormIt Pro** only, if you are following along on the web app, you may not have access.
+现在，模型已创建完毕，我们可以利用它来分析设计的**日光和能量影响**。这些功能内置在 FormIt 中，以便可以从建筑性能的角度了解您最早的分析。这些功能仅限于 **FormIt Pro**，因此，如果您沿用 Web 应用程序，则可能无权访问。
 
-If you did not complete the last section, click the File &gt; Open and choose **farnsworth08.axm** from the FormIt Primer folder.
+如果未完成最后一部分，请依次单击“文件”>“打开”，然后从“FormIt Primer”文件夹中选择**“farnsworth08.axm”**。
 
-## Shadows
+## 阴影
 
-Before any of these analysis tools can be used, you need to [set the location](). This gives FormIt access to accurate sun, shadows and climate data
+在可以使用以下任何分析工具之前，需要先[设置位置]()。这使 FormIt 能够访问准确的日光、阴影和气候数据
 
-1. Click on the Sun Icon in the [**Action Tool Bar**](../../formit-introduction/tool-bars.md) and check on **Shadows \(DS\)**
+1. 单击[**操作工具栏**](../../formit-introduction/tool-bars.md)中的“日光”图标，然后选中**“阴影(DS)”**
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. Adjust the **Day** and **Time** sliders to see how the shadows change
+2. 调整**“天”**和**“时间”**滑块，以查看阴影如何更改
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. Notice how the covered terrace is shaded during the hottest hours of the summer months – surely not an accident, but a matter of design!
+3. 请注意，盖地阶地在夏季最热的时候是如何遮荫的 - 这肯定不是意外，而是设计问题！
 
-**Note**: Shadows may cause a decrease in application performance. Two suggestions for mitigating this: turn shadows off if you notice navigation getting slow; or turn layers like **furniture** off if they aren't necessary for studying shadows
+**注意**：阴影可能会降低应用程序性能。缓解这种情况的两个建议是：如果发现导航速度变慢，则关闭阴影；如果分析阴影不需要图层，则关闭**“家具”**等图层
 
-## Solar Analysis
+## 日光分析
 
-Being visual people, designers can learn and communicate an incredible amount of information from heat map diagrams like the one we're about to create
+作为视觉人物，设计师可以通过热图（如我们将要创建的热图）来学习和交流海量信息
 
-1. At the bottom of the [**Sun menu**](../../formit-introduction/tool-bars.md), click the **Solar Analysis** button
-2. You are put into a special mode where **shadows**, **keyboard shortcuts**, and other **toolbars** are disabled
-3. The selection behavior is modified in **Solar Analysis** mode. You can select **through groups**, you don't need to hold down **Ctrl** or **Shift** to add to your selection set, and you can unselect items by clicking them again. You can **Single click**, **double click**, or **window select** geometry
-4. Choose the faces you want to study. **Single click** the top of the **roof**, and the top of the **floors**. Avoid selecting small elements like furniture
+1. 在[**“日光”菜单**](../../formit-introduction/tool-bars.md)的底部，单击**“日光分析”**按钮
+2. 您将进入特殊模式，其中**阴影**、**键盘快捷键**和其他**工具栏**处于禁用状态
+3. 在**“日光分析”**模式下修改选择行为。可以**通过组**进行选择，这样就无需按住 **Ctrl** 或 **Shift** 键即可添加到选择集，并且可以通过再次单击各个项目来取消选中项目。可以**单击**、**双击**或**窗选**几何图形
+4. 选择要分析的面。**单击** **屋顶** 的顶部，然后单击**楼板**的顶部。避免选择家具等小图元
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. In the top, left corner of the canvas find the **Solar Analysis** toolbar. Click **Analyze**. FormIt will calculate and render the surfaces. The settings here can be adjusted before **and** after the analysis finishes
+5. 在画布的左上角，找到**“日光分析”**工具栏。单击**“分析”**。FormIt 将计算和渲染曲面。此处的设置可以在分析完成之前**和**之后进行调整
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. The **Month Peak** setting shows the **peak** values \(in BTU / sq ft\) for the specified month. This is intended for **shading studies**. You can change the month setting and the graphics update instantly. **Hover your cursor** over an analyzed surface to get a **specific** value
+6. **“月峰值”**设置将显示指定月的**峰**值（以 BTU/平方英尺为单位）。这适用于**着色分析**。可以更改月份设置，图形将立即更新。**将光标悬停在**分析的曲面上，即可获取**特定**值
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. The **Year Cumulative** setting shows the **cumulative** energy for the entire year \(in KwH / sq m\). This is intended for **PV potential studies**
+7. **“年累积”**设置将显示整年的**累积**能量（以千瓦小时/平方米为单位）。这适用于 **PV 潜在分析**
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. These **Solar Analysis** studies can be exported by clicking **File &gt; Export \(Ctrl + E\)** and choosing **Image** from the list on the left
+8. 通过单击**“文件”>“输出(Ctrl + E)”**，然后从左侧列表中选择**“图像”**，可以导出这些**“日光分析”**分析
 
-## Energy Analysis with Insight
+## 带见解的能源分析
 
-FormIt has integrated the same Building Performance analysis tools that Revit uses. **Insight** provides a dashboard of building system parameters that be can be adjusted to reflect potential scenarios without requiring you to **re-analyze** model geometry. Insight works best with FormIt **massing** geometry
+FormIt 集成了 Revit 所使用的相同建筑物性能分析工具。**见解**提供了建筑物系统参数面板，可以对其进行调整以反映潜在场景，而无需您**重新分析**模型几何图形。见解最适用于 FormIt **体量**几何图形。
 
-1. Make sure you are logged into your Autodesk account. Turn off **all** of the layers **except** for the **massing** layer. Your geometry must have at least one **Level** applied
-2. FormIt will only send **visible** geometry to Insight. Note that even a simple **mass** will yield a trove of data from **Insight**
+1. 确保您已登录到 Autodesk 帐户。关闭**除****“体量”**图层以外的**所有**图层。几何图形必须至少应用一个**标高**
+2. FormIt 仅会将**可见**几何图形发送给见解。请注意，即使是简单的**体量**也会从**见解**中生成大量数据
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. Click the **Insight &gt; Generate Insight** button. The analysis will run in the cloud, so you can continue to model during the computation
+3. 单击**“见解”>“生成见解”**按钮。分析将在云中运行，以便可以在计算过程中继续建模
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. Once the analysis is complete, click the **View Insight** button to see your **Energy model** and **Performance Factors** \(optionally, you can visit the website directly at [**http://insight.autodesk.com**](http://insight.autodesk.com/)\)
+4. 分析完成后，单击**“查看见解”**按钮以查看**能量模型**和**性能系数**（或者，可以直接访问网站：[**http://insight.autodesk.com**](http://insight.autodesk.com/)）
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. On the Insight dashboard, you can set a value \(or a value range\) for each **Performance Factor** widget by clicking the factor and dragging the blue dots. The range is helpful if you don't know the specific system your building will use yet
-6. With each change to a **Factor** the overall **Energy Cost Range** \(measured in USD / sq m / yr\) updates. You can see your design's performance against benchmarks like **Ashrae 90.1** and the **Architecture 2030** challenge
-7. If your design changes form drastically - then you can re-send the updated mass to the same dashboard. If you want to create a **new** dashboard for the updated design, then you will need to **Save As** in FormIt first
-8. If your Energy Analysis is unsuccessful - you may have geometry based **Watertight Issues \(DW\)** these can be reviewed and fixed in FormIt
-9. Turn the **massing** layer off and turn all of the other layers back on
+5. 在“见解”面板上，可以通过单击系数并拖动蓝色圆点来为每个**“性能系数”**控件设置值（或值范围）。如果不知道建筑物仍将使用的特定系统，则该范围将非常有用
+6. 每次对**“系数”**进行更改后，总体**“能量成本范围”**（以美元/平方米/年为单位）都将更新。可以对照 **Ashrae 90.1** 和 **Architecture 2030** 挑战等基准，查看您设计的性能
+7. 如果设计发生了巨大变化，可以将更新后的体量重新发送到同一面板。如果要为更新后的设计创建**新**面板，则需要先在 FormIt 中进行**“另存为”**
+8. 如果“能量分析”失败 - 您可能会遇到基于几何图形的**“无间隙问题(DW)”**，可以在 FormIt 中查看和修复这些问题
+9. 关闭**“体量”**图层，然后重新打开所有其他图层
 

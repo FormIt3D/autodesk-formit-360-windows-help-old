@@ -1,28 +1,28 @@
-# Faces: Extrude, Cut and Offset
+# 面：拉伸、切割和偏移
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+推拉面、在现有形状上压印新形状或创建新的偏移边。
 
-## Extrude
+## 拉伸
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+要推拉面，请通过单击选择面，然后单击并拖动。面将来回移动，现在可以移动鼠标以捕捉和推断其他模型图元。再次单击以完成面的移动。按住 CTRL 键可保留原始边。
 
 ![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## 压印
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+要压印形状，请使用“三维草图”工具在现有面上绘制线、圆弧、样条曲线、矩形或圆。该操作将创建可独立于原始面推拉的新面。
 
 ![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
 ## Offset
 
-To offset the face of an object: 
+偏移对象的面的步骤：
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu. 
-2. From the **Context** menu, click on the **Offset Face** tool. 
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. 先选择要编辑的面，然后单击鼠标右键以查看**“上下文”**菜单。
+2. 在**“上下文”**菜单中，单击**“偏移面”**工具。
+3. 将光标移动到选定面上并调整显示的线，直到达到所需的偏移效果。
+4. 单击任意位置以完成偏移。现在，可以单独推拉偏移面。
 
 ![](../.gitbook/assets/offset1.png)  
 ![](../.gitbook/assets/offset2.png)  

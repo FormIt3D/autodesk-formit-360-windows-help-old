@@ -1,22 +1,22 @@
-# Import and Export Data
+# 导入和导出数数据
 
-## Importing Data
+## 输入数据
 
-The following file formats can be imported.
+可以输入以下文件格式。
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported. 
+* **OBJ**：OBJ 三维网格文件将作为单个 FormIt 组输入。未输入任何材质。
+* **DWG**：二维和三维 DWG 文件将作为单个 FormIt 组输入。支持对象颜色。
+* **STL**：STL 三维网格文件将作为单个 FormIt 组输入。
+* **SAT**：SAT 实体模型文件将作为单个 FormIt 组输入。
+* **SKP**：将输入 SketchUp 文件。组和组件将作为 FormIt 组输入。支持图层和材质。
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**详细了解如何使用输入的数据**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exporting Data
+## 导出数据
 
-FormIt can export the following file formats: AXM \(FormIt file\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materials and 3D in a single ZIP file\), PNG images.
+FormIt 可以输出以下文件格式：AXM（FormIt 文件）、DWG、SKP、FBX、SAT、STL、DAE、DXF、OBJ（单个 ZIP 文件中的材质和三维）、PNG 图像。
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+输出各个文件时，可以选择输出**“所有对象”**、**“仅可见对象”**或**“仅选定对象”**。
 
 ![](../.gitbook/assets/export_window.png)
 

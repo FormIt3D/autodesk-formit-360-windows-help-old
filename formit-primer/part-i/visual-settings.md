@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 - 视觉样式
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_建模概念体量仅为 FormIt 所要提供的一半。另一半是精美的图形，有助于向客户或团队成员讲述故事。在本章中，我们将介绍设置__**图形视觉样式**__和创建动画的方法。_
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”**下载并打开_ _**“1.12 – Visual Styles.axm”**_ _文件。_
 
-## **Create an Animation**
+## **创建动画**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_在接下来的步骤中，我们将学习如何使用__**“场景”**__创建动画。_
 
-1 – To create the first **Scene**:
+1 - 创建第一个**“场景”**的步骤：
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective \(VP\)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. 启用除**“地形”**、**“平面图像”**和**“体量”**以外的所有图层。
+2. 确保将相机模式设置为**“透视(VP)”**，并将相机放置在稍微上方查看整个住宅的位置，类似于下图。
+3. 打开**“场景选项板”**。
+4. 单击 **+** 图标，以从当前视图创建新场景。
+5. 将其重命名为**“鸟瞰视图 1”**，并将其他**“场景特性”**与下图中所示的内容匹配。
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 - 创建第二个**“场景”**，然后在它们之间设置动画的步骤：
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. 将相机调整到新位置，以便从不同角度查看住宅。使用上一步中所遵循的相同过程创建名为**“鸟瞰视图 2”**的新**“场景”**。
+2. 单击**“播放”**按钮。 将**“暂停时间”**设置为**“2 秒”**后，动画将开始在两个场景之间缓慢地来回移动。这将一直持续，直到单击**“停止”**按钮停止动画为止。
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**注意：**_ _可以使用_ _**“场景特性”**底部的设置调整_ _**“暂停时间”**、_ _**“过渡时间”**和_ _**“相机速度”**_ _。尝试添加更多场景并使用这些设置播放，以自定义动画。_
 
-## **Customize the Visual Styles**
+## **自定义视觉样式**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_现在，我们将使用一些自定义**“视觉样式”**设置创建另一个场景。_
 
-1 - First, open the **Visual Styles Palette**. Note there are four \(4\) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 - 首先，打开**“视觉样式选项板”**。请注意，顶部有四 (4) 个选项卡，每个选项卡都包含不同的视觉设置：**“曲面”**、**“边”**、**“环境”**和**“模型诊断”**。要了解有关每个选项卡的详细信息，请访问**“工具库”**部分中的**“视觉样式”**一章。
 
-2 – To customize some settings in the **Surface Tab**:
+2 - 在**“曲面”选项卡**中自定义某些设置的步骤：
 
-1. Turn on **Shadows \(DS\)**.
-2. Turn on **Ambient Shadows \(DA\)**.
-3. Turn on **Monotone Surfaces \(DM\)**. This makes an abstract black and white image without any materials.
+1. 启用**“阴影(DS)”**。
+2. 启用**“环境遮挡阴影(DA)”**。
+3. 启用**“单调曲面(DM)”**。这将生成一个没有任何材质的抽象黑白图像。
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – 在**“边”选项卡**中自定义某些设置的步骤：
 
-* 1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2.  Turn on the **Extend Edges \(DX\).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. 调整滑块，以将**“边”**对比度调亮到 **30%** 左右。
+   2. 启用**“延伸边(DX)”。**
+   3. 调整滑块，以将**“轮廓”**对比度调亮到 **30%**。
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 - 在**“环境”选项卡**中自定义某些设置的步骤：
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. 禁用**“轴”**。
+2. 禁用**“标高”**（如果处于启用状态）。
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 - 创建名为**“自定义场景”**的新场景，以保存这些设置。现在，可以在**“场景”**之间来回切换，以重置图形设置。
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**注意：**如果取消选中新场景的__**“相机”**__特性，则只能将其用于打开我们刚刚创建的视觉设置，而无法移动相机位置。尝试转到先前的一个鸟瞰场景，然后双击__**“自定义场景”**__并观察发生的情况！_
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**注意：**_ _要了解_ _**“视觉样式诊断”**_ _和_ _**“场景”**的高级应用，请查看_ _**“Primer Part II”**。_
 

@@ -1,26 +1,26 @@
-# Orthographic Views
+# 正交视图(Orthographic Views)
 
-**View your model in various orthographic views, including top, sides, and bottom.**
+**在各种正交视图中查看模型，包括顶部、侧面和底部。**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**You'll find orthographic views by clicking the top icon in the floating navigation toolbar:**
+**通过单击浮动导航工具栏中的顶部图标，将找到正交视图：**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**使用正交视图时的一些有用提示：**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-* Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
-  * Use shortcut SZ, or right-click in space (not over any geometry):
-  * ![](../.gitbook/assets/set-axes\_context.PNG)
-  * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-  * ![](../.gitbook/assets/set-axes.PNG)
+* 在正交视图之间切换时，FormIt 将为了一致性而保持缩放级别。
+* 切换立面视图（前/右/左/后）时，FormIt 将为了一致性而保持地面高度。
+* 在正交视图中平移时，可以按住 Shift 键，以将平移移动锁定到水平轴或垂直轴。
+* 正交视图方向基于世界坐标轴。可以重新对齐轴，这将改变所有正交视图的方向：
+   * 使用快捷键 SZ，或在空间中单击鼠标右键（不在任何几何图形上）：
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * 设置原点，然后在红色轴上设置夹点以将其与有意义的方向对齐
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-**Orthographic views work in conjunction with other FormIt features:**
+**正交视图与其他 FormIt 功能结合使用：**
 
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* 将立面视图另存为场景，以便可以稍后返回查看。
+* 使用图层控制可能妨碍立面视图的几何图形的可见性。
+* 添加剖面平面以创建剖面立面。

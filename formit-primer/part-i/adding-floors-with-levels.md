@@ -1,36 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 - 添加楼层与标高
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_借助标高，可以使用各个楼层基准对体量进行剖切，并计算每个建筑体量的总面积。当文件转换为 Revit 时，FormIt 楼层及其自定义名称将转换为 Revit 标高。_
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_如果未完成最后一部分，请从**“FormIt Primer Part 1 数据集”**下载并打开**“1.4 - Add Floors with Levels.axm”**文件。_
 
-## **Create, and Customize Levels**
+## **创建和自定义标高**
 
-1 - To create levels:
+1 - 创建标高的步骤：
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** \(**Add Level**\) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. 转到**“选项板栏”**中的**“标高选项板”**。
+2. 单击**“+”**（**“添加标高”**）四次，以创建四个标高。
+3. 双击每个标高的当前高程，以将其修改为：**“0’-0"”、“2'-2"”、“4’-6"”**和**“17’-8"”**。
+4. 双击每个标高的当前名称，并将其重命名为：**“地面”、“阶地”、“主建筑物”**和**“屋顶顶部”。**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**注意**：可以单击__**“++”**__图标，以创建多个具有指定均匀间距的标高。这对于多层建筑很方便_。
 
-## **Apply Levels to Geometry**
+## **将标高应用于几何图形**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_在前面的步骤中，我们仅创建了标高。现在，我们已准备好将这些标高应用于已创建的几何图形。_
 
-1 - To apply levels to the exiting geometry:
+1 - 将标高应用于现有几何图形的步骤：
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it \(**Main Building, Terrace,** and **Ground**\), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. 通过双击整个上阶地体量将其选中。
+2. 在**“特性选项板”**中，单击**“使用标高”**。此步骤将预先选择当前与选定几何图形相交的所有标高。
+3. 现在，当前选定的几何图形已应用三个标高（即**“主建筑物”、“阶地”**和**“地面”**），但在本练习中，我们仅希望应用**“地面”**。取消选中**“主建筑物”**和**“阶地”**。
+4. 此过程将确保在总面积计算中仅考虑与**“地面”**相交的面积，这可在**“按标高划分的面积”**字段中见到。
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**注意**：如果在体量上未看到蓝色标高线，请键入_ _**“DL”**_ _以_ _**“显示标高”**。_
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

@@ -1,10 +1,10 @@
-# Move Object
+# 移动对象
 
-1. **Double Click** to select an entire object \(single-click to select a face, edge or vertex, which is explained in [Modifying Faces Edges and Points](modifying-faces-edges-and-points.md).\)
-2. **Right click** on the cube and select the **Move Group** tool from the **Context Menu**. ![](../.gitbook/assets/context-menu.png)
-3. Click and move the circle to the point you will use as the **snap point.** ![](../.gitbook/assets/snap-point.png)
-4. **Click and then start dragging**. You are now moving the object and the preselected point will now be your snap point.   ![](../.gitbook/assets/move-object.png)
-5. Press the **tab key.** You can now type in a specific distance to move that object along the current axis.
+1. **双击**以选择整个对象（单击以选择面、边或顶点，将在[修改面边和点](modifying-faces-edges-and-points.md)中进行介绍。\)
+2. 在立方体上**单击鼠标右键**，然后从**上下文菜单**中选择**“移动组”**工具。![](../.gitbook/assets/context-menu.png)
+3. 单击圆并将其移动到将要用作**捕捉点的点。** ![](../.gitbook/assets/snap-point.png)
+4. **单击，然后开始拖动**。您现在正在移动对象，预选的点现在将成为捕捉点。![](../.gitbook/assets/move-object.png)
+5. 按 **Tab 键。**现在，可以键入特定距离，来沿当前轴移动该对象。
 
 \*\*\*\*
 

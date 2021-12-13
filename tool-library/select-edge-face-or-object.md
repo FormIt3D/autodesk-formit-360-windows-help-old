@@ -1,34 +1,34 @@
-# Selection
+# 选择
 
-## Direct Selection
+## 直接选择
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+要**选择顶点、边或面**，请将光标悬停在对象上，然后单击以选择它。
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+要**选择整个对象**，或选择对象及其附着的任何对象，请双击该对象。
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+还可以按住 Ctrl 或 Shift 键，并在当前选择中添加或删除图元。
 
-## Selection Filtering
+## 选择过滤
 
-For area or lasso selection \(see below\), you can filter the selection based on type. 
+对于区域或套索选择（请参见下文），可以根据类型过滤选择。
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+这尤其适用于以下情况：在非常近的位置混合有几何图形类型，并且想要使用区域或套索选择来投射宽网，但仅检索特定类型的几何图形，而排除其他几何图形。
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## 区域/窗口选择
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+要**同时选择多个几何图形**，请使用“窗口选择”工具。确保未选择任何几何图形，然后单击鼠标并从左到右（或从右到左）拖动，以捕获多个几何图形。
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## 套索选择
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+要在同时选择多个几何图形时**更精确地控制**，请使用套索工具。在空画布上单击鼠标右键后，可以从上下文菜单中选择它。然后，在所需的选择区域周围绘制边界。
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
