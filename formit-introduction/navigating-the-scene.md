@@ -1,30 +1,30 @@
-# 導覽場景
+# Navigace ve scéně
 
-使用滑鼠或觸控螢幕，輕鬆在 FormIt 模型中四處導覽：
+Pomocí myši nebo dotykové obrazovky se můžete snadno pohybovat v modelech aplikace FormIt a v jejich okolí:
 
-* **環轉**：按一下右鍵並拖曳滑鼠，或滑過觸控式裝置螢幕。這會在 3D 空間中使用游標點來繞其環轉相機。
-   * 您也可以按住 Shift 鍵來平移。
-* **縮放**：向上和向下捲動滑鼠滾輪，或捏合觸控式裝置螢幕。這會在 3D 空間中使用某個點來縮放，並會在您接近曲面或其他物件時減慢縮放速度。
-   * 您也可以按住 Ctrl 以固定比率縮放，不受物件鄰近程度的影響。
-* **平移**：按中鍵並拖曳滑鼠，或在觸控式裝置螢幕上拖曳兩指。
+* **Otáčejte** pohledem tak, že kliknete pravým tlačítkem myši a přetáhnete ukazatel myši nebo táhněte prstem přes obrazovku na zařízeních s dotykovým ovládáním. Tím ve 3D prostoru použijete bod kurzoru, kolem kterého se bude otáčet kamera.
+   * Můžete také podržet klávesu Shift a posunout pohled.
+* **Přibližujte a oddalujte** pohled otáčením kolečka myši nahoru a dolů nebo stažením či roztažením prstů na zařízeních s dotykovým ovládáním. V tomto případě se použije bod ve 3D prostoru, ke kterému se má pohled přiblížit, přičemž přiblížení se zpomalí, jakmile se přiblížíte k povrchu nebo jinému objektu.
+   * Můžete také podržet klávesu Ctrl, pokud chcete pohled přibližovat a oddalovat konstantní rychlostí, která není ovlivněna blízkostí objektů.
+* **Posouvejte** pohled kliknutím prostředním tlačítkem myši a jejím tažením nebo přetažením dvou prstů na zařízeních s dotykovým ovládáním. 
 
-您也可以使用圖元區右側的浮動導覽工具列進入特定視圖模式。括弧中是快速鍵。
+K přechodu do konkrétních režimů pohledu můžete použít také plovoucí panel nástrojů navigace v pravé části kreslicí plochy. V závorkách jsou uvedeny klávesové zkratky.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **正投影視圖**：按一下以顯示可用[正投影視圖](../tool-library/orthographic-views.md)的圖示列功能表。
+![](../.gitbook/assets/20190618-ortho-views.png)**Ortografické pohledy**: Kliknutím zobrazíte rozevírací nabídku [ortografických pohledů](../tool-library/orthographic-views.md).
 
-![](../.gitbook/assets/20190618-3d-view.png) **預設 3D 視圖 \(ZD\)：**啟動預設的 3D 視圖。
+![](../.gitbook/assets/20190618-3d-view.png)**Výchozí 3D pohled \(ZD\):** Spustí výchozí 3D pohled.
 
-![](../.gitbook/assets/jet-pack.png) **穿越 \(FT\)：**「噴射背包」模式可讓您使用鍵盤穿越場景。使用 WASD 可向前/向後/向左/向右移動，使用 Q/E 可向上/向下移動。使用空格鍵可「飛行」。
+![](../.gitbook/assets/jet-pack.png)**Procházka \(FT\):** Tento režim umožňuje procházet scénou pomocí klávesnice. Pomocí kláves WASD se můžete pohybovat vpřed, vzad, doleva nebo doprava a pomocí kláves Q/E se můžete pohybovat nahoru nebo dolů. Mezerníkem můžete zobrazit průlet scénou.
 
-![](../.gitbook/assets/orbit-tool.png) **環轉 \(O\)：**啟用時，按一下滑鼠左鍵並拖曳滑鼠可繞著模型環轉。您也可以隨時按一下右鍵並拖曳，以執行此作業。
+![](../.gitbook/assets/orbit-tool.png)**Orbit \(O\):** Pokud je tato možnost povolena, klikněte levým tlačítkem myši a tažením otáčejte pohled kolem modelu. To lze kdykoli provést také kliknutím pravým tlačítkem myši a tažením.
 
-![](../.gitbook/assets/swivel.PNG) **迴旋 \(SV\)：**使用導覽工具列中的「迴旋」工具，可從固定點環視場景。
+![](../.gitbook/assets/swivel.PNG)**Natočit \(SV\):** Nástroj Natočit z panelu nástrojů navigace použijte, pokud se chcete rozhlédnout po scéně z pevného bodu.
 
-![](../.gitbook/assets/panning.png) **平移 \(P\)：**按一下滑鼠中鍵並拖曳滑鼠，或使用導覽工具列中的「平移 \(手形\)」工具可在場景中平移。
+![](../.gitbook/assets/panning.png)**Posun pohledu \(P\):** Chcete-li posouvat pohled po scéně, klikněte a přetáhněte prostřední tlačítko myši nebo použijte nástroj Posun pohledu \(ručička\) z panelu nástrojů Navigace.
 
-![](../.gitbook/assets/zoom.png) **縮放 \(Z\)：**捲動滑鼠滾輪，或從導覽工具列選取「縮放」工具，然後按一下滑鼠左鍵並拖曳可縮放。
+![](../.gitbook/assets/zoom.png)**Přiblížit \(Z\):** Chcete-li přiblížit pohled, otočte kolečkem myši nebo vyberte nástroj Přiblížit na panelu nástrojů Navigace a kliknutím a přetažením levého tlačítka myši proveďte přiblížení.
 
-![](../.gitbook/assets/zoom_all.png) **全部縮放 \(ZE 或 ZA\)：**縮放以將整個模型佈滿目前視圖
+![](../.gitbook/assets/zoom_all.png)**Přiblížit vše \(ZE nebo ZA\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešel celý model.
 
-![](../.gitbook/assets/zoom_selection.png) **縮放選取項目 \(ZS\)：**縮放以將目前選取的所有物件佈滿目前視圖。
+![](../.gitbook/assets/zoom_selection.png)**Přiblížit na výběr \(ZS\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešly všechny aktuálně vybrané objekty.
 

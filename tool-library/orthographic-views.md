@@ -1,26 +1,26 @@
-# 正投影視圖
+# Ortografické pohledy
 
-**在各種正投影視圖 (包括上視圖、側視圖和下視圖) 中檢視模型。**
+**Model můžete zobrazit v různých ortografických pohledech, včetně horního, bočního a dolního pohledu.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**在浮動導覽工具列中按一下頂端的圖示，可以找到正投影視圖：**
+**K ortografickým pohledům získáte přístup kliknutím na horní ikonu na plovoucím panelu nástrojů navigace:**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**使用正投影視圖時的一些有用提示：**
+**Užitečné tipy pro práci s ortografickými pohledy:**
 
-* 在正投影視圖之間切換時，FormIt 會維持縮放等級以保持一致性。
-* 切換立面視圖 (前/右/左/後) 時，FormIt 會維持地面高度以保持一致性。
-* 在正投影視圖中平移時，您可以按住 Shift 鍵，將平移的移動鎖定在水平或垂直軸。
-* 正投影視圖方向以世界軸為基礎。您可以重新對齊軸，這會變更所有正投影視圖的方位：
-   * 使用快速鍵 SZ，或在空間 (不在任何幾何圖形上) 中按一下右鍵：
+* Při přepínání mezi ortografickými pohledy aplikace FormIt zachová kvůli konzistenci úroveň přiblížení.
+* Při přepínání bokorysných pohledů (přední/pravý/levý/zadní) aplikace FormIt zachová kvůli konzistenci výšku terénu.
+* Při posouvání v ortografickém pohledu můžete podržením klávesy Shift uzamknout pohyb k horizontální nebo vertikální ose.
+* Ortografické směry pohledu jsou založeny na globálních osách. Zarovnání os můžete změnit, čímž se změní orientace všech ortografických pohledů:
+   * Použijte zkratku SZ nebo klikněte pravým tlačítkem myši do volného místa (vyhněte se jakékoli geometrii):
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * 設定原點，並在紅色軸上設定掣點，與有意義的方向對齊
+   * Nastavte počátek a poté nastavte uzel na červené ose tak, aby byla zarovnána do smysluplného směru.
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**正投影視圖與其他 FormIt 功能搭配使用：**
+**Ortografické pohledy fungují ve spojení s dalšími funkcemi aplikace FormIt:**
 
-* 將立面視圖另存成場景，以便您稍後可以返回。
-* 使用「圖層」控制可能擋住立面視圖中幾何圖形的可見性。
-* 加入剖面平面以建立剖面高程。
+* Bokorysné pohledy uložte jako scény, abyste se k nim později mohli vrátit.
+* Pomocí hladin můžete řídit viditelnost geometrie, která by mohla překážet v bokorysných pohledech.
+* Přidáním rovin řezu vytvořte pohledy řezu.

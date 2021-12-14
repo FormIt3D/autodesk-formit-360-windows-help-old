@@ -1,48 +1,48 @@
-# 樓層和面積
+# Podlaží a plocha
 
-在 FormIt 中建立幾何圖形後，您可以套用樓層以指出樓板高程的位置，並產生面積計算。
+Po vytvoření geometrie v aplikaci FormIt můžete použít podlaží k určení výšky podlaží a k výpočtům ploch.
 
-請查看 [FormIt 入門手冊](../formit-primer/part-i/adding-floors-with-levels.md)，以查看實際使用中的樓層。
+Prostudujte si [příručku k aplikaci FormIt ](../formit-primer/part-i/adding-floors-with-levels.md)a zjistěte, jak podlaží fungují.
 
-## 建立和規劃樓層
+## Tvorba a konfigurace podlaží
 
-您會在 Windows 版 FormIt 的右側找到「樓層」面板：
+Panel Podlaží se nachází na pravé straně aplikace FormIt pro systém Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### 建立和刪除樓層
+#### Tvorba a odstraňování podlaží
 
-* 按一下「+」按鈕可建立新樓層。
-* 按一下「++」按鈕可建立一系列樓層。
-   * 這允許指定要建立的樓層數，以及樓層之間的垂直距離。
-* 選取一個或多個樓層，然後按一下「-」可刪除它們。
+* Kliknutím na tlačítko „+“ vytvoříte nové podlaží.
+* Kliknutím na tlačítko „++“ vytvoříte řadu podlaží.
+   * Můžete určit, kolik podlaží se má vytvořit, a zadat svislou vzdálenost mezi nimi.
+* Chcete-li odstranit jedno nebo více podlaží, vyberte je a kliknutím na tlačítko „-“ je odstraňte.
 
-#### 更名、設定高程和對樓層重新編號
+#### Přejmenování, nastavení výšek a přečíslování podlaží
 
-* 按兩下樓層名稱，或按一下右鍵並選擇「編輯名稱」，可更名樓層。
-* 按兩下數字，或按一下右鍵並選擇「編輯高程」，可調整樓層的高程。
-* 按一下頂端的「重新整理」圖示可對樓層重新編號。
-   * 如果您已加入或移除樓層，但預設的命名規則不同步 \(例如「樓層 1」、「樓層 2」、「樓層 5」\)，則此功能非常有用。
-   * 此按鈕將忽略任何具有自訂名稱的樓層，但會以依循「樓層 1」語法的名稱對任何樓層重新編號。
+* Chcete-li přejmenovat některé podlaží, dvakrát klikněte na jeho název nebo klikněte pravým tlačítkem myši a vyberte položku Upravit název.
+* Výšku podlaží můžete upravit dvojitým kliknutím na číslo nebo kliknutím pravým tlačítkem myši a výběrem položky Upravit výšku.
+* Chcete-li podlaží přečíslovat, klikněte na ikonu Obnovit v horní části.
+   * To je užitečné, pokud jste přidali nebo odstranili podlaží a výchozí schéma pojmenování není synchronizované \(tj. Podlaží 1, Podlaží 2, Podlaží 5\).
+   * Toto tlačítko bude ignorovat všechna podlaží s vlastními názvy, ale přečísluje všechna podlaží s názvem, který se řídí syntaxí „Podlaží 1“.
 
-## 套用樓層
+## Použití podlaží
 
-若要對物件套用樓層，您必須選取物件並移至「性質」面板。
+Chcete-li použít podlaží na objekt, je nutné vybrat objekt a přejít na panel Vlastnosti.
 
-請注意，若要對物件套用樓層，該物件必須是實體，且沒有背面或防水問題。[瞭解如何檢查模型是否有防水和背面問題](https://formit.autodesk.com/blog/post/repairing-solid-models)。
+Aby bylo možné použít podlaží na objekt, musí být objekt těleso, které nemá problémy se zadními plochami nebo vodotěsností. [Zjistěte, jak zkontrolovat, zda v modelu nejsou problémy s vodotěsností a zadními plochami](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-在圖元區中選取實體物件 \(在此範例中是簡單的建築殼體\) 後，「性質」面板會顯示「使用樓層」勾選方塊。
+Pokud je na kreslicí ploše vybrán objekt tělesa \(v tomto příkladu jednoduchá skořepina budovy\), na panelu Vlastnosti se zobrazí zaškrtávací políčko Použít podlaží.
 
-* 如果 FormIt 草圖已定義樓層 \(請參閱上文\)，則勾選此方塊將使用與此造型相交的所有樓層 \(忽略任何可能過高或過低的樓層\)。
-* 如果 FormIt 草圖還沒有樓層，勾選此方塊將建立足夠的預設樓層 \(樓板到樓板的高度為 12'\) 以便與整個造型相交，並且會自動對此物件套用這些樓層。
+* Jestliže již náčrt aplikace FormIt obsahuje definovaná podlaží \(viz výše\), zaškrtnutím tohoto políčka se použijí všechna podlaží, která by protínala tento tvar \(přitom budou ignorována všechna podlaží, která by byla příliš vysoko nebo příliš nízko\).
+* Pokud náčrt aplikace FormIt ještě podlaží neobsahuje, zaškrtnutím tohoto políčka se vytvoří dostatek výchozích podlaží \(s výškou 12' mezi podlažími\) protínající celý tvar a tato podlaží se automaticky použijí na tento objekt.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## 樓層 + Revit
+## Podlaží a aplikace Revit
 
-對 FormIt 幾何圖形套用樓層時，如果使用 [FormIt 增益集](https://formit.autodesk.com/page/formit-revit)，這些樓層將傳送至 Revit。
+Pokud jsou u geometrie aplikace FormIt použita podlaží, budou tato podlaží odeslána do aplikace Revit pomocí [doplňku aplikace FormIt](https://formit.autodesk.com/page/formit-revit).
 
-在 Revit 中，您可以使用 FormIt 樓層來建立量體樓板、依面建立樓板，以及與 FormIt 樓層關聯的樓板平面圖。
+V aplikaci Revit můžete pomocí podlaží aplikace FormIt vytvářet podlaží objemu, podlaží na ploše a půdorysy podlaží přidružené k podlažím aplikace FormIt.
 
 
 

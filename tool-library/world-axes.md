@@ -1,30 +1,28 @@
-# 世界軸
+# Globální osy
 
-透過變更世界軸可以修改預設座標系統和格線。
+Výchozí souřadnicový systém a osnovu lze upravit změnou globální osy.
 
-## 使用軸繪製和塑型
+## Kreslení a modelování pomocí os
 
-以 FormIt 開啟空白草圖時，螢幕中心的世界軸會顯示為紅色、綠色和藍色三條線。這三條線定義三個直角座標方向，這些方向定義 3D 世界。「X」方向由紅線定義，「Y」方向由綠線定義，「Z」方向或「向上」方向由藍線定義。
+Když je v aplikaci FormIt otevřen prázdný náčrt, zobrazí se ve středu obrazovky globální osy jako tři čáry (červená, zelená a modrá). Tyto tři čáry definují tři kartézské směry, které definují 3D svět. Směr X je definován červenou čárou, směr Y zelenou čárou a směr Z (neboli nahoru) modrou čárou.
 
 ![](../.gitbook/assets/axis.png)
 
-若要旋轉格線並重新定義草圖的原點，請在場景中的空白空間**按一下右鍵**，然後從關聯式功能表中選擇**「設定軸 \(SZ\)」**圖示  
-![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
+Chcete-li osnovu otočit a znovu definovat počáteční bod náčrtu, **klikněte pravým tlačítkem** na prázdné místo ve scéně a v místní nabídce vyberte ikonu **Nastavit osy \(SZ\)**.   ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
 
-此時將顯示「設定軸」工具集。按一下中心的大掣點拿起工具集。再按一下以設定原點。現在，按一下紅色軸上的圓點旋轉格線，或按一下藍色軸上的圓點垂直旋轉格線平面。在空間中離開軸的地方按一下以確認變更  
-![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+Zobrazí se pomůcka Nastavit osy. Kliknutím na velký uzel uprostřed pomůcku vyberte. Dalším kliknutím nastavte bod počátku. Nyní kliknutím na tečku na červené ose otočte osnovu nebo kliknutím na tečku na modré ose vertikálně otočte rovinu osnovy. Kliknutím do prostoru potvrďte změnu.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-若要將原點和格線**重置**回預設設定，請在場景中的空白空間按一下右鍵，然後選擇**「重置軸 \(RZ\)」**
+Chcete-li **obnovit** výchozí nastavení počátku a osnovy, klikněte pravým tlačítkem myši na prázdné místo ve scéně a vyberte možnost **Obnovit osy \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## 世界軸和局部軸
+## Globální osy a místní osy
 
-上述步驟說明如何控制草圖的**全域座標系統**。開始處理[**群組**](groups.md)時，您可以從整體草圖中唯一地控制該群組的**局部座標系統**。編輯群組時，您可以按照上述步驟編輯局部座標系統，但這些變更只適用於群組
+Výše uvedený postup vysvětluje, jak řídit **globální souřadnicový systém** náčrtu. Když začnete pracovat se [**skupinami**](groups.md), můžete řídit **místní souřadnicový systém** této skupiny jedinečně z celkového náčrtu. Při úpravách skupiny můžete upravovat místní souřadnicový systém podle stejných kroků jako výše – tyto změny se však budou týkat pouze dané skupiny.
 
-## 與軸的交互作用
+## Interakce s osami
 
-* 當您使用草圖工具來引導 3D 草圖時，會顯示**紅色軸、綠色軸和藍色軸**
-* **紫色軸**顯示相對於以某個角度繪製的線垂直和平行的軸
-* 在繪製草圖或移動以**鎖住至目前軸**時，按住 **Shift 鍵**
+* Při práci s nástroji náčrtu se zobrazí **červené, zelené a modré osy**, které slouží jako vodítko pro 3D kreslení. 
+* **Fialová osa** zobrazuje kolmou a rovnoběžnou osu vzhledem k čarám nakresleným pod úhlem.
+* Podržením **klávesy Shift** při kreslení nebo posouvání se **uzamkne aktuální osa**.
 

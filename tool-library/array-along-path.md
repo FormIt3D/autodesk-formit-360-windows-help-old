@@ -1,103 +1,103 @@
-# Array Along Path
+# Skript Array Along Path
 
-## 由 Dynamo 提供技術支援
+## Používá technologii aplikace Dynamo
 
-在 FormIt 2021 和更高版本中，您可以沿路徑排列物件，並快速就地自訂結果。Array Along Path 由 Dynamo 提供技術支援，這表示您可以輕鬆規劃陣列以獲得您想要的結果，重新執行邏輯將就地更新幾何圖形。
+V aplikaci FormIt 2021 a novějších verzích můžete uspořádat objekty podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Array Along Path používá technologii aplikace Dynamo, což znamená, že pole lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## 啟動 Array Along Path
+## Spuštění skriptu Array Along Path
 
-* 移至 Windows 版 FormIt 中的 Dynamo 面板，確保您位於「Dynamo Samples」目錄中。
-* 按一下「Array Along Path」範例。
-* 在螢幕的左側，您會看到「Select object\(s\) to array」提示。
-   * 您在此步驟可以混合選取任何 FormIt 物件。
-   * 選取某些項目後，您可以按螢幕左側的「下一個」箭頭，或按 Enter。
-* 現在，您會看到「Select path for array」提示。
-   * 在此，您應該只選取一系列相鄰邊，或選取包含一系列相鄰邊的群組。
-   * 選取路徑後，按一下「完成」按鈕，或按 Enter。
-* 「Dynamo」面板會指示其正在處理變更。完成後，您在 FormIt 群組中會有一個 Dynamo 產生的陣列，可供您修改 \(請參閱下方\)。
+* V aplikaci FormIt pro systém Windows přejděte na panel aplikace Dynamo a ujistěte se, že se nacházíte v adresáři Dynamo Samples.
+* Klikněte na ukázku Array Along Path.
+* Na levé straně obrazovky se zobrazí výzva k výběru objektů pro pole.
+   * Pro tento krok můžete vybrat libovolnou kombinaci objektů aplikace FormIt.
+   * Jakmile něco vyberete, můžete stisknout šipku „Další“ na levé straně obrazovky nebo stisknout klávesu Enter.
+* Nyní se zobrazí výzva k výběru trajektorie pro pole.
+   * Zde byste měli vybrat pouze řadu přilehlých hran nebo skupinu obsahující řadu přilehlých hran.
+   * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter.
+* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt pole vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
 
-## 就地重複
+## Iterace na místě
 
-執行 Array Along Path 後，您會看到結果已設定為預設值，您可以修改它們以滿足您的需要。
+Po spuštění skriptu Array Along Path uvidíte, že jeho výsledky jsou nastaveny na výchozí hodnoty, takže je vhodné je upravit tak, aby vyhovovaly vašim potřebám.
 
-當 Array Along Path 執行時，它會建立包含結果的新群組，FormIt 會自動選取該群組並顯示該 Array Along Path 實體可用的選項。
+Při spuštění skriptu Array Along Path se vytvoří nová skupina obsahující výsledky a aplikace FormIt automaticky vybere skupinu a zobrazí dostupné možnosti pro danou instanci skriptu Array Along Path.
 
-您永遠可以透過選取「群組」並切換至「性質」面板，或編輯將自動顯示「性質」的「群組」，返回 Array Along Path 的性質。
+K vlastnostem skriptu Array Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object\(s\) to Array \(選取要排成陣列的物件\) <a id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-按一下此按鈕可返回選取精靈，以變更要排成陣列的物件。
+Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a můžete změnit, které objekty budou přidány do pole.
 
-### Select Array Path \(選取陣列路徑\)
+### Select Array Path
 
-按一下此按鈕可返回選取精靈，以變更用於計算陣列的路徑。
+Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a změníte trajektorii, která se použije k výpočtu pole.
 
-### Array Type \(陣列類型\) <a id="run"></a>
+### Array Type <a id="run"></a>
 
-這可切換要計算的陣列類型：「By Distance \(依距離\)」或「By Number \(依數目\)」。
+Přepíná typ pole, které se má vypočítat: podle vzdálenosti nebo podle počtu.
 
-**如果為 True**，計算將為「依距離」，因此以下數字是指複本之間的距離。
+**Pokud je hodnota True**, bude použit výpočet „By Distance“, takže níže uvedené číslo se vztahuje ke vzdálenosti mezi kopiemi.
 
-**如果為 False**，計算將為「依複本數」，因此此欄位下方的數字是指沿路徑佈滿的複本數。
+**Pokud je hodnota False**, bude použit výpočet „By Number of Copies“, takže číslo pod tímto polem označuje počet kopií, které se mají vejít podél trajektorie.
 
-### Include Original Selection In Results \(在結果中包括原始選取\)
+### Include Original Selection In Results
 
-如果為 **True**：
+Hodnota **True**:
 
-* 選取的物件將被視為其中一個新複本
-* 產生的 Dynamo 群組將在其結果中包括原始選取，因此新複本將與原始選取產生 Z-fight 現象。您可以將原始選取放在[圖層](layers.md)上，然後將其關閉加以隱藏。
+* Vybrané objekty budou započítány jako jedna z nových kopií.
+* Výsledná skupina aplikace Dynamo zahrne do svých výsledků původní výběr, takže nové kopie mohou s původním výběrem trpět chybou z-fight. Původní výběr můžete umístit do [hladiny](layers.md) a jejím vypnutím jej skrýt.
 
-如果為 **False**：
+Hodnota **False**:
 
-* 產生的陣列將**不**包括原始選取，因此**除了**原始選取，您還會再得到您指定的複本數，結果也不會產生 Z-fight 現象
+* Výsledné pole **nebude** obsahovat původní výběr, takže **kromě** původního výběru získáte také počet kopií, které jste zadali, a výsledky nebudou trpět chybou z-fight.
 
-### Rotate Copies Along Path \(沿路徑旋轉複本\)
+### Rotate Copies Along Path
 
-如果為 **True**，複本會旋轉，以保持原始物件相對於路徑的方位。
+Pokud je vybrána hodnota **True**, kopie se otočí, aby byla zachována orientace původního objektu vzhledem k trajektorii.
 
-如果為 **False**，複本不會旋轉，只會移動。
+Pokud je vybrána hodnota **False**, kopie nejsou otočeny, pouze přesunuty.
 
-### Use Relative Positioning Along Path \(沿路徑使用相對定位\)
+### Use Relative Positioning Along Path
 
-如果為 **True**：
+Hodnota **True**:
 
-* 每個複本將保持路徑與原始物件之間的距離。
-* 如果原始物件**未**放置在其中一個路徑端點，則路徑的最大剩餘線段將用於陣列計算。
+* Každá kopie zachová vzdálenost mezi trajektorií a původním objektem.
+* Pokud původní objekt **není** umístěn v jednom z koncových bodů trajektorie, použije se pro výpočet pole největší zbývající segment trajektorie.
 
-如果為 **False**：
+Hodnota **False**:
 
-* 無論原始物件與路徑的相對位置為何，路徑的整個長度都會用來計算陣列。
-* 這樣會斷開路徑相對於物件的位置，只使用整個路徑。如果路徑和物件彼此不靠近，此選項非常有用。
+* K výpočtu pole se použije celá délka trajektorie bez ohledu na to, kde se původní objekt vzhledem k trajektorii nachází.
+* Tím se oddělí umístění trajektorie vzhledem k objektu a jednoduše se použije celá trajektorie. Tato možnost je užitečná, pokud se trajektorie a objekt nenacházejí blízko sebe.
 
-### Reverse Path Direction \(反轉路徑方向\)
+### Reverse Path Direction
 
-僅適用於封閉路徑。對封閉路徑使用 Array Along Path 時，曲線的方向可能會不預期地翻轉陣列的預期結果。將此值切換為 **True**，可在結果翻轉時反轉陣列方向。
+Pouze pro uzavřené trajektorie. Při použití skriptu Array Along Path s uzavřenou trajektorií může směr křivky neočekávaně převrátit očekávané výsledky pole. Pokud jsou výsledky převráceny, přepnutím této možnosti na hodnotu **True** obrátíte směr pole.
 
-### 執行 <a id="run"></a>
+### Run <a id="run"></a>
 
-編輯選項後，按一下「執行」按鈕以執行基礎的 Dynamo 圖表，並產生新結果。參數如果變更，此按鈕將變為藍色，您就會知道要按一下才能在最後的幾何圖形中看到更新。 
+Po úpravě možností kliknutím na tlačítko Run spusťte základní graf aplikace Dynamo a vygenerujte nové výsledky. Toto tlačítko se po změně parametrů zbarví modře, abyste věděli, že je třeba na tlačítko kliknout, aby se aktualizace zobrazily ve výsledné geometrii.‌
 
-### 編輯內嵌的圖表 <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-按一下此按鈕將啟動 Dynamo 圖表編輯器環境，您可以檢視和編輯基礎的 Dynamo 圖表，以更快速變更參數並查看即時更新，或檢查/調整邏輯。
+Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
 
 
 
-## 選取幾何圖形
+## Výběr geometrie
 
-為 Array Along Path 和其他以選取為基礎的 Dynamo 圖表選取物件時：
+Při výběru objektů pro skript Array Along Path a další grafy aplikace Dynamo založené na výběru platí následující skutečnosti:
 
-* 您可以混合選取 FormIt 物件 - 頂點、邊、面、實體、群組和網格。
-   * 請注意，視步驟而定，可能無法選取其中某些物件。
-   * 例如，選取路徑時，您只能選取一系列連續的邊，或選取包含一系列連續邊的群組。任何其他作業都將導致圖表失敗。
-* 您可以按兩下物件以選取所有貼附的物件。
-* 您可以使用區域選取視窗擷取一系列物件。
-* 您可以選取已選取的物件以將其除選。
-* 至少需要一個物件才能繼續執行選取型的步驟。
+* Můžete vybrat libovolnou kombinaci objektů aplikace FormIt – vrcholy, hrany, plochy, tělesa, skupiny a sítě.
+   * V závislosti na prováděném kroku by některé z těchto objektů neměly být vybrány.
+   * Například při výběru trajektorie byste měli vybrat řadu přilehlých hran nebo skupinu obsahující řadu přilehlých hran. Cokoli jiného způsobí selhání grafu.
+* Dvojitým kliknutím na objekt vyberete vše, co je k němu připojeno.
+* Pomocí okna pro výběr oblasti můžete uchopit řadu objektů.
+* Můžete vybrat objekty, které již byly vybrány, a zrušit jejich výběr.
+* Abyste mohli pokračovat v kroku založeném na výběru, je nutné vybrat alespoň jeden objekt.
 
 
 

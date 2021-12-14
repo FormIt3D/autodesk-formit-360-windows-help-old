@@ -1,54 +1,54 @@
-# 自動儲存
+# Automatické ukládání
 
-從 v17.3 開始，Windows 版 FormIt 包括「自動儲存」功能，它可在您工作時為 FormIt 模型製作備份複本。如果 FormIt 關閉時有未儲存的變更，此備份檔案即可用來恢復資料。
+Počínaje verzí 17.3 zahrnuje aplikace FormIt pro systém Windows funkci automatického ukládání, která během práce vytváří záložní kopii modelu aplikace FormIt. Tento záložní soubor lze použít k obnovení dat, pokud se aplikace FormIt ukončí s neuloženými změnami.
 
-### 切換自動儲存
+### Přepínání automatického ukládání
 
-在「編輯」&gt;「偏好」&gt;「自動儲存」中尋找自動儲存的規劃選項。
+Možnosti konfigurace funkce Automatické ukládání najdete v nabídce Úpravy &gt; Předvolby &gt; Automatické ukládání.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-預設會啟用「自動儲存」，但只需取消勾選該方塊，即可完全停用。
+Automatické ukládání je ve výchozím nastavení povoleno, ale lze jej zcela zakázat pouhým zrušením zaškrtnutí políčka.
 
-在「自動儲存間隔」數字方塊中輸入值，可設定自動儲存製作備份複本的間隔 \(以分鐘為單位\)。
+Zadáním hodnoty do pole Interval automatického ukládání nastavte interval \(v minutách\), ve kterém bude funkce automatického ukládání vytvářet záložní kopii.
 
-請注意，這些偏好為應用程式層級，在開啟不同檔案時不會變更。
+Tyto předvolby jsou na úrovni aplikace a při otevírání různých souborů se nezmění.
 
-### 自動儲存如何運作
+### Jak funguje automatické ukládání
 
-啟用自動儲存後，它會決定目前的 FormIt 檔案是否有未儲存的變更。如果有未儲存的變更，「自動儲存」會以指定的間隔建立檔案的備份複本。
+Když je funkce automatického ukládání zapnuta, zjišťuje, zda aktuální soubor aplikace FormIt obsahuje neuložené změny. Pokud existují neuložené změny, funkce automatického ukládání vytvoří v zadaném intervalu záložní kopii souboru.
 
-備份檔案儲存在原始檔案旁邊，副檔名為 `.axmb`。
+Záložní soubory jsou ukládány vedle původního souboru a mají příponu `.axmb`.
 
-例如，如果原始的 FormIt 檔案儲存在 `C:/Users/<user>/FormIt/MyProject.axm`，備份檔案就是在 `C:/Users/<user>/FormIt/MyProject.axmb`。
+Pokud je například původní soubor aplikace FormIt uložen v umístění `C:/Users/<user>/FormIt/MyProject.axm`, naleznete záložní soubor v umístění `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-如果您啟動新的 FormIt 工作階段而未開啟既有的檔案，則可以在 `C:/Users/<user>/Documents/Untitled.axmb` 找到未儲存的變更。將新模型儲存至其他位置後，備份將開始在新位置旁邊加入未儲存的變更，如上所述。
+Jestliže zahájíte novou relaci aplikace FormIt bez otevření existujícího souboru, neuložené změny lze najít v umístění `C:/Users/<user>/Documents/Untitled.axmb`. Jakmile nový model uložíte do jiného umístění, začnou se při zálohování přidávat neuložené změny vedle nového umístění, jak je uvedeno výše.
 
-將變更儲存至原始檔案時，「自動儲存」會自動刪除備份檔案，因為備份現在比原始檔案還舊。但是，如果對儲存的檔案進行後續變更，會提示「自動儲存」再開始以指定的間隔備份。
+Když uložíte změny do původního souboru, funkce automatického ukládání automaticky odstraní záložní soubor, protože záloha je nyní starší než původní soubor. Pokud však v uloženém souboru provedete následné změny, automatické ukládání znovu zahájí zálohování v zadaném intervalu.
 
-如果您的工作檔案有未儲存的變更，而您選擇關閉 FormIt 並捨棄變更，則會刪除「自動儲存」的備份。但是，如果 FormIt 被強制關閉 \(無論是因為電腦關機還是應用程式當機\)，則會保留「自動儲存」的備份檔案，稍後可用來恢復資料。
+Jestliže pracovní soubor obsahuje neuložené změny a vy se rozhodnete zavřít aplikaci FormIt a zrušit změny, bude záloha automatického ukládání odstraněna. Pokud však dojde k nucenému ukončení aplikace FormIt, ať už v důsledku vypnutí počítače nebo chybového ukončení aplikace, soubor automatického ukládání zůstane zachován a lze jej později použít k obnovení dat.
 
-### 在啟用自動儲存的情況下工作
+### Práce s povoleným automatickým ukládáním
 
-FormIt 會以單獨的程序執行備份，將「自動儲存」潛在的效能影響降到最低。如果是中小型檔案，「自動儲存」備份時您應該不會發現。如果是非常大的檔案 \(~400MB 以上\)，您可能會在 FormIt 複製整個模型並開始以單獨的程序備份時，發現到短暫的暫停。
+Aplikace FormIt minimalizuje potenciální dopad automatického ukládání na výkon tím, že zálohování provádí v samostatném procesu. U malých až středně velkých souborů byste si probíhajícího automatického zálohování neměli všimnout. U velmi velkých souborů \(400 MB a více\) můžete zaznamenat pouze chvilkové pozastavení, zatímco aplikace FormIt zkopíruje celý model a zahájí zálohování v samostatném procesu.
 
-如果您想知道「自動儲存」目前是否正在備份，您可以查看應用程式左下角的狀態列，是否有簡短的「正在自動儲存...」訊息：
+Pokud vás zajímá, zda funkce automatického ukládání aktuálně provádí zálohování, můžete sledovat stavový řádek v levé dolní části aplikace, kde se zobrazí krátká zpráva „Automatické ukládání…“:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-如果狀態列已停用，您可以在「視窗」&gt; 狀態列或透過快速鍵 HS 啟用狀態列。
+Pokud je stavový řádek zakázán, můžete jej povolit v nabídce Okno &gt; Stavový řádek nebo pomocí klávesové zkratky HS.
 
-### 使用自動儲存復原資料
+### Obnovení dat pomocí funkce automatického ukládání
 
-開啟有備份的 FormIt 檔案時，FormIt 會警示您有備份檔案存在。如上所述，這可能只是因為您上次編輯此專案時未選擇儲存變更就關閉 FormIt，或是因為 FormIt 意外關閉。
+Při otevírání souboru aplikace FormIt s dostupnou zálohou vás aplikace FormIt upozorní, že existuje záložní soubor. Jak bylo uvedeno výše, mohl být záložní soubor vytvořen proto, že jste aplikaci FormIt zavřeli, aniž byste se rozhodli uložit změny v daném projektu při jeho poslední úpravě, nebo v důsledku neočekávaného ukončení aplikace FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-按一下「要開啟它？」超連結將載入 `.axmb` 備份檔案。
+Kliknutím na hypertextový odkaz „Otevřít?“ načtete záložní soubor `.axmb`.
 
-同樣地，您可以使用「檔案」&gt;「開啟」，並從檔案總管中手動選取 `.axmb` 檔案以開啟備份。
+Můžete také kliknout na nabídku Soubor &gt; Otevřít a ručním výběrem souboru `.axmb` v průzkumníku souborů otevřít zálohu.
 
-備份檔案開啟後，下次儲存時，FormIt 將要求您點選其他 FormIt 檔案 \(`.axm`\) 以覆寫。您無法覆寫 FormIt 備份檔案 \(`.axmb`\)。
+Po otevření záložního souboru vás aplikace FormIt při příštím uložení vyzve, abyste vybrali jiný soubor aplikace FormIt \(`.axm`\), který chcete přepsat. Záložní soubory aplikace FormIt \(`.axmb`\) nelze přepisovat.
 
 
 

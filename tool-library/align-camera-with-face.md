@@ -1,8 +1,8 @@
-# 將相機與面對齊
+# Zarovnání kamery s plochou
 
-快速對齊相機以直接查看任何面。
+Kameru můžete rychle zarovnat tak, aby se dívala přímo na libovolnou plochu.
 
-選取單一面，然後按一下右鍵以存取關聯式功能表。在功能表頂部尋找「將相機與面對齊」，或使用快速鍵 AF：
+Vyberte jednu plochu a poté kliknutím pravým tlačítkem zobrazte místní nabídku. V horní části nabídky vyhledejte položku Zarovnat kameru s plochou nebo použijte klávesovou zkratku AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
 

@@ -1,13 +1,13 @@
-### 布林作業
-使用「接合」和「切割」作業來變更物件。
+### Booleovské operace
+Pomocí operací Spojit a Oříznout můžete měnit objekty.
 
-#### 接合
-若要執行聯集，請選取要進行布林作業的所有物件。然後，從關聯式功能表中選取**「接合」工具**。幾何圖形的相交/重疊部分將合為一個物件。
+#### Spojit
+Chcete-li provést spojení, vyberte všechny objekty, u kterých chcete provést booleovskou operaci. Poté v místní nabídce vyberte **nástroj Spojit**. Protínající se / překrývající se části geometrie se spojí do jednoho objektu.
 
 ![](images/join tool.png)
 
-#### 切割
-若要從既有幾何圖形減去體積，請先選取原始物件。接下來，選取要從中減去的物件。然後從關聯式功能表中選取**「切割」工具**。相交的體積將從原始物件中減去。
+#### Oříznout
+Chcete-li oddělit objemy od existující geometrie, vyberte nejprve původní objekt. Dále vyberte objekt, který chcete oddělit. Poté v místní nabídce vyberte **nástroj Oříznout**. Protnutý objem se oddělí od původního objektu.
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

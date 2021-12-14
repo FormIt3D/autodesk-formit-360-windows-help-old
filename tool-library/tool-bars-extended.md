@@ -1,77 +1,77 @@
-### 延伸工具列
+### Rozšířené panely nástrojů
 ---
 
-#### 動作工具列
-工具列位於螢幕頂端。此處的工具可協助您建立、編輯和共用內容。
+#### Panel nástrojů Akce
+Tento panel nástrojů se nachází v horní části obrazovky. Nástroje, které zde naleznete, vám pomohou vytvářet, upravovat a sdílet obsah.
 ![](images/Tool Bar-All.PNG)
 
-**1. 資源庫功能表**
+**1. Nabídka Galerie**
 ![](images/Tool Bar-Gallery.PNG)
-- 新建草圖、開啟草圖、儲存草圖、匯入或匯出檔案。
+- Nový náčrt, otevření náčrtu, uložení náčrtu, import nebo export souborů.
 
-**2. 退回重做**
+**2. Zpět Znovu**
 ![](images/Tool Bar-Undo Redo.PNG)
-- 按一下可退回或重做最近的動作。
+- Kliknutím vrátíte zpět nebo znovu provedete poslední akce.
 
-**3. 選取和測量**
+**3. Výběr a měření**
 ![](images/Tool Bar-Select.PNG)
-- 選取篩選：按一下可從選取工具中選擇篩選出物件類型 \(邊、面、實體、群組\) 的選項。
-- 測量工具：按一下可選擇線性或角度測量工具。
+- Filtr výběru: Kliknutím vyberte z nástroje pro výběr možnosti pro filtrování typů objektů (hrany, plochy, tělesa, skupiny).
+- Nástroje měření: Kliknutím vyberte nástroj pro lineární nebo úhlové měření.
 
-**4. 建立和修改工具**
+**4. Nástroje pro vytváření a úpravy**
 ![](images/Tool Bar-Create.PNG)
-- 草圖工具：按一下可顯示建立工具 \(線、弧、雲形線、矩形、圓\) 的功能表，這些工具可協助您繪製造型。
-- 基本圖元：按一下可顯示能放置在場景中的基本 3D 造型 \(立方體、圓頂、角錐、圓柱、屋頂\) 功能表。
-- 進階塑型工具：按一下可使用布林切割或接合、覆蓋、掃掠或斷面混成等作業。
-- 群組：按一下可找出用於群組物件的工具。
+- Nástroje náčrtu: Kliknutím zobrazíte nabídku nástrojů pro vytváření (úsečka, oblouk, spline, obdélník, kružnice), s nimiž můžete kreslit různé tvary.
+- Základní tělesa: Kliknutím zobrazíte nabídku základních 3D tvarů (krychle, kupole, jehlan, válec, střecha), které můžete umístit do scény.
+- Pokročilé nástroje modelování: Kliknutím použijte booleovské oříznutí nebo spojení, krytí, tažení nebo šablonování.
+- Skupiny: Kliknutím vyhledejte nástroje pro seskupování objektů.
 
-**5. 位置和分析工具**
+**5. Nástroje pro umístění a analýzu**
 ![](images/Tool Bar-Analysis.PNG)
-- 位置：搜尋位置，並將衛星影像匯入至草圖。
-- 日光與陰影：設定時間和日期可檢視陰影，並開始對建築進行日光分析。
-- 能源分析：按一下可對建築執行計算，以決定其能源使用。
+- Umístění: Vyhledejte umístění a importujte do náčrtu satelitní snímky.
+- Slunce a stíny: Nastavte čas a den k zobrazení stínů a spusťte analýzu slunečního záření pro budovu.
+- Energetická analýza: Kliknutím proveďte výpočty pro budovu a určete její spotřebu energie.
 
-**6. 使用者識別**
+**6. Identita uživatele**
 ![](images/Tool Bar-User Identity.PNG)
-- 設定：設定應用程式和草圖設定以及視覺型式，並執行模型診斷。
-- 觸控模式：使用手指、手寫筆、滑鼠和鍵盤，透過啟用觸控的 Windows 設備進行塑型和導覽。
-- 協同合作：啟動工作階段、加入工作階段或邀請其他人協同合作。
-- 登入 Autodesk360：免費使用 Autodesk 360 雲端服務儲存和共用草圖。
-- 說明：使用資訊工具進一步了解 FormIt。
+- Nastavení: Zadejte nastavení aplikace a náčrtu spolu s vizuálním stylem a proveďte diagnostiku modelu. 
+- Režim dotykového ovládání: V zařízeních se systémem Windows s podporou dotykového ovládání můžete vytvářet modely a provádět navigaci v modelu pomocí prstu, pera, myši a klávesnice.
+- Spolupráce: Zahajte relaci, připojte se k relaci nebo pozvěte ostatní ke spolupráci.
+- Přihlášení ke službě Autodesk 360: K ukládání a sdílení náčrtů můžete zdarma využívat cloudové služby Autodesk 360.
+- Nápověda: Získejte další informace o aplikaci FormIt.
 
-#### 導覽工具列
-請參閱[導覽場景](../formit-introduction/navigating-the-scene.md)。
+#### Panel nástrojů Navigace
+Viz část [Navigace ve scéně](../formit-introduction/navigating-the-scene.md).
 
-#### 選項板列
-選項板列會顯示在螢幕的右側。按一下這些圖示之一可開啟側邊選項板，顯示建築性質、材料、內容資源庫和協同合作工具。
+#### Panel palet
+Panel palet naleznete v pravé části obrazovky. Kliknutím na jednu z těchto ikon otevřete boční paletu, ve které můžete zobrazit vlastnosti budovy, materiály, knihovnu obsahu a nástroje pro spolupráci.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. 性質** 開啟此選項板，可檢視草圖的位置、總面積和樓板面積比。
+**1. Vlastnosti** Tuto paletu otevřete, chcete-li zobrazit umístění, hrubou plochu a poměry plochy podlaží pro náčrt.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. 材料** 使用此選項板可建立或套用材料。
+**2. Materiály** Pomocí této palety můžete vytvářet nebo používat materiály.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. 圖層** 使用此選項板可建立和管理圖層，並將選取的物件指定到不同的圖層。
+**3. Hladiny** Pomocí této palety můžete vytvářet a spravovat hladiny a přiřazovat vybrané objekty k různým hladinám.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. 場景** 使用此選項板可建立、管理和播放場景。
+**4. Scény** Tato paleta slouží k vytváření, správě a přehrávání scén.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. 視覺型式** 使用此選項板可透過控制陰影、表面、邊和環境來編輯檢視草圖的方式。<br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Vizuální styly** Tato paleta slouží k úpravám zobrazení náčrtu pomocí řízení stínů, povrchů, hran a prostředí. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. 群組樹** 使用此選項板可檢視每個群組內的群組和物件。
+**6. Strom skupin** Tato paleta slouží k zobrazení skupin a objektů v rámci jednotlivých skupin.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** 使用此選項板可載入和管理在 Dynamo Studio 中建立的計算模型。
+**7. Dynamo** Tato paleta slouží k načtení a správě výpočetních modelů vytvořených v aplikaci Dynamo Studio.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. 樓層** 使用此選項板可顯示樓層，並將樓層加入至建築物件。
+**8. Podlaží** Tato paleta slouží k zobrazení a přidávání podlaží k objektům budov.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. 內容資源庫** 使用內容資源庫可儲存可重複使用的內容 \(例如家具\)。
+**9. Knihovna obsahu** Pomocí knihovny obsahu můžete ukládat opakovaně použitelný obsah, například nábytek.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. 退回管理員** 使用此選項板可檢視每個使用者在協同合作時的動作。
+**10. Správce vrácení zpět** Tato paleta slouží k zobrazení akcí jednotlivých uživatelů při spolupráci.
 ![](./images/Palette Bar-Undo Manager.PNG)

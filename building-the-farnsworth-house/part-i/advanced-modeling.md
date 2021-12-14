@@ -1,108 +1,108 @@
-# 進階塑型
+# Pokročilé modelování
 
-在范斯沃斯別墅的練習中，我們專注於基本塑型工具，例如草圖繪製、拖曳面、移動、陣列和偏移面。我們也討論了涉及群組、圖層、材料和樓層的基本工作流程。在本節中，我們將向您介紹**掃掠**和**圓角**進階塑型工具
+V našich cvičeních s domem Farnsworth House jsme se zaměřili na základní nástroje modelování, jako jsou náčrty, přetažení plochy, posun, pole a odsazení plochy. Také jsme se zabývali základními pracovními postupy zahrnujícími skupiny, hladiny, materiály a úrovně. V této části vám představíme pokročilé nástroje modelování **Tažení** a **Zaoblení**.
 
-如果您未完成上一節，請從 [FormIt Primer 資料夾](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)下載並開啟 **farnsworth05.axm** 檔案。
+Pokud jste nedokončili poslední část, stáhněte a otevřete soubor **farnsworth05.axm** ze složky [FormIt Primer](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-## 掃掠
+## Tažení
 
-使用「掃掠」工具沿屋頂建立簷板。
+Pomocí nástroje Tažení vytvořte římsu podél střechy.
 
-1. 使用**矩形 \(R\)** 工具，在屋頂的任意一角建立一個 **6" 高 x 4 5 8"** 的輪廓。
+1. Nástrojem **Obdélník \(R\)** vytvořte v libovolném rohu střechy profil **6" x 4 5/8"**.
 
    ![](../../.gitbook/assets/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
 
-2. 建立另一個 **2" x 2"** 的**矩形 \(R\) 輪廓。**
+2. Vytvořte další **obdélníkový \(R\)** profil **2" x 2"**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
 
-3. **按一下**以選取輪廓之間的直線。使用 **Delete** 鍵移除線 - 這會建立單一輪廓。
+3. **Kliknutím** vyberte čáru mezi profily. Stisknutím klávesy **Delete** odstraňte čáru, čímž vytvoříte jeden obrys.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
-4. 從[**「進階塑型」功能表**](../../formit-introduction/tool-bars.md)中選取[**「掃掠」工具 \(SW\)**](../../tool-library/cover-sweep-loft.md)**。**
+4. V [**nabídce Pokročilé modelování**](../../formit-introduction/tool-bars.md) vyberte [**nástroj Tažení \(SW\)**](../../tool-library/cover-sweep-loft.md)**.**
 
    ![](../../.gitbook/assets/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
-5. **「進階幾何圖形」**工具列會顯示在圖元區的左上角，並附上協助文字指示。
+5. V levém horním rohu kreslicí plochy se zobrazí panel nástrojů **Pokročilá geometrie** s pomocnými pokyny.
 
    ![](../../.gitbook/assets/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **按一下**以選取您剛剛繪製的面。這會是您要掃掠的**輪廓**。
+6. **Kliknutím** vyberte plochu, kterou jste právě nakreslili. Bude to **profil**, který chcete táhnout.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_3.png)
 
-7. 選取面後，**「進階幾何圖形」**工具列會改變。現在，系統會提示您為掃掠選取**路徑**。
+7. Panel nástrojů **Pokročilá geometrie** se po výběru plochy změní. Zobrazí se výzva k výběru **trajektorie** pro tažení.
 
    ![](../../.gitbook/assets/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-8. **按一下**以選取**屋頂的頂面**。工具會將面的邊推論為路徑。點選屋頂後就會建立掃掠。
+8. **Kliknutím** vyberte **horní plochu střechy**. Nástroj odvodí hrany plochy jako trajektorii. Po výběru střechy se vytvoří tažení. 
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
-9. 按兩下以選取整個簷板元素。**群組 \(G\)** 簷板。編輯群組並將其命名為**簷板。**
+9. Dvojitým kliknutím vyberete celý prvek římsy. **Seskupte \(G\)** římsu. Upravte skupinu a nazvěte ji **Římsa.**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
-10. 使用**混凝土 &gt; 白色**材料繪製簷板群組，以符合屋頂。將**簷板群組**加到 **roof** 圖層。
+10. Pomalujte skupinu římsy materiálem **Concrete &gt; White**, aby odpovídala střeše. Přidejte **skupinu římsy** do hladiny **střechy**.
 
-您需要調整**柱高度**以在簷板結束。編輯其中一個高柱群組，選取頂面，並將其下拉至正確的高度。您可能還需要調整柱的位置，使柱與樓板齊平。現在是進行這些微調的好時機
+Je třeba upravit **výšku sloupů**, aby končily v římse. Upravte jednu ze skupin vysokých sloupů, vyberte horní plochu a snižte ji na správnou výšku. Také může být nutné upravit umístění sloupů tak, aby byly zarovnány s deskami. Nyní je vhodná doba k provedení těchto menších úprav.
 
-## 圓角
+## Zaoblení
 
-現在，您將學習「圓角」工具建立圓邊，讓家具有更柔和的外觀
+Nyní se naučíte nástrojem Zaoblení vytvářet zaoblenou hranu, který zjemní vzhled nábytku.
 
-1. **關閉** **roof** 圖層，以便可以看到屋內。
-2. 在房屋的東北角建立一個 **4' x 7'** 的**矩形 \(R\)**。選取面，並將它擠出 **1'-6" 高。**
+1. **Vypněte** hladinu **střechy**, abyste viděli dovnitř domu.
+2. V severovýchodním rohu domu vytvořte **obdélník \(R\)** o rozměrech **4' x 7'**. Vyberte plochu a vysuňte ji do výšky **1'-6"**
 
    ![](../../.gitbook/assets/upperterracesketch_20.png)
 
-3. 從[**動作工具列**](../../formit-introduction/tool-bars.md)的**「進階塑型」工具**中選取[**「圓角」工具 \(Fl\)**](../../tool-library/cover-sweep-loft.md)**。**
+3. V části **Pokročilé nástroje modelování** na [**panelu nástrojů Akce**](../../formit-introduction/tool-bars.md) vyberte [**nástroj Zaoblení \(FI\)**](../../tool-library/cover-sweep-loft.md)**.**
 
    ![](../../.gitbook/assets/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-4. 在顯示的對話方塊中，將預設的**圓角**值變更為 1"。
-5. **按一下**床的頂面。選取面後，會自動建立圓角。
+4. V zobrazeném dialogu změňte výchozí hodnotu **zaoblení** na 1".
+5. **Klikněte** na horní plochu postele. Po výběru plochy se automaticky vytvoří zaoblení.
 
    ![](../../.gitbook/assets/upperterracesketch_21.png)
 
-## 群組樹
+## Strom skupin
 
-接下來我們使用**群組樹**，讓您快速執行多個模型管理工作，而不是編輯群組來命名和分類。
+Místo úpravy skupiny kvůli jejímu pojmenování a kategorizaci použijte strom **skupin**, který umožňuje rychle provádět více úloh správy modelu.
 
-1. **按兩下**以選取整張床。將床加到**群組 \(G\)。**
-2. 從右側的選項板中按一下**「群組樹」**圖示。
+1. **Dvojitým kliknutím** vyberte celou postel. Přidejte postel do **skupiny \(G\)**
+2. V pravé části palety klikněte na ikonu **Strom skupin**.
 
    ![](../../.gitbook/assets/groupstree.png)
 
-3. 如果您選取圖元區中的床群組，它將在**「群組樹」**清單中亮顯 \(反之亦同，如果您選取清單中的群組，它將在圖元區中亮顯\)。
-4. 您可以**按兩下**清單中的名稱，將其變更為**床** - 群組的所有實體都會更新 - 在此案例中只有一個。
-5. 在清單中選取**「床」群組**後，您可以從「群組樹」選項板頂部的下拉式清單將品類設定為**「家具」**。
+3. Pokud vyberete na kreslicí ploše skupinu postele, zvýrazní se v seznamu **Strom skupin** \(platí to i naopak, pokud vyberete skupinu v seznamu, zvýrazní se na kreslicí ploše\).
+4. Můžete **dvakrát kliknout** na název v seznamu a změnit jej na **Postel**. Aktualizují se všechny instance skupiny, v našem případě existuje pouze jedna.
+5. S vybranou **skupinou Postel** v seznamu můžete v rozevíracím seznamu v horní části palety Strom skupin nastavit kategorii **Nábytek**.
 
    ![](../../.gitbook/assets/groupstree_palette.png)
 
-## 合併邊、平滑邊和選取篩選
+## Sloučení hran, vyhlazení hran a filtrování výběru
 
-我們現在要隱藏家具不需要的邊緣，讓家具的外觀更平滑、更柔和。
+Nyní na nábytku skryjeme nežádoucí hrany, abychom mu dodali hladší a jemnější vzhled.
 
-1. **按兩下**以編輯群組。**按兩下**以選取整張床。**按一下右鍵**，然後從關聯式功能表中選擇**「合併 \(MG\)」**。
+1. **Dvojitým kliknutím** upravte skupinu. **Dvojitým kliknutím** vyberte celou postel. **Klikněte pravým tlačítkem** a v místní nabídce vyberte **Sloučit \(MG\)**.
 
    ![](../../.gitbook/assets/upperterracesketch_215.png)
 
-2. 使用**「選取篩選」**將窗選約束為只點選**邊。**
+2. Pomocí **filtru výběru** omezte výběr okna pouze na **hrany.**
 
    ![](../../.gitbook/assets/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-3. 從左上角**拖曳滑鼠**到右下角，以執行**窗選**。窗選床每個角的弧和邊。按住 **Ctrl** 或 **Shift** 以加到選集中。
-4. **按一下右鍵**，然後選擇**「平滑邊 \(SE\)」**
+3. **Přetažením myši** z levého horního do pravého dolního rohu proveďte **výběr okna**. Pomocí okna vyberte oblouk a hranu v každém rohu postele. Podržením klávesy **Ctrl** nebo **Shift** je přidáte do sady výběru.
+4. **Klikněte pravým tlačítkem myši** a vyberte položku **Vyhladit hrany \(SE\)**.
 
    ![](../../.gitbook/assets/upperterracesketch_216.png)
 
-5. 若要讓這些邊再次可見，請**按一下**以選取床的頂面，**按一下右鍵**，然後選擇**「刻面平滑邊」**\(UE\)。
+5. Chcete-li tyto hrany znovu zviditelnit, vyberte **kliknutím** horní plochu postele, poté **klikněte pravým tlačítkem myši** a vyberte položku **Oploškovat hladké plochy** \(UE\).
 
    ![](../../.gitbook/assets/upperterracesketch_217.png)
 
-6. 將**「選取篩選」**變更回來，以再次包括面和群組。重新開啟 **roof** 圖層。您的范斯沃斯別墅模型看起來很不錯！
+6. Změňte **filtr výběru** zpět tak, aby opět zahrnoval plochy a skupiny. Znovu zapněte hladinu **střechy**. Váš model domu Farnsworth House pěkně pokročil!
 
    ![](../../.gitbook/assets/upperterracesketch_22.png)
 

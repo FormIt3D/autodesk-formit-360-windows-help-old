@@ -1,41 +1,41 @@
-# 非等比例
+# Nejednotná změna měřítka
 
-**使用「非等比例」以 1 個、2 個或 3 個維度拉伸物件。**
+**Pomocí nejednotné změny měřítka můžete protáhnout objekty v 1, 2 nebo 3 rozměrech.**
 
-選取邊、面、實體、網格或群組的任意組合，然後使用鍵盤快速鍵 **NU** 或從關聯式功能表選項存取「非等比例」：
+Vyberte libovolnou kombinaci hran, ploch, těles, sítí nebo skupin a použijte možnost Nejednotná změna měřítka pomocí klávesové zkratky **NU** nebo z místní nabídky:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**處於作用中狀態後，您會看到一系列掣點，可用於在1 個、2 個或 3 個軸中同時以非等比例地調整物件比例。**
+**Jakmile je tato možnost aktivní, zobrazí se řada uzlů, které lze použít k současnému nastavení nejednotného měřítka objektu v 1, 2 nebo 3 osách.**
 
-為了清晰起見，只繪製面向相機的掣點。如果需要調整另一側的掣點，請圍繞物件環轉。
+Kvůli přehlednosti budou vykresleny pouze uzly směřující ke kameře. Pokud potřebujete upravit uzel na druhé straně, otočte pohled kolem objektu.
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-按一下掣點後，您會看到一系列可編輯的文字方塊，您可以在其中依百分比或距離調整比例：
+Po kliknutí na uzel se zobrazí řada upravitelných textových polí, ve kterých můžete nastavit měřítko podle procent nebo vzdálenosti:
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**尺寸方塊出現後，您可以：**
+**Jakmile jsou pole kót viditelná, můžete provést následující akce:**
 
-* 開始鍵入數字以自動編輯百分比方塊並指定比例係數。
-   * 輸入負數將反轉調整比例的方向。
-* 或按一下以暫時設定掣點位置，然後按一下包含尺寸的方塊以依距離調整比例。
-* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
+* Začněte zadávat číslo, čímž automaticky upravíte pole s procenty a zadáte faktor měřítka.
+   * Zadáním záporného čísla se obrátí směr měřítka.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté klikněte na pole obsahující kótu, u níž se má měřítko měnit podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
-**以其中一個角邊掣點調整比例，會遵循相鄰尺寸的縱橫比：**
+**Při změně měřítka v některém z uzlů rohových hran bude brán ohled na poměr stran sousedních kót:**
 
-* 開始鍵入數字以編輯百分比值。
-* 或按一下以暫時設定掣點位置，然後按一下兩個尺寸方塊的一個以依距離調整比例。
-* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
+* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze dvou polí kót nastavte měřítko podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**同樣地，以其中一個角掣點調整比例，會遵循整個造型的縱橫比，並有效地以等比例調整：**
+**Podobně platí, že při změně měřítka v některém z rohových uzlů bude dodržen poměr stran celého tvaru a změna měřítka bude rovnoměrná:**
 
-* 開始鍵入數字以編輯百分比值。
-* 或按一下以暫時設定掣點位置，然後按一下三個尺寸方塊的一個以依距離調整比例。
-* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
+* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze tří polí kót nastavte měřítko podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

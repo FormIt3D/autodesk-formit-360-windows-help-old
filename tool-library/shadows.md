@@ -1,28 +1,28 @@
-# 日光 + 陰影
+# Slunce a stíny
 
-使用**日光 + 陰影**工具可研究太陽路徑對專案的影響。
+Pomocí nástroje **Slunce a stíny** můžete studovat vliv dráhy slunce na své projekty.
 
-精確陰影研究的第一步是[**設定專案位置**](setting-location.md)。
+Prvním krokem pro přesné studie stínů je [**nastavení umístění projektu**](setting-location.md).
 
-設定位置並選擇性地匯入衛星影像後，請為專案塑型，包括建築環境，以及遮陽元素 \(例如百葉窗和樹\)。
+Po nastavení umístění a volitelném importu satelitního snímku vymodelujte projekt včetně kontextu budov a stínících prvků, jako jsou žaluzie a stromy.
 
-### 「日光 + 陰影」功能表
+### Nabídka Slunce a stíny
 
-在應用程式頂部的「日光 + 陰影」功能表中開啟陰影 \(您也可以在[**視覺型式**](../formit-introduction/tool-bars.md)中啟用陰影，以及調整陰影強度\)：
+Zapněte stíny v nabídce Slunce a stíny v horní části aplikace \(povolit stíny a upravit jejich intenzitu můžete také ve [**vizuálních stylech**](../formit-introduction/tool-bars.md)\):
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-您可以從這裡調整一天當中的時間和一年當中的天。預設年份顯示為 2000 - 不用擔心，這不會影響遮陽研究的準確度。
+Zde můžete upravit denní čas a den v roce. Jako výchozí je zobrazen rok 2000. Nebojte se, na přesnost studie zastínění to nemá vliv.
 
-### 日光編輯器
+### Editor slunce
 
-您也可以從「日光 + 陰影」功能表 \(或使用快速鍵 DR\) 切換「日光編輯器」，此編輯器提供太陽在空間中位置的圖形顯示：
+V nabídce Slunce a stíny můžete také zapnout nebo vypnout Editor slunce \(nebo použijte klávesovou zkratku DR\), který poskytuje grafické zobrazení polohy slunce v prostoru:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* 「日光編輯器」會隨相機移動，因此您可能必須調整縮放層級和/或相機方位，才能讓小工具放在與您所研究的設計相對合理的位置。
-* 抓取圓形掣點以沿著路徑移動太陽，並有效地調整一天中的時間。
-* 從「日光 + 陰影」功能表調整一年中的時間。執行此作業將根據一年中的時間調整圖形太陽路徑的角度和方位。
+* Editor slunce se bude pohybovat s kamerou, takže možná bude nutné upravit úroveň přiblížení nebo orientaci kamery, aby se tato pomůcka dostala do polohy, která je vzhledem ke zkoumanému návrhu smysluplná.
+* Uchopte kruhový uzel a posuňte slunce podél jeho trajektorie a efektivně upravte denní čas.
+* Upravte roční období pomocí nabídky Slunce a stíny. Tím se upraví úhel a orientace grafické dráhy slunce podle ročního období.
 
 
 

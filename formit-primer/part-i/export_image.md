@@ -1,22 +1,22 @@
-# 1.14 - 匯出影像
+# 1.14 – Export obrázku
 
-_在本章中，我們將匯出我們在前幾章建立的剖面透視場景的高解析度影像。_
+_V této kapitole budeme exportovat obrázek perspektivní scény řezu ve vysokém rozlišení, který jsme vytvořili v několika posledních kapitolách._
 
-_雖然您不需要完成本章，但如果您在此之前並未跟隨整個自學課程進行，而現在想要匯出與下圖類似的影像，請從_ _**FormIt 入門手冊第 I 部分資料集**_ _下載並開啟_ _**1.14 – Export Image.axm**檔案。_
+_Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto okamžiku neprováděli celý výukový program a chtěli byste exportovat obrázky podobné těm, které jsou zobrazeny níže, stáhněte si a otevřete soubor_ _**1.14 – Export Image.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-1 - 匯出影像時，圖元區中展示的任何內容，都會與您在 FormIt 中看到的內容幾乎完全一樣地匯出。我們要匯出 **Section** 場景的影像。
+1 – Při exportu obrázku bude vše, co je zobrazeno na kreslicí ploše, exportováno téměř přesně tak, jak je vidět v aplikaci FormIt. V tomto příkladu chceme exportovat obrázek scény **řezu**.
 
-1. 因此，首先我們要按兩下**「場景」選項板**開啟該場景。
-2. 從**主要功能表**列，移至**「檔案」&gt;「匯出」&gt;「本端 \(Ctrl + E\)」**。**「匯出檔案」**視窗將會彈出。
-3. 在新視窗的**「檔案類型選項」**下向下捲動，然後選取**「做為影像」** \(最後一個選項\)。在匯出選項方塊中的**「預置:」**後，將下拉式選項變更為**「4K UHD」**而非**「視埠」**。這會自動將輸出影像的解析度**「尺寸 \(像素\)」**定義為 **3840** x **2160** 像素。
-4. 按一下**「匯出」**，**「指定要儲存至的檔案...」**視窗即會彈出。
-5. 在新視窗中導覽以選擇要儲存影像的位置和名稱，然後按一下**「儲存」**。
+1. Nejprve je tedy nutné tuto scénu dvojitým kliknutím otevřít z **palety Scény**.
+2. Na panelu **Hlavní nabídka** přejděte na **Soubor &gt; Exportovat &gt; Místně \(Ctrl+E\)**. Zobrazí se okno **Exportovat soubor**.
+3. V zobrazeném okně v části **Možnosti typu souboru** přejděte dolů a vyberte možnost **Jako obrázek** \(je to poslední položka\). V poli s možnostmi exportu vyberte v rozevíracím seznamu **Předvolba** místo položky **Výřez** položku **4K UHD**. Tím se automaticky definuje rozlišení výstupního obrázku v části **Rozměry \(px\)** na **3840** x **2160** pixelů.
+4. Klikněte na tlačítko **Exportovat**. Zobrazí se okno **Určit soubor k uložení**.
+5. V zobrazeném okně přejděte do požadovaného umístění a vyberte název, pod kterým chcete obrázek uložit. Poté klikněte na tlačítko **Uložit**.
 
 ![](../../.gitbook/assets/0%20%285%29.png)
 
-2 - 如果您想要將結果與提供的匯出影像進行比較，請移至 **「Farnsworth House Data Set」&gt;「Supporting Files」&gt;「Images」**。
+2 – Pokud chcete porovnat své výsledky s dodaným obrázkem k exportu, přejděte do složky **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; Obrázky**.
 
-![「Farnsworth House Data Set」提供的範例匯出影像。](../../.gitbook/assets/1%20%2816%29.png)
+![Dodaný vzorový obrázek k exportu z datové sady Farnsworth House](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
 

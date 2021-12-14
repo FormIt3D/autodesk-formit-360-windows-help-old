@@ -1,99 +1,99 @@
-# 設定位置
+# Umístění nastavení
 
-設定專案在世界上的位置對於模型和下游分析的準確度非常重要，包括：
+Nastavení umístění projektu na světě je důležité pro přesnost modelu a následných analýz:
 
-* 位置用於匯入衛星影像，該影像可用於追蹤既有的敷地或建築。
-* 位置用於匯入 3D 地形，此地形可用於參考敷地的拓樸資料。
-* 位置用於精確定位天空中的太陽，進而影響陰影的計算。
-* 位置用於日光分析和能源分析，以提供精確的分析計算。
+* Umístění slouží k importu satelitního snímku, který lze použít k trasování existujícího pozemku nebo budovy.
+* Umístění slouží k importu 3D terénu, který lze použít k odkazování na topologická data pozemku.
+* Umístění slouží k přesnému určení polohy slunce na obloze, což ovlivňuje výpočet stínů.
+* Umístění slouží k zajištění přesných analytických výpočtů při provádění analýzy slunečního záření a energetické analýzy.
 
-您必須使用您的 Autodesk 帳戶登入，才能存取「設定位置」對話方塊及其服務。
+Pro přístup k dialogu Nastavit umístění a jeho službám musíte být přihlášeni pomocí účtu Autodesk.
 
-### 開始使用位置
+### Začínáme s umístěním
 
-* 從工具列中的**位置**工具，或使用鍵盤快速鍵 SL，啟動**「設定位置」**對話方塊。
+* Otevřete dialog **Nastavit umístění** pomocí nástroje **Umístění** na panelu nástrojů nebo pomocí klávesové zkratky SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* 首先，在_「設定位置」_視窗左上角的搜尋方塊中輸入專案的位置。
+* Začněte zadávat umístění projektu do vyhledávacího pole v levém horním rohu okna _Nastavit umístění_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* 選取其中一個自動填入的位置選項，或按 Enter 選擇第一個選項
-* 您將會自動拉近到您搜尋的位置
+* Vyberte jednu z automaticky vyplňovaných možností umístění nebo stisknutím klávesy Enter vyberte první možnost.
+* Vyhledané umístění se automaticky přiblíží.
 
-### 「僅設定位置」與「匯入衛星影像和地形」
+### Nastavení pouze umístění vs. import satelitního obrázku a terénu
 
-搜尋到位置後，您可以選擇以下兩個選項之一：
+Po vyhledání umístění si můžete vybrat jednu ze dvou možností:
 
-* **「僅設定位置」**將在檔案中設定位置，而不匯入衛星影像。
-* **「匯入衛星影像和地形」**將設定位置，並且使用您可以規劃的縮放層級和範圍匯入衛星影像和地形。
+* **Nastavit pouze umístění**: Nastaví umístění v souboru bez importu satelitního snímku.
+* **Importovat satelitní snímek a terén**: Nastaví umístění a také importuje satelitní snímek a terén s použitím úrovně přiblížení a rozsahu, které lze konfigurovat.
 
-### 匯入衛星影像
+### Import satelitních snímků
 
-* 按一下**「設定位置」**視窗右上角的**「匯入衛星影像和地形」**。
-* 衛星影像的預覽會顯示在視窗中央，並指示 FormIt 原點相對於影像的顯示位置。
+* V pravé horní části okna **Nastavit umístění** klikněte na možnost **Importovat satelitní snímek a terén**.
+* Ve středu okna se zobrazí náhled satelitního snímku a údaj o tom, kde se vzhledem ke snímku zobrazí počáteční bod aplikace FormIt.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* 將衛星影像拖曳到方形中以調整其位置
-* 當方形區域封裝所需影像後，按一下**「完成匯入」**
-* 影像將匯入以調整比例，正北朝上，中心位於 FormIt 圖元區原點。您可以按兩下匯入的影像並移至[**性質選項板**](../formit-introduction/tool-bars.md)，來變更其透明度和 Z 順序。
+* Přetažením satelitního snímku v rámci čtverce upravte jeho polohu.
+* Jakmile čtvercová oblast obsahuje požadovaný snímek, klikněte na tlačítko **Dokončit import**.
+* Snímek bude importován ve správném měřítku se skutečným severem směrem nahoru a bude vystředěn na počátek kreslicí plochy aplikace FormIt. Průhlednost a pořadí vykreslování importovaného snímku můžete změnit tak, že na něj dvakrát kliknete a přejdete do [**palety Vlastnosti**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### 更新衛星影像
+### Aktualizace satelitního snímku
 
-首次匯入衛星影像後，您可以使用「設定位置」視窗來調整衛星影像的縮放層級或範圍。
+Po prvním importu satelitního snímku můžete v okně Nastavit umístění upravit úroveň přiblížení nebo rozsah satelitního snímku.
 
-* 從工具列存取**「設定位置」**視窗 \(如上所述\)，以再次啟動該視窗。
-* 按一下**「匯入衛星影像和地形」。**
-* 您將看到目前衛星影像的縮放層級和範圍，如 FormIt 圖元區所示
-* 只需調整位置或縮放，然後按一下**「完成匯入」**，如之前所做
-* 將影像重新匯入至圖元區時，影像會移至相對於原始影像位置的正確位置 \(可能不再置中於原點\)：
+* Znovu otevřete okno **Nastavit umístění** z panelu nástrojů, jak je popsáno výše.
+* Klikněte na tlačítko **Importovat satelitní snímek a terén**
+* Zobrazí se aktuální úroveň přiblížení a rozsah satelitního snímku, jak je znázorněno na kreslicí ploše aplikace FormIt.
+* Nyní stačí upravit polohu nebo přiblížení a kliknout na tlačítko **Dokončit import**, stejně jako předtím.
+* Po novém importu snímku na kreslicí plochu se snímek přesune do správného umístění vzhledem k původní poloze obrázku \(již nemusí být vystředěn v počátku\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### 匯入地形
+### Import terénu
 
-FormIt 2021.3 的新功能，當您使用**「設定位置」**對話方塊匯入衛星影像時，也會得到地形。
+Nově se v aplikaci FormIt 2021.3 při importu satelitních snímků pomocí dialogu **Nastavit umístění** importuje také terén.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-匯入地形後，它會放置在預設關閉的圖層上 \(如果您已開始塑型，模型可能會被地形覆蓋\)。
+Terén je při importu umístěn na hladině, která je ve výchozím nastavení vypnutá \(v případě, že jste začali modelovat, by model mohl být zakrytý terénem\).
 
-當您準備好檢視地形時，請勾選方塊以切換「地形」圖層：
+Když budete připraveni zobrazit terén, zapněte hladinu Terén zaškrtnutím políčka:
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### 使用地形
+### Práce s terénem
 
-地形將放置在 FormIt 群組中。按兩下該群組，可進行編輯。
+Terén bude umístěn do skupiny aplikace FormIt. Dvakrát klikněte na skupinu, abyste ji mohli upravit.
 
-在當中，您會找到兩個網格：一個用於側邊和底部，一個用於頂部。
+Uvnitř najdete dvě sítě: jednu pro strany a dolní část a jednu pro horní část.
 
-如果要修改地形，您必須將網格轉換為單一實體物件：
+Pokud chcete upravit terén, je nutné převést sítě na jeden objekt tělesa:
 
-* 選取兩個網格
-* 按一下右鍵，然後選擇「網格變物件」選項，或使用快速鍵 MO
+* Vyberte obě sítě.
+* Klikněte pravým tlačítkem a vyberte možnost Sítě na objekty nebo použijte klávesovou zkratku MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-同時將兩個網格轉換為物件時，FormIt 可以將它們合併為一個實體流形物件，此物件可用於進行實體作業 \(例如布林切割\)。
+Při současném převodu obou sítí na objekt je aplikace FormIt může zkombinovat do tělesa, rozloženého objektu, který lze použít k operacím s tělesy, jako je booleovský řez.
 
-從這裡，您可以結合使用[上視圖](orthographic-views.md)和[正投影相機](orthographic-camera.md)，在水平平面上追蹤敷地邊界，然後將該平面擠出到與地形相交的體積。使用透明[材料](materials.md)有助於您透過切割實體查看地形：
+Zde můžete pomocí kombinace možností [Horní pohled](orthographic-views.md) a [Ortografická kamera](orthographic-camera.md) trasovat hranice pozemku v horizontální rovině a poté tuto rovinu vysunout do objemu, který protíná terén. Použití průhledného [materiálu](materials.md) pomáhá zobrazit terén skrz ořezávané těleso:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-使用「切割幾何圖形」工具，然後在「選取要被切割的實體」選取地形，在「要移除的實體」選取切割體積。
+Použijte nástroj Oříznout geometrii a vyberte terén jako „těleso, do kterého má být proveden řez“, a objem řezání jako „těleso, které má být odebráno“.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-結果將是移除切割實體後的地形，您可以在顯示的空心當中繪製新敷地和基礎。
+Výsledkem bude terén s odebraným tělesem a prázdným místem, kam můžete nakreslit nový pozemek a základy.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-您可以使用[圖層](layers.md)隱藏切割實體，或甚至製作包含和不包含切割的地形複本，以免您在執行實體切割作業之前需要參考原始地形，或變更切割造型。
+Pomocí [hladin](layers.md) můžete těleso oříznutí skrýt nebo dokonce vytvořit kopie terénu s řezem a bez něj pro případ, že byste potřebovali odkazovat na původní terén nebo změnit tvar řezu před provedením operace řezu objemovým tělesem.
 

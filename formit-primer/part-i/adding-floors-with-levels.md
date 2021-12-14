@@ -1,36 +1,36 @@
-# 1.4 - 使用樓層加入樓板
+# 1.4 – Přidání podlaží
 
-_樓層可讓您使用個別樓板基準切割量體，並計算每個建築量體的總面積。檔案轉換為 Revit 時，FormIt 樓層及其自訂名稱將轉換為 Revit 樓層。_
+_Podlaží umožňují „odříznout“ objemy pomocí jednotlivých základen podlaží a vypočítat hrubou plochu na objem budovy. Při převodu souboru do aplikace Revit budou podlaží aplikace FormIt a jejich uživatelské názvy převedeny na úrovně aplikace Revit._
 
-_如果您未完成上一節，請從 **FormIt 入門手冊第 I 部分資料集**下載並開啟 **1.4 - Add Floors with Levels.axm axm** 檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor **1.4 – Add Floors with Levels.axm** z **datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **建立和自訂樓層**
+## **Vytváření a přizpůsobení podlaží**
 
-1 - 建立樓層：
+1 – Vytvoření podlaží:
 
-1. 移至**選項板列**中的**「樓層」選項板**。
-2. 按四次**「+」** \(**「加入樓層」**\) 以建立四個樓層。
-3. 按兩下每個樓層的目前高程，以將其修改為：**0'-0"、2'-2"、4'-6"** 和 **17'-8"**。
-4. 按兩下每個樓層的目前名稱，並將其更名為：**Ground、Terrace、Main Building** 和 **Top of Roof。**
+1. Na **panelu palet** přejděte na **paletu Podlaží**.
+2. Čtyřikrát klikněte na tlačítko **+** \(**Přidat podlaží**\), čímž vytvoříte čtyři podlaží.
+3. Dvakrát klikněte na aktuální výšku jednotlivých podlaží a zadejte následující hodnoty: **0’-0", 2'-2", 4’-6"** a **17’-8"**.
+4. Dvakrát klikněte na aktuální název jednotlivých podlaží a přejmenujte je na: **Přízemí, Terasa, Hlavní budova** a **Vrchol střechy**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**注意事項**：您可以按一下_ _**「+」**_ _圖示，以指定且均勻的間隔距離建立多個樓層。這對於多層建築非常方便_。
+_**Poznámka**: Kliknutím na ikonu_ _**++**_ _můžete vytvořit více podlaží se zadanou a jednotnou vzdáleností od sebe. To je užitečné u vícepodlažních budov_.
 
-## **將樓層套用到幾何圖形**
+## **Použít podlaží na geometrii**
 
-_在前面的步驟中，我們只建立樓層。現在，我們準備好將這些樓層套用到建立好的幾何圖形。_
+_V předchozích krocích jsme pouze vytvořili podlaží. Nyní jsme připraveni použít tato podlaží na geometrii, kterou jsme vytvořili._
 
-1 - 將樓層套用到既有幾何圖形：
+1 – Použití podlaží na existující geometrii:
 
-1. 按兩下整個上方露台量體以選取它。
-2. 在**「性質」選項板**中，按一下**「使用樓層」**。此步驟會預先選取目前與所選幾何圖形相交的所有樓層。
-3. 現在，目前選取的幾何圖形已經套用了三個樓層 \(**Main Building、Terrace** 和 **Ground**\)，但在此練習中，我們只要套用 **Ground**。不勾選**「Main Building」**和**「Terrace」**。
-4. 此程序可確保在總面積計算中只考慮與**「Ground」**相交的區域，這可在**「依樓層的面積」**欄位中看到。
+1. Dvojitým kliknutím vyberte celý objem horní terasy.
+2. Na **paletě Vlastnosti** zaškrtněte políčko **Použít podlaží**. Tímto krokem vyberete všechna podlaží, která aktuálně protínají vybranou geometrii.
+3. Nyní jsou u aktuálně vybrané geometrie použita tři podlaží \(**Hlavní budova, Terasa** a **Přízemí**\), ale v tomto cvičení chceme použít pouze možnost **Přízemí**. Zrušte zaškrtnutí políček **Hlavní budova** a **Terasa**.
+4. Tento postup zajišťuje, že při výpočtu hrubé plochy se bere v úvahu pouze plocha, kterou protíná **Přízemí**. Tato plocha je zobrazena v poli **Plocha podle podlaží**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**注意事項**：如果您在量體上看不到藍色樓層線，請鍵入_ _**DL**_ _以_ _**顯示樓層**。_
+_**Poznámka**: Pokud na objemu nejsou zobrazeny modré čáry podlaží, zadejte_ _**DL**_ _, čímž aktivujete příkaz_ _**Zobrazit podlaží**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

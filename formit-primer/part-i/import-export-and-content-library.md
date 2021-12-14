@@ -1,155 +1,155 @@
-# 1.11 - 匯入包含內容資源庫的模型
+# 1.11 – Import modelů pomocí knihovny obsahu
 
-_在本章中，我們將匯入既有的 SketchUp 模型，並使用 FormIt 內容資源庫來放置已從 Revit 轉換的 OOTB 族群。請注意，使用 FormIt 開啟 SKP 檔案時，它們會隨附完整的材料、群組和元件、圖層 \(標籤\) 和場景。您可能需要進行一些清理，讓專案保持井然有序。_
+_V této kapitole naimportujete existující modely aplikace SketchUp a pomocí knihovny obsahu aplikace FormIt umístíte rodiny, které byly převedeny z aplikace Revit. Všimněte si, že soubory SKP otevírané v aplikaci FormIt obsahují nedotčené materiály, skupiny, komponenty, hladiny a scény. Aby byly vaše projekty přehledné a uspořádané, může být nutné provést určité vyčištění._
 
-_在本章中，我們將使用_**「Farnsworth House Data Set &gt; Supporting Files」**資料夾中的檔案。如果您尚未下載，請務必從 _**FormIt 入門手冊第 1 部分資料集**下載必要的資料夾或整個資料集。_
+_V této kapitole budeme používat soubory ze složky_ **Datová sada Farnsworth House &GT; Podpůrné soubory**. Pokud jste tak dosud neučinili, stáhněte si požadované složky nebo celou datovou sadu z _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **匯入和編輯 SKP 檔案**
+## **Import a úprava souborů SKP**
 
-_首先，我們要進行將已下載內容的一部分加到您個人內容資源庫的程序_。請注意，在本練習中，我們只會使用 SKP 檔案。若要進一步了解如何開啟/匯入其他檔案格式，請參閱[**關於 Formit 2021.2 功能的這篇部落格文章**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available)，以及**本章關於** **擴充的匯入和匯出檔案格式**。
+_Nejprve si projdeme postup přidání části staženého obsahu do vaší vlastní osobní knihovny obsahu_. V tomto cvičení budeme používat pouze soubory SKP. Další informace o otevírání a importu jiných formátů souborů naleznete v [**tomto blogovém příspěvku o funkcích aplikace FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) a v **této kapitole pojednávající o** **pokročilém importu a exportu formátu souborů**.
 
-1 - 務必**儲存 \(Ctrl + S\)** 任何開啟的工作，然後開始新的 FormIt 草圖。若要執行此作業，您可以：
+1 – Nezapomeňte **uložit (Ctrl+S)** jakoukoli otevřenou práci a poté vytvořte nový náčrt FormIt. Postupujte následovně:
 
-1. 在 **Windows 工作列**中的 FormIt 圖示上按一下右鍵，然後按一下 **FormIt** 圖示，在 FormIt 中以新視窗開啟另一個工作階段。這將開啟一個新的 FormIt 視窗，可讓您並行執行兩個 FormIt 工作階段。
-2. 或者，在儲存後，從**主功能表**列的**「檔案」**下拉式清單中啟動**「新建草圖 \(Ctrl + N\)」**。
+1. Otevřete další relaci aplikace FormIt v novém okně tak, že kliknete pravým tlačítkem myši na ikonu aplikace FormIt na **hlavním panelu systému Windows** a pak kliknete na ikonu aplikace **FormIt**. Tím se otevře nové okno aplikace FormIt, ve kterém můžete souběžně spouštět dvě relace aplikace FormIt.
+2. Případně můžete po uložení práce kliknout na příkaz **Nový náčrt \(Ctrl+N\)** v rozevíracím seznamu **Soubor** na panelu **Hlavní nabídka**.
 
 ![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - 在 **Farnsworth House Data Set** 的**「Farnsworth House Data Set &gt; Supporting Files &gt; FormIt」**資料夾內，建立名為 _**Custom FormIt Content** 的新資料夾。_
+2 – Ve složce **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; FormIt** v **datové sadě Farnsworth House** vytvořte novou složku s názvem _**Vlastní obsah FormIt**._
 
-3 - 在該資料夾中**儲存 \(Ctrl + S\)** 您的新草圖。建議您將其命名為：**Ottoman – Barcelona\_Mies.axm**
+3 – **Uložte \(Ctrl+S\)** nový náčrt do této složky. Doporučujeme jej pojmenovat: **Ottoman – Barcelona\_Mies.axm**
 
-4 - 在新的空白 FormIt 檔案中：
+4 – V novém prázdném souboru aplikace FormIt:
 
-1. 從**主功能表列**的**「檔案」**下拉式清單中選取**「匯入」&gt;「本端...」**，以**匯入本端檔案 \(Ctrl + I\)**。
-2. 從 **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** 中選擇 **Ottoman – Barcelona\_Mies.skp**，然後按一下**「開啟」**。
+1. **Importujte místní soubor \(Ctrl+I\)** výběrem možnosti **Importovat &gt; Místně…** v rozevíracím seznamu **Soubor** na panelu **Hlavní nabídka**.
+2. Ve složce **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; SketchUp** vyberte soubor **Ottoman – Barcelona\_Mies.skp** a klikněte na tlačítko **Otevřít**.
 
-_**注意事項：**_ _如果您沒看到_ _**Ottoman – Barcelona\_Mise.skp 檔案**，請確保右下角的檔案格式下拉式清單設定為_ _**「所有支援的格式」**。_
+_**Poznámka:**_ _Pokud nevidíte soubor_ _**Ottoman – Barcelona\_Mise.skp**, zkontrolujte, zda je v rozevíracím seznamu formátu souborů v pravém dolním rohu nastavena možnost_ _**Všechny podporované formáty**._
 
 ![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - 將匯入的群組更名為 **Ottoman - Barcelona\_Mies**。
+5 – Přejmenujte importovanou skupinu na **Ottoman – Barcelona\_Mies**.
 
-6 - 當我們最後將此模型匯入至 Farnsworth House 檔案時，將使用此檔案的**原點**放置該模型。若要控制放置點，我們要移動 **Ottoman - Barcelona\_Mies** 群組，使其角點位於**原點**。若要執行此作業：
+6 – Když tento model nakonec naimportujete do souboru Farnsworth House, bude umístěn pomocí bodu **počátku** tohoto souboru. Chcete-li řídit bod umístění, je třeba přesunout skupinu **Ottoman - Barcelona\_Mies** tak, aby se jeden z jejích rohů nacházel v bodu **počátku**. Postupujte následovně:
 
-1. 確保**「鎖點至格線 \(SG\)」**處於開啟狀態。從**原點**開始繪製一條參考**線 \(L\)** \(X、Y 和 Z 軸相交\)。按一下任意位置以放置第二點。
-2. 選取椅凳群組，然後按一下椅腳左下角以啟動移動指令，如圖所示。_若要進一步了解如何移動物件，請參閱先前的章節。_
-3. 鎖點至我們剛繪製的參考線起點，將群組移至**原點**。
-4. 刪除參考線。
+1. Ujistěte se, že je zapnuta možnost **Přichytit k osnově \(SG\)**. Nakreslete referenční **čáru \(L\)** začínající v bodu **počátku** \(zde se protínají osy X, Y a Z). Kliknutím na libovolné místo umístěte druhý bod.
+2. Vyberte skupinu sedačky a spusťte příkaz pro přesun kliknutím na levý dolní roh nohy, jak je znázorněno níže. _Další informace o přesouvání objektů naleznete v předchozích kapitolách._
+3. Přesuňte skupinu do bodu **počátku** přichycením k počátečnímu bodu referenční čáry, kterou jste právě nakreslili.
+4. Odstraňte referenční čáru.
 
 ![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - 我們建議刪除所有隨 SKP 檔案匯入的不必要圖層，因為此模型的任何圖層最後都會匯入到我們的 Farnsworth House 模型。若要執行此作業，請移至**「圖層」選項板**，選取**「Layer 0」**，然後按一下**「-」**按鈕。這會刪除圖層，但保留其幾何圖形。
+7 – Doporučujeme odstranit všechny nežádoucí hladiny, které byly importovány se souborem SKP, protože všechny hladiny tohoto modelu budou nakonec importovány do našeho modelu domu Farnsworth House. Provedete to tak, že přejdete na **paletu Hladiny**, vyberete položku **Hladina 0** a kliknete na tlačítko **-**. Tím dojde k odstranění hladiny při zachování její geometrie.
 
 ![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**注意事項：**_ _每當您刪除圖層時，該圖層上的任何幾何圖形或群組都會指定為_ _**「無圖層」**，這是尚未指定給圖層之任何物件的預設值。_
+_**Poznámka:**_ _Kdykoli odstraníte hladinu, všechny geometrie nebo skupiny, které byly v této hladině, budou přiřazeny k hodnotě_ _**Žádná hladina**, což je výchozí hodnota pro všechny objekty, které dosud nebyly přiřazeny k nějaké hladině._
 
-## **建立內容縮圖**
+## **Vytvoření miniatury obsahu**
 
-_下一步將設定要用作_ _**內容**_ _縮圖的場景，該縮圖將顯示在_ _**「內容資源庫」選項板**中。_
+_V tomto kroku nastavíte scénu, která bude použita jako miniatura_ _**obsahu**_ _, a která se zobrazí na paletě_ _**Knihovna obsahu**._
 
-1 - 定義縮圖場景的視圖設定：
+1 – Definujte nastavení zobrazení pro scénu miniatury:
 
-1. 在**「視覺型式」選項板**的**「環境」**頁籤中，不勾選所有勾選方塊，並將**「下/背景」**顏色設定為白色。
-2. 確保您的檢視模式已設定為**「透視** **\(VP\)」**。
-3. 使用**視圖導覽工具**拉近，以點選可正確表示物件的相機位置，如下圖所示。
+1. Na kartě **Prostředí** na **paletě Vizuální styl** zrušte zaškrtnutí všech políček a nastavte barvu **Dolní/Pozadí** na bílou.
+2. Ujistěte se, že je režim pohledu nastaven na možnost **Perspektivní** **\(VP\)**.
+3. Pomocí **nástrojů navigace v pohledech** přibližte pohled a vyberte umístění kamery, které dobře zobrazuje objekt, podobně jako na obrázku níže.
 
 ![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - 若要儲存您剛才所做的設定，請建立場景：
+2 – Chcete-li uložit nastavení, které jste právě nastavili, vytvořte scénu:
 
-1. 移至**「場景」選項板**。
-2. 按一下**「+」**按鈕。這會根據您目前的設定建立新場景。
-3. 將其更名為 **Thumbnail**，並確保至少勾選前四個 \(4\) 勾選方塊：**「相機」**、**「圖層」**、**「日光與陰影」**和**「視覺型式」**。其餘場景設定與建立縮圖影像並不太相關。
-4. 您可以隨時使用**「更新場景」**按鈕來重新整理**「場景」**，以符合目前相機視圖和視覺設定。
+1. Přejděte na **paletu scén**.
+2. Klikněte na tlačítko **+**. Tím se vytvoří nová scéna na základě aktuálních nastavení.
+3. Přejmenujte ji na **Miniatura** a zkontrolujte, že jsou zaškrtnuta alespoň první čtyři políčka: **Kamera**, **Hladiny**, **Slunce a stíny** a **Vizuální styly**. Ostatní nastavení scény nejsou pro vytvoření miniatury obrázku důležitá.
+4. Tlačítkem **Aktualizovat scénu** můžete kdykoli aktualizovat **scénu**, aby odpovídala aktuálnímu pohledu kamery a vizuálnímu nastavení.
 
 ![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - 再次**儲存 (Ctrl + S\)** 完成的椅凳模型。請注意，**「內容縮圖」**是從上次儲存模型時從目前視圖建立的，因此請確保您在儲存之前是位於**「縮圖場景」**中。
+3 – Znovu **uložte \(Ctrl+S\)** dokončený model sedačky. Všimněte si, že **miniatura obsahu** je vytvořena z aktuálního pohledu při posledním uložení modelu, proto se před uložením ujistěte, že se nacházíte ve **scéně Miniatura**.
 
-_如果願意，您可以開啟_ _**Farnsworth House Data Set**中儲存在_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _的_ _**Ottoman - Barcelona\_Mies.axm**__檔案，將您的檔案與我們的做比較。_ 
+_Pokud si přejete, můžete svůj soubor porovnat s naším, a to tak, že otevřete soubor_ _**Ottoman - Barcelona\_Mies.axm**_ _uložený ve složce_ _**Datová sada Farnsworth House &GT; Podpůrné soubory &gt; FormIt &gt; Nábytek**_ _v_ _**datové sadě Farnsworth House**.‌_
 
-_您可以使用與椅凳位於同一資料夾中的長椅和椅子 SKP 檔案，依照上述步驟執行。_
+_Stejným postupem jako výše můžete postupovat u souborů SKP lavice a židle umístěných ve stejné složce jako sedačka._
 
-_**秘訣：**_ _若要加快程序，我們建議您使用剛建立為樣板的_ _**Ottoman - Barcelona\_Mies.axm**_ _檔案。塑型時，您可以再次從_ _**「視覺型式」選項板**開啟_ _**「格線」**_ _和_ _**「軸」**_ _。只調整每件家具的_ _**縮圖場景**_ _的相機位置，可確保所有內容模型的_ _**內容縮圖**_ _都保持一致。_
+_**Tip:**_ _Pro urychlení postupu doporučujeme použít právě vytvořený soubor_ _**Ottoman - Barcelona\_Mies.axm**_ _jako šablonu. Při modelování můžete zapnout_ _**rastr**_ _a_ _**osy**_ _z_ _**palety Vizuální styly**. Tím, že pro každý kus nábytku upravíte pouze polohu kamery_ _**scény Miniatura**_ _, zajistíte, že_ _**miniatury obsahu**_ _budou konzistentní pro všechny modely obsahu._
 
-## **連結內容資源庫**
+## **Připojení knihovny obsahu**
 
-_現在回到我們的 Farnsworth House 專案。我們將學習如何連結 **Farnsworth House Data Set** 中的**「FormIt」**資料夾，以從專案內輕鬆存取其所有檔案，包括我們剛建立的_ **Custom FormIt Content** _。_
+_Nyní se vraťme k projektu domu Farnsworth House. Naučíme se, jak propojit složku **FormIt** v **datové sadě Farnsworth House**, abychom měli z našeho projektu snadný přístup ke všem jejím souborům – včetně_ **vlastního obsahu FormIt**_, který jsme právě vytvořili._
 
-1 - 切換回 Farnsworth House 模型或重新開啟 Farnsworth House 模型。_如果您未完成上一章，請從_ _**Farnsworth House Data Set**下載並開啟_ _**1.11 - Import Models with Content Library.axm**_ _檔案。_
+1 – Po přepnutí zpět na model domu Farnsworth House nebo novém otevření modelu domu: _Pokud jste nedokončili poslední kapitolu, stáhněte a otevřete soubor_ _**1.11 – Import Models with Content Library.axm**_ _z_ _**datové sady Farnsworth House**._
 
-1. 開啟**「內容資源庫」選項板**，然後按一下**「連結內容資源庫目錄」**圖示。這會顯示**「偏好」**視窗，並開啟**「內容資源庫」**頁籤。
-2. 按一下**「+」**圖示以**新增內容資源庫位置**。這會顯示第三個視窗，供您導覽電腦的目錄並選取資料夾。
-3. 在 _**Farnsworth House Data Set** 中，導覽資料夾：_ _**Supporting Files > FormIt**。您會在其中找到_包含我們在本章之前建立的 **.axm** 檔案的資料夾。按兩下**「FormIt」**資料夾以選取它。
-4. 按一下**「選取資料夾」**，該資料夾的路徑將顯示在**「資源庫位置 - 本端」**面板中。
-5. 回到**「偏好」**視窗，按一下**「確定」**，連結的資料夾將加到**「內容資源庫」**中。
-6. 若要存取這個新資源庫，請開啟**「內容資源庫」選項板**頂端的下拉式功能表，然後選取**「FormIt」**。
-7. 請注意，連結資料夾中的資料夾結構和所有 **.axm** 檔案都會顯示在**「內容資源庫」選項板**中。按兩下任何子資料夾可存取其中的檔案。
+1. Otevřete **paletu Knihovna obsahu** a klikněte na ikonu **Připojit adresář knihovny obsahu**. Zobrazí se okno **Předvolby** s otevřenou kartou **Knihovna obsahu**.
+2. Kliknutím na ikonu **+** **přidejte nové umístění knihovny obsahu**. Zobrazí se třetí okno, ve kterém můžete procházet počítač a vybrat požadovanou složku.
+3. V _**datové sadě Farnsworth House** přejděte do následujících složek:_ _**Podpůrné soubory &GT; FormIt**. Zde naleznete složky_ obsahující soubory **.axm**, které jsme vytvořili dříve v této kapitole. Dvojitým kliknutím vyberte složku **FormIt**.
+4. Klikněte na tlačítko **Vybrat složku** a cesta k této složce se zobrazí na panelu **Umístění knihovny – místní**.
+5. V okně **Předvolby** klikněte na tlačítko **OK** a připojená složka bude přidána do **knihovny obsahu**.
+6. Chcete-li získat přístup k této nové knihovně, otevřete rozevírací nabídku v horní části **palety Knihovna obsahu** a vyberte možnost **FormIt**.
+7. Struktura složek a všechny soubory **.axm** v připojené složce se zobrazí na **paletě Knihovna obsahu**. Dvojitým kliknutím na jakoukoli podsložku získáte přístup k souborům v ní. 
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**注意事項：**如果您有權存取 **Autodesk Docs** \(先前稱為 Autodesk 360\)，您也可以透過**「內容資源庫」**下拉式功能表存取您可能儲存在該處的檔案。
+**Poznámka:** Pokud máte přístup ke službě **Autodesk Docs** \(dříve známé jako Autodesk 360\), můžete prostřednictvím rozevírací nabídky **Knihovna obsahu** přistupovat také k souborům, které jste si uložili v této službě.
 
-## **放置資源庫的內容**
+## **Umístění obsahu z knihovny**
 
-_現在，我們將在 Farnsworth 模型中放置我們建立的內容項目。_
+_‌Nyní umístíme položky obsahu, které jsme vytvořili, do modelu domu Farnsworth House._
 
-1 - 方便我們可以看到房子內部來放置家具，關閉 **Roof** 圖層並**環轉 \(O\)** 透視視圖，直到您看到整個主建築樓板。
+1 – Abychom viděli dovnitř domu a mohli umístit nábytek, vypněte hladinu **Střecha** a nástrojem **Orbit \(O\)** otáčejte perspektivní pohled, dokud se nezobrazí celé podlaží hlavní budovy.
 
-2 - 回到**「內容資源庫」選項板**，確保下拉式清單仍設定為**「FormIt」**。在放置我們剛剛製作的任何家具之前，我們需要先放置房屋的「核心」：
+2 – Na **paletě Knihovna obsahu** zkontrolujte, zda je rozevírací seznam stále nastaven na možnost **FormIt**. Před umístěním nábytku, který jsme právě vyrobili, musíme umístit „jádro“ domu:
 
-1. 按一下名為 **Other** 的資料夾以開啟它，然後按一下**「Farnsworth House - Core」**縮圖以選取它。
-2. 將滑鼠懸停在 **Main Building Floor** 上，按一下樓板的**形心**來放置**核心**。
-3. 若要向上回到「FormIt」資料夾，請使用**「向上導覽」**按鈕。
+1. Kliknutím na složku s názvem **Další** ji otevřete a poté klikněte na miniaturu **Farnsworth House – jádro**, abyste ji vybrali.
+2. Přesuňte ukazatel myši nad **podlaží hlavní budovy** a kliknutím na **těžiště** podlaží umístěte **jádro**.
+3. Pro návrat zpět do složky FormIt klikněte na tlačítko **Přejít nahoru**.
 
 ![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - 將相機設定為**「正投影 \(VO\)」** **「上視圖 \(VT\)」**，然後關閉**Main Building Floor**以查看**Plan Image**。請參閱先前的章節，進一步了解**「視圖」**和**「圖層」**設定。
+3 – Nastavte kameru na možnost **Ortografické \(VO\)**, **Horní pohled \(VT\)** a poté kliknutím na **podlaží hlavní budovy** zobrazte **obrázek půdorysu**. Další informace o nastavení **pohledů** a **hladin** naleznete v předchozích kapitolách.
 
-4 - 選取**「Farnsworth House - Core」**並移動它，直到與 Plan Image 緊密對齊。
+4 – Vyberte objekt **Farnsworth House – jádro** a přesuňte jej tak, aby byl co nejvíce zarovnán s obrázkem půdorysu.
 
 ![](../../.gitbook/assets/8%20%281%29.png)
 
-_**注意事項：**_ _移動_ _**核心**時，請小心不要變更其高程。您可以使用_ _**Shift**_ _鍵限制永遠只沿其中一個軸移動，或者只在_ _**「Plan Image」** \(而非_ _**核心**_ _本身\) 上按一下，以確保_ _**「移動 \(M\)」**_ _指令的起點和終點參考點都位於相同的高度。請參閱先前的章節，進一步了解__**移動 \(M\)**__工具。_ 
+_**Poznámka:**_ _Při přesouvání_ _**jádra** neměňte jeho výšku. Buď můžete pomocí klávesy_ _**Shift**_ _omezit pohyb vždy podél jedné z os, nebo můžete zajistit, aby počáteční i koncový referenční bod příkazu_ _**Přesunout \(M\)**_ _byly ve stejné výšce, a to kliknutím pouze na_ _**obrázek plánu**, nikoli na samotné_ _**jádro**__. Další informace o nástroji_ _**Přesunout \(M\)**_ _naleznete v předchozích kapitolách.‌_
 
-## **放置資源庫的家具**
+## **Umístění nábytku z knihovny**
 
-1 - 現在，您可以使用類似的程序，從**「Custom FormIt Content」**資料夾放置您在本章之前建立的家具。如果您未轉換所有三個 \(3\) SKP 檔案，可以改用**「Furniture」**資料夾中的預製版本。
+1 – Pomocí podobného postupu nyní můžete umístit nábytek, který jste vytvořili dříve v této kapitole, ze složky **Vlastní obsah FormIt**. Pokud jste nepřevedli všechny tři \(3\) soubory SKP, můžete místo nich použít předpřipravené verze ve složce **Nábytek**.
 
-_**注意事項：**_
+_**Poznámky:**_
 
-* _重新開啟_ _**Main Building Floor**_ _圖層，以便您可以直接在_ _**Main Building Floor** 的表面放置家具。_
-* _放置新物件時，請使用 __**Tab**__ 鍵在放置平面之間切換。_
-* _放置新物件時，請使用__**空格鍵**__在放置前旋轉 90 度。_
+* _Znovu zapněte hladinu_ _**Podlaží hlavní budovy**__, abyste mohli umístit nábytek přímo na povrch_ _**podlaží hlavní budovy**._
+* _Při umísťování nového objektu můžete pomocí klávesy_ _**Tab**_ _přepínat mezi rovinami umístění._
+* _Při umísťování nového objektu jej před umístěním můžete pomocí_ _**mezerníku**_ _otáčet v 90°°intervalech._
 
 ![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - 同樣地，請瀏覽**「內容資源庫範例」**以放置 OOTB 內容。請注意，這當中有多個範例有幾種不同的大小可供選擇，類似於 Revit 中的「族群類型」。
+2 – Podobně můžete prozkoumat **ukázky knihovny obsahu** a umístit obsah dodávaný s aplikací FormIt. Všimněte si, že řada objektů má na výběr několik různých velikostí, podobně jako je tomu u typů rodin v aplikaci Revit.
 
 ![](../../.gitbook/assets/10%20%286%29.png)
 
-## **使用比例工具**·
+## **Použití nástroje Měřítko**
 
-1 - 使用您剛才學到的技巧，從**「Farnsworth House Data Set > FormIt > Planting」**資料夾放置一個 **tree\_pine** 元件實體。
+1 – Pomocí technik, které jste se právě naučili, umístěte jednu instanci komponenty **tree\_pine** ze složky **Datová sada Farnsworth House &gt; FormIt &gt; Výsadba**.
 
-1. 放置後，選取群組並將其更名為 **Tree**。按一下右鍵以存取**關聯式功能表**，然後選擇**「非等比例 \(NU\)」**。
-2. 按一下其中一個**「非等比例」按鈕**，依需要重調 **Tree** 群組的大小並變更比例。
+1. Po umístění vyberte skupinu a přejmenujte ji na **Strom**. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte položku **Nejednotná změna měřítka \(NU\)**.
+2. Kliknutím na některé z tlačítek nástroje **Nejednotná změna měřítka** změňte velikost a proporce skupiny **Strom** podle potřeby.
 
 ![](../../.gitbook/assets/11%20%283%29.png)
 
 ![](../../.gitbook/assets/12%20%282%29.png)
 
-_**注意事項：**_ _同樣地，_ _**比例 \(SC\)**_ _工具也可用來均勻重新調整整個模型或群組的比例。_
+_**Poznámka:**_ _Podobně lze pomocí nástroje_ _**Měřítko (SC)**_ _jednotně změnit měřítko celého modelu nebo skupiny._
 
-2 - 複製此群組並在房屋周圍放置多棵樹，使用**比例工具**建立各種大小和比例。
+2 – Tuto skupinu zkopírujte a umístěte kolem domu více stromů, přičemž pomocí **nástrojů Měřítko** vytvořte různé velikosti a proporce.
 
 ![](../../.gitbook/assets/13%20%286%29.png)
 
-_**注意事項：**_ _即使樹都是同一群組的所有實體，我們還是可以將它們的_ _**比例**_ _調整為不同大小。在群組編輯模式之外使用_ _**比例 \(SC\)**_ _和_ _**非等比例 \(NU\)**_ _，可讓您修改同群組的個別實體。如果我們編輯其中一個_ _**Tree**_ _群組並修改其幾何圖形或材料，所有群組實體都還是會更新，但每個群組實體也會保留它目前的自訂比例。請試試看！_
+_**Poznámka:**_ _Přestože jsou všechny stromy instancemi stejné skupiny, mohli jsme je_ _**škálovat**_ _na různé velikosti. Pomocí nástrojů_ _**Měřítko \(SC\)**_ _a_ _**Nejednotná změna měřítka \(NU\)**_ _mimo režim úprav skupin můžete upravit jednotlivé instance stejné skupiny. Pokud bychom upravili některou ze skupin_ _**Strom**_ _a upravili její geometrii nebo materiál, všechny instance skupin by byly stále aktualizovány, ale každá z nich by si zachovala své aktuální přizpůsobené měřítko. Vyzkoušejte to!_
 
-### **保持模型整齊**
+### **Udržujte model v uspořádaný**
 
-_請記住，務必將加到圖層中的內容排序。在此範例中，我們建議將核心和所有家具放在_ _**Main Building Floor**_ _圖層上，並將樹放在名為_ _**Planting**的新圖層上。_
+_Nezapomeňte přidaný obsah vždy roztřídit do hladin. V tomto příkladu doporučujeme umístit jádro a veškerý nábytek do hladiny_ _**Podlaží hlavní budovy**_ _a stromy do nové hladiny s názvem_ _**Výsadba**._
 

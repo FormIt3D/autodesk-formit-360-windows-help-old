@@ -1,75 +1,75 @@
-# 1.10 - Dynamo 的計算群組
+# 1.10 – Výpočetní skupiny v aplikaci Dynamo
 
-_在本章中，我們將利用_ [_**Dynamo**_](http://dynamobim.org/) _的運算能力，來放置和修改與 OOTB Dynamo 圖表範例相關的彈性群組。_
+_V této kapitole využijeme výpočetní výkon aplikace_ [_**Dynamo**_](http://dynamobim.org/) _k umístění a úpravám flexibilních skupin, které jsou vázány na ukázky grafů aplikace Dynamo._
 
-_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.10 - Computational Groups with Dynamo.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.10 – Computational Groups with Dynamo.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-_您可以_ [_**在此處進一步了解**_](http://formit.autodesk.com/page/formit-dynamo) _FormIt 與 Dynamo 如何協同合作以進行計算設計工作流程。_
+_Další informace o tom, jak aplikace FormIt a Dynamo spolupracují při pracovních postupech výpočetních návrhů_ [_**naleznete zde**_](http://formit.autodesk.com/page/formit-dynamo)_._
 
-## **建立下方露台樓梯**
+## **Vytvoření schodiště dolní terasy**
 
-1 - 確保 **Lower Terrace、Main Building Floor** 和 **Plan Image** 圖層都已開啟，因為我們將在此處加入樓梯。
+1 – Ujistěte se, že jsou zapnuty hladiny **Dolní terasa, Podlaží hlavní budovy** a **Obrázek půdorysu**, protože to je místo, kam se chystáte přidat schodiště.
 
-2 - 放置連結到其中一個 OOTB Dynamo 範例的樓梯群組：
+2 – Umístění skupiny schodiště vázané na jednu z ukázek ze složky Dynamo Samples:
 
-1. 在選項板列中開啟**「Dynamo」選項板**。您應該會在**「Dynamo Samples」**目錄中看到一些內建的 Dynamo 物件
-2. 按一下 **Stairs** Dynamo 範例，將其帶入模型空間。FormIt 將在幕後執行圖表，並從此圖表產生樓梯幾何圖形。
-3. 將游標移到圖元區上，樓梯載入後，樓梯幾何圖形的殘影預覽現在會與滑鼠一起移動。將游標移到圖元區上靠近露台的位置，然後按一下以放置樓梯。按 **Esc** 以清除選取。請注意，放置樓梯後，**「性質」選項板**會自動開啟。
+1. Na panelu palet otevřete **paletu Dynamo**. V adresáři **Dynamo Samples** byste měli vidět několik předpřipravených objektů aplikace Dynamo.
+2. Kliknutím na ukázku aplikace Dynamo **Stairs** ji přeneste do modelového prostoru. Aplikace FormIt spustí graf na pozadí a vygeneruje z něj geometrii schodiště.
+3. Přesuňte kurzor nad kreslicí plochu a po načtení schodiště se nyní vedle kurzoru bude pohybovat stínovaný náhled geometrie schodiště. Přesuňte kurzor nad kreslicí plochu poblíž terasy a kliknutím schodiště umístěte. Stisknutím klávesy **Esc** zrušte výběr. Všimněte si, že po umístění schodiště se automaticky otevře **paleta vlastností**.
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**注意事項：**_[_**您也可以連結包含 Dynamo 圖表的本端目錄**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)_，並執行您自己的本端 Dynamo 圖表，就像這些範例一樣。_
+_**Poznámka:**_ [_**Můžete také připojit místní adresáře**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _obsahující grafy Dynamo a spouštět vlastní místní grafy Dynamo stejně jako tyto ukázky._
 
-3 - 更新樓梯標註：
+3 – Aktualizace kót schodiště:
 
-1. 選取樓梯群組後，修改**「性質」選項板**底部 Dynamo **輸入**區段下可用的輸入，以符合下圖所示。透過 Dynamo 腳本建立的大多數群組在選取後，會在性質中包含 Dynamo 區段。
-   * Add Top Landing \(加入頂部平台\) = False
-   * Add Middle Landing \(加入中間平台\) = False
-   * Add Bottom Landing \(加入底部平台\) = False
-   * Floor-to-Floor Height \(樓板與樓板之間的高度\) = 2.6
-   * Stair Width \(樓梯寬度\) = 12
-   * Riser Height \(豎板高度\) = 0.6
-   * Tread Length \(踏板長度\) = 1.25
-   * Tread Overlap \(踏板重疊\) = 0.25
-   * Tread Thickness \(踏板厚度\) = 0.25
-   * Height Between Middle Landings \(中間平台之間的高度\) = \(由於未建立中間平台，因此不相關\)
-   * Middle Landing Length \(中間平台長度\) = \(由於未建立中間平台，因此不相關\)
-   * Top/Bottom Landing Length \(頂部/底部平台長度\) = \(由於未建立任何平台，因此不相關\)
-2. 按一下**「執行」**按鈕，以使用更新的輸入值重新執行 Dynamo 腳本。
-3. 依需要移動群組，將樓梯放置在與 **Plan Image** 相應的正確位置。移動樓梯群組時，請小心不要變更其高程。請參閱前幾章，進一步了解移動模型元素時的技巧和技術。
+1. Vyberte skupinu schodiště a upravte vstupy dostupné v části **INPUTS** aplikace Dynamo v dolní části **palety vlastností** tak, jak je uvedeno níže. Většina skupin vytvořených pomocí skriptů aplikace Dynamo bude mít ve svých vlastnostech po výběru zahrnutou část Dynamo.
+   * Add Top Landing = False
+   * Add Middle Landing = False
+   * Add Bottom Landing = False
+   * Floor-to-Floor Height = 2.6
+   * Stair Width = 12
+   * Riser Height = 0.6
+   * Tread Length = 1.25
+   * Tread Overlap = 0.25
+   * Tread Thickness = 0.25
+   * Height Between Middle Landings = \(není relevantní, protože se nevytváří žádná střední podesta\)
+   * Middle Landing Length = \(není relevantní, protože se nevytváří žádná střední podesta\)
+   * Top/Bottom Landing Length = \(není relevantní, protože se nevytváří žádná střední podesta\)
+2. Kliknutím na tlačítko **Run** znovu spusťte skript aplikace Dynamo s aktualizovanými vstupními hodnotami.
+3. Podle potřeby přesuňte skupinu tak, aby se schodiště nacházelo na správném místě podle **obrázku půdorysu**. Dbejte na to, abyste při přesouvání skupiny schodiště vůbec neměnili její výšku. Další tipy a informace o technikách při přesouvání prvků modelu najdete v předchozích kapitolách.
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**注意事項：**_ _**Floor-to-Floor Height**_ _輸入是樓梯總高度的近似值。_ _**Riser Height**_ _是實際定義樓梯高度的參數。在此範例中，我們將_ _**「Floor-to-Floor Height」**_ _設定為 2.6'，但最後的樓梯高度是 3.0' \(0.6' \(**Riser Height**\) x 5 \(竪板數目\)\)。由於地面與樓板平台頂部之間的跨距為 3'-2"，因此剩餘的 2" 包含在上方竪板中。_
+_**Poznámka:**_ _Vstup_ _**Floor-to-Floor Height**_ _je přibližná hodnota celkové výšky schodiště. Skutečnou výšku schodiště definuje parametr_ _**Riser Height**_ _. V tomto příkladu nastavíme parametr_ _**Floor-to-Floor Height**_ _na hodnotu 2.6’, ale konečná výška schodiště je 3.0’ \(0.6’ \(parametr **Riser Height**\) x 5 \(počet podstupnic\)\). Protože rozpětí mezi zemí a horní stranou terasy činí 3’-2", jsou zbývající 2" obsaženy v horní podstupnici._
 
-## **建立主建築樓梯**
+## **Vytvoření schodiště hlavní budovy**
 
-_在先前的步驟中，我們建立了一個沒有平台的樓梯。現在，我們將建立一個使用上方平台對齊_ _**Main Building Floor** 的樓梯。_
+_V předchozích krocích jsme vytvořili schodiště bez podest. Nyní vytvoříme schodiště s horní podestou, která se zarovná s_ _**podlažím hlavní budovy**._
 
-1 - 首先為我們剛剛建立的樓梯製作複本：
+1 – Začněte vytvořením kopie schodiště, které jsme právě vytvořili:
 
-1. 選取既有樓梯，然後按一下 **Plan Image** 上任意位置以啟動移動指令。這會讓 FormIt 使用 **Plan Image** 的高程做為放置新複本的起始參考高度。按 **Ctrl** 以製作**快速複本**。
-2. 將游標移到主建築靠近露台上方的位置。請注意，現在露台的頂面是新的參考平面。按一下以放置群組。
+1. Vyberte existující schodiště a poté kliknutím kamkoli na **obrázek půdorysu** spusťte příkaz k přesunu. To způsobí, že aplikace FormIt použije výšku **obrázku půdorysu** jako počáteční referenční výšku k umístění nové kopie. Stisknutím klávesy **Ctrl** vytvořte **rychlou kopii**.
+2. Přesuňte kurzor blíže k hlavní budově nad terasou. Všimněte si, že nyní je horní plocha terasy novou referenční rovinou. Kliknutím skupinu umístěte.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**注意事項：**_ _由於_ _**Plan Image**_ _位於_ _**地平面樓層**_ _平面，因此_ _**移動工具**_ _將使用該平面做為其起點的參考。請注意上圖中的__**「在面上」**__工具提示，指示「Plan Image」面已選取為起始參考，__**Lower Terrace Floor**__ 的頂面已選取為結束參考。_
+_**Poznámka:**_ _Protože se_ _**obrázek půdorysu**_ _nachází v rovině_ _**Úroveň terénu**_ _,použije nástroj_ _**Přesunout**_ _tuto rovinu jako referenci pro svůj počáteční bod. V obrázku výše si všimněte popisku_ _**Na ploše**_ _, který označuje, že plocha obrázku půdorysu je vybrána jako počáteční reference a horní plocha_ _**podlaží dolní terasy**_ _je vybrána jako koncová reference._
 
-2 - 使用**設為唯一 \(MU\)** 工具，以便在我們變更此樓梯的 Dynamo 輸入時，它不會影響下方樓梯。依需要重新定位群組，使其接近其最終位置 - 我們稍後將對此進行微調。您可以切換 **Lower Terrace** 圖層可見性查看下方平面以協助定位，但同樣地，在移動新樓梯時，請小心不要變更其高程。
+2 – Použijte nástroj **Vytvořit jedinečné \(MU\)**, abyste zajistili, že když změníte vstupy aplikace Dynamo tohoto schodiště, nebude to mít vliv na dolní schodiště. Podle potřeby skupinu přemístěte tak, aby se blížila svému konečnému umístění – později to doladíme. Viditelnost hladiny **Dolní terasa** můžete přepnout, aby se lépe zobrazil půdorys, který vám pomůže s umístěním, ale opět dávejte pozor, abyste při přesouvání nezměnili výšku nového schodiště.
 
-3 - 在**「性質」選項板**中，如下所示更新 **Dynamo 輸入**，並再次執行腳本。
+3 – Na **paletě vlastností** aktualizujte **vstupy aplikace Dynamo**, jak je znázorněno níže, a spusťte skript znovu.
 
-* Add Top Landing \(加入頂部平台\) = True
-* Floor-to-Floor Height \(樓板與樓板之間的高度\) = 2.333
-* Riser Height \(豎板高度\) = 0.466
-* Tread Length \(踏板長度\) = 1.5
-* Top/Bottom Landing Length \(頂部/底部平台長度\) = 2.5
+* Add Top Landing = True
+* Floor-to-Floor Height = 2.333
+* Riser Height = 0.466
+* Tread Length = 1.5
+* Top/Bottom Landing Length = 2.5
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**注意事項：**_ _如果您將_ _**「Add Bottom Landing」**_ _設定為_ _**「True」**_ _，並重新執行腳本，則底部平台的頂面應與_ _**Lower Terrace Floor** 的頂面對齊。發生此情況的原因是 \(與先前的樓梯不同\)，我們調整了 __**Riser Height**__，讓 __**Floor-to-Floor Height**__ 符合所需的真實高度 \(2'-4"或 2.333'\)。_
+_**Poznámka:**_ _Pokud nastavíte parametr_ _**Add Bottom Landing**_ _na hodnotu_ _**True**_ _a znovu spustíte skript, horní plocha dolní podesty by se měla zarovnat s horní plochou_ _**podlaží dolní terasy**. Děje se tak proto, že (na rozdíl od předchozího schodiště) jsme upravili parametr_ _**Riser Height**_ _tak, aby parametr_ _**Floor-to-Floor Height**_ _odpovídal skutečné požadované výšce \(2’-4” neboli 2.333’\)._
 
-2 - 再將群組重新定位至其最終位置。頂部平台應與 **Main Building Floor** 齊平。
+2 – Znovu přemístěte skupinu do konečné polohy. Horní podesta by měla být zarovnána s **podlažím hlavní budovy**.
 
-3 - 完成樓梯前，請對樓梯加入 **Stone - Travertine** 材料以與樓板相符。若要進一步了解如何套用材料，請參閱先前的章節。
+3 – Chcete-li schodiště dokončit, přidejte k němu materiál **Stone – Travertine**, aby se shodoval s materiálem podlaží. Další informace o použití materiálů naleznete v předchozích kapitolách.
 

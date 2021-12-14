@@ -1,34 +1,34 @@
-# 選取
+# Výběr
 
-## 直接選取
+## Přímý výběr
 
-若要**選取頂點、邊或面**，請將游標懸停在物件上，然後按一下以選取它。
+Chcete-li **vybrat vrchol, hranu nebo plochu**, přesuňte ukazatel myši nad objekt a kliknutím jej vyberte.
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-若要**選取整個物件**，或物件以及任何貼附至該物件的物件，請按兩下該物件。
+Pokud chcete **vybrat celý objekt** nebo objekt a vše, co je k němu připojeno, dvakrát klikněte na objekt.
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-您也可以按住 Ctrl 或 Shift，並在目前選取範圍中加入或移除元素。
+Můžete také podržet klávesu Ctrl nebo Shift a přidat prvky do aktuálního výběru nebo je z něj odebrat.
 
-## 選取篩選
+## Filtrování výběru
 
-對於面積或套索選取 \(參閱下方\)，您可以根據類型篩選選取。
+U výběru plochy nebo nepravidelného výběru \(viz níže\) můžete filtrovat výběr podle typu.
 
-如果您在非常接近的位置有混合的幾何圖形類型，而且您想要使用面積或套索選取來選取一個大範圍，但只擷取特定類型的幾何圖形，同時排除其他幾何圖形，這會特別有用。
+To je užitečné zejména v případě, kdy máte v těsné blízkosti různé typy geometrií a chcete pomocí výběru plochy nebo nepravidelného výběru obsáhnout širokou síť, ale přitom získat pouze určitý typ geometrie a ostatní vyloučit.
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## 面積選取/窗選
+## Výběr plochy/okna
 
-若要**同時選取多個幾何圖形部分**，請使用窗選工具。確保未選取任何內容，然後按一下滑鼠並從左向右或從右向左拖曳，以擷取多個部分。
+Chcete-li **vybrat více částí geometrie současně**, použijte nástroj Výběr okna. Ujistěte se, že nemáte nic vybraného, a poté kliknutím a tažením myši zleva doprava nebo zprava doleva vyberte více částí.
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## 套索選取
+## Nepravidelný výběr
 
-若要在同時選取多個幾何圖形部分時**更精確地控制**，請使用套索工具。在空圖元區上按一下右鍵後，您可以從關聯式功能表中選取該圖元區。然後在您所需的選取區域周圍繪製邊界。
+Chcete-li mít **přesnější kontrolu** při výběru více částí geometrie současně, použijte nástroj Nepravidelný výběr. Můžete jej vybrat v místní nabídce po kliknutí pravým tlačítkem myši na prázdnou kreslicí plochu. Poté nakreslete hranici kolem požadované oblasti výběru.
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)

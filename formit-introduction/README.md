@@ -1,9 +1,9 @@
-# FormIt 簡介
+# Úvod do aplikace FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt 簡介
+## Úvod do aplikace FormIt
 
-瞭解 FormIt 的一些基礎知識，包括它可以做什麼、可以在何處取得，以及如何自訂。
+Přečtěte si základní informace o aplikaci FormIt – co umí, kde ji můžete získat a jak si ji můžete přizpůsobit.
 
-如果您已完成初始設定並準備好學習如何使用，請查看 [FormIt 入門手冊](../formit-primer/)。
+Pokud jste dokončili úvodní nastavení a jste připraveni naučit se aplikaci používat, přečtěte si [Příručku k aplikaci FormIt](../formit-primer/).

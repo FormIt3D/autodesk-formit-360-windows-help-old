@@ -1,26 +1,26 @@
-# 第 II 部分 \(即將推出\)
+# Část II \(již brzy\)
 
-## 進階工具
+## Pokročilé nástroje
 
-在此入門手冊的**第 II 部分**中，我們將深入探討 FormIt 提供的一些進階工具。我們將探究如何使用簡單但功能強大的塑型、診斷、分析和互通性工具，來修改和增強下圖的 Encode Campus 模型。
+V **části II** této příručky se budeme zabývat některými pokročilejšími nástroji, které jsou k dispozici v aplikaci FormIt. Prozkoumáme, jak pomocí jednoduchých, ale výkonných nástrojů pro modelování, diagnostiku, analýzu a interoperabilitu upravit a vylepšit níže uvedený model Encode Campus.
 
-如果您是初次使用 FormIt，我們建議您從**第 I 部分**開始，因為**第 II 部分**會假設您已經熟悉 FormIt 的基礎知識。
+Pokud jste s aplikací FormIt dosud nepracovali, doporučujeme začít **částí I**, protože **část II** předpokládá, že již znáte základy aplikace FormIt.
 
-請參閱 **FormIt 簡介**和**工具資源庫**部分，以取得此處討論的特定工具、工具列、選項板和程序的詳細說明。
+Podrobné informace o konkrétních nástrojích, panelech nástrojů, paletách a procesech, které jsou zde popsány, naleznete v částech **Úvod do aplikace FormIt** a **Knihovna nástrojů**.
 
-![Encode Campus 範例模型](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![Vzorový model Encode Campus](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
 
-### 必備條件
+### Předpoklady
 
-開始第 II 部分之前，請先使用〈FormIt 簡介〉區段中的指示下載並安裝 Windows 版 FormIt：[**必備條件和安裝**](../formit-introduction/prerequisites-and-installation.md)。
+Před zahájením části II si stáhněte a nainstalujte aplikaci FormIt pro systém Windows pomocí pokynů uvedených v části Úvod do aplikace FormIt: [**Předpoklady a instalace**](../formit-introduction/prerequisites-and-installation.md).
 
-對於大多數章節，您也需要下載並使用位於以下連結的資料集。
+U většiny kapitol si budete muset stáhnout a použít datový soubor, který naleznete v níže uvedeném odkazu.
 
-_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_**完成大部分自學課程。**如需 FormIt 版本和授權的更多資訊，請造訪_ ****[_**FormIt 網站**_](https://formit.autodesk.com)_\*\*\*\*_。
+_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na webových stránkách aplikace_ ****[_**FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### 資料集
+### Datová sada
 
-上圖的 Encode Campus 是一個設定在城市小塊土地中、虛構的多用途中型專案，包含有組織的圖層、場景、材料，甚至有連結到即時可編輯 Dynamo 腳本的幾何圖形。此資料集包含兩個版本的 Encode Campus 範例模型：一個版本可供您在整個自學課程中修改，另一個版本包含**第 II 部分**描述的所有內容的完成版本，方便您可以自行開啟並探索預期的結果。
+Encode Campus zobrazený výše je fiktivní středně velký víceúčelový projekt zasazený do městského plánu s uspořádanými hladinami, scénami, materiály a dokonce i geometriemi vázanými na upravitelné skripty aplikace Dynamo. Tato datová sada obsahuje dvě verze vzorového modelu Encode Campus: jedna je připravena k tomu, abyste ji mohli ve výukového programu upravovat, a druhá obsahuje dokončenou verzi všeho, co je popsáno v **části II**, takže si ji můžete otevřít a sami prozkoumat očekávané výsledky.
 
-* **FormIt 入門手冊資料集第 II 部分**
+* **Datové sady k příručce Základy aplikace FormIt, část II**
 

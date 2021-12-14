@@ -1,61 +1,61 @@
-# 鎖點和推論
+# Uchopení a odvození
 
-若要讓繪製草圖和塑型更輕鬆，請使用鎖點和推論點來精確建立、放置和編輯幾何圖形。您可以使用您選擇的任何軸，做為在上面繪製或執行其他動作 (例如擠出曲面) 的軸。
+Chcete-li si usnadnit kreslení a modelování, používejte k přesnému vytvoření, umístění a úpravě geometrie body uchopení a odvození. Jakoukoli zvolenou osu můžete použít jako osu pro kreslení nebo provedení jiné akce, například vysunutí povrchu.
 
-**注意事項：**_請參閱_[_鍵盤快速鍵_](../appendix/keyboard-shortcuts.md)_，以取得有關如何加快軟體工具使用速度的資訊。_
+**Poznámka:** _Informace o tom, jak urychlit používání nástrojů softwaru, najdete v části_ [_Klávesové zkratky_](../appendix/keyboard-shortcuts.md)_._
 
-## 鎖點
+## Uchopení
 
-在繪製草圖和塑型時，有幾個鎖點可以協助您。鎖點至物件會自動啟用，您可以鎖點至：
+Při vytváření náčrtů a modelování vám může pomoci několik uchopení. Přichytání k objektům je automaticky povoleno a přichytit se můžete k následujícím prvkům:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| 頂點 | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| 邊。將游標懸停在邊上時，會在端點和中點繪製小紅點。 | ![](../.gitbook/assets/inf4.png) |
-| 邊中點 | ![](../.gitbook/assets/inf5.png) |
-| 面的平面。將游標懸停在面上時，會在面形心處繪製一個小紅點。 如果您要鎖點到該點，這可以讓您輕鬆找到該點。 | ![](../.gitbook/assets/inf6.png) |
-| 面形心 | ![](../.gitbook/assets/inf7.png) |
-| 工作平面 (如果您不鎖點至任何其他平面)。 | ![](../.gitbook/assets/inf8.png) |
-| 圓或弧的中心 | ![](../.gitbook/assets/inf9.png) |
-| 網格頂點 | ![](../.gitbook/assets/inf2.png) |
-| 網格刻面的平面。 | ![](../.gitbook/assets/inf1.png) |
+| Vrcholy | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Hrany. Při umístění kurzoru nad hranu se na koncích a ve středovém bodu zabrazí malé červené tečky. | ![](../.gitbook/assets/inf4.png) |
+| Středové body hrany | ![](../.gitbook/assets/inf5.png) |
+| Rovina plochy. Při umístění kurzoru nad plochu se v těžišti plochy zobrazí malý červený bod. To vám usnadní nalezení bodu, pokud k němu chcete provést přichycení. | ![](../.gitbook/assets/inf6.png) |
+| Těžiště ploch | ![](../.gitbook/assets/inf7.png) |
+| Pracovní rovina, pokud neprovedete přichycení k jinému prvku. | ![](../.gitbook/assets/inf8.png) |
+| Středy kružnic nebo oblouků | ![](../.gitbook/assets/inf9.png) |
+| Vrcholy sítě | ![](../.gitbook/assets/inf2.png) |
+| Rovina plošky sítě. | ![](../.gitbook/assets/inf1.png) |
 
-若要鎖點至格線，您必須從「設定」功能表啟用**「鎖點至格線 (SG)」**切換。
+Chcete-li provést přichycení k osnově, je nutné v nabídce Nastavení povolit možnost **Přichytit k osnově (SG)**.
 
-## 推論軸和點
+## Osy a body odvození
 
-推論點的自動選取一律會啟用，協助您約束幾何圖形的移動。推論軸由工具自動產生，或將滑鼠懸停在邊或點上時產生。推論軸在螢幕上一律都是虛線，以便您知道它們的位置並且易於鎖點。
+Automatický výběr bodů odvození je vždy povolen a pomůže vám omezit pohyb geometrie. Osy odvození se generují automaticky pomocí nástrojů nebo při umístění ukazatele myši nad hrany nebo body. Osy odvození jsou na obrazovce vždy nakresleny čárkovaně, abyste věděli, kde jsou, a mohli k nim snadno provést přichycení.
 
-**軸：**您可以沿 X、Y 或 Z 軸移動幾何圖形。X 軸推論為紅色，Y 軸為綠色，Z 軸為藍色。
+**Osa:** Geometrii lze posunovat podél osy X, Y nebo Z. Osa X je červená, osa Y je zelená a osa Z je modrá.
 
 ![](../.gitbook/assets/inf10.png)
 
-**軸鎖住：**您可以鎖住沿 X、Y 或 Z 軸的移動。在進行軸推論時按住 Shift 鍵，然後移動滑鼠可鎖點並推論到其他元素。
+**Uzamknutí osy:** Pohyb můžete uzamknout podél osy X, Y nebo Z. Když jste na ose odvození, podržte klávesu Shift a poté pohybem myši proveďte přichycení a odvození k jiným prvkům.
 
 ![](../.gitbook/assets/inf13.png)
 
-**平行：**您可以平行於既有元素來繪製或移動幾何圖形。垂直推論為紫色。您需要將游標懸停在要用作平行參考的線上。
+**Rovnoběžné:** Geometrii můžete nakreslit nebo přesunout rovnoběžně s existujícími prvky. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako rovnoběžnou referenci.
 
 ![](../.gitbook/assets/inf14.png)
 
-**垂直：**您也可以垂直於既有元素來繪製或移動幾何圖形。垂直推論為紫色。您需要將游標懸停在要用作垂直參考的線上。
+**Kolmé:** Můžete také nakreslit nebo přesunout geometrii kolmo k existujícím prvkům. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako kolmou referenci.
 
 ![](../.gitbook/assets/inf15.png)
 
-**從點延伸：**您也可以使用推論從點參考延伸。將滑鼠懸停在要用作參考的點上，直到工具提示顯示，然後使用從該點延伸的推論軸。
+**Prodloužení z bodu:** Pomocí odvození můžete také provést prodloužení z referenčního bodu. Přesuňte ukazatel myši nad bod, který chcete použít jako referenci, dokud se nezobrazí popisek nástroje, a poté použijte osu odvození, která vede z tohoto bodu.
 
 ![](../.gitbook/assets/inf16.png)
 
-**圓心**：如果您要鎖點至弧或圓的中心，請將游標懸停在弧或圓上。這會在中心顯示一個小紅點。在您離開弧或圓後，它會保持約 5 秒可見。現在，將游標移至紅點上，以鎖點至中心。
+**Střed kružnice:** Chcete-li provést přichycení ke středu oblouku nebo kružnice, přesuňte ukazatel myši nad oblouk nebo kružnici. Uprostřed se zobrazí malá červená tečka, která zůstane viditelná po dobu asi 5 sekund poté, co kurzor z oblouku nebo kružnice přesunete pryč. Nyní přesuňte kurzor nad tuto červenou tečku a proveďte přichycení ke středu.
 
 ![](../.gitbook/assets/inf17.png)
 
-**真實的弧和雲形線中點**：將游標懸停在圓、弧或雲形線上時，您就可以鎖點至真實的中點。此中點與端點將以小紅點顯示。對弧進行推論時，您也會鎖點至表示弧的直邊的頂點。
+**Skutečné středové body oblouků a spline:** Při umístění kurzoru nad kružnici, oblouk nebo spline se budete moci přichytit ke skutečnému středovému bodu. Tento bod a koncové body budou zobrazeny malou červenou tečkou. Při odvozování na oblouk se také přichytíte k vrcholům přímých hran, které představují oblouk.
 
 ![](../.gitbook/assets/inf18.png)
 
-**清除推論**：圖面可能會產生大量推論，這可能會妨礙放置不應鎖點至這些推論的點。如果按 **Shift + 空格鍵**，將清除最後放置點處之推論外的所有推論。
+**Odstranění odvození:** Je možné, že kreslení vygeneruje větší počet odvození, což může vadit v umístění bodů, které se nemají k těmto odvozením přichytit. Pokud stisknete klávesy **Shift+mezerník**, budou všechna odvození smazána, kromě těch, které se nacházejí v posledním umístěném bodě.
 
-![清除推論之前](../.gitbook/assets/inf19.png)
+![Před vymazáním odvození](../.gitbook/assets/inf19.png)
 
-![清除推論之後](../.gitbook/assets/inf20.png)
+![Po vymazání odvození](../.gitbook/assets/inf20.png)

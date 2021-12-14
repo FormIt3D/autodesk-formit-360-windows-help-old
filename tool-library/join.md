@@ -1,30 +1,30 @@
-# 布林接合
+# Booleovské spojení
 
-您可以使用「接合」工具將一個物件或群組，接合成另一個物件或群組。有兩種方式可存取「接合」工具：
+Pomocí nástroje Spojit můžete spojit jeden objekt nebo skupinu s jiným objektem či skupinou. Nástroj Spojit lze spustit dvěma způsoby:
 
-## 先執行「接合」指令
+## Jako první je spuštěn příkaz Spojit
 
-鍵盤：J G
+Klávesnice: J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-執行「接合」指令，然後遵循螢幕左上角的模式指示
+Spusťte příkaz Spojit a postupujte podle pokynů v levé horní části obrazovky.
 
-按一下以選取要接合的物件。
+Kliknutím vyberte objekt, k němuž chcete spojení provést.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-按一下以選取要被接合的物件或群組。
+Kliknutím vyberte objekt nebo skupinu, která má být spojena.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-按一下勾號以完成指令。
+Kliknutím na značku zaškrtnutí dokončete příkaz. 
 
-## 先選取物件
+## Jako první jsou vybrány objekty
 
-1. 按兩下以選取要被接合的物件 \(如果是群組則按一下\)。
-2. 按住 **Ctrl 鍵**，按兩下要與第一個物件接合的重疊物件。
-3. 在任何物件上按一下右鍵，然後在關聯式功能表中選擇「接合工具」。
+1. Dvojitým kliknutím vyberte objekt, který chcete spojit \(kliknutím vyberete skupinu\).
+2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekt, který chcete spojit s prvním objektem.
+3. Klikněte pravým tlačítkem myši na kterýkoli z objektů a v místní nabídce vyberte nástroj Spojit.
 
 ![](../.gitbook/assets/join-tool.png)
 

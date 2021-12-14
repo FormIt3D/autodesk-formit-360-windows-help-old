@@ -1,20 +1,20 @@
-# 線
+# Čáry
 
-使用線分割面和建構幾何圖形。
+Pomocí čar můžete rozdělit plochy a vytvořit geometrii.
 
-鍵盤：L
+Klávesnice: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-您可以在 X、Y 或 Z 軸以及既有幾何圖形上繪製線。鎖點至軸時，有顏色的線會延伸到您正在繪製的線之外，以指出您正在繪製的軸。繪製時您可以看到線的長度，也可以按 **Tab** 並輸入值手動輸入特定長度。
+Čáry můžete kreslit na ose X, Y nebo Z a také na existující geometrii. Při přichycení k ose se za kreslenou čáru prodlouží barevná čára označující osu, na kterou kreslíte. Během kreslení vidíte délku čáry, přičemž stisknutím klávesy **Tab** a zadáním hodnoty můžete ručně zadat konkrétní délku.
 
-依軸區分的線顏色：
+Barvy čar podle osy:
 
-若要指定長度，只需鍵入尺寸值，「編輯尺寸」對話方塊即會顯示。按一下「確定」或按 Enter 接受值。
+Chcete-li zadat délku, stačí zadat hodnotu kóty a zobrazí se dialog Upravit kótu. Kliknutím na tlačítko OK nebo stisknutím klávesy Enter hodnotu potvrďte.
 
-* X = 紅色
-* Y = 綠色
-* Z = 藍色
+* X = červená
+* Y = zelená
+* Z = modrá
 
 ![](../.gitbook/assets/lines.png)
 

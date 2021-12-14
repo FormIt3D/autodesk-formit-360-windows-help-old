@@ -1,70 +1,70 @@
-# 日光和能源分析
+# Analýza slunečního záření a energetická analýza
 
-現在已建立模型，我們可以利用它來研究設計的**日光和能源影響**。這些功能內建在 FormIt 中，因此您可以從建築效能的角度了解您最早的研究。這些功能只有 **FormIt Pro** 才提供，如果您繼續使用網頁應用程式，可能沒有存取權。
+Vytvořený model můžeme využít k vytvoření studie **slunečního záření a energetické analýzy** pro náš návrh. Tyto funkce jsou součástí aplikace FormIt, takže můžete zkoumat i ty nejranější studie návrhu z hlediska výkonnosti budovy. Tyto funkce jsou k dispozici pouze v aplikaci **FormIt Pro**, takže pokud používáte webovou verzi aplikace, pravděpodobně k nim nebudete mít přístup.
 
-如果您沒有完成上一節，請按一下「檔案」&gt;「開啟」，然後從「FormIt Primer」資料夾中選擇 **farnsworth08.axm**。
+Pokud jste nedokončili poslední část, klikněte na Soubor &gt; Otevřít a vyberte soubor **farnsworth08.axm** ze složky FormIt Primer.
 
-## 陰影
+## Stíny
 
-在使用這些分析工具之前，您必須先[設定位置]()。這可讓 FormIt 存取精確的太陽、陰影和氣候資料
+Před použitím libovolného nástroje analýzy je nutné [nastavit umístění](). To aplikaci FormIt umožní přístup k přesným údajům o slunci, stínech a klimatu.
 
-1. 按一下[**動作工具列**](../../formit-introduction/tool-bars.md)中的「太陽」圖示，然後勾選**「陰影 \(DS\)」**
+1. Na [**panelu nástrojů Akce**](../../formit-introduction/tool-bars.md) klikněte na ikonu slunce a zaškrtněte políčko **Stíny \(DS\)**.
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. 調整**「天」**和**「時間」**滑棒，以查看陰影如何變更
+2. Nastavte posuvníky **Den** a **Čas**, abyste viděli, jak se mění stíny.
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. 請注意有遮蓋的露台在夏季最熱的幾個小時當中如何遮蔽，這肯定不是意外，而是設計的結果！
+3. Všimněte si, že krytá terasa je v nejteplejších hodinách letních měsíců zastíněná – to určitě není náhoda, ale záměr.
 
-**注意事項**：陰影可能會導致應用程式效能降低。有兩種緩解此問題的建議：如果您發現導覽變慢，請關閉陰影；或關閉研究陰影時不需要的圖層，例如**家具**
+**Poznámka**: Stíny mohou způsobit snížení výkonu aplikace. Dva návrhy na zmírnění tohoto problému: vypněte stíny, pokud zaznamenáte snížení výkonu, nebo vypněte hladiny jako **nábytek**, pokud nejsou ke studiu stínů nezbytné. 
 
-## 日光分析
+## Analýza slunečního záření
 
-設計師是有視覺的人，因此可以從熱圖 \(例如我們將要建立的熱圖\) 學習和傳達驚人的資訊量
+Designéři dokáží pracovat s vizuálními informacemi, díky čemuž mohou získat a využívat neuvěřitelné množství informací z diagramů tepelných map, jako je ten, který se chystáme vytvořit.
 
-1. 在[**「日光」功能表**](../../formit-introduction/tool-bars.md)底部，按一下**「日光分析」**按鈕
-2. 您會進入一個停用**陰影**、**鍵盤快速鍵**和其他**工具列**的特殊模式
-3. 選取行為在**「日光分析」**模式中經過修改。您可以選取**多個群組**，無需按住 **Ctrl** 或 **Shift** 即可加到選集中，也可以再按一下群組以取消選取。您可以**按一下**、**按兩下**或**窗選**幾何圖形
-4. 選擇您要研究的面。**按一下** **屋頂**的頂部和**樓板**的頂部。避免選取小元素，例如家具
+1. V dolní části [**nabídky Slunce**](../../formit-introduction/tool-bars.md) klikněte na tlačítko **Analýza slunečního záření**. 
+2. Přejdete do speciálního režimu, ve kterém jsou vypnuty **stíny**, **klávesové zkratky** a další **panely nástrojů**.
+3. Chování výběru je v režimu **analýzy slunečního záření** upraveno. Můžete vybírat **ve skupinách**, nemusíte držet klávesu **Ctrl** nebo **Shift** pro přidání do sady výběru a můžete zrušit výběr položek tak, že na ně znovu kliknete. Výběr geometrie můžete provádět **kliknutím**, **dvojitým kliknutím** nebo pomocí **okna výběru**.
+4. Vyberte plochy, které chcete studovat. **Klikněte** na horní část **střechy** a horní část **podlaží**. Nevybírejte malé prvky, například nábytek.
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. 在圖元區的左上角，找到**「日光分析」**工具列。按一下**「分析」**。FormIt 將計算並彩現表面。分析完成前**和**後都可以調整此處的設定
+5. V levém horním rohu kreslicí plochy vyhledejte panel nástrojů **Analýza slunečního záření**. Klikněte na tlačítko **Analyzovat**. Aplikace FormIt vypočítá a vyrenderuje povrchy. Zde uvedená nastavení lze upravit před **a** po dokončení analýzy.
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. **「月尖峰」**設定顯示指定月份的**峰值** \(以每平方英尺的 BTU 表示\)。此設定適用於**描影研究**。您可以變更月份設定，圖形會立即更新。**將游標懸停**在已分析的表面上，以取得**特定**值
+6. Nastavení **Měsíční špička** zobrazuje **špičkové** hodnoty \(v BTU/čtv. stopu\) pro zadaný měsíc. Tato možnost je určena pro **studie stínování**. Nastavení měsíce lze změnit a grafika se okamžitě aktualizuje. **Přesunutím kurzoru** nad analyzovaný povrch získáte **konkrétní** hodnotu.
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. **「年累計」**設定顯示整年的**累計**能量 \(以「千瓦小時/平方公尺」為單位\)。此設定適用於 **PV 潛力研究**
+7. Nastavení **Roční kumulativní** zobrazuje **kumulativní** energii za celý rok \(v kWh/čtv. m\). Tato možnost je určena pro **studie potenciální energetických zisků z instalace fotovoltaických panelů**.
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. 您可以按一下**「檔案」&gt;「匯出 \(Ctrl + E\)」**，然後從左側清單中選擇**「影像」**，匯出這些**日光分析**研究
+8. Tyto studie **analýzy slunečního záření** lze exportovat kliknutím na možnost **Soubor &gt; Exportovat \(Ctrl+E\)** a výběrem možnosti **Obrázek** v seznamu vlevo.
 
-## 使用 Insight 進行能源分析
+## Energetická analýza s aplikací Insight
 
-FormIt 整合了 Revit 所使用的相同建築效能分析工具。**Insight** 提供一個建築系統參數管控面板，您可以調整這些參數反映潛在的情況，不需要**重新分析**模型幾何圖形。Insight 搭配 FormIt **量體**幾何圖形運作地最好。
+V aplikaci FormIt jsou integrovány stejné nástroje pro analýzu výkonnosti budovy, jaké používá aplikace Revit. Aplikace **Insight** obsahuje řídicí panel se systémovými parametry budovy, které lze upravit tak, aby odrážely potenciální scénáře, aniž by bylo nutné **znovu analyzovat** geometrii modelu. Aplikace Insight nejlépe funguje s geometrií**objemů** aplikace FormIt.
 
-1. 確保您已登入您的 Autodesk 帳戶。關閉**所有**圖層\(**除了** **量體**圖層\)。您的幾何圖形必須至少套用一個**樓層**
-2. FormIt 只會將**可見的**幾何圖形傳送至 Insight。請注意，即使是一個簡單的**量體**，也會從 **Insight** 產生大量資料
+1. Ujistěte se, že jste přihlášeni k účtu Autodesk. Vypněte **všechny** hladiny **kromě** hladiny **objemů**. Geometrie musí mít alespoň jedno **podlaží**.
+2. Aplikace FormIt odešle do aplikace Insight pouze **viditelnou** geometrii. Všimněte si, že i pro jednoduchý **objem** získáte z aplikace **Insight** spoustu dat.
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. 按一下**「Insight」&gt;「產生見解」**按鈕。分析將在雲端執行，因此您可以在計算期間繼續塑型
+3. Klikněte na tlačítko **Insight &gt; Generovat přehled**. Analýza bude probíhat v cloudu, takže během výpočtu můžete pokračovat v modelování.
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. 分析完成後，按一下**「檢視見解」**按鈕以查看您的**能源模型**和**效能係數** \(或者，您也可以直接造訪網站 [**http://insight.autodesk.com**](http://insight.autodesk.com/)\)
+4. Po dokončení analýzy klikněte na tlačítko **Zobrazit přehled**, čímž zobrazíte **energetický model** a **faktory výkonu** \(případně můžete přejít přímo na web na adrese [**http://insight.autodesk.com**](http://insight.autodesk.com/)\).
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. 在 Insight 管控面板上，您可以按一下係數並拖曳藍色圓點，來為每個**效能係數**工具集設定值 \(或值範圍\)。如果您還不知道建築物將使用的特定系統，範圍會很有幫助
-6. 每變更一個**係數**，整體的**能源成本範圍** \(以「美元/平方公尺/年」為測量單位\) 就會更新。您可以針對基準 \(例如 **Ashrae 90.1** 和 **Architecture 2030** Challenge \) 查看您設計的效能
-7. 如果設計形式發生顯著變更，您可以將更新的量體重新傳送至相同的管控面板。如果您要為更新的設計建立**新的**管控面板，則必須先在 FormIt 中**另存**
-8. 如果能源分析失敗，您可能有和幾何圖形相關的**防水問題 \(DW\)**，您可以在 FormIt 中檢閱並修正這些問題
-9. 關閉**量體**圖層，並重新開啟其他所有圖層
+5. Na řídicím panelu aplikace Insight můžete nastavit hodnotu \(nebo rozsah hodnot\) pro jednotlivé **faktory výkonu** tak, že kliknete na požadovaný faktor a přetáhnete modré body. Rozsah je užitečný, pokud ještě neznáte konkrétní systém, který bude budova používat.
+6. Při každé změně **faktoru** se aktualizuje celkový **rozsah nákladů na energie** \(měřeno v USD/čtv. m za rok\). Výkon svého návrhu můžete porovnat s referenčními hodnotami, jako je například standard **Ashrae 90.1** nebo výzva **Architecture 2030**.
+7. Pokud se podoba vašeho návrhu zásadně změní, můžete znovu odeslat aktualizovaný objem na stejný řídicí panel. Jestliže chcete pro aktualizovaný návrh vytvořit **nový** řídicí panel, nezapomeňte návrh nejprve uložit pomocí příkazu **Uložit jako** v aplikaci FormIt.
+8. Pokud se energetická analýza nezdaří, můžete geometrii zkontrolovat a opravit v aplikaci FormIt pomocí nástroje **Problémy s vodotěsností \(DW\)**.
+9. Vypněte hladinu **objemů** a znovu zapněte všechny ostatní hladiny.
 

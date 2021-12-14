@@ -1,13 +1,13 @@
-# 旋轉物件
+# Otočení objektu
 
-您可以使用關聯式功能表中的「旋轉」工具變更物件的方位。
+Pomocí nástroje Otočit, který je dostupný v místní nabídce, můžete měnit orientaci objektů.
 
-1. 選取要旋轉的元素，然後按一下右鍵以啟動關聯式功能表。
-2. 從關聯式功能表中，選取「旋轉」工具。
-3. 當滑鼠出現量角器圖形時，按一下以設定旋轉平面。
-4. 使用藍色掣點指定旋轉的起點，如有必要則重置軸。使用箭頭或可編輯的尺寸方塊設定旋轉角度。
+1. Vyberte prvek, který chcete otočit, a kliknutím pravým tlačítkem myši zobrazte místní nabídku.
+2. V místní nabídce vyberte nástroj Otočit.
+3. Když se na kurzoru objeví grafika úhloměru, kliknutím nastavte rovinu pro otáčení.
+4. Pomocí modrých uzlů určete počáteční bod otáčení a v případě potřeby obnovte osu. Úhel otočení nastavíte pomocí šipek nebo upravitelného pole kóty.
 
-請注意，您也可以在選取元素後使用 **Q** 鍵盤快速鍵存取旋轉工具。
+Po výběru prvku můžete nástroj Otočit spustit také pomocí klávesové zkratky **Q**.
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

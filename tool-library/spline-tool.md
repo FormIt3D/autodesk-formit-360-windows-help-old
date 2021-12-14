@@ -1,14 +1,14 @@
-# 雲形線
+# Spline
 
-「雲形線」工具可讓您在空間或其他物件上建立有機的草圖。
+Pomocí nástroje Spline můžete vytvářet organické náčrty v prostoru nebo na jiných objektech.
 
 ![](../.gitbook/assets/spline.png)
 
-雲形線至少從 3 個內插點繪製。連接的幾何圖形會加以簡化，以在指定點之間建立平滑且有機的曲線。與其他繪製工具一樣，雲形線可以在繪製時鎖點至 3D 點，以 3D 繪製。
+Křivka spline je tvořena nejméně 3 interpolovanými body. Připojená geometrie je zjednodušena a mezi zadanými body se vytvoří hladká a organická křivka. Podobně jako u jiných nástrojů pro kreslení lze křivky spline kreslit ve 3D přichycením k 3D bodům při kreslení.
 
-若要指定距離，請開始鍵入尺寸值，然後在「編輯尺寸」對話方塊中按一下「確定」或按 Enter。
+Chcete-li určit vzdálenost, začněte zadávat hodnotu kóty a poté v dialogu Upravit kótu klikněte na tlačítko OK nebo stiskněte klávesu Enter.
 
-雲形線也可以在自己本身封閉以建立面。
+Křivky spline se mohou také uzavírat samy do sebe a vytvořit tak plochu.
 
 ![](../.gitbook/assets/spline2.png)
 

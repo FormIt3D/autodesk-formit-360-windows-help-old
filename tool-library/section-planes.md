@@ -1,6 +1,6 @@
-# 剖面平面
+# Roviny řezu
 
-使用**剖面平面**切割 FormIt 模型，以顯示內部空間和結構元素。
+Pomocí **rovin řezu** můžete provést řez do modelu aplikace FormIt a odhalit vnitřní prostory a konstrukční prvky.
 
-瞭解 [FormIt 入門手冊](../formit-primer/part-i/section_planes.md)中的剖面平面。
+Přečtěte si informace o rovinách řezů v [Příručce k aplikaci FormIt](../formit-primer/part-i/section_planes.md).
 

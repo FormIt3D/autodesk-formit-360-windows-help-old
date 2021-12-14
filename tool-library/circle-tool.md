@@ -1,12 +1,12 @@
-# 圓
+# Kružnice
 
-使用「圓」工具在空間中或其他物件上繪製圓。
+Pomocí nástroje Kružnice můžete nakreslit kružnici v prostoru nebo na jiném objektu.
 
-鍵盤：C
+Klávesnice: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-若要繪製圓，請先選擇中心點，然後指定圓的半徑。接下來，圓會自動變成面。
+Chcete-li nakreslit kružnici, vyberte nejprve středový bod a poté určete poloměr kružnice. Z kružnice se poté automaticky stane plocha.
 
 ![](../.gitbook/assets/circle1.png)
 

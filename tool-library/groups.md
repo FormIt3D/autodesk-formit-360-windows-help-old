@@ -1,58 +1,58 @@
-# 群組
+# Skupiny
 
-FormIt 工作流程中最基本但最重要的其中一個技巧是群組。群組可讓您避免幾何圖形黏合在一起，並允許您在複製的元素之間設定父系/子系關係，方便在您更新一個元素時，兩個元素都會更新。若要進一步了解群組，請按一下[此處](../formit-primer/part-i/grouping-objects.md)。
+Jedna z nejzákladnějších, ale nejdůležitějších technik pracovních postupů aplikace FormIt zahrnuje seskupování. Skupiny zabraňují spojení geometrie a umožňují nastavit vztahy nadřazenosti/podřazenosti mezi kopírovanými prvky tak, aby se při aktualizaci jednoho prvku aktualizovaly oba prvky. Další informace o skupinách naleznete [zde](../formit-primer/part-i/grouping-objects.md).
 
-您可以透過兩種方式建立和編輯群組：從所選群組的關聯式功能表或從主工具列。
+Skupiny lze vytvářet a upravovat dvěma způsoby: buď z místní nabídky vybrané skupiny, nebo z hlavního panelu nástrojů.
 
-## 群組互動
+## Interakce se skupinami
 
-若要**建立群組**，請選取您要群組在一起的元素 \(這可以包括邊、面、實體或其他群組\)，然後按一下右鍵。從關聯式功能表中選擇**「群組 \(G\)」**工具。匯入的影像和衛星影像無法組成群組。
+Chcete-li **vytvořit skupinu**, vyberte prvky, které chcete seskupit, například hrany, plochy, tělesa nebo jiné skupiny, a klikněte pravým tlačítkem myši. V místní nabídce vyberte nástroj **Skupina \(G\)**. Importované obrázky a satelitní snímky nelze seskupit.
 
-若要**選取群組**，請按一下該群組。請注意選取群組時顯示的虛線 - 這些線表示群組的總大小。
+Chcete-li **vybrat skupinu**, jednou na ni klikněte. Všimněte si přerušovaných čar, které se zobrazí při výběru skupiny. Tyto čáry označují celkovou velikost skupiny.
 
-若要**編輯群組**，請按兩下該群組。這會啟動編輯模式，您只能在其中檢視和鎖點至目前群組之外的元素，但無法選取它們。您也可以使用 **H** 鍵盤快速鍵，隱藏目前群組外的元素。
+Chcete-li **upravit skupinu**, dvakrát na ni klikněte. Spustí se režim úprav, ve kterém lze pouze zobrazit a přichytit prvky mimo aktuální skupinu, ale nelze je vybrat. Prvky mimo aktuální skupinu lze také skrýt klávesovou zkratkou **H**.
 
-您可以**在群組內建立群組**：這些群組稱為**巢狀群組**，可在群組編輯模式內建立。若要在巢狀群組中上移一層，請按一下群組外的任意位置。
+Můžete vytvořit **skupiny v rámci skupin**: tyto skupiny se nazývají **vnořené skupiny** a lze je vytvořit v režimu úprav skupiny. Chcete-li se ve vnořených skupinách přesunout o jednu úroveň výše, klikněte kamkoli mimo skupiny.
 
-若要**結束群組編輯模式**，請按兩下群組外的任意位置。
+Jestliže chcete **ukončit režim úprav skupiny**, dvakrát klikněte kamkoli mimo skupinu.
 
-您可以**複製群組**以在原始群組及其複本之間建立關係：如果編輯任何複製的群組，相同的變更會影響所有相關的群組。
+Můžete **kopírovat skupinu** a vytvořit tak vztah mezi původní skupinou a její kopií. Pokud upravíte jakékoli zkopírované skupiny, stejné změny se projeví ve všech souvisejících skupinách.
 
-若要**切斷複製群組之間的關係**，請選取要變成單獨的群組，按一下右鍵，然後從關聯式功能表中選擇**「設為唯一」**。您也可以從「群組」工具列中選取「設為唯一」。
+Chcete-li **přerušit vztah mezi zkopírovanými skupinami**, vyberte skupinu nebo skupiny, které chcete oddělit, klikněte pravým tlačítkem myši a v místní nabídce vyberte položku **Vytvořit jedinečné**. Možnost Vytvořit jedinečné můžete také vybrat na panelu nástrojů Skupiny.
 
-若要**選取所有相關的群組**，請將游標懸停在群組上，然後按 Tab 鍵。當所有相關群組都亮顯時，按一下群組以選取它們。然後，您可以一次對所有群組執行動作。
+Chcete-li **vybrat všechny související skupiny**, přesuňte ukazatel myši na skupinu a stiskněte klávesu Tab. Až se zvýrazní všechny související skupiny, kliknutím na tyto skupiny je vyberte. Poté můžete provést požadovanou akci pro všechny skupiny najednou.
 
-[**群組樹**](groups-tree.md)提供一個單一位置來檢視和管理專案中所有的群組。
+[**Strom skupin**](groups-tree.md) umožňuje zobrazit a spravovat všechny skupiny v projektu na jediném místě.
 
-## 群組關聯式功能表和工具列存取
+## Místní nabídka skupin a přístup k panelu nástrojů
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**群組元素**
+**Prvky skupiny**
 
-若要從「群組」工具列項目建立群組，請選取一個或多個元素，選取**「建立群組」**圖示，然後選取**「完成」**圖示。或者，您可以從「群組」工具列項目中選取**「建立群組」**，然後選取要群組的元素並選取**「完成」**圖示。
+Chcete-li vytvořit skupinu pomocí panelu nástrojů Skupiny, vyberte jeden nebo více prvků, klikněte na ikonu **Vytvořit skupinu** a poté vyberte ikonu **Dokončit**. Případně můžete vybrat možnost **Vytvořit skupinu** na panelu nástrojů Skupiny, poté vybrat prvky, které chcete seskupit, a kliknout na ikonu **Dokončit**.
 
-若要**從「群組」工具列項目編輯群組**，請選取**「編輯群組」**圖示，然後按一下要編輯的群組。完成編輯後，選取**「完成」**圖示。此工具可讓您選擇要編輯的特定群組，即使它巢狀在很深的位置亦同。
+Pokud chcete **upravit skupinu pomocí panelu nástrojů Skupiny**, vyberte ikonu **Upravit skupinu** a poté klikněte na skupinu, kterou chcete upravit. Po dokončení úprav klikněte na ikonu **Dokončit**. Tento nástroj umožňuje vybrat k úpravám konkrétní skupinu, i když je hluboce vnořená.
 
-**若要從工具列將群組變成唯一**，請在「群組」工具列項目中選取**「設為唯一」**圖示。此外，您可以從「群組」工具列項目中選取**「設為唯一」**，然後選取要將其變成唯一的群組，並按一下**「完成」**圖示。
+**Chcete-li skupinu nastavit jako jedinečnou pomocí panelu nástrojů**, vyberte na panelu nástrojů Skupiny ikonu **Vytvořit jedinečné**. Můžete také na panelu nástrojů Skupiny vybrat možnost **Vytvořit jedinečné**, poté vybrat skupinu, kterou chcete nastavit jako jedinečnou, a kliknout na ikonu **Dokončit**.
 
-**若要從「群組」工具列項目解除群組**，請選取要變更的群組，然後從「群組」工具列功能表中選擇**「解除群組」**圖示。這會解除您目前選取項目的群組，但不會解除任何巢狀群組的群組。或者，您可以從工具列中選取**「解除群組」**，選取要變更的群組，然後選取**「完成」**圖示。
+**Chcete-li zrušit seskupení skupiny pomocí panelu nástrojů Skupiny**, vyberte skupinu, kterou chcete změnit, a v nabídce panelu nástrojů Skupiny vyberte ikonu **Zrušit seskupení**. Tím zrušíte seskupení aktuálního výběru, ale nezrušíte seskupení vnořených skupin. Případně můžete na panelu nástrojů vybrat možnost **Zrušit seskupení**, vybrat skupinu, kterou chcete změnit, a poté vybrat ikonu **Dokončit**.
 
-**若要將目前所選群組下巢狀的所有群組解除群組**，請選取有巢狀群組的群組，然後從「群組」工具列中選擇**「將所有巢狀群組解除群組」**。
+**Chcete-li zrušit seskupení všech skupin vnořených pod aktuálně vybranou skupinou**, vyberte skupinu s vnořenými skupinami a na panelu nástrojů Skupiny vyberte možnost **Zrušit seskupení všech vnořených**.
 
-**若要將模型中所有群組解除群組**，請從「群組」工具列中選取**「全部解除群組」**工具。
+**Chcete-li zrušit seskupení všech skupin v modelu**, vyberte na panelu nástrojů Skupiny možnost **Zrušit seskupení všeho**.
 
-## 群組和 Revit
+## Skupiny a aplikace Revit
 
-如果您熟悉 Revit **族群**，那您就會熟悉 FormIt 中群組的概念。FormIt 群組有一些可智慧地將群組轉移至 Revit 的功能。
+Pokud jste obeznámeni s **rodinami** aplikace Revit, jste obeznámeni s koncepcí skupin v aplikaci FormIt. Skupiny aplikace FormIt mají funkce, které lze použít k jejich inteligentnímu přenosu do aplikace Revit.
 
-**FormIt 群組品類**
+**Kategorie skupin aplikace FormIt**
 
-您可以在 FormIt 中為群組指定**品類**，如此一來當您將 FormIt 群組匯入至 Revit 時，這些群組就會成為相同品類的族群。您可以透過選取群組、進入**「群組編輯」**模式，並使用**「性質」**面板來選擇品類，對 FormIt 群組指定品類。您也可以在**「群組樹」**面板中指定品類。
+V aplikaci FormIt můžete zadat **kategorie** skupin tak, aby se z vašich skupin aplikace FormIt při importu do aplikace Revit staly rodiny stejných kategorií. Ke skupinám aplikace FormIt můžete přiřadit kategorie tak, že vyberete skupinu, přejdete do režimu **úprav skupiny** a pomocí panelu **Vlastnosti** vyberete požadované kategorie. Kategorie můžete také přiřadit na panelu **Strom skupin**.
 
-**FormIt 群組名稱**
+**Názvy skupin aplikace FormIt**
 
-您也可以使用**「性質」**面板來指定 FormIt 群組的名稱。這有助於導覽您自己的模型，當您將模型匯入至 Revit 時，可以使用群組名稱輕鬆篩選元素。
+K zadání názvu skupiny aplikace FormIt můžete použít také panel **Vlastnosti**. To může být užitečné při navigaci ve vlastním modelu a při importu modelu do aplikace Revit můžete prvky snadno filtrovat pomocí názvu skupiny.
 
-請注意，**FormIt 中的巢狀群組不會匯入至 Revit 成為巢狀群組**。這可避免巢狀很深的 Revit 族群。
+Všimněte si, že **vnořené skupiny v aplikaci FormIt nejsou importovány do aplikace Revit jako vnořené skupiny**. Tím se zabrání hluboce vnořeným rodinám aplikace Revit.
 

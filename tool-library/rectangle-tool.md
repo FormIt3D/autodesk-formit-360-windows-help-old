@@ -1,24 +1,24 @@
-# 矩形
+# Obdélník
 
-您可以使用**「建立草圖」**工具列功能表中的**矩形**工具快速繪製矩形面。擠出面以建立矩形體積。
+Pomocí nástroje **Obdélník**, který je dostupný v nabídce panelu nástrojů **Vytvořit náčrt**, můžete rychle nakreslit obdélníkovou plochu. Vysunutím plochy pak vytvoříte pravoúhlý objem.
 
-鍵盤快速鍵：R
+Klávesová zkratka: R
 
-使用軸可確保您以正確的方向繪製：
+Pomocí os se ujistěte, že kreslíte ve správném směru:
 
-您可以在 X、Y 或 Z 軸上繪製矩形。繪製時，只需鍵入值，即可指定尺寸，這會顯示「編輯尺寸」對話方塊。按 Enter 或按「確定」接受尺寸。
+Obdélníky můžete kreslit na ose X, Y nebo Z. Při kreslení můžete určit kótu zadáním hodnoty, čímž se zobrazí dialog Upravit kótu. Stisknutím klávesy Enter nebo kliknutím na tlačítko OK potvrďte kótu.
 
-若要繪製矩形，請按一下以設定草圖中的第一點。
+Chcete-li nakreslit obdélník, kliknutím nastavte první bod v náčrtu.
 
-依軸區分的線顏色：
+Barvy čar podle osy:
 
-* X = 紅色
-* Y = 綠色
-* Z = 藍色
+* X = červená
+* Y = zelená
+* Z = modrá
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-繪製完矩形後，會成為可擠出以建立體積的面。
+Po dokončení kreslení obdélníku se z něj stane plocha, kterou lze vysunout a vytvořit tak objem.
 

@@ -1,39 +1,39 @@
-# 設定專案
+# Nastavení projektu
 
-## 開始
+## Začátek
 
-啟動 FormIt 時，您將處於 3D 環境中。請花一點時間了解如何[在 3D 空間中導覽](navigating-the-scene.md)，然後開始建置專案 \([方法](../formit-primer/)\)、使用「檔案」功能表開啟既有 FormIt 專案，或匯入各種其他檔案類型。
+Po spuštění nástroje FormIt se ocitnete ve 3D prostředí. Věnujte trochu času tomu, abyste se naučili [pohybovat ve 3D prostředí](navigating-the-scene.md). Poté začněte vytvářet projekt \([zde zjistíte, jak na to](../formit-primer/)\), otevřete existující projekt aplikace FormIt pomocí nabídky Soubor nebo importujte řadu dalších typů souborů.
 
-FormIt 可讓您開啟、儲存和匯出本端和 BIM 360 Docs 上的檔案。[在 FormIt 中使用 BIM 360 Docs](https://formit.autodesk.com/page/formit-bim-360-docs) 是在雲端共用模型的絕佳方式。
+Aplikace FormIt umožňuje otevírání, ukládání a export do souborů jak místně, tak ve službě BIM 360 Docs. [Používání služby BIM 360 Docs v aplikaci FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) je skvělý způsob sdílení modelů v cloudu.
 
-說到儲存，當您開始變更模型時，FormIt 會[自動儲存您的工作](../tool-library/autosave.md)。但是仍建議您經常儲存，因為它會清理備份檔案並節省空間。
+Když už mluvíme o ukládání, aplikace FormIt [automaticky uloží vaši práci](../tool-library/autosave.md), jakmile začnete provádět změny v modelu. Časté ukládání se stále doporučuje, protože se tím záložní soubor vyčistí a šetří se tak místo.
 
-## 應用程式設定
+## Nastavení aplikace
 
-* 單位：
+* Jednotky:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * 對此進行設定將會影響所有工具和匯入幾何圖形 \(例如 Dynamo\) 中的單位，以及無單位檔案類型 \(例如 STL\)。
+   * Nastavení této možnosti ovlivní jednotky ve všech nástrojích a importované geometrii, například v aplikaci Dynamo a typech souborů bez jednotek, jako je STL.
 
-* 鎖點至格線：
-   * 強制使用放置點的工具鎖點至格線交點。請注意，您可以在[視覺型式](../formit-primer/part-i/visual-settings.md)中關閉格線；如果格線關閉，則鎖點至格線的功能也會停用。
-* 顯示可編輯的標註：
-   * 選擇是否保持標註方塊可見 \(如果您要精確繪製，建議您保持此狀態\)。
-* 隱藏關聯/只顯示編輯過的群組：
-   * 這會影響編輯群組是否會顯示其周圍。您可以使用快速鍵 \(H\) 輕鬆變更此設定。在群組內外塑型時切換 H，可讓您依需要同時以獨立和關聯方式檢視群組。
-* 預選亮顯：
-   * 依預設，當您將游標懸停在物件上時，FormIt 會「預先選取」物件。這有助於確保您要選取的物件是您取得的物件，但在展示設計時可能會讓人分心。使用此選項或快速鍵，可視需要在展示和隱藏預選亮顯之間快速切換。請注意，您必須啟用此選項，才能使用[智慧選取](https://www.youtube.com/watch?v=akLeB1FADt4)等功能。
+* Přichytit k osnově:
+   * Vynutí přichycení nástrojů s body umístění k bodům průsečíku osnovy. Všimněte si, že osnovu můžete ve [vizuálních stylech](../formit-primer/part-i/visual-settings.md) vypnout. Pokud je osnova vypnutá, bude vypnuto také její přichycení.
+* Zobrazit upravitelné kóty:
+   * Vyberte, zda chcete ponechat pole kót viditelná \(pokud chcete kreslit s přesností, doporučujeme tuto možnost ponechat zapnutou\).
+* Skrýt kontext/Zobrazit pouze upravenou skupinu:
+   * Určuje, zda se při úpravě skupiny zobrazí její okolí, nebo ne. Toto nastavení můžete snadno změnit klávesovou zkratkou \(H\). Přepínáním klávesou H při modelování ve skupinách a mimo ně můžete podle potřeby zobrazit skupiny samostatně i v kontextu.
+* Zvýraznění předvýběru:
+   * Ve výchozím nastavení aplikace FormIt objekty „předem vybere“, když nad ně umístíte kurzor myši. To je užitečné, abyste se ujistili, že vyberete právě ten objekt, který chcete vybrat, ale při prezentaci návrhu to může působit rušivě. Pomocí této možnosti nebo klávesové zkratky můžete podle potřeby rychle přepínat mezi zobrazením a skrytím zvýraznění předvýběru. Tuto možnost je nutné povolit, chcete-li používat některé funkce, například [Inteligentní výběr](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## 觸控模式
+## Režim dotykového ovládání
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-如果您的電腦有觸控螢幕，請使用「觸控模式」輕鬆導覽模型並建立幾何圖形。如果您也使用 iOS 版 FormIt，會感到很熟悉。
+Pokud má váš počítač dotykovou obrazovku, můžete použít režim dotykového ovládání ke snadné navigaci v modelu a vytváření geometrie. Pokud používáte také aplikaci FormIt pro iOS, bude vám to povědomé.
 
-當「觸控模式」開啟時，FormIt 的互動會變得更像 iPad 上的 FormIt，而且會校正導覽和修改工具以搭配觸控介面。因此，不建議在開啟觸控模式時，透過滑鼠和鍵盤使用 FormIt。
+Když je zapnutý režim dotykového ovládání, interakce aplikace FormIt se více podobá aplikaci FormIt na iPadu a nástroje pro navigaci a úpravy jsou přizpůsobeny práci s dotykovým rozhraním. Z tohoto důvodu se při zapnutém režimu dotykového ovládání nedoporučuje používat aplikaci FormIt s myší a klávesnicí.
 
-開啟「觸控模式」後，您會看到它在工具列中亮顯，並在螢幕左下角看到「觸控模式」標題。
+Když je režim dotykového ovládání zapnutý, je zvýrazněný na panelu nástrojů a v levém dolním rohu se zobrazí nápis Režim dotykového ovládání.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

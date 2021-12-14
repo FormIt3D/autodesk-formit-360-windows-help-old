@@ -1,16 +1,16 @@
-# 工作平面
+# Pracovní roviny
 
-當您變更主草圖中的世界軸或群組的局部軸時，工作平面會與 X 軸和 Y 軸相關聯。**工作平面**是一個虛擬的二維表面，作為繪製草圖的預設平面。此工作平面將向外無限延伸，提供一個可在上面繪製草圖的表面，而不會鎖點至後面的元素。
+Když změníte globální osy v hlavním náčrtu nebo místní osy skupiny, přiřadí se k osám X a Y pracovní rovina. **Pracovní rovina** je virtuální dvourozměrná plocha, která se používá jako výchozí rovina pro tvorbu náčrtů. Tato pracovní rovina se rozprostírá do nekonečna a poskytuje povrch, na který lze vytvořit náčrt, aniž by došlo k přichycení k prvkům za ní.
 
-若要瞭解如何編輯地平面，請參閱[視覺型式。](../formit-primer/part-i/visual-settings.md)
+Informace o možnostech úprav základní roviny naleznete v části [Vizuální styly](../formit-primer/part-i/visual-settings.md)
 
-## 變更工作平面
+## Změna pracovních rovin
 
-將[世界軸](world-axes.md)旋轉至草圖中其他物件的平面。這會調整作用中工作平面的方向以對應此面。您現在可以相對於新的 XY 平面 \(而非預設的地平面\) 繪製、放置元素和修改元素。您可以在格線和工作平面的後面或下面環轉，以鎖點和推論到格線和工作平面後面的元素。
+Otočte [globální osy](world-axes.md) do roviny jiného objektu v náčrtu. Tím zarovnáte aktivní pracovní rovinu tak, aby odpovídala této ploše. Nyní můžete vytvořit náčrt, umisťovat prvky a upravovat prvky vzhledem k nové rovině XY, nikoli k výchozí základní rovině. Můžete otáčet pohled za nebo pod osnovou a pracovními rovinami a přichytávat a odvozovat prvky za pracovní rovinou.
 
-您可以開啟和關閉格線的可見性，從以工作平面為基礎的草圖繪製受益。您可以在「視覺型式」&gt;「環境」&gt;**「顯示格線 \(DG\)」**
+Můžete zapnout nebo vypnout viditelnost čáry osnovy, abyste mohli vytvářet náčrty založené na pracovní rovině. Chcete-li řídit toto nastavení, přejděte na Vizuální styl &gt; Prostředí &gt; **Zobrazit osnovu \(DG\)**
 
-您也可以控制繪製時是否鎖點至格線。在「設定」&gt;**「鎖點至格線 \(SG\)」**
+Můžete také řídit, zda se při kreslení přichytíte k osnově. Toto nastavení můžete zapnout nebo vypnout v Nastavení > **Přichytit k osnově \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
 

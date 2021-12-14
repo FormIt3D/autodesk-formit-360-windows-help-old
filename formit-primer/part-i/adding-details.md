@@ -1,129 +1,129 @@
-# 1.9 - 加入細節
+# 1.9 – Přidání detailů
 
-_FormIt 是一個很棒的量體工具，也是一個很棒的塑型工具。我們會在 Farnsworth House 中先加入玻璃包廂的門和竪框等細節。然後，我們會介紹一些其他工具，並練習新增幾何圖形、圖層、材料和群組管理的程序。_
+_FormIt je skvělý objemový nástroj a také skvělý nástroj pro modelování. Do domu Farnsworth House začneme přidávat detaily v podobě dveří a příčlí pro obvodové zasklení. Poté se zaměříme na některé další nástroje a procvičíme si přidávání nové geometrie, hladin, materiálů a správu skupin._
 
-_如果您未完成上一節，請從_ _**FormIt 入門手冊第 1 部分資料集**_ _下載並開啟_ _**1.9 - Adding Details.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.9 – Adding Details.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **建立窗框**
+## **Vytvoření okenních rámů**
 
-_我們將在玻璃包廂周圍建立一個 2" 的金屬框和竪框。請注意，這些竪框會刻意與玻璃包廂重疊。_
+_Kolem skleněné kóje vytvoříme 2" kovový rám a příčle. Všimněte si, že tyto příčle se záměrně překrývají se skleněnou kójí._
 
-1 - 建立一個名為 **Glass Walls** 的新圖層，並將 **Glass Wall** 群組移至該圖層。
+1 – Vytvořte novou hladinu s názvem **Skleněné stěny** a přesuňte do ní skupinu **Skleněná stěna**.
 
-2 - 為了簡化版面，請關閉 **Roof** 圖層，以便我們可以看到整個玻璃包廂。
+2 – Kvůli usnadnění vizualizace vypněte hladinu **Střecha**, abychom viděli celou skleněnou kóji.
 
-3 - 開始建立第一個窗框：
+3 – Začněte vytvářet první okenní rám:
 
-1. 在建築的西側，使用**「矩形 \(R\)」**工具直接在外部玻璃面上繪製新表面。請確保在 **Glass Walls** 群組外建立表面。
-2. 選取新建立的面並向內部拖曳 **2"**。按 **Esc** 以清除選取。最後結果應類似於下圖。
-3. 按一下您剛剛建立的面。按一下右鍵存取**關聯式功能表**，以使用**「偏移面」工具 \(OF\)。**
+1. Na západní straně budovy nakreslete pomocí nástroje **Obdélník \(R\)** novou plochu přímo nad vnější skleněnou plochou. Ujistěte se, že jste plochu vytvořili mimo skupinu **Skleněné stěny**.
+2. Vyberte nově vytvořenou plochu a přetáhněte ji o **2"** směrem dovnitř. Stisknutím klávesy **Esc** výběr zrušte. Konečný výsledek by měl vypadat jako na obrázku níže.
+3. Klikněte na plochu, kterou jste právě vytvořili. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku**, ve které zvolte nástroj **Odsadit plochu \(OF\).**
 
-_**注意事項：**_ _如果您無法選取新面，請按_ _**空格鍵**_ _，以在不同的可選取物件之間切換，或暫時關閉_ _**Glass Walls**_ _圖層。_
+_**Poznámka:**_ _Pokud máte potíže s výběrem nové plochy, můžete stisknutím_ _**mezerníku**_ _střídavě vybírat různé objekty nebo dočasně vypněte hladinu_ _**Skleněné stěny**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - 若要設定偏移標註，請將滑鼠移向面內側，然後輸入 **2"** 以建立一個較小的新矩形。
+4 – Nastavte kótu odsazení tak, že přesunete ukazatel myši směrem dovnitř plochy a zadáním hodnoty **2"** vytvořte nový menší obdélník.
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - 按一下以選取您剛剛建立的內部矩形。再按一下，然後向建築內部拖曳面，直到它消失。再按一下，完成從框架幾何圖形移除中心體積。
+5 – Kliknutím vyberte vnitřní obdélník, který jste právě vytvořili. Znovu klikněte a přetáhněte plochu směrem dovnitř budovy, dokud nezmizí. Dalším kliknutím dokončete odstranění středového objemu z geometrie rámu.
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - 按兩下以選取我們剛剛建立的幾何圖形，然後**群組 \(G\)**。將群組命名為 **Mullion Frame – EW**​。
+6 – Dvojitým kliknutím vyberte právě vytvořenou geometrii a vytvořte pro ni **skupinu \(G\)**. Pojmenujte tuto skupinu **Rám příčle – VZ**.​
 
-7 - 建立一個名為 **Mullion** 的圖層，並在上面放置新群組。
+7 – Vytvořte hladinu s názvem **Příčel** a umístěte do ní novou skupinu.
 
-8 - 設定框架的材料：
+8 – Nastavte materiál rámu:
 
-1. 在**「材料」選項板**內，在**「Metal – Brushed – Colorized」**材料上按一下右鍵並選取**「複製材料」**來複製該材料。
-2. 按兩下新材料的預覽磚以編輯。
-3. 將其更名為 **Metal – Brushed – Gray**。
-4. 按一下**「貼圖」**區段中的**「顏色」**磚修改材料顏色，並將**「值:」**變更為 **150** 加深灰色。
+1. Na **paletě Materiály** duplikujte materiál **Kov – kartáčovaný – zbarvený** tak, že na něj kliknete pravým tlačítkem a vyberete možnost **Duplikovat materiál**.
+2. Dvakrát klikněte na náhled nového materiálu, který chcete upravit.
+3. Přejmenujte jej na **Kov – kartáčovaný – šedý**.
+4. Upravte barvu materiálu kliknutím na dlaždici **Barva** v části **Mapy** a ztmavte šedou barvu tak, že položku **Val:** nastavíte na hodnotu **150**.
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - 按一下**「確定」**將這些變更儲存為新材料，然後使用它繪製 **Mullion Frame – EW** 群組。之後，群組的**「性質」選項板**應符合下圖所示的內容：
+9 – Kliknutím na tlačítko **OK** uložte změny do nového materiálu a poté jím pomalujte skupinu **Rám příčle – VZ**. Poté by **paleta Vlastnosti** skupiny měla odpovídat tomu, co je znázorněno na následujícím obrázku:
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - 使用下列任一工具：**「快速複製」**、**「陣列」**或**「鏡射」**在東側建立一個新的框架實體。
+10 – Vytvořte novou instanci rámu na východní straně pomocí některého z následujících nástrojů: **Rychlé kopírování**, **Pole** nebo **Zrcadlit**.
 
-11 - 為玻璃包廂的南北側重複上述步驟。將新群組命名為 **Mullion Frame – NS**。請記得繪製並將其放置在 **Mullion** 圖層上！
+11 – Opakujte výše uvedené kroky pro severní a jižní stranu skleněné kóje. Novou skupinu pojmenujte **Rám příčle – SJ**. Nezapomeňte plochy pomalovat a umístit do hladiny **Příčel**.
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**注意事項：**_ _竪框在角點處會互相重疊。這是刻意如此。上述結果顯示關閉_ _**Glass Wall**_ _和_ _**Column**_ _圖層後產生的竪框幾何圖形。_
+_**Poznámka:**_ _Rámy příčlí se v rozích navzájem překrývají, což je záměrné. Výše uvedený výsledek zobrazuje výslednou geometrii rámů příčlí s vypnutými hladinami_ _**Skleněná stěna**_ _a_ _**Sloup**_ _._
 
-**建立竪框**
+**Vytvoření příčlí**
 
-1 - 在建築南側或北側具有外部玻璃面的平面中，繪製一個從竪框框架底部和頂部之間範圍是 **2" x 10'-10" 的矩形 \(R\)**。不必擔心矩形與框架之間的精確位置，我們將在以下步驟中將其移至適當位置。
+1 – V rovině s vnější skleněnou plochou na jižní nebo severní straně budovy nakreslete **obdélník \(R\) o rozměrech 2" x 10’-10"**, který se nachází mezi spodní a horní částí rámu příčle. Nedělejte si starosti s přesnou polohou obdélníku podél rámu, v následujících krocích jej přesuneme na místo.
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - 將矩形向後擠出 **2"**，然後**群組 \(G\)**，並將群組命名為 **Mullion – Vertical**。將群組放在 **Mullion** 圖層上，然後使用 **Metal – Brushed – Grey** 材料繪製。
+2 – Vysuňte obdélník zpět o **2"**, poté z něj vytvořte **skupinu \(G\)** a pojmenujte ji **Příčel – vertikální**. Umístěte skupinu do hladiny **Příčel** a pomalujte ji materiálem **Kov – kartáčovaný – šedý**.
 
-**找出竪框**
+**Umístění příčlí**
 
-_現在，我們將設定第一個竪框的位置，讓它在柱的__**中點**__置中。_
+_Nyní nastavíme umístění první příčle tak, aby byla vystředěna na_ _**střed**_ _sloupu._
 
-1 - 若要再次查看柱，請開啟 **Column** 圖層 \(如果已關閉\)。在**「圖層」選項板**中時，您也可以關閉 **Lower Terrace** 和 **Plan Image** 圖層，更輕鬆地執行後續步驟。
+1 – Zobrazte znovu sloupy zapnutím hladiny **Sloup** \(pokud byla vypnutá\). Na **paletě Hladiny** můžete také vypnout hladiny **Dolní terasa** a **Obrázek půdorysu**, aby byly další kroky jednodušší.
 
-2 - 將竪框移至新位置：
+2 – Přesunutí příčle do nového umístění:
 
-1. 按一下以選取您剛剛建立的垂直竪框群組。**拉近 \(Z\)**，然後按一下竪框底部外部邊緣的**中點** \(以紅色三角形表示\)**。**
-2. 開始將幾何圖形水平移向柱。按 **Shift** 鎖住沿紅色軸 \(**X 軸**\) 移動。請注意，移動被鎖住後，紅色軸線會變粗。
-3. 拉遠，直到您可以看到柱的底部。在仍按住 **Shift** 的同時，按一下柱外側面底部的**中點**。竪框只會沿紅色軸 \(**X 軸**\) 繼續移動，但會與您剛剛按一下的**中點**對齊。
+1. Kliknutím vyberte skupinu vertikálních příčlí, kterou jste právě vytvořili. **Přibližte \(Z\)** pohled a klikněte na **střed** dolní vnější hrany příčle, znázorněnou červeným trojúhelníkem**.**
+2. Začněte přesouvat geometrii horizontálně směrem ke sloupu. Stisknutím klávesy **Shift** uzamkněte pohyb v červené ose \(**osa X**\). Všimněte si, že jakmile je pohyb uzamknut, červená osa se zvýrazní.
+3. Oddalujte pohled, dokud se nezobrazí základna sloupu. Se stisknutou klávesou **Shift** klikněte na **střed** základny vnější plochy sloupu. Příčel se bude nadále pohybovat pouze podél červené osy (**osa X**\), ale bude zarovnána ke **středu**, na který jste právě kliknuli.
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**注意事項：**_ _竪框現在正位於柱的後面。關閉_ _**Column**_ _圖層，或_ _**環轉 \(O\)**_ _以便看見竪框。_
+_**Poznámka:**_ _Příčel je nyní přímo za sloupem. Vypněte hladinu_ _**Sloup**_ _nebo_ pomocí nástroje _**Orbit \(O\)**_ _otáčejte pohled, abyste zobrazili příčel._
 
-3 - 按 **Esc** 清除**移動**工具。
+3 – Stisknutím klávesy **Esc** zrušte výběr nástroje **Přesunout**.
 
-4 - 使用**陣列 \(AR\)** 或**快速複製**工具，沿同一側建立四個 \(4\) 以上的垂直竪框，間距為 **11'**。若要了解如何使用**陣列工具**，請參閱先前的章節。
+4 – Pomocí nástroje **Pole \(AR\)** nebo **Rychlé kopírování** vytvořte další čtyři \(4\) vertikální příčle podél stejné strany rozmístěné **11’** od sebe. Informace o používání **nástroje Pole** naleznete v předchozích kapitolách.
 
-5 - 使用 Tab 鍵選取所有**垂直**竪框群組，將它們複製到建築的另一側，讓**北側**和**南側**的框架都有相同的竪框配置，如下圖所示：
+5 – Pomocí klávesy Tab vyberte všechny skupiny **vertikálních** příčlí a zkopírujte je na opačnou stranu budovy tak, aby **severní** i **jižní** rám měly stejná rozvržení příčlí, jak je znázorněno na následujícím obrázku:
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **建立門竪框**
+## **Vytvoření dveřních příčlí**
 
-1 - **環轉 \(O\)** 透視視圖，直到您看到西側竪框框架的中心。
+1 – Nástrojem **Orbit \(O\)** otáčejte perspektivní pohled, dokud se nebudete dívat na střed západního rámu příčle.
 
-2 - 與建立竪框框架類似，繪製一個框架為 **2"x 2"**、寬為 **3'-6"** 的門板。讓它成為具有下列性質的**群組 \(G\)**：群組名稱：**Curtain Wall Door**；圖層：**Mullion**；材料：**Metal – Brushed – Grey**。
+2 – Podobně jako při vytváření rámů příčlí nakreslete **3’-6"** široký dveřní panel s rámem **2" x 2"**. Vytvořte z něj **skupinu \(G\)** s těmito vlastnostmi: Název skupiny: **Dveře obvodového pláště**; hladina: **Příčel**; materiál: **Kov – kartáčovaný – šedý**.
 
-3 - 複製此群組以建立第二個門框，然後移動門框，讓它們在 **Mullion Frame – EW** 群組中置中，如下圖所示。
+3 – Zkopírováním této skupiny vytvořte druhý rám dveří a přesuňte oba rámy tak, aby byly vystředěny ve skupině **Rám příčle – VZ**, jak je znázorněno níže.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **使用掃掠建立屋頂簷板**
+## **Vytvoření střešní římsy tažením**
 
-_我們現在要使用 FormIt 其中一個進階的塑型工具 -_ _**掃掠**，建立 Farnsworth House 的簷板。若要了解其他進階塑型，請查看_ _**FormIt 入門手冊 - 第 II 部分**的_ **2.2 - ** _**進階塑型**一章_ _。_
+_Nyní vytvoříme římsu domu Farnsworth House pomocí jednoho z pokročilých modelovacích nástrojů aplikace FormIt –_ _**Tažení**. Další informace o pokročilém modelování naleznete v kapitole_ **2.2 –** _**Pokročilé nástroje modelování** _v _příručce_ _**Základy aplikace FormIt, Část II**._
 
-_建立__**掃掠**__的第一步是繪製一個與掃掠「擠出」垂直的輪廓。為了執行此作業，我們使用屋頂幾何圖形做為導引。_
+_Prvním krokem k vytvoření_ _**tažení**_ _je nakreslení profilu kolmého k „vysunutí“ tažení. K tomu použijeme jako vodítko geometrii střechy._
 
-1 - 開啟**Roof**圖層，並拉近至其中一個角落。
+1 – Zapněte hladinu **Střecha** a přibližte jeden z rohů.
 
-2 - 使用屋頂垂直的其中一側做為參考，繪製兩個相鄰的矩形。第一個是 **6"** 高乘以 **4 5/8"** 寬，第二個是 **2" x 2"**。刪除分割兩個矩形的線，以便建立一個面。結果應如下所示。
+2 – Použijte jako referenci jednu z vertikálních stran střechy a nakreslete dva sousedící obdélníky. První je **6"** vysoký a **4 5/8"** široký a druhý má rozměry **2" x 2"**. Odstraněním čáry, která rozděluje dva obdélníky, vytvořte jednu plochu. Výsledek by měl vypadat, jak je zobrazeno níže.
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - 建立掃掠：
+3 – Vytvořte tažení:
 
-1. 在未選取任何幾何圖形的情況下，按一下**標準工具列**中的**「進階塑型工具」**按鈕，然後選取**「掃掠 \(SW\)」**。
-2. **掃掠選取精靈**將啟動並提示您**選取掃掠輪廓的面 \(或邊\)**。選取我們剛剛建立的輪廓面。
-3. 選取輪廓後，系統會提示您**選取掃掠路徑的面 \(或邊\)，然後按一下「完成」**。選取屋頂的頂面。FormIt 會自動使用所選面的邊界做為掃掠的路徑，將圍繞整個屋頂建立掃掠。
+1. Bez vybrané geometrie klikněte na **panelu nástrojů Standard** na tlačítko **Pokročilé nástroje modelování** a vyberte možnost **Tažení \(SW\)**.
+2. Spustí se **Průvodce výběrem tažení** a zobrazí se výzva **Vyberte plochu \(nebo hrany\) pro profil tažení**. Vyberte plochu profilu, kterou jste právě vytvořili.
+3. Po výběru profilu se zobrazí výzva **Vyberte plochu \(nebo hrany\) pro trajektorii tažení a poté klikněte na tlačítko Dokončit**. Vyberte horní plochu střechy. Aplikace FormIt automaticky použije hranice vybrané plochy jako trajektorii tažení a kolem celé střechy bude vytvořeno tažení.
 
-_**注意事項：**_ _如果您無法選取其中一個面，稍微_ _**環轉 \(O\)**_ _一下比較能檢視面，然後再試一次。或者，也可以選取屋頂的所有邊緣，而不是屋頂的頂面，來完成掃掠。_
+_**Poznámka:**_ _Pokud máte potíže s výběrem některé z ploch, zobrazte si pomocí nástroje_ _**Orbit \(O\)**_ _plochu trochu lépe a zkuste to znovu. Případně můžete tažení dokončit výběrem všech okrajů střechy místo horní plochy střechy._
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - 建立**Roof - Cornice**群組，將它加到**Roof**圖層，並為其指定**Metal – Brushed – Colorized**材料，來整理模型。
+4 – Nyní si model uspořádejte: vytvořte skupinu **Střecha – římsa**, přidejte ji do hladiny **Střecha** a přiřaďte k ní materiál **Kov – kartáčovaný – zbarvený**.
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - 若要完成，請開啟 **Column** 圖層，您會看到新建立的掃掠與柱的頂部相交。編輯任一個 **Column Tall** 群組，並將頂面向下拖曳，直到與簷板底部對齊，來解決此問題。
+5 – Na závěr zapněte hladinu **Sloup**. Jak vidíte, nově vytvořené tažení protíná horní části sloupů. Tento problém vyřešíte tak, že upravíte některou ze skupin **Vysoký sloup** a přetáhnete horní plochu dolů, dokud nebude zarovnána s dolní částí římsy.
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

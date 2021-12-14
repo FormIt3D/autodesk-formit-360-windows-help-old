@@ -1,146 +1,146 @@
-# 1.8 - 使用陣列建立柱
+# 1.8 – Vytvoření sloupů nástrojem Pole
 
-_在本練習中，我們將繪製一個詳圖元素 - I 形樑柱。然後，我們要使用「陣列」工具快速建立多個等距的複本。_
+_V tomto cvičení načrtneme prvek detailu – sloup nosníku ve tvaru I. Poté pomocí nástroje Pole rychle vytvoříme několik rovnoměrně rozmístěných kopií._
 
-_如果您未完成上一節，請從_ _**FormIt 入門手冊第 1 部分資料集**_ _下載並開啟_ _**1.8 - Create Columns with Array.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.8 – Create Columns with Array.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **繪製柱輪廓**
+## **Načrtnutí profilu sloupu**
 
-1 - 為了簡化製圖程序：
+1 – Postup usnadnění procesu kreslení:
 
-1. 移至**「上視圖 \(VT\)」**。
-2. 將檢視模式切換為**「正投影 \(VO\)」**。
-3. 關閉 **Main Building** **Floor** 和 **Roof** 圖層。此步驟可防止新幾何圖形鎖點到這些圖層上的既有幾何圖形。
-4. 拉近至**匯入的樓板平面圖**影像的左上角，以便您可以詳細檢視柱。
-5. 關閉**「鎖點至格線 \(SG\)」**功能 \(如果已開啟\)。這有助於繪製細部線。
+1. Přejděte do **horního pohledu \(VT\)**.
+2. Přepněte režim pohledu na možnost **Ortografické \(VO\)**.
+3. Vypněte hladiny **Podlaží** **hlavní budovy** a **Střecha**. Tento krok zabrání přichycení nové geometrie ke stávající geometrii v těchto hladinách.
+4. Přibližte si levý horní roh **importovaného obrázku půdorysu**, abyste si mohli podrobně prohlédnout sloup.
+5. Vypněte funkci **Přichytit k osnově \(SG\)** \(pokud je zapnutá\). Pomůže vám to při kreslení čar detailu.
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_繪製柱時，我們先繪製一半，然後鏡射，就可以快速建立對稱的另一半。_
+_Při kreslení sloupu nejprve nakreslíme jednu polovinu a poté ji zrcadlově otočíme, abychom rychle vytvořili druhou symetrickou polovinu._
 
-2 - 若要建立 I 形樑的前半部分，請使用**線工具 \(L\)**，以使用指定的尺寸建立以下草圖。您不必擔心柱在平面影像上的精確位置。
+2 – K vytvoření první poloviny I-nosníku použijte nástroj **Čára (L)** a nakreslete následující náčrt se zadanými kótami. Zatím si nedělejte starosti s přesnou polohou sloupu na půdorysném obrázku.
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - 鏡射您剛剛繪製的造型：
+3 – Zrcadlení tvaru, který jste právě nakreslili, proveďte takto:
 
-1. 按兩下以選取所繪製幾何圖形的所有面和邊。
-2. 按一下右鍵，然後選取**「鏡射 \(MI\)」**工具。
-3. 按一下**鏡射工具集**的橙色中心掣點，並將其放置在幾何圖形的左下角。
-4. 使用工具集中雙向箭頭按鈕的下箭頭，將鏡射軸旋轉 -90 度 \(順時鐘\)。
-5. 在空間外按一下，或按 **Esc** 完成鏡射程序。結果應類似於中間有一條線的 I 形樑輪廓。再次按 **Esc** 以清除選取。
+1. Dvojitým kliknutím vyberte všechny plochy a hrany nakreslené geometrie.
+2. Klikněte pravým tlačítkem a vyberte **nástroj Zrcadlit \(MI\)**.
+3. Klikněte na středový oranžový úchyt **pomůcky Zrcadlit** a umístěte jej do levého dolního rohu geometrie.
+4. Pomocí šipky dolů na oboustranném tlačítku šipky v pomůcce otočte osu zrcadlení o -90 stupňů \(ve směru hodinových ručiček\).
+5. Kliknutím na volné místo nebo stisknutím klávesy **Esc** dokončete proces zrcadlení. Výsledek by měl vypadat jako profil I-nosníku s čarou uprostřed. Dalším stisknutím klávesy **Esc** zrušte výběr.
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**注意事項**：在調整鏡射工具集時，會以藍色殘影造型預覽最終幾何圖形的位置和方位。您可以使用此預覽做為參考，將幾何圖形鏡射至預期位置。_
+_**Poznámka:** Při úpravě pomůcky zrcadlení se zobrazí náhled umístění a orientace konečné geometrie jako stínovaný modrý tvar. Tento náhled můžete použít jako referenci k zrcadlení geometrie do požadovaného umístění._
 
-4 - 若要將兩側接合為單一幾何圖形，請按一下分割它們的線加以選取，然後按 **Delete** 移除。現在，兩個表面會接合為單一表面。
+4 – Spojte obě strany do jediné geometrie: odstraňte čáru, která je rozděluje, tak že na ni kliknete a poté stisknete klávesu **Delete**. Nyní jsou tyto dva povrchy spojeny do jednoho povrchu.
 
-5 - 將幾何圖形移至其最終位置：
+5 – Přesuňte geometrii do jejího konečného umístění:
 
-1. 如果關閉，請開啟 **Plan Image** 和 **Roof** 圖層，以使用它們作為導引。
-2. 按兩下柱輪廓以選取面及所有線。沿綠色軸 \(**Y 軸**\) 開始移動選取範圍。按住 **Shift** 並移動輪廓，直到與屋頂對齊，然後按一下以放置它。
-3. 與上一步類似，再次移動幾何圖形，這次將其鎖住至紅色軸 \(**X 軸**\)。
-4. 按一下以將其放置在 **Plan Image** 中繪製的 I 形樑頂部。接近一點比較好，如下圖所示，水平位置不需要完美。
+1. Pokud jsou vypnuty, zapněte hladiny **Obrázek půdorysu** a **Střecha**, aby je bylo možné použít jako vodítko.
+2. Dvojitým kliknutím na profil sloupu vyberte jeho plochu a všechny jeho čáry. Začněte výběr přesouvat podél zelené osy \(**osa Y**\). Podržte klávesu **Shift** a přesuňte profil tak, aby byl zarovnán se střechou. Poté jej kliknutím umístěte.
+3. Podobně jako v předchozím kroku znovu přesuňte geometrii a tentokrát ji uzamkněte k červené ose \(**osa X**\).
+4. Kliknutím profil umístěte na horní část I-nosníku nakresleného v hladině **Obrázek půdorysu** \(horizontální poloha nemusí být dokonalá\).
 
-_**注意事項：**_ _按_ _**Shift**_ _鍵可鎖住幾何圖形只沿一條軸移動，在此範例中為綠色軸 \(**Y 軸**\)。這可確保柱輪廓不會意外地上移並對齊屋頂平面的頂部。_
+_**Poznámka:**_ _Klávesa_ _**Shift**_ _uzamkne geometrii, aby se pohybovala pouze podél jedné osy, v tomto případě zelené \(**osa Y**\). Tím se zajistí, že se profil sloupu náhodně neposune nahoru a nezarovná se k horní části roviny střechy._
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **擠出並排列柱**
+## **Vysunutí a uspořádání sloupu**
 
-1 - 為了便於進行下一個製圖程序，請將檢視模式切換回**「透視 \(VP\)」**和**「環轉 \(O\)」**，以將相機定位為從西北方向看見 I 形樑輪廓。使用左下角的指北箭頭可協助您定位視圖。
+1 – Abyste si usnadnili další proces kreslení, přepněte režim pohledu zpět na **Perspektivní \(VP\)** a pomocí nástroje **Orbit \(O\)** umístěte kameru tak, aby zobrazovala profil I-nosníku od severozápadu. Šipka severu v levém dolním rohu vám pomůže s umístěním pohledu.
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**注意事項：**_ _若要了解如何在草圖周圍導覽，建議您查看_ _**導覽場景**_ _一章。_
+_**Poznámka:**_ _Informace o tom, jak se pohybovat v náčrtu, získáte v kapitole_ _**Navigace ve scéně**_ _._
 
-2 - 選取柱輪廓面，並將面向上擠出 **17'-8"**。
+2 – Vyberte plochu profilu sloupu a vysuňte ji nahoru do vzdálenosti **17’-8"**.
 
-_**注意事項：**_ _如果在移動柱輪廓時，它會讓自身與屋頂對齊，則請將面向下而不是向上擠出_ _**17'-8"**  。_
+_**Poznámka:**_ _Pokud se při přesouvání profil sloupu zarovnal ke střeše, vysuňte plochu dolů o_ _**17’-8"**  , nikoli nahoru._
 
-3 - 拉遠並開啟 **Roof** 圖層 \(如果關閉\)。柱的頂部應與屋頂的頂部對齊。
+3 – Oddalte pohled a zapněte hladinu **Střecha** \(pokud je vypnutá\). Vrchol sloupu by měl být zarovnán s horní částí střechy.
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - 為了讓模型井然有序，請再次選取柱幾何圖形，並執行以下作業：
+4 – Aby byl model uspořádaný a přehledný, vyberte znovu geometrii sloupů a proveďte následující kroky:
 
-1. **群組 \(G\)**，並將其命名為 **Column Tall**。
-2. 建立一個名為 **Column** 的新**圖層**，並將群組加到該圖層。
-3. 匯入材料 **Metal - Brushed - Colorized**，並使用它來繪製群組。
+1. Vytvořte **skupinu \(G\)** a pojmenujte ji **Vysoký sloup**.
+2. Vytvořte novou **hladinu** s názvem **Sloup** a přidejte do ní vytvořenou skupinu.
+3. Importujte materiál **Kov – kartáčovaný – zbarvený** a pomalujte jím skupinu.
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**注意事項：**__請參閱先前的章節，以取得有關__**群組**、__**圖層**和__**材料**的更多資訊。_
+_**Poznámka:**_ _Další informace o_ _**skupinách**,_ _**hladinách** a_ _**materiálech** získáte v předchozích kapitolách._
 
-4 - 按一下 **Esc** 清除畫筆工具。
+4 – Stisknutím klávesy **Esc** ukončete nástroj Štětec.
 
-## **排列柱**
+## **Vytvoření pole sloupů**
 
-1 - 移至**「上視圖 \(VT\)」**，並再次將相機模式切換為**「正投影 \(VO\)」**。
+1 – Přejděte do **horního pohled \(VT\)** a znovu přepněte režim kamery na možnost **Ortografické \(VO\)**.
 
-2 - 關閉 **Roof** 圖層。
+2 – Vypněte hladinu **Střecha**.
 
-3 - 啟動陣列程序：
+3 – Zahajte proces tvorby pole:
 
-1. 按一下以選取柱群組。按一下右鍵以帶出**關聯式功能表**，然後選擇**「陣列 \(AR\)」**。
-2. 在**「陣列性質」**對話方塊中，使用以下設定：
-   * **複本間的長度**
-   * **線性** \(預設\)
-   * **先群組每個實體，然後形成陣列** \(預設\)
-   * **份數：3**
-   * 按**「確定」**關閉對話方塊。
+1. Kliknutím vyberte skupinu sloupů. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte položku **Pole \(AR\)**.
+2. V dialogu **Vlastnosti pole** použijte následující nastavení:
+   * **Délka mezi kopiemi**
+   * **Lineární** \(výchozí\)
+   * **Seskupit každé těleso a poté vytvořit pole** \(výchozí\)
+   * **Počet kopií: 3**
+   * Kliknutím na tlačítko **OK** zavřete dialog.
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - 放置新元素：
+4 – Umístěte nové prvky:
 
-1. 按一下柱以啟動**陣列**。沿紅色軸 \(**X 軸**\) 移動游標。
-2. 將尺寸設定為 **22'**。您現在有**四根**距離 **22'** 的柱。
-3. 按 **Esc** 以清除選取。
+1. Kliknutím na sloup spusťte nástroj **Pole**. Přesuňte kurzor podél červené osy \(**osa X**\).
+2. Nastavte kótu na **22'**. Nyní máte **čtyři** sloupy vzdálené od sebe **22'**.
+3. Stisknutím klávesy **Esc** zrušte výběr.
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - 若要一次選取所有 **Tall Column** 群組，請將滑鼠懸停在其中一個群組上，然後按一次 **Tab** 鍵。請注意，所有 4 根柱的邊界框都已亮顯。按一下滑鼠懸停的柱，將會選取所有柱。這是一次選取同一群組所有實體的快速方法。
+5 – Chcete-li vybrat všechny skupiny **Vysoký sloup** najednou, přesuňte ukazatel myši nad jednu z nich a stiskněte klávesu **Tab**. Všimněte si, že byly zvýrazněny ohraničující kvádry všech 4 sloupů. Kliknutím na sloup, nad kterým je umístěn ukazatel myši, nyní vyberete všechny sloupy. Tímto způsobem můžete rychle vybrat všechny instance stejné skupiny najednou.
 
-6 - 再執行一次**陣列 \(AR\)**，在建築的另一側建立柱。這次穿過建築沿綠色軸複製 1 個複本。將尺寸設定為 **29'- 4 5/8"。**
+6 – Pomocí dalšího **pole \(AR\)** vytvořte sloupy na druhé straně budovy. Tentokrát vytvořte jednu kopii podél zelené osy napříč budovou. Nastavte kótu na hodnotu **29'-4 5/8"**
 
-_**注意事項：**_ _29' 4 5/8" = 8 5/8" \(柱深度\) + 28'-8" \(主要建築寬度\)。_
+_**Poznámka:**_ _29’ 4 5/8" = 8 5/8" \(hloubka sloupů\) + 28’-8" \(šířka hlavní budovy\)._
 
-7 - 若要看見整個建築，請移至**「3D 視圖 \(V3\)」**，並將其設定為**「透視 \(VP\)」**。如果關閉，請開啟 **Main Building Floor**、**Roof**、**Lower Terrace** 和 **Column** 等圖層。
+7 – Chcete-li vizualizovat celou budovu, přejděte do **3D pohledu \(V3\)** a nastavte možnost **Perspektivní \(VP\)**. Pokud jsou vypnuty, zapněte hladiny **Podlaží hlavní budovy**, **Střecha**, **Dolní terasa** a **Sloup**.
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **建立露台柱**
+## **Vytvoření sloupů terasy**
 
-_現在，我們將複製主要建築的柱，以建立類似但較短的露台柱。_
+_Nyní zkopírujeme sloupy hlavní budovy a vytvoříme podobné, ale kratší, verze pro terasu._
 
-1 - 為方便製圖，我們建議您回到**「正投影 \(OV\)」**和**「上視圖 \(VT\)」**設定。
+1 – Kvůli usnadnění kreslení doporučujeme vrátit se k nastavení **Ortografické \(OV\)** a **Horní pohled \(VT\)**.
 
-2 - 建立新柱：
+2 – Vytvořte nové sloupy:
 
-1. 按住 **Ctrl** 或 **Shift**，按一下最接近**下方露台樓板**的 3 根柱以選取它們。
-2. 按一下其中任何一根柱，即可開始一次移動全部 3 根選取的柱。按一下 **Ctrl** 鍵以建立**快速複本**。此時將顯示複本的殘影預覽。
-3. 沿綠色軸 \(**Y 軸**\) 將複本下移 **23'-4 3/8"**。按 **Esc**。
-4. 不除選，將複製的柱沿紅色軸 \(**X 軸**\) 移動 **22'**，以將柱放置在其最終位置。
-5. 同樣地，在 3 根新柱仍處於選取狀態時，以右鍵按一下其中一根複製的柱，然後選取**「設為唯一 \(MU\)」**。這些柱現在彼此關聯，但與原始柱不同。
+1. Podržte klávesu **Ctrl** nebo **Shift** a kliknutím vyberte 3 sloupy, které jsou nejblíže **podlaží dolní terasy**.
+2. Kliknutím na kterýkoli ze sloupů začněte přesouvat všechny 3 vybrané sloupy najednou. Chcete-li vytvořit **rychlou kopii**, stiskněte jednou klávesu **Ctrl**. Zobrazí se obrys kopie.
+3. Posuňte kopie dolů podél zelené osy \(**osa Y**\) o **23’-4 3/8"**. Stiskněte klávesu **Esc**.
+4. Aniž byste zrušili výběr, přesuňte zkopírované sloupy podél červené osy \(**osa X**\) o **22’** a umístěte je do konečné polohy.
+5. Se stále vybranými 3 novými sloupy klikněte pravým tlačítkem myši na jeden z kopírovaných sloupů a vyberte možnost **Vytvořit jedinečné \(MU\)**. Tyto sloupy jsou nyní navzájem propojeny, ale jsou jedinečné oproti originálům.
 
-_**注意事項：**_ _按住_ _**Shift**_ _或_ _**Ctrl**_ _可讓您一次選取多個元素，或從目前選取中移除元素。_
+_**Poznámka:**_ _Podržením klávesy_ _**Shift**_ _nebo_ _**Ctrl**_ _můžete vybrat více prvků najednou nebo odebrat prvky z aktuálního výběru._
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - 修改新柱群組：
+3 – Upravte novou skupinu sloupů:
 
-1. 按兩下以編輯其中一個新群組，並將其更名為 **Column Short。**
-2. 調整新柱的高度，以與**下方露台** **樓板** \(3'-2"\) 的頂部對齊。若要執行此作業，請選取柱的面，並沿藍色軸 \(**Z 軸**\) 向下拖曳，然後按住 **Shift**。將游標懸停在**下方露台樓板**頂面的任意位置，柱的高度會自動與下方露台對齊。設定高度後，按一下以完成。
+1. Dvojitým kliknutím upravte jednu z nových skupin a přejmenujte ji na **Krátký sloup**
+2. Upravte výšku nového sloupu tak, aby byl zarovnán s horní částí **podlaží** **dolní terasy** \(3’-2"\). To provedete tak, že vyberete a přetáhnete plochu sloupu dolů podél modré osy \(**osa Z**\) a podržíte klávesu **Shift**. Umístěte ukazatel myši na libovolné místo na horní ploše **podlaží dolní terasy** a výška sloupu se automaticky zarovná k dolní terase. Jakmile je výška nastavena, kliknutím ukončete akci.
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**注意事項：**_ _您可以使用_ _**「測量 \(ME\)」**_ _工具來檢查短柱的高度。或者，您可以選取柱的其中一條垂直邊，並在_ _**「性質」選項板**中查看其長度。_
+_**Poznámka:**_ _Výšku krátkých sloupů můžete zkontrolovat pomocí nástroje_ _**Měřit \(ME\)**_ _. Případně můžete vybrat jednu ze svislých hran sloupu a zobrazit jeho délku na_ _**paletě Vlastnosti**._
 
-4 - 使用您剛才學到的技巧，將最遠的短柱複製到**下方露台樓板**的對側，以建立最後一根柱。
+4 – Pomocí technik, které jste se právě naučili, vytvořte poslední zbývající sloup zkopírováním nejkratšího sloupu na opačnou stranu **podlaží dolní terasy**.
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

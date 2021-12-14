@@ -1,136 +1,136 @@
-# 常見問題
+# Často kladené otázky
 
-## 關於 FormIt
+## O aplikaci FormIt
 
-**什麼是 FormIt 和 FormIt Pro？**
+**Co jsou aplikace FormIt a FormIt Pro?**
 
-FormIt 是一個建築設計的 3D 塑型、視覺化、分析和計算環境。
+FormIt je 3D modelovací, vizualizační, analytické a výpočetní prostředí pro tvorbu architektonických návrhů.
 
-FormIt 功能：
+Aplikace FormIt zahrnuje:
 
-* 強大的實體塑型引擎，具備針對建築設計最佳化的強大工具和工作流程
-* 增強的環境視覺化，可展示設計選項，包括使用場景儲存的模型狀態
-* 使用 Bing 地圖的位置、衛星影像和 3D 地形
-* Autodesk Material Library 中的材料
-* 模型組織和可見性工具，例如群組、圖層和場景
-* 分析工具，包括：
-   * 實體模型診斷和修復的無縫和背面驗證
-   * 日光與陰影
-   * 日光分析
-   * 能源分析
-* Autodesk 產品整合：
+* Robustní modul pro modelování těles s výkonnými nástroji a pracovními postupy optimalizovanými pro navrhování budov
+* Vylepšenou vizualizaci prostředí pro ilustraci možností návrhu, včetně uložených stavů modelu pomocí scén
+* Umístění, satelitní snímky a 3D terén využívající službu Bing Maps
+* Materiály z knihovny materiálů Autodesk
+* Nástroje pro uspořádání modelu a viditelnost, například skupiny, hladiny a scény
+* Nástroje pro analýzu, včetně následujících:
+   * Ověření vodotěsnosti a zadních ploch pro diagnostiku a opravu modelu tělesa
+   * Slunce a stíny
+   * Analýza slunečního záření
+   * Energetická analýza
+* Integrace produktů společnosti Autodesk:
    * BIM 360 Docs
-   * Insight \(能源分析\)
+   * Insight \(Energetická analýza\)
    * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
    * [Revit](https://formit.autodesk.com/page/formit-revit)
-* 檔案格式支援：
-   * 開啟/匯入
-      * AXM、DWG、FBX、SAT、STL、OBJ、WSM、SketchUp、影像
-   * 匯出
-      * AXM、FBX、OBJ、STL、SAT、DAE、DXF
+* Podpora formátů souborů:
+   * Otevření/Import
+      * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, obrázky
+   * Export
+      * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[瀏覽器](https://app.formit.autodesk.com/) 中免費取得。需要 **FormIt Pro** 固定期限的使用授權，才能使用 [Windows 版 FormIt]( https://formit.autodesk.com/page/download)，這是功能最強大且功能最豐富的 FormIt 版本。**FormIt Pro** 固定期限的使用授權還可在 iOS 和網路上啟用其他功能，例如「日光和能源分析」。[Autodesk 工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)中包含 **FormIt Pro**。
+Aplikace FormIt je k dispozici zdarma pro systém [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) a [v prohlížeči](https://app.formit.autodesk.com/). K používání aplikace [FormIt pro systém Windows](https://formit.autodesk.com/page/download), nejvýkonnější a funkcemi nejvíce vybavené verze aplikace FormIt, je vyžadováno předplatné aplikace **FormIt Pro**. Předplatné aplikace **FormIt Pro** také umožňuje používat další funkce ve verzích pro iOS a web, jako je analýza slunečního záření a energetická analýza. Aplikace **FormIt Pro** je součástí sady [Autodesk AEC Collection](https://www.autodesk.cz/collections/architecture-engineering-construction/overview).
 
-**Android 版 FormIt 發生了什麼事？**
+**Co se stalo s aplikací FormIt pro systém Android?**
 
-為了簡化 FormIt 產品提供，我們不得不做出終止 Android 應用程式的艱難決定。如果您已安裝，它將繼續執行，但無法再從 Play 商店取得。
+Ve snaze zjednodušit nabídku produktů FormIt jsme museli učinit těžké rozhodnutí o ukončení aplikace pro systém Android. Pokud ji máte nainstalovanou, bude fungovat i nadále, ale již není dispozici v obchodu Google Play.
 
-**如何取得 FormIt？**
+**Jak mohu získat aplikaci FormIt?**
 
-若要執行 Windows 版本，您必須擁有 **FormIt Pro** 的存取權，這是我們[工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)固定期限使用授權的一部分。因此，如果您的辦公室有 Revit，您很有可能已經有 FormIt 存取權！您可以[直接從我們的網站](https://formit.autodesk.com/page/download)或從 Autodesk 桌面應用程式下載 Windows 版 FormIt。
+Chcete-li používat verzi pro systém Windows, musíte mít přístup k aplikaci **FormIt Pro**, která je součástí předplatného sady [AEC Industry Collection](https://www.autodesk.cz/collections/architecture-engineering-construction/overview). Pokud již tedy používáte aplikaci Revit, je velká pravděpodobnost, že již máte přístup k aplikaci FormIt. Aplikaci [FormIt pro systém Windows si můžete stáhnout přímo z našich webových stránek](https://formit.autodesk.com/page/download) nebo z aplikace Autodesk Desktop App.
 
-此外，您也可以直接從我們的網站免費執行網頁版本：[http://formit.autodesk.com](http://formit.autodesk.com)
+Kromě toho můžete zdarma spustit webovou verzi přímo z našeho webu: [http://formit.autodesk.com](http://formit.autodesk.com)
 
-您可以從 Apple App Store \(僅限 iPad) 免費下載 iOS 版本。
+Verzi pro iOS lze zdarma stáhnout z obchodu Apple App Store \(pouze pro iPad\).
 
-**如果我是學生或教師，是否可以免費存取 FormIt Pro？**
+**Pokud jsem student nebo pedagog, mohu získat přístup k aplikaci FormIt Pro zdarma?**
 
-是！您可以透過 [Autodesk Education Portal](https://www.autodesk.com/education/free-software/formit-pro) 存取 FormIt Pro 固定期限的使用授權。
+Ano! Přístup k předplatnému FormIt Pro získáte prostřednictvím portálu [Autodesk Education Portal](https://www.autodesk.com/education/free-software/formit-pro).
 
-**如何學習 FormIt？**
+**Jak se naučím aplikaci FormIt používat?**
 
-最好的開始位置是 [FormIt 入門手冊自學課程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html)。
+Nejlepším místem, kde začít, je výukový program [Základy aplikace FormIt](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html).
 
-入門手冊有多個部分，範圍從初學者 \(建立整棟現代房屋\) 到更進階的內容 \(以更進階的方式使用 Revit 和 Dynamo\)。
+Tento výukový program obsahuje více částí, od začátečnických \(vytvoření celého moderního domu\) až po pokročilejší \(pokročilá práce s aplikacemi Revit a Dynamo\).
 
-我們的 FormIt 星期五線上研討會系列也有 20 多個影片。您可以在我們的 [YouTube 頻道](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH) 上找到這些影片。
+Můžete také využít naši řadu webinářů FormIt Friday, která obsahuje přes 20 videí. Naleznete je na našem [kanálu na YouTube](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH).
 
-## 與 Revit 搭配運作
+## Práce s aplikací Revit
 
-**FormIt 如何與 Revit 搭配運作？**
+**Jak aplikace FormIt funguje s aplikací Revit?**
 
-FormIt 是一個獨立的 3D 草圖繪製和設計應用程式，但是它會建立可[使用 Revit 的 FormIt 增益集](https://formit.autodesk.com/page/formit-revit)輕鬆轉換為 Revit 的資料。
+FormIt je samostatná aplikace pro 3D kreslení a tvorbu návrhů, ale vytváří data, která lze snadno převést do aplikace Revit [pomocí doplňku FormIt pro aplikaci Revit](https://formit.autodesk.com/page/formit-revit).
 
-**匯入至 Revit 時會發生什麼事？**
+**Co se stane při importu do aplikace Revit?**
 
-自 2016 年起，Revit 隨附一個用於處理 FormIt 資料的增益集。當您將 FormIt AXM 檔案匯入至 Revit 時，此增益集會查看檔案中的每個物件，然後使用 API 在 Revit 中重新建立。FormIt 中的所有項目預設都會分類為「量體」。
+Počínaje verzí 2016 se aplikace Revit dodává s doplňkem pro práci s daty aplikace FormIt. Při importu souboru AXM aplikace FormIt do aplikace Revit tento doplněk zkontroluje každý objekt v souboru a znovu jej vytvoří v aplikaci Revit pomocí rozhraní API. Ve výchozím nastavení je vše v aplikaci FormIt zařazeno do kategorie Objem.
 
-FormIt 轉換器會採用每個量體物件，並使用 [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/CHT/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) 在 Revit 中建立量體族群。
+Doplněk FormIt Converter přebírá každý objemový objekt a vytváří v aplikaci Revit rodinu Objem pomocí [rozhraní API přímého tvaru](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/CSY/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
-DirectShape 是 IFC 工作流程中使用的不可編輯物件。雖然它無法編輯，但是具備在 FormIt 和 Revit 之間轉移完整材料材質的明顯優勢。[這裡有自學課程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html)，其中更詳細地說明 FormIt 至 Revit 的工作流程。
+Přímý tvar je objekt, který nelze upravovat, používaný v pracovních postupech IFC. Ačkoliv jej nelze upravovat, má značnou výhodu v tom, že umožňuje přenášet komplexní textury materiálů mezi aplikacemi FormIt a Revit. [Zde naleznete výukový program](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html), který podrobněji vysvětluje pracovní postup převodu z aplikace FormIt do aplikace Revit.
 
-**FormIt 可以建立牆、樓板和其他 Revit 系統族群嗎？**
+**Může aplikace FormIt vytvářet stěny, podlahy a další systémové rodiny aplikace Revit?**
 
-不是直接建立。如上所述，每個物件均預設為「量體」品類。若要建立牆、樓板等等，您應使用轉換器增益集將模型匯入 Revit，然後使用原生的 Revit 工具，從基本量體模型建立系統族群。
+Ne přímo. Jak je uvedeno výše, každý objekt je ve výchozím nastavení nastaven na kategorii Objem. K vytvoření stěn, podlah a podobně. je nutné model importovat do aplikace Revit pomocí doplňku Converter a potom pomocí nativních nástrojů aplikace Revit vytvořit systémové rodiny ze základního objemového modelu.
 
-**Revit 是否可以將資料傳回 FormIt？**
+**Může aplikace Revit odeslat data zpět do aplikace FormIt?**
 
-可以。若要將資料匯回 FormIt，請將 Revit 檔案的全部或_部分_ (最好) 匯出為 SAT 檔案格式。通常不需要將您所有的 Revit 資料傳送至 FormIt。而是先在 Revit 中建立一個篩選視圖，其中僅包含最少量的資料 \(例如，樓板和牆\)，然後再儲存為 SAT。
+Ano. Chcete-li importovat data zpět do aplikace FormIt, exportujte celý soubor Revit nebo nejlépe jeho _část_ do formátu souboru SAT. Obvykle není nutné odesílat do aplikace FormIt VŠECHNA data aplikace Revit. Místo toho vytvořte v aplikaci Revit filtrovaný pohled, který obsahuje pouze minimální data \(například podlahy a stěny\), a teprve potom je uložte do souboru SAT.
 
-## 與其他應用程式搭配運作
+## Práce s jinými aplikacemi
 
-**預設檔案格式為什麼是「.AXM」？**
+**Proč je výchozí formát souboru .AXM?**
 
-FormIt 正式命名前的內部代號是 XModeler，因此我們建立的檔案格式是 Autodesk X Modeler，簡稱 AXM。
+Oficiální interní kódový název aplikace FormIt byl XModeler, takže formát souboru, který jsme vytvořili, byl Autodesk X Modeler neboli zkráceně AXM.
 
-**FormIt 可匯入哪些 3D 格式？**
+**Jaké typy 3D formátů může aplikace FormIt importovat?**
 
-* Windows：AXM、DWG、FBX、OBJ、SAT、SKP、STL
-* 網頁：OBJ、STL
-* iOS：OBJ、STL、SAT
+* Windows: AXM, DWG, FBX, OBJ, SAT, SKP, STL
+* Web: OBJ, STL
+* iOS: OBJ, STL, SAT
 
-**FormIt 可以匯出哪些格式？**
+**Jaké typy formátů může aplikace FormIt exportovat?**
 
-* Windows：FBX、OBJ、SAT、STL、DAE、DXF
-* 網頁：OBJ、SAT、STL
-* iOS：OBJ
+* Windows: FBX, OBJ, SAT, STL, DAE, DXF
+* Web: OBJ, SAT, STL
+* iOS: OBJ
 
-**FormIt 如何與 Dynamo 搭配運作？**
+**Jak aplikace FormIt spolupracuje s aplikací Dynamo?**
 
-[了解 FormIt 與 Dynamo 如何搭配運作](https://formit.autodesk.com/page/formit-dynamo)，以建立計算設計工作流程。
+[Přečtěte si, jak aplikace FormIt a Dynamo spolupracují](https://formit.autodesk.com/page/formit-dynamo) při vytváření pracovních postupů výpočetních návrhů.
 
-**FormIt 與 SketchUp 相比如何？**
+**Jaké jsou výhody aplikace FormIt v porovnání s aplikací SketchUp?**
 
-* [**與 Revit 的互動**](../tool-library/revit.md)更好
-* 與 [**Dynamo 整合**](../tool-library/dynamo.md)用於計算設計
-* 適用於[**日光分析**](../tool-library/solar-analysis.md)和[**能源分析**](../tool-library/energy-analysis.md) \(由 Autodesk Insight 提供\) 的原生工具
-* 更強大的實體塑型核心，能進行進階的塑型作業
-* 原生進階塑型工具，例如[**掃掠、覆蓋、斷面混成**](../tool-library/cover-sweep-loft.md)、偏移實體/為實體建立薄殼、3D 混成/圓角以及[**將面弄平**](../tool-library/flatten-face.md)
-* 多個可見的[**剖面平面**](../tool-library/section-planes.md)
-* 診斷工具，例如[**顯示防水問題和顯示背面**](../tool-library/visual-styles.md)
-* 根據選取和/或可見的內容[**匯出模型片段**](../tool-library/export-data.md)
-* 原生 OBJ、SAT 和 STL 匯出
+* Lepší [**spolupráce s aplikací Revit**](../tool-library/revit.md) ****
+* [**Integrace pro aplikaci Dynamo**](../tool-library/dynamo.md) pro výpočetní návrhy
+* Nativní nástroje pro [**analýzu slunečního záření**](../tool-library/solar-analysis.md) a [**energetickou analýzu**](../tool-library/energy-analysis.md) využívající aplikaci Autodesk Insight
+* Robustnější jádro pro modelování těles, které umožňuje pokročilé modelování
+* Nativní pokročilé nástroje pro modelování, například [**Tažení, Pokrýt, Šablonování**](../tool-library/cover-sweep-loft.md), Odsazení tělesa, Tělesa skořepiny, 3D přechod/zaoblení a [**Vyrovnat plochy**](../tool-library/flatten-face.md)
+* Více viditelných [**rovin řezu** ](../tool-library/section-planes.md)
+* Diagnostické nástroje, například [**zobrazení problémů s vodotěsností a zobrazení zadních ploch**](../tool-library/visual-styles.md)
+* [**Export částí modelu**](../tool-library/export-data.md) na základě toho, co je vybráno nebo viditelné
+* Nativní export ve formátech OBJ, SAT a STL
 
-**我可以使用 SketchUp 鍵盤快速鍵嗎？**
+**Mohu použít klávesové zkratky aplikace SketchUp?**
 
-是！Windows 版 FormIt 有一套完全可編輯的鍵盤對應。預設已經有許多常用的 SketchUp 快速鍵，但您可以在「編輯」&gt;「偏好」功能表中編輯。
+Ano! Aplikace FormIt pro systém Windows obsahuje plně upravitelnou mapu klávesnice. Mnoho běžných klávesových zkratek aplikace SketchUp je k dispozici již ve výchozím nastavení, ale můžete si je upravit v nabídce Upravit &gt; Předvolby.
 
-**我可以使用我的 DWG 檔案嗎？**
+**Mohu použít své soubory DWG?**
 
-是！FormIt 會匯入 2D 和 3D DWG 檔案。
+Ano! Aplikace FormIt může importovat 2D a 3D soubory DWG.
 
-## 常見支援問題
+## Časté dotazy týkající se podpory
 
-**如何獲得支援？**
+**Jak získám podporu?**
 
-您可以洽詢 Autodesk 經銷商，或在 [FormIt 論壇](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=zh-CN)上與我們聯繫。最好先搜尋您發現的問題，如果還沒有答案，請張貼新主題，FormIt 團隊將會回覆。
+Můžete kontaktovat svého prodejce produktů společnosti Autodesk nebo využít [fórum pro uživatele aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Doporučujeme nejprve hledat, zda na váš problém již nebyl zadán jiný dotaz, a pokud nenaleznete žádnou odpověď, publikujte nové téma a tým aplikace FormIt vám odpoví.
 
-**如果我無法登入，該怎麼做？**
+**Co mám dělat, pokud se nemohu přihlásit?**
 
-* 這篇[論壇文章](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=zh-CN)涵蓋常見的登入問題
-* 如果您的電腦有可切換的圖形處理器 \(GPU\)，請務必確保 FormIt 永遠使用較高效能的 GPU。以下是 [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) 的指示
+* Tento [příspěvek na fóru](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=en) popisuje běžné problémy s přihlášením.
+* Pokud máte počítač s přepínatelným grafickým procesorem (GPU), je důležité zajistit, aby aplikace FormIt vždy využívala výkonnější GPU. Zde jsou pokyny pro grafické karty společnosti [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) a [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).
 
-**如果 Insight 能源分析失敗，該怎麼做？**
+**Co mám dělat, pokud se nezdaří energetická analýza aplikace Insight?**
 
-如果 Insight 能源分析報告錯誤或無法傳回任何結果，請[查看 Insight 能源分析頁面](https://formit.autodesk.com/page/formit-insight)，以取得常見的疑難排解秘訣。
+Pokud energetická analýza aplikace Insight hlásí chybu nebo nevrací žádné výsledky, [podívejte se na naši stránku věnovanou energetické analýze aplikace Insight](https://formit.autodesk.com/page/formit-insight), kde najdete tipy pro řešení problémů.
 

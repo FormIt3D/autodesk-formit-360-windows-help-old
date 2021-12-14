@@ -1,18 +1,18 @@
-# 退回管理員
+# Správce vrácení zpět
 
-FormIt 有一個獨特的「退回/重做」系統，可以透過兩種不同的方式使用該系統來退回：根據群組退回，或依時間順序整體退回：
+Aplikace FormIt nabízí jedinečný systém Zpět/Znovu, který lze použít dvěma různými způsoby, a to buď pro jednotlivé skupiny, nebo chronologicky a globálně:
 
-* 編輯巢狀群組時退回/重做，只會影響該群組內的變更
-   * 這表示您可以在此群組中進行變更，然後在其他群組中進行許多變更，再回到原始群組，而且可以選擇退回此群組中所做的最後變更，而不會影響最近在其他位置所做的變更
-* 從主草圖退回/重做 \(不是編輯群組時\) 的作用類似於傳統的退回/重做系統：在**任何**群組中所做的最後變更，都將根據時間順序退回。
+* Příkaz Zpět/Znovu při úpravách vnořené skupiny ovlivní pouze změny uvnitř této skupiny.
+   * To znamená, že můžete provést změnu v této skupině, poté provést mnoho změn v jiných skupinách, vrátit se do původní skupiny a mít možnost vrátit zpět poslední změny provedené v této skupině, aniž by to ovlivnilo změny provedené nedávno jinde.
+* Příkaz Zpět/Znovu provedený z hlavního náčrtu \(nikoli při úpravách skupiny\) funguje tradičním způsobem: vrácena zpět bude poslední změna provedená v **libovolné** skupině na základě chronologického pořadí.
 
-「退回管理員」會記錄 FormIt 模型中每個群組內的每個變更，包括在主草圖中所做的變更。這有助於直觀地瞭解模型中任何群組中已退回的作業。
+Správce vrácení zpět zaznamenává každou změnu v každé skupině modelu aplikace FormIt, včetně změn provedených v hlavním náčrtu. Nabízí tak vizuální přehled o tom, které operace byly zrušeny v kterékoli skupině modelu.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-「退回管理員」將以**粗體**指示目前狀態、此狀態之前的任何作業，以及曾存在但之後已退回的所有作業。
+Správce vrácení zpět **tučně** označí aktuální stav a navíc zobrazí všechny operace před tímto stavem a všechny operace, které dříve existovaly, ale byly od té doby vráceny zpět.
 
-您可以在狀態上按一下右鍵，然後選取「捲動至」，視需要有效率地退回或重做以回到該模型狀態。
+Kliknutím pravým tlačítkem myši na požadovaný stav a výběrem možnosti Přejít na se můžete podle potřeby vrátit do daného stavu modelu.
 
-已明確刪除或由於退回或重做而不再存在的群組，會顯示為「\*非作用中\*」。您可以透過在其父系群組內退回或重做來還原，直到這些群組恢復。
+Skupiny, které byly explicitně odstraněny nebo již neexistují v důsledku použití příkazu Zpět nebo Znovu, jsou zobrazeny jako \*Neaktivní\*. Tyto skupiny lze obnovit opakovaným použitím příkazů Zpět nebo Znovu v rámci nadřazené skupiny, dokud se neobnoví.
 

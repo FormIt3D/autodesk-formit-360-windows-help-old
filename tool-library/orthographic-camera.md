@@ -1,18 +1,18 @@
-# 正投影相機
+# Ortografická kamera
 
-FormIt 2021 增加一個新的正投影相機功能。您可以在導覽功能表中找到「正投影」和「透視」按鈕：
+Aplikace FormIt 2021 obsahuje novou funkci Ortografická kamera. V navigační nabídce naleznete tlačítka ortografického a perspektivního pohledu:
 
-![正投影 \(底部\) 和「透視」\(頂部\) 相機視圖按鈕](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Tlačítka ortografického pohledu \(dolní\) a perspektivního pohledu \(horní\) kamery](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-這個新選項可讓您輕鬆切換「正投影」和「透視」兩種相機視圖。
+Díky této nové možnosti můžete snadno přepínat mezi ortografickým a perspektivním pohledem kamery.
 
-![模型可以從「透視相機」模式切換至「正投影相機」模式。](../.gitbook/assets/ortho-camera.gif)
+![Model lze přepnout z režimu perspektivní kamery do režimu ortografické kamery.](../.gitbook/assets/ortho-camera.gif)
 
-一旦在「正投影」相機中，其他任何相機工具都將按照目前模式。例如，**將相機與面對齊**會將「正投影相機」與面對齊，從而產生正投影立面視圖。
+V režimu ortografické kamery budou všechny ostatní nástroje kamery respektovat aktuální režim. Například možnost **Zarovnat kameru s plochou** zarovná ortografickou kameru s plochou, čímž vznikne ortografický bokorysný pohled.
 
-如果您手動導覽至預先設定的正投影視圖 \(例如上視圖或前視圖\)，正投影相機將鎖點至該位置，以便更輕鬆地存取這些預先設定的視圖。
+Pokud ručně přejdete k přednastavenému ortografickému pohledu, například hornímu pohledu nebo přednímu pohledu, ortografická kamera se k této poloze přichytí, což usnadní používání těchto přednastavených pohledů.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**注意事項：**如果在「正投影相機」模式中發生相機裁剪問題，您可以切換回「透視模式」，拉遠，然後再試一次。
+**Poznámka:** Pokud v režimu ortografické kamery dojde k oříznutí kamery, můžete přepnout zpět do režimu perspektivního pohledu, oddálit pohled a poté akci opakovat.
 

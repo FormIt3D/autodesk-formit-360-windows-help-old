@@ -1,33 +1,33 @@
-# 修改面、邊和點
+# Úpravy ploch, hran a bodů
 
-當您開始推拉您放置的物件時，狀況會變得非常有趣。按一下可讓您選取單一頂點、邊、面或網格。
+Skutečně zajímavé to začne být, když začnete umístěné objekty tlačit a tahat. Kliknutím můžete vybrat jeden vrchol, hranu, plochu nebo síť.
 
-## 修改面
+## Úpravy plochy
 
-1. 按一下面
-2. FormIt 會自動將您置於「拖曳面」或「擠出」工具中。
-3. 按一下某處以識別作業的起點。
-4. 按一下後，您可以鎖點至其他物件以對齊此面。
-5. 與移動一樣，您可以按一下**暫時標註**，或直接開始鍵入值以定義移動量。
+1. Klikněte na plochu.
+2. Aplikace FormIt automaticky přepne do nástroje Přetáhnout plochu nebo Vysunout.
+3. Kliknutím na libovolné místo určete počáteční bod operace.
+4. Po kliknutí se můžete přichytit k jiným objektům a zarovnat tuto plochu.
+5. Stejně jako v případě přesunu můžete kliknout na **dočasnou kótu** nebo jednoduše začít zadávat hodnotu a definovat tak míru pohybu.
 
 ![](../.gitbook/assets/modify.png)
 
-您也可以使用 **Delete** 鍵，或按一下右鍵並從關聯式功能表呼叫「刪除」，來刪除面。
+Plochu můžete také odstranit pomocí klávesy **Delete** nebo kliknutím pravým tlačítkem myši a výběrem položky Odstranit v místní nabídce.
 
-您也可以使用**按一下右鍵 >「X」按鈕**來刪除面。
+Plochu můžete odstranit také tak, že **kliknete pravým tlačítkem myši a pak kliknete na tlačítko X**.
 
-## 修改邊
+## Úpravy hran
 
-1. 按一下邊
-2. FormIt 會自動將您置於「移動」工具中
-3. 將滑鼠放在空間中要開始「移動」作業的點上。
-4. 按一下，現在您可以拖曳邊以修改造型。
+1. Klikněte na hranu.
+2. Aplikace FormIt automaticky přepne do nástroje Přesunout.
+3. Umístěte ukazatel myši na bod v prostoru, ze kterého chcete zahájit operaci přesunutí.
+4. Klikněte a přetažením hrany změňte tvar.
 
 ![](../.gitbook/assets/modify2.png)
 
-## 修改點
+## Úprava bodů
 
-1. 按一下其中一個立方體的其中一個角。
-2. 與邊類似，您可以沿其中一條軸拖曳該點，以重新定義造型。[下一個 非等比例](non-uniform-scale.md)
+1. Klikněte na jeden z rohů některé z krychlí.
+2. Podobně jako u hrany můžete přetažením bodu podél jedné z os předefinovat tvar. [Další Nejednotná změna měřítka](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

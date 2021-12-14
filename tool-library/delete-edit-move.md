@@ -1,22 +1,22 @@
-# 刪除、編輯、移動
+# Odstranění, úpravy, přesunutí
 
-移除物件、變更其位置或修改其性質。
+Odstraňte objekt, změňte jeho umístění nebo upravte jeho vlastnosti.
 
-## 刪除
+## Odstranění
 
-首先，選取幾何圖形。然後，按一下右鍵以查看關聯式功能表，您可以在其中按一下**「刪除」工具**。也可以在鍵盤上按 Delete 鍵。
+Nejprve vytvořte výběr geometrie. Poté kliknutím pravým tlačítkem myši zobrazte místní nabídku a klikněte na **nástroj Odstranit**. Můžete také stisknout klávesu Delete na klávesnici.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## 編輯
+## Úpravy
 
-使用許多編輯工具 \(例如「移動」、「陣列」、「推拉面」和「偏移」\) 時，您會看到藍色的尺寸方塊。您可以在完成作業後按一下這個尺寸，並輸入特定值。您也可以直接開始鍵入數值以存取「編輯尺寸」對話方塊。或者，您可以按 Tab 顯示「編輯尺寸」對話方塊，但 FormIt for Windows v17 和更高版本不再需要 Tab。
+Při použití mnoha nástrojů pro úpravy, jako jsou například Přesunout, Pole, Zatlačit/Vytáhnout plochu a Odsazení, se zobrazí modrý rámeček kóty. Po dokončení operace můžete na tuto kótu kliknout a zadat konkrétní hodnotu. Můžete také jednoduše začít psát číselnou hodnotu, čímž zobrazíte dialog Upravit kótu. Případně můžete dialog Upravit kótu vyvolat stisknutím klávesy Tab, ale v aplikaci FormIt pro Windows verze 17 a novějších verzích již není klávesa Tab vyžadována.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## 移動邊、面或物件
+## Posunutí hran, ploch nebo objektů
 
-首先選取邊、面或物件。移動工具會自動啟用。將游標懸停以查看鎖點和推論點，以指定您要開始移動作業的位置，然後按一下以開始。現在，將滑鼠懸停到要移動物件到的位置，以查看鎖點和推論點。再按一下即可放置物件。
+Nejprve vyberte hranu, plochu nebo objekt. Nástroj Přesunout se automaticky aktivuje. Přesunutím kurzoru zobrazte body uchopení a odvození, pomocí nichž určete, kde chcete zahájit operaci přesunutí, a kliknutím ji spusťte. Nyní přesunutím kurzoru myši zobrazte body uchopení a odvození v umístění, do kterého chcete objekt přesunout. Dalším kliknutím objekt umístěte.
 
 ![](../.gitbook/assets/edit_edge.png)
 

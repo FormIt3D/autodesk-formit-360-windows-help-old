@@ -1,6 +1,6 @@
-# 場景
+# Scény
 
-您可以儲存「場景」檢視點及其相關的視覺型式和圖層狀態，然後使用它們來設定相機點引導穿越並講述視覺故事。
+Můžete uložit bod pohledu scény, související vizuální styly a stavy hladin, a pak je použít k nastavení bodů kamery, kterými můžete řídit procházení modelem a vizuální prezentace.
 
-若要進一步瞭解場景，請按一下[此處](../formit-primer/part-i/visual-settings.md)。
+Další informace o používání scén naleznete [zde](../formit-primer/part-i/visual-settings.md).
 

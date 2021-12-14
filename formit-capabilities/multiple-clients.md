@@ -1,6 +1,6 @@
-# 多個用戶端
+# Více klientů
 
-使用 FormIt 可隨時隨地進行設計。
+Pomocí aplikace FormIt můžete navrhovat kdykoli a kdekoli.
 
-除了 [Windows](https://formit.autodesk.com/download) 和[網頁](https://formit.autodesk.com/app)應用程式，FormIt 還可在 Apple iPad 上執行，透過對 Apple Pencil 的支援，進行直覺快速的觸控式重複作業。將 FormIt 與其他功能強大的行動應用程式 \(例如 Autodesk Sketchbook Pro\) 結合，隨時隨地建立完整的簡報！
+Kromě aplikací pro systém [Windows](https://formit.autodesk.com/download) a [web](https://formit.autodesk.com/app) lze aplikaci FormIt používat na zařízení Apple iPad, kde umožňuje intuitivní a rychlé dotykové iterace s podporou pera Apple Pencil. Kombinujte aplikaci FormIt s dalšími výkonnými mobilními aplikacemi, jako je Autodesk Sketchbook Pro, a vytvářejte celé prezentace na cestách!
 

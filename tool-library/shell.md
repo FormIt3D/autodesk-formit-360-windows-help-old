@@ -1,4 +1,4 @@
-# 薄殼
+# Skořepina
 
-從實體物件，您可以建立指定寬度的「薄殼」。薄殼有助於從量體模型快速建立牆：
+Z objektu tělesa můžete vytvořit „skořepinu“ zadané šířky. Skořepiny jsou užitečné pro rychlé vytváření stěn z objemového modelu:
 

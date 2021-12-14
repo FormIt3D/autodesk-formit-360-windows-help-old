@@ -1,12 +1,12 @@
-# 群組樹
+# Strom skupin
 
-**「群組樹」**選項板提供一個單一位置來管理檔案中所有的群組。樹狀檢視顯示巢狀群組，「狀態」欄顯示目前正在編輯的群組，以及群組是來自 Dynamo 還是 Revit。
+Paleta **Strom skupin** poskytuje jedno místo pro správu všech skupin v souboru. Stromový pohled zobrazuje vnořené skupiny a ve sloupci Stav je zobrazeno, která skupina je aktuálně upravována a zda se jedná o skupinu aplikace Dynamo nebo Revit.
 
-* **選取**：每個實體會單獨列出。在樹狀目錄中選取某個實體，該實體就會在 3D 場景中選取。
-* **編輯**：若要編輯群組，請使用選項板頂端的圖筆圖示，或按一下右鍵並選擇「編輯」。
-* **更名**：若要更名群組，請按兩下名稱，或按一下右鍵並選擇「更名」。
-* **刪除**：若要刪除群組，請使用選項板頂端的 \(**-**\) 圖示，或按一下右鍵並選擇「刪除」。
-* **變更品類**：若要變更群組的品類，請選取群組，然後使用選項板頂端的「品類」下拉式清單。
+* **Výběr**: Každá instance je uvedena samostatně. Vyberte instanci ve stromu a instance bude vybrána ve 3D scéně.
+* **Úpravy**: Chcete-li některou skupinu upravit, klikněte na ikonu pera v horní části palety nebo klikněte pravým tlačítkem myši a vyberte možnost Upravit.
+* **Přejmenování**: Pokud chcete některou skupinu přejmenovat, dvakrát klikněte na její název nebo klikněte pravým tlačítkem myši a vyberte možnost Přejmenovat.
+* **Odstranění**: Chcete-li některou skupinu odstranit, klikněte na ikonu \(**-**\) v horní části palety nebo klikněte pravým tlačítkem myši a vyberte možnost Odstranit.
+* **Změna kategorie**: Pokud chcete změnit kategorii skupiny, vyberte požadovanou skupinu a použijte rozevírací seznam Kategorie v horní části palety.
 
 ![](../.gitbook/assets/groups.png)
 

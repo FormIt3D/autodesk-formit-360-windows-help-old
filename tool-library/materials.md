@@ -1,157 +1,157 @@
-# 材料
+# Materiály
 
-讓 FormIt 模型彈出支援反射、光澤和凸紋貼圖的材料。
+Vylepšete své modely aplikace FormIt pomocí materiálů, které podporují odrazy, lesk a mapy nerovností.
 
-## 材料面板
+## Panel Materiály
 
 ![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-在「材料」面板中，您可以從各種「材料範例」中進行選擇，在連結的材料資源庫之間導覽，而且自 FormIt 2021 開始，存取和使用其他 FormIt (.AXM) 檔案的材料內容。
+Na panelu materiálů můžete vybírat ze široké škály ukázek materiálů, procházet připojené knihovny materiálů a od verze aplikace FormIt 2021 také přistupovat k obsahu materiálů jiných souborů FormIt (.AXM) a používat je.
 
-### 材料資源庫來源
+### Zdroje knihovny materiálů
 
-在 FormIt 2021 和更高版本中，「材料」面板有一個下拉式介面，可從「在草圖中」、「材料範例」和[連結的資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)中選擇可用的材料資源庫來源。
+V aplikaci FormIt 2021 a novějších verzích obsahuje panel Materiály rozevírací seznam, ve kterém si můžete vybrat z dostupných zdrojů knihovny materiálů: V náčrtu, Ukázky materiálů a [připojené knihovny](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### 在草圖中
+#### V náčrtu
 
-顯示儲存至目前 FormIt 草圖的材料。
+Zobrazí materiály uložené v aktuálním náčrtu aplikace FormIt.
 
-#### 材料範例
+#### Ukázky materiálů
 
-顯示可用範例材料的清單。這些提供內容儲存在雲端式伺服器上，因此請注意：
+Zobrazí seznam dostupných vzorových materiálů. Tyto nabídky jsou uloženy na cloudovém serveru, proto mějte na paměti:
 
-* 首次存取「材料範例」品類時，需要網際網路連線。
-* 首次存取品類時，會先下載品類，然後在您的電腦上快取，將來的工作階段作業就不需要再下載。
-* FormIt 團隊有時可能會更新「材料範例」中的提供內容。如果發生此情況，FormIt 會自動刪除並重新下載品類，以取得最新的品類。
+* Při prvním přístupu do kategorií seznamu Ukázky materiálů je nutné připojení k internetu.
+* Při prvním přístupu ke kategorii bude daná kategorie stažena a poté uložena do vyrovnávací paměti v počítači, aby budoucí relace nevyžadovaly stažení.
+* Tým aplikace FormIt může čas od času aktualizovat nabídku v seznamu Ukázky materiálů. Pokud k tomu dojde, aplikace FormIt automaticky odstraní a znovu stáhne kategorie, abyste měli k dispozici nejnovější verzi.
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**連結的資源庫**
+**Připojené knihovny**
 
-[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)之後，會顯示其他目錄和位置。
+Další adresáře a umístění se zobrazí po [připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-### 建立、刪除和使用滴管
+### Vytváření, odstraňování a kapátko
 
-![](../.gitbook/assets/materials\_add.PNG)透過定義新材料的顏色、材質、凸紋貼圖、挖除貼圖、透明度和反射/光澤等設定來**建立新材料**。
+![](../.gitbook/assets/materials\_add.PNG)**Vytvořte nový materiál** definováním jeho barvy, textury, mapy nerovností, mapy výřezů, průhlednosti a nastavení odlesku/lesku.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **刪除**選取的材料。
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Odstranit** vybrané materiály.
 
-![](../.gitbook/assets/materials\_eyedropper.PNG)對場景中繪製的材料使用**滴管**，然後使用它立即開始繪製。
+![](../.gitbook/assets/materials\_eyedropper.PNG)**Kapátko** – Zkopírujte materiál ve scéně a ihned s ním začněte malovat.
 
-* 按一下「滴管」工具，然後按一下使用材料繪製的面
-* 在面上找到的材料會在面板中亮顯，在載入該材料時，「畫筆」工具會變為作用中狀態。
+* Klikněte na nástroj Kapátko a pak klikněte na plochu pomalovanou požadovaným materiálem.
+* Materiál, který se nachází na ploše, se v panelu zvýrazní a aktivuje se nástroj Štětec s načteným materiálem.
 
-### 重新整理、連結資源庫和清除未使用的項目
+### Obnovení, připojení knihoven a čištění nepoužívaných materiálů
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png)從本端目錄**連結材料資源庫**。包含 JPG、PNG 或 AXM (FormIt) 檔案的目錄將顯示內容。請參閱[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)，以取得更多資訊。
+\*\*\*\*![](../.gitbook/assets/materials-link.png) **Připojte knihovny materiálů** z místních adresářů. Zobrazí se obsah v adresářích se soubory JPG, PNG nebo AXM (FormIt). Další informace naleznete v části [Připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-![](../.gitbook/assets/materials-refresh.png)**重新整理**目前目錄。只有在檢視本端連結的目錄 (不是「在草圖中」或「材料範例」) 時啟用。
+![](../.gitbook/assets/materials-refresh.png)**Obnovte** aktuální adresář. Tato možnost je povolena pouze při zobrazení místně připojeného adresáře (není k dispozici v seznamu V náčrtu nebo Ukázky materiálu).
 
-![](../.gitbook/assets/materials-purge.png)**清除目前 FormIt 草圖中未使用的材料**。
+![](../.gitbook/assets/materials-purge.png)**Vyčistěte nepoužívané** materiály z aktuálního náčrtu aplikace FormIt.
 
-未使用的材料可能會在迭代過程中自然地累積，但如果這些材料使用高品質的材質，則會顯著增加檔案大小。
+Nepoužívané materiály se mohou během iterace přirozeně hromadit, ale mohou výrazně zvýšit velikost souboru, pokud používají vysoce kvalitní textury.
 
-未使用的材料於「在草圖中」清單中會以灰色名稱顯示。
+Nepoužívané materiály se v seznamu V náčrtu zobrazí s šedě zbarveným názvem.
 
-按一下「清除未使用的項目」工具，可刪除所有未使用的材料。您會先看到提示，如果您有其他想法，就可以取消。只有「在草圖中」清單才會啟用此按鈕。
+Kliknutím na nástroj Vyčistit nepoužívané odstraníte všechny nepoužívané materiály. Nejprve se zobrazí výzva, takže pokud si čištění rozmyslíte, můžete akci zrušit. Toto tlačítko je aktivní pouze v seznamu V náčrtu.
 
-### 連結材料資源庫
+### Připojení knihoven materiálů
 
-FormIt 2021 和更高版本可讓您將「材料」面板連結至包含材料內容 (包括 JPG、PNG 和/或 FormIt 檔案的資料夾) 的本端目錄 (資源庫)：
+Aplikace FormIt 2021 a novější nabízí možnost propojit panel Materiály s místními adresáři (knihovnami) obsahujícími materiály včetně složek se soubory JPG, PNG nebo soubory aplikace FormIt:
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![檢視 FormIt 檔案或目錄中 JPG/PNG 檔案的個別材料。](../.gitbook/assets/materials-axm-content.png)
+![Zobrazení jednotlivých materiálů ze souboru FormIt nebo souborů JPG/PNG v adresáři](../.gitbook/assets/materials-axm-content.png)
 
-* **JPG/PNG 檔案**將顯示為材料，可直接繪製到目前的 FormIt 草圖中。
-   * 按一下縮圖可將影像檔案快速轉換為 FormIt 材料，並將其複製到目前草圖。
-   * FormIt 會讓您返回「在草圖中」目錄，以查看您剛複製到草圖的材料。
-* **FormIt 檔案 (\*.axm)** 將顯示為有 FormIt 圖示的資料夾。
-   * 按一下 FormIt 檔案資料夾將顯示儲存至該檔案的所有 FormIt 材料。
-   * 請注意，FormIt 必須載入部分檔案才能取得材料內容，因此較大檔案可能需要較長時間才能在面板中顯示材料。
+* **Soubory JPG/PNG** se zobrazí jako materiály, kterými lze malovat přímo v aktuální náčrtu aplikace FormIt.
+   * Kliknutím na miniaturu se soubor obrázku za běhu převede na materiál aplikace FormIt a zkopíruje se do aktuálního náčrtu.
+   * Aplikace FormIt vás vrátí do adresáře „V náčrtu“, kde uvidíte materiál, který jste právě zkopírovali do náčrtu.
+* **Soubory aplikace FormIt (*.axm)** se zobrazí jako složky s ikonou aplikace FormIt.
+   * Kliknutím na složky souborů aplikace FormIt zobrazíte všechny materiály aplikace FormIt uložené v daném souboru.
+   * Aby bylo možné získat obsah materiálu, musí aplikace FormIt načíst část souboru, takže u větších souborů může zobrazení materiálů na panelu trvat déle.
 
-### 材料互動
+### Interakce s materiály
 
-按一下縮圖，即可**繪製材料**。您將被帶到「畫筆」工具中，現在，您可以將游標懸停在 FormIt 畫布中的幾何圖形上，然後按一下面或群組即可繪製。
+**Malujte s materiálem** jedním kliknutím na miniaturu. Aktivuje se nástroj Štětec, který můžete umístit nad geometrii na kreslicí ploše aplikace FormIt a kliknutím na plochy nebo skupiny je vyplnit daným materiálem.
 
-進入「畫筆」工具後：
+Jakmile se aktivuje nástroj Štětec:
 
-* 按一下以繪製面和群組。
-   * 繪製群組時，材料會重疊顯示到巢狀幾何圖形中，而且會將蓋住使用「預設材料」繪製的任何表面或群組。
-* 按兩下某個面以選取所有貼附的物件，來繪製整個實體。
+* Můžete jedním kliknutím pomalovat plochy a skupiny.
+   * Při malování skupin se materiál promítne do vnořené geometrie a pokryje všechny plochy nebo skupiny vybarvené výchozím materiálem.
+* Můžete vybarvit celá tělesa tak, že dvakrát kliknete na některou plochu, čímž vyberete vše, co je k ní připojeno.
 
-您也可以先選取面和群組，然後按一下材料縮圖，以使用該材料繪製選取項目。
+Můžete také nejprve vybrat plochy a skupiny a poté jedním kliknutím na miniaturu materiálu pomalovat výběr tímto materiálem.
 
-**按兩下縮圖編輯材料**，這會顯示「材料編輯器」(請參閱下方)。
+**Upravte materiál** dvojitým kliknutím na miniaturu, čímž zobrazíte Editor materiálů (viz níže).
 
-按兩下名稱**更名材料**。
+**Přejmenujte materiál** dvojitým kliknutím na jeho název.
 
-**找出在幾何圖形上繪製的材料**，方法為選取材料，並尋找指出哪些材料是在選取的幾何圖形上繪製的亮顯和圖示。
+**Identifikujte materiál** namalovaný na geometrii tak, že jej vyberete a vyhledáte zvýraznění a ikonu označující, které materiály jsou namalovány na vybrané geometrii.
 
 ![](../.gitbook/assets/material\_selected.png)
 
-您可以使用**「預設材料」**有效率地「清除」任何材料的面或群組。任何未使用「材料」繪製的幾何圖形都會以「預設材料」繪製。
+**Výchozí materiál** lze použít k efektivnímu „vyčištěn“ plochy nebo skupiny od jakýchkoli materiálů. Veškerá geometrie, která není vyplněna materiálem, je implicitně omalována výchozím materiálem.
 
-### 清單管理
+### Správa seznamu
 
-調整欄的寬度，以調整縮圖的大小 (按一下並拖曳垂直線到「材料」的右側)。
+Upravte velikost miniatur nastavením šířky sloupce (klikněte a přetáhněte svislou čáru vpravo od položky „Materiál“).
 
-在「篩選...」列中鍵入，以篩選特定材料。
+Konkrétní materiály můžete filtrovat zadáním požadovaného názvu do řádku „Filtr…“.
 
-名稱以灰色字體顯示的材料表示目前草圖中未使用這些材料。
+Názvy materiálů, které se zobrazují šedě, označují materiály, které nejsou v aktuálním náčrtu použity.
 
-## 建立和編輯材料
+## Tvorba a úpravy materiálů
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-建立或編輯材料時，您會看到「材料編輯器」對話方塊，您可以在其中自訂：
+Při vytváření nebo úpravě materiálu se zobrazí dialog Editor materiálu, ve kterém můžete upravit řadu položek:
 
-* **顏色**
-* **影像貼圖**
-   * 按一下縮圖可選擇新貼圖。
-   * 按一下「儲存」圖示可儲存貼圖，以在其他應用程式中進行編輯。
-   * 按一下「刪除」圖示，可從此材料中刪除貼圖。
-      * **影像檔案中的材質**
-         * JPG 或 PNG
-      * **影像檔案中的凸紋貼圖**
-         * 建議使用 JPG
-         * 非常適合在材料中加入深度效果。
-         * 您可以使用 ShaderMap 之類的自由軟體，產生指定材質的凸紋貼圖。
-      * **影像檔案中的挖除貼圖**
+* **Barva**
+* **Obrázkové mapy**
+   * Kliknutím na miniaturu vyberte novou mapu.
+   * Kliknutím na ikonu Uložit uložte mapu pro úpravy v jiné aplikaci.
+   * Kliknutím na ikonu Odstranit odstraníte mapu z tohoto materiálu.
+      * **Textura ze souboru obrázku**
+         * JPG nebo PNG
+      * **Mapa nerovností ze souboru obrázku**
+         * Doporučený formát JPG
+         * Ideální pro přidání efektů hloubky k materiálům
+         * Pomocí freewaru, jako je například ShaderMap, můžete generovat mapy nerovností s danou texturou.
+      * **Mapa výřezů ze souboru obrázku**
          * PNG
-         * 非常適合可選擇透明度的材料，例如網狀圍籬或穿孔板。
-* **名稱**
-* **水平比例和垂直比例**
-   * 啟用後，「鎖住縱橫比」按鈕將確保水平比例和垂直比例遵循材質的縱橫比。
-   * 獨立調整水平比例和垂直比例可拉伸材料。
-   * 您可以使用「調整材料放置」工具 (請參閱下方) 取代每個面的水平和垂直比例。
-* **透明度**、**反射**和**光澤**
+         * Ideální pro materiály se selektivní průhledností, jako jsou ploty z drátěného pletiva nebo děrované panely.
+* **Název**
+* **Horizontální a vertikální měřítko**
+   * Pokud je tato možnost povolena, tlačítko Uzamknout poměr stran zajistí, že horizontální a vertikální měřítko bude respektovat poměr stran textury.
+   * Roztáhněte materiál nastavením horizontálního měřítka nezávisle na vertikálním měřítku.
+   * Horizontální a vertikální měřítko pro plochu můžete přepsat pomocí nástroje Upravit umístění materiálu (viz níže).
+* **Průhlednost**, **Odraz** a **Lesk**
 
-## 調整材料放置
+## Úprava umístění materiálu
 
-在面上繪製材料時，FormIt 會猜測最佳方位：
+Při malování materiálu na plochu se aplikace FormIt snaží odhadnout nejlepší orientaci:
 
-* 垂直面將沿著 Z 軸轉向材質的頂部。
-* 水平面將沿著面最長一側轉向材質縱向。
+* Svislé plochy budou orientovány tak, že vrchol textury bude orientován podél osy Z.
+* U horizontálních ploch bude textura orientována podélně podél nejdelší strany plochy.
 
-使用**調整材料放置**工具可取代預設的材料放置，以及特定面上的材料比例：
+Pomocí nástroje **Upravit umístění materiálu** můžete změnit výchozí umístění materiálu a měřítko materiálu na konkrétních plochách:
 
-* 選取使用材料繪製的面
-   * 如果面是從其父系群組繼承其材料，您必須先直接繪製面。
-* 透過快速鍵 MP 或右鍵關聯式功能表存取「調整材料放置」工具：
+* Vyberte plochu nebo plochy pomalované materiálem.
+   * Pokud plocha dědí svůj materiál ze své nadřazené skupiny, bude nutné nejprve pomalovat plochu přímo.
+* Nástroj Upravit umístění materiálu můžete spustit pomocí klávesové zkratky MP nebo z místní nabídky, která se zobrazí po kliknutí pravým tlačítkem myši:
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-使用螢幕上的控制項，以互動方式直接在面上移動、旋轉材料材質和調整其比例：
+Pomocí ovládacích prvků na obrazovce můžete interaktivně přesouvat a otáčet textury materiálů a měnit jejich měřítko přímo na ploše:
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-若要重置材料放置的任何變更，只需從「材料」面板使用原始材料再次繪製面即可。
+Chcete-li zrušit všechny změny umístění materiálu, jednoduše znovu vymalujte plochu původním materiálem z panelu Materiály.
 
-## 材料轉換至 Revit
+## Převod materiálů do aplikace Revit
 
-使用適用於 Revit 2018 或更高版本的 [FormIt 增益集](https://formit.autodesk.com/page/formit-revit)時，材料將轉移至 Revit。
+Materiály můžete převést do aplikace Revit pomocí [doplňku FormIt](https://formit.autodesk.com/page/formit-revit) pro aplikaci Revit 2018 a novější.

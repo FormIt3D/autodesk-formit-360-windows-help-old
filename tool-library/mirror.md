@@ -1,13 +1,13 @@
-# 鏡射
+# Zrcadlit
 
-使用「鏡射」工具建立物件的鏡射複本。
+Pomocí nástroje Zrcadlit můžete vytvořit zrcadlenou kopii objektu.
 
-鏡射物件：
+Zrcadlení objektu:
 
-1. 按兩下以選取單一物件，或按一下以選取群組。
-2. 按一下右鍵，然後從關聯式功能表中選擇「鏡射」工具，或鍵入鍵盤快速鍵 **MI**。
-3. 此時會顯示一個平面，並顯示物件將鏡射的軸。您可以移動或旋轉平面，以自訂鏡射的軸。
-4. 調整完鏡射物件的平面後，按一下選取範圍外的任意位置。
+1. Dvojitým kliknutím vyberte jeden objekt nebo jedním kliknutím vyberte skupinu.
+2. Klikněte pravým tlačítkem myši a v místní nabídce vyberte nástroj Zrcadlit, případně stiskněte klávesovou zkratku **MI**.
+3. Zobrazí se rovina zobrazující osu, na které bude objekt zrcadlen. Rovinu lze posouvat nebo otáčet a přizpůsobit tak osu zrcadla. 
+4. Po dokončení úprav roviny zrcadleného objektu klikněte kamkoli mimo výběr.
 
 ![](../.gitbook/assets/mirror.png)
 

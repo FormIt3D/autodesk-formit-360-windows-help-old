@@ -1,12 +1,12 @@
-# 內容資源庫
+# Knihovna obsahu
 
-內容資源庫是一個很方便的方式，可以儲存元件和其他重複使用的項目。FormIt 預設包括幾個範例資源庫，包括家具範例資源庫和 Dynamo 範例腳本資源庫。在 FormIt 2021 中，現在可以從內容資源庫存取和使用 BIM 360 內容。
+Knihovny obsahu představují pohodlný způsob ukládání komponent a dalších položek, které chcete opakovaně používat. Ve výchozím nastavení aplikace FormIt obsahuje několik knihoven vzorků, včetně knihovny vzorků nábytku, a knihovnu vzorových skriptů aplikace Dynamo. Ve verzi FormIt 2021 lze nyní z knihovny obsahu přistupovat k obsahu služby BIM 360 a používat jej.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.39.13-pm.png)
 
-在[這裡](../formit-primer/part-i/import-export-and-content-library.md)進一步瞭解如何使用內容資源庫。
+Další informace o používání knihovny obsahu naleznete [zde](../formit-primer/part-i/import-export-and-content-library.md).
 
-若要查看一些內容資源庫，[請參閱此部落格文章](https://formit.autodesk.com/blog/post/content-library)。
+Chcete-li zobrazit několik knihoven obsahu, [podívejte se na tento příspěvek na blogu ](https://formit.autodesk.com/blog/post/content-library).
 
 
 

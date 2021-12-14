@@ -1,93 +1,93 @@
-# 1.2 - 設定有影像和網格的專案
+# 1.2 – Nastavení projektu pomocí obrázků a osnovy
 
-_您可以從導覽列選取「檔案」&gt;「匯入」，將 PNG 或 JPG 影像匯入至模型的地平面。但是，若要更充分控制匯入影像的比例和位置，我們可以建立自訂材料，並將其套用至自行繪製的矩形。_
+_Výběrem možnosti Soubor > Importovat na panelu Navigace můžete do základní roviny modelu importovat obrázky PNG nebo JPG. Chcete-li však získat větší kontrolu nad měřítkem a umístěním importovaného obrázku, můžete vytvořit vlastní materiál a použít jej na obdélník, který jste sami nakreslili._
 
-_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**下載並開啟_ _**1.2 - Project Set Up with Images and Grid.axm**_ _檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.2 – Project Set Up with Images and Grid.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **計算影像大小**
+## **Výpočet velikost obrázku**
 
-提供的 **plan.png** 是一個列印在 24" x 26" 圖紙 \(ARCH D\) 上，3600 像素寬乘以 2400 像素高的平面圖影像。透過了解圖面比例 \(¼"=1'-0"\) 和影像尺寸，您可以計算 1' = 25 像素，這表示以完整比例匯入至 FormIt 時，影像應為 144'x96'。
+Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o rozměrech 24" x 26", který je široký 3 600 pixelů a vysoký 2 400 pixelů. Když znáte měřítko výkresu \(¼"=1'-0"\) a rozměry obrázku, můžete vypočítat, že 1’ = 25 pixelů, což znamená, že obrázek by měl mít po importu do aplikace FormIt v plném měřítku rozměry 144' x 96'.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **匯入要調整比例的影像**
+## **Import obrázku v měřítku**
 
-1 - 按一下**浮動導覽列**中的**「上視圖」**圖示，以從上方查看場景。
+1 – Kliknutím na ikonu **Horní pohled** na **plovoucím panelu nástrojů Navigace** zobrazte scénu shora.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - 從「3D 草圖」工具列中選擇**「矩形工具 \(R\)」**。
+2 – Na panelu nástrojů 3D náčrt vyberte nástroj **Obdélník \(R\)**.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 - 若要建立正好為 **144'** x **96'** 的矩形，請按一下工作區中的任意位置以定義起點，然後移動滑鼠以預覽並定義第一個邊長。開始鍵入尺寸值可存取對話方塊，您可以在其中輸入精確的尺寸。按一下**「確定」**或按 **Enter** 鍵確認尺寸。重複此程序以設定第二個邊長並完成矩形。
+3 – Chcete-li vytvořit obdélník o rozměrech přesně **144’** x **96’**, kliknutím kdekoli v pracovním prostoru definujte počáteční bod a poté pohybem myši zobrazte náhled a zadejte délku první strany. Začněte zadávat hodnotu kóty, čímž se zobrazí dialog, do kterého můžete zadat přesnou kótu. Kliknutím na tlačítko **OK** nebo stisknutím klávesy **Enter** potvrďte kótu. Opakujte postup, nastavte délku druhé strany a dokončete obdélník.
 
-![輸入矩形第一個邊長。](../../.gitbook/assets/3%20%281%29.png)
+![Zadejte délku pro první stranu obdélníku.](../../.gitbook/assets/3%20%281%29.png)
 
-![輸入矩形第二個邊長。](../../.gitbook/assets/4%20%281%29.png)
+![Zadejte délku pro druhou stranu obdélníku.](../../.gitbook/assets/4%20%281%29.png)
 
-![完成矩形。](../../.gitbook/assets/5%20%281%29.png)
+![Dokončete obdélník.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - 建立新的「樓板平面圖」材料：
+4 – Vytvoření nového materiálu „Půdorys podlaží“:
 
-1. 開啟**「材料」選項板**。
-2. 按一下**「+」**圖示以建立新材料。
-3. 將新材料命名為**樓板平面圖。**
-4. 在**「貼圖」**下，按一下**「材質」**預覽磚，然後瀏覽至**「Farnsworth House Data Set」&gt;「Supporting Files」&gt;「Images」**資料夾中的 **plan.png**。然後按一下**「開啟」**。
-5. 在**「性質」**下的**「水平比例」**欄位中輸入 **144'**，在**「垂直比例」**欄位中輸入 **96'**，以變更影像的比例。請注意，若要插入變更影像比例的值，可能需要解鎖水平和垂直比例 \(**鎖鏈連結**圖示\)。
-6. 勾選**「透明度」**，並將其設定為大約一半。這有助於將匯入的樓板平面圖影像與衛星影像對齊。
-7. 按一下**「確定」**以完成材料。
+1. Otevřete **paletu Materiál**.
+2. Kliknutím na ikonu **+** vytvořte nový materiál.
+3. Pojmenujte nový materiál jako **Půdorys podlaží**
+4. V části **MAPY** klikněte na dlaždici náhledu **Textura** a přejděte k souboru **plan.png** ve složce **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Poté klikněte na tlačítko **Otevřít**.
+5. V části **VLASTNOSTI** změňte měřítko obrázku zadáním hodnoty **144'** do pole **Horizontální měřítko** a **96'** do pole **Vertikální měřítko**. Všimněte si, že k vložení hodnot, které mění poměr stran obrázku, může být nutné odemknout horizontální a vertikální měřítko \(ikona **řetězu**\).
+6. Zaškrtněte políčko **Průhlednost** a nastavte hodnotu přibližně na polovinu rozsahu. To usnadní zarovnání importovaného obrázku půdorysu podlaží se satelitním snímkem.
+7. Kliknutím na tlačítko **OK** dokončete materiál.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - 繪製矩形：
+5 – Vykreslení obdélníku:
 
-1. 在**「材料」選項板**中，按一下**「樓板平面圖」材料**磚，以使用此材料繪製。
-2. 按一下您繪製的矩形以進行繪製。按 **Esc** 結束畫筆工具。
+1. Na **paletě Materiál** klikněte na dlaždici **materiálu Půdorys podlaží**,abyste tímto materiálem mohli malovat.
+2. Kliknutím na načrtnutý obdélník jej vykreslete. Stisknutím klávesy **ESC** ukončete nástroj Štětec.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - 如果材料反轉或顛倒顯示，可能需要轉面。您可以按一下滑鼠右鍵來存取**關聯式功能表**，然後選取「反轉面 \(FF\)」按鈕來執行此作業。
+6 – Pokud se materiál zobrazuje převrácený nebo obrácený, bude nutné obrátit plochu. To provedete tak, že kliknutím pravým tlačítkem myši zobrazíte **místní nabídku** a vyberete tlačítko Obrátit plochu \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **將匯入的影像與衛星影像對齊**
+## **Zarovnání importovaného obrázku se satelitním snímkem**
 
-1 - 若要移動影像，請先按兩下矩形以選取該矩形。然後按一下並拖曳矩形，移動到與衛星影像中的建築重疊。我們稍後會回來讓它們完全對齊，現在只是試著靠近一點。
+1 – Chcete-li obrázek přesunout, vyberte nejprve obdélník tím, že na něj dvakrát kliknete. Poté klikněte na obdélník a přesuňte jej, dokud nepřekryje budovu na satelitním snímku. K dokonalému zarovnání se vrátíme později, teď se jen snažte, aby to bylo co nejblíže.
 
 ![](../../.gitbook/assets/9.png)
 
-2 - 旋轉矩形以與衛星影像對齊：
+2 – Otočení obdélníku tak, aby byl zarovnán se satelitním snímkem:
 
-1. 在矩形上按一下右鍵，以顯示關聯式功能表。選擇**「旋轉 \(Q\)」。**
-2. **旋轉工具集**會顯示在矩形的中間。按一下中間的橙色掣點，以選取該工具集。將工具集移至矩形的左下角。它會鎖點到角落。按一下以放置。
-3. 鍵入 **9**，將顯示尺寸方塊。按一下**「確定」**，將矩形逆時鐘旋轉 9 度。
+1. Kliknutím pravým tlačítkem myši na obdélník zobrazte místní nabídku. Vyberte možnost **Otočit \(Q\)**
+2. Uprostřed obdélníku se zobrazí **pomůcka pro otočení**. Vyberte pomůcku kliknutím na oranžový uzel uprostřed. Přesuňte pomůcku do levého dolního rohu obdélníku. Pomůcka se přichytí k rohu. Kliknutím ji umístěte.
+3. Zadejte hodnotu **9**. Zobrazí se pole kóty. Kliknutím na tlačítko **OK** otočte obdélník o 9 stupňů proti směru hodinových ručiček.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **將網格與衛星影像對齊**
+## **Zarovnání osnovy se satelitním snímkem**
 
-1 - 現在，我們將網格與衛星影像和樓板平面圖對齊。在**地平面**上的任意位置按一下右鍵，然後選擇**「設定軸 \(SZ\)」**。
+1 – Nyní zarovnáme osnovu se satelitním snímkem a půdorysem podlaží. Klikněte pravým tlačítkem myši kamkoli na **základní rovinu** a vyberte možnost **Nastavit osy \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 - 此時將顯示**設定軸**工具集。將軸移至矩形的左下角，軸應該會鎖點在該處。按一下以放置。
+2 – Zobrazí se pomůcka pro **nastavení os**. Přesuňte osu do levého dolního rohu obdélníku, kde by se měla přichytit. Kliknutím ji umístěte.
 
 ![](../../.gitbook/assets/13.png)
 
-3 - 按一下紅色軸終點處的掣點。將掣點移至矩形的右下角，讓紅色軸與平面圖的底邊對齊。在空間中離開軸的地方按一下以確認此變更。
+3 – Klikněte na uzel na konci červené osy. Přesuňte uzel do pravého dolního rohu obdélníku tak, aby se červená osa zarovnala s dolní hranou roviny. Kliknutím na volné místo  potvrďte změnu.
 
 ![](../../.gitbook/assets/14.png)
 
-4 - 若要將視圖與新網格對齊，請按一下導覽列中的「上視圖」圖示以重置場景。
+4 – Chcete-li zarovnat pohled s novou osnovou, obnovte scénu kliknutím na ikonu Horní pohled na panelu Navigace.
 
 ![](../../.gitbook/assets/15.png)
 
-5 - 若要確保建築物在兩個影像中重疊，請選取平面圖再移動一次，直到與衛星影像正確重疊。
+5 – Chcete-li zajistit, aby se budova na obou snímcích překrývala, vyberte půdorys a znovu jej přesuňte, dokud se nebude správně překrývat se satelitním snímkem.
 
 ![](../../.gitbook/assets/16.png)
 
-6 - 現在衛星影像、矩形和格線都對齊了，這會簡化 3D 草圖繪製。
+6 – Satelitní snímek, obdélník a osnova jsou nyní zarovnány, což usnadní 3D kreslení.
 

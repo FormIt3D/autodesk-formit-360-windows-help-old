@@ -1,7 +1,7 @@
-# 附錄
+# Příloha
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## 附錄
+## Příloha
 
-在本部分中，您可以找到有關 FormIt 的其他資源。我們提供鍵盤快速鍵，讓您的 FormIt 流程更快速，還包括您可以與其他使用者在一個專案上協同合作的步驟。
+V této části naleznete další zdroje pro pokročilou práci v aplikaci FormIt. Přidali jsme klávesové zkratky, které urychlují práci v aplikaci FormIt, a také postup pro spolupráci s ostatními uživateli na jednom projektu.

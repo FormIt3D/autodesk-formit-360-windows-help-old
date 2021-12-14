@@ -1,98 +1,98 @@
-# 1.5 - 群組物件
+# 1.5 – Seskupování objektů
 
-_FormIt 中的群組功能與 Revit 中的族群和 SketchUp 中的元件相似。將不同物件組成群組可防止其幾何圖形接合。群組複本可做為原始幾何圖形的實體，表示變更一個複本將會影響所有複本。_
+_Skupiny v aplikaci FormIt fungují podobně jako rodiny v aplikaci Revit a komponenty v aplikaci SketchUp. Seskupení různých objektů zabraňuje spojení jejich geometrie. Kopie skupiny se chovají jako instance původní geometrie, což znamená, že změny jedné kopie ovlivní všechny kopie._
 
-_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.5 - Group Objects.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.5 – Group Objects.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **建立群組**
+## **Vytvoření skupiny**
 
-1 - 按兩下上方露台量體以選取它。
+1 – Dvakrát klikněte na objem horní terasy, abyste ji vybrali.
 
-2 - 按一下右鍵並選取**「群組 \(G\)」**，或直接按 **G**。
+2 – Klikněte pravým tlačítkem myši a vyberte položku **Skupina \(G\)** nebo jednoduše stiskněte klávesu **G**.
 
 ![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - 請注意，建立群組後，您會自動在「移動」工具中。
+3 – Všimněte si, že po vytvoření skupiny se automaticky aktivuje nástroj Přesunout.
 
-## **移動群組**
+## **Přesunutí skupiny**
 
-1 - 若要協助塑型程序，請開啟**「格線鎖點 \(SG\)」**\(如果關閉\)。
+1 – Pro usnadnění procesu modelování zapněte funkci **Přichytit k osnově \(SG\)**, pokud byla vypnuta.
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - 若要開始移動選取的物件，請在**「移動 \(M\)」**指令中，按一下量體的任一下方角落。然後向上移動游標，您應該會看到一條藍色 \(Z\) 軸線。這條線將協助您將物件直線上移。
+2 – Chcete-li začít přesouvat vybraný objekt, stále v nástroji **Přesunout \(M\)** klikněte na libovolný dolní roh objemu. Poté přesuňte kurzor nahoru. Měla by se objevit modrá čára osy \(Z\). Tato čára vám pomůže přesunout objekt rovně nahoru.
 
-3 - 在藍色軸可見時，鍵入 **4'-6"**，將顯示標註對話方塊。輸入標註後，按一下**「確定」**或在鍵盤上按 **Enter**。這會沿 **Z 軸**將整個量體從地平面上移。
+3 – S viditelnou modrou osou zadejte **4'-6"**. Zobrazí se dialog Kóta. Po zadání kóty klikněte na tlačítko **OK** nebo stiskněte klávesu **Enter**. Tím se celý objem přesune nahoru ze základní roviny podél **osy Z**.
 
-_**注意事項：**_ _與 Revit 類似，您也可以鍵入_ _**4'6**、_ _**4'6"**_ _或_ _**4.5**，使用英制單位時，程式會將該值解讀為 4\(英尺\) 6\(英寸\)。_
+_**Poznámka:**_ _Podobně jako v aplikaci Revit můžete také zadat_ _**4'6**,_ _**4'6"**_ _nebo_ _**4.5** a aplikace bude hodnotu interpretovat jako 4 \(stopy\) 6 \(palců\) (při použití britských jednotek)._
 
 ![](../../.gitbook/assets/2%20%282%29.png)
 
-## **編輯群組**
+## **Úpravy skupiny**
 
-1 - 若要進入**「群組編輯模式」**，請按兩下量體。
+1 – Dvakrát klikněte na objem, čímž přejdete do **režimu úprav skupiny**. 
 
-1. 在**「性質」選項板**中，將群組更名為 **Massing - Main Building**。
-2. 若要儲存變更並結束**「群組編輯模式」**，請按一下圖元區左上角的**「完成群組編輯」**勾選標記圖示，或按兩下空間中離開物件的位置。
+1. Na **paletě Vlastnosti** přejmenujte skupinu na **Objemy – hlavní budova**.
+2. Chcete-li uložit změny a ukončit režim **úprav skupiny**, klikněte na ikonu zaškrtnutí **Dokončit úpravy skupiny** v levém horním rohu kreslicí plochy nebo dvakrát klikněte na volné místo.
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**注意事項：**_
+_**Poznámky**:_
 
-* _若要了解_ _**「品類」**_ _選項，請移至_ _**與 Revit 搭配運作**_ _一章。_‌
-* _每個群組都有自己的退回/重做歷程，這與整個專案不同 - 您可以按一下圖元區左上角__**群組編輯精靈**__中的__**「退回」**__和__**「重做」**__箭頭。_
+* _Další informace o možnostech_ _**kategorie**_ _naleznete v kapitole_ _**Práce s aplikací Revit**_ _._‌
+* _Každá skupina má vlastní historii vrácení/opakovaného provedení akcí, která se liší od celkového projektu. Můžete kliknout na šipky_ _**Zpět**_ _a_ _**Znovu**_ _v_ _**Průvodci úpravami skupiny**_ _v levém horním rohu kreslicí plochy._
 
-## **將樓層套用到群組**
+## **Použití podlaží na skupinu**
 
-_**注意事項：**_ _將幾何圖形群組會取代您先前可能已套用到幾何圖形的設定。因此，您需要重新套用上一個練習中的「樓層」。_
+_**Poznámka:**_ _Seskupení geometrie přepíše předchozí nastavení, která jste na geometrii použili. Proto bude nutné znovu použít podlaží z předchozího cvičení._
 
-1 - 將樓層套用到群組：
+1 – Použití úrovní na skupinu:
 
-1. 按一下**「Massing** **- Main Building」**群組以選取它。
-2. 移至**「性質」選項板**，然後勾選**「使用樓層」。**
-3. 只保留**「主建築」**樓層，不勾選其他所有項目。
-4. **「依樓層的面積」**欄位將顯示目前選取的物件總面積。每個**樓層**的面積都顯示在每個**樓層**名稱的前面。
-5. 如果您沒有看到藍色樓層線水平穿過物件，請移至**「設定」功能表 &gt;「視覺型式」&gt;「顯示樓層 \(DL\)」，以開啟樓層顯示。**
+1. Vyberte skupinu **Objemy** **– hlavní budova** tak, že na ni kliknete.
+2. Přejděte na **paletu Vlastnosti** a zaškrtněte políčko **Použít podlaží**
+3. Zrušte zaškrtnutí všech ostatních položek a zachovejte pouze podlaží **Hlavní budova**.
+4. V poli **Plocha podle podlaží** se zobrazí hrubá plocha aktuálně vybraných objektů. Plocha každého **podlaží** je zobrazena před názvem každého **podlaží**.
+5. Pokud se nezobrazí modrá čára horizontálně protínající objekt, zapněte zobrazení podlaží v nabídce **Nastavení &gt; Vizuální styly &gt; Zobrazit podlaží \(DL\)**
 
-_**注意事項**：如果__**主建築**__樓層沒有報告面積，幾何圖形可能沒有與樓層相交，相交處應為 4'-6" 高。透過重新定位幾何圖形或__**樓層**__高度進行疑難排解，讓它們相交。_
+_**Poznámka:** Pokud není uvedena žádná plocha pro podlaží_ _**hlavní budovy**_ _, je možné, že geometrie neprotíná podlaží, která by měla být ve výšce 4'-6". Problém vyřešte změnou polohy geometrie nebo výšky_ _**podlaží**_ _tak, aby se protínaly._
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - 按 **Esc** 或按一下空間中離開物件的位置以除選群組。在未選取任何物件的情況下，**「性質」選項板**將報告整個草圖的總面積，而非特定物件的面積。
+2 – Zrušte výběr skupiny stisknutím klávesy **Esc** nebo kliknutím na volné místo. Pokud není vybrán žádný objekt, na **paletě Vlastnosti** se zobrazí celková hrubá plocha náčrtu, nikoli plocha konkrétního objektu.
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **管理群組**
+## **Správa skupin**
 
-1 - 檢視和管理草圖中的所有群組：
+1 – Zobrazení a správa všech skupin v náčrtu:
 
-1. 移至**「群組樹」選項板**。您將在此處看到：
-   * **Terrain** 群組 - **匯入衛星影像後**自動建立的群組。
-   * **Massing - Main Building** - 我們剛剛建立的建築量體幾何圖形群組。
-   * **group 2** - 包含樓板平面圖影像的未命名群組。
-2. 若要透過「群組樹」選項板更名 **group 2**，請按兩下**「group 2」**，然後鍵入 **Plan Image**。
+1. Přejděte na **paletu Strom skupin**. Zde uvidíte následující skupiny:
+   * **Terén** – skupina automaticky vytvořená při importu **satelitního snímku**.
+   * **Objemy – hlavní budova** – skupina geometrie objemu budovy, kterou jsme právě vytvořili.
+   * **skupina 2** – nepojmenovaná skupina obsahující obrázek půdorysu podlaží.
+2. Chcete-li přejmenovat **skupinu 2** na paletě Strom skupin, dvakrát klikněte na **skupinu 2** a poté zadejte text **Obrázek půdorysu**.
 
 ![](../../.gitbook/assets/6%20%284%29.png)
 
-_**注意事項：**_
+_**Poznámky:**_
 
-* _為了讓模型井然有序，我們建議您讓群組名稱容易辨識。_
-* _這個簡便的方法可以從一個位置管理和編輯模型中所有的群組。_
+* _Aby byl model přehledný, doporučujeme zadávat popisné názvy skupin._
+* _Toto je praktický způsob správy a úpravy všech skupin v modelu z jednoho místa._
 
-2 - 在 **Plan Image** 群組仍處於選取狀態時，導覽至**「性質」選項板**。請注意，群組名稱也已在**「群組」**欄位中更新。
+2 – Se stále vybranou skupinou **Obrázek půdorysu** přejděte na **paletu Vlastnosti**. Všimněte si, že název skupiny byl aktualizován také v poli **Skupina**.
 
 ![](../../.gitbook/assets/7.png)
 
-## **隱藏群組關聯**
+## **Nástroj Skrýt kontext skupiny**
 
-_此工具可以快速隱藏目前編輯的群組以外所有的幾何圖形。每當您有大型且複雜的模型，有其他幾何圖形擋住視線時，此工具就會變得非常方便。_
+_Tento nástroj představuje rychlý způsob, jak skrýt veškerou geometrii mimo skupinu, kterou právě upravujete. To je velmi užitečné, pokud pracujete s velkým a složitým modelem a ostatní geometrie vám překážejí._
 
-1 - 隔離群組：
+1 – Izolování skupiny:
 
-1. 按兩下其幾何圖形以編輯群組。
-2. 導覽至**「主功能表」**中的**「設定」**，然後勾選**「隱藏群組關聯」**，或只需按鍵盤上的 **H** 即可。請注意 **Plan Image** 如何消失。
-3. 完成編輯群組。請注意，**「隱藏群組關聯 \(H\)」**模式只有在**「群組編輯精靈」**內才會處於作用中狀態。
-4. 若要再次關閉此模式，只需按 **H** 即可。此選項可隨時在群組內或群組外切換。
+1. Chcete-li skupinu upravit, dvakrát klikněte na její geometrii.
+2. V **hlavní nabídce** přejděte k položce **Nastavení** a zaškrtněte políčko **Skrýt kontext skupiny** nebo stiskněte klávesu **H**. Všimněte si, že **obrázek půdorysu** zmizel.
+3. Dokončete úpravy skupiny. Režim **Skrýt kontext skupiny \(H\)** je aktivní pouze v **Průvodci úpravami skupiny**.
+4. Chcete-li tento režim opět vypnout, stačí stisknout klávesu **H**. Tuto možnost lze kdykoli přepnout, uvnitř skupiny i mimo ni.
 
 ![](../../.gitbook/assets/8%20%285%29.png)
 

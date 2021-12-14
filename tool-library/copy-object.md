@@ -1,29 +1,29 @@
-# 複製物件
+# Kopírování objektu
 
-有三種方法可以複製物件。
+Objekt lze kopírovat třemi způsoby.
 
-**使用關聯式功能表複製**
+**Kopírování pomocí místní nabídky**
 
-1. 按兩下物件以選取它。
-2. 在物件上按一下右鍵。
-3. 在關聯式功能表中選取[**「複製」工具**](tilt-array-copy-and-paste.md)。
-4. 在場景中的其他任意位置按一下右鍵，然後選擇**「貼上」按鈕**。
+1. Dvojitým kliknutím vyberte požadovaný objekt.
+2. Klikněte pravým tlačítkem na objekt.
+3. V místní nabídce vyberte [**nástroj Kopírovat**](tilt-array-copy-and-paste.md).
+4. Klikněte pravým tlačítkem myši na libovolné místo ve scéně a vyberte příkaz **Vložit**.
 
-注意事項：這也適用於 **Ctrl + C** 或 **V**。使用「就地貼上」\(**Ctrl+Shift+V**\)，將物件貼到它複製的位置。
+Poznámka: Tento způsob funguje také s klávesovými zkratkami **Ctrl+C** a **Ctrl+V**. Pomocí příkazu Vložit na místo \(**Ctrl+Shift+V**\) vložíte objekt přesně na místo, odkud byl zkopírován.
 
-**使用 Ctrl 鍵複製**
+**Kopírování pomocí klávesy Ctrl**
 
-1. 按一下物件以選取它 \(按兩下可選取整個本體或所有貼附的物件\)。
-2. 按住 **Ctrl 鍵** 並開始拖曳物件，或開始移動物件，然後點選 **Ctrl**
-3. 現在您不是移動物件，而是移動物件的複本。
-4. 請注意，啟用「觸控模式」時，用 Ctrl 鍵複製目前無法運作。
-   1. 在觸控模式中，您必須使用關聯式功能表 \(按住\) 中的複製/貼上工具，或使用 Ctrl+C 和 Ctrl+V，然後放下物件，並依需要重新定位。
+1. Vyberte požadovaný objekt tak, že na něj kliknete \(dvojitým kliknutím vyberte celé těleso nebo vše k němu připojené\).
+2. Stiskněte a podržte klávesu **Ctrl** a začněte táhnout objekt, nebo začněte přesouvat objekt a potom stiskněte klávesu **Ctrl**.
+3. Místo objektu nyní přesouváte jeho kopii.
+4. Všimněte si, že při zapnutém režimu dotykového ovládání kopírování s klávesou Ctrl nefunguje.
+   1. V režimu dotykového ovládání musíte použít nástroje pro kopírování/vkládání v místní nabídce \(stiskněte a podržte\) nebo použijte kombinaci kláves Ctrl+C a Ctrl+V, poté objekt umístěte dolů a přemístěte jej podle potřeby.
 
-**使用陣列工具複製**
+**Kopírování pomocí nástroje Pole**
 
-1. 按兩下物件以選取它
-2. 在物件上**按一下右鍵**，然後選取[**「陣列」工具**](tilt-array-copy-and-paste.md)
-3. 選取要建立的複本數
-4. 選擇下一次拖曳將定義兩個物件之間的距離還是陣列的總長度。
-5. 按一下**「確定」。**  ![](../.gitbook/assets/array_properties.png)
+1. Dvojitým kliknutím vyberte požadovaný objekt.
+2. **Klikněte pravým tlačítkem** na objekt a vyberte [**nástroj Pole**](tilt-array-copy-and-paste.md).
+3. Zadejte požadovaný počet kopií.
+4. Zvolte, zda další tažení bude určovat vzdálenost mezi dvěma objekty, nebo celkovou délku pole.
+5. Klikněte na tlačítko **OK.**  ![](../.gitbook/assets/array_properties.png)
 

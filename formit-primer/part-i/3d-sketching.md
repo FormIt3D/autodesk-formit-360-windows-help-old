@@ -1,69 +1,69 @@
-# 1.3 - 3D 草圖和拖曳面
+# 1.3 – 3D náčrt a přetažení plochy
 
-_我們已準備好開始繪製范斯沃斯別墅！FormIt 中的 3D 塑型核心包含繪製線以建立面，然後拖曳這些面以建立體積。_
+_Jsme připraveni začít kreslit dům Farnsworth House. 3D modelování v aplikaci FormIt se v podstatě skládá z kreslení čar, které vytvářejí plochy, a následného přetahování těchto ploch, čímž se vytváří objemy._
 
-_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.3 - 3D Sketch and Drag Face.axm**檔案。_
+‌_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.3 – 3D Sketch and Drag Face.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **使用線繪製面**
+## **Kreslení ploch pomocí čar**
 
-1 - 為了簡化塑型程序，您可以使用**浮動導覽工具列**在不同的視圖模式之間切換。對於本練習，我們建議使用**透視 \(VP\)** 和 **3D 視圖 \(V3\)。**
+1 – Proces modelování si můžete usnadnit přepínáním mezi různými režimy pohledů pomocí **plovoucího panelu nástrojů Navigace**. V tomto cvičení doporučujeme použít režimy **Perspektivní \(VP\)** a **3D pohled \(V3\).**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 - 新建立的幾何圖形將自動接合或「粘住」它接觸的任何既有未群組的幾何圖形。為避免此情況，您通常會想要使用群組來組織幾何圖形。若要從樓板平面圖建立群組，請按兩下矩形以選取該矩形，然後按一下右鍵以存取**關聯式功能表**，並選取**「群組 \(G\)」。**
+2 – Nově vytvořená geometrie se automaticky připojí nebo „přilepí“ k jakékoli existující neseskupené geometrii, které se dotýká. Abyste se tomu chování vyhnuli, budete obvykle chtít uspořádat geometrii pomocí skupin. Chcete-li vytvořit skupinu z půdorysu, vyberte obdélník dvojitým kliknutím, poté kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte možnost **Skupina \(G\).**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 - 追蹤平面時，我們不希望線鎖點至格線，因此請按一下**主功能表**中的**「設定」**，並取消勾選**「鎖點至格線 \(SG\)」。**
+3 – Při trasování půdorysu nechceme, aby se čáry přichytávaly k osnově, proto v **hlavní nabídce** klikněte na **Nastavení** a zrušte zaškrtnutí políčka **Přichytit k osnově \(SG\).**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 - 若要開始繪製，請按一下**標準工具列**中的**「建立草圖」** \(鉛筆\) 圖示，然後選擇**「線」工具 \(L\)**。
+4 – Chcete-li začít kreslit, klikněte na ikonu **Vytvořit náčrt** \(Tužka\) na **panelu nástrojů Standard** a vyberte **nástroj Čára \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - 我們先在匯入的影像上建立矩形。建立第一條線：
+5 – Začneme vytvořením obdélníku na importovaném obrázku. Vytvořte první čáru:
 
-1. 使用**線工具**時，按一下匯入草圖中上方平台的**左上角**附近。
-2. 沿著顯示的紅色軸移動滑鼠。
-3. 按一下 **Tab** 鍵以輸入標註：**77'-4 1\8"。**
+1. V **nástroji Čára** klikněte poblíž **levého horního rohu** horní terasy v importovaném náčrtu.
+2. Pohybujte myší podél zobrazené červené osy.
+3. Klikněte na klávesu **Tab** a zadejte kótu **77'-4 1\8"**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**注意事項：**繪製草圖時，只要暫時標註出現，您就可以按_ _**Tab** 或直接開始鍵入數字，_ _即可開啟_ _**「標註」對話方塊**。_
+_**Poznámka:** Kdykoli se při vytváření náčrtu zobrazí dočasná kóta, můžete buď stisknutím klávesy_ _**Tab**, nebo tím, že jednoduše začnete psát číslo_ _, otevřít_ _**dialog Kóta**._
 
-6 - 若要建立第二條線，請沿綠色軸向下移動滑鼠，然後輸入 **28'-8** 做為上方平台的短邊。
+6 – Vytvořte druhou čáru: posuňte ukazatel myši dolů podél zelené osy a zadejte hodnotu **28’-8"**, která odpovídá krátké hraně horní terasy.
 
-7 - 定義矩形的第三條邊並完成：
+7 – Zadáním třetí hrany obdélníku dokončete kreslení plochy:
 
-1. 沿紅色軸移動滑鼠，然後按住 **Shift** 鍵。紅色軸會增厚，表示該線已鎖住此軸。
-2. 按 **Shift 鍵**的同時，將滑鼠移至繪製的第一個點。按一下以確認終點。
-3. 第三點將自動設定，與由 \(A\) 定義的紅色軸，以及由 \(B\) 定義的綠色軸平行。
-4. 最後，若要完成封閉矩形，請放開 **Shift** 鍵，然後按一下您繪製的第一個點。按兩次 **Esc**，以結束繪製工具。
+1. Přesuňte ukazatel myši podél červené osy a podržte klávesu **Shift**. Červená čára osy zesílí, což znamená, že čára je uzamčena k této ose.
+2. Se stisknutou klávesou **Shift** přesuňte ukazatel myši k prvnímu bodu, který jste nakreslili. Kliknutím potvrďte koncový bod.
+3. Třetí bod se automaticky nastaví rovnoběžně s červenou osou definovanou pomocí \(A\) a zelenou osou definovanou pomocí \(B\).
+4. Uzavřete obdélník: uvolněte klávesu **Shift** a klikněte zpět na první bod, který jste nakreslili. Ukončete nástroj Náčrt tak, že dvakrát stisknete klávesu **Esc**.
 
-_**注意事項：**_ _紅色軸和綠色軸可讓您保持與格線平行和垂直。當您繪製一條偏離世界軸的線時，一條紫色軸線將允許您與相對於偏離軸的線保持 90 度。_
+_**Poznámka:**_ _Červené a zelené osy vás udržují rovnoběžné a kolmé k osnově. Při kreslení čáry mimo globální osy vám fialová čára osy umožní zůstat v úhlu 90 stupňů vzhledem k čáře mimo osu._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **拖曳面以建立體積**
+## **Vytvoření objemu přetažením plochy**
 
-1 - 在您剛繪製的輪廓內按一下以選取面。現在，您會自動在**拖曳面**工具中。
+1 – Kliknutím uvnitř obrysu, který jste právě nakreslili, vyberte plochu. Nyní se automaticky nacházíte v nástroji **Přetáhnout plochu**.
 
-2 - 再按一下可開始拖曳。向上移動滑鼠 \(沿正 Z 軸方向\)，沿該方向擠出體積。開始鍵入 **12'-2"**，標註方塊將顯示此值，然後按 **Enter**。
+2 – Dalším kliknutím zahajte tažení. Přesunutím ukazatele myši nahoru \(podél kladné osy Z\) vysuňte objem v tomto směru. Začněte psát **12'-2"**. Zobrazí se pole kóty s touto hodnotou, poté stiskněte klávesu **Enter**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**注意事項：**_ _按_ _一下_ _只會選取單一面，_ _按兩下_ _會選取所有 \(未群組的\) 相鄰邊和面。_
+_**Poznámka:**_ _Jedním_ _kliknutím_ _vyberete pouze jednu plochu, zatímco_ _dvojitým kliknutím_ _vyberete všechny \(neseskupené\) sousední hrany a plochy._
 
-## **使用弧、雲形線和圓繪製 3D 草圖**
+## **Tvorba 3D náčrtů pomocí oblouku, křivky spline a kružnice**
 
-_下列練習對完成房屋並不重要。但是，它可讓您試驗其他可用的 3D 草圖繪製工具。按一下_ _**此處**_ _，進一步了解使用世界軸繪製 3D 草圖。_
+_Následující cvičení není pro dokončení domu důležité. Umožní vám však experimentovat s některými dalšími dostupnými nástroji pro 3D náčrty. Kliknutím_ _**sem**_ _získáte další informace o tvorbě 3D náčrtů pomocí globálních os._
 
-1 - 選取**「用三個弧點畫弧 \(A\)」**工具。按一下以定義起點，然後定義終點。按第三次定義弧的半徑。
+1 – Vyberte nástroj **Oblouk pomocí tří bodů oblouku \(A\)**. Kliknutím definujte počáteční a koncový bod. Třetí kliknutí definuje poloměr oblouku.
 
-2 - 選取**「雲形線 \(S\)」**工具。按一下以定義任意數目的點，繪製雲形線。
+2 – Vyberte nástroj **Spline \(S\)**. Kliknutím definujte libovolný počet bodů, které chcete použit k nakreslení křivky spline.
 
-3 - 選取**「圓 \(C\)」**工具。將游標懸停並按一下以定義圓的中心點。按一下並拖曳或輸入標註以定義半徑。
+3 – Vyberte nástroj **Kružnice \(C\)**. Přesuňte kurzor na požadované místo a kliknutím definujte středový bod kružnice. Kliknutím a přetažením nebo zadáním kóty zadejte poloměr.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

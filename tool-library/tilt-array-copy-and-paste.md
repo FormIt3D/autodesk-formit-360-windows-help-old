@@ -1,31 +1,31 @@
-# 面：傾斜和刻面/平滑
+# Plochy: Náklon a Ploška/Hladká
 
-## 處理面：傾斜和刻面/平滑
+## Práce s plochami: Náklon a Ploška/Hladká
 
-若要在繪製造型或放置基本圖元後建立更複雜的設計，您可以使用幾種關聯式工具來修改幾何圖形。這些作業包括「傾斜」、「陣列」和「複製並貼上」。
+Chcete-li vytvořit složitější návrhy po načrtnutí tvaru nebo umístění základního tělesa, můžete upravit geometrii pomocí několika kontextových nástrojů. Mezi tyto operace patří Náklon, Pole a Kopírovat a vložit.
 
-### 傾斜面
+### Náklon plochy
 
-**傾斜面：**
+Chcete-li **naklonit plochu**, postupujte následovně:
 
-1. 選取某一面，然後按一下右鍵以查看關聯式功能表。
-2. 從關聯式功能表中選擇**「傾斜」**圖示。
-3. 透過繪製線來定義傾斜軸。
-4. 按一下第三點以開始傾斜作業。
+1. Vyberte plochu a kliknutím pravým tlačítkem myši zobrazte místní nabídku.
+2. V místní nabídce vyberte ikonu **Náklon**.
+3. Definujte osu náklonu nakreslením čáry.
+4. Kliknutím na třetí bod spusťte operaci náklonu.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### 刻面 / 平滑面
+### Oploškování hladkých ploch
 
-如果您將游標懸停在面上並看到虛線，這表示該面是由一些較小的面因為面發生翹曲而組成。**將虛線轉換為模型邊：**
+Pokud umístíte kurzor na plochu a všimnete si tečkovaných čar, znamená to, že plocha je tvořena menšími plochami, protože je deformovaná. **Převedení tečkovaných čar na hrany modelu:**
 
-1. 選取要變更的面或物件，然後按一下右鍵以查看關聯式功能表。
-2. 從關聯式功能表中，選擇**「刻面平滑面」**工具。
-3. 在面之前平滑的地方會自動加入邊。
+1. Vyberte plochu nebo objekt, který chcete změnit, a kliknutím pravým tlačítkem zobrazte místní nabídku.
+2. V místní nabídce vyberte nástroj **Oploškovat hladké plochy**.
+3. Hrany se automaticky přidají tam, kde byla dříve hladká plocha.
 
-這個指令的運作方式相反，也就是：您可以選取刻面，然後從關聯式功能表中選取**「刻面平滑面」**工具以隱藏邊，並讓面看起來平滑。
+Tento příkaz funguje i opačným způsobem: můžete vybrat plochy, které jsou složené z plošek, a výběrem nástroje **Oploškovat hladké plochy** v místní nabídce skrýt hrany a nastavit plochy tak, aby vypadaly hladce.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

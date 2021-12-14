@@ -1,6 +1,6 @@
 # Dynamo
 
-在 FormIt for Windows v17.0 和更高版本中，Dynamo 是內建的，可讓您執行本端 Dynamo 圖表，輕鬆地在 FormIt 中產生複雜的幾何圖形。
+V aplikaci FormIt pro systém Windows verze 17.0 a novějších verzích je integrována aplikace Dynamo, takže můžete spouštět místní grafy aplikace Dynamo a snadno generovat složitou geometrii v aplikaci FormIt.
 
-[瞭解 Formit + Dynamo 如何運作](https://formit.autodesk.com/page/formit-dynamo)。
+[Zjistěte, jak aplikace FormIt a Dynamo spolupracují](https://formit.autodesk.com/page/formit-dynamo).
 

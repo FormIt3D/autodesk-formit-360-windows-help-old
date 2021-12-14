@@ -1,28 +1,28 @@
-# 圖層
+# Hladiny
 
-使用「圖層」控制 FormIt 物件的可見性。
+Pomocí hladin můžete ovládat viditelnost objektů aplikace FormIt.
 
-如需查看實際使用中的圖層，請參閱 [FormIt 入門手冊](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)。
+Prostudujte si [příručku k aplikaci FormIt a zjistěte, jak hladiny fungují.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## 建立和命名圖層
+## Vytvoření a pojmenování hladin
 
-在「圖層」面板中，您可以按一下「**+**」圖示來建立和命名圖層。
+Na panelu Hladiny můžete vytvořit a pojmenovat své hladiny kliknutím na ikonu „**+**“.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-您可以按兩下名稱來更名圖層，或勾選和取消勾選左側方塊來切換圖層物件的可見性。使用右側勾選方塊可鎖住和解鎖圖層。鎖住的圖層仍然可見，但無法選取或編輯。
+Dvojitým kliknutím na název můžete hladinu přejmenovat nebo můžete přepnout viditelnost jejích objektů zaškrtnutím a zrušením zaškrtnutí příslušného políčka nalevo. Pomocí zaškrtávacího políčka vpravo můžete hladiny uzamknout a odemknout. Uzamknutá hladina bude stále viditelná, ale nebude ji možné vybrat ani upravit.
 
-## 管理圖層上的物件
+## Správa objektů v hladinách
 
-在圖元區中選取物件，然後使用「圖層」面板頂端的下拉式清單來指出選取的物件應放在哪個圖層。
+Vyberte objekty na kreslicí ploše a pak pomocí rozevíracího seznamu v horní části panelu Vrstvy určete, do které vrstvy mají být vybrané objekty umístěny. 
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt 沒有「預設」或「工作圖層」的概念。所有新的幾何圖形都會建立在「無圖層」上，在物件產生後，您必須將物件重新指定至圖層。
+Aplikace FormIt nemá koncepci „výchozí“ nebo „pracovní“ hladiny. Veškerá nová geometrie bude vytvořena s použitím možnosti „Žádná hladina“ a po vygenerování budete muset objekty znovu přiřadit k hladinám.
 
-您可以在圖層上按一下右鍵，然後選擇「選取圖層上的所有物件」，以選取目前指定到此圖層的所有幾何圖形。
+Kliknutím pravým tlačítkem myši na hladinu a výběrem možnosti Vybrat vše na hladinách vyberete veškerou geometrii aktuálně přiřazenou k této hladině.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-您也可以將面板中的圖層拖放至新位置，以重新排序這些圖層。請注意，這不會影響幾何圖形的可見性 - 這純粹是面板中的組織工具。
+Můžete také změnit pořadí hladin v panelu a to přetažením do nového umístění. Všimněte si, že změna pořadí nemá žádný vliv na viditelnost geometrie, jedná se čistě o nástroj správy v panelu.
 

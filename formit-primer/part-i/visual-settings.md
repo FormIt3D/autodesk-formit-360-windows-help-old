@@ -1,67 +1,67 @@
-# 1.12 - 視覺型式
+# 1.12 – Vizuální styly
 
-_為概念量體塑型只是 FormIt 提供的一部分功能。另一部分是精美的圖形，有助於向客戶或團隊成員傳達理念。在本章中，我們將介紹如何設定_ _**圖形視覺型式**_ _並建立動畫。_
+_Modelování koncepčních objemů je jen polovinou toho, co aplikace FormIt nabízí. Druhá polovina je krásná grafika, která usnadňuje komunikaci s klienty nebo členy týmu. V této kapitole se budeme zabývat způsoby nastavení_ _**grafických vizuálních stylů**_ _a vytváření animací._
 
-_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.12 - Visual Styles.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.12 – Visual Styles.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **建立動畫**
+## **Tvorba animace**
 
-_在接下來的步驟中，我們將學習如何使用__**場景**__建立動畫。_
+_V následujících krocích se naučíme používat_ _**scény**_ _k vytvoření animace._
 
-1 - 建立第一個**場景**：
+1 – Vytvoření první **scény**:
 
-1. 開啟除 **Terrain**、**Plan Image** 和 **Massing** 之外的所有圖層。
-2. 確保將相機模式設定為**「透視 \(VP\)」**並定位相機，使其從稍高處看向整棟房屋，如下圖所示。
-3. 開啟**「場景」選項板**。
-4. 按一下**「+」**圖示，以從目前視圖建立新場景。
-5. 將其更名為 **Aerial View 1**，並讓其他**場景性質**符合下圖中展示的內容。
+1. Zapněte všechny hladiny kromě **terénu**, **obrázku půdorysu** a **objemů**.
+2. Ujistěte se, že je režim kamery nastaven na možnost **Perspektivní \(VP\)**, a umístěte kameru tak, aby se dívala na celý dům mírně shora, podobně jako na obrázku níže.
+3. Otevřete **paletu Scény**.
+4. Kliknutím na ikonu **+** vytvořte novou scénu z aktuálního pohledu.
+5. Přejmenujte ji na **Letecký pohled 1** a ostatní **vlastnosti scény** nastavte způsobem zobrazeným na obrázku níže.
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - 建立第二個**場景**，然後在它們之間製作動畫：
+2 – Vytvoření druhé **scény** a následné animace mezi nimi:
 
-1. 將相機調整到新位置，以便您從不同角度查看房屋。使用我們在上一步遵循的相同程序，建立名為 **Aerial View 2** 的新**場景**。
-2. 按一下**「播放」**按鈕。 在**「暫停時間」**設定為**「2 秒」**之後，動畫將開始在兩個場景之間緩慢地來回移動。此過程會一直持續，直到您按一下**「停止」**按鈕才會停止動畫。
+1. Nastavte kameru do nové polohy, abyste se na dům dívali z jiného úhlu. Vytvořte novou **scénu** s názvem **Letecký pohled 2** stejným postupem jako v předchozím kroku.
+2. Klikněte na tlačítko **Přehrát**. Po uplynutí **doby pozastavení** nastavené na **2 sekundy** se animace začne pomalu přesouvat mezi dvěma scénami tam a zpět. Přehrávání bude pokračovat, dokud animaci nezastavíte kliknutím na tlačítko **Zastavit**.
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**注意事項：**__您可以使用__**「場景」性質」**底部的設定來調整__**「暫停時間」**、__**「轉場時間」**和__**「相機速度」**__。嘗試加入更多場景，然後使用這些設定來自訂動畫。_
+_**Poznámka:**_ _Pomocí nastavení v dolní části okna_ _**Vlastnosti scény** můžete upravit_ _**dobu pozastavení**,_ _**dobu přechodu**_ _a_ _**rychlost kamery**. Zkuste přidat další scény a pohrát si s těmito nastaveními, abyste si animaci přizpůsobili._
 
-## **自訂視覺型式**
+## **Přizpůsobení vizuálních stylů**
 
-_現在，我們將使用某些自訂的**視覺型式**設定建立另一個場景。_
+_Nyní vytvoříme další scénu s několika přizpůsobenými nastaveními **vizuálních stylů**._
 
-1 - 首先開啟**「視覺型式」選項板**。請注意，頂端有四個 \(4\) 頁籤，每個頁籤都包含不同的視覺設定：**「表面」**、**「邊」**、**「環境」**和**「模型診斷」**。若要進一步了解每個頁籤，請造訪**「工具資源庫」**區段的**〈視覺型式〉**一章。
+1 – Nejprve otevřete **paletu Vizuální styly**. V horní části jsou čtyři \(4\) karty, z nichž každá obsahuje různá vizuální nastavení: **Povrchy**, **Hrany**, **Prostředí** a **Diagnostika modelu**. Další informace o jednotlivých kartách naleznete v kapitole **Vizuální styly** v části **Knihovna nástrojů**.
 
-2 - 自訂**「表面」頁籤**中的某些設定：
+2 – Přizpůsobte si některá nastavení na kartě **Povrchy**:
 
-1. 開啟**「陰影 \(DS\)」**。
-2. 開啟**「環境陰影 \(DA\)」**。
-3. 開啟**「單色表面 \(DM\)」**。這會產生抽象的黑白影像，而沒有任何材料。
+1. Zapněte možnost **Stíny \(DS\)**.
+2. Zapněte možnost **Okolní stíny \(DA\)**.
+3. Zapněte možnost **Monotonní povrchy \(DM\)**. Tím se vytvoří abstraktní černobílý obraz bez jakýchkoli materiálů.
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 - 自訂**「邊」頁籤**中的某些設定：
+3 – Přizpůsobte si některá nastavení na kartě **Hrany**:
 
 * 
-   1. 調整滑棒，將**「邊」**對比變淡為 **30%** 左右。
-   2. 開啟**「延伸邊 \(DX\)」。**
-   3. 調整滑棒，將**「剪影」**對比變淡為 **30%**。
+   1. Zesvětlete **hrany** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
+   2. Zapněte možnost **Prodloužit hrany \(DX\).**
+   3. Zesvětlete **siluety** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - 若要自訂**「環境」頁籤**中的某些設定：
+4 – Přizpůsobte si některá nastavení na kartě **Prostředí**:
 
-1. 關閉**「軸」**。
-2. 如果開啟，請關閉**「樓層」**。
+1. Vypněte možnost **Osy**.
+2. Pokud je zapnuta, vypněte možnost **Podlaží**.
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - 建立名為**自訂場景**的新場景，以儲存這些設定。現在，您可以在**場景**之間來回切換以重置圖形設定。
+5 – Vytvořte novou scénu s názvem **Přizpůsobená scéna** a uložte tato nastavení. Nyní můžete přepínat mezi **scénami** tam a zpět a obnovit tak nastavení grafiky.
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**注意事項**：如果不勾選新場景的__**「相機」**__性質，可以只用它來開啟我們剛剛建立的視覺設定，而不移動相機位置。請嘗試前往其中一個鳥瞰場景，然後按兩下__**「自訂場景」**__，並看看發生什麼狀況！_
+_**Poznámka:** Pokud u nové scény zrušíte zaškrtnutí vlastnosti_ _**Kamera**_ _, můžete pomocí ní pouze přepnout na vizuální nastavení, které jsme právě vytvořili, bez přesunutí polohy kamery. Vyzkoušejte to tak, že přejdete do jedné z předchozích leteckých scén a dvakrát kliknete na_ _**přizpůsobenou scénu**_ _. Sledujte, co se stane!_
 
-_**注意事項：**_ _若要了解_ _**視覺型式診斷**_ _和_ _**場景**的進階應用，請查看_ _**入門手冊第 II 部分**。_
+_**Poznámka:**_ _Informace o_ _**diagnostice vizuálních stylů**_ _a pokročilých možnostech použití_ _**scén** získáte v_ _**části II této příručky**._
 

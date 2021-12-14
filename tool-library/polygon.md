@@ -1,14 +1,14 @@
-# 多邊形
+# Polygon
 
-使用「多邊形」工具在空間中或其他物件上繪製一般的 N 邊多邊形。
+Pomocí nástroje Polygon můžete nakreslit běžný pravidelný mnohoúhelník v prostoru nebo na jiném objektu.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-開始多邊形，然後按一下以選擇中心點。繪製第二點、鍵入尺寸，或按一下 **Tab** 以顯示**「工具選項」**來指定半徑。
+Spusťte nástroj Polygon a kliknutím vyberte středový bod. Nakreslením druhého bodu určete poloměr. Zadáním kóty nebo stisknutím klávesy **Tab** zobrazíte dialog **Možnosti nástroje**.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-**「工具選項」**可讓您變更邊數並指定特定半徑。
+V dialogu **Možnosti nástroje** můžete změnit počet stran a zadat konkrétní poloměr.
 
 ![](../.gitbook/assets/image.png)
 

@@ -1,149 +1,149 @@
-# 鍵盤快速鍵
+# Klávesové zkratky
 
-| 指令 | 快速鍵 |
+| Příkaz | Zkratky |
 | :--- | :--- |
-| 應用程式設定: 顯示標註 | D, D |
-| 應用程式設定: 鎖點至格線 | S, G |
-| 協同合作: 邀請加入工作階段 | C, I |
-| 協同合作: 加入工作階段 | C, J |
-| 協同合作: 啟動工作階段 | C, S |
-| 顯示: 環境陰影 | D, A |
-| 顯示: 軸 | D, Z |
-| 顯示: 背面 | D, B |
-| 顯示: 邊 | D, E |
-| 顯示: 延伸線 | D, X |
-| 顯示: 格線 | D, G |
-| 顯示: 群組邊界框 | B, B |
-| 顯示: 隱藏線 | D, H |
-| 顯示: 單色表面 | D, M |
-| 顯示: 指北箭頭 | D, N |
-| 顯示: 陰影 | D, S |
-| 顯示: 剪影 | D, O |
-| 顯示: 手繪線 | D, K |
-| 顯示: 薄邊 | D, T |
-| 顯示: 防水問題 | D, W |
-| 繪製: 弧 | A |
-| 繪製: 圓 | C |
-| 繪製: 線 | L |
-| 繪製: 矩形 | R |
-| 繪製: 雲形線 | S |
-| 編輯: 複製 | Ctrl + C |
-| 編輯: 刪除 | 刪除 |
-| 編輯: 貼上 | Ctrl + V |
-| 編輯: 偏好 |  |
-| 編輯: 重做 | Ctrl+Y |
-| 編輯: 重做 | Ctrl+Shift+Z |
-| 編輯: 重置軸 | R, Z |
-| 編輯: 設定軸 | S, Z |
-| 編輯: 退回 | Ctrl+Z |
-| 能源分析: 取消見解 |  |
-| 能源分析: 產生見解 |  |
-| 能源分析: 檢視見解 |  |
-| 檔案: 匯出影像 |  |
-| 檔案: 將模型匯出至 | Ctrl + E |
-| 檔案: 匯入 3D 模型 | Ctrl + I |
-| 檔案: 匯入影像 | Ctrl + Shift + I |
-| 檔案: 新建 | Ctrl + N |
-| 檔案: 從 BIM 360 Docs 開啟 | Alt + O |
-| 檔案: 開啟 | Ctrl + O |
-| 檔案: 另存至 BIM 360 Docs | Alt + S |
-| 檔案: 與歷程一起儲存 | Ctrl + S、Ctrl + H |
-| 檔案: 儲存 | Ctrl + S |
-| 群組: 編輯群組 \(關聯式功能表\) | E |
-| 群組: 編輯群組 \(工具列\) | Alt + E |
-| 群組: 完成群組動作 | F |
-| 群組: 群組 \(關聯式功能表\) | G |
-| 群組: 群組 \(工具列\) | Alt + G |
-| 群組: 設為唯一 \(關聯式功能表\) | M, U |
-| 群組: 設為唯一 \(工具列\) | Alt + M |
-| 群組: 解除群組 \(關聯式功能表\) | U |
-| 群組: 解除群組 \(工具列\) | Alt + U |
-| 群組: 全部解除群組 \(關聯式功能表\) | U, A |
-| 群組: 全部解除群組 \(工具列\) | Alt + A |
-| 群組: 將模型解除群組 | U, M |
-| 說明: 關於 |  |
-| 說明: 檢查 FormIt 更新 |  |
-| 說明: FormIt 部落格 |  |
-| 說明: FormIt 圖庫 |  |
-| 說明: FormIt 影片 |  |
-| 說明: 取得支援 |  |
-| 說明: 說明 |  |
-| 說明: 新增功能 |  |
-| 樓層: 顯示樓層 | D, L |
-| 樓層: 使用樓層 | U, L |
-| 防止背面出現材料 |  |
-| 基本圖元: 立方體 | Alt + B |
-| 基本圖元: 圓柱 | Alt + C |
-| 基本圖元: 圓頂 | Alt + D |
-| 基本圖元: 角柱 | Alt + R |
-| 基本圖元: 角錐 | Alt + P |
-| 原型: 顯示滑鼠/格線狀態 |  |
-| 選取篩選: 邊 | E, S |
-| 選取篩選: 面 | F, S |
-| 選取篩選: 群組 | G, S |
-| 選取篩選: 實體 | S, S |
-| 設定: 大按鈕 |  |
-| 草圖設定: 切換單位類型 | U, T |
-| 日光分析: 分析 | A, A |
-| 日光分析: 進入/結束日光分析模式 | S, A |
-| 日光分析: 結束 |  |
-| 日光分析: 重置 |  |
-| 工具: 陣列 | A, R |
-| 工具: 覆蓋 | C, V |
-| 工具: 切割幾何圖形 \(關聯式功能表\) | C, C |
-| 工具: 切割幾何圖形 \(工具列\) | C, G |
-| 工具: 啟用觸控 | E, T |
-| 工具: 啟用觸控 | T, M |
-| 工具: 擠出邊 | E, E |
-| 工具: 圓角 | F, I |
-| 工具: 資訊 |  |
-| 工具: 接合幾何圖形 \(關聯式功能表\) | J, C |
-| 工具: 接合幾何圖形 \(工具列\) | J, G |
-| 工具: 套索選取 | L, L |
-| 工具: 斷面混成邊 | L, O |
-| 工具: 測量 | M |
-| 工具: 測量角度 | M, A |
-| 工具: 合併邊和頂點 | M, E |
-| 工具: 鏡射 | M, I |
-| 工具: 多重移動 | M, M |
-| 工具: 偏移邊 | O, E |
-| 工具: 偏移面 | O, F |
-| 工具: 偏移實體 | O, S |
-| 工具: 反轉面 | F, F |
-| 工具: 旋轉 | Q |
-| 工具: 從編輯器執行腳本 |  |
-| 工具: 比例 | S, C |
-| 工具: 選取 | 空格鍵 |
-| 工具: 設定位置 | S, L |
-| 工具: 薄殼 | S, H |
-| 工具: 平滑邊 | S, E |
-| 工具: 掃掠 | S, W |
-| 工具: 推拔面 | T, F |
-| 工具: 不平滑邊 | U, E |
-| 檢視: 藍色主題 |  |
-| 檢視: 預設主題 |  |
-| 檢視: 第一人稱飛越 | F, T |
-| 檢視: 環轉相機 |  |
-| 檢視: 平移相機 |  |
-| 檢視: 系統主題 |  |
-| 檢視: 切換透視 |  |
-| 檢視: 上 | Z, T |
-| 檢視: 全部縮放 | Z, A |
-| 檢視: 全部縮放 | Z, E |
-| 檢視: 全部縮放 | Z, Z |
-| 檢視: 縮放所有影像 | Z, I |
-| 檢視: 縮放相機 |  |
-| 檢視: 拉遠 |  |
-| 檢視: 縮放選取範圍 | Z, S |
-| 視窗: 設計工具列 | H, D |
-| 視窗: 浮動導覽工具列 | H, B |
-| 視窗: 主功能表 | H, M |
-| 視窗: 導覽工具列 | H, N |
-| 視窗: 作業工具列 | H, O |
-| 視窗: 設定工具列 | H, C |
-| 視窗: 草圖工具列 | H, K |
-| 視窗: 實體工具列 | H, P |
-| 視窗: 標準工具列 | H, T |
-| 視窗: 狀態列 | H, S |
-| 視窗: 檢視工具列 | H, V |
+| Nastavení aplikace: Kóty zobrazení | D, D |
+| Nastavení aplikace: Přichytit k osnově | S, G |
+| Spolupráce: Pozvat do relace | C, I |
+| Spolupráce: Připojit relaci | C, J |
+| Spolupráce: Spustit relaci | C, S |
+| Zobrazit: Okolní stíny | D, A |
+| Zobrazit: Osy | D, Z |
+| Zobrazit: Zadní plochy | D, B |
+| Zobrazit: Hrany | D, E |
+| Zobrazit: Prodloužit čáry | D, X |
+| Zobrazit: Osnova | D, G |
+| Zobrazit: Ohraničující kvádry skupin | B, B |
+| Zobrazit: Skryté čáry | D, H |
+| Zobrazit: Monotonní povrchy | D, M |
+| Zobrazit: Směrová růžice | D, N |
+| Zobrazit: Stíny | D, S |
+| Zobrazit: Siluety | D, O |
+| Zobrazit: Čáry náčrtu | D, K |
+| Zobrazit: Tenké hrany | D, T |
+| Zobrazit: Problémy s vodotěsností | D, W |
+| Kreslit: Oblouk | A |
+| Kreslit: Kružnice | C |
+| Kreslit: Úsečka | L |
+| Kreslit: Obdélník | R |
+| Kreslit: Spline | S |
+| Upravit: Kopírovat | Ctrl+C |
+| Upravit: Odstranit | Delete |
+| Upravit: Vložit | Ctrl+V |
+| Upravit: Předvolby |  |
+| Upravit: Znovu | Ctrl+Y |
+| Upravit: Znovu | Ctrl+Shift+Z |
+| Upravit: Obnovit osy | R, Z |
+| Upravit: Nastavit osy | S, Z |
+| Upravit: Zpět | Ctrl+Z |
+| Energetická analýza: Zrušit přehled |  |
+| Energetická analýza: Generovat přehled |  |
+| Energetická analýza: Zobrazit přehled |  |
+| Soubor: Exportovat obrázek |  |
+| Soubor: Exportovat model do | Ctrl+E |
+| Soubor: Importovat 3D model | Ctrl+I |
+| Soubor: Importovat obrázek | Ctrl+Shift+I |
+| Soubor: Nový | Ctrl+N |
+| Soubor: Otevřít ze služby BIM 360 Docs | Alt+O |
+| Soubor: Otevřít | Ctrl+O |
+| Soubor: Uložit jako do služby BIM 360 Docs | Alt+S |
+| Soubor: Uložit s historií | Ctrl+S, Ctrl+H |
+| Soubor: Uložit | Ctrl+S |
+| Skupina: Upravit skupinu \(místní nabídka\) | V |
+| Skupina: Upravit skupinu \(panel nástrojů\) | Alt+E |
+| Skupina: Dokončit akci skupiny | F |
+| Skupina: Seskupit \(místní nabídka\) | G |
+| Skupina: Seskupit \(panel nástrojů\) | Alt+G |
+| Skupina: Vytvořit jedinečné \(místní nabídka\) | M, U |
+| Skupina: Vytvořit jedinečné \(panel nástrojů\) | Alt+M |
+| Skupina: Zrušit seskupení \(místní nabídka\) | Z |
+| Skupina: Zrušit seskupení \(panel nástrojů\) | Alt+U |
+| Skupina: Zrušit seskupení všeho \(místní nabídka\) | U, A |
+| Skupina: Zrušit seskupení všeho \(panel nástrojů\) | Alt+A |
+| Skupina: Zrušit seskupení modelu | U, M |
+| Nápověda: O aplikaci |  |
+| Nápověda: Kontrola aktualizací aplikace FormIt |  |
+| Nápověda: Blog aplikace FormIt |  |
+| Nápověda: Galerie aplikace FormIt |  |
+| Nápověda: Videofilmy k aplikaci FormIt |  |
+| Nápověda: Získání podpory |  |
+| Nápověda: Nápověda |  |
+| Nápověda: Co je nového |  |
+| Podlaží: Zobrazit podlaží | D, L |
+| Podlaží: Použít podlaží | U, L |
+| Zabránit materiálům na zadních bočních plochách |  |
+| Základní těleso: Krychle | Alt+B |
+| Základní těleso: Válec | Alt+C |
+| Základní těleso: Kupole | Alt+D |
+| Základní těleso: Hranol | Alt+R |
+| Základní těleso: Jehlan | Alt+P |
+| Prototyp: Zobrazit stav myši/osnovy |  |
+| Filtr výběru: Hrany | E, S |
+| Filtr výběru: Plochy | F, S |
+| Filtr výběru: Skupiny | G, S |
+| Filtr výběru: Tělesa | S, S |
+| Nastavení: Velká tlačítka |  |
+| Nastavení náčrtu: Přepnout typ jednotky | U, T |
+| Analýza slunečního záření: Analyzovat | A, A |
+| Analýza slunečního záření: Zadejte/Ukončete režim analýzy slunečního záření | S, A |
+| Analýza slunečního záření: Konec |  |
+| Analýza slunečního záření: Obnovit |  |
+| Nástroje: Pole | A, R |
+| Nástroje: Pokrýt | C, V |
+| Nástroje: Oříznout geometrii \(místní nabídka\) | C, C |
+| Nástroje: Oříznout geometrii \(panel nástrojů\) | C, G |
+| Nástroje: Povolit dotykový režim | E, T |
+| Nástroje: Povolit dotykový režim | T, M |
+| Nástroje: Vysunout hrany | E, E |
+| Nástroje: Zaoblení | F, I |
+| Nástroje: Informace |  |
+| Nástroje: Spojit geometrii \(místní nabídka\) | J, C |
+| Nástroje: Spojit geometrii \(panel nástrojů\) | J, G |
+| Nástroje: Nepravidelný výběr | L, L |
+| Nástroje: Hrany šablonování | L, O |
+| Nástroje: Odměřit | M |
+| Nástroje: Odměřit úhel | M, A |
+| Nástroje: Sloučit hrany a vrcholy | M, E |
+| Nástroje: Zrcadlit | M, I |
+| Nástroje: Vícenásobné přesunutí | M, M |
+| Nástroje: Odsadit hranu | O, E |
+| Nástroje: Odsadit plochy | O, F |
+| Nástroje: Odsadit těleso | O, S |
+| Nástroje: Obrátit plochy | F, F |
+| Nástroje: Otočit | Q |
+| Nástroje: Spustit skript z editoru |  |
+| Nástroje: Měřítko | S, C |
+| Nástroje: Vybrat | Mezera |
+| Nástroje: Nastavit umístění | S, L |
+| Nástroje: Skořepina | S, H |
+| Nástroje: Vyhladit hrany | S, E |
+| Nástroje: Tažení | S, W |
+| Nástroje: Zešikmená plocha | T, F |
+| Nástroje: Nevyhlazené hrany | U, E |
+| Pohled: Modrý motiv |  |
+| Pohled: Výchozí motiv |  |
+| Pohled: Průlet kamery | F, T |
+| Pohled: Orbit kamery |  |
+| Pohled: Posunout kameru |  |
+| Pohled: Systémový motiv |  |
+| Pohled: Přepnout perspektivu |  |
+| Pohled: Horní | Z, T |
+| Pohled: Přiblížit vše | Z, A |
+| Pohled: Přiblížit vše | Z, E |
+| Pohled: Přiblížit vše | Z, Z |
+| Pohled: Přiblížit všechny obrázky | Z, I |
+| Pohled: Přiblížit kameru |  |
+| Pohled: Oddálit |  |
+| Pohled: Přiblížit na výběr | Z, S |
+| Okno: Panel nástrojů Návrh | H, D |
+| Okno: Plovoucí panel nástrojů Navigace | H, B |
+| Okno: Hlavní nabídka | H, M |
+| Okno: Panel nástrojů Navigace | H, N |
+| Okno: Panel nástrojů Operace | H, O |
+| Okno: Panel nástrojů Nastavení | H, C |
+| Okno: Panel nástrojů Náčrt | H, K |
+| Okno: Panel nástrojů Tělesa | H, P |
+| Okno: Panel nástrojů Standard | H, T |
+| Okno: Stavový řádek | H, S |
+| Okno: Panel nástrojů Pohled | H, V |
 

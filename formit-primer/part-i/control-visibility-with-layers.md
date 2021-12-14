@@ -1,54 +1,54 @@
-# 1.6 - 使用圖層控制可見性
+# 1.6 – Řízení viditelnosti pomocí hladin
 
-_與 AutoCAD 和 Photoshop 非常類似，FormIt 中的圖層可讓您管理模型中物件的可見性。在本章中，我們將建立一個圖層來儲存並隱藏建築量體，以供將來分析之用。_
+_Hladiny v aplikaci FormIt umožňují spravovat viditelnost objektů v modelu, podobně jako v aplikaci AutoCAD nebo Photoshop. V této kapitole vytvoříme hladinu k uložení a skrytí objemu budovy pro budoucí analýzu._
 
-_如果您未完成上一節，請從_ _**FormIt 入門手冊第 I 部分資料集**_ _下載並開啟_ _**1.6 - Control Visibility with Layers.axm**檔案。_
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.6 – Computational Groups with Dynamo.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **建立圖層**
+## **Vytvoření hladin**
 
-1 - 建立新圖層：
+1 – Vytvoření nových hladin:
 
-1. 移至**「圖層」選項板**，按三次**「+」**符號以建立三個圖層。
-2. 按兩下圖層名稱以更名為 **Massing**、**Main Building Floor** 和 **Plan Image。**
+1. Přejděte na **paletu Hladiny** a třikrát klikněte na ikonu **+**, čímž vytvoříte tři hladiny.
+2. Dvakrát klikněte na názvy hladin a přejmenujte je na **Objemy**, **Podlaží hlavní budovy** a **Obrázek půdorysu**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**注意事項：**_ _您可以按一下圖層名稱，然後向上或向下拖曳以重新排序圖層。_
+_**Poznámka:**_ _Kliknutím na název hladiny a jejím přetažením nahoru nebo dolů můžete změnit pořadí hladin._
 
-2 - 將 **Massing - Main Building** 群組指定到 **Massing** 圖層：
+2 – Přiřazení skupiny **Objemy – hlavní budova** k hladině **Objemy**:
 
-1. 在圖元區中，選取**「Massing - Main Building」**群組。
-2. 在**「圖層」選項板**中，從**「在下列圖層上的選取項目:」**下拉式功能表中選擇**「Massing」**圖層。同樣地，將 **Plan Image** 群組指定到 **Plan Image** 圖層。
+1. Na kreslicí ploše vyberte skupinu **Objemy – hlavní budova**.
+2. Na **paletě Hladiny** vyberte v rozevírací nabídce **Výběr na** hladinu **Objemy**. Podobně přiřaďte skupinu **Obrázek půdorysu** k hladině **Obrázek půdorysu**.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **複製群組**
+## **Duplikování skupiny**
 
-_我們現在要開始更詳細地對建築進行塑型。第一步是根據我們已經有的建築量體建立樓板幾何圖形。_
+_Nyní zahájíme proces podrobnějšího modelování budovy. Prvním krokem je vytvoření geometrie podlaží na základě objemů budovy, které již máme k dispozici._
 
-1 - 再次選取**「Massing - Main Building」**群組。按 **Ctrl + C \(複製\)** 複製，然後按 **Ctrl + Shift + V \(就地貼上\)** 將量體貼到同一位置。
+1 – Znovu vyberte skupinu **Objemy – hlavní budova**. Stisknutím kláves **Ctrl+C \(Kopírovat\)** zkopírujte a poté stisknutím kláves **Ctrl+Shift+V \(Vložit na místo\)** vložte objem na stejné místo.
 
-2 - 若要將新群組幾何圖形與原始群組解除關聯：按一下右鍵以存取**關聯式功能表**，然後選擇**「設為唯一 \(MU\)」**選項。
+2 – Chcete-li geometrii nové skupiny oddělit od původní skupiny, klikněte pravým tlačítkem myši a v **místní nabídce** vyberte možnost **Vytvořit jedinečné \(MU\)**.
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**注意事項**：新群組不再與原始群組相關聯。對新群組的變更不會改變原始群組。_
+_**Poznámka**: Nová skupina již není spojena s původní skupinou. Změny nové skupiny nezmění původní skupinu._
 
-## **建立樓板幾何圖形**
+## **Vytvoření geometrie podlaží**
 
-1 - 重新指定群組的圖層：
+1 – Změňte přiřazení hladiny skupiny:
 
-1. 按一下以選取其中一個**「Massing – Main Building」**群組。
-2. 使用**「圖層」選項板**中的**「在下列圖層上的選取項目:」**下拉式功能表，將群組放在 **Main Building Floor** 圖層上。
-3. 不勾選**「Massing」**圖層以隱藏其幾何圖形，以防止發生任何意外的編輯。
+1. Kliknutím vyberte některou ze skupin **Objemy – hlavní budova**.
+2. Umístěte skupinu na hladinu **Podlaží hlavní budovy** pomocí rozevíracího seznamu **Výběr na** na **paletě Hladiny**.
+3. Zrušte zaškrtnutí políčka u hladiny **Objemy**, abyste skryli její geometrii a ochránili ji před náhodnými úpravami. 
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - 按兩下可見的**「Massing – Main Building」**群組以進行編輯。在**「性質」選項板**中，將群組重新命名為 **Floor**。
+2 – Dvakrát klikněte na viditelnou skupinu **Objemy – hlavní budova**, kterou chcete upravit. Na **paletě Vlastnosti** přejmenujte skupinu na **Podlaží**.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **按一下**幾何圖形的**頂面**以選取它。再按一下，然後開始向下拖曳面。向下拖曳面時，鍵入 **11'-2"**，將顯示**「尺寸」對話方塊**。輸入值後按一下**「確定」**。產生的樓板應為 1' 厚。按兩下空間中離開物件的位置以結束群組。
+3 – **Klikněte** na **horní plochu** geometrie a vyberte ji. Klikněte znovu a začněte táhnout plochu dolů. Při tažení plochy dolů zadejte **11’-2"**. Zobrazí se **dialog Kóta**. Po zadání hodnoty klikněte na tlačítko **OK**. Výsledné podlaží by mělo mít tloušťku 1'. Dvojitým kliknutím na volné místo skupinu ukončete.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

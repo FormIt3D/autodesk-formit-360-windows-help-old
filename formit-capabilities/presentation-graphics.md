@@ -1,6 +1,6 @@
-# 簡報圖形
+# Prezentační grafika
 
-享受一套[視覺型式](../tool-library/visual-styles.md)選項，以自訂 FormIt 的圖形並建立令人驚艷的簡報。
+Využijte sadu možností [vizuálních stylů](../tool-library/visual-styles.md), které vám umožní přizpůsobit si grafiku aplikace FormIt a vytvářet poutavé prezentace.
 
 ![](../.gitbook/assets/screen1.jpg)
 
