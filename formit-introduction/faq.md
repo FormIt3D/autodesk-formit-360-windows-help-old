@@ -29,7 +29,7 @@ FormIt 功能：
    * 导出
       * AXM、FBX、OBJ、STL、SAT、DAE、DXF
 
-FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[浏览器](https://app.formit.autodesk.com/)中免费使用。需要 **FormIt Pro** 固定期限的使用许可，才能使用 [FormIt for Windows](https://formit.autodesk.com/page/download)，这一版本的 FormIt 的功能最强大也最丰富。**FormIt Pro** 固定期限的使用许可还支持在 iOS 和 Web 上使用其他功能，如日光和能量分析。**FormIt Pro** 包含在 [Autodesk 工程建设软件集](https://www.autodesk.com/collections/architecture-engineering-construction/overview) 中。
+FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[浏览器](https://app.formit.autodesk.com/)中免费使用。需要 **FormIt Pro** 固定期限的使用许可，才能使用 [FormIt for Windows](https://formit.autodesk.com/page/download)，这一版本的 FormIt 的功能最强大也最丰富。**FormIt Pro** 固定期限的使用许可还支持在 iOS 和 Web 上使用其他功能，如日光和能量分析。**FormIt Pro** 包含在 [Autodesk 工程建设软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview) 中。
 
 **FormIt for Android 发生了什么情况？**
 
@@ -37,7 +37,7 @@ FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282
 
 **如何获取 FormIt？**
 
-要运行 Windows 版本，您必须有权访问 **FormIt Pro**，它是[工程建设行业软件集](https://www.autodesk.com/collections/architecture-engineering-construction/overview)固定期限的使用许可的一部分。因此，如果您的办公室有 Revit，则很可能您已经有权访问 FormIt！可以[直接从我们的网站下载 FormIt for Windows](https://formit.autodesk.com/page/download)，也可以从 Autodesk 桌面应用程序下载。
+要运行 Windows 版本，您必须有权访问 **FormIt Pro**，它是[工程建设行业软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview)固定期限的使用许可的一部分。因此，如果您的办公室有 Revit，则很可能您已经有权访问 FormIt！可以[直接从我们的网站下载 FormIt for Windows](https://formit.autodesk.com/page/download)，也可以从 Autodesk 桌面应用程序下载。
 
 此外，还可以从我们的网站直接免费运行 Web 版本：[http://formit.autodesk.com](http://formit.autodesk.com)
 
@@ -45,7 +45,7 @@ FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282
 
 **如果我是学生或教师，是否可以免费获得 FormIt Pro 访问权限？**
 
-是的！您可以通过 [Autodesk 教育门户](https://www.autodesk.com/education/free-software/formit-pro)访问 FormIt Pro 固定期限的使用许可。
+是的！您可以通过 [Autodesk 教育门户](https://www.autodesk.com.cn/education/edu-software/overview?sorting=featured&page=1)访问 FormIt Pro 固定期限的使用许可。
 
 **如何学习使用 FormIt？**
 
@@ -123,11 +123,11 @@ FormIt 正式命名之前的内部代号为 XModeler - 因此我们创建的文�
 
 **如何获取支持？**
 
-可以先与 Autodesk 经销商联系，也可以在 [FormIt 论坛](https://forums.autodesk.com/t5/formit-forum/bd-p/142)上联系我们。最好先搜索您遇到的问题，如果尚未解答，请发布新主题，FormIt 团队会回复。
+可以先与 Autodesk 经销商联系，也可以在 [FormIt 论坛](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=zh-CN)上联系我们。最好先搜索您遇到的问题，如果尚未解答，请发布新主题，FormIt 团队会回复。
 
 **如果无法登录，该怎么办？**
 
-* 此[论坛帖子](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572)介绍了常见登录问题
+* 此[论坛帖子](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=zh-CN)介绍了常见登录问题
 * 如果您的 PC 具有可切换的图形处理器 (GPU)，请务必确保 FormIt 始终使用性能更高的 GPU。以下是有关 [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) 的说明
 
 **如果 Insight 能量分析失败，该怎么办？**

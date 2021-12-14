@@ -16,7 +16,7 @@
 
 对于大多数章节，还需要下载并使用通过下面的链接找到的数据集。
 
-_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_完成大部分教程。有关 FormIt 版本和许可的详细信息，请访问_ ****[_**FormIt 网站。**_](https://formit.autodesk.com)_\*\*\*\*_
+_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_**完成大部分教程。** 有关 FormIt 版本和许可的详细信息，请访问_ ****[_**FormIt 网站。**_](https://formit.autodesk.com)_\*\*\*\*_
 
 ### 数据来源
 

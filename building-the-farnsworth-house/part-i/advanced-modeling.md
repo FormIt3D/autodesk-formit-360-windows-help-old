@@ -20,7 +20,7 @@
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
-4. 在 [**“高级建模”菜单**](../../formit-introduction/tool-bars.md)中，选择 [**“扫掠工具(SW)”**](../../tool-library/cover-sweep-loft.md) **。**
+4. 在 [**“高级建模”菜单**](../../formit-introduction/tool-bars.md)** 中 ，选择 [**“扫掠工具(SW)” **](../../tool-library/cover-sweep-loft.md) 。**
 
    ![](../../.gitbook/assets/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
@@ -57,7 +57,7 @@
 
    ![](../../.gitbook/assets/upperterracesketch_20.png)
 
-3. 从 [**“操作工具栏”**](../../formit-introduction/tool-bars.md)的 **“高级建模工具”** 中，选择 [**“圆角工具(FI)” **](../../tool-library/cover-sweep-loft.md)**。**
+3. 从 [**“操作工具栏”**](../../formit-introduction/tool-bars.md)**的 **“高级建模工具”** 中，选择 [**“圆角工具(FI)” **](../../tool-library/cover-sweep-loft.md) 。**
 
    ![](../../.gitbook/assets/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 

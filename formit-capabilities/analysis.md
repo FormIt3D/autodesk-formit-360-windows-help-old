@@ -4,7 +4,7 @@
 
 ## 日光分析
 
-通过[工程建设软件集](https://www.autodesk.com/collections/architecture-engineering-construction/overview)中的 **FormIt Pro** 固定期限的使用许可，****可以可视化日光对建筑的影响：
+通过[工程建设软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview)中的 **FormIt Pro** 固定期限的使用许可，****可以可视化日光对建筑的影响：
 
 * 指定要就日光影响进行分析的相关面
 * 在应用程序画布内以数秒时间可视化结果
@@ -15,7 +15,7 @@
 
 ## 使用 Insight 进行能量分析
 
-通过[工程建设软件集](https://www.autodesk.com/collections/architecture-engineering-construction/overview)中的 **FormIt Pro** 固定期限的使用许可，您有权使用 **Insight** 进行能量分析：
+通过[工程建设软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview)中的 **FormIt Pro** 固定期限的使用许可，您有权使用 **Insight** 进行能量分析：
 
 * 使用 Green Building Studio 的分析引擎，分析早期阶段设计模型
 * 连接到分析结果的面板视图，以比较设计的选项
