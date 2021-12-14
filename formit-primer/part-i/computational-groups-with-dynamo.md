@@ -1,75 +1,75 @@
-# 1.10 - Computational Groups with Dynamo
+# 1.10 - Dynamo 的計算群組
 
-_In this chapter, we will leverage the computational power of_ [_**Dynamo**_](http://dynamobim.org/) _to place and modify flexible groups that are tied to OOTB Dynamo Graphs Samples._
+_在本章中，我們將利用_ [_**Dynamo**_](http://dynamobim.org/) _的運算能力，來放置和修改與 OOTB Dynamo 圖表範例相關的彈性群組。_
 
-_If you did not complete the last section, download and open the_ _**1.10 – Computational Groups with Dynamo.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.10 - Computational Groups with Dynamo.axm**檔案。_
 
-_You can_ [_**learn more here**_](http://formit.autodesk.com/page/formit-dynamo) _about how FormIt and Dynamo work together for computational design workflows._
+_您可以_ [_**在此處進一步了解**_](http://formit.autodesk.com/page/formit-dynamo) _FormIt 與 Dynamo 如何協同合作以進行計算設計工作流程。_
 
-## **Create Lower Terrace Stairs**
+## **建立下方露台樓梯**
 
-1 - Make sure the **Lower Terrace, Main Building Floor**, and **Plan Image** layers are turned on, since that is where we are going to add the stairs.
+1 - 確保 **Lower Terrace、Main Building Floor** 和 **Plan Image** 圖層都已開啟，因為我們將在此處加入樓梯。
 
-2 - To place a stair group tied to one of the OOTB Dynamo Samples:
+2 - 放置連結到其中一個 OOTB Dynamo 範例的樓梯群組：
 
-1. Open the **Dynamo Palette** in the Palette Bar. You should see a few built-in Dynamo objects in the **Dynamo Samples** directory
-2. Single-click the **Stairs** Dynamo sample to bring it to the model space. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
-3. Move your cursor over the canvas, and once the stair is loaded, a ghosted preview of the stair geometry will now be moving alongside your mouse. Move your cursor over the canvas, near the terrace, and click to place the stair. Press **Esc** to clear the selection. Note that after placing the stairs the **Properties Palette** will automatically open.
+1. 在選項板列中開啟**「Dynamo」選項板**。您應該會在**「Dynamo Samples」**目錄中看到一些內建的 Dynamo 物件
+2. 按一下 **Stairs** Dynamo 範例，將其帶入模型空間。FormIt 將在幕後執行圖表，並從此圖表產生樓梯幾何圖形。
+3. 將游標移到圖元區上，樓梯載入後，樓梯幾何圖形的殘影預覽現在會與滑鼠一起移動。將游標移到圖元區上靠近露台的位置，然後按一下以放置樓梯。按 **Esc** 以清除選取。請注意，放置樓梯後，**「性質」選項板**會自動開啟。
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _containing Dynamo graphs, and run your own local Dynamo graphs just like these samples._
+_**注意事項：**_[_**您也可以連結包含 Dynamo 圖表的本端目錄**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)_，並執行您自己的本端 Dynamo 圖表，就像這些範例一樣。_
 
-3 - To update the stairs dimensions:
+3 - 更新樓梯標註：
 
-1. With the stair group selected, modify the inputs available under the Dynamo **INPUTS** section at the bottom of the **Properties Palette** to match as shown below. Most groups created via Dynamo Scrips will have a Dynamo section included in their properties when selected.
-   * Add Top Landing = False
-   * Add Middle Landing = False
-   * Add Bottom Landing = False
-   * Floor-to-Floor Height = 2.6
-   * Stair Width = 12
-   * Riser Height = 0.6
-   * Tread Length = 1.25
-   * Tread Overlap = 0.25
-   * Tread Thickness = 0.25
-   * Height Between Middle Landings = \(not relevant since no middle landing is being created\)
-   * Middle Landing Length = \(not relevant since no middle landing is being created\)
-   * Top/Bottom Landing Length = \(not relevant since no landing is being created\)
-2. Click on the **Run** button to re-run the Dynamo script using the updated input values.
-3. Move the group as needed to place the stair in the correct location accordingly to the **Plan Image**. Take care not to change the elevation of the stair group at all as you move it. Refer to previous chapters to learn more about tricks and techniques when moving model elements.
+1. 選取樓梯群組後，修改**「性質」選項板**底部 Dynamo **輸入**區段下可用的輸入，以符合下圖所示。透過 Dynamo 腳本建立的大多數群組在選取後，會在性質中包含 Dynamo 區段。
+   * Add Top Landing \(加入頂部平台\) = False
+   * Add Middle Landing \(加入中間平台\) = False
+   * Add Bottom Landing \(加入底部平台\) = False
+   * Floor-to-Floor Height \(樓板與樓板之間的高度\) = 2.6
+   * Stair Width \(樓梯寬度\) = 12
+   * Riser Height \(豎板高度\) = 0.6
+   * Tread Length \(踏板長度\) = 1.25
+   * Tread Overlap \(踏板重疊\) = 0.25
+   * Tread Thickness \(踏板厚度\) = 0.25
+   * Height Between Middle Landings \(中間平台之間的高度\) = \(由於未建立中間平台，因此不相關\)
+   * Middle Landing Length \(中間平台長度\) = \(由於未建立中間平台，因此不相關\)
+   * Top/Bottom Landing Length \(頂部/底部平台長度\) = \(由於未建立任何平台，因此不相關\)
+2. 按一下**「執行」**按鈕，以使用更新的輸入值重新執行 Dynamo 腳本。
+3. 依需要移動群組，將樓梯放置在與 **Plan Image** 相應的正確位置。移動樓梯群組時，請小心不要變更其高程。請參閱前幾章，進一步了解移動模型元素時的技巧和技術。
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Note:**_ _The_ _**Floor-to-Floor Height**_ _input is an approximation of the stair’s total height. The_ _**Riser Height**_ _is the parameter that actually defines the height of the stairs. In this example we set the_ _**Floor-to-Floor Height**_ _as 2.6’ but the final stair height is 3.0’ \(0.6’ \(**Riser Height**\) x 5 \(number of risers\)\). Since the span between the ground and the terrace top of floor is 3’-2”, the remaining 2” is contained in the upper riser._
+_**注意事項：**_ _**Floor-to-Floor Height**_ _輸入是樓梯總高度的近似值。_ _**Riser Height**_ _是實際定義樓梯高度的參數。在此範例中，我們將_ _**「Floor-to-Floor Height」**_ _設定為 2.6'，但最後的樓梯高度是 3.0' \(0.6' \(**Riser Height**\) x 5 \(竪板數目\)\)。由於地面與樓板平台頂部之間的跨距為 3'-2"，因此剩餘的 2" 包含在上方竪板中。_
 
-## **Create Main Building Stairs**
+## **建立主建築樓梯**
 
-_In the previous steps we created a stair with no landings. Now we will create a stair that uses an upper landing that aligns with the_ _**Main Building Floor**._
+_在先前的步驟中，我們建立了一個沒有平台的樓梯。現在，我們將建立一個使用上方平台對齊_ _**Main Building Floor** 的樓梯。_
 
-1 - Start by making a copy of the stairs we just made:
+1 - 首先為我們剛剛建立的樓梯製作複本：
 
-1. Select the existing stair and then click anywhere on the **Plan Image** to start a move command. This will cause FormIt to use the elevation of the **Plan Image** as the starting reference height for place our new copy. Press **Ctrl** to make a **quick copy**.
-2. Move the cursor over closer to the main building above the terrace. Note that now the terrace’s top face is the new reference plane. Click to place the group.
+1. 選取既有樓梯，然後按一下 **Plan Image** 上任意位置以啟動移動指令。這會讓 FormIt 使用 **Plan Image** 的高程做為放置新複本的起始參考高度。按 **Ctrl** 以製作**快速複本**。
+2. 將游標移到主建築靠近露台上方的位置。請注意，現在露台的頂面是新的參考平面。按一下以放置群組。
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, the_ _**Move Tool**_ _will use that plane as a reference for its start point. Note the_ _**On Face**_ _tooltip in the above image, indicating that the Plan Image face is selected as the starting reference, and the top face of the_ _**Lower Terrace Floor**_ _is selected as the ending reference._
+_**注意事項：**_ _由於_ _**Plan Image**_ _位於_ _**地平面樓層**_ _平面，因此_ _**移動工具**_ _將使用該平面做為其起點的參考。請注意上圖中的__**「在面上」**__工具提示，指示「Plan Image」面已選取為起始參考，__**Lower Terrace Floor**__ 的頂面已選取為結束參考。_
 
-2 - Use the **Make Unique \(MU\)** tool so that when we change this stair’s Dynamo inputs it will not affect the lower stair. Reposition the group as needed so that it is close to its final location – we will fine tune this later. You can toggle the **Lower Terrace** layer visibility to see the plan below to help position it, but again be careful not to change the new stair’s elevation as you move it.
+2 - 使用**設為唯一 \(MU\)** 工具，以便在我們變更此樓梯的 Dynamo 輸入時，它不會影響下方樓梯。依需要重新定位群組，使其接近其最終位置 - 我們稍後將對此進行微調。您可以切換 **Lower Terrace** 圖層可見性查看下方平面以協助定位，但同樣地，在移動新樓梯時，請小心不要變更其高程。
 
-3 - In the **Properties Palette** update the **Dynamo Inputs** as shown below and run the script once more.
+3 - 在**「性質」選項板**中，如下所示更新 **Dynamo 輸入**，並再次執行腳本。
 
-* Add Top Landing = True
-* Floor-to-Floor Height = 2.333
-* Riser Height = 0.466
-* Tread Length = 1.5
-* Top/Bottom Landing Length = 2.5
+* Add Top Landing \(加入頂部平台\) = True
+* Floor-to-Floor Height \(樓板與樓板之間的高度\) = 2.333
+* Riser Height \(豎板高度\) = 0.466
+* Tread Length \(踏板長度\) = 1.5
+* Top/Bottom Landing Length \(頂部/底部平台長度\) = 2.5
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Note:**_ _If you set_ _**Add Bottom Landing**_ _to_ _**true**_ _and re-run the script, the bottom landing’s top face should align with the_ _**Lower Terrace Floor**’s top face. This is happening because – differently from the previous stairs - we adjusted the_ _**Riser Height**_ _to match the_ _**Floor-to-Floor Height**_ _to the true height we want \(2’-4” or 2.333’\)._
+_**注意事項：**_ _如果您將_ _**「Add Bottom Landing」**_ _設定為_ _**「True」**_ _，並重新執行腳本，則底部平台的頂面應與_ _**Lower Terrace Floor** 的頂面對齊。發生此情況的原因是 \(與先前的樓梯不同\)，我們調整了 __**Riser Height**__，讓 __**Floor-to-Floor Height**__ 符合所需的真實高度 \(2'-4"或 2.333'\)。_
 
-2 - Reposition the group again to its final position. The top landing should be flush with the **Main Building Floor**.
+2 - 再將群組重新定位至其最終位置。頂部平台應與 **Main Building Floor** 齊平。
 
-3 - To finalize the stairs, add the **Stone - Travertine** material to it to match the floors. To learn more about how to apply materials, see previous chapters.
+3 - 完成樓梯前，請對樓梯加入 **Stone - Travertine** 材料以與樓板相符。若要進一步了解如何套用材料，請參閱先前的章節。
 

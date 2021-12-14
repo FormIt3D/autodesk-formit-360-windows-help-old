@@ -1,48 +1,48 @@
-# Levels and Area
+# 樓層和面積
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+在 FormIt 中建立幾何圖形後，您可以套用樓層以指出樓板高程的位置，並產生面積計算。
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+請查看 [FormIt 入門手冊](../formit-primer/part-i/adding-floors-with-levels.md)，以查看實際使用中的樓層。
 
-## Creating and Configuring Levels
+## 建立和規劃樓層
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+您會在 Windows 版 FormIt 的右側找到「樓層」面板：
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Create and Delete Levels
+#### 建立和刪除樓層
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* 按一下「+」按鈕可建立新樓層。
+* 按一下「++」按鈕可建立一系列樓層。
+   * 這允許指定要建立的樓層數，以及樓層之間的垂直距離。
+* 選取一個或多個樓層，然後按一下「-」可刪除它們。
 
-#### Rename, Set Elevations, and Renumber Levels
+#### 更名、設定高程和對樓層重新編號
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync \(i.e. Level 1, Level 2, Level 5\).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* 按兩下樓層名稱，或按一下右鍵並選擇「編輯名稱」，可更名樓層。
+* 按兩下數字，或按一下右鍵並選擇「編輯高程」，可調整樓層的高程。
+* 按一下頂端的「重新整理」圖示可對樓層重新編號。
+   * 如果您已加入或移除樓層，但預設的命名規則不同步 \(例如「樓層 1」、「樓層 2」、「樓層 5」\)，則此功能非常有用。
+   * 此按鈕將忽略任何具有自訂名稱的樓層，但會以依循「樓層 1」語法的名稱對任何樓層重新編號。
 
-## Applying Levels
+## 套用樓層
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel. 
+若要對物件套用樓層，您必須選取物件並移至「性質」面板。
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+請注意，若要對物件套用樓層，該物件必須是實體，且沒有背面或防水問題。[瞭解如何檢查模型是否有防水和背面問題](https://formit.autodesk.com/blog/post/repairing-solid-models)。
 
-With a solid object selected in the canvas \(in this example, a simple building shell\), the Properties panel will show a "Use Levels" checkbox.
+在圖元區中選取實體物件 \(在此範例中是簡單的建築殼體\) 後，「性質」面板會顯示「使用樓層」勾選方塊。
 
-* If the FormIt sketch already has Levels defined \(see above\), then checking this box will use all Levels that would intersect this shape \(ignoring any that would be too high or too low\).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.\(12' floor-to-floor height\) to intersect the entire shape, and will automatically apply those Levels to this object.
+* 如果 FormIt 草圖已定義樓層 \(請參閱上文\)，則勾選此方塊將使用與此造型相交的所有樓層 \(忽略任何可能過高或過低的樓層\)。
+* 如果 FormIt 草圖還沒有樓層，勾選此方塊將建立足夠的預設樓層 \(樓板到樓板的高度為 12'\) 以便與整個造型相交，並且會自動對此物件套用這些樓層。
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## 樓層 + Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit). 
+對 FormIt 幾何圖形套用樓層時，如果使用 [FormIt 增益集](https://formit.autodesk.com/page/formit-revit)，這些樓層將傳送至 Revit。
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+在 Revit 中，您可以使用 FormIt 樓層來建立量體樓板、依面建立樓板，以及與 FormIt 樓層關聯的樓板平面圖。
 
 
 

@@ -1,147 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 - 使用陣列建立柱
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_在本練習中，我們將繪製一個詳圖元素 - I 形樑柱。然後，我們要使用「陣列」工具快速建立多個等距的複本。_
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從_ _**FormIt 入門手冊第 1 部分資料集**_ _下載並開啟_ _**1.8 - Create Columns with Array.axm**檔案。_
 
-## **Sketch the Column Profile**
+## **繪製柱輪廓**
 
-1 - To facilitate the drafting process:
+1 - 為了簡化製圖程序：
 
-1. Go to the **Top View \(VT\)**.
-2. Switch the view mode to **Orthographic \(VO\)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid \(SG\)** feature \(if you have it on\). This will help with drawing the detail lines.
+1. 移至**「上視圖 \(VT\)」**。
+2. 將檢視模式切換為**「正投影 \(VO\)」**。
+3. 關閉 **Main Building** **Floor** 和 **Roof** 圖層。此步驟可防止新幾何圖形鎖點到這些圖層上的既有幾何圖形。
+4. 拉近至**匯入的樓板平面圖**影像的左上角，以便您可以詳細檢視柱。
+5. 關閉**「鎖點至格線 \(SG\)」**功能 \(如果已開啟\)。這有助於繪製細部線。
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_繪製柱時，我們先繪製一半，然後鏡射，就可以快速建立對稱的另一半。_
 
-2 - To create the first half of the I-beam, use the **Line tool \(L\)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 - 若要建立 I 形樑的前半部分，請使用**線工具 \(L\)**，以使用指定的尺寸建立以下草圖。您不必擔心柱在平面影像上的精確位置。
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 - 鏡射您剛剛繪製的造型：
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool \(MI\)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees \(clockwise\).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. 按兩下以選取所繪製幾何圖形的所有面和邊。
+2. 按一下右鍵，然後選取**「鏡射 \(MI\)」**工具。
+3. 按一下**鏡射工具集**的橙色中心掣點，並將其放置在幾何圖形的左下角。
+4. 使用工具集中雙向箭頭按鈕的下箭頭，將鏡射軸旋轉 -90 度 \(順時鐘\)。
+5. 在空間外按一下，或按 **Esc** 完成鏡射程序。結果應類似於中間有一條線的 I 形樑輪廓。再次按 **Esc** 以清除選取。
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**注意事項**：在調整鏡射工具集時，會以藍色殘影造型預覽最終幾何圖形的位置和方位。您可以使用此預覽做為參考，將幾何圖形鏡射至預期位置。_
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 - 若要將兩側接合為單一幾何圖形，請按一下分割它們的線加以選取，然後按 **Delete** 移除。現在，兩個表面會接合為單一表面。
 
-5 - To move the geometry to its final location:
+5 - 將幾何圖形移至其最終位置：
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis \(**Y Axis**\). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis \(**X Axis**\).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. 如果關閉，請開啟 **Plan Image** 和 **Roof** 圖層，以使用它們作為導引。
+2. 按兩下柱輪廓以選取面及所有線。沿綠色軸 \(**Y 軸**\) 開始移動選取範圍。按住 **Shift** 並移動輪廓，直到與屋頂對齊，然後按一下以放置它。
+3. 與上一步類似，再次移動幾何圖形，這次將其鎖住至紅色軸 \(**X 軸**\)。
+4. 按一下以將其放置在 **Plan Image** 中繪製的 I 形樑頂部。接近一點比較好，如下圖所示，水平位置不需要完美。
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green \(**Y Axis**\). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**注意事項：**_ _按_ _**Shift**_ _鍵可鎖住幾何圖形只沿一條軸移動，在此範例中為綠色軸 \(**Y 軸**\)。這可確保柱輪廓不會意外地上移並對齊屋頂平面的頂部。_
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **擠出並排列柱**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective \(VP\)** and **Orbit \(O\)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 - 為了便於進行下一個製圖程序，請將檢視模式切換回**「透視 \(VP\)」**和**「環轉 \(O\)」**，以將相機定位為從西北方向看見 I 形樑輪廓。使用左下角的指北箭頭可協助您定位視圖。
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**注意事項：**_ _若要了解如何在草圖周圍導覽，建議您查看_ _**導覽場景**_ _一章。_
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 - 選取柱輪廓面，並將面向上擠出 **17'-8"**。
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**  
-instead of up._
+_**注意事項：**_ _如果在移動柱輪廓時，它會讓自身與屋頂對齊，則請將面向下而不是向上擠出_ _**17'-8"**  。_
 
-3 - Zoom out and turn the **Roof** layer on \(if off\). The top of the column should line up with the top of the roof.
+3 - 拉遠並開啟 **Roof** 圖層 \(如果關閉\)。柱的頂部應與屋頂的頂部對齊。
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 - 為了讓模型井然有序，請再次選取柱幾何圖形，並執行以下作業：
 
-1. **Group \(G\)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. **群組 \(G\)**，並將其命名為 **Column Tall**。
+2. 建立一個名為 **Column** 的新**圖層**，並將群組加到該圖層。
+3. 匯入材料 **Metal - Brushed - Colorized**，並使用它來繪製群組。
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**注意事項：**__請參閱先前的章節，以取得有關__**群組**、__**圖層**和__**材料**的更多資訊。_
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 - 按一下 **Esc** 清除畫筆工具。
 
-## **Array the Columns**
+## **排列柱**
 
-1 - Go to the **Top View \(VT\)** and switch the camera mode to **Orthographic \(VO\)** again.
+1 - 移至**「上視圖 \(VT\)」**，並再次將相機模式切換為**「正投影 \(VO\)」**。
 
-2 - Turn off the **Roof** layer.
+2 - 關閉 **Roof** 圖層。
 
-3 - To start the array process:
+3 - 啟動陣列程序：
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array \(AR\)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** \(default\)
-   * **Group each solid then array** \(default\)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. 按一下以選取柱群組。按一下右鍵以帶出**關聯式功能表**，然後選擇**「陣列 \(AR\)」**。
+2. 在**「陣列性質」**對話方塊中，使用以下設定：
+   * **複本間的長度**
+   * **線性** \(預設\)
+   * **先群組每個實體，然後形成陣列** \(預設\)
+   * **份數：3**
+   * 按**「確定」**關閉對話方塊。
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 - 放置新元素：
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis \(**X axis**\).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. 按一下柱以啟動**陣列**。沿紅色軸 \(**X 軸**\) 移動游標。
+2. 將尺寸設定為 **22'**。您現在有**四根**距離 **22'** 的柱。
+3. 按 **Esc** 以清除選取。
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 - 若要一次選取所有 **Tall Column** 群組，請將滑鼠懸停在其中一個群組上，然後按一次 **Tab** 鍵。請注意，所有 4 根柱的邊界框都已亮顯。按一下滑鼠懸停的柱，將會選取所有柱。這是一次選取同一群組所有實體的快速方法。
 
-6 - Perform another **Array \(AR\)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 - 再執行一次**陣列 \(AR\)**，在建築的另一側建立柱。這次穿過建築沿綠色軸複製 1 個複本。將尺寸設定為 **29'- 4 5/8"。**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” \(column depth\) + 28’-8” \(main building width\)._
+_**注意事項：**_ _29' 4 5/8" = 8 5/8" \(柱深度\) + 28'-8" \(主要建築寬度\)。_
 
-7 - To visualize the whole building, go to the **3D View \(V3\)** and set it to **Perspective \(VP\)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 - 若要看見整個建築，請移至**「3D 視圖 \(V3\)」**，並將其設定為**「透視 \(VP\)」**。如果關閉，請開啟 **Main Building Floor**、**Roof**、**Lower Terrace** 和 **Column** 等圖層。
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **建立露台柱**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_現在，我們將複製主要建築的柱，以建立類似但較短的露台柱。_
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal \(OV\)** and **Top View \(VT\)** setting.
+1 - 為方便製圖，我們建議您回到**「正投影 \(OV\)」**和**「上視圖 \(VT\)」**設定。
 
-2 - To create the new columns:
+2 - 建立新柱：
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis \(**Y Axis**\) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis \(**X Axis**\) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique \(MU\)**. These columns are now associated with each other, but unique from the originals.
+1. 按住 **Ctrl** 或 **Shift**，按一下最接近**下方露台樓板**的 3 根柱以選取它們。
+2. 按一下其中任何一根柱，即可開始一次移動全部 3 根選取的柱。按一下 **Ctrl** 鍵以建立**快速複本**。此時將顯示複本的殘影預覽。
+3. 沿綠色軸 \(**Y 軸**\) 將複本下移 **23'-4 3/8"**。按 **Esc**。
+4. 不除選，將複製的柱沿紅色軸 \(**X 軸**\) 移動 **22'**，以將柱放置在其最終位置。
+5. 同樣地，在 3 根新柱仍處於選取狀態時，以右鍵按一下其中一根複製的柱，然後選取**「設為唯一 \(MU\)」**。這些柱現在彼此關聯，但與原始柱不同。
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**注意事項：**_ _按住_ _**Shift**_ _或_ _**Ctrl**_ _可讓您一次選取多個元素，或從目前選取中移除元素。_
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 - 修改新柱群組：
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** \(3’-2”\). To do that, select and drag the column’s face down along the blue axis \(**Z axis**\) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. 按兩下以編輯其中一個新群組，並將其更名為 **Column Short。**
+2. 調整新柱的高度，以與**下方露台** **樓板** \(3'-2"\) 的頂部對齊。若要執行此作業，請選取柱的面，並沿藍色軸 \(**Z 軸**\) 向下拖曳，然後按住 **Shift**。將游標懸停在**下方露台樓板**頂面的任意位置，柱的高度會自動與下方露台對齊。設定高度後，按一下以完成。
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure \(ME\)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**注意事項：**_ _您可以使用_ _**「測量 \(ME\)」**_ _工具來檢查短柱的高度。或者，您可以選取柱的其中一條垂直邊，並在_ _**「性質」選項板**中查看其長度。_
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 - 使用您剛才學到的技巧，將最遠的短柱複製到**下方露台樓板**的對側，以建立最後一根柱。
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

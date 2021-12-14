@@ -1,8 +1,8 @@
-# Align Camera With Face
+# 將相機與面對齊
 
-Quickly align the camera to look directly at any face.
+快速對齊相機以直接查看任何面。
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+選取單一面，然後按一下右鍵以存取關聯式功能表。在功能表頂部尋找「將相機與面對齊」，或使用快速鍵 AF：
 
 ![](../.gitbook/assets/alignwithface.gif)
 

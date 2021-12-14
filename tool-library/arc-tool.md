@@ -1,24 +1,24 @@
-# Arc
+# 弧
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+使用「弧」工具建立半圓或對稱弧。建立弧的方法有兩種。
 
-## Arc by Three Points
+## 用三個點畫弧
 
 ![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+弧由三點定義，可以在 X、Y 和 Z 軸上繪製。定義第一點，然後決定第一點到第二點的距離，最後決定第三點得到弧的高度。系統會自動為您提供一個可鎖點的「半圓」點；除此之外，弧線將延伸通過前兩個點。
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+在決定下一個位置的第二點時，您可以看到第一點與第二點之間的長度；若要手動指定長度，只需輸入值，就會顯示尺寸方塊。
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+繪製弧後，您可以使用[直線工具](line-tool.md)連接第一點和第二點來建立一個面。
 
-## Arc by Center
+## 用中心畫弧
 
 ![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+選擇弧的中點，然後拖曳以選擇中心點，再拖曳以定義弧的長度。只需開始鍵入值，即可輸入弧的精確度數。
 
 ![](../.gitbook/assets/arc_circle_demo.gif)
 

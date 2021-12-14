@@ -1,20 +1,20 @@
-# Settings
+# 設定
 
-Settings can be accessed from the Menu or Toolbar. All settings are saved once FormIt is closed.
+您可以從功能表或工具列存取設定。關閉 FormIt 後，會儲存所有設定。
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Units**: Change between Imperial and Metric units
-* **Snap to Grid**: Toggle whether drawing and modeling tools snap to the underlying ground-place grid
-* **Display Editable Dimensions**:Toggle the display of dimensions while drawing and editing
-* **Show Edited Groups Only**: When on, all other groups are hidden while another group is edited.
-* **Pre-selection Highlight**: If on, when you hover the mouse over all objects, edges, faces, and points get a visual highlight 
-* **Large Toolbar Buttons**: Toggles on and off large toolbar buttons
-* **App Theme**: Change between Light, Dark and Blue user interface themes
+* **單位**：在英制單位和公制單位之間變更
+* **鎖點至格線**：切換繪製和塑型工具是否鎖點至基礎的地面放置格線
+* **顯示可編輯的尺寸**：繪製和編輯時切換尺寸的顯示
+* **只顯示編輯的群組**：如果開啟，在編輯另一個群組時，會隱藏其他所有群組。
+* **預選亮顯**：如果開啟，將滑鼠懸停在所有物件、邊、面和點上時，會取得視覺亮顯
+* **大工具列按鈕**：開啟和關閉大工具列按鈕
+* **應用程式主題**：在「淺色」、「深色」和「藍色」使用者介面主題之間變更
 
-## Touch Mode
+## 觸控模式
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-Touch Mode allows you to use Windows equipped with touch screens. When on, you can use a single touch and drag to select and interact with drawing, modeling and modification tools. **Note: While in Touch Mode, drawing and modification tools will not work properly with the mouse.** 
+觸控模式可讓您透過觸控螢幕使用 Windows。如果開啟，您可以使用單觸並拖曳來選取圖面、塑型和修改工具，並與其互動。**注意事項：在觸控模式下，使用滑鼠無法正常運作繪製和修改工具。**
 

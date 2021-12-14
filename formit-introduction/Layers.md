@@ -1,19 +1,1 @@
-### Layers
----
-> Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your scene. We are going to create a layer to save and hide the building mass for later analysis.
-
----
-
-#### Create and Modify Layers
-1. Click the [**Layers palette**](../tool-library/tool-bars-extended.md) and click the **+** sign to create a new layer.
-
-2. Double click the layers to rename the layer. <br>
-    ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)
-
-3. To add objects to the layer, select one or more objects in the scene and then choose the desired layer from the **Selection On** drop down list. 
-
-
-#### Using Layers
-1. To turn the layer visibility off, click the checkbox next to the layer name. 
-2. To select all object(s) on the layer, click the selection icon next to the layer name. 
-3. To delete a layer, click the trash icon next to the layer name. Only the layer, not the objects assigned to the layer, will be deleted. 
+### 圖層> 與 AutoCAD 和 Photoshop 非常類似，FormIt 中的圖層可讓您管理場景中物件的可見性。我們將建立一個圖層來儲存並隱藏建築量體，以供稍後分析之用。#### 建立和修改圖層1. 按一下[**「圖層」選項板**](../tool-library/tool-bars-extended.md)，然後按一下**「+」**號以建立新圖層。2. 按兩下圖層可更名圖層。<br>    ![](./images/10c435cf-fcc2-4a4b-9135-094dea903da2.png)3. 若要將物件加入圖層，請選取場景中的一個或多個物件，然後從**「在下列圖層上的選取項目」**下拉式清單中選擇所需的圖層。#### 使用圖層1. 若要關閉圖層可見性，請按一下圖層名稱旁邊的勾選方塊。2. 若要選取圖層上所有的物件，請按一下圖層名稱旁邊的選取圖示。3. 若要刪除圖層，請按一下圖層名稱旁邊的垃圾桶圖示。只會刪除圖層，而不是指定到圖層的物件。

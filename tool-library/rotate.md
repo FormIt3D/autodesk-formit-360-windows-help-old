@@ -1,13 +1,13 @@
-# Rotate Object
+# 旋轉物件
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+您可以使用關聯式功能表中的「旋轉」工具變更物件的方位。
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool. 
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle. 
+1. 選取要旋轉的元素，然後按一下右鍵以啟動關聯式功能表。
+2. 從關聯式功能表中，選取「旋轉」工具。
+3. 當滑鼠出現量角器圖形時，按一下以設定旋轉平面。
+4. 使用藍色掣點指定旋轉的起點，如有必要則重置軸。使用箭頭或可編輯的尺寸方塊設定旋轉角度。
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+請注意，您也可以在選取元素後使用 **Q** 鍵盤快速鍵存取旋轉工具。
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

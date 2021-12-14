@@ -1,14 +1,14 @@
-# Spline
+# 雲形線
 
-The Spline tool allows you to create organic sketches in space or on other objects.
+「雲形線」工具可讓您在空間或其他物件上建立有機的草圖。
 
 ![](../.gitbook/assets/spline.png)
 
-A spline is drawn from at least 3 interpolated points. The connected geometry is simplified creating a smooth and organic curve between the specified points. Like other drawing tools, splines can be drawn in 3D by snapping to 3D points while drawing.
+雲形線至少從 3 個內插點繪製。連接的幾何圖形會加以簡化，以在指定點之間建立平滑且有機的曲線。與其他繪製工具一樣，雲形線可以在繪製時鎖點至 3D 點，以 3D 繪製。
 
-To specify a distance, start typing a dimension value, and hit OK or press Enter in the Edit Dimension dialog.
+若要指定距離，請開始鍵入尺寸值，然後在「編輯尺寸」對話方塊中按一下「確定」或按 Enter。
 
- Splines can also close on themselves creating a face.
+雲形線也可以在自己本身封閉以建立面。
 
 ![](../.gitbook/assets/spline2.png)
 

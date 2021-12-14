@@ -1,12 +1,12 @@
-# Introduction
+# 簡介
 
-## FormIt for Windows Documentation
+## Windows 版 FormIt 文件
 
 ![](<.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Learn about the power of FormIt for Windows
+## 瞭解 Windows 版 FormIt 的強大功能
 
-With FormIt® architectural modeling software, architects can sketch, collaborate, analyze, and revise early-stage design concepts, and work smarter from the beginning with BIM-based conceptual design.
+使用 FormIt® 建築塑型軟體，建築師可以繪製草圖、協同合作、分析和修訂早期的設計概念，並從一開始就以 BIM 為基礎的概念設計更靈活地工作。
 
-* Running FormIt for Windows requires a subscription to **FormIt Pro**, which is part of the [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
-* You can also download [FormIt for Windows](https://formit.autodesk.com/page/download) and start a 30-day free trial of FormIt Pro.
+* 執行 Windows 版 FormIt 需要 **FormIt Pro** 固定期限的使用授權，這是 [Autodesk 工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)的一部分。
+* 您也可以下載 [Windows 版 FormIt](https://formit.autodesk.com/page/download)，然後開始免費試用 FormIt Pro 30 天。

@@ -1,69 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3 - 3D 草圖和拖曳面
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_我們已準備好開始繪製范斯沃斯別墅！FormIt 中的 3D 塑型核心包含繪製線以建立面，然後拖曳這些面以建立體積。_
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從_ _**FormIt Primer Part 1 Datasets**_ _下載並開啟_ _**1.3 - 3D Sketch and Drag Face.axm**檔案。_
 
-## **Draw Faces with Lines**
+## **使用線繪製面**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective \(VP\)** and **3D View \(V3\).**
+1 - 為了簡化塑型程序，您可以使用**浮動導覽工具列**在不同的視圖模式之間切換。對於本練習，我們建議使用**透視 \(VP\)** 和 **3D 視圖 \(V3\)。**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group \(G\).**
+2 - 新建立的幾何圖形將自動接合或「粘住」它接觸的任何既有未群組的幾何圖形。為避免此情況，您通常會想要使用群組來組織幾何圖形。若要從樓板平面圖建立群組，請按兩下矩形以選取該矩形，然後按一下右鍵以存取**關聯式功能表**，並選取**「群組 \(G\)」。**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid \(SG\).**
+3 - 追蹤平面時，我們不希望線鎖點至格線，因此請按一下**主功能表**中的**「設定」**，並取消勾選**「鎖點至格線 \(SG\)」。**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** \(Pencil\) icon in the **Standard Toolbar** and choose the **Line tool \(L\)**.
+4 - 若要開始繪製，請按一下**標準工具列**中的**「建立草圖」** \(鉛筆\) 圖示，然後選擇**「線」工具 \(L\)**。
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 - 我們先在匯入的影像上建立矩形。建立第一條線：
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. 使用**線工具**時，按一下匯入草圖中上方平台的**左上角**附近。
+2. 沿著顯示的紅色軸移動滑鼠。
+3. 按一下 **Tab** 鍵以輸入標註：**77'-4 1\8"。**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**注意事項：**繪製草圖時，只要暫時標註出現，您就可以按_ _**Tab** 或直接開始鍵入數字，_ _即可開啟_ _**「標註」對話方塊**。_
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 - 若要建立第二條線，請沿綠色軸向下移動滑鼠，然後輸入 **28'-8** 做為上方平台的短邊。
 
-7 - To define the rectangle’s third edge and finish:
+7 - 定義矩形的第三條邊並完成：
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by \(A\) - and the green axis - defined by \(B\).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. 沿紅色軸移動滑鼠，然後按住 **Shift** 鍵。紅色軸會增厚，表示該線已鎖住此軸。
+2. 按 **Shift 鍵**的同時，將滑鼠移至繪製的第一個點。按一下以確認終點。
+3. 第三點將自動設定，與由 \(A\) 定義的紅色軸，以及由 \(B\) 定義的綠色軸平行。
+4. 最後，若要完成封閉矩形，請放開 **Shift** 鍵，然後按一下您繪製的第一個點。按兩次 **Esc**，以結束繪製工具。
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**注意事項：**_ _紅色軸和綠色軸可讓您保持與格線平行和垂直。當您繪製一條偏離世界軸的線時，一條紫色軸線將允許您與相對於偏離軸的線保持 90 度。_
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **拖曳面以建立體積**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1 - 在您剛繪製的輪廓內按一下以選取面。現在，您會自動在**拖曳面**工具中。
 
-2 - Single-click again to start the dragging. Move your mouse upwards \(along the positive Z-axis\) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2 - 再按一下可開始拖曳。向上移動滑鼠 \(沿正 Z 軸方向\)，沿該方向擠出體積。開始鍵入 **12'-2"**，標註方塊將顯示此值，然後按 **Enter**。
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all \(ungrouped\) adjacent edges and faces._
+_**注意事項：**_ _按_ _一下_ _只會選取單一面，_ _按兩下_ _會選取所有 \(未群組的\) 相鄰邊和面。_
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **使用弧、雲形線和圓繪製 3D 草圖**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_下列練習對完成房屋並不重要。但是，它可讓您試驗其他可用的 3D 草圖繪製工具。按一下_ _**此處**_ _，進一步了解使用世界軸繪製 3D 草圖。_
 
-1 - Select the **Arc by three arc points \(A\)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1 - 選取**「用三個弧點畫弧 \(A\)」**工具。按一下以定義起點，然後定義終點。按第三次定義弧的半徑。
 
-2 - Select the **Spline \(S\)** tool. Click to define any number of points to draw a spline.
+2 - 選取**「雲形線 \(S\)」**工具。按一下以定義任意數目的點，繪製雲形線。
 
-3 - Select the **Circle \(C\)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3 - 選取**「圓 \(C\)」**工具。將游標懸停並按一下以定義圓的中心點。按一下並拖曳或輸入標註以定義半徑。
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

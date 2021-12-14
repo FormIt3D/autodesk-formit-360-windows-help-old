@@ -1,41 +1,41 @@
-# Non-Uniform Scale
+# 非等比例
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**使用「非等比例」以 1 個、2 個或 3 個維度拉伸物件。**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+選取邊、面、實體、網格或群組的任意組合，然後使用鍵盤快速鍵 **NU** 或從關聯式功能表選項存取「非等比例」：
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.** 
+**處於作用中狀態後，您會看到一系列掣點，可用於在1 個、2 個或 3 個軸中同時以非等比例地調整物件比例。**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+為了清晰起見，只繪製面向相機的掣點。如果需要調整另一側的掣點，請圍繞物件環轉。
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+按一下掣點後，您會看到一系列可編輯的文字方塊，您可以在其中依百分比或距離調整比例：
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**尺寸方塊出現後，您可以：**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 開始鍵入數字以自動編輯百分比方塊並指定比例係數。
+   * 輸入負數將反轉調整比例的方向。
+* 或按一下以暫時設定掣點位置，然後按一下包含尺寸的方塊以依距離調整比例。
+* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**以其中一個角邊掣點調整比例，會遵循相鄰尺寸的縱橫比：**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 開始鍵入數字以編輯百分比值。
+* 或按一下以暫時設定掣點位置，然後按一下兩個尺寸方塊的一個以依距離調整比例。
+* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**同樣地，以其中一個角掣點調整比例，會遵循整個造型的縱橫比，並有效地以等比例調整：**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 開始鍵入數字以編輯百分比值。
+* 或按一下以暫時設定掣點位置，然後按一下三個尺寸方塊的一個以依距離調整比例。
+* 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

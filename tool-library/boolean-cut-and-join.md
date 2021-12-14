@@ -1,28 +1,28 @@
-# Boolean Cut
+# 布林切割
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+您可以使用「切割工具」從一個物件或群組切割出另一個。有兩種方式可存取「切割」工具：
 
-## Run the Cut command first
+## 先執行「切割」指令
 
-Keyboard: C G
+鍵盤：C G
 
 ![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+執行「切割」指令，然後遵循螢幕左上角的模式指示
 
-Single-click to select an object to cut into:
+按一下以選取要切割的物件：
 
 ![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object\(s\) or group\(s\) to be removed:
+按一下以選取要移除的物件或群組：
 
 ![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+按一下勾號以完成指令。 移除的物件會保留在場景中。您可以刪除它，或使用[圖層](layers.md)隱藏它。
 
-## Select objects first
+## 先選取物件
 
-1. Double-click to select the object to be cut into. \(Single-click for a Group\)
-2. Holding the **CTRL key** double click an overlapping object\(s\) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](../.gitbook/assets/booleancut.png)
+1. 按兩下以選取要切割的物件。\(如果是群組則按一下\)
+2. 按住 **Ctrl 鍵**並按兩下重疊物件即可切除。
+3. 在要切割的物件上按一下右鍵，然後在關聯式功能表中選擇[**切割工具**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)。![](../.gitbook/assets/booleancut.png)
 

@@ -1,155 +1,155 @@
-# 1.11 - Import Models with Content Library
+# 1.11 - 匯入包含內容資源庫的模型
 
-_In this chapter, we will import existing SketchUp models, as well as use the FormIt Content Library to place OOTB families that have been converted from Revit. Note that when opening SKP files with FormIt, they come with intact Materials, Groups and Components, Layers \(Tags\), and Scenes. Some clean-up may be needed to keep your projects tidy and organized._
+_在本章中，我們將匯入既有的 SketchUp 模型，並使用 FormIt 內容資源庫來放置已從 Revit 轉換的 OOTB 族群。請注意，使用 FormIt 開啟 SKP 檔案時，它們會隨附完整的材料、群組和元件、圖層 \(標籤\) 和場景。您可能需要進行一些清理，讓專案保持井然有序。_
 
-_For this chapter we will be using files from the_ **Farnsworth House Data Set &gt; Supporting Files** folder. If you have not already, be sure to download the required folders, or entire data set, from the _**FormIt Primer Part 1 Datasets**._
+_在本章中，我們將使用_**「Farnsworth House Data Set &gt; Supporting Files」**資料夾中的檔案。如果您尚未下載，請務必從 _**FormIt 入門手冊第 1 部分資料集**下載必要的資料夾或整個資料集。_
 
-## **Import and Edit SKP files**
+## **匯入和編輯 SKP 檔案**
 
-_First, we will go through the process of adding a piece of downloaded content to your own personal content library_. Note that in this exercise we will be only using SKP files. To learn more about how to open/import other file formats, refer to [**this blog post about Formit 2021.2 features**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) and to **this chapter about** **Expanded Import and Export File Formats**.
+_首先，我們要進行將已下載內容的一部分加到您個人內容資源庫的程序_。請注意，在本練習中，我們只會使用 SKP 檔案。若要進一步了解如何開啟/匯入其他檔案格式，請參閱[**關於 Formit 2021.2 功能的這篇部落格文章**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available)，以及**本章關於** **擴充的匯入和匯出檔案格式**。
 
-1 - Make sure to **Save \(Ctrl + S\)** any open work, then start a new FormIt sketch. To do this, you can either:
+1 - 務必**儲存 \(Ctrl + S\)** 任何開啟的工作，然後開始新的 FormIt 草圖。若要執行此作業，您可以：
 
-1.  Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
-2. OR, after saving, start a **New Sketch \(Ctrl + N\)** from the **File** dropdown in the **Main Menu** bar.
+1. 在 **Windows 工作列**中的 FormIt 圖示上按一下右鍵，然後按一下 **FormIt** 圖示，在 FormIt 中以新視窗開啟另一個工作階段。這將開啟一個新的 FormIt 視窗，可讓您並行執行兩個 FormIt 工作階段。
+2. 或者，在儲存後，從**主功能表**列的**「檔案」**下拉式清單中啟動**「新建草圖 \(Ctrl + N\)」**。
 
 ![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Create a new folder called **Custom FormIt Content** inside the **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt** folder in the _**Farnsworth House Data Set**._
+2 - 在 **Farnsworth House Data Set** 的**「Farnsworth House Data Set &gt; Supporting Files &gt; FormIt」**資料夾內，建立名為 _**Custom FormIt Content** 的新資料夾。_
 
-3 - **Save \(Ctrl + S\)** your new sketch in that folder. We recommend naming it: **Ottoman – Barcelona\_Mies.axm**
+3 - 在該資料夾中**儲存 \(Ctrl + S\)** 您的新草圖。建議您將其命名為：**Ottoman – Barcelona\_Mies.axm**
 
-4 - In the new empty FormIt file:
+4 - 在新的空白 FormIt 檔案中：
 
-1.  **Import a Local File \(Ctrl + I\)** by selecting **Import &gt; Locally…** from the **File** dropdown in the **Main Menu** bar.
-2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** and click **Open**.
+1. 從**主功能表列**的**「檔案」**下拉式清單中選取**「匯入」&gt;「本端...」**，以**匯入本端檔案 \(Ctrl + I\)**。
+2. 從 **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** 中選擇 **Ottoman – Barcelona\_Mies.skp**，然後按一下**「開啟」**。
 
-_**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
+_**注意事項：**_ _如果您沒看到_ _**Ottoman – Barcelona\_Mise.skp 檔案**，請確保右下角的檔案格式下拉式清單設定為_ _**「所有支援的格式」**。_
 
 ![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Rename the imported group **Ottoman - Barcelona\_Mies**.
+5 - 將匯入的群組更名為 **Ottoman - Barcelona\_Mies**。
 
-6 - When we eventually import this model into our Farnsworth House file, it will be placed by using this file’s **Origin** point. To control l placement point, we want to move the **Ottoman - Barcelona\_Mies** group so one if its corners is located at the **Origin**. To do this:
+6 - 當我們最後將此模型匯入至 Farnsworth House 檔案時，將使用此檔案的**原點**放置該模型。若要控制放置點，我們要移動 **Ottoman - Barcelona\_Mies** 群組，使其角點位於**原點**。若要執行此作業：
 
-1. Ensure **Snap to Grid \(SG\)** is on. Draw a reference **Line \(L\)** starting at the **Origin** \(There the X, Y, and Z axes intersect\). Click anywhere to place the second point.
-2. Select the ottoman group and start the move command by single-clicking on the lower left corner of its leg, as shown. _To learn more about how to move objects, refer to previous chapters._
-3. Move the group to the **Origin**, by snapping to the start point of the reference line we just drew.
-4. Delete the reference line.
+1. 確保**「鎖點至格線 \(SG\)」**處於開啟狀態。從**原點**開始繪製一條參考**線 \(L\)** \(X、Y 和 Z 軸相交\)。按一下任意位置以放置第二點。
+2. 選取椅凳群組，然後按一下椅腳左下角以啟動移動指令，如圖所示。_若要進一步了解如何移動物件，請參閱先前的章節。_
+3. 鎖點至我們剛繪製的參考線起點，將群組移至**原點**。
+4. 刪除參考線。
 
 ![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - We recommend deleting any unwanted layers that were imported with the SKP file, as any layers this model has will eventually be imported into our Farnsworth House model. To do that, go to the **Layers Palette**, select **Layer 0**, and click the **-** button. This will delete the layer while keeping its geometry.
+7 - 我們建議刪除所有隨 SKP 檔案匯入的不必要圖層，因為此模型的任何圖層最後都會匯入到我們的 Farnsworth House 模型。若要執行此作業，請移至**「圖層」選項板**，選取**「Layer 0」**，然後按一下**「-」**按鈕。這會刪除圖層，但保留其幾何圖形。
 
 ![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Note:**_ _Whenever you delete a layer, any geometry or groups that were on that layer are assigned to have_ _**No Layer**, which is the default value for any object that has not yet been assigned to a layer._
+_**注意事項：**_ _每當您刪除圖層時，該圖層上的任何幾何圖形或群組都會指定為_ _**「無圖層」**，這是尚未指定給圖層之任何物件的預設值。_
 
-## **Create Content Thumbnail**
+## **建立內容縮圖**
 
-_This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, which will be displayed in the_ _**Content Library Palette**._
+_下一步將設定要用作_ _**內容**_ _縮圖的場景，該縮圖將顯示在_ _**「內容資源庫」選項板**中。_
 
-1 - To define the view settings for the thumbnail scene:
+1 - 定義縮圖場景的視圖設定：
 
-1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2.  Make sure your view mode is set to **Perspective** **\(VP\)**.
-3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
+1. 在**「視覺型式」選項板**的**「環境」**頁籤中，不勾選所有勾選方塊，並將**「下/背景」**顏色設定為白色。
+2. 確保您的檢視模式已設定為**「透視** **\(VP\)」**。
+3. 使用**視圖導覽工具**拉近，以點選可正確表示物件的相機位置，如下圖所示。
 
 ![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - To save the settings you just set, create a scene:
+2 - 若要儲存您剛才所做的設定，請建立場景：
 
-1. Go to the **Scene Palette**.
-2. Click on the **+** button. This will create a new scene based on your current settings.
-3. Rename it **Thumbnail** and make sure that at least the first four \(4\) checkboxes are checked; **Camera**, **Layers**, **Sun and Shadows**, and **Visual Styles**. The rest of the scene settings are not really relevant for creating the thumbnail image.
-4. Use the **Update Scene** button any time you want to refresh your **Scene** to match the current camera view and visual settings.
+1. 移至**「場景」選項板**。
+2. 按一下**「+」**按鈕。這會根據您目前的設定建立新場景。
+3. 將其更名為 **Thumbnail**，並確保至少勾選前四個 \(4\) 勾選方塊：**「相機」**、**「圖層」**、**「日光與陰影」**和**「視覺型式」**。其餘場景設定與建立縮圖影像並不太相關。
+4. 您可以隨時使用**「更新場景」**按鈕來重新整理**「場景」**，以符合目前相機視圖和視覺設定。
 
 ![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - **Save \(Ctrl + S\)** the completed ottoman model again. Note that the **Content Thumbnail** is created from the current view when the model was last saved, so make sure you are in the **Thumbnail Scene** before you save.
+3 - 再次**儲存 (Ctrl + S\)** 完成的椅凳模型。請注意，**「內容縮圖」**是從上次儲存模型時從目前視圖建立的，因此請確保您在儲存之前是位於**「縮圖場景」**中。
 
-_If you wish, you can compare your file against ours by opening the_ _**Ottoman - Barcelona\_Mies.axm**_ _file saved at_ _**Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Furniture**_ _in the_ _**Farnsworth House Data Set**.‌_
+_如果願意，您可以開啟_ _**Farnsworth House Data Set**中儲存在_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _的_ _**Ottoman - Barcelona\_Mies.axm**__檔案，將您的檔案與我們的做比較。_ 
 
-_You can follow the same steps above with the bench and chair SKP files located in the same folder as the ottoman._
+_您可以使用與椅凳位於同一資料夾中的長椅和椅子 SKP 檔案，依照上述步驟執行。_
 
-_**Tip:**_ _To expedite the process we recommend using the_ _**Ottoman - Barcelona\_Mies.axm**_ _file you just created as a template. While modeling you may want to turn on the_ _**Grid**_ _and the_ _**Axes**_ _again from the_ _**Visual Styles Palette**. By adjusting only the camera position of your_ _**Thumbnail Scene**_ _for each piece of furniture, it will ensure that the_ _**Content Thumbnails**_ _remain consistent for all of your content models._
+_**秘訣：**_ _若要加快程序，我們建議您使用剛建立為樣板的_ _**Ottoman - Barcelona\_Mies.axm**_ _檔案。塑型時，您可以再次從_ _**「視覺型式」選項板**開啟_ _**「格線」**_ _和_ _**「軸」**_ _。只調整每件家具的_ _**縮圖場景**_ _的相機位置，可確保所有內容模型的_ _**內容縮圖**_ _都保持一致。_
 
-## **Link a Content Library**
+## **連結內容資源庫**
 
-_Now back to our Farnsworth House project. We will learn how to link the **FormIt** folder in the **Farnsworth House Data Set**, to easily access all of its files - including the_ **Custom FormIt Content** _we just created - from within our project._
+_現在回到我們的 Farnsworth House 專案。我們將學習如何連結 **Farnsworth House Data Set** 中的**「FormIt」**資料夾，以從專案內輕鬆存取其所有檔案，包括我們剛建立的_ **Custom FormIt Content** _。_
 
-1 - After switching back to, or re-opening, the Farnsworth House model. _If you did not complete the last chapter, download and open the_ _**1.11 - Import Models with Content Library.axm**_ _file from the_ _**Farnsworth House Data Set**._
+1 - 切換回 Farnsworth House 模型或重新開啟 Farnsworth House 模型。_如果您未完成上一章，請從_ _**Farnsworth House Data Set**下載並開啟_ _**1.11 - Import Models with Content Library.axm**_ _檔案。_
 
-1. Open the **Content Library Palette** and click the **Link Content Library Directory** icon. The **Preferences** window will pop-up with the **Content Library** tab open.
-2. Click the **+** icon to **Add a new Content Library location**. A third window will pop-up for you to navigate your computer’s directory and select a folder.
-3. In the _**Farnsworth House Data Set**, navigate through the folders:_ _**Supporting Files &gt; FormIt**. There you will find the_ folders containing the **.axm** files we created earlier in this chapter. Double-click the **FormIt** folder to select it.
-4. Click **Select Folder** and that folder’s path will show up in the **Library Locations – Local** Panel.
-5. Back in the **Preferences** window, click **OK**, and the linked folder will be added to the **Content Library**.
-6. To access this new library, open the drop-down menu at the top for the **Content Library Palette** and select **FormIt**.
-7. Note that the folder structure and all the **.axm** files in the linked folder will show up in the **Content Library Palette**. Double click any sub-folders to access the files in it. 
+1. 開啟**「內容資源庫」選項板**，然後按一下**「連結內容資源庫目錄」**圖示。這會顯示**「偏好」**視窗，並開啟**「內容資源庫」**頁籤。
+2. 按一下**「+」**圖示以**新增內容資源庫位置**。這會顯示第三個視窗，供您導覽電腦的目錄並選取資料夾。
+3. 在 _**Farnsworth House Data Set** 中，導覽資料夾：_ _**Supporting Files > FormIt**。您會在其中找到_包含我們在本章之前建立的 **.axm** 檔案的資料夾。按兩下**「FormIt」**資料夾以選取它。
+4. 按一下**「選取資料夾」**，該資料夾的路徑將顯示在**「資源庫位置 - 本端」**面板中。
+5. 回到**「偏好」**視窗，按一下**「確定」**，連結的資料夾將加到**「內容資源庫」**中。
+6. 若要存取這個新資源庫，請開啟**「內容資源庫」選項板**頂端的下拉式功能表，然後選取**「FormIt」**。
+7. 請注意，連結資料夾中的資料夾結構和所有 **.axm** 檔案都會顯示在**「內容資源庫」選項板**中。按兩下任何子資料夾可存取其中的檔案。
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Note:** If you have access to **Autodesk Docs** \(previously know as Autodesk 360\), you can also access files you may have stored there through the **Content Library** drop-down menu.
+**注意事項：**如果您有權存取 **Autodesk Docs** \(先前稱為 Autodesk 360\)，您也可以透過**「內容資源庫」**下拉式功能表存取您可能儲存在該處的檔案。
 
-## **Place Content from the Library**
+## **放置資源庫的內容**
 
-_‌Now we will place the content items we created inside in the Farnsworth model._
+_現在，我們將在 Farnsworth 模型中放置我們建立的內容項目。_
 
-1 - So that we can see inside the house to place the furniture, turn off the **Roof** layer and **Orbit \(O\)** the perspective view until you can see the entire Main Building Floor.
+1 - 方便我們可以看到房子內部來放置家具，關閉 **Roof** 圖層並**環轉 \(O\)** 透視視圖，直到您看到整個主建築樓板。
 
-2 - Back in the **Content Library Palette**, ensure the dropdown is still set to the **FormIt**. Before placing any of the furniture we just made, we need to place the ‘core’ of the house:
+2 - 回到**「內容資源庫」選項板**，確保下拉式清單仍設定為**「FormIt」**。在放置我們剛剛製作的任何家具之前，我們需要先放置房屋的「核心」：
 
-1. Click on the folder named **Other** to open it, and then click on the **Farnsworth House – Core** thumbnail to select it.
-2. Hover the mouse over the **Main Building Floor,** to click on the **Centroid** of the floor to place the **Core**.
-3. To go back UP to the FormIt folder, use the **Navigate Up** button.
+1. 按一下名為 **Other** 的資料夾以開啟它，然後按一下**「Farnsworth House - Core」**縮圖以選取它。
+2. 將滑鼠懸停在 **Main Building Floor** 上，按一下樓板的**形心**來放置**核心**。
+3. 若要向上回到「FormIt」資料夾，請使用**「向上導覽」**按鈕。
 
 ![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Set the camera to an **Orthographic \(VO\)** **Top View \(VT\)** and turn of the **Main Building Floor** to see the **Plan Image**. Refer to previous chapters to learn more about the **Views** and **Layers** settings.
+3 - 將相機設定為**「正投影 \(VO\)」** **「上視圖 \(VT\)」**，然後關閉**Main Building Floor**以查看**Plan Image**。請參閱先前的章節，進一步了解**「視圖」**和**「圖層」**設定。
 
-4 - Select the **Farnsworth House - Core** and move it until it closely aligns with the Plan Image.
+4 - 選取**「Farnsworth House - Core」**並移動它，直到與 Plan Image 緊密對齊。
 
 ![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Note:**_ _While moving the_ _**Core**, be careful not to change its elevation. You can either use the_ _**Shift**_ _key to restrict the movement to always be along one of the axes, or ensure that the start and end reference points of your_ _**Move \(M\)**_ _command are both at the same height by clicking only on the_ _**Plan Image**, not the_ _**Core**_ _itself. Refer to previous chapters to learn more about the_ _**Move \(M\)**_ _Tool.‌_
+_**注意事項：**_ _移動_ _**核心**時，請小心不要變更其高程。您可以使用_ _**Shift**_ _鍵限制永遠只沿其中一個軸移動，或者只在_ _**「Plan Image」** \(而非_ _**核心**_ _本身\) 上按一下，以確保_ _**「移動 \(M\)」**_ _指令的起點和終點參考點都位於相同的高度。請參閱先前的章節，進一步了解__**移動 \(M\)**__工具。_ 
 
-## **Place Furniture from the Library**
+## **放置資源庫的家具**
 
-1 - Using a similar process, you can now place the furniture you created earlier in this chapter from the **Custom FormIt Content** folder. If you did not convert all three \(3\) of the SKP files, you can use the premade versions inside the **Furniture** folder instead.
+1 - 現在，您可以使用類似的程序，從**「Custom FormIt Content」**資料夾放置您在本章之前建立的家具。如果您未轉換所有三個 \(3\) SKP 檔案，可以改用**「Furniture」**資料夾中的預製版本。
 
-_**Notes:**_
+_**注意事項：**_
 
-* _Turn the_ _**Main Building Floor**_ _layer back on, so you can place furniture directly on the_ _**Main Building Floor**’s surface._
-* _While placing a new object, use the_ _**Tab**_ _key to alternate between placement planes._
-* _While placing a new object, use the_ _**Space Bar**_ _key to rotate it by 90 intervals before placing._
+* _重新開啟_ _**Main Building Floor**_ _圖層，以便您可以直接在_ _**Main Building Floor** 的表面放置家具。_
+* _放置新物件時，請使用 __**Tab**__ 鍵在放置平面之間切換。_
+* _放置新物件時，請使用__**空格鍵**__在放置前旋轉 90 度。_
 
 ![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - Similarly, explore the **Content Library Samples** to place OOTB Content. Note that multiple of these have several different sizes to choose from, similar to Family Types in Revit.
+2 - 同樣地，請瀏覽**「內容資源庫範例」**以放置 OOTB 內容。請注意，這當中有多個範例有幾種不同的大小可供選擇，類似於 Revit 中的「族群類型」。
 
 ![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Using the Scale Tool**
+## **使用比例工具**·
 
-1 - Using the techniques, you just learned, place one instance of the **tree\_pine** component from the **Farnsworth House Data Set &gt; FormIt &gt; Planting** folder.
+1 - 使用您剛才學到的技巧，從**「Farnsworth House Data Set > FormIt > Planting」**資料夾放置一個 **tree\_pine** 元件實體。
 
-1. Once placed, select the group and rename it to **Tree**. Right-click to access the **Context Menu** and choose **Non-Uniform Scale \(NU\)**.
-2. Click on one of the **Non-Uniform Scale Buttons** to resize and change the proportions of the **Tree** group as desired.
+1. 放置後，選取群組並將其更名為 **Tree**。按一下右鍵以存取**關聯式功能表**，然後選擇**「非等比例 \(NU\)」**。
+2. 按一下其中一個**「非等比例」按鈕**，依需要重調 **Tree** 群組的大小並變更比例。
 
 ![](../../.gitbook/assets/11%20%283%29.png)
 
 ![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Note:**_ _Similarly, the_ _**Scale \(SC\)**_ _tool can be used to re-scale an entire model or group uniformly._
+_**注意事項：**_ _同樣地，_ _**比例 \(SC\)**_ _工具也可用來均勻重新調整整個模型或群組的比例。_
 
-2 - Copy this group and place multiple trees around the house, using the **Scale Tools** to create a variety of sizes and proportions.
+2 - 複製此群組並在房屋周圍放置多棵樹，使用**比例工具**建立各種大小和比例。
 
 ![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Note:**_ _Even though the trees are all instances of the same group, we were able to_ _**Scale**_ _them to different sizes. Using the_ _**Scale \(SC\)**_ _and_ _**Non-Uniform Scale \(NU\)**_ _outside of group edit mode allows you to modify individual instances of the same group. If we were to edit one of the_ _**Tree**_ _groups and modify its geometry or material, all group instances would still be updated, but also each would keep their current customized scale. Give it a try!_
+_**注意事項：**_ _即使樹都是同一群組的所有實體，我們還是可以將它們的_ _**比例**_ _調整為不同大小。在群組編輯模式之外使用_ _**比例 \(SC\)**_ _和_ _**非等比例 \(NU\)**_ _，可讓您修改同群組的個別實體。如果我們編輯其中一個_ _**Tree**_ _群組並修改其幾何圖形或材料，所有群組實體都還是會更新，但每個群組實體也會保留它目前的自訂比例。請試試看！_
 
-### **Keep Model Tidy**
+### **保持模型整齊**
 
-_Remember to always sort added content onto layers. In this example, we recommend placing the core and all furniture on the_ _**Main Building Floor**_ _layer and the trees on a new layer named_ _**Planting**._
+_請記住，務必將加到圖層中的內容排序。在此範例中，我們建議將核心和所有家具放在_ _**Main Building Floor**_ _圖層上，並將樹放在名為_ _**Planting**的新圖層上。_
 

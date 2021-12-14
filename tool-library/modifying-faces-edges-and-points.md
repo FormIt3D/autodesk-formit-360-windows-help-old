@@ -1,33 +1,33 @@
-# Modifying Faces, Edges, and Points
+# 修改面、邊和點
 
-Things get really interesting when you start to push and pull the objects you have placed. Single click will allow you to select a single vertex, edge, face, or Mesh.
+當您開始推拉您放置的物件時，狀況會變得非常有趣。按一下可讓您選取單一頂點、邊、面或網格。
 
-## Modifying Faces
+## 修改面
 
-1. Single-click a face
-2. FormIt automatically puts you in the Drag Face or Extrude tool.
-3. Click somewhere to identify a starting point for the operation.
-4. After you click, you can snap to other objects to align this face.
-5. As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
+1. 按一下面
+2. FormIt 會自動將您置於「拖曳面」或「擠出」工具中。
+3. 按一下某處以識別作業的起點。
+4. 按一下後，您可以鎖點至其他物件以對齊此面。
+5. 與移動一樣，您可以按一下**暫時標註**，或直接開始鍵入值以定義移動量。
 
 ![](../.gitbook/assets/modify.png)
 
-You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
+您也可以使用 **Delete** 鍵，或按一下右鍵並從關聯式功能表呼叫「刪除」，來刪除面。
 
-You can also delete a face by using **Right click > X button**.
+您也可以使用**按一下右鍵 >「X」按鈕**來刪除面。
 
-## Modifying Edges
+## 修改邊
 
-1. Single-click an edge
-2. FormIt automatically puts you in the Move tool
-3. Position your mouse over a point in space that you want to start the Move operation from.
-4. Click, and now you can drag the edge to modify the shape.
+1. 按一下邊
+2. FormIt 會自動將您置於「移動」工具中
+3. 將滑鼠放在空間中要開始「移動」作業的點上。
+4. 按一下，現在您可以拖曳邊以修改造型。
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifying Points
+## 修改點
 
-1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](non-uniform-scale.md)
+1. 按一下其中一個立方體的其中一個角。
+2. 與邊類似，您可以沿其中一條軸拖曳該點，以重新定義造型。[下一個 非等比例](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

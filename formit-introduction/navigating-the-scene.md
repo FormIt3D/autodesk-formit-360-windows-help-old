@@ -1,30 +1,30 @@
-# Navigating the Scene
+# 導覽場景
 
-Use your mouse or touchscreen to easily navigate in and around your FormIt models:
+使用滑鼠或觸控螢幕，輕鬆在 FormIt 模型中四處導覽：
 
-* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
-  * You can also hold the Shift key to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
-  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
+* **環轉**：按一下右鍵並拖曳滑鼠，或滑過觸控式裝置螢幕。這會在 3D 空間中使用游標點來繞其環轉相機。
+   * 您也可以按住 Shift 鍵來平移。
+* **縮放**：向上和向下捲動滑鼠滾輪，或捏合觸控式裝置螢幕。這會在 3D 空間中使用某個點來縮放，並會在您接近曲面或其他物件時減慢縮放速度。
+   * 您也可以按住 Ctrl 以固定比率縮放，不受物件鄰近程度的影響。
+* **平移**：按中鍵並拖曳滑鼠，或在觸控式裝置螢幕上拖曳兩指。
 
-You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts are noted in parentheses.
+您也可以使用圖元區右側的浮動導覽工具列進入特定視圖模式。括弧中是快速鍵。
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: Click to reveal a flyout menu of available [orthographic views](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png) **正投影視圖**：按一下以顯示可用[正投影視圖](../tool-library/orthographic-views.md)的圖示列功能表。
 
-![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View \(ZD\):** Launches the default 3D view.
+![](../.gitbook/assets/20190618-3d-view.png) **預設 3D 視圖 \(ZD\)：**啟動預設的 3D 視圖。
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\):**  “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png) **穿越 \(FT\)：**「噴射背包」模式可讓您使用鍵盤穿越場景。使用 WASD 可向前/向後/向左/向右移動，使用 Q/E 可向上/向下移動。使用空格鍵可「飛行」。
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit \(O\):**  When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png) **環轉 \(O\)：**啟用時，按一下滑鼠左鍵並拖曳滑鼠可繞著模型環轉。您也可以隨時按一下右鍵並拖曳，以執行此作業。
 
-![](../.gitbook/assets/swivel.PNG) **Swivel \(SV\):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
+![](../.gitbook/assets/swivel.PNG) **迴旋 \(SV\)：**使用導覽工具列中的「迴旋」工具，可從固定點環視場景。
 
-![](../.gitbook/assets/panning.png) **Pan \(P\):**  Click and drag the middle mouse button, or use the Pan \(hand\) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png) **平移 \(P\)：**按一下滑鼠中鍵並拖曳滑鼠，或使用導覽工具列中的「平移 \(手形\)」工具可在場景中平移。
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
+![](../.gitbook/assets/zoom.png) **縮放 \(Z\)：**捲動滑鼠滾輪，或從導覽工具列選取「縮放」工具，然後按一下滑鼠左鍵並拖曳可縮放。
 
-![](../.gitbook/assets/zoom_all.png) **Zoom All \(ZE or ZA\):** Zoom to fit the entire model into the current view
+![](../.gitbook/assets/zoom_all.png) **全部縮放 \(ZE 或 ZA\)：**縮放以將整個模型佈滿目前視圖
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom Selection \(ZS\):** Zoom to fit all of the currently selected objects into the current view.
+![](../.gitbook/assets/zoom_selection.png) **縮放選取項目 \(ZS\)：**縮放以將目前選取的所有物件佈滿目前視圖。
 

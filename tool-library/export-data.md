@@ -1,22 +1,22 @@
-# Import and Export Data
+# 匯入和匯出資料
 
-## Importing Data
+## 匯入資料
 
-The following file formats can be imported.
+您可以匯入以下檔案格式。
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported. 
+* **OBJ**：OBJ 3D 網格檔案會匯入為單一 FormIt 群組。不會匯入任何材料。
+* **DWG**：2D 和 3D 的 DWG 檔案會匯入為單一 FormIt 群組。支援物件顏色。
+* **STL**：STL 3D 網格檔案會匯入為單一 FormIt 群組。
+* **SAT**：SAT 實體模型檔案會匯入為單一 FormIt 群組。
+* **SKP**：匯入 SketchUp 檔案。群組和元件會匯入為 FormIt 群組。支援圖層和材料。
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**瞭解有關如何處理匯入資料的更多資訊**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exporting Data
+## 匯出資料
 
-FormIt can export the following file formats: AXM \(FormIt file\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materials and 3D in a single ZIP file\), PNG images.
+FormIt 可以匯出以下檔案格式：AXM \(FormIt 檔案\)、DWG、SKP、FBX、SAT、STL、DAE、DXF、OBJ \(以單一 ZIP 檔案包含材料和 3D\)、PNG 影像。
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+匯出個別檔案時，您可以選擇匯出**「所有物件」**、**「僅限可見的項目」**或**「僅限選取的項目」**。
 
 ![](../.gitbook/assets/export_window.png)
 

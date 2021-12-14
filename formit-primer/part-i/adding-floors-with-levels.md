@@ -1,36 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 - 使用樓層加入樓板
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_樓層可讓您使用個別樓板基準切割量體，並計算每個建築量體的總面積。檔案轉換為 Revit 時，FormIt 樓層及其自訂名稱將轉換為 Revit 樓層。_
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從 **FormIt 入門手冊第 I 部分資料集**下載並開啟 **1.4 - Add Floors with Levels.axm axm** 檔案。_
 
-## **Create, and Customize Levels**
+## **建立和自訂樓層**
 
-1 - To create levels:
+1 - 建立樓層：
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** \(**Add Level**\) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. 移至**選項板列**中的**「樓層」選項板**。
+2. 按四次**「+」** \(**「加入樓層」**\) 以建立四個樓層。
+3. 按兩下每個樓層的目前高程，以將其修改為：**0'-0"、2'-2"、4'-6"** 和 **17'-8"**。
+4. 按兩下每個樓層的目前名稱，並將其更名為：**Ground、Terrace、Main Building** 和 **Top of Roof。**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**注意事項**：您可以按一下_ _**「+」**_ _圖示，以指定且均勻的間隔距離建立多個樓層。這對於多層建築非常方便_。
 
-## **Apply Levels to Geometry**
+## **將樓層套用到幾何圖形**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_在前面的步驟中，我們只建立樓層。現在，我們準備好將這些樓層套用到建立好的幾何圖形。_
 
-1 - To apply levels to the exiting geometry:
+1 - 將樓層套用到既有幾何圖形：
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it \(**Main Building, Terrace,** and **Ground**\), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. 按兩下整個上方露台量體以選取它。
+2. 在**「性質」選項板**中，按一下**「使用樓層」**。此步驟會預先選取目前與所選幾何圖形相交的所有樓層。
+3. 現在，目前選取的幾何圖形已經套用了三個樓層 \(**Main Building、Terrace** 和 **Ground**\)，但在此練習中，我們只要套用 **Ground**。不勾選**「Main Building」**和**「Terrace」**。
+4. 此程序可確保在總面積計算中只考慮與**「Ground」**相交的區域，這可在**「依樓層的面積」**欄位中看到。
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**注意事項**：如果您在量體上看不到藍色樓層線，請鍵入_ _**DL**_ _以_ _**顯示樓層**。_
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

@@ -1,30 +1,30 @@
-# Boolean Join
+# 布林接合
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+您可以使用「接合」工具將一個物件或群組，接合成另一個物件或群組。有兩種方式可存取「接合」工具：
 
-## Run the Join command first
+## 先執行「接合」指令
 
-Keyboard: J G
+鍵盤：J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+執行「接合」指令，然後遵循螢幕左上角的模式指示
 
-Single-click to select an object to join into.
+按一下以選取要接合的物件。
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+按一下以選取要被接合的物件或群組。
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+按一下勾號以完成指令。
 
-## Select objects first
+## 先選取物件
 
-1. Double-click to select the object to be joined \(single click for a group\).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. 按兩下以選取要被接合的物件 \(如果是群組則按一下\)。
+2. 按住 **Ctrl 鍵**，按兩下要與第一個物件接合的重疊物件。
+3. 在任何物件上按一下右鍵，然後在關聯式功能表中選擇「接合工具」。
 
 ![](../.gitbook/assets/join-tool.png)
 

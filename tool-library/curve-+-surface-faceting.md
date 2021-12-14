@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# 曲線 + 曲面刻面
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt 是一個多面體的塑型系統，因此圓、弧和雲形線等物件是由一系列直邊表示。同樣地，圓柱壁或圓頂的曲面是由一系列具有隱藏邊界邊的平物面組成。
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+FormIt 預設使用 40 條邊 (或刻面) 來表示一個圓，使用 24 個刻面來表示一個 3D 彎曲物件 (例如圓柱)。對於圓頂之類更複雜的表面，值 24 會設定周長刻面計數，也會影響造型其餘部分刻面的密度。
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+在 Windows 版 FormIt v18 及更高版本中，可自訂曲線和曲面刻面值：
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
 ![](<../.gitbook/assets/faceting (1).png>)
 
-**Curve Faceting Quality**
+**Curve Faceting Quality (曲線刻面品質)**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+變更「Curve Faceting Quality (曲線刻面品質)」將影響在 FormIt 中繪製新的圓和弧時，以及放置基本造型時使用的刻面數。例如，將此設定為 64 會建立一個 64 邊的圓，或有 16 個刻面的四分之一圓弧。
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+此值也會影響從 SAT 檔匯入的圓和弧的品質，以及從 Dynamo 製作幾何圖形時的品質。您可以為新草圖或只為目前的草圖設定此值。
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+對於既有曲線，您也可以使用 Rebuild Curve 外掛程式，使用新刻面計數以追溯方式重新建置**既有的**弧或圓：
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Surface Faceting Quality**
+**Surface Faceting Quality (曲面刻面品質)**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+變更此整體設定將影響從 SAT 檔案匯入之 3D 曲面的品質，以及從 Dynamo 製作時的品質。
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+例如，將此設定為 64，則從 Dynamo 製作一個圓球將在圓球赤道周圍使用 64 個面，在圓球移向兩極的每個環加上 64 個刻面，很快速就會完成！請謹慎使用較高的值，因為在某些情況下，它可能會影響 FormIt 的效能。一旦您得到高品質的結果，您可以[將其轉換為網格](meshes.md)以提升效能。
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+使用 Dynamo 時，您可以修改刻面品質，並在「性質」面板中按一下「執行圖表」，而不變更任何參數，以利用新的刻面計數：
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+和曲線一樣，您可以為新草圖或只為目前的草圖設定曲面刻面品質。
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+請注意，刻面值目前限制為 4 的倍數，因此當手動輸入數字時，FormIt 會捨入為最接近的倍數。您可以使用滑棒和箭頭來循環檢視接受的值。
 
 ![](../.gitbook/assets/units-+-precision.png)

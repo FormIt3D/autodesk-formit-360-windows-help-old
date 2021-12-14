@@ -1,77 +1,77 @@
-### Tool Bars Extended
+### 延伸工具列
 ---
 
-#### Action Tool Bar
-The Tool Bar is found at the top of the screen. The tools here will help you create, edit, and share content.
+#### 動作工具列
+工具列位於螢幕頂端。此處的工具可協助您建立、編輯和共用內容。
 ![](images/Tool Bar-All.PNG)
 
-**1. Gallery Menu**
+**1. 資源庫功能表**
 ![](images/Tool Bar-Gallery.PNG)
-- New sketch, open sketch, save sketch, import or export files.
+- 新建草圖、開啟草圖、儲存草圖、匯入或匯出檔案。
 
-**2. Undo Redo**
+**2. 退回重做**
 ![](images/Tool Bar-Undo Redo.PNG)
-- Click to undo or redo recent actions.
+- 按一下可退回或重做最近的動作。
 
-**3. Selection and Measurement**
+**3. 選取和測量**
 ![](images/Tool Bar-Select.PNG)
-- Selection Filter: Click to choose options for filtering out object types (edges, faces, solids, groups) from the selection tool.
-- Measure Tools: Click to choose a linear or angular measure tool.
+- 選取篩選：按一下可從選取工具中選擇篩選出物件類型 \(邊、面、實體、群組\) 的選項。
+- 測量工具：按一下可選擇線性或角度測量工具。
 
-**4. Creation and Modification Tools**
+**4. 建立和修改工具**
 ![](images/Tool Bar-Create.PNG)
-- Sketch Tools: Click to bring up a menu of creation tools (line, arc, spline, rectangle, circle) that will help you draw shapes.
-- Primitives: Click to bring up a menu of basic 3D shapes (cube, dome, pyramid, cylinder, roof) that you can place in your scene.
-- Advanced Modeling Tools: Click to use boolean cut or join, cover, sweep, or loft operations.
-- Groups: Click to locate tools for grouping objects.
+- 草圖工具：按一下可顯示建立工具 \(線、弧、雲形線、矩形、圓\) 的功能表，這些工具可協助您繪製造型。
+- 基本圖元：按一下可顯示能放置在場景中的基本 3D 造型 \(立方體、圓頂、角錐、圓柱、屋頂\) 功能表。
+- 進階塑型工具：按一下可使用布林切割或接合、覆蓋、掃掠或斷面混成等作業。
+- 群組：按一下可找出用於群組物件的工具。
 
-**5. Location and Analysis Tools**
+**5. 位置和分析工具**
 ![](images/Tool Bar-Analysis.PNG)
-- Location: Search for location and import satellite imagery into your sketch.
-- Sun and Shadows: Set time and day to view shadows and begin a solar analysis on a building.
-- Energy Analysis: Click to perform calculations on a building to determine its energy use.
+- 位置：搜尋位置，並將衛星影像匯入至草圖。
+- 日光與陰影：設定時間和日期可檢視陰影，並開始對建築進行日光分析。
+- 能源分析：按一下可對建築執行計算，以決定其能源使用。
 
-**6. User Identity**
+**6. 使用者識別**
 ![](images/Tool Bar-User Identity.PNG)
-- Settings: Set application and sketch settings along with visual style and perform model diagnostics.
-- Touch Mode: Model and navigate with touch-enabled Windows devides using your finger, stylus, mouse and keyboard. 
-- Collaboration: Start a session, join a session, or invite others to collaborate.
-- Login to Autodesk360: Use the Autodesk 360 Cloud Services for free to store and share your sketches.
-- Help: Use the information tools to learn more about FormIt.
+- 設定：設定應用程式和草圖設定以及視覺型式，並執行模型診斷。
+- 觸控模式：使用手指、手寫筆、滑鼠和鍵盤，透過啟用觸控的 Windows 設備進行塑型和導覽。
+- 協同合作：啟動工作階段、加入工作階段或邀請其他人協同合作。
+- 登入 Autodesk360：免費使用 Autodesk 360 雲端服務儲存和共用草圖。
+- 說明：使用資訊工具進一步了解 FormIt。
 
-#### Navigation Tool Bar
-See [Navigating the Scene](../formit-introduction/navigating-the-scene.md).
+#### 導覽工具列
+請參閱[導覽場景](../formit-introduction/navigating-the-scene.md)。
 
-#### Palette Bar 
-The Palette Bar appears on the right side of the screen. Click one of these icons to open a side palette to display building properties, materials, a content library, and collaboration tools.
+#### 選項板列
+選項板列會顯示在螢幕的右側。按一下這些圖示之一可開啟側邊選項板，顯示建築性質、材料、內容資源庫和協同合作工具。
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Properties** Open this palette to view location, gross area, and floor area ratios for your sketch.
+**1. 性質** 開啟此選項板，可檢視草圖的位置、總面積和樓板面積比。
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Materials** Use this palette to create or apply materials.
+**2. 材料** 使用此選項板可建立或套用材料。
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Layers** Use this palette to create and manage layers and assign selected objects to different layers.
+**3. 圖層** 使用此選項板可建立和管理圖層，並將選取的物件指定到不同的圖層。
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Scenes** Use this palette to create, manage, and play scenes.
+**4. 場景** 使用此選項板可建立、管理和播放場景。
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Visual Styles** Use this palette to edit the how the sketch is viewed by controlling shadows, surfaces, edges, and the environment. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. 視覺型式** 使用此選項板可透過控制陰影、表面、邊和環境來編輯檢視草圖的方式。<br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Group Tree** Use this palette to view groups and objects within each group. 
-    ![](./images/Palette Bar-Groups Tree.PNG)
+**6. 群組樹** 使用此選項板可檢視每個群組內的群組和物件。
+![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** Use this palette to load and manage computational models created in Dynamo Studio.
-    ![](./images/Palette Bar-Dynamo.PNG)
+**7. Dynamo** 使用此選項板可載入和管理在 Dynamo Studio 中建立的計算模型。
+![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Levels** Use this palette to display and add levels to your building objects. 
-    ![](./images/Palette Bar-Levels.PNG)
+**8. 樓層** 使用此選項板可顯示樓層，並將樓層加入至建築物件。
+![](./images/Palette Bar-Levels.PNG)
 
-**9. Content Library** Use the content library to store reusable content such as furniture.
+**9. 內容資源庫** 使用內容資源庫可儲存可重複使用的內容 \(例如家具\)。
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Undo Manager** Use this palette to view each user's actions when collaborating.
+**10. 退回管理員** 使用此選項板可檢視每個使用者在協同合作時的動作。
 ![](./images/Palette Bar-Undo Manager.PNG)

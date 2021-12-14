@@ -1,26 +1,26 @@
-# Orthographic Views
+# 正投影視圖
 
-**View your model in various orthographic views, including top, sides, and bottom.**
+**在各種正投影視圖 (包括上視圖、側視圖和下視圖) 中檢視模型。**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**You'll find orthographic views by clicking the top icon in the floating navigation toolbar:**
+**在浮動導覽工具列中按一下頂端的圖示，可以找到正投影視圖：**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**使用正投影視圖時的一些有用提示：**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-* Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
-  * Use shortcut SZ, or right-click in space (not over any geometry):
-  * ![](../.gitbook/assets/set-axes\_context.PNG)
-  * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-  * ![](../.gitbook/assets/set-axes.PNG)
+* 在正投影視圖之間切換時，FormIt 會維持縮放等級以保持一致性。
+* 切換立面視圖 (前/右/左/後) 時，FormIt 會維持地面高度以保持一致性。
+* 在正投影視圖中平移時，您可以按住 Shift 鍵，將平移的移動鎖定在水平或垂直軸。
+* 正投影視圖方向以世界軸為基礎。您可以重新對齊軸，這會變更所有正投影視圖的方位：
+   * 使用快速鍵 SZ，或在空間 (不在任何幾何圖形上) 中按一下右鍵：
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * 設定原點，並在紅色軸上設定掣點，與有意義的方向對齊
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-**Orthographic views work in conjunction with other FormIt features:**
+**正投影視圖與其他 FormIt 功能搭配使用：**
 
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* 將立面視圖另存成場景，以便您稍後可以返回。
+* 使用「圖層」控制可能擋住立面視圖中幾何圖形的可見性。
+* 加入剖面平面以建立剖面高程。

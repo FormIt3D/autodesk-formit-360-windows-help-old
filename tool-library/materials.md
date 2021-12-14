@@ -1,157 +1,157 @@
-# Materials
+# 材料
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
+讓 FormIt 模型彈出支援反射、光澤和凸紋貼圖的材料。
 
-## The Materials Panel
+## 材料面板
 
 ![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt (.AXM) files.
+在「材料」面板中，您可以從各種「材料範例」中進行選擇，在連結的材料資源庫之間導覽，而且自 FormIt 2021 開始，存取和使用其他 FormIt (.AXM) 檔案的材料內容。
 
-### Material Library Sources
+### 材料資源庫來源
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+在 FormIt 2021 和更高版本中，「材料」面板有一個下拉式介面，可從「在草圖中」、「材料範例」和[連結的資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)中選擇可用的材料資源庫來源。
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### In Sketch
+#### 在草圖中
 
-Shows the Materials saved to the current FormIt sketch.
+顯示儲存至目前 FormIt 草圖的材料。
 
-#### Material Samples
+#### 材料範例
 
-Shows a list of available sample Materials. These offerings are stored on a cloud-based server, so please note:
+顯示可用範例材料的清單。這些提供內容儲存在雲端式伺服器上，因此請注意：
 
-* An internet connection is required when accessing Material Samples categories for the first time.
-* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.
-* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.
+* 首次存取「材料範例」品類時，需要網際網路連線。
+* 首次存取品類時，會先下載品類，然後在您的電腦上快取，將來的工作階段作業就不需要再下載。
+* FormIt 團隊有時可能會更新「材料範例」中的提供內容。如果發生此情況，FormIt 會自動刪除並重新下載品類，以取得最新的品類。
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Linked Libraries**
+**連結的資源庫**
 
-Other directories and locations will appear after [linking Material libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)之後，會顯示其他目錄和位置。
 
-### Create, Delete, and Eyedropper
+### 建立、刪除和使用滴管
 
-![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
+![](../.gitbook/assets/materials\_add.PNG)透過定義新材料的顏色、材質、凸紋貼圖、挖除貼圖、透明度和反射/光澤等設定來**建立新材料**。
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Delete** selected Material(s).
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **刪除**選取的材料。
 
-![](../.gitbook/assets/materials\_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it.
+![](../.gitbook/assets/materials\_eyedropper.PNG)對場景中繪製的材料使用**滴管**，然後使用它立即開始繪製。
 
-* Click the Eyedropper tool, then click a face painted with a Material
-* The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
+* 按一下「滴管」工具，然後按一下使用材料繪製的面
+* 在面上找到的材料會在面板中亮顯，在載入該材料時，「畫筆」工具會變為作用中狀態。
 
-### Refresh, Link Libraries, and Purge Unused
+### 重新整理、連結資源庫和清除未使用的項目
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM (FormIt) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
+\*\*\*\*![](../.gitbook/assets/materials-link.png)從本端目錄**連結材料資源庫**。包含 JPG、PNG 或 AXM (FormIt) 檔案的目錄將顯示內容。請參閱[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)，以取得更多資訊。
 
-![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory (not In Sketch or Material Samples).
+![](../.gitbook/assets/materials-refresh.png)**重新整理**目前目錄。只有在檢視本端連結的目錄 (不是「在草圖中」或「材料範例」) 時啟用。
 
-![](../.gitbook/assets/materials-purge.png) **Purged unused** Materials from the current FormIt sketch.
+![](../.gitbook/assets/materials-purge.png)**清除目前 FormIt 草圖中未使用的材料**。
 
-Unused Materials can accumulate naturally through the process of iteration, but they can add significantly to the file size if they use high-quality textures.
+未使用的材料可能會在迭代過程中自然地累積，但如果這些材料使用高品質的材質，則會顯著增加檔案大小。
 
-Unused Materials appear with a grey-colored name in the In Sketch list.
+未使用的材料於「在草圖中」清單中會以灰色名稱顯示。
 
-Click the Purge Unused tool to delete all unused Materials. You'll see a prompt first, so you can cancel if you have second thoughts. This button is only enabled in the In Sketch list.
+按一下「清除未使用的項目」工具，可刪除所有未使用的材料。您會先看到提示，如果您有其他想法，就可以取消。只有「在草圖中」清單才會啟用此按鈕。
 
-### Linking Material Libraries
+### 連結材料資源庫
 
-FormIt 2021 and newer offers the ability to link the Materials panel to local directories (libraries) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
+FormIt 2021 和更高版本可讓您將「材料」面板連結至包含材料內容 (包括 JPG、PNG 和/或 FormIt 檔案的資料夾) 的本端目錄 (資源庫)：
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![View individual Materials from a FormIt file, or JPG/PNG files in a directory.](../.gitbook/assets/materials-axm-content.png)
+![檢視 FormIt 檔案或目錄中 JPG/PNG 檔案的個別材料。](../.gitbook/assets/materials-axm-content.png)
 
-* **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
-  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.
-  * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
-* **FormIt files (\*.axm)** will display as folders with a FormIt icon.
-  * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
-  * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
+* **JPG/PNG 檔案**將顯示為材料，可直接繪製到目前的 FormIt 草圖中。
+   * 按一下縮圖可將影像檔案快速轉換為 FormIt 材料，並將其複製到目前草圖。
+   * FormIt 會讓您返回「在草圖中」目錄，以查看您剛複製到草圖的材料。
+* **FormIt 檔案 (\*.axm)** 將顯示為有 FormIt 圖示的資料夾。
+   * 按一下 FormIt 檔案資料夾將顯示儲存至該檔案的所有 FormIt 材料。
+   * 請注意，FormIt 必須載入部分檔案才能取得材料內容，因此較大檔案可能需要較長時間才能在面板中顯示材料。
 
-### Material Interactions
+### 材料互動
 
-**Paint a Material** by single-clicking clicking the thumbnail. You'll be placed into the Paintbrush tool, where you can now hover over geometry in the FormIt canvas and click faces or Groups to paint them.
+按一下縮圖，即可**繪製材料**。您將被帶到「畫筆」工具中，現在，您可以將游標懸停在 FormIt 畫布中的幾何圖形上，然後按一下面或群組即可繪製。
 
-Once you're in the Paintbrush tool:
+進入「畫筆」工具後：
 
-* Paint faces and Groups by single-clicking.
-  * When painting Groups, the Material will cascade into the nested geometry and will cover any surface or Group painted with the Default Material.
-* Paint entire solids by double-clicking a face to select everything attached.
+* 按一下以繪製面和群組。
+   * 繪製群組時，材料會重疊顯示到巢狀幾何圖形中，而且會將蓋住使用「預設材料」繪製的任何表面或群組。
+* 按兩下某個面以選取所有貼附的物件，來繪製整個實體。
 
-You can also select faces and Groups first, then single-click a Material thumbnail to paint the selection with that Material.
+您也可以先選取面和群組，然後按一下材料縮圖，以使用該材料繪製選取項目。
 
-**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor (see below).
+**按兩下縮圖編輯材料**，這會顯示「材料編輯器」(請參閱下方)。
 
-**Rename a Material** by double-clicking the name.
+按兩下名稱**更名材料**。
 
-**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material(s) are painted on the selected geometry.
+**找出在幾何圖形上繪製的材料**，方法為選取材料，並尋找指出哪些材料是在選取的幾何圖形上繪製的亮顯和圖示。
 
 ![](../.gitbook/assets/material\_selected.png)
 
-**The Default Material** can be used to effectively "clear" a face or a Group of any Materials. Any geometry not painted with a Material is implicitly painted with the Default Material.
+您可以使用**「預設材料」**有效率地「清除」任何材料的面或群組。任何未使用「材料」繪製的幾何圖形都會以「預設材料」繪製。
 
-### List Management
+### 清單管理
 
-Adjust the size of the thumbnails by adjusting the width of the column (click and drag the vertical line to the right of "Material").
+調整欄的寬度，以調整縮圖的大小 (按一下並拖曳垂直線到「材料」的右側)。
 
-Filter for specific Materials by typing in the "Filter..." bar.
+在「篩選...」列中鍵入，以篩選特定材料。
 
-Materials with names that display in a grey font indicate that those Materials that are not used in the current sketch.
+名稱以灰色字體顯示的材料表示目前草圖中未使用這些材料。
 
-## Create and Edit Materials
+## 建立和編輯材料
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
+建立或編輯材料時，您會看到「材料編輯器」對話方塊，您可以在其中自訂：
 
-* **Color**
-* **Image Maps**
-  * Click the thumbnail to choose a new map.
-  * Click the Save icon to save the map for editing in another application.
-  * Click the Delete icon to delete the map from this material.
-    * **Texture from an image file**
-      * JPG or PNG
-    * **Bump map from an image file**
-      * JPG recommended
-      * Great for adding depth effects to Materials.
-      * You can use freeware like ShaderMap to generate bump maps given a texture.
-    * **Cutout map from an image file**
-      * PNG
-      * Great for Materials that have selective transparency, like chainlink fences or perforated panels.
-* **Name**
-* **Horizontal and Vertical Scale**
-  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.
-  * Stretch a Material by adjusting horizontal scale independently from vertical scale.
-  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool (see below).
-* **Transparency**, **Reflection**, and **Gloss**
+* **顏色**
+* **影像貼圖**
+   * 按一下縮圖可選擇新貼圖。
+   * 按一下「儲存」圖示可儲存貼圖，以在其他應用程式中進行編輯。
+   * 按一下「刪除」圖示，可從此材料中刪除貼圖。
+      * **影像檔案中的材質**
+         * JPG 或 PNG
+      * **影像檔案中的凸紋貼圖**
+         * 建議使用 JPG
+         * 非常適合在材料中加入深度效果。
+         * 您可以使用 ShaderMap 之類的自由軟體，產生指定材質的凸紋貼圖。
+      * **影像檔案中的挖除貼圖**
+         * PNG
+         * 非常適合可選擇透明度的材料，例如網狀圍籬或穿孔板。
+* **名稱**
+* **水平比例和垂直比例**
+   * 啟用後，「鎖住縱橫比」按鈕將確保水平比例和垂直比例遵循材質的縱橫比。
+   * 獨立調整水平比例和垂直比例可拉伸材料。
+   * 您可以使用「調整材料放置」工具 (請參閱下方) 取代每個面的水平和垂直比例。
+* **透明度**、**反射**和**光澤**
 
-## Adjusting Material Placement
+## 調整材料放置
 
-When painting a Material on a face, FormIt takes a best guess as to the best orientation:
+在面上繪製材料時，FormIt 會猜測最佳方位：
 
-* Vertical faces will orient with the texture's top oriented along the Z-axis.
-* Horizontal faces will orient the texture lengthwise along the longest side of the face.
+* 垂直面將沿著 Z 軸轉向材質的頂部。
+* 水平面將沿著面最長一側轉向材質縱向。
 
-Use the **Adjust Material Placement** tool to override the default Material placement, as well as the Material's scale on specific faces:
+使用**調整材料放置**工具可取代預設的材料放置，以及特定面上的材料比例：
 
-* Select a face or faces painted with a Material
-  * If the face is inheriting its Material from its parent Group, you'll need to paint the face directly first.
-* Access the Adjust Material Placement tool through the shortcut MP or from the right-click context menu:
+* 選取使用材料繪製的面
+   * 如果面是從其父系群組繼承其材料，您必須先直接繪製面。
+* 透過快速鍵 MP 或右鍵關聯式功能表存取「調整材料放置」工具：
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Use the on-screen controls to interactively move, rotate and scale the material textures directly on the face:
+使用螢幕上的控制項，以互動方式直接在面上移動、旋轉材料材質和調整其比例：
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-To reset any of the changes to the material placement, simply paint the face again with the original material, from the Materials panel.
+若要重置材料放置的任何變更，只需從「材料」面板使用原始材料再次繪製面即可。
 
-## Material Translation to Revit
+## 材料轉換至 Revit
 
-Materials will transfer to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) for Revit 2018 or later.
+使用適用於 Revit 2018 或更高版本的 [FormIt 增益集](https://formit.autodesk.com/page/formit-revit)時，材料將轉移至 Revit。

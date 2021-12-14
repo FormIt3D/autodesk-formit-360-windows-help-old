@@ -1,4 +1,4 @@
-# Shell
+# 薄殼
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+從實體物件，您可以建立指定寬度的「薄殼」。薄殼有助於從量體模型快速建立牆：
 

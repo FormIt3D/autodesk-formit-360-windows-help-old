@@ -1,8 +1,8 @@
-# Properties
+# 性質
 
-The **Properties Palette** displays information and data relevant to a selected object in the Formit Workplane. 
+**性質選項板**顯示與 Formit 工作平面中所選物件相關的資訊和資料。
 
-Using the Properties Palette, you can edit the group of an object, assign an object to a layer, and change the material of an object.
+使用「性質」選項板，您可以編輯物件群組、將物件指定到圖層，以及變更物件的材料。
 
 ![](../.gitbook/assets/properties_palette.png)
 

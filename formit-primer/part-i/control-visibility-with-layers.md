@@ -1,54 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - 使用圖層控制可見性
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_與 AutoCAD 和 Photoshop 非常類似，FormIt 中的圖層可讓您管理模型中物件的可見性。在本章中，我們將建立一個圖層來儲存並隱藏建築量體，以供將來分析之用。_
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從_ _**FormIt 入門手冊第 I 部分資料集**_ _下載並開啟_ _**1.6 - Control Visibility with Layers.axm**檔案。_
 
-## **Create Layers**
+## **建立圖層**
 
-1 - To create the new layers:
+1 - 建立新圖層：
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. 移至**「圖層」選項板**，按三次**「+」**符號以建立三個圖層。
+2. 按兩下圖層名稱以更名為 **Massing**、**Main Building Floor** 和 **Plan Image。**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**注意事項：**_ _您可以按一下圖層名稱，然後向上或向下拖曳以重新排序圖層。_
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - 將 **Massing - Main Building** 群組指定到 **Massing** 圖層：
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. 在圖元區中，選取**「Massing - Main Building」**群組。
+2. 在**「圖層」選項板**中，從**「在下列圖層上的選取項目:」**下拉式功能表中選擇**「Massing」**圖層。同樣地，將 **Plan Image** 群組指定到 **Plan Image** 圖層。
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **複製群組**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_我們現在要開始更詳細地對建築進行塑型。第一步是根據我們已經有的建築量體建立樓板幾何圖形。_
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C \(Copy\)** to copy, and then **Ctrl + Shift + V \(Paste in Place\)** to paste the mass in the same place.
+1 - 再次選取**「Massing - Main Building」**群組。按 **Ctrl + C \(複製\)** 複製，然後按 **Ctrl + Shift + V \(就地貼上\)** 將量體貼到同一位置。
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique \(MU\)** option.
+2 - 若要將新群組幾何圖形與原始群組解除關聯：按一下右鍵以存取**關聯式功能表**，然後選擇**「設為唯一 \(MU\)」**選項。
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**注意事項**：新群組不再與原始群組相關聯。對新群組的變更不會改變原始群組。_
 
-## **Create the Floor Geometry**
+## **建立樓板幾何圖形**
 
-1 - Reassign group’s layer:
+1 - 重新指定群組的圖層：
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. 按一下以選取其中一個**「Massing – Main Building」**群組。
+2. 使用**「圖層」選項板**中的**「在下列圖層上的選取項目:」**下拉式功能表，將群組放在 **Main Building Floor** 圖層上。
+3. 不勾選**「Massing」**圖層以隱藏其幾何圖形，以防止發生任何意外的編輯。
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - 按兩下可見的**「Massing – Main Building」**群組以進行編輯。在**「性質」選項板**中，將群組重新命名為 **Floor**。
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - **按一下**幾何圖形的**頂面**以選取它。再按一下，然後開始向下拖曳面。向下拖曳面時，鍵入 **11'-2"**，將顯示**「尺寸」對話方塊**。輸入值後按一下**「確定」**。產生的樓板應為 1' 厚。按兩下空間中離開物件的位置以結束群組。
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

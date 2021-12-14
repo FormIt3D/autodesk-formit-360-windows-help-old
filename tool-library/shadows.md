@@ -1,28 +1,28 @@
-# Sun + Shadows
+# 日光 + 陰影
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+使用**日光 + 陰影**工具可研究太陽路徑對專案的影響。
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md). 
+精確陰影研究的第一步是[**設定專案位置**](setting-location.md)。
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+設定位置並選擇性地匯入衛星影像後，請為專案塑型，包括建築環境，以及遮陽元素 \(例如百葉窗和樹\)。
 
-### The Sun + Shadows Menu
+### 「日光 + 陰影」功能表
 
-Turn shadows on in the Sun + Shadows menu at the top of the application \(you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)\):
+在應用程式頂部的「日光 + 陰影」功能表中開啟陰影 \(您也可以在[**視覺型式**](../formit-introduction/tool-bars.md)中啟用陰影，以及調整陰影強度\)：
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+您可以從這裡調整一天當中的時間和一年當中的天。預設年份顯示為 2000 - 不用擔心，這不會影響遮陽研究的準確度。
 
-### The Sun Editor
+### 日光編輯器
 
-You can also toggle the Sun Editor from the Sun + Shadows menu \(or use shortcut DR\), which provides a graphical display of the sun's location in space:
+您也可以從「日光 + 陰影」功能表 \(或使用快速鍵 DR\) 切換「日光編輯器」，此編輯器提供太陽在空間中位置的圖形顯示：
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* 「日光編輯器」會隨相機移動，因此您可能必須調整縮放層級和/或相機方位，才能讓小工具放在與您所研究的設計相對合理的位置。
+* 抓取圓形掣點以沿著路徑移動太陽，並有效地調整一天中的時間。
+* 從「日光 + 陰影」功能表調整一年中的時間。執行此作業將根據一年中的時間調整圖形太陽路徑的角度和方位。
 
 
 

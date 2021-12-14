@@ -1,7 +1,7 @@
-# Appendix
+# 附錄
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Appendix
+## 附錄
 
-In this section, you can find additional resources for taking your FormIt game one step further. We've included keyboard shortcuts to make your FormIt process faster as well as the steps you can take to collaborate with others on one project.
+在本部分中，您可以找到有關 FormIt 的其他資源。我們提供鍵盤快速鍵，讓您的 FormIt 流程更快速，還包括您可以與其他使用者在一個專案上協同合作的步驟。

@@ -1,52 +1,52 @@
-# Offset Line
+# 偏移線
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+使用「偏移線」工具繪製平行 \(或稱偏移\) 線。這有助於建立 2D 造型，稍後可以擠出為類似 3D 牆的外觀。
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool: 
+**偏移線**工具的運作方式與[**線**](https://windows.help.formit.autodesk.com/tool-library/line-tool)工具類似：
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes. 
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* 按一下可設定第一個點，然後移動游標並放置後續的點，鎖點至既有幾何圖形或推論軸。
+* 會顯示產生造型的預覽。第二點和第三點決定其餘點要遵循的平面，因此結果為平面。
+* 繼續加入點，然後按 **Esc** 或按兩下完成工具。
+* 所有自我相交都會被清理並合併，讓您有一個可擠出的面。
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![放置 2 個點並拖曳第 3 點後](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines. 
+輸入線以紅色繪製，並依預設放置在偏移線的中心。
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+您可以按一下 **Tab** 鍵變更偏移線的對齊方式及其厚度。這會呼叫**「工具選項」**對話方塊：
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![偏移線工具的選項](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+例如，將**「對齊」**變更為**「靠左」**，將**「厚度」**變更為 6"，偏移線將繪製在輸入線的左側距離 6 英寸。
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## 有用的秘訣
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+您可以鎖點至放置的第一個點，以繪製封閉造型。產生的角將會自動清理：
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+您可以在彼此上方自由繪製輸入線。完成工具後，會清理產生的交點。
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow. 
+「偏移線」工具本身必須在平面上產生幾何圖形，因此前幾個點決定其餘點將遵循的平面。
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+例如在立方體的一側開始繪製，以使用該面的平面。放置三個非共線的點後，輸入平面就固定下來供剩餘的輸入遵循。請注意，在面上繪製時，產生的造型會插入面，並分割為多個面。若要避免插入，您繪製的面必須是[群組](https://windows.help.formit.autodesk.com/tool-library/groups)的一部分。
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![在垂直面上繪製](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![工具結束後，線會插入，可進一步操控分割面](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image. 
+您也可以使用「偏移線」工具從平面圖面追蹤。將平面匯入為影像。
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). 
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* 調整影像大小，讓平面具有適當的比例。[此處](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)有更多詳細描述。
+* 您可以使用[正投影相機](orthographic-camera.md)在正投影[上視圖](orthographic-views.md)中追蹤。
 
 ![](../.gitbook/assets/walls9.png)
 

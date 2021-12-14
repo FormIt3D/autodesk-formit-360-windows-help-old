@@ -1,103 +1,103 @@
 # Array Along Path
 
-## Powered by Dynamo
+## 由 Dynamo 提供技術支援
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+在 FormIt 2021 和更高版本中，您可以沿路徑排列物件，並快速就地自訂結果。Array Along Path 由 Dynamo 提供技術支援，這表示您可以輕鬆規劃陣列以獲得您想要的結果，重新執行邏輯將就地更新幾何圖形。
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## 啟動 Array Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object\(s\) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter. 
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying \(see below\).
+* 移至 Windows 版 FormIt 中的 Dynamo 面板，確保您位於「Dynamo Samples」目錄中。
+* 按一下「Array Along Path」範例。
+* 在螢幕的左側，您會看到「Select object\(s\) to array」提示。
+   * 您在此步驟可以混合選取任何 FormIt 物件。
+   * 選取某些項目後，您可以按螢幕左側的「下一個」箭頭，或按 Enter。
+* 現在，您會看到「Select path for array」提示。
+   * 在此，您應該只選取一系列相鄰邊，或選取包含一系列相鄰邊的群組。
+   * 選取路徑後，按一下「完成」按鈕，或按 Enter。
+* 「Dynamo」面板會指示其正在處理變更。完成後，您在 FormIt 群組中會有一個 Dynamo 產生的陣列，可供您修改 \(請參閱下方\)。
 
-## Iterating In Place
+## 就地重複
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs. 
+執行 Array Along Path 後，您會看到結果已設定為預設值，您可以修改它們以滿足您的需要。
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance. 
+當 Array Along Path 執行時，它會建立包含結果的新群組，FormIt 會自動選取該群組並顯示該 Array Along Path 實體可用的選項。
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+您永遠可以透過選取「群組」並切換至「性質」面板，或編輯將自動顯示「性質」的「群組」，返回 Array Along Path 的性質。
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object\(s\) to Array \(選取要排成陣列的物件\) <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+按一下此按鈕可返回選取精靈，以變更要排成陣列的物件。
 
-### Select Array Path
+### Select Array Path \(選取陣列路徑\)
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+按一下此按鈕可返回選取精靈，以變更用於計算陣列的路徑。
 
-### Array Type <a id="run"></a>
+### Array Type \(陣列類型\) <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+這可切換要計算的陣列類型：「By Distance \(依距離\)」或「By Number \(依數目\)」。
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**如果為 True**，計算將為「依距離」，因此以下數字是指複本之間的距離。
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**如果為 False**，計算將為「依複本數」，因此此欄位下方的數字是指沿路徑佈滿的複本數。
 
-### Include Original Selection In Results
+### Include Original Selection In Results \(在結果中包括原始選取\)
 
-When **true**:
+如果為 **True**：
 
-* The object\(s\) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* 選取的物件將被視為其中一個新複本
+* 產生的 Dynamo 群組將在其結果中包括原始選取，因此新複本將與原始選取產生 Z-fight 現象。您可以將原始選取放在[圖層](layers.md)上，然後將其關閉加以隱藏。
 
-When **false**:
+如果為 **False**：
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* 產生的陣列將**不**包括原始選取，因此**除了**原始選取，您還會再得到您指定的複本數，結果也不會產生 Z-fight 現象
 
-### Rotate Copies Along Path
+### Rotate Copies Along Path \(沿路徑旋轉複本\)
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+如果為 **True**，複本會旋轉，以保持原始物件相對於路徑的方位。
 
-When **false**, the copies are not rotated, only moved.
+如果為 **False**，複本不會旋轉，只會移動。
 
-### Use Relative Positioning Along Path
+### Use Relative Positioning Along Path \(沿路徑使用相對定位\)
 
-When **true**:
+如果為 **True**：
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation. 
+* 每個複本將保持路徑與原始物件之間的距離。
+* 如果原始物件**未**放置在其中一個路徑端點，則路徑的最大剩餘線段將用於陣列計算。
 
-When **false**:
+如果為 **False**：
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path. 
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* 無論原始物件與路徑的相對位置為何，路徑的整個長度都會用來計算陣列。
+* 這樣會斷開路徑相對於物件的位置，只使用整個路徑。如果路徑和物件彼此不靠近，此選項非常有用。
 
-### Reverse Path Direction
+### Reverse Path Direction \(反轉路徑方向\)
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+僅適用於封閉路徑。對封閉路徑使用 Array Along Path 時，曲線的方向可能會不預期地翻轉陣列的預期結果。將此值切換為 **True**，可在結果翻轉時反轉陣列方向。
 
-### Run <a id="run"></a>
+### 執行 <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+編輯選項後，按一下「執行」按鈕以執行基礎的 Dynamo 圖表，並產生新結果。參數如果變更，此按鈕將變為藍色，您就會知道要按一下才能在最後的幾何圖形中看到更新。 
 
-### Edit Embedded Graph <a id="edit-embedded-graph"></a>
+### 編輯內嵌的圖表 <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+按一下此按鈕將啟動 Dynamo 圖表編輯器環境，您可以檢視和編輯基礎的 Dynamo 圖表，以更快速變更參數並查看即時更新，或檢查/調整邏輯。
 
 
 
-## Selecting Geometry
+## 選取幾何圖形
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
+為 Array Along Path 和其他以選取為基礎的 Dynamo 圖表選取物件時：
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes. 
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached. 
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+* 您可以混合選取 FormIt 物件 - 頂點、邊、面、實體、群組和網格。
+   * 請注意，視步驟而定，可能無法選取其中某些物件。
+   * 例如，選取路徑時，您只能選取一系列連續的邊，或選取包含一系列連續邊的群組。任何其他作業都將導致圖表失敗。
+* 您可以按兩下物件以選取所有貼附的物件。
+* 您可以使用區域選取視窗擷取一系列物件。
+* 您可以選取已選取的物件以將其除選。
+* 至少需要一個物件才能繼續執行選取型的步驟。
 
 
 

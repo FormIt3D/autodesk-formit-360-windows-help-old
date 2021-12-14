@@ -1,14 +1,14 @@
-# Array
+# 陣列
 
-You can create both linear and radial arrays in FormIt. To **array edges, faces, or entire objects**, click on the Array icon from the Context Menu. Next, choose Linear or Radial, specify the other parameters, and click the object to start an array. Click again to place the arrayed elements.
+您可以在 FormIt 中建立線性和徑向陣列。若要**讓邊、面或整個物件形成陣列**，請從關聯式功能表中按一下「陣列」圖示。接下來，選擇「線性」或「徑向」，指定其他參數，然後按一下物件以開始產生陣列。再按一下以放置陣列元素。
 
-## Linear
+## 線性
 
 ![](../.gitbook/assets/array.png)  
 ![](../.gitbook/assets/array_linear2.png)  
 ![](../.gitbook/assets/linear_array_3.png)
 
-## Radial
+## 徑向
 
 ![](../.gitbook/assets/array_radial1.png)  
 ![](../.gitbook/assets/radial_array2.png)  

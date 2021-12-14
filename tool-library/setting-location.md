@@ -1,99 +1,99 @@
-# Setting Location
+# 設定位置
 
-Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
+設定專案在世界上的位置對於模型和下游分析的準確度非常重要，包括：
 
-* Location is used to import a satellite image which can be used to trace an existing site or building.
-* Location is used to import 3D terrain, which can be used to reference topological data for a site.
-* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
+* 位置用於匯入衛星影像，該影像可用於追蹤既有的敷地或建築。
+* 位置用於匯入 3D 地形，此地形可用於參考敷地的拓樸資料。
+* 位置用於精確定位天空中的太陽，進而影響陰影的計算。
+* 位置用於日光分析和能源分析，以提供精確的分析計算。
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services. 
+您必須使用您的 Autodesk 帳戶登入，才能存取「設定位置」對話方塊及其服務。
 
-### Getting Started With Location
+### 開始使用位置
 
-* Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
+* 從工具列中的**位置**工具，或使用鍵盤快速鍵 SL，啟動**「設定位置」**對話方塊。
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window. 
+* 首先，在_「設定位置」_視窗左上角的搜尋方塊中輸入專案的位置。
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Select one of the auto-populating location options, or hit Enter to choose the first one
-* You'll zoom in to the location you searched for automatically
+* 選取其中一個自動填入的位置選項，或按 Enter 選擇第一個選項
+* 您將會自動拉近到您搜尋的位置
 
-### Set Location Only vs. Import Satellite Image and Terrain
+### 「僅設定位置」與「匯入衛星影像和地形」
 
-Once you've searched for a location, you can choose one of two options:
+搜尋到位置後，您可以選擇以下兩個選項之一：
 
-*  **Set Location Only** will set the location in the file without importing satellite imagery.
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
+* **「僅設定位置」**將在檔案中設定位置，而不匯入衛星影像。
+* **「匯入衛星影像和地形」**將設定位置，並且使用您可以規劃的縮放層級和範圍匯入衛星影像和地形。
 
-### Importing Satellite Imagery
+### 匯入衛星影像
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
+* 按一下**「設定位置」**視窗右上角的**「匯入衛星影像和地形」**。
+* 衛星影像的預覽會顯示在視窗中央，並指示 FormIt 原點相對於影像的顯示位置。
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Drag the satellite imagery within the square to adjust its position
-* Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md). 
+* 將衛星影像拖曳到方形中以調整其位置
+* 當方形區域封裝所需影像後，按一下**「完成匯入」**
+* 影像將匯入以調整比例，正北朝上，中心位於 FormIt 圖元區原點。您可以按兩下匯入的影像並移至[**性質選項板**](../formit-introduction/tool-bars.md)，來變更其透明度和 Z 順序。
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+### 更新衛星影像
 
-After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
+首次匯入衛星影像後，您可以使用「設定位置」視窗來調整衛星影像的縮放層級或範圍。
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
-* Click **Import Satellite Image and Terrain.**
-* You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
-* Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position \(and may no longer be centered at the origin\):
+* 從工具列存取**「設定位置」**視窗 \(如上所述\)，以再次啟動該視窗。
+* 按一下**「匯入衛星影像和地形」。**
+* 您將看到目前衛星影像的縮放層級和範圍，如 FormIt 圖元區所示
+* 只需調整位置或縮放，然後按一下**「完成匯入」**，如之前所做
+* 將影像重新匯入至圖元區時，影像會移至相對於原始影像位置的正確位置 \(可能不再置中於原點\)：
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+### 匯入地形
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain. 
+FormIt 2021.3 的新功能，當您使用**「設定位置」**對話方塊匯入衛星影像時，也會得到地形。
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default \(in case you've started modeling, your model may be covered by the terrain\). 
+匯入地形後，它會放置在預設關閉的圖層上 \(如果您已開始塑型，模型可能會被地形覆蓋\)。
 
-When you're ready to view terrain, toggle the Terrain layer by checking the box:
+當您準備好檢視地形時，請勾選方塊以切換「地形」圖層：
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+### 使用地形
 
-Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+地形將放置在 FormIt 群組中。按兩下該群組，可進行編輯。
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top. 
+在當中，您會找到兩個網格：一個用於側邊和底部，一個用於頂部。
 
-If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+如果要修改地形，您必須將網格轉換為單一實體物件：
 
-* Select both Meshes
-* Right click, and choose the Meshes to Objects option, or use shortcut MO
+* 選取兩個網格
+* 按一下右鍵，然後選擇「網格變物件」選項，或使用快速鍵 MO
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+同時將兩個網格轉換為物件時，FormIt 可以將它們合併為一個實體流形物件，此物件可用於進行實體作業 \(例如布林切割\)。
 
-From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+從這裡，您可以結合使用[上視圖](orthographic-views.md)和[正投影相機](orthographic-camera.md)，在水平平面上追蹤敷地邊界，然後將該平面擠出到與地形相交的體積。使用透明[材料](materials.md)有助於您透過切割實體查看地形：
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+使用「切割幾何圖形」工具，然後在「選取要被切割的實體」選取地形，在「要移除的實體」選取切割體積。
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation. 
+結果將是移除切割實體後的地形，您可以在顯示的空心當中繪製新敷地和基礎。
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
+您可以使用[圖層](layers.md)隱藏切割實體，或甚至製作包含和不包含切割的地形複本，以免您在執行實體切割作業之前需要參考原始地形，或變更切割造型。
 

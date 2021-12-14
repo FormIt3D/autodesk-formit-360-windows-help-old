@@ -1,129 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 - 加入細節
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt 是一個很棒的量體工具，也是一個很棒的塑型工具。我們會在 Farnsworth House 中先加入玻璃包廂的門和竪框等細節。然後，我們會介紹一些其他工具，並練習新增幾何圖形、圖層、材料和群組管理的程序。_
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一節，請從_ _**FormIt 入門手冊第 1 部分資料集**_ _下載並開啟_ _**1.9 - Adding Details.axm**檔案。_
 
-## **Create Window Frames**
+## **建立窗框**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_我們將在玻璃包廂周圍建立一個 2" 的金屬框和竪框。請注意，這些竪框會刻意與玻璃包廂重疊。_
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 - 建立一個名為 **Glass Walls** 的新圖層，並將 **Glass Wall** 群組移至該圖層。
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 - 為了簡化版面，請關閉 **Roof** 圖層，以便我們可以看到整個玻璃包廂。
 
-3 - To start creating the first window frame:
+3 - 開始建立第一個窗框：
 
-1. At the building’s western side, use the **Rectangle Tool \(R\)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool \(OF\).**
+1. 在建築的西側，使用**「矩形 \(R\)」**工具直接在外部玻璃面上繪製新表面。請確保在 **Glass Walls** 群組外建立表面。
+2. 選取新建立的面並向內部拖曳 **2"**。按 **Esc** 以清除選取。最後結果應類似於下圖。
+3. 按一下您剛剛建立的面。按一下右鍵存取**關聯式功能表**，以使用**「偏移面」工具 \(OF\)。**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**注意事項：**_ _如果您無法選取新面，請按_ _**空格鍵**_ _，以在不同的可選取物件之間切換，或暫時關閉_ _**Glass Walls**_ _圖層。_
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 - 若要設定偏移標註，請將滑鼠移向面內側，然後輸入 **2"** 以建立一個較小的新矩形。
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 - 按一下以選取您剛剛建立的內部矩形。再按一下，然後向建築內部拖曳面，直到它消失。再按一下，完成從框架幾何圖形移除中心體積。
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group \(G\)** it. Name the group **Mullion Frame – EW**.​
+6 - 按兩下以選取我們剛剛建立的幾何圖形，然後**群組 \(G\)**。將群組命名為 **Mullion Frame – EW**​。
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 - 建立一個名為 **Mullion** 的圖層，並在上面放置新群組。
 
-8 - To set the frame’s material:
+8 - 設定框架的材料：
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. 在**「材料」選項板**內，在**「Metal – Brushed – Colorized」**材料上按一下右鍵並選取**「複製材料」**來複製該材料。
+2. 按兩下新材料的預覽磚以編輯。
+3. 將其更名為 **Metal – Brushed – Gray**。
+4. 按一下**「貼圖」**區段中的**「顏色」**磚修改材料顏色，並將**「值:」**變更為 **150** 加深灰色。
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 - 按一下**「確定」**將這些變更儲存為新材料，然後使用它繪製 **Mullion Frame – EW** 群組。之後，群組的**「性質」選項板**應符合下圖所示的內容：
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 - 使用下列任一工具：**「快速複製」**、**「陣列」**或**「鏡射」**在東側建立一個新的框架實體。
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 - 為玻璃包廂的南北側重複上述步驟。將新群組命名為 **Mullion Frame – NS**。請記得繪製並將其放置在 **Mullion** 圖層上！
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**注意事項：**_ _竪框在角點處會互相重疊。這是刻意如此。上述結果顯示關閉_ _**Glass Wall**_ _和_ _**Column**_ _圖層後產生的竪框幾何圖形。_
 
-**Create Mullions**
+**建立竪框**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle \(R\)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 - 在建築南側或北側具有外部玻璃面的平面中，繪製一個從竪框框架底部和頂部之間範圍是 **2" x 10'-10" 的矩形 \(R\)**。不必擔心矩形與框架之間的精確位置，我們將在以下步驟中將其移至適當位置。
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group \(G\)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 - 將矩形向後擠出 **2"**，然後**群組 \(G\)**，並將群組命名為 **Mullion – Vertical**。將群組放在 **Mullion** 圖層上，然後使用 **Metal – Brushed – Grey** 材料繪製。
 
-**Locating the Mullions**
+**找出竪框**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_現在，我們將設定第一個竪框的位置，讓它在柱的__**中點**__置中。_
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 - 若要再次查看柱，請開啟 **Column** 圖層 \(如果已關閉\)。在**「圖層」選項板**中時，您也可以關閉 **Lower Terrace** 和 **Plan Image** 圖層，更輕鬆地執行後續步驟。
 
-2 - To move the mullion to its new location:
+2 - 將竪框移至新位置：
 
-1. Single-click to select the vertical mullion group you just created. **Zoom \(Z\)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis \(**X Axis**\). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis \(**X Axis**\), but will align to the **Mid-Point** you just clicked on.
+1. 按一下以選取您剛剛建立的垂直竪框群組。**拉近 \(Z\)**，然後按一下竪框底部外部邊緣的**中點** \(以紅色三角形表示\)**。**
+2. 開始將幾何圖形水平移向柱。按 **Shift** 鎖住沿紅色軸 \(**X 軸**\) 移動。請注意，移動被鎖住後，紅色軸線會變粗。
+3. 拉遠，直到您可以看到柱的底部。在仍按住 **Shift** 的同時，按一下柱外側面底部的**中點**。竪框只會沿紅色軸 \(**X 軸**\) 繼續移動，但會與您剛剛按一下的**中點**對齊。
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit \(O\)**_ _to visualize the mullion._
+_**注意事項：**_ _竪框現在正位於柱的後面。關閉_ _**Column**_ _圖層，或_ _**環轉 \(O\)**_ _以便看見竪框。_
 
-3 - Press **Esc** to clear the **Move** tool.
+3 - 按 **Esc** 清除**移動**工具。
 
-4 - Use the **Array \(AR\)** or **Quick Copy** tool to create four \(4\) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 - 使用**陣列 \(AR\)** 或**快速複製**工具，沿同一側建立四個 \(4\) 以上的垂直竪框，間距為 **11'**。若要了解如何使用**陣列工具**，請參閱先前的章節。
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 - 使用 Tab 鍵選取所有**垂直**竪框群組，將它們複製到建築的另一側，讓**北側**和**南側**的框架都有相同的竪框配置，如下圖所示：
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **建立門竪框**
 
-1 - **Orbit \(O\)** the perspective view until you are looking at the center of the West mullion frame.
+1 - **環轉 \(O\)** 透視視圖，直到您看到西側竪框框架的中心。
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group \(G\)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 - 與建立竪框框架類似，繪製一個框架為 **2"x 2"**、寬為 **3'-6"** 的門板。讓它成為具有下列性質的**群組 \(G\)**：群組名稱：**Curtain Wall Door**；圖層：**Mullion**；材料：**Metal – Brushed – Grey**。
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 - 複製此群組以建立第二個門框，然後移動門框，讓它們在 **Mullion Frame – EW** 群組中置中，如下圖所示。
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **使用掃掠建立屋頂簷板**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_我們現在要使用 FormIt 其中一個進階的塑型工具 -_ _**掃掠**，建立 Farnsworth House 的簷板。若要了解其他進階塑型，請查看_ _**FormIt 入門手冊 - 第 II 部分**的_ **2.2 - ** _**進階塑型**一章_ _。_
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_建立__**掃掠**__的第一步是繪製一個與掃掠「擠出」垂直的輪廓。為了執行此作業，我們使用屋頂幾何圖形做為導引。_
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 - 開啟**Roof**圖層，並拉近至其中一個角落。
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 - 使用屋頂垂直的其中一側做為參考，繪製兩個相鄰的矩形。第一個是 **6"** 高乘以 **4 5/8"** 寬，第二個是 **2" x 2"**。刪除分割兩個矩形的線，以便建立一個面。結果應如下所示。
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 - 建立掃掠：
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep \(SW\)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face \(or edges\) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face \(or edge\) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. 在未選取任何幾何圖形的情況下，按一下**標準工具列**中的**「進階塑型工具」**按鈕，然後選取**「掃掠 \(SW\)」**。
+2. **掃掠選取精靈**將啟動並提示您**選取掃掠輪廓的面 \(或邊\)**。選取我們剛剛建立的輪廓面。
+3. 選取輪廓後，系統會提示您**選取掃掠路徑的面 \(或邊\)，然後按一下「完成」**。選取屋頂的頂面。FormIt 會自動使用所選面的邊界做為掃掠的路徑，將圍繞整個屋頂建立掃掠。
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit \(O\)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**注意事項：**_ _如果您無法選取其中一個面，稍微_ _**環轉 \(O\)**_ _一下比較能檢視面，然後再試一次。或者，也可以選取屋頂的所有邊緣，而不是屋頂的頂面，來完成掃掠。_
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 - 建立**Roof - Cornice**群組，將它加到**Roof**圖層，並為其指定**Metal – Brushed – Colorized**材料，來整理模型。
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 - 若要完成，請開啟 **Column** 圖層，您會看到新建立的掃掠與柱的頂部相交。編輯任一個 **Column Tall** 群組，並將頂面向下拖曳，直到與簷板底部對齊，來解決此問題。
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

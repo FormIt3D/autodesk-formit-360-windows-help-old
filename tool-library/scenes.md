@@ -1,6 +1,6 @@
-# Scenes
+# 場景
 
-You can save a 'scene' viewpoint and its related visual styles and layer states, then use these to set up camera points to steer walkthroughs and tell a visual story.
+您可以儲存「場景」檢視點及其相關的視覺型式和圖層狀態，然後使用它們來設定相機點引導穿越並講述視覺故事。
 
-Learn more about using Scenes [here](../formit-primer/part-i/visual-settings.md).
+若要進一步瞭解場景，請按一下[此處](../formit-primer/part-i/visual-settings.md)。
 

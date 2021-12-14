@@ -1,22 +1,22 @@
-# Delete, Edit, Move
+# 刪除、編輯、移動
 
-Remove an object, change its location, or modify its properties.
+移除物件、變更其位置或修改其性質。
 
-## Delete
+## 刪除
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+首先，選取幾何圖形。然後，按一下右鍵以查看關聯式功能表，您可以在其中按一下**「刪除」工具**。也可以在鍵盤上按 Delete 鍵。
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## 編輯
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+使用許多編輯工具 \(例如「移動」、「陣列」、「推拉面」和「偏移」\) 時，您會看到藍色的尺寸方塊。您可以在完成作業後按一下這個尺寸，並輸入特定值。您也可以直接開始鍵入數值以存取「編輯尺寸」對話方塊。或者，您可以按 Tab 顯示「編輯尺寸」對話方塊，但 FormIt for Windows v17 和更高版本不再需要 Tab。
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## 移動邊、面或物件
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+首先選取邊、面或物件。移動工具會自動啟用。將游標懸停以查看鎖點和推論點，以指定您要開始移動作業的位置，然後按一下以開始。現在，將滑鼠懸停到要移動物件到的位置，以查看鎖點和推論點。再按一下即可放置物件。
 
 ![](../.gitbook/assets/edit_edge.png)
 

@@ -1,18 +1,18 @@
-# Undo Manager
+# 退回管理員
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt 有一個獨特的「退回/重做」系統，可以透過兩種不同的方式使用該系統來退回：根據群組退回，或依時間順序整體退回：
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-* Undo/Redo from the Main Sketch \(not while editing a Group\) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* 編輯巢狀群組時退回/重做，只會影響該群組內的變更
+   * 這表示您可以在此群組中進行變更，然後在其他群組中進行許多變更，再回到原始群組，而且可以選擇退回此群組中所做的最後變更，而不會影響最近在其他位置所做的變更
+* 從主草圖退回/重做 \(不是編輯群組時\) 的作用類似於傳統的退回/重做系統：在**任何**群組中所做的最後變更，都將根據時間順序退回。
 
- The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+「退回管理員」會記錄 FormIt 模型中每個群組內的每個變更，包括在主草圖中所做的變更。這有助於直觀地瞭解模型中任何群組中已退回的作業。
 
 ![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+「退回管理員」將以**粗體**指示目前狀態、此狀態之前的任何作業，以及曾存在但之後已退回的所有作業。
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+您可以在狀態上按一下右鍵，然後選取「捲動至」，視需要有效率地退回或重做以回到該模型狀態。
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+已明確刪除或由於退回或重做而不再存在的群組，會顯示為「\*非作用中\*」。您可以透過在其父系群組內退回或重做來還原，直到這些群組恢復。
 

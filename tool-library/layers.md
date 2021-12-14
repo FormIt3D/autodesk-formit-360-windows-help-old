@@ -1,28 +1,28 @@
-# Layers
+# 圖層
 
-Use Layers to control the visibility of FormIt objects. 
+使用「圖層」控制 FormIt 物件的可見性。
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+如需查看實際使用中的圖層，請參閱 [FormIt 入門手冊](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)。
 
-## Creating and Naming Layers
+## 建立和命名圖層
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon. 
+在「圖層」面板中，您可以按一下「**+**」圖示來建立和命名圖層。
 
- ![](../.gitbook/assets/layer-locking-image.jpg) 
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible  but not selectable or editable.
+您可以按兩下名稱來更名圖層，或勾選和取消勾選左側方塊來切換圖層物件的可見性。使用右側勾選方塊可鎖住和解鎖圖層。鎖住的圖層仍然可見，但無法選取或編輯。
 
-## Managing Objects on Layers
+## 管理圖層上的物件
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on. 
+在圖元區中選取物件，然後使用「圖層」面板頂端的下拉式清單來指出選取的物件應放在哪個圖層。
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt 沒有「預設」或「工作圖層」的概念。所有新的幾何圖形都會建立在「無圖層」上，在物件產生後，您必須將物件重新指定至圖層。
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+您可以在圖層上按一下右鍵，然後選擇「選取圖層上的所有物件」，以選取目前指定到此圖層的所有幾何圖形。
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+您也可以將面板中的圖層拖放至新位置，以重新排序這些圖層。請注意，這不會影響幾何圖形的可見性 - 這純粹是面板中的組織工具。
 

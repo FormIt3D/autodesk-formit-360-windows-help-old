@@ -1,29 +1,29 @@
-# Copy Object
+# 複製物件
 
-There are three ways to copy an object.
+有三種方法可以複製物件。
 
-**Copy Using the Context Menu**
+**使用關聯式功能表複製**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. 按兩下物件以選取它。
+2. 在物件上按一下右鍵。
+3. 在關聯式功能表中選取[**「複製」工具**](tilt-array-copy-and-paste.md)。
+4. 在場景中的其他任意位置按一下右鍵，然後選擇**「貼上」按鈕**。
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place \(**CTRL+Shift+V**\) to paste an object exactly where it was copied from.
+注意事項：這也適用於 **Ctrl + C** 或 **V**。使用「就地貼上」\(**Ctrl+Shift+V**\)，將物件貼到它複製的位置。
 
-**Copy Using the CTRL Key**
+**使用 Ctrl 鍵複製**
 
-1. Select the object by clicking it \(double-click to select a whole body or everything attached\).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled. 
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu \(press and hold\) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. 按一下物件以選取它 \(按兩下可選取整個本體或所有貼附的物件\)。
+2. 按住 **Ctrl 鍵** 並開始拖曳物件，或開始移動物件，然後點選 **Ctrl**
+3. 現在您不是移動物件，而是移動物件的複本。
+4. 請注意，啟用「觸控模式」時，用 Ctrl 鍵複製目前無法運作。
+   1. 在觸控模式中，您必須使用關聯式功能表 \(按住\) 中的複製/貼上工具，或使用 Ctrl+C 和 Ctrl+V，然後放下物件，並依需要重新定位。
 
-**Copy Using the Array Tool**
+**使用陣列工具複製**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](../.gitbook/assets/array_properties.png)
+1. 按兩下物件以選取它
+2. 在物件上**按一下右鍵**，然後選取[**「陣列」工具**](tilt-array-copy-and-paste.md)
+3. 選取要建立的複本數
+4. 選擇下一次拖曳將定義兩個物件之間的距離還是陣列的總長度。
+5. 按一下**「確定」。**  ![](../.gitbook/assets/array_properties.png)
 

@@ -1,14 +1,14 @@
-# Polygon
+# 多邊形
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+使用「多邊形」工具在空間中或其他物件上繪製一般的 N 邊多邊形。
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+開始多邊形，然後按一下以選擇中心點。繪製第二點、鍵入尺寸，或按一下 **Tab** 以顯示**「工具選項」**來指定半徑。
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+**「工具選項」**可讓您變更邊數並指定特定半徑。
 
 ![](../.gitbook/assets/image.png)
 

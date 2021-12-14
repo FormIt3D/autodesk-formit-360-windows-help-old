@@ -1,81 +1,81 @@
 # Railing Along Path
 
-## Powered By Dynamo
+## 由 Dynamo 提供技術支援
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+在 FormIt 2021 和更高版本中，您可以沿路徑產生扶手，並快速就地自訂結果。Railing Along Path 由 Dynamo 提供技術支援，這表示您可以輕鬆規劃產生的扶手以獲得您想要的結果，重新執行邏輯將就地更新幾何圖形。
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## 啟動 Railing Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying \(see below\).
+* 移至 Windows 版 FormIt 中的 Dynamo 面板，確保您位於「Dynamo Samples」目錄中
+* 按一下「Railing Along Path」範例
+* 在螢幕左側，您會看到「Select path for railing」的提示
+   * 您應該只選取一系列相鄰邊，或選取只包含一系列邊的群組。
+   * 選取路徑後，按一下「完成」按鈕，或按 Enter/Return。
+* 「Dynamo」面板會指示其正在處理變更。完成後，您在 FormIt 群組中會有一個 Dynamo 產生的扶手，可供您修改 \(請參閱下方\)。
 
-## Iterating In Place
+## 就地重複
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+執行 Railing Along Path 後，您會發現其結果已設定為預設值。這些功能可能適合您，但您可以大量自訂扶手以滿足您的需求。
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance. 
+當 Railing Along Path 執行時，它會建立包含結果的新群組，FormIt 會自動選取該群組並顯示該 Railing Along Path 實體可用的選項。
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+您永遠可以透過選取「群組」並切換至「性質」面板，或編輯將自動顯示「性質」的「群組」，返回 Railing Along Path 的性質。
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height
+### Railing Height \(扶手高度\)
 
-The overall height of the railing. Uses the current FormIt units.
+扶手的整體高度。使用目前的 FormIt 單位。
 
-### Post Spacing
+### Post Spacing \(支柱間距\)
 
-The spacing between main vertical posts. Uses the current FormIt units.
+主要垂直支柱之間的間距。使用目前的 FormIt 單位。
 
-### Add Posts at Path Vertices
+### Add Posts at Path Vertices \(在路徑頂點加入支柱\)
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point. 
+如果為 **True**，將在所選路徑的每個頂點加入支柱，並在該點重置下一個支柱定位的計算。
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction \(like going up stairs or turning corners\) where a post would naturally occur.
+例如，如果您選取了一系列 3 條邊，則會在兩個內部點各顯示一個支柱。如果頂點指示方向發生變更 \(例如上樓或轉角\)，此選項會很有用。
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+如果為 **False**，只會沿路徑從一端開始加入支柱，並沿路徑測量距離，同時忽略沿路徑的頂點。如果您選取了頂點不重要的弧、雲形線或圓，並且希望支柱間距忽略它們，此選項會很有用。
 
-### Reverse Path Direction
+### Reverse Path Direction \(反轉路徑方向\)
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+計算支柱的位置時，所選路徑的方向將決定路徑的哪一端開始測量支柱間距。
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+如果支柱間距導致路徑不想要的一端有剩餘空間，您可以將此值變更為 **True** 以翻轉曲線，並在另一端開始測量支柱間距。
 
-### Post Width + Depth
+### Post Width + Depth \(支柱寬度 + 深度\)
 
-The size \(in plan\) of the rectangular vertical post profiles. Uses the current FormIt units.
+矩形垂直支柱輪廓的大小 \(在平面圖中\)。使用目前的 FormIt 單位。
 
-### Handrail Width + Height
+### Handrail Width + Height \(扶欄寬度 + 高度\)
 
-The size \(in section\) of the rectangular handrail profile. Uses the current FormIt units.
+矩形扶欄輪廓的大小 \(在剖面圖中\)。使用目前的 FormIt 單位。
 
-### Baluster Orientation
+### Baluster Orientation \(欄杆方位\)
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+如果為 True，欄杆會像繩索一樣水平配向。如果為 False，欄杆會垂直配向，屬於較傳統的美感。
 
-### Baluster width + Depth
+### Baluster width + Depth \(欄杆寬度 + 深度\)
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+欄杆矩形輪廓的大小。使用目前的 FormIt 單位。
 
-### Baluster Spacing
+### Baluster Spacing \(欄杆間距\)
 
-The amount of space between each baluster. Uses the current FormIt units.
+每根欄杆之間的空間量。使用目前的 FormIt 單位。
 
-### Bottom Rail Start Height
+### Bottom Rail Start Height \(底部扶手起始高度\)
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+扶手底部與支撐欄杆的底部扶手之間的距離。使用目前的 FormIt 單位。
 
-### Run
+### 執行
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+編輯選項後，按一下「執行」按鈕以執行基礎的 Dynamo 圖表，並產生新結果。參數如果變更，此按鈕將變為藍色，您就會知道要按一下才能在最後的幾何圖形中看到更新。‌
 
-### Edit Embedded Graph
+### 編輯內嵌的圖表
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+按一下此按鈕將啟動 Dynamo 圖表編輯器環境，您可以檢視和編輯基礎的 Dynamo 圖表，以更快速變更參數並查看即時更新，或檢查/調整邏輯。
 

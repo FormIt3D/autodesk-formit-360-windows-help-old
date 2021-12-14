@@ -1,29 +1,29 @@
-# Prerequisites and Installation
+# 必備條件和安裝
 
-## Download and Installation
+## 下載和安裝
 
-* Download the latest [FormIt for Windows](https://formit.autodesk.com/page/download).
-* Use your Autodesk account to sign in, or [create a free Autodesk account here](https://accounts.autodesk.com/).
-* The FormIt Add-In for Revit is included with Revit 2017 and newer. You can also download and manually install the add-in [from our website](https://formit.autodesk.com/page/formit-revit).
+* 下載最新的 [Windows 版 FormIt](https://formit.autodesk.com/page/download)。
+* 使用您的 Autodesk 帳戶登入，或[在此處建立免費的 Autodesk 帳戶](https://accounts.autodesk.com/)。
+* Revit 2017 和更高版本隨附適用於 Revit 的 FormIt 增益集。您也可以[從我們的網站](https://formit.autodesk.com/page/formit-revit)下載並手動安裝增益集。
 
-## Recommended System Configuration
+## 建議的系統規劃
 
-| Requirement | Details |
+| 需求 | 詳細資料 |
 | :--- | :--- |
-| **Operating System** | Microsoft® Windows® 8, 8.1, or 10  _Note: Parallels Desktop is not officially supported due to degraded performance and graphics issues in OpenGL drivers._ |
-| **CPU** | Intel® Pentium®, Xeon®, or i-Series processor or AMD® equivalent with SSE2 technology. Highest affordable CPU speed rating recommended. |
-| **Memory** | 4 GB RAM minimum, 8GB or higher recommended. |
-| **Video Card \(GPU\)** | A discrete NVIDIA or AMD GPU that supports OpenGL 4.2 and DirectX 11 or higher is strongly recommended. For systems with switchable graphics cards, follow manufacturer instructions to ensure FormIt always uses the dedicated GPU. See instructions for [AMD ](https://www.amd.com/en/support/kb/faq/dh-017)and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).   For best performance and reliability, ensure your graphics card drivers are up-to-date from the manufacturer's website or Windows Update. FormIt will show a message at startup if it's unable to use your video card due to outdated drivers or other issues. If FormIt fails to start after updating drivers, please [reach out on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142). |
-| **Disk Space** | 1 GB free disk space. |
-| **Connectivity and Licensing** | An Autodesk account entitled with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. FormIt Pro is available as part of the [**Autodesk AEC Collection**](https://www.autodesk.com/collections/architecture-engineering-construction/overview). |
+| **作業系統** | Microsoft® Windows® 8、8.1 或 10  _注意事項：Parallels Desktop 因 OpenGL 驅動程式效能降低和圖形問題而未正式受到支援。_ |
+| **CPU** | Intel® Pentium®、Xeon® 或 i-Series 處理器或採用 SSE2 技術的 AMD® 同等級產品。建議最大負荷的 CPU 速度額定值。 |
+| **記憶體** | 最少 4 GB RAM，建議 8 GB 或更高。 |
+| **視訊卡 \(GPU\)** | 強烈建議使用支援 OpenGL 4.2 和 DirectX 11 或更高版本的獨立 NVIDIA 或 AMD GPU。對於具有可切換圖形卡的系統，請遵循製造商指示，以確保 FormIt 永遠使用專用的 GPU。請參閱 [AMD](https://www.amd.com/zh-hant/support/kb/faq/dh-017) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) 的指示。為取得最佳效能和可靠性，請確保您的圖形卡驅動程式是來自製造商網站或 Windows Update 的最新版本。如果由於驅動程式過期或其他問題而無法使用視訊卡，FormIt 將在啟動時顯示一則消息。如果更新驅動程式後，FormIt 無法啟動，請[在論壇與我們聯絡](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=zh-CN)。 |
+| **磁碟空間** | 1 GB 可用磁碟空間。 |
+| **連線和授權** | 您需要擁有 FormIt Pro 雲端固定期限使用授權的 Autodesk 帳戶，才能在 Windows 上執行 FormIt Pro。[**Autodesk 工程建設軟體集**](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)包含 FormIt Pro。 |
 
-## Recommended Windows DPI Settings
+## 建議的 Windows DPI 設定
 
-FormIt for Windows works best when the display screen is set to 125% or less DPI scaling in Windows.
+當 Windows 的顯示螢幕設定為 125% 或更小的 DPI 比例時，Windows 版 FormIt 運作地最好。
 
-You can change this in Windows 10 by doing the following:
+您可以在 Windows 10 中執行以下作業來變更此設定：
 
-* Search "Display" in the Start Menu, and choose "Change Display Settings" 
-* Select the rectangle representing the monitor you'll be using with FormIt
-* Under "Scale and Layout" section, open the "Size of text, apps, and other items" dropdown and select a value of 125% or less
+* 在「開始」功能表中搜尋「顯示」，然後選擇「變更顯示器設定」
+* 選取表示您將用於 FormIt 之顯示器的矩形
+* 在「縮放與版面配置」區段下，開啟「文字、應用程式與其他項目的大小」下拉式清單，然後選取 125% 或更小的值
 

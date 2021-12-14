@@ -1,20 +1,20 @@
-# Collaboration
+# 協同合作
 
-FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iPadOS, or Web clients, all while seeing their changes in real-time!
+FormIt 可讓多個使用者在 Windows、iPadOS 或網頁用戶端的任意組合上協同編輯 FormIt 模型，同時即時查看他們的變更！
 
-With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
+透過 FormIt Pro 固定期限的使用授權，您可以存取即時協同合作功能，讓您：
 
-* Start a collaboration session and invite colleagues.
-* Join a collaboration from the FormIt Windows, Web, or iPadOS apps.
-* Collaborate with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you guide them through your design.
-* Chat with collaborators in the session.
+* 啟動協同合作工作階段並邀請同事。
+* 從 FormIt Windows、網頁或 iPadOS 應用程式加入協同合作。
+* 與同事協同合作，以在共用沙箱環境中探索設計。
+* 跟隨其他協同合作者的相機，以從其視角查看模型。
+* 讓客戶在您引導他們檢視設計時跟隨您的相機。
+* 在工作階段中與協同合作者交談。
 
-## Start a Collaboration Session
+## 啟動協同合作工作階段
 
-1. From the Collaboration drop-down, choose "Start sharing session." ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](../.gitbook/assets/collaborate.png)
+1. 從「協同合作」下拉式清單中，選擇「啟動共用工作階段」。![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. 以電子郵件傳送連結給協同合作者。此連結會提示收件者登入其 Autodesk 帳戶，以立即開始協同合作。![](../.gitbook/assets/collaborate.png)
 
 
 

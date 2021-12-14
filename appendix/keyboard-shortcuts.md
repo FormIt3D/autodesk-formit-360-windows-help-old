@@ -1,149 +1,149 @@
-# Keyboard Shortcuts
+# 鍵盤快速鍵
 
-| Command | Shortcut\(s\) |
+| 指令 | 快速鍵 |
 | :--- | :--- |
-| Application Settings: Display Dimensions | D, D |
-| Application Settings: Snap to Grid | S, G |
-| Collaboration: Invite to Session | C, I |
-| Collaboration: Join Session | C, J |
-| Collaboration: Start Session | C, S |
-| Display: Ambient Shadows | D, A |
-| Display: Axes | D, Z |
-| Display: Back Faces | D, B |
-| Display: Edges | D, E |
-| Display: Extend Lines | D, X |
-| Display: Grid | D, G |
-| Display: Group Bounding Boxes | B, B |
-| Display: Hidden Lines | D, H |
-| Display: Monotone Surfaces | D, M |
-| Display: North Arrow | D, N |
-| Display: Shadows | D, S |
-| Display: Silhouettes | D, O |
-| Display: Sketchy Lines | D, K |
-| Display: Thin Edges | D, T |
-| Display: Watertight Issues | D, W |
-| Draw: Arc | A |
-| Draw: Circle | C |
-| Draw: Line | L |
-| Draw: Rectangle | R |
-| Draw: Spline | S |
-| Edit: Copy | Ctrl + C |
-| Edit: Delete | Delete |
-| Edit: Paste | Ctrl + V |
-| Edit: Preferences |  |
-| Edit: Redo | Ctrl + Y |
-| Edit: Redo | Ctrl + Shift + Z |
-| Edit: Reset Axes | R, Z |
-| Edit: Set Axes | S, Z |
-| Edit: Undo | Ctrl + Z |
-| Energy Analysis: Cancel Insight |  |
-| Energy Analysis: Generate Insight |  |
-| Energy Analysis: View Insight |  |
-| File: Export Image |  |
-| File: Export Model To | Ctrl + E |
-| File: Import 3D Model | Ctrl + I |
-| File: Import Image | Ctrl + Shift + I |
-| File: New | Ctrl + N |
-| File: Open from BIM 360 Docs | Alt + O |
-| File: Open | Ctrl + O |
-| File: Save As to BIM 360 Docs | Alt + S |
-| File: Save with History | Ctrl + S, Ctrl + H |
-| File: Save | Ctrl + S |
-| Group: Edit Group \(Context Menu\) | E |
-| Group: Edit Group \(Tool Bar\) | Alt + E |
-| Group: Finish Group Action | F |
-| Group: Group \(Context Menu\) | G |
-| Group: Group \(Toolbar\) | Alt + G |
-| Group: Make Unique \(Context Menu\) | M, U |
-| Group: Make Unique \(Toolbar\) | Alt + M |
-| Group: UnGroup \(Context Menu\) | U |
-| Group: UnGroup \(Toolbar\) | Alt + U |
-| Group: UnGroup All \(Context Menu\) | U, A |
-| Group: UnGroup All \(Toolbar\) | Alt + A |
-| Group: UnGroup Model | U, M |
-| Help: About |  |
-| Help: Check for FormIt Updates |  |
-| Help: FormIt Blog |  |
-| Help: FormIt Gallery |  |
-| Help: FormIt Videos |  |
-| Help: Get Support |  |
-| Help: Help |  |
-| Help: What's New |  |
-| Levels: Display Levels | D, L |
-| Levels: Use Levels | U, L |
-| Prevent materials on back side faces |  |
-| Primitive: Cube | Alt + B |
-| Primitive: Cylinder | Alt + C |
-| Primitive: Dome | Alt + D |
-| Primitive: Prism | Alt + R |
-| Primitive: Pyramid | Alt + P |
-| Prototype: Display mouse/grid status |  |
-| Selection Filter: Edges | E, S |
-| Selection Filter: Faces | F, S |
-| Selection Filter: Groups | G, S |
-| Selection Filter: Solids | S, S |
-| Settings: Large Buttons |  |
-| Sketch Settings: Toggle Unit Type | U, T |
-| Solar Analysis: Analyze | A, A |
-| Solar Analysis: Enter/Exit Solar Analysis Mode | S, A |
-| Solar Analysis: Exit |  |
-| Solar Analysis: Reset |  |
-| Tools: Array | A, R |
-| Tools: Cover | C, V |
-| Tools: Cut Geometry \(Context Menu\) | C, C |
-| Tools: Cut Geometry \(Toolbar\) | C, G |
-| Tools: Enable Touch | E, T |
-| Tools: Enable Touch | T, M |
-| Tools: Extrude Edges | E, E |
-| Tools: Fillet | F, I |
-| Tools: Information |  |
-| Tools: Join Geometry \(Context Menu\) | J, C |
-| Tools: Join Geometry \(Toolbar\) | J, G |
-| Tools: Lasso Select | L, L |
-| Tools: Loft Edges | L, O |
-| Tools: Measure | M |
-| Tools: Measure Angle | M, A |
-| Tools: Merge Edges and Vertices | M, E |
-| Tools: Mirror | M, I |
-| Tools: Multi-Move | M, M |
-| Tools: Offset Edge | O, E |
-| Tools: Offset Face | O, F |
-| Tools: Offset Solid | O, S |
-| Tools: Reverse Faces | F, F |
-| Tools: Rotate | Q |
-| Tools: Run Script from Editor |  |
-| Tools: Scale | S, C |
-| Tools: Select | Space |
-| Tools: Set Location | S, L |
-| Tools: Shell | S, H |
-| Tools: Smooth Edges | S, E |
-| Tools: Sweep | S, W |
-| Tools: Taper Face | T, F |
-| Tools: Unsmooth Edges | U, E |
-| View: Blue Theme |  |
-| View: Default Theme |  |
-| View: First Person Fly-Through | F, T |
-| View: Orbit Camera |  |
-| View: Pan Camera |  |
-| View: System Theme |  |
-| View: Toggle Perspective |  |
-| View: Top | Z, T |
-| View: Zoom All | Z, A |
-| View: Zoom All | Z, E |
-| View: Zoom All | Z, Z |
-| View: Zoom All Images | Z, I |
-| View: Zoom Camera |  |
-| View: Zoom Out |  |
-| View: Zoom Selection | Z, S |
-| Window: Design Toolbar | H, D |
-| Window: Floating Navigation Toolbar | H, B |
-| Window: Main Menu | H, M |
-| Window: Navigation Toolbar | H, N |
-| Window: Operations Toolbar | H, O |
-| Window: Settings Toolbar | H, C |
-| Window: Sketch Toolbar | H, K |
-| Window: Solids Toolbar | H, P |
-| Window: Standard Toolbar | H, T |
-| Window: Status Bar | H, S |
-| Window: View Toolbar | H, V |
+| 應用程式設定: 顯示標註 | D, D |
+| 應用程式設定: 鎖點至格線 | S, G |
+| 協同合作: 邀請加入工作階段 | C, I |
+| 協同合作: 加入工作階段 | C, J |
+| 協同合作: 啟動工作階段 | C, S |
+| 顯示: 環境陰影 | D, A |
+| 顯示: 軸 | D, Z |
+| 顯示: 背面 | D, B |
+| 顯示: 邊 | D, E |
+| 顯示: 延伸線 | D, X |
+| 顯示: 格線 | D, G |
+| 顯示: 群組邊界框 | B, B |
+| 顯示: 隱藏線 | D, H |
+| 顯示: 單色表面 | D, M |
+| 顯示: 指北箭頭 | D, N |
+| 顯示: 陰影 | D, S |
+| 顯示: 剪影 | D, O |
+| 顯示: 手繪線 | D, K |
+| 顯示: 薄邊 | D, T |
+| 顯示: 防水問題 | D, W |
+| 繪製: 弧 | A |
+| 繪製: 圓 | C |
+| 繪製: 線 | L |
+| 繪製: 矩形 | R |
+| 繪製: 雲形線 | S |
+| 編輯: 複製 | Ctrl + C |
+| 編輯: 刪除 | 刪除 |
+| 編輯: 貼上 | Ctrl + V |
+| 編輯: 偏好 |  |
+| 編輯: 重做 | Ctrl+Y |
+| 編輯: 重做 | Ctrl+Shift+Z |
+| 編輯: 重置軸 | R, Z |
+| 編輯: 設定軸 | S, Z |
+| 編輯: 退回 | Ctrl+Z |
+| 能源分析: 取消見解 |  |
+| 能源分析: 產生見解 |  |
+| 能源分析: 檢視見解 |  |
+| 檔案: 匯出影像 |  |
+| 檔案: 將模型匯出至 | Ctrl + E |
+| 檔案: 匯入 3D 模型 | Ctrl + I |
+| 檔案: 匯入影像 | Ctrl + Shift + I |
+| 檔案: 新建 | Ctrl + N |
+| 檔案: 從 BIM 360 Docs 開啟 | Alt + O |
+| 檔案: 開啟 | Ctrl + O |
+| 檔案: 另存至 BIM 360 Docs | Alt + S |
+| 檔案: 與歷程一起儲存 | Ctrl + S、Ctrl + H |
+| 檔案: 儲存 | Ctrl + S |
+| 群組: 編輯群組 \(關聯式功能表\) | E |
+| 群組: 編輯群組 \(工具列\) | Alt + E |
+| 群組: 完成群組動作 | F |
+| 群組: 群組 \(關聯式功能表\) | G |
+| 群組: 群組 \(工具列\) | Alt + G |
+| 群組: 設為唯一 \(關聯式功能表\) | M, U |
+| 群組: 設為唯一 \(工具列\) | Alt + M |
+| 群組: 解除群組 \(關聯式功能表\) | U |
+| 群組: 解除群組 \(工具列\) | Alt + U |
+| 群組: 全部解除群組 \(關聯式功能表\) | U, A |
+| 群組: 全部解除群組 \(工具列\) | Alt + A |
+| 群組: 將模型解除群組 | U, M |
+| 說明: 關於 |  |
+| 說明: 檢查 FormIt 更新 |  |
+| 說明: FormIt 部落格 |  |
+| 說明: FormIt 圖庫 |  |
+| 說明: FormIt 影片 |  |
+| 說明: 取得支援 |  |
+| 說明: 說明 |  |
+| 說明: 新增功能 |  |
+| 樓層: 顯示樓層 | D, L |
+| 樓層: 使用樓層 | U, L |
+| 防止背面出現材料 |  |
+| 基本圖元: 立方體 | Alt + B |
+| 基本圖元: 圓柱 | Alt + C |
+| 基本圖元: 圓頂 | Alt + D |
+| 基本圖元: 角柱 | Alt + R |
+| 基本圖元: 角錐 | Alt + P |
+| 原型: 顯示滑鼠/格線狀態 |  |
+| 選取篩選: 邊 | E, S |
+| 選取篩選: 面 | F, S |
+| 選取篩選: 群組 | G, S |
+| 選取篩選: 實體 | S, S |
+| 設定: 大按鈕 |  |
+| 草圖設定: 切換單位類型 | U, T |
+| 日光分析: 分析 | A, A |
+| 日光分析: 進入/結束日光分析模式 | S, A |
+| 日光分析: 結束 |  |
+| 日光分析: 重置 |  |
+| 工具: 陣列 | A, R |
+| 工具: 覆蓋 | C, V |
+| 工具: 切割幾何圖形 \(關聯式功能表\) | C, C |
+| 工具: 切割幾何圖形 \(工具列\) | C, G |
+| 工具: 啟用觸控 | E, T |
+| 工具: 啟用觸控 | T, M |
+| 工具: 擠出邊 | E, E |
+| 工具: 圓角 | F, I |
+| 工具: 資訊 |  |
+| 工具: 接合幾何圖形 \(關聯式功能表\) | J, C |
+| 工具: 接合幾何圖形 \(工具列\) | J, G |
+| 工具: 套索選取 | L, L |
+| 工具: 斷面混成邊 | L, O |
+| 工具: 測量 | M |
+| 工具: 測量角度 | M, A |
+| 工具: 合併邊和頂點 | M, E |
+| 工具: 鏡射 | M, I |
+| 工具: 多重移動 | M, M |
+| 工具: 偏移邊 | O, E |
+| 工具: 偏移面 | O, F |
+| 工具: 偏移實體 | O, S |
+| 工具: 反轉面 | F, F |
+| 工具: 旋轉 | Q |
+| 工具: 從編輯器執行腳本 |  |
+| 工具: 比例 | S, C |
+| 工具: 選取 | 空格鍵 |
+| 工具: 設定位置 | S, L |
+| 工具: 薄殼 | S, H |
+| 工具: 平滑邊 | S, E |
+| 工具: 掃掠 | S, W |
+| 工具: 推拔面 | T, F |
+| 工具: 不平滑邊 | U, E |
+| 檢視: 藍色主題 |  |
+| 檢視: 預設主題 |  |
+| 檢視: 第一人稱飛越 | F, T |
+| 檢視: 環轉相機 |  |
+| 檢視: 平移相機 |  |
+| 檢視: 系統主題 |  |
+| 檢視: 切換透視 |  |
+| 檢視: 上 | Z, T |
+| 檢視: 全部縮放 | Z, A |
+| 檢視: 全部縮放 | Z, E |
+| 檢視: 全部縮放 | Z, Z |
+| 檢視: 縮放所有影像 | Z, I |
+| 檢視: 縮放相機 |  |
+| 檢視: 拉遠 |  |
+| 檢視: 縮放選取範圍 | Z, S |
+| 視窗: 設計工具列 | H, D |
+| 視窗: 浮動導覽工具列 | H, B |
+| 視窗: 主功能表 | H, M |
+| 視窗: 導覽工具列 | H, N |
+| 視窗: 作業工具列 | H, O |
+| 視窗: 設定工具列 | H, C |
+| 視窗: 草圖工具列 | H, K |
+| 視窗: 實體工具列 | H, P |
+| 視窗: 標準工具列 | H, T |
+| 視窗: 狀態列 | H, S |
+| 視窗: 檢視工具列 | H, V |
 

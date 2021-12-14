@@ -1,30 +1,30 @@
-# World Axes
+# 世界軸
 
-The default coordinate system and grid can be modified by changing the world axis.
+透過變更世界軸可以修改預設座標系統和格線。
 
-## Drawing and Modeling with Axes
+## 使用軸繪製和塑型
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+以 FormIt 開啟空白草圖時，螢幕中心的世界軸會顯示為紅色、綠色和藍色三條線。這三條線定義三個直角座標方向，這些方向定義 3D 世界。「X」方向由紅線定義，「Y」方向由綠線定義，「Z」方向或「向上」方向由藍線定義。
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes \(SZ\)** icon from the context menu  
+若要旋轉格線並重新定義草圖的原點，請在場景中的空白空間**按一下右鍵**，然後從關聯式功能表中選擇**「設定軸 \(SZ\)」**圖示  
 ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change  
+此時將顯示「設定軸」工具集。按一下中心的大掣點拿起工具集。再按一下以設定原點。現在，按一下紅色軸上的圓點旋轉格線，或按一下藍色軸上的圓點垂直旋轉格線平面。在空間中離開軸的地方按一下以確認變更  
 ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes \(RZ\)**
+若要將原點和格線**重置**回預設設定，請在場景中的空白空間按一下右鍵，然後選擇**「重置軸 \(RZ\)」**
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## 世界軸和局部軸
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+上述步驟說明如何控制草圖的**全域座標系統**。開始處理[**群組**](groups.md)時，您可以從整體草圖中唯一地控制該群組的**局部座標系統**。編輯群組時，您可以按照上述步驟編輯局部座標系統，但這些變更只適用於群組
 
-## Interactions with Axes
+## 與軸的交互作用
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* 當您使用草圖工具來引導 3D 草圖時，會顯示**紅色軸、綠色軸和藍色軸**
+* **紫色軸**顯示相對於以某個角度繪製的線垂直和平行的軸
+* 在繪製草圖或移動以**鎖住至目前軸**時，按住 **Shift 鍵**
 

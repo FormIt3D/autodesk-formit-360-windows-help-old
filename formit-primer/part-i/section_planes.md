@@ -1,40 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 - 剖面平面
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_在本章中，您將學習如何使用__**剖面平面**__切割模型，以顯示內部空間和結構元素。FormIt 支援一次多個__**剖面平面**__，以取得類似剖面框的效果。_
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_如果您未完成上一章，請下載並開啟_ _**1.13 - Section Planes.axm**_ _檔案\(位於_ _**FormIt 入門手冊第 I 部分資料集**中\)。_
 
-1 - To create a new Section Plane:
+1 - 建立新的剖面平面：
 
-1. Click on the **Section Plane \(SP\)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. 按一下**標準工具列**中的**「剖面平面 \(SP\)」**按鈕。
+2. 將游標懸停在模型上，以識別要用作參考的平面。請注意**剖面平面**角落的箭頭，指出剖面切割的方向。如果需要，按 **Tab** 鍵可在不同平面之間切換。
+3. 按一下以將**剖面平面**放置在主建築南面玻璃牆上的任意位置。平面將依模型大小調整比例，並保持選取狀態。
 
-![Section plane preview when hovering over the glass wall.](../../.gitbook/assets/0%20%286%29.png)
+![將游標懸停在玻璃牆上時的剖面平面預覽。](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](../../.gitbook/assets/1%20%2819%29.png)
+![放置後調整過比例的剖面平面。](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 - 在剖面平面仍處於選取狀態時，按一下以開始向後移動，直到它切穿部分主建築，如下圖所示。這與移動任何模型元素的作用類似，不同之處在於剖面平面只能沿著與它面對的方向垂直的軸移動。對位置滿意後，按 **Esc** 清除選取。
 
 ![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**注意事項：**_ _您一次最多可以對模型加入 6 個剖面切割。_
 
-3 - Open the **Layers** **Palette**. Note that two \(2\) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 - 開啟**「圖層」** **選項板**。請注意，已產生兩個 \(2\) 新圖層 - **Section Indicators** 和 **Section Cut 1**。
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. 關閉並重新開啟 **Section Cut 1** 圖層。這會控制剖面是否切割模型。
+2. 現在關閉 **Section Indicator** 圖層。這會隱藏剖面平面及其箭頭指標，但不會影響實際的剖面切割是否處於作用中狀態。
 
 ![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 - 在**「視覺型式」** **選項板** 的**「表面」頁籤**中：
 
-1.  Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows \(DS\)**.
+1. 勾選**「塗黑顏色」**旁邊的方塊以開啟。此效果將使用指定顏色為剖面平面切割的任何實體著色。黑色是預設顏色，但只需按一下顏色預覽即可變更。
+2. 關閉**「陰影 \(DS\)」**。
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 - 若要完成剖面，請移至**「場景」選項板**，建立一個名為**剖面**的新場景，儲存目前的**「相機」**位置、**「圖層」**可見性和**「視覺型式」**等設定。
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 

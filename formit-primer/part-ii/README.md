@@ -1,28 +1,28 @@
-# Part II
+# 第 II 部份
 
-## Advanced Tools
+## 進階工具
 
-In **Part II** of this Primer, we are going to dive into some of the more advanced tools FormIt has to offer. We will explore how to use simple yet powerful modeling, diagnostic, analysis, and interoperability tools to modify and enhance the Encode Campus Model pictured below.
+在此入門手冊的**第 II 部分**中，我們將深入探討 FormIt 提供的一些進階工具。我們將探究如何使用簡單但功能強大的塑型、診斷、分析和互通性工具，來修改和增強下圖的 Encode Campus 模型。
 
-If you are new to FormIt, we recommend starting with **Part I**, as **Part II** will assume you are already familiar with the basics of FormIt.
+如果您是初次使用 FormIt，我們建議您從**第 I 部分**開始，因為**第 II 部分**會假設您已經熟悉 FormIt 的基礎知識。
 
-Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on specific tools, toolbars, palettes, and processes discussed herein.
+請參閱 **FormIt 簡介**和**工具資源庫**部分，以取得此處討論的特定工具、工具列、選項板和程序的詳細說明。
 
 ![](../../.gitbook/assets/screen1.jpg)
 
-### Pre-requisites
+### 必備條件
 
-Before beginning Part II, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+開始第 II 部分之前，請先使用〈FormIt 簡介〉區段中的指示下載並安裝 Windows 版 FormIt：[**必備條件和安裝**](../../formit-introduction/prerequisites-and-installation.md)。
 
-For most chapters, you will also need to download and make use of the data set found at the link below. 
+對於大多數章節，您也需要下載並使用位於以下連結的資料集。
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ ****[_**FormIt website.**_](https://formit.autodesk.com)_\*\*\*\*_
+_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_**完成大部分自學課程。**如需 FormIt 版本和授權的更多資訊，請造訪_ ****[_**FormIt 網站**_](https://formit.autodesk.com)_\*\*\*\*_。
 
-### Data Set
+### 資料集
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts. 
+上圖的 Encode Campus 是一個設定在城市小塊土地中、虛構的多用途中型專案，包含有組織的圖層、場景、材料，甚至有連結到即時可編輯 Dynamo 腳本的幾何圖形。
 
-All facade elements of the Encode building are controlled by Dynamo scripts, driven by a path at the base of the building that defines the facade shape.
+Encode 建築的所有正面元素都由 Dynamo 腳本控制，由定義正面造型的建築底部的路徑驅動。
 
-* \*\*\*\*[**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**FormIt 入門手冊資料集第 II 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
 
