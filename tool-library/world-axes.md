@@ -1,29 +1,28 @@
-# Ejes universales
+# Axes universels
 
-El sistema de coordenadas y la rejilla por defecto se pueden modificar mediante la modificación del eje global.
+Le système de coordonnées et la grille par défaut peuvent être modifiés en changeant l’axe universel.
 
-## Dibujo y modelado con ejes
+## Dessin et modélisation avec des axes
 
-Cuando se abre un boceto en blanco en FormIt, los ejes universales se muestran como tres líneas (roja, verde y azul) en el centro de la pantalla. Estas tres líneas definen las tres direcciones cartesianas que establecen el mundo 3D. La dirección X se define mediante la línea roja, la dirección Y mediante la línea verde y la dirección Z o arriba mediante la línea azul.
+Lorsqu’une esquisse vide est ouverte dans FormIt, les axes universels sont représentés par trois lignes rouges, vertes et bleues au centre de l’écran. Ces trois lignes définissent les trois directions cartésiennes qui définissent le monde 3D. La direction « X » est définie par la ligne rouge, la direction « Y » par la ligne verte et la direction « Z » ou « haut » par la ligne bleue.
 
 ![](../.gitbook/assets/axis.png)
 
-Para rotar la rejilla y redefinir el punto de origen del boceto, **haga clic con el botón derecho** en un espacio vacío de la escena y seleccione el icono **Establecer ejes \(SZ\)** en el menú contextual  
-![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
+Pour faire pivoter la grille et redéfinir le point d’origine de l’esquisse, **cliquez avec le bouton droit de la souris** sur un espace vide de la scène, puis choisissez l’icône **Définir les axes \(SZ\)** dans le menu contextuel  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
 
-Aparece el widget para establecer ejes. Haga clic en el pinzamiento grande del centro para seleccionar el widget. Haga clic de nuevo para establecer el punto de origen. A continuación, haga clic en el punto del eje rojo para rotar la rejilla o haga clic en el punto de los ejes azules para girar el plano de rejilla verticalmente. Haga clic fuera del espacio para confirmar el cambio  ![](../.gitbook/assets/2021-01-14_12-30-10.gif).
+Le widget Définir les axes s’affiche. Cliquez sur la grande poignée au centre pour sélectionner le widget. Cliquez à nouveau pour définir le point d’origine. Cliquez sur le point de l’axe rouge pour faire pivoter la grille ou cliquez sur le point des axes bleus pour faire pivoter le plan de grille verticalement. Cliquez dans l’espace pour confirmer la modification  ![](../.gitbook/assets/2021-01-14_12-30-10.gif).
 
-Para **restablecer** el origen y la rejilla a la configuración por defecto, haga clic con el botón derecho en un espacio vacío de la escena y elija **Restablecer ejes \(RZ\)**.
+Pour **rétablir** les paramètres par défaut de l’origine et de la grille, cliquez avec le bouton droit de la souris sur un espace vide de la scène et choisissez **Réinitialiser les axes \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Ejes universales y locales
+## Axes universels et axes locaux
 
-En los pasos anteriores se explica cómo controlar el **sistema de coordenadas global** del boceto. Cuando se comienza a trabajar con [**grupos**](groups.md), puede controlar el **sistema de coordenadas local** de ese grupo de forma exclusiva desde el boceto general. Al editar un grupo, puede editar el sistema de coordenadas local siguiendo los mismos pasos que antes, pero estos cambios solo se aplicarán al grupo.
+Les étapes ci-dessus expliquent comment contrôler le **système de coordonnées universelles** de votre esquisse. Lorsque vous commencez à travailler avec des [**groupes**](groups.md), vous pouvez contrôler le **système de coordonnées local** de ce groupe de manière unique à partir de l’esquisse globale. Lorsque vous modifiez un groupe, vous pouvez modifier le système de coordonnées local en suivant la même procédure que ci-dessus, mais ces modifications s’appliquent uniquement au groupe.
 
-## Interacciones con ejes
+## Interactions avec les axes
 
-* Los **ejes rojo, verde y azul** se muestran cuando se está en las herramientas de boceto para guiar el boceto 3D.
-* El **eje púrpura** muestra un eje perpendicular y paralelo con respecto a las líneas dibujadas en un ángulo.
-* Mantenga pulsada la **tecla Mayús** mientras crea el boceto o se desplaza para **bloquear el eje actual**.
+* Les **axes rouge, vert et bleu** s’affichent lorsque vous utilisez les outils d’esquisse pour guider votre esquisse 3D.
+* L’**axe violet** affiche un axe perpendiculaire et un axe parallèle par rapport aux lignes dessinées à un angle.
+* Maintenez la touche **Maj** enfoncée pendant que vous effectuez une esquisse ou déplacez le curseur pour **verrouiller sur l’axe actuel**.
 

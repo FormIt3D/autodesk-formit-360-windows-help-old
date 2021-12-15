@@ -1,94 +1,94 @@
-# Estilos visuales
+# Styles visuels
 
-Personalice el aspecto visual del modelo, incluidos los estilos de borde, la iluminación general y los efectos ambientales. Para acceder al panel Estilos visuales, haga clic en el icono de gafas de sol de la barra de paletas, como se indica a continuación:
+Personnalisez l’apparence visuelle de votre modèle, notamment l’éclairage global, les styles d’arêtes et les effets d’environnement. Pour accéder au groupe de fonctions Styles visuels, cliquez sur l’icône représentant des lunettes de soleil dans la barre de la palette :
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Los estilos visuales [se pueden establecer por escena ](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), lo que le permite guardar sus parámetros de estilo favoritos y aplicarlos a otras escenas.
+Les styles visuels [peuvent être définis par scène](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), ce qui vous permet d’enregistrer vos paramètres de style favoris et de les appliquer à d’autres scènes.
 
-## Superficies
+## Surfaces
 
-Administre la forma en que se muestran y se sombrean las superficies.
+Gérez la façon dont les surfaces sont affichées et ombrées.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-La opción **Brillo ambiental** controla el brillo general de todos los materiales de la escena. El valor 100 indica que los materiales expuestos a la luz se mostrarán con el brillo completo definido en el color o la textura del material. Los valores superiores a 100 sobreexpondrán los materiales, pero pueden ser útiles para los modelos de SketchUp que aún aparecen oscuros en FormIt. El valor por defecto es 100.
+L’option **Luminosité ambiante** contrôle la luminosité globale de tous les matériaux de la scène. Une valeur de 100 signifie que les matériaux exposés à la lumière s’afficheront avec toute leur luminosité, comme définie dans la couleur ou la texture du matériau. Les valeurs supérieures à 100 exposent trop les matériaux, mais peuvent être utiles pour les modèles SketchUp qui semblent encore sombres dans FormIt. La valeur par défaut est de 100. 
 
-La opción **Contraste ambiental** controla el grado de oscuridad de las caras en la sombra en comparación con las caras expuestas a la luz solar directa. El valor 0 indica que la iluminación no tiene ningún efecto \(todos los materiales aparecerán con su brillo completo, independientemente de la orientación\), mientras que los valores más altos harán que las caras sombreadas parezcan cada vez más oscuras. El valor por defecto es 25.
+L’option **Contraste ambiant** détermine l’intensité de l’ombre des faces sombres par rapport aux faces exposées à la lumière directe du soleil. Une valeur de 0 signifie que l’éclairage n’a aucun effet \(tous les matériaux apparaîtront avec leur luminosité totale quelle que soit leur orientation\), tandis que des valeurs plus élevées assombrissent de plus en plus les faces ombrées. La valeur par défaut est 25.
 
-Active o desactive **Sombras** para ver cómo el diseño [se sombrea a la hora actual del día](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Activez/désactivez l’option **Ombres** pour découvrir comment votre conception serait [ombrée à l’heure actuelle](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-La opción **Intensidad de sombra** controla el modo en que se dibujan las sombras oscuras en el plano base y en otras caras. El valor 0 hará que las sombras sean realmente invisibles, y el valor 100 hará que las sombras sean negras. El valor por defecto es 20.
+L’option **Intensité de l’ombre** détermine la façon dont les ombres sombres sont tracées sur le plan du sol et sur d’autres faces. Une valeur de 0 rend les ombres invisibles et une valeur de 100 rend les ombres noires. La valeur par défaut est de 20. 
 
-La opción **Sombras ambientales** agrega un toque de sombreado a las esquinas para añadir realismo al modelo de FormIt.
+L’option **Ombres ambiantes** ajoute une touche d’ombrage aux coins pour ajouter du réalisme à votre modèle FormIt.
 
-La opción **Superficies de un solo tono** desactiva el color y la textura de todos los materiales y hace que el entorno circundante sea blanco. Esta opción es útil para estudios de sombras o sombreado.
+L’option **Surfaces monotones** désactive la couleur et la texture de tous les matériaux et rend l’environnement blanc. Elle est utile pour les études d’ombres ou d’ombrage.
 
-La sección Colores de superficie permite definir los colores por defecto para las caras cuando no se aplica ningún material.
+La section Couleurs de surface définit les couleurs par défaut des faces lorsqu’aucun matériau n’est appliqué.
 
-La opción **Caras** hace referencia al color por defecto de todas las caras frontales de FormIt \(o de ambos lados, si la opción Caras posteriores está desactivada\) cuando no se aplica ningún material.
+L’option **Faces** est la couleur par défaut de toutes les faces avant de FormIt \(ou des deux côtés, si l’option Faces arrière est désactivée\) lorsqu’aucun matériau n’est appliqué.
 
-La opción **Caras posteriores** se utiliza para mostrar diferentes materiales a cada lado de una sola cara para los modelos de SketchUp que se importan en FormIt y requieren esta función. Esta opción está desactivada por defecto, pero está activada cuando se abren o se importan modelos de SketchUp. En una geometría que no sea de SketchUp, el color de cara posterior especificado se mostrará en los lados posteriores de las caras.
+L’option **Faces arrière** permet d’afficher différents matériaux de chaque côté d’une face unique pour les modèles SketchUp importés dans FormIt et qui en ont besoin. Cette option est désactivée par défaut, mais elle est activée lorsque des modèles SketchUp sont ouverts ou importés. Dans une géométrie autre que SketchUp, la couleur de la face arrière spécifiée s’affiche sur les côtés arrière des faces.
 
-Utilice las secciones Efectos de corte de sección y Efectos poché de sección para administrar los colores por defecto de las caras, las líneas y el efecto poché cuando se utiliza la herramienta [Plano de sección](section-planes.md).
+Utilisez les sections Effets de coupe et Effets de pochage de coupe pour gérer les couleurs par défaut des faces, des lignes et l’effet de pochage lorsque l’outil [Plan de coupe](section-planes.md) est utilisé.
 
-## Planos de suelo
+## Plans du sol
 
-Si la opción Plano de suelo está desactivada en el modo de edición de grupo, la rejilla azul del plano de suelo también está desactivada.
+Lorsque le plan du sol est désactivé en mode de modification de groupe, la grille du plan de construction bleu est également désactivée.
 
-El color del plano de trabajo también se puede personalizar en el panel Estilos visuales.
+La couleur du plan de construction peut également être personnalisée à partir du groupe de fonctions Styles visuels.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Bordes
+## Arêtes
 
-Administre el estilo de visualización de todos los bordes del modelo.
+Gérez le style d’affichage de toutes les arêtes du modèle.
 
 ![](../.gitbook/assets/edges.PNG)
 
-La opción **Contraste** afecta a la visibilidad de todos los bordes. El valor 0 permitirá que los bordes sean realmente invisibles. El valor por defecto es 60.
+L’option **Contraste** affecte la visibilité de toutes les arêtes. Une valeur de 0 rend les arêtes invisibles. La valeur par défaut est 60.
 
-La opción **Color** afecta al color de todos los bordes del modelo. El color por defecto es el negro.
+L’option **Couleur** affecte la couleur de toutes les arêtes du modèle. La valeur par défaut est le noir.
 
-La opción **Bordes gruesos** aumenta el grosor de todos los bordes, incluidos los de silueta.
+L’option **Arêtes épaisses** permet d’épaissir toutes les arêtes, y compris les arêtes de silhouette.
 
-La opción **Bordes de boceto** añade un efecto de boceto a todos los bordes para simular un efecto de dibujo a mano.
+L’option **Arêtes d’esquisse** ajoute un effet d’esquisse à toutes les arêtes, afin de simuler un effet de dessin à main levée.
 
-La opción **Bordes ocultos** muestra los bordes que de otro modo quedarían ocultos por las superficies.
+L’option **Arêtes masquées** affiche les arêtes masquées par les surfaces.
 
-La opción **Bordes extendidos** añade una extensión a algunos bordes para simular un efecto de dibujo a mano.
+L’option **Arêtes étendues** ajoute une extension à certaines arêtes pour simuler un effet de dessin à main levée.
 
-## Entorno
+## Environnement
 
-Active o desactive la visualización de los efectos ambientales y los objetos auxiliares.
+Activez ou désactivez l’affichage des effets d’environnement et des objets assistants.
 
 ![](../.gitbook/assets/environment.PNG)
 
-La opción **Rejilla** controla la visualización de la rejilla en el plano de suelo, así como la rejilla mostrada al editar un grupo. La opción Forzar cursos a rejilla se desactivará cuando la rejilla esté desactivada.
+L’option **Grille** contrôle l’affichage de la grille sur le plan du sol, ainsi que la grille affichée lors de la modification d’un groupe. L’option « Accrocher à la grille » est désactivée lorsque la grille est désactivée.
 
-La opción **Ejes** controla la visualización de los ejes XYZ que se muestran en el origen universal o en el origen del grupo si se está modificando un grupo.
+L’option **Axes** contrôle l’affichage des axes XYZ qui s’affichent à l’origine universelle ou à l’origine du groupe en cas de modification d’un groupe.
 
-La opción **Niveles** controla la visualización de los [**niveles**](levels-and-area.md) establecidos en el panel Niveles.
+L’option **Niveaux** contrôle l’affichage des [**niveaux**](levels-and-area.md) ****définis dans le groupe de fonctions Niveaux.
 
-La opción **Niebla** controla la visualización de la niebla que se dibuja para que la transición entre el plano de suelo y el cielo parezca perfecta. Si desactiva esta opción, se creará una línea de horizonte duro en la ubicación en la que el plano de suelo \(si está activado\) se encuentra con el cielo.
+L’option **Brouillard** contrôle l’affichage du brouillard dessiné afin de créer une transition homogène entre le plan du sol et le ciel. Si vous désactivez cette option, une ligne d’horizon continue apparaît à l’endroit où le plan du sol \(si activé\) rencontre le ciel.
 
-La opción **Flecha de norte** controla la visualización de un pequeño widget gráfico que indica la dirección del norte del proyecto \(según lo determine la ubicación y las imágenes de satélite\).
+L’option **Flèche nord** contrôle l’affichage d’un petit widget graphique qui indique la direction du nord du projet \(déterminée par l’emplacement et l’image satellite\).
 
-Los colores ambientales como el cielo, el fondo y el plano de suelo también se pueden personalizar.
+Les couleurs d’environnement, telles que le ciel, l’arrière-plan et le plan du sol, peuvent également être personnalisées.
 
-El cielo está formado por un degradado de los colores **Inferior / fondo**, **Medio** y **Superior**.
+Le ciel est constitué d’un dégradé de couleurs **Inférieur/arrière-plan**, **Milieu** et **Supérieur**.
 
-Si la opción **Cielo** está desactivada, solo estará visible el color **Inferior / fondo**.
+Si l’option **Ciel** est désactivée, seule la couleur **Inférieur/arrière-plan** est visible.
 
-## Diagnóstico
+## Diagnostics
 
-Active o desactive la visualización de las herramientas de diagnóstico.
+Activez ou désactivez l’affichage des outils de diagnostic.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-La opción **Problemas de hermeticidad** resalta en rojo todos los bordes que no formen parte de un objeto sólido hermético.
+L’option **Identifier les problèmes d’étanchéité** surligne en rouge toutes les arêtes qui ne font pas partie d’un objet solide étanche.
 
-La opción **Caras posteriores** resalta en rojo todas las caras que están orientadas de forma incorrecta \(las caras posteriores de todos los objetos sólidos deben estar orientadas hacia el interior de la forma sólida\).
+L’option **Faces arrière** surligne en rouge toutes les faces qui sont orientées dans la mauvaise direction \(les faces arrière de tous les objets solides doivent être orientées vers l’intérieur de la forme solide\).
 
-[Obtenga más información sobre el uso de los diagnósticos de caras posteriores y hermeticidad para identificar y solucionar problemas con los modelos sólidos](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[En savoir plus sur l’utilisation des diagnostics d’étanchéité et de faces arrière afin d’identifier et de corriger les problèmes liés aux modèles solides](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

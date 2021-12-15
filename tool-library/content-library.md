@@ -1,12 +1,12 @@
-# Biblioteca de contenido
+# Bibliothèque de contenu
 
-Las bibliotecas de contenido permiten almacenar cómodamente componentes y otros elementos que se desean utilizar repetidamente. Por defecto, FormIt incluye varias bibliotecas de muestras, incluida una biblioteca de muestras de mobiliario y una biblioteca de secuencias de comandos de ejemplo de Dynamo. En FormIt 2021, ahora se puede acceder al contenido de BIM 360, que se puede consumir desde la biblioteca de contenido.
+Les bibliothèques de contenu constituent un moyen pratique de stocker les composants et autres éléments que vous souhaitez utiliser plusieurs fois. Par défaut, FormIt inclut plusieurs bibliothèques d’exemples, notamment une bibliothèque d’exemples de mobilier et une bibliothèque d’exemples de scripts Dynamo. Dans FormIt 2021, le contenu BIM 360 est désormais accessible et utilisable à partir de la bibliothèque de contenu.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.39.13-pm.png)
 
-Obtenga más información sobre el uso de la biblioteca de contenido [aquí](../formit-primer/part-i/import-export-and-content-library.md).
+Pour en savoir plus sur l’utilisation de la bibliothèque de contenu, cliquez [ici](../formit-primer/part-i/import-export-and-content-library.md).
 
-Para ver algunas bibliotecas de contenido, [consulte esta entrada del blog](https://formit.autodesk.com/blog/post/content-library).
+Pour consulter quelques bibliothèques de contenu, [consultez ce billet de blog](https://formit.autodesk.com/blog/post/content-library).
 
 
 

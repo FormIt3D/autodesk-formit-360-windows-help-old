@@ -1,12 +1,12 @@
-# Trabajo con formatos de datos
+# Utilisation des formats de données
 
-Importe una gran variedad de formatos de archivo de imagen y 3D para añadir detalles al boceto.
+Importez divers formats de fichier image et de fichier 3D pour ajouter des détails à votre esquisse.
 
-Se pueden importar los siguientes formatos de archivo:
+Les formats de fichiers suivants peuvent être importés :
 
-* Windows: OBJ, DWG, STL, SAT y SKP
-* Web: OBJ y STL
-* iOS: OBJ, STL y SAT
+* Windows : OBJ, DWG, STL, SAT, SKP
+* Web : OBJ, STL
+* iOS : OBJ, STL, SAT
 
-Consulte [Importación de modelos](../formit-primer/part-i/import-export-and-content-library.md) para obtener más información sobre la importación de datos y el uso de la biblioteca de contenido.
+Reportez-vous à la rubrique [Importation de modèles](../formit-primer/part-i/import-export-and-content-library.md) pour plus d’informations sur l’importation de données et l’utilisation de la bibliothèque de contenu.
 

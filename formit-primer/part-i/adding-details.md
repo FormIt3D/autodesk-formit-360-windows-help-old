@@ -1,129 +1,129 @@
-# 1.9 - Adición de detalles
+# 1.9 –Ajout de détails
 
-_FormIt es una excelente herramienta de masa, además de una fantástica herramienta de modelado. Empezaremos a añadir detalles a la Farnsworth House en forma de puertas y montantes para la caja de cristal. A continuación, abordaremos algunas herramientas adicionales y practicaremos el proceso de añadir nueva geometría, capas, materiales y administración de grupos._
+_FormIt est un outil de volume très utile, ainsi qu’un outil de modélisation très performant. Nous allons commencer à ajouter des détails au modèle Farnsworth House (Maison Farnsworth) sous la forme de portes et de meneaux pour la zone de verre. Nous aborderons ensuite d’autres outils et nous nous entraînerons à ajouter de nouvelles géométries, des calques, des matériaux, et à gérer les groupes._
 
-_Si no ha completado la última sección, descargue y abra el archivo_ _**1.9 - Adding Details.axm**_ _desde los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.9 – Adding Details.axm**_ _à partir du dossier_ _**FormIt Primer Part 1 Datasets** (Jeux de données de la partie I du guide FormIt Primer)._
 
-## **Crear marcos de ventana**
+## **Création de cadres de fenêtre**
 
-_Vamos a crear montantes y un marco metálico de 2" alrededor de la caja de cristal. Tenga en cuenta que estos montantes se solaparán intencionadamente con la caja de cristal._
+_Nous allons créer un cadre en métal de 2 po et des meneaux autour de la zone de verre. Notez que ces meneaux chevauchent intentionnellement la zone de verre._
 
-1 - Cree una nueva capa denominada **Glass Walls** y desplace el grupo **Glass Wall** a ella.
+1 – Créez un calque nommé **Glass Walls** (Murs en verre) et déplacez-y le groupe **Glass Wall** (Mur en verre).
 
-2 - Para facilitar la visualización, desactive la capa **Roof** para que podamos ver toda la caja de cristal.
+2 – Pour faciliter la visualisation, désactivez le calque **Roof** (Toit) pour voir la zone de verre dans son intégralité.
 
-3 - Para comenzar a crear el primer marco de ventana, realice lo siguiente:
+3 – Pour créer le premier cadre de fenêtre, procédez comme suit :
 
-1. En el lado oeste del edificio, utilice la **herramienta Rectángulo \(R\)** para dibujar una nueva superficie directamente sobre la cara de cristal exterior. Asegúrese de crear la superficie fuera del grupo **Glass Walls**.
-2. Seleccione y arrastre la cara recién creada **2"** hacia el interior. Pulse **Esc** para anular la selección. El resultado final debe tener un aspecto similar al de la imagen siguiente.
-3. Haga clic una vez en la cara que acaba de crear. Haga clic con el botón derecho para acceder al **menú contextual** y utilizar la **herramienta Desfasar cara \(OF\).**
+1. Sur le côté ouest du bâtiment, utilisez l’outil **Rectangle \(R\)** pour dessiner une nouvelle surface directement sur la face de verre extérieure. Veillez à créer la surface en dehors du groupe **Glass Walls** (Murs en verre).
+2. Sélectionnez la nouvelle face et faites-la glisser de **2 po** vers l’intérieur. Appuyez sur la touche **Échap** afin d’effacer la sélection. Le résultat final doit ressembler à l’image ci-dessous.
+3. Cliquez une fois sur la face que vous venez de créer. Cliquez avec le bouton droit de la souris pour accéder au **menu contextuel** et utiliser l’outil **Décaler la face \(OF\).**
 
-_**Nota:**_ _Si tiene problemas para seleccionar la nueva cara, pulse la_ _**barra espaciadora**_ _para alternar entre los diferentes objetos seleccionables o desactive temporalmente la capa_ _**Glass Walls**_ _._
+_**Remarque :**_ _si vous ne parvenez pas à sélectionner la nouvelle face, appuyez sur la touche_ _**Espace**_ _pour alterner entre les différents objets sélectionnables ou désactivez temporairement le calque_ _**Glass Walls**_ _(Murs en verre)._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - Para definir la cota de desfase, mueva el cursor del ratón hacia el interior de la cara e introduzca **2"** para crear un rectángulo más pequeño.
+4 – Pour définir la cote de décalage, déplacez le curseur vers l’intérieur de la face, puis saisissez **2 po** pour créer un nouveau rectangle plus petit.
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Haga clic una vez para seleccionar el rectángulo interior que acaba de crear. Haga clic de nuevo y arrastre la cara hacia el interior del edificio hasta que desaparezca. Haga clic una vez más para terminar de eliminar el volumen central de la geometría del marco.
+5 – Cliquez une fois sur le rectangle intérieur que vous venez de créer pour le sélectionner. Cliquez à nouveau et faites glisser la face vers l’intérieur du bâtiment jusqu’à ce qu’elle disparaisse. Cliquez une fois de plus pour terminer la suppression du volume central de la géométrie du cadre.
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Haga doble clic para seleccionar la geometría que acabamos de crear y utilice la opción **Grupo \(G\)** para agruparla. Asigne al grupo el nombre **Mullion Frame – EW**.
+6 – Double-cliquez pour sélectionner la géométrie que vous venez de créer et utilisez l’outil **Grouper \(G\)** pour la regrouper. Nommez le groupe **Mullion Frame – EW** (Cadre du meneau – EO). ​
 
-7 - Cree una capa denominada **Mullion** y coloque el nuevo grupo en ella.
+7 – Créez un calque nommé **Mullion** (Meneau) et placez-y le nouveau groupe.
 
-8 - Para configurar el material del marco, realice lo siguiente:
+8 – Pour définir le matériau du cadre, procédez comme suit :
 
-1. En la **paleta Materiales**, duplique el material **Metal – Brushed – Colorized**. Para ello, haga clic con el botón derecho en él y seleccione **Duplicar material**.
-2. Haga doble clic en el mosaico de vista preliminar del nuevo material para editarlo.
-3. Cambie el nombre a **Metal – Brushed – Gray**.
-4. Modifique el color del material. Para ello, haga clic en el mosaico **Color** de la sección **Mapas** y oscurezca el gris cambiando el valor **Val:** a **150**.
+1. Dans la **palette Matériaux**, dupliquez le matériau **Metal – Brushed – Colorized** (Métal – Brossé – Coloré). Pour ce faire, cliquez dessus avec le bouton droit de la souris et choisissez **Dupliquer le matériau**.
+2. Double-cliquez sur la mosaïque d’aperçu du nouveau matériau pour le modifier.
+3. Renommez-le **Metal – Brushed – Gray** (Métal – Brossé – Gris).
+4. Pour modifiez la couleur du matériau, cliquez sur la mosaïque **Color** (Couleur) dans la section **Textures**, puis définissez la valeur **Val:** sur **150** pour assombrir le gris.
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Haga clic en **Aceptar** para guardar estos cambios en el nuevo material y, a continuación, pinte el grupo **Mullion Frame – EW** con él. Después, la **paleta Propiedades** del grupo debería coincidir con lo que se muestra en la imagen siguiente:
+9 – Cliquez sur **OK** pour enregistrer les modifications apportées au nouveau matériau, puis utilisez-le pour peindre le groupe **Mullion Frame – EW** (Cadre du meneau – EO). Ensuite, la **palette Propriétés** du groupe doit correspondre à ce qui est indiqué dans l’image ci-dessous :
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - Cree un nuevo ejemplar del marco en el lado este mediante cualquiera de las siguientes herramientas: **Copia rápida**, **Matriz** o **Duplicar**.
+10 – Créez une occurrence du cadre sur le côté est à l’aide de l’un des outils suivants : **Copie rapide**, **Réseau** ou **Miroir**.
 
-11 - Repita los pasos anteriores para los lados norte y sur de la caja de cristal. Asigne al nuevo grupo el nombre **Mullion Frame – NS**. No olvide pintarlos y colocarlos en la capa **Mullion**.
+11 – Répétez les étapes ci-dessus pour les côtés nord et sud de la zone de verre. Nommez le nouveau groupe **Mullion Frame – NS** (Cadre du meneau – NS). N’oubliez pas de les peindre et de les placer sur le calque **Mullion** (Meneau).
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Nota:**_ _Los marcos de los montantes se solapan entre sí en las esquinas. Esto es intencionado. En el resultado de arriba, se muestra la geometría de marco de montante con las capas_ _**Glass Wall**_ _y_ _**Column**_ _desactivadas._
+_**Remarque :**_ _les cadres des meneaux se chevauchent dans les coins. C’est intentionnel. Le résultat ci-dessus montre la géométrie des cadres des meneaux obtenue avec les calques_ _**Glass Wall**_ _(Mur en verre) et_ _**Column**__ (Poteau) désactivés._
 
-**Crear montantes**
+**Création de meneaux**
 
-1 - En un plano con la cara de cristal exterior en el lado sur o norte del edificio, dibuje un rectángulo de **2" x 10'-10" \(R\)** que se extienda desde la parte inferior y la parte superior del marco del montante. No se preocupe por la posición exacta del rectángulo a lo largo del marco, lo colocaremos en su lugar en los pasos siguientes.
+1 – Dans le plan avec la face de verre extérieure sur le côté sud ou nord du bâtiment, tracez un **rectangle de 2 po x 10 pi-10 po \(R\)** s’étendant du bas jusqu’en haut du cadre du meneau. Ne vous inquiétez pas de la position exacte du rectangle le long du cadre, nous allons le déplacer dans le cadre dans les étapes suivantes.
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extruya el rectángulo hacia atrás **2"** y, a continuación, **Agrupe \(G\)** y asigne al grupo el nombre **Mullion – Vertical**. Coloque el grupo en la capa **Mullion** y píntelo con el material **Metal – Brushed – Grey**.
+2 – Extrudez le rectangle de **2 po**, puis utilisez l’outil **Grouper \(G\)** pour le regrouper et nommez le groupe **Mullion – Vertical** (Meneau – Vertical). Placez le groupe sur le calque **Mullion** et peignez-le avec le matériau **Metal – Brushed – Grey** (Métal – Brossé – Gris).
 
-**Ubicación de los montantes**
+**Localisation des meneaux**
 
-_Ahora vamos a definir la ubicación del primer montante para que se centre en el __**Punto medio**__ de un pilar._
+_Vous allez maintenant définir l’emplacement du premier meneau de sorte qu’il soit centré sur le_ _**milieu**_ _d’un poteau._
 
-1 - Para volver a ver los pilares, active la capa **Column**, si estaba desactivada. Mientras se encuentra en la **paleta Capas**, también puede desactivar las capas **Lower Terrace** e **Plan Image** para facilitar los pasos siguientes.
+1 – Pour afficher à nouveau les poteaux, activez le calque **Column** (Poteau), s’il était désactivé. Lorsque vous êtes dans la **palette Calques**, vous pouvez également désactiver les calques **Lower Terrace** (Terrasse inférieure) et **Plan Image** (Image du plan) pour faciliter les étapes suivantes.
 
-2 - Para mover el montante a su nueva ubicación, realice lo siguiente:
+2 – Pour déplacer le meneau vers son nouvel emplacement, procédez comme suit :
 
-1. Haga clic una vez para seleccionar el grupo de montantes verticales que acaba de crear. Utilice la función **Zoom \(Z\)** y haga clic en el **Punto medio** del borde exterior inferior del montante, representado por un triángulo rojo**.**
-2. Empiece a mover la geometría horizontalmente hacia un pilar. Pulse **Mayús** para bloquear el movimiento en el eje rojo \(**Eje X**\). Tenga en cuenta que, una vez que el movimiento esté bloqueado, el eje rojo se volverá más grueso.
-3. Reduzca la vista hasta que pueda ver la base del pilar. Mientras mantiene pulsada la tecla **Mayús**, haga clic en el **Punto medio** en la base de la cara exterior del pilar. El montante seguirá moviéndose únicamente a lo largo del eje rojo \(**Eje X**\), pero se alineará con el **Punto medio** en el que acaba de hacer clic.
+1. Cliquez une fois sur le groupe de meneaux verticaux que vous venez de créer pour le sélectionner. Utilisez l’outil **Zoom \(Z\)** pour effectuer un zoom avant et cliquez sur le **milieu** de l’arête extérieure inférieure du meneau, symbolisée par un triangle rouge**.**
+2. Déplacez la géométrie horizontalement vers un poteau. Appuyez sur la touche **Maj** pour verrouiller le mouvement sur l’axe rouge \(**axe X**\). Notez qu’une fois le mouvement verrouillé, l’axe rouge devient plus épais.
+3. Effectuez un zoom arrière jusqu’à ce que vous puissiez voir la base du poteau. Tout en maintenant la touche **Maj** enfoncée, cliquez sur le **milieu** à la base de la face externe du poteau. Le meneau continue de se déplacer uniquement le long de l’axe rouge \(**axe X**\), mais s’aligne sur le **milieu** sur lequel vous venez de cliquer.
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Nota:**_ _El montante ahora se encuentra directamente detrás del pilar. Desactive la capa_ _**Column**_ _o utilice_ _**Orbitar \(O\)**_ _para visualizar el montante._
+_**Remarque :**_ _le meneau se trouve désormais directement derrière le poteau. Désactivez le calque_ _**Column**_ _(Poteau) ou utilisez l’outil_ _**Orbite \(O\)**_ _pour visualiser le meneau._
 
-3 - Pulse **Esc** para desactivar la herramienta **Mover**.
+3 – Appuyez sur la touche **Échap** pour désactiver l’outil **Déplacer**.
 
-4 - Utilice la herramienta **Matriz \(AR\)** o **Copia rápida** para crear cuatro \(4\) montantes verticales más a lo largo del mismo lado con una separación de **11'**. Para obtener información sobre cómo utilizar la **herramienta Matriz**, consulte los capítulos anteriores.
+4 – Utilisez l’outil **Réseau \(AR\)** ou **Copie rapide** pour créer quatre \(4\) meneaux verticaux supplémentaires le long du même côté, espacés de **11 pi**. Pour savoir comment utiliser l’outil **Réseau**, reportez-vous aux chapitres précédents.
 
-5 - Utilice la tecla Tab para seleccionar todos los grupos de montantes **verticales** y cópielos en el lado opuesto del edificio para que tanto el marco **norte** como el **sur** tengan diseños de montantes idénticos, como se muestra en la siguiente imagen:
+5 – Utilisez la touche Tab pour sélectionner tous les groupes de meneaux **Vertical** et les copier sur le côté opposé du bâtiment, de sorte que les cadres **nord** et **sud** possèdent des dispositions de meneaux identiques, comme illustré dans l’image suivante :
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Crear montantes de puerta**
+## **Création des meneaux de porte**
 
-1 - Utilice la herramienta **Orbitar \(O\)** para orbitar la vista en perspectiva hasta que mire al centro del marco del montante oeste.
+1 – Utilisez l’outil **Orbite \(O\)** pour faire tourner la vue en perspective en orbite jusqu’à ce que vous distinguiez le centre du cadre du meneau ouest.
 
-2 - De forma similar a la creación de marcos de montantes, dibuje un panel de puerta con una anchura de **3'-6"** y un marco de **2"x 2"**. Conviértalo en un **Grupo \(G\)** con las propiedades: nombre de grupo: **Curtain Wall Door**; capa: **Mullion**, y material: **Metal – Brushed – Grey**.
+2 – Comme pour la création de cadres de meneaux, dessinez un panneau de porte de **3 pi-6 po** de large avec un cadre de **2 po x 2 po**. Créez-en un groupe à l’aide de l’outil·**Grouper \(G\)** et définissez les propriétés suivantes : Nom du groupe : **Curtain Wall Door** (Porte de mur-rideau) ; calque : **Mullion** (Meneau) ; matériau : **Metal – Brushed – Grey** (Métal – Brossé – Gris).
 
-3 - Copie este grupo para crear el segundo marco de puerta y muévalo para que se centren en el grupo **Mullion Frame – EW**, como se muestra a continuación.
+3 – Copiez ce groupe pour créer le deuxième cadre de porte et déplacez-les de sorte qu’ils soient centrés dans le groupe **Mullion Frame – EW** (Cadre du meneau – EO), comme illustré ci-dessous.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Crear cornisa de cubierta con barrido**
+## **Création d’une corniche à l’aide de l’outil Balayage**
 
-_Ahora crearemos la cornisa de la Farnsworth House mediante una de las herramientas avanzadas de modelado de FormIt ,_ _**Barrido**. Para obtener más información sobre el modelado avanzado, consulte el capítulo_ **2.2 -** _**Herramientas avanzadas de modelado** en_ _la_ _**parte 2 de FormIt Primer**._
+_Nous allons maintenant créer la corniche du modèle Farnsworth House (Maison Farnsworth) à l’aide de l’un des outils de modélisation avancés de FormIt, à savoir_ _**Balayage**. Pour en savoir plus sur les autres fonctionnalités de modélisation avancées, consultez le chapitre_ **2.2 –** _**Modélisation avancée** dans_ _la_ _**partie II du guide FormIt Primer.**_
 
-_El primer paso para crear un __**barrido**__ es dibujar un perfil perpendicular a la "extrusión" del barrido. Para ello, utilizaremos la geometría de la cubierta como guía._
+_La première étape de la création d’un_ _**balayage**_ _consiste à dessiner un contour perpendiculaire à « l’extrusion » du balayage. Pour ce faire, nous allons utiliser la géométrie du toit comme guide._
 
-1 - Active la capa **Roof** y amplíe una de sus esquinas.
+1 – Activez le calque **Roof** (Toit) et effectuez un zoom avant sur l’un de ses coins.
 
-2 - Con uno de los lados verticales de la cubierta como referencia, dibuje dos rectángulos adyacentes. El primero tendrá una anchura de **6"** por **4 5/8**" y, el segundo, de **2" por 2"**. Suprima la línea que divide los dos rectángulos para crear una única cara. El resultado debe tener el aspecto siguiente.
+2 – En utilisant un des côtés verticaux du toit comme référence, dessinez deux rectangles adjacents. Le premier mesure **6 po** de haut sur **4 5/8** po de large, le second **2 po x 2 po**. Supprimez la ligne séparant les deux rectangles pour créer une seule face. Le résultat doit se présenter comme suit.
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - Para crear el barrido:
+3 – Pour créer le balayage, procédez comme suit :
 
-1. Sin geometría seleccionada, haga clic en el botón **Herramientas avanzadas de modelado** de la **barra de herramientas estándar** y seleccione **Barrido \(SW\)**.
-2. El **Asistente para la selección de barridos** se iniciará y le solicitará que **Seleccione una cara \(o bordes\) para el perfil de barrido**. Seleccione la cara del perfil que acabamos de crear.
-3. Una vez seleccionado el perfil, se le solicitará que **Seleccione una cara \(o bordes\) para el camino de barrido y, a continuación, haga clic en Finalizar**. Seleccione la cara superior de la cubierta. FormIt utilizará automáticamente los contornos de la cara seleccionada como camino del barrido y el barrido se creará alrededor de toda la cubierta.
+1. Sans sélectionner de géométrie, cliquez sur le bouton **Outils de modélisation avancés** dans la **barre d’outils Standard** et sélectionnez **Balayage \(SW\)**.
+2. L’**Assistant Sélection de balayage** démarre et vous invite à **sélectionner une face \(ou des arêtes\) pour le contour de balayage**. Sélectionnez la face du contour que vous venez de créer.
+3. Une fois le contour sélectionné, vous êtes invité à **sélectionner une face \(ou une arête\) pour la trajectoire de balayage, puis à cliquer sur Terminer**. Sélectionnez la face supérieure du mur. FormIt utilise automatiquement les limites de la face sélectionnée comme trajectoire de balayage et le balayage est créé tout autour du toit.
 
-_**Nota:**_ _Si tiene problemas para seleccionar una de las caras, utilice la herramienta_ _**Orbitar \(O\)**_ _para ver la cara un poco mejor y vuelva a intentarlo. Como opción alternativa, seleccione todos los bordes de la cubierta en lugar de la cara superior de la cubierta para completar el barrido._
+_**Remarque :**_ _si vous ne parvenez pas à sélectionner l’une des faces,_ utiliser l’outil _**Orbite \(O\)**_ _pour faire tourner la face en orbite afin de mieux la voir, puis réessayez. Vous pouvez également sélectionner toutes les arêtes du toit au lieu de la face supérieure du toit pour terminer le balayage._
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Mantenga el modelo organizado mediante la creación de un grupo **Roof - Cornice**, la adición a la capa **Roof** y la asignación del material **Metal – Brushed – Colorized** a él.
+4 – Pour organiser votre modèle, créez un groupe **Roof – Cornice** (Toit – Corniche), ajoutez-le au calque **Roof** (Toit) et affectez-lui le matériau **Metal – Brushed – Colorized** (Métal – Brossé – Coloré).
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - Para terminar, active la capa **Column** y verá que el barrido recién creado se interseca con la parte superior de los pilares. Resuelva esto mediante la edición de cualquiera de los grupos **Column Tall** y arrastrando la cara superior hacia abajo hasta que se alinee con la parte superior de la cornisa.
+5 – Pour terminer, activez le calque **Column** (Poteau). Vous constaterez que le nouveau balayage coupe le haut des poteaux. Pour résoudre ce problème, modifiez l’un des groupes **Column Tall** (Grand poteau) et faites glisser la face supérieure vers le bas jusqu’à ce qu’elle s’aligne avec le bas de la corniche.
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

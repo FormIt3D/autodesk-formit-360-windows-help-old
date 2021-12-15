@@ -1,20 +1,20 @@
-# Configuración
+# Paramètres
 
-Se puede acceder a la configuración desde el menú o la barra de herramientas. Todos los parámetros se guardan una vez cerrado FormIt.
+Les paramètres sont accessibles à partir du menu ou de la barre d’outils. Tous les paramètres sont enregistrés une fois FormIt fermé.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Unidades**: cambie entre unidades imperiales y métricas.
-* **Forzar cursor a rejilla**: permite determinar si las herramientas de dibujo y modelado fuerzan el cursor o no a la rejilla de suelo subyacente.
-* **Mostrar cotas editables**: active o desactive la visualización de cotas al dibujar y editar.
-* **Mostrar solo grupo editado**: si está activada esta opción, el resto de grupos se ocultan mientras se edita otro grupo.
-* **Resaltado de preselección**: si está activada esta opción, al pasar el cursor sobre todos los objetos, los bordes, las caras y los puntos, se resaltan visualmente estos elementos.
-* **Botones grandes de la barra de herramientas**: permite activar y desactivar los botones grandes de la barra de herramientas.
-* **Tema de la aplicación**: cambie entre los temas de la interfaz de usuario Claro, Oscuro y Azul.
+* **Unités** : permet de passer des unités anglo-saxonnes aux unités métriques.
+* **Accrocher à la grille** : permet de choisir si les outils de dessin et de modélisation s’accrochent à la grille au sol sous-jacente.
+* **Afficher les cotes modifiables** : permet d’activer ou de désactiver l’affichage des cotes lors du dessin et de la modification.
+* **Afficher les groupes modifiés uniquement** : lorsque cette option est activée, tous les autres groupes sont masqués lorsqu’un autre groupe est modifié.
+* **Mise en surbrillance des présélections** : si cette option est activée, lorsque vous passez le curseur de la souris sur l’ensemble des objets, des arêtes, des faces et des points, ces éléments sont mis en surbrillance.
+* **Boutons de la barre d’outils étendue** : permet d’activer et de désactiver les boutons de la barre d’outils étendue.
+* **Thème de l’application** : permet de basculer entre les thèmes de l’interface utilisateur Clair, Foncé et Bleu.
 
-## Modo táctil
+## Mode tactile
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-El modo táctil permite utilizar dispositivos con Windows equipados con pantallas táctiles. Si está activada esta opción, puede utilizar un solo toque y arrastrar para seleccionar herramientas de dibujo, modelado y modificación e interactuar con ellas. **Nota En el modo táctil, las herramientas de dibujo y modificación no funcionarán correctamente con el ratón.**
+Le mode tactile vous permet d’utiliser des fenêtres équipées d’écrans tactiles. Lorsque cette option est activée, il vous suffit d’appuyer sur l’écran pour sélectionner les outils de dessin, de modélisation et de modification, et interagir avec ceux-ci. **Remarque : en mode tactile, les outils de dessin et de modification ne fonctionnent pas correctement avec la souris.**
 

@@ -1,98 +1,98 @@
-# 1.5 - Agrupar objetos
+# 1.5 Groupement d’objets
 
-_Los grupos en FormIt funcionan de forma similar a las familias de Revit y los componentes de SketchUp. La agrupación de objetos distintos impide que se una su geometría. Las copias de un grupo actúan como ejemplar de la geometría original, lo que significa que los cambios realizados en una copia afectarán a todas ellas._
+_Dans FormIt, les groupes fonctionnent de la même manière que les familles dans Revit et les composants dans SketchUp. Le groupement d’objets différents empêche la jonction de leur géométrie. Les copies d’un groupe agissent comme une instance de la géométrie d’origine, ce qui signifie que les modifications apportées à une copie auront une incidence sur toutes les copies._
 
-_Si no ha completado la última sección, descargue y abra el archivo_ _**1.5 - Group Objects.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier __**1.5 – Group Objects.axm**__ à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
-## **Crear un grupo**
+## **Créer un groupe**
 
-1 - Haga doble clic en la masa de terraza superior para seleccionarla.
+1 – Double-cliquez sur le volume de la terrasse supérieure pour le sélectionner.
 
-2 - Haga clic con el botón derecho y seleccione **Grupo \(G\)** o simplemente pulse **G**.
+2 – Cliquez avec le bouton droit de la souris, puis choisissez **Grouper \(G\)**, ou appuyez simplement sur la touche « **G** ».
 
 ![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Observe que después de crear un grupo, se incluye automáticamente en la herramienta Mover.
+3 – Notez qu’après la création d’un groupe, vous êtes automatiquement placé dans l’outil Déplacer.
 
-## **Desplazar un grupo**
+## **Déplacement d’un groupe**
 
-1 - Para facilitar el proceso de modelado, active la opción **Forzar cursor a rejilla \(SG\)** si estaba desactivada.
+1 – Pour faciliter le processus de modélisation, activez l’option **Accrochage à la grille \(SG\)**, si elle est désactivée.
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - Para empezar a mover el objeto seleccionado, mientras sigue en el comando **Mover \(M\)**, haga clic una vez en cualquier esquina inferior de la masa. A continuación, desplace el cursor hacia arriba y verá que aparece una línea de eje \(Z\) azul. Esta línea le ayudará a mover el objeto en línea recta.
+2 – Pour déplacer l’objet sélectionné, toujours dans la commande **Déplacer \(M\)**, cliquez une fois sur l’angle inférieur du volume. Déplacez ensuite le curseur vers le haut. Une ligne d’axe bleue (\Z\) s’affiche. Cette ligne vous aidera à déplacer l’objet vers le haut.
 
-3 - Con el eje azul visible, escriba **4'-6"**; aparecerá un cuadro de diálogo de cota. Después de introducir la cota, haga clic en **Aceptar** o pulse **Intro** en el teclado. De este modo, se desplazará toda la masa hacia arriba fuera del plano de suelo a lo largo del **eje Z**.
+3 – Lorsque l’axe bleu est visible, tapez **4’-6”**. Une boîte de dialogue de cotation s’affiche ensuite. Après avoir saisi la cote, cliquez sur **OK** ou appuyez sur la touche **Entrée** du clavier. La masse entière se déplace alors vers le haut, hors du plan du sol, le long de l’**axe Z**.
 
-_**Nota:**_ _Al igual que en Revit, también puede especificar_ _**4'6**,_ _**4'6'',**_ _o_ _**4,5**, y el programa interpretará el valor como 4 \(pies\) 6 \(pulgadas\) al utilizar unidades imperiales._
+_**Remarque :**_ _comme dans Revit, vous pouvez également taper_ _**4’6**,_ _**4’6”,**_ _ou_ _**4.5**. Le programme interprète la valeur comme 4\(pieds\) 6\(pouces\) lorsque vous utilisez les unités anglo-saxonnes._
 
 ![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Editar un grupo**
+## **Modification d’un groupe**
 
-1 - Para acceder al **modo de edición de grupo**, haga doble clic en la masa.
+1 – Pour entrer dans le **mode de modification de groupe**, double-cliquez sur le volume.
 
-1. En la **paleta Propiedades**, cambie el nombre del grupo **Masa - Edificio principal**.
-2. Para guardar los cambios y salir del **modo de edición de grupo**, haga clic en el icono de marca de verificación **Finalizar edición de grupo** en la esquina superior izquierda del lienzo o haga doble clic fuera del espacio.
+1. Dans la **palette Propriétés**, renommez le groupe « **Volume - Bâtiment principal** ».
+2. Pour enregistrer les modifications et quitter le **mode de modification de groupe**, cliquez sur l’icône en forme de coche **Terminer la modification du groupe** située dans le coin supérieur gauche de la zone de dessin ou double-cliquez dans l’espace.
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notas**:_
+_**Remarques**:_
 
-* _Para obtener información sobre las opciones de_ _**Categoría**_ _, vaya al capítulo_ _**Trabajar con Revit**_ _._‌
-* _Cada grupo tiene su propio historial de deshacer/rehacer distinto al del proyecto general; puede hacer clic en las flechas_ _**Deshacer**_ _y_ _**Rehacer**_ _del_ _**Asistente para editar grupos**_ _en la esquina superior izquierda del lienzo._
+* _Pour en savoir plus sur les options_ _**Catégorie**_ _, reportez-vous au chapitre_ _**Utilisation de Revit**_ _._
+* _Chaque groupe possède son propre historique d’annulation/de rétablissement distinct de l’ensemble du projet. Vous pouvez cliquer sur les flèches_ _**Annuler**_ _et_ _**Rétablir**_ _dans l’_ _**Assistant Modifier le groupe**_ _situé dans le coin supérieur gauche de la zone de dessin._
 
-## **Aplicar niveles a un grupo**
+## **Application de niveaux à un groupe**
 
-_**Nota:**_ _La agrupación de una geometría reemplaza la configuración anterior que es posible que se haya aplicado a la geometría. Por ello, deberá volver a aplicar los niveles del ejercicio anterior._
+_**Remarque :**_ _le groupement d’une géométrie remplace les paramètres précédents que vous avez appliqués à la géométrie. De ce fait, vous devrez réappliquer les niveaux de l’exercice précédent._
 
-1 - Para aplicar niveles a un grupo, realice lo siguiente:
+1 – Pour appliquer des niveaux à un groupe, procédez comme suit :
 
-1. Haga clic una vez en el grupo **Massing** **- Main Building** para seleccionarlo.
-2. Vaya a la **paleta Propiedades** y active **Utilizar niveles.**
-3. Mantenga solo el nivel del **edificio principal**. Para eso, desactive todos los demás.
-4. En el campo **Área por nivel**, se mostrará el área bruta de los objetos seleccionados actualmente. El área de cada **nivel** se muestra delante del nombre de cada **nivel**.
-5. Si no aparece una línea de nivel azul que cruce el objeto horizontalmente, active la visualización del nivel en el**menú Configuración &gt; Estilo visual &gt; Mostrar niveles \(DL\).**
+1. Cliquez sur le groupe **Volume** **- Bâtiment principal** pour le sélectionner.
+2. Accédez à la **palette Propriétés** et cochez la case **Utiliser les niveaux.**
+3. Ne conservez que le niveau **Bâtiment principal** et désélectionnez tous les autres.
+4. Le champ **Aire par niveau** affiche l’aire brute des objets sélectionnés. La surface de chaque **niveau** est affichée devant le nom de chaque **niveau**.
+5. Si aucune ligne de niveau bleue ne traverse horizontalement l’objet, activez l’affichage des niveaux. Pour ce faire, accédez au **menu Paramètres > Style visuel > Niveaux d’affichage \(DL\).**
 
-_**Nota**: Si no se ha notificado ningún área para el nivel del_ _**edificio principal**_ _, es posible que la geometría no se interseque con el nivel, debería encontrarse a una altura de 4'-6''. Para solucionar los problemas, cambie la posición de la geometría o la altura del_ _**nivel**_ _para que se intersequen._
+_**Remarque** : si aucune surface n’est indiquée pour le niveau_ _**Bâtiment principal**_ _, la géométrie ne croise peut-être pas le niveau, qui doit être situé à une hauteur de 4’-6”. Pour résoudre ce problème, repositionnez la géométrie ou la hauteur du_ _**niveau**_ _de sorte qu’ils se coupent._
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Anule la selección del grupo. Para ello, pulse la tecla **Esc** o haga clic fuera del espacio. Sin ningún objeto seleccionado, la **paleta Propiedades** informará del área bruta general del boceto en lugar del área de un objeto específico.
+2 – Pour désélectionner le groupe, appuyez sur la touche **Échap** ou cliquez une fois dans l’espace. Si aucun objet n’est sélectionné, la **palette Propriétés** indique l’aire brute de l’esquisse globale plutôt que l’aire d’un objet spécifique.
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Administrar grupos**
+## **Gérer les groupes**
 
-1 - Para ver y administrar todos los grupos del boceto, realice lo siguiente:
+1 – Pour afficher et gérer tous les groupes de l’esquisse, procédez comme suit :
 
-1. Vaya a la **paleta Árbol de grupos**. En esta, aparecerá lo siguiente:
-   * **Grupo Terreno**: grupo creado automáticamente cuando se importó la **imagen de satélite**.
-   * **Masa - Edificio principal**: el grupo de geometría de masa de construcción que acabamos de crear.
-   * **grupo 2**: grupo sin nombre que contiene la imagen del plano de planta.
-2. Para cambiar el nombre del **grupo 2**, mediante la paleta Árbol de grupos, haga doble clic en **grupo 2** y, a continuación, escriba **Imagen del plano**.
+1. Accédez à la **palette Arborescence des groupes**. Les groupes suivants s’affichent :
+   * Groupe **Terrain** : groupe créé automatiquement lors de **l’importation de l’image satellite**.
+   * Groupe **Volume - Bâtiment principal** : groupe de géométrie de volume de bâtiment que vous venez de créer.
+   * Groupe **groupe 2** : groupe sans nom contenant l’image du plan d’étage.
+2. Pour renommer le groupe **groupe 2** à l’aide de la palette Arborescence des groupes, double-cliquez sur le groupe **groupe 2**, puis tapez **Image du plan**.
 
 ![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Notas:**_
+_**Remarques :**_
 
-* _Para mantener un modelo organizado, es recomendable que los nombres de grupo sean descriptivos._
-* _Este es un método útil para administrar y editar todos los grupos del modelo desde una ubicación._
+* _Pour un modèle ordonné, nous vous recommandons de conserver des noms de groupe descriptifs._
+* _Cette méthode est pratique pour gérer et modifier tous les groupes du modèle à partir d’un emplacement unique._
 
-2. Con el grupo **Imagen del plano** seleccionado, vaya a la **paleta Propiedades**. Tenga en cuenta que el nombre del grupo también se ha actualizado en el campo **Grupo**.
+2 – Le groupe **Image du plan** étant toujours sélectionné, accédez à la **palette Propriétés**. Notez que le nom du groupe a également été mis à jour dans le champ **Groupe**.
 
 ![](../../.gitbook/assets/7.png)
 
-## **Ocultar contexto del grupo**
+## **Masquer le contexte du groupe**
 
-_Esta herramienta permite ocultar rápidamente toda la geometría fuera del grupo que está modificando. Es muy útil cuando se tiene un modelo grande y complejo y otras geometrías se interponen en el camino._
+_Cet outil permet de masquer rapidement toute la géométrie située en dehors du groupe que vous modifiez. Il est très pratique lorsque le modèle est volumineux et complexe et que d’autres géométries vous gênent._
 
-1 - Para aislar un grupo, realice lo siguiente:
+1 – Pour isoler un groupe, procédez comme suit :
 
-1. Haga doble clic en su geometría para editar el grupo.
-2. Desplácese a **Configuración** en el **menú principal** y active la opción **Ocultar contexto del grupo** o simplemente pulse **H** en el teclado. Observe cómo desaparece la **imagen del plano**.
-3. Termine de editar el grupo. Tenga en cuenta que el modo **Ocultar contexto del grupo \(H\)** solo está activo mientras se encuentra en el **Asistente para editar grupos**.
-4. Para desactivar de nuevo este modo, simplemente pulse **H**. Esta opción se puede activar o desactivar en cualquier momento, dentro o fuera de un grupo.
+1. Double-cliquez sur sa géométrie pour modifier le groupe.
+2. Accédez à **Paramètres** dans le **menu principal** et cochez la case **Masquer le contexte du groupe** ou appuyez simplement sur la touche **H** de votre clavier. Le groupe **Image du plan** disparaît.
+3. Terminez la modification du groupe. Notez que le mode **Masquer le contexte de groupe \(H\)** est uniquement actif dans l’**Assistant Modifier le groupe**.
+4. Pour désactiver à nouveau ce mode, appuyez simplement sur la touche **H**. Cette option peut être activée ou désactivée à tout moment, à l’intérieur ou à l’extérieur d’un groupe.
 
 ![](../../.gitbook/assets/8%20%285%29.png)
 

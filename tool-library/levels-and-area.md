@@ -1,48 +1,48 @@
-# Niveles y área
+# Niveaux et aire
 
-Después de crear la geometría en FormIt, puede aplicar Niveles para indicar dónde están las elevaciones de suelo y generar cálculos de área.
+Après avoir créé une géométrie dans FormIt, vous pouvez appliquer des niveaux pour indiquer où se trouvent les élévations de sol et pour générer des calculs d’aire.
 
-Consulte [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md) para ver los niveles en acción.
+Pour découvrir le fonctionnement des calques, consultez le guide [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md).
 
-## Creación y configuración de niveles
+## Création et configuration de niveaux
 
-Encontrará el panel Niveles en el lado derecho de FormIt para Windows, como se muestra a continuación:
+Le groupe de fonctions Niveaux se trouve sur le côté droit de FormIt pour Windows :
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Crear y suprimir niveles
+#### Création et suppression de niveaux
 
-* Para crear un nivel, haga clic en el botón "+".
-* Para crear un serie de niveles, haga clic en el botón "++".
-   * Esto permitirá especificar los niveles que se van a crear y la distancia vertical entre ellos.
-* Seleccione uno o más niveles y haga clic en "-" para suprimirlos.
+* Pour créer un niveau, cliquez sur le bouton « + ».
+* Pour créer une série de niveaux, cliquez sur le bouton « ++ ».
+   * Cela vous permet de spécifier le nombre de niveaux à créer et la distance verticale entre eux.
+* Sélectionnez un ou plusieurs niveaux et cliquez sur « - » pour les supprimer.
 
-#### Cambiar nombre, establecer elevaciones y volver a numerar niveles
+#### Renommage, définition des élévations et renumérotation des niveaux
 
-* Cambie el nombre de un nivel. Para ello, haga doble clic en el nombre o haga clic con el botón derecho y seleccione Editar nombre.
-* Ajuste la elevación de un nivel. Para ello, haga doble clic en el número o haga clic con el botón derecho y seleccione Editar elevación.
-* Haga clic en el icono Actualizar en la parte superior para cambiar la numeración de los niveles.
-   * Esto resulta útil si ha añadido o eliminado niveles y el esquema de nombres por defecto no está sincronizado \(por ejemplo, Nivel 1, Nivel 2, Nivel 5\).
-   * Este botón omitirá los niveles con nombres personalizados, pero volverá a numerar los niveles con el nombre que se encuentre después de la sintaxis "Nivel 1".
+* Pour renommer un niveau, double-cliquez sur son nom ou cliquez avec le bouton droit de la souris, puis choisissez « Modifier le nom ».
+* Pour ajuster l’élévation d’un niveau, double-cliquez sur le numéro ou cliquez avec le bouton droit de la souris, puis choisissez Modifier l’élévation.
+* Cliquez sur l’icône Actualiser située en haut de la fenêtre pour renuméroter les niveaux.
+   * Cette option est utile si vous avez ajouté ou supprimé des niveaux et que le schéma d’attribution de nom par défaut est désynchronisé \(c’est-à-dire Niveau 1, Niveau 2, Niveau 5\).
+   * Ce bouton ignore tous les niveaux avec des noms personnalisés, mais renumérote tous les niveaux avec le nom suivant la syntaxe « Niveau 1 ».
 
-## Aplicación de niveles
+## Application de niveaux
 
-Para aplicar niveles a un objeto, deberá seleccionar el objeto y pasar al panel Propiedades.
+Pour appliquer des niveaux à un objet, vous devez sélectionner l’objet et accéder au groupe de fonctions Propriétés.
 
-Tenga en cuenta que, para aplicar niveles a un objeto, este debe ser sólido, sin problemas de caras posteriores o hermeticidad. [Obtenga información sobre cómo comprobar si el modelo presenta problemas de hermeticidad y caras posteriores](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Notez que pour appliquer des niveaux à un objet, celui-ci doit être solide, sans face arrière ni problèmes d’étanchéité. [Découvrez comment vérifier si votre modèle a des problèmes d’étanchéité et de faces arrière](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-Con un objeto sólido seleccionado en el lienzo \(en este ejemplo, un vaciado de edificio simple\), el grupo Propiedades presentará la casilla de verificación Utilizar niveles.
+Lorsqu’un objet solide est sélectionné dans la zone de dessin \(dans cet exemple, une coque de bâtiment simple\), le groupe de fonctions Propriétés affiche une case à cocher « Utiliser les niveaux ».
 
-* Si el boceto de FormIt ya tiene niveles definidos \(como se muestra arriba\), al activar esta casilla, se utilizarán todos los niveles que se intersequen con esta forma \(y se omitirán los que sean demasiado altos o bajos\).
-* Si el boceto de FormIt no tiene niveles, al activar esta casilla, se crearán suficientes niveles por defecto\(altura de suelo a suelo de 12'\) para intersecar toda la forma y se aplicarán automáticamente esos niveles a este objeto.
+* Si des niveaux sont déjà définis pour l’esquisse FormIt \(reportez-vous aux sections ci-dessus\), la case à cocher utilise tous les niveaux qui croisent cette forme \(en ignorant ceux qui seraient trop élevés ou trop bas\).
+* Si l’esquisse FormIt ne comporte pas encore de niveaux, cette case à cocher permet de créer suffisamment de niveaux par défaut\(hauteur de palier à palier de 12’\) pour couper la forme entière et applique automatiquement ces niveaux à cet objet.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Niveles + Revit
+## Niveaux et Revit
 
-Si se aplican niveles a la geometría de FormIt, esos niveles se enviarán a Revit cuando se utilice el [complemento FormIt](https://formit.autodesk.com/page/formit-revit).
+Lorsque des niveaux sont appliqués à la géométrie FormIt, ils sont envoyés à Revit lors de l’utilisation du complément [FormIt](https://formit.autodesk.com/page/formit-revit).
 
-En Revit, puede utilizar los niveles de FormIt para crear suelos de masa, suelos por cara y planos de planta asociados a ellos.
+Dans Revit, vous pouvez utiliser les niveaux FormIt pour créer des sols de volumes, des sols par face et des plans d’étage associés aux niveaux FormIt.
 
 
 

@@ -1,26 +1,26 @@
-# Parte 2 \(disponible próximamente\)
+# Partie II \(bientôt disponible\)
 
-## Herramientas avanzadas
+## Outils avancés
 
-En la **parte 2** de FormIt Primer, profundizaremos en algunas de las herramientas más avanzadas que ofrece FormIt. Exploraremos cómo utilizar herramientas sencillas, pero potentes, de modelado, diagnóstico, análisis e interoperabilidad para modificar y mejorar el modelo de Encode Campus que se muestra a continuación.
+Dans la **Partie II** de ce guide, nous allons nous intéresser aux outils les plus avancés que FormIt propose. Nous allons découvrir le fonctionnement des outils de modélisation, de diagnostic, d’analyse et d’interopérabilité simples, mais puissants, pour modifier et améliorer le modèle Campus Encode illustré ci-dessous.
 
-Si es un nuevo usuario de FormIt, se recomienda empezar por la **parte 1**, ya que, en la **parte 2**, se presupone que ya está familiarizado con los conceptos básicos de FormIt.
+Si vous utilisez FormIt pour la première fois, nous vous recommandons de commencer par la **partie I**, car la **partie II** suppose que vous connaissez déjà les fonctions de base de FormIt.
 
-Consulte las secciones **Introducción a FormIt** y **Biblioteca de herramientas** para obtener información detallada sobre las herramientas, las barras de herramientas, las paletas y los procesos específicos que se describen aquí.
+Reportez-vous aux sections **Introduction à FormIt** et **Bibliothèque d’outils** pour obtenir des explications détaillées sur les outils, barres d’outils, palettes et processus spécifiques décrits dans le présent guide.
 
-![Modelo de muestra Encode Campus](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![Exemple de modèle Campus Encode](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
 
-### Requisitos previos
+### Prérequis
 
-Antes de comenzar con la parte 2, descargue e instale FormIt para Windows mediante las instrucciones que se encuentran en la sección Introducción a FormIt: [**Requisitos previos e instalación**](../formit-introduction/prerequisites-and-installation.md).
+Avant de commencer la partie II, téléchargez et installez FormIt pour Windows en suivant les instructions fournies dans la section Introduction à FormIt, à l’adresse suivante : [**Conditions préalables et installation**](../formit-introduction/prerequisites-and-installation.md).
 
-En la mayoría de los capítulos, también deberá descargar y utilizar el conjunto de datos que se encuentra en el vínculo siguiente.
+Pour la plupart des chapitres, vous devrez également télécharger et utiliser le jeu de données disponible à l’adresse ci-dessous.
 
-_Si no puede ejecutar FormIt para Windows, la mayoría del aprendizaje se puede completar mediante la_ [_**aplicación web**_](https://formit.autodesk.com/app) _gratuita. Para obtener más información sobre las versiones y licencias de FormIt, visite el_ ****[_**sitio web de FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app) _gratuite. Pour plus d’informations sur les versions de FormIt et les licences, visitez le_ ****[_**site Web FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Conjunto de datos
+### Jeu de données
 
-Encode Campus, que se muestra arriba, es un proyecto ficticio de tamaño medio para varios usos, que se ha establecido en un trazado urbano, con capas organizadas, escenas, materiales e incluso geometrías vinculadas a secuencias de comandos de Dynamo que se pueden editar en directo. Este conjunto de datos contiene dos versiones del modelo de muestra Encode Campus; una preparada para que la modifique el usuario durante todo el aprendizaje y otra con una versión completa de todo lo descrito en la **parte 2** para que pueda abrir y explorar de primera mano los resultados esperados.
+Le campus Encode, illustré ci-dessus, est un projet fictif à usage multiple de taille moyenne, défini dans un tracé urbain, avec des calques, des scènes, des matériaux organisés et même des géométries liées à des scripts Dynamo modifiables en direct. Ce jeu de données contient deux versions de l’exemple de modèle Campus Encode ; l’une que vous pouvez modifier tout au long du didacticiel et l’autre qui contient une version finalisée de tout ce qui est décrit dans la **partie II**, vous permettant ainsi d’ouvrir et d’explorer vous-même les résultats attendus.
 
-* **Conjuntos de datos de la parte 2 de FormIt Primer**
+* **Jeux de données Partie II FormIt Primer**
 

@@ -1,6 +1,6 @@
-# Escenas
+# Scènes
 
-Puede guardar un punto de vista de "escena" y sus estilos visuales y estados de capa relacionados y, a continuación, utilizarlos para configurar puntos de cámara para dirigir recorridos y contar una historia visual.
+Vous pouvez enregistrer un point de vue de « scène » et les styles visuels et états de calque associés, puis les utiliser pour configurer des points de caméra afin de guider les visites virtuelles et de raconter une histoire visuelle.
 
-Obtenga más información sobre el uso de escenas [aquí](../formit-primer/part-i/visual-settings.md).
+Pour en savoir plus sur l’utilisation des scènes, cliquez [ici](../formit-primer/part-i/visual-settings.md).
 

@@ -1,22 +1,22 @@
-# Suprimir, Editar y Mover
+# Supprimer, Modifier, Déplacer
 
-Elimine un objeto, cambie su ubicación o modifique sus propiedades.
+Supprimez un objet, modifiez son emplacement ou ses propriétés.
 
-## Eliminar
+## Supprimer
 
-Realice primero una selección de geometría. A continuación, haga clic con el botón derecho para ver el menú contextual, donde puede hacer clic en la **herramienta Suprimir**. También puede pulsar la tecla Supr del teclado.
+Tout d’abord, sélectionnez une géométrie.  Ensuite, cliquez avec le bouton droit de la souris pour afficher le menu contextuel dans lequel vous pouvez cliquer sur l’**outil Supprimer**. Vous pouvez également appuyer sur la touche Suppr de votre clavier.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Editar
+## Modifier
 
-Al utilizar muchas de las herramientas de edición, como Mover, Matriz, Empujar-tirar cara y Desfase, aparecerá un cuadro de cota de color azul. Puede hacer clic en esta cota después de finalizar la operación e introducir un valor específico. También puede comenzar a escribir un valor numérico para acceder al cuadro de diálogo Editar cota. También puede pulsar la tecla Tab para abrir el cuadro de diálogo Editar cota, pero ya no es necesario usar la tecla Tab con FormIt en Windows v17 y versiones posteriores.
+Lorsque vous utilisez de nombreux outils d’édition tels que Déplacer, Réseau, Face Pousser-Tirer et Décalage, une boîte de dialogue de cote bleue s’affiche. Vous pouvez cliquer sur cette cote une fois l’opération terminée et entrer une valeur spécifique. Vous pouvez également saisir une valeur numérique pour accéder à la boîte de dialogue Modifier la cote. Vous pouvez également appuyer sur la touche Tab pour afficher la boîte de dialogue Modifier la cote, mais la touche de tabulation n’est plus requise dans FormIt pour Windows 17 et versions ultérieures.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Mover bordes, caras u objetos
+## Déplacement d’arêtes, de faces ou d’objets
 
-Seleccione primero el borde, la cara o el objeto. La herramienta Mover se activa automáticamente. Desplace el cursor para ver los forzados de cursor y los puntos de deducción a fin de especificar dónde desea iniciar la operación de desplazamiento; haga clic para empezar. Ahora coloque el cursor para ver los forzados de cursor y los puntos de deducción en la ubicación en la que desea mover el objeto. Haga clic de nuevo para colocar el objeto.
+Tout d’abord, sélectionnez l’arête, la face ou l’objet. L’outil de déplacement est automatiquement activé. Placez le curseur sur la zone de dessin pour afficher les accrochages et les points de déduction permettant de spécifier l’emplacement où vous souhaitez commencer l’opération de déplacement, puis cliquez pour commencer. Déplacez maintenant le curseur de la souris pour afficher les accrochages et les points de déduction à l’emplacement où vous souhaitez déplacer l’objet. Cliquez à nouveau pour positionner l’objet.
 
 ![](../.gitbook/assets/edit_edge.png)
 

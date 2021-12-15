@@ -1,30 +1,30 @@
-# Unión booleana
+# Jointure booléenne
 
-Puede unir un objeto o un grupo en otro con la herramienta Unir. Existen dos métodos para acceder a la herramienta Unir, como se indica a continuación:
+Vous pouvez joindre un objet ou un groupe à un autre à l’aide de l’outil Joindre. L’outil Joindre est accessible de deux façons :
 
-## Ejecutar primero el comando Unir
+## Lancement préalable de la commande Joindre
 
-Teclado: J G
+Clavier : J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Ejecute el comando Unir y siga la instrucción de modo que aparece en la parte superior izquierda de la pantalla.
+Exécutez la commande Joindre et suivez les instructions de mode dans la partie supérieure gauche de l’écran.
 
-Haga clic una vez para seleccionar un objeto al que unirse.
+Cliquez une fois pour sélectionner un objet à joindre.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Haga clic una vez para seleccionar un objeto o un grupo que unir.
+Cliquez une fois pour sélectionner un objet ou un groupe à joindre.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Haga clic en la marca de verificación para finalizar el comando.
+Cliquez sur la coche pour terminer la commande. 
 
-## Seleccionar primero objetos
+## Sélection préalable des objets
 
-1. Haga doble clic para seleccionar el objeto que se va a unir \(haga clic una vez para un grupo\).
-2. Mientras mantiene pulsada la tecla **CTRL**, haga doble clic en un objeto solapado que desee unir con el primer objeto.
-3. Haga clic con el botón derecho en cualquiera de los objetos y seleccione la herramienta Unir en el menú contextual.
+1. Double-cliquez pour sélectionner l’objet à joindre \(cliquez une fois pour sélectionner un groupe\).
+2. Tout en maintenant la touche **CTRL** enfoncée, double-cliquez sur l’objet qui se chevauche et que vous souhaitez joindre au premier objet.
+3. Cliquez avec le bouton droit de la souris sur l’un des objets, puis choisissez l’outil Joindre dans le menu contextuel.
 
 ![](../.gitbook/assets/join-tool.png)
 

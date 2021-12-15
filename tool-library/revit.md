@@ -1,12 +1,12 @@
 # Revit
 
-FormIt se ha diseñado para que funcione correctamente con Revit. Para obtener más información sobre los conceptos básicos, consulte [**esta sección en el aprendizaje de FormIt Primer**]().
+FormIt a été conçu pour fonctionner correctement avec Revit. Pour en savoir plus sur les fonctions de base, reportez-vous à [**cette section du didacticiel FormIt Primer**]().
 
-## Trabajo con datos de Revit
+## Utilisation de données Revit
 
-Puede enviar geometría de Revit a FormIt. Esto resulta útil para realizar modelos de estudio rápidos y enviar la geometría de nuevo a Revit. Aquí hay una demostración en vídeo:
+Vous pouvez envoyer une géométrie de Revit vers FormIt. Cette option est utile pour effectuer des modèles d’études rapides, puis renvoyer la géométrie vers Revit. Voici une vidéo de démonstration :
 
-## Creación de contenido de Revit
+## Création de contenu Revit
 
-FormIt permite crear contenido para utilizarlo en familias de Revit. Aquí hay una demostración en vídeo:
+FormIt peut être utilisé pour créer du contenu à utiliser dans les familles Revit. Voici une vidéo de démonstration :
 

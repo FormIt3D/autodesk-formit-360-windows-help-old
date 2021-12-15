@@ -1,52 +1,52 @@
-# Línea de desfase
+# Droite décalée
 
-Dibuje líneas paralelas o de desfase mediante la herramienta Línea de desfase. Esto resulta útil para crear formas 2D que posteriormente se pueden extruir para que tengan un aspecto similar al de los muros 3D.
+Dessinez des lignes parallèles ou de décalage à l’aide de l’outil Décaler la ligne. Cet outil permet de créer des formes 2D qui peuvent ensuite être extrudées pour ressembler à des murs 3D.
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-La herramienta **Línea de desfase** funciona como la [**Línea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
+L’outil **Décaler la ligne** fonctionne comme l’outil [**Ligne**](https://windows.help.formit.autodesk.com/tool-library/line-tool) :
 
-* Haga clic para definir el primer punto y, a continuación, mueva el cursor y coloque los puntos posteriores, ajustando la geometría existente o los ejes de inferencia.
-* Se muestra una vista preliminar de la forma resultante. Los puntos segundo y tercero determinan el plano que seguirán los demás puntos, por lo que el resultado es plano.
-* Continúe añadiendo puntos y pulse **Esc** o haga doble clic para finalizar la herramienta.
-* Las autointersecciones se limpiarán y se fusionarán, dejando una cara extruible.
+* Cliquez pour définir le premier point, puis déplacez le curseur et placez les points suivants, en les accrochant à la géométrie existante ou aux axes de déduction.
+* Un aperçu de la forme obtenue est affiché. Les deuxième et troisième points déterminent le plan pour le reste des points à suivre, de sorte que le résultat soit planaire.
+* Continuez d’ajouter des points, puis appuyez sur la touche **Échap** ou double-cliquez pour terminer l’outil.
+* Toutes les auto-intersections seront nettoyées et fusionnées afin d’obtenir une face extrudable.
 
-![Después de colocar dos puntos y arrastrar el tercer punto](../.gitbook/assets/walls1.png)
+![Après avoir placé 2 points et fait glisser le troisième point](../.gitbook/assets/walls1.png)
 
-La línea de entrada se dibuja en rojo y, por defecto, se coloca en el centro de las líneas de desfase.
+La ligne d’entrée est dessinée en rouge et est placée par défaut au centre des lignes de décalage.
 
-Puede cambiar la alineación de las líneas de desfase y su grosor. Para ello, pulse la tecla **Tab**. Se abre el cuadro de diálogo de **Opciones de herramientas**:
+Pour modifier l’alignement des lignes de décalage et leur épaisseur, appuyez sur la touche **Tab**. La boite de dialogue **Options d’outil** s’affiche également :
 
-![Opciones de la herramienta Línea de desfase](../.gitbook/assets/walls2.png)
+![Options de l’outil Décaler la ligne](../.gitbook/assets/walls2.png)
 
-Por ejemplo, cambie la **Alineación** a **Izquierda** y el **Grosor** a 6"; las líneas de desfase se dibujarán a la izquierda de las líneas de entrada a 6 pulgadas de distancia.
+Par exemple, définissez l’option **Alignement** sur **Gauche** et l’option **Épaisseur** sur 6” : les lignes de décalage sont dessinées à gauche des lignes d’entrée, à 6 pouces les unes des autres.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Consejos útiles
+## Conseils utiles
 
-Puede dibujar una forma cerrada forzando el cursor al primer punto colocado. La esquina resultante se limpiará automáticamente, como se muestra a continuación:
+Vous pouvez dessiner une forme fermée en l’accrochant au premier point placé. Le coin obtenu est nettoyé automatiquement :
 
 ![](../.gitbook/assets/walls4.png)
 
-Puede dibujar de forma libre las líneas de entrada unas encima de otras. Una vez finalizada la herramienta, se limpian las intersecciones resultantes.
+Vous pouvez dessiner librement les lignes d’entrée les unes sur les autres. Lorsque l’outil est terminé, les intersections obtenues sont nettoyées.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Por lo tanto, la herramienta Línea de desfase debe generar geometría en un plano, por lo que los primeros puntos determinarán el plano que seguirán los puntos restantes.
+Par nature, l’outil Décaler la ligne doit générer une géométrie sur un plan, de sorte que les premiers points déterminent le plan sur lequel les autres points suivront.
 
-Por ejemplo, inicie el dibujo en un lado de un cubo para usar el plano de esa cara. Después de colocar tres puntos no colineales, el plano de entrada se fija para el resto de la entrada. Tenga en cuenta que, al dibujar en una cara, la forma resultante se inserta en la cara, dividiéndola en varias caras. Para evitar la inserción, la cara en la que dibuje deberá formar parte de un [grupo](https://windows.help.formit.autodesk.com/tool-library/groups).
+Tout d’abord, dessinez sur le côté d’un cube, par exemple, pour utiliser le plan de cette face. Une fois que trois points non colinéaires sont placés, le plan d’entrée est fixe pour le reste de l’entrée. Notez que lorsque vous dessinez sur une face, la forme obtenue est insérée dans la face, ce qui la divise en plusieurs faces. Pour empêcher l’insertion, la face sur laquelle vous dessinez doit faire partie d’un [groupe](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Dibujo en una cara vertical](../.gitbook/assets/walls7.png)
+![Dessin sur une face verticale](../.gitbook/assets/walls7.png)
 
-![Una vez finalizada la herramienta, se insertan las líneas y las caras divididas se pueden manipular de forma adicional.](../.gitbook/assets/walls8.png)
+![Une fois l’outil terminé, les lignes sont insérées et les faces scindées peuvent être manipulées davantage](../.gitbook/assets/walls8.png)
 
-También puede utilizar la herramienta Línea de desfase para trazar desde un dibujo de plano. Importe el plano como una imagen.
+Vous pouvez également utiliser l’outil Décaler la ligne pour tracer à partir d’un dessin en plan. Importez le plan en tant qu’image.
 
-* Cambie el tamaño de la imagen para que el plano tenga la escala correcta. Esto se describe con más detalle [aquí](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). 
-* Puede utilizar la [Cámara ortogonal](orthographic-camera.md) para trazar en una [vista superior](orthographic-views.md) ortogonal.
+* Redimensionnez l’image de sorte que le plan soit à l’échelle appropriée. Pour en savoir plus, [cliquez ici](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* Vous pouvez utiliser la [caméra orthogonale](orthographic-camera.md) pour effectuer un tracé dans une [vue de dessus](orthographic-views.md) orthogonale.
 
 ![](../.gitbook/assets/walls9.png)
 

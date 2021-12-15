@@ -1,22 +1,22 @@
-# Importación y exportación de datos
+# Importation et exportation de données
 
-## Importación de datos
+## Importation de données
 
-Se pueden importar los siguientes formatos de archivo.
+Les formats de fichiers suivants peuvent être importés directement.
 
-* **OBJ**: los archivos de malla 3D OBJ se importan como un único grupo de FormIt. No se importa ningún material.
-* **DWG**: los archivos DWG 2D y 3D se importan como un único grupo de FormIt. Se admiten los colores de objeto.
-* **STL**: los archivos de malla 3D STL se importan como un único grupo de FormIt.
-* **SAT**: los archivos de modelo sólido SAT se importan como un único grupo de FormIt.
-* **SKP**: se importan los archivos de SketchUp. Los grupos y componentes se importan como grupos de FormIt. Se admiten capas y materiales.
+* **OBJ** : les fichiers de maillage 3D OBJ sont importés en tant que groupe FormIt unique. Aucun matériau n’est importé.
+* **DWG** : les fichiers DWG 2D et 3D sont importés en tant que groupe FormIt unique. Les couleurs des objets sont prises en charge.
+* **STL** : les fichiers de maillage 3D STL sont importés en tant que groupe FormIt unique.
+* **SAT** : les fichiers de modèle solide SAT sont importés en tant que groupe FormIt unique.
+* **SKP** : les fichiers SketchUp sont importés. Les groupes et les composants sont importés en tant que groupes FormIt. Les calques et les matériaux sont pris en charge.
 
-[**Obtenga más información sobre cómo trabajar con datos importados**](../formit-primer/part-i/import-export-and-content-library.md).
+[**En savoir plus sur l’utilisation des données importées**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exportación de datos
+## Exportation de données
 
-FormIt puede exportar los siguientes formatos de archivo: AXM \(archivo de FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiales y 3D en un único archivo ZIP\) e imágenes PNG.
+FormIt permet d’exporter les formats de fichiers suivants : AXM \(fichier FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(matériaux et 3D dans un seul fichier ZIP\), images PNG.
 
-Al exportar archivos individuales, puede optar por importar **Todos los objetos**, **Solo elementos visibles** o **Solo selección**.
+Lors de l’exportation de fichiers individuels, vous pouvez choisir d’exporter **Tous les objets**, **Visible uniquement** ou **Sélection uniquement**.
 
 ![](../.gitbook/assets/export_window.png)
 

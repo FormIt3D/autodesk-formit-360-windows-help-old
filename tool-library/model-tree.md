@@ -1,16 +1,16 @@
-# Árbol del modelo
+# Arborescence du modèle
 
-La herramienta Árbol del modelo permite ver la jerarquía topológica del modelo de FormIt.
+L’arborescence du modèle permet d’afficher la hiérarchie topologique de votre modèle FormIt.
 
-Active la herramienta Árbol del modelo. Para ello, acceda al menú Ventana y active la casilla de verificación situada junto a Árbol del modelo.
+Pour activer l’arborescence du modèle, accédez au menu Fenêtre et cochez la case située en regard de l’arborescence du modèle.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-En el Árbol del modelo, cada grupo se identifica como un historial, ya que cada grupo tiene su propio historial de comandos o pila de Deshacer/Rehacer.
+Dans l’arborescence du modèle, chaque groupe est identifié comme étant un historique, car chaque groupe possède son propre historique de commandes ou une pile Annuler/Rétablir.
 
-En cada historial, aparecerá una lista de objetos geométricos, ejemplares o grupos anidados como cuerpos.
+Dans chaque historique, vous verrez une liste de groupes imbriqués, d’instances ou d’objets géométriques tels que des corps.
 
-También puede ver atributos no geométricos \(atributos de cadena\) enlazados a objetos de FormIt mediante el Árbol del modelo. [Puede colocar atributos de cadena en grupos creados por el nodo SendToFormIt mediante Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Vous pouvez également afficher les attributs non géométriques \(attributs de chaîne\) associés aux objets FormIt à l’aide de l’arborescence du modèle. [Vous pouvez placer des attributs de chaîne sur des groupes créés par le nœud SendToFormIt à l’aide de Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
 

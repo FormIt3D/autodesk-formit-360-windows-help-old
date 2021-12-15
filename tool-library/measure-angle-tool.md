@@ -1,26 +1,26 @@
-# Medir ángulo
+# Mesurer l’angle
 
-La herramienta Medir ángulo se encuentra en la [barra de herramientas](../formit-introduction/tool-bars.md).
+L’outil Mesurer l’angle se trouve dans la [barre d’outils](../formit-introduction/tool-bars.md).
 
-La herramienta Medir ángulo permite medir ángulos entre vértices, bordes, caras y volúmenes. También puede utilizar la herramienta Medir ángulo para controlar las cotas de la geometría.
+L’outil Mesurer l’angle permet de mesurer des angles entre des sommets, des arêtes, des faces et des volumes. Vous pouvez également utiliser l’outil Mesurer l’angle pour définir les cotes de la géométrie.
 
-* En el menú de la barra de herramientas **Medir**, seleccione la herramienta **Medir ángulo** o utilice el método abreviado de teclado **M A** y seleccione un punto inicial.
+* Dans le menu de la barre d’outils **Mesurer**, sélectionnez l’outil **Mesurer l’angle** ou utilisez le raccourci clavier **M A** et sélectionnez un point de départ.
 
    ![](../.gitbook/assets/measure-angle.png)
 
-* Haga clic en el pinzamiento y arrástrelo al vértice inicial.
+* Cliquez et faites glisser la poignée vers le sommet de départ.
 
    ![](../.gitbook/assets/measure-angle2.png)
 
-* Utilice las flechas para medir el ángulo entre un punto y otro.
+* Utilisez les flèches pour mesurer l’angle entre deux points.
 
    ![](../.gitbook/assets/measure-angle4.png)
 
-* Para cambiar la geometría, haga clic en un borde o una cara y especifique un nuevo valor de ángulo haciendo clic en el ángulo mostrado.
+* Pour modifier la géométrie, cliquez sur une arête ou une face et cliquez sur l’angle affiché pour saisir une nouvelle valeur d’angle.
 
    ![](../.gitbook/assets/measure-angle3.png)
 
-* Se muestran los cambios o las medidas, como se muestra a continuación:
+* Vos modifications ou mesures s’affichent :
 
    ![](../.gitbook/assets/measure-angle5.png)
 

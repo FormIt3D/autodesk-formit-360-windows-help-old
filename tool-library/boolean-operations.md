@@ -1,15 +1,14 @@
-### Operaciones booleanas
-Utilice las operaciones Unir y Cortar para modificar objetos.
+### Opérations booléennes
+Utilisez les opérations Joindre et Couper pour modifier des objets.
 
-#### Juntar
-Para realizar una unión, seleccione todos los objetos que desee establecer como booleanos. A continuación, seleccione la **herramienta Unir** en el menú contextual. La parte intersecante/solapada de la geometría se unirá a un objeto.
+#### Joindre
+Pour effectuer une union, sélectionnez tous les objets que vous souhaitez convertir en booléen. Ensuite, sélectionnez l’**outil Joindre** dans le menu contextuel. La partie de la géométrie qui se croise ou se chevauche est regroupée en un seul objet.
 
-![](images/join tool.png)
+![] (images/join tool.png)
 
-#### Cortar
-Para sustraer volúmenes de la geometría existente, seleccione primero el objeto original. A continuación, seleccione el objeto que desea sustraer de él. Después, seleccione la **herramienta Cortar** en el menú contextual. El volumen intersecado se sustraerá del objeto original.
+#### Ouverture
+Pour soustraire des volumes d’une géométrie existante, sélectionnez d’abord l’objet d’origine. Ensuite, sélectionnez l’objet que vous souhaitez soustraire. Sélectionnez ensuite l’**outil Couper** dans le menu contextuel. Le volume d’intersection est soustrait de l’objet d’origine.
 
-![](images/cut tool.png)
-![](images/cut finish.PNG)
+![](images/cut tool.png)![](images/cut finish.PNG)
 
 

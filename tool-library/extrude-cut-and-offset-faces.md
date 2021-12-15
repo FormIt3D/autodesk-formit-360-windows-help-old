@@ -1,28 +1,28 @@
-# Caras: Extruir, Cortar y Desfase
+# Faces : extrusion, coupe et décalage
 
-Empuje una cara o tire de ella, estampe nuevas formas en las existentes o cree nuevos bordes de desfase.
+Poussez ou tirez une face, imprimez de nouvelles formes sur des formes existantes ou créez des arêtes décalées.
 
-## Extruir
+## Extrusion
 
-Para empujar una cara o tirar de ella, seleccione una cara con un solo clic y, a continuación, haga clic y arrastre. La cara se moverá hacia adelante y hacia atrás; ahora puede mover el ratón para forzar el cursor y realizar deducciones en otros elementos del modelo. Haga clic de nuevo para finalizar el desplazamiento de la cara. Mantenga pulsada la tecla CTRL para conservar los bordes originales.
+Pour déplacer une face, cliquez dessus une fois pour la sélectionner, puis cliquez et faites glisser le curseur. La face se déplace d’avant en arrière. Vous pouvez désormais déplacer la souris pour accrocher et déduire d’autres éléments du modèle. Cliquez à nouveau pour terminer le déplacement de la face. Maintenez la touche Ctrl enfoncée pour conserver les arêtes d’origine.
 
 ![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Estampar
+## Graver
 
-Si desea estampar formas, utilice una herramienta de boceto 3D para dibujar líneas, arcos, splines, rectángulos o círculos en caras existentes. Esta acción crea nuevas caras que se pueden empujar o de las que se puede tirar con independencia de la cara original.
+Pour graver des formes, utilisez un outil d’esquisse 3D pour tracer des lignes, des arcs, des splines, des rectangles ou des cercles sur des faces existantes. Cette action crée de nouvelles faces qui peuvent être déplacées indépendamment de la face d’origine.
 
 ![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Desfase
+## Décalage
 
-Para desfasar la cara de un objeto, realice lo siguiente:
+Pour décaler la face d’un objet, procédez comme suit :
 
-1. Seleccione primero la cara que desea editar y, a continuación, haga clic con el botón derecho para ver el menú **contextual**.
-2. En el menú **contextual**, haga clic en la herramienta **Desfasar cara**.
-3. Coloque el cursor sobre la cara seleccionada y ajuste las líneas que se muestran hasta que obtenga el efecto de desfase deseado.
-4. Haga clic en cualquier lugar para completar el desfase. Ahora puede empujar o tirar con independencia de la cara de desfase.
+1. Tout d’abord, sélectionnez la face que vous souhaitez modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu **contextuel**.
+2. Dans le menu **contextuel**, cliquez sur l’outil **Décaler la face**.
+3. Déplacez le curseur sur la face sélectionnée et ajustez les lignes qui s’affichent jusqu’à ce que vous atteigniez l’effet de décalage souhaité.
+4. Cliquez n’importe où pour terminer le décalage. Vous pouvez maintenant déplacer indépendamment la face décalée.
 
 ![](../.gitbook/assets/offset1.png)  
 ![](../.gitbook/assets/offset2.png)  

@@ -1,155 +1,155 @@
-# 1.11 - Importar modelos con la biblioteca de contenido
+# 1.11 – Importation de modèles avec la bibliothèque de contenu
 
-_En este capítulo, importaremos modelos de SketchUp existentes y utilizaremos la biblioteca de contenido de FormIt para insertar familias OOTB que se han convertido desde Revit. Tenga en cuenta que al abrir archivos SKP con FormIt, estos se suministran con materiales, grupos y componentes, capas \(etiquetas\) y escenas intactos. Puede que sea necesario realizar alguna limpieza para mantener los proyectos ordenados y organizados._
+_Dans ce chapitre, nous allons importer des modèles SketchUp existants et utiliser la bibliothèque de contenu FormIt afin de placer des familles OOTB qui ont été converties à partir de Revit. Notez que lorsque vous ouvrez des fichiers SKP avec FormIt, ils sont fournis avec des matériaux, des groupes et des composants, des calques \(étiquettes\) et des scènes intacts. Un nettoyage peut être nécessaire pour que vos projets restent bien organisés et ordonnés._
 
-_En este capítulo, utilizaremos archivos de la carpeta_ **Farnsworth House Data Set &gt; Supporting Files**. Si aún no lo ha hecho, asegúrese de descargar las carpetas necesarias o todo el conjunto de datos desde los _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Dans ce chapitre, nous allons utiliser des fichiers du dossier_ **Farnsworth House Data Set > Supporting Files** (Jeu de données Maison Farnsworth > Fichiers de support). Si ce n’est pas déjà fait, veillez à télécharger les dossiers requis ou l’intégralité du jeu de données à partir du dossier _**FormIt Primer Part 1 Datasets** (Jeux de données de la partie I du guide FormIt Primer)._
 
-## **Importar y editar archivos SKP**
+## **Importation et modification de fichiers SKP**
 
-_En primer lugar, vamos a añadir el contenido descargado en su propia biblioteca de contenido personal_. Tenga en cuenta que en este ejercicio solo utilizaremos archivos SKP. Para obtener más información sobre cómo abrir o importar otros formatos de archivo, consulte [**esta entrada del blog sobre las funciones de FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) y **este capítulo sobre** **la importación y la exportación ampliadas de formatos de archivo**.
+_Nous allons tout d’abord ajouter un élément de contenu téléchargé à votre bibliothèque de contenu personnel_. Notez que dans cet exercice, nous allons utiliser uniquement des fichiers SKP. Pour en savoir plus sur l’ouverture/l’importation d’autres formats de fichier, reportez-vous à [**ce billet de blog sur les fonctionnalités de FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) et **ce chapitre sur les ** **formats de fichier d’importation et d’exportation étendus**.
 
-1 - Asegúrese de utilizar la opción **Guardar \(Ctrl + S\)** para guardar cualquier trabajo abierto y, a continuación, inicie un nuevo boceto de FormIt. Para ello, puede realizar lo siguiente:
+1 – Assurez-vous d’**enregistrer \(Ctrl + S\)** tout travail ouvert, puis lancez une nouvelle esquisse FormIt. Pour ce faire, vous pouvez procéder comme suit :
 
-1. Abra otra sesión en FormIt en una nueva ventana. Para ello, haga clic con el botón derecho en el icono de FormIt de la **barra de tareas de Windows** y, a continuación, haga clic en el icono de **FormIt**. Esta acción abrirá una nueva ventana de FormIt, que permite ejecutar dos sesiones de FormIt en paralelo.
-2. O bien, después de guardar, inicie un **Nuevo boceto \(Ctrl + N\)** desde el menú desplegable **Archivo** de la barra de **Menú principal**.
+1. Ouvrez une autre session sur FormIt dans une nouvelle fenêtre en cliquant avec le bouton droit de la souris sur l’icône FormIt dans la **barre des tâches de Windows** et en cliquant sur l’icône **FormIt**. Une nouvelle fenêtre FormIt s’ouvre, vous permettant d’exécuter deux sessions FormIt côte à côte.
+2. OU, après l’enregistrement, lancez une **nouvelle esquisse \(Ctrl + N\)** à partir de la liste déroulante **Fichier** dans la barre du **menu principal**.
 
 ![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Cree una nueva carpeta denominada **Custom FormIt Content** dentro de **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt** en el _**conjunto de datos de Farnsworth House**._
+2 – Créez un dossier appelé **Custom FormIt Content** (Contenu Formit personnalisé) dans le dossier **Farnsworth House Data Set > Supporting Files > FormIt** (Jeu de données Maison Farnsworth > Fichiers de support > FormIt) du dossier _**Farnsworth House Data Set** (Jeu de données Maison Farnsworth)._
 
-3 - Utilice la opción **Guardar \(Ctrl + S\)** para guardar el nuevo boceto en esa carpeta. Se recomienda asignarle el nombre **Ottoman – Barcelona\_Mies.axm**
+3 – **Enregistrez \(Ctrl + S\)** votre nouvelle esquisse dans ce dossier. Nous vous recommandons de le nommer comme suit : **Ottoman – Barcelona\_Mies.axm**
 
-4 - En el nuevo archivo de FormIt vacío, realice lo siguiente:
+4 – Dans le nouveau fichier FormIt vide, procédez comme suit :
 
-1. **Importe un archivo local \(Ctrl + I\)**. Para ello, seleccione**Importar &gt; localmente...** en el menú desplegable **Archivo** de la barra de **Menú principal**.
-2. Seleccione **Ottoman – Barcelona\_Mies.skp** en **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** y haga clic en **Abrir**.
+1. **Importez un fichier local \(Ctrl + I\)** en sélectionnant **Importer > Localement...** dans la liste déroulante **Fichier** de la barre du **menu principal**.
+2. Choisissez : **Ottoman – Barcelona\_Mies.skp** à partir de **Farnsworth House Data Set > Supporting Files > SketchUp**(Jeu de données Maison Farnsworth > Fichiers de support >SketchUp) et cliquez sur **Ouvrir**.
 
-_**Nota:**_ _Si no aparece el archivo_ _**Ottoman – Barcelona\_Mise.skp**, asegúrese de que el menú desplegable de formatos de archivo se haya establecido en_ _**Todos los formatos admitidos**._
+_**Remarque :**_ _si le fichier_ _**Ottoman – Barcelona\_Mise.skp**n’est pas visible, vérifiez que la liste déroulante des formats de fichier située dans la partie inférieure droite est définie sur_ _**Tous les formats pris en charge**._
 
 ![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Cambie el nombre del grupo importado **Ottoman - Barcelona\_Mies**.
+5 – Renommez le groupe importé **Ottoman – Barcelona\_Mies**.
 
-6 - Cuando finalmente importemos este modelo en nuestro archivo de Farnsworth House, se colocará mediante el punto de **origen** de este archivo. Para controlar el punto de inserción l, vamos a mover el grupo **Ottoman - Barcelona\_Mies** para que sus esquinas se encuentren en el **origen**. Para:
+6 – Lorsque nous importerons ce modèle dans notre fichier Farnsworth House (Maison Farnsworth), il sera placé à l’aide du point d’**origine** de ce fichier. Pour contrôler le point de placement l, il faut déplacer le groupe **Ottoman – Barcelona\_Mies** de sorte qu’un de ses coins soit situé à l’**origine**. Pour ce faire :
 
-1. Asegúrese de que **Forzar cursor a rejilla \(SG\)** esté activado. Dibuje una **Línea \(L\)** de referencia que comience en el **origen** \(Los ejes X, Y y Z se intersecan\). Haga clic en cualquier lugar para colocar el segundo punto.
-2. Seleccione el grupo "Ottoman" e inicie el comando de desplazamiento haciendo clic una vez en la esquina inferior izquierda de su pata, como se muestra. _Para obtener más información sobre cómo desplazar objetos, consulte los capítulos anteriores._
-3. Mueva el grupo al **origen** forzando el cursor al punto inicial de la línea de referencia que acabamos de dibujar.
-4. Suprima la línea de referencia.
+1. Assurez-vous que l’option **Accrocher à la grille \(SG\)** est activée. Utilisez l’outil **Ligne \(L\)** pour tracer une ligne de référence à partir de l’**origine** \(les axes X, Y et Z se coupent\). Cliquez n’importe où pour placer le deuxième point.
+2. Sélectionnez le groupe Ottoman et lancez l’option Déplacer en cliquant une fois sur le coin inférieur gauche de son pied, comme illustré. _Pour en savoir plus sur le déplacement des objets, reportez-vous aux chapitres précédents._
+3. Déplacez le groupe vers l’**origine**, en l’accrochant au point de départ de la ligne de référence que vous venez de dessiner.
+4. Supprimez la ligne de référence.
 
 ![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - Es recomendable suprimir todas las capas no deseadas que se hayan importado con el archivo SKP, ya que cualquier capa que tenga este modelo se importará antes o después a nuestro modelo de la Farnsworth House. Para ello, vaya a la **paleta Capas**, seleccione **Capa 0** y haga clic en el botón **-**. De este modo, se suprimirá la capa manteniendo su geometría.
+7 – Nous vous recommandons de supprimer les calques indésirables qui ont été importés avec le fichier SKP, car les calques de ce modèle seront importés dans notre modèle Farnsworth House (Maison Farnsworth). Pour ce faire, accédez à la **palette Calques**, sélectionnez **Layer 0** (Calque 0), puis cliquez sur le bouton **-**. Cette opération supprime le calque tout en conservant sa géométrie.
 
 ![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Nota:**_ _Cuando se suprime una capa, cualquier geometría o grupo que se encontraban en esa capa se asigna a_ _**No hay capas**, que es el valor por defecto para cualquier objeto que no se haya asignado aún a una capa._
+_**Remarque :**_ _chaque fois que vous supprimez un calque, les groupes ou les géométries qui se trouvaient sur ce calque sont affectés à_ _**Aucun calque**. Il s’agit de la valeur par défaut pour tout objet qui n’a pas encore été attribué à un calque._
 
-## **Crear miniatura de contenido**
+## **Création d’une miniature de contenu**
 
-_En este paso siguiente, se configurará una escena para que se utilice como la miniatura de_ _**contenido**_ _, que se mostrará en la_ _**paleta Biblioteca de contenido**._
+_Cette étape consiste à configurer une scène à utiliser comme miniature du_ _**contenu**_ _, qui s’affichera dans la_ _**palette Bibliothèque de contenu**._
 
-1 - Para definir los parámetros de vista de la escena en miniatura, realice lo siguiente:
+1 – Pour définir les paramètres d’affichage de la·scène·Thumbnail (Miniature), procédez comme suit :
 
-1. En la ficha **Entorno** de la **paleta Estilos visuales**, desactive todas las casillas de verificación y establezca el color **Inferior / fondo** en blanco.
-2. Asegúrese de que el modo de vista se haya establecido en **Perspectiva** **\(VP\)**.
-3. Utilice las **herramientas de navegación de vistas** para ampliar la vista y seleccionar una ubicación de cámara que represente bien el objeto de forma similar a la imagen siguiente.
+1. Dans l’onglet **Environnement** de la **palette Styles visuels**, décochez toutes les cases et définissez la couleur **Lower/ Background** (Inférieur/arrière-plan) sur blanc.
+2. Assurez-vous que le mode d’affichage est défini sur **Perspective** **\(VP\)**.
+3. Utilisez les **outils de navigation de la vue** pour effectuer un zoom avant et choisir un emplacement de caméra qui représente bien l’objet, comme dans l’image ci-dessous.
 
 ![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - Para guardar los parámetros que acaba de definir, cree una escena. Para ello, realice lo siguiente:
+2 – Pour enregistrer les paramètres que vous venez de définir, créez une scène :
 
-1. Vaya a la **paleta Escena**.
-2. Haga clic en el botón **+**. Esta acción creará una nueva escena basada en los parámetros actuales.
-3. Cambie el nombre de la **miniatura** y asegúrese de que estén activadas al menos las cuatro primeras casillas de verificación \(4\): **Cámara**, **Capas**, **Sol y sombras** y **Estilos visuales**. El resto de los parámetros de escena no son realmente pertinentes para crear la imagen en miniatura.
-4. Utilice el botón **Actualizar escena** siempre que desee actualizar la **escena** para que coincida con la vista de cámara y la configuración visual actuales.
+1. Accédez à la **palette Scènes**.
+2. Cliquez sur le bouton **+**. Cette opération permet de créer une scène en fonction de vos paramètres actuels.
+3. Renommez-la **Thumbnail** (Miniature) et assurez-vous que les quatre \(4\) premières cases sont cochées : **Caméra**, **Calques**, **Soleil et ombres** et **Styles visuels**. Les autres paramètres de la scène ne sont pas très utiles pour la création de l’image miniature.
+4. Utilisez le bouton **Mettre à jour la scène** à tout moment pour actualiser votre **scène** afin qu’elle corresponde à la vue de la caméra et aux paramètres visuels actuels.
 
 ![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - Utilice la opción **Guardar \(Ctrl + S\)** para guardar de nuevo el modelo de otomana completado. Tenga en cuenta que la **miniatura de contenido** se crea a partir de la vista activa al guardar por última vez el modelo, por lo que asegúrese de que se encuentra en la **escena en miniatura** antes de guardar.
+3 – **Enregistrez \(Ctrl + S\)** à nouveau le modèle Ottoman terminé. Notez que la **miniature de contenu** est créée à partir de la vue active lors du dernier enregistrement du modèle. Par conséquent, assurez-vous que vous vous trouvez dans la **scène Thumbnail (Miniature)** avant d’enregistrer.
 
-_Si lo desea, puede comparar su archivo con el nuestro. Para ello, abra el archivo_ _**Ottoman - Barcelona\_Mies.axm**_ _guardado en_ _**Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Furniture**_ _en el_ _**conjunto de datos de Farnsworth House**.‌_
+_Si vous le souhaitez, vous pouvez comparer votre fichier au nôtre en ouvrant le fichier_ _**Ottoman – Barcelona\_Mies.axm**_ _enregistré dans_ _**Farnsworth House Data Set > Fichiers de support > FormIt> Furniture**_ _(Jeu de données Maison Farnsworth > Fichiers de support > Formit > Mobilier) dans le dossier_ _**Farnsworth House Data Set**(Jeu de données Maison Farnsworth).‌_
 
-_Puede seguir los mismos pasos anteriores con los archivos SKP de banco y silla, ubicados en la misma carpeta que la otomana._
+_Vous pouvez suivre les mêmes étapes ci-dessus avec les fichiers SKP de banc et de chaise situés dans le même dossier que le modèle Ottoman._
 
-_**Consejo:**_ _Para agilizar el proceso, es recomendable utilizar el archivo_ _**Ottoman - Barcelona\_Mies.axm**_ _que acaba de crear como plantilla. Durante el modelado, es posible que desee activar de nuevo las opciones_ _**Rejilla**_ _y_ _**Ejes**_ _de la_ _**paleta Estilos visuales**. Al ajustar solo la posición de la cámara de la __**escena de miniatura**__ para cada mueble, se garantiza la coherencia de las __**miniaturas de contenido**__entre todos los modelos de contenido._
+_**Conseil :**_ _pour accélérer le processus, nous vous recommandons d’utiliser le fichier_ _**Ottoman – Barcelona\_Mies.axm**_ _que vous venez de créer en tant que gabarit. Lors de la modélisation, vous pouvez réactiver la_ _**grille**_ _et les_ _**axes**_ _dans la_ _**palette Styles visuels**. Ajustez uniquement la position de la caméra de votre_ _**scène Thumbnail (Miniature)**_ _pour chaque élément de mobilier, afin de vous assurer que les_ _**miniatures de contenu**_ _restent cohérentes pour tous vos modèles de contenu._
 
-## **Vincular una biblioteca de contenido**
+## **Liaison d’une bibliothèque de contenu**
 
-_Ahora vuelva al proyecto de Farnsworth House. Aprenderemos a vincular la carpeta de **FormIt** en el **conjunto de datos de la Farnsworth House**, para acceder fácilmente a todos sus archivos, incluido el_ **contenido de FormIt personalizado** _que acabamos de crear, desde nuestro proyecto._
+_Revenons au projet Farnsworth House (Maison Farnsworth). Nous allons apprendre à lier le dossier **FormIt** dans le dossier **Farnsworth House Data Set** (Jeu de données Maison Farnsworth), afin d’accéder facilement à tous ses fichiers, y compris le dossier_ **Custom FormIt Content** _(Contenu Formit personnalisé) que nous venons de créer, à partir de notre projet._
 
-1 - Después de regresar al modelo de la Farnsworth House o volver a abrirlo, realice lo siguiente: _Si no ha completado el último capítulo, descargue y abra el archivo_ _**1.11 - Import Models with Content Library.axm**_ _del_ _**conjunto de datos de Farnsworth House**._
+1 – Rebasculez sur le modèle Farnsworth House (Maison Farnsworth), ou rouvrez-le. _Si vous n’avez pas terminé le dernier chapitre, téléchargez et ouvrez le fichier_ _**1.11 – Import Models with Content Library.axm**_ _à partir du dossier_ _**Farnsworth House Data Set** (Jeu de données Maison Farnsworth)._
 
-1. Abra la **paleta Biblioteca de contenido** y haga clic en el icono **Vincular directorio de biblioteca de contenido**. Aparecerá la ventana **Preferencias** con la ficha **Biblioteca de contenido** abierta.
-2. Haga clic en el icono **+** para **Añadir una nueva ubicación de biblioteca de contenido**. Aparecerá una tercera ventana para que se desplace por el directorio del equipo y seleccione una carpeta.
-3. En el _**conjunto de datos de Farnsworth House**, desplácese por las carpetas:_ _**Supporting Files > FormIt**. Aquí encontrará las carpetas_ que contienen los archivos **.axm** que hemos creado anteriormente en este capítulo. Haga doble clic en la carpeta **FormIt** para seleccionarla.
-4. Haga clic en **Seleccionar carpeta**; la ruta de esa carpeta se mostrará en el panel **Ubicaciones de biblioteca - Local**.
-5. De nuevo en la ventana **Preferencias**, haga clic en **Aceptar**; la carpeta vinculada se añadirá a la **Biblioteca de contenido**.
-6. Para acceder a esta nueva biblioteca, abra el menú desplegable en la parte superior de la **paleta Biblioteca de contenido** y seleccione **FormIt**.
-7. Tenga en cuenta que la estructura de carpetas y todos los archivos **.axm** de la carpeta vinculada se mostrarán en la **paleta Bibliotecas de contenido**. Haga doble clic en cualquier subcarpeta para acceder a los archivos que contiene.
+1. Ouvrez la **palette Bibliothèque de contenu** et cliquez sur l’icône **Lier le répertoire de la bibliothèque de contenu**. La fenêtre **Préférences** s’affiche avec l’onglet **Bibliothèque de contenu** ouvert.
+2. Cliquez sur l’icône **+** pour **ajouter un nouvel emplacement de bibliothèque de contenu**. Une troisième fenêtre s’ouvre pour vous permettre de naviguer dans le répertoire de votre ordinateur et de sélectionner un dossier.
+3. Dans le dossier _**Farnsworth House Data Set** (Jeu de données Maison Farnsworth), parcourez les dossiers suivants :_ _**Supporting Files > FormIt** (Fichiers de support > FormIt). Vous y trouverez les_ dossiers contenant les fichiers **.axm** créés précédemment dans ce chapitre. Double-cliquez sur le dossier **FormIt** pour le sélectionner.
+4. Cliquez sur **Sélectionner un dossier**. Le chemin d’accès au dossier s’affiche dans le groupe de fonctions **Emplacements des bibliothèques – Local**.
+5. De retour dans la fenêtre **Préférences**, cliquez sur **OK**. Le dossier lié est ajouté à la **bibliothèque de contenu**.
+6. Pour accéder à cette nouvelle bibliothèque, ouvrez le menu déroulant situé dans la partie supérieure de la **palette Bibliothèque de contenu** et sélectionnez **FormIt**.
+7. Notez que la structure de dossiers et tous les fichiers **.axm** du dossier lié s’affichent dans la **palette Bibliothèque de contenu**. Double-cliquez sur un sous-dossier pour accéder aux fichiers qu’il contient.
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Nota:** Si tiene acceso a **Autodesk Docs** \(conocido anteriormente como Autodesk 360\), también puede acceder a los archivos que haya almacenado en este servicio a través del menú desplegable **Biblioteca de contenido**.
+**Remarque :** si vous avez accès à **Autodesk Docs** \(connu précédemment sous le nom d’Autodesk 360\), vous pouvez également accéder aux fichiers que vous y avez stockés via le menu déroulant **Bibliothèque de contenu**.
 
-## **Colocar contenido desde la biblioteca**
+## **Placement de contenu à partir de la bibliothèque**
 
-_Ahora colocaremos los elementos de contenido creados dentro del modelo de Farnsworth._
+_‌Nous allons maintenant placer les éléments de contenu que nous avons créés dans le modèle Farnsworth._
 
-1 - A fin de ver el interior de la casa y colocar los muebles, desactive la capa **Roof** y utilice **Orbitar \(O\)** para orbitar la vista en perspectiva hasta que pueda ver todo el suelo del edificio principal.
+1 – Pour que vous puissiez visualiser l’intérieur de la maison afin d’y placer le mobilier, désactivez le calque **Roof** (Toit) et utilisez l’outil **Orbite \(O\)** pour faire tourner la vue en perspective en orbite jusqu’à ce que vous puissiez voir l’intégralité du calque Main Building Floor (Sol du bâtiment principal).
 
-2. De nuevo en la **paleta Biblioteca de contenido**, asegúrese de que la lista desplegable siga establecida en **FormIt**. Antes de colocar el mobiliario que acabamos de crear, debemos colocar el "núcleo" de la casa:
+2 – Dans la **palette Bibliothèque de contenu**, vérifiez que la liste déroulante est toujours définie sur **FormIt**. Avant de placer le mobilier que vous venez de créer, placez le « noyau » de la maison :
 
-1. Haga clic en la carpeta denominada **Other** para abrirla y, a continuación, haga clic en la miniatura de **Farnsworth House – Core** para seleccionarla.
-2. Coloque el cursor sobre el **suelo del edificio principal** a fin de hacer clic en el **centroide** del suelo para colocar el **núcleo**.
-3. Para volver a la carpeta FormIt, utilice el botón **Desplazarse arriba**.
+1. Cliquez sur le dossier nommé **Other** (Autre) pour l’ouvrir, puis cliquez sur la miniature **Farnsworth House – Core** (Maison Farnsworth – Noyau) pour la sélectionner.
+2. Placez le curseur de la souris sur **Main Building Floor** (Sol du bâtiment principal), puis cliquez sur le **centre de gravité** du sol pour placer le **noyau**.
+3. Pour revenir au dossier FormIt, utilisez le bouton **Naviguer vers le haut**.
 
 ![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Establezca la cámara en **Ortogonal \(VO\)**, **Vista superior \(VT\)**, y desactive el **suelo del edificio principal** para ver la **imagen del plano**. Consulte los capítulos anteriores para obtener más información sobre los parámetros de **vistas** y **capas**.
+3 – Définissez la caméra sur **Orthogonale \(VO\)** et **Vue de dessus \(VT\)**, et activez le calque **Main Building Floor** (Sol du bâtiment principal) pour afficher le calque **Plan Image** (Image du plan). Reportez-vous aux chapitres précédents pour en savoir plus sur les paramètres **Vues** et **Calques**.
 
-4 - Seleccione **Farnsworth House - Core** y mueva el elemento hasta que se alinee con la imagen del plano.
+4 – Sélectionnez l’élément **Farnsworth House – Core** (Maison Farnsworth – Noyau) et déplacez-la jusqu’à ce qu’elle soit étroitement alignée avec le calque Plan Image (Image du plan).
 
 ![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Nota:**_ _Al mover el_ _**núcleo**, tenga cuidado de no cambiar su elevación. Puede utilizar la tecla_ _**Mayús**_ _para restringir el movimiento a fin de que siempre se realice a lo largo de uno de los ejes o asegúrese de que los puntos de referencia inicial y final del comando_ _**Mover \(M\)**_ _se encuentren ambos a la misma altura. Para ello, haga clic en la_ _**imagen del plano**, no en el propio_ _**núcleo**_ _. Consulte los capítulos anteriores para obtener más información sobre la herramienta __**Mover \(M\)**__.‌_
+_**Remarque :**_ _lorsque vous déplacez le_ _**noyau**, veillez à ne pas modifier son élévation. Vous pouvez utiliser la touche_ _**Maj**_ _pour limiter le mouvement à l’un des axes ou vous assurer que les points de référence de départ et d’arrivée de l’option_ _**Déplacer \(M\)**_ _sont à la même hauteur en cliquant uniquement sur le calque_ _**Plan Image** (Image du plan) et non sur le __**noyau**__. Reportez-vous aux chapitres précédents pour en savoir plus sur l’outil_ _**Déplacer \(M\)**_ _._ 
 
-## **Colocar mobiliario desde la biblioteca**
+## **Placement de mobilier à partir de la bibliothèque**
 
-1 - Mediante un proceso similar, ahora puede colocar los muebles que ha creado anteriormente en este capítulo desde la carpeta **Custom FormIt Content**. Si no ha convertido los tres \(3\) archivos SKP, puede utilizar las versiones creadas anteriormente de la carpeta **Furniture**.
+1 – En suivant la même procédure, vous pouvez désormais placer le mobilier que vous avez créé précédemment dans ce chapitre à partir du dossier **Custom FormIt Content** (Contenu Formit personnalisé). Si vous n’avez pas converti les trois \(3\) fichiers SKP, vous pouvez utiliser les versions prédéfinies dans le dossier **Furniture** (Mobilier).
 
-_**Notas:**_
+_**Remarques :**_
 
-* _Vuelva a activar la capa_ _**Main Building Floor**_ _para poder colocar mobiliario directamente en la superficie del_ _**suelo del edificio principal**._
-* _Al colocar un nuevo objeto, utilice la tecla_ _**Tab**_ _para alternar entre los planos de colocación._
-* _Al colocar un nuevo objeto, utilice la_ _**barra espaciadora**_ _para rotarlo 90 intervalos antes de colocarlo._
+* _Activez de nouveau le calque_ _**Main Building Floor**_ _(Sol du bâtiment principal), de sorte que vous puissiez placer le mobilier directement sur la surface de_ _**Main Building Floor**(Sol du bâtiment principal)._
+* _Lors du placement d’un nouvel objet, utilisez la touche_ _**Tab**_ _pour alterner entre les plans de placement._
+* _Lors du placement d’un nouvel objet, utilisez la touche_ _**Espace**_ _ pour le faire pivoter de 90 intervalles avant de le placer._
 
 ![](../../.gitbook/assets/9%20%283%29.png)
 
-2. Del mismo modo, explore las **muestras de la biblioteca de contenido** para insertar contenido OOTB. Tenga en cuenta que varios de estos elementos presentan diversos tamaños entre los que elegir, de modo similar a los tipos de familia en Revit.
+2 – De même, explorez les **exemples de la bibliothèque de contenu** pour placer du contenu OOTB. Notez que certains d’entre eux ont plusieurs tailles différentes, comme les types de familles dans Revit.
 
 ![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Uso de la herramienta Escala**
+## **Utilisation de l’outil Échelle**
 
-1 - Mediante las técnicas que acaba de aprender, coloque un ejemplar del componente **tree\_pine** desde la carpeta **Farnsworth House Data Set &gt; FormIt &gt; Planting**.
+1 – En utilisant les techniques que vous venez d’apprendre, placez une occurrence du composant **tree\_pine** à partir du dossier **Farnsworth House Data Set > FormIt > Planting** (Jeu de données Maison Farnsworth > Formit > Plantes).
 
-1. Una vez insertado, seleccione el grupo y cámbiele el nombre a **Tree**. Haga clic con el botón derecho para acceder al **menú contextual** y seleccione **Escala no uniforme \(NU\)**.
-2. Haga clic en uno de los **botones de Escala no uniforme** para cambiar el tamaño y las proporciones del grupo **Tree** según sea necesario.
+1. Une fois placé, sélectionnez le groupe et renommez-le **Tree** (Arbre). Cliquez avec le bouton droit de la souris pour accéder au **menu contextuel** et choisissez **Échelle non uniforme \(NU\)**.
+2. Cliquez sur l’un des **boutons Échelle non uniforme** pour redimensionner et modifier les proportions du groupe **Tree** (Arbre) selon vos besoins.
 
 ![](../../.gitbook/assets/11%20%283%29.png)
 
 ![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Nota:**_ _Del mismo modo, la herramienta_ _**Escala \(SC\)**_ _se puede utilizar para volver a ajustar la escala de todo el modelo o grupo de modo uniforme._
+_**Remarque :**_ _de même, l’outil_ _**Échelle \(SC\)**_ _peut être utilisé pour mettre à l’échelle un modèle ou un groupe entier de manière uniforme._
 
-2 - Copie este grupo y coloque varios árboles alrededor de la casa mediante las **herramientas de escala** a fin de crear una gran variedad de tamaños y proporciones.
+2 – Copiez ce groupe et placez plusieurs arbres autour de la maison, à l’aide des **outils Échelle** pour créer plusieurs tailles et proportions.
 
 ![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Nota:**_ _Aunque los árboles son ejemplares del mismo grupo, hemos podido_ _**ajustar su escala**_ _a diferentes tamaños. Mediante las herramientas_ _**Escala \(SC\)**_ _y_ _**Escala no uniforme \(NU\)**_ _fuera del modo de edición de grupos, puede modificar ejemplares individuales del mismo grupo. Si editamos uno de los grupos_ _**Tree**_ _y modificamos su geometría o material, todos los ejemplares del grupo se actualizarán, pero cada uno conservará su escala personalizada actual. Pruébelo._
+_**Remarque :**_ _même si les arbres appartiennent tous au même groupe, nous avons pu les_ _**mettre à l’échelle**_ _selon différentes tailles. L’utilisation des outils_ _**Échelle \(SC\)**_ _et_ _**Échelle non uniforme \(NU\)**_ _en dehors du mode de modification de groupe vous permet de modifier des occurrences individuelles du même groupe. Si vous deviez modifier un des groupes_ _**Tree**_ _(Arbre) et modifier sa géométrie ou son matériau, toutes les occurrences de groupe seraient mises à jour, mais chacune conserverait son échelle personnalisée actuelle. Essayez !_
 
-### **Mantener el modelo ordenado**
+### **Organisation du modèle**
 
-_Recuerde ordenar siempre el contenido añadido en capas. En este ejemplo, es recomendable colocar el núcleo y todo el mobiliario en la capa_ _**Main Building Floor**_ _y los árboles en la capa denominada_ _**Planting**._
+_N’oubliez pas de toujours trier le contenu ajouté sur les calques. Dans cet exemple, nous vous recommandons de placer le noyau et tout le mobilier sur le calque_ _**Main Building Floor**_ _(Sol du bâtiment principal) et les arbres sur un nouveau calque nommé_ _**Planting**(Plantes)._
 

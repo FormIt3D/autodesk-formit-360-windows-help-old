@@ -1,12 +1,12 @@
-# Árbol de grupos
+# Arborescence des groupes
 
-La paleta **Árbol de grupos** permite administrar todos los grupos del archivo desde una única ubicación. La vista en árbol muestra los grupos anidados y la columna Estado presenta el grupo que se está editando actualmente e indica si el grupo es de Dynamo o de Revit.
+La palette **Arborescence des groupes** fournit un emplacement unique pour gérer tous les groupes du fichier. L’arborescence affiche les groupes imbriqués et la colonne État indique le groupe en cours de modification et si le groupe provient de Dynamo ou de Revit.
 
-* **Seleccionar**: cada ejemplar se muestra de forma individual. Seleccione un ejemplar en el árbol; los ejemplares se seleccionan en la escena 3D.
-* **Editar**: para editar un grupo, utilice el icono de lápiz situado en la parte superior de la paleta o haga clic con el botón derecho y seleccione Editar.
-* **Cambiar nombre**: para cambiar el nombre de un grupo, haga doble clic en el nombre o haga clic con el botón derecho y seleccione Cambiar nombre.
-* **Suprimir**: para suprimir un grupo, seleccione el icono \(**-**\) ubicado en la parte superior de la paleta o haga clic con el botón derecho y seleccione Suprimir.
-* **Cambiar categoría**: para cambiar la categoría de un grupo, seleccione el grupo y utilice el menú desplegable Categoría ubicado en la parte superior de la paleta.
+* **Sélectionner** : chaque occurrence est répertoriée individuellement. Sélectionnez une instance dans l’arborescence et les instances sont sélectionnées dans la scène 3D.
+* **Modifier** : pour modifier un groupe, utilisez l’icône en forme de stylo située dans la partie supérieure de la palette ou cliquez avec le bouton droit de la souris, puis choisissez Modifier.
+* **Renommer** : pour renommer un groupe, double-cliquez sur son nom ou cliquez avec le bouton droit de la souris, puis choisissez Renommer.
+* **Supprimer** : pour supprimer un groupe, utilisez l’icône \(**-**\) située dans la partie supérieure de la palette ou cliquez avec le bouton droit de la souris, puis choisissez Supprimer.
+* **Modifier la catégorie** : pour modifier la catégorie d’un groupe, sélectionnez le groupe et utilisez la liste déroulante Catégorie située dans la partie supérieure de la palette.
 
 ![](../.gitbook/assets/groups.png)
 

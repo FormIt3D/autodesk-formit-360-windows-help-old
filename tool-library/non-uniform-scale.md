@@ -1,41 +1,41 @@
-# Escala no uniforme
+# Échelle non uniforme
 
-**Utilice la herramienta Escala no uniforme para estirar objetos en 1, 2 o 3 cotas.**
+**Utilisez l’échelle non uniforme pour étirer des objets en 1, 2 ou 3 dimensions.**
 
-Seleccione cualquier combinación de bordes, caras, sólidos, mallas o grupos y acceda a Escala no uniforme mediante el método abreviado de teclado **NU** o desde la opción Menú contextual, como se muestra a continuación:
+Sélectionnez une combinaison quelconque d’arêtes, de faces, de solides, de maillages ou de groupes et accédez à Échelle non uniforme à l’aide du raccourci clavier **NU** ou de l’option du menu contextuel :
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Una vez activada esta herramienta, aparecerá una serie de pinzamientos que se pueden utilizar para ajustar la escala del objeto de forma no uniforme en 1, 2 o 3 ejes simultáneamente.**
+**Une fois l’option activée, vous verrez une série de poignées qui peuvent être utilisées pour mettre à l’échelle l’objet de façon non uniforme sur 1, 2 ou 3 axes simultanément.**
 
-Para obtener mayor claridad, solo se dibujarán los pinzamientos orientados hacia la cámara. Orbite alrededor del objeto si necesita ajustar un pinzamiento en el otro lado.
+Pour plus de clarté, seules les poignées situées face à la caméra sont dessinées. Tournez autour de l’objet si vous devez ajuster une poignée de l’autre côté.
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Una vez que haga clic en un pinzamiento, aparecerá una serie de cuadros de texto editables en los que puede ajustar la escala por porcentaje o distancia, como se muestra a continuación:
+Lorsque vous cliquez sur une poignée, une série de zones de texte modifiables s’affichent. Elles vous permettent d’ajuster l’échelle en pourcentage ou en distance :
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Una vez que los cuadros de cota estén visibles, puede realizar lo siguiente:**
+**Une fois les zones de cote visibles, vous pouvez effectuer les opérations suivantes :**
 
-* Empiece a escribir un número para editar automáticamente el cuadro de porcentaje y especifique un factor de escala.
-   * Si se introduce un número negativo, se invertirá la dirección de la escala.
-* O bien, haga clic para establecer temporalmente la ubicación del pinzamiento y, a continuación, haga clic en el cuadro que contiene la cota para ajustar la escala por distancia.
-* Haga clic en el espacio o pulse ESC para finalizar la operación Escala no uniforme.
+* Commencez à saisir un nombre pour modifier automatiquement la zone de pourcentage et spécifier un facteur d’échelle.
+   * Si vous entrez un nombre négatif, la direction de l’échelle est inversée.
+* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur la zone contenant la cote à mettre à l’échelle en fonction de la distance.
+* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
 
-**Al ajustar la escala en uno de los pinzamientos de borde de esquina, se respetará la relación anchura/altura de las cotas adyacentes, como se indica a continuación:**
+**La mise à l’échelle au niveau de l’une des poignées de bord d’angle respecte le rapport de linéarité des cotes adjacentes :**
 
-* Empiece a escribir un número para editar el valor de porcentaje.
-* O bien, haga clic para establecer temporalmente la ubicación del pinzamiento y, a continuación, haga clic en uno de los dos cuadros de cota para ajustar la escala por distancia.
-* Haga clic en el espacio o pulse ESC para finalizar la operación Escala no uniforme.
+* Commencez à saisir un nombre pour modifier la valeur de pourcentage.
+* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur l’une des deux zones de cote pour mettre à l’échelle par distance.
+* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**De igual forma, al ajustar la escala en uno de los pinzamientos de esquina, se respetará la relación anchura/altura de toda la forma y se aplicará una escala uniforme de forma eficaz, como se muestra a continuación:**
+**De même, la mise à l’échelle au niveau de l’une des poignées d’angle respecte le rapport de linéarité de la forme entière et procède à une mise à l’échelle uniforme :**
 
-* Empiece a escribir un número para editar el valor de porcentaje.
-* O bien, haga clic para establecer temporalmente la ubicación del pinzamiento y, a continuación, haga clic en uno de los tres cuadros de cota para ajustar la escala por distancia.
-* Haga clic en el espacio o pulse ESC para finalizar la operación Escala no uniforme.
+* Commencez à saisir un nombre pour modifier la valeur de pourcentage.
+* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur l’une des trois zones de cote pour mettre à l’échelle par distance.
+* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

@@ -1,36 +1,36 @@
-# 1.4 - Añadir suelos con niveles
+# 1.4 – Ajout de sols avec des niveaux
 
-_Los niveles permiten segmentar masas con referencias de suelo individuales y calcular el área bruta por masa de edificio. Los niveles de FormIt y sus nombres personalizados se convertirán en niveles de Revit cuando el archivo se convierta a Revit._
+_Les niveaux vous permettent de sectionner des volumes avec des références de sol individuelles et de calculer l’aire brute par volume du bâtiment. Les niveaux FormIt et leurs noms personnalisés sont convertis en niveaux Revit lorsque le fichier est converti dans Revit._
 
-_Si no ha completado la última sección, descargue y abra el archivo **1.4 - Add Floors with Levels.axm** de los **conjuntos de datos de la parte 1 de FormIt Primer**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier **1.4 - Add Floors with Levels.axm** à partir du dossier **Jeux de données Partie I FormIt Primer**._
 
-## **Crear y personalizar niveles**
+## **Création et personnalisation de niveaux**
 
-1 - Para crear niveles, realice lo siguiente:
+1 – Pour créer des niveaux, procédez comme suit :
 
-1. Vaya a la **paleta Nivel** en la **barra de paletas**.
-2. Haga clic en **+** \(**Añadir nivel**\) cuatro veces para crear cuatro niveles.
-3. Haga doble clic en la elevación actual de cada nivel para modificarla a **0'-0", 2'-2", 4'-6"** y **17'-8"**.
-4. Haga doble clic en el nombre actual de cada nivel y cámbieles el nombre a **Suelo, Terraza, Edificio principal** y **Parte superior de la cubierta.**
+1. Accédez à la **palette Niveaux** dans la **barre des palettes**.
+2. Cliquez sur **+** \(**Ajouter un niveau**\) quatre fois pour créer quatre niveaux.
+3. Double-cliquez sur l’élévation actuelle de chaque niveau pour les modifier comme suit : **0’-0", 2’-2", 4’-6"** et **17’-8"**.
+4. Double-cliquez sur le nom actuel de chaque niveau et renommez-les : **Sol, Terrasse, Bâtiment principal** et **Haut du toit.**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Nota** Puede hacer clic en el icono __**++**__ para crear varios niveles con una distancia especificada y uniforme. Esto es útil para edificios de varias plantas_.
+_**Remarque** : vous pouvez cliquer sur l’icône_ _**++**_ _pour créer plusieurs niveaux, séparés par une distance spécifiée et uniforme. Cette option est pratique pour les bâtiments de plusieurs étages_.
 
-## **Aplicar niveles a geometría**
+## **Application de niveaux à la géométrie**
 
-_En los pasos anteriores, solo hemos creado niveles. Ahora ya podemos aplicar esos niveles a la geometría que hemos creado._
+_Dans les étapes précédentes, nous avons uniquement créé des niveaux. Vous pouvez à présent appliquer ces niveaux à la géométrie que vous avez créée._
 
-1 - Para aplicar niveles a la geometría existente, realice lo siguiente:
+1 – Pour appliquer les niveaux à la géométrie existante, procédez comme suit :
 
-1. Haga doble clic en la masa de terraza superior completa para seleccionarla.
-2. En la **paleta Propiedades**, haga clic en **Utilizar niveles**. Este paso preseleccionará todos los niveles que se intersequen actualmente con la geometría seleccionada.
-3. Ahora se le han aplicado tres niveles a la geometría seleccionada **(Edificio principal, Terraza** y **Suelo**\), pero en este ejercicio solo deseamos aplicar **Suelo**. Desactive **Edificio principal** y **Terraza**.
-4. Este proceso garantiza que solo se tenga en cuenta el área intersecada por **Suelo** para el cálculo del área bruta, que se puede ver en el campo **Área por nivel**.
+1. Double-cliquez sur le volume supérieur de la terrasse pour le sélectionner.
+2. Dans la **palette Propriétés**, cliquez sur **Utiliser les niveaux**. Cette étape permet de présélectionner tous les niveaux qui coupent actuellement la géométrie sélectionnée.
+3. Trois niveaux sont maintenant appliqués à la géométrie sélectionnée \(**Bâtiment principal, Terrasse** et **Sol**\), mais dans le cadre de cet exercice, nous allons uniquement appliquer l’option **Sol**. Désactivez les cases **Bâtiment principal** et **Terrasse**.
+4. Cette procédure permet de s’assurer que seule la surface coupée par le **sol** est prise en compte pour le calcul de l’aire brute, qui peut être visualisée dans le champ **Aire par niveau**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Nota** Si no aparecen líneas de nivel de color azul en la masa, escriba_ _**DL**_ _para activar la opción_ _**Mostrar niveles**._
+_**Remarque** : si aucune ligne de niveau bleue ne s’affiche sur le volume, tapez_ _**DL**_ _pour utiliser l’outil_ _**Afficher les niveaux**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

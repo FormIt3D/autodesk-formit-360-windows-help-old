@@ -1,12 +1,12 @@
-# Círculo
+# Cercle
 
-Utilice la herramienta Círculo para dibujar un círculo en el espacio o en otro objeto.
+Utilisez l’outil Cercle pour dessiner un cercle dans l’espace ou sur un autre objet.
 
-Teclado: C
+Clavier : C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Para dibujar un círculo, seleccione primero el centro y, a continuación, especifique el radio del círculo. A continuación, el círculo se convierte automáticamente en una cara.
+Pour dessiner un cercle, sélectionnez d’abord·le point central, puis indiquez le rayon du cercle. Ensuite, le cercle devient automatiquement une face.
 
 ![](../.gitbook/assets/circle1.png)
 

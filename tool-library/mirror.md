@@ -1,13 +1,13 @@
-# Reflejar
+# Mise en miroir
 
-Utilice la herramienta Reflejar para crear un duplicado reflejado de un objeto.
+Utilisez l’outil Miroir pour créer une réplique exacte d’un objet.
 
-Para reflejar un objeto, realice lo siguiente:
+Pour mettre en miroir un objet :
 
-1. Haga doble clic para seleccionar un único objeto o haga clic una vez para seleccionar un grupo.
-2. Haga clic con el botón derecho y seleccione la herramienta Reflejar en el menú contextual o escriba el método abreviado de teclado **MI**.
-3. Se muestran un plano y el eje en el que se reflejará el objeto. El plano se puede desplazar o rotar para personalizar el eje del reflejo.
-4. Cuando haya terminado de ajustar el plano del objeto reflejado, haga clic en cualquier lugar fuera de la selección.
+1. Double-cliquez pour sélectionner un seul objet ou cliquez une fois pour sélectionner un groupe.
+2. Cliquez avec le bouton droit de la souris, puis choisissez l’outil Miroir dans le menu contextuel ou tapez le raccourci clavier **MI**.
+3. Un plan s’affiche et indique l’axe sur lequel l’objet sera mis en miroir. Le plan peut être déplacé ou pivoté pour personnaliser l’axe de la symétrie.
+4. Lorsque vous avez terminé d’ajuster le plan de l’objet mis en miroir, cliquez n’importe où en dehors de la sélection.
 
 ![](../.gitbook/assets/mirror.png)
 

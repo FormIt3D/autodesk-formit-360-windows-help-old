@@ -1,11 +1,11 @@
-# Ajustar escala de objetos
+# Mise à l’échelle·d’un objet
 
-Puede utilizar la **herramienta Escala** para ajustar el tamaño y la orientación de los objetos.
+Vous pouvez utiliser l’**outil Échelle** pour ajuster la taille et l’orientation des objets.
 
-1. Seleccione el objeto que desea ajustar.
-2. Haga clic con el botón derecho del ratón para iniciar el **menú contextual**.
-3. En el menú contextual, seleccione la **herramienta Escala**.
-4. Utilice la rueda de desplazamiento del ratón para aumentar o reducir la escala de la geometría.
+1. Sélectionnez l’objet que vous souhaitez ajuster.
+2. Cliquez avec le bouton droit de la souris pour lancer le **menu contextuel**.
+3. Dans le menu contextuel, sélectionnez l’**outil Échelle**.
+4. Utilisez la molette de la souris pour mettre à l’échelle la géométrie vers le haut ou vers le bas.
 
 ![](../.gitbook/assets/scale1.png)
 

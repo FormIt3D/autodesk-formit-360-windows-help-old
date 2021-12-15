@@ -1,78 +1,78 @@
-# Barras de herramientas y paletas
+# Barres d’outils et palettes
 
-## Barras de herramientas
+## Barres d’outils
 
-La barra de herramientas estándar está activada por defecto, pero se divide en las siguientes secciones. Si lo desea, puede activar, desactivar y reorganizar secciones individuales mediante el menú de Windows.
+La barre d’outils standard est activée par défaut, mais elle est divisée en plusieurs sections. Vous pouvez éventuellement activer, désactiver et réorganiser des sections individuelles à l’aide du menu Windows.
 
-### Archivo
+### Fichier
 
 ![](../.gitbook/assets/file_icons.png)
 
-1. **Menú Archivo** con operaciones de archivo como Abrir, Guardar y Exportar
-2. **Deshacer** el último cambio
-3. **Rehacer** un cambio deshecho
+1. **Menu Fichier** avec des opérations sur les fichiers comme Ouvrir, Enregistrer et Exporter
+2. **Annuler** la dernière modification
+3. **Rétablir** une modification annulée
 
-### Geometría
+### Géométrie
 
 ![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. \*\*\*\*[**Selección**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****y filtros de selección de área
-2. Herramientas [**Medir** ](../tool-library/measure-tool.md)Distancia y [**Medir ángulo**](../tool-library/measure-angle-tool.md)
-3. [**Planos de sección**](../tool-library/section-planes.md)
-4. [**Herramientas de boceto 3D**](../formit-primer/part-i/3d-sketching.md)
-5. Barra de herramienta de [**primitivas**](../tool-library/place-primitive-object.md)
-6. [Barra de herramientas de **geometría avanzada**]() con Unir, Cortar, Barrido, Solevación y Vaciado
-7. Barra de herramientas [**Grupos**](../tool-library/groups.md)
+1. \*\*\*\*[**Sélection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****et filtres de sélection de zone
+2. Outils [**Mesurer** ](../tool-library/measure-tool.md)la distance et [**Mesurer l’angle ** ](../tool-library/measure-angle-tool.md) ****
+3. [**Plans de coupe**](../tool-library/section-planes.md)
+4. [**Outils d’esquisse 3D**](../formit-primer/part-i/3d-sketching.md)
+5. Barre d’outils [**Primitive**](../tool-library/place-primitive-object.md)
+6. Barre d’outils [**Géométrie avancée**]() avec Joindre, Couper, Balayage, Lisser et Coque
+7. Barre d’outils [**Groupes**](../tool-library/groups.md)
 
-### Configuración
+### Paramètres
 
 ![](../.gitbook/assets/settings_icons.png)
 
-1. Menú **Configuración** para la configuración de la interfaz de usuario y la aplicación
-2. **Modo táctil** para activar las interacciones en dispositivos con pantalla táctil
-3. [**Colaboración**](../tool-library/collaboration.md) para administrar sesiones de colaboración con varios usuarios
-4. **Inicio de sesión en Autodesk Account**
-5. **Menú Información** para obtener ayuda y vínculos
+1. Menu **Paramètres** pour les paramètres de l’interface utilisateur et de l’application.
+2. **Mode tactile** pour activer les interactions sur les appareils à écran tactile.
+3. [**Collaboration**](../tool-library/collaboration.md) pour gérer les sessions de collaboration avec plusieurs utilisateurs.
+4. **Connexion au compte Autodesk Account.**
+5. Menu **Informations** pour obtenir de l’aide et des liens.
 
-### Diseño
+### Conception
 
 ![](../.gitbook/assets/design_icons.png)
 
-1. [**Ubicación** ](../tool-library/setting-location.md)
-2. [**Sol, sombras y análisis solar**](../tool-library/solar-analysis.md)
-3. [**Análisis energético**](../tool-library/energy-analysis.md)
+1. [**Emplacement** ](../tool-library/setting-location.md)
+2. [**Soleil, Ombres et Analyse d’ensoleillement**](../tool-library/solar-analysis.md)
+3. [**Analyse d’énergie**](../tool-library/energy-analysis.md)
 
-## Paleta
+## Palette
 
-![](../.gitbook/assets/properties%20%281%29.png) [**Propiedades**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
+![](../.gitbook/assets/properties%20%281%29.png) [**Propriétés**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
 
-![](../.gitbook/assets/layers.png) [**Capas**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png) [**Calques**](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png) [**Escenas**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png) [**Scènes**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual_styles.png)[**Estilos visuales**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual_styles.png) [**Styles visuels**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch_tree.png) [**Árbol de grupos**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch_tree.png) [**Arborescence des groupes**](../tool-library/groups-tree.md)
 
 ![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
 
-![](../.gitbook/assets/levels.png) [**Niveles**](../tool-library/levels-and-area.md)
+![](../.gitbook/assets/levels.png) [**Niveaux**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content_library.png) [**Biblioteca de contenido**](../tool-library/content-library.md)
+![](../.gitbook/assets/content_library.png) [**Bibliothèque de contenu**](../tool-library/content-library.md)
 
-![](../.gitbook/assets/undo.png) [**Administrador de deshacer**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
+![](../.gitbook/assets/undo.png) [**Gestionnaire d’annulation**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin_img.png) [**Módulos de extensión**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
+![](../.gitbook/assets/plugin_img.png) [**Plug-ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
 
-## Menú contextual
+## Menu contextuel
 
-Haga clic con el botón derecho en un elemento del lienzo 3D para visualizar un menú de comandos y modificaciones para ese tipo de geometría. Coloque el cursor sobre los iconos para ver sus nombres.
+Cliquez avec le bouton droit de la souris sur un élément de la zone de dessin 3D pour afficher un menu de commandes et de modifications pour ce type de géométrie. Placez le curseur sur les icônes pour afficher leur nom.
 
 ![](../.gitbook/assets/wheel_img.png)
 
-## Métodos abreviados de teclado
+## Raccourcis clavier
 
-Personalice los [m**étodos abreviados de teclado**](../appendix/keyboard-shortcuts.md) en Editar &gt; Preferencias &gt; Métodos abreviados.
+Personnalisez les [**raccourcis clavier**](../appendix/keyboard-shortcuts.md) de FormIt dans Modifier > Préférences > Raccourcis.
 
 ![](../.gitbook/assets/shortcuts_img.png)
 

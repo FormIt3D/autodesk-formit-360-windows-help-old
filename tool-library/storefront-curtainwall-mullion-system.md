@@ -1,80 +1,80 @@
-# Sistema de montantes de escaparate/muro cortina
+# Système de meneaux de vitrine/mur-rideau
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Con tecnología de Dynamo
+## Optimisé par Dynamo
 
-Dynamo proporciona la capacidad de crear rápidamente sistemas de montantes de muro cortina/escaparate en FormIt. Puede encontrar el sistema de muro cortina/escaparate en el directorio de muestras de Dynamo del panel de Dynamo:
+Dynamo permet de créer rapidement des systèmes de meneaux de vitrine/mur-rideau dans FormIt. Le système Storefront Curtainwall se trouve dans le répertoire Dynamo Samples du groupe de fonctions Dynamo :
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selección de "cristal" para el sistema de montantes
+## Sélection du vitrage pour le système de meneaux
 
-A partir de FormIt 2021.2, el sistema de muro cortina/escaparate utiliza el nuevo nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), que permite seleccionar un elemento de "cristal" \(una cara única o un sólido extruido\) alrededor del que generar un sistema de montantes.
+À partir de FormIt 2021.2, le système Storefront Curtainwall utilise le nouveau [nœud SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), qui vous permet de sélectionner un élément de « vitrage » \(une seule face ou un solide extrudé\) autour duquel vous pouvez générer un système de meneaux.
 
-![Un plano sencillo de "cristal" con un hueco para puertas en la parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Plan simple d’une « vitre » avec une ouverture pour les portes en bas.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-Al hacer clic en la miniatura del muro cortina/escaparate \(observe el icono que indica que se requiere una selección\), FormIt le solicitará que seleccione la geometría de cristal para continuar, como se muestra a continuación:
+Lorsque vous cliquez sur la miniature Storefront Curtainwall \(notez l’icône indiquant qu’une sélection est requise\), FormIt vous invite à sélectionner la géométrie de vitre pour continuer :
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A continuación, se ofrecen algunas notas y advertencias sobre cómo funciona la selección de cristal:
+Tenez compte des remarques et mises en garde suivantes concernant le fonctionnement de la sélection du vitrage :
 
-* Actualmente, solo se admiten superficies planas. Si selecciona una serie de superficies \(por ejemplo, una superficie "curva" compuesta de superficies planas más pequeñas\), la secuencia de comandos encontrará la cara plana más grande y la utilizará. 
-* Si el cristal es sólido (es decir, una sola cara extruida ligeramente para representar algo de grosor), la secuencia de comandos encontrará la superficie más grande, por lo que los montantes resultantes se generarán en un lado del sólido de cristal.
-* Puede dibujar huecos para puertas y eliminar la superficie resultante del contorno de cristal; los montantes resultantes respetarán el hueco de puerta, dejándolo en blanco para la adición de puertas.
-* Debido a las limitaciones de Dynamo, esta secuencia de comandos no funcionará si la geometría de cristal tiene huecos en el medio.
+* Actuellement, seules les surfaces planes sont prises en charge. Si vous sélectionnez une série de surfaces \(par exemple, une surface « incurvée » composée de surfaces planes plus petites\), le script recherche la face plane la plus grande et l’utilise.
+* Si votre vitre est opaque, c’est-à-dire qu’une seule face est très légèrement extrudée afin d’apporter une légère épaisseur, le script recherche la plus grande surface afin de générer les meneaux obtenus sur un côté du solide en verre. 
+* Vous pouvez esquisser des ouvertures de portes et supprimer la surface obtenue du contour du vitrage. Les meneaux obtenus respectent l’ouverture, laissant ainsi un espace vide pour l’ajout de portes.
+* En raison des limitations de Dynamo, ce script ne fonctionne pas si la géométrie du vitrage comporte des ouvertures au milieu.
 
-## Consejos y trucos
+## Trucs et astuces
 
-Al seleccionar la geometría de un gráfico de Dynamo en FormIt, algunos trucos organizativos pueden simplificar la experiencia y facilitar la creación de ejemplares de los resultados, como se indica a continuación:
+Lorsque vous sélectionnez la géométrie d’un graphique Dynamo dans FormIt, certaines astuces d’organisation simplifient l’expérience et l’instanciation des résultats :
 
-* Coloque el cristal en un grupo y utilice este como selección para la secuencia de comandos de escaparate/muro cortina. De esta forma, es más fácil editar el perfil de cristal después de generar los montantes y, si el cristal se modifica considerablemente entre tramos y los ID de cara han cambiado, el grupo garantiza que la secuencia de comandos siempre encuentre el cristal, ya que utiliza el ID de grupo, no el ID de cara.
-* Si tiene previsto copiar y pegar los resultados del sistema de montantes en otras ubicaciones del modelo, es mejor que el cristal y los montantes resultantes se hayan incluido en un grupo. Esto también evitará problemas si el nodo de selección no sabe qué ejemplar de cristal utilizar cuando solo se copie y se pegue el grupo de montantes resultante.
-   * Incluya primero el cristal en un grupo. Haga doble clic en él para seleccionar el cristal y pulse G, o bien utilice los comandos de grupo del menú contextual o la barra de herramientas.
-   * Seleccione el grupo resultante y colóquelo en otro grupo.
-   * Haga doble clic para introducir el primer grupo. Este es el "contenedor" tanto para el cristal como para los montantes resultantes.
-   * Haga clic en la miniatura del muro cortina/escaparate y utilice el grupo de cristal como selección.
-   * Una vez que se ejecute la secuencia de comandos, puede salir del grupo y copiar y pegar el contenedor según sea necesario. Puede editar cualquiera de los ejemplares \(ajustando la forma o los parámetros de cristal\) sin problemas.
+* Placez la vitre dans un groupe et utilisez le groupe comme sélection pour le script Storefront/Curtainwall. Cette méthode permet de modifier le profil de la vitre plus facilement après la génération des meneaux. Si la vitre est fortement modifiée entre les exécutions et que les ID de face ont changé, le groupe s’assure que le script identifie toujours la vitre, car il utilise l’ID de groupe et non l’ID de face.
+* Si vous prévoyez de copier les résultats du système de meneaux et de les coller à d’autres emplacements de votre modèle, il est préférable que la vitre et les meneaux obtenus soient contenus dans un groupe. Cela permet également d’éviter les problèmes avec le nœud de sélection qui ne sait pas quelle occurrence de vitre utiliser lorsque seul le groupe de meneaux obtenu est copié et collé.
+   * Tout d’abord, mettez votre vitre dans un groupe. Double-cliquez dessus pour sélectionner la vitre, puis appuyez sur la touche G ou utilisez les commandes de groupe du menu contextuel ou de la barre d’outils.
+   * Sélectionnez le groupe obtenu et placez-le dans un autre groupe.
+   * Double-cliquez pour ouvrir le premier groupe. Il s’agit du « conteneur » de la vitre et des meneaux obtenus.
+   * Cliquez sur la miniature Storefront Curtainwall et utilisez le groupe de vitres comme sélection.
+   * Une fois le script exécuté, vous pouvez quitter le groupe et copier/coller le conteneur selon vos besoins. Vous pouvez modifier toutes les instances \(en ajustant la forme ou les paramètres de la vitre\) sans problème.
 
-## Opciones del sistema de montantes
+## Options du système de meneaux
 
-Una vez que seleccione un cristal y ejecute la secuencia de comandos, obtendrá un resultado en el lienzo de FormIt en forma de grupo de FormIt. Este grupo se seleccionará automáticamente y el panel Propiedades presentará las opciones disponibles.
+Une fois que vous avez sélectionné la vitre et exécuté le script, vous obtenez un résultat dans la zone de dessin FormIt, sous la forme d’un groupe FormIt. Ce groupe est automatiquement sélectionné et le groupe de fonctions Properties affiche les options disponibles.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Ejecutar**: si modifica la forma del cristal y desea volver a ejecutar el gráfico para actualizar los resultados del montante, haga clic en este botón.
-* **Editar gráfico incrustado**: edite la secuencia de comandos de Dynamo que genera la geometría. Esta secuencia de comandos está incrustada en el archivo de FormIt y es específica de este grupo.
-* **Select Glass \(Surface or Solid\)**: haga clic en esta opción para actualizar la selección a un cristal diferente alrededor del que generar los montantes.
+* **Run** : si vous modifiez la forme de la vitre et souhaitez réexécuter le graphique pour mettre à jour les résultats du meneau, cliquez sur ce bouton.
+* **Edit Embedded Graph** : modifiez le script Dynamo qui génère la géométrie. Ce script est incorporé dans le fichier FormIt et est spécifique de ce groupe.
+* **Select Glass \(Surface or Solid\)** : cliquez sur ce bouton pour mettre à jour la sélection vers un autre élément de vitrage autour duquel générer les meneaux.
 
-La secuencia de comandos utilizará los valores por defecto para su primera ejecución, por lo que es recomendable que los ajuste a su caso de uso exclusivo. Todos los valores utilizarán las unidades de FormIt actuales.
+Le script utilise les valeurs par défaut pour sa première exécution. Vous devez donc les ajuster en fonction de votre cas d’utilisation unique. Toutes les valeurs utilisent les unités FormIt actives.
 
-* **Mullion Width + Mullion Depth**: la anchura y la profundidad de los elementos de montante.
-* **Vertical Mullion Spacing**: la distancia, en el centro, entre cada montante vertical.
-* **Flip Vertical Mullion Layout**: la secuencia de comandos inicia la separación entre montantes verticales desde un lado, elegido arbitrariamente. Si el resultado inicia la separación entre montantes en el lado incorrecto para el caso de uso, establezca esta opción en "True" para cambiar la presentación para que comience en el sitio opuesto.
-* **Center Vertical Mullion Layout**: en lugar de iniciar el cálculo de separación entre montantes verticales en un extremo del cristal, inicie el cálculo en el medio, lo que permite crear un diseño simétrico de montantes verticales.
-* **First Horizontal Mullion Spacing** permite establecer la primera separación entre montantes horizontales desde la parte inferior. Resulta útil si necesita una fila de módulos de cristalera más cortos en la parte inferior, separados del resto de la distancia de montantes horizontales.
-* **Horizontal Mullion Spacing**: separación típica entre montantes horizontales, en el centro, a partir del primer montante, tal como se ha indicado anteriormente.
-* **Flip Horizontal Mullion Layout**: si desea que el diseño de montante horizontal comience en la parte superior en lugar de en la inferior, establezca esta opción en "True".
-* **Center Horizontal Mullion Layout**: en lugar de iniciar el cálculo de separación entre montantes horizontales en la parte inferior o superior del cristal, inicie el cálculo en el medio, lo que permite crear un diseño simétrico de montantes horizontales.
+* **Mullion Width + Depth** : largeur et profondeur de tous les éléments de meneau.
+* **Vertical Mullion Spacing** : distance, au centre, entre chaque meneau vertical.
+* **Flip Vertical Mullion Layout** : le script commence l’espacement des meneaux verticaux à partir d’un côté, choisi de manière arbitraire. Si le résultat indique que l’espacement des meneaux est défini sur le mauvais côté pour votre cas d’utilisation, définissez cette option sur True pour que la présentation commence sur le site opposé.
+* **Center Vertical mullion Layout** : au lieu de commencer le calcul de l’espacement des meneaux verticaux à une extrémité de la vitre, lancez le calcul au milieu, afin de créer une disposition symétrique des meneaux verticaux.
+* **First Horizontal Mullion Spacing** : définit l’espacement du premier meneau horizontal en partant du bas. Cette option est utile si vous avez besoin d’une rangée de modules de vitrage plus courts en bas, séparés du reste de l’espacement des meneaux horizontaux.
+* **Horizontal Mullion Spacing** : espacement type des meneaux horizontaux, au centre, commençant après le premier meneau comme indiqué ci-dessus.
+* **Flip Horizontal Mullion Layout** : si vous souhaitez que la disposition des meneaux horizontaux commence en haut et non en bas, définissez cette option sur True.
+* **Center Horizontal Mullion Layout** : au lieu de lancer le calcul de l’espacement des meneaux horizontaux en bas ou en haut de la vitre, lancez le calcul au milieu, afin de créer une disposition symétrique des meneaux horizontaux.
 
-## Opciones ocultas
+## Options masquées
 
-¿Desea un mayor nivel de personalización? Hay varias opciones avanzadas ocultas en el panel Propiedades de FormIt; se puede acceder a ellas haciendo clic en Editar gráfico incrustado para visualizar el contenido completo del gráfico en Dynamo:
+Vous recherchez d’autres options de personnalisation ? Plusieurs options avancées sont masquées dans le groupe de fonctions Propriétés de FormIt. Pour y accéder, il suffit de cliquer sur « Edit Embedded Graph » afin d’afficher l’intégralité du contenu du graphique dans Dynamo :
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Montantes aleatorios
+### Meneaux aléatoires
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: establezca esta opción en "True" para separar los montantes verticales u horizontales de forma aleatoria.
-* **Min/Max Mullion Spacing \(if random\)**: ajuste estos valores para establecer un intervalo de valores aleatorios de distancia mínima y máxima.
+* **Randomize Vertical and Horizontal Mullion Layout** : définissez cette option sur True pour espacer les meneaux verticaux ou horizontaux de façon aléatoire.
+* **Min/Max Mullion Spacing \(if random\)** : ajustez ces valeurs pour définir une plage de valeurs d’espacement aléatoire minimum et maximum.
 
-### Montantes de borde
+### Meneaux extérieurs
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** por defecto, el sistema de montantes utilizará el contorno de cristal y lo desfasará hacia dentro para crear los montantes de borde. Para desfasar hacia fuera, establezca esta opción en "True". Esto aumentará el tamaño general del sistema de montantes fuera del contorno de cristal mediante la opción "Mullion Width".
-* **Tolerance Between Selection and Border Mullions**: por defecto, el sistema de montantes se genera exactamente en el borde del cristal, lo que podría provocar un conflicto de planos en el que chocarían el borde del cristal y las superficies exteriores de los montantes de borde. En la mayoría de los casos, esto no será visible, pero si el caso de uso requiere que los bordes del sistema estén visibles y desea evitar el conflicto de planos, active esta opción y ajuste el valor de tolerancia según sea necesario.
+* **Flip Offset Direction of Border Mullions :** par défaut, le système de meneaux utilise le contour du vitrage et le décale vers l’intérieur afin de créer les meneaux extérieurs. Pour effectuer un décalage vers l’extérieur, définissez cette option sur True. Cette opération augmente la taille globale du système de meneaux en dehors du contour du vitrage en fonction du paramètre Largeur du meneau.
+* **Tolerance Between Selection and Border Mullions** : par défaut, le système de meneaux est généré exactement au niveau du contour du vitrage, ce qui peut entraîner du Z fighting à l’endroit où le cadre de la vitre et les surfaces externes des meneaux extérieurs se rejoignent. Dans la plupart des cas, ceci n’est pas visible, mais si votre cas d’utilisation requiert que les arêtes du système soient visibles et que vous souhaitez éviter le Z fighting, activez cette option et ajustez la valeur de tolérance si nécessaire.
 

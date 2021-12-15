@@ -1,99 +1,99 @@
-# Configuración de la ubicación
+# Définition de l’emplacement
 
-La configuración de la ubicación del proyecto en el mundo es importante para la precisión del modelo y los análisis posteriores, incluido lo siguiente:
+La définition de l’emplacement de votre projet dans le monde est importante pour la précision de votre modèle et des analyses en aval, notamment pour les raisons suivantes :
 
-* La ubicación se utiliza para importar una imagen de satélite que se puede utilizar para trazar un emplazamiento o edificio existentes.
-* La ubicación se utiliza para importar terreno 3D, que se puede utilizar para hacer referencia a datos topológicos de un emplazamiento.
-* La ubicación se utiliza para colocar con precisión el sol en el cielo, lo que afecta al cálculo de sombras.
-* La ubicación se utiliza para el análisis solar y el análisis energético a fin de proporcionar cálculos analíticos precisos.
+* L’emplacement est utilisé pour importer une image satellite utilisée pour tracer un site ou un bâtiment existant.
+* L’emplacement est utilisé pour importer un terrain 3D, qui peut servir à référencer les données topologiques d’un site.
+* L’emplacement est utilisé pour positionner avec précision le soleil dans le ciel, ce qui a une incidence sur le calcul des ombres.
+* L’emplacement est utilisé pour l’analyse d’ensoleillement et l’analyse d’énergie afin de fournir des calculs analytiques précis.
 
-Deberá iniciar sesión con su cuenta de Autodesk Account para acceder al cuadro de diálogo Establecer ubicación y sus servicios.
+Vous devez être connecté à votre compte Autodesk Account pour accéder à la boîte de dialogue Définir l’emplacement et à ses services.
 
-### Para empezar a configurar la ubicación
+### Mise en route avec l’emplacement
 
-* Inicie el cuadro de diálogo **Establecer ubicación** desde la herramienta **Ubicación** de la barra de herramientas o con el acceso directo del teclado SL.
+* Lancez la boîte de dialogue **Définir l’emplacement** à partir de l’outil **Emplacement** de la barre d’outils ou à l’aide du raccourci clavier SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Escriba primero la ubicación del proyecto en el cuadro de búsqueda de la esquina superior izquierda de la ventana _Establecer ubicación_.
+* Tout d’abord, saisissez l’emplacement de votre projet dans la zone de recherche située dans le coin supérieur gauche de la fenêtre _Définir l’emplacement_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Seleccione una de las opciones de ubicación de relleno automático o pulse Intro para elegir la primera
-* Se ampliará la vista de la ubicación que ha buscado automáticamente.
+* Sélectionnez l’une des options d’emplacement proposées automatiquement ou appuyez sur la touche Entrée pour choisir la première option.
+* Un zoom avant est effectué automatiquement sur l’emplacement que vous avez recherché.
 
-### Comparación de Establecer solo ubicación e Importar imagen de satélite y terreno
+### Définir l’emplacement uniquement et Importer une image satellite et un terrain
 
-Una vez que haya buscado una ubicación, puede elegir una de estados opciones:
+Une fois que vous avez recherché un emplacement, choisissez l’une des deux options suivantes :
 
-* La opción **Establecer solo ubicación** definirá la ubicación en el archivo sin importar imágenes de satélite.
-* La opción **Importar imagen de satélite y terreno** definirá la ubicación, e importará también imágenes de satélite y terreno con un nivel de zoom y extensión que se pueden configurar.
+* L’option **Définir l’emplacement uniquement** permet de définir l’emplacement dans le fichier sans importer d’image satellite.
+* L’option **Importer une image satellite et un terrain** permet de définir l’emplacement, ainsi que l’image satellite et le terrain à l’aide d’un niveau de zoom et d’étendues que vous pouvez configurer.
 
-### Importación de imágenes de satélite
+### Importation d’une image satellite
 
-* Haga clic en **Importar imagen de satélite y terreno** en la parte superior derecha de la ventana **Establecer ubicación**.
-* Aparecerá una vista preliminar de las imágenes de satélite en el centro de la ventana, junto con una indicación de dónde aparecerá el origen de FormIt en relación con las imágenes.
+* Cliquez sur **Importer une image satellite et un terrain** dans la partie supérieure droite de la fenêtre **Définir l’emplacement**.
+* Un aperçu de l’image satellite s’affiche au centre de la fenêtre, avec une indication de l’emplacement de l’origine FormIt par rapport à l’image.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Arrastre las imágenes de satélite dentro del cuadrado para ajustar su posición.
-* Una vez que el área cuadrada encapsule las imágenes que desea, haga clic en **Finalizar importación de imagen**.
-* La imagen se importará a escala, con el norte real orientado hacia arriba, centrado en el origen del lienzo de FormIt. Puede cambiar la transparencia y el orden Z de la imagen importada. Para ello, haga doble clic en ella y vaya a la [**paleta Propiedades**](../formit-introduction/tool-bars.md).
+* Faites glisser l’image satellite dans le carré pour ajuster sa position.
+* Une fois que la surface carrée contient l’image souhaitée, cliquez sur **Terminer l’importation**.
+* L’image est importée à l’échelle, avec le nord géographique orienté vers le haut, centrée sur l’origine de la zone de dessin FormIt. Pour modifier la transparence et l’ordre Z de l’image importée, double-cliquez dessus et accédez à la [**palette Propriétés**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Actualización de imágenes de satélite
+### Mise à jour de l’image satellite
 
-Después de importar imágenes de satélite por primera vez, puede utilizar la ventana Establecer ubicación para ajustar el nivel de zoom o la extensión de las imágenes de satélite.
+Après avoir importé la première image satellite, utilisez la fenêtre Définir l’emplacement pour ajuster le niveau de zoom ou l’étendue de l’image satellite.
 
-* Inicie de nuevo la ventana **Establecer ubicación** accediendo a ella desde la barra de herramientas, como se ha indicado anteriormente.
-* Haga clic en **Importar imagen de satélite y terreno**
-* Verá el nivel de zoom y la extensión de la imagen de satélite actual, como se muestra en el lienzo de FormIt.
-* Solo tiene que ajustar la posición o el zoom y hacer clic en **Finalizar importación de imagen** como antes.
-* Cuando la imagen se vuelva a importar en el lienzo, se desplazará a la ubicación correcta con respecto a la posición de la imagen original \(y puede que ya no esté centrada en el origen\), como se muestra a continuación:
+* Accédez·à nouveau la fenêtre **Définir l’emplacement** à partir de la barre d’outils, comme indiqué ci-dessus.
+* Cliquez sur **Importer une image satellite et un terrain.**
+* Le niveau de zoom et l’étendue de l’image satellite actifs s’affichent, comme indiqué dans la zone de dessin FormIt.
+* Il vous suffit d’ajuster la position ou le zoom, puis de cliquer sur **Terminer l’importation** comme vous l’avez fait auparavant.
+* Lorsque l’image est réimportée dans la zone de dessin, elle est placée à l’emplacement correct par rapport à la position de l’image d’origine \(et ne peut plus être centrée sur l’origine\) :
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importación de terreno
+### Importation d’un terrain
 
-Como novedad en FormIt 2021.3, al utilizar el cuadro de diálogo **Establecer ubicación** para importar imágenes de satélite, también obtendrá terreno.
+Dans FormIt 2021.3, lorsque vous utilisez la boîte de dialogue **Définir l’emplacement** pour importer une image satellite, vous obtenez également le terrain.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Cuando se importa terreno, este se coloca en una capa, que está desactivada por defecto \(en caso de que haya comenzado a modelar, el modelo puede estar cubierto por el terreno\).
+Lorsque le terrain est importé, il est placé sur un calque, qui est désactivé par défaut \(si vous avez commencé la modélisation, votre modèle est peut être recouvert par le terrain\).
 
-Cuando esté listo para ver el terreno, active la casilla de verificación para activar o desactivar la capa de terreno, como se muestra a continuación:
+Lorsque vous êtes prêt à afficher le terrain, activez le calque Terrain en cochant la case correspondante :
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Trabajo con terreno
+### Utilisation du terrain
 
-El terreno se colocará en un grupo de FormIt. Haga doble clic en el grupo para editarlo.
+Le terrain est placé dans un groupe FormIt. Double-cliquez sur le groupe pour le modifier.
 
-Dentro, encontrará dos mallas, una para los lados y la parte inferior y otra para la parte superior.
+Vous y trouverez deux maillages : un pour les côtés et le bas, et un pour le haut.
 
-Si desea modificar el terreno, deberá convertir las mallas en un único objeto sólido, como se indica a continuación:
+Si vous souhaitez modifier le terrain, vous devez convertir les maillages en un seul objet solide :
 
-* Seleccionar ambas mallas.
-* Haga clic con el botón derecho y elija la opción De mallas a objetos o utilice el método abreviado MO.
+* Sélectionner les deux maillages
+* Cliquez avec le bouton droit de la souris, puis choisissez l’option Maillages en objets ou utilisez le raccourci MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-Al convertir ambas mallas en un objeto al mismo tiempo, FormIt puede combinarlas en un objeto sólido y múltiple, que se puede utilizar para operaciones sólidas como el corte booleano.
+Lors de la conversion des deux maillages en un objet simultanément, FormIt peut les combiner en un objet solide et multiple, qui peut être utilisé pour des opérations de solide telles que la coupe booléenne.
 
-Desde aquí, puede utilizar una combinación de [Vista superior](orthographic-views.md) y [Cámara ortogonal](orthographic-camera.md) para trazar el contorno del emplazamiento en un plano horizontal y, a continuación, extruir el plano en un volumen que se interseque con el terreno. El uso de un [material](materials.md) transparente le ayuda a ver el terreno a través del sólido de corte, como se muestra a continuación:
+À partir de là, vous pouvez utiliser une combinaison de [Vue de dessus](orthographic-views.md) et de [Caméra orthogonale](orthographic-camera.md) pour tracer la limite de votre site sur un plan horizontal, puis extruder ce plan dans un volume qui croise le terrain. L’utilisation d’un [matériau](materials.md) transparent vous permet de visualiser le terrain à travers le solide de découpe :
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Utilice la herramienta Cortar geometría y seleccione el terreno como el sólido en el que se cortará y el volumen de corte como el sólido que se va a eliminar.
+Utilisez l’outil Couper la géométrie et sélectionnez le terrain comme « solide à couper » et le volume de découpe comme « solide à supprimer ».
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-El resultado será el terreno con el sólido de corte eliminado, lo que expone el vacío donde puede dibujar el nuevo emplazamiento y cimentación.
+Le solide de découpe est supprimé du terrain, exposant ainsi un espace vide où vous pouvez dessiner le nouveau site et les nouvelles fondations.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-Puede utilizar [capas](layers.md) para ocultar el sólido de corte, o incluso para realizar copias del terreno con y sin el corte, en caso de que necesite hacer referencia al terreno original o cambiar la forma de corte antes de ejecutar la operación de corte de sólido.
+Vous pouvez utiliser des [calques](layers.md) pour masquer le solide de découpe, ou même faire des copies du terrain avec et sans la découpe, au cas où vous auriez besoin de référencer le terrain d’origine, ou de changer la forme de découpe avant d’exécuter l’opération de découpe de solide.
 

@@ -1,54 +1,54 @@
-# 1.6 - Controlar la visibilidad con capas
+# 1.6 – Contrôle de la visibilité avec les calques
 
-_Al igual que AutoCAD y Photoshop, las capas de FormIt permiten administrar la visibilidad de los objetos del modelo. En este capítulo, vamos a crear una capa para guardar y ocultar la masa de construcción para su posterior análisis._
+_Comme dans AutoCAD et Photoshop, les calques dans FormIt vous permettent de gérer la visibilité des objets dans votre modèle. Dans ce chapitre, nous allons créer un calque pour enregistrer et masquer le volume du bâtiment en vue d’une analyse ultérieure._
 
-_Si no ha completado la última sección, descargue y abra el archivo_ _**1.6 - Control Visibility with Layers.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier __**1.6 - Control Visibility with Layers.axm**__ à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
-## **Crear capas**
+## **Créer des calques**
 
-1 - Para crear nuevas capas, realice lo siguiente:
+1 – Pour créer de nouveaux calques, procédez comme suit :
 
-1. Vaya a la **paleta Capas** y haga clic en el signo **+** tres veces para crear tres capas.
-2. Haga doble clic en los nombres de capa para cambiarles el nombre a **Masa**, **Suelo del edificio principal** e **Imagen de plano.**
+1. Accédez à la **palette Calques** et cliquez trois fois sur le signe **+** pour créer trois calques.
+2. Double-cliquez sur les noms des calques pour les renommer **Volume**, **Sol du bâtiment principal** et **Image du plan.**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Nota**_ _Puede hacer clic en un nombre de capa y arrastrarlo hacia arriba o hacia abajo para reordenar las capas._
+_**Remarque :**_ _vous pouvez cliquer sur un nom de calque et le faire glisser vers le haut ou vers le bas pour réorganiser les calques._
 
-2 - Para asignar el grupo **Masa - Edificio principal** a la capa **Masa**, realice lo siguiente:
+2 – Pour affecter le groupe **Volume – Bâtiment principal** au calque **Volume** :
 
-1. En el lienzo, seleccione el grupo **Masa - Edificio principal**.
-2. En la **paleta Capas**, seleccione la capa **Masa** en el menú desplegable **Selección en:**. Del mismo modo, asigne el grupo **Imagen de plano** a la capa **Imagen de plano**.
+1. Dans la zone de dessin, sélectionnez le groupe **Volume – Bâtiment principal**.
+2. Dans la **palette des calques**, choisissez le calque **Volume** dans le menu déroulant « **Sélection activée :** ». De même, affectez le groupe **Image du plan** au calque **Image du plan**.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicar grupo**
+## **Dupliquer le groupe**
 
-_Ahora comenzaremos el proceso de modelado del edificio con más detalle. El primer paso consiste en crear la geometría del suelo en función de la masa de construcción que ya tenemos._
+_Nous allons maintenant commencer à modéliser le bâtiment plus en détail. La première étape consiste à créer la géométrie du sol en fonction du volume du bâtiment que nous avons déjà._
 
-1 - Seleccione de nuevo el grupo **Masa - Edificio principal**. Pulse **Ctrl + C \(Copiar\)** para copiar y, a continuación, **Ctrl + Mayús + V \(Pegar in situ\)** para pegar la masa en el mismo lugar.
+1 – Sélectionnez à nouveau le groupe **Volume – Bâtiment principal**. Appuyez sur **Ctrl + C \(Copier\)** pour copier, puis sur **Ctrl + Maj + V \(Coller sur place\)** pour coller le volume au même endroit.
 
-2 - Para disociar la nueva geometría del grupo original, haga clic con el botón derecho para acceder al **Menú contextual** y seleccione la opción **Establecer como exclusivo \(MU\)**.
+2 – Pour dissocier la nouvelle géométrie de groupe du groupe d’origine : cliquez avec le bouton droit de la souris pour accéder au **menu contextuel**, puis choisissez l’option **Rendre unique \(MU\)**.
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Nota** El nuevo grupo ya no está asociado con el original. Los cambios realizados en el nuevo grupo no modificarán el grupo original._
+_**Remarque** : le nouveau groupe n’est plus associé à l’original. Les modifications apportées au nouveau groupe ne modifieront pas le groupe d’origine._
 
-## **Crear la geometría de suelo**
+## **Création de la géométrie du sol**
 
-1 - Vuelva a asignar la capa del grupo como se indica a continuación:
+1 – Réaffectez le calque du groupe comme suit :
 
-1. Haga clic una vez para seleccionar uno de los grupos de **Masa - Edificio principal**.
-2. Coloque el grupo en la capa **Suelo del edificio principal** mediante el menú desplegable **Selección en:** de la **paleta Capas**.
-3. Desactive la capa **Masa** para ocultar su geometría y mantenerla a salvo de cualquier modificación accidental.
+1. Cliquez une fois pour sélectionner l’un des groupes **Volume – Bâtiment principal**.
+2. Placez le groupe sur le calque **Sol du bâtiment principal** à l’aide de la liste déroulante « **Sélection activée :** » de la **palette des calques**.
+3. Désactivez le calque **Volume** pour masquer sa géométrie et la protéger contre les modifications accidentelles.
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Haga doble clic en el grupo visible **Masa - Edificio principal** para editarlo. Cambie el nombre del grupo a **Suelo** en la **paleta Propiedades**.
+2 – Double-cliquez sur le groupe visible **Volume – Bâtiment principal** pour le modifier. Renommez le groupe **Sol** dans la **palette Propriétés**.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Haga clic una vez** en la **cara superior** de la geometría para seleccionarla. Haga clic de nuevo y comience a arrastrar la cara hacia abajo. Cuando arrastre la cara hacia abajo, introduzca **11'-2"**; aparecerá el **cuadro de diálogo Cota**. Haga clic en **Aceptar** después de introducir el valor. El suelo resultante debe tener un grosor de 1'. Haga doble clic en el espacio para salir del grupo.
+3 – **Cliquez une fois** sur la **face supérieure** de la géométrie pour la sélectionner. Cliquez à nouveau et commencez à faire glisser la face vers le bas. Lorsque vous faites glisser la face vers le bas, tapez **11’-2"**. La **boîte de dialogue Cotation** s’affiche. Cliquez sur **OK** après avoir entré la valeur. Le sol obtenu doit avoir une épaisseur de 1’. Double-cliquez dans l’espace pour quitter le groupe.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

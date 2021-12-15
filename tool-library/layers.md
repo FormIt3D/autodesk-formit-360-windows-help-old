@@ -1,28 +1,28 @@
-# Capas
+# Calques
 
-Utilice Capas para controlar la visibilidad de los objetos de FormIt.
+Utilisez les calques pour contrôler la visibilité des objets FormIt.
 
-Vea las capas en acción en [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Pour découvrir le fonctionnement des calques, suivez le guide [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Creación y denominación de capas
+## Création et nommage des calques
 
-En el panel Capas, puede hacer clic en el icono **+** para crear capas y asignarles nombres.
+Dans le groupe de fonctions Calques, cliquez sur l’icône « **+** » pour créer et nommer vos calques.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-Puede hacer doble clic en el nombre de la capa para cambiarlo o activar o desactivar la visibilidad de sus objetos mediante la activación o la desactivación de la casilla de la izquierda. Utilice la casilla de verificación derecha para bloquear y desbloquear capas. Una capa bloqueada seguirá estando visible, pero no se podrá seleccionar ni editar.
+Pour renommer le calque, double-cliquez sur son nom. Pour activer ou désactiver la visibilité de ses objets, cochez ou décochez la case de gauche. Utilisez la case à cocher de droite pour verrouiller et déverrouiller des calques. Un calque verrouillé reste visible, mais ne peut pas être sélectionné ni modifié.
 
-## Administración de objetos en capas
+## Gestion des objets sur les calques
 
-Seleccione objetos en el lienzo y, a continuación, utilice el menú desplegable de la parte superior del panel Capas para indicar en qué capa se deben colocar los objetos seleccionados.
+Sélectionnez des objets dans la zone de dessin, puis utilisez la liste déroulante située dans la partie supérieure du groupe de fonctions Calques pour indiquer sur quel calque les objets sélectionnés doivent être placés.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt no reconoce el concepto de "capa por defecto" o "capa de trabajo". Toda la geometría nueva se creará en "No hay capas" y deberá volver a asignar objetos a capas después de generarlos.
+FormIt n’inclut pas de calque par défaut ou de travail. Toutes les nouvelles géométries créées sont définies sur « Sans calque », et vous devez réaffecter les objets aux calques après leur génération.
 
-Puede hacer clic con el botón derecho en una capa y elegir Seleccionar todo en capas para elegir toda la geometría asignada actualmente a esta capa.
+Vous pouvez cliquer avec le bouton droit de la souris sur un calque et choisir « Sélectionner tous les objets du calque » pour sélectionner toute la géométrie actuellement affectée à ce calque.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-También puede reordenar las capas en el panel. Para ello, arrástrelas y suéltelas en una nueva posición. Tenga en cuenta que esto no afecta a la visibilidad de la geometría; se trata de una herramienta de organización exclusiva del panel.
+Vous pouvez également réorganiser les calques dans le groupe de fonctions. Pour ce faire, faites-les glisser et déposez-les à un nouvel emplacement. Notez que cela n’a aucun impact sur la visibilité de la géométrie. Il s’agit d’un outil purement organisationnel dans le groupe de fonctions.
 

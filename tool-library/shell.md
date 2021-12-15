@@ -1,4 +1,4 @@
-# Vaciado
+# Coque
 
-A partir de un objeto sólido, se puede crear un "vaciado" de una anchura especificada. Los vaciados son útiles para crear muros rápidamente a partir de un modelo de masa.
+À partir d’un objet solide, vous pouvez créer une « coque » d’une largeur spécifiée. Les coques sont utiles pour créer rapidement des murs à partir d’un modèle de volume :
 

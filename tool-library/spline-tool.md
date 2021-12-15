@@ -1,14 +1,14 @@
 # Spline
 
-La herramienta Spline permite crear bocetos orgánicos en el espacio o en otros objetos.
+L’outil Spline vous permet de créer des esquisses organiques dans l’espace ou sur d’autres objets.
 
 ![](../.gitbook/assets/spline.png)
 
-Una spline se dibuja a partir de al menos tres puntos interpolados. La geometría conectada se simplifica, lo que crea una curva orgánica y suave entre los puntos especificados. Al igual que otras herramientas de dibujo, las splines se pueden dibujar en 3D mediante el forzado de cursor a puntos 3D durante el dibujo.
+Une spline est dessinée à partir d’au moins 3 points interpolés. La géométrie connectée est simplifiée, créant une courbe lisse et organique entre les points spécifiés. Comme les autres outils de dessin, les splines peuvent être dessinées en 3D par accrochage à des points 3D lors du dessin.
 
-Para especificar una distancia, comience a introducir un valor de cota y pulse Aceptar o Intro en el cuadro de diálogo Editar cota.
+Pour spécifier une distance, commencez à saisir une valeur de cote, puis cliquez sur OK ou appuyez sur Entrée dans la boîte de dialogue Modifier la cote.
 
-Las splines también pueden cerrarse en sí mismas creando una cara.
+Les splines peuvent également se fermer sur elles-mêmes afin de créer une face.
 
 ![](../.gitbook/assets/spline2.png)
 

@@ -1,39 +1,39 @@
-# Facetado de curva + superficie
+# Création de facettes de courbe et de surface
 
-FormIt es un sistema de modelado poliédrico, por lo que objetos como círculos, arcos y splines se representan mediante una serie de bordes rectos. De forma similar, una superficie curva como la pared de un cilindro o una cúpula se compone de una serie de caras planas con aristas de borde ocultas.
+FormIt est un système de modélisation polyédrique. Les objets tels que les cercles, les arcs et les splines sont donc représentés par une série d’arêtes droites. De même, une surface incurvée, comme la paroi d’un cylindre ou d’un dôme, est constituée d’une série de faces planes avec des arêtes de bordure masquées.
 
-Por defecto, FormIt utiliza 40 bordes o facetas para representar un círculo y 24 facetas para representar un objeto curvo 3D como un cilindro. Para superficies más complejas como una cúpula, un valor de 24 establece el recuento de facetas del perímetro y también afecta a la densidad del facetado del resto de la forma.
+Par défaut, FormIt utilise 40 arêtes, ou facettes, pour représenter un cercle et 24 facettes pour représenter un objet 3D incurvé comme un cylindre. Pour les surfaces plus complexes comme un dôme, une valeur de 24 définit le nombre de facettes du périmètre et a également un impact sur la densité des facettes du reste de la forme.
 
-En FormIt para Windows v18 y versiones posteriores, los valores de facetado de curvas y superficies se pueden personalizar, como se muestra a continuación:
+Dans FormIt pour Windows v18 et versions ultérieures, les valeurs de création de facettes de courbe et de surface sont personnalisables :
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
 ![](<../.gitbook/assets/faceting (1).png>)
 
-**Calidad de facetado de curva**
+**Curve Faceting Quality**
 
-El cambio de la calidad de facetado de curva afectará al número de facetas que se utilizan al dibujar nuevos círculos y arcos en FormIt, así como al colocar formas primitivas. Por ejemplo, si se establece en 64, se creará un círculo completo de 64 lados o un arco de cuarto de círculo con 16 facetas.
+La modification de la qualité de création de facettes de courbe a une incidence sur le nombre de facettes utilisées lors du dessin de nouveaux cercles et arcs dans FormIt, ainsi que lors du placement de formes primitives. Par exemple, si vous définissez cette option sur 64, vous créez un cercle complet de 64 côtés ou un arc d’un quart de cercle avec 16 facettes.
 
-Este valor también afectará a la calidad de los círculos y los arcos importados de archivos SAT, así como al crear geometría desde Dynamo. Puede definir este valor para los bocetos nuevos o solo para el actual.
+Cette valeur affecte également la qualité des cercles et des arcs importés à partir de fichiers SAT, ainsi que lors de l’ancrage de la géométrie à partir de Dynamo. Vous pouvez définir cette valeur pour les nouvelles esquisses ou uniquement pour l’esquisse actuelle.
 
-Para las curvas existentes, también puede utilizar el módulo de extensión Regenerar curva para regenerar de forma retroactiva un arco o un círculo **existentes** con un nuevo recuento de facetas, como se muestra a continuación:
+Pour les courbes existantes, vous pouvez également utiliser le plug-in Rebuild Curve pour reconstruire rétroactivement un arc ou un cercle **existant** avec un nouveau nombre de facettes :
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Calidad de facetado de superficie**
+**Qualité de création de facettes de surface**
 
-El cambio de este parámetro global afectará a la calidad de las superficies curvas 3D importadas desde archivos SAT y cuando se crean desde Dynamo.
+La modification de ce paramètre global affecte la qualité des surfaces incurvées 3D importées à partir de fichiers SAT et lorsqu’elles sont ancrées à partir de Dynamo.
 
-Por ejemplo, si se establece en 64 y, a continuación, se crea una esfera desde Dynamo, se utilizarán 64 caras alrededor del ecuador de la esfera, más 64 facetas en cada uno de los círculos que van a los polos de la esfera, por lo que el recuento aumenta rápidamente. Utilice valores más altos con precaución, ya que puede afectar al rendimiento de FormIt en algunos casos. Una vez que haya obtenido un resultado de alta calidad, puede [convertirlo en una malla](meshes.md) para mejorar el rendimiento.
+Par exemple, si vous définissez cette option sur 64, l’ancrage d’une sphère à partir de Dynamo utilise 64 faces autour de l’équateur de la sphère, plus 64 facettes dans chacun des anneaux allant vers les pôles de la sphère, ce qui peut rapidement faire beaucoup. Utilisez des valeurs plus élevées avec précaution, car cela peut avoir une incidence sur les performances de FormIt dans certains cas. Une fois que vous obtenez un résultat de haute qualité, vous pouvez [le convertir en maillage](meshes.md) pour améliorer les performances.
 
-Al trabajar con Dynamo, puede modificar la calidad de facetado y pulsar Ejecutar gráfico en el panel Propiedades sin cambiar ningún parámetro para aprovechar los nuevos recuentos de facetas, como se muestra a continuación:
+Lorsque vous utilisez Dynamo, vous pouvez modifier la qualité de la création de facettes et cliquer sur « Exécuter le graphique » dans le groupe de fonctions Propriétés sans modifier les paramètres, afin d’utiliser d’autres nombres pour la création de facettes :
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-Al igual que con las curvas, puede definir la calidad de facetado de la superficie para los nuevos bocetos o solo para el actual.
+Comme avec les courbes, vous pouvez définir la qualité de la création de facettes de surface pour les nouvelles esquisses ou pour l’esquisse actuelle uniquement.
 
-Tenga en cuenta que los valores de facetado están limitados actualmente a múltiplos de 4, por lo que, al introducir números manualmente, FormIt redondeará al múltiplo más cercano. Puede utilizar los controles deslizantes y las flechas para recorrer cíclicamente los valores aceptados.
+Notez que les valeurs de la création de facettes sont actuellement limitées à des multiples de 4. Par conséquent, lorsque vous saisissez des nombres manuellement, FormIt arrondit au multiple le plus proche. Vous pouvez utiliser les curseurs et les flèches pour parcourir les valeurs acceptées.
 
 ![](../.gitbook/assets/units-+-precision.png)

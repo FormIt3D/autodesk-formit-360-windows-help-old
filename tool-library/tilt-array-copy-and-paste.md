@@ -1,31 +1,31 @@
-# Caras: Inclinar cara y Facetar caras suaves
+# Faces : inclinaison et facette/lissage
 
-## Trabajo con caras: Inclinar cara y Facetar caras suaves
+## Utilisation des faces : inclinaison et facette/lissage
 
-Para crear diseños más complejos después de crear un boceto de una forma o colocar una primitiva, puede utilizar varias herramientas contextuales a fin de modificar la geometría. Estas operaciones incluyen Inclinar cara, Matriz, Copiar y Pegar.
+Pour créer des conceptions plus complexes après avoir esquissé une forme ou placé une primitive, vous pouvez utiliser plusieurs outils contextuels pour modifier votre géométrie. Ces opérations incluent Inclinaison, Réseau et Copier-coller.
 
-### Inclinar cara
+### Incliner la face
 
-Para **inclinar una cara**, realice lo siguiente:
+Pour **incliner une face**, procédez comme suit :
 
-1. Seleccione una cara y haga clic con el botón derecho para ver el menú contextual.
-2. Seleccione el icono **Inclinar cara** en el menú contextual.
-3. Defina el eje de inclinación. Para ello, dibuje una línea.
-4. Haga clic en un tercer punto para iniciar la operación de inclinación.
+1. Sélectionnez une face et cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
+2. Choisissez l’icône **Inclinaison** dans le menu contextuel.
+3. Pour définir l’axe d’inclinaison, dessinez une ligne.
+4. Cliquez sur un troisième point pour commencer l’opération d’inclinaison.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facetar caras suaves
+### Faces de facette/faces lisses
 
-Si pasa el cursor sobre una cara y observa líneas discontinuas, esto significa que la cara está formada por caras más pequeñas debido a la deformación de la cara. Para **convertir las líneas discontinuas en bordes del modelo**, realice lo siguiente:
+Si vous placez le curseur sur une face et observez des lignes en pointillé, cela signifie que la face est constituée de faces plus petites en raison de la déformation de la face. Pour **transformer les lignes en pointillés en arêtes de modèle**, procédez comme suit :
 
-1. Seleccione la cara o el objeto que desea cambiar y haga clic con el botón derecho para ver el menú contextual.
-2. En el menú contextual, seleccione la herramienta **Facetar caras suaves**.
-3. Los bordes se añaden automáticamente en la ubicación en la que la cara se ha suavizado anteriormente.
+1. Sélectionnez la face ou l’objet à modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
+2. Dans le menu contextuel, choisissez l’outil **Faces lisses de facette**.
+3. Les arêtes sont automatiquement ajoutées à l’endroit où la face était précédemment lisse.
 
-Este comando también funciona de la forma opuesta: puede seleccionar caras facetadas y elegir la herramienta **Facetar caras suaves** en el menú contextual para ocultar los bordes y conseguir que las caras parezcan suaves.
+Cette commande fonctionne aussi de la manière opposée : vous pouvez sélectionner les faces de facette et sélectionner l’outil **Faces lisses de facette** dans le menu contextuel pour masquer les arêtes et lisser les faces.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

@@ -1,8 +1,8 @@
-# Alinear cámara con cara
+# Aligner caméra avec face
 
-Alinee rápidamente la cámara para mirar directamente a cualquier cara.
+Alignez rapidement la caméra pour afficher directement n’importe quelle face.
 
-Seleccione una sola cara y, a continuación, haga clic con el botón derecho para acceder al menú contextual. Busque Alinear cámara con cara en la parte superior del menú o utilice el método abreviado AF:
+Sélectionnez une seule face, puis cliquez avec le bouton droit de la souris pour accéder au menu contextuel. Recherchez Aligner caméra avec face en haut du menu ou utilisez le raccourci AF :
 
 ![](../.gitbook/assets/alignwithface.gif)
 

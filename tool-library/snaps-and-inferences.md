@@ -1,64 +1,61 @@
-# Forzados de cursor y deducciones
+# Accrochages et déductions
 
-Para facilitar el boceto y el modelado, utilice forzados de cursor y puntos de deducción para crear, colocar y editar la geometría con precisión. Puede utilizar el eje que elija como aquel en el que dibujar o ejecutar otra acción, como la extrusión de una superficie.
+Pour faciliter l’esquisse et la modélisation, utilisez les points d’accrochage et de déduction pour créer, placer et modifier la géométrie avec précision. Vous pouvez utiliser l’axe de votre choix comme axe sur lequel dessiner ou exécuter une autre action, telle que l’extrusion d’une surface.
 
-**Nota** _Consulte_ [_Métodos abreviados de teclado_](../appendix/keyboard-shortcuts.md) _para obtener información sobre cómo agilizar el uso de las herramienta del software._
+**Remarque :** _reportez-vous à la rubrique_ [_Raccourcis clavier_](../appendix/keyboard-shortcuts.md) _pour savoir comment utiliser les outils du logiciel plus rapidement._
 
-## Forzado de cursor
+## Accrochage
 
-Existen varios forzados de cursor que pueden ayudarle durante la creación de bocetos y el modelado. El forzado de cursos se activa automáticamente y puede forzar el cursor a los siguientes elementos:
+Plusieurs accrochages peuvent vous aider lors de la création d’esquisses et de la modélisation. L’accrochage aux objets est automatiquement activé et vous pouvez effectuer un accrochage aux éléments suivants :
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vértices. | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Bordes. Al colocar el cursor en el borde, se dibujarán pequeños puntos rojos en los
-        extremos y en el punto medio. | ![](../.gitbook/assets/inf4.png) |
-| Puntos medios de bordes. | ![](../.gitbook/assets/inf5.png) |
-| El plano de una cara. Al colocar el cursor en la cara, se dibujará un pequeño punto rojo
-        en el centro de la cara. Esto hará que sea fácil encontrar ese punto
-        si desea forzar el cursor a él. | ![](../.gitbook/assets/inf6.png) |
-| Centroides de caras. | ![](../.gitbook/assets/inf7.png) |
-| El plano de trabajo, si no se fuerza el cursor a otro elemento. | ![](../.gitbook/assets/inf8.png) |
-| Centros de círculos o arcos. | ![](../.gitbook/assets/inf9.png) |
-| Vértices de malla. | ![](../.gitbook/assets/inf2.png) |
-| El plano de una faceta de malla. | ![](../.gitbook/assets/inf1.png) |
+| Sommets | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Arêtes. Lorsque vous placez le curseur sur l’arête, des petits points rouges sont dessinés aux extrémités et au milieu. | ![](../.gitbook/assets/inf4.png) |
+| Milieux des arêtes | ![](../.gitbook/assets/inf5.png) |
+| Plan d’une face. Lorsque vous passez le curseur sur la face, un petit point rouge est dessiné au niveau du centre de gravité de la face. Cela vous permet de trouver facilement ce point si vous souhaitez y effectuer un accrochage. | ![](../.gitbook/assets/inf6.png) |
+| Centres de gravité des faces | ![](../.gitbook/assets/inf7.png) |
+| Plan de construction, si vous ne n’effectuez d’accrochage à rien d’autre. | ![](../.gitbook/assets/inf8.png) |
+| Centres de cercle ou d’arc | ![](../.gitbook/assets/inf9.png) |
+| Sommets de maillage | ![](../.gitbook/assets/inf2.png) |
+| Plan d’une facette de maillage. | ![](../.gitbook/assets/inf1.png) |
 
-Para forzar el cursor a la rejilla, debe activar el conmutador **Forzar cursor a rejilla (SG)** en el menú Configuración.
+Pour effectuer un accrochage à la grille, vous devez activer le paramètre **Accrocher à la grille (SG)** dans le menu Paramètres.
 
-## Puntos y ejes de deducción
+## Axes et points de déduction
 
-La selección automática de puntos de deducción siempre está activada y le ayudará a restringir el desplazamiento de la geometría. Las herramientas generan automáticamente ejes de deducción o al colocar el cursor sobre los bordes o los puntos. Los ejes de deducción siempre se dibujan en la pantalla con guiones para que sepa dónde se encuentran y sea fácil detectarlos.
+La sélection automatique des points de déduction est toujours activée et vous permet de contraindre le mouvement de la géométrie. Les axes de déduction sont générés automatiquement par les outils ou lorsque vous passez la souris sur des arêtes ou des points. Les axes de déduction sont toujours dessinés à l’écran avec des tirets, ce qui vous permet de savoir où ils se trouvent et de les accrocher facilement.
 
-**Eje:** puede desplazar la geometría a lo largo del eje X, Y o Z. La deducción del eje X es roja, la del eje Y es verde y la del eje Z es azul.
+**Axe :** vous pouvez déplacer la géométrie le long de l’axe X, Y ou Z. La déduction de l’axe X apparaît en rouge, celle de l’axe Y en vert et celle de l’axe Z en bleu.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Bloqueo del eje:** puede bloquear el desplazamiento a lo largo del eje X, Y o Z. Mantenga pulsada la tecla Mayús mientras se encuentra en una deducción de eje y, a continuación, mueva el cursor para forzarlo y realizar deducciones en otros elementos.
+**Verrouillage de l’axe :** vous pouvez verrouiller le mouvement le long des axes X, Y ou Z. Maintenez la touche Maj enfoncée pendant que vous êtes sur une déduction d’axe, puis déplacez la souris pour accrocher et déduire d’autres éléments.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Paralelo:** puede crear un boceto o desplazar la geometría de forma paralela a los elementos existentes. Las deducciones perpendiculares son púrpura. Es necesario colocar el cursor sobre una línea que se desea utilizar como referencia paralela.
+**Parallèle :** vous pouvez esquisser ou déplacer une géométrie parallèlement aux éléments existants. Les déductions perpendiculaires sont violettes. Vous devez placer le curseur sur une ligne que vous souhaitez utiliser comme référence parallèle.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** también puede dibujar o desplazar geometría de forma perpendicular a los elementos existentes. Las deducciones perpendiculares son púrpura. Es necesario colocar el cursor sobre una línea que se desea utilizar como referencia perpendicular.
+**Perpendiculaire :** vous pouvez également dessiner ou déplacer une géométrie perpendiculairement aux éléments existants. Les déductions perpendiculaires sont violettes. Vous devez placer le curseur sur une ligne que vous souhaitez utiliser comme référence perpendiculaire.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extensión desde un punto:** también puede utilizar las deducciones para la extensión desde una referencia de punto. Coloque el cursor sobre un punto que desee utilizar como referencia hasta que aparezca la información de herramientas y, a continuación, utilice el eje de deducción que se extiende desde el punto.
+**Prolongement à partir d’un point :** vous pouvez également utiliser des déductions afin d’effectuer un prolongement à partir d’un point de référence. Placez le curseur de la souris sur un point que vous souhaitez utiliser comme référence jusqu’à ce que l’info-bulle s’affiche, puis utilisez l’axe de déduction qui s’étend à partir du point.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Centro del círculo**: si desea forzar el cursor al centro de un arco o un círculo, coloque el cursor en uno de estos elementos. Se mostrará un pequeño punto rojo en el centro. Permanecerá visible durante unos 5 segundos después de alejarse del arco o círculo. Ahora mueva el cursor sobre el punto rojo para forzarlo al centro.
+**Centre des cercles** : si vous souhaitez effectuer un accrochage au centre d’un arc ou d’un cercle, placez le curseur sur l’arc ou le cercle. Un petit point rouge apparaît au centre. Si vous vous éloignez de l’arc ou du cercle, il reste visible pendant environ 5 secondes. Déplacez le curseur sur le point rouge pour l’accrocher au centre.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Puntos medios reales de arcos y splines**: al pasar el cursor sobre un círculo, un arco o una spline, podrá forzar el cursor al punto medio real. Este punto y los puntos finales se mostrarán con un pequeño punto rojo. Al realizar la deducción en un arco, también forzará el cursor a los vértices de los bordes rectos que presentan el arco.
+**Milieux d’arcs et de splines** : lorsque vous placez le curseur sur un cercle, un arc ou une spline, vous pouvez effectuer un accrochage au milieu. Le milieu et les extrémités sont représentés par un petit point rouge. Lorsque vous appliquez une déduction à un arc, vous effectuez aussi un accrochage aux sommets des arêtes droites qui représentent l’arc.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Borrado de deducciones**: es posible que al dibujar se genere un mayor número de deducciones, lo que puede estorbar la colocación de puntos que se supone que no deben forzar el cursor a esas deducciones. Si pulsa las teclas de **Mayús + barra espaciadora**, se borrarán todas las deducciones, excepto las que se encuentren en el último punto colocado.
+**Suppression des déductions** : il est possible que le dessin génère un plus grand nombre de déductions, ce qui peut empêcher le placement de points qui ne sont pas censés s’accrocher à ces déductions. Si vous appuyez sur les touches **Maj + Espace**, toutes les déductions sont effacées, à l’exception de celles du dernier point placé.
 
-![Antes de borrar las deducciones](../.gitbook/assets/inf19.png)
+![Avant d’effacer les déductions](../.gitbook/assets/inf19.png)
 
-![Después de borrar las deducciones](../.gitbook/assets/inf20.png)
+![Après avoir effacé les déductions](../.gitbook/assets/inf20.png)

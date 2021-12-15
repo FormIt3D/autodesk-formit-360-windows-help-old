@@ -1,18 +1,18 @@
-# Cámara ortogonal
+# Caméra orthographique 
 
-FormIt 2021 incorpora la nueva función Cámara ortogonal. Puede encontrar los botones Ortogonal y Perspectiva en el menú de navegación, como se muestra a continuación:
+FormIt 2021 inclut l’ajout d’une nouvelle fonction de caméra orthogonale. Les boutons Orthogonale et Perspective sont disponibles dans le menu de navigation :
 
-![Botones de vista de cámara Ortogonal \(inferior\) y Perspectiva \(superior\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Boutons de vue de caméra Orthogonale \(bas\) et Perspective \(haut\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Esta nueva opción permite alternar fácilmente entre las vistas de cámara ortogonal y en perspectiva.
+Cette nouvelle option vous permet de basculer facilement entre les vues de caméra Orthogonale et Perspective.
 
-![Un modelo se puede cambiar del modo de cámara Perspectiva a Ortogonal. ](../.gitbook/assets/ortho-camera.gif)
+![Un modèle peut passer du mode Caméra en perspective au mode Caméra orthogonale.](../.gitbook/assets/ortho-camera.gif)
 
-Una vez que se encuentre en la cámara ortogonal, cualquier otra herramienta de cámara respetará el modo actual. Por ejemplo, **Alinear cámara con cara** alineará la cámara ortogonal con la cara, lo que dará como resultado una vista de elevación ortogonal.
+Une fois dans la caméra orthogonale, tous les autres outils de caméra respectent le mode actif. Par exemple, l’option **Aligner caméra avec face** permet d’aligner la caméra orthogonale sur la face, ce qui génère une vue d’élévation orthogonale.
 
-Si se desplaza manualmente a una vista ortogonal predefinida, como Vista superior o Vista frontal, la cámara ortogonal se ajustará a esa posición, lo que facilitará el acceso a esas vistas predefinidas.
+Si vous accédez manuellement à une vue orthogonale prédéfinie, telle que Vue de dessus ou Vue de face, la caméra orthogonale s’accroche à cette position, facilitant ainsi l’accès à ces vues prédéfinies.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Nota** Si se produce un recorte de cámara en el modo de cámara Ortogonal, puede cambiar al modo Perspectiva, reducir la vista e intentarlo de nuevo.
+**Remarque :** si la délimitation de la caméra se produit en mode Caméra orthogonale, vous pouvez revenir en mode Perspective, effectuer un zoom arrière, puis réessayer.
 

@@ -1,24 +1,24 @@
-# Rectángulo
+# Rectangle
 
-Puede utilizar la herramienta **Rectángulo** del menú de la barra de herramientas **Crear boceto** para dibujar rápidamente una cara rectangular. Extruya la cara para crear un volumen rectangular.
+Vous pouvez utiliser l’outil **Rectangle** dans le menu de la barre d’outils **Créer une esquisse** pour dessiner rapidement une face rectangulaire. Extrudez la face pour créer un volume rectangulaire.
 
-Método abreviado de teclado: R
+Raccourci clavier : R
 
-Utilice los ejes para asegurarse de que está dibujando en la dirección correcta, como se indica a continuación:
+Utilisez les axes pour vous assurer que vous dessinez dans la bonne direction :
 
-Puede dibujar rectángulos en los ejes X, Y o Z. A medida que dibuja, puede especificar una cota simplemente mediante la introducción de un valor, lo que abrirá el cuadro de diálogo Editar cota. Pulse Intro o Aceptar para aceptar la cota.
+Vous pouvez dessiner des rectangles sur l’axe X, Y ou Z. Lorsque vous dessinez, vous pouvez spécifier une cote en saisissant simplement une valeur, ce qui permet d’afficher la boîte de dialogue Modifier la cote. Appuyez sur la touche Entrée ou cliquez sur OK pour accepter la cote.
 
-Para dibujar un rectángulo, haga clic a fin de definir el primer punto en el boceto.
+Pour dessiner un rectangle, cliquez pour définir le premier point de l’esquisse.
 
-Colores de línea por eje:
+Couleurs de ligne par axe :
 
-* X = Rojo
-* Y = Verde
-* Z = Azul
+* X = rouge
+* Y = vert
+* Z = bleu
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Cuando termine de dibujar el rectángulo, se convertirá en una cara que se puede extruir para crear un volumen.
+Une fois le rectangle dessiné, il devient une face qui peut être extrudée pour créer un volume.
 
