@@ -1,157 +1,157 @@
-# Materiais
+# Материалы
 
-Faça com que os modelos do FormIt sejam exibidos com materiais que suportam reflexão, brilho e mapas de saliência.
+Создавайте модели FormIt с использованием материалов, поддерживающих отражение, глянец и карты выдавливания.
 
-## Painel Materiais
+## Панель «Материалы»
 
 ![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-No painel de materiais, é possível escolher entre uma grande variedade de amostras de material, navegar entre bibliotecas de materiais vinculadas e, a partir do FormIt 2021, acessar e usar o conteúdo de materiais de outros arquivos do FormIt (.AXM).
+На панели «Материалы» можно выбирать образцы материалов, переходить по связанным библиотекам материалов и, как и в FormIt 2021, использовать компоненты материалов из других файлов FormIt (AXM).
 
-### Fontes da biblioteca de materiais
+### Источники Библиотеки материалов
 
-No FormIt 2021 e versões mais recentes, o painel Materiais tem uma interface de menu suspenso para escolher entre as fontes disponíveis na Biblioteca de materiais: No esboço, Amostras de material e [bibliotecas vinculadas](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+В FormIt 2021 или более поздней версии панель «Материалы» имеет раскрывающийся список для выбора источников Библиотеки материалов: «В эскизе», «Образцы материалов» и [связанные библиотеки](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### No esboço
+#### В эскизе
 
-Exibe os materiais salvos no esboço atual do FormIt.
+Отображение материалов, сохраненных в текущем эскизе FormIt.
 
-#### Amostras de material
+#### Образцы материалов
 
-Exibe uma lista de materiais de amostra disponíveis. Essas ofertas são armazenadas em um servidor baseado na nuvem; por isso, observe o seguinte:
+Отображение списка доступных образцов материалов. Они хранятся на облачном сервере, поэтому необходимо учитывать следующее.
 
-* Uma conexão com a Internet é necessária ao acessar as categorias de amostras de material pela primeira vez.
-* Ao acessar uma categoria pela primeira vez, ela será transferida por download e armazenada em cache no computador, para que em sessões futuras não seja necessário fazer o download.
-* Ocasionalmente, a equipe do FormIt pode atualizar as ofertas na opção Amostras de material. Quando isso ocorrer, o FormIt excluirá automaticamente os itens antigos e fará o download novamente para obter as versões mais recentes.
+* При первом доступе к категориям образцов материалов требуется подключение к интернету.
+* При первом доступе к категории она будет скачана и кэширована на компьютере. Благодаря этому в последующих сеансах ее скачивание не потребуется.
+* Группа разработчиков FormIt может периодически обновлять образцы материалов. В этом случае программа FormIt автоматически удаляет категории и скачивает их последние версии.
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Bibliotecas vinculadas**
+**Связанные библиотеки**
 
-Outros diretórios e localizações aparecerão após [vincular as bibliotecas de materiais](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+После [привязки библиотек материалов](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) отображаются другие папки.
 
-### Criar, excluir e conta-gotas
+### Создание, удаление, инструмент «пипетка»
 
-![](../.gitbook/assets/materials\_add.PNG) **Crie um novo material** definindo as configurações de cor, textura, mapa de saliência, mapa de corte, transparência e reflexão/brilho.
+![](../.gitbook/assets/materials\_add.PNG) **Создание материала** путем настройки его цвета, текстуры, карты выдавливания, карты выреза, прозрачности и параметров отражения/глянца.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Excluir** materiais selecionados.
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Удаление** выбранных материалов.
 
-![](../.gitbook/assets/materials\_eyedropper.PNG) Use a ferramenta **Conta-gotas** em um material pintado na cena e imediatamente comece a pintar com ele.
+![](../.gitbook/assets/materials\_eyedropper.PNG) **Пипетка** — выбор материала в сцене и окраска элементов с помощью него.
 
-* Clique na ferramenta Conta-gotas e, em seguida, clique em uma face pintada com um material
-* O material encontrado na face será realçado no painel e a ferramenta Pincel ficará ativa com o material carregado.
+* Щелкните инструмент «Пипетка», а затем выберите грань, окрашенную с помощью материала.
+* Материал, который находится на грани, выделяется на панели, и происходит активация инструмента «Кисть», в который загружается этот материал.
 
-### Atualizar, vincular bibliotecas e eliminar itens não usados
+### Обновление, привязка и удаление неиспользуемых библиотек
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png)**Vincule bibliotecas de materiais** de diretórios locais. Os diretórios com arquivos JPG, PNG ou AXM (FormIt) exibirão conteúdos. Consulte [Vincular bibliotecas de materiais](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) para obter mais informações.
+![](../.gitbook/assets/materials-link.png) **Привязка библиотек материалов** из локальных каталогов. Отображение содержимого каталогов, в которых хранятся файлы JPG, PNG или AXM (FormIt). Дополнительные сведения см. в разделе [Привязка библиотек материалов](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-![](../.gitbook/assets/materials-refresh.png) **Atualize** o diretório atual. Somente ativado ao visualizar um diretório vinculado localmente (e não em esboço ou amostras de material).
+![](../.gitbook/assets/materials-refresh.png) **Обновление** рабочего каталога. Эта функция доступна только при просмотре локально привязанной папки (не в эскизе или образцах материалов).
 
-![](../.gitbook/assets/materials-purge.png) Os **materiais não usados são eliminados** do esboço atual do FormIt.
+![](../.gitbook/assets/materials-purge.png) **Удаление неиспользуемых** материалов из текущего эскиза FormIt.
 
-Os materiais não usados podem se acumular naturalmente através do processo de iteração, mas poderão provocar um acréscimo significativo no tamanho do arquivo se usarem texturas de alta qualidade.
+Неиспользуемые материалы могут естественным образом накапливаться в процессе итерации и значительно увеличить размер файла, если в них используются высококачественные текстуры.
 
-Os materiais não usados aparecem com um nome em cinza na lista No esboço.
+В списке «В эскизе» имена неиспользуемых материалов отображаются серым цветом.
 
-Clique na ferramenta Eliminar itens não utilizados para excluir todos os materiais não usados. Você verá um aviso primeiro, para que possa cancelar se mudar de ideia. Esse botão somente está ativado na lista No esboço.
+Щелкните инструмент «Удалить неиспользуемые», чтобы удалить все неиспользуемые материалы. Сначала отобразится запрос, поэтому можно отменить операцию, если есть сомнения. Эта кнопка доступна только в списке «В эскизе».
 
-### Vincular bibliotecas de materiais
+### Привязка библиотек материалов
 
-O FormIt 2021 e as versões mais recentes oferecem a capacidade de vincular o painel Materiais a diretórios locais (bibliotecas) que contêm conteúdo de materiais, incluindo pastas de JPGs, PNGs e/ou arquivos do FormIt:
+В FormIt 2021 или более поздней версии можно привязать панель «Материалы» к локальным каталогам (библиотекам), в которых хранятся компоненты материалов, включая папки с файлами JPG, PNG и/или FormIt.
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![Visualize materiais individuais de um arquivo do FormIt ou arquivos JPG/PNG em um diretório.](../.gitbook/assets/materials-axm-content.png)
+![Просмотр отдельных материалов из файла FormIt или файлов JPG/PNG в папке.](../.gitbook/assets/materials-axm-content.png)
 
-* Os **arquivos JPG/PNG** serão exibidos como materiais, que podem ser pintados diretamente no esboço atual do FormIt.
-   * Ao clicar em uma miniatura, o arquivo de imagem é convertido em um material do FormIt em tempo real e copiado para o esboço atual.
-   * O FormIt retornará ao diretório “No esboço” para ver o material que você acabou de copiar para o esboço.
-* **Os arquivos do FormIt (\*.axm)** serão exibidos como pastas com um ícone do FormIt.
-   * Ao clicar nas pastas de arquivos do FormIt, serão exibidos todos os materiais do FormIt salvos no arquivo.
-   * Observe que o FormIt deve carregar parte do arquivo para obter o conteúdo dos materiais; portanto, arquivos maiores podem levar mais tempo para exibir os materiais no painel.
+* **Файлы JPG/PNG** отображаются в виде материалов, которыми можно непосредственно окрасить содержимое текущего эскиза FormIt.
+   * При нажатии миниатюры файл изображения автоматически преобразуется в материал FormIt и копируется в текущий эскиз.
+   * FormIt возвращается в папку «В эскизе», где отображается материал, только что скопированный в эскиз.
+* **Файлы FormIt (AXM)** отображаются в виде папок со значком FormIt.
+   * При нажатии папок с файлами FormIt отображаются все материалы FormIt, сохраненные в файле.
+   * Обратите внимание, что для получения компонентов материалов часть файла должна быть загружена в FormIt, поэтому отображение материалов на панели в больших файлах может занять больше времени.
 
-### Interações de materiais
+### Взаимодействие материалов
 
-**Pinte um material** clicando uma vez na miniatura. Você será direcionado para a ferramenta Pincel, onde pode passar o cursor do mouse sobre a geometria na tela do FormIt e clicar em faces ou grupos para pintá-los.
+Для **окрашивания материала** щелкните миниатюру один раз. Откроется инструмент «Кисть». Наведите указатель на геометрию в рабочей области FormIt и выберите грани или группы для их окраски.
 
-Quando estiver na ferramenta Pincel:
+Активный инструмент «Кисть» позволяет выполнять следующие действия.
 
-* Pinte faces e grupos clicando uma vez.
-   * Ao pintar grupos, o Material será colocado em cascata na geometria aninhada e cobrirá qualquer superfície ou grupo pintado com o Material padrão.
-* Pinte sólidos inteiros clicando duas vezes em uma face para selecionar tudo o que estiver anexado.
+* Окрашивать грани и группы одним щелчком мыши.
+   * При окрашивании групп материал каскадом наносится на вложенную геометрию и покрывает любую поверхность или группу, окрашенные с помощью материала по умолчанию.
+* Для закраски тел целиком дважды щелкните грань, чтобы выбрать все связанные объекты.
 
-Também é possível selecionar primeiro faces e grupos e, em seguida, clicar uma vez em uma miniatura de material para pintar a seleção com esse material.
+Кроме того, можно сначала выбрать грани и группы, а затем щелкнуть миниатюру материала, чтобы окрасить выбранные объекты с помощью него.
 
-**Edite um material** clicando duas vezes na miniatura, que abrirá o Editor de material (veja abaixo).
+**Для редактирования материала** дважды щелкните миниатюру, чтобы открыть окно редактора материалов (см. ниже).
 
-**Renomeie um material** clicando duas vezes no nome.
+Чтобы **переименовать материал**, дважды щелкните его имя.
 
-**Identifique um material** pintado na geometria ao selecioná-lo e procurar o realce e o ícone que indicam quais materiais foram pintados na geometria selecionada.
+Чтобы **определить материал**, с помощью которого окрашена геометрия, выберите ее и найдите выделенный элемент и значок, указывающий на то, какой материал нанесен на выбранную геометрию.
 
 ![](../.gitbook/assets/material\_selected.png)
 
-O **material padrão** pode ser usado para “limpar” com eficácia uma face ou um grupo de qualquer material. Qualquer geometria não pintada com um material é pintada implicitamente com o material padrão.
+**Материал по умолчанию** можно использовать для очистки грани или группы материалов. К геометрии, не окрашенной с помощью материала, по умолчанию применяется материал по умолчанию.
 
-### Gerenciamento de listas
+### Управление списком
 
-Ajuste o tamanho das miniaturas ajustando a largura da coluna (clique e arraste a linha vertical para a direita de “Material”).
+Настройте размер миниатюр, отрегулировав ширину столбца (щелкните и перетащите вертикальную линию справа от поля «Материал»).
 
-Filtre materiais específicos digitando na barra “Filtro...”.
+Для фильтрации материалов используйте строку «Фильтр...».
 
-Os materiais com nomes que são exibidos em cinza correspondem a materiais que não são usados no esboço atual.
+Серый шрифт в именах материалов указывает на то, что они не используются в текущем эскизе.
 
-## Criar e editar materiais
+## Создание и редактирование материалов
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-Quando você cria ou edita um material, verá a caixa de diálogo Editor de material, onde é possível personalizar:
+При создании или редактировании материала отобразится диалоговое окно «Редактор материалов», в котором можно настроить следующие параметры.
 
-* **Cor**
-* **Mapas de imagem**
-   * Clique na miniatura para selecionar um novo mapa.
-   * Clique no ícone Salvar para salvar o mapa para edição em outro aplicativo.
-   * Clique no ícone Excluir para excluir o mapa desse material.
-      * **Textura de um arquivo de imagem**
-         * JPG ou PNG
-      * **Mapa de saliência de um arquivo de imagem**
-         * JPG recomendado
-         * Ótimo para adicionar efeitos de profundidade aos materiais.
-         * É possível usar freeware, como o ShaderMap, para gerar mapas de saliência com uma determinada textura.
-      * **Mapa de corte de um arquivo de imagem**
+* **Цвет**
+* **Карты изображений**
+   * Щелкните миниатюру, чтобы выбрать новую карту.
+   * Щелкните значок «Сохранить», чтобы сохранить карту для редактирования в другом приложении.
+   * Щелкните значок «Удалить», чтобы удалить карту из этого материала.
+      * **Текстура из файла изображения**
+         * JPG или PNG
+      * **Карта выдавливания из файла изображения**
+         * Рекомендуется JPG
+         * Оптимально подходит для добавления эффектов глубины к материалам.
+         * Для создания карт выдавливания с заданной текстурой можно использовать бесплатное программное обеспечение, например ShaderMap.
+      * **Карта выреза из файла изображения**
          * PNG
-         * Ótimo para materiais que têm transparência seletiva, como cercas de chainlink ou painéis perfurados.
-* **Nome**
-* **Escala horizontal e vertical**
-   * Quando essa opção está ativada, o botão Bloquear aspecto garante que as escalas horizontal e vertical respeitem a relação de aspecto da textura.
-   * Estique um material ajustando a escala horizontal independentemente da escala vertical.
-   * É possível substituir as escalas horizontal e vertical por face, usando a ferramenta Ajustar colocação do material (veja abaixo).
-* **Transparência**, **Reflexão** e **Brilho**
+         * Оптимально подходит для материалов с выборочной прозрачностью, например для сеточных ограждений или перфорированных панелей.
+* **Имя**
+* **Масштаб по горизонтали и вертикали**
+   * Если кнопка «Сохранить пропорции» включена, в масштабе по горизонтали и вертикали будет учитываться пропорция текстуры.
+   * Можно растянуть материал, отрегулировав масштаб по горизонтали независимо от масштаба по вертикали.
+   * С помощью инструмента «Регулировка размещения материала» (см. ниже) можно переопределить масштаб по горизонтали и вертикали для каждой грани.
+* **Прозрачность**, **отражение** и **глянец**
 
-## Ajustar a colocação do material
+## Регулировка размещения материала
 
-Ao pintar um material em uma face, o FormIt faz a melhor estimativa sobre a melhor orientação:
+При окрашивании грани с помощью материала программа FormIt пытается подобрать оптимальную ориентацию.
 
-* As faces verticais serão orientadas com a parte superior da textura orientada ao longo do eixo Z.
-* As faces horizontais serão orientadas com a textura no sentido do comprimento do lado mais longo da face.
+* На вертикальных гранях верхняя часть текстуры сориентирована вдоль оси Z.
+* На горизонтальных гранях текстура ориентирована в продольном направлении вдоль наиболее длинной стороны грани.
 
-Use a ferramenta **Ajustar colocação do material** para substituir o posicionamento padrão do material, bem como a escala do material em faces específicas:
+Используйте инструмент **Регулировка размещения материала**, чтобы переопределить размещение материала по умолчанию, а также масштаб материала на отдельных гранях.
 
-* Selecione uma face ou faces pintadas com um material
-   * Se a face herdar material de seu grupo principal, será necessário pintar a face diretamente em primeiro lugar.
-* Acesse a ferramenta Ajustar colocação do material através do atalho MP ou no menu de contexto do botão direito do mouse:
+* Выберите грань или грани, окрашенные с помощью материала.
+   * Если грань наследует материал из родительской группы, сначала необходимо непосредственно окрасить грань.
+* Инструмент «Регулировка размещения материала» можно вызвать с помощью сочетания клавиш MP или контекстного меню.
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Use os controles na tela para mover, rotacionar e dimensionar de forma interativa as texturas de material diretamente na face:
+Используйте экранные элементы управления для интерактивного перемещения, поворота и масштабирования текстур материала непосредственно на грани.
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-Para redefinir qualquer uma das alterações na colocação do material, basta pintar a face novamente com o material original, no painel Materiais.
+Чтобы сбросить любые изменения в размещении материала, окрасьте грань заново исходным материалом из панели «Материалы».
 
-## Conversão de material para o Revit
+## Перенос материалов в Revit
 
-Os materiais serão transferidos para o Revit ao usar o [complemento do FormIt](https://formit.autodesk.com/page/formit-revit) para o Revit 2018 ou versões mais recentes.
+Материалы можно перенести в Revit при использовании [надстройки FormIt](https://formit.autodesk.com/page/formit-revit) для Revit 2018 или более поздней версии.

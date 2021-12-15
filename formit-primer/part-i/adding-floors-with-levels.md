@@ -1,36 +1,36 @@
-# 1.4 – Adicionar pisos com níveis
+# 1.4. Добавление перекрытий с уровнями
 
-_Os níveis permitem dividir massas com dados de piso individuais e calcular a área bruta por massa de construção. Os níveis do FormIt e seus nomes personalizados serão convertidos em níveis do Revit quando o arquivo for convertido para o Revit._
+_Уровни позволяют разрезать формообразующие элементы с использованием индивидуальных баз перекрытий и рассчитывать общую площадь формообразующего элемента здания. Уровни FormIt и их пользовательские имена станут уровнями Revit после преобразования файла в формат Revit._
 
-_Se você não completou a última seção, faça o download e abra o arquivo **1.4 – Add Floors with Levels.axm** nos **Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл **1.4 — Add Floors with Levels.axm** из **наборов данных для части 1 руководства FormIt Primer**._
 
-## **Criar e personalizar níveis**
+## **Создание и настройка уровней**
 
-1 – Para criar níveis:
+1 - Чтобы создать уровни, выполните следующие действия.
 
-1. Vá para a **paleta Níveis** na **Barra de paletas**.
-2. Clique em **+** \(**Adicionar nível**\) quatro vezes para criar quatro níveis.
-3. Clique duas vezes na elevação atual de cada nível para modificá-los para: **0’-0", 2’-2", 4’-6"** e **17’-8"**.
-4. Clique duas vezes no nome atual de cada nível e renomeie-os: **Solo, Terraço, Construção principal** e **Topo do telhado.**
+1. Откройте **палитру уровней** на **панели палитр**.
+2. Щелкните значок **+** (**Добавить уровень**) четыре раза, чтобы создать четыре уровня.
+3. Дважды щелкните каждый из уровней и измените их отметки на следующие: **0’-0", 2’-2", 4’-6"** и **17’-8"**.
+4. Дважды щелкните текущее имя каждого уровня и переименуйте их следующим образом: **«Земля», «Терраса», «Главное здание«** и **«Конек крыши».**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Observação**: É possível clicar no ícone __**++**__ para criar vários níveis, com uma distância especificada e uniforme separada. Isso é útil para construções com vários andares_.
+_**Примечание.** Чтобы создать несколько уровней на одинаковом заданном расстоянии друг от друга, щелкните значок_ _**++**_ _. Эту функцию удобно использовать при работе с многоэтажными зданиями_.
 
-## **Aplicar níveis à geometria**
+## **Применение уровней к геометрии**
 
-_Nas etapas anteriores, só criamos níveis. Agora estamos prontos para aplicar esses níveis à geometria que criamos._
+_На предыдущих этапах мы только создали уровни. Теперь их можно применить к созданной геометрии._
 
-1 – Para aplicar níveis à geometria existente:
+1 - Чтобы применить уровни к существующей геометрии, выполните следующие действия.
 
-1. Selecione toda a massa do terraço superior clicando duas vezes nela.
-2. Na **paleta Propriedades**, clique em **Usar níveis**. Esse passo pré-selecionará todos os níveis que atualmente efetuam a interseção com a geometria selecionada.
-3. Agora a geometria atualmente selecionada tem três níveis aplicados \(**Construção principal, Terraço **e **Solo**\), mas para este exercício, queremos aplicar somente **Solo**. Desmarque **Construção principal** e **Terraço**.
-4. Esse processo assegura que somente a área intersecionada pelo **Solo** seja considerada para o cálculo da área bruta, que pode ser vista no campo **Área por nível**.
+1. Двойным щелчком выберите весь формообразующий элемент верхней террасы.
+2. На **палитре свойств** выберите **Использовать уровни**. На этом этапе будут предварительно выбраны все уровни, пересекающие выбранную геометрию.
+3. Теперь к выбранной геометрии применены три уровня: **«Главное здание», «Терраса»** и **«Земля»**. В данном упражнении необходимо применить только уровень **Земля**. Снимите флажки **Главное здание** и **Терраса**.
+4. Теперь только площадь пересечения с **землей** будет учитываться при расчете общей площади, что отражается в поле **Площадь по уровню**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Observação**: Se você não visualizar linhas de nível azuis na massa, digite_ _**DL**_ _para_ _**Exibir níveis**._
+_**Примечание.** Если синие линии уровня на формообразующем элементе не отображаются, используйте клавиши_ _**D+L**_, _чтобы_ _**показать уровни**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

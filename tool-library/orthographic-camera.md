@@ -1,18 +1,18 @@
-# Orthographic Camera
+# Ортогональная проекция
 
-O FormIt 2021 inclui a adição de um novo recurso de Câmera ortogonal. Você pode encontrar os botões Ortogonal e Perspectiva no menu de navegação:
+В FormIt 2021 добавлена новая функция ортогональной камеры. В меню навигации доступны кнопки ортогонального вида и вида в перспективе.
 
-![Botões de vista da câmera ortogonal \(inferior\) e Perspectiva \(superior\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Кнопки ортогонального вида (внизу) и вида в перспективе (вверху)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Essa nova opção permite alternar facilmente entre as vistas de câmera Ortogonal e Perspectiva.
+Новый параметр позволяет легко переключаться между ортогональным и перспективным видами камеры.
 
-![É possível alternar um modelo do modo Câmera em perspectiva para Câmera ortogonal.](../.gitbook/assets/ortho-camera.gif)
+![Модель можно переключить с перспективной на ортогональную проекцию.](../.gitbook/assets/ortho-camera.gif)
 
-Uma vez na câmera ortogonal, quaisquer outras ferramentas de câmera respeitarão o modo atual. Por exemplo, **Alinhar câmera com a face** alinhará a câmera ortogonal com a face, resultando em uma vista de elevação ortogonal.
+При работе с ортогональной камерой во всех остальных инструментах камеры будет учитываться текущий режим. Например, команда **Выровнять камеру по грани** позволит выровнять ортогональную камеру по грани, в результате чего будет создан ортогональный вид фасада.
 
-Se você navegar manualmente para uma vista ortogonal predefinida, como Vista superior ou Vista frontal, a Câmera ortogonal efetuará o snap para essa posição, tornando mais fácil acessar essas vistas predefinidas.
+При ручном переходе к предварительно заданному ортогональному виду (например, виду сверху или виду спереди) ортогональная камера будет привязана к выбранному положению, что упрощает доступ к предварительно заданным видам.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Observação:** Se o corte da câmera ocorrer no modo Câmera ortogonal, você poderá voltar para o Modo de perspectiva, afastar o zoom e tentar novamente.
+**Примечание.** Если подрезка вида выполняется в ортогональном режиме камеры, можно переключиться в перспективный режим, уменьшить масштаб и повторить попытку.
 

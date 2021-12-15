@@ -1,81 +1,81 @@
 # Railing Along Path
 
-## Fornecido pelo Dynamo
+## Технологии Dynamo
 
-No FormIt 2021 e versões mais recentes, é possível gerar um corrimão ao longo de um caminho e personalizar rapidamente os resultados no local. A amostra Railing Along Path é fornecida pelo Dynamo, o que significa que o corrimão resultante é facilmente configurável para obter os resultados desejados, e a nova execução da lógica atualizará a geometria no local.
+В FormIt 2021 и более поздних версиях можно создавать ограждения по траектории и быстро настраивать полученные результаты. Для команды «Railing Along Path» (ограждение по траектории) применяются технологии Dynamo. Это означает, что массив легко настроить для получения требуемых результатов, а повторный запуск логики приводит к обновлению доступной геометрии.
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Iniciar Railing Along Path
+## Создание ограждения по траектории
 
-* Vá para o painel do Dynamo no FormIt para Windows e certifique-se de que você esteja no diretório Dynamo Samples.
-* Clique na amostra Railing Along Path.
-* No lado esquerdo da tela, você verá um prompt para “Select path for railing”.
-   * Você deve selecionar somente uma série de arestas contíguas ou um grupo que contenha somente uma série de arestas.
-   * Depois de selecionar o caminho, clique no botão “finish” ou pressione Enter/Return.
-* O painel do Dynamo indicará que está processando as alterações. Ao terminar, você terá um corrimão, gerado pelo Dynamo em um grupo do FormIt, pronto para modificação \(veja abaixo\).
+* Перейдите на панель Dynamo в FormIt для Windows и откройте каталог примеров Dynamo.
+* Щелкните образец ограждения по траектории.
+* В левой части экрана отображается запрос «Select path for railing» (выберите траекторию для ограждения).
+   * Необходимо выбрать только ряд смежных ребер или группу, содержащую только ряд ребер.
+   * Выбрав траекторию, нажмите кнопку «Finish» или клавишу ENTER/RETURN.
+* На панели Dynamo появится информация об обработке изменений. После этого в группе FormIt появится созданное в Dynamo ограждение, готовое к изменению \(см. ниже\).
 
-## Iteração no local
+## Итерация на месте
 
-Após executar Railing Along Path, você observará que seus resultados estão definidos com os valores padrão. Talvez isso funcione para você, mas você pode personalizar muito o corrimão para se adequar às suas necessidades.
+Следует отметить, что после запуска команды «Railing Along Path» у полученной формы будут значения по умолчанию. Возможно, они вам подойдут, однако вы можете настроить ограждение в соответствии со своими потребностями.
 
-Quando Railing Along Path é executado, ele cria um novo grupo que contém os resultados, e o FormIt selecionará automaticamente o grupo e mostrará as opções disponíveis para essa instância de Railing Along Path.
+При выполнении команды «Railing Along Path» создается новая группа, содержащая полувченную форму, а FormIt автоматически выбирает группу и отображает доступные параметры для данного экземпляра ограждения по траектории.
 
-Você sempre pode retornar às propriedades Railing Along Path selecionando o grupo e alternando para o painel Properties ou editando o grupo que mostrará automaticamente Properties.
+Можно в любой момент вернуться к свойствам ограждения по траектории. Для этого необходимо выбрать группу и открыть панель свойств или отредактировать группу, в которой свойства появятся автоматически.
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-A altura total do corrimão. Usa as unidades atuais do FormIt.
+Общая высота ограждения. При этом используются текущие единицы измерения FormIt.
 
 ### Post Spacing
 
-O espaçamento entre os pilares verticais principais. Usa as unidades atuais do FormIt.
+Расстояние между основными вертикальными столбиками. При этом используются текущие единицы измерения FormIt.
 
 ### Add Posts at Path Vertices
 
-Quando **true**, os pilares serão adicionados a cada vértice do caminho selecionado e o cálculo para o próximo posicionamento do pilar será redefinido nesse ponto.
+Если задано значение **True**, столбики добавляются в каждую вершину выбранной траектории и в этой точке начинается отсчет для размещения следующего столбика.
 
-Por exemplo, se você tiver selecionado uma série de três arestas, será exibido um pilar em cada um dos dois pontos internos. Isto será útil se os vértices indicarem uma alteração de direção \(como subir escadas ou dobrar cantos\) onde um pilar naturalmente ocorreria.
+Например, если выбрать набор из 3 ребер, столбик будет отображаться в каждой из двух внутренних точек. Это удобно, если вершины указывают на изменение направления \(например, перемещение вверх по лестнице или поворотные углы\), где обычно используется столбик.
 
-Quando **false**, os pilares somente serão adicionados ao longo do caminho começando em uma extremidade e medindo a distância ao longo do caminho, ignorando os vértices ao longo do caminho. Isso será útil se você tiver selecionado um arco, spline ou círculo, nos quais os vértices não são importantes e você deseja que o espaçamento dos pilares os ignore.
+Если задано значение **False**, столбики добавляются только по траектории, начиная с одного конца, при этом измеряется расстояние по траектории и игнорируются встречающиеся вершины. Это удобно, если выбраны дуга, сплайн или окружность, вершины которых не важны, и необходимо, чтобы интервал между столбиками не был к ним привязан.
 
 ### Reverse Path Direction
 
-Ao calcular o posicionamento dos pilares, a direção do caminho escolhido determinará qual extremidade do caminho iniciará a medição de espaçamento dos pilares.
+При расчете положения столбиков направление выбранной траектории определяет, с какого конца траектории начнется измерение интервала между столбиками.
 
-Nos casos em que o espaçamento dos pilares resulta em espaço de sobra em uma extremidade não desejada do caminho, será possível alterar esse valor para **true** para inverter a curva e iniciar a medida de espaçamento dos pilares na extremidade oposta.
+В случаях, когда расстояние между столбиками приводит к образованию лишнего пространства с нежелательного конца траектории, можно изменить это значение на **True**, чтобы зеркально отобразить кривую и начать измерение интервала между столбиками на противоположном конце.
 
 ### Post Width + Depth
 
-O tamanho \(na planta\) dos perfis retangulares do pilar vertical. Usa as unidades atuais do FormIt.
+Размер \(на плане\) прямоугольных профилей вертикальных столбиков. При этом используются текущие единицы измерения FormIt.
 
 ### Handrail Width + Height
 
-O tamanho \(na seção\) do perfil do corrimão retangular. Usa as unidades atuais do FormIt.
+Размер \(в сечении\) прямоугольного профиля поручня. При этом используются текущие единицы измерения FormIt.
 
 ### Baluster Orientation
 
-Quando true, os balaústres serão orientados na horizontal, como os cabos. Quando false, os balaústres serão orientados verticalmente, para obter uma estética mais tradicional.
+Если значение «True», балясины будут ориентированы горизонтально, как канаты. Если значение «False», балясины будут ориентированы вертикально в соответствии с традиционным стилем.
 
 ### Baluster width + Depth
 
-O tamanho do perfil retangular do balaústre. Usa as unidades atuais do FormIt.
+Размер прямоугольного профиля балясины. При этом используются текущие единицы измерения FormIt.
 
 ### Baluster Spacing
 
-A quantidade de espaço entre cada balaústre. Usa as unidades atuais do FormIt.
+Расстояние между балясинами. При этом используются текущие единицы измерения FormIt.
 
 ### Bottom Rail Start Height
 
-A distância entre a parte inferior do corrimão e o corrimão inferior que suporta os balaústres. Usa as unidades atuais do FormIt.
+Расстояние между нижней частью ограждения и нижней направляющей, поддерживающей балясины. При этом используются текущие единицы измерения FormIt.
 
 ### Run
 
-Após editar as opções, clique no botão “Run” para executar o gráfico subjacente do Dynamo e gerar novos resultados. Esse botão ficará azul quando os parâmetros forem alterados, para que você saiba que ele precisa ser clicado para ver as atualizações na geometria final.‌
+Завершив редактирование параметров, нажмите кнопку «Run» (выполнить), чтобы запустить основной график Dynamo и создать новые результаты. После изменения параметров эта кнопка выделяется синим цветом. Это свидетельствует о том, что ее необходимо нажать для просмотра обновлений в итоговой геометрии.‌
 
-### Edit Embedded Graph
+### Редактировать встроенный график
 
-Clicar nesse botão iniciará o ambiente do editor gráfico do Dynamo, para que você possa visualizar e editar o gráfico subjacente do Dynamo para alterar mais rapidamente os parâmetros e ver as atualizações ao vivo ou para inspecionar/ajustar a lógica.
+По нажатию этой кнопки открывается среда редактора графика Dynamo, в которой можно просматривать и редактировать основные графики Dynamo для быстрого изменения параметров и просмотра обновлений в режиме реального времени, а также для проверки и корректировки логики.
 

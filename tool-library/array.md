@@ -1,14 +1,14 @@
-# Matriz
+# Массив
 
-É possível criar matrizes lineares e radiais no FormIt. Para **organizar arestas, faces ou objetos inteiros**, clique no ícone Matriz no menu de contexto. Em seguida, escolha Linear ou Radial, especifique os outros parâmetros e clique no objeto para iniciar uma matriz. Clique novamente para posicionar os elementos de matriz.
+В FormIt можно создавать как линейные, так и круговые (радиальные) массивы. Чтобы **добавить в массив ребра, грани или объекты целиком**, щелкните значок «Массив» в контекстном меню. Затем выберите «Линейный» или «Радиальный», укажите другие параметры и щелкните объект, чтобы начать создание массива. Щелкните еще раз, чтобы разместить элементы массива.
 
-## Linear
+## Линейный
 
 ![](../.gitbook/assets/array.png)  
 ![](../.gitbook/assets/array_linear2.png)  
 ![](../.gitbook/assets/linear_array_3.png)
 
-## Radial
+## Радиальный
 
 ![](../.gitbook/assets/array_radial1.png)  
 ![](../.gitbook/assets/radial_array2.png)  

@@ -1,20 +1,20 @@
-# Linhas
+# Oтрезки
 
-Use linhas para dividir faces e construir geometria.
+Используйте линии для разделения граней и построения геометрии.
 
-Teclado: L
+Горячие клавиши: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-É possível desenhar linhas no eixo X, Y ou Z e também na geometria existente. Quando você efetua o snap em um eixo, uma linha colorida se estende além da linha que você está desenhando, indicando em qual eixo você está desenhando. É possível ver o comprimento da linha ao desenhar e inserir manualmente um comprimento específico pressionando **tab** e inserindo um valor.
+Линии можно рисовать на осях X, Y и Z и на существующей геометрии. При привязке к оси за пределами рисуемой линии отображается цветная линия, обозначающая ось, вдоль которой выполняется построение. Длина линии отображается в процессе рисования. Можно ввести нужную длину вручную, нажав клавишу **TAB**.
 
-Cores de linha por eixo:
+Цвета линий по осям
 
-Para especificar um comprimento, basta digitar um valor de cota e uma caixa de diálogo Editar cota será exibida. Pressione OK ou Enter para aceitar o valor.
+Чтобы задать длину, просто начните вводить значение. Откроется диалоговое окно «Редактирование размера». Нажмите кнопку «ОК» или клавишу ENTER, чтобы задать значение.
 
-* X = Vermelho
-* Y = Verde
-* Z = Azul
+* Ось X: красный
+* Ось Y: зеленый
+* Ось Z: синий
 
 ![](../.gitbook/assets/lines.png)
 

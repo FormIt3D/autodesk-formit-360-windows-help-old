@@ -1,8 +1,8 @@
-# Alinhar câmera com a face
+# Выравнивание камеры по грани
 
-Alinhe rapidamente a câmera para olhar diretamente para qualquer face.
+Можно выполнить быстрое выравнивание камеры для просмотра любой из граней.
 
-Selecione uma única face e, em seguida, clique com o botão direito do mouse para acessar o menu de contexto. Procure Alinhar câmera com a face na parte superior do menu ou use o atalho AF:
+Выберите грань, затем щелкните правой кнопкой мыши, чтобы вызвать контекстное меню. Найдите в верхней части меню пункт «Выровнять камеру по грани» или используйте горячие клавиши A+F.
 
 ![](../.gitbook/assets/alignwithface.gif)
 

@@ -1,30 +1,30 @@
-# Navegar na cena
+# Навигация по сцене
 
-Use o mouse ou a tela sensível ao toque para navegar facilmente pelos modelos do FormIt:
+Используйте мышь или сенсорный экран для удобной навигации внутри и вокруг моделей FormIt.
 
-* Use **Orbitar** clicando com o botão direito do mouse e arrastando o mouse ou deslizando pela tela para dispositivos sensíveis ao toque. Isso usará o ponto do cursor no espaço 3D sobre o qual orbitar a câmera.
-   * Também é possível manter pressionada a tecla Shift para efetuar pan.
-* Aumente e diminua o **zoom** rolando a roda do mouse para cima e para baixo ou usando o gesto de pinçagem em dispositivos ativados por toque. Um ponto no espaço 3D será usado para efetuar o zoom, que terá sua velocidade reduzida quando você se aproximar de uma superfície ou outro objeto.
-   * Também é possível manter pressionada a tecla Ctrl para efetuar o zoom em uma taxa constante, não afetada pela proximidade com objetos.
-* Efetue **pan** ao clicar com o botão do meio do mouse e arrastar o mouse ou ao arrastar dois dedos para dispositivos ativados por toque.
+* **Орбита**: щелкните правой кнопкой мыши и перетащите курсор или проведите по экрану на сенсорном устройстве. Будет использоваться точка курсора в 3D-пространстве, вокруг которой выполняется вращение камеры по орбите.
+   * Для панорамирования нажмите и удерживайте клавишу SHIFT.
+* **Масштабирование**: выполняется прокруткой колесика мыши вперед и назад или сведением и разведением пальцев на сенсорных устройствах. Будет использоваться точка в 3D-пространстве, относительно которой выполняется масштабирование, а при приближении к поверхности или другому объекту масштабирование замедляется.
+   * Можно также удерживать клавишу CTRL для масштабирования с постоянной скоростью, не зависящей от близости объектов.
+* **Панорамирование**: выполняется нажатием средней кнопки мыши и перетаскиванием либо проведением по сенсорному экрану двумя пальцами одновременно.
 
-Também é possível usar a barra de ferramentas de navegação flutuante no lado direito da tela para ir para modos de vista específicos. Os atalhos são anotados entre parênteses.
+Для перехода в определенные режимы просмотра можно также использовать плавающую панель инструментов навигации в правой части рабочей области. В скобках приведены горячие клавиши для быстрого доступа к командам.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Vistas ortogonais**: clique para exibir um menu desdobrável de [vistas ortogonais](../tool-library/orthographic-views.md) disponíveis.
+![](../.gitbook/assets/20190618-ortho-views.png) **Ортогональные виды**: щелкните, чтобы открыть всплывающее меню доступных [ортогональных видов](../tool-library/orthographic-views.md).
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D padrão \(ZD\)**: inicia a vista 3D padrão.
+![](../.gitbook/assets/20190618-3d-view.png) **3D-вид по умолчанию (Z+D)**: запуск 3D-вида по умолчанию.
 
-![](../.gitbook/assets/jet-pack.png) **Percurso virtual \(FT\)**: o modo “Jetpack” permite percorrer a cena usando o teclado. Use WASD para mover adiante/para trás/esquerda/direita e use Q/E para mover para cima/para baixo. Use a tecla da barra de espaço para “voar”.
+![](../.gitbook/assets/jet-pack.png) **Обход (F+T)**: режим «реактивного ранца», позволяющий выполнять обход сцены с помощью клавиатуры. Используйте клавиши W, A, S и D для перемещения вперед, назад, влево и вправо соответственно и клавиши Q и E для перемещения вверх и вниз. Для «облета» используйте клавишу ПРОБЕЛ.
 
-![](../.gitbook/assets/orbit-tool.png) **Orbitar \(O\)**: quando ativado, clique com o botão esquerdo do mouse e arraste-o para orbitar em torno do modelo. Também é possível fazer isso a qualquer momento clicando com o botão direito do mouse e arrastando.
+![](../.gitbook/assets/orbit-tool.png) **Орбита (O)**: когда этот режим активен, щелкните левой кнопкой мыши и перетащите курсор для вращения модели по орбите. Команду можно выполнить в любой момент, щелкнув правой кнопкой мыши и начав перетаскивание.
 
-![](../.gitbook/assets/swivel.PNG) **Girar \(SV\)**: use a ferramenta Girar da barra de ferramentas Navegação para olhar em torno da cena com base em um ponto fixo.
+![](../.gitbook/assets/swivel.PNG) **Поворот (S+V)**: инструмент «Повернуть» на панели навигации позволяет выполнить осмотр сцены из фиксированной точки.
 
-![](../.gitbook/assets/panning.png) **Pan \(P\)**: clique e arraste o botão do meio do mouse ou use a ferramenta Pan \(mão\) na barra de ferramentas Navegação para efetuar o pan na cena.
+![](../.gitbook/assets/panning.png) **Панорамирование (P)**: нажмите среднюю кнопку мыши и начните перетаскивание или используйте инструмент панорамирования (значок ладони) на панели инструментов навигации для панорамирования сцены.
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\)**: role a roda do mouse ou selecione a ferramenta Zoom na barra de ferramentas Navegação e clique e arraste o botão esquerdo do mouse para aplicar zoom.
+![](../.gitbook/assets/zoom.png) **Масштабирование (Z)**: прокрутите колесико мыши или выберите инструмент масштабирования на панели инструментов навигации, а затем щелкните и перетащите, чтобы начать масштабирование.
 
-![](../.gitbook/assets/zoom_all.png) **Zoom em tudo \(ZE ou ZA\)**: aplique zoom para ajustar todo o modelo à vista atual.
+![](../.gitbook/assets/zoom_all.png) **Показать все (Z+E или Z+A)**: позволяет вписывать всю модель в текущий вид.
 
-![](../.gitbook/assets/zoom_selection.png) **Seleção de zoom \(ZS\)**: aplique zoom para ajustar todos os objetos selecionados atualmente na vista atual.
+![](../.gitbook/assets/zoom_selection.png) **Показать выбранные объекты (Z+S)**: позволяет вписать все выбранные объекты в текущий вид.
 

@@ -1,27 +1,27 @@
-# Análise solar + de energia
+# Расчет инсоляции и энергопотребления
 
-Inicie um fluxo de trabalho BIM avaliando o desempenho dos elementos desde o início do processo de projeto.
+Запустите рабочий процесс BIM, выполнив оценку производительности элементов на самых ранних этапах процесса проектирования.
 
-## Análise de luz solar
+## Расчет инсоляции
 
-Com uma assinatura do **FormIt Pro** por meio da [AEC Collection](https://www.autodesk.com.br/collections/architecture-engineering-construction/overview), **** é possível visualizar o impacto solar em sua construção:
+Подписка на **FormIt Pro**, доступная в составе [коллекции AEC Collection](https://www.autodesk.ru/collections/architecture-engineering-construction/overview), позволяет визуализировать воздействие солнечного света на здание.
 
-* Especifique faces relevantes a serem analisadas quanto ao impacto solar
-* Visualize os resultados em segundos na tela do aplicativo
-* Passe o mouse sobre um ponto de entrada para ver os valores calculados específicos do impacto solar
-* Escolha visualizar os resultados como um estudo de vidraça mensal ou como um estudo de viabilidade anual do painel solar
+* Укажите нужные грани для расчета воздействия солнечного света.
+* Результаты визуализируются в рабочей области приложения всего за несколько секунд.
+* Наведите курсор на точку ввода, чтобы увидеть конкретные значения воздействия солнечного света, полученные в результате вычислений.
+* Можно выбрать просмотр результатов в виде месячного исследования остекления либо в виде годового технико-экономического обоснования применения солнечных панелей.
 
-Saiba mais sobre a [Análise solar](../tool-library/solar-analysis.md) no FormIt Pro.
+Подробнее о [расчете инсоляции](../tool-library/solar-analysis.md) в FormIt Pro.
 
-## Análise de energia com o Insight
+## Расчет энергопотребления с помощью Insight
 
-Com uma assinatura do **FormIt Pro** por meio da [AEC Collection](https://www.autodesk.com.br/collections/architecture-engineering-construction/overview), você tem acesso à Análise de energia com o **Insight**:
+Подписка на **FormIt Pro**, доступная в составе [коллекции AEC Collection](https://www.autodesk.ru/collections/architecture-engineering-construction/overview), включает в себя возможность расчета энергопотребления с помощью **Insight**.
 
-* Analise os modelos de projeto nos estágios iniciais com o mecanismo de análise do Green Building Studio
-* Conecte-se a uma vista de painel dos resultados da análise para comparar as opções do projeto
-* Ajuste os widgets do fator de análise de energia, como proporção da janela para a parede, orientação do edifício e outros
-* Resuma o impacto da energia da construção com um único número calculado como um custo de resultado final por área
-* Salve os resultados da análise de energia para revisão futura com clientes e outras partes interessadas
+* Выполняйте расчет моделей на ранних стадиях проектирования с помощью модуля анализа Green Building Studio.
+* Подключайтесь к панели управления для просмотра результатов анализа и сравнения вариантов проектирования.
+* Настраивайте виджеты коэффициента расчета энергопотребления, такие как «Отношение окон к стенам», «Ориентация здания» и т. д.
+* Сводите воедино все данные по энергопотреблению здания в формате числа, рассчитываемого как стоимость на единицу площади.
+* Сохраняйте результаты расчета энергопотребления для последующего просмотра с клиентами и другими заинтересованными лицами.
 
-Saiba mais sobre a [Análise de energia](https://formit.autodesk.com/page/formit-insight) no FormIt Pro.
+Подробнее о [расчете энергопотребления](https://formit.autodesk.com/page/formit-insight) в FormIt Pro.
 

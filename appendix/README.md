@@ -1,7 +1,7 @@
-# Apêndice
+# Приложение
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Apêndice
+## Приложение
 
-Nesta seção, você pode encontrar recursos adicionais para melhorar ainda mais as suas habilidades no FormIt. Incluímos atalhos de teclado para agilizar o processo do FormIt, bem como as etapas que você pode tomar para colaborar com outras pessoas em um único projeto.
+В этом разделе указаны дополнительные ресурсы, которые позволят перейти на новый уровень владения FormIt. Здесь вы найдете сочетания клавиш, позволяющие ускорить процесс работы в FormIt, а также меры для обеспечения эффективной совместной работы над проектом.

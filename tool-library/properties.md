@@ -1,8 +1,8 @@
-# Propriedades
+# Свойства
 
-A **paleta Propriedades** exibe informações e dados relevantes para um objeto selecionado no Plano de trabalho do FormIt.
+На **палитре свойств** отображаются сведения и данные, относящиеся к выбранному объекту в рабочей плоскости Formit.
 
-Usando a paleta Propriedades, é possível editar o grupo de um objeto, atribuir um objeto a uma camada e alterar o material de um objeto.
+С помощью палитры свойств можно редактировать группу объекта, назначать объект слою и изменять материал объекта.
 
 ![](../.gitbook/assets/properties_palette.png)
 

@@ -1,12 +1,12 @@
-# Árvore de grupos
+# Дерево групп
 
-A paleta **Árvore de grupos** fornece um único local para gerenciar todos os grupos no arquivo. A vista em árvore exibe grupos aninhados e a coluna Status mostra qual grupo está sendo editado no momento e se o grupo é do Dynamo ou do Revit.
+Палитра **дерева групп** представляет собой единое пространство для управления всеми группами в файле. В дереве отображаются вложенные группы, а в столбце «Статус» показывается, какая группа в данный момент редактируется, а также источник группы (Dynamo или Revit).
 
-* **Selecionar**: cada instância é listada individualmente. Selecione uma instância na árvore e as instâncias são selecionadas na cena 3D.
-* **Editar**: para editar um grupo, use o ícone de caneta na parte superior da paleta ou clique com o botão direito do mouse e selecione Editar.
-* **Renomear**: para renomear um grupo, clique duas vezes no nome ou clique com o botão direito do mouse e selecione Renomear.
-* **Excluir**: para excluir um grupo, use o ícone \(**-**\) na parte superior da paleta ou clique com o botão direito do mouse e selecione Excluir.
-* **Alterar categoria**: para alterar a categoria de um grupo, selecione o grupo e use o menu suspenso Categoria na parte superior da paleta.
+* **Выбрать**: каждый экземпляр отображается отдельно. Выберите экземпляр в дереве, и экземпляры будут выбраны в 3D-сцене.
+* **Редактировать**: для редактирования группы используйте значок пера в верхней части палитры или щелкните правой кнопкой мыши и выберите «Редактировать».
+* **Переименовать**: чтобы переименовать группу, дважды щелкните ее имя или щелкните правой кнопкой мыши и выберите «Переименовать».
+* **Удалить**: чтобы удалить группу, используйте значок минуса (**-**) в верхней части палитры или щелкните правой кнопкой мыши и выберите «Удалить».
+* **Изменить категорию**: чтобы изменить категорию группы, выберите группу, а затем используйте раскрывающийся список «Категория» в верхней части палитры.
 
 ![](../.gitbook/assets/groups.png)
 

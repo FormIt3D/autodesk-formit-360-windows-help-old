@@ -1,20 +1,20 @@
-# Configurações
+# Параметры
 
-É possível acessar as configurações no menu ou na barra de ferramentas. Todas as configurações são salvas quando o FormIt é fechado.
+Параметры доступны в меню и на панели инструментов. Все параметры сохраняются после закрытия FormIt.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Unidades**: altere entre unidades imperiais e métricas
-* **Snap à grade**: alterne se as ferramentas de desenho e modelagem efetuam o snap à grade subjacente do local do solo
-* **Exibir cotas editáveis**: alterna a exibição de cotas ao desenhar e editar
-* **Mostrar somente grupos editados**: quando ativado, todos os outros grupos são ocultados enquanto outro grupo é editado
-* **Realce de pré-seleção**: se ativado, quando você passa o mouse sobre todos os objetos, arestas, faces e pontos, obtém um realce visual
-* **Botões grandes da barra de ferramentas**: ativa e desativa os botões grandes da barra de ferramentas
-* **Tema do aplicativo**: altere entre os temas da interface do usuário Claro, Escuro e Azul
+* **Единицы**: переключение между британскими и метрическими единицами измерения.
+* **Привязка к сетке**: переключение привязки инструментов рисования и моделирования к базовой сетке на поверхности земли.
+* **Показать редактируемые размеры**: переключение отображения размеров в процессе рисования и редактирования.
+* **Только редактируемые группы**: если этот параметр включен, будут скрыты все группы, кроме выбранной для редактирования.
+* **Предварительное выделение**: если этот параметр включен, при наведении курсора на любые объекты, ребра, грани и точки они визуально подсвечиваются.
+* **Крупные кнопки панели инструментов**: включение и отключение больших кнопок на панелях инструментов.
+* **Тема приложения**: переключение между светлой, темной и синей темами пользовательского интерфейса.
 
-## Modo de toque
+## Сенсорный режим
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-O Modo de toque permite usar o Windows equipado com telas de toque. Quando ativado, é possível usar um único toque e arrastar para selecionar e interagir com as ferramentas de desenho, modelagem e modificação. **Observação: Enquanto estiver no Modo de toque, as ferramentas de desenho e modificação não funcionarão corretamente com o mouse.**
+Сенсорный режим позволяет работать в программе с помощью сенсорного экрана устройства на базе Windows. Если этот режим включен, можно выбирать инструменты рисования, моделирования и изменения и работать с ними путем нажатия и перетаскивания. **Примечание. Если сенсорный режим включен, инструменты рисования и редактирования не работают должным образом при использовании мыши.**
 

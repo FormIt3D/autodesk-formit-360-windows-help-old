@@ -1,58 +1,58 @@
-# Grupos
+# Группы
 
-Uma das técnicas mais básicas, porém importantes, nos fluxos de trabalho do FormIt envolve o agrupamento. Os grupos permitem que você impeça que a geometria fique unida e possibilitam configurar as relações pai/filho entre os elementos copiados para que, se você atualizar um elemento, ambos os elementos sejam atualizados. Saiba mais sobre os grupos [aqui](../formit-primer/part-i/grouping-objects.md).
+Группирование является одним из самых простых, но в то же время важных методов работы в FormIt. Группы предотвращают склеивание геометрических объектов и позволяют настраивать между скопированными элементами отношения «родительский элемент — дочерний элемент», чтобы при обновлении одного элемента обновлялись оба. [Подробные сведения о группах](../formit-primer/part-i/grouping-objects.md).
 
-É possível criar e editar os grupos de duas maneiras: no menu de contexto de um grupo selecionado ou na barra de ferramentas principal.
+Группы можно создавать и редактировать двумя способами: из контекстного меню выбранной группы или на главной панели инструментов.
 
-## Interações de grupos
+## Работа с группами
 
-Para **criar um grupo**, selecione os elementos que você deseja agrupar (isso pode incluir arestas, faces, sólidos ou outros grupos) e clique com o botão direito do mouse. Selecione a ferramenta **Grupo \(G\)** no menu de contexto. Não é possível agrupar imagens importadas e imagens de satélite.
+Чтобы **создать группу**, выберите элементы, которые необходимо сгруппировать, например ребра, грани, тела или уже имеющиеся группы, и нажмите правую кнопку мыши. Выберите в контекстном меню инструмент **Группа \(G\)**. Импортированные изображения и спутниковые снимки сгруппировать нельзя.
 
-Para **selecionar um grupo**, clique uma vez no grupo. Observe as linhas tracejadas que são exibidas ao selecionar um grupo; elas indicam o tamanho total do grupo.
+Чтобы **выбрать группу**, щелкните ее. Обратите внимание на штриховые линии, которые появляются при выборе группы. Они показывают общий размер группы.
 
-Para **editar um grupo**, clique duas vezes no grupo. Isso inicia um modo de edição no qual você só pode visualizar e efetuar o snap para elementos fora do grupo atual, mas não pode selecioná-los. Também é possível ocultar os elementos fora do grupo atual usando o atalho de teclado **H**.
+Чтобы **отредактировать группу**, дважды щелкните ее. При этом запускается режим редактирования, в котором элементы, не входящие в текущую группу, можно просматривать и выполнять привязку к ним, но нельзя выбирать их. Можно также скрыть элементы, не входящие в текущую группу, нажав клавишу **H**.
 
-É possível criar **grupos dentro de grupos:** eles são chamados de **grupos aninhados** e podem ser criados dentro do modo de edição de grupo. Para mover um nível acima em grupos aninhados, clique em qualquer lugar fora dos grupos.
+Можно создавать **группы внутри групп.** Они называются **вложенными группами**. Создавать их можно в режиме редактирования группы. Для перемещения на один уровень вверх во вложенных группах щелкните за пределами группы.
 
-Para **sair do modo de edição de grupo**, clique duas vezes em qualquer lugar fora do grupo.
+Чтобы **выйти из режима редактирования группы**, дважды щелкните за пределами группы.
 
-É possível **copiar um grupo** para criar uma relação entre o grupo original e sua cópia: se você editar qualquer grupo copiado, as mesmas alterações afetarão todos os grupos relacionados.
+Можно **скопировать группу**, чтобы создать связь между исходной группой и ее копией. При редактировании скопированных групп изменения затрагивают все связанные группы.
 
-Para **remover a relação entre grupos copiados**, selecione o grupo ou os grupos que você deseja separar, clique com o botão direito do mouse e selecione **Tornar exclusivo** no menu de contexto. Também é possível selecionar Tornar exclusivo na barra de ferramentas Grupos.
+Чтобы **разорвать связь между скопированными группами**, выберите группы, которые требуется отделить, нажмите правую кнопку мыши и выберите в контекстном меню команду **Сделать уникальной**. Команду «Сделать уникальной» можно также выбрать на панели инструментов «Группы».
 
-Para **selecionar todos os grupos relacionados**, passe o cursor sobre um grupo e pressione a tecla Tab. Quando todos os grupos relacionados estiverem realçados, clique nos grupos para selecioná-los. É possível executar uma ação em todos os grupos de uma vez.
+Чтобы **выбрать все связанные группы**, наведите курсор на группу и нажмите клавишу TAB. Когда все связанные группы будут выделены, щелкните по группам, чтобы их выбрать. Затем можно выполнить действие для всех групп одновременно.
 
-A [**Árvore de grupos**](groups-tree.md) fornece um único local para visualizar e gerenciar todos os grupos em um projeto.
+[**Дерево групп**](groups-tree.md) — это место для централизованного просмотра всех групп проекта и управления ими.
 
-## Menu de contexto Grupos e acesso à barra de ferramentas
+## Доступ к контекстному меню групп и панели инструментов групп
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Agrupar elementos**
+**Элементы группы**
 
-Para criar um grupo com base no item da barra de ferramentas Grupos, selecione um ou mais elementos, selecione o ícone **Criar grupo** e, em seguida, selecione o ícone **Concluir**. Como alternativa, é possível selecionar **Criar grupo** no item da barra de ferramentas Grupos, selecionar os elementos que você deseja agrupar e selecionar o ícone **Concluir**.
+Чтобы создать группу с помощью панели инструментов «Группы», выберите один или несколько элементов, щелкните значок **Создать группу**, а затем — значок **Готово**. Можно также нажать **Создать группу** на панели инструментов «Группы», а затем выбрать элементы, которые необходимо сгруппировать, и щелкнуть значок **Готово**.
 
-Para **editar um grupo no item da barra de ferramentas Grupos**, selecione o ícone **Editar grupo** e clique no grupo que você deseja editar. Quando tiver terminado de fazer edições, selecione o ícone **Concluir**. Essa ferramenta permite selecionar o grupo específico que você deseja editar, mesmo que ele esteja profundamente aninhado.
+Чтобы **отредактировать группу с помощью панели инструментов «Группы»**, выберите значок **Редактировать группу** и щелкните группу, которую необходимо отредактировать. По завершении редактирования щелкните значок **Готово**. Этот инструмент позволяет выбрать группу, которую необходимо отредактировать, даже если она является вложенной.
 
-**Para tornar um grupo exclusivo na barra de ferramentas,** selecione o ícone **Tornar exclusivo** no item da barra de ferramentas Grupos. Além disso, é possível selecionar **Tornar exclusivo** no item da barra de ferramentas Grupos, selecionar o grupo que você deseja tornar exclusivo e clicar no ícone **Concluir**.
+**Чтобы сделать группу уникальной с помощью панели инструментов,** щелкните значок **Сделать уникальной** на панели инструментов «Группы». Можно также выбрать команду **Сделать уникальной** на панели инструментов «Группы», затем выбрать необходимую группу и щелкнуть значок **Готово**.
 
-**Para desagrupar um grupo do item da barra de ferramentas Grupos,** selecione o grupo que você deseja alterar e escolha o ícone **Desagrupar** no menu da barra de ferramentas Grupos. Isso desagrupa a seleção atual, mas não desagrupa nenhum grupo aninhado. Como alternativa, é possível selecionar **Desagrupar** na barra de ferramentas, selecionar o grupo que você deseja alterar e, em seguida, selecionar o ícone **Concluir**.
+**Чтобы расформировать группу на панели инструментов «Группы»**, выберите необходимую группу и щелкните значок **Разгруппировать** в меню панели инструментов «Группы». Будет расформирована только выбранная в настоящий момент группа, исключая вложенные группы. Можно также выбрать команду **Разгруппировать** на панели инструментов, выбрать необходимую группу, а затем щелкнуть значок **Готово**.
 
-**Para desagrupar todos os grupos aninhados abaixo do grupo atualmente selecionado,** selecione um grupo com grupos aninhados e selecione **Desagrupar todos aninhados** na barra de ferramentas Grupos.
+**Чтобы расформировать все группы, вложенные в выбранную группу,** выберите группу с вложенными группами и нажмите **Разгруппировать все вложенные** на панели инструментов «Группы».
 
-**Para desagrupar todos os grupos no modelo,** selecione a ferramenta **Desagrupar tudo** na barra de ferramentas Grupos.
+**Чтобы расформировать все группы модели,** выберите инструмент **Разгруппировать все** на панели инструментов «Группы».
 
-## Grupos e Revit
+## Группы в Revit
 
-Se você está familiarizado com as **famílias** do Revit, também está familiarizado com o conceito de grupos no FormIt. Os grupos do FormIt têm recursos que você pode usar para transferi-los de forma inteligente para o Revit.
+Концепция групп в FormIt аналогична **семействам** в Revit. Группы FormIt можно передавать в Revit.
 
-**Categorias de grupos do FormIt**
+**Категории групп FormIt**
 
-É possível especificar as **categorias** para grupos no FormIt para que os grupos do FormIt se tornem famílias das mesmas categorias ao importá-las para o Revit. É possível atribuir categorias aos grupos do FormIt selecionando um grupo, entrando no modo **Edição de grupo** e usando o painel **Propriedades** para escolher categorias. Também é possível atribuir categorias no painel **Árvore de grupos**.
+Группам FormIt можно назначать **категории**, чтобы при импорте в Revit они превращались в семейства той же категории. Чтобы назначить категорию группе FormIt, выберите группу в режиме **редактирования группы**, а затем выберите категорию на панели **свойств**. Категории также можно назначать с помощью панели **Дерево групп**.
 
-**Nomes de grupos do FormIt**
+**Имена групп FormIt**
 
-Também é possível usar o painel **Propriedades** para especificar um nome para o grupo do FormIt. Isso pode ser útil para navegar em seu próprio modelo e, ao importar o modelo para o Revit, será possível filtrar facilmente os elementos usando o nome do grupo.
+На панели **Свойства** также можно задавать имена групп FormIt. Это полезно при навигации по созданной модели, а также при импорте модели в Revit. Можно без труда отфильтровать элементы по имени группы.
 
-Observe que os **grupos aninhados no FormIt não são importados para o Revit como grupos aninhados**. Isso impede famílias do Revit profundamente aninhadas.
+Обратите внимание, что **вложенные группы в FormIt не импортируются в Revit в качестве вложенных групп**. Это необходимо во избежание создания в Revit вложенных семейств с большим количеством уровней.
 

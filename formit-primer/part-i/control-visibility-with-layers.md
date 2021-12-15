@@ -1,54 +1,54 @@
-# 1.6 – Controlar a visibilidade com camadas
+# 1.6. Управление видимостью с помощью слоев
 
-_Assim como o AutoCAD e o Photoshop, as camadas no FormIt permitem gerenciar a visibilidade dos objetos no modelo. Neste capítulo, vamos criar uma camada para salvar e ocultar a massa da construção para análise futura._
+_Слои в FormIt, подобно слоям в AutoCAD и Photoshop, позволяют управлять видимостью объектов модели. В этой главе мы создадим слой, чтобы сохранить и скрыть формообразующий элемент здания для последующего анализа._
 
-_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.6 – Control Visibility with Layers.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл_ _**1.6 — Control Visibility with Layers.axm**_ _из_ _**наборов данных для части 1 руководства FormIt Primer**._
 
-## **Criar camadas**
+## **Создание слоев**
 
-1 – Para criar as novas camadas:
+1 - Чтобы создать новый слой, выполните следующие действия.
 
-1. Vá para a **paleta Camadas** e clique no sinal **+** três vezes para criar três camadas.
-2. Clique duas vezes nos nomes das camadas para renomeá-los como **Massa**, **Piso principal de construção** e **Imagem da planta.**
+1. Перейдите на **палитру слоев** и трижды щелкните значок **+**, чтобы создать три слоя.
+2. Дважды щелкните имена слоев, чтобы переименовать их следующим образом: **Формообразующий элемент**, **Перекрытие главного здания** и **Изображение плана.**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Observação:**_ _É possível clicar em um nome de camada e arrastá-lo para cima ou para baixo para reordenar as camadas._
+_**Примечание.**_ _Чтобы изменить порядок слоев, щелкните имя слоя и перетащите его вверх или вниз._
 
-2 – Para atribuir o grupo **Massa – Construção principal** à camada **Massa**:
+2 - Чтобы назначить группу **Формообразующий элемент — главное здание** слою **Формообразующий элемент**, выполните следующие действия.
 
-1. Na tela, selecione o grupo **Massa – Construção principal**.
-2. Na **paleta Camadas**, selecione a camada **Massa** no menu suspenso “**Seleção ativada:**”. De forma similar, atribua o grupo **Imagem da planta** à camada **Imagem da planta**.
+1. В рабочей области выберите группу **Формообразующий элемент — главное здание**.
+2. На **палитре слоев** выберите слой **Формообразующий элемент** в раскрывающемся меню **Выбор вкл.:**. Аналогичным образом назначьте группу **Изображение плана** слою **Изображение плана**.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicar grupo**
+## **Копирование группы**
 
-_Agora, iniciaremos o processo de modelagem da construção em mais detalhes. A primeira etapa é criar a geometria do piso com base na massa da construção que já temos._
+_Теперь перейдем к более детальному моделированию здания. На первом этапе необходимо создать геометрию перекрытия на основе уже имеющегося формообразующего элемента здания._
 
-1 – Selecione o grupo **Massa – Construção principal** novamente. Pressione **Ctrl + C \(Copiar\)** para copiar e, em seguida, **Ctrl + Shift + V \(Colar no local\)** para colar a massa no mesmo lugar.
+1. Снова выберите группу **Формообразующий элемент — главное здание**. Нажмите **CTRL+C** (Копировать), чтобы скопировать, а затем **CTRL+SHIFT+V** (Вставить по месту), чтобы вставить формообразующий элемент в то же место.
 
-2 – Para desassociar a nova geometria de grupo do grupo original: clique com o botão direito do mouse para acessar o **menu de contexto** e selecione a opção **Tornar exclusivo \(MU\)**.
+2. Чтобы открепить новую группу геометрии от исходной группы, щелкните правой кнопкой мыши и в **контекстном меню** выберите **Сделать уникальной** (M+U).
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Observação**: O novo grupo não está mais associado ao original. As alterações no novo grupo não alterarão o grupo original._
+_**Примечание.** Новая группа больше не связана с исходной. Изменения в новой группе не будут отражены в исходной группе._
 
-## **Criar a geometria do piso**
+## **Создание геометрии перекрытия**
 
-1 – Reatribuir a camada do grupo:
+1 - Чтобы переназначить слой группы, выполните следующие действия.
 
-1. Clique uma vez para selecionar um dos grupos **Massa – Construção principal**.
-2. Coloque o grupo na camada **Piso de construção principal** usando o menu suspenso “**Seleção ativada:**” na **paleta Camadas**.
-3. Desmarque a camada **Massa** para ocultar sua geometria e mantê-la segura de quaisquer edições acidentais.
+1. Щелкните одну из групп **Формообразующий элемент — главное здание**.
+2. Поместите группу на слой **Перекрытие главного здания** с помощью раскрывающегося списка **Выбор вкл.:** на **палитре слоев**.
+3. Снимите флажок напротив слоя **Формообразующий элемент**, чтобы скрыть его геометрию и предотвратить его случайное редактирование.
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 – Clique duas vezes no grupo visível **Massa – Construção principal** para editá-lo. Nomeie novamente o grupo **Piso** na **paleta Propriedades**.
+2 - Дважды щелкните видимую группу **Формообразующий элемент — главное здание**, чтобы отредактировать ее. Переименуйте группу в **Перекрытие** на **палитре свойств**.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 – **Clique uma vez** na **face superior** da geometria para selecioná-la. Clique novamente e comece a arrastar a face para baixo. Quando você arrasta a face para baixo, digite **11’-2"** e a **caixa de diálogo Cota** será exibida. Clique em **OK** após inserir o valor. O piso resultante deve ter 1’ de espessura. Clique duas vezes no espaço para sair do grupo.
+3 - **Двойным щелчком** выберите **верхнюю грань** геометрии. Щелкните еще раз и начните перетаскивать грань вниз. При перетаскивании грани вниз введите **11’-2"**, чтобы открыть **диалоговое окно размеров**. Введя указанное значение, нажмите **ОК**. Полученное перекрытие должно быть толщиной 1 фут (0,3 м). Дважды щелкните в пустом пространстве, чтобы выйти из группы.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

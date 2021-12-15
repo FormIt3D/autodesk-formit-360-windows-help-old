@@ -1,24 +1,24 @@
-# Retângulo
+# Прямоугольник
 
-É possível usar a ferramenta **Retângulo** no menu da barra de ferramentas **Criar esboço** para desenhar rapidamente uma face retangular. Faça a extrusão da face para criar um volume retangular.
+Инструмент **Прямоугольник** в меню панели инструментов **Создать эскиз** используется для быстрого создания прямоугольной грани. Затем такую грань можно выдавить для создания объемной прямоугольной фигуры.
 
-Atalho de teclado: R
+Клавиша быстрого доступа: R
 
-Use os eixos para assegurar que você esteja desenhando na direção correta:
+При построении используйте оси для определения правильного направления.
 
-É possível desenhar retângulos no eixo X, Y ou Z. Ao desenhar, é possível especificar uma cota simplesmente digitando um valor, que abrirá a caixa de diálogo Editar cota. Pressione Enter ou OK para aceitar a cota.
+Можно построить прямоугольник вдоль оси X, Y или Z. В процессе построения можно задать размер, начав вводить значение на клавиатуре, в результате чего отобразится диалоговое окно «Редактирование размера». Нажмите клавишу ENTER или кнопку «ОК», чтобы принять размер.
 
-Para desenhar um retângulo, clique para definir o primeiro ponto no esboço.
+Для построения прямоугольника щелкните, чтобы задать первую точку эскиза.
 
-Cores de linha por eixo:
+Цвета линий по осям
 
-* X = Vermelho
-* Y = Verde
-* Z = Azul
+* Ось X: красный
+* Ось Y: зеленый
+* Ось Z: синий
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Quando você terminar de desenhar o retângulo, ele se torna numa face que pode sofrer extrusão para criar um volume.
+По завершении построения прямоугольник будет преобразован в грань, которую можно выдавить для создания объемной фигуры.
 

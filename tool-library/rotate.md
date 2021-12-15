@@ -1,13 +1,13 @@
-# Rotacionar objeto
+# Поворот объекта
 
-É possível alterar a orientação dos objetos usando a ferramenta Rotacionar no menu de contexto.
+Изменить угол поворота объектов можно с помощью инструмента «Поворот» в контекстном меню.
 
-1. Selecione um elemento que deseja rotacionar e clique com o botão direito do mouse para iniciar o menu de contexto.
-2. No menu de contexto, selecione a ferramenta Rotacionar.
-3. Quando o gráfico do transferidor aparecer no mouse, clique para definir o plano para rotação.
-4. Use as alças azuis para especificar o ponto inicial da rotação e redefina o eixo, se necessário. Use as setas ou a caixa de cota editável para definir o ângulo de rotação.
+1. Выберите элемент, который требуется повернуть, и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите инструмент «Поворот».
+3. Когда отобразятся элементы управления поворотом, щелкните, чтобы задать плоскость поворота.
+4. С помощью синих ручек задайте начальную точку поворота и при необходимости перенастройте ось. Угол поворота задается с помощью стрелок или путем изменения значения поля.
 
-Observe que também é possível usar o atalho de teclado **Q** para acessar a ferramenta de rotação após selecionar um elemento.
+Обратите внимание, что для доступа к инструменту поворота после выбора элемента можно также использовать клавишу **Q**.
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

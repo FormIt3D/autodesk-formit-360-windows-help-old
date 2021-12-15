@@ -1,39 +1,39 @@
-# Configurar o projeto
+# Настройка проекта
 
-## Iniciar
+## Запуск
 
-Quando você iniciar o FormIt, estará em um ambiente 3D. Reserve algum tempo para aprender como [navegar pelo espaço 3D](navigating-the-scene.md) e, em seguida, comece a construir um projeto \([veja como](../formit-primer/)\), use o menu Arquivo para abrir um projeto do FormIt existente ou importe uma variedade de outros tipos de arquivo.
+При запуске FormIt открывается 3D-среда. Уделите некоторое время тому, чтобы освоиться с [перемещением в 3D-пространстве](navigating-the-scene.md), а затем создайте проект \([как это сделать](../formit-primer/)\). В меню «Файл» откройте существующий проект FormIt, или импортируйте файлы поддерживаемого типа.
 
-O FormIt permite abrir, salvar e exportar arquivos localmente e no BIM 360 Docs. [Usar o BIM 360 Docs no FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) é uma ótima maneira de compartilhar modelos na nuvem.
+FormIt позволяет открывать, сохранять и экспортировать файлы как локально, так и в BIM 360 Docs. [BIM 360 Docs в FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) позволяет предоставить общий доступ к моделям в облаке.
 
-Falando em salvar, o FormIt [salvará automaticamente o trabalho](../tool-library/autosave.md) quando você começar a fazer alterações no modelo. Ainda é recomendável salvar com frequência porque ele limpará o arquivo de backup e economizará espaço.
+Что касается сохранения, FormIt [автоматически сохраняет результаты работы](../tool-library/autosave.md) при внесении изменений в модель. Рекомендуется регулярно сохранять работу, т. к. это позволяет очищать файл резервной копии и экономить пространство на диске.
 
-## Configurações do aplicativo
+## Параметры приложения
 
-* Unidades:
+* Единицы:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * A definição dessa opção afetará as unidades em todas as ferramentas e a geometria importada, como o Dynamo e tipos de arquivo sem unidades, como STL.
+   * Значение параметра учитывается для всех единиц измерения во всех инструментах и импортированных объектах геометрии, например Dynamo, и в файлах без единиц измерения, например STL.
 
-* Snap à grade:
-   * Força as ferramentas com pontos de posicionamento a efetuar o snap para os pontos de interseção da grade. Observe que você pode desativar a grade em [Estilos visuais](../formit-primer/part-i/visual-settings.md); se a grade estiver desativada, o snap à grade também será desativado.
-* Exibir cotas editáveis:
-   * Escolha se deseja manter as caixas de cota visíveis \(recomendamos mantê-las ativadas se você deseja desenhar com precisão\).
-* Ocultar contexto/mostrar somente o grupo editado:
-   * Isso afeta se a edição de um grupo mostrará ou não sua área circundante. É possível alterar facilmente essa configuração usando o atalho \(H\). Ativar/desativar H ao modelar dentro e fora dos grupos permite visualizar os grupos no isolamento e em contexto conforme necessário.
-* Realce de pré-seleção:
-   * Por padrão, o FormIt “pré-selecionará” objetos quando você passar o cursor sobre eles. Isso é útil para assegurar que o objeto que você deseja selecionar seja o objeto obtido, mas pode ser um elemento de distração ao apresentar um projeto. Use essa opção ou o atalho para alternar rapidamente entre exibir e ocultar realce de pré-seleção, conforme necessário. Observe que essa opção precisa ser ativada para usar os recursos como [Seleção inteligente](https://www.youtube.com/watch?v=akLeB1FADt4).
+* Привязка к сетке.
+   * Принудительная привязка инструментов с точками размещения к точкам пересечения сетки. Обратите внимание, что в [визуальных стилях](../formit-primer/part-i/visual-settings.md) можно отключить сетку. Если сетка отключена, привязка к ней также будет отключена.
+* Показать редактируемые размеры.
+   * Укажите, следует ли отображать поля размеров \(рекомендуется установить этот флажок для обеспечения точности рисования\).
+* Скрыть контекст/показать только отредактированные группы.
+   * Параметр управляет отображением соседних объектов группы при ее редактировании. Его можно легко изменить нажатием на клавишу \(H\). Нажатием на клавишу H при моделировании в группах и вне групп можно просматривать группы как в контексте, так и без него.
+* Предварительное выделение.
+   * По умолчанию FormIt предварительно выделяет объекты при наведении на них курсора. Это удобно, когда необходимо выбирать объекты в процессе проектирования, однако может создавать неудобства при представлении проекта. Используйте этот параметр или сочетание клавиш для быстрого переключения между отображением и скрытием предварительно выбранных элементов. Обратите внимание, что необходимо включить данный параметр для использования таких функций, как [Умный выбор](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## Touch Mode
+## Сенсорный режим
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-Se o computador tiver uma tela sensível ao toque, use o Touch Mode para navegar facilmente no modelo e criar a geometria. Se você também estiver usando o FormIt para iOS, isso parecerá familiar.
+Если у компьютера сенсорный экран, используйте сенсорный режим для упрощения навигации по модели и создания объектов геометрии. Если вы используете FormIt для iOS, он вам знаком.
 
-Quando o Touch Mode está ativado, a interação do FormIt se torna mais parecida com o FormIt no iPad, calibrando as ferramentas de navegação e modificação para trabalhar com uma interface de toque. Por isso, não é recomendável usar o FormIt com um mouse e teclado enquanto o Touch Mode está ativado.
+Когда включен сенсорный режим, взаимодействие с FormIt становится больше похоже на работу с FormIt на iPad: навигация и работа над изменениями введется с использованием сенсорного интерфейса. Поэтому не рекомендуется использовать FormIt с мышью и клавиатурой при включенном сенсорном режиме.
 
-Quando o Touch Mode estiver ativado, você verá ele realçado na barra de ferramentas, bem como um banner “Touch Mode” no canto inferior esquerdo da tela.
+Если сенсорный режим включен, на панели инструментов появится соответствующее сообщение, а в левом нижнем углу экрана появится баннер «Сенсорный режим».
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

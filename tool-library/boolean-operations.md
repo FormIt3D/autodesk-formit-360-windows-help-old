@@ -1,13 +1,13 @@
-### Operações booleanas
-Use as operações Unir e Cortar para alterar objetos.
+### Логические операции
+Используйте операции соединения и вырезания для изменения объектов.
 
-#### Unir
-Para realizar uma união, selecione todos os objetos que deseja tornar booleanos. Em seguida, selecione a **ferramenta Unir** no menu de contexto. A parte de interseção/sobreposição da geometria será unida em um objeto.
+#### Соединить
+Для операции объединения выберите все объекты, которые требуется соединить логически. Затем выберите в контекстном меню **инструмент соединения**. Пересекающиеся элементы геометрии будут преобразованы в единый объект.
 
 ![](images/join tool.png)
 
-#### Recortar
-Para subtrair volumes da geometria existente, primeiro selecione o objeto original. Em seguida, selecione o objeto que deseja subtrair dele. Depois, selecione a **ferramenta Corte** no menu de contexto. O volume intersecionado será subtraído do objeto original.
+#### Вырезать
+Для вычитания объемов из существующей геометрии сначала выберите исходный объект. Затем выберите объект, который требуется вычесть из исходного. Затем в контекстном меню выберите **инструмент вырезания**. Пересекающийся объем будет вычтен из исходного объекта.
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

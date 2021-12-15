@@ -1,16 +1,16 @@
-# Planos de trabalho
+# Рабочие плоскости
 
-Quando você altera os eixos universais no esboço principal ou os eixos locais de um grupo, um plano de trabalho é associado aos eixos X e Y. Um **plano de trabalho** é uma superfície bidimensional virtual usada como o plano padrão para o esboço. Esse plano de trabalho será esticado até o infinito e fornecerá uma superfície para o esboço sem efetuar o snap aos elementos atrás dele.
+При изменении глобальных осей на основном эскизе или локальных осей группы рабочая плоскость связывается с осями X и Y. **Рабочая плоскость** — это виртуальная 2D-поверхность, используемая в качестве плоскости по умолчанию для построения эскизов. Эта рабочая плоскость растягивается до бесконечности и обеспечивает поверхность для построения эскиза без привязки к элементам за ее пределами.
 
-Para saber como editar o plano do chão, consulte [Estilos visuais.](../formit-primer/part-i/visual-settings.md)
+Сведения о способах редактирования нулевой плоскости см. в разделе [Визуальные стили.](../formit-primer/part-i/visual-settings.md)
 
-## Alterar os planos de trabalho
+## Изменение рабочих плоскостей
 
-Gire os [Eixos universais](world-axes.md) para o plano de outro objeto no esboço. Isso alinhará o plano de trabalho ativo para corresponder a essa face. Agora é possível desenhar, inserir elementos e modificar elementos relativos ao novo plano XY, em vez do plano de chão padrão. É possível orbitar atrás ou abaixo da grade e dos planos de trabalho para efetuar o snap e inferência para elementos atrás dela.
+Поверните [оси глобальной системы координат](world-axes.md) к плоскости другого объекта на эскизе. Это позволит выровнять активную рабочую плоскость по выбранной грани. Теперь можно создавать эскизы, размещать элементы и изменять элементы с использованием новой плоскости XY вместо нулевой плоскости по умолчанию. Можно выполнять вращение по орбите позади сетки и рабочих плоскостей или под ними, а также выполнять привязку и формирование элементов позади сетки.
 
-É possível ativar e desativar a visibilidade da linha de eixo para se beneficiar do esboço com base no plano de trabalho. É possível controlar essa configuração em Estilo visual &gt; Ambiente &gt; **Exibir grade \(DG\).**
+Можно включать и отключать видимость линий сетки, чтобы использовать преимущества рисования эскиза с использованием рабочей плоскости. Этот параметр можно задать в разделе «Визуальный стиль» &gt; «Среда» &gt; **«Отображение сетки (D+G)».**
 
-Também é possível controlar se você efetua o snap à grade ao desenhar. Ative e desative essa configuração em Configurações &gt; **Snap à grade \(SG\).**
+Можно также управлять привязкой к сетке при рисовании. Включить или отключить этот параметр можно в разделе «Параметры» > **«Привязка к сетке» (S+G).**
 
 ![](../.gitbook/assets/work-plane.gif)
 

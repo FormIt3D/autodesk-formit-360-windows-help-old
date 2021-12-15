@@ -1,14 +1,14 @@
-# Polígono
+# Многоугольник
 
-Use a ferramenta Polígono para desenhar um polígono normal de n lados no espaço ou em outro objeto.
+Инструмент «Многоугольник» используется для построения правильного многоугольника с заданным количеством сторон в пространстве или на другом объекте.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-Inicie o polígono e clique para selecionar o ponto central. Especifique o raio desenhando o segundo ponto, digitando uma cota ou pressionando **Tab** para abrir a caixa de diálogo **Opções de ferramentas**.
+Выберите «Многоугольник» и щелкните, чтобы задать центральную точку. Задайте радиус, указав вторую точку, введя размер или нажав клавишу **TAB**, чтобы вызвать окно **Параметры инструмента**.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-A caixa de diálogo **Opções de ferramentas** permite alterar o número de lados e especificar um raio em particular.
+Окно **Параметры инструмента** позволяет изменить количество сторон и задать определенный радиус.
 
 ![](../.gitbook/assets/image.png)
 

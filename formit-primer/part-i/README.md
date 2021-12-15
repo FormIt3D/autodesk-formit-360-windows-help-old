@@ -1,24 +1,24 @@
-# Parte I
+# Часть I
 
-## Modelagem da Residência Farnsworth de Mies van der Rohe
+## Моделирование дома Фарнсуорт архитектора Людвига Мис ван дер Роэ
 
-Na Parte I deste Manual, vamos analisar as ferramentas e os fluxos de trabalho básicos do FormIt para construir uma casa modernista histórica em apenas duas horas. Consulte as seções **Introdução ao FormIt** e **Biblioteca de ferramentas** para obter explicações detalhadas sobre ferramentas, barras de ferramentas, paletas e processos aqui discutidos.
+В первой части руководства мы рассмотрим основные инструменты и рабочие процессы FormIt, позволяющие построить исторический дом в стиле модерн всего за два часа. Подробные сведения об инструментах, панелях инструментов, палитрах и процессах, описанных в данном документе, см. в разделе **Основы FormIt** и **Библиотека инструментов**.
 
 
 
-![Residência Farnsworth](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
+![Дом Фарнсуорт](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Pré-requisitos
+### Предварительные требования
 
-Antes de iniciar a Parte I, faça o download e instale o FormIt para Windows usando as instruções encontradas na seção Introdução do FormIt aqui: [**Pré-requisitos e instalação**](../../formit-introduction/prerequisites-and-installation.md).
+Перед началом работы с частью I скачайте и установите FormIt для Windows, следуя инструкциям в разделе «Основы FormIt» на [**странице «Необходимые компоненты и установка»**](../../formit-introduction/prerequisites-and-installation.md).
 
-Você também precisará fazer o download do conjunto de dados encontrado no link abaixo. O conjunto de dados é uma coleção de arquivos usados em toda a Parte I.
+Кроме того, необходимо скачать набор данных, приведенный по ссылке ниже. Набор данных представляет собой набор файлов, используемых для выполнения заданий в части I.
 
-_Se você não puder executar o FormIt para Windows, a maioria do tutorial poderá ser concluída usando a_ [_**Aplicação Web gratuita**_](https://formit.autodesk.com/app)_**.**Para obter mais informações sobre as versões e o licenciamento do FormIt, visite o_ ****[_**site do FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Если использовать FormIt для Windows невозможно, большинство учебных заданий можно выполнить с помощью бесплатного_ [_**веб-приложения**_](https://formit.autodesk.com/app)_**.** Дополнительные сведения о версиях FormIt и лицензировании см. на_ ****[_**веб-сайте FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Definir dados
+### Источник
 
-Ao longo da Parte I, vamos construir a Residência Farnsworth passo a passo, dividindo a modelagem em capítulos gerenciáveis. Se você desejar apenas concluir capítulos específicos, o conjunto de dados abaixo fornecerá o progresso até o capítulo escolhido. Além dos **Arquivos de capítulo**, o conjunto de dados também contém os **Arquivos de suporte** necessários para completar todos os exercícios.
+В части I мы шаг за шагом построим дом Фарнсуорт, разбив процесс моделирования на небольшие и несложные главы. Если вы хотите выполнить только отдельные задания, то в наборе данных ниже будет приведена информация о ходе работы вплоть до выбранной главы. Помимо **файлов по главам** в наборе данных также содержатся необходимые **вспомогательные файлы** для выполнения всех упражнений.
 
-* \*\*\*\*[**Parte I dos Conjuntos de dados do Manual do FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**Наборы данных для части I руководства FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
 

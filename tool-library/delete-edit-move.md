@@ -1,22 +1,22 @@
-# Excluir, editar, mover
+# Удаление, редактирование, перемещение
 
-Remova um objeto, altere sua localização ou modifique suas propriedades.
+Удаление объекта, смена его местоположения или изменение его свойств.
 
-## Excluir
+## Удаление
 
-Primeiro, faça a seleção de uma geometria. Em seguida, clique com o botão direito do mouse para ver o menu de contexto, onde é possível clicar na **ferramenta Excluir**. Alternativamente, pressione a tecla Delete do teclado.
+Сначала выберите геометрию. Затем щелкните правой кнопкой мыши, чтобы открыть контекстное меню, и выберите **инструмент удаления**. Либо нажмите клавишу ESC на клавиатуре.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Editar
+## Редактирование
 
-Ao usar muitas das ferramentas de edição, como Mover, Matriz, Empurrar/puxar face e Deslocamento, você verá uma caixa de cota azul. É possível clicar nessa cota após concluir a operação e inserir um valor específico. Você também pode simplesmente começar a digitar um valor numérico para acessar a caixa de diálogo Editar cota. Como alternativa, é possível pressionar Tab para abrir a caixa de diálogo Editar cota, mas Tab não é mais necessário com o FormIt para o Windows v17 e versões mais recentes.
+При использовании таких инструментов редактирования, как «Перенести», «Массив», «Вытягивание грани» и «Смещение», отображается синий прямоугольник, обозначающий размеры объекта. Можно щелкнуть его после завершения операции и ввести необходимое значение. Для открытия диалогового окна «Редактирование размера» можно просто ввести числовое значение. Можно также нажать клавишу TAB для вызова диалогового окна «Редактирование размера», однако при работе в FormIt 17 для Windows и более поздних версиях нажимать клавишу TAB не требуется.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Mover arestas, faces ou objetos
+## Перемещение ребер, граней и объектов
 
-Selecione primeiro a aresta, a face ou o objeto. A ferramenta de movimentação é ativada automaticamente. Passe o cursor do mouse para ver os snaps e pontos de inferência para especificar onde deseja iniciar a operação de movimentação e, em seguida, clique para iniciar. Agora, passe o mouse para ver os snaps e pontos de inferência para a localização na qual deseja mover o objeto. Clique novamente para posicionar o objeto.
+Сначала выберите ребро, грань или объект. Автоматически будет выбран инструмент «Перенести». Наведите курсор, чтобы увидеть точки привязки и вспомогательные точки и указать место начала перемещения, затем щелкните, чтобы начать операцию. Теперь переместите курсор, чтобы увидеть точки привязки и вспомогательные точки в том месте, куда требуется переместить объект. Щелкните еще раз, чтобы разместить объект.
 
 ![](../.gitbook/assets/edit_edge.png)
 

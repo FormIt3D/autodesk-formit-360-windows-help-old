@@ -1,26 +1,26 @@
-# Medir ângulo
+# Измерение угла
 
-A ferramenta Medir ângulo está localizada na [barra de Ferramentas](../formit-introduction/tool-bars.md).
+Инструмент «Измерить угол» находится на [панели инструментов](../formit-introduction/tool-bars.md).
 
-A ferramenta Medir ângulo é usada para medir ângulos entre vértices, arestas, faces e volumes. Também é possível usar a ferramenta Medir ângulo para controlar as cotas da geometria.
+Он используется для измерения углов между вершинами, ребрами, гранями и объемами. Его также можно использовать для определения размеров геометрии.
 
-* No menu da barra de ferramentas **Medir**, selecione a ferramenta **Medir ângulo** ou use o atalho de teclado **M A** e selecione um ponto inicial.
+* В меню панели инструментов **Измерение** выберите инструмент **Измерить угол** или используйте комбинацию клавиш **M+A** и выберите начальную точку.
 
    ![](../.gitbook/assets/measure-angle.png)
 
-* Clique e arraste a alça para o vértice inicial.
+* Щелкните и перетащите ручку в место начальной вершины.
 
    ![](../.gitbook/assets/measure-angle2.png)
 
-* Use as setas para medir o ângulo entre um ponto e outro.
+* Используйте стрелки для измерения угла между двумя точками.
 
    ![](../.gitbook/assets/measure-angle4.png)
 
-* Para alterar a geometria, clique em uma aresta ou face e insira um novo valor de ângulo clicando no ângulo exibido.
+* Чтобы изменить геометрию, щелкните ребро или грань и введите новое значение угла, щелкнув отображаемый угол.
 
    ![](../.gitbook/assets/measure-angle3.png)
 
-* As alterações ou medições são exibidas:
+* Отобразятся внесенные изменения или измерения.
 
    ![](../.gitbook/assets/measure-angle5.png)
 

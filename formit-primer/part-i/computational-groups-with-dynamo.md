@@ -1,75 +1,75 @@
-# 1.10 – Grupos computacionais com o Dynamo
+# 1.10. Группы автоматизированного проектирования с помощью Dynamo
 
-_Neste capítulo, aproveitaremos o poder computacional do_ [_**Dynamo**_](http://dynamobim.org/) _para inserir e modificar grupos flexíveis que estão vinculados a amostras de gráficos do Dynamo prontas para uso._
+_В этом разделе мы воспользуемся вычислительными возможностями_ [_**Dynamo**_](http://dynamobim.org/) _для размещения и изменения гибких групп, привязанных к примерам готовых графиков Dynamo._
 
-_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.10 – Computational Groups with Dynamo.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Если вы не работали с предыдущим разделом, загрузите и откройте файл_ _**1.10 – Computational Groups with Dynamo.axm**_ _из_ _**набора данных для части I руководства FormIt Primer**._
 
-_Você pode_ [_**aprender mais aqui**_](http://formit.autodesk.com/page/formit-dynamo) _sobre como o FormIt e o Dynamo funcionam juntos para os fluxos de trabalho do projeto computacional._
+_Ознакомиться с дополнительными сведениями о совместном применении FormIt и Dynamo в рабочих процессах автоматизированного проектирования можно_ [_**на этой странице**_](http://formit.autodesk.com/page/formit-dynamo)_._
 
-## **Criar escadas de terraço inferior**
+## **Создание лестницы нижней террасы**
 
-1 – Assegure-se de que as camadas **Lower Terrace, Main Building Floor** e **Plan Image** estejam ativadas, pois é onde adicionaremos as escadas.
+1 - Включите слои **Нижняя терраса, Основной этаж здания** и **Изображение плана**, на которые мы добавим лестницу.
 
-2 – Para colocar um grupo de escadas vinculado a uma das amostras do Dynamo prontas para uso:
+2 - Чтобы разместить группу лестницы, привязанную к одному из готовых примеров Dynamo, выполните следующие действия.
 
-1. Abra a **Dynamo Palette** na barra de paletas. Você deve ver alguns objetos internos do Dynamo no diretório **Dynamo Samples**.
-2. Clique uma vez na amostra do Dynamo **Stairs** para levá-la para o espaço do modelo. O FormIt executará o gráfico em segundo plano e gerará a geometria da escada com base nesse gráfico.
-3. Mova o cursor sobre a tela e, quando a escada estiver carregada, uma visualização fantasma da geometria da escada será movida junto com o mouse. Mova o cursor sobre a tela, perto do terraço, e clique para posicionar a escada. Pressione **ESC** para limpar a seleção. Observe que, após posicionar as escadas, a **Properties Palette** será aberta automaticamente.
+1. Откройте **палитру Dynamo** на панели «Палитры». В каталоге **Dynamo Samples** (примеры Dynamo) должно быть несколько встроенных объектов Dynamo.
+2. Щелкните пример Dynamo **Stairs** (лестница), чтобы перенести его в пространство модели. FormIt в фоновом режиме запустит график и сформирует на его основе геометрию лестницы.
+3. Наведите курсор на активное окно. После загрузки лестницы ее полупрозрачная геометрия будет перемещаться вместе с курсором. Наведите курсор на активное окно рядом с террасой и щелкните, чтобы разместить лестницу. Нажмите **ESC** для отмены выбора. Обратите внимание, что после размещения лестницы автоматически откроется **палитра свойств**.
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Observação:**_ [_**Também é possível vincular diretórios locais**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _que contêm gráficos do Dynamo e executar seus próprios gráficos locais do Dynamo como essas amostras._
+_**Примечание.**_ [_**Кроме того, можно связать локальные каталоги**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started), _содержащие графики Dynamo, и запустить собственные локальные графики Dynamo, как в приведенных примерах._
 
-3 – Para atualizar as cotas de escadas:
+3 - Чтобы обновить размеры лестницы, выполните следующие действия.
 
-1. Com o grupo de escadas selecionado, modifique as entradas disponíveis na seção **INPUTS** do Dynamo na parte inferior da **Properties Palette** para coincidir com o mostrado abaixo. A maioria dos grupos criados por meio de scripts do Dynamo terá uma seção do Dynamo incluída em suas propriedades quando selecionada.
+1. Выбрав группу лестницы, измените значение в разделе Dynamo **INPUTS** в нижней части **палитры свойств**, как показано на рисунке ниже. В большинстве групп, созданных с помощью сценариев Dynamo, при выборе среди свойств будет содержаться раздел Dynamo.
    * Add Top Landing = False
    * Add Middle Landing = False
    * Add Bottom Landing = False
-   * Floor-to-Floor Height = 2,6
+   * Floor-to-Floor Height = 2.6
    * Stair Width = 12
    * Riser Height = 0.6
    * Tread Length = 1.25
    * Tread Overlap = 0.25
    * Tread Thickness = 0.25
-   * Height Between Middle Landings = \(não relevante, pois nenhum patamar do meio está sendo criado\)
-   * Middle Landing Length = \(não relevante, pois nenhum patamar do meio está sendo criado\)
-   * Top/Bottom Landing Length = \(não relevante, pois nenhum patamar está sendo criado\)
-2. Clique no botão **Run** para executar novamente o script do Dynamo usando os valores de entrada atualizados.
-3. Mova o grupo conforme necessário para colocar a escada na localização correta de acordo com a **Plan Image**. Tome cuidado para não alterar a elevação do grupo de escadas ao movê-la. Consulte os capítulos anteriores para saber mais sobre truques e técnicas ao mover elementos do modelo.
+   * Height Between Middle Landings = \(не используется, так как средние площадки не создаются\)
+   * Middle Landing Length = \(не используется, так как средние площадки не создаются\)
+   * Top/Bottom Landing Length = \(не используется, так как площадки не создаются\)
+2. Нажмите кнопку **Run**, чтобы повторно запустить сценарий Dynamo с использованием обновленных значений.
+3. Переместите группу, чтобы разместить лестницу в нужном месте в соответствии с **изображением плана**. При перемещении группы лестницы не следует изменять ее отметку. Дополнительные сведения о приемах и способах перемещения элементов модели см. в предыдущих разделах.
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Observação:**_ _A entrada_ _**Floor-to-Floor Height**_ _é uma aproximação da altura total da escada. A_ _**Riser Height**_ _é o parâmetro que realmente define a altura das escadas. Neste exemplo, definimos a __**Floor-to-Floor Height**__ como 2,6’, mas a altura final da escada é 3,0’ \(0,6’\(**Riser Height**\) x 5 \(número de espelhos\)\). Como o vão entre o chão e a parte superior do piso do terraço é de 3’-2", o restante valor de 2" está contido no espelho do degrau superior._
+_**‌Примечание.**_ _Значение_ _**Floor-to-Floor Height**_ _представляет собой приблизительную величину общей высоты лестницы. Высота лестницы задается с помощью параметра_ _**Riser Height**_ _(высота подступенка). В этом примере параметру_ _**Floor-to-Floor Height**_ _присвоено значение «2.6’» (2,6 футов), однако окончательная высота лестницы составляет 3,0 фута \(0.6’ \(Riser Height**\) x 5 \(количество подступенков\)\)**. Поскольку пролет между уровнем земли и верхним уровнем пола террасы составляет 3 фута 2 дюйма, в оставшиеся 2 дюйма входит верхний подступенок._
 
-## **Criar escadas de construção principais**
+## **Создание лестницы основного здания**
 
-_Nas etapas anteriores, criamos uma escada sem patamares. Agora, criaremos uma escada que usa um patamar superior que se alinha com o_ _**Main Building Floor**._
+_На предыдущих этапах мы создали лестницу без площадок. Теперь создадим лестницу с верхней площадкой, выровненной относительно_ _**основного здания**._
 
-1 – Comece fazendo uma cópia das escadas que acabamos de fazer:
+1 - Для начала скопируйте только что созданную лестницу.
 
-1. Selecione a escada existente e, em seguida, clique em qualquer lugar na **Plan Image** para iniciar um comando de deslocamento. Isso fará com que o FormIt use a elevação da **Plan Image** como a altura de referência inicial para posicionar nossa nova cópia. Pressione **Ctrl** para criar uma **cópia rápida**.
-2. Mova o cursor sobre o edifício principal acima do terraço. Observe que agora a face superior do terraço é o novo plano de referência. Clique para colocar o grupo.
+1. Выберите существующую лестницу и щелкните в любом месте на **изображении плана**, чтобы запустить команду перемещения. В результате в FormIt будет использована отметка **изображения плана** в качестве опорной точки начальной высоты для размещения новой копии. Нажмите клавишу **CTRL**, чтобы создать **быструю копию**.
+2. Наведите курсор на основное здания над террасой. Обратите внимание, что теперь верхняя грань террасы является новой опорной плоскостью. Щелчком мыши разместите группу.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Observação:**_ _Como a_ _**Plan Image**_ _está no plano do_ _**Ground Level**_ _, a_ _**Move Tool**_ _usará esse plano como referência para seu ponto inicial. Observe a dica de ferramenta_ _**On Face**_ _na imagem acima, indicando que a face da imagem da planta está selecionada como a referência inicial e a face superior do_ _**Lower Terrace Floor**_ _está selecionada como a referência final._
+_**Примечание.**_ _Поскольку_ _**изображение плана**_ _находится на_ _**уровне земли**_ _, то в_ _**инструменте перемещения**_ _эта плоскость будет использоваться в качестве опорной для начальной точки. Обратите внимание на подсказку_ _**На грани**_ _на изображении выше. Она указывает на то, что в качестве начального базового элемента выбрана грань плана изображения, а в качестве конечного базового элемента — верхняя грань_ _**пола нижней террасы**__._
 
-2 – Use a ferramenta **Make Unique \(MU\)** para que quando alterarmos as entradas do Dynamo dessa escada, ela não afete a escada inferior. Reposicione o grupo conforme necessário para que ele fique próximo de sua localização final. Vamos ajustar isso mais tarde. É possível alternar a visibilidade da camada **Lower Terrace** para ver a planta abaixo para ajudar a posicioná-la, mas, novamente, tenha cuidado para não alterar a elevação da nova escada ao movê-la.
+2 - Используйте инструмент **Сделать уникальным \(MU\)**, чтобы изменение значений Dynamo для данной лестницы не влияло на нижнюю лестницу. Переместите группу так, чтобы она оказалась рядом с конечным местоположением. Настройку мы выполним позже. Можно отключить видимость слоя **Нижняя терраса**, чтобы увидеть план под ним и упростить его размещение. Однако будьте внимательны: при перемещении новой лестницы не следует изменять ее отметку.
 
-3 – Na **Properties Palette**, atualize as **Dynamo Inputs** como mostrado abaixo e execute o script mais uma vez.
+3 - На **палитре свойств** обновите **значения Dynamo**, как показано ниже, и повторно запустите сценарий.
 
 * Add Top Landing = True
-* Floor-to-Floor Height = 2,333
-* Riser Height = 0,466
-* Tread Length = 1,5
-* Top/Bottom Landing Length = 2,5
+* Floor-to-Floor Height = 2.333
+* Riser Height = 0.466
+* Tread Length = 1.5
+* Top/Bottom Landing Length = 2.5
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Observação:**_ _Se você tiver definido_ _**Add Bottom Landing**_ _como_ _**true**_ _e executar novamente o script, a face superior do patamar inferior deverá se alinhar com a face superior do_ _**Lower Terrace Floor**. Isso está acontecendo porque – diferentemente das escadas anteriores – ajustamos a_ _**Riser Height**_ _para fazer corresponder a_ _**Floor-to-Floor Height**_ _à altura real que desejamos \(2’-4" ou 2,333’\)._
+_**Примечание.**_ _Если присвоить параметру_ _**Add Bottom Landing**_ _значение_ _**True**_ _и выполнить сценарий еще раз, верхняя грань нижней площадки должна выровняться с верхней гранью_ _**пола нижней террасы**. Это происходит потому, что, в отличие от предыдущих лестниц, параметр_ _**Riser Height**_ _был изменен таким образом, чтобы значение параметра_ _**Floor-to-Floor Height**_ _соответствовало фактически необходимой высоте (2 фута 4 дюйма или 2,333 фута\)._
 
-2 – Reposicione o grupo novamente em sua posição final. O patamar superior deve estar alinhado com o **Main Building Floor**.
+2. Переместите группу в конечное положение. Верхняя площадка должна находиться заподлицо с **основным этажом здания**.
 
-3 – Para finalizar as escadas, adicione o material **Stone - Travertine** para coincidir com os pisos. Para saber mais sobre como aplicar materiais, consulte os capítulos anteriores.
+3. Чтобы завершить создание лестницы, добавьте материал **Камень — Травертин** для соответствия полам. Дополнительные сведения о применении материалов см. в предыдущих разделах.
 

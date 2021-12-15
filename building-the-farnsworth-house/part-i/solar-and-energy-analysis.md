@@ -1,70 +1,70 @@
-# Análise solar e de energia
+# Расчет инсоляции и энергопотребления
 
-Agora que o modelo foi criado, podemos usá-lo para estudar o **impacto solar e energético** de nosso projeto. Esses recursos são incorporados ao FormIt para que seus primeiros estudos possam ser compreendidos de uma perspectiva de desempenho da construção. Esses recursos são somente do **FormIt Pro**, se você estiver seguindo no aplicativo da Web, talvez não tenha acesso.
+После создания модели мы можем использовать ее для исследования **инсоляции и энергопотребления** объектов проекта. Это встроенные функции FormIt, позволяющие анализировать эксплуатационные характеристики здания на ранних этапах работы по проекту. Эти функции доступны только в версии **FormIt Pro**. При работе в веб-приложении функции могут быть недоступны.
 
-Se você não tiver concluído a última seção, clique em Arquivo &gt; Abrir e selecione **farnsworth08.axm** na pasta Manual do FormIt.
+Если вы не работали с предыдущим разделом, щелкните «Файл» &gt; «Открыть» и выберите **farnsworth08.axm** в каталоге FormIt Primer.
 
-## Sombras
+## Тени
 
-Antes que qualquer uma dessas ferramentas de análise possa ser usada, é preciso [definir a localização](). Isso fornece ao FormIt acesso a dados precisos de sol, sombras e clima
+Перед использованием следующих инструментов анализа необходимо [задать местоположение](). Это обеспечивает FormIt доступ к точным данным о положения солнца, тенях и климате.
 
-1. Clique no ícone do sol na [**Barra de ferramentas de ação**](../../formit-introduction/tool-bars.md) e marque **Sombras \(DS\)**
+1. Щелкните значок солнца на [**панели «Действие»**](../../formit-introduction/tool-bars.md) и установите флажок **Тени \(DS\)**.
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. Ajuste os controles deslizantes **Dia** e **Hora** para ver como as sombras mudam
+2. Передвигайте ползунки **День** и **Время**, чтобы посмотреть, как меняются тени.
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. Observe como o terraço coberto é sombreado durante as horas mais quentes dos meses de verão – certamente não é um acidente, mas uma questão de projeto.
+3. Обратите внимание, как затеняется крытая терраса в самые жаркие часы летних месяцев: разумеется, это не случайность, а вопрос проектирования.
 
-**Observação**: As sombras podem causar uma diminuição no desempenho do aplicativo. Duas sugestões para mitigar isso: desative as sombras se você observar lentidão na navegação ou desative as camadas como **mobiliário** se elas não forem necessárias para estudar as sombras.
+**Примечание**. Отображение теней может привести к снижению производительности приложения. Если замедляется навигация, можно отключить тени или слои, например **мебель**, если они не требуются для изучения теней.
 
-## Análise de luz solar
+## Расчет инсоляции
 
-Como são pessoas visuais, os projetistas podem aprender e comunicar uma quantidade incrível de informações de diagramas de mapa de calor como o que estamos prestes a criar
+Работая с визуальными представлениями, проектировщики могут изучать и представлять невероятное количество информации с помощью схем тепловых карт, подобных тем, что мы создадим сейчас.
 
-1. Na parte inferior do [**menu Sol**](../../formit-introduction/tool-bars.md), clique no botão **Análise solar**
-2. Você é colocado num modo especial em que **sombras**, **atalhos de teclado** e outras **barras de ferramentas** estão desativados
-3. O comportamento de seleção é modificado no modo **Análise solar**. Você pode selecionar **por meio de grupos**, não precisa manter pressionada a tecla **Ctrl** ou **Shift** para adicionar ao seu conjunto de seleção e pode desmarcar itens clicando neles novamente. Você pode **clicar uma vez**, **clicar duas vezes** ou **selecionar em uma janela** geometria
-4. Selecione as faces que você deseja estudar. **Clique uma vez** na parte superior do **telhado** e na parte superior dos **pisos**. Evite selecionar elementos pequenos, como mobiliário
+1. В нижней части [**меню «Солнце»**](../../formit-introduction/tool-bars.md) нажмите кнопку **Расчет инсоляции**.
+2. Откроется специальный режим, в котором отключены **тени**, **клавиши быстрого доступа** и другие **панели инструментов**.
+3. Способ выбора можно изменить в режиме **расчета инсоляции**. Можно выполнить выбор с помощью **групп**. При этом для добавления элементов в набор не нужно удерживать нажатой клавишу **CTRL** или **SHIFT**. Чтобы отменить выбор элементов, щелкните их еще раз. Объекты геометрии можно **щелкнуть один раз**, **щелкнуть дважды** или **выбрать рамкой**.
+4. Выберите грани для исследования. **Щелкните** верхнюю часть **крыши** и верхнюю часть **перекрытий**. Не выбирайте мелкие элементы, такие как мебель.
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. No canto superior esquerdo da tela, localize a barra de ferramentas **Análise solar**. Clique em **Analisar**. O FormIt calculará e renderizará as superfícies. As configurações aqui podem ser ajustadas antes **e** depois da conclusão da análise
+5. Перейдите на панель инструментов **Расчет инсоляции** в левом верхнем углу активного окна. Нажмите кнопку **Расчет**. FormIt выполнит расчет и визуализацию поверхностей. Эти параметры можно настраивать до **и** после выполнения расчета.
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. A configuração **Pico do mês** mostra os valores de **pico** \(em BTU/pés²\) para o mês especificado. Isso se destina a **estudos de sombreamento**. É possível alterar a configuração do mês. Os gráficos serão atualizados instantaneamente. **Passe o cursor** sobre uma superfície analisada para obter um valor **específico**
+6. Параметр **Пиковое значение за месяц** показывает **пиковые** значения \(в единицах БТЕ/кв. фут\) за указанный месяц. Он предназначен для **анализа затенения**. При изменении месяца графическое изображение сразу же обновится. **Наведите курсор** на анализируемую поверхность, чтобы посмотреть **конкретное** значение.
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. A configuração **Acumulado do ano** mostra a energia **cumulativa** para o ano inteiro \(em KwH/m²\). Isso se destina a **estudos de potencial do PV**
+7. Параметр **Суммарно в год** показывает **суммарную** энергию за весь год. \(в кВт-ч/кв. м\). Он используется для **исследования фотоэлектрического потенциала**.
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. Esses estudos de **Análise solar** podem ser exportados clicando em **Arquivo &gt; Exportar \(Ctrl + E\)** e escolhendo **Imagem** na lista à esquerda
+8. Чтобы экспортировать **расчет инсоляции**, выберите **Файл &gt; Экспорт \(CTRL + E\)**, а затем выберите **Изображение** из списка слева.
 
-## Análise de energia com o Insight
+## Расчет энергопотребления с помощью Insight
 
-O FormIt integrou as mesmas ferramentas de análise do Desempenho da construção que o Revit usa. O **Insight** fornece um painel de parâmetros do sistema de construção que pode ser ajustado para refletir possíveis cenários sem exigir que você **analise novamente** a geometria do modelo. O Insight funciona melhor com a geometria de **massa** do FormIt
+В FormIt используются те же инструменты анализа эксплуатационных характеристик здания, что и в Revit. В **Insight** имеется панель управления системными параметрами здания, которые можно настроить для отражения потенциальных сценариев без необходимости **повторного анализа** геометрии модели. Insight эффективнее всего работает с геометрией **формообразующих элементов** FormIt.
 
-1. Verifique se você está conectado à Autodesk Account. Desative **todas** as camadas, **exceto** a camada de **massa**. A geometria deve ter ao menos um **Nível** aplicado
-2. O FormIt só enviará a geometria **visível** para o Insight. Observe que mesmo uma **massa** simples gerará um volume de dados do **Insight**
+1. Войдите в учетную запись Autodesk 360. Отключите **все** слои, **кроме** слоя **формообразующих элементов**. В объектах геометрии должен быть настроен хотя бы один **уровень**.
+2. FormIt передает в Insight только **видимые** объекты геометрии. Обратите внимание, что даже простые **формообразующие элементы** будут учтены при генерации данных **Insight**.
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. Clique no botão **Insight &gt; Gerar Insight**. A análise será executada na nuvem, para que você possa continuar a modelar durante o cálculo
+3. Нажмите кнопку **Insight &gt; Создать аналитические данные**. Расчет будет выполняться в облаке, что позволит выполнять моделирование во время расчета.
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. Quando a análise estiver concluída, clique no botão **Visualizar Insight** para ver o **Modelo de energia** e os **Fatores de desempenho** \(opcionalmente, você pode visitar o site diretamente em [**http://insight.autodesk.com**](http://insight.autodesk.com/)\)
+4. По завершении расчета нажмите кнопку **Просмотреть аналитические данные**, чтобы просмотреть **модель энергопотребления** и **коэффициенты энергоэффективности** \(при необходимости можно перейти непосредственно на веб-сайт по адресу [**http://insight.autodesk.com**](http://insight.autodesk.com/)\).
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. No painel do Insight, é possível definir um valor \(ou um intervalo de valores\) para cada widget **Fator de desempenho** clicando no fator e arrastando os pontos azuis. A faixa será útil se você ainda não souber o sistema específico que a construção usará
-6. Com cada alteração em um **Fator**, a **Faixa de custo de energia** geral (medida em USD/m²/ano\) é atualizada. É possível ver o desempenho do projeto em comparação com os benchmarks, como o **Ashrae 90.1** e o desafio do **Architecture 2030**
-7. Se o projeto for alterado drasticamente, será possível reenviar a massa atualizada para o mesmo painel. Se você desejar criar um **novo** painel para o projeto atualizado, será necessário **Salvar como** no FormIt primeiro
-8. Se a análise de energia não for bem-sucedida – talvez você tenha **Problemas herméticos \(DW\)** baseados na geometria, eles poderão ser revisados e corrigidos no FormIt
-9. Desative a camada de **massa** e ative novamente todas as outras camadas
+5. На панели управления Insight можно задать значение \(или диапазон значений\) для каждого виджета **Коэффициент энергоэффективности**, щелкнув коэффициент и перетащив синие точки. Диапазон применяется в том случае, если вы еще не знаете, какая система будет применена в здании.
+6. При каждом изменении **коэффициента** обновляется весь **диапазон энергозатрат** (измеряется в долларах США/кв. м/г\). Можно оценить эксплуатационные характеристики проекта по таким критериям, как **Ashrae 90.1** и **Architecture 2030**.
+7. Если проект претерпел крупные изменения, можно повторно отправить обновленный формообразующий элемент в ту же панель управления. Чтобы создать **новую** панель управления для обновленного проекта, то сначала необходимо выполнить действие **Сохранить как** в FormIt.
+8. Выполнению расчета энергопотребления могут препятствовать **проблемы непроницаемости \(DW\)** объектов геометрии. Их можно просмотреть и исправить в FormIt.
+9. Отключите слой **формообразующих элементов** и включите все остальные слои.
 

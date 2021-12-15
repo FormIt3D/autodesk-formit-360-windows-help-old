@@ -1,48 +1,48 @@
-# Níveis e área
+# Уровни и площадь
 
-Após criar a geometria no FormIt, é possível aplicar Níveis para indicar onde as elevações do piso estão e para gerar cálculos de área.
+После создания геометрии в FormIt можно применить уровни, чтобы указать отметки этажей и выполнить расчет площади.
 
-Confira o [Manual do FormIt](../formit-primer/part-i/adding-floors-with-levels.md) para ver os níveis em ação.
+Ознакомьтесь с разделом руководства [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md) по работе с уровнями.
 
-## Criar e configurar níveis
+## Создание и настройка уровней
 
-Você encontrará o painel Níveis no lado direito do FormIt para Windows:
+В FormIt для Windows панель «Уровни» находится в правой части окна программы.
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Criar e excluir níveis
+#### Создание и удаление уровней
 
-* Crie um novo nível clicando no botão “+”.
-* Crie uma série de níveis clicando no botão “++”.
-   * Isso permitirá especificar quantos níveis serão criados e a distância vertical entre eles.
-* Selecione um ou mais níveis e clique em “-” para excluí-los.
+* Создайте новый уровень, нажав кнопку «+».
+* Создайте несколько уровней, нажав кнопку «++».
+   * Команда позволяет задать количество создаваемых уровней и расстояние между ними по вертикали.
+* Для удаления выберите один или несколько уровней и нажмите «-».
 
-#### Renomear, definir elevações e renumerar níveis
+#### Переименование, задание отметок и нумерация уровней
 
-* Renomeie um nível clicando duas vezes no nome ou clicando com o botão direito do mouse e escolhendo “Editar nome”.
-* Ajuste a elevação de um nível clicando duas vezes no número ou clicando com o botão direito do mouse e escolhendo “Editar elevação”.
-* Clique no ícone Atualizar na parte superior para renumerar níveis.
-   * Isso será útil se você tiver adicionado ou removido níveis e se o esquema de nomenclatura padrão não estiver sincronizado \(ou seja, Nível 1, Nível 2, Nível 5\).
-   * Esse botão ignorará quaisquer níveis com nomes personalizados, mas renumerará quaisquer níveis com o nome que segue a sintaxe “Nível 1”.
+* Дважды щелкните имя уровня, чтобы переименовать его, или щелкните правой кнопкой мыши и выберите «Редактировать имя».
+* Дважды щелкните отметку уровня, чтобы настроить ее, или щелкните правой кнопкой мыши и выберите «Редактировать отметку».
+* Щелкните значок «Обновить» в верхней части окна, чтобы изменить нумерацию уровней.
+   * Это удобно, если вы добавили или удалили уровень, и порядок именования по умолчанию сбился (например, после удаления уровней 4 и 3 остались уровни 1, 2 и 5).
+   * Команда не затрагивает уровни с пользовательскими именами, а изменяет нумерацию всех уровней с именем типа «Уровень 1».
 
-## Aplicar níveis
+## Применение уровней
 
-Para aplicar níveis a um objeto, você precisará selecionar o objeto e passar para o painel Propriedades.
+Чтобы применить к объекту уровни, необходимо выбрать объект и перейти на панель «Свойства».
 
-Observe que para aplicar níveis a um objeto, o objeto deve ser sólido, sem problemas de face posterior ou impermeável. [Saiba como verificar o modelo quanto a problemas de vedação e face posterior](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Обратите внимание, что для применения к объекту уровней он должен быть твердым телом без проблем с задней гранью и непроницаемостью. [Узнайте, как проверить модель на непроницаемость и проблемы с задней гранью](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-Com um objeto sólido selecionado na tela \(neste exemplo, uma casca de construção simples\), o painel Propriedades mostrará uma caixa de seleção “Usar níveis”.
+Если в рабочей области выбран твердотельный объект (в данном примере это простая оболочка здания), на панели свойств будет отображаться флажок «Использовать уровни».
 
-* Se o esboço do FormIt já tiver níveis definidos \(veja acima\), marcar essa caixa usará todos os níveis que farão interseção com essa forma \(ignorando todos os que sejam muito altos ou muito baixos\).
-* Se o esboço do FormIt ainda não tiver níveis, marcar essa caixa criará níveis padrão suficientes.\(Altura de 12' piso a piso\) para efetuar a interseção com toda a forma e para aplicar automaticamente esses níveis a esse objeto.
+* Если в эскизе FormIt уровни уже определены (см. выше), то при установке этого флажка будут использоваться все уровни, пересекающие эту форму, а уровни выше и ниже формы использоваться не будут.
+* Если в эскизе FormIt уровни не определены, то при установке этого флажка будет создано достаточное количество уровней по умолчанию(с расстоянием 12 футов, или 3,7 м, между перекрытиями), пересекающих всю форму. Эти уровни будут автоматически применены к выбранному объекту.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Níveis + Revit
+## Уровни и Revit
 
-Quando os níveis são aplicados à geometria do FormIt, esses níveis serão enviados para o Revit ao usar o [complemento do FormIt](https://formit.autodesk.com/page/formit-revit).
+Если к геометрии FormIt применяются уровни, то их можно передать в Revit с помощью [надстройки FormIt](https://formit.autodesk.com/page/formit-revit).
 
-No Revit, é possível usar os níveis do FormIt para criar pisos de massa, piso por face e plantas de piso associadas aos níveis do FormIt.
+В Revit уровни FormIt можно использовать для создания формообразующих элементов перекрытий, перекрытий по граням и планов этажей, связанных с уровнями FormIt.
 
 
 

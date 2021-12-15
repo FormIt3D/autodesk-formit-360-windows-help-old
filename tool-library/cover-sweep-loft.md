@@ -1,43 +1,42 @@
-# Cobertura, varredura, elevação
+# Покрытие, сдвиг, лофт
 
-Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho de arestas e conecte vários perfis ou arestas.
+Замыкание открытых ребер, изменение геометрии вдоль траектории ребер и соединение нескольких профилей или ребер.
 
-## Para fechar uma série de faces
+## Замыкание набора граней
 
-1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Cobertura**. ![](../.gitbook/assets/cover-tool.png)
-2. Clique nas arestas do objeto que deseja cobrir.
+1. В меню **Дополнительные инструменты геометрии** на панели действий выберите инструмент **Покрытие**. ![](../.gitbook/assets/cover-tool.png)
+2. Щелкните ребра объекта для покрытия.
 
 ![](../.gitbook/assets/cover_tool1.png)
 
-3. Clique em **Concluir**    
-   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
+3. Нажмите кнопку **Готово.**     ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
 
-## Para varrer a geometria ao longo de um caminho
+## Сдвиг геометрии вдоль траектории
 
-1. Use uma linha para marcar a face de um objeto que você deseja cortar. ![](../.gitbook/assets/sweep.png)
-2. Clique no ícone da ferramenta de varredura. ![](../.gitbook/assets/sweep-tool.png)
-3. Selecione a face que você marcou anteriormente.
+1. Линией пометьте грань объекта, которую требуется разрезать. ![](../.gitbook/assets/sweep.png)
+2. Щелкните значок инструмента сдвига. ![](../.gitbook/assets/sweep-tool.png)
+3. Выберите помеченную ранее грань.
 
         ![](../.gitbook/assets/sweep2.png) 
 
-4. Selecione a aresta a ser recortada.
+4. Выберите ребро, которое требуется разрезать.
 
    ![](../.gitbook/assets/sweep3.png)
 
-5. Clique no ícone **Concluir**. O objeto original é modificado ao longo do caminho de varredura. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+5. Щелкните значок **Готово**. Исходный объект изменяется вдоль траектории сдвига. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-## Para elevar vários perfis ou arestas
+## Лофт нескольких профилей или ребер
 
-1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Elevar**. ![](../.gitbook/assets/loft-tool.png)
-2. Selecione a face ou as arestas que deseja elevar no primeiro objeto.
+1. В меню **Дополнительные инструменты геометрии** на панели действий выберите инструмент **Лофт**. ![](../.gitbook/assets/loft-tool.png)
+2. Выберите грань или ребра первого объекта, к которым требуется применить лофт.
 
    ![](../.gitbook/assets/loft1.png)
 
-3. Selecione a face ou as arestas que deseja elevar no segundo objeto. Repita essa etapa para objetos adicionais.
+3. Выберите грань или ребра второго объекта, к которым требуется применить лофт. Повторите это действие с дополнительными объектами.
 
    ![](../.gitbook/assets/loft2.png)
 
-4. Clique no ícone **Concluir**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+4. Щелкните значок **Готово**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
    ![](../.gitbook/assets/loft3.png)
 

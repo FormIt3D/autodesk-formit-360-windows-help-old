@@ -1,6 +1,6 @@
-# Desenho de apresentação
+# Изображения для презентаций
 
-Aproveite um conjunto de opções de [Estilos visuais](../tool-library/visual-styles.md) para personalizar os gráficos do FormIt e criar apresentações impressionantes.
+Воспользуйтесь набором [визуальных стилей](../tool-library/visual-styles.md) для настройки графики FormIt и создания впечатляющих презентаций.
 
 ![](../.gitbook/assets/screen1.jpg)
 

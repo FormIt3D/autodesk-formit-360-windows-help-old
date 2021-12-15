@@ -1,47 +1,47 @@
-# Plug-ins
+# Подключаемые модули
 
-Use o Gerenciador de plug-ins para instalar plug-ins úteis da equipe do FormIt ou saiba como [**criar seus próprios plug-ins do FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Используйте диспетчер подключаемых модулей для установки полезных подключаемых модулей с портала FormIt Team или посмотрите инструкции о том, как [**создать собственные подключаемые модули FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-#### O Gerenciador de plug-ins do FormIt
+#### Диспетчер подключаемых модулей FormIt
 
-O Gerenciador de plug-ins do FormIt funciona como um hub para descobrir e gerenciar plug-ins do FormIt.
+Диспетчер подключаемых модулей FormIt служит для поиска подключаемых модулей FormIt и управления ими.
 
-O Gerenciador de plug-ins é carregado automaticamente quando o FormIt é iniciado, desde que o FormIt tenha acesso à Internet.
+Он загружается автоматически при запуске FormIt, если у FormIt есть доступ к Интернету.
 
-É possível acessar o Gerenciador de plug-ins clicando no ícone da guia no lado direito da janela do aplicativo:
+Чтобы открыть диспетчер подключаемых модулей, щелкните значок вкладки в правой части окна приложения:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### O Gerenciador de plug-ins categoriza diferentes tipos de plug-ins:
+#### В диспетчере подключаемых модулей представлены следующие типы подключаемых модулей.
 
-* **Plug-ins instalados**
-* **Plug-ins recomendados**
-   * Plug-ins que a equipe do FormIt recomenda para expandir a funcionalidade básica do FormIt e desbloquear novos fluxos de trabalho.
-   * Os plug-ins desenvolvidos pela comunidade serão exibidos aqui após serem aprovados pela equipe do FormIt. Mais detalhes sobre esse assunto serão fornecidos no futuro.
-* **Plug-ins públicos**
-   * Plug-ins criados pela comunidade, mas que não foram revisados ou aprovados pela equipe do FormIt.
+* **Установленные подключаемые модули**
+* **Рекомендуемые подключаемые модули**
+   * Подключаемые модули, которые специалисты FormIt рекомендуют использовать для расширения базовых функций FormIt и получения доступа к новым рабочим процессам.
+   * В этой категории отображаются разработанные сообществом подключаемые модули после проверки командой разработчиков FormIt. Информация будет дополнена позднее.
+* **Общедоступные подключаемые модули**
+   * Подключаемые модули, созданные сообществом, но не утвержденные командой разработчиков FormIt.
 
-#### O Gerenciador de plug-ins foi projetado usando uma série de interfaces expansíveis e recolhíveis, o que facilita o gerenciamento de plug-ins e seus repositórios:
+#### Диспетчер подключаемых модулей разработан на основе расширяемых и сворачиваемых интерфейсов, что упрощает управление подключаемыми модулями и их хранилищами.
 
-* **Gerenciar plug-ins:**
-   * Clique no nome de um plug-in para ver sua descrição.
-   * Alterne a opção para instalá-los ou desinstalá-los.
-      * O plug-in se manifestará como uma barra de ferramentas na parte superior do aplicativo, um painel no lado direito ou uma caixa de diálogo no meio, dependendo do tipo de plug-in.
-* Se você estiver [desenvolvendo seu próprio plug-in](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), poderá adicionar sua URL privada ao campo na parte inferior e pressionar \(+\):
+* **Управление подключаемыми модулями.**
+   * Щелкните имя подключаемого модуля, чтобы посмотреть его описание.
+   * Сдвиньте переключатель, чтобы установить его или отменить установку.
+      * В зависимости от типа подключаемый модуль будет отображаться как панель инструментов в верхней части приложения, панель справа или диалоговое окно по центру.
+* Чтобы использовать [самостоятельно разработанный подключаемый модуль](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), добавьте его закрытый URL-адрес в поле внизу и нажмите \(+\):
 
-![Gerenciador de plug-ins do FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Диспетчер подключаемых модулей FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### Como os plug-ins funcionam
+#### Работа подключаемых модулей
 
-* Os plug-ins são baseados na Web e estão disponíveis no FormIt para Windows e no FormIt para Web.
-* Os plug-ins são compostos de uma série de arquivos e pastas hospedados no GitHub ou em um servidor local ao criar seu próprio.
-* Plug-ins externos \(plug-ins não hospedados localmente\) requerem uma conexão com a Internet para serem carregados inicialmente, o que significa que:
-   * Os plug-ins externos não serão carregados se nenhuma conexão com a Internet for detectada quando o FormIt for iniciado.
-   * Depois de carregados, alguns plug-ins externos podem continuar a trabalhar no modo off-line para essa sessão, mas outros podem ser interrompidos até que a conectividade seja restaurada.
-   * Os plug-ins externos carregam o código mais recente no servidor em cada execução; portanto, sua funcionalidade será atualizada sempre que o autor enviar uma alteração.
-* Os plug-ins são carregados de forma assíncrona, o que significa que a ordem dos plug-ins na interface do FormIt pode mudar em cada nova sessão.
-* O Gerenciador de plug-ins usa chaves de registro no Windows para armazenar os repositórios e plug-ins instalados.
-   * Se for necessário redefinir o Gerenciador de plug-ins para seus padrões, exclua a seguinte chave do registro:
+* Подключаемые модули работают через Интернет и доступны в FormIt для Windows и FormIt для веб-браузера.
+* Подключаемый модуль состоит из серии файлов и папок, размещенных на GitHub или на локальном сервере (если это созданный вами модуль).
+* Для загрузки внешнего подключаемого модуля \(т. е., не размещенного на локальном сервере\) требуется подключение к Интернету, что подразумевает следующее:
+   * внешние подключаемые модули не загружаются, если при запуске FormIt не обнаружено подключение к Интернету.
+   * после загрузки некоторые внешние подключаемые модули могут продолжить работу в автономном режиме в течение текущего сеанса, а другие прекращают работу при сбое подключения вплоть до его восстановления.
+   * при каждом запуске внешние подключаемые модули загружают на сервер последнюю версию кода, поэтому их функциональность обновляется по мере внесения изменений их автором.
+* Подключаемые модули загружаются асинхронно, поэтому порядок подключаемых модулей в интерфейсе FormIt может меняться с каждым новым сеансом.
+* Для хранения установленных хранилищ и плагинов диспетчера подключаемых модулей используются разделы реестра Windows.
+   * Если требуется восстановить настройки диспетчера подключаемых модулей по умолчанию, удалите следующий раздел реестра:
       * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-      * Observe que isso desinstalará todos os repositórios e plug-ins adicionados pelo usuário, redefinindo o Gerenciador de plug-ins para incluir somente os repositórios e plug-ins internos.
+      * Обратите внимание, что при этом будут удалены все добавленные пользователем хранилища и подключаемые модули, а в диспетчере подключаемых модулей будут отображаться только встроенные хранилища и подключаемые модули.
 

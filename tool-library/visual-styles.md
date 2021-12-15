@@ -1,94 +1,94 @@
-# Estilos visuais
+# Визуальные стили
 
-Personalize a aparência visual do modelo, incluindo iluminação geral, estilos de aresta e efeitos ambientais. O painel Estilos visuais pode ser encontrado clicando no ícone de óculos escuros na barra de paletas:
+Настраивайте визуальное представление модели, включая общее освещение, стили ребер и эффекты окружающей среды. Чтобы открыть панель «Визуальные стили» , щелкните значок солнцезащитных очков на панели палитр:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Os estilos visuais [podem ser definidos por cena](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), para que você possa salvar as configurações de estilo favoritas e aplicá-las a outras cenas.
+Визуальные стили[ можно задавать для каждой сцены по отдельности](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), сохранять параметры любимого стиля и применять их к другим сценам.
 
-## Superfícies
+## Поверхности
 
-Gerencie a maneira como as superfícies são exibidas e sombreadas.
+Управление отображением и тонированием поверхностей.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Brilho do ambiente** controla o brilho geral de todos os materiais na cena. Um valor de 100 significa que os materiais expostos à luz serão exibidos com todo o brilho, conforme definido na cor ou textura do material. Valores acima de 100 expõem materiais em excesso, mas podem ser úteis para modelos do SketchUp que ainda parecem escuros no FormIt. O valor padrão é 100.
+**Естественная яркость**: определяет общую яркость всех материалов сцены. При значении 100 материалы, на которые падает свет, будут отображаться с максимальной яркостью цвета или текстуры материала. При значении более 100 материалы будут чрезмерно контрастными, однако это может быть полезно для моделей SketchUp, которые в FormIt выглядят темными. По умолчанию используется значение 100.
 
-**Contraste de ambiente** controla o quanto as faces mais escuras na sombra são exibidas, quando comparadas com as faces expostas à luz solar direta. Um valor de 0 significa que a iluminação não tem efeito \(todos os materiais serão exibidos com seu brilho completo, independentemente da orientação\), enquanto valores maiores farão com que as faces na sombra pareçam cada vez mais escuras. O valor padrão é 25.
+**Контрастность рассеянного света**: определяет степень затемнения граней в тени по сравнению с гранями, находящимися под прямыми солнечными лучами. Значение 0 означает, что освещение не оказывает никакого влияния \(все материалы отображаются с максимальной яркостью независимо от ориентации\), тогда как при более высоких значениях грани в тени становятся темнее. Значение по умолчанию равно 25.
 
-Ative/desative as **Sombras** para ver como o projeto seria [sombreado na hora atual do dia](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Переключите параметр **Тени**, чтобы посмотреть, как будет [тонироваться проект в текущее время суток](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Intensidade da sombra** controla como as sombras escuras são desenhadas no plano de chão e em outras faces. Um valor de 0 tornará as sombras efetivamente invisíveis e um valor de 100 tornará as sombras pretas. O valor padrão é 20.
+**Интенсивность теней**: определяет отображение темных теней на нулевой плоскости и других гранях. Значение 0 делает тени практически невидимыми, а значение 100 — черными. Значение по умолчанию равно 20.
 
-**Sombras de ambiente** adiciona um toque de sombreamento aos cantos para adicionar realismo ao modelo do FormIt.
+**Естественные тени**: слегка тонирует углы, чтобы придать реалистичность модели FormIt.
 
-**Superfícies monotônicas** desativa a cor e a textura de todos os materiais e tornam branco o ambiente ao redor. Útil para estudos de sombra ou sombreamento.
+**Монотонные поверхности**: отключает цвет и текстуру всех материалов и делают окружающую среду белой. Этот режим полезен для расчета теней и тонирования.
 
-A seção Cores de superfície define as cores padrão das faces quando nenhum material é aplicado.
+В разделе «Цвета поверхности» задаются цвета по умолчанию для граней, к которым не применен материал.
 
-**Faces** é a cor padrão de todas as faces frontais do FormIt \(ou de ambos os lados, se a opção Faces posteriores estiver desmarcada\) quando nenhum material está aplicado.
+**Грани**: цвет всех лицевых граней FormIt по умолчанию \(или цвет граней с обеих сторон, если снят флажок «Задние грани»\), к которым не применен материал.
 
-A opção **Faces posteriores** é usada para exibir diferentes materiais em qualquer lado de uma única face, para modelos do SketchUp que são importados no FormIt e requerem isso. Essa opção está desmarcada por padrão, mas é marcada quando os modelos do SketchUp estão abertos ou importados. Em geometria que não seja do SketchUp, a cor especificada da Face posterior será exibida nos lados posteriores das faces.
+**Задние грани**: используется для отображения различных материалов с обеих сторон одной грани для моделей SketchUp, импортированных в FormIt, в которых это необходимо. По умолчанию этот флажок снят, однако при открытии и импорте моделей SketchUp он устанавливается. В объектах геометрии, не относящихся к SketchUp, указанный цвет задней грани отображается на обратных сторонах граней.
 
-Use as seções Efeitos de corte de seção e Efeitos de poché de efeitos para gerenciar as cores padrão de faces, linhas e o efeito poché quando a ferramenta [Plano de corte](section-planes.md) é usada.
+Используйте инструкции разделов «Эффекты разреза сечения» и «Эффекты условного материала-отделки сечения» для управления цветами по умолчанию граней, прямых и эффекта условного материала-отделки при использовании инструмента [Секущая плоскость](section-planes.md).
 
-## Planos de chão
+## Нулевые плоскости
 
-Quando o Plano de chão é desativado no Modo de edição de grupo, a grade azul do Plano de trabalho também é desativada.
+Если в режиме редактирования группы отключена нулевая плоскость, синяя сетка рабочей плоскости также отключается.
 
-A cor do plano de trabalho também pode ser personalizada no painel Estilos visuais.
+Цвет рабочей плоскости также можно настроить на панели «Визуальные стили».
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Arestas
+## Ребра
 
-Gerencie o estilo de exibição de todas as arestas no modelo.
+Управление стилем отображения всех ребер модели.
 
 ![](../.gitbook/assets/edges.PNG)
 
-**Contraste** afeta a visibilidade de todas as arestas. Um valor de 0 tornaria as arestas efetivamente invisíveis. O valor padrão é 60.
+**Контрастность**: позволяет настроить видимость всех ребер. Значение 0 делает ребра фактически невидимыми. Значение по умолчанию равно 60. 
 
-**Cor** afeta a cor de todas as arestas no modelo. O padrão é preto.
+**Цвет**: влияет на цвет всех ребер модели. По умолчанию используется черный цвет.
 
-**Arestas grossas** torna todas as arestas mais grossas, incluindo as arestas de silhueta.
+**Широкие ребра**: делает шире все ребра, включая ребра силуэта.
 
-**Arestas de esboço** adiciona um efeito de esboço a todas as arestas para simular um efeito de desenho à mão.
+**Эскизные ребра**: добавляет ко всем ребрам эффект эскиза для имитации эффекта рисования от руки.
 
-**Arestas ocultas** exibe arestas ocluídas por superfícies, por outros motivos.
+**Скрыть ребра**: отображает ребра, которые могут быть перекрыты поверхностями.
 
-**Arestas estendidas** adiciona uma extensão a algumas arestas para simular um efeito desenhado à mão.
+**Удлинить ребра**: удлиняет некоторые ребра для создания эффекта рисования от руки.
 
-## Ambiente
+## Среда
 
-Alternar a exibição de efeitos ambientais e objetos de ajuda.
+Включение/отключение отображения эффектов среды и вспомогательных объектов.
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Grade** controla a exibição da grade no plano de chão, bem como a grade mostrada ao editar um Grupo. A opção “Snap à grade” será desativada quando a grade estiver desativada.
+**Сетка**: управляет отображением сетки на нулевой плоскости, а также сетки, отображаемой при редактировании группы. Если сетка отключена, параметр «Привязка к сетке» также отключается.
 
-**Eixos** controla a exibição dos eixos XYZ que aparecerão na origem universal ou na origem do grupo se um grupo for editado.
+**Оси**: позволяет настраивать отображение осей XYZ в начале координат глобальной системы координат или в начале координат группы при редактировании группы.
 
-**Níveis** controla a exibição de [**Níveis**](levels-and-area.md) ****definido no Painel de níveis.
+**Уровни**: позволяет настраивать отображение [**уровней**](levels-and-area.md) ****, заданных на панели «Уровни».
 
-**Névoa** controla a exibição da névoa que é desenhada para fazer com que a transição entre o plano de chão e o céu pareça perfeita. Desativar a Névoa resultará em uma linha de horizonte sólida em que o plano de chão \(se ativado\) encontra o céu.
+**Туман**: позволяет настраивать отображение тумана, который создается для того, чтобы скрыть переход от нулевой плоскости к небу. Если параметр «Туман» отключен появляется четкая линия горизонта там, где нулевая плоскость \(если она включена\) соприкасается с небом.
 
-**Seta de norte** controla a exibição de um pequeno widget gráfico que indica a direção do norte do projeto \(como determinado pela localização e imagens de satélite\).
+**Направление на север**: позволяет настроить отображение небольшого графического элемента, который указывает направление условного севера \(в зависимости от местоположения и спутниковых снимков\).
 
-Cores ambientais como céu, plano de fundo e plano de chão também podem ser personalizadas.
+Можно также настроить цвета среды, например, неба, фона и нулевой плоскости.
 
-O céu é composto de um gradiente de cores **Inferior/plano de fundo**, **Médio** e **Superior**.
+Небо состоит из градиента цветов **Нижний/Фоновый**, **Средний** и **Верхний**.
 
-Se a opção **Céu** estiver desmarcada, somente a cor **Inferior/plano de fundo** estará visível.
+Если флажок **Небо** снят, отображаются только цвета **Нижний/Фоновый**.
 
-## Diagnóstico
+## Диагностика
 
-Ative/desative a exibição de ferramentas de diagnóstico.
+Включение/отключение отображения инструментов диагностики.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-**Problemas herméticos** realça em vermelho todas as arestas que não fazem parte de um objeto sólido hermético.
+**Проблемы с непроницаемостью**: красным цветом выделяются все ребра, не являющиеся частью непроницаемого твердотельного объекта.
 
-**Faces posteriores** realça em vermelho todas as faces que estão voltadas para a direção errada \(todos os objetos sólidos devem ter as faces posteriores voltadas para o interior da forma sólida\).
+**Задние грани**: красным цветом выделяются все грани, обращенные не в ту сторону \(задние грани всех твердотельных объектов должны быть обращены внутрь твердотельной формы\).
 
-[Saiba mais sobre como usar o diagnóstico de Vedação e faces posteriores para identificar e corrigir problemas com modelos sólidos](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Дополнительные сведения об использовании диагностики «Непроницаемость» и «Задние грани» для выявления и устранения проблем с твердотельными моделями](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

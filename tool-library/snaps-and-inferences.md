@@ -1,61 +1,61 @@
-# Snaps e inferências
+# Привязки и вспомогательные элементы
 
-Para facilitar o esboço e a modelagem, use snaps e pontos de inferência para criar, inserir e editar a geometria com precisão. É possível usar qualquer eixo escolhido para desenhar ou executar outra ação, como a extrusão de uma superfície.
+Для упрощения создания эскизов и процесса моделирования используйте привязки и вспомогательные точки, позволяющие с точностью создавать, размещать и редактировать объекты геометрии. В качестве оси для построения или выполнения другой операции, например, выдавливания поверхности, можно использовать любую выбранную ось.
 
-**Observação:** _Consulte_ [_Atalhos de teclado_](../appendix/keyboard-shortcuts.md)_ para obter informações sobre como acelerar o uso das ferramentas do software._
+**Примечание.** _Сведения о том, как ускорить работу с доступными инструментами, см. в разделе_ [_Горячие клавиши_](../appendix/keyboard-shortcuts.md) _._
 
-## Posicionamento
+## Привязка
 
-Há vários snaps que poderão ajudar enquanto você estiver desenhando e modelando. O snap a objetos é automaticamente ativado. É possível efetuar snap a:
+Существует несколько привязок, упрощающих создание эскизов и моделирование. Привязка к объектам включается автоматически. Можно выполнить привязку к следующим объектам.
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vértices | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Arestas. Ao passar o cursor sobre a aresta, pequenos pontos vermelhos serão desenhados nas extremidades e no ponto médio. | ![](../.gitbook/assets/inf4.png) |
-| Pontos médios da aresta | ![](../.gitbook/assets/inf5.png) |
-| O plano de uma face. Ao passar o cursor sobre a face, um pequeno ponto vermelho será desenhado no centroide da face. Isso facilitará a localização desse ponto, caso você deseje efetuar snap a ele. | ![](../.gitbook/assets/inf6.png) |
-| Centroides de face | ![](../.gitbook/assets/inf7.png) |
-| O plano de trabalho, se você não efetuar o snap a nenhuma outra coisa. | ![](../.gitbook/assets/inf8.png) |
-| Centros de arco ou círculo | ![](../.gitbook/assets/inf9.png) |
-| Vértices de malha | ![](../.gitbook/assets/inf2.png) |
-| O plano de uma faceta de malha. | ![](../.gitbook/assets/inf1.png) |
+| Вершины | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Ребра. При наведении курсора на ребро на его концах и в средней точке появляются небольшие красные точки. | ![](../.gitbook/assets/inf4.png) |
+| Средние точки ребра | ![](../.gitbook/assets/inf5.png) |
+| Плоскость грани. При наведении курсора на грань в центре грани появляется небольшая красная точка. Это упростит поиск точки, если потребуется выполнить привязку к ней. | ![](../.gitbook/assets/inf6.png) |
+| Центр грани | ![](../.gitbook/assets/inf7.png) |
+| Рабочая плоскость, если не выполняется привязка к каким-либо другим объектам. | ![](../.gitbook/assets/inf8.png) |
+| Центр окружности или дуги | ![](../.gitbook/assets/inf9.png) |
+| Вершина сети | ![](../.gitbook/assets/inf2.png) |
+| Плоскость грани сети. | ![](../.gitbook/assets/inf1.png) |
 
-Para efetuar o snap à grade, será necessário ativar a opção **Snap à grade (SG)** no menu Configurações.
+Для привязки к сетке необходимо включить переключатель **Привязка к сетке (SG)** в меню «Параметры».
 
-## Eixos e pontos de inferência
+## Вспомогательные оси и точки
 
-A seleção automática de pontos de inferência sempre está ativada e ajudará a restringir o movimento da geometria. Os eixos de inferência são gerados por ferramentas automaticamente ou quando você passa o mouse sobre as arestas ou os pontos. Os eixos de inferência são sempre desenhados na tela com traços para que você saiba onde estão e para que seja fácil efetuar o snap.
+Автоматический выбор вспомогательных точек всегда включен и позволяет ограничить перемещение объектов геометрии. Вспомогательные оси создаются автоматически при использовании инструментов и при наведении курсора на ребра или точки. Вспомогательные оси всегда отображаются на экране штриховыми линиями, чтобы пользователь знал их расположение и имел возможность выполнить привязку к ним.
 
-**Eixo:** é possível mover a geometria ao longo do eixo X, Y ou Z. A inferência do eixo X é vermelho e o eixo Z é azul.
+**Ось:** можно перемещать объекты геометрии вдоль осей X, Y или Z. У вспомогательной оси X цвет красный, у оси Y — зеленый, а у оси Z — синий.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Bloqueio de eixo:** é possível bloquear o movimento ao longo do eixo X, Y ou Z. Mantenha pressionada a tecla Shift enquanto estiver em uma inferência de eixo e, em seguida, mova o mouse para efetuar o snap e a inferência para outros elementos.
+**Привязка к оси:** позволяет выполнять перемещение вдоль выбранной оси X, Y или Z. Удерживая нажатой клавишу SHIFT, наведите курсор на ось для привязки к другим элементам и создания опоры для них.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Paralelo:** é possível desenhar ou mover a geometria paralela aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência paralela.
+**Параллельно:** можно создавать эскизы или перемещать объекты геометрии параллельно существующим элементам. Перпендикулярные вспомогательные элементы выделены фиолетовым цветом. Необходимо навести курсор на прямую, которую требуется использовать в качестве параллельной.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** também é possível desenhar ou mover a geometria perpendicular aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência perpendicular.
+**Перпендикулярно:** можно также нарисовать или переместить объект геометрии перпендикулярно существующим элементам. Перпендикулярные вспомогательные элементы выделены фиолетовым цветом. Необходимо навести курсор на прямую, которую требуется использовать в качестве перпендикулярной.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Estender desde um ponto:** também é possível usar as inferências para estender desde uma referência de ponto. Passe o mouse sobre um ponto que você deseja usar como referência até que a dica de ferramenta seja exibida e, em seguida, use o eixo de inferência que se estende desde o ponto.
+**Удаление от точки:** можно также использовать вспомогательные элементы для удаления от опорной точки. Наведите курсор на точку, которую требуется использовать в качестве опорной, чтобы появилась подсказка, а затем используйте вспомогательную ось от этой точки.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Centro do círculo**: caso deseje efetuar o snap ao centro de um arco ou círculo, passe o cursor sobre o arco ou círculo. Isso mostrará um pequeno ponto vermelho no centro. Ele permanecerá visível por cerca de 5 segundos após você se afastar do arco ou círculo. Agora, mova o cursor sobre o ponto vermelho para efetuar o snap ao centro.
+**Центр окружности**: если требуется выполнить привязку к центру дуги или окружности, наведите курсор на дугу или окружность. В центре появится маленькая красная точка. Она будет отображаться в течение 5 секунд после того, как вы уберете курсор с дуги или окружности. Теперь наведите курсор на красную точку, чтобы выполнить привязку к центру.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Pontos médios de arco e spline verdadeiros**: quando você passar o cursor sobre um círculo, arco ou spline, será possível efetuar o snap ao ponto central verdadeiro. Ele e os pontos finais serão exibidos por um pequeno ponto vermelho. Ao inferir em um arco, você também efetuará o snap aos vértices das arestas retas que representam o arco.
+**Истинные средние точки дуги и сплайна**: при наведении курсора на окружность, дугу или сплайн можно выполнить привязку к истинной средней точке. Эта точка и конечные точки будут выделены красным цветом. При формировании на дуге выполняется также привязка к вершинам прямых ребер, составляющих дугу.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Limpar inferências**: é possível que o desenho gere um número maior de inferências, que pode estar na forma de colocar pontos que não devem efetuar o snap a essas inferências. Se você pressionar as teclas **Shift + barra de espaço**, todas as inferências serão apagadas, exceto as no último ponto inserido.
+**Очистка вспомогательных элементов**: чертеж может содержать слишком большое количество вспомогательных элементов, что может помешать размещению точек, которые не должны быть привязаны к ним. При одновременном нажатии клавиш **SHIFT и пробел** будут удалены все вспомогательные элементы, кроме тех, которые были сделаны в последней размещенной точке.
 
-![Antes de limpar as inferências](../.gitbook/assets/inf19.png)
+![До удаления вспомогательных элементов](../.gitbook/assets/inf19.png)
 
-![Após limpar as inferências](../.gitbook/assets/inf20.png)
+![После удаления вспомогательных элементов](../.gitbook/assets/inf20.png)

@@ -1,90 +1,90 @@
-# Malhas
+# Сети
 
-A partir da v17.0, o FormIt oferece um novo tipo de geometria: Meshes.
+Начиная с версии 17.0 в FormIt появился новый тип геометрии — сети.
 
-As malhas são representações leves de objetos do FormIt padrão e são ótimas para melhorar o desempenho da geometria de polígonos altos, como mobiliário ou ambientes 3D, como pessoas, árvores, carros e sinalização. As malhas também são ótimas para geometria DWG complexa que, de outra forma, poderia afetar o desempenho do FormIt.
+Сети — это облегченные представления стандартных объектов FormIt, которые отлично подходят для повышения производительности элементов геометрии с большим количеством многоугольников, например мебели или 3D-антуража, такого как люди, деревья, автомобили и вывески. Сети также отлично подходят для представления сложных элементов геометрии DWG, которые в обычном виде могут снизить производительность FormIt.
 
-Os objetos podem ser convertidos em malhas e as malhas podem ser convertidas de volta em objetos sem perder nenhum dado. Alguns tipos de arquivo são automaticamente importados como malhas, como OBJ, STL e DWG. Saiba mais sobre a conversão entre tipos e outros benefícios e limitações de malhas abaixo.
+Объекты можно преобразовывать в сети, а сети — обратно в объекты без потери данных. Некоторые файлы автоматически импортируются в качестве сетей, например OBJ, STL и DWG. Дополнительные сведения о преобразовании типов и других преимуществах и ограничениях сетей приведены ниже.
 
-### Converter objetos em malhas
+### Преобразование объектов в сети
 
-Qualquer combinação de vértices, arestas, faces ou corpos sólidos pode ser convertida em malhas.
+Любое сочетание вершин, ребер, граней и твердых тел можно преобразовать в сети.
 
-Basta selecionar Objects e usar o atalho OM \(Objects to Meshes\) ou clicar com o botão direito do mouse e selecionar Objects to Meshes no menu de contexto:
+Для этого выберите «Объекты», а затем используйте сочетание клавиш OM \(Объекты в сети\) или нажмите правую кнопку мыши и выберите команду «Объекты в сети» в контекстном меню.
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Quando os objetos tiverem sido convertidos em malhas, você verá uma mensagem de confirmação na parte superior da tela:
+После преобразования объектов в сети в верхней части экрана появится сообщение с подтверждением.
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**Ao converter objetos em malhas:**
+**Учтите следующие особенности при преобразовании объектов в сети:**
 
-* As arestas que foram suavizadas nos objetos permanecerão suavizadas nas malhas resultantes.
-* As orientações de material nos objetos permanecerão inalteradas nas malhas resultantes.
-* Uma malha será criada para cada material aplicado. Por exemplo, se você converter um único cubo pintado em 6 cores diferentes, você obterá 6 malhas diferentes.
-   * Converter de volta em um objeto vedará novamente as malhas individuais de volta em um corpo sólido.
-* Selecionar um corpo sólido converterá e substituirá todo o corpo por uma malha, mas selecionar arestas ou vértices individuais pertencentes a um sólido criará uma nova malha sobre a geometria existente, sem afetar o corpo original.
-* A conversão de um conjunto de arestas ou vértices criará uma única malha de linhas \(uma malha feita de arestas\) ou uma única malha de ponto \(uma malha feita de pontos\), o que significa que você não será capaz de selecionar arestas ou vértices individuais depois que eles forem combinados em uma única malha. Converta-os de volta em objetos se você desejar ajustar a posição de um único elemento.
+* ребра, сглаженные на объектах, остаются сглаженными в полученных сетях.
+* ориентации материалов на объектах не меняются в полученных сетях.
+* сеть создается для каждого примененного материала. Например, при преобразовании одного куба, выкрашенного в 6 разных цветов, получается 6 различных сетей.
+   * при обратном преобразовании в объект отдельные сети снова объединяются в твердое тело.
+* при выборе твердого тела выполняется преобразование и замена всего тела сетью. Однако при выборе отдельных ребер или вершин тела будет создана новая сеть поверх существующей геометрии, не затрагивая исходное тело.
+* в результате преобразования набора ребер или вершин создается единая сеть линий \(сети из ребер\) или единая сеть точек \(сети из точек\), в которых после преобразования нельзя выбирать отдельные ребра или вершины. Чтобы скорректировать положение отдельного элемента, преобразуйте их обратно в объекты.
 
-**Converter geometria agrupada em malhas:**
+**Преобразование сгруппированных объектов геометрии в сети.**
 
-* As malhas se tornam ainda mais poderosas quando você pode converter um grupo inteiro e todos os seus grupos aninhados em malhas.
-* Os grupos e seu conteúdo aninhado podem ser convertidos em grupos usando um plug-in:
-   * Procure o ícone Plugin Manager no lado direito do aplicativo:
+* Сети работают более эффективно, когда выполняется преобразование в сеть всей группы и всех вложенных групп.
+* Группы и вложенное в них содержимое можно преобразовывать в сети с помощью подключаемого модуля.
+   * Найдите значок диспетчера подключаемых модулей в правой части приложения:
       * ![](../.gitbook/assets/plugin-manager_icon.PNG)
-   * Localize o plug-in “Mesh + Unmesh All” e clique na caixa de seleção para instalá-lo:
+   * Найдите подключаемый модуль «Mesh + Unmesh All» (преобразовать все объекты в сети/сети в объекты) и установите флажок для установки модуля.
       * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
-   * O plug-in Mesh + Unmesh All será carregado. Basta selecionar um grupo que contenha os objetos que você deseja converter em malhas e clicar em Mesh All.
+   * Загрузится выбранный подключаемый модуль. Теперь выберите группу объектов, которую необходимо преобразовать в сети, и нажмите «Mesh All» (преобразовать все в сети).
       * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
-   * Ao converter objetos aninhados ou malhas com esse plug-in, você verá uma mensagem de atualização na parte superior da tela informando quantos grupos e instâncias de grupos foram afetados pela operação:
+   * При преобразовании вложенных объектов или сетей с помощью этого подключаемого модуля в верхней части экрана отображается информационное сообщение с указанием количества преобразованных групп и экземпляров групп:
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### Interação com malhas
+### Работа с сетями
 
-**Por causa de sua natureza leve, as malhas têm certas limitações e comportamentos:**
+**В силу своей простоты сети имеют определенные ограничения и особенности.**
 
-* Não será possível editar faces, arestas ou vértices individuais de uma malha.
-   * No entanto, será possível reformatar malhas e mover malhas individuais criadas como resultado de diferentes materiais aplicados às faces \(consulte acima\).
-* O snap a malhas será limitado às faces e vértices de malhas. Para fins de desempenho, o snap e a inferência não funcionarão com arestas de malhas.
-   * No entanto, os arquivos DWG convertidos em malhas \(um tipo diferente de malha conhecido como malha de linhas\) manterão a capacidade de efetuar inferência e snap a arestas de malha.
-* As malhas não poderão ter níveis aplicados.
-* As malhas não informarão problemas herméticos ou de face posterior. Converta-os de volta em objetos para ver se eles são herméticos ou não.
-   * Os objetos que estavam herméticos antes da conversão em uma malha permanecerão herméticos quando convertidos de volta em um objeto.
-* Não é possível usar as malhas em operações avançadas de modelagem, como Unir/Cortar sólido, Casca 3D, Deslocamento 3D, Concordância, Elevação, Varredura ou Cobertura.
+* Нельзя редактировать отдельные грани, ребра и вершины сети.
+   * Однако можно перекрашивать сети и перемещать отдельные сети, созданные в результате применения к граням различных материалов \(см. выше\).
+* Привязка к сетям ограничивается гранями и вершинами сетей. В целях повышения производительности нельзя выполнить привязку и создавать зависимости с ребрами сетей.
+   * Однако файлы DWG, преобразованные в сети \(другой тип сети, известный как сеть линий\), сохраняют возможность привязки к ребрам сетей и создания зависимостей от них.
+* К сетям не применятся уровни.
+* При работе с сетями не возникает предупреждений о проблемах с непроницаемостью или задними гранями. Чтобы проверить, являются ли сети непроницаемыми, преобразуйте их обратно в объекты.
+   * Объекты, которые до преобразования в сеть были непроницаемыми, при обратном преобразовании в объект остаются таковыми.
+* Сети нельзя использовать в расширенных операциях моделирования, таких как «Соединение/разрезы тел», «3D-оболочка», «3D-смещение», «Сопряжение», «По сечениям», «Сдвиг» или «Покрытие».
 
-Caso contrário, as malhas serão exibidas e se comportarão como qualquer outro objeto do FormIt: colocadas em grupos, atribuídas a camadas, visualizadas em cenas, usadas para análise etc.
+В остальных случаях сети отображаются и работают так же, как любой другой объект FormIt: их можно размещать в группах, назначать слоям, визуализировать в сценах, использовать для расчета и т. д.
 
-**Você saberá que está interagindo com uma malha se a dica de ferramenta relatar “On Mesh” ou se o painel Properties relatar uma malha:**
+**Вы поймете, что работаете с сетью, когда в подсказке отображается сообщение «На сети» или на панели свойств указано «Свойства сети»:**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Alguns tipos de arquivo são automaticamente importados como malhas para melhorar o desempenho:**
+**Некоторые типы файлов автоматически импортируются в качестве сетей для повышения производительности.**
 
-* Os arquivos STL e OBJ, que podem conter geometria densa, como nuvens de pontos de outros aplicativos, são automaticamente importados como malhas.
-* Os arquivos DWG, que podem conter milhões de pequenos segmentos de aresta em curvas de alta qualidade, são automaticamente importados como malhas.
+* Файлы STL и OBJ, в которых могут быть плотные объекты геометрии, например облака точек из других приложений, автоматически импортируются как сети.
+* Файлы DWG, в которых могут содержаться миллионы мелких сегментов кромок на высококачественных кривых, автоматически импортируются как сети.
 
-### Converter malhas de volta em objetos
+### Обратное преобразование сетей в объекты
 
-Basta selecionar Meshes e usar o atalho MO \(Meshes to Objects\) ou clicar com o botão direito do mouse e selecionar Meshes to Objects no menu de contexto:
+Сначала выберите «Сети», а затем используйте сочетание клавиш MO \(Сети в объекты\) или щелкните правой кнопкой мыши и выберите команду «Сети в объекты» в контекстном меню:
 
 ![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Quando os objetos tiverem sido convertidos em malhas, você verá uma mensagem de confirmação na parte superior da tela:
+После преобразования объектов в сети в верхней части экрана появится сообщение с подтверждением:
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**Ao converter malhas de volta em objetos:**
+**При обратном преобразовании сетей в объекты учтите следующие особенности.**
 
-* Quaisquer objetos que anteriormente eram sólidos/herméticos antes de converter em uma malha serão unidos novamente em um sólido hermético ao converter de volta em um objeto.
-* Converter uma série de arestas \(por exemplo de um arquivo DWG\) ou uma série de vértices \(por exemplo de uma nuvem de pontos\) em uma malha e convertê-los de volta colocará automaticamente os objetos sem malha em um grupo.
-   * Isso impedirá que as novas arestas ou vértices mesclem com outra geometria, o que poderá ter efeitos adversos e afetar o desempenho.
-   * Será possível desagrupar simplesmente o grupo resultante para liberar as arestas e/ou vértices.
+* Все объекты, которые до преобразования в сеть были телами или непроницаемыми, при обратном преобразовании в объект снова объединяются в непроницаемое тело.
+* При преобразовании набора ребер \(например, из файла DWG\) или набора вершин \(например, из облака точек\) в сеть и обратно объекты автоматически объединяются в группу.
+   * Это необходимо во избежание объединения новых ребер или вершин с другими объектами геометрии, что может отрицательно сказаться на производительности.
+   * Чтобы разделить ребра и (или) вершины, просто расформируйте полученную группу.
 
-**Converter malhas agrupadas de volta em objetos:**
+**Обратное преобразование сгруппированных сетей в объекты.**
 
-* Consulte as instruções acima para usar o plug-in Mesh + Unmesh All para converter grupos e suas malhas aninhadas de volta em objetos.
+* См. выше инструкции по использованию подключаемого модуля «Mesh + Unmesh All» (преобразовать все объекты в сети/сети в объекты) для обратного преобразования групп и вложенных в них сетей в объекты.
 

@@ -1,4 +1,4 @@
-# Casca
+# Оболочка
 
-Com base em um objeto sólido, é possível criar uma “casca” de uma largura especificada. As cascas são úteis para criar rapidamente paredes com base em um modelo de massa:
+Из твердотельного объекта можно создать «оболочку» заданной ширины. Оболочки используются для быстрого создания стен из модели формообразующего элемента.
 

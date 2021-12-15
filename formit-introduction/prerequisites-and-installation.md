@@ -1,29 +1,29 @@
-# Pré-requisitos e instalação
+# Необходимые компоненты и установка
 
-## Download e instalação
+## Загрузка и установка
 
-* Faça o download do [FormIt para Windows](https://formit.autodesk.com/page/download) mais recente.
-* Use a Autodesk Account para entrar ou [crie uma gratuitamente aqui](https://accounts.autodesk.com/).
-* O complemento do FormIt para o Revit está incluído no Revit 2017 e em versões mais recentes. Também é possível fazer o download e instalar manualmente o complemento [ em nosso site ](https://formit.autodesk.com/page/formit-revit).
+* Скачайте последнюю версию [FormIt для Windows](https://formit.autodesk.com/page/download).
+* Используйте учетную запись на портале Autodesk Account для входа в систему или [создайте бесплатную учетную запись на портале Autodesk Account](https://accounts.autodesk.com/).
+* Надстройка FormIt для Revit входит в состав Revit 2017 и более поздних версий. Можно также [скачать надстройку на нашем веб-сайте](https://formit.autodesk.com/page/formit-revit) и установить ее вручную.
 
-## Configuração recomendada do sistema
+## Рекомендуемая конфигурация системы
 
-| Requisito | Details |
+| Требование | Подробности |
 | :--- | :--- |
-| **Sistema operacional** | Microsoft® Windows® 8, 8.1 ou 10 _Observação: O Parallels Desktop não é oficialmente suportado devido a problemas de desempenho e gráficos degradados em drivers OpenGL._ |
-| **CPU** | Processador Intel® Pentium®, Xeon® ou i-Series ou o AMD® equivalente com tecnologia SSE2. É recomendada a maior taxa de velocidade de CPU possível. |
-| **Memória** | 4 GB de RAM no mínimo, 8 GB ou mais recomendados. |
-| **Placa de vídeo \(GPU\)** | Recomenda-se com ênfase uma GPU NVIDIA ou AMD separada que suporte OpenGL 4.2 e DirectX 11 ou superior. Para sistemas com placas gráficas comutáveis, siga as instruções do fabricante para garantir que o FormIt sempre use a GPU dedicada. Consulte as instruções para [AMD](https://www.amd.com/pt/support/kb/faq/dh-017) e [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1). Para obter o melhor desempenho e a melhor confiabilidade, verifique se os drivers da placa gráfica estão atualizados no site do fabricante ou no Windows Update. O FormIt mostrará uma mensagem na inicialização se não for possível usar a placa de vídeo devido a drivers desatualizados ou outros problemas. Se o FormIt não for iniciado após a atualização dos drivers, [entre em contato nos fóruns](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=pt-br). |
-| **Espaço em disco** | 1 GB de espaço livre em disco. |
-| **Conectividade e licenciamento** | Uma Autodesk Account com direito a uma assinatura da nuvem do FormIt Pro é necessária para executar o FormIt Pro no Windows. O FormIt Pro está disponível como parte da [**Autodesk AEC Collection**](https://www.autodesk.com.br/collections/architecture-engineering-construction/overview). |
+| **Операционная система** | Microsoft® Windows® 8, 8.1 или 10_Примечание. Parallels Desktop официально не поддерживается из-за снижения производительности и проблем с графикой у драйверов OpenGL._ |
+| **Центральный процессор** | Многоядерный процессор Intel® Xeon® или i-Series либо эквивалентный процессор AMD® с поддержкой технологии SSE2. Рекомендуется использовать центральный процессор с максимально возможной производительностью. |
+| **Память** | Не менее 4 ГБ оперативной памяти, рекомендуемый объем — 8 ГБ. |
+| **Видеокарта (GPU)** | Настоятельно рекомендуется использовать дискретный графический процессор NVIDIA или AMD с поддержкой OpenGL 4.2 и DirectX 11 или более поздней версии. В системах с переключаемыми видеокартами следуйте инструкциям производителя, чтобы удостовериться, что в FormIt всегда используется выделенный графический процессор. См. инструкции для [AMD](https://www.amd.com/ru/support/kb/faq/dh-017) и [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1). Для обеспечения оптимальной производительности и стабильности удостоверьтесь, что установлены новейшие драйверы видеокарты с веб-сайта производителя или с веб-сайта Центра обновления Windows. Если видеокарта не может быть использована из-за устаревших драйверов или других проблем, при запуске FormIt отобразится сообщение об ошибке. Если FormIt не запускается после обновления драйверов, [попробуйте найти решение на форуме](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ru). |
+| **Место на диске** | 1 ГБ свободного места на диске. |
+| **Подключение и лицензирование** | Для запуска FormIt Pro в Windows требуется учетная запись на портале Autodesk Account с подпиской на облачные решения FormIt Pro. Программное обеспечение FormIt Pro доступно в составе [**коллекции Autodesk AEC Collection**](https://www.autodesk.ru/collections/architecture-engineering-construction/overview). |
 
-## Configurações de DPI recomendadas do Windows
+## Рекомендуемые параметры разрешения экрана в Windows
 
-O FormIt para Windows funciona melhor quando a tela de exibição está definida para dimensionamento de DPI de 125% ou menos no Windows.
+FormIt для Windows работает наилучшим образом, когда в настройках Windows установлено масштабирование экрана 125 % DPI и меньше.
 
-É possível alterar isso no Windows 10 com o seguinte procedimento:
+В Windows 10 для настройки масштабирования выполните следующие действия.
 
-* Pesquise “Exibir” no menu Iniciar e escolha “Alterar configurações de exibição”
-* Selecione o retângulo que representa o monitor que você usará com o FormIt
-* Na seção “Escala e layout”, abra o menu suspenso “Tamanho do texto, aplicativos e outros itens” e selecione um valor de 125% ou menos
+* В меню «Пуск» выполните поиск по запросу «Экран» и выберите «Изменить параметры экрана».
+* Выберите прямоугольник, обозначающий монитор, который будет использоваться при работе в FormIt.
+* В разделе «Масштаб и разметка» откройте раскрывающийся список «Изменение размера текста, приложений и других элементов» и выберите значение 125 % или меньше.
 

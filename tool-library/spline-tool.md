@@ -1,14 +1,14 @@
-# Spline
+# Сплайн
 
-A ferramenta Spline permite criar esboços orgânicos no espaço ou em outros objetos.
+Инструмент «Сплайн» позволяет создавать органические эскизы в пространстве или на поверхности объектов.
 
 ![](../.gitbook/assets/spline.png)
 
-Uma spline é desenhada com base em pelo menos 3 pontos interpolados. A geometria conectada é simplificada criando uma curva suave e orgânica entre os pontos especificados. Como outras ferramentas de desenho, as splines podem ser desenhadas em 3D ao efetuar o snap para pontos 3D durante o desenho.
+Для сплайна необходимо не менее 3 интерполированных точек. Связанная геометрия упрощается за счет создания плавной органической кривой между указанными точками. Как и другие инструменты рисования, сплайны можно создавать в 3D путем привязки к 3D-точкам в процессе рисования.
 
-Para especificar uma distância, comece a digitar um valor de cota e pressione OK ou Enter na caixa de diálogo Editar cota.
+Чтобы задать расстояние, введите значение размера и нажмите кнопку «ОК» или клавишу ENTER в диалоговом окне «Редактирование размера».
 
-As splines também podem fechar sobre si mesmas criando uma face.
+Сплайн также можно замкнуть для создания грани.
 
 ![](../.gitbook/assets/spline2.png)
 

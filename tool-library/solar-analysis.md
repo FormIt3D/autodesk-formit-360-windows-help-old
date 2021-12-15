@@ -1,4 +1,4 @@
-# Análise de luz solar
+# Расчет инсоляции
 
-Os usuários do FormIt Pro podem estudar o **impacto solar e energético** dos projetos usando o recurso **Análise solar**. Saiba mais sobre a análise solar e como usá-la [aqui](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+Пользователи FormIt Pro могут изучать **влияние солнечных и энергетических процессов** в проектах с помощью функции **Расчет инсоляции**. Дополнительные сведения о расчете инсоляции и его использовании можно найти [здесь](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
 

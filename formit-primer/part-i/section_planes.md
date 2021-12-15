@@ -1,40 +1,40 @@
-# 1.13 – Planos de corte
+# 1.13. Секущие плоскости
 
-_Neste capítulo, você aprenderá como usar_ _**Planos de corte**_ _para cortar o modelo, revelando espaços internos e elementos estruturais. O FormIt suporta vários_ _**planos de corte**_ _de uma vez para um efeito semelhante a Caixa de corte._
+_В этой главе вы узнаете, как использовать_ _**секущие плоскости**_ _для разрезания модели и просмотра внутреннего пространства и элементов конструкции. FormIt поддерживает одновременное использование нескольких_ _**секущих плоскостей**_ _для создания эффекта «Секущая рамка»._
 
-_Se você não concluiu o capítulo anterior, faça o download e abra o arquivo_ _**1. 13 – Section Planes.axm**_ _dos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл_ _**1. 13 — Section Planes.axm**_ _из_ _**набора данных для части 1 руководства FormIt Primer**._
 
-1 – Para criar um novo plano de corte:
+1 - Чтобы создать секущую плоскость, выполните следующие действия.
 
-1. Clique no botão **Plano de corte \(SP\)** na **barra de ferramentas padrão**.
-2. Passe o mouse sobre o modelo para identificar um plano a ser usado como referência. Observe as setas nos cantos do **Plano de corte** indicando a direção do corte de seção. Pressione a tecla **Tab** para alternar entre diferentes planos, se necessário.
-3. Clique para colocar o **Plano de corte** em qualquer lugar na parede de vidro sul do edifício principal. O plano será dimensionado para o tamanho do modelo e permanecerá selecionado.
+1. Нажмите кнопку **Секущая плоскость (S+P)** на **стандартной панели инструментов**.
+2. Наведите курсор на модель, чтобы определить плоскость, которая будет использоваться в качестве опорной. Обратите внимание на стрелки в углах **секущей плоскости**, указывающие направление разреза. При необходимости нажмите клавишу **TAB** для переключения между плоскостями.
+3. Щелкните, чтобы разместить **секущую плоскость** в любом месте южной стеклянной стены главного здания. Плоскость будет вписана в размер модели и выделена как выбранная.
 
-![Visualização do plano de corte ao passar o cursor sobre a parede de vidro.](../../.gitbook/assets/0%20%286%29.png)
+![При наведении курсора на стеклянную стену отображается секущая плоскость.](../../.gitbook/assets/0%20%286%29.png)
 
-![ Plano de corte dimensionado após ser inserido.](../../.gitbook/assets/1%20%2819%29.png)
+![Масштабированная секущая плоскость после размещения.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 – Com o plano de corte ainda selecionado, clique para começar a movê-lo para trás até que esteja cortando através de parte do edifício principal, similar à imagem abaixo. Isso funciona de forma similar a mover qualquer elemento do modelo, exceto que o plano de corte somente pode se mover ao longo de um eixo perpendicular à direção que está voltada. Quando estiver satisfeito com a posição, pressione **Esc** para limpar a seleção.
+2 - Выберите секущую плоскость, щелкните и начните перемещение вглубь для рассечения части главного здания, как показано на рисунке ниже. Процесс похож на перемещение любого другого элемента модели, за исключением того, что секущая плоскость может перемещаться только вдоль оси, перпендикулярной ее плоскости. После выбора нужного положения нажмите клавишу **ESC**, чтобы отменить выбор.
 
 ![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Observação:**_ _É possível adicionar até seis cortes de seção ao modelo de uma só vez._
+_**Примечание.**_ _Одновременно в модель можно добавить до 6 разрезов сечения._
 
-3 – Abra a **paleta** **Camadas**. Observe que duas \(2\) novas camadas foram geradas – **Indicadores de seção** e **Corte de seção 1**.
+3 - Откройте **палитру** **слоев**. Обратите внимание, что были созданы два (2) новых слоя: **Индикаторы сечения** и **Сечение 1**.
 
-1. Ative e desative a camada **Corte da seção 1**. Isso controla se a seção corta o modelo ou não.
-2. Agora, desative a camada **Indicador de seção**. Isso oculta o plano de corte e seus indicadores de seta, mas não afeta se o corte de seção real está ativo ou não.
+1. Отключите и снова включите слой **Сечение 1**. Этот параметр определяет применение сечения к модели.
+2. Теперь отключите слой **Индикаторы сечения**. Этот параметр скрывает секущую плоскость и стрелки-индикаторы, но не затрагивает применения сечения.
 
 ![](../../.gitbook/assets/3%20%286%29.png)
 
-4 – Na **guia Superfície** da **paleta** **Estilos visuais**:
+4 - На **вкладке «Поверхность»** палитры **Визуальные стили**** **выполните следующие действия.
 
-1. Marque a caixa ao lado de **Cor de preenchimento** para ativá-la. Esse efeito colorirá quaisquer sólidos cortados pelo plano de corte com uma cor especificada. Preto é a cor padrão, mas você pode simplesmente clicar na visualização de cor para alterá-la.
-2. Desative **Sombras \(DS\)**.
+1. Установите флажок **Цвет условного материала-отделки**, чтобы включить этот параметр. Он позволяет окрашивать твердые тела, рассеченные секущей плоскостью, заданным цветом. По умолчанию используется черный цвет, но его можно изменить, щелкнув изображение предварительного просмотра цвета.
+2. Отключите параметр **Тени (D+S)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 – Para finalizar o corte, vá para a **paleta Cenas** e crie uma nova cena chamada **Corte**, salvando a posição atual da **Câmera**, a visibilidade das **Camadas** e as configurações dos **Estilos visuais**.
+5 - Для завершения работы с сечением перейдите на **палитру «Сцены»** и создайте новую сцену с именем **Сечение**. Это позволит сохранить текущее положение **камеры**, **слои** видимость и **визуальные стили**.
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 

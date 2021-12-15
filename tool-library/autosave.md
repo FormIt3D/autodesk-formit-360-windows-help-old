@@ -1,54 +1,54 @@
-# Salvar automático
+# Автосохранение
 
-A partir da v17.3, o FormIt para Windows inclui o recurso Salvar automático, que faz uma cópia de backup do modelo do FormIt enquanto você trabalha. Esse arquivo de backup poderá ser usado para recuperar dados se o FormIt for fechado com alterações não salvas.
+Начиная с версии 17.3 в FormIt для Windows входит функция автосохранения, которая во время работы создает резервную копию модели FormIt. Файл резервной копии можно использовать для восстановления данных в случае закрытия FormIt без сохранения изменений.
 
-### Ativar/desativar Salvar automático
+### Включение и отключение автосохранения
 
-Encontre as opções de configuração para Salvar automático em Editar &gt; Preferências &gt; Salvar automático.
+Параметры конфигурации автосохранения находятся в меню «Редактировать» > «Настройки» > «Автосохранение».
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-O recurso Salvar automático é ativado por padrão, mas pode ser desativado completamente simplesmente ao desmarcar a caixa.
+Автосохранение включено по умолчанию, однако его можно полностью отключить, просто сняв флажок.
 
-Defina o intervalo \(em minutos\) no qual Salvar automático fará uma cópia de backup inserindo um valor na caixa de número “Intervalo do salvamento automático”.
+Задайте интервал \(в минутах\), с которым функция автосохранения будет создавать резервную копию. Для этого введите значение в числовое поле «Интервал автосохранения».
 
-Observe que essas preferências estão no nível do aplicativo e não serão alteradas ao abrir arquivos diferentes.
+Обратите внимание, что эти настройки сохраняются на уровне приложения и действуют для любого открытого файла.
 
-### Como o recurso Salvar automático funciona
+### Принцип работы функции автосохранения
 
-Quando Salvar automático está ativado, ele determina se o arquivo do FormIt atual tem alterações não salvas. Se houver alterações não salvas, o recurso Salvar automático criará uma cópia de backup do arquivo no intervalo especificado.
+Если автосохранение включено, происходит проверка наличия несохраненных изменений в текущем файле FormIt. При наличии несохраненных изменений в результате автосохранения с заданным интервалом времени создается резервная копия файла.
 
-Os arquivos de backup são armazenados junto ao arquivo original e têm uma extensão de `.axmb`.
+Файлы резервных копий хранятся в каталоге с исходным файлом и имеют расширение `.axmb`.
 
-Por exemplo, se o arquivo FormIt original estiver armazenado em `C:/Users/<user>/FormIt/MyProject.axm`, o arquivo de backup poderá ser encontrado em `C:/Users/<user>/FormIt/MyProject.axmb`.
+Например, если исходный файл FormIt хранится в каталоге `C:/Users/<user>/FormIt/MyProject.axm`, файл резервной копии будет сохранен в каталоге `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-Se você iniciar uma nova sessão do FormIt sem abrir um arquivo existente, as alterações não salvas poderão ser encontradas em `C:/Users/<user>/Documents/Untitled.axmb`. Depois de salvar o novo modelo em uma localização diferente, o backup começará a adicionar alterações não salvas ao lado da nova localização, como indicado acima.
+При запуске нового сеанса FormIt без открытия существующего файла несохраненные изменения будут размещены в каталоге `C:/Users/<user>/Documents/Untitled.axmb`. При сохранении новой модели в другом каталоге резервные копии будут сохраняться в этом же каталоге, как и в предыдущем случае.
 
-Quando você salva as alterações no arquivo original, Salvar automático exclui automaticamente o arquivo de backup, já que o backup agora é mais antigo do que o arquivo original. No entanto, se você fizer alterações subsequentes ao arquivo salvo, Salvar automático iniciará novamente o backup no intervalo especificado.
+При сохранении изменений в исходном файле, файл резервной копии автоматически удаляется, поскольку исходный файл имеет более позднюю дату сохранения. Однако при последующем внесении изменений в только что сохраненный файл резервные копии будут создаваться вновь с заданным интервалом времени.
 
-Se o arquivo de trabalho tiver alterações não salvas e você optar por fechar o FormIt e descartar as alterações, o backup de Salvar automático será excluído. No entanto, se o FormIt for forçado a fechar, por um desligamento do computador ou um erro fatal do aplicativo, o arquivo de backup de Salvar automático será mantido e poderá ser usado posteriormente para recuperar os dados.
+Если в рабочем файле имеются несохраненные изменения и при его закрытии в FormIt вы решите отменить изменения, созданная с помощью функции автосохранения резервная копия будет удалена. Однако в случае принудительного закрытия FormIt (при отключении компьютера или сбое приложения) файл резервной копии сохранится и его можно будет использовать для восстановления данных.
 
-### Trabalhar com Salvar automático ativado
+### Работа при включенном автосохранении
 
-O FormIt minimiza o impacto potencial do recurso Salvar automático no desempenho executando o backup em um processo separado. Com arquivos de tamanho pequeno a médio, você não deve perceber quando Salvar automático faz backup. Com arquivos muito grandes \(~400 MB ou mais\), você pode observar apenas uma pausa momentânea enquanto o FormIt copia todo o modelo e começa a fazer backup em um processo separado.
+FormIt минимизирует потенциальное влияние автосохранения на производительность, выполняя резервное копирование в качестве отдельного процесса. При работе с файлами небольшого и среднего размера функция автосохранения выполняет резервное копирование абсолютно незаметно. При работе с файлами большого размера \(~400 МБ и более\) можно заметить короткую паузу в тот момент, когда FormIt копирует модель целиком и начинает резервное копирование в качестве отдельного процесса.
 
-Se estiver se perguntando se Salvar automático está fazendo backup no momento, você poderá observar a barra de status na parte inferior esquerda do aplicativo para ver uma breve mensagem “Salvando automaticamente...”:
+Чтобы узнать, выполняется ли в данный момент функция автосохранения, посмотрите в строке состояния в левом нижнем углу окна приложения наличие короткого сообщения «Автосохранение...»:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-Se a barra de status estiver desativada, será possível ativá-la em Janela &gt; Barra de status ou por meio do atalho HS.
+Если строка состояния отключена, ее можно включить в меню «Окно» > «Строка состояния» или с помощью сочетания клавиш HS.
 
-### Recuperar dados com Salvar automático
+### Восстановление данных с помощью функции автосохранения
 
-Quando você abre um arquivo FormIt com um backup disponível, o FormIt alertará que o arquivo de backup existe. Como mencionado acima, isso pode ser simplesmente devido ao fechamento do FormIt sem escolher salvar as alterações feitas nesse projeto na última vez em que ele foi editado ou devido ao fechamento inesperado do FormIt.
+При открытии файла FormIt, для которого доступна резервная копия, отобразится предупреждение о том, что имеется файл резервной копии. Как упоминалось выше, это может произойти при закрытии FormIt без сохранения последних изменений в проекте или при непредвиденном закрытии FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicar no link “Abrir?” carregará o arquivo de backup `.axmb`.
+По нажатию гиперссылки «Открыть?» загружается файл резервной копии `.axmb`.
 
-De forma similar, é possível usar Arquivo &gt; Abrir e selecionar manualmente o arquivo `.axmb` no gerenciador de arquivos para abrir um backup.
+Можно также перейти в меню «Файл» > «Открыть» и вручную выбрать файл резервной копии `.axmb` в проводнике.
 
-Quando o arquivo de backup estiver aberto, na próxima vez que você salvar, o FormIt exigirá que você selecione um arquivo do FormIt diferente \(`.axm`\) para substituir. Não é possível substituir os arquivos de backup do FormIt \(`.axmb`\).
+После открытия файла резервной копии при следующем сохранении появится сообщение с запросом на выбор другого файла FormIt \(`.axm`\) для перезаписи. Перезапись файла резервной копий FormIt \(`.axmb`\) невозможна.
 
 
 

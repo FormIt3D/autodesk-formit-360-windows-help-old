@@ -1,30 +1,30 @@
-# União booleana
+# Логическое соединение
 
-É possível unir um objeto ou grupo em outro com a ferramenta Unir. Há duas maneiras de acessar a ferramenta Unir:
+С помощью инструмента «Соединить» можно присоединить один объект или группу объектов к другому объекту или группе. Открыть инструмент соединения можно одним из следующих способов.
 
-## Executar o comando Unir primeiro
+## Первый способ: команда «Соединить»
 
-Teclado: J G
+Горячие клавиши: J+G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Execute o comando Unir e siga as instruções de modo no canto superior esquerdo da tela
+Запустите команду «Соединить» и следуйте инструкциям данного режима в левом верхнем углу экрана.
 
-Clique uma vez para selecionar um objeto para unir.
+Однократным щелчком выберите объект, к которому нужно присоединить что-либо.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Clique uma vez para selecionar um objeto ou grupo a ser unido.
+Щелчком мыши выберите объект или группу для присоединения.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Clique na marca de seleção para encerrar o comando.
+Щелкните галочку для выполнения команды.
 
-## Selecionar primeiro os objetos
+## Второй способ: выбор объектов
 
-1. Clique duas vezes para selecionar o objeto a ser unido \(clique simples para um grupo\).
-2. Mantendo pressionada a tecla **Ctrl**, clique duas vezes em um objeto sobreposto que você deseja unir com o primeiro objeto.
-3. Clique com o botão direito do mouse em qualquer um dos objetos e selecione a ferramenta Unir no menu de contexto.
+1. Двойным щелчком выберите объект для присоединения (щелкните один раз для выбора группы).
+2. Удерживая клавишу **CTRL**, дважды щелкните объект пересечения, которые требуется присоединить к первому объекту.
+3. Щелкните правой кнопкой мыши любой из объектов и выберите инструмент соединения в контекстном меню.
 
 ![](../.gitbook/assets/join-tool.png)
 

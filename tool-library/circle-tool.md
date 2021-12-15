@@ -1,12 +1,12 @@
-# Círculo
+# Круг
 
-Use a ferramenta Círculo para desenhar um círculo no espaço ou em outro objeto.
+Используйте инструмент «Окружность» для построения окружности в пространстве или на другом объекте.
 
-Teclado: C
+Горячие клавиши: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Para desenhar um círculo, primeiro selecione o ponto central e, em seguida, especifique o raio do círculo. Em seguida, o círculo se torna automaticamente uma face.
+Для построения окружности сначала выберите центральную точку, а затем укажите радиус окружности. После этого окружность автоматически будет преобразована в грань.
 
 ![](../.gitbook/assets/circle1.png)
 

@@ -1,16 +1,16 @@
-# Faces: aplainar
+# Грани: выравнивание
 
-Use a ferramenta **Aplainar faces** para forçar duas ou mais faces de objeto no mesmo plano.
+Используйте инструмент **Выровнять грани** для принудительного размещения двух или нескольких граней объекта в одной плоскости.
 
-Quando duas ou mais faces de objeto são selecionadas, é possível selecionar a ferramenta **Aplainar faces** no **menu de contexto**. Também é possível acessar **Aplainar faces** usando o atalho “**FL**”.
+При выборе нескольких граней объекта в **контекстном меню** станет доступна команда **Выровнять грани**. Для выполнения команды **Выровнять грани** можно также воспользоваться горячими клавишами **F+L**.
 
 ![](../.gitbook/assets/flatten_faces.png)
 
-**Aplainar faces** pode ser útil como uma ferramenta de reparo quando uma face que deveria ser plana se torna facetada inesperadamente \(com arestas suaves entre as facetas\), ao importar dados de fidelidade inferior como [modelos do SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) ou após mover acidentalmente um vértice ou aresta que faz com que uma face seja facetada ou triangulada.
+Команда **Выровнять грани** применяется в качестве инструмента исправления, когда необходимо сделать составную грань плоской (сгладить ребра между сегментами грани) при импорте данных низкой четкости, например [моделей SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), или после случайного перемещения вершины или ребра, в результате чего грань становится сегментирована или триангулирована.
 
-Também é possível usar **Aplainar faces** como uma ferramenta de projeto para alinhar ou estender formas. Para fazer isso, selecione primeiro uma superfície guia e, em seguida, selecione faces adicionais para aplainar para o plano da primeira superfície.
+Кроме того, команду **Выровнять грани** можно использовать в качестве инструмента проектирования для выравнивания или удлинения форм. Для этого сначала выберите направляющую поверхность, а затем выберите дополнительные грани, которые будут выровнены относительно плоскости направляющей поверхности.
 
-Confira o vídeo abaixo para ver a potência e a versatilidade de **Aplainar faces**:
+Посмотрите видеоролик ниже, чтобы узнать о широких возможностях функции **выравнивания граней**.
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
 

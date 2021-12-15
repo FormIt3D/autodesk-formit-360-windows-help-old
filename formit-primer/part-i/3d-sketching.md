@@ -1,69 +1,69 @@
-# 1.3 – Esboço 3D e arrastar face
+# 1.3. 3D-эскиз и перетаскивание грани
 
-_Estamos prontos para começar a desenhar a Residência Farnsworth. A modelagem 3D no FormIt, em seu núcleo, consiste em linhas de desenho para criar faces e, em seguida, arrastar essas faces para criar volumes._
+_Приступим к созданию чертежа дома Фарнсуорт. 3D-моделирование в FormIt основывается на рисовании линий для создания граней и последующего перетаскивания этих граней для создания объемов._
 
-‌_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.3 – 3D Sketch and Drag Face.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+‌ _Если вы не работали с предыдущим разделом, загрузите и откройте файл_ _**1.3 - 3D Sketch and Drag Face.axm**_ _из_ _**наборов данных для части 1 руководства FormIt Primer**._
 
-## **Desenhar faces com linhas**
+## **Построение граней с помощью линий**
 
-1 – Para facilitar o processo de modelagem, é possível usar a **Barra de ferramentas de navegação flutuante** para alternar entre diferentes modos de vista. Para este exercício, recomendamos usar a **Perspectiva \(VP\)** e a **Vista 3D \(V3\).**
+1 – Чтобы упростить процесс моделирования, можно использовать **плавающую панель навигации** для переключения между различными видами. Для выполнения этого упражнения рекомендуется использовать **перспективный вид \(VP\)** и **3D-вид \(V3\).**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – A geometria recém-criada será unida ou “manterá” automaticamente qualquer geometria desagrupada existente associada. Para evitar isso, você normalmente desejará organizar a geometria em grupos. Para criar um grupo com base na planta de piso, selecione o retângulo clicando duas vezes nele e, em seguida, clique com o botão direito do mouse para acessar o **Menu de contexto** e selecione **Grupo \(G\).**
+2 – Вновь созданная геометрия автоматически соединяется с любой существующей разгруппированной геометрией, с которой соприкасается, или «привязывается» к ней. Во избежание этого геометрию обычно объединяют в группы. Чтобы создать группу на основе плана этажа, дважды щелкните прямоугольник, а затем нажмите правую кнопку мыши для вызова **контекстного меню** и выберите **Группа \(G\).**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – Ao traçar o plano, não é conveniente que as linhas efetuem o snap à grade, então clique em **Configurações** no **Menu principal** e desmarque **Snap à grade \(SG\).**
+3 – При трассировке плана линии не должны привязываться к сетке, поэтому выберите **Параметры** в **главном меню** и снимите флажок **Привязка к сетке \(SG\).**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – Para iniciar o desenho, clique no ícone **Criar esboço** \(Lápis\) na **Barra de ferramentas padrão** e selecione a **ferramenta Linha \(L\)**.
+4 – Чтобы начать рисование, щелкните значок **Создать эскиз** \(карандаш\) на **панели «Стандартная»** и выберите **инструмент «Линия» \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 – Vamos começar criando um retângulo na imagem importada. Para criar a primeira linha:
+5 – Для начала на импортированном изображении создадим прямоугольник. Чтобы создать первую линию, выполните следующие действия.
 
-1. Enquanto estiver na **ferramenta Linha**, clique próximo ao **canto superior esquerdo** do terraço superior no esboço importado.
-2. Mova o mouse ao longo do eixo vermelho que é exibido.
-3. Clique na tecla **Tab** para inserir a cota: **77'-4 1\8".**
+1. Выбрав **инструмент «Линия»**, в импортированном эскизе щелкните рядом с **верхним левым углом** верхней террасы.
+2. Появится красная ось. Переместите курсор вдоль нее.
+3. Нажмите клавишу **TAB**, чтобы ввести размер: **77'-4 1\8“ (77 футов 4 и 1/8 дюйма).**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Observação:** Sempre que uma cota temporária for exibida durante o esboço, pressione_ _**Tab** ou comece a digitar um número_ _para abrir a_ _**caixa de diálogo Cota**._
+_**Примечание.** Всякий раз когда в процессе построения эскиза появляется временный размер, можно нажать клавишу_ _**TAB** или просто начать вводить число,_ _чтобы открыть_ _**диалоговое окно «Размер»**._
 
-6 – Para criar a segunda linha, mova o mouse para baixo ao longo do eixo verde e insira **28’-8**" para a aresta curta do terraço superior.
+6 – Для создания второй линии переместите курсор вниз вдоль зеленой оси и введите размер **28’-8**” (28 футов 8 дюймов) для короткой кромки верхней террасы.
 
-7 – Para definir a terceira aresta e o acabamento do retângulo:
+7 – Чтобы задать третью кромку прямоугольника и завершить работу, выполните следующие действия.
 
-1. Mova o mouse ao longo do eixo vermelho e mantenha pressionada a tecla **Shift**. A linha vermelha do eixo ficará mais grossa para indicar que a linha está bloqueada nesse eixo.
-2. Enquanto a **tecla Shift** está pressionada – mova o mouse para o primeiro ponto desenhado. Clique para confirmar o ponto final.
-3. O terceiro ponto será automaticamente definido, paralelo ao eixo vermelho, definido por \(A\), e ao eixo verde, definido por \(B\).
-4. Por fim, para terminar de delimitar o retângulo, solte a tecla **Shift** e clique de volta no primeiro ponto desenhado. Pressione **Esc** duas vezes para sair da barra de ferramentas de esboço.
+1. Переместите курсор вдоль красной оси, удерживая нажатой клавишу **SHIFT**. Линия красной оси станет толще. Это говорит о том, что линия идет вдоль этой оси.
+2. Удерживая нажатой клавишу **SHIFT**, переместите курсор к первой нарисованной точке. Щелкните, чтобы зафиксировать конечную точку.
+3. Третья точка будет автоматически задана параллельно красной \(A\) и зеленой осям \(B\).
+4. Наконец, чтобы замкнуть прямоугольник, отпустите клавишу **SHIFT** и щелкните первую нарисованную точку. Для завершения работы с инструментом «Эскиз» дважды нажмите клавишу **ESC**.
 
-_**Observação:**_ _Os eixos vermelho e verde mantêm você paralelo e perpendicular à grade. Quando você desenha uma linha fora dos eixos universais, uma linha de eixo roxa permitirá que você permaneça 90 graus em relação à linha fora do eixo._
+_**Примечание.**_ _Красная и зеленая оси позволяют проводить линии параллельно и перпендикулярно сетке. При построении линии вне осей глобальной системы координат фиолетовая ось позволяет проводить линию под углом 90 градусов._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Arrastar a face para criar volume**
+## **Перетаскивание грани для создания объема**
 
-1 – Clique uma vez dentro do contorno que você acabou de desenhar para selecionar a face. Você agora está automaticamente na ferramenta **Arrastar face**.
+1. Щелкните внутри только что созданного контура, чтобы выбрать грань. Автоматически будет выбран инструмент **Перетаскивание грани**.
 
-2 – Clique mais uma vez para começar a arrastar. Mova o mouse para cima \(ao longo do eixo Z positivo\) para efetuar a extrusão de um volume nessa direção. Comece digitando **12'-2"**. Quando uma caixa de cota for exibida com esse valor e pressione **Enter**.
+2. Щелкните еще раз, чтобы начать перетаскивание. Переместите курсор вверх \(вдоль положительного направления оси Z\), чтобы выдавить объем в этом направлении. Введите **12'-2"** (12 футов 2 дюйма). Отобразится поле размера с этим значением. После этого нажмите клавишу **ENTER**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Observação:**_ _Um_ _clique único_ _selecionará apenas uma face, enquanto um_ _clique duplo_ _selecionará todas as faces e arestas adjacentes \(desagrupadas\)._
+_**Примечание.**_ _По_ _одному щелчку мыши_ _будет выбрана только одна грань, а_ _по двойному_ _— все \(несгруппированные\) смежные ребра и грани._
 
-## **Esboço 3D com arco, spline e círculo**
+## **Построение 3D-эскизов с дугами, сплайнами и окружностями**
 
-_O exercício a seguir não é essencial para a finalização da casa. No entanto, ele permitirá que você experimente algumas das outras ferramentas de esboço 3D disponíveis. Clique_ _**aqui**_ _para saber mais sobre o esboço 3D com eixos universais._
+_Следующее упражнение не является обязательным для создания дома. Однако оно позволит поработать с некоторыми другими доступными инструментами для построения 3D-эскизов. **Ознакомиться с дополнительной информацией**_ _о построении 3D-эскизов с помощью осей глобальной системы координат._
 
-1 – Selecione a ferramenta **Arco por três pontos de arco \(A\)**. Clique para definir o ponto inicial e, em seguida, o ponto final. O terceiro clique define o raio do arco.
+1. Выберите инструмент **Дуга по трем точкам \(A\)**. Щелчком мыши выберите начальную и конечную точки. Третьим щелчком задается радиус дуги.
 
-2 – Selecione a ferramenta **Spline \(S\)**. Clique para definir qualquer número de pontos para desenhar uma spline.
+2. Выберите инструмент **Сплайн \(S\)**. Щелчком мыши задайте точки для построения сплайна в произвольном количестве.
 
-3 – Selecione a ferramenta **Círculo \(C\)**. Passe o mouse e clique para definir o ponto central do círculo. Clique e arraste ou insira uma cota para definir o raio.
+3. Выберите инструмент **Окружность \(C\)**. Наведите курсор и щелчком мыши задайте центральную точку окружности. Чтобы задать радиус, щелкните и перетаскивайте или введите размер с помощью клавиатуры.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

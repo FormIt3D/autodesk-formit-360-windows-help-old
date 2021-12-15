@@ -1,26 +1,26 @@
-# Vistas ortogonais
+# Ортогональные виды
 
-**Visualize o modelo em várias vistas ortogonais, incluindo superior, lateral e inferior.**
+**Модель можно просматривать в различных ортогональных видах, включая вид сверху, вид сбоку и вид снизу.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Você encontrará vistas ortogonais clicando no ícone superior na barra de ferramentas de navegação flutuante:**
+**Ортогональные виды можно выбрать по щелчку значка в верхней части плавающей панели навигации.**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Algumas dicas úteis ao trabalhar com vistas ortogonais:**
+**Полезные советы по работе с ортогональными видами**
 
-* Ao alternar entre vistas ortogonais, o FormIt manterá o nível de zoom para fins de consistência.
-* Ao alternar entre vistas de elevação (frontal/direita/esquerda/trás), o FormIt manterá a altura do solo para consistência.
-* É possível manter pressionada a tecla Shift ao efetuar o pan em uma vista ortogonal para bloquear o movimento Pan para o eixo horizontal ou vertical.
-* As direções da vista ortogonal são baseadas nos eixos universais. É possível realinhar os eixos, o que alterará as orientações de todas as vistas ortogonais:
-   * Use o atalho SZ ou clique com o botão direito do mouse no espaço (não sobre qualquer geometria):
+* При переключении между ортогональными видами FormIt поддерживает уровень масштабирования для обеспечения согласованности.
+* При переключении между видами фасадов (спереди/справа/слева/сзади) в FormIt будет поддерживаться постоянная высота уровня земли для обеспечения согласованности.
+* При панорамировании в ортогональном виде можно удерживать нажатой клавишу SHIFT, чтобы заблокировать перемещение панорамирования по горизонтальной или вертикальной оси.
+* Направления ортогонального вида определяются осями глобальной системы координат. Можно перебазировать оси, что приведет к изменению ориентации всех ортогональных видов.
+   * Используйте комбинацию клавиш S + Z или щелкните правой кнопкой мыши в пустом пространстве.
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * Defina a origem e, em seguida, a alça nos eixos vermelhos para alinhá-la com uma direção significativa
+   * Задайте начало координат и укажите ручку на красных осях, чтобы выполнить выравнивание по направлению.
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**As vistas ortogonais funcionam em conjunto com outros recursos do FormIt:**
+**В ортогональных видах поддерживаются другие функции FormIt.**
 
-* Salve as vistas de elevação como Cenas para que você possa retornar a elas mais tarde.
-* Controle a visibilidade da geometria que pode atrapalhar as vistas de elevação usando camadas.
-* Adicione planos de corte para criar elevações de corte.
+* Можно сохранять виды фасадов в виде сцен, чтобы вернуться к ним позже.
+* Можно управлять видимостью геометрии, которая может помешать работе с видами фасадов, с помощью слоев.
+* Можно добавлять секущие плоскости для создания уровней-сечений.

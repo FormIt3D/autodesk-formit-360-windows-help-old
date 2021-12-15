@@ -1,80 +1,80 @@
-# Sistema de montante de vitrine/cortina parede
+# Система импостов витрины/витража
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Fornecido pelo Dynamo
+## Технологии Dynamo
 
-A capacidade de criar rapidamente sistemas de montante de vitrine/cortina parede no FormIt é fornecida pelo Dynamo. É possível localizar o sistema Storefront Curtainwall no diretório Dynamo Samples no painel Dynamo:
+В FormIt реализована возможность быстрого создания импостов витрин и витражей на платформе Dynamo. Система витража витрины (Storefront Curtainwall) размещена в каталоге примеров Dynamo на панели Dynamo:
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecionar “Glass” para o sistema do montante
+## Выбор объекта в качестве «стекла» для системы импостов
 
-A partir do FormIt 2021.2, o sistema Storefront Curtainwall usa o novo [nó SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), permitindo que você selecione um pedaço de “vidro” \(um sólido de face única ou de extrusão\) em torno do qual será gerado um sistema de montante.
+Начиная с версии FormIt 2021.2 в системе витража витрины используется новый [узел SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), позволяющий выбрать фрагмент «стекла» \(одну грань или выдавленное твердое тело\) для создания вокруг него системы импостов.
 
-![ Um plano simples de &quot;vidro&quot; com uma abertura para portas na parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Простая &quot;стеклянная&quot; плоскость с дверным проемом внизу.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-Quando você clicar na miniatura Storefront Curtainwall \(observe o ícone que indica que uma seleção é necessária\), o FormIt solicitará que você selecione a geometria do vidro para continuar:
+По щелчку миниатюры витража витрины \(обратите внимание на значок, указывающий на необходимость выбора\) FormIt предложит выбрать стеклянный объект геометрии:
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-Algumas notas e ressalvas sobre como funciona a seleção de vidro:
+Некоторые примечания по выбору стекла.
 
-* No momento, somente superfícies planas são suportadas. Se você selecionar uma série de superfícies \(por exemplo, uma superfície “curvada” composta de superfícies planas menores\), o script encontrará a maior face plana e a usará.
-* Se o vidro for sólido – ou seja, uma única face com extrusão muito pequena para transmitir um pouco de espessura – o script encontrará a maior superfície, de modo que os montantes resultantes serão gerados em um lado do sólido de vidro.
-* É possível desenhar aberturas para portas e remover a superfície resultante do limite de vidro. Os montantes resultantes respeitarão a abertura da porta, deixando-a em branco para a adição de portas.
-* Devido às limitações do Dynamo, esse script não funcionará se a geometria de vidro tiver aberturas no meio.
+* В настоящее время поддерживаются только плоские поверхности. Если выбрать ряд поверхностей \(например, криволинейную поверхность, состоящую из небольших плоских поверхностей\), в ходе выполнения сценария будет выбрана и использована самая большая плоская грань.
+* Если стекло является твердым телом, то есть представляет собой единую грань, слегка выдавленную для создания эффекта толщины, в ходе выполнения сценария будет найдена самая большая поверхность, поэтому полученные импосты будут созданы с одной стороны стеклянного тела.
+* Можно построить эскиз дверных проемов и удалить полученную поверхность с границы стекла, при этом в полученных импостах будет учтен дверной проем, оставленный пустым для добавления дверей.
+* Из-за ограничений Dynamo данный сценарий не будет выполнен, если в центре геометрии остекления имеются проемы.
 
-## Dicas e truques
+## Советы и рекомендации
 
-Ao selecionar a geometria de um gráfico do Dynamo no FormIt, alguns truques organizacionais podem simplificar a experiência e permitir a instanciação fácil dos resultados:
+При выборе объектов геометрии для графика Dynamo в FormIt следующие рекомендации по упорядочению помогут упростить работу и создание экземпляров.
 
-* Coloque o vidro em um grupo e use o grupo como a seleção para o script Storefront/Curtainwall. Dessa forma, é mais fácil editar o perfil de vidro após os montantes terem sido gerados e, se o vidro for muito modificado entre os trechos e as IDs de face tiverem sido alteradas, o grupo garantirá que o script sempre encontre o vidro – porque ele está usando a ID de grupo, não a ID de face.
-* Se você estiver planejando copiar e colar os resultados do sistema de montante em outros locais do modelo, será melhor ter o vidro e os montantes resultantes contidos em um grupo. Isso também evitará problemas nos quais o nó de seleção não sabe qual instância de vidro usar quando apenas o grupo de montante resultante foi copiado e colado.
-   * Coloque o vidro em um grupo primeiro. Clique duas vezes para selecionar o vidro e pressione G ou use os comandos de grupo no menu de contexto ou na barra de ferramentas.
-   * Selecione o grupo resultante e coloque-o em outro grupo.
-   * Clique duas vezes para inserir o primeiro grupo. Esse é o “contêiner” para o vidro e os montantes resultantes.
-   * Clique na miniatura Storefront Curtainwall e use o grupo de vidro como seleção.
-   * Após a execução do script, você pode sair do grupo e copiar/colar o contêiner conforme necessário. É possível editar qualquer uma das instâncias \(ajustando a forma do vidro ou parâmetros\) sem problemas.
+* Поместите стекло в группу и выберите ее для сценария «Витрина/витраж». Это упрощает редактирование профиля остекления после создания импостов. При сильном изменении остекления и изменении идентификаторов граней применение группы гарантирует, что в ходе сценария будет найдено остекление, поскольку используется идентификатор группы, а не идентификатор грани.
+* Если вы планируете копировать и вставлять результаты системы импостов в другие места модели, в группе должно быть стекло и полученные импосты. Это также позволит избежать проблем, связанных с узлом выбора, когда неизвестно, какой экземпляр остекления следует использовать при копировании и вставке полученной группы импостов.
+   * Сначала добавьте в группу стекло. Дважды щелкните стекло, чтобы выбрать его, и нажмите G или используйте команды группы в контекстном меню или на панели инструментов.
+   * Выберите полученную группу и поместите ее в другую группу.
+   * Дважды щелкните, чтобы начать работу с первой группой. Она служит «контейнером» для стекла и для полученных импостов.
+   * Щелкните миниатюру витража витрины и выберите группу «Стекло».
+   * После выполнения сценария можно завершить работу с группой и при необходимости скопировать/вставить контейнер. Можно без проблем отредактировать любой из экземпляров \(скорректировать форму или параметры стекла\).
 
-## Opções do sistema de montante
+## Параметры системы импостов
 
-Depois de selecionar o vidro e executar o script, você obterá um resultado na tela do FormIt, na forma de um grupo do FormIt. Esse grupo será selecionado automaticamente e o painel Properties exibirá as opções disponíveis.
+После выбора стекла и выполнения сценария результат будет представлен в активном окне FormIt в виде группы FormIt. Эта группа будет выбрана автоматически, а на панели свойств появятся доступные параметры.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: se você modificar a forma do vidro e desejar executar novamente o gráfico para atualizar os resultados do montante, clique nessa opção.
-* **Edit Embedded Graph**: edite o script do Dynamo que está gerando a geometria. Esse script é incorporado no arquivo FormIt e é específico para esse grupo.
-* **Select Glass \(Surface or Solid\)**: clique para atualizar a seleção para uma peça de vidro diferente ao redor da qual serão gerados montantes.
+* **Run** (выполнить): если при изменении формы стекла требуется повторно запустить график для обновления результатов импостов, щелкните этот значок.
+* **Edit Embedded Graph** (редактировать встроенный график): редактирование сценария Dynamo, создающего объекты геометрии. Этот сценарий встроен в файл FormIt и относится только к данной группе.
+* **Select Glass \(Surface or Solid\)** (выбрать стекло \(поверхность или тело\)): щелкните этот параметр, чтобы обновить набор объектов с учетом другого фрагмента стекла, вокруг которого необходимо создать импосты.
 
-O script usará valores padrão para sua primeira execução, portanto, você desejará ajustá-los para seu caso de uso exclusivo. Todos os valores usarão as unidades atuais do FormIt.
+При первом выполнении сценария будут использоваться значения по умолчанию, поэтому их необходимо настроить в соответствии с вашим вариантом использования. Все значения будут указаны в текущих единицах FormIt.
 
-* **Mullion Width + Depth**: a largura e a profundidade de todos os elementos do montante.
-* **Vertical Mullion Spacing**: a distância, no centro, entre cada montante vertical.
-* **Flip Vertical Mullion Layout**: o script inicia o espaçamento do montante vertical de um lado, escolhido arbitrariamente. Se o resultado iniciar o espaçamento do montante no lado errado para seu caso de uso, defina como True para inverter o layout para iniciar no terreno oposto.
-* **Center Vertical mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante vertical em uma extremidade do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes verticais.
-* **First Horizontal Mullion Spacing**: define o primeiro espaçamento do montante horizontal começando na parte inferior. Será útil se você precisar de uma linha de módulos de vidraça mais curtos na parte inferior, separada do restante do espaçamento do montante horizontal.
-* **Horizontal Mullion Spacing**: o espaçamento do montante horizontal típico, no centro, começando após o primeiro montante como descrito acima.
-* **Flip Horizontal Mullion Layout**: se você desejar que o layout do montante horizontal comece na parte superior, em vez de na parte inferior, defina essa opção como True.
-* **Center Horizontal Mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante horizontal na parte inferior ou superior do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes horizontais.
+* **Mullion Width + Depth**: ширина и глубина всех элементов импостов.
+* **Vertical Mullion Spacing**: расстояние по центру между вертикальными импостами.
+* **Flip Vertical Mullion Layout**: в ходе сценария интервал между вертикальными импостами рассчитывается с одной стороны, выбираемой произвольным образом. Если в результате интервал между импостами начинается с неправильной для данного варианта стороны, установите для этого параметра значение «True», чтобы зеркально отобразить компоновку и начать интервал с противоположной стороны.
+* **Center Vertical Mullion Layout**: расчет вертикального интервала начнется с середины (а не с одного из краев стекла) для создания симметричной компоновки вертикальных импостов.
+* **First Horizontal Mullion Spacing**: задает интервал первого горизонтального импоста снизу. Параметр используется, если в нижней части необходим ряд модулей остекления меньшего размера, отделенный от остальных горизонтальных импостов.
+* **Horizontal Mullion Spacing**: расстояние по центру между горизонтальными импостами, начинающееся от первого импоста, как описано выше.
+* **Flip Horizontal Mullion Layout**: если необходимо, чтобы компоновка горизонтальных импостов начиналась сверху, а не снизу, задайте для этого параметра значение «True».
+* **Center Horizontal Mullion Layout**: расчет горизонтального интервала начнется с середины (а не сверху или снизу стекла) для создания симметричной компоновки горизонтальных импостов.
 
-## Opções ocultas
+## Скрытые параметры
 
-Procurando mais personalização? Diversas opções avançadas estão ocultas do painel de propriedades do FormIt, mas podem ser acessadas clicando em “Edit Embedded Graph” para visualizar o conteúdo completo do gráfico no Dynamo:
+Ищете дополнительные возможности работы с образцами? Некоторые дополнительные параметры на панели свойств FormIt скрыты, однако их можно открыть, щелкнув «Edit Embedded Graph» (редактировать встроенный график), чтобы отобразить все графическое содержимое Dynamo:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Montantes aleatórios
+### Randomized Mullions (импосты в случайном порядке)
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: defina como True para espaçar os montantes verticais ou horizontais aleatoriamente.
-* **Min/Max Mullion Spacing \(if random\)**: ajuste esses valores para definir uma faixa de valores de espaçamento aleatório mínimo e máximo.
+* **Randomize Vertical and Horizontal Mullion Layout**: если установлено значение «True», вертикальные или горизонтальные импосты будут размещены в случайным порядке.
+* **Min/Max Mullion Spacing \(if random\)**: данные значения позволяют задать минимальное и максимальное значения интервала при размещении в случайном порядке.
 
-### Montantes de borda
+### Border Mullions (крайние импосты)
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** por padrão, o sistema de montante usará o limite de vidro e o deslocará para dentro para criar os montantes de borda. Para deslocar para fora, defina essa opção como True. Isso aumentará o tamanho geral do sistema de montante fora do limite de vidro pela configuração Mullion Width.
-* **Tolerance Between Selection and Border Mullions**: por padrão, o sistema de montante será gerado exatamente na borda do vidro, o que pode causar a luta Z onde a borda do vidro e as superfícies externas dos montantes de borda colidem. Na maioria dos casos, isso não será visível, mas se seu caso de uso exigir que as arestas do sistema estejam visíveis e você desejar evitar a luta Z, ative essa opção e ajuste o valor de tolerância conforme necessário.
+* **Flip Offset Direction of Border Mullions:** по умолчанию в системе импостов используется граница остекления, и для создания крайних импостов выполняется смещение внутрь. Для смещения наружу установите для этого параметра значение «True». Это приведет к увеличению общего размера системы импостов за пределы границы остекления на величину, заданную параметром «Mullion Width» (ширина импоста).
+* **Tolerance Between Selection and Border Mullions**: по умолчанию система импостов формируется точно на границе остекления, что может привести к возникновению Z-конфликтов в местах пересечения кромки стекла и наружных поверхностей крайних импостов. Зачастую это незаметно, однако если в данном варианте использования ребра системы должны быть видимыми и во избежание возникновения Z-конфликтов, включите этот параметр и при необходимости скорректируйте значение допуска.
 

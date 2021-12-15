@@ -1,6 +1,6 @@
-# Cenas
+# Сцены
 
-É possível salvar um ponto de vista de “cena” e seus estilos visuais e estados de camada relacionados e, em seguida, usá-los para definir pontos de câmera para conduzir percursos virtuais e contar uma história visual.
+Можно сохранить точку обзора сцены и связанные с ней визуальные стили и конфигурации слоев, а затем использовать их при настройке точек камеры для обхода и создания визуального представления.
 
-Saiba mais sobre como usar Cenas [aqui](../formit-primer/part-i/visual-settings.md).
+Узнать больше об использовании сцен можно [здесь](../formit-primer/part-i/visual-settings.md).
 

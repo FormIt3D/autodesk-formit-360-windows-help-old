@@ -1,22 +1,22 @@
-# Importar e exportar dados
+# Импорт и экспорт данных
 
-## Como importar dados
+## Импорт данных
 
-É possível importar os seguintes formatos de arquivo.
+Можно импортировать файлов следующих форматов.
 
-* **OBJ**: os arquivos de malha 3D OBJ são importados como um único grupo FormIt. Nenhum material é importado.
-* **DWG**: os arquivos DWG 2D e 3D são importados como um único grupo FormIt. As cores de objetos são suportadas.
-* **STL**: os arquivos de malha 3D STL são importados como um único grupo FormIt.
-* **SAT**: os arquivos de modelo sólido SAT são importados como um único grupo FormIt.
-* **SKP**: os arquivos do SketchUp são importados. Os grupos e componentes são importados como grupos do FormIt. As camadas e os materiais são suportados.
+* **OBJ**: файлы 3D-сетей OBJ импортируются в виде единой группы FormIt. Материалы не импортируются.
+* **DWG**: 2D- и 3D-файлы DWG импортируются в виде единой группы FormIt. Цвета объектов поддерживаются.
+* **STL**: файлы 3D-сетей STL импортируются в виде единой группы FormIt.
+* **SAT**: файлы твердотельных моделей SAT импортируются в виде единой группы FormIt.
+* **SKP**: файлы SketchUp импортируются. Группы и компоненты импортируются в виде групп FormIt. Слои и материалы поддерживаются.
 
-[**Saiba mais sobre como trabalhar com dados importados**](../formit-primer/part-i/import-export-and-content-library.md)
+[**Подробнее о работе с импортированными данными**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Como exportar dados
+## Экспорт данных
 
-O FormIt pode exportar os seguintes formatos de arquivo: AXM \(arquivo FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiais e 3D em um único arquivo ZIP\), imagens PNG.
+FormIt позволяет экспортировать файлы следующих форматов: AXM (файл FormIt), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (материалы и 3D-компоненты в одном файле ZIP), изображения PNG.
 
-Ao exportar arquivos individuais, é possível optar por exportar **Todos os objetos**, **Somente visíveis** ou **Somente selecionados**.
+При экспорте отдельных файлов можно выбрать для экспорта **Все объекты**, **Только видимые** или **Только выбранные**.
 
 ![](../.gitbook/assets/export_window.png)
 

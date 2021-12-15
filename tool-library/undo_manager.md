@@ -1,18 +1,18 @@
-# Gerenciador de desfazer
+# Диспетчер отмены
 
-O FormIt apresenta um sistema único de Desfazer/Refazer, que pode ser usado de duas maneiras diferentes para desfazer por grupo ou cronologicamente e globalmente:
+В FormIt имеется уникальная система отмены/повтора, которую можно использовать двумя разными способами: для отмены по группам или хронологически и глобально.
 
-* Desfazer/Refazer ao editar um grupo aninhado somente afetará as alterações dentro desse grupo.
-   * Isso significa que você pode fazer uma alteração nesse grupo, fazer muitas alterações em outros grupos e retornar ao grupo original e ter a opção de Desfazer a última alteração feita nesse grupo sem afetar as alterações feitas mais recentemente, em outros lugares.
-* Desfazer/Refazer no esboço principal \(não ao editar um grupo\) age como os sistemas tradicionais Desfazer/Refazer: a última alteração feita em **qualquer** grupo será desfeita, com base na ordem cronológica.
+* Операция отмены/повтора при редактировании вложенной группы затрагивает только изменения внутри группы.
+   * Это означает, что можно внести изменения в одну группу, затем в другие группы, а вернувшись в исходную группу, можно отменить последнее изменение, внесенное только в данной группе, не затрагивая какие-либо изменения других объектов за пределами группы.
+* Операции отмены/повтора в основном эскизе (за пределами группы) выполняются аналогично традиционным системам отмены/повтора: последние изменения, внесенные в **любую** группу, будут отменены в хронологическом порядке.
 
-O Gerenciador de desfazer registra todas as alterações dentro de cada grupo no modelo FormIt, incluindo as alterações feitas no esboço principal. Isso é útil para entender visualmente quais operações foram desfeitas em qualquer grupo no modelo.
+Диспетчер отмены сохраняет все изменения по каждой группе модели FormIt, включая изменения, внесенные в основном эскизе. Это удобно для получения визуального представления о том, какие операции были отменены в той или иной группе модели.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-O Gerenciador de desfazer indicará em **negrito** o estado atual, bem como todas as operações antes desse estado e todas as operações que existissem antes, mas que tenham sido desfeitas desde então.
+Диспетчер отмены выделяет **полужирным** шрифтом текущее состояние, а также все операции, выполненные до него, и все операции, которые были ранее выполнены, но отменены.
 
-É possível clicar com o botão direito do mouse em um estado e selecionar “Rolar para” para efetivamente desfazer ou refazer, conforme necessário, para retornar para o estado do modelo.
+Можно щелкнуть состояние правой кнопкой мыши и выбрать «Перейти к», чтобы отменить или вернуть операцию для возврата к определенному состоянию модели.
 
-Os grupos que foram explicitamente excluídos ou que não existem mais devido a uma ação Desfazer ou Refazer são mostrados como \*Inativos\*. Eles podem ser restaurados ao desfazer ou refazer dentro de seu grupo pai até que eles voltem a existir.
+Группы, которые были удалены намеренно или в результате отмены или повтора действий, отображаются как *неактивные*. Их можно восстановить с помощью операций отмены или повтора внутри родительской группы.
 

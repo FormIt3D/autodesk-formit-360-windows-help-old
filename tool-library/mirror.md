@@ -1,13 +1,13 @@
-# Espelhamento
+# Отразить 
 
-Use a ferramenta Espelhar para criar uma cópia espelhada de um objeto.
+Используйте инструмент «Отразить» для создания зеркальной копии объекта.
 
-Para espelhar um objeto:
+Чтобы симметрично отобразить элемент выполните следующие действия.
 
-1. Clique duas vezes para selecionar um único objeto ou clique uma vez para selecionar um grupo.
-2. Clique com o botão direito do mouse e selecione a ferramenta Espelhar no menu de contexto ou digite o atalho de teclado **MI**.
-3. Um plano exibe e mostra o eixo no qual o objeto será espelhado. É possível mover ou rotacionar o plano para personalizar o eixo do espelho.
-4. Quando terminar de ajustar o plano do objeto espelhado, clique em qualquer lugar fora da seleção.
+1. Щелкните дважды, чтобы выбрать отдельный объект, или щелкните один раз, чтобы выбрать группу.
+2. Щелкните правой кнопкой мыши и выберите инструмент «Отразить» в контекстном меню или используйте горячие клавиши **MI**.
+3. Появляется плоскость, отображающая ось, относительно которой будет отражен объект. Для настройки оси отражения плоскость можно перемещать и вращать.
+4. По завершении корректировки плоскости зеркально отраженного объекта щелкните в пространстве за пределами выбранных объектов.
 
 ![](../.gitbook/assets/mirror.png)
 

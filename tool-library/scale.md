@@ -1,11 +1,11 @@
-# Dimensionar objeto
+# Масштабирование объекта
 
-É possível usar a **ferramenta Escala** para ajustar o tamanho e a orientação dos objetos.
+Для корректировки размера и ориентации объектов можно использовать **инструмент «Масштаб»**.
 
-1. Selecione o objeto que deseja ajustar.
-2. Clique com o botão direito do mouse para iniciar o **menu de contexto**.
-3. No menu de contexto, selecione a **ferramenta Escala**.
-4. Use a roda de rolagem do mouse para dimensionar a geometria para cima ou para baixo.
+1. Выберите объект, который необходимо скорректировать.
+2. Щелкните правой кнопкой мыши, чтобы открыть **контекстное меню**.
+3. В контекстном меню выберите **инструмент «Масштаб»**.
+4. Используйте колесико прокрутки мыши для увеличения или уменьшения размера геометрии.
 
 ![](../.gitbook/assets/scale1.png)
 

@@ -1,28 +1,28 @@
-# Faces: extrusão, corte e deslocamento
+# Грани: выдавливание, вырезание и смещение
 
-Empurre ou puxe uma face, estampe novas formas em formas existentes ou crie novas arestas deslocadas.
+Можно выдавливать и вытягивать грани, наносить новые формы на существующие, а также создавать новые смещенные ребра.
 
-## Extrusão
+## Вытягивание
 
-Para empurrar ou puxar uma face, selecione uma face com um único clique e, em seguida, clique e arraste. A face se moverá para frente e para trás. Agora, você pode mover o mouse para efetuar o snap e inferência em outros elementos do modelo. Clique novamente para concluir a movimentação da face. Mantenha pressionada a tecla Ctrl para manter as arestas originais.
+Для выдавливания или вытягивания грани сначала выберите грань щелчком мыши, а затем щелкните и перетащите ее. Грань можно перемещать как внутрь, так и наружу. С помощью мыши задайте точки привязки и вспомогательные точки на других элементах модели. Щелкните еще раз, чтобы завершить перемещение грани. Удерживайте нажатой клавишу CTRL, чтобы сохранить исходные ребра.
 
 ![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Estampar
+## Клеймение
 
-Para estampar formas, use uma ferramenta de esboço 3D para desenhar linhas, arcos, splines, retângulos ou círculos em faces existentes. Essa ação cria novas faces que podem ser empurradas ou puxadas independentemente da face original.
+При клеймении форм используйте инструмент «3D-эскиз» для построения линий, дуг, сплайнов, прямоугольников и окружностей на существующих гранях. Он позволяет создавать новые грани, которые можно выдавливать и вытягивать независимо от исходной грани.
 
 ![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Deslocamento
+## Смещение
 
-Para deslocar a face de um objeto:
+Для смещения грани объекта выполните следующие действия.
 
-1. Primeiro selecione a face que você deseja editar e, em seguida, clique com o botão direito do mouse para visualizar o **menu de contexto**.
-2. No **menu de contexto**, clique na ferramenta **Deslocar face**.
-3. Mova o cursor sobre a face selecionada e ajuste as linhas que são exibidas até atingir o efeito de deslocamento desejado.
-4. Clique em qualquer lugar para completar o deslocamento. Agora é possível empurrar ou puxar a face deslocada de forma independente.
+1. Сначала выберите грань, которую требуется отредактировать, а затем щелкните правой кнопкой мыши, чтобы открыть **контекстное меню**.
+2. В **контекстном меню** выберите инструмент **Сместить грань**.
+3. Наведите курсор на выбранную грань и скорректируйте отображаемые линии для получения нужного эффекта смещения.
+4. Щелчком мыши завершите смещение. Теперь можно выдавливать и вытягивать смещенную грань независимо от исходной.
 
 ![](../.gitbook/assets/offset1.png)  
 ![](../.gitbook/assets/offset2.png)  

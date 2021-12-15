@@ -1,12 +1,12 @@
-# Medir
+# Измерения
 
-A ferramenta **Medir** está localizada na [barra de ferramentas](../formit-introduction/tool-bars.md).
+Инструмент **Измерить** находится на [панели инструментов](../formit-introduction/tool-bars.md).
 
-É possível usar a ferramenta **Medir** para medir a geometria existente em um modelo. Também é possível usar a ferramenta **Medir** para atribuir cotas à geometria.
+Инструмент **Измерить** используется для измерения существующей геометрии в модели. Инструмент **Измерить** также используется для назначения размеров геометрии.
 
-1. Selecione a ferramenta **Medir**.
-2. Selecione dois pontos para medir a distância entre eles.
-3. Selecione uma face ou aresta que deseja ajustar, clique no valor exibido e adicione um novo valor na caixa de diálogo que é exibida.
+1. Выберите инструмент **Измерить**.
+2. Выберите две точки для измерения расстояния между ними.
+3. Выберите грань или ребро, положение которых требуется скорректировать, щелкните отображаемое значение и добавьте новое значение в появившемся диалоговом окне.
 
 ![](../.gitbook/assets/measure%20%281%29.png)  
 ![](../.gitbook/assets/measure2.png)  

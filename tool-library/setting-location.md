@@ -1,99 +1,99 @@
-# Definir a localização
+# Задание местоположения
 
-Definir a localização de seu projeto no mundo é importante para a precisão do modelo e análises posteriores, incluindo:
+Задание местоположения проекта в глобальной системе координат важно для точности модели и последующих расчетов, учитывая следующее:
 
-* A localização é usada para importar uma imagem de satélite que pode ser usada para traçar um terreno ou construção existente.
-* A localização é usada para importar um terreno 3D, que pode ser usado para referenciar dados topológicos para um terreno.
-* A localização é usada para posicionamento preciso do sol no céu, afetando o cálculo de sombras.
-* A localização é usada para a análise solar e a análise de energia para fornecer cálculos analíticos precisos.
+* местоположение используется для импорта спутникового снимка, который можно использовать для трассировки существующей площадки или здания.
+* местоположение используется для импорта 3D-рельефа, который можно использовать для ссылки на топологические данные площадки.
+* местоположение используется для точного положения солнца на небе, что влияет на расчет теней.
+* местоположение используется для расчета инсоляции и расчета энергопотребления с целью обеспечения точных аналитических расчетов.
 
-Você precisará estar conectado com a Autodesk Account para acessar a caixa de diálogo Configurar localização e seus serviços.
+Для доступа к диалоговому окну «Задание местоположения» и его службам необходимо войти в учетную запись Autodesk.
 
-### Introdução à localização
+### Начало работы с местоположением
 
-* Abra a caixa de diálogo **Configurar localização** da ferramenta **Localização** na barra de ferramentas ou com o atalho de teclado SL.
+* Диалоговое окно **Задание местоположения** можно открыть с помощью инструмента **Местоположение** на панели инструментов или путем нажатия клавиш SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Comece digitando a localização do projeto na caixa de pesquisa no canto superior esquerdo da janela _Configurar localização_.
+* Сначала введите местоположение проекта в поле поиска в верхнем левом углу окна _Задание местоположения_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Selecione uma das opções de localização de preenchimento automático ou pressione Enter para escolher a primeira
-* Você aumentará o zoom na localização que pesquisou automaticamente
+* Выберите один из вариантов автоматического указания местоположения или нажмите клавишу ENTER, чтобы выбрать первый вариант.
+* Область поиска будет автоматически увеличена.
 
-### Definir somente localização versus Importar imagem de satélite e terreno
+### Сравнение параметров «Задать только местоположение» и «Импортировать спутниковый снимок и рельеф»
 
-Após ter pesquisado uma localização, você pode escolher uma das duas opções:
+После поиска местоположения можно выбрать один из следующих вариантов.
 
-* **Definir somente localização** definirá a localização no arquivo sem importar as imagens de satélite.
-* **Importar imagem de satélite e terreno** definirá a localização e também importará imagens de satélite e terreno usando um nível de zoom e extensões que você pode configurar.
+* **Задать только местоположение**: задание местоположения в файле без импорта спутниковых снимков.
+* **Импортировать спутниковый снимок и рельеф**: задание местоположения, а также импорт спутниковых снимков и рельефа с использованием уровня зумирования и границ, которые можно настроить.
 
-### Importar imagens de satélite
+### Импорт спутниковых снимков
 
-* Clique em **Importar imagem de satélite e terreno** na parte superior direita da janela **Definir localização**.
-* Uma visualização das imagens de satélite será exibida no centro da janela, junto com uma indicação de onde a origem do FormIt será exibida, relativa às imagens.
+* Нажмите кнопку **Импорт спутникового снимка и рельефа** в правом верхнем углу окна **Задание местоположения**.
+* В центре окна появится спутниковый снимок для предварительного просмотра, а также указание места отображения начала координат FormIt относительно снимка.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Arraste as imagens de satélite dentro do quadrado para ajustar sua posição
-* Depois que a área quadrada encapsula as imagens desejadas, clique em **Concluir importação**
-* A imagem será importada em escala, com o norte verdadeiro voltado para cima, centralizado na origem da tela do FormIt. É possível alterar a transparência e a ordem Z da imagem importada clicando duas vezes nela e acessando a [**paleta Propriedades**](../formit-introduction/tool-bars.md).
+* Перетащите спутниковые снимки в пределах квадрата, чтобы изменить их положение.
+* После того как внутри квадратной области поместятся необходимые снимки, нажмите кнопку **Завершить импорт**.
+* Изображение будет импортировано в требуемом масштабе, при этом истинный север будет вверху, а центр будет располагаться в начале координат активного окна FormIt. Можно изменить прозрачность и Z-порядок импортированного изображения, дважды щелкнув его и открыв [**палитру свойств**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Atualizar as imagens de satélite
+### Обновление спутниковых снимков
 
-Após importar imagens de satélite pela primeira vez, é possível usar a janela Configurar localização para ajustar o nível de zoom ou as extensões das imagens de satélite.
+После первого импорта спутниковых снимков можно настроить уровень зумирования и границы спутниковых снимков в окне «Задание местоположения».
 
-* Inicie a janela **Configurar localização** novamente acessando-a na barra de ferramentas, como descrito acima.
-* Clique em **Importar imagem de satélite e terreno.**
-* Você verá o nível de zoom e as extensões da imagem de satélite atual, como mostrado na tela do FormIt
-* Basta ajustar a posição ou o zoom e clicar em **Concluir importação** como você fez antes
-* Quando a imagem for reimportada para a tela, ela se moverá para a localização correta relativa à posição original da imagem \(e não poderá mais ser centralizada na origem\):
+* Откройте окно **Задание местоположения** еще раз с помощью панели инструментов, как описано выше.
+* Нажмите **Импортировать спутниковый снимок и рельеф.**
+* В активном окне вы увидите уровень зумирования и границы текущего спутникового снимка.
+* Настройте положение или зумирование и нажмите **Завершить импорт**.
+* При повторном импорте в активное окно изображение перемещается в правильное положение относительно исходного положения изображения \(и не выравнивается относительно начала координат\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importar terreno
+### Импорт рельефа
 
-Novo no FormIt 2021.3, quando você usa a caixa de diálogo **Configurar localização** para importar imagens de satélite, também obterá o terreno.
+Новые возможности FormIt 2021.3: при использовании диалогового окна **Задание местоположения** для импорта спутниковых снимков также становится доступен рельеф.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Quando o terreno é importado, ele é colocado em uma camada, que está desativada por padrão \(caso você tenha iniciado a modelagem, o modelo poderá ser coberto pelo terreno\).
+При импорте рельеф помещается на слой, который по умолчанию отключен \(если вы начали моделирование, то модель может быть скрыта под рельефом\).
 
-Quando estiver pronto para visualizar o terreno, alterne a camada do terreno marcando a caixa:
+Чтобы просмотреть рельеф, включите слой рельефа, установив соответствующий флажок.
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Trabalhar com o terreno
+### Работа с рельефом
 
-O terreno será colocado em um grupo do FormIt. Clique duas vezes no grupo para editá-lo.
+Рельеф размещается в группе FormIt. Дважды щелкните группу, чтобы отредактировать ее.
 
-Dentro ele, você encontrará duas malhas: uma para os lados e a parte inferior e outra para a parte superior.
+Внутри размещены две сети: одна для сторон и нижней части, а другая для верхней части.
 
-Se você desejar modificar o terreno, será necessário converter as Malhas em um único objeto sólido:
+Если требуется изменить рельеф, необходимо преобразовать сети в единое твердое тело.
 
-* Selecione ambas as malhas.
-* Clique com o botão direito do mouse e escolha a opção Malhas em objetos ou use o atalho MO.
+* Выберите обе сети.
+* Нажмите правую кнопку мыши и выберите параметр «Сети в объекты» или используйте сочетание клавиш MO
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-Ao converter ambas as malhas em um objeto ao mesmo tempo, o FormIt poderá combiná-las em um objeto sólido e múltiplo, que poderá ser usado para operações de sólido, como Corte booleano.
+При одновременном преобразовании обеих сетей в объект FormIt может объединить их в твердое неоднородное тело, которое можно использовать для таких операций, как «Логическое вырезание».
 
-Daqui, é possível usar uma combinação de [Vista superior](orthographic-views.md) e [Câmera ortogonal](orthographic-camera.md) para traçar o limite do terreno em um plano horizontal e, em seguida, efetuar a extrusão do plano em um volume que efetua a interseção com o terreno. Usar um [material](materials.md) transparente ajudará a visualizar o terreno por meio do sólido de corte:
+Теперь можно использовать комбинацию [вида сверху](orthographic-views.md) и [ортогональной проекции](orthographic-camera.md) для трассировки границы площадки на горизонтальной плоскости, а затем выдавить эту плоскость в объем, пересекающий рельеф. Использование прозрачного [материала](materials.md) позволяет увидеть рельеф сквозь вырезанное тело:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use a ferramenta Cortar geometria e selecione o terreno como o “Sólido a ser cortado” e o volume de corte como “Sólido a ser removido”.
+Используйте инструмент «Разрешить вырезание геометрии» и выберите рельеф в качестве твердого тела для вырезания, а объем вырезания — в качестве твердого тела для удаления.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-O resultado será o terreno com o sólido de corte removido, expondo o vazio onde é possível desenhar o novo terreno e fundação.
+В результате будет создан рельеф, из которого будет удалено тело для вырезания, что позволит отобразить полость, на которой можно нарисовать новую площадку и фундамент.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-É possível usar [camadas](layers.md) para ocultar o sólido de corte, ou até mesmo fazer cópias do terreno com e sem o corte, caso seja necessário referenciar o terreno original, ou alterar a forma de corte antes de executar a operação de corte sólido.
+Можно использовать [слои](layers.md), чтобы скрыть тело для вырезания или даже создать копии рельефа с вырезом или без него, если требуется создать ссылку на исходный рельеф или изменить форму выреза перед выполнением операции вырезания твердого тела.
 

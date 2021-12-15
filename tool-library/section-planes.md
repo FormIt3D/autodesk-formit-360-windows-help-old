@@ -1,6 +1,6 @@
-# Planos de seção
+# Секущие плоскости
 
-Use **Planos de corte** para cortar no modelo do FormIt, revelando espaços internos e elementos estruturais.
+Используйте **секущие плоскости** для разрезания модели Formit и отображения внутреннего пространства и элементов конструкции.
 
-Saiba mais sobre os planos de corte no [Manual do FormIt](../formit-primer/part-i/section_planes.md).
+Подробнее о секущих плоскостях можно узнать в [руководстве FormIt Primer](../formit-primer/part-i/section_planes.md).
 

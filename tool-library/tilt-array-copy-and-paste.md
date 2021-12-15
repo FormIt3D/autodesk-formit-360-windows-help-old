@@ -1,31 +1,31 @@
-# Faces: inclinar e facetar/suavizar
+# Грани: наклон и дробление/сглаживание
 
-## Trabalhar com faces: inclinar e facetar/suavizar
+## Работа с гранями: наклон и дробление/сглаживание
 
-Para criar projetos mais complexos após desenhar uma forma ou inserir um primitivo, é possível usar diversas ferramentas contextuais para modificar a geometria. Essas operações incluem Inclinar, Matriz, Copiar e Colar.
+Для создания более сложных проектов после построения формы или размещения примитива можно использовать несколько контекстных инструментов для работы с геометрией. К этим инструментам относятся «Наклон», «Массив», а также «Копировать» и «Вставить».
 
-### Inclinar face
+### Наклон грани
 
-Para **inclinar uma face:**
+Чтобы **наклонить грань**, выполните следующие действия.
 
-1. Selecione uma face e clique com o botão direito do mouse para ver o menu de contexto.
-2. Selecione o ícone **Inclinar** no menu de contexto.
-3. Defina o eixo de inclinação desenhando uma linha.
-4. Clique num terceiro ponto para iniciar a operação de inclinação.
+1. Выберите грань и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите значок **Наклон**.
+3. Определите ось наклона, нарисовав линию.
+4. Щелкните третью точку, чтобы начать операцию наклона.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facetas/faces suaves
+### Дробление/сглаживание граней
 
-Se você passar o cursor sobre uma face e observar linhas pontilhadas, isso significará que a face é composta de faces menores devido à face que está sendo distorcida. Para **transformar as linhas pontilhadas em arestas do modelo:**
+Если при наведении курсора на грань отображаются пунктирные линии, это означает, что грань состоит из небольших сегментов, которые появились вследствие деформации. Чтобы **преобразовать пунктирные линии в ребра модели**, выполните следующие действия.
 
-1. Selecione a face ou o objeto que deseja alterar e clique com o botão direito do mouse para ver o menu de contexto.
-2. No menu de contexto, selecione a ferramenta **Facetas suaves**.
-3. São adicionadas arestas automaticamente no local onde a face era anteriormente suave.
+1. Выберите грань или объект, который требуется изменить, и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите инструмент **Дробить/сгладить грани**.
+3. Ребра будут автоматически добавлены в те места, где грань раньше была сглаженной.
 
-Esse comando também funciona da maneira oposta: é possível selecionar faces que são facetadas e selecionar a ferramenta **Facetas suaves** no menu de contexto para ocultar as arestas e fazer com que as faces pareçam suaves.
+Эта команда работает и в обратном направлении. Для этого выберите несколько смежных граней, затем в контекстном меню выберите инструмент **Дробить/сгладить грани**, чтобы скрыть ребра и получить сглаженные грани.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

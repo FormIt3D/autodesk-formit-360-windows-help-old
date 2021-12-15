@@ -1,76 +1,77 @@
-### Barras de ferramentas estendidas
+### Расширенные панели инструментов
 ---
 
-#### Barra de ferramentas de ação
-A barra de ferramentas está localizada na parte superior da tela. As ferramentas aqui o ajudarão a criar, editar e compartilhar conteúdo.
+#### Панель инструментов «Действия»
+Панель инструментов находится в верхней части экрана. Инструменты помогают создавать, редактировать содержимое и выполнять совместную работу с ним.
 ![](images/Tool Bar-All.PNG)
 
-**1. Menu Gallery**
+**1. Меню «Галерея»**
 ![](images/Tool Bar-Gallery.PNG)
-- Novo esboço, abrir esboço, salvar esboço, importar ou exportar arquivos.
+- Новый эскиз, открыть эскиз, сохранить эскиз, импортировать или экспортировать файлы.
 
-**2. Undo Redo**
+**2. Отмена и повтор**
 ![](images/Tool Bar-Undo Redo.PNG)
-- Clique para desfazer ou refazer ações recentes.
+- Нажмите, чтобы отменить или повторить последние действия.
 
-**3. Selection and Measurement**
+**3. Выбор и измерение**
 ![](images/Tool Bar-Select.PNG)
-- Selection Filter: clique para escolher opções para descartar os tipos de objetos (arestas, faces, sólidos, grupos) na ferramenta de seleção.
-- Measure Tools: clique para selecionar uma ferramenta de medição linear ou angular.
+- Фильтр выбора: щелкните, чтобы выбрать параметры фильтрации типов объектов (ребра, грани, тела, группы) в инструменте выбора.
+- Инструменты измерения: выберите инструмент для измерения прямой или угла.
 
-**4. Ferramentas de criação e modificação**
+**4. Инструменты создания и изменения**
 ![](images/Tool Bar-Create.PNG)
-- Sketch Tools: clique para abrir um menu de ferramentas de criação (linha, arco, spline, retângulo, círculo) que o ajudarão a desenhar formas.
-- Primitives: clique para abrir um menu de formas 3D básicas (cubo, domo, pirâmide, cilindro, telhado) que você pode colocar em sua cena.
-- Advanced Modeling Tools: clique para usar operações booleanas de corte ou união, cobertura, varredura ou elevação.
-- Groups: clique para localizar as ferramentas para agrupar objetos.
+- Инструменты эскиза: щелкните, чтобы открыть меню инструментов создания (линия, дуга, сплайн, прямоугольник, окружность), которые позволяют рисовать формы.
+- Примитивы: щелкните, чтобы открыть меню базовых 3D-форм (куб, купол, пирамида, цилиндр, крыша), которые можно разместить в сцене.
+- Дополнительные инструменты моделирования: щелкните, чтобы использовать логические операции вырезания и присоединения, покрывания, сдвига и построения лофта.
+- Группы: щелкните, чтобы найти инструменты для группирования объектов.
 
-**5. Ferramentas de localização e análise**
+**5. Инструменты местоположения и расчета**
 ![](images/Tool Bar-Analysis.PNG)
-- Location: pesquise a localização e importe imagens de satélite em seu esboço.
-- Sun and Shadows: defina a hora e o dia para visualizar as sombras e iniciar uma análise solar em uma construção.
-- Energy Analysis: clique para executar cálculos em uma construção para determinar seu uso de energia.
+- Местоположение: поиск местоположения и импорт спутниковых снимков в эскиз.
+- Солнце и тени: задание времени и даты для просмотра теней и запуска расчета инсоляции в здании.
+- Расчет энергопотребления: щелкните для расчета энергопотребления здания.
 
-**6. User Identity**![](images/Tool Bar-User Identity.PNG)
-- Settings: defina as configurações do aplicativo e do esboço junto com o estilo visual e execute o diagnósticos do modelo.
-- Touch Mode: modele e navegue com dispositivos Windows sensíveis ao toque usando o dedo, a caneta stylus, o mouse e o teclado.
-- Collaboration: inicie uma sessão, participe de uma sessão ou convide outras pessoas para colaborar.
-- Login to Autodesk360: use os Serviços na nuvem do Autodesk 360 gratuitamente para armazenar e compartilhar os esboços.
-- Help: use as ferramentas de informação para saber mais sobre o FormIt.
+**6. Идентификация пользователя**
+![](images/Tool Bar-User Identity.PNG)
+- Параметры: настройка параметров приложения и эскиза, а также визуального стиля и выполнение диагностики модели.
+- Сенсорный режим: моделирование и навигация на сенсорных устройствах Windows с помощью пальца, пера, мыши и клавиатуры.
+- Совместная работа: запуск сеанса, присоединение к сеансу и приглашение других пользователей для совместной работы.
+- Вход в Autodesk 360: использование облачных служб Autodesk 360 для бесплатного хранения и совместного использования эскизов.
+- Справка: использование информационных инструментов для получения дополнительных сведений о FormIt.
 
-#### Barra de ferramentas de navegação
-Consulte [Navegar na cena](../formit-introduction/navigating-the-scene.md).
+#### Панель навигации
+См. раздел [Навигация по сцене](../formit-introduction/navigating-the-scene.md).
 
-#### Barra de paletas
-A barra de paletas é exibida no lado direito da tela. Clique em um desses ícones para abrir uma paleta lateral para exibir propriedades de construção, materiais, uma biblioteca de conteúdo e ferramentas de colaboração.
+#### Панель палитр
+Панель палитр отображается в правой части экрана. Щелкните один из этих значков, чтобы открыть боковую палитру, содержащую свойства здания, материалы, библиотеку компонентов и инструменты для совместной работы.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Properties** Abra essa paleta para visualizar a localização, a área bruta e as relações de área de piso para o esboço.
+**1. Свойства**: палитра служит для просмотра местоположения, общей площади и коэффициентов площади пола для эскиза.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Materials** Use essa paleta para criar ou aplicar materiais.
+**2. Материалы**: палитра служит для создания и применения материалов.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Layers** Use essa paleta para criar e gerenciar camadas e atribuir os objetos selecionados a diferentes camadas.
+**3. Слои**: палитра служит для создания слоев и управления ими, а также для назначения выбранных объектов различным слоям.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Scenes** Use essa paleta para criar, gerenciar e reproduzir cenas.
+**4. Сцены**: палитра служит для создания сцен, управления ими и их воспроизведения.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Visual Styles** Use essa paleta para editar como o esboço é visualizado ao controlar sombras, superfícies, arestas e o ambiente. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Визуальные стили**: палитра используется для редактирования вида эскиза путем управления тенями, поверхностями, ребрами и средой. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Group Tree** Use essa paleta para visualizar grupos e objetos dentro de cada grupo.
+**6. Дерево групп**: палитра используется для просмотра групп и объектов в каждой группе.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** Use essa paleta para carregar e gerenciar modelos computacionais criados no Dynamo Studio.
+**7. Dynamo**: палитра используется для загрузки расчетных моделей, созданных в Dynamo Studio, и управления ими.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Levels** Use essa paleta para exibir e adicionar níveis aos objetos de construção.
+**8. Уровни**: палитра используется для отображения уровней и их добавления к строительным объектам.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. Content Library** Use a biblioteca de conteúdo para armazenar o conteúdo reutilizável, como mobiliário.
+**9. Библиотека компонентов**: библиотека компонентов используется для хранения повторно используемых компонентов, например мебели.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Undo Manager** Use essa paleta para visualizar as ações de cada usuário ao colaborar.
+**10. Диспетчер отмены**: палитра используется для просмотра действий каждого пользователя при совместной работе.
 ![](./images/Palette Bar-Undo Manager.PNG)
