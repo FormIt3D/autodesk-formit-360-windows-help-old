@@ -1,54 +1,54 @@
-# 1.6 - Controllo della visibilità con i layer
+# 1.6 - レイヤを使用して表示をコントロールする
 
-_Analogamente ad AutoCAD e Photoshop, i layer in FormIt consentono di gestire la visibilità degli oggetti nel modello. In questo capitolo, creeremo un layer per salvare e nascondere la massa dell'edificio per un'analisi futura._
+_AutoCAD や Photoshop と同様に、FormIt のレイヤを使用して、モデル内のオブジェクトの表示設定を管理することができます。この演習では、今後の解析で使用する建物マスの保存と非表示を行うためのレイヤを作成します。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.6 - Control Visibility with Layers.axm**_ _dai_ _set di dati della Parte I della Guida introduttiva di FormIt**.**_
+_直前のセクションを完了していない場合は、_ _**1.6 - Control Visibility with Layers.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets** からダウンロードして開きます。_
 
-## **Creazione di layer**
+## **レイヤを作成する**
 
-1 - Per creare i nuovi layer:
+1 - 新しいレイヤを作成するには、次のように操作します。
 
-1. Accedere alla **tavolozza Layer** e fare clic sul segno **+** tre volte per creare tre layer.
-2. Fare doppio clic sui nomi dei layer per rinominarli **Massing**, **Main Building Floor** e **Plan Image.**
+1. **[レイヤ]パレット**に移動し、**[+]**記号を 3 回クリックして 3 つのレイヤを作成します。
+2. レイヤ名をダブルクリックして、それらの名前を **Massing**、**Main Building Floor**、**Plan Image**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Nota**_ _È possibile fare clic sul nome di un layer e trascinarlo verso l'alto o verso il basso per riordinare i layer._
+_**注:**_ _レイヤ名をクリックして上下にドラッグすると、レイヤの順序を変更できます。_
 
-2 - Per assegnare il gruppo **Massing - Main Building** al layer **Massing**:
+2 - **Massing - Main Building** グループを **Massing** レイヤに割り当てるには、次のように操作します。
 
-1. Nell'area di disegno, selezionare il gruppo **Massing - Main Building**.
-2. Nella **tavolozza Layer**, scegliere il layer **Massing** dal menu a discesa **Selezione su:**. Analogamente, assegnare il gruppo **Plan Image** al layer **Plan Image**.
+1. キャンバスで、**Massing - Main Building** グループを選択します。
+2. **[レイヤ]パレット**で、**[選択]**のドロップダウン メニューから **Massing** レイヤを選択します。同様に、**Plan Image** グループを **Plan Image** レイヤに割り当てます。
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicazione del gruppo**
+## **グループを複製する**
 
-_Ora inizieremo il processo di modellazione dell'edificio in modo più dettagliato. Il primo passaggio consiste nel creare la geometria del pavimento in base alla volumetria dell'edificio già presente._
+_ここでは、建物のモデリング プロセスをさらに詳しく行います。最初の手順では、既にある建物マスに基づいて床ジオメトリを作成します。_
 
-1 - Selezionare nuovamente il gruppo **Massing - Main Building**. Premere **CTRL+C \(Copia\)** per copiare, quindi **CTRL+MAIUSC+V \(Incolla nella stessa posizione\)** per incollare la massa nella stessa posizione.
+1 - **Massing - Main Building** グループを再度選択します。**[Ctrl]+[C] \(コピー\)**を押してコピーし、**[Ctrl]+[Shift]+[V] \(その場に貼り付け\) **を押して同じ場所にマスを貼り付けます。
 
-2 - Per dissociare la geometria del nuovo gruppo dal gruppo originale: fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e scegliere l'opzione **Rendi univoco \(MU\)**.
+2 - 新しいグループ ジオメトリを元のグループから分離するには、右クリックして**コンテキスト メニュー**から**[固有にする\(MU\)]**オプションを選択します。
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Nota** Il nuovo gruppo non è più associato all'originale. Le modifiche apportate al nuovo gruppo non altereranno il gruppo originale._
+_**注**: 新しいグループは元のグループと関連付けられなくなります。新しいグループに変更を加えても、元のグループは変更されません。_
 
-## **Creazione della geometria del pavimento**
+## **床のジオメトリを作成する**
 
-1 - Riassegnare il layer del gruppo:
+1 - グループのレイヤを再割り当てします。
 
-1. Fare un singolo clic per selezionare uno dei gruppi **Massing – Main Building**.
-2. Posizionare il gruppo sul layer **Main Building Floor** utilizzando l'elenco a discesa **Selezione su:** nella **tavolozza Layer**.
-3. Deselezionare il layer **Massing** per nasconderne la geometria e proteggerla da eventuali modifiche accidentali.
+1. **Massing – Main Building** グループのいずれかをシングルクリックして選択します。
+2. **[レイヤ]パレット**の**[選択]**のドロップダウンを使用して、グループを **Main Building Floor** レイヤに配置します。
+3. **Massing** レイヤのチェックを外すと、ジオメトリが非表示になり、誤って編集しないようにすることができます。
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Fare doppio clic sul gruppo **Massing – Main Building** visibile per modificarlo. Rinominare il gruppo **Floor** nella **tavolozza Proprietà**.
+2 - 表示されている **Massing – Main Building** グループをダブルクリックして編集します。**[プロパティ]パレット**でグループの名前を「**Floor**」に変更します。
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Fare un singolo clic** sulla **superficie superiore** della geometria per selezionarla. Fare nuovamente clic e iniziare a trascinare la superficie verso il basso. Mentre si trascina la superficie verso il basso, digitare **11'-2"**. Verrà visualizzata la **finestra di dialogo Quota**. Fare clic su **OK** dopo aver immesso il valore. Il pavimento risultante dovrebbe essere spesso 1'. Fare doppio clic nello spazio per uscire dal gruppo.
+3 - ジオメトリの**上面**を**シングルクリック**して選択します。もう一度クリックして、その面を下にドラッグします。面を下にドラッグするときに、**11'-2"** と入力すると、**[寸法]ダイアログ**が表示されます。値を入力した後、**[OK]**をクリックします。この操作により、床の厚さが 1' になります。スペース内でダブルリックしてグループを終了します。
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

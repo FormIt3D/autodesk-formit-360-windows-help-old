@@ -1,20 +1,20 @@
-# Impostazioni
+# 設定
 
-È possibile accedere a Impostazioni dal menu o dalla barra degli strumenti. Tutte le impostazioni vengono salvate dopo la chiusura di FormIt.
+[設定]には、メニューまたはツールバーからアクセスできます。すべての設定は、FormIt を閉じると保存されます。
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Unità**: consente di alternarsi tra unità imperiali e unità metriche.
-* **Snap alla griglia**: consente di attivare e disattivare lo snap degli strumenti di disegno e modellazione alla griglia di posizionamento del terreno sottostante.
-* **Visualizza quote modificabili**: consente di attivare e disattivare la visualizzazione delle quote durante il disegno e la modifica.
-* **Nascondi contesto gruppo**: quando l'opzione è attivata, tutti gli altri gruppi vengono nascosti mentre un altro gruppo viene modificato.
-* **Evidenziazione preselezione**: se l'opzione attivata, quando si posiziona il cursore del mouse su tutti gli oggetti, i bordi, le superfici e i punti mostrano un'evidenziazione visiva.
-* **Pulsanti grandi barra degli strumenti**: consente di attivare e disattivare i pulsanti della barra degli strumenti di grandi dimensioni.
-* **Tema app**: consente di passare tra i vari temi dell'interfaccia utente, Chiaro, Scuro e Blu.
+* **単位**: フィート/インチ単位とメートル単位を切り替えます。
+* **グリッドにスナップ**: 描画ツールとモデリング ツールで、基礎となる地盤面のグリッドにスナップするかどうかを切り替えます。
+* **編集可能な寸法を表示**: 描画中および編集中の寸法の表示を切り替えます。
+* **編集されるグループのみを表示**: オンにすると、編集中のグループ以外のすべてのグループが非表示になります。
+* **事前選択ハイライト**: オンの場合は、マウスを合わせると、すべてのオブジェクト、エッジ、面、および点がハイライト表示されます。
+* **大きいツールバー ボタン**: 大きいツールバー ボタンのオン/オフを切り替えます。
+* **アプリケーションのテーマ**: ユーザ インタフェースのテーマを明るい色調、暗い色調、青色に切り替えます。
 
-## Modalità tocco
+## タッチ モード
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-Modalità tocco consente di utilizzare Windows con touchscreen. Quando è attivata, è possibile utilizzare un singolo tocco e trascinare per selezionare e interagire con gli strumenti di disegno, modellazione e modifica. **Nota In Modalità tocco, gli strumenti di disegno e modifica non funzionano correttamente con il mouse.**
+タッチ モードによって、タッチ スクリーンを備えた Windows を使用できます。オンにすると、シングル タッチとドラッグで、選択や、描画ツール、モデリング ツール、修正ツールの操作を行うことができます。**注: タッチ モードでの作業中、描画ツールと修正ツールではマウスが正しく動作しません**
 

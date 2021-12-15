@@ -1,16 +1,16 @@
-# Piani di lavoro
+# 作業面
 
-Quando si modificano gli assi globali nel disegno principale, o gli assi locali di un gruppo, un piano di lavoro viene associato agli assi X e Y. Un **piano di lavoro** è una superficie bidimensionale virtuale utilizzata come piano di default per il disegno. Questo piano di lavoro si allunga all'infinito e fornisce una superficie su cui eseguire il disegno senza lo snap agli elementi che si trovano dietro.
+メイン スケッチのワールド軸、またはグループのローカル軸を変更する際、作業面は X 軸と Y 軸に関連付けられます。**作業面**は、スケッチするための既定の平面として使用される、仮想 2 次元サーフェスです。この作業面は無限に広がり、面に隠れる要素にスナップすることなくスケッチできるサーフェスが提供されます。
 
-Per informazioni su come modificare il piano di base, vedere [Stili di visualizzazione.](../formit-primer/part-i/visual-settings.md)
+地盤面を編集する方法については、「[表示スタイル](../formit-primer/part-i/visual-settings.md)
 
-## Modifica di piani di lavoro
+## 作業面を変更する
 
-Ruotare gli [Assi globali](world-axes.md) sul piano di un altro oggetto nel disegno. Così il piano di lavoro attivo verrà allineato in modo da corrispondere a questa superficie. È ora possibile disegnare, posizionare gli elementi e modificare gli elementi rispetto al nuovo piano XY, anziché al piano del terreno di default. È possibile eseguire l'orbita dietro o sotto la griglia e i piani di lavoro per eseguire lo snap e la deduzione agli elementi che si trovano dietro.
+スケッチ内の別のオブジェクトの平面まで[ワールド軸](world-axes.md)を回転させます。 これにより、アクティブな作業面がこの面に合わせて配置されます。これで、要素をスケッチして配置し、既定の地盤面ではなく、新しい XY 平面を基準に要素を修正することができます。回転させてグリッド(作業面)の後ろ側(下側)を表示し、面に隠れる要素の推定配置点にスナップできます。
 
-È possibile attivare e disattivare la visibilità della linea di griglia per utilizzare il disegno basato sul piano di lavoro. È possibile controllare questa impostazione in Stile visualizzazione &gt; Ambiente &gt; **Visualizza: Griglia \(DG\).**
+作業面ベースのスケッチでは、グリッド線の表示/非表示を切り替えることができます。この設定は、[表示スタイル] &gt; [基本設定] &gt; **[グリッドを表示\(DG\)]**
 
-È inoltre possibile controllare se eseguire lo snap alla griglia durante il disegno. Attivare e disattivare questa impostazione in Impostazioni &gt; **Snap alla griglia \(SG\).**
+また、描画時にグリッドにスナップするかどうかをコントロールすることもできます。この設定のオン/オフは、[設定] &gt; **[グリッドにスナップ\(SG\)]**
 
 ![](../.gitbook/assets/work-plane.gif)
 

@@ -1,28 +1,28 @@
-# Layer
+# レイヤ
 
-Utilizzare i layer per controllare la visibilità degli oggetti di FormIt.
+レイヤを使用して FormIt オブジェクトの表示をコントロールします。
 
-Vedere i layer in azione seguendo la [Guida introduttiva di FormIt.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+レイヤを使用した表示のコントロールについて詳しくは、[FormIt Primer](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) のこちらのドキュメントを参照してください。
 
-## Creazione e denominazione di layer
+## レイヤを作成して名前を付ける
 
-Nel pannello Layer, è possibile creare e denominare i layer facendo clic sull'icona "**+**".
+レイヤを作成して名前を付けるには、[レイヤ]パネルで**[+]**アイコンをクリックします。
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-È possibile fare doppio clic sul nome per rinominare il layer o attivare/disattivare la visibilità dei relativi oggetti selezionando e deselezionando la casella a sinistra. Utilizzare la casella di controllo a destra per bloccare e sbloccare i layer. Un layer bloccato sarà ancora visibile ma non selezionabile o modificabile.
+名前をダブルクリックしてレイヤの名前を変更したり、左側のチェックボックスを使用してそのレイヤのオブジェクトの表示/非表示を切り替えることができます。右側のチェックボックスは、レイヤのロック/ロック解除に使用します。ロックされたレイヤは表示されたままですが、選択や編集はできません。
 
-## Gestione di oggetti sui layer
+## レイヤ上のオブジェクトを管理する
 
-Selezionare gli oggetti nell'area di disegno, quindi utilizzare l'elenco a discesa nella parte superiore del pannello Layer per indicare su quale layer devono essere posizionati gli oggetti selezionati.
+キャンバス内でオブジェクトを選択し、[レイヤ]パネルの上部にあるドロップダウンを使用して、選択したオブジェクトを配置する先のレイヤを指定します。
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-In FormIt non esiste il concetto di "layer di default" o "layer di lavoro". Tutta la nuova geometria verrà creata su "Nessun layer" e sarà necessario riassegnare gli oggetti ai layer dopo la generazione.
+FormIt には、「既定レイヤ」や「作業レイヤ」という概念がありません。新しく作成されるすべてのジオメトリは「レイヤなし」となるため、生成した後でオブジェクトをレイヤに再割り当てする必要があります。
 
-È possibile fare clic con il pulsante destro del mouse su un layer e scegliere Seleziona tutto sui layer per selezionare tutta la geometria attualmente assegnata a questo layer.
+レイヤを右クリックして[レイヤ上のすべてを選択]を選択すると、このレイヤに現在割り当てられているすべてのジオメトリを選択できます。
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-È inoltre possibile riordinare i layer nel pannello trascinandoli e rilasciandoli in una nuova posizione. Si noti che questo non ha alcun impatto sulla visibilità della geometria, ma è solo uno strumento organizzativo del pannello.
+パネル内のレイヤをドラッグして新しい位置に動かすと、レイヤの順序を変更できます。ただし、この操作はジオメトリの表示には影響しません。パネル内が整理されるだけです。
 

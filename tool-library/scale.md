@@ -1,11 +1,11 @@
-# Scala di oggetti
+# オブジェクトをスケールする
 
-È possibile utilizzare lo **strumento Scala** per regolare le dimensioni e l'orientamento di oggetti.
+**[スケール]ツール**によって、オブジェクトのサイズと向きを調整できます。
 
-1. Selezionare un oggetto che si desidera regolare.
-2. Fare clic con il pulsante destro del mouse per aprire il **menu contestuale**.
-3. Dal menu contestuale, selezionare lo **strumento Scala**.
-4. Utilizzare la rotellina del mouse per aumentare o diminuire la scala della geometria.
+1. 調整するオブジェクトを選択します。
+2. 右クリックして**コンテキスト メニュー**を起動します。
+3. コンテキスト メニューから**[スケール]ツール**を選択します。
+4. マウスのスクロール ホイールを使用して、ジオメトリの拡大と縮小を行います。
 
 ![](../.gitbook/assets/scale1.png)
 

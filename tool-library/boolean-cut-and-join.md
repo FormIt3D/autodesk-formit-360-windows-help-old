@@ -1,28 +1,28 @@
-# Taglio booleano
+# ブール演算による切り取り
 
-È possibile tagliare un oggetto o un gruppo da un altro con lo strumento Taglia. Esistono due modi per accedere allo strumento Taglia:
+[切り取り]ツールを使用して、1 つのオブジェクトまたはグループを別のオブジェクトまたはグループから切り取ることができます。[切り取り]ツールにアクセスするには、次の 2 つの方法があります。
 
-## Eseguire prima il comando Taglia
+## 最初に[切り取り]コマンドを実行する場合
 
-Tastiera: C G
+キーボード ショートカット: [C]、[G]
 
 ![](../.gitbook/assets/cut_tool.png)
 
-Eseguire il comando Taglia e seguire le istruzioni della modalità nella parte superiore sinistra della schermata.
+[切り取り]コマンドを実行し、画面の左上に表示されるモードの指示に従います。
 
-Fare un singolo clic per selezionare un oggetto in cui eseguire il taglio:
+切り取られる側のオブジェクトをシングルクリックで選択します。
 
 ![](../.gitbook/assets/boolean_cut.png)
 
-Fare clic per selezionare uno o più oggetti o gruppi da rimuovere:
+切り取るオブジェクトまたはグループをシングルクリックで選択します。
 
 ![](../.gitbook/assets/boolean_cut2.png)
 
-Fare clic sul segno di spunta per terminare il comando. L'oggetto rimosso rimane nella scena. È possibile eliminarlo o utilizzare [Layer](layers.md) per nasconderlo.
+チェックマークをクリックしてコマンドを終了します。削除されたオブジェクトはシーンに残ります。このオブジェクトを削除したり、[レイヤ](layers.md)を使用して非表示にすることができます。
 
-## Selezionare prima gli oggetti
+## 最初にオブジェクトを選択する場合
 
-1. Fare doppio clic per selezionare l'oggetto in cui eseguire il taglio \(fare un singolo clic per un gruppo\).
-2. Tenendo premuto il tasto **CTRL**, fare doppio clic su uno o più oggetti sovrapposti da tagliare.
-3. Fare clic con il pulsante destro del mouse sull'oggetto che verrà tagliato e scegliere lo [**strumento Taglia**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) nel menu contestuale. ![](../.gitbook/assets/booleancut.png)
+1. 切り取られる側のオブジェクトをダブルクリックで選択します。\(グループの場合はシングルクリック\)
+2. **[Ctrl]キー**を押しながら、切り取る側の重なっているオブジェクトをダブルクリックします。
+3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)を選択します。![](../.gitbook/assets/booleancut.png)
 

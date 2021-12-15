@@ -1,28 +1,28 @@
-# Superfici: Estrudi, Taglia e Offset
+# 面: 押し出し、切り取り、オフセット
 
-È possibile spingere o trascinare una superficie, imprimere nuove forme su quelle esistenti o creare nuovi bordi di offset.
+面のプッシュやプル、既存の面への新しいシェイプのインプリント、新しいオフセット エッジの作成を行います。
 
-## Estrudi
+## 押し出し
 
-Per spingere o trascinare una superficie, selezionarla con un singolo clic, quindi fare clic e trascinare. La superficie si sposta avanti e indietro; ora è possibile spostare il mouse per eseguire lo snap e la deduzione su altri elementi del modello. Fare nuovamente clic per terminare lo spostamento della superficie. Tenere premuto il tasto CTRL per mantenere i bordi originali.
+面のプッシュやプルを行うには、対象となる面をシングルクリックで選択し、もう一度クリックしてドラッグします。面は前後に移動します。移動先のモデル要素にマウスカーソルを置いて、スナップと推定配置点を表示します。もう一度クリックすると、面の移動が完了します。元のエッジを保持するには、[Ctrl]キーを押したままにします。
 
 ![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprimi
+## インプリント
 
-Per imprimere forme, utilizzare uno strumento Disegno 3D per disegnare linee, archi, spline, rettangoli o cerchi su superfici esistenti. Questa azione consente di creare nuove superfici che possono essere spinte o trascinate indipendentemente dalla superficie originale.
+シェイプをインプリントするには、3D スケッチ ツールを使用して、直線、円弧、スプライン、長方形、または円を既存の面上に描画します。この操作により、元の面から独立してプッシュやプルを行うことができる新しい面が作成されます。
 
 ![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## オフセット
 
-Per eseguire l'offset della superficie di un oggetto:
+オブジェクトの面をオフセットします。
 
-1. Selezionare innanzitutto la superficie che si desidera modificare, quindi fare clic con il pulsante destro del mouse per visualizzare il menu **contestuale**.
-2. Dal menu **contestuale**, fare clic sullo strumento **Offset superficie**.
-3. Spostare il cursore del mouse sulla superficie selezionata e regolare le linee visualizzate fino a raggiungere l'effetto di offset desiderato.
-4. Fare clic in un punto qualsiasi per completare l'offset. È ora possibile spingere o trascinare la superficie di offset in modo indipendente.
+1. まず、編集する面を選択し、右クリックして**コンテキスト** メニューを表示します。
+2. **コンテキスト** メニューから、**[面をオフセット]**ツールをクリックします。
+3. 選択した面の上にカーソルを移動し、目的のオフセットが得られるまで、表示される線分を調整します。
+4. 任意の場所をクリックしてオフセットを完了します。これで、個別にオフセット面のプッシュやプルができるようになります。
 
 ![](../.gitbook/assets/offset1.png)  
 ![](../.gitbook/assets/offset2.png)  

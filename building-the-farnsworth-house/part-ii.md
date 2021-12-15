@@ -1,26 +1,26 @@
-# Parte II \(disponibile a breve\)
+# パート 2 \(準備中\)
 
-## Strumenti avanzati
+## 拡張ツール
 
-Nella **Parte II** di questa Guida introduttiva, esamineremo alcuni degli strumenti più avanzati che FormIt ha da offrire. Esploreremo come utilizzare strumenti semplici ma potenti di modellazione, diagnostica, analisi e interoperabilità per modificare e migliorare il modello del campus encode illustrato di seguito.
+Primer **パート 2** では、FormIt に備わっている高度なツールについて説明します。シンプルでありながら強力なモデリング、診断、解析、相互運用ツールを使用して、下図の Encode Campus のモデルを修正および拡張する方法について説明します。
 
-Se non si conosce FormIt, è consigliabile iniziare con la **Parte I**, poiché la **Parte II** presuppone di avere già familiarità con le nozioni di base di FormIt.
+FormIt を初めて使用する場合は、**パート 1** から始めることをお勧めします。**パート 2** では、FormIt についての基本的な知識があることを前提として説明を進めます。
 
-Consultare le sezioni **Introduzione a FormIt** e **Libreria degli strumenti** per spiegazioni dettagliate su strumenti, barre degli strumenti, tavolozze e processi specifici descritti in questo documento.
+特定のツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
 
-![Modello di esempio del campus encode](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![Encode Campus Sample Model](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
 
-### Prerequisiti
+### 前提条件
 
-Prima di iniziare la Parte II, scaricare e installare FormIt per Windows utilizzando le istruzioni disponibili nella sezione Introduzione a FormIt qui: [**Prerequisiti e installazione**](../formit-introduction/prerequisites-and-installation.md).
+パート 2 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
 
-Per la maggior parte dei capitoli, sarà inoltre necessario scaricare e utilizzare il set di dati disponibile al collegamento riportato di seguito.
+ほとんどの章で、次のリンクにあるデータ セットもダウンロードして利用する必要があります。
 
-_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app) _gratuita. Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ ****[_**sito Web di FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
 
-### Set di dati
+### データ セット
 
-Il campus encode, nella figura precedente, è un progetto multiuso fittizio di medie dimensioni impostato in un tracciato urbano, completo di layer, scene, materiali organizzati e persino geometrie, tutti elementi legati a script di Dynamo modificabili dal vivo. Questo set di dati contiene due versioni del modello di esempio del campus encode: una pronta per essere modificata durante l'esercitazione e una seconda contenente una versione completata di tutti gli elementi descritti nella **Parte II**, in modo da poter aprire ed esplorare i risultati previsti.
+上図の Encode Campus は、都市のプロットに設定された中規模で多目的の架空プロジェクトで、整理されたレイヤ、シーン、マテリアルに加えて、ライブ編集可能な Dynamo スクリプトに関連付けられたジオメトリも含まれています。このデータ セットには、2 つのバージョンの Encode Campus Sample Model が含まれています。1 つはチュートリアルを進めながら変更できるようになっているバージョンです。もう 1 つは **パート 2** で説明されているすべての作業が完了したバージョンであるため、予想される結果を自分で開いて確認できます。
 
-* **Set di dati della Parte II della Guida introduttiva di FormIt**
+* **FormIt Primer Data Sets Part II**
 

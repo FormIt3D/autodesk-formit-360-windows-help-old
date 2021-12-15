@@ -1,16 +1,16 @@
-# Superfici: Livella superfici
+# 面: 平坦化
 
-Utilizzare lo strumento **Livella superfici** per forzare due o più superfici dell'oggetto nello stesso piano.
+**[面を平坦化]**ツールを使用して、2 つ以上のオブジェクトの面を強制的に同じ平面にします。
 
-Quando sono selezionate due o più superfici dell'oggetto, è possibile selezionare lo strumento **Livella superfici** dal menu **contestuale**. È inoltre possibile accedere ad **Livella superfici** utilizzando il tasto di scelta rapida **FL**.
+2 つ以上のオブジェクトの面を選択すると、**コンテキスト** メニューから**[面を平坦化]**ツールを選択できます。ショートカットの **FL** を使用して**[面を平坦化]**にアクセスすることもできます。
 
 ![](../.gitbook/assets/flatten_faces.png)
 
-**Livella superfici** può essere utile come strumento di correzione quando una superficie che deve essere piana diventa sfaccettata inaspettatamente \(con bordi levigati tra le sfaccettature\), sia durante l'importazione di dati di fedeltà inferiore, ad esempio i [modelli di SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), o dopo lo spostamento accidentale di un vertice o di un bordo che causa la sfaccettatura o la triangolazione di una superficie.
+**[面を平坦化]**は、平面であるべき面に予期しない切り子面が生成され、その切り子面間にスムーズなエッジがある場合の修復ツールとして役立ちます。このような切り子面が生成されるのは、[SketchUp モデル](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten)などの精度の低いデータを読み込んだ場合か、頂点やエッジを誤って移動したために面が切り子面や三角形に分割された場合です。
 
-È inoltre possibile utilizzare **Livella superfici** come strumento di progettazione per l'allineamento o l'estensione di forme. A tale scopo, selezionare innanzitutto una superficie guida, quindi selezionare altre superfici da appiattire al piano della prima superficie.
+**[面を平坦化]**は、シェイプを位置合わせまたは延長するための設計ツールとして使用することもできます。これを行うには、まずガイドとなるサーフェスを選択し、次にこの最初のサーフェスの平面に合わせて平坦化する追加の面を選択します。
 
-Guardare il seguente video per scoprire la potenza e la versatilità di **Livella superfici**:
+次のビデオで、強力で汎用性の高い**[面を平坦化]**の機能について説明しています。
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
 

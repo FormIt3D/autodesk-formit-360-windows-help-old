@@ -1,18 +1,18 @@
-# Gestione operazioni annullate
+# 元に戻す(アンドゥ)マネージャ
 
-FormIt include un sistema Annulla/Ripeti univoco che può essere utilizzato in due modi diversi per annullare l'operazione per gruppo o in modo cronologico e globale:
+FormIt には独自の[元に戻す]/[やり直す]システムがあり、グループ単位で元に戻す、または日時順で全体を元に戻す、という 2 つの異なる方法で使用できます。
 
-* L'opzione Annulla/Ripeti durante la modifica di un gruppo nidificato avrà effetto solo sulle modifiche all'interno di tale gruppo.
-   * Ciò significa che è possibile apportare una modifica a questo gruppo, quindi apportare molte modifiche in altri gruppi, tornare al gruppo originale e avere la possibilità di annullare l'ultima modifica apportata a questo gruppo senza influenzare le modifiche eseguite più recentemente, in altre posizioni.
-* Annulla/Ripeti nel disegno principale \(non durante la modifica di un gruppo\) funziona come i tradizionali sistemi Annulla/Ripeti: l'ultima modifica apportata in **qualsiasi** gruppo verrà annullata in base all'ordine cronologico.
+* ネストされたグループの編集中に[元に戻す]/[やり直す]を実行すると、そのグループ内の変更にのみ反映されます。
+   * つまり、このグループで変更を行った後に他のグループで多くの変更を行っても、元のグループに戻ってこのグループで最後に行った変更を元に戻すことができます。他のグループで直前まで行っていた変更には影響しません。
+* メイン スケッチから\(グループの編集中以外に\) [元に戻す]/[やり直す]を実行すると、従来の[元に戻す]/[やり直す]システムのように動作します。つまり、**グループに関係なく**日時順で最後に行った変更が元に戻されます。
 
-Gestione operazioni annullate registra ogni modifica all'interno di ogni gruppo nel modello di FormIt, incluse le modifiche apportate nel disegno principale. Questa opzione è utile per comprendere visivamente quali operazioni sono state annullate in qualsiasi gruppo nel modello.
+アンドゥ マネージャには、メイン スケッチで行われた変更を含め、FormIt モデル内のあらゆるグループ内の変更がすべて記録されます。これは、モデル内の任意のグループで元に戻された操作を視覚的に理解するのに役立ちます。
 
 ![](../.gitbook/assets/undo-manager.png)
 
-Gestione operazioni annullate indicherà in **grassetto** lo stato corrente, nonché eventuali operazioni precedenti a questo stato ed eventuali operazioni una volta esistenti ma che sono state annullate.
+アンドゥ マネージャには、現在の状態が**太字**で示されます。また、この状態より前の操作、および実行された後に元に戻された操作もすべて表示されます。
 
-È possibile fare clic con il pulsante destro del mouse su uno stato e selezionare Riporta a per annullare o ripetere correttamente le operazioni necessarie per tornare a tale stato del modello.
+状態を右クリックして[ロール先]を選択すると、必要に応じて[元に戻す]または[やり直す]が実行されて、そのモデルの状態に戻ることができます。
 
-I gruppi eliminati esplicitamente o che non sono più presenti a causa di un comando Annulla o Ripeti vengono mostrati come \*Non attivo\*. È possibile ripristinarli annullando o ripetendo le operazioni all'interno del gruppo principale fino a quando non sono recuperati.
+明示的に削除されたグループ、または[元に戻す]または[やり直す]によって存在しなくなったグループは、「\*非アクティブ\*」と表示されます。このようなグループは、その親グループ内で[元に戻す]または[やり直す]を実行することで復元できます。
 

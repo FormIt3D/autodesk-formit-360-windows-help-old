@@ -1,98 +1,98 @@
-# 1.5 - Raggruppamento di oggetti
+# 1.5 - オブジェクトをグループ化する
 
-_I gruppi in FormIt funzionano in modo simile alle famiglie in Revit e ai componenti in SketchUp. Il raggruppamento di oggetti diversi impedisce l'unione della geometria. Le copie di un gruppo fungono da istanza della geometria originale, pertanto le modifiche apportate ad una copia influiranno su tutte le copie._
+_FormIt のグループは、Revit のファミリや SketchUp のコンポーネントと同様に機能します。オブジェクトをグループ化すると、そのジオメトリは結合できなくなります。グループのコピーは、元のジオメトリのインスタンスとして機能します。つまり、1 つのコピーに対する変更は、それらのすべてに影響します。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.5 - Group Objects.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**1.5 - Group Objects.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Creazione di un gruppo**
+## **グループを作成する**
 
-1 - Selezionare la massa della terrazza superiore facendo doppio clic.
+1 - 上部のテラス マスをダブルクリックして選択します。
 
-2 - Fare clic con il pulsante destro del mouse e selezionare **Gruppo \(G\)** oppure premere semplicemente **G**.
+2 - 右クリックして**[グループ\(G\)]**を選択するか、単に[**G**]を押します。
 
 ![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Notare che dopo la creazione di un gruppo, viene automaticamente aperto lo strumento Sposta.
+3 - グループを作成すると、自動的に[移動]ツールに移動します。
 
-## **Spostamento di un gruppo**
+## **グループを移動する**
 
-1 - Per facilitare il processo di modellazione, attivare l'opzione **Snap alla griglia \(SG\)**, se è disattivata.
+1 - モデリング プロセスをしやすくするために、**[グリッドにスナップ\(SG\)]**がオフの場合はオンにします。
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - Per iniziare a spostare l'oggetto selezionato, mentre è ancora attivo il comando **Sposta \(M\)**, fare clic una volta su qualsiasi angolo inferiore della massa. Spostare quindi il cursore verso l'alto. Dovrebbe essere visualizzata una linea dell'asse blu \(Z\). Questa linea aiuterà a spostare l'oggetto verso l'alto.
+2 - 選択したオブジェクトの移動を開始するには、**[移動\(M\)]**コマンドを実行したまま、マスの下部コーナーを 1 回クリックします。カーソルを上に動かすと、青い Z 軸線が表示されます。この線は、オブジェクトを真上に移動させるのに役立ちます。
 
-3 - Con l'asse blu visibile, digitare **4'-6"**. Verrà visualizzata una finestra di dialogo per definire la quota. Dopo aver immesso la quota, fare clic su **OK** o premere **INVIO** sulla tastiera. In questo modo, l'intera massa verrà spostata verso l'alto, lontano dal piano del terreno lungo l'**asse Z**.
+3 - 青い軸が表示されている状態で、**4'-6"** と入力すると、[寸法]ダイアログが表示されます。寸法を入力したら、**[OK]**をクリックするか、キーボードの**[Enter]**を押します。これにより、マス全体が **Z 軸**に沿って地盤面から上に移動します。
 
-_**Nota**_ _Analogamente a Revit, è anche possibile digitare_ _**4'6**,_ _**4'6"**_ _o_ _**4.5** e il valore verrà interpretato come 4\(piedi\) 6\(pollici\) quando si utilizzano le unità imperiali._
+_**注:**_ _Revit と同様に、_ _**4'6**、_ _**4' 6"、**_ _または_ _**4.5**と入力することもできます。インチ単位を使用すると、プログラムはこの値も 4 フィート 6 インチと解釈します。_
 
 ![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Modifica di un gruppo**
+## **グループを編集する**
 
-1 - Per accedere alla **modalità di modifica del gruppo**, fare doppio clic sulla massa.
+1 - **グループ編集モード**を開始するには、マスをダブルクリックします。
 
-1. Nella **tavolozza Proprietà**, rinominare il gruppo **Massing - Main Building**.
-2. Per salvare le modifiche e uscire dalla **modalità di modifica del gruppo**, fare clic sull'icona del segno di spunta **Termina modifica gruppo** nell'angolo superiore sinistro dell'area di disegno oppure fare doppio clic nello spazio.
+1. **[プロパティ]パレット**で、グループの名前を **Massing - Main Building** に変更します。
+2. 変更を保存して**グループ編集モード**を終了するには、キャンバスの左上コーナーにある**[グループ編集を終了]**チェックマーク アイコンをクリックするか、スペース内でダブルクリックします。
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Note**_
+_**注**:_
 
-* _Per ulteriori informazioni sulle opzioni_ _**Categoria**_ _, consultare il capitolo_ _**Utilizzo di Revit**_ _._‌
-* _Ogni gruppo ha una cronologia di annullamento/ripetizione distinta dal progetto generale. È possibile fare clic sulle frecce_ _**Annulla**_ _e_ _**Ripeti**_ _nella_ _**procedura guidata di modifica del gruppo**_ _nell'angolo superiore sinistro dell'area di disegno._
+* _**カテゴリ**_ _オプションについては、_ _**「Revit を使用する」**_ _の章を参照してください。_
+* _各グループには、プロジェクト全体とは異なる独自の元に戻す/やり直しの履歴があります。キャンバスの左上にある_ _**グループ編集ウィザード**_ _で_ _**[元に戻す]**_ _と_ _**[やり直し]**_ _の矢印をクリックできます。_
 
-## **Applicazione di livelli ad un gruppo**
+## **グループにレベルを適用する**
 
-_**Nota**_ _Il raggruppamento di una geometria sostituisce le impostazioni precedenti che potrebbero essere state applicate alla geometria. Per questo motivo, è necessario riapplicare i livelli dell'esercizio precedente._
+_**注:**_ _ジオメトリをグループ化すると、ジオメトリに適用した以前の設定は上書きされます。このため、前の演習で使用したレベルを再度適用する必要があります。_
 
-1 - Per applicare livelli ad un gruppo:
+1 - グループにレベルを適用するには、次のように操作します。
 
-1. Fare un singolo clic sul gruppo **Massing** **- Main Building** per selezionarlo.
-2. Accedere alla **tavolozza Proprietà** e selezionare **Usa livelli.**
-3. Mantenere solo il livello **Main Building** deselezionando tutti gli altri.
-4. Nel campo **Area per livello** viene visualizzata l'area lorda degli oggetti attualmente selezionati. L'area di ogni **livello** viene visualizzata davanti al nome di ciascun **livello**.
-5. Se non è visibile una linea di livello blu che interseca l'oggetto orizzontalmente, attivare la visualizzazione del livello accedendo al **menu Impostazioni &gt; Stile visualizzazione &gt; Visualizza livelli \(DL\).**
+1. **Massing** **- Main Building** グループをシングルクリックして選択します。
+2. **[プロパティ]パレット**に移動し、**[レベルを使用]をオンにします。**
+3. 他のレベルのチェックをすべてオフにして、**Main Building** のレベルのみをオンのままにします。
+4. **[レベルの面積]**フィールドには、現在選択されているオブジェクトの総面積が表示されます。各**レベル**の面積が、各**レベル**名の横に表示されます。
+5. オブジェクトと水平に交差する青いレベル線が表示されない場合は、**[設定]メニュー &gt; [表示スタイル] &gt; [レベルを表示\(DL\)]を選択してレベル表示をオンにします。**
 
-_**Nota** Se non viene indicata alcuna area per il livello_ _**Main Building**_ _, la geometria potrebbe non intersecare il livello, che dovrebbe essere ad un'altezza di 4'-6". Risolvere i problemi riposizionando la geometria o l'altezza del_ _**livello**_ _in modo che si intersechino._
+_**注**:_ _**Main Building**_ _レベルの面積が報告されない場合は、ジオメトリがレベルと交差していない可能性があります。レベルの高さは 4'-6" である必要があります。ジオメトリまたは_ _**レベル**_ _の高さを再配置して交差させることでトラブルシューティングを行います。_
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselezionare il gruppo premendo **ESC** o facendo un singolo clic nello spazio. Senza alcun oggetto selezionato, nella **tavolozza Proprietà** viene riportata l'area lorda complessiva del disegno, anziché l'area di un oggetto specifico.
+2 - **[Esc]**を押すか、スペース内をクリックしてグループを選択解除します。オブジェクトを選択しない場合、**[プロパティ]パレット**には特定のオブジェクトの面積ではなく、スケッチ全体の総面積が表示されます。
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Gestione dei gruppi**
+## **グループを管理する**
 
-1 - Per visualizzare e gestire tutti i gruppi nel disegno:
+1 - スケッチ内のすべてのグループを表示および管理するには、次のように操作します。
 
-1. Accedere alla **tavolozza Struttura gruppi**. Qui è possibile vedere:
-   * Gruppo **Terrain**: gruppo creato automaticamente quando è stata importata l'**immagine satellitare**.
-   * **Massing - Main Building**: il gruppo della geometria di massa dell'edificio appena creato.
-   * **gruppo 2**: gruppo senza nome contenente l'immagine della pianta del pavimento.
-2. Per rinominare il **gruppo 2** mediante la tavolozza Struttura gruppi, fare doppio clic sul **gruppo 2**, quindi digitare **Plan Image**.
+1. **[グループ ツリー]パレット**に移動します。次の内容が表示されます。
+   * **Terrain** - **衛星画像が読み込まれた**ときに自動的に作成される地形のグループ。
+   * **Massing - Main Building** - 先ほど作成した建物マスのジオメトリ グループ。
+   * **group 2** - 平面図イメージを含む名前のないグループ。
+2. [グループ ツリー]パレットで **group 2** の名前を変更するには、**group 2** をダブルクリックし、**Plan Image** と入力します。
 
 ![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Note **_
+_**注:**_
 
-* _Per un modello ordinato, consigliamo di mantenere descrittivi i nomi dei gruppi._
-* _Questo è un modo comodo per gestire e modificare tutti i gruppi nel modello da un'unica posizione._
+* _モデルを整理できるよう、内容がわかるようなグループ名を付けることをお勧めします。_
+* _この方法は、モデル内のすべてのグループを 1 つの場所から管理および編集するときに便利です。_
 
-2 - Con il gruppo **Plan Image** ancora selezionato, accedere alla **tavolozza Proprietà**. Notare che il nome del gruppo è stato aggiornato anche nel campo **Gruppo**.
+2 - **Plan Image** グループを選択した状態で、**[プロパティ]パレット**にナビゲートします。**[グループ]**フィールドのグループ名も更新されています。
 
 ![](../../.gitbook/assets/7.png)
 
-## **Nascondi contesto gruppo**
+## **グループ コンテキストを非表示**
 
-_Questo strumento consente di nascondere rapidamente tutta la geometria esterna al gruppo attualmente in corso di modifica. Diventa molto utile quando si dispone di un modello grande e complesso e si inseriscono altre geometrie._
+_このツールを使用すると、現在編集しているグループの外部にあるすべてのジオメトリをすばやく非表示にすることができます。大規模で複雑なモデルや他のジオメトリが邪魔になる場合に、非常に便利な機能です。_
 
-1 - Per isolare un gruppo:
+1 - グループを分離するには、次のように操作します。
 
-1. Fare doppio clic sulla geometria per modificare il gruppo.
-2. Passare a **Impostazioni** nel **Menu principale** e selezionare **Nascondi contesto gruppo** oppure premere semplicemente **H** sulla tastiera. Notare come **Plan Image** scompare.
-3. Terminare la modifica del gruppo. Notare che la modalità **Nascondi contesto gruppo \(H\)** è attiva solo all'interno della **procedura guidata di modifica del gruppo**.
-4. Per disattivare nuovamente questa modalità, è sufficiente premere **H**. Questa opzione può essere attivata in qualsiasi momento, all'interno o all'esterno di un gruppo.
+1. 編集するグループのジオメトリをダブルクリックします。
+2. **[メイン メニュー]**の**[設定]**メニューで**[グループ コンテキストを非表示]**をオンにするか、キーボードで**[H]**キーを押します。**平面図イメージ**が消えたことに注目してください。
+3. グループの編集を終了します。**[グループ コンテキストを非表示\(H\)]**モードは**グループ編集ウィザード**内でのみアクティブであることに注目してください。
+4. このモードを再びオフにするには、**[H]**を押します。このオプションは、グループの内外でいつでも切り替えることができます。
 
 ![](../../.gitbook/assets/8%20%285%29.png)
 

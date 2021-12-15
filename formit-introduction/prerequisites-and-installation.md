@@ -1,29 +1,29 @@
-# Prerequisiti e installazione
+# 前提条件とインストール
 
-## Download e installazione
+## ダウンロードとインストール
 
-* Scaricare la versione più recente di [FormIt per Windows](https://formit.autodesk.com/page/download).
-* Utilizzare Autodesk Account per accedere o [creare un Autodesk Account gratuito qui](https://accounts.autodesk.com/).
-* Il modulo aggiuntivo FormIt per Revit è incluso in Revit 2017 e versioni successive. È inoltre possibile scaricare e installare manualmente il modulo aggiuntivo [dal sito Web Autodesk](https://formit.autodesk.com/page/formit-revit).
+* 最新の [FormIt for Windows](https://formit.autodesk.com/page/download) をダウンロードします。
+* Autodesk アカウントを使用してサインインするか、[こちらで無償の Autodesk アカウントを作成](https://accounts.autodesk.com/)します。
+* Revit 2017 以降には Revit の FormIt アドインが含まれています。また、[オートデスクの Web サイトから](https://formit.autodesk.com/page/formit-revit)アドインをダウンロードして手動でインストールすることもできます。
 
-## Configurazione di sistema consigliata
+## 推奨されるシステム設定
 
-| Requisito | Dettagli |
+| 要件 | 詳細 |
 | :--- | :--- |
-| **Sistema operativo** | Microsoft® Windows® 8, 8.1 o 10  _Nota Parallels Desktop non è supportato ufficialmente a causa di problemi di grafica e prestazioni ridotte nei driver OpenGL._ |
-| **CPU** | Processore Intel® Pentium®, Xeon® o serie i o processore AMD® equivalente con tecnologia SSE2. CPU con la massima velocità di esecuzione. |
-| **Memoria** | Almeno 4 GB di RAM, consigliati almeno 8 GB. |
-| **Scheda video \(GPU\)** | Si consiglia di utilizzare una GPU NVIDIA o AMD discreta che supporti OpenGL 4.2 e DirectX 11 o versione successiva. Per i sistemi con schede grafiche commutabili, seguire le istruzioni del produttore per assicurarsi che FormIt utilizzi sempre la GPU dedicata. Vedere le istruzioni per [AMD](https://www.amd.com/en/support/kb/faq/dh-017) e [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).   Per prestazioni e affidabilità ottimali, verificare che i driver della scheda grafica in uso siano aggiornati dal sito Web del produttore o da Windows Update. In FormIt viene mostrato un messaggio all'avvio se non è possibile utilizzare la scheda video a causa di driver non aggiornati o altri problemi. Se FormIt non si avvia dopo l'aggiornamento dei driver, [contattare Autodesk tramite il forum dedicato](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). |
-| **Spazio su disco** | 1 GB di spazio libero su disco. |
-| **Connettività e licenze** | Per eseguire FormIt Pro in Windows, è necessario un Autodesk Account autorizzato con un abbonamento cloud a FormIt Pro. FormIt Pro è disponibile come parte di [**Autodesk AEC Collection**](https://www.autodesk.it/collections/architecture-engineering-construction/overview). |
+| **オペレーティング システム** | Microsoft® Windows® 8、8.1、10  注: OpenGL ドライバでパフォーマンスとグラフィックスが低下する問題があるため、Parallels Desktop は正式にはサポートされていません。__ |
+| **CPU** | SSE2 テクノロジ対応の、Intel® Pentium®、Xeon®、i シリーズ プロセッサ、または同等の AMD® プロセッサ。入手可能な最高速度の CPU を推奨します。 |
+| **メモリ** | 最低 4 GB の RAM。8 GB 以上を推奨します。 |
+| **ビデオ カード\(GPU\)** | OpenGL 4.2 および DirectX 11 以降をサポートする NVIDIA または AMD のディスクリート GPU を強く推奨します。切り替え可能なグラフィックス カードを搭載したシステムの場合は、製造元の指示に従って、FormIt が常に専用の GPU を使用するようにします。[AMD](https://www.amd.com/ja/support/kb/faq/dh-017) および [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) の指示を参照してください。最高のパフォーマンスと信頼性を得るために、製造元の Web サイトまたは Windows Update で、ご使用のグラフィックス カード ドライバが最新であることを確認してください。ドライバが古いなどの問題が原因でビデオ カードを使用できない場合は、FormIt の起動時にメッセージが表示されます。ドライバの更新後に FormIt の起動に失敗する場合は、[フォーラムをご覧ください](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)。 |
+| **ディスク空き容量** | 1 GB のディスク空き容量。 |
+| **接続とライセンス** | Windows で FormIt Pro を実行するには、FormIt Pro のクラウド サブスクリプションの使用権を持つ Autodesk アカウントが必要です。FormIt Pro は、[**Autodesk AEC Collection**](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) に含まれています。 |
 
-## Impostazioni DPI di Windows consigliate
+## Windows での DPI の推奨設定
 
-FormIt per Windows funziona meglio quando lo schermo di visualizzazione è impostato su una scala DPI inferiore o pari al 125% in Windows.
+FormIt for Windows は、Windows の表示画面の DPI スケールを 125% 以下に設定すると最適に動作します。
 
-È possibile modificare questa impostazione in Windows 10 effettuando le seguenti operazioni:
+Windows 10 では、次の操作でこの設定を変更できます。
 
-* Cercare Schermo nel menu Start e scegliere Cambia le impostazioni dello schermo.
-* Selezionare il rettangolo che rappresenta il monitor che verrà utilizzato con FormIt.
-* Nella sezione Ridimensionamento e layout, aprire l'elenco a discesa Modifica la dimensione di testo, app e altri elementi e selezionare un valore pari o inferiore al 125%.
+* [スタート]メニューで、[設定]から[ディスプレイ]の項目を選択します。
+* FormIt で使用するモニタの長方形を選択します。
+* [拡大縮小とレイアウト]セクションで、[テキスト、アプリ、その他の項目のサイズを変更する]ドロップダウンで 125% 以下の値を選択します。
 

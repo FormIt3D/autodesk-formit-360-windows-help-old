@@ -1,94 +1,94 @@
-# Stili di visualizzazione
+# 表示スタイル
 
-È possibile personalizzare l'aspetto visivo del modello, inclusi l'illuminazione complessiva, gli stili dei bordi e gli effetti ambientali. Il pannello Stili visualizzazione è disponibile facendo clic sull'icona degli occhiali da sole sulla barra delle tavolozze:
+全体的な照明、エッジ スタイル、環境効果など、モデルの外観をカスタマイズします。[表示スタイル]パレットは、パレット バーのサングラス アイコンをクリックすると表示されます。
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Gli stili di visualizzazione [possono essere impostati per scena](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), in modo da poter salvare le impostazioni di stile preferite e applicarle ad altre scene.
+表示スタイルは[シーン単位で設定できる](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings)ため、好みのスタイル設定を保存して他のシーンに適用することもできます。
 
-## Superfici 
+## サーフェス
 
-Consente di gestire il modo in cui le superfici vengono visualizzate e ombreggiate.
+サーフェスの表示方法とシェーディング方法を管理します。
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Luminosità ambiente** controlla la luminosità complessiva di tutti i materiali nella scena. Un valore pari a 100 indica che i materiali esposti alla luce verranno visualizzati con la massima luminosità, come definito nel colore o nella trame del materiale. I valori superiori a 100 sovraesporranno i materiali, ma potrebbero essere utili per i modelli di SketchUp che sembrano ancora scuri in FormIt. Il valore di default è 100.
+**アンビエント ブライトネス**は、シーン内のすべてのマテリアルの全体的な明るさをコントロールします。値が 100 の場合、光をあてられたマテリアルは、マテリアルのカラーまたはテクスチャで定義された完全な明るさで表示されます。100 を超える値では、マテリアルは露出オーバーになりますが、FormIt で SketchUp モデルがまだ暗く見える場合などに役立つことがあります。既定値は 100 です。
 
-**Contrasto ambiente** controlla il valore in base a cui risultano più scure le superfici all'ombra, se confrontate con quelle esposte alla luce diretta del sole. Un valore pari a 0 indica che l'illuminazione non ha effetto \(tutti i materiali verranno visualizzati in piena luminosità indipendentemente dall'orientamento\), mentre valori più elevati faranno apparire le superfici all'ombra sempre più scure. Il valore di default è 25.
+**アンビエント コントラスト**は、直射日光にさらされている面と比較して、シェーディングの面がどの程度暗く表示されるかをコントロールします。値が 0 の場合、ライティングは効果がありません\(方向に関係なく、すべてのマテリアルが完全な明るさで表示されます\)。値が大きいほど、シェーディングの面は暗く表示されます。既定値は 25 です。
 
-Attivare/Disattivare **Ombre** per vedere come il progetto verrebbe [ombreggiato all'ora corrente del giorno](https://windows.help.formit.autodesk.com/tool-library/shadows).
+**[影]**のオン/オフを切り替えると、設計物の[現在の時刻でのシェーディングの様子](https://windows.help.formit.autodesk.com/tool-library/shadows)がよくわかります。
 
-**Intensità ombra** controlla il modo in cui le ombre scure vengono disegnate sul piano del terreno e su altre superfici. Un valore pari a 0 rende le ombre effettivamente invisibili e un valore pari a 100 rende nere le ombre. Il valore di default è 20.
+**[影の強度]**は、地盤面やその他の面に描画する影の暗さをコントロールします。値が 0 の場合、影は実質的に非表示になり、値が 100 の場合、影は黒になります。既定値は 20 です。
 
-**Ombre ambiente** consente di aggiungere un tocco di ombreggiatura agli angoli per aggiungere realismo al modello di FormIt.
+**アンビエント シャドウ**を使用すると、コーナーにシェーディングを追加して FormIt モデルにリアリズムを加えることができます。
 
-**Superfici monocromatiche** disattiva il colore e la trama di tutti i materiali e rende bianco l'ambiente circostante. È utile per studi su ombre o ombreggiatura.
+**単色のサーフェス**はすべてのマテリアルのカラーとテクスチャを無効にし、周囲の環境を白くします。これは、影またはシェーディングの調査に役立ちます。
 
-La sezione Colori superficie definisce i colori di default per le superfici quando non viene applicato alcun materiale.
+[サーフェス カラー]セクションは、マテリアルが適用されていない場合の面の既定の色を定義します。
 
-**Superfici** è il colore di default di tutte le superfici di FormIt anteriori \(o entrambi i lati, se l'opzione Superfici posteriori è deselezionata\) quando non viene applicato alcun materiale.
+**面**は、マテリアルが適用されていない場合の、FormIt の前向きの面\([背面]がオフの場合は両面\)の既定の色です。
 
-**Superfici posteriori** consente di visualizzare materiali diversi su entrambi i lati di una singola superficie, per i modelli di SketchUp importati in FormIt e che richiedono tale funzionalità. Questa opzione è deselezionata per default, ma viene selezionata quando i modelli di SketchUp vengono aperti o importati. Nella geometria non di SketchUp, il colore di Superfici posteriori specificato viene visualizzato sui lati posteriori delle superfici.
+**背面**は、FormIt に読み込まれ、背面を必要とする SketchUp モデルについて、単一の面のいずれかの側に異なるマテリアルを表示するために使用されます。このオプションは既定ではオフになっていますが、SketchUp モデルを開いたり読み込んだりするとオンになります。SketchUp 以外のジオメトリでは、指定した背面色が面の裏側に表示されます。
 
-Utilizzare le sezioni Effetti di taglio sezione ed Effetti scuri sezione per gestire i colori di default di superfici, linee e l'effetto scuro quando si utilizza lo strumento [Piano di sezione](section-planes.md).
+[断面カット エフェクト]および[断面ポシェ エフェクト]セクションでは、[[断面平面]](section-planes.md)ツールを使用する場合の面、線分、ポシェの既定の色を管理します。
 
-## Piani del terreno
+## 地盤面
 
-Quando l'opzione Piano del terreno è disattivata in modalità di modifica del gruppo, anche la griglia di Piano di lavoro blu è disattivata.
+グループ編集モードで[地盤面]をオフに切り替えると、青い[作業面]のグリッドもオフに切り替わります。
 
-Il colore di Piano di lavoro può essere personalizzato anche dal gruppo Stili visualizzazione.
+[作業面]の色は、[表示スタイル]パレットからカスタマイズすることもできます。
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Bordi
+## エッジ
 
-Consente di gestire lo stile di visualizzazione di tutti i bordi del modello.
+モデル内のすべてのエッジの表示スタイルを管理します。
 
 ![](../.gitbook/assets/edges.PNG)
 
-**Contrasto** influisce sulla visibilità di tutti i bordi. Un valore pari a 0 renderebbe i bordi effettivamente invisibili. Il valore di default è 60.
+**コントラスト**は、すべてのエッジの表示に影響します。値が 0 の場合、エッジは実質的に非表示になります。既定値は 60 です。
 
-**Colore** influisce sul colore di tutti i bordi del modello. Il valore di default è il nero.
+**色**は、モデル内のすべてのエッジの色に影響します。既定は黒です。
 
-**Bordi spessi** rende tutti i bordi più spessi, inclusi i bordi delle silhouette.
+**厚いエッジ**をオンにすると、シルエット エッジを含むすべてのエッジが厚くなります。
 
-**Bordi di schizzo** aggiunge un effetto di schizzo a tutti i bordi per simulare un effetto di disegno a mano.
+**手書き風のエッジ**をオンにすると、手書きの効果をシミュレートするために、すべてのエッジにスケッチ効果が追加されます。
 
-**Bordi nascosti** visualizza i bordi altrimenti occlusi dalle superfici.
+**隠線エッジ**をオンにすると、サーフェスで隠れているエッジが表示されます。
 
-**Bordi estesi** aggiunge un'estensione ad alcuni bordi per simulare un effetto di disegno a mano.
+**延長エッジ**をオンにすると、一部のエッジが延長され、手書きの効果がシミュレートされます。
 
-## Ambiente
+## 環境
 
-Consente di attivare/disattivare la visualizzazione degli effetti ambientali e degli oggetti di supporto.
+環境効果とヘルパー オブジェクトの表示を切り替えます。
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Griglia** controlla la visualizzazione della griglia sul piano del terreno, nonché la griglia mostrata durante la modifica di un gruppo. L'opzione Snap alla griglia verrà disattivata quando Griglia è disattivata.
+**グリッド**は、地盤面のグリッドの表示と、グループの編集時に表示されるグリッドの表示をコントロールします。この設定がオフの場合、[グリッドにスナップ]オプションは無効になります。
 
-**Assi** controlla la visualizzazione degli assi XYZ mostrati in corrispondenza dell'origine globale o dell'origine del gruppo se si modifica un gruppo.
+**軸**は、ワールド原点、またはグループの編集時にはグループ原点に表示される XYZ 軸の表示をコントロールします。
 
-**Livelli** controlla la visualizzazione dei [**livelli**](levels-and-area.md) ****impostati nel pannello Livelli.
+**レベル** - [レベル]パレットで設定された[**レベル**](levels-and-area.md)の表示をコントロールします。
 
-**Nebbia** controlla la visualizzazione della nebbia disegnata per rendere fluida la transizione tra il piano del terreno e il cielo. Se si disattiva Nebbia, viene generata una linea orizzontale netta in cui il piano del terreno \(se attivato\) incontra il cielo.
+**フォグ**は、地盤面と空の境がシームレスに見えるように描画するフォグの表示をコントロールします。フォグをオフにすると、地盤面\(有効な場合\)と空の境の位置に水平線が作成されます。
 
-**Freccia nord** controlla la visualizzazione di un piccolo widget grafico che indica la direzione del nord di progetto \(come determinato dalla posizione e dalle immagini satellitari\).
+**方位記号**は、プロジェクトの北の方向\(場所と衛星画像によって決定\)を示す小さなグラフィカル ウィジェットの表示をコントロールします。
 
-È possibile personalizzare anche i colori ambientali, quali il cielo, lo sfondo e il piano del terreno.
+空、背景、地盤面などの環境の色もカスタマイズできます。
 
-Il cielo è costituito da una sfumatura di colori **Inferiore/Sfondo**, **Centrale** e **Superiore**.
+上空は、**下部/背景**、**中央**、**上部**のカラー グラデーションで構成されています。
 
-Se l'opzione **Cielo** è deselezionata, sarà visibile solo il colore **Inferiore/Sfondo**.
+**[上空]**オプションがオフの場合は、**[下部/背景]**の色のみが表示されます。
 
-## Diagnostica modello
+## 診断
 
-Attiva/Disattiva la visualizzazione degli strumenti diagnostici.
+各種診断ツールの表示を切り替えます。
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-**Identifica i problemi delle superfici a tenuta ermetica** evidenzia in rosso tutti i bordi che non fanno parte di un oggetto solido a tenuta ermetica.
+**密閉性問題** - 密閉性に問題のあるソリッド オブジェクトのすべてのエッジが赤でハイライト表示されます。
 
-**Identifica le superfici posteriori** evidenzia in rosso tutte le superfici rivolte in modo errato \(tutti gli oggetti solidi devono avere le superfici posteriori rivolte verso l'interno della forma del solido\).
+**背面**は、誤った方向を向いているすべての面が赤でハイライト表示されます\(すべてのソリッド オブジェクトの背面がソリッド形状の内側を向いている必要があります\)。
 
-[Ulteriori informazioni sull'utilizzo della diagnostica per le superfici a tenuta ermetica e posteriori per identificare e risolvere i problemi relativi ai modelli solidi](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[密閉性および背面の診断を使用してソリッド モデルの問題を特定して修正する方法について詳しくは、こちらを参照してください。](https://formit.autodesk.com/blog/post/repairing-solid-models)
 

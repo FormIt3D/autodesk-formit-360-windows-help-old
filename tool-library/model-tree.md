@@ -1,16 +1,16 @@
-# Struttura modello
+# モデル ツリー
 
-Struttura modello consente di visualizzare la gerarchia topologica del modello di FormIt.
+モデル ツリーには、FormIt モデルのトポロジ階層が表示されます。
 
-Attivare Struttura modello accedendo al menu Finestra e selezionando la casella accanto a Struttura modello.
+[ウィンドウ]メニューにある[モデル ツリー]のチェックボックスをオンにして有効にします。
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-All'interno della Struttura modello, ogni gruppo viene identificato come Cronologia, poiché ogni gruppo dispone di una cronologia dei comandi specifica o di un gruppo Annulla/Ripeti.
+各グループには、コマンドの履歴、つまり[元に戻す]操作と[やり直し]操作を保管するための専用スタックがあるため、モデル ツリー内で各グループは履歴として表示されます。
 
-In ogni voce Cronologia, verrà visualizzato un elenco di gruppi, istanze o oggetti geometrici nidificati, ad esempio corpi.
+各履歴内に、ボディなどのネストされたグループ、インスタンス、ジオメトリ オブジェクトのリストが表示されます。
 
-È inoltre possibile visualizzare gli attributi non geometrici \(attributi di stringa\) associati agli oggetti di FormIt utilizzando la Struttura modello. [ È possibile posizionare gli attributi di stringa sui gruppi creati dal nodo SendToFormIt utilizzando Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+モデル ツリーを使用して、FormIt オブジェクトにアタッチされているジオメトリ以外のアトリビュート\(文字列アトリビュート\)を表示することもできます。[Dynamo を使用して、SendToFormIt ノードによって作成されたグループに文字列アトリビュートを配置できます](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)。
 
 ![](../.gitbook/assets/model-tree-attribute.png)
 

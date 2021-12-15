@@ -1,70 +1,70 @@
-# Analisi solare ed energetica
+# 日照解析とエネルギー解析
 
-Ora che il modello è stato creato, possiamo utilizzarlo per studiare l'**impatto solare ed energetico** del nostro progetto. Queste funzionalità sono incorporate in FormIt, in modo che i primi studi possano essere compresi dal punto di vista delle prestazioni degli edifici. Queste funzionalità sono disponibili solo in **FormIt Pro**. Se si utilizza l'app Web, è possibile che non si disponga dell'accesso.
+モデルが作成されたので、これを使用して設計の**太陽とエネルギーの影響**を調査できます。これらの機能は FormIt に組み込まれているため、最初の調査を建物のパフォーマンスの観点から理解することができます。これらの機能は、**FormIt Pro** のみに含まれており、Web アプリでフォローしている場合は、アクセスできない可能性があります。
 
-Se non è stata completata l'ultima sezione, fare clic su File &gt; Apri e scegliere **farnsworth08.axm** dalla cartella FormIt Primer.
+直前の演習がまだ完了していない場合は、[ファイル] &gt; [開く]をクリックし、FormIt Primer フォルダで **farnsworth08.axm** を選択してください。
 
-## Ombre
+## 影
 
-Prima di poter utilizzare uno qualsiasi di questi strumenti di analisi, è necessario [impostare la posizione](). In questo modo FormIt consente di accedere a dati precisi relativi a sole, ombre e clima.
+これらの解析ツールを使用する前に、[場所を設定]()する必要があります。これにより、FormIt は正確な日照、影、気候データにアクセスできます。
 
-1. Fare clic sull'icona del sole sulla [**barra degli strumenti delle azioni**](../../formit-introduction/tool-bars.md) e selezionare **Ombre \(DS\)**.
+1. [**アクション ツールバー**](../../formit-introduction/tool-bars.md)の太陽アイコンをクリックして、**[影\(DS\)]**をオンにします。
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. Regolare i dispositivi di scorrimento **Giorno** e **Ora** per vedere come cambiano le ombre.
+2. **[通日]**スライダと**[時間]**スライダを調整して、影がどのように変化するかを確認します。
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. Notare come la terrazza coperta sia ombreggiata nelle ore più calde dei mesi estivi, sicuramente non a caso.
+3. 夏の最も暑い時間帯に、ひさしの付いたテラス部分が日陰になることがわかります。もちろん、これは偶然ではなく、そうなるように設計しているためです。
 
-**Nota** Le ombre possono causare una riduzione delle prestazioni dell'applicazione. Due suggerimenti per ovviare a questo problema: disattivare le ombre se la navigazione risulta lenta o disattivare layer come **Furniture** se non sono necessari per lo studio delle ombre.
+**注:** [影]によってアプリケーション パフォーマンスが低下する可能性があります。これを緩和する方法は 2 つあります。ナビゲーションが遅くなった場合は[影]をオフにするか、影の解析に必要のない **Furniture** (家具)のようなレイヤをオフにします。
 
-## Analisi solare
+## 日照解析
 
-Essendo dotati di memoria visiva, i progettisti possono imparare e comunicare un'incredibile quantità di informazioni dai diagrammi delle mappe termiche, come quello che stiamo per creare.
+これから作成するようなヒートマップの図からは、ビジュアル デザインに役立つ多くの情報を学び、伝えることができます。
 
-1. Nella parte inferiore del [**menu Sole**](../../formit-introduction/tool-bars.md), fare clic sul pulsante **Analisi solare**.
-2. Si è in una modalità speciale in cui le **ombre**, i **tasti di scelta rapida** e altre **barre degli strumenti** sono disattivati.
-3. Il funzionamento della selezione viene modificato in modalità **Analisi solare**. È possibile selezionare **scorrendo i gruppi**, non è necessario tenere premuto **CTRL** o **MAIUSC** per aggiungere elementi al gruppo di selezione ed è possibile deselezionare gli elementi facendo nuovamente clic. È possibile **fare un singolo clic** sulla geometria, **farvi doppio clic** o eseguirne la **selezione tramite finestra**.
-4. Scegliere le superfici che si desidera studiare. **Fare un singolo clic** sulla parte superiore del **tetto** e sulla parte superiore dei **pavimenti**. Evitare di selezionare elementi piccoli come gli arredi.
+1. [**太陽**](../../formit-introduction/tool-bars.md)アイコンのメニュー下部にある**[日照解析]**ボタンをクリックします。
+2. **影**、**キーボード ショートカット**、およびその他の**ツールバー**が無効になった、特殊なモードになります。
+3. 選択の動作は、**日照解析**モードで変更されます。**グループ全体**を選択できます。**[Ctrl]**や**[Shift]**を押しながら選択セットに追加する必要はありません。また、もう一度クリックすると項目を選択解除できます。ジオメトリを**シングル クリック**、**ダブル クリック**、または**ウィンドウ選択**で選択できます。
+4. 調査する面を選択します。**屋根**の上部と**床**の上部を**シングル クリック**します。家具などの小さな要素は選択しないでください。
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. Nell'angolo superiore sinistro dell'area di disegno, individuare la barra degli strumenti **Analisi solare**. Fare clic su **Analizza**. FormIt consente di calcolare ed eseguire il rendering delle superfici. Le impostazioni qui possono essere regolate prima **e** dopo la fine dell'analisi.
+5. キャンバスの左上コーナーに**[日照解析]**ツールバーがあります。**[解析]**をクリックします。FormIt はサーフェスを計算してレンダリングします。この設定は、解析の終了前**および**終了後に調整できます。
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. L'impostazione **Mese Picco** mostra i valori di **picco** \(in Btu/ft²\) per il mese specificato. Questa opzione è destinata agli **studi di ombreggiatura**. È possibile modificare l'impostazione del mese e la grafica si aggiorna all'istante. **Posizionare il cursore** su una superficie analizzata per ottenere un valore **specifico**.
+6. **[月のピーク]**設定では、指定した月の**ピーク**値 \(BTU / 平方フィート\)が表示されます。これは、**シェーディング調査**を目的としています。月の設定を変更すると、グラフィックスの更新がすぐに行われます。解析済みのサーフェスに**マウス カーソルを置く**と、**具体的な**値が表示されます。
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. L'impostazione **Anno Cumulativo** mostra l'energia **cumulativa** per l'intero anno \(in KwH/m²\). Questa è destinata agli **studi sul potenziale fotovoltaico**.
+7. **[累積年]**設定には、年間の**累積**エネルギー量\(KwH / 平方メートル\)が表示されます。これは、**PV の可能性のシミュレーション**を目的としています。
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. Questi studi di **Analisi solare** possono essere esportati facendo clic su **File &gt; Esporta \(CTRL+E\)** e scegliendo **Immagine** dall'elenco a sinistra.
+8. これらの**日照解析**スタディは、**[ファイル] &gt; [書き出し]\([Ctrl] + E\)**をクリックし、左側のリストから**[イメージ]**を選択して書き出すことができます。
 
-## Analisi energetica con Insight
+## Insight を使用したエネルギー解析
 
-FormIt ha integrato gli stessi strumenti di analisi delle prestazioni degli edifici utilizzati da Revit. **Insight** fornisce una dashboard di parametri di sistema degli edifici che è possibile regolare per riflettere i potenziali scenari senza richiedere la **rianalisi** della geometria del modello. Insight funziona meglio con la geometria di **volumetrie** di FormIt.
+FormIt には、Revit が使用するものと同じ建築パフォーマンス解析ツールが統合されています。**Insight** は、建物システム パラメータのダッシュボードを提供します。これは、モデル ジオメトリを**再解析**しなくても、潜在的なシナリオを反映するように調整できます。Insight は、FormIt **マス** ジオメトリで最適に機能します。
 
-1. Assicurarsi di avere eseguito l'accesso con Autodesk Account. Disattivare **tutti** i layer **ad eccezione** del layer **Massing**. Alla geometria deve essere applicato almeno un **livello**.
-2. In FormIt verrà inviata solo la geometria **visibile** ad Insight. Notare che anche una **massa** semplice produrrà una serie di dati da **Insight**.
+1. Autodesk アカウントにログインしていることを確認してください。**Massing** レイヤを**除く** **すべての**レイヤをオフにします。ジオメトリには少なくとも 1 つの**レベル**が適用されている必要があります。
+2. FormIt は、**表示**ジオメトリのみを Insight に送信します。単純な**マス**でも、**Insight** から多数のデータが生成されることに注意してください。
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. Fare clic sul pulsante **Insight &gt; Genera informazioni approfondite**. L'analisi verrà eseguita nel cloud, in modo che sia possibile continuare la modellazione durante il calcolo.
+3. **[Insight] &gt; [Insight を作成]**ボタンをクリックします。解析はクラウドで実行されるため、計算中にモデルでの作業を続行できます。
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. Una volta completata dell'analisi, fare clic sul pulsante **Visualizza informazioni approfondite** per visualizzare il **modello energetico** e i **fattori delle prestazioni** \(se lo si desidera, è possibile visitare il sito Web direttamente all'indirizzo [**http://insight.autodesk.com**](http://insight.autodesk.com/)\).
+4. 解析が完了したら、**[Insight を表示]**ボタンをクリックして**エネルギー モデル**と**パフォーマンス係数**を表示します\(必要に応じて、Web サイト [**http://insight.autodesk.com**](http://insight.autodesk.com/)に直接アクセスできます\)。
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. Nella dashboard di Insight, è possibile impostare un valore \(o un intervallo di valori\) per ogni widget **Performance Factor** facendo clic sul fattore e trascinando i punti blu. L'intervallo è utile se non si conosce ancora il sistema specifico che verrà utilizzato dall'edificio.
-6. Ad ogni modifica apportata ad un **fattore**, viene aggiornato l'**intervallo di costi energetici** \ (misurato in USD/m²/anno\). È possibile vedere le prestazioni del progetto rispetto a parametri di riferimento come **Ashrae 90.1** e la sfida di **Architecture 2030**.
-7. Se il progetto cambia forma drasticamente, è possibile inviare nuovamente la massa aggiornata alla stessa dashboard. Se si desidera creare una **nuova** dashboard per il progetto aggiornato, sarà necessario prima selezionare **Salva con nome** in FormIt.
-8. Se l'analisi energetica non riesce, è possibile che siano presenti **problemi delle superfici a tenuta ermetica \(DW\)** basati sulla geometria; questi possono essere esaminati e corretti in FormIt.
-9. Disattivare il layer **Massing** e riattivare tutti gli altri layer.
+5. Insight ダッシュボードで、係数をクリックして青いドットをドラッグすると、**パフォーマンス係数**ウィジェットごとに値\(または値の範囲\)を設定できます。建物で使用する具体的なシステムがまだわからない場合は、範囲を設定すると便利です。
+6. **係数**を変更するたびに、**エネルギー コスト範囲**\(USD / 平方メートル / 年で測定\)全体が更新されます。**Ashrae 90.1** や **Architecture 2030** の課題など、ベンチマークに対する設計のパフォーマンスを確認できます。
+7. 設計が大幅に変更された場合は、更新されたマスを同じダッシュボードに再送信できます。更新されたデザインの**新しい**ダッシュボードを作成する場合は、最初に FormIt で**[名前を付けて保存]**を実行する必要があります。
+8. エネルギー解析に失敗した場合は、**密封性に関する問題\(DW\)**がジオメトリにある可能性があり、FormIt で確認して修正できます。
+9. **Massing** レイヤをオフにして、他のすべてのレイヤをオンに戻します。
 

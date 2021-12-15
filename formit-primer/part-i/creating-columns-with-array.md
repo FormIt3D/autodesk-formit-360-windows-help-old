@@ -1,146 +1,146 @@
-# 1.8 - Creazione di pilastri con matrice
+# 1.8 - 配列を使用して柱を作成する
 
-_In questo esercizio, disegneremo un elemento dettagliato, una colonna con trave a I. Quindi utilizzeremo lo strumento Matrice per creare rapidamente più copie con spaziatura uniforme._
+_この演習では、詳細要素をスケッチして I 形の柱を作成します。次に、配列ツールを使用して、等間隔に複数のコピーをすばやく作成します。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.8 - Create Columns with Array.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.8 – Create Columns with Array.axm** ファイルをダウンロードして開きます。_
 
-## **Disegno del profilo del pilastro**
+## **柱のプロファイルをスケッチする**
 
-1 - Per facilitare la procedura di disegno:
+1 - 作図プロセスを容易にするために、次のように操作します。
 
-1. Accedere a **Vista dall'alto \(VT\)**.
-2. Passare alla modalità della vista **Ortogonale \(VO\)**.
-3. Disattivare i layer **Main Building** **Floor** e **Roof**. Con questo passaggio si impedirà che la nuova geometria esegua lo snap alla geometria esistente su tali layer.
-4. Eseguire lo zoom avanti nell'angolo superiore sinistro dell'immagine della **pianta del pavimento importata** in modo da poter visualizzare il pilastro in dettaglio.
-5. Disattivare la funzionalità **Snap a griglia \(SG\)** \(se è stata attivata\). In questo modo, sarà possibile disegnare le linee di dettaglio.
+1. **[上面ビュー\(VT\)]**に移動します。
+2. ビュー モードを**[正投影\(VO\)]**に切り替えます。
+3. レイヤ **Main Building** **Floor** および **Roof** をオフにします。これで、新しいジオメトリはこれらのレイヤ上の既存のジオメトリにスナップしなくなります。
+4. **読み込まれた平面図**のイメージの左上コーナーを拡大表示して、柱の詳細が表示されるようにします。
+5. **[グリッドにスナップ\(SG\)]**機能がオンになっている場合はオフにします。これで、詳細な線分を描画できるようになります。
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_Per disegnare il pilastro, disegneremo prima una metà, quindi eseguiremo una copia speculare per creare rapidamente l'altra metà simmetrica._
+柱を描画するには、まず半分を描画し、次に鏡像化して、対称的な残りの半分をすばやく作成します。__
 
-2 - Per creare la prima metà della trave a I, utilizzare lo **strumento Linea \(L\)** per creare il seguente disegno utilizzando le quote specificate. Non importa per il momento la posizione esatta del pilastro sull'immagine di pianta.
+2 - I 形の最初の半分を作成するには、**[線分\(L\)]**ツールを使用し、指定した寸法で次のスケッチを作成します。ここでは、柱を平面図イメージ上の正確な位置に配置する必要はありません。
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - Per creare una copia speculare della forma appena disegnata:
+3 - 描画したシェイプを鏡像化します。
 
-1. Fare doppio clic per selezionare tutte le superfici e i bordi della geometria disegnata.
-2. Fare clic con il pulsante destro del mouse e selezionare lo **strumento Copia speculare \(MI\)**.
-3. Fare clic sul grip arancione centrale del **widget Copia speculare** e posizionarlo nell'angolo inferiore sinistro della geometria.
-4. Utilizzare la freccia inferiore del pulsante a doppia freccia nel widget per ruotare l'asse della copia speculare di -90 gradi \(senso orario\).
-5. Fare clic una sola volta nello spazio o premere **ESC** per completare la procedura di copia speculare. Il risultato dovrebbe essere simile ad un profilo con trave a I con una linea fino al centro. Premere nuovamente **ESC** per annullare la selezione.
+1. ダブルクリックして、描画したジオメトリのすべての面とエッジを選択します。
+2. 右クリックして**[鏡像化\(MI\)]**ツールを選択します。
+3. **[鏡像化]ウィジェット**の中央のオレンジ色のグリップをクリックし、ジオメトリの左下コーナーに配置します。
+4. ウィジェットで両方向矢印ボタンを下に動かして、鏡像化の軸を -90 度、時計回りに回転させます。
+5. スペース内以外でシングルクリックするか、**[Esc]**を押して鏡像化プロセスを終了します。結果は、中央に線分がある I 形のプロファイルになるはずです。再度**[Esc]**を押して、選択をクリアします。
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Nota** La posizione e l'orientamento della geometria finali vengono visualizzati in anteprima con la forma semitrasparente blu durante la regolazione del widget Copia speculare. È possibile utilizzare questa anteprima come riferimento per creare la copia speculare della geometria nella posizione desiderata._
+_**注:** 鏡像化ウィジェットを調整しているときに、ゴースト モードの青色のシェイプで最終的なジオメトリの位置と方向がプレビューされます。このプレビューを参考にして、ジオメトリを目的の位置に鏡像化できます。_
 
-4 - Per unire entrambi i lati in un'unica geometria, rimuovere la linea che li divide facendovi clic per selezionarla e quindi premendo **Elimina**. Ora le due superfici sono unite in una singola superficie.
+4 - 両側を単一のジオメトリに結合するには、分割している線分をクリックして選択し、**[Delete]**を押して削除します。これで、2 つのサーフェスが単一のサーフェスに結合されました。
 
-5 - Per spostare la geometria nella posizione finale:
+5 - ジオメトリを最終的な位置に移動します。
 
-1. Se disattivati, attivare i layer **Plan Image** e **Roof** per utilizzarli come guida.
-2. Fare doppio clic sul profilo del pilastro per selezionarne la superficie e tutte le linee. Iniziare a spostare la selezione lungo l'asse verde \(**Asse Y**\). Tenere premuto **MAIUSC** e spostare il profilo fino a quando non si allinea con il tetto, quindi fare clic per posizionarlo.
-3. Analogamente al passaggio precedente, spostare nuovamente la geometria, questa volta bloccandola sull'asse rosso \(**Asse X**\).
-4. Fare clic per posizionarlo sopra la trave ad I disegnata in **Plan Image**. Guardando meglio da vicino, come nell'immagine seguente, la posizione orizzontale non deve essere perfetta. 
+1. レイヤ **Plan Image** と **Roof** がオフの場合はオンにして、ガイドとして使用します。
+2. 柱のプロファイルをダブルクリックして、その面とすべての線分を選択します。緑色の **Y 軸**に沿って選択を移動します。**[Shift]**を押しながらプロファイルを移動して屋根と位置合わせし、クリックして配置します。
+3. 前の手順と同様に、ジオメトリを再度移動します。今回は、ジオメトリを赤色の **X 軸**にロックします。
+4. クリックして、**Plan Image** に描画された I 形の上に配置します。次の図のようにすると、うまく近づけることができます。水平位置は完璧である必要はありません。
 
-_**Nota**_ _Il tasto_ _**MAIUSC**_ _blocca la geometria per spostarsi lungo un solo asse, in questo caso quello verde \(**Asse Y**\). In questo modo, il profilo del pilastro non si sposta accidentalmente verso l'alto e non si allinea alla parte superiore del piano del tetto._
+_**注:**_ _[_ _**Shift**_ _]キーを押すと、ジオメトリが 1 つの軸にのみ沿って移動するようにロックされます。この例では緑色の **Y 軸**です。これで、柱のプロファイルが誤って上に移動して屋根平面の上部に位置合わせされることがなくなります。_
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Estrusione e creazione della matrice del pilastro**
+## **柱を押し出して配列する**
 
-1 - Per facilitare la successiva procedura di disegno, ripristinare la modalità della vista **Prospettica \(VP\)** ed eseguire **Orbita \(O\)** per posizionare la cinepresa in modo da visualizzare il profilo con trave a I da nord-ovest. Utilizzare la freccia a nord nell'angolo inferiore sinistro per posizionare la vista.
+1 - 次の作図プロセスを容易にするために、ビュー モードを**[パース投影\(VP\)]**に戻し、**オービット\(O\)**して、北西から I 形のプロファイルを見られるようにカメラ位置を調整します。左下隅の方位記号がビューの配置に役立ちます。
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Nota**_ _Per informazioni su come spostarsi all'interno del disegno, è consigliabile consultare il capitolo_ _**Navigazione nella scena**_ _._
+_**注:**_ _スケッチ内をナビゲートする方法については、_ _**「シーンをナビゲートする」**_ _の章を参照することをお勧めします。_
 
-2 - Selezionare la superficie del profilo del pilastro ed estrudere la superficie fino a **17'-8"**.
+2 - 柱のプロファイル面を選択し、面を **17'-8"** まで上に押し出します。
 
-_**Nota**_ _Se durante lo spostamento del profilo del pilastro, la superficie viene allineata al tetto, estruderla verso il basso di_ _**17'-8"**   anziché verso l'alto._
+_**注:**_ _柱のプロファイルを移動する際に、柱のプロファイルが屋根に位置合わせされている場合は、面を上ではなく_ _**17'-8"**   だけ下に押し出します。_
 
-3 - Eseguire lo zoom indietro e attivare il layer **Roof** \(se disattivato\). La parte superiore del pilastro deve essere allineata alla parte superiore del tetto.
+3 - 縮小表示し、レイヤ **Roof** がオフであればオンにします。柱の上端は屋根の上端と揃っている必要があります。
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - Per mantenere organizzato e ordinato il modello, selezionare nuovamente la geometria del pilastro ed effettuare le seguenti operazioni:
+4 - モデルを整理するために、柱のジオメトリを再度選択して、次の操作を行います。
 
-1. Selezionare **Gruppo \(G\)** e denominarlo **Column Tall**.
-2. Creare un nuovo **Layer** denominato **Column** e aggiungervi il gruppo.
-3. Importare il materiale **Metal - Brushed - Colorized** e dipingere il gruppo.
+1. **グループ\(G\)**にして、名前を **Column Tall** に設定します。
+2. 新しい**レイヤ**を **Column** という名前で作成し、グループをそのレイヤに追加します。
+3. マテリアル **Metal - Brushed - Colorized** を読み込み、グループをペイントします。
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Nota**_ _Per ulteriori informazioni su_ _**gruppi**,_ _**layer** e_ _**materiali**, vedere i capitoli precedenti._
+_**注**_ _:_ _**グループ**、_ _**レイヤ**、_ _**マテリアル**の詳細については、前の章を参照してください。_
 
-4 - Fare clic su **ESC** per deselezionare lo strumento del pennello.
+4 - **[Esc]**を押して、[ペイントブラシ]ツールを終了します。
 
-## **Creazione della matrice di pilastri**
+## **柱を配列する**
 
-1 - Accedere a **Vista dall'alto \(VT\)** e impostare nuovamente la modalità della cinepresa su **Ortogonale \(VO\)**.
+1 - **[上面ビュー\(VT\)]**に移動し、カメラ モードを再度**[正投影\(VO\)]**に切り替えます。
 
-2 - Disattivare il layer **Roof**.
+2 - レイヤ **Roof** をオフにします。
 
-3 - Per avviare la procedura di creazione della matrice:
+3 - 配列処理を開始します。
 
-1. Fare clic una sola volta per selezionare il gruppo di pilastri. Fare clic con il pulsante destro del mouse per visualizzare il **menu contestuale** e scegliere **Matrice \(AR\)**.
-2. Nella finestra di dialogo **Proprietà matrice**, utilizzare le seguenti impostazioni:
-   * **Lunghezza tra le copie**
-   * **Lineare** \(default\)
-   * **Raggruppa ogni solido, poi crea la matrice** \(default\)
-   * **Numero di copie: 3**
-   * Premere **OK** per chiudere la finestra di dialogo.
+1. 柱のグループをシングルクリックして選択します。右クリックして**コンテキスト メニュー**から**[配列\(AR\)]**を選択します。
+2. **[配列複写プロパティ]**ダイアログで、次の設定を使用します。
+   * **コピー間の長さ**
+   * **直線**(既定)
+   * **各ソリッドをグループ化して配列に格納**(既定)
+   * **コピー数: 3**
+   * **[OK]**を押して、ダイアログを閉じます。
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - Per posizionare i nuovi elementi:
+4 - 新しい要素を配置します。
 
-1. Fare clic una sola volta sul pilastro per avviare **Matrice**. Spostare il cursore lungo l'asse rosso \(**Asse X**\).
-2. Impostare la quota su **22'**. Ora sono presenti **quattro** pilastri distanziati a **22'**.
-3. Premere **ESC** per annullare la selezione.
+1. 柱をシングルクリックして、**[配列]**を開始します。赤色の **X 軸**に沿ってカーソルを移動します。
+2. 寸法を **22'** に設定します。これで、**4** つの柱の間隔が **22'** になりました。
+3. **[Esc]**を押して選択をクリアします。
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - Per selezionare tutti i gruppi **Tall Column** contemporaneamente, posizionare il cursore del mouse su uno di essi e premere una volta il tasto **TAB**. Notare che sono stati evidenziati tutti i riquadri di delimitazione dei 4 pilastri. Fare clic una sola volta sul pilastro su cui si trova il cursore del mouse e verranno selezionati tutti. Questo è un modo rapido per selezionare contemporaneamente tutte le istanze dello stesso gruppo.
+5 - **Tall Column** のすべてのグループを一度に選択するには、いずれかのグループにマウスを合わせて、**[Tab]**キーを一度押します。これで、4 つの柱の境界ボックスがすべてハイライト表示されます。マウスを合わせている柱をシングルクリックすると、それらがすべて選択されます。この方法は、同じグループのすべてのインスタンスを一度に簡単に選択できて便利です。
 
-6 - Eseguire un'altra volta **Matrice \(AR\)** per creare i pilastri sull'altro lato dell'edificio. Questa volta creare 1 copia lungo l'asse verde dell'edificio. Impostare la quota su **29'- 4 5/8".**
+6 - もう一度**[配列\(AR\)]**を実行して、建物の反対側に柱を作成します。今回は、建物の緑色の軸に沿って 1 つのコピーを作成します。寸法を **29'- 4 5/8"**
 
-_**Nota**_ _29' 4 5/8" = 8 5/8" \(profondità del pilastro\) + 28'-8" \(larghezza dell'edificio principale\)._
+_**注:**_ _29' 4 5/8" = 8 5/8" (柱の奥行き) + 28'-8" (メインの建物の幅)_
 
-7 - Per visualizzare l'intero edificio, accedere a **Vista 3D \(V3\)** e impostarla su **Prospettica \(VP\)**. Se disattivati, attivare i layer **Main Building Floor**, **Roof**, **Lower Terrace** e **Column**.
+7 - 建物全体を表示するには、**[3D ビュー\(V3\)]**に移動し、**[パース投影\(VP\)]**に設定します。レイヤ **Main Building Floor**、**Roof**、**Lower Terrace**、および **Column** がオフの場合はオンにします。
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Creazione di pilastri della terrazza**
+## **テラスの柱を作成する**
 
-_Ora duplicheremo i pilastri dell'edificio principale per creare versioni simili, ma più corte, per la terrazza._
+_メインの建物の柱を複製して、短いバージョンの柱をテラスに作成します。_
 
-1 - Per semplificare il disegno, consigliamo di tornare alle impostazioni **Ortogonale \(OV\)** e **Vista dall'alto \(VT\)**.
+1 - 作図しやすくするために、**[正投影\(VO\)]**および**[上面ビュー\(VT\)]**の設定に戻ることをお勧めします。
 
-2 - Per creare i nuovi pilastri:
+2 - 新しい柱を作成します。
 
-1. Tenere premuto **CTRL** o **MAIUSC** e fare clic sui 3 pilastri più vicini a **Lower Terrace Floor** per selezionarli.
-2. Fare clic una sola volta su uno qualsiasi dei pilastri per iniziare a spostare contemporaneamente tutti e 3 i pilastri selezionati. Premere una volta il tasto **CTRL** per creare una **copia rapida**. Verrà visualizzata un'anteprima semitrasparente della copia.
-3. Spostare le copie verso il basso lungo l'asse verde \(**Asse Y**\) di **23'-4 3/8**". Premere **ESC**.
-4. Senza deselezionarli, spostare i pilastri copiati lungo l'asse rosso \(**Asse X**\) di **22'** per collocarli nella posizione finale.
-5. Nuovamente, con i 3 nuovi pilastri ancora selezionati, fare clic con il pulsante destro del mouse su uno dei pilastri copiati e selezionare **Rendi univoco \(MU\)**. Questi pilastri sono ora associati tra loro, ma univoci rispetto agli originali.
+1. **[Ctrl]**または**[Shift]**を押しながら、**Lower Terrace Floor** に最も近い 3 つの柱をクリックして選択します。
+2. いずれかの柱をシングルクリックすると、選択した 3 つの柱すべてが一度に移動します。**[Ctrl]**キーを一度押すと、**クイック コピー**が作成されます。コピーのゴースト モードのプレビューが表示されます。
+3. コピーを緑色の **Y 軸**に沿って下に **23'-4 3/8**" だけ移動します。**[Esc]**を押します。
+4. 選択解除せずに、コピーした柱を赤色の **X 軸**に沿って **22'** だけ移動して、最終的な位置に配置します。
+5. 再度、3 つの新しい柱を選択した状態で、コピーした柱の 1 つを右クリックし、**[固有にする\(MU\)]**を選択します。これらの柱は相互に関連付けられていますが、元の柱とは別物になっています。
 
-_**Nota**_ _Tenendo premuto_ _**MAIUSC**_ _o_ _**CTRL**_ _è possibile selezionare più elementi contemporaneamente o rimuovere elementi dalla selezione corrente._
+_**注:**_ _[_ _**Shift**_ _]または_ _**[Ctrl]**_ _を押したままにすると、複数の要素を一度に選択したり、現在の選択から要素を削除できます。_
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modificare il nuovo gruppo di pilastri:
+3 - 新しい柱グループを修正します。
 
-1. Fare doppio clic per modificare uno dei nuovi gruppi e rinominarlo **Column Short.**
-2. Regolare l'altezza del nuovo pilastro per allinearlo alla parte superiore di **Lower Terrace** **Floor** \(3'-2"\). A tale scopo, selezionare e trascinare la superficie del pilastro verso il basso lungo l'asse blu \(**Asse Z**\) e tenere premuto **MAIUSC**. Posizionare il cursore in un punto qualsiasi della superficie superiore di **Lower Terrace Floor** e l'altezza del pilastro verrà allineata automaticamente alla terrazza inferiore. Una volta impostata l'altezza, fare clic per terminare.
+1. ダブルクリックして新しいグループのいずれかを編集し、名前を「**Column Short」に変更します。**
+2. 新しい柱の高さを調整して、**Lower Terrace** **Floor** の上面(3'-2")に位置合わせします。これを行うには、柱の面を選択して青色の **Z 軸**に沿って**[Shift]**を押したまま下にドラッグします。**Lower Terrace Floor** の上面の任意の場所にカーソルを合わせると、柱の高さが自動的に Lower Terrace に位置合わせされます。高さを設定したら、クリックして終了します。
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Nota**_ _È possibile controllare l'altezza dei pilastri corti utilizzando lo strumento_ _**Misura \(ME\)**_ _. In alternativa, è possibile selezionare uno dei bordi verticali del pilastro e visualizzarne la lunghezza nella_ _**tavolozza Proprietà**._
+_**注:**_ _[_ _**計測\(ME\)**_ _]ツールを使用して、短い柱の高さを確認できます。_または、いずれかの柱の垂直エッジを選択し、**[プロパティ]パレット**で長さを確認することもできます。__
 
-4 - Utilizzando le tecniche appena apprese, copiare il pilastro corto più lontano sul lato opposto di **Lower Terrace Floor** per creare l'ultimo pilastro rimanente.
+4 - 先ほど学習した技法を使用し、最も遠い場所にある短い柱を **Lower Terrace Floor** の反対側にコピーして残りの柱を作成します。
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

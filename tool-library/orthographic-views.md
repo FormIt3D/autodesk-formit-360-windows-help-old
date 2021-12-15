@@ -1,26 +1,26 @@
-# Viste ortogonali
+# 正投影ビュー
 
-**È possibile visualizzare il modello in diverse viste ortogonali, inclusi la parte superiore, i lati e la parte inferiore.**
+**上面、側面、下面などのさまざまな正投影ビューでモデルを表示します。**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Per trovare le viste ortogonali, fare clic sull'icona superiore sulla barra degli strumenti Navigazione mobile:**
+正投影ビューは、浮動ナビゲーション ツールバーの**最上部のアイコン**をクリックすると表示されます。
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Alcuni suggerimenti utili quando si lavora con le viste ortogonali:**
+**正投影ビューを使用する際に役立つヒントをまとめました**
 
-* Quando si passa da una vista ortogonale all'altra, in FormIt si mantiene il livello di zoom per garantire la coerenza.
-* Quando si passa da una vista di prospetto all'altra (anteriore/destra/sinistra/posteriore), in FormIt si mantiene l'altezza del terreno per garantire la coerenza.
-* È possibile tenere premuto MAIUSC durante la panoramica in una vista ortogonale per bloccare il movimento di Pan sull'asse orizzontale o verticale.
-* Le direzioni della vista ortogonale si basano sugli assi globali. È possibile riallineare gli assi, il che modificherà l'orientamento di tutte le viste ortogonali:
-   * Utilizzare il tasto di scelta rapida SZ o fare clic con il pulsante destro del mouse nello spazio (non sopra qualsiasi geometria):
+* 正投影ビュー間で切り替えると、一貫性を保つためにズーム レベルが維持されます。
+* 立面図ビュー(前面/右側面/左側面/後面)を切り替えると、一貫性を保つために地面の高さが維持されます。
+* 正投影ビューで[Shift]を押しながら画面移動すると、画面移動の動きを水平軸または垂直軸にロックできます。
+* 正投影ビューの方向は、ワールド軸に基づいています。軸の位置合わせを変更すると、すべての正投影ビューの向きが変わります。
+   * ショートカットの SZ を使用するか、スペース内のジオメトリのない場所で右クリックします。
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * Impostare l'origine e infine il grip sugli assi rossi per allinearlo con una direzione significativa.
+   * 原点を設定し、グリップを赤い軸上に設定して、適切な方向に位置合わせします。
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**Le viste ortogonali funzionano in combinazione con altre funzionalità di FormIt:**
+**正投影ビューは、他の FormIt 機能と連動します**
 
-* Salvare le viste di prospetto come scene per potervi tornare in un secondo momento.
-* Controllare la visibilità della geometria che potrebbe interferire con le viste di prospetto mediante i layer.
-* Aggiungere piani di sezione per creare prospetti di sezione.
+* 立面図ビューをシーンとして保存すると、後で戻ることができます。
+* レイヤを使用して、立面図ビューの妨げになる可能性のあるジオメトリの表示をコントロールします。
+* 断面平面を追加して、断面の立面図を作成します。

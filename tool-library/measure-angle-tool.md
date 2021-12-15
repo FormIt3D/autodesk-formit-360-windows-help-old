@@ -1,26 +1,26 @@
-# Misura angolo
+# 角度を計測する
 
-Lo strumento Misura angolo si trova sulla [barra degli strumenti](../formit-introduction/tool-bars.md).
+[角度を計測]ツールは、[ツールバー](../formit-introduction/tool-bars.md)にあります。
 
-Lo strumento Misura angolo consente di misurare gli angoli tra vertici, bordi, superfici e volumi. È inoltre possibile utilizzare lo strumento Misura angolo per controllare le quote della geometria.
+[角度を計測]ツールを使用して、頂点、エッジ、面、体積間の角度を計測します。また、ジオメトリの寸法を調整することもできます。
 
-* Dal menu della barra degli strumenti **Misura**, selezionare lo strumento **Misura angolo** o utilizzare il tasto di scelta rapida **MA** e selezionare un punto iniziale.
+* **[計測]**ツールバー メニューから**[角度を計測]**ツールを選択するか、キーボード ショートカットの **MA** を使用して、始点を選択します。
 
    ![](../.gitbook/assets/measure-angle.png)
 
-* Fare clic e trascinare il punto di manipolazione fino al vertice iniziale.
+* ハンドルをクリックして、開始位置の頂点までドラッグします。
 
    ![](../.gitbook/assets/measure-angle2.png)
 
-* Utilizzare le frecce per misurare l'angolo tra un punto e l'altro.
+* 矢印を使用して、点と点の間の角度を計測します。
 
    ![](../.gitbook/assets/measure-angle4.png)
 
-* Per modificare la geometria, fare clic su un bordo o su una superficie e immettere un nuovo valore dell'angolo facendo clic sull'angolo visualizzato.
+* ジオメトリを変更するには、エッジまたは面をクリックし、表示された角度をクリックして新しい角度値を入力します。
 
    ![](../.gitbook/assets/measure-angle3.png)
 
-* Vengono visualizzate le modifiche o le misurazioni:
+* 変更した角度値に合わせてジオメトリが変化します。
 
    ![](../.gitbook/assets/measure-angle5.png)
 

@@ -1,52 +1,52 @@
-# Linea di offset
+# オフセット ライン
 
-È possibile disegnare linee parallele, o di offset, utilizzando lo strumento Linea di offset. Questa opzione è utile per creare forme 2D che possono essere successivamente estruse per assomigliare a muri 3D.
+[オフセット ライン]ツールを使用して、平行つまりオフセットの線分を描画します。これは、後で 3D 壁のように押し出す 2D 形状を作成する場合に便利です。
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-Lo strumento **Linea di offset** funziona come lo strumento [**Linea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
+**[オフセット ライン]**ツールは、[**[線分]**](https://windows.help.formit.autodesk.com/tool-library/line-tool)ツールと同様に機能します。
 
-* Fare clic per impostare il primo punto, quindi spostare il cursore e posizionare i punti successivi, eseguendo lo snap alla geometria esistente o agli assi di deduzione.
-* Viene mostrata un'anteprima della forma risultante. Il secondo e il terzo punto determinano il piano per il resto dei punti da seguire, pertanto il risultato è piano.
-* Continuare ad aggiungere punti e premere **ESC** oppure fare doppio clic per terminare lo strumento.
-* Eventuali autointersezioni verranno corrette e unite, lasciando un'unica superficie estrudibile.
+* クリックして最初の点を設定し、カーソルを移動して後続の点を配置し、既存のジオメトリまたは推定軸にスナップします。
+* 作成した形状のプレビューが表示されます。2 番目と 3 番目の点によって、残りの点がフォローする平面が決まります。そのため、結果は平面になります。
+* 続けて点を追加したあと、**[Esc]**を押すか、ダブルクリックしてツールを終了します。
+* 自己交差はクリーン アップされ、結合されて、押し出し可能な 1 つの面になります。
 
-![Dopo aver posizionato 2 punti e aver trascinato il terzo punto](../.gitbook/assets/walls1.png)
+![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
 
-La linea di input viene disegnata in rosso e, per default, viene posizionata al centro delle linee di offset.
+入力線分は赤で描画され、既定ではオフセット ラインの中心に配置されます。
 
-È possibile modificare l'allineamento delle linee di offset e il relativo spessore premendo il tasto **TAB**. Verrà aperta la finestra di dialogo **Opzioni strumento**:
+オフセット ラインの位置合わせと太さを変更するには、**[Tab]**キーを押します。これで、**[ツール オプション]**ダイアログが表示されます。
 
-![Opzioni per lo strumento Linea di offset](../.gitbook/assets/walls2.png)
+![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
 
-Modificare **Allineamento** in **Sinistra** e **Spessore** in 6", ad esempio, e le linee di offset verranno disegnate a sinistra delle linee di input, a 6 pollici di distanza.
+たとえば、**[位置合わせ]**を**[左]**に、**[厚さ]**を 6" に変更すると、オフセット ラインは入力線分の左に 6 インチの間隔で描画されます。
 
 ![](../.gitbook/assets/walls3.png)
 
-## Suggerimenti utili
+## 便利なヒント
 
-È possibile disegnare una forma chiusa eseguendo lo snap al primo punto posizionato. L'angolo risultante verrà corretto automaticamente:
+最初に配置した点にスナップすると、閉じた形状を描画できます。作成されたコーナーは自動的にクリーン アップされます。
 
 ![](../.gitbook/assets/walls4.png)
 
-È possibile disegnare liberamente le linee di input l'una sopra l'altra. Al termine dello strumento, le intersezioni risultanti vengono corrette.
+入力線分は自由に重ねて描画できます。ツールを終了すると、作成された交差はクリーン アップされます。
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Di per sé, lo strumento Linea di offset deve generare la geometria su un piano, in modo che i primi punti determinino il piano che seguiranno i punti rimanenti.
+本質的に、[オフセット ライン]ツールは平面上にジオメトリを生成するため、残りの点がフォローする平面は最初の数点によって決まります。
 
-Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di tale superficie. Dopo aver posizionato tre punti non collineari, il piano di input è fisso per il resto dell'input. Notare che quando si disegna su una superficie, la forma risultante viene inserita nella superficie, dividendola in più superfici. Per evitare l'inserimento, la superficie disegnata deve far parte di un [gruppo](https://windows.help.formit.autodesk.com/tool-library/groups).
+たとえば、立方体の側面から描画を開始して、その面の平面を使用します。同一線上にない 3 つの点が配置された後、残りの入力に対して入力平面が固定されます。面に描画すると、作成された形状が面に挿入され、複数の面に分割されます。挿入を防ぐには、描画する面が[グループ](https://windows.help.formit.autodesk.com/tool-library/groups)の一部である必要があります。
 
-![Disegno su una superficie verticale](../.gitbook/assets/walls7.png)
+![Drawing on a vertical face](../.gitbook/assets/walls7.png)
 
-![Una volta chiuso lo strumento, le linee vengono inserite e le superfici di divisione possono essere ulteriormente modificate](../.gitbook/assets/walls8.png).
+![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
 
-È inoltre possibile utilizzare lo strumento Linea di offset per eseguire il tracciamento da un disegno di pianta. Importare la pianta come immagine.
+また、[オフセット ライン]ツールを使用して、平面図からトレースすることもできます。平面図をイメージとして読み込みます。
 
-* Ridimensionare l'immagine in modo che la pianta abbia la scala corretta. Questa procedura è descritta in maggior dettaglio [qui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
-* È possibile utilizzare la vista della [cinepresa Ortogonale](orthographic-camera.md) per eseguire il tracciamento in una [vista dall'alto](orthographic-views.md) ortogonale.
+* 適切な尺度が平面図に設定されるように、イメージのサイズを変更します。詳細については、[こちら](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)を参照してください。
+* [正投影カメラ](orthographic-camera.md)を使用して、正投影の[上面ビュー](orthographic-views.md)でトレースすることができます。
 
 ![](../.gitbook/assets/walls9.png)
 

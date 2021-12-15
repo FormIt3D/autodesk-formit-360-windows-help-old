@@ -1,12 +1,12 @@
-# Libreria di contenuti
+# コンテンツ ライブラリ
 
-Le librerie di contenuti rappresentano un modo comodo per memorizzare componenti e altri elementi che si desidera utilizzare più volte. Per default, FormIt include diverse librerie di esempi, tra cui una libreria di esempi di arredo e una libreria di script di esempio di Dynamo. In FormIt 2021, è ora possibile accedere ai contenuti di BIM 360 e utilizzarli dalla libreria di contenuti.
+コンテンツ ライブラリでは、繰り返し使用するコンポーネントなどのアイテムを簡単に保存できます。既定では、FormIt には家具サンプルのライブラリや Dynamo サンプル スクリプトのライブラリなど、複数のサンプルのライブラリが含まれています。FormIt 2021 では、コンテンツ ライブラリから BIM 360 のコンテンツにアクセスして使用できるようになりました。
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.39.13-pm.png)
 
-Ulteriori informazioni sull'utilizzo della libreria di contenuti sono disponibili [qui](../formit-primer/part-i/import-export-and-content-library.md).
+コンテンツ ライブラリの使用方法の詳細については、[こちら](../formit-primer/part-i/import-export-and-content-library.md)を参照してください。
 
-Per visualizzare alcune librerie di contenuti, [consultare il seguente post del blog](https://formit.autodesk.com/blog/post/content-library).
+[こちらのブログの投稿](https://formit.autodesk.com/blog/post/content-library)では、コンテンツ ライブラリをいくつか確認できます。ぜひ参考にしてみてください。
 
 
 

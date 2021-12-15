@@ -1,67 +1,67 @@
-# 1.12 - Stili di visualizzazione
+# 1.12 - 表示スタイル
 
-_La modellazione delle masse concettuali è solo la metà di quello che FormIt ha da offrire. L'altra metà è rappresentata da una splendida grafica che aiuta a raccontare una storia ad un cliente o ad un membro del team. In questo capitolo, descriveremo le modalità di impostazione degli_ _**stili di visualizzazione grafica**_ _e di creazione delle animazioni._
+_コンセプト マスのモデリングは、FormIt が提供するものの半分にすぎません。もう半分は、クライアントやチーム メンバーにストーリーを伝えるのに役立つ美しいグラフィックスです。この章では、グラフィックスの_ _**表示スタイル**_ _を設定し、アニメーションを作成する方法について説明します。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.12 - Visual Styles.axm**_ _dai_ _**set di dati della Parte 1 della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.12 - Visual Styles.axm**ファイルをダウンロードして開きます。_
 
-## **Creazione di un'animazione**
+## **アニメーションを作成する**
 
-_Nei prossimi passaggi, impareremo come utilizzare le_ _**scene**_ _per creare un'animazione._
+_次の手順では、__**シーン**__を使用してアニメーションを作成する方法について学習します。_
 
-1 - Per creare la prima **scena**:
+1 - 最初の**シーン**を作成するには、次のように操作します。
 
-1. Attivare tutti i layer ad eccezione di **Terrain**, **Plan Image** e **Massing**.
-2. Assicurarsi che la modalità della cinepresa sia impostata su **Prospettiva \(VP\)** e posizionare la cinepresa in modo che guardi l'intera casa da un punto leggermente superiore, analogamente all'immagine riportata di seguito.
-3. Aprire la **tavolozza Scene**.
-4. Fare clic sull'icona **+** per creare una nuova scena dalla vista corrente.
-5. Rinominarla **Aerial View 1** e far corrispondere le altre **proprietà della scena** a quelle mostrate nell'immagine riportata di seguito.
+1. **Terrain**、**Plan Image**、**Massing** 以外のすべてのレイヤをオンにします。
+2. カメラ モードが**パース\(VP\)**に設定されていることを確認し、下のイメージのように少し上から家全体が見えるようにカメラを配置します。
+3. **[シーン]パレット**を開きます。
+4. **[+]**アイコンをクリックして、現在のビューから新しいシーンを作成します。
+5. 名前を **Aerial View 1** に変更し、**[シーン プロパティ]**を下のイメージと同じように設定します。
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - Per creare la seconda **scena** e quindi animarla tra di esse:
+2 - 2 つ目の**シーン**を作成し、その間でアニメーションを作成するには、次のように操作します。
 
-1. Regolare la cinepresa su una nuova posizione in modo da osservare la casa da un'angolazione diversa. Creare una nuova **scena** denominata **Aerial View 2** utilizzando la stessa procedura seguita nel passaggio precedente.
-2. Fare clic sul pulsante di **riproduzione**. Dopo aver impostato **Tempo di pausa** su **2 secondi**, l'animazione inizierà lentamente a spostarsi avanti e indietro tra le due scene. Questa operazione continuerà fino a quando non si farà clic sul pulsante di **interruzione** per interrompere l'animazione.
+1. 別の角度から家が見えるように、カメラを新しい位置に調整します。前の手順と同様に、**Aerial View 2** という名前の新しい**シーン**を作成します。
+2. **[再生]**ボタンをクリックします。**[停止時間]**を **2 秒**に設定すると、2 つのシーン間でアニメーションがゆっくりと前後に動き始めます。これは、**[停止]**ボタンをクリックしてアニメーションを停止するまで継続します。
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Nota**_ _È possibile regolare_ _**Tempo di pausa**,_ _**Tempo di transizione** e_ _**Velocità cinepresa**_ _utilizzando le impostazioni nella parte inferiore di_ _**Proprietà scena**. Provare ad aggiungere altre scene e a riprodurle con queste impostazioni per personalizzare l'animazione._
+_**注**_ _:_ _**[シーン プロパティ]**の下部にある設定を使用して、_ _**停止時間**、_ _**遷移時間**_ _、_ _**カメラ速度**を調整できます。シーンをさらに追加し、これらの設定を使用して再生し、アニメーションをカスタマイズしてみてください。_
 
-## **Personalizzazione degli stili di visualizzazione**
+## **表示スタイルをカスタマイズする**
 
-_Ora creeremo un'altra scena con alcune impostazioni di **Stili visualizzazione** personalizzate._
+_ここでは、カスタマイズした**表示スタイル**設定を使用して別のシーンを作成します。_
 
-1 - Aprire innanzitutto la **tavolozza Stili visualizzazione**. Notare che nella parte superiore sono presenti quattro \(4\) schede, ciascuna contenente impostazioni di visualizzazione diverse: **Superfici**, **Bordi**, **Ambiente** e **Diagnostica modello**. Per ulteriori informazioni su ciascuna scheda, vedere il capitolo **Stili di visualizzazione** nella sezione **Libreria degli strumenti**.
+1 - 最初に、**[表示スタイル]パレット**を開きます。上部には、**サーフェス**、**エッジ**、**環境**、**モデル診断**の 4 つの表示設定用タブがあります。各タブの詳細については、「**ツール ライブラリ**」セクションの「**表示スタイル**」の章を参照してください。
 
-2 – Per personalizzare alcune impostazioni nella **scheda Superficie**:
+2 - **[サーフェス]タブ**の設定をカスタマイズするには、次のように操作します。
 
-1. Attivare **Ombre \(DS\)**.
-2. Attivare **Ombre ambiente \(DA\)**.
-3. Attivare **Superfici monocromatiche \(DM\)**. In questo modo si ottiene un'immagine astratta in bianco e nero senza materiali.
+1. **[影\(DS\)]**をオンにします。
+2. **[アンビエント シャドウ\(DA\)]**をオンにします。
+3. **[単色のサーフェス\(DM\)]**をオンにします。これで、マテリアルを持たない抽象的な白黒イメージが作成されます。
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – Per personalizzare alcune impostazioni nella **scheda Bordi**:
+3 – **[エッジ]タブ**の設定をカスタマイズするには、次のように操作します。
 
 * 
-   1. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Bordi** a circa **30%**.
-   2. Attivare **Bordi estesi \(DX\).**
-   3. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Silhouette** su **30%**.
+   1. スライダを調整して、**[エッジ]**のコントラストを **30%** 前後まで明るくします。
+   2. **[延長エッジ\(DX\)]をオンにします。**
+   3. スライダを調整して、**[シルエット]**のコントラストを **30%** に調整します。
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - Per personalizzare alcune impostazioni nella **scheda Ambiente**:
+4 - **[環境]タブ**で一部の設定をカスタマイズするには、次のように操作します。
 
-1. Disattivare **Assi**.
-2. Disattivare **Livelli**, se attivata.
+1. **[軸]**をオフにします。
+2. **[レベル]**がオンの場合は、オフにします。
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Creare una nuova scena denominata **Customized Scene** per salvare queste impostazioni. Ora è possibile passare da una **scena** all'altra per reimpostare le impostazioni grafiche.
+5 - **Customized Scene** という名前の新しいシーンを作成し、これらの設定を保存します。これで、**シーン**を切り替えてグラフィックス設定をリセットすることができます。
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Nota** Deselezionando la proprietà_ _Cinepresa****_ _della nuova scena, è possibile utilizzarla per attivare solo le impostazioni di visualizzazione appena create senza spostare la posizione della cinepresa. Provare utilizzando una delle precedenti scene denominate Aerial, quindi fare doppio clic su_ _**Customized Scene**_ _e osservare cosa succede._
+_**注:**新しいシーンの_ _**[カメラ]**_ _プロパティのチェックを外すと、カメラ位置を動かさずに、先ほど作成した表示設定のみを切り替えることができます。以前の Aerial シーンの 1 つに移動し、_ _**Customized Scene**_ _をダブルクリックして何が起こるか観察してみてください。_
 
-_**Nota**_ _Per ulteriori informazioni su_ _**diagnostica degli stili di visualizzazione**_ _e applicazioni avanzate per_ _**Scene**, consultare la_ _**Parte II della Guida introduttiva**._
+_**注:** **表示スタイルの診断**_ _や_ _**シーン**の高度なアプリケーションについて詳しくは、_ _**Primer Part II** のドキュメントを参照してください。_
 

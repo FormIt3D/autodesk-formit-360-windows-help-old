@@ -1,30 +1,30 @@
-# Navigazione nella scena
+# シーンのナビゲーション
 
-Utilizzare il mouse o il touchscreen per navigare facilmente all'interno e attorno ai modelli di FormIt:
+マウスまたはタッチスクリーンを使用すると、FormIt モデル内および周辺を簡単にナビゲートできます。
 
-* Eseguire **Orbita** facendo clic con il pulsante destro del mouse e trascinando il mouse o scorrendo lo schermo per i dispositivi abilitati al tocco. In questo modo si utilizzerà il punto del cursore nello spazio 3D attorno al quale eseguire l'orbita della cinepresa.
-   * È inoltre possibile tenere premuto il tasto MAIUSC per eseguire la panoramica.
-* Eseguire lo **zoom** avanti e indietro facendo scorrere la rotellina del mouse in avanti e all'indietro oppure avvicinando o allontanando le dita per i dispositivi abilitati per il tocco. In questo modo si utilizzerà un punto nello spazio 3D in cui eseguire lo zoom e tale operazione verrà rallentata quando ci si avvicina ad una superficie o ad un altro oggetto.
-   * È inoltre possibile tenere premuto CTRL per eseguire lo zoom ad una velocità costante, senza che sia influenzata dalla prossimità agli oggetti.
-* Eseguire la **panoramica** facendo clic con il pulsante centrale del mouse e trascinando il mouse oppure trascinando due dita per i dispositivi abilitati per il tocco.
+* **オービット**するには、右クリックしてマウスをドラッグするか、タッチ対応デバイスの画面上でスワイプします。これは、カメラの軌道を制御する 3D 空間でカーソル ポイントを使用します。
+   * [Shift]キーを押しながら画面移動することもできます。
+* **拡大および縮小**は、マウス ホイールを上下にスクロールするか、タッチ対応デバイスをピンチして行います。これは、ズームする 3D 空間のポイントを使用し、サーフェスまたは別のオブジェクトに近づくにつれてズームが遅くなります。
+   * [Ctrl]を押しながら一定の速さでズームすることもできます。これはオブジェクトとの距離に影響されません。
+* **画面移動**するには、マウスをミドルクリックしてドラッグするか、タッチ対応のデバイスで 2 本の指をドラッグします。
 
-È inoltre possibile utilizzare la barra degli strumenti Navigazione mobile sul lato destro dell'area di disegno per accedere a modalità specifiche della vista. I tasti di scelta rapida sono indicati tra parentesi.
+キャンバスの右側にある浮動ナビゲーション ツールバーを使用して、ビュー モードを切り替えることもできます。括弧で囲まれている文字はショートカットです。
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Viste ortogonali**: fare clic per visualizzare un menu a comparsa delle [viste ortogonali](../tool-library/orthographic-views.md) disponibili.
+![](../.gitbook/assets/20190618-ortho-views.png)**正投影ビュー**: クリックすると、使用可能な[正投影ビュー](../tool-library/orthographic-views.md)のフライアウト メニューが表示されます。
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D di default \(ZD\):** avvia la vista 3D di default.
+![](../.gitbook/assets/20190618-3d-view.png)**既定の 3D ビュー\(ZD\):** 既定の 3D ビューを起動します。
 
-![](../.gitbook/assets/jet-pack.png) **Animazione \(FT\):** la modalità con l'icona a forma di zaino-jet consente di spostarsi all'interno della scena utilizzando la tastiera. Utilizzare WASD per spostarsi avanti/indietro/a sinistra/a destra e Q/E per spostarsi verso l'alto/verso il basso. Utilizzare la barra spaziatrice per "volare".
+![](../.gitbook/assets/jet-pack.png)**ウォークスルー\(FT\):** 「Jetpack」モードでは、キーボードのキーを使用してシーン内をウォークスルーできます。W/A/S/D で前後左右に、Q/E で上下に移動します。スペース キーを使用すると「フライ」できます。
 
-![](../.gitbook/assets/orbit-tool.png) **Orbita \(O\):** quando è attivata, fare clic con il pulsante sinistro del mouse e trascinare il mouse per eseguire l'orbita attorno al modello. È inoltre possibile eseguire questa operazione in qualsiasi momento facendo clic con il pulsante destro del mouse e trascinando il modello.
+![](../.gitbook/assets/orbit-tool.png)**オービット \(O\): ** 有効にすると、マウスを左クリックしてドラッグし、モデルの周囲をオービットできます。右クリックしてドラッグすることで、いつでも行うことができます。
 
-![](../.gitbook/assets/swivel.PNG) **Ruota attorno ad asse \(SV\):** utilizzare lo strumento Ruota attorno ad asse dalla barra degli strumenti Navigazione per guardare attorno alla scena da un punto fisso.
+![](../.gitbook/assets/swivel.PNG) **旋回\(SV\):** 固定された点を基点としてシーンの周囲を旋回できます。
 
-![](../.gitbook/assets/panning.png) **Pan \(P\):** fare clic e trascinare il pulsante centrale del mouse o utilizzare lo strumento Pan \(mano\) dalla barra degli strumenti Navigazione per eseguire la panoramica nella scena.
+![](../.gitbook/assets/panning.png)**画面移動\(P\):** マウスの中央ボタンをクリックしてドラッグするか、ナビゲーション ツールバーの[画面移動]ツール\(手のアイコン\)を使用して、シーン全体を画面移動します。
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** scorrere la rotellina del mouse o selezionare lo strumento Zoom dalla barra degli strumenti Navigazione, quindi fare clic e trascinare il pulsante sinistro del mouse per eseguire lo zoom.
+![](../.gitbook/assets/zoom.png) **ズーム\(Z\):** ズームするには、マウス ホイールをスクロールするか、ナビゲーション ツールバーのズーム ツールを使用して、マウスの左ボタンをクリックしてドラッグします。
 
-![](../.gitbook/assets/zoom_all.png) **Zoom tutto \(ZE o ZA\):** eseguire lo zoom per adattare l'intero modello alla vista corrente.
+![](../.gitbook/assets/zoom_all.png)**全体表示\(ZE または ZA\):** モデル全体が現在のビューにフィットするようにズームします。
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom selezione \(ZS\):** eseguire lo zoom per adattare tutti gli oggetti attualmente selezionati alla vista corrente.
+![](../.gitbook/assets/zoom_selection.png)**選択部分をズーム\(ZS\):** 現在選択されているすべてのオブジェクトを現在のビューに合わせてズームします。
 

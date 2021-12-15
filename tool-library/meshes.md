@@ -1,90 +1,90 @@
-# Mesh
+# メッシュ
 
-A partire dalla versione v17.0, FormIt offre un nuovo tipo di geometria: mesh.
+v17.0 以降、FormIt では新しいタイプのジオメトリであるメッシュが提供されるようになりました。
 
-Le mesh sono rappresentazioni leggere degli oggetti di FormIt standard e sono ideali per migliorare le prestazioni della geometria con elevato numero di poligoni, come arredo o contesto 3D, ad esempio persone, alberi, automobili e segnaletica. Le mesh sono particolarmente utili anche per la geometria DWG complessa che altrimenti potrebbe influire sulle prestazioni di FormIt.
+メッシュは標準の FormIt オブジェクトの軽量な表現であり、家具などのポリゴン数の多いジオメトリや人、樹木、車、看板などの 3D 点景のパフォーマンスを向上させるのに役立ちます。メッシュは、FormIt のパフォーマンスに影響する可能性のある複雑な DWG ジオメトリにも最適です。
 
-Gli oggetti possono essere convertiti in mesh e le mesh possono essere riconvertite in oggetti senza perdere eventuali dati. Alcuni tipi di file vengono importati automaticamente come mesh, ad esempio OBJ, STL e DWG. Sono fornite di seguito ulteriori informazioni sulla conversione tra i vari tipi, nonché su altri vantaggi e limitazioni delle mesh.
+データを失うことなく、オブジェクトをメッシュに変換したり、メッシュをオブジェクトに戻すことができます。OBJ、STL、DWG など、一部のファイル タイプは自動的にメッシュとして読み込まれます。タイプ間の変換やメッシュのその他の利点と制限事項については、以下を参照してください。
 
-### Conversione di oggetti in mesh
+### オブジェクトをメッシュに変換する
 
-Qualsiasi combinazione di vertici, bordi, superfici o corpi solidi può essere convertita in mesh.
+頂点、エッジ、面、またはソリッド ボディの任意の組み合わせをメッシュに変換できます。
 
-È sufficiente selezionare Oggetti e utilizzare il collegamento OM \(Oggetti in mesh\) o fare clic con il pulsante destro del mouse e selezionare Oggetti in mesh nel menu contestuale:
+オブジェクトを選択し、ショートカットの[OM] \(オブジェクトをメッシュに\)を使用するか、右クリックしてコンテキスト メニューから[オブジェクトをメッシュに]を選択します。
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Una volta convertiti gli oggetti in mesh, nella parte superiore della schermata viene visualizzato un messaggio di conferma:
+オブジェクトをメッシュに変換すると、画面の上部に確認メッセージが表示されます。
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**Durante la conversione di oggetti in mesh:**
+**オブジェクトをメッシュに変換する場合:**
 
-* I bordi che sono stati levigati negli oggetti rimarranno tali nelle mesh risultanti.
-* Gli orientamenti dei materiali negli oggetti rimarranno invariati nelle mesh risultanti.
-* Viene creata una mesh per ogni materiale applicato. Ad esempio, se si converte un singolo cubo dipinto con 6 colori diversi, si otterranno 6 mesh diverse.
-   * Con la riconversione in un oggetto si riaggiungeranno le singole mesh in un corpo solido.
-* La selezione di un corpo solido convertirà e sostituirà l'intero corpo con una mesh, ma la selezione di singoli bordi o vertici appartenenti ad un solido creerà una nuova mesh sulla geometria esistente, senza influire sul corpo originale.
-* La conversione di un gruppo di bordi o vertici creerà una singola mesh di linee \(una mesh composta da bordi\) o una singola mesh di punti \(una mesh composta da punti\), il che significa che non sarà possibile selezionare singoli bordi o vertici una volta che sono stati combinati in una singola mesh. Riconvertire le mesh in oggetti se si desidera regolare la posizione di un singolo elemento.
+* オブジェクト上でスムーズ化されたエッジは、作成されるメッシュでもそのスムーズな状態が維持されます。
+* オブジェクトのマテリアルの方向は、結果のメッシュでも同じです。
+* メッシュは適用されたすべてのマテリアルに作成されます。たとえば、6 色にペイントされた単一の立方体を変換すると、6 つの異なるメッシュが得られます。
+   * オブジェクトに戻すと、個々のメッシュが再びシールされてソリッド ボディに戻ります。
+* ソリッド ボディを選択すると、ボディ全体がメッシュに変換され置換されますが、ソリッドが所有する個々のエッジまたは頂点を選択すると、元のボディに影響を与えずに、既存のジオメトリ上に新しいメッシュが作成されます。
+* エッジまたは頂点のセットを変換すると、単一のライン メッシュ\(エッジで構成される線のメッシュ\)または単一のポイント メッシュ\(点で構成されるメッシュ\)が作成されます。つまり、単一のメッシュに結合した後では、個々のエッジや頂点を選択することはできません。単一の要素の位置を調整する場合は、オブジェクトに変換し直します。
 
-**Conversione della geometria raggruppata in mesh:**
+**グループ化されたジオメトリをメッシュに変換する:**
 
-* Le mesh diventano ancora più potenti quando è possibile convertire un intero gruppo e tutti i relativi gruppi nidificati in mesh.
-* I gruppi e i relativi contenuti nidificati possono essere convertiti in gruppi utilizzando un plug-in:
-   * Cercare l'icona Gestione plugin sul lato destro dell'applicazione:
+* グループ全体と、そのネストされたすべてのグループをメッシュに変換すると、メッシュがさらに強力になります。
+* グループとそのネストされた内容は、プラグインを使用してグループに変換できます。
+   * アプリケーションの右側にある[Plugin Manager]アイコンを探します。
       * ![](../.gitbook/assets/plugin-manager_icon.PNG)
-   * Individuare il plug-in Mesh + Unmesh All e fare clic sulla casella di controllo per installarlo:
+   * [Mesh + Unmesh All]プラグインのチェックボックスをクリックしてインストールします。
       * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
-   * Verrà caricato il plug-in Mesh + Unmesh All. È sufficiente selezionare un gruppo contenente oggetti da convertire in mesh e fare clic su Mesh All.
+   * Mesh + Unmesh All プラグインがロードされます。メッシュに変換するオブジェクトを含むグループを選択し、[Mesh All]をクリックします。
       * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
-   * Quando si convertono mesh o oggetti nidificati con questo plug-in, verrà visualizzato un messaggio di aggiornamento nella parte superiore della schermata che indica il numero di gruppi e istanze di gruppi interessati dall'operazione:
+   * このプラグインを使用してネストされたオブジェクトまたはメッシュを変換すると、画面の上部に、操作によって影響を受けたグループおよびグループのインスタンスの数を示す更新メッセージが表示されます。
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### Interazione con le mesh
+### メッシュを操作する
 
-**A causa della loro natura leggera, le mesh presentano alcune limitazioni e comportamenti:**
+**その軽量な性質から、メッシュには特定の制限と動作があります。**
 
-* Non sarà possibile modificare le singole superfici, i singoli bordi o vertici di una mesh.
-   * Tuttavia, è possibile ridipingere le mesh e spostare le singole mesh create in seguito all'applicazione di materiali diversi alle superfici \(vedere sopra\).
-* Lo snap alle mesh è limitato alle superfici e ai vertici delle mesh. Per motivi di prestazioni, le operazioni di snap e deduzione non funzioneranno con i bordi delle mesh.
-   * Tuttavia, i file DWG convertiti in mesh \(un tipo diverso di mesh noto come mesh di linee\) manterranno la possibilità di eseguire lo snap e la deduzione ai bordi delle mesh.
-* Non è possibile applicare livelli alle mesh.
-* Le mesh non riportano problemi delle superfici a tenuta ermetica o delle superfici posteriori. Riconvertirle in oggetti per verificare se sono a tenuta ermetica o meno.
-   * Gli oggetti che erano a tenuta ermetica prima della conversione in mesh rimarranno tali quando vengono riconvertiti in un oggetto.
-* Le mesh non possono essere utilizzate nelle operazioni di modellazione avanzata, quali unione/taglio di solidi, involucro 3D, offset 3D, raccordo, loft, estrusione su percorso o copertura.
+* メッシュの個別の面、エッジ、頂点を編集することはできません。
+   * ただし、メッシュを再ペイントし、面に異なるマテリアルを適用した結果として作成された各メッシュを移動することは可能です\(上記参照\)。
+* メッシュへのスナップは、メッシュの面と頂点に制限されています。パフォーマンスを向上させるため、スナップと推定配置はメッシュのエッジでは機能しません。
+   * ただし、メッシュに変換された DWG ファイル\(ライン メッシュとして知られる異なるタイプのメッシュ\)では、メッシュのエッジにスナップして推定配置できます。
+* メッシュにレベルを適用することはできません。
+* メッシュは、密封性の問題や背面の問題を報告しません。密封されているかどうかを確認する場合は、オブジェクトに戻します。
+   * メッシュに変換する前に密封されていたオブジェクトは、オブジェクトに変換し直しても密封性は保たれます。
+* メッシュは、ソリッド結合/切り取り、3D シェル、3D オフセット、フィレット、ロフト、スイープ、かぶりなどの高度なモデリング操作では使用できません。
 
-In caso contrario, le mesh verranno visualizzate e si comporteranno come qualsiasi altro oggetto di FormIt: possono essere posizionate in gruppi, assegnate ai layer, visualizzate nelle scene, utilizzate per l'analisi e così via.
+それ以外では、メッシュは他の FormIt オブジェクトと同様に表示され、動作します。グループに配置され、レイヤに割り当てられ、シーン内で可視化され、解析などに使用されます。
 
-**L'eventuale interazione con una mesh è indicata dalla descrizione comando che mostra Sulla mesh o dal pannello Proprietà che riporta una mesh:**
+**ツールチップに「メッシュ上」と表示される場合や、[プロパティ]パレットにメッシュが表示される場合は、メッシュを操作していることがわかります。**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Alcuni tipi di file vengono importati automaticamente come mesh per migliorare le prestazioni:**
+**パフォーマンスを向上させるために、一部のファイル タイプは自動的にメッシュとして読み込まれます**。
 
-* I file STL e OBJ, che possono contenere geometria densa, ad esempio nuvole di punti di altre applicazioni, vengono importati automaticamente come mesh.
-* I file DWG, che possono contenere milioni di piccoli segmenti di bordi su curve di alta qualità, vengono importati automaticamente come mesh.
+* 点群のような高密度のジオメトリを含む可能性のある他のアプリケーションの STL ファイルや OBJ ファイルは、自動的にメッシュとして読み込まれます。
+* 高品質な曲線に数百万の小さなエッジ セグメントを含む可能性のある DWG ファイルは、自動的にメッシュとして読み込まれます。
 
-### Riconversione di mesh in oggetti
+### メッシュをオブジェクトに戻す
 
-È sufficiente selezionare Mesh e utilizzare il tasto di scelta rapida MO \(Mesh in oggetti\) oppure fare clic con il pulsante destro del mouse e selezionare Mesh in oggetti nel menu contestuale:
+単に[メッシュ]を選択し、ショートカットの[MO] \(メッシュをオブジェクトに\)を使用するか、右クリックしてコンテキスト メニューから[メッシュをオブジェクトに]を選択します。
 
 ![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Una volta convertiti gli oggetti in mesh, nella parte superiore della schermata viene visualizzato un messaggio di conferma:
+オブジェクトをメッシュに変換すると、画面の上部に確認メッセージが表示されます。
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**Durante la riconversione di mesh in oggetti:**
+**メッシュをオブジェクトに戻す場合:**
 
-* Eventuali oggetti che erano in precedenza solidi/a tenuta ermetica prima della conversione in mesh verranno riuniti in un solido a tenuta ermetica durante la riconversione in un oggetto.
-* La conversione di una serie di bordi \(ad esempio da un file DWG\) o di una serie di vertici \(ad esempio da una nuvola di punti\) in una mesh e viceversa consente di inserire automaticamente gli oggetti senza mesh in un gruppo.
-   * In questo modo si evita che i nuovi bordi o vertici si uniscano con altra geometria, il che potrebbe avere effetti negativi e influire sulle prestazioni.
-   * È sufficiente scomporre il gruppo risultante per rilasciare i bordi e/o i vertici.
+* メッシュに変換する前にソリッドまたは密封状態であったオブジェクトは、オブジェクトに戻す際に密封ソリッドに再結合されます。
+* 一連のエッジ\(DWG ファイルなど\)または一連の頂点\(点群など\)をメッシュに変換して戻すと、メッシュされていないオブジェクトが自動的にグループに配置されます。
+   * これで、新しいエッジまたは頂点が他のジオメトリと結合するのを防ぐことができます。結合すると悪影響を与え、パフォーマンスに影響を与える可能性があります。
+   * 作成されたグループをグループ解除するだけで、エッジや頂点を解放できます。
 
-**Riconversione di mesh raggruppate in oggetti:**
+**グループ化されたメッシュをオブジェクトに戻す:**
 
-* Vedere le istruzioni riportate sopra per utilizzare il plug-in Mesh + Unmesh All per riconvertire i gruppi e le relative mesh nidificate in oggetti.
+* Mesh + Unmesh All プラグインを使用してグループとそのネストされたメッシュをオブジェクトに戻す方法については、上記の手順を参照してください。
 

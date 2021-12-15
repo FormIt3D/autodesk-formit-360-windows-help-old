@@ -1,13 +1,13 @@
-### Operazioni booleane
-Utilizzare le operazioni Unisci e Taglia per modificare gli oggetti.
+### ブール演算
+結合(論理和演算)および切り取り(論理差演算)を使用して、オブジェクトを変更することができます。
 
-#### Unisci
-Per eseguire un'unione, selezionare tutti gli oggetti che si desidera includere nelle operazioni booleane. Quindi, selezionare lo **strumento Unisci** dal menu contestuale. La parte intersecante/sovrapposta della geometria verrà unita in un unico oggetto.
+#### 結合
+論理和演算を実行するには、演算対象のすべてのオブジェクトを選択します。次に、コンテキスト メニューで**結合ツール**を選択します。 ジオメトリの交差部分と重複部分が、1 つのオブジェクトとして結合されます。
 
 ![](images/join tool.png)
 
-#### Taglia
-Per sottrarre volumi dalla geometria esistente, selezionare prima l'oggetto originale. Successivamente selezionare l'oggetto da cui sottrarre. Quindi selezionare lo **strumento Taglia** dal menu contestuale. Il volume intersecato verrà sottratto dall'oggetto originale.
+#### 切り取り
+既存のジオメトリの体積を減らすには、元のオブジェクトを選択し、そのオブジェクトから切り取るオブジェクトを選択します。次に、コンテキスト メニューで**切り取りツール**を選択します。 交差している部分の体積が、元のオブジェクトから減算されます。
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

@@ -1,12 +1,12 @@
-# Utilizzo di formati di dati
+# さまざまなデータ形式を使用する
 
-È possibile importare una varietà di formati di file di immagine e di file 3D per aggiungere dettagli al disegno.
+さまざまなイメージ ファイル形式や 3D ファイル形式を読み込んで、スケッチに詳細を追加します。
 
-È possibile importare i seguenti formati di file:
+次のファイル形式を読み込むことができます。
 
-* Windows: OBJ, DWG, STL, SAT, SKP
-* Web: OBJ, STL
-* iOS: OBJ, STL, SAT
+* Windows: OBJ、DWG、STL、SAT、SKP
+* Web: OBJ、STL
+* iOS: OBJ、STL、SAT
 
-Vedere [Importazione di modelli](../formit-primer/part-i/import-export-and-content-library.md) per ulteriori informazioni sull'importazione di dati e sull'utilizzo della Libreria del contenuto.
+データの読み込みとコンテンツ ライブラリの使用の詳細については、「[モデルを読み込む](../formit-primer/part-i/import-export-and-content-library.md)」を参照してください。
 

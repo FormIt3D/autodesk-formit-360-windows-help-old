@@ -1,30 +1,30 @@
-# Unione booleana
+# ブール演算による結合
 
-È possibile unire un oggetto o un gruppo ad un altro con lo strumento Unisci. Esistono due modi per accedere allo strumento Unisci:
+[結合]ツールを使用して、1 つのオブジェクトまたはグループを別のオブジェクトまたはグループに結合できます。[結合]ツールにアクセスするには、次の 2 つの方法があります。
 
-## Eseguire prima il comando Unisci
+## 最初に[結合]コマンドを実行する場合
 
-Tastiera: J G
+キーボード ショートカット: [J]、[G]
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Eseguire il comando Unisci e seguire le istruzioni della modalità nella parte superiore sinistra della schermata.
+[結合]コマンドを実行し、画面の左上に表示されるモードの指示に従います。
 
-Fare un singolo clic per selezionare un oggetto in cui eseguire l'unione.
+結合先のオブジェクトをシングルクリックで選択します。
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Fare un singolo clic per selezionare un oggetto o un gruppo da unire.
+結合するオブジェクトまたはグループをシングルクリックで選択します。
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Fare clic sul segno di spunta per terminare il comando.
+チェックマークをクリックしてコマンドを終了します。
 
-## Selezionare prima gli oggetti
+## 最初にオブジェクトを選択する場合
 
-1. Fare doppio clic per selezionare l'oggetto da unire \(fare un singolo clic per un gruppo\).
-2. Tenendo premuto il tasto **CTRL**, fare doppio clic su un oggetto sovrapposto che si desidera unire al primo oggetto.
-3. Fare clic con il pulsante destro del mouse su uno qualsiasi degli oggetti e scegliere lo strumento Unisci nel menu contestuale.
+1. 結合するオブジェクトをダブルクリックで選択します\(グループの場合はシングルクリック\)。
+2. **[Ctrl]キー**を押しながら、最初のオブジェクトと結合する、重なっているオブジェクトをダブルクリックします。
+3. いずれかのオブジェクトを右クリックし、コンテキスト メニューから[結合]ツールを選択します。
 
 ![](../.gitbook/assets/join-tool.png)
 

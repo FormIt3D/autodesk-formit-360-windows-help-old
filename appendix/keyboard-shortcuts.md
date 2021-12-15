@@ -1,149 +1,149 @@
-# Tasti di scelta rapida
+# キーボード ショートカット
 
-| Comando | Tasti di scelta rapida |
+| コマンド | ショートカット |
 | :--- | :--- |
-| Impostazioni applicazione: Visualizza quote | D, D |
-| Impostazioni applicazione: Snap alla griglia | S, G |
-| Collaborazione: Invita alla sessione | C, I |
-| Collaborazione: Partecipa alla sessione | C, J |
-| Collaborazione: Avvia sessione | C, S |
-| Visualizza: Ombre ambiente | D, A |
-| Visualizza: Assi | D, Z |
-| Visualizza: Superfici posteriori | D, B |
-| Visualizza: Bordi | D, E |
-| Visualizza: Bordi estesi | D, X |
-| Visualizza Griglia | D, G |
-| Visualizza: Raggruppa riquadri di delimitazione | B, B |
-| Visualizza: Bordi nascosti | D, H |
-| Visualizza: Superfici monocromatiche | D, M |
-| Visualizza: Freccia nord | D, N |
-| Visualizza: Ombre | D, S |
-| Visualizza: Silhouette | D, O |
-| Visualizza: Bordi di schizzo | D, K |
-| Visualizza: Bordi sottili | D, T |
-| Visualizza: Problemi delle superfici a tenuta ermetica | D, W |
-| Disegna: Arco | A |
-| Disegna: Cerchio | C |
-| Disegna: Linea | L |
-| Disegna: Rettangolo | R |
-| Disegna: Spline | S |
-| Modifica: Copia | CTRL+C |
-| Modifica: Elimina | Eliminazione |
-| Modifica: Incolla | CTRL+V |
-| Modifica: Preferenze |  |
-| Modifica: Ripeti | CTRL+Y |
-| Modifica: Ripeti | CTRL+MAIUSC+Z |
-| Modifica: Reimposta assi | R, Z |
-| Modifica: Imposta assi | S, Z |
-| Modifica: Annulla | CTRL+Z |
-| Analisi energetica: Annulla informazioni approfondite |  |
-| Analisi energetica: Genera informazioni approfondite |  |
-| Analisi energetica: Visualizza informazioni approfondite |  |
-| File: Esportazione dell'immagine |  |
-| File: Esportazione del modello in | CTRL+E |
-| File: Importazione del modello 3D | CTRL+I |
-| File: Importazione dell'immagine | CTRL+MAIUSC+I |
-| File: Nuovo | CTRL+N |
-| File: Apri da Autodesk Docs | Alt+O |
-| File: Apri | CTRL+O |
-| File: Salva con nome in Autodesk Docs | ALT+S |
-| File: Salvataggio con cronologia | CTRL+S, CTRL+H |
-| File: Salva | CTRL+S |
-| Gruppo: Modifica gruppo \(menu contestuale\) | E |
-| Gruppo: Modifica gruppo \(barra degli strumenti\) | Alt + E |
-| Gruppo: Termina modifica gruppo | F |
-| Gruppo: Gruppo \(menu contestuale\) | G |
-| Gruppo: Gruppo \(barra degli strumenti\) | ALT+G |
-| Gruppo: Rendi univoco \(menu contestuale\) | M, U |
-| Gruppo: Rendi univoco \(barra degli strumenti\) | Alt+M |
-| Gruppo: Scomponi \(menu contestuale\) | A |
-| Gruppo: Scomponi \(barra degli strumenti\) | ALT+U |
-| Gruppo: Scomponi tutto \(menu contestuale\) | U, A |
-| Gruppo: Scomponi tutto \(barra degli strumenti\) | ALT+A |
-| Gruppo: Scomponi modello | U, M |
-| Guida: Informazioni su FormIt |  |
-| Guida: Verifica di aggiornamenti di FormIt |  |
-| Guida: Blog di FormIt |  |
-| Guida: Raccolta di FormIt |  |
-| Guida: Video di FormIt |  |
-| Guida: Supporto |  |
-| Guida: Guida di FormIt |  |
-| Guida: Novità |  |
-| Livelli: Visualizza livelli | D, L |
-| Livelli: Usa livelli | U, L |
-| Visualizza: Impedisci materiali sulle superfici posteriori |  |
-| Primitiva: Cubo | ALT+B |
-| Primitiva: Cilindro | ALT + C |
-| Primitiva: Cupola | ALT+D |
-| Primitiva: Prisma | ALT+R |
-| Primitiva: Piramide | Alt+P |
-| Prototipo: Visualizza stato mouse/griglia |  |
-| Filtro di selezione: Bordi | E, S |
-| Filtro di selezione: Superfici | F, S |
-| Filtro di selezione: Gruppi | G, S |
-| Filtro di selezione: Solidi | S, S |
-| Impostazioni: Pulsanti grandi barra degli strumenti |  |
-| Impostazioni disegno: Imposta tipo di unità su (...) | U, T |
-| Analisi solare: Analizza | A, A |
-| Analisi solare: Accedi alla modalità Analisi solare/Esci | S, A |
-| Analisi solare: Esci |  |
-| Analisi solare: Reimposta |  |
-| Strumenti: Matrice | A, R |
-| Strumenti: Copertura | C, V |
-| Strumenti: Taglia geometria \(menu contestuale\) | C, C |
-| Strumenti: Taglia geometria \(barra degli strumenti\) | C, G |
-| Strumenti: Attiva modalità tocco | E, T |
-| Strumenti: Attiva modalità tocco | T, M |
-| Strumenti: Estrudi bordi | E, E |
-| Strumenti: Raccordo | F, I |
-| Tools: Informazioni |  |
-| Strumenti: Unisci geometria \(menu contestuale\) | J, C |
-| Strumenti: Unisci geometria \(barra degli strumenti\) | J, G |
-| Strumenti: Selezione con lazo | L, L |
-| Strumenti: Loft dei bordi | L, O |
-| Strumenti: Misura | M |
-| Strumenti: Misura angolo | M, A |
-| Strumenti: Unisci bordi e vertici | M, E |
-| Strumenti: Copia speculare | M, I |
-| Strumenti: Sposta | M, M |
-| Strumenti: Offset bordi | O, E |
-| Strumenti: Offset superficie | O, F |
-| Strumenti: Offset solido | O, S |
-| Strumenti: Inverti superfici | F, F |
-| Strumenti: Ruota | Q |
-| Strumenti: Esegui script dall'editor |  |
-| Strumenti: Scala | S, C |
-| Strumenti: Seleziona | Spazio |
-| Strumenti: Imposta posizione | S, L |
-| Strumenti: Involucro | S, H |
-| Strumenti: Leviga bordi | S, E |
-| Strumenti: Estrusione su percorso | S, W |
-| Strumenti: Rastrema superficie | T, F |
-| Strumenti: Annulla levigatezza bordi | U, E |
-| Vista: Tema: Blu |  |
-| Vista: Tema di default |  |
-| Vista: Volo in prima persona | F, T |
-| Vista: Orbita cinepresa |  |
-| Vista: Panoramica cinepresa |  |
-| Vista: Tema di sistema |  |
-| Vista: Imposta cinepresa su Prospettica |  |
-| Vista: In alto | Z, T |
-| Vista: Zoom tutto | Z, A |
-| Vista: Zoom tutto | Z, E |
-| Vista: Zoom tutto | Z, Z |
-| Vista: Zoom tutte le immagini | Z, I |
-| Vista: Zoom cinepresa |  |
-| Vista: Zoom indietro |  |
-| Vista: Zoom selezione | Z, S |
-| Finestra: Barra degli strumenti Progettazione | H, D |
-| Finestra: Barra degli strumenti Navigazione mobile | H, B |
-| Finestra: Menu principale | H, M |
-| Finestra: Barra degli strumenti Navigazione | H, N |
-| Finestra: Barra degli strumenti Operazioni | H, O |
-| Finestra: Barra degli strumenti Impostazioni | H, C |
-| Finestra: Barra degli strumenti Disegno | H, K |
-| Finestra: Barra degli strumenti Solidi | H, P |
-| Finestra: Barra degli strumenti Standard | H, T |
-| Finestra: Barra di stato | H, S |
-| Finestra: Barra degli strumenti Vista | H, V |
+| アプリケーション設定: 寸法を表示 | [D]、[D] |
+| アプリケーション設定: グリッドにスナップ | [S]、[G] |
+| コラボレーション: 他のユーザをセッションに招待 | [C]、[I] |
+| コラボレーション: セッションに参加 | [C]、[J] |
+| コラボレーション: セッションを開始 | [C]、[S] |
+| 表示: アンビエント シャドウ | [D]、[A] |
+| 表示: 軸 | [D]、[Z] |
+| 表示: 背面 | [D]、[B] |
+| 表示: エッジ | [D]、[E] |
+| 表示: 延長線 | [D]、[X] |
+| 表示: グリッド | [D]、[G] |
+| 表示: グループ境界ボックス | [B]、[B] |
+| 表示: 隠線 | [D]、[H] |
+| 表示: 単色のサーフェス | [D]、[M] |
+| 表示: 北向き矢印 | [D]、[N] |
+| 表示: 影 | [D]、[S] |
+| 表示: シルエット | [D]、[O] |
+| 表示: 手書き風の線 | [D]、[K] |
+| 表示: うすべり | [D]、[T] |
+| 表示: 密閉性に関する問題 | [D]、[W] |
+| 描画: 円弧 | [A] |
+| 描画: 円 | [C] |
+| 描画: 直線 | [L] |
+| 描画: 長方形 | [R] |
+| 描画: スプライン | [S] |
+| 編集: コピー | [Ctrl]+[C] |
+| 編集: 削除 | 削除 |
+| 編集: 貼り付け | [Ctrl]+[V] |
+| 編集: 基本設定 |  |
+| 編集: やり直し | [Ctrl]+[Y] |
+| 編集: やり直し | [Ctrl]+[Shift]+[Z] |
+| 編集: 軸をリセット | [R]、[Z] |
+| 編集: 軸を設定 | [S]、[Z] |
+| 編集: 元に戻す | [Ctrl]+[Z] |
+| エネルギー解析: Insight をキャンセル |  |
+| エネルギー解析: Insight を作成 |  |
+| エネルギー解析: Insight を表示 |  |
+| ファイル: イメージの書き出し |  |
+| ファイル: モデルの書き出し先 | [Ctrl]+[E] |
+| ファイル: 3D モデルの読み込み | [Ctrl]+[I] |
+| ファイル: イメージの読み込み | [Ctrl]+[Shift]+[I] |
+| ファイル: 新規作成 | [Ctrl]+[N] |
+| ファイル: BIM 360 Docs から開く | [Alt]+[O} |
+| ファイル: 開く | [Ctrl]+[O] |
+| ファイル: 名前を付けて BIM 360 Docs に保存 | [Alt]+[S} |
+| ファイル: 履歴付きで保存 | [Ctrl]+[S]、[Ctrl]+[H] |
+| ファイル: 保存 | [Ctrl]+[S] |
+| グループ: グループを編集\(コンテキスト メニュー\) | [E] |
+| グループ: グループを編集\(ツールバー\) | [Alt]+[E} |
+| グループ: グループ操作を完了 | [F] |
+| グループ: グループ化\(コンテキスト メニュー\) | [G] |
+| グループ: グループ化\(ツールバー\) | [Alt]+[G] |
+| グループ: 固有にする\(コンテキスト メニュー\) | [M]、[U] |
+| グループ: 固有にする\(ツールバー\) | [Alt]+[M] |
+| グループ: グループ解除\(コンテキスト メニュー\) | [U] |
+| グループ: グループ解除\(ツールバー\) | [Alt]+[U] |
+| グループ: すべてグループ解除\(コンテキスト メニュー\) | [U]、[A] |
+| グループ: すべてグループ解除\(ツールバー\) | [Alt]+[A} |
+| グループ: モデルのグループ化を解除 | [U]、[M] |
+| ヘルプ: バージョン情報 |  |
+| ヘルプ: FormIt の更新を確認 |  |
+| ヘルプ: FormIt ブログ |  |
+| ヘルプ: FormIt ギャラリー |  |
+| ヘルプ: FormIt のビデオ |  |
+| ヘルプ: サポートを受ける |  |
+| ヘルプ: ヘルプ情報 |  |
+| ヘルプ: 新機能 |  |
+| レベル: レベルを表示 | [D]、[L] |
+| レベル: レベルを使用 | [U]、[L] |
+| 背面のマテリアルを禁止 |  |
+| プリミティブ: 立方体 | [Alt]+[B} |
+| プリミティブ: 円柱 | [Alt]+[C} |
+| プリミティブ: ドーム | [Alt]+[D} |
+| プリミティブ: プリズム | [Alt]+[R} |
+| プリミティブ: 角錐 | [Alt]+[P} |
+| プロトタイプ: マウス/グリッドのステータスを表示 |  |
+| 選択フィルタ: エッジ | [E]、[S] |
+| 選択フィルタ: 面 | [F]、[S] |
+| 選択フィルタ: グループ | [G]、[S] |
+| 選択フィルタ: ソリッド | [S]、[S] |
+| 設定: 大きなボタン |  |
+| スケッチの設定: 単位タイプの切り替え | [U]、[T] |
+| 日照解析: 解析 | [A]、[A] |
+| 日照解析: 日照解析モードの切り替え | [S]、[A] |
+| 日照解析: 終了 |  |
+| 日照解析: リセット |  |
+| ツール: 配列 | [A]、[R] |
+| ツール: かぶり | [C]、[V] |
+| ツール: ジオメトリを切り取り\(コンテキスト メニュー\) | [C]、[C] |
+| ツール: ジオメトリを切り取り\(ツールバー\) | [C]、[G] |
+| ツール: タッチ機能を有効にする | [E]、[T] |
+| ツール: タッチ機能を有効にする | [T]、[M] |
+| ツール: エッジの押し出し | [E]、[E] |
+| ツール: フィレット | [F]、[I] |
+| ツール: 情報 |  |
+| ツール: ジオメトリを結合\(コンテキスト メニュー\) | [J]、[C] |
+| ツール: ジオメトリを結合\(ツールバー\) | [J]、[G] |
+| ツール: 投げ縄選択 | [L]、[L] |
+| ツール: ロフトのエッジ | [L]、[O] |
+| ツール: 計測 | [M] |
+| ツール: 角度を計測 | [M]、[A] |
+| ツール: エッジと頂点を結合 | [M]、[E] |
+| ツール: 鏡像 | [M]、[I] |
+| ツール: 複数移動 | [M]、[M] |
+| ツール: エッジのオフセット | [O]、[E] |
+| ツール: 面のオフセット | [O]、[F] |
+| ツール: ソリッドのオフセット | [O]、[S] |
+| ツール: 面を反転 | [F]、[F] |
+| ツール: 回転 | [Q] |
+| ツール: エディタからスクリプトを実行 |  |
+| ツール: スケール | [S]、[C] |
+| ツール: 選択 | Spacebar |
+| ツール: 位置を設定 | [S]、[L] |
+| ツール: シェル | [S]、[H] |
+| ツール: 滑らかなエッジ | [S]、[E] |
+| ツール: スイープ | [S]、[W] |
+| ツール: 面のテーパリング | [T]、[F] |
+| ツール: 滑らかではないエッジ | [U]、[E] |
+| ビュー: 青いテーマ |  |
+| ビュー: 既定のテーマ |  |
+| ビュー: 主観視点のフライスルー | [F]、[T] |
+| ビュー: オービット カメラ |  |
+| ビュー: パン カメラ |  |
+| ビュー: システム テーマ |  |
+| ビュー: パースビューの切り替え |  |
+| ビュー: 上部 | [Z]、[T] |
+| ビュー: すべてズーム | [Z]、[A] |
+| ビュー: すべてズーム | [Z]、[E] |
+| ビュー: すべてズーム | [Z]、[Z] |
+| ビュー: すべてのイメージをズーム | [Z]、[I] |
+| ビュー: ズーム カメラ |  |
+| ビュー: 縮小表示 |  |
+| ビュー: 選択項目をズーム | [Z]、[S] |
+| ウィンドウ: 設計ツールバー | [H]、[D] |
+| ウィンドウ: 浮動ナビゲーション ツールバー | [H]、[B] |
+| ウィンドウ: メイン メニュー | [H]、[M] |
+| ウィンドウ: ナビゲーション ツールバー | [H]、[N] |
+| ウィンドウ: 操作ツールバー | [H]、[O] |
+| ウィンドウ: 設定ツールバー | [H]、[C] |
+| ウィンドウ: スケッチ ツールバー | [H]、[K] |
+| ウィンドウ: ソリッド ツールバー | [H]、[P] |
+| ウィンドウ: 標準ツールバー | [H]、[T] |
+| ウィンドウ: ステータス バー | [H]、[S] |
+| ウィンドウ: ビュー ツールバー | [H]、[V] |
 

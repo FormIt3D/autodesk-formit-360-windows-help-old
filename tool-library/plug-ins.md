@@ -1,47 +1,47 @@
-# Plug-in
+# プラグイン
 
-Utilizzare Gestione plugin per installare plug-in utili dal team di FormIt o per apprendere come [**creare i plug-in di FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Plugin Manager を使用して、FormIt チームから便利なプラグインをインストールするか、[**独自の FormIt プラグインを構築する**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**方法を学びます。**
 
-#### Gestione plugin di FormIt
+#### FormIt Plugin Manager
 
-Gestione plugin di FormIt funziona come un hub per la ricerca e la gestione dei plug-in di FormIt.
+FormIt Plugin Manager は、Formit のプラグインを見つけたり管理を行うためのハブとして機能します。
 
-Gestione plugin viene caricato automaticamente all'avvio di FormIt, purché FormIt disponga dell'accesso ad Internet.
+FormIt がインターネットにアクセスできる限り、Plugin Manager は FormIt の起動時に自動的にロードされます。
 
-È possibile accedere a Gestione plugin facendo clic sull'icona della relativa scheda sul lato destro della finestra dell'applicazione:
+Plugin Manager にアクセスするには、アプリケーション ウィンドウの右側にあるプラグのアイコンをクリックします。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### Gestione plugin consente di classificare diversi tipi di plug-in:
+#### Plugin Manager は、各種プラグインをさまざまなタイプに分類しています。
 
-* **Plug-in installati**
-* **Plug-in consigliati**
-   * Plug-in consigliati dal team di FormIt per espandere le funzionalità principali di FormIt e sbloccare nuovi workflow.
-   * I plug-in sviluppati dalla community verranno visualizzati qui dopo l'approvazione da parte del team di FormIt. Ulteriori dettagli su questo argomento saranno forniti in futuro.
-* **Plug-in pubblici**
-   * Plug-in creati dalla community, ma che non sono stati rivisti o approvati dal team di FormIt.
+* **インストール済みのプラグイン**
+* **推奨プラグイン**
+   * FormIt の主要機能を拡張し、新しいワークフローを実現するために FormIt チームが推奨するプラグイン。
+   * コミュニティで開発されたプラグインは、FormIt チームによって承認された後に、ここに表示されます。今後、ここに詳細が記載されます。
+* **パブリック プラグイン**
+   * コミュニティによってビルドされたものの、FormIt チームがまだ確認や承認を行っていないプラグイン。
 
-#### Gestione plugin è stato progettato utilizzando una serie di interfacce espandibili e comprimibili, che semplificano la gestione dei plug-in e dei relativi repository:
+#### Plugin Manager は、展開/折りたたみ可能なインタフェースを使用して設計されているため、プラグインとそのリポジトリの管理が簡単にできます。
 
-* **Gestione dei plug-in:**
-   * Fare clic sul nome di un plug-in per visualizzarne la descrizione.
-   * Attivare/Disattivare l'interruttore per installarlo o disinstallarlo.
-      * Il plug-in viene visualizzato come barra degli strumenti nella parte superiore dell'applicazione, pannello sul lato destro o finestra di dialogo al centro, a seconda del tipo.
-* Se si sta [sviluppando un plug-in](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), è possibile aggiungere il relativo URL privato nel campo in basso e premere \(+\):
+* **プラグインを管理する:**
+   * プラグイン名をクリックすると、その説明が表示されます。
+   * スイッチを切り替えて、インストールやアンインストールを行います。
+      * プラグインは、そのタイプに応じて、アプリケーションの上部のツールバー、右側のパネル、または中央のダイアログとして表示されます。
+* [独自のプラグインを開発する](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)場合は、下部のフィールドにプライベート URL を入力して、[+]ボタンをクリックします。
 
-![Gestione plugin di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### Funzionamento dei plug-in
+#### プラグインの仕組み
 
-* I plug-in sono basati sul Web e sono disponibili in FormIt per Windows e FormIt per il Web.
-* I plug-in sono costituiti da una serie di file e cartelle ospitati su GitHub o su un server locale durante la creazione di file personalizzati.
-* I plug-in esterni \(i plugin non ospitati localmente\) richiedono una connessione ad Internet per il caricamento iniziale, il che significa che:
-   * I plug-in esterni non vengono caricati se, all'avvio di FormIt, non viene rilevata alcuna connessione ad Internet.
-   * Una volta caricati, alcuni plug-in esterni possono continuare a lavorare in modalità offline per tale sessione, ma altri potrebbero interrompersi fino al ripristino della connettività.
-   * I plug-in esterni caricano il codice più recente sul server ad ogni esecuzione, in modo che le loro funzionalità vengano aggiornate ogni volta che l'autore esegue il push di una modifica.
-* I plug-in vengono caricati in modo asincrono, ovvero l'ordine dei plug-in nell'interfaccia di FormIt può cambiare con ogni nuova sessione.
-* Gestione plugin utilizza le chiavi del Registro di sistema in Windows per memorizzare i repository e i plug-in installati.
-   * Se è necessario ripristinare le impostazioni di default di Gestione plugin, eliminare la seguente chiave del Registro di sistema:
+* プラグインは Web ベースで、FormIt for Windows と FormIt for Web で利用できます。
+* プラグインは一連のファイルとフォルダで構成され、GitHub、またはユーザ独自で構築した場合はローカル サーバにホストされています。
+* ローカルにホストされていない外部のプラグインを最初にロードする際には、インターネット接続が必要です。次の点に注意してください。
+   * FormIt の起動時にインターネット接続が検出されない場合、外部プラグインはロードされません。
+   * ロードした後、一部の外部プラグインはそのセッションの間はオフライン モードで作業を続行できますが、接続が回復するまで中断するプラグインもあります。
+   * 外部プラグインは実行のたびにサーバ上の最新のコードをロードするため、作成者が変更をプッシュするたびに機能が更新されます。
+* プラグインは非同期的にロードされます。つまり、FormIt インタフェースのプラグインの順序は、セッションごとに変更される場合があります。
+* Plugin Manager は、インストールされたリポジトリとプラグインを保存するために、Windows のレジストリ キーを使用します。
+   * Plugin Manager を既定にリセットする必要がある場合は、次のレジストリ キーを削除します。
       * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-      * Si noti che questa operazione disinstallerà tutti i repository e i plug-in aggiunti dall'utente, reimpostando Gestione plugin in modo da includere solo quelli incorporati.
+      * これにより、ユーザが追加したすべてのリポジトリとプラグインがアンインストールされ、Plugin Manager がリセットされて内蔵リポジトリとプラグインのみが含まれるようになります。
 

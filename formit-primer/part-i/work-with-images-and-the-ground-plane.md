@@ -1,93 +1,93 @@
-# 1.2 - Impostazione del progetto con immagini e griglia
+# 1.2 - イメージとグリッドを使用したプロジェクトの設定
 
-_È possibile importare immagini PNG o JPG sul piano del terreno del modello selezionando File > Importa dalla barra di navigazione. Tuttavia, per ottenere un maggiore controllo sulla scala e sulla posizione di un'immagine importata, è possibile creare un materiale personalizzato e applicarlo ad un rettangolo che abbiamo disegnato da soli._
+_ナビゲーション バーの[ファイル] &gt; [読み込み]から、モデルの地盤面に PNG または JPG イメージを読み込むことができます。ただし、読み込んだイメージの尺度と位置をより詳細にコントロールするために、カスタム マテリアルを作成し、自分で描いた長方形に適用することができます。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.2 - Project Set Up with Images and Grid.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di Primer**._
+_直前のセクションを完了していない場合は、_ _**1.2 - Project Setup with Images and Grid.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Calcolo della dimensione dell'immagine**
+## **イメージ サイズを計算する**
 
-Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio da 24" x 26" \(ARCH D\), che è 3600 pixel di larghezza per 2400 pixel di altezza. Conoscendo la scala del disegno \(¼"=1'-0"\) e le quote dell'immagine, è possibile calcolare 1' = 25 pixel, il che significa che l'immagine deve essere 144' x 96' quando viene importata in FormIt in scala intera.
+用意されている **plan.png** は、幅 3600 x 高さ 2400 ピクセルの 24" x 26" シート\(ARCH D\)に印刷された平面図のイメージです。図面の尺度\(¼" = 1'-0"\)とイメージの寸法から、1 = 25 ピクセルと計算できます。つまり、フル スケールで FormIt に読み込むと、このイメージは 144'x96' になります。
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Importazione di un'immagine in scala**
+## **イメージを読み込んで尺度変更する**
 
-1 - Fare clic sull'icona **Vista dall'alto** sulla **barra degli strumenti Navigazione mobile** per visualizzare la scena dall'alto.
+1 - **[浮動ナビゲーション バー]**の**[上面ビュー]**アイコンをクリックして、上からシーンを表示します。
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Scegliere lo **strumento Rettangolo \(R\)** dalla barra degli strumenti di disegno 3D.
+2 - [3D スケッチ]ツールバーから**[長方形\(R\)]ツール**を選択します。
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 - Per creare un rettangolo che sia esattamente **144'** x **96'**, fare clic in un punto qualsiasi dell'area di lavoro per definire il punto iniziale, quindi spostare il mouse per visualizzare l'anteprima e definire la lunghezza del primo lato. Iniziare a digitare un valore di quota per accedere ad una finestra di dialogo in cui è possibile immettere la quota esatta. Fare clic su **OK** o premere il tasto **INVIO** per applicare la quota. Ripetere la procedura per impostare la lunghezza del secondo lato e terminare il rettangolo.
+3 - 正確に **144'** x **96'** の長方形を作成するには、ワークスペース内の任意の場所をクリックして始点を定義し、マウスを動かして最初の辺の長さをプレビューして定義します。寸法の値の入力を開始すると、正確な寸法を入力できるダイアログ ボックスが表示されます。**[OK]**をクリックするか**[Enter]**キーを押して寸法を確定します。このプロセスを繰り返して、2 番目の辺の長さを設定し、長方形を完成させます。
 
-![ Immettere la lunghezza per il primo lato del rettangolo.](../../.gitbook/assets/3%20%281%29.png)
+![ Enter length for rectangle&#x2019;s first side.](../../.gitbook/assets/3%20%281%29.png)
 
-![Immettere la lunghezza per il secondo lato del rettangolo.](../../.gitbook/assets/4%20%281%29.png)
+![Enter length for rectangle&#x2019;s second side.](../../.gitbook/assets/4%20%281%29.png)
 
-![Terminare il rettangolo.](../../.gitbook/assets/5%20%281%29.png)
+![Finish the rectangle.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - Per creare il nuovo materiale "Floor Plan":
+4 - 新しい「Floor Plan」マテリアルを作成するには、次のように操作します。
 
-1. Aprire la **tavolozza Materiali**.
-2. Fare clic sull'icona **+** per creare un nuovo materiale.
-3. Assegnare al nuovo materiale il nome "**Floor Plan".**
-4. In **MAPPE**, fare clic sul riquadro di anteprima delle **trame** e individuare **plan.png** nella cartella **Farnsworth House Data Set &gt; Supporting Files &gt; Images**. Quindi fare clic su **Apri**.
-5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'** nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale \(icona della **catena**\) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
-6. Selezionare **Trasparenza** e impostarla su circa la metà. In questo modo, l'immagine della pianta del pavimento importata verrà allineata all'immagine satellitare.
-7. Fare clic su **OK** per terminare il materiale.
+1. **[マテリアル]パレット**を開きます。
+2. **[+]**アイコンをクリックして、新しいマテリアルを作成します。
+3. 新しいマテリアルに **Floor Plan**
+4. **[マップ]**セクションの**テクスチャ** プレビュー タイルをクリックし、**Farnsworth House Data Set &gt; Supporting Files &gt; Images** フォルダの **plan.png** を参照します。次に**[開く]**をクリックします。
+5. **[プロパティ]**セクションで、**[水平スケール]**フィールドに **144'**、**[垂直スケール]**フィールドに **96'** とそれぞれ入力してイメージのスケールを変更します。イメージの比率を変更する値を挿入する場合は、**鎖**アイコンをクリックして、水平スケールと垂直スケールのロックを解除しなければならないことがあります。
+6. **[透過度]**をオンにし、約半分に設定します。これで、読み込まれた平面図イメージを衛星画像の位置に合わせることができます。
+7. **[OK]**をクリックしてマテリアルを終了します。
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - Per dipingere il rettangolo:
+5 - 長方形をペイントするには、次のように操作します。
 
-1. Nella **tavolozza Materiali**, fare un singolo clic sul riquadro del **materiale Floor Plan** per dipingere con questo materiale. 
-2. Fare clic sul rettangolo disegnato per dipingerlo. Premere **ESC** per uscire dallo strumento del pennello.
+1. **[マテリアル]パレット**でペイントするマテリアルとして**[Floor Plan]マテリアル**のタイルをクリックして選択します。
+2. スケッチした長方形をクリックしてペイントします。**[Esc]**を押し、ペイントブラシ ツールを終了します。
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - Se il materiale viene visualizzato invertito o all'indietro, potrebbe essere necessario invertire la superficie. A tale scopo, fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e selezionare il pulsante Inverti superficie \(FF\).
+6 - マテリアルが反転または逆方向に表示される場合は、必要に応じて面を反転します。マウスで右クリックして表示される**コンテキスト メニュー**から、[面を反転\(FF\)]ボタンを選択します。
 
 ![](../../.gitbook/assets/8.png)
 
-## **Allineamento dell'immagine importata all'immagine satellitare**
+## **読み込まれたイメージを衛星画像に合わせる**
 
-1 - Per spostare l'immagine, selezionare innanzitutto il rettangolo facendo doppio clic. Quindi fare clic e trascinare il rettangolo, quindi spostarlo fino a quando non si sovrappone all'edificio nell'immagine satellitare. Torneremo ad allinearlo perfettamente in un secondo momento, ma cercheremo di fare del nostro meglio per ora.
+1 - イメージを移動するには、まずイメージをダブルクリックして長方形を選択します。次に、長方形をクリックしてドラッグし、衛星画像の建物と重なるまで移動させます。後で完全な位置合わせを行うので、ここではだいたいの調整を行います。
 
 ![](../../.gitbook/assets/9.png)
 
-2 - Per ruotare il rettangolo in modo da allinearlo all'immagine satellitare:
+2 - 衛星画像に合わせて長方形を回転させるには、次のように操作します。
 
-1. Fare clic con il pulsante destro del mouse sul rettangolo per visualizzare il menu contestuale. Scegliere **Ruota \(Q\).**
-2. Viene visualizzato il **widget Ruota** al centro del rettangolo. Selezionare il widget facendo clic una volta sul grip arancione al centro. Spostare il widget nell'angolo inferiore sinistro del rettangolo. Verrà eseguito lo snap all'angolo. Fare clic per posizionarlo.
-3. Digitare **9**. Verrà visualizzata la casella di quota. Fare clic su **OK** per ruotare il rettangolo in senso antiorario di 9 gradi.
+1. 長方形を右クリックして、コンテキストメニューを表示します。**[回転\(Q\)]**
+2. 長方形の中央に**回転ウィジェット**が表示されます。中央のオレンジ色のグリップをクリックして、ウィジェットを選択します。ウィジェットを長方形の左下コーナーに移動します。コーナーにスナップします。クリックすると配置されます。
+3. **9** と入力すると、寸法ボックスが表示されます。**[OK]**をクリックして、長方形を反時計回りに 9 度回転します。
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Allineamento della griglia all'immagine satellitare**
+## **グリッドを衛星画像に位置合わせする**
 
-1 - Ora allineeremo la griglia all'immagine satellitare e alla pianta del pavimento. Fare clic con il pulsante destro del mouse in un punto qualsiasi del **piano del terreno** e scegliere **Imposta assi \(SZ\)**.
+1 - 次に、衛星画像と平面図にグリッドを位置合わせします。**地盤面**上で右クリックし、**[軸を設定(SZ)]**を選択します。
 
 ![](../../.gitbook/assets/12.png)
 
-2 - Viene visualizzato il widget **Imposta assi**. Spostare l'asse nell'angolo inferiore sinistro del rettangolo, dove dovrebbe essere eseguito lo snap. Fare clic per posizionarlo.
+2 - **[軸を設定]**のウィジェットが表示されます。スナップする長方形の左下コーナーに軸を移動します。クリックすると配置されます。
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Fare clic sul grip all'estremità dell'asse rosso. Spostare il grip nell'angolo inferiore destro del rettangolo in modo che l'asse rosso si allinei con il bordo inferiore del piano. Fare clic nello spazio per applicare questa modifica.
+3 - 赤い軸の端にあるグリップをクリックします。グリップを長方形の右下コーナーに移動して、赤い軸を平面の下部エッジに揃えます。スペースの任意の場所をクリックして、この変更を確定します。
 
 ![](../../.gitbook/assets/14.png)
 
-4 - Per allineare la vista alla nuova griglia, fare clic sull'icona Vista dall'alto sulla barra di navigazione per reimpostare la scena.
+4 - ビューを新しいグリッドに位置合わせするには、ナビゲーション バーの[上面ビュー]アイコンをクリックしてシーンをリセットします。
 
 ![](../../.gitbook/assets/15.png)
 
-5 - Per garantire che l'edificio in entrambe le immagini si sovrapponga, selezionare la pianta per spostarla nuovamente fino a quando non si sovrappone correttamente all'immagine satellitare.
+5 - 両方のイメージの建物を確実に重ねるには、平面図を選択し、衛星画像に重なるまで動かします。
 
 ![](../../.gitbook/assets/16.png)
 
-6 - L'immagine satellitare, il rettangolo e la griglia sono ora allineati, il che semplifica il disegno 3D.
+6 - 衛星画像、長方形、グリッドが位置合わせされ、3D スケッチがしやすくなります。
 

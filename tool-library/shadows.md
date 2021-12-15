@@ -1,28 +1,28 @@
-# Sole + Ombre
+# 太陽 + 日影
 
-Utilizzare lo strumento **Sole + Ombre** per studiare gli effetti del percorso del sole sui progetti.
+**[太陽 + 日影]**ツールを使用して、太陽の軌道がプロジェクトに与える影響を調べます。
 
-Il primo passaggio per studi accurati sulle ombre consiste nell'[**impostare la posizione del progetto**](setting-location.md).
+影を正確に調査するには、最初に[**プロジェクトの場所を設定**](setting-location.md)する必要があります。
 
-Dopo aver impostato la posizione e, se lo si desidera, importato un'immagine satellitare, modellare il progetto, incluso il contesto dell'edificio ed elementi ombreggianti come griglie di ventilazione e alberi.
+場所を設定し、必要に応じて衛星画像を読み込んでから、建物のコンテキストと、ルーバーや木などのシェーディング要素をモデリングしてプロジェクトを作成します。
 
-### Menu Sole + Ombre
+### [太陽 + 日影]メニュー
 
-Attivare le ombre nel menu Sole + Ombre nella parte superiore dell'applicazione \(è inoltre possibile attivare le ombre, nonché regolare l'intensità delle ombre, in [**Stili visualizzazione**](../formit-introduction/tool-bars.md)\):
+アプリケーションの上部にある[太陽 + 日影]メニューで[影]をオンにします\([**[表示スタイル]**](../formit-introduction/tool-bars.md)でも影を有効にできます。影の強度の調整も可能です\)。
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-Da qui, è possibile regolare l'ora del giorno e il giorno dell'anno. L'anno di default è 2000. Non preoccuparsi perché questo non influisce sulla precisione dello studio sull'ombreggiatura del sole.
+ここで、時間と日付を調整できます。既定で年が 2000 と表示されますが、太陽による日影の解析の精度には影響しません。
 
-### Editor sole
+### 太陽エディタ
 
-È inoltre possibile attivare e disattivare l'Editor sole dal menu Sole + Ombre \(o utilizzare il tasto di scelta rapida DR\), che fornisce una visualizzazione grafica della posizione del sole nello spazio:
+[太陽 + 日影]メニューで[太陽エディタ]をオンにするかショートカットの DR を使用すると、スペース内に太陽の場所をグラフィカルに表示できます。
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* L'Editor sole si sposta con la cinepresa, pertanto potrebbe essere necessario regolare il livello di zoom e/o l'orientamento della cinepresa per collocare il widget in una posizione che sia appropriata rispetto al progetto che si sta studiando.
-* Afferrare il grip circolare per spostare il sole lungo il percorso e regolare correttamente l'ora del giorno.
-* Regolare l'ora dell'anno dal menu Sole + Ombre. In questo modo, l'angolo e l'orientamento del percorso del sole grafico verranno regolati in base al periodo dell'anno.
+* [太陽エディタ]はカメラとともに移動するため、必要に応じてズーム レベルやカメラの向きを調整し、調査している設計に適した位置にウィジェットが表示されるようにします。
+* 円形のグリップをつかみ、太陽を軌道に沿って動かして時間を効率的に調整します。
+* [太陽 + 日影]メニューで日付を調整します。この操作を行うと、グラフィカルな太陽の軌道の角度と向きが日付に基づいて調整されます。
 
 
 

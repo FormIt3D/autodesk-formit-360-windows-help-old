@@ -1,63 +1,61 @@
-# Snap e deduzioni
+# スナップと推定配置点
 
-Per semplificare il disegno e la modellazione, utilizzare gli snap e i punti di deduzione per creare, posizionare e modificare la geometria in modo preciso. È possibile utilizzare qualsiasi asse scelto come l'asse su cui disegnare o eseguire un'altra azione, ad esempio l'estrusione di una superficie.
+スナップと推定配置点を使用すると、スケッチとモデリングを簡単に実行できるだけでなく、ジオメトリの作成、配置、編集も正確に行うことができます。描画を行う軸として、任意の軸を選択して使用することができます。この軸で、サーフェスの押し出しなどの操作を実行することもできます。
 
-**Nota** _Per informazioni su come velocizzare l'utilizzo degli strumenti del software, vedere_ [_Tasti di scelta rapida_](../appendix/keyboard-shortcuts.md)_._
+**注:** _ソフトウェアの各種ツールを使用する場合に便利な_ [_キーボード ショートカット_](../appendix/keyboard-shortcuts.md) _に関する情報を参照してください。_
 
-## Snap
+## スナップする
 
-Esistono diversi snap che possono essere utili durante il disegno e la modellazione. Lo snap ad oggetti viene attivato automaticamente ed è possibile eseguire lo snap a:
+スケッチやモデリングを行う際に、いくつかのスナップを使用することができます。オブジェクトへのスナップは、自動的に有効になります。次に示すスナップ先にスナップすることができます。
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vertici | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Bordi. Quando si posiziona il cursore sul bordo, verranno disegnati piccoli punti rossi in corrispondenza delle        estremità e del punto medio. | ![](../.gitbook/assets/inf4.png) |
-| Punti medi del bordo | ![](../.gitbook/assets/inf5.png) |
-| Il piano di una superficie. Quando si posiziona il cursore sulla superficie, verrà disegnato un piccolo punto rosso
-        in corrispondenza del centroide della superficie. In questo modo sarà più semplice trovare il punto,
-        se si desidera eseguire lo snap. | ![](../.gitbook/assets/inf6.png) |
-| Centroidi della superficie | ![](../.gitbook/assets/inf7.png) |
-| Il piano di lavoro, se non si esegue lo snap ad altri elementi. | ![](../.gitbook/assets/inf8.png) |
-| Centri del cerchio o dell'arco | ![](../.gitbook/assets/inf9.png) |
-| Vertici della mesh | ![](../.gitbook/assets/inf2.png) |
-| Il piano di una sfaccettatura della mesh. | ![](../.gitbook/assets/inf1.png) |
+| 頂点 | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| エッジ。エッジにカーソルを合わせると、両端と中点に小さな赤い点が表示されます | ![](../.gitbook/assets/inf4.png) |
+| エッジの中点 | ![](../.gitbook/assets/inf5.png) |
+| 面の平面。面にカーソルを合わせると、面の図心に小さな赤い点が表示されます。これにより、図心にスナップする場合に簡単に見つけることができます | ![](../.gitbook/assets/inf6.png) |
+| 面の図心 | ![](../.gitbook/assets/inf7.png) |
+| 作業面(他のどの要素にもスナップしない場合) | ![](../.gitbook/assets/inf8.png) |
+| 円または円弧の中心 | ![](../.gitbook/assets/inf9.png) |
+| メッシュの頂点 | ![](../.gitbook/assets/inf2.png) |
+| メッシュのファセットの平面 | ![](../.gitbook/assets/inf1.png) |
 
-Per eseguire lo snap alla griglia, è necessario attivare il pulsante di commutazione **Snap alla griglia (SG)** dal menu Impostazioni.
+グリッドにスナップするには、[設定]メニューの**[グリッドにスナップ(SG)]**をオンにします。
 
-## Assi e punti di deduzione
+## 推定軸と推定配置点
 
-La selezione automatica dei punti di deduzione è sempre attivata e consentirà di vincolare il movimento della geometria. Gli assi di deduzione vengono generati automaticamente dagli strumenti o quando si posiziona il cursore del mouse su bordi o punti. Gli assi di deduzione vengono sempre disegnati sulla schermata con trattini in modo da sapere dove si trovano e sia facile eseguire lo snap.
+推定配置点の選択機能は常に有効になっているため、ジオメトリの動作を制限できます。推定軸は、ツールによって自動的に生成されるか、マウスをエッジまたは点の上に合わせたときに生成されます。推定軸は常に破線で画面に描画されるため、位置が分かり、スナップが簡単です。
 
-**Asse:** è possibile spostare la geometria lungo l'asse X, Y o Z. L'asse X è rosso, l'asse Y è verde e l'asse Z è blu.
+**軸:** X 軸、Y 軸、Z 軸に沿ってジオメトリを移動することができます。 X 軸の推定配置点は赤、Y 軸の推定配置点は緑、Z 軸の推定配置点は青で表示されます。
 
 ![](../.gitbook/assets/inf10.png)
 
-**Blocco dell'asse:** è possibile bloccare il movimento lungo l'asse X, Y o Z. Tenere premuto il tasto MAIUSC mentre si lavora sulla deduzione di un asse, quindi spostare il mouse per eseguire lo snap e la deduzione ad altri elementi.
+**軸のロック:** X 軸、Y 軸、Z 軸に沿って動作をロックすることができます。 軸の推定配置点で[Shift]キーを押したまま、マウスを移動して別の要素の推定配置点にスナップします。
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallelo:** è possibile disegnare o spostare la geometria parallelamente agli elementi esistenti. Le deduzioni perpendicolari sono viola. È necessario posizionare il cursore su una linea che si desidera utilizzare come riferimento parallelo.
+**平行:** 既存の要素に対して平行に、ジオメトリのスケッチや移動を行うことができます。 垂直方向の推定配置点は紫色で表示されます。水平方向の参照情報として使用する線にマウス カーソルを置く必要があります。
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicolare:** è inoltre possibile disegnare o spostare la geometria perpendicolarmente agli elementi esistenti. Le deduzioni perpendicolari sono viola. È necessario posizionare il cursore su una linea che si desidera utilizzare come riferimento perpendicolare.
+**垂直:** 既存の要素に対して垂直に、ジオメトリのスケッチや移動を行うこともできます。 垂直方向の推定配置点は紫色で表示されます。垂直方向の参照情報として使用する線にマウス カーソルを置く必要があります。
 
 ![](../.gitbook/assets/inf15.png)
 
-**Estensione da un punto:** è anche possibile utilizzare le deduzioni per l'estensione dal riferimento di un punto. Posizionare il cursore del mouse su un punto che si desidera utilizzare come riferimento fino a quando non viene visualizzata la descrizione comando, quindi utilizzare l'asse di deduzione che si estende dal punto.
+**任意の点からの延長:** 推定配置点を使用して、任意の点参照から延長することができます。 参照情報として使用する点にマウス カーソルを置いてツールチップを表示し、その点から伸びる推定軸を使用します。
 
 ![](../.gitbook/assets/inf16.png)
 
-**Centro del cerchio**: se si desidera eseguire lo snap al centro di un arco o di un cerchio, posizionare il cursore sull'arco o sul cerchio. Verrà mostrato un piccolo punto rosso al centro. Rimarrà visibile per circa 5 secondi dopo che si allontana il cursore dall'arco o dal cerchio. Ora spostare il cursore sul punto rosso per eseguire lo snap al centro.
+**円の中心**: 円弧または円の中心にスナップする場合は、円弧または円の上にカーソルを合わせます。これにより、中心に小さな赤い点が表示されます。円弧または円からカーソルを離しても、約 5 秒間は表示されたままです。カーソルを赤い点の上に移動して、中心にスナップします。
 
 ![](../.gitbook/assets/inf17.png)
 
-**Punti medi di archi e spline reali**: quando si posiziona il cursore su un cerchio, un arco o una spline, sarà possibile eseguire lo snap al punto medio reale. Il punto medio e i punti finali verranno mostrati da un piccolo punto rosso. In caso di deduzione su un arco, si eseguirà anche lo snap ai vertici dei bordi diritti che rappresentano l'arco.
+**円弧とスプラインの真の中点**: 円、円弧、またはスプラインにカーソルを合わせると、真の中点にスナップできます。この中点と両端の点は、小さな赤い点で示されます。円弧の推定配置には、円弧を表す直線エッジの頂点も含まれます。
 
 ![](../.gitbook/assets/inf18.png)
 
-**Cancellazione delle deduzioni**: è possibile che il disegno generi un numero maggiore di deduzioni, che potrebbero posizionare punti che non dovrebbero eseguire lo snap a tali deduzioni. Se si premono i tasti **MAIUSC + BARRA SPAZIATRICE**, tutte le deduzioni verranno cancellate, ad eccezione di quelle dell'ultimo punto posizionato.
+**推定配置をクリアする**: 描画中は多数の推定配置が生成される可能性があり、それらの推定配置にスナップしない点を配置する際の妨げになる可能性があります。**[Shift]+[Space]**キーを押すと、最後に配置された点の推定配置以外はすべてクリアされます。
 
-![Prima di cancellare le deduzioni](../.gitbook/assets/inf19.png)
+![Before clearing inferences](../.gitbook/assets/inf19.png)
 
-![Dopo aver cancellato le deduzioni](../.gitbook/assets/inf20.png)
+![After clearing inferences](../.gitbook/assets/inf20.png)

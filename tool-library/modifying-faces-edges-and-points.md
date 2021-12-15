@@ -1,33 +1,33 @@
-# Modifica di superfici, bordi e punti
+# 面、エッジ、点を修正する
 
-Le cose diventano davvero interessanti quando si inizia a spingere e trascinare gli oggetti che sono stati posizionati. Un singolo clic consente di selezionare un singolo vertice o bordo oppure una singola superficie o mesh.
+配置したオブジェクトをプッシュ操作やプル操作で変更する方法を理解すると、さまざまな操作を実行できるようになります。シングルクリックで、頂点、エッジ、面、またはメッシュを 1 つ選択できます。
 
-## Modifica di superfici
+## 面を修正する
 
-1. Fare un singolo clic su una superficie.
-2. In FormIt si attiva automaticamente lo strumento Trascina superficie o Estrudi.
-3. Fare clic in un punto qualsiasi per identificare un punto iniziale per l'operazione.
-4. Dopo aver fatto clic, è possibile eseguire lo snap ad altri oggetti per allineare questa superficie.
-5. Come con lo spostamento, è possibile fare clic sulla **quota temporanea** o è sufficiente iniziare a digitare un valore per definire la quantità di movimento.
+1. 面をシングルクリックします。
+2. 自動的に[面をドラッグ]ツールまたは[押し出し]ツールが起動します。
+3. クリックして、操作の開始点を指定します。
+4. クリックすると、この面を位置合わせする他のオブジェクトにスナップできます。
+5. 移動の場合と同様に、**仮寸法**をクリックするか値の入力を開始して、表示されるダイアログから移動量を定義できます。
 
 ![](../.gitbook/assets/modify.png)
 
-È inoltre possibile eliminare una superficie utilizzando il tasto **CANC** o facendo clic con il pulsante destro del mouse e richiamando Elimina dal menu contestuale.
+面を削除する場合は、**[Delete]**キーを使用するか、右クリックしてコンテキスト メニューから[削除]コマンドを選択します。
 
-È anche possibile eliminare una superficie **facendo clic con il pulsante destro del mouse > pulsante X**.
+**右クリックして[X]ボタン**を押しても面を削除できます。
 
-## Modifica di bordi
+## エッジを修正する
 
-1. Fare un singolo clic su un bordo.
-2. In FormIt si attiva automaticamente lo strumento Sposta.
-3. Posizionare il mouse su un punto nello spazio da cui si desidera avviare l'operazione di spostamento.
-4. Fare clic; ora è possibile trascinare il bordo per modificare la forma.
+1. エッジをシングルクリックします。
+2. 自動的に[移動]ツールが起動します。
+3. 移動操作の起点となるスペース内の点にマウスを合わせます。
+4. クリックすると、エッジをドラッグしてシェイプを修正できるようになります。
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifica di punti
+## 点を修正する
 
-1. Fare un singolo clic su uno degli angoli di uno dei cubi.
-2. Analogamente ad un bordo, è possibile trascinare il punto lungo uno degli assi per ridefinire la forma. [Successivo Scala non uniforme](non-uniform-scale.md)
+1. 立方体のいずれかのコーナーをシングルクリックします。
+2. エッジの場合と同様に、いずれかの軸に沿って点をドラッグしてシェイプを変更します。[次不均等スケール](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

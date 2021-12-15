@@ -1,24 +1,24 @@
-# Parte I
+# パート 1
 
-## Modellazione di Casa Farnsworth di Mies van der Rohe
+## Mies van der Rohe のファンズワース邸をモデリングする
 
-Nella Parte I di questa Guida introduttiva, esamineremo gli strumenti e i workflow di base di FormIt per costruire una storica casa moderna in appena due ore. Consultare le sezioni **Introduzione a FormIt** e **Libreria degli strumenti** per spiegazioni dettagliate su strumenti, barre degli strumenti, tavolozze e processi qui descritti.
+Primer パート 1 では、FormIt の基本的なツールとワークフローについて説明し、歴史的なモダニズム建築の邸宅をわずか 2 時間で作成します。ここで説明するツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
 
 
 
-![Casa Farnsworth](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
+![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Prerequisiti
+### 前提条件
 
-Prima di iniziare la Parte I, scaricare e installare FormIt per Windows utilizzando le istruzioni disponibili nella sezione Introduzione a FormIt qui: [**Prerequisiti e installazione**](../../formit-introduction/prerequisites-and-installation.md).
+パート 1 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
 
-Sarà inoltre necessario scaricare il set di dati disponibile nel collegamento riportato di seguito. Il set di dati è una raccolta di file utilizzati in tutta la Parte I.
+次のリンクにあるデータ セットもダウンロードする必要があります。データ セットは、パート 1 を通して使用するファイルのコレクションです。
 
-_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app) _gratuita. Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ ****[_**sito Web di FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
 
-### Set di dati
+### データ セット
 
-Nella Parte I, costruiremo passo dopo passo Casa Farnsworth, suddividendo la modellazione in capitoli gestibili. Se si desidera completare solo capitoli specifici, il set di dati riportato di seguito consentirà di progredire fino al capitolo scelto. Oltre ai **file dei capitoli**, il set di dati contiene anche i **file di supporto** necessari per completare tutti gli esercizi.
+パート 1 では、取り組みやすいようにモデリングを複数の章に分割しています。順を追ってファンズワース邸を作成していきます。特定の章のみを完了する場合は、選択した章までの作業を終えたデータを下のデータ セットから取得できます。データ セットには、**各章のファイル**の他に、すべての演習を完了するために必要な**サポート ファイル**も含まれています。
 
-* \*\*\*\*[**Parte I del set di dati della Guida introduttiva di FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
 

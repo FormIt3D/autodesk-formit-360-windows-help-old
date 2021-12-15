@@ -1,22 +1,22 @@
-# Elimina, Modifica, Sposta
+# 削除、編集、移動する
 
-È possibile rimuovere un oggetto, cambiarne la posizione o modificarne le proprietà.
+この演習では、オブジェクトの削除、オブジェクトの場所の移動、オブジェクトのプロパティの編集を行います。
 
-## Elimina
+## 削除する
 
-Innanzitutto, effettuare una selezione della geometria. Quindi, fare clic con il pulsante destro del mouse per visualizzare il menu contestuale dove è possibile fare clic sullo **strumento Elimina**. È inoltre possibile premere il tasto ESC sulla tastiera.
+最初に、削除するジオメトリを選択します。次に、コンテキスト メニューを右クリックして**[削除]ツール**をクリックするか、キーボードの[Delete]キーを押します。
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Modifica
+## 編集する
 
-Quando si utilizzano molti degli strumenti di modifica, come spostamento, matrice, spinta-trazione della superficie e offset, viene visualizzata una casella di quota blu. È possibile fare clic su questa quota dopo aver completato l'operazione e immettere un valore specifico. È inoltre possibile iniziare semplicemente digitando un valore numerico per accedere alla finestra di dialogo Modifica quota. In alternativa, è possibile premere TAB per visualizzare la finestra di dialogo Modifica quota, ma non è più necessario utilizzare TAB con FormIt per Windows v17 e versioni successive.
+[移動]ツール、[配列]ツール、[押し出し]ツール、[オフセット]ツールなどの編集ツールを使用すると、青い寸法ボックスが表示されます。操作が完了したらこの寸法をクリックし、特定の値を入力します。数値の入力を開始するだけで表示される寸法編集用のダイアログを利用することもできます。このダイアログは[Tab]を押しても表示できますが、v17 以降の FormIt for Windows では[Tab]は不要です。
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Spostamento di bordi, superfici o oggetti
+## エッジ、面、オブジェクトを移動する
 
-Innanzitutto selezionare il bordo, la superficie o l'oggetto. Lo strumento di spostamento viene attivato automaticamente. Posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione per specificare dove si desidera avviare l'operazione di spostamento, quindi fare clic per iniziare. Ora posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione nella posizione in cui si desidera spostare l'oggetto. Fare di nuovo clic per posizionare l'oggetto.
+最初に、移動するエッジ、面、またはオブジェクトを選択します。移動ツールが自動的にアクティブになります。マウスを操作してスナップと推定配置点を表示し、移動操作の開始位置を指定してクリックします。これにより、移動操作が開始されます。次に、オブジェクトの移動先となる位置にマウスを置き、スナップと推定配置点を表示します。もう一度クリックすると、オブジェクトが配置されます。
 
 ![](../.gitbook/assets/edit_edge.png)
 

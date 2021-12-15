@@ -1,138 +1,138 @@
-# 1.7 - Pittura con i materiali
+# 1.7 - マテリアルでペイントする
 
-Come abbiamo visto in un **esercizio precedente**, è possibile creare materiali personalizzati e quindi dipingere superfici con tali materiali in FormIt. In questo esercizio, creeremo e modificheremo più materiali, oltre a importare materiali da Autodesk Material Library.
+**前の演習**で説明したように、ユーザ独自のマテリアルを作成し、そのマテリアルを使用して FormIt で面をペイントすることができます。この演習では、Autodesk Material Library からマテリアルを読み込むだけでなく、マテリアルを作成および編集します。
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.7 - Paint with Materials.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.7 - Paint with Materials.axm**ファイルをダウンロードして開きます。_
 
-## **Creazione dei muri in vetro**
+## **ガラス壁を作成する**
 
-1 - Per visualizzare la pianta contenente le quote a cui si intende fare riferimento, accedere alla **tavolozza Layer** e attivare il layer **Plan Image**.
+1 - 参照する寸法を含む平面図を表示するには、**[レイヤ]パレット**に移動し、レイヤ **Plan Image** をオンにします。
 
-2 - Selezionare lo **strumento Rettangolo \(R\)**. Creeremo un rettangolo direttamente sopra il gruppo del pavimento esistente. Assicurarsi di non modificare il gruppo del pavimento, ma di disegnare sopra l'oggetto raggruppato esistente.
+2 - **[長方形ツール \(R\)]**を選択します。既存の床のグループの上に長方形を直接作成します。床のグループを編集するのではなく、既存のグループ化されたオブジェクトの上に描画してください。
 
 ![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - Per iniziare il rettangolo per l'area in vetro:
+3 - ガラス エリア用の長方形を描画します。
 
-1. Fare clic sull'angolo posteriore del pavimento esistente e spostare il mouse lungo il bordo più corto.
-2. Digitare **28'-8"** per definire la prima lunghezza del bordo e fare clic su **OK**. La lunghezza deve corrispondere a quella del bordo corto esistente del pavimento.
-3. Per definire il secondo bordo, iniziare a spostare il mouse lungo il bordo più lungo esistente del pavimento. Digitare **55'-5 ½"** per impostare la lunghezza del secondo bordo, quindi fare clic su **OK**.
-4. Fare clic su **ESC** per uscire dallo strumento Rettangolo. Fare clic una sola volta all'interno del nuovo rettangolo per selezionare la superficie e iniziare a trascinarla verso l'alto.
+1. 既存の床の後方のコーナーをクリックし、短いエッジに沿ってマウスを移動します。
+2. **28'-8"** と入力して最初のエッジ長を定義し、**[OK]**をクリックします。これは、床の既存の短いエッジと同じ長さになるはずです。
+3. 2 つ目のエッジを定義するには、既存の床の長い方のエッジに沿ってマウスを移動します。**55'-5 ½"** と入力して 2 つ目のエッジの長さを設定し、**[OK]**をクリックします。
+4. **[Esc]**を押して、長方形ツールを終了します。新しい長方形の内側をシングルクリックして面を選択し、上にドラッグします。
 
 ![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - Per definire l'altezza, spostare il mouse verso l'alto lungo l'**Asse Z**, premere il tasto **TAB** e immettere **11'-2"**.
+4 - 高さを定義するには、**Z 軸**に沿ってマウスを上に移動し、**[Tab]**キーを押して **11'-2"** と入力します。
 
 ![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Nota**_ _Ogni volta che si utilizza uno strumento per il quale è possibile immettere una quota, premere_ _**TAB**_ _o iniziare a digitare i numeri._
+_**注:**_ _寸法を入力できるツールを使用している場合は常に、_ _**[Tab]**_ _を押すか、そのまま数値の入力を開始できます。_
 
-5 - Fare doppio clic e selezionare **Gruppo \(G\)** per la nuova geometria.
+5 - 新しいジオメトリをダブルクリックして**グループ\(G\)**にします。
 
-6 - Fare doppio clic sul gruppo per modificarlo. Nella **tavolozza Proprietà**, denominare il gruppo **Glass Walls.**
+6 - グループをダブルクリックして編集します。**[プロパティ]パレット**で、グループに **Glass Walls という名前を付けます。**
 
 ![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - Per definire lo spessore del muro in vetro:
+7 - ガラスの壁の厚さを定義します。
 
-1. Fare clic con il pulsante destro del mouse sulla superfice superiore e scegliere lo **strumento Offset superficie \(OF\).**
-2. Spostare il cursore del mouse verso l'interno e digitare **4".**
-3. Premere due volte **ESC** per deselezionare lo strumento e annullare la selezione.
+1. 上面を右クリックして**[面をオフセット\(OF\)]**
+2. マウス カーソルを内側に移動し、**4" と入力します。**
+3. **[Esc]**を 2 回押してツールと選択をクリアします。
 
 ![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Nota**_ _L'unità di default per i progetti con unità di misura imperiali è piedi, analogamente a Revit. Se si immette un numero singolo senza un'unità specificata, ad esempio_ _**4**, si otterrà_ _**4 piedi \(4'\)**_ _e non_ _**4 pollici \(4"\)**._
+​_​**注:**​_ _インチ/フィート単位のプロジェクトの既定の単位は、Revit と同様に「フィート」です。_ _**「4」**のように単位を指定せずに数値のみを入力すると、_ _**4 フィート\(4'\)**_ _と認識され、_ _**4 インチ\(4"\)**とはなりません。_
 
-8 - Per ritagliare l'area interna, fare clic una sola volta sulla superficie superiore interna per selezionarla, quindi fare di nuovo clic per avviare l'operazione di **trascinamento della superficie**. Spingere completamente la superficie verso il basso fino a quando non scompare e fare clic nello spazio per completare la procedura.
+8 - 内側の領域を切り抜くには、内側の上面をシングルクリックして選択し、もう一度クリックして**面をドラッグ**する操作を開始します。消えるまで面を下に押し、スペース内でクリックして処理を終了します。
 
 ![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Nota**_ _In FormIt, a differenza di altro software, non è possibile spingere accidentalmente "troppo" la superficie che si sta tentando di eliminare in modo da formare una nuova estrusione negativa._
+_**注:**_ _FormIt では、他のソフトウェアとは異なり、削除しようとしている面を誤って押し「過ぎ」ても、新たに負の押し出しが形成されることはありません。_
 
-9 - Terminare la modalità **Modifica gruppo** facendo doppio clic nello spazio o premendo **ESC.**
+9 - スペースの外でダブルクリックするか**[Esc]を押して、**[グループを編集]**モードを終了します。**
 
-10 - Selezionare il gruppo **Glass Walls** con un solo clic e inserirlo nel layer **Main Building Floor**.
+10 - グループ **Glass Walls** をシングルクリックして選択し、レイヤ **Main Building Floor** に配置します。
 
 ![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Importazione di un materiale da Autodesk Material Library**
+## **Autodesk Material Library からマテリアルを読み込む**
 
-1 - Modificare nuovamente il gruppo **Glass Walls** facendovi doppio clic.
+1 - グループ **Glass Walls** 内でダブルクリックして、もう一度編集します。
 
-2 - Per importare un nuovo materiale nel modello:
+2 - 新しいマテリアルをモデルに読み込みます。
 
-1. Accedere alla **tavolozza Materiali**.
-2. Scegliere **Campioni di materiali** nel menu a discesa nella parte superiore della tavolozza per spostarsi all'interno di **Autodesk Material Library.** ​
-3. Fare clic sulla cartella **Glass+Glazing** per aprirla.
-4. Individuare il materiale **Glass – Blue Tint** e fare clic una sola volta per aggiungere tale materiale alla libreria di materiali **Nel disegno**.
-5. Si noti che è necessario tornare alla libreria **Nel disegno**, che ora include il materiale appena selezionato.
+1. **[マテリアル]パレット**に移動します。
+2. パレットの上部にあるドロップダウン メニューで**[マテリアル サンプル]**を選択し、**Autodesk Material Library** 内をナビゲートします。
+3. **Glass+Glazing** フォルダをクリックして開きます。
+4. マテリアル **Glass - Blue Tint** を探し、そのマテリアルをクリックして**[スケッチ内]**マテリアル ライブラリに追加します。
+5. 選択したマテリアルが新たに追加された**[スケッチ内]**ライブラリに戻ります。
 
 ![](../../.gitbook/assets/7%20%288%29.png)
 
 ![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - Dopo aver aggiunto il materiale, dovrebbe attivarsi automaticamente lo strumento del **pennello**. In caso contrario, è sufficiente fare clic una sola volta di nuovo sul materiale **Glass – Blue Tint**. Per dipingere tutti i muri, fare doppio clic sulla geometria con lo strumento del **pennello**. In questo modo il materiale selezionato verrà applicato all'intero oggetto. ![](../../.gitbook/assets/9%20%281%29.png)​
+3 - マテリアルを追加すると、自動的に**[ペイントブラシ]**ツールがアクティブになります。アクティブにならない場合は、マテリアル **Glass - Blue Tint** を再度クリックします。すべての壁をペイントするため、**[ペイントブラシ]**ツールでジオメトリをダブルクリックします。選択したマテリアルがオブジェクト全体に適用されます。![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Fare clic su **ESC** per uscire dallo strumento del **pennello**. Fare nuovamente clic su **ESC** oppure fare doppio clic nello spazio per uscire dal gruppo.
+4 - **[Esc]**を押して、**[ペイントブラシ]**ツールを終了します。**[Esc]**をもう一度押すか、スペースの外でダブルクリックしてグループを終了します。
 
-## **Copia rapida del pavimento per creare il tetto**
+## **床をすばやくコピーして屋根を作成する**
 
-1 - Per creare rapidamente il tetto in base alla geometria del pavimento:
+1 - 床のジオメトリに基づいて屋根をすばやく作成するには、次のように操作します。
 
-1. Selezionare il gruppo **Floor** con un solo clic.
-2. Fare clic su uno degli angoli inferiori per avviare lo strumento **Sposta**.
-3. Iniziare a spostare il pavimento verso l'alto lungo l'asse blu \(**Asse Z**\). Creare una **copia rapida** toccando il tasto **CTRL**. Dovrebbe essere visualizzata un'anteprima "semitrasparente" della copia. ​
-4. Durante lo spostamento lungo l'asse blu \(**Asse Z**\), iniziare a digitare **12' 2"** e verrà visualizzata la **finestra di dialogo Quota**. Fare clic su **OK** o premere **INVIO** per finalizzare la posizione.
+1. グループ **Floor** をシングルクリックで選択します。
+2. 下のコーナーの 1 つをクリックして、**[移動]**ツールを開始します。
+3. 青色の **Z 軸**に沿って床を上に移動します。**すばやくコピー**を作成するには、**[Ctrl]**キーを押します。コピーのゴースト モードのプレビューが表示されます​。
+4. 青色の **Z 軸**に沿って移動しながら **12' 2"** と入力すると、**[寸法]ダイアログ**が表示されます。**[OK]**をクリックするか、**[Enter]**を押して位置を確定します。
 
 ![](../../.gitbook/assets/10%20%281%29.png)
 
 ![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Modifica del tetto**
+## **屋根を編集する**
 
-1 - Mentre il gruppo copiato è ancora selezionato, utilizzare il comando **Rendi univoco \(MU\)** per dissociare questo gruppo dal gruppo Floor.
+1 - コピーしたグループが選択されている間に、**[固有にする\(MU\)]**コマンドを使用して、このグループと床グループとの関連付けを解除します。
 
-2 - Fare doppio clic sul gruppo per modificarlo. Rinominare il gruppo **Roof** nella **tavolozza Proprietà**. Uscire dal gruppo facendo doppio clic nello spazio.
+2 - グループをダブルクリックして編集します。**[プロパティ]パレット**でグループの名前を「**Roof**」に変更します。スペースの外でダブルクリックしてグループを終了します。
 
-3 - Nella **tavolozza Layer**, creare un nuovo **layer** denominato **Roof** e aggiungervi il gruppo **Roof**. È possibile attivare e disattivare il layer per verificare che gli elementi corretti si trovino sul tetto. Fare riferimento al **capitolo 6** per ulteriori informazioni su come utilizzare i **layer**.
+3 - **[レイヤ]パレット**で、新しい**レイヤ**を **Roof** という名前で作成し、グループ **Roof** をそのレイヤに追加します。レイヤのオンとオフを切り替えると、正しい要素が屋根に配置されていることを確認できます。**第 6 章**を参照して、**レイヤ**を使用した作業の詳細について確認してください。
 
-4 - Tornare alla **tavolozza Materiali** e importare il materiale **Concrete - Broom Finish - Colorized 1** dalla cartella **Concrete+Asphalt** nella libreria **Campioni di materiali** **\(Produzione\)**. Notare che facendo clic sul materiale, la geometria selezionata verrà automaticamente dipinta e il nuovo materiale verrà aggiunto alla libreria di materiali **Nel disegno**.
+4 - **[マテリアル]パレット**に戻り、**マテリアル サンプル** ライブラリの **Concrete+Asphalt** フォルダからマテリアル **Concrete - Broom Finish - Colorized** **1**を読み込みます。マテリアルをクリックすると、選択したジオメトリが自動的にペイントされ、新しいマテリアルが**スケッチ内**マテリアル ライブラリに追加されます。
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Nota**_ _La pittura di un gruppo al di fuori della_ _**modalità di modifica del gruppo**_ _è una tecnica utile che consente di dipingere diverse istanze dello stesso gruppo con materiali diversi._
+_**注**_ _:_ _**グループの編集モード**_ _以外でグループをペイントすると、同じグループの異なるインスタンスを異なるマテリアルでペイントできます。_
 
-## **Creazione della terrazza inferiore**
+## **低いテラスを作成する**
 
-1 - In base a **Plan Image**, creare la terrazza inferiore come **Rettangolo \(R\)** lungo **55' 3"** e largo **22'-7 3/4"** ed estruderla di 1'. Posizionare il nuovo rettangolo in modo che si trovi a 8 5/8" dal bordo sud dell'edificio principale \(la profondità dei pilastri che verranno creati in seguito\).
+1 - **Plan Image** に基づき、長さ **55' 3"**、幅 **22'-7 3/4"** の**長方形\(R\)**の低いテラスを作成して、1' 押し出します。新しい長方形を、メインの建物の南のエッジから 8 5/8" (後で作成する柱の奥行き)離して、配置します。
 
-_**Note:**_
+_**注**:_
 
-* _Consultare i capitoli precedenti per informazioni su come disegnare ed estrudere i rettangoli._
-* _Potrebbe essere necessario attivare o disattivare_ _**Snap alla griglia \(SG\)**_ _per fare clic_ sull'angolo della terrazza.
+* _長方形を描画して押し出す方法については、前の章を参照してください。_
+* _テラスのコーナーをクリックするために、_ _**[グリッドにスナップ\(SG\)]**_ _のオンとオフの_切り替えが必要となる場合があります。
 
-2 - Per finalizzare la terrazza inferiore:
+2 - 低いテラスを完成させます。
 
-1. Selezionare **Gruppo \(G\)** per la geometria e denominarlo **Lower Terrace Floor**.
-2. **Spostare** il gruppo verso l'alto di **2'-2"** dal piano di base.
-3. Creare un nuovo **layer** denominato **Lower Terrace** e aggiungervi il gruppo.
-4. Aggiungere **Terrace Level Floor** al gruppo.
+1. ジオメトリを**グループ\(G\)**にして、**Lower Terrace Floor** という名前を付けます。
+2. グループを上に**移動**して地盤面から **2'-2"** 離します。
+3. 新しい**レイヤ**を **Lower Terrace** という名前で作成し、グループをそのレイヤに追加します。
+4. **テラス レベルの床**をグループに追加します。
 
 ![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Nota**_ _Questa immagine non rappresenta la procedura passo passo per creare e assegnare la geometria a gruppi, livelli e layer. Per ulteriori informazioni su queste procedure, consultare i capitoli precedenti di questa Guida introduttiva._
+_**注:**_ _この図では、ジオメトリを作成してグループ、レベル、レイヤに割り当てるプロセスの手順は示していません。これらのプロセスの詳細については、Primer のこれまでの章を参照してください。_
 
-3 - Importare il materiale **Stone &gt; Stone - Travertine**.
+3 - マテリアル **Stone &gt; Stone - Travertine** を読み込みます。
 
-4 - Nella **tavolozza Materiali**, individuare il materiale **Travertine** importato e modificarlo:
+4 - **[マテリアル]パレット**で、読み込まれたマテリアル **Travertine** を見つけて修正します。
 
-1. Fare doppio clic sul riquadro di anteprima per aprire la finestra popup **Editor materiali**.
-2. Fare clic sul riquadro di anteprima **Colore** per aprire la finestra popup **Scegli colore per questo materiale**.
-3. Modificare il campo **Val** in **190** per scurire la tinta del materiale.
+1. プレビュー タイルをダブルクリックして、**[マテリアル エディタ]**ポップアップを開きます。
+2. **[色]**プレビュー タイルをクリックして、**色エディタ**のポップアップを開きます。
+3. **[Val]**のフィールドで明度を **190** に変更して、マテリアルの色合いを暗くします。
 
 ![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Disegnare** i gruppi **Floor** e **Lower Terrace Floor** con il materiale **Travertine** modificato.
+5 - 修正したマテリアル **Travertine** でグループ **Floor** および **Lower Terrace Floor** を**ペイント**します。
 
 ![](../../.gitbook/assets/15.jpeg)
 

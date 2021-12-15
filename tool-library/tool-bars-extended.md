@@ -1,77 +1,62 @@
-### Barre degli strumenti estese
+### ツールバーの拡張
 ---
 
-#### Barra degli strumenti delle azioni
-La barra degli strumenti si trova nella parte superiore della schermata. Gli strumenti qui disponibili consentono di creare, modificare e condividere contenuto.
-![](images/Tool Bar-All.PNG)
+#### アクション ツールバー
+ツールバーは、画面の上部に表示されます。各種ツールを使用して、コンテンツの作成、編集、共有を行うことができます。
+![] (images/Tool Bar-All.PNG)
 
-**1. Menu della raccolta**
-![](images/Tool Bar-Gallery.PNG)
-- Nuovo disegno, apertura del disegno, salvataggio del disegno, importazione o esportazione di file.
+**1. ギャラリー メニュー**![](images/Tool Bar-Gallery.PNG)
+- 新しいスケッチを作成する、スケッチを開く、スケッチを保存する、ファイルを読み込む、または書き出します。
 
-**2. Annulla/Ripeti**
-![](images/Tool Bar-Undo Redo.PNG)
-- Fare clic per annullare o ripetere le azioni recenti.
+**2. 元に戻す/やり直す**![] (images/Tool Bar-Undo Redo.PNG)
+- 最近の操作を元に戻す、またはやり直します。
 
-**3. Selezione e misurazione**
-![](images/Tool Bar-Select.PNG)
-- Filtro di selezione: fare clic per scegliere le opzioni per filtrare i tipi di oggetto (bordi, superfici, solidi, gruppi) dallo strumento di selezione.
-- Strumenti di misurazione: fare clic per scegliere uno strumento di misurazione lineare o angolare.
+**3. 選択と計測**![] (images/Tool Bar-Select.PNG)
+- 選択フィルタ: 選択ツールから特定のオブジェクト タイプ\(エッジ、面、ソリッド、グループなど\)を除外するためのオプションを選択できます。
+- 計測ツール: 直線計測ツールまたは角度計測ツールを選択できます。
 
-**4. Strumenti di creazione e modifica**
-![](images/Tool Bar-Create.PNG)
-- Strumenti di disegno: fare clic per visualizzare un menu di strumenti di creazione (linea, arco, spline, rettangolo, cerchio) che consentono di disegnare forme.
-- Primitive: fare clic per visualizzare un menu di forme 3D di base (cubo, cupola, piramide, cilindro, tetto) che è possibile inserire nella scena.
-- Strumenti di modellazione avanzati: fare clic per utilizzare operazioni booleane di taglio o unione, copertura, estrusione su percorso o loft.
-- Gruppi: fare clic per individuare gli strumenti per il raggruppamento di oggetti.
+**4. 作成および修正ツール**![] (images/Tool Bar-Create.PNG)
+- スケッチ ツール: 線分、円弧、スプライン、長方形、円などの形状を描画するためのツールがあります。
+- プリミティブ: シーンに配置する基本的な 3D 形状\(立方体、ドーム、角錐、円柱、屋根\)を作成するためのツールがあります。
+- 高度なモデリング ツール: ブール演算の切り取り、結合、かぶり、スイープ、ロフトを使用できます。
+- グループ: オブジェクトをグループ化するためのツールがあります。
 
-**5. Strumenti di posizione e analisi**
-![](images/Tool Bar-Analysis.PNG)
-- Posizione: consente di cercare la posizione e importare immagini satellitari nel disegno.
-- Sole e ombre: consentono di impostare ora e giorno per visualizzare le ombre e avviare un'analisi solare in un edificio.
-- Analisi energetica: fare clic per eseguire calcoli in un edificio per determinarne il consumo energetico.
+**5. 場所および解析ツール**![] (images/Tool Bar-Analysis.PNG)
+- 場所: 場所を検索し、衛星画像をスケッチに読み込みます。
+- 太陽と日影: 時間と日にちを設定して、日影を表示し、建物の日照解析を開始します。
+- エネルギー解析: 建物のエネルギー使用量を計算できます。
 
-**6. Identità utente**
-![](images/Tool Bar-User Identity.PNG)
-- Impostazioni: consente di impostare le impostazioni dell'applicazione e del disegno insieme allo stile di visualizzazione e di eseguire la diagnostica del modello.
-- Modalità tocco: consente di modellare e navigare con i dispositivi Windows abilitati al tocco utilizzando il dito, lo stilo, il mouse e la tastiera.
-- Collaborazione: consente di avviare una sessione, partecipare ad una sessione o invitare altri utenti a collaborare.
-- Accesso ad Autodesk 360: utilizzare i servizi cloud di Autodesk 360 gratuitamente per memorizzare e condividere i disegni.
-- Guida: utilizzare gli strumenti informativi per ulteriori informazioni su FormIt.
+**6. ユーザ ID**![] (images/Tool Bar-User Identity.PNG)
+- 設定: アプリケーション、スケッチ、表示スタイルを設定し、モデル診断を実行します。
+- タッチ モード: タッチ対応の Windows デバイスで、指、スタイラス、マウス、およびキーボードを使用してモデルを作成し、ナビゲートします。
+- コラボレーション: セッションを開始したり、セッションに参加したり、他のユーザを招待してコラボレーションを行います。
+- Autodesk 360 にログイン: 無償の Autodesk 360 クラウド サービスにスケッチを保存し、共有できます。
+- ヘルプ: 情報ツールを使用して FormIt の詳細を確認できます。
 
-#### Barra degli strumenti Navigazione
-Vedere [Navigazione nella scena](../formit-introduction/navigating-the-scene.md).
+#### ナビゲーション ツールバー
+「[シーンをナビゲートする](../formit-introduction/navigating-the-scene.md)」を参照してください。
 
-#### Barra delle tavolozze
-La barra delle tavolozze viene visualizzata sul lato destro della schermata. Fare clic su una di queste icone per aprire una tavolozza laterale per visualizzare le proprietà dell'edificio, i materiali, una libreria di contenuti e gli strumenti di collaborazione.
+#### パレット バー
+パレット バーは画面の右側に表示されます。これらのアイコンのいずれかをクリックして横にパレットを開き、建物のプロパティ、マテリアル、コンテンツ ライブラリ、コラボレーション ツールを表示します。
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Proprietà** aprire questa tavolozza per visualizzare i rapporti tra la posizione, l'area lorda e le aree del pavimento per il disegno.
-![](./images/Palette Bar-Properties.PNG)
+**1. プロパティ**: スケッチの場所、総面積、容積率などを表示できます。![](./images/Palette Bar-Properties.PNG)
 
-**2. Materiali** utilizzare questa tavolozza per creare o applicare materiali.
-![](./images/Palette Bar-Materials.PNG)
+**2. マテリアル**: マテリアルを作成または適用できます。![](./images/Palette Bar-Materials.PNG)
 
-**3. Layer** utilizzare questa tavolozza per creare e gestire i layer e assegnare gli oggetti selezionati a layer diversi.
-![](./images/Palette Bar-Layers.PNG)
+**3. レイヤ**: レイヤを作成および管理し、選択したオブジェクトを別のレイヤに割り当てます。![](./images/Palette Bar-Layers.PNG)
 
-**4. Scene** utilizzare questa tavolozza per creare, gestire e riprodurre le scene.
-![](./images/Palette Bar-Scenes.PNG)
+**4. シーン**: シーンを作成、管理、再生します。![](./images/Palette Bar-Scenes.PNG)
 
-**5. Stili visualizzazione** utilizzare questa tavolozza per modificare la modalità di visualizzazione del disegno controllando ombre, superfici, bordi e ambiente. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. 表示スタイル**: 影、サーフェス、エッジ、環境をコントロールして、スケッチの表示方法を編集します。<br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Struttura gruppi** utilizzare questa tavolozza per visualizzare i gruppi e gli oggetti all'interno di ciascun gruppo.
-![](./images/Palette Bar-Groups Tree.PNG)
+**6. グループ ツリー**: 各グループ内のグループとオブジェクトを表示します。![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** utilizzare questa tavolozza per caricare e gestire i modelli di calcolo creati in Dynamo Studio.
-![](./images/Palette Bar-Dynamo.PNG)
+**7. Dynamo**: Dynamo Studio で作成された計算モデルをロードおよび管理します。![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Livelli** utilizzare questa tavolozza per visualizzare e aggiungere livelli agli oggetti degli edifici.
-![](./images/Palette Bar-Levels.PNG)
+**8. レベル**: レベルを表示して建物オブジェクトに追加できます。![](./images/Palette Bar-Levels.PNG)
 
-**9. Libreria del contenuto** utilizzare la libreria di contenuti per memorizzare contenuto riutilizzabile, ad esempio l'arredo.
-![](./images/Palette Bar-Content Library.PNG)
+**9. コンテンツ ライブラリ**: 家具などの再利用可能なコンテンツを保存できます。![](./images/Palette Bar-Content Library.PNG)
 
-**10. Gestione operazioni annullate** utilizzare questa tavolozza per visualizzare le azioni di ciascun utente durante la collaborazione.
-![](./images/Palette Bar-Undo Manager.PNG)
+**10. 元に戻すマネージャ**: コラボレーション時に各ユーザのアクションを表示します。![](./images/Palette Bar-Undo Manager.PNG)

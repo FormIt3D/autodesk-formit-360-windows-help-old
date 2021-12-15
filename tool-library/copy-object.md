@@ -1,29 +1,29 @@
-# Copia di oggetti
+# オブジェクトをコピーする
 
-Sono disponibili tre metodi per copiare un oggetto.
+オブジェクトをコピーするには、次に示す 3 つの方法があります。
 
-**Copia con il menu contestuale:**
+**コンテキスト メニューを使用してコピーする**
 
-1. Selezionare l'oggetto facendovi doppio clic.
-2. Fare clic con il pulsante destro del mouse sull'oggetto.
-3. Selezionare lo [**strumento Copia**](tilt-array-copy-and-paste.md) nel menu contestuale.
-4. Fare clic con il pulsante destro del mouse in un punto qualsiasi della scena e scegliere il **pulsante Incolla**.
+1. オブジェクトをダブルクリックして選択します。
+2. オブジェクトを右クリックします。
+3. コンテキスト メニューから[**[コピー]ツール**](tilt-array-copy-and-paste.md)を選択します。
+4. シーン内の他の場所を右クリックし、**[貼り付け]ボタン**を選択します。
 
-Nota Questa operazione funziona anche con **CTRL+C** o **V**. Utilizzare Incolla nella stessa posizione \(**CTRL+MAIUSC+V**\) per incollare un oggetto esattamente nel punto in cui è stato copiato.
+注: **[Ctrl]+[C]**または**[Ctrl]+[V]**キーを使用した場合も、同じ動作になります。オブジェクトをコピー元と正確に同じ場所に貼り付けるには、[所定の位置に貼り付け] \(**[Ctrl]+[Shift]+[V]**\)を使用します。
 
-**Copia con il tasto CTRL**
+**[Ctrl]キーを使用してコピーする**
 
-1. Selezionare l'oggetto facendovi clic \(fare doppio clic per selezionare un intero corpo o ogni elemento associato\).
-2. Tenere premuto il **tasto CTRL** e iniziare a trascinare l'oggetto oppure iniziare a spostare l'oggetto, quindi toccare **CTRL**.
-3. Anziché spostare l'oggetto, ora si sposterà una copia.
-4. Tenere presente che la copia con CTRL non funziona quando è attivata Modalità tocco.
-   1. In Modalità tocco, è necessario utilizzare gli strumenti Copia/Incolla nel menu contestuale \(tenere premuto\) o utilizzare CTRL+C e CTRL+V, quindi collocare l'oggetto e riposizionarlo in base alle esigenze.
+1. オブジェクトをクリックして選択します\(ボディ全体またはアタッチされたすべての要素を選択するにはダブルクリックします\)。
+2. **[Ctrl]キー**を押しながらオブジェクトのドラッグを開始するか、オブジェクトの移動を開始してから**[Ctrl]**を押します。
+3. オブジェクトを移動するのではなく、オブジェクトのコピーを移動している状態になります。
+4. タッチ モードが有効になっている場合は、[Ctrl]キーによるコピーが機能しないことに注意してください。
+   1. タッチ モードでは、コンテキスト メニュー\(長押し\)の[コピー]/[貼り付け]ツールまたは[Ctrl]+[C]と[Ctrl]+[V]を使用してオブジェクトを配置し、必要に応じて位置を変更します。
 
-**Copia con lo strumento Matrice**
+**配列ツールを使用してコピーする**
 
-1. Selezionare l'oggetto facendovi doppio clic.
-2. **Fare clic con il pulsante destro del mouse** sull'oggetto e selezionare lo [**strumento Matrice**](tilt-array-copy-and-paste.md).
-3. Selezionare il numero di copie che si desidera creare.
-4. Scegliere se il trascinamento successivo definirà la distanza tra due oggetti o la lunghezza totale della matrice.
-5. Fare clic su **OK.**  ![](../.gitbook/assets/array_properties.png)
+1. オブジェクトをダブルクリックして選択します。
+2. オブジェクトを**右クリック**して、[**[配列]ツール**](tilt-array-copy-and-paste.md)を選択します。
+3. 作成するコピー数を選択します。
+4. 次のドラッグで 2 つのオブジェクト間の距離を定義するか、配列の全長を定義するかを選択します。
+5. **[OK]をクリックします。**  ![](../.gitbook/assets/array_properties.png)
 

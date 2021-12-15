@@ -1,9 +1,9 @@
-# Introduzione a FormIt
+# FormIt の概要
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Introduzione a FormIt
+## FormIt の概要
 
-Sono fornite alcune nozioni di base su FormIt: quali operazioni è in grado di svolgere, dove può essere ottenuto e come è possibile personalizzarlo.
+FormIt の基本事項として、機能、取得先、カスタマイズ方法について説明します。
 
-Se si è terminato di eseguire l'impostazione iniziale e si è pronti per apprendere come utilizzare l'applicazione, consultare la [Guida introduttiva di FormIt](../formit-primer/).
+初期設定が完了し、使用方法を学習する準備ができている場合は、「[FormIt Primer](../formit-primer/)」を参照してください。

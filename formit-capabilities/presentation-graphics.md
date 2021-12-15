@@ -1,6 +1,6 @@
-# Grafica per presentazioni
+# プレゼンテーション グラフィックス
 
-Sfruttando una suite di opzioni di [Stili visualizzazione](../tool-library/visual-styles.md) è possibile personalizzare la grafica di FormIt e creare presentazioni accattivanti.
+[表示スタイル](../tool-library/visual-styles.md)の一連のオプションを利用すると、FormIt のグラフィックスをカスタマイズしたり、目を見張るような素晴らしいプレゼンテーションを作成できます。
 
 ![](../.gitbook/assets/screen1.jpg)
 

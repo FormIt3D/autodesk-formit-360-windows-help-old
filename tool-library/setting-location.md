@@ -1,99 +1,99 @@
-# Impostazione della posizione
+# 場所を設定する
 
-Impostare la posizione del progetto nel mondo è importante per la precisione del modello e delle analisi a valle, incluso quanto segue:
+モデルと下流工程での解析を正確に実行するには、プロジェクトの場所を地球上の実際の地点に設定することが重要になります。
 
-* La posizione viene utilizzata per importare un'immagine satellitare che può essere utilizzata per tracciare una planimetria o un edificio esistente.
-* La posizione viene utilizzata per importare il terreno 3D, che può essere utilizzato per fare riferimento ai dati topologici per una planimetria.
-* La posizione viene utilizzata per posizionare in modo preciso il sole nel cielo, influenzando il calcolo delle ombre.
-* La posizione viene utilizzata per l'analisi solare e l'analisi energetica per fornire calcoli analitici accurati.
+* 場所は、既存の敷地または建物のトレースに使用する衛星画像を読み込む際に使用します。
+* 場所は、敷地のトポロジ データの参照に使用する 3D 地形を読み込む際に使用します。
+* 場所は、影の計算に影響を与える、太陽の正確な位置付けのために使用されます。
+* 場所は、正確な解析計算を行うために、日照解析とエネルギー解析で使用されます。
 
-Per accedere alla finestra di dialogo Imposta posizione e ai relativi servizi, è necessario accedere con Autodesk Account.
+[場所を設定]ダイアログとそのサービスにアクセスするには、Autodesk アカウントでサインインする必要があります。
 
-### Introduzione alla posizione
+### 場所ツールを使用する
 
-* Avviare la finestra di dialogo **Imposta posizione** dallo strumento **Posizione** sulla barra degli strumenti o con i tasti di scelta rapida SL.
+* ツールバーの**[場所]**ツール、またはキーボード ショートカットの SL を使用して、**[場所を設定]**ダイアログを開きます。
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Iniziare digitando la posizione del progetto nella casella di ricerca nell'angolo superiore sinistro della finestra _Imposta posizione_.
+* まず、_[場所を設定]_ウィンドウの左上コーナーにある検索ボックスでプロジェクトの場所を入力します。
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Selezionare una delle opzioni di composizione automatica della posizione oppure premere INVIO per scegliere la prima opzione.
-* Verrà eseguito lo zoom avanti della posizione cercata automaticamente.
+* 自動入力されたオプションの 1 つを選択するか、[Enter]を押して最初のオプションを選択します。
+* 自動的に検索した場所に拡大ズームします。
 
-### Imposta solo posizione e Importa immagine satellitare e terreno
+### 場所のみを設定する場合と衛星画像と地形を読み込む場合
 
-Dopo aver cercato una posizione, è possibile scegliere una delle due opzioni:
+場所を検索したら、次の 2 つのオプションのいずれかを選択できます。
 
-* **Imposta solo posizione** consente di impostare la posizione nel file senza importare immagini satellitari.
-* **Importa immagine satellitare e terreno** consente di impostare la posizione e anche di importare immagini satellitari e terreno utilizzando un livello di zoom e le estensioni configurabili.
+* **[場所のみを設定]**を選択すると、衛星画像を読み込まずに、ファイル内の場所が設定されます。
+* **[衛星画像と地形を読み込む]**を使用すると場所が設定され、設定可能なズーム レベルと範囲を使用して衛星画像と地形も読み込まれます。
 
-### Importazione di immagini satellitari
+### 衛星画像を読み込む
 
-* Fare clic su **Importa immagine satellitare e terreno** nella parte superiore destra della finestra **Imposta posizione**.
-* Al centro della finestra viene visualizzata un'anteprima delle immagini satellitari, insieme ad un'indicazione della posizione dell'origine di FormIt rispetto alle immagini.
+* **[場所を設定]**ウィンドウの右上にある**[衛星画像と地形を読み込む]**をクリックします。
+* 衛星画像のプレビューがウィンドウの中央に表示され、画像に対する FormIt の原点も表示されます。
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Trascinare le immagini satellitari all'interno del quadrato per regolarne la posizione.
-* Una volta che l'area quadrata ha incapsulato le immagini desiderate, fare clic su **Termina importazione dell'immagine**.
-* L'immagine verrà importata in scala, con il nord reale rivolto verso l'alto, centrato in corrispondenza dell'origine dell'area di disegno di FormIt. È possibile modificare la trasparenza e l'ordinamento Z dell'immagine importata facendo doppio clic e accedendo alla [**tavolozza Proprietà**](../formit-introduction/tool-bars.md).
+* 場所を調整するには、衛星画像を正方形内にドラッグします。
+* 正方形領域に目的のイメージがおさまったら、**[読み込みを終了]**をクリックします。
+* 画像は、FormIt キャンバスの原点を中心として、真北を上にして尺度変更した状態で読み込まれます。読み込んだ画像の透明性と Z オーダーを変更するには、画像をダブルクリックして[**[プロパティ]パレット**](../formit-introduction/tool-bars.md)に移動します。
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Aggiornamento di immagini satellitari
+### 衛星画像を更新する
 
-Dopo aver importato per la prima volta immagini satellitari, è possibile utilizzare la finestra Imposta posizione per regolare il livello di zoom o le estensioni delle immagini satellitari.
+衛星画像を初めて読み込んだ後、[場所を設定]ウィンドウを使用して、衛星画像のズーム レベルまたは範囲を調整できます。
 
-* Avviare nuovamente la finestra **Imposta posizione** accedendo dalla finestra dalla barra degli strumenti, come descritto in precedenza.
-* Fare clic su **Importa immagine satellitare e terreno.**
-* Verranno visualizzati il livello di zoom e le estensioni dell'immagine satellitare corrente, come mostrato nell'area di disegno di FormIt.
-* È sufficiente regolare la posizione o lo zoom e fare clic su **Termina importazione dell'immagine** come in precedenza.
-* Quando l'immagine viene reimportata nell'area di disegno, verrà spostata nella posizione corretta rispetto alla posizione originale \(e potrebbe non essere più centrata in corrispondenza dell'origine\):
+* 前述のように、ツールバーからアクセスして、**[場所を設定]**ウィンドウを再度起動します。
+* **[衛星画像と地形を読み込む]をクリックします。**
+* FormIt キャンバスに表示されるように、現在の衛星画像のズーム レベルと範囲が表示されます。
+* 場所またはズームを調整し、先ほどと同様に**[読み込みを終了]**をクリックします。
+* 画像をキャンバスに再読み込みすると、元の画像の位置に対して相対的に正しい場所に移動します\(原点を中心に配置することはできません\)。
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importazione del terreno
+### 地形を読み込む
 
-Novità di FormIt 2021.3: quando si utilizza la finestra di dialogo **Imposta posizione** per importare immagini satellitari, verrà incluso anche il terreno.
+FormIt 2021.3 の新機能では、**[場所を設定]**ダイアログを使用して衛星画像を読み込むと、地形も得られます。
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Quando il terreno viene importato, viene posizionato su un layer, che è disattivato per default \(nel caso in cui sia stata avviata la modellazione, il modello potrebbe essere coperto dal terreno\).
+地形が読み込まれると、既定ではオフになっているレイヤに配置されます\(モデリングを開始している場合は、モデルが地形に覆われることがあります\)。
 
-Quando si è pronti per visualizzare il terreno, attivare o disattivare il layer Terrain selezionando la casella:
+地形を表示する準備ができたら、チェックボックスをオンにして Terrain レイヤに切り替えます。
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Utilizzo di Terrain
+### 地形を使用する
 
-Terrain verrà posizionato in un gruppo di FormIt. Fare doppio clic sul gruppo per modificarlo.
+地形は FormIt グループに配置されます。グループを編集するにはダブルクリックします。
 
-All'interno sono disponibili due mesh: una per i lati e la parte inferiore e una per la parte superiore.
+内部には、2 つのメッシュがあります。1 つは側面と底面、もう 1 つは上面です。
 
-Se si desidera modificare il terreno, è necessario convertire le mesh in un singolo oggetto solido:
+地形を修正する場合は、メッシュを単一のソリッド オブジェクトに変換する必要があります。
 
-* Selezionare entrambe le mesh.
-* Fare clic con il pulsante destro del mouse e scegliere l'opzione Mesh in oggetti oppure utilizzare il tasto di scelta rapida MO.
+* 両方のメッシュを選択します。
+* 右クリックして[メッシュをオブジェクトに]オプションを選択するか、ショートカットの MO を使用します。
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-Quando si convertono contemporaneamente entrambe le mesh in un oggetto, FormIt può combinarle in un oggetto solido manifold, che può essere utilizzato per operazioni su solidi come il taglio booleano.
+両方のメッシュを同時にオブジェクトに変換する場合、FormIt ではそれらをソリッドの多様体オブジェクトに結合できます。これは、ブール演算カットなどのソリッド操作に使用できます。
 
-Da qui, è possibile utilizzare una combinazione di [Vista dall'alto](orthographic-views.md) e della vista della [cinepresa Ortogonale](orthographic-camera.md) per tracciare il contorno della planimetria su un piano orizzontale, quindi estrudere il piano in un volume che interseca il terreno. L'utilizzo di un [materiale](materials.md) trasparente aiuta a vedere il terreno attraverso il solido di taglio:
+ここから、[上面ビュー](orthographic-views.md)と[正投影カメラ](orthographic-camera.md)を組み合わせて使用し、水平面の敷地境界をトレースして、その平面を地形と交差する体積に押し出すことができます。透明な[マテリアル](materials.md)を使用すると、切断ソリッドを通して地形を確認できます。
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Utilizzare lo strumento Taglia geometria e selezionare il terreno come solido in cui eseguire il taglio e il volume di taglio come solido da rimuovere.
+[ジオメトリを切り取り]ツールを使用して、地形を「切り取るソリッド」として選択し、切り取る体積を「削除するソリッド」として選択します。
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-Il risultato sarà il terreno con il solido di taglio rimosso, che espone il vuoto in cui è possibile disegnare la nuova planimetria e la nuova fondazione.
+これで、切断ソリッドが除去された地形になり、空間が露出して新しい敷地と基礎を作成できるようになります。
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-È possibile utilizzare i [layer](layers.md) per nascondere il solido di taglio o anche per creare copie del terreno con e senza il taglio, nel caso in cui sia necessario fare riferimento al terreno originale o modificare la forma di taglio prima di eseguire l'operazione di taglio del solido.
+元の地形を参照する必要がある場合や、ソリッド切り取り操作を実行する前に切り取り形状を変更する必要がある場合は、[レイヤ](layers.md)を使用して、切り取りソリッドを非表示にしたり、切り取りを行った地形、または行っていない地形のコピーを作成することができます。
 

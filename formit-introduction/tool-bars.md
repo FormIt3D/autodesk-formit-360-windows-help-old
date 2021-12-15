@@ -1,78 +1,78 @@
-# Barre degli strumenti e tavolozze
+# ツールバーとパレット
 
-## Barre degli strumenti
+## ツールバー
 
-La barra degli strumenti standard è attivata per default, ma è divisa nelle seguenti sezioni. Se lo si desidera, è possibile attivare, disattivare e ridisporre singole sezioni utilizzando il menu di Windows.
+標準ツールバーは既定で有効になっており、次のセクションに分かれています。Windows メニューを使用して、セクションを個別に有効化、無効化、および配置変更することもできます。
 
-### File
+### ファイル
 
 ![](../.gitbook/assets/file_icons.png)
 
-1. **Menu File** con operazioni su file quali Apri, Salva ed Esporta
-2. **Annulla** l'ultima modifica
-3. **Ripete** una modifica annullata
+1. 開く、保存、書き出しなどのファイル操作を行うための**[ファイル]メニュー**
+2. 最後に行った変更を**[元に戻す]**
+3. 元に戻した変更を**[やり直す]**
 
-### Geometria
+### ジオメトリ
 
 ![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. \*\*\*\*[**Selezione**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****e filtri di selezione dell'area
-2. Strumenti [**Misura** ](../tool-library/measure-tool.md)per la distanza e [**Misura angolo**](../tool-library/measure-angle-tool.md) ****
-3. [**Piani sezione**](../tool-library/section-planes.md)
-4. [**Strumenti di disegno 3D**](../formit-primer/part-i/3d-sketching.md)
-5. Barra degli strumenti [**Primitiva**](../tool-library/place-primitive-object.md)
-6. Barra degli strumenti [**Geometria avanzata**]() con Unisci, Taglia, Estrusione su percorso, Loft e Involucro
-7. Barra degli strumenti [**Gruppi**](../tool-library/groups.md)
+1. ****[**選択**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)****および領域選択フィルタ
+2. 距離を[**[計測]**](../tool-library/measure-tool.md)および[**[角度を計測]**](../tool-library/measure-angle-tool.md)****ツール
+3. [**[断面平面]**](../tool-library/section-planes.md)
+4. [**[3D スケッチ]**](../formit-primer/part-i/3d-sketching.md)ツールバー
+5. [**[プリミティブ]**](../tool-library/place-primitive-object.md)ツールバー
+6. [**[高度なジオメトリ]**]()ツールバー: [結合]、[切り取り]、[スイープ]、[ロフト]、[シェル化]
+7. [**[グループ]**](../tool-library/groups.md)ツールバー
 
-### Impostazioni
+### 設定
 
 ![](../.gitbook/assets/settings_icons.png)
 
-1. Menu **Impostazioni** per le impostazioni dell'interfaccia utente e dell'app
-2. **Modalità tocco** per attivare le interazioni sui dispositivi touchscreen
-3. [**Collaborazione**](../tool-library/collaboration.md) per la gestione di sessioni di collaborazione con più utenti
-4. **Accesso con Autodesk Account**
-5. Menu **Informazioni** per la Guida e i collegamenti
+1. **[設定]**メニュー: UI およびアプリケーションの設定を行う
+2. **[タッチ モード]**: タッチ スクリーン デバイスでの操作を可能にする
+3. [**[コラボレーション]**](../tool-library/collaboration.md): 複数のユーザとのコラボレーション セッションを管理する
+4. **Autodesk アカウントへのログイン**
+5. **[情報]**メニュー: ヘルプと各種リンク
 
-### Disegno
+### 設計
 
 ![](../.gitbook/assets/design_icons.png)
 
-1. [**Posizione** ](../tool-library/setting-location.md)
-2. [**Sole, Ombre, Analisi solare**](../tool-library/solar-analysis.md)
-3. [**Analisi energetica**](../tool-library/energy-analysis.md)
+1. [**場所** ](../tool-library/setting-location.md)
+2. [**太陽、日影、日照解析**](../tool-library/solar-analysis.md)
+3. [**エネルギー解析**](../tool-library/energy-analysis.md)
 
-## Tavolozza
+## パレット
 
-![](../.gitbook/assets/properties%20%281%29.png) [**Proprietà**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*
+![](../.gitbook/assets/properties%20%281%29.png) [**プロパティ**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
 
-![](../.gitbook/assets/layers.png)[**Layer**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png)[ レイヤ****](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png)[**Scene**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png) [**シーン**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual_styles.png)[**Stili visualizzazione**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual_styles.png) [**表示スタイル**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch_tree.png)[**Struttura gruppi**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch_tree.png) [**グループ ツリー**](../tool-library/groups-tree.md)
 
-![](../.gitbook/assets/dynamo.png)[**Dynamo**](../tool-library/dynamo.md)
+![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
 
-![](../.gitbook/assets/levels.png) [**Livelli**](../tool-library/levels-and-area.md)
+![](../.gitbook/assets/levels.png) [**レベル**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content_library.png)[**Libreria del contenuto**](../tool-library/content-library.md)
+![](../.gitbook/assets/content_library.png) [**コンテンツ ライブラリ**](../tool-library/content-library.md)
 
-![](../.gitbook/assets/undo.png) [**Gestione operazioni annullate**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
+![](../.gitbook/assets/undo.png) [**アンドゥ マネージャ**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin_img.png) [**Plug-in**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
+![](../.gitbook/assets/plugin_img.png) [**プラグイン**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
 
-## Menu contestuale
+## コンテキスト メニュー
 
-Fare clic con il pulsante destro del mouse su un elemento nell'area di disegno 3D per visualizzare un menu di comandi e modifiche per quel tipo di geometria. Posizionare il cursore del mouse sulle icone per visualizzarne i nomi.
+3D キャンバスで要素を右クリックすると、そのタイプのジオメトリに使用できるコマンドや修正のメニューが表示されます。アイコンにカーソルを合わせると、アイコンの名前が表示されます。
 
 ![](../.gitbook/assets/wheel_img.png)
 
-## Tasti di scelta rapida
+## キーボード ショートカット
 
-Personalizzare i [t**asti di scelta rapida**](../appendix/keyboard-shortcuts.md) di FormIt in Modifica &gt; Preferenze &gt; Tasti di scelta rapida.
+FormIt の[**キーボード ショートカット**](../appendix/keyboard-shortcuts.md)は、[編集] &gt; [基本設定] &gt; [ショートカット]でカスタマイズできます。
 
 ![](../.gitbook/assets/shortcuts_img.png)
 

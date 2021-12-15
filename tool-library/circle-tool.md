@@ -1,12 +1,12 @@
-# Cerchio
+# 円
 
-Utilizzare lo strumento Cerchio per disegnare un cerchio nello spazio o su un altro oggetto.
+[円]ツールを使用して、スペース内または別のオブジェクト上に円を描画します。
 
-Tastiera: C
+キーボード ショートカット: [C]
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Per disegnare un cerchio, scegliere prima il punto centrale, quindi specificare il raggio del cerchio. Quindi, il cerchio diventa automaticamente una superficie.
+円を描画するには、まず中心点を選択し、次に円の半径を指定します。円が自動的に面になります。
 
 ![](../.gitbook/assets/circle1.png)
 

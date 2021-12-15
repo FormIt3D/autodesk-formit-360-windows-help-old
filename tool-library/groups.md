@@ -1,58 +1,58 @@
-# Gruppi
+# グループ
 
-Una delle tecniche essenziali ma più importanti nei workflow di FormIt prevede il raggruppamento. I gruppi consentono di evitare che la geometria aderisca e di impostare relazioni padre/figlio tra gli elementi copiati in modo che, se si aggiorna un elemento, vengano aggiornati entrambi gli elementi. Ulteriori informazioni sui gruppi sono disponibili [qui](../formit-primer/part-i/grouping-objects.md).
+FormIt ワークフローで最も基本的でかつ重要なテクニックの 1 つに、グループ化があります。グループを使用すると、ジオメトリが互いに固定されないようにし、コピーした要素間の親子関係を設定して 1 つの要素を更新すると、両方の要素が更新されるようにすることができます。グループの詳細は[こちら](../formit-primer/part-i/grouping-objects.md)をご覧ください。
 
-I gruppi possono essere creati e modificati in due modi: dal menu contestuale di un gruppo selezionato o dalla barra degli strumenti principale.
+グループは、選択したグループのコンテキストメニューから、またはメイン ツールバーから作成および編集できます。
 
-## Interazioni tra gruppi
+## グループの相互作用
 
-Per **creare un gruppo**, selezionare gli elementi che si desidera raggruppare, che possono includere bordi, superfici, solidi o altri gruppi, e fare clic con il pulsante destro del mouse. Scegliere lo strumento **Gruppo \(G\)** dal menu contestuale. Le immagini importate e le immagini satellitari non possono essere raggruppate.
+**グループを作成**するには、グループ化する要素\(エッジ、面、ソリッド、その他のグループを含む\)を選択し、右クリックします。コンテキスト メニューから**[グループ\(G\)]**ツールを選択します。読み込まれたイメージと衛星画像はグループ化できません。
 
-Per **selezionare un gruppo**, fare un singolo clic sul gruppo. Notare le linee tratteggiate visualizzate quando si seleziona un gruppo. Queste linee indicano la dimensione totale del gruppo.
+**グループを選択**するには、グループをシングルクリックします。グループを選択すると破線が表示されます。この線はグループの合計サイズを示します。
 
-Per **modificare un gruppo**, fare doppio clic. Viene avviata una modalità di modifica in cui è possibile solo visualizzare ed eseguire lo snap agli elementi esterni al gruppo corrente, ma non selezionarli. È inoltre possibile nascondere gli elementi esterni al gruppo corrente utilizzando il tasto di scelta rapida **H**.
+**グループを編集**するには、グループをダブルクリックします。これにより、編集モードが起動し、現在のグループの外側にある要素を表示およびスナップできますが、選択することはできません。キーボード ショートカットの**[H]**を使用して、現在のグループの外側にある要素を非表示にすることもできます。
 
-È possibile creare **gruppi all'interno di gruppi:** questi sono denominati **gruppi nidificati** e possono essere creati all'interno della modalità di modifica del gruppo. Per spostarsi verso l'alto di un livello nei gruppi nidificati, fare clic in un punto qualsiasi al di fuori dei gruppi.
+**グループ内にグループ**を作成できます。それらは**ネストされたグループ**と呼ばれ、グループ編集モード内で作成できます。ネストされたグループ内で 1 レベル上に移動するには、グループの外側の任意の場所をクリックします。
 
-Per **uscire dalla modalità di modifica del gruppo**, fare doppio clic in un punto qualsiasi al di fuori del gruppo.
+**グループ編集モードを終了**するには、グループの外側の任意の場所をダブルクリックします。
 
-È possibile **copiare un gruppo** per creare una relazione tra il gruppo originale e la relativa copia: se si modificano eventuali gruppi copiati, le stesse modifiche avranno effetto su tutti i gruppi correlati.
+**グループをコピー**して、元のグループとそのコピー間の関係を作成できます。コピーしたグループを編集すると、関連するすべてのグループに同じ変更が反映されます。
 
-Per **interrompere la relazione tra i gruppi copiati**, selezionare il gruppo o i gruppi che si desidera impostare come separati, fare clic con il pulsante destro del mouse e scegliere **Rendi univoco** dal menu contestuale. È inoltre possibile selezionare Rendi univoco dalla barra degli strumenti Gruppi.
+**コピーしたグループ間の関係を切断する**には、分離するグループを選択して右クリックし、コンテキスト メニューから**[固有にする]**を選択します。[グループ]ツールバーから[固有にする]を選択することもできます。
 
-Per **selezionare tutti i gruppi correlati**, posizionare il cursore su un gruppo e premere il tasto TAB. Quando tutti i gruppi correlati vengono evidenziati, fare clic sui gruppi per selezionarli. È quindi possibile eseguire un'azione su tutti i gruppi contemporaneamente.
+**すべての関連グループを選択**するには、グループにカーソルを合わせて[Tab]キーを押します。すべての関連グループがハイライト表示されたら、グループをクリックして選択します。その後、すべてのグループに対して一度にアクションを実行できます。
 
-[**Struttura gruppi**](groups-tree.md) fornisce un'unica posizione per visualizzare e gestire tutti i gruppi in un progetto.
+[**グループ ツリー**](groups-tree.md)では、1 つの場所でプロジェクト内のすべてのグループを表示および管理できます。
 
-## Menu contestuale Gruppi e accesso alla barra degli strumenti
+## グループ コンテキスト メニューとツールバー アクセス
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Raggruppamento di elementi**
+**グループ要素**
 
-Per creare un gruppo dalla voce della barra degli strumenti Gruppi, selezionare uno o più elementi, l'icona **Crea gruppo**, quindi l'icona **Fine**. In alternativa, è possibile selezionare **Crea gruppo** dalla voce della barra degli strumenti Gruppi, quindi scegliere gli elementi che si desidera raggruppare e infine l'icona **Fine**.
+[グループ]ツールバーからグループを作成するには、1 つまたは複数の要素を選択し、**[グループを作成]**アイコンを選択してから**[終了]**アイコンを選択します。または、[グループ]ツールバーから**[グループを作成]**を選択し、グループ化する要素を選択して**[終了]**アイコンを選択します。
 
-Per **modificare un gruppo dalla voce della barra degli strumenti Gruppi**, selezionare l'icona **Modifica gruppo**, quindi fare clic sul gruppo che si desidera modificare. Al termine delle modifiche, selezionare l'icona **Fine**. Questo strumento consente di scegliere il gruppo specifico che si desidera modificare, anche se è nidificato in profondità.
+**[グループ]ツールバーからグループを編集**するには、**[グループを編集]**アイコンを選択し、編集するグループをクリックします。編集が終了したら、**[終了]**アイコンを選択します。このツールを使用すると、深くネストされていても、編集する特定のグループを選択できます。
 
-**Per rendere univoco un gruppo dalla barra degli strumenti,** selezionare l'icona **Rendi univoco** nella voce della barra degli strumenti Gruppi. Inoltre, è possibile selezionare **Rendi univoco** dalla voce della barra degli strumenti Gruppi, quindi scegliere il gruppo che si desidera rendere univoco e fare clic sull'icona **Fine**.
+**ツールバーからグループを固有にするには、**[グループ]ツールバーの**[固有にする]**アイコンを選択します。さらに、[グループ]ツールバーから**[固有にする]**を選択し、固有にするグループを選択して**[終了]**アイコンをクリックします。
 
-**Per scomporre un gruppo dalla voce della barra degli strumenti Gruppi,** selezionare il gruppo che si desidera modificare e scegliere l'icona **Scomponi** dal menu della barra degli strumenti Gruppi. In questo modo si scompone la selezione corrente, ma non si scompongono eventuali gruppi nidificati. In alternativa, è possibile selezionare **Scomponi** dalla barra degli strumenti, selezionare il gruppo che si desidera modificare, quindi scegliere l'icona **Fine**.
+**[グループ]ツールバーからグループ解除する**には、該当するグループを選択し、[グループ]ツールバー メニューから**[グループ解除]**アイコンを選択します。これにより、現在選択されているグループがグループ解除されますが、ネストされたグループはグループ解除されません。または、ツールバーから**[グループ解除]**を選択し、該当するグループを選択して、**[終了]**アイコンをクリックします。
 
-**Per scomporre tutti i gruppi nidificati sotto il gruppo attualmente selezionato,** selezionare un gruppo con gruppi nidificati e scegliere **Scomponi tutto** dalla barra degli strumenti Gruppi.
+**現在選択しているグループの下にネストされているすべてのグループをグループ解除する**には、ネストされたグループを持つグループを選択し、[グループ]ツールバーから**[ネストをすべてグループ解除]**のアイコンを選択します。
 
-**Per scomporre tutti i gruppi nel modello,** selezionare lo strumento **Scomponi tutto** dalla barra degli strumenti Gruppi.
+**モデル内のすべてのグループをグループ解除する**には、[グループ]ツールバーから**[すべてグループ解除]**ツールを選択します。
 
-## Gruppi e Revit
+## グループと Revit
 
-Se si conoscono bene le **famiglie** di Revit, si avrà familiarità con il concetto di gruppi in FormIt. I gruppi di FormIt dispongono di funzionalità che è possibile utilizzare per trasferirli in modo intelligente in Revit.
+Revit **ファミリ**に慣れている場合は、FormIt でのグループの概念にもすぐに馴染めることでしょう。FormIt グループには、Revit にインテリジェントに転送するための機能が用意されています。
 
-**Categorie di gruppi di FormIt**
+**FormIt グループ カテゴリ**
 
-È possibile specificare le **categorie** per i gruppi in FormIt in modo che i gruppi di FormIt diventino famiglie delle stesse categorie durante l'importazione in Revit. È possibile assegnare categorie ai gruppi di FormIt selezionando un gruppo, attivando la modalità di **modifica del gruppo** e utilizzando il pannello **Proprietà** per scegliere le categorie. È inoltre possibile assegnare categorie nel gruppo **Struttura gruppi**.
+FormIt のグループの**カテゴリ**を指定して、FormIt グループを Revit に読み込むときに、FormIt グループが同じカテゴリのファミリになるようにすることができます。FormIt グループにカテゴリを割り当てるには、グループを選択し、**[グループ編集]**モードを開始し、**[プロパティ]**パレットを使用してカテゴリを選択します。**[グループ ツリー]**パレットでカテゴリを割り当てることもできます。
 
-**Nomi dei gruppi di FormIt**
+**FormIt グループ名**
 
-È inoltre possibile utilizzare il pannello **Proprietà** per specificare un nome per il gruppo di FormIt. Ciò può essere utile per navigare nel modello e, quando si importa il modello in Revit, è possibile filtrare facilmente gli elementi utilizzando il nome del gruppo.
+**[プロパティ]**パレットを使用して、FormIt グループの名前を指定することもできます。これは、ユーザ独自のモデルをナビゲートする場合に役立ちます。モデルを Revit に読み込む場合、グループの名前を使用して要素を簡単に絞り込むことができます。
 
-Notare che **i gruppi nidificati in FormIt non vengono importati in Revit come gruppi nidificati**. In questo modo si evitano le famiglie di Revit nidificate in profondità.
+**FormIt 内のネストされたグループは、ネストされたグループとして Revit に読み込まれません**。これにより、Revit ファミリが深くネストされることを回避できます。
 

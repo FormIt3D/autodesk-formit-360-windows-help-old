@@ -1,22 +1,22 @@
-# Importazione ed esportazione di dati
+# データを読み込む、および書き出す
 
-## Importazione di dati
+## データを読み込む
 
-È possibile importare i seguenti formati di file.
+次のファイル形式を読み込むことができます。
 
-* **OBJ**: i file di mesh 3D OBJ vengono importati come un unico gruppo di FormIt. Non viene importato alcun materiale.
-* **DWG**: i file DWG 2D e 3D vengono importati come un unico gruppo di FormIt. Sono supportati i colori degli oggetti.
-* **STL**: i file di mesh 3D STL vengono importati come un unico gruppo di FormIt.
-* **SAT**: i file dei modelli di solidi SAT vengono importati come un unico gruppo di FormIt.
-* **SKP**: vengono importati i file di SketchUp. I gruppi e i componenti vengono importati come gruppi di FormIt. Sono supportati layer e materiali.
+* **OBJ**: OBJ 3D メッシュ ファイルは単一の FormIt グループとして読み込まれます。マテリアルは読み込まれません。
+* **DWG**: 2D および 3D の DWG ファイルは、単一の FormIt グループとして読み込まれます。オブジェクトの色がサポートされます。
+* **STL**: STL 3D メッシュ ファイルは単一の FormIt グループとして読み込まれます。
+* **SAT**: SAT ソリッド モデル ファイルは単一の FormIt グループとして読み込まれます。
+* **SKP**: SketchUp ファイルの読み込みでは、グループとコンポーネントが FormIt グループとして読み込まれます。レイヤとマテリアルがサポートされます。
 
-[**Ulteriori informazioni sull'utilizzo dei dati importati**](../formit-primer/part-i/import-export-and-content-library.md)
+[**読み込まれたデータを使用する方法の詳細についてはこちらをご覧ください。**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Esportazione di dati
+## データを書き出す
 
-In FormIt è possibile esportare i seguenti formati di file: AXM \(file di FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiali e file 3D in un unico file ZIP\), immagini PNG.
+FormIt では、AXM \(FormIt ファイル\)、DWG、SKP、FBX、SAT、STL、DAE、DXF、OBJ \(単一の ZIP ファイル内のマテリアルと 3D\)、PNG イメージのファイル形式を書き出すことができます。
 
-Quando si esportano singoli file, è possibile scegliere di esportare **Tutti gli oggetti**, **Solo visibili** o **Solo selezionati**.
+個々のファイルを書き出すときに、**[すべてのオブジェクト]**、**[可視オブジェクトのみ]**、**[選択したオブジェクトのみ]**から書き出す対象を選択できます。
 
 ![](../.gitbook/assets/export_window.png)
 

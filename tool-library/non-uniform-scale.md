@@ -1,41 +1,41 @@
-# Scala non uniforme
+# 不均等スケール
 
-**Utilizzare Scala non uniforme per stirare gli oggetti in 1, 2 o 3 quote.**
+**[不均等スケール]を使用して、1 次元、2 次元、または 3 次元でオブジェクトをストレッチします。**
 
-Selezionare una combinazione qualsiasi di bordi, superfici, solidi, mesh o gruppi e accedere a Scala non uniforme utilizzando il tasto di scelta rapida **NU** o dall'opzione del menu contestuale:
+エッジ、面、ソリッド、メッシュ、またはグループを自由に組み合わせて選択し、キーボード ショートカットの **NU** を使用するか、コンテキスト メニューの[不均等スケール]を選択します。
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Una volta attivata l'opzione, verrà visualizzata una serie di grip che possono essere utilizzati per mettere in scala l'oggetto in modo non uniforme su 1, 2 o 3 assi contemporaneamente.**
+**アクティブにすると、一連のグリップが表示され、同時に 1 つ、2 つ、または 3 つの軸でオブジェクトを不均等にスケールできます。**
 
-Per maggiore chiarezza, verranno disegnati solo i grip rivolti verso la cinepresa. Eseguire l'orbita attorno all'oggetto se è necessario regolare un grip sull'altro lato.
+分かりやすくするために、カメラに面しているグリップのみが描画されます。反対側のグリップを調整する場合は、オブジェクトを中心にオービットします。
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Quando si fa clic su un grip, verrà visualizzata una serie di caselle di testo modificabili in cui è possibile regolare la scala in base alla percentuale o alla distanza:
+グリップをクリックすると、編集可能なテキスト ボックスが表示され、パーセンテージまたは距離でスケールを調整できます。
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Una volta visualizzate le caselle di quota, è possibile:**
+**寸法ボックスが表示されたら、次の操作を実行できます**。
 
-* Iniziare a digitare un numero per modificare automaticamente la casella della percentuale e specificare un fattore di scala.
-   * Se si immette un numero negativo, la direzione della scala verrà invertita.
-* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic sulla casella contenente la quota per la messa in scala in base alla distanza.
-* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
+* パーセンテージの数値を入力して、スケールの係数を指定します。
+   * 負の値を入力すると、スケールの方向が反転します。
+* または、クリックしてグリップの位置を一時的に設定し、寸法を含んだボックスをクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
-**La messa in scala in corrispondenza di uno dei grip dei bordi degli angoli rispetta le proporzioni delle quote adiacenti:**
+**コーナー エッジのグリップのいずれかでスケールを変更する際は、隣接する寸法の縦横比に従います。**
 
-* Iniziare a digitare un numero per modificare il valore della percentuale.
-* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle due caselle di quota per la messa in scala in base alla distanza.
-* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
+* 数値の入力を開始して、パーセンテージの値を編集します。
+* または、クリックしてグリップの位置を一時的に設定し、2 つの寸法ボックスの一方をクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Analogamente, la messa in scala in corrispondenza di uno dei grip degli angoli rispetta le proporzioni dell'intera forma e verrà eseguita correttamente la messa in scala uniforme:**
+**同様に、コーナーのグリップのいずれかでスケールを変更する際は、シェイプ全体の縦横比に従うため、実質的に均等にスケール変更されます。**
 
-* Iniziare a digitare un numero per modificare il valore della percentuale.
-* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle tre caselle di quota per la messa in scala in base alla distanza.
-* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
+* 数値の入力を開始して、パーセンテージの値を編集します。
+* または、クリックしてグリップの位置を一時的に設定し、3 つの寸法ボックスのいずれかをクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

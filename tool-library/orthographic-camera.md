@@ -1,18 +1,18 @@
-# Cinepresa Ortogonale
+# 正投影カメラ
 
-FormIt 2021 include l'aggiunta della nuova funzionalità della cinepresa Ortogonale. I pulsanti Ortogonale e Prospettica sono disponibili nel menu di navigazione:
+FormIt 2021 には、新しく正投影カメラ機能が追加されました。[ナビゲーション]メニューには、[正投影]ボタンと[パース投影]ボタンがあります。
 
-![Pulsanti della vista della cinepresa Ortogonale \(inferiore\) e Prospettica \(superiore\)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Orthographic \(bottom\) and Perspective \(top\) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Questa nuova opzione consente di passare facilmente dalla vista della cinepresa Ortogonale a quella Prospettica e viceversa.
+この新しいオプションを使用すると、[正投影]と[パース投影]のカメラ ビューを簡単に切り替えることができます。
 
-![È possibile passare dalla modalità della cinepresa Prospettica a Ortogonale e viceversa per un modello.](../.gitbook/assets/ortho-camera.gif)
+![A model can be toggled from Perspective Camera to Orthographic Camera mode.](../.gitbook/assets/ortho-camera.gif)
 
-Nella vista della cinepresa Ortogonale, eventuali altri strumenti della cinepresa rispetteranno la modalità corrente. Ad esempio, **Allinea cinepresa alla superficie** allinea la cinepresa Ortogonale alla superficie, producendo una vista di prospetto ortogonale.
+[正投影]カメラ ビューでは、他のどのカメラ ツールも現在のモードに従います。たとえば、**[カメラを面に位置合わせ]**を使用すると、正投影カメラが面に位置合わせされ、正投影の立面図ビューになります。
 
-Se si passa manualmente ad una vista Ortogonale preimpostata, ad esempio Vista dall'alto o Vista anteriore, la vista della cinepresa Ortogonale eseguirà lo snap a quella posizione, semplificando l'accesso a tali viste preimpostate.
+上面ビューや前面ビューなど、事前に設定された正投影ビューに手動でナビゲートした場合、正投影カメラはその位置にスナップされるため、事前に設定されたこれらのビューに簡単にアクセスできます。
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Nota:** Se il ritaglio della cinepresa viene eseguito nella modalità della cinepresa Ortogonale, è possibile tornare alla modalità Prospettiva, eseguire lo zoom indietro e riprovare.
+**注:** [正投影]カメラ モードでカメラのクリッピングが発生した場合は、[パース投影]モードに切り替え、縮小表示してからもう一度試してください。
 

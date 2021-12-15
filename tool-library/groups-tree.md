@@ -1,12 +1,12 @@
-# Struttura gruppi
+# グループ ツリー
 
-La tavolozza **Struttura gruppi** consente di gestire tutti i gruppi del file in un'unica posizione. Nella vista struttura vengono visualizzati i gruppi nidificati e nella colonna Stato viene mostrato il gruppo attualmente in corso di modifica, specificando se il gruppo proviene da Dynamo o Revit.
+**[グループ ツリー]**パレットを使用すると、1 つの場所でファイル内のすべてのグループを管理できます。ツリー ビューにはネストされたグループが表示され、[ステータス]列には、現在編集中のグループと、そのグループが Dynamo と Revit のどちらから変換されたかが表示されます。
 
-* **Selezione**: ogni istanza viene elencata singolarmente. Selezionare un'istanza nella struttura così una o più istanze verranno selezionate nella scena 3D.
-* **Modifica**: per modificare un gruppo, utilizzare l'icona a forma di matita nella parte superiore della tavolozza oppure fare clic con il pulsante destro del mouse e scegliere Modifica.
-* **Ridenominazione**: per rinominare un gruppo, fare doppio clic sul nome o fare clic con il pulsante destro del mouse e scegliere Rinomina.
-* **Eliminazione**: per eliminare un gruppo, utilizzare l'icona \(**-**\) nella parte superiore della tavolozza oppure fare clic con il pulsante destro del mouse e scegliere Elimina.
-* **Modifica della categoria**: per modificare la categoria di un gruppo, selezionare il gruppo e utilizzare l'elenco a discesa Categoria nella parte superiore della tavolozza.
+* **選択する**: 個別に一覧表示されたツリー内のインスタンスを選択すると、3D シーン内でそのインスタンスが選択されます。
+* **編集する**: グループを編集するには、パレットの上部にあるペンのアイコンを使用するか、右クリックして[編集]を選択します。
+* **名前を変更する**: グループの名前を変更するには、名前をダブルクリックするか、右クリックして[名前変更]を選択します。
+* **削除する**: グループを削除するには、パレットの上部にある**[-]**のアイコンを使用するか、右クリックして[削除]を選択します。
+* **カテゴリを変更する**: グループのカテゴリを変更するには、グループを選択し、パレットの上部にある[カテゴリ]ドロップダウンを使用します。
 
 ![](../.gitbook/assets/groups.png)
 

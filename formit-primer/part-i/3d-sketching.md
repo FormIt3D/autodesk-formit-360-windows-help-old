@@ -1,69 +1,69 @@
-# 1.3 - Disegno 3D e trascinamento della superficie
+# 1.3 - 3D スケッチと面のドラッグ
 
-_Siamo pronti per iniziare a disegnare Casa Farnsworth. La modellazione essenziale 3D in FormIt consiste nel disegnare linee per creare superfici e quindi trascinarle per creare volumi._
+_これで、ファンズワース邸を描く準備ができました。FormIt の中核となる 3D モデリングでは、線分を描いて面を作成し、それらの面をドラッグして立体を作成します。_
 
-‌ _Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.3 - 3D Sketch and Drag Face.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**1.3 - 3D Sketch and Drag Face.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Disegno di superfici con linee**
+## **線分を使用して面を描画する**
 
-1 - Per facilitare il processo di modellazione, è possibile utilizzare la **barra degli strumenti Navigazione mobile** per passare da una modalità di vista all'altra. Per questo esercizio, consigliamo di utilizzare **Prospettica \(VP\)** e **Vista 3D \(V3\).**
+1 - モデリング プロセスを容易にするために、**浮動ナビゲーション ツールバー**を使用して異なるビュー モードに切り替えることができます。この演習では、**パース\(VP\)**と **3D ビュー\(V3\)を使用することをお勧めします。**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 - La geometria appena creata si unirà o si applicherà automaticamente a qualsiasi geometria non raggruppata esistente che tocca. Per evitare ciò, è in genere consigliabile organizzare la geometria con gruppi. Per creare un gruppo dalla pianta del pavimento, selezionare il rettangolo facendo doppio clic, quindi fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e selezionare **Gruppo \(G\).**
+2 - 新しく作成されたジオメトリは、グループ化されていない既存の接触するジオメトリと自動的に結合または「固定」されます。これを回避するには、通常、ジオメトリをグループで整理します。平面図からグループを作成するには、長方形をダブルクリックして選択し、右クリックの**コンテキスト メニュー**から**[グループ\(G\)]**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 - Quando tracciamo la pianta, non desideriamo che le linee eseguano lo snap alla griglia, quindi occorre fare clic su **Impostazioni** nel **Menu principale** e deselezionare **Snap alla griglia \(SG\).**
+3 - 平面図をトレースするときに線分をグリッドにスナップしないようにするため、**[メイン メニュー]**の**[設定]**をクリックし、**[グリッドにスナップ\(SG\)]のチェックを外します。**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 - Per iniziare a disegnare, fare clic sull'icona **Crea disegno** \(matita\) sulla **barra degli strumenti Standard** e scegliere lo **strumento Linea \(L\)**.
+4 - 描画を開始するには、**[標準ツールバー]**の**[スケッチを作成]** (鉛筆のアイコン)をクリックし、**[線分\(L\)]**ツールを選択します。
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Iniziamo creando un rettangolo nell'immagine importata. Per creare la prima linea:
+5 -まず、読み込まれたイメージに長方形を作成します。最初の線分を作成するには、次のように操作します。
 
-1. Nello **strumento Linea**, fare clic nell'**angolo superiore sinistro** della terrazza superiore nel disegno importato.
-2. Spostare il mouse lungo l'asse rosso visualizzato.
-3. Fare clic sul tasto **TAB** per immettere la quota **77'-4 1\8".**
+1. **[線分]ツール**で、読み込まれたスケッチの上部テラスの**左上コーナー**付近をクリックします。
+2. 表示される赤い軸に沿ってマウスを動かします。
+3. **[Tab]**キーをクリックして、寸法に **77'-4 1/8" と入力します。**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Nota** Ogni volta che viene visualizzata una quota temporanea durante il disegno, è possibile premere_ _**TAB** o iniziare a digitare un numero_ _per aprire la_ _**finestra di dialogo Quota**._
+_**注:** スケッチ中に仮寸法が表示された場合は、_ _**[Tab]**キーを押すか、単に数値_ _を入力すると_ _**[寸法]ダイアログ**を開くことができます。_
 
-6 - Per creare la seconda linea, spostare il mouse verso il basso lungo l'asse verde e immettere **28'-8**" per il bordo corto della terrazza superiore.
+6 - 2 番目の線分を作成するには、緑色の軸に沿ってマウスを下に移動させ、上部テラスの短いエッジに **28'-8"** と入力します。
 
-7 - Per definire il terzo bordo e la finitura del rettangolo:
+7 - 長方形の 3 番目のエッジを定義し、仕上げるには、次のように操作します。
 
-1. Spostare il mouse lungo l'asse rosso e tenere premuto il tasto **MAIUSC**. La linea dell'asse rosso si ispessirà per indicare che la linea è bloccata su questo asse.
-2. Mentre è premuto il **tasto MAIUSC**, spostare il mouse sul primo punto disegnato. Fare clic per confermare il punto finale.
-3. Il terzo punto verrà impostato automaticamente, parallelo all'asse rosso definito da \(A\) e all'asse verde definito da \(B\).
-4. Infine, per terminare di racchiudere il rettangolo, rilasciare il tasto **MAIUSC** e fare clic di nuovo sul primo punto disegnato. Premere **ESC** due volte per uscire dallo strumento di disegno.
+1. 赤い軸に沿ってマウスを動かし、**[Shift]** キーを押したままにします。赤い軸線は太くなり、その線がこの軸にロックされていることを示します。
+2. **[Shift]**キーを押しながら、最初に描いたポイントにマウスを移動します。クリックして終点を確定します。
+3. 3 番目のポイントは自動的に設定され、\(A\)で定義された赤い軸と\(B\)で定義された緑の軸に平行になります。
+4. 最後に、**[Shift]**キーを放して長方形の囲みを完成させ、最初に描いたポイントに戻ってクリックします。**[Esc]**キーを 2 回押して、スケッチ ツールを終了します。
 
-_**Nota**_ _Gli assi rosso e verde si mantengono paralleli e perpendicolari alla griglia. Quando si disegna una linea sugli assi globali, una linea d'asse viola consente di rimanere a 90 gradi rispetto alla linea fuori asse._
+_**注:**_ _赤と緑の軸は、グリッドに対して平行および垂直を維持します。ワールド軸から離れた線分を描く場合は、紫色の軸線によって軸から外れた線分に対して 90 度を維持することができます。_
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Trascinamento della superficie per creare il volume**
+## **面をドラッグして立体にする**
 
-1 - Fare un singolo clic all'interno del contorno appena disegnato per selezionare la superficie. Ora viene aperto automaticamente lo strumento di **trascinamento della superficie**.
+1 - 先ほど描いたアウトラインの内側をシングルクリックして、面を選択します。これで、**[面をドラッグ]**ツールが自動的に開きます。
 
-2 - Fare di nuovo un singolo clic per avviare il trascinamento. Spostare il mouse verso l'alto \(lungo l'asse Z positivo\) per estrudere un volume in tale direzione. Iniziare a digitare **12'-2"**. Verrà visualizzata una casella di quota con questo valore, quindi premere **INVIO**.
+2 - 再度シングルクリックして、ドラッグを開始します。マウスを正の Z 軸に沿って上に動かし、ボリュームをその方向に押し出します。**12'-2"** と入力すると、この値を持つ寸法ボックスが表示されます。ここで**[Enter]**を押します。
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Nota**_ _Un_ _singolo clic_ _consentirà di selezionare una sola superficie, mentre un_ _doppio clic_ _permetterà di selezionare tutte le superfici e tutti i bordi adiacenti \(non raggruppati\)._
+_**注:**_ _シングル_ _クリックすると_ _単一の面が選択され、_ _ダブルクリック_ _すると \(グループ化されていない\) 隣接するエッジおよび面がすべて選択されます。_
 
-## **Disegno 3D con arco, spline e cerchio**
+## **円弧、スプライン、円を使用した 3D スケッチ**
 
-_Il seguente esercizio non è fondamentale per completare la casa. Tuttavia, consente di provare alcuni degli altri strumenti di disegno 3D disponibili. Fare clic_ _**qui**_ _per ulteriori informazioni sul disegno 3D con assi globali._
+_次の演習は、家屋の仕上げを行うために必須の演習ではありませんが、利用できるその他の 3D スケッチ ツールの仕組みを理解するのに役立ちます。ワールド軸を使用して 3D スケッチを行う方法については、__**こちら**__を参照してください。_
 
-1 - Selezionare lo strumento **Arco per tre punti \(A\)**. Fare clic per definire l'inizio, quindi il punto finale. Fare clic la terza volta per definire il raggio dell'arco.
+1 - **[3 円弧点による円弧\(A\)]**ツールを選択します。クリックして始点を定義し、次に終点を定義します。3 回目のクリックで、円弧の半径を定義します。
 
-2 - Selezionare lo strumento **Spline \(S\)**. Fare clic per definire un numero qualsiasi di punti per disegnare una spline.
+2 - **[スプライン\(S\)]**ツールを選択します。クリック操作により、スプラインを描画するための点を必要な数だけ指定できます。
 
-3 - Selezionare lo strumento **Cerchio \(C\)**. Posizionare il cursore e fare clic per definire il punto centrale del cerchio. Fare clic e trascinare o immettere una quota per definire il raggio.
+3 - **[円\(C\)]**ツールを選択します。カーソルを合わせてクリックし、円の中心点を定義します。クリックしてドラッグするか、寸法を入力して半径を定義します。
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

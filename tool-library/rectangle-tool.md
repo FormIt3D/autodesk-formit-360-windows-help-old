@@ -1,24 +1,24 @@
-# Rettangolo
+# 長方形
 
-È possibile utilizzare lo strumento **Rettangolo** nel menu della barra degli strumenti **Crea disegno** per disegnare rapidamente una superficie rettangolare. Estrudere la superficie per creare un volume rettangolare.
+**[スケッチを作成]**ツールバー メニューの**[長方形]**ツールを使用すると、長方形の面を簡単に描画できます。その面を押し出して長方形の体積を作成します。
 
-Tasto di scelta rapida: R
+キーボード ショートカット: [R]
 
-Utilizzare gli assi per assicurarsi di disegnare nella direzione corretta:
+軸を使用して、適切な方向に描画するようにします。
 
-È possibile disegnare rettangoli sull'asse X, Y o Z. Mentre si disegna, è possibile specificare una quota digitando semplicemente un valore, che consentirà di visualizzare la finestra di dialogo Modifica quota. Premere INVIO o OK per accettare la quota.
+X、Y、Z 軸上に長方形を描画できます。描画中に値を入力すると寸法編集用のダイアログが表示され、寸法を指定できます。[Enter]を押すか[OK]をクリックして、寸法を確定します。
 
-Per disegnare un rettangolo, fare clic per impostare il primo punto nel disegno.
+長方形を描画するには、スケッチ内で最初の点をクリックして設定します。
 
-Colori delle linee per asse:
+軸の色
 
-* X = Rosso
-* Y = Verde
-* Z = Blu
+* X 軸 = 赤
+* Y 軸 = 緑
+* Z 軸 = 青
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Una volta completato il disegno, il rettangolo diventa una superficie che può essere estrusa per creare un volume.
+長方形の描画が終了すると、長方形は面になり、押し出して体積を作成できます。
 

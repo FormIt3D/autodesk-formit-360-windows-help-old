@@ -1,6 +1,6 @@
 # Dynamo
 
-In FormIt per Windows v17.0 e versioni successive, è stato incorporato Dynamo, il che consente di eseguire i grafici di Dynamo locali per generare facilmente la geometria complessa in FormIt.
+v17.0 以降の FormIt for Windows には Dynamo が組み込まれているため、ローカルの Dynamo グラフを実行して、FormIt で複雑なジオメトリを簡単に生成できます。
 
-[Sono fornite informazioni sul funzionamento di FormIt + Dynamo](https://formit.autodesk.com/page/formit-dynamo).
+[FormIt + Dynamo の機能についてはこちらを参照してください\(英語\)](https://formit.autodesk.com/page/formit-dynamo)。
 

@@ -1,27 +1,27 @@
-# Analisi solare + Analisi energetica
+# 日照解析とエネルギー解析
 
-Avviare un workflow BIM valutando le prestazioni degli elementi dall'inizio del processo di progettazione.
+BIM ワークフローでは、最初に、設計プロセスの初期段階から各種要素のパフォーマンスを評価します。
 
-## Analisi solare
+## 日照解析
 
-Con un abbonamento a **FormIt Pro** tramite [AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview), ****è possibile visualizzare l'impatto del sole sull'edificio:
+[AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) を通じて **FormIt Pro** のサブスクリプションを購入すると、建物に対する日照の影響を可視化できます。
 
-* Specificare le superfici pertinenti da analizzare per l'impatto solare
-* Visualizzare i risultati in pochi secondi all'interno dell'area di disegno dell'app
-* Posizionare il cursore del mouse su un punto di input per visualizzare i valori calcolati specifici dell'impatto solare
-* Scegliere di visualizzare i risultati come studio mensile sulle vetrate o come studio di fattibilità annuale sui pannelli solari
+* 日照の影響を解析する面を指定します。
+* わずか数秒で、解析結果をアプリケーション キャンバス内で可視化できます。
+* 入力点にカーソルを合わせることにより、日照の影響の特定の計算値を確認できます。
+* 解析結果を、ガラスに関する月次調査結果として表示したり、ソーラー パネルの実現可能性に関する年次調査結果として表示することもできます。
 
-Sono fornite ulteriori informazioni su [Analisi solare](../tool-library/solar-analysis.md) in FormIt Pro.
+詳細については、FormIt Pro の[日照解析](../tool-library/solar-analysis.md)のドキュメントを参照してください。
 
-## Analisi energetica con Insight
+## Insight を使用したエネルギー解析
 
-Con un abbonamento a **FormIt Pro** tramite [AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview), è possibile accedere ad Analisi energetica con **Insight:**
+[AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) を通じて **FormIt Pro** のサブスクリプションを購入すると、**Insight** を使用してエネルギー解析にアクセスできます。
 
-* Analizzare i modelli di progettazione nelle fasi iniziali con il motore di analisi di Green Building Studio
-* Connettersi ad una vista della dashboard dei risultati dell'analisi per confrontare le opzioni per il progetto
-* Regolare i widget del fattore di Analisi energetica, ad esempio rapporto finestra-muro, orientamento dell'edificio e altri
-* Riepilogare l'impatto energetico dell'edificio con un singolo numero calcolato come costo per area finale
-* Salvare i risultati di Analisi energetica per una revisione futura con clienti e altri soggetti coinvolti
+* Green Building Studio の解析エンジンを使用して、早期段階の設計モデルを解析できます。
+* 解析結果のダッシュボード ビューに接続して、設計の選択肢を比較します。
+* 「窓と壁の比率」や「建物の向き」など、エネルギー解析で使用する各種要因をウィジェットで調整できます。
+* 面積あたりの最終的なコストが 1 つの数値として表示され、建物に対するエネルギーの影響が一目でわかります。
+* クライアントをはじめとする各関係者による将来的なレビューのために、エネルギー解析の結果を保存することができます。
 
-Sono fornite ulteriori informazioni su [Analisi energetica](https://formit.autodesk.com/page/formit-insight) in FormIt Pro.
+詳細については、FormIt Pro の[エネルギー解析](https://formit.autodesk.com/page/formit-insight)のドキュメントを参照してください。
 

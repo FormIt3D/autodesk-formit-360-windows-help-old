@@ -1,22 +1,22 @@
-# 1.14 - Esportazione di un'immagine
+# 1.14 - イメージを書き出す
 
-_In questo capitolo, esporteremo un'immagine ad alta risoluzione della scena di sezione in prospettiva che abbiamo creato negli ultimi capitoli._
+_この章では、ここまでのいくつかの章で作成したパース投影シーンを組み合わせて、高解像度イメージを書き出します。_
 
-_Sebbene non sia necessario completare questo capitolo, se non si è seguita l'intera esercitazione fino a questo punto e si desidera esportare immagini simili a quelle mostrate di seguito, scaricare e aprire il file_ _**1.14 - Export Image.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_この章を完了する必要はありませんが、ここまでのすべてのチュートリアルを完了せずにこの章で次に示すようなイメージを書き出す場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.14 - Export Image.axm**ファイルをダウンロードして開きます。_
 
-1 - Quando si esporta un'immagine, tutto ciò che viene mostrato nell'area di disegno verrà esportato quasi esattamente come viene visualizzato in FormIt. Desideriamo esportare un'immagine della scena **Section**.
+1 - イメージを書き出すと、キャンバスに表示されるものすべてが、FormIt での表示とほぼ同じように書き出されます。シーン **Section** のイメージを書き出します。
 
-1. Per prima cosa, è necessario aprire tale scena dalla **tavolozza Scene** facendovi doppio clic.
-2. Sulla barra **Menu principale**, accedere a **File > Esporta > Localmente \(CTRL+E\)**. Viene visualizzata la finestra **Esporta file**.
-3. Nella nuova finestra, in **Opzioni tipo di file** scorrere verso il basso e selezionare **As Image** \(è l'ultima voce\). Nella casella delle opzioni di esportazione, in **Preimpostazione:** cambia l'opzione dell'elenco a discesa che viene impostata su **4K UHD** anziché su **Finestra**. In questo modo, la risoluzione dell'immagine di output, **Dimensioni \(px\)**, verrà definita automaticamente in **3840** x **2160** pixel.
-4. Fare clic su **Esporta** e verrà visualizzata la finestra popup **Specifica file in cui salvare**.
-5. Nella nuova finestra, scegliere la posizione e il nome in cui salvare l'immagine, quindi fare clic su **Salva**.
+1. まず、**[シーン]パレット**でシーンをダブルクリックして開きます。
+2. **[メイン メニュー]**バーから、**[ファイル] &gt; [書き出し] &gt; [ローカルに] \([Ctrl]+[E]\)**に移動します。**[ファイルを書き出す]**ウィンドウが表示されます。
+3. 表示されたウィンドウで**[ファイル タイプ オプション]**のリストを下にスクロールし、最後の**[イメージとして]**を選択します。さらに、**[プリセット]**のドロップダウン オプションを**[ビューポート]**から**[4K UHD]**に変更します。これにより、出力イメージの解像度である**[寸法\(px\)]**の値が自動的に **3840** x **2160** ピクセルに定義されます。
+4. **[書き出し]**をクリックすると、**[保存先のファイルを指定]**ウィンドウが表示されます。
+5. 表示されたウィンドウで、イメージを保存する場所と名前を選択して**[保存]**をクリックします。
 
 ![](../../.gitbook/assets/0%20%285%29.png)
 
-2 - Se si desidera confrontare i risultati con l'immagine di esportazione fornita, accedere a **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
+2 - 結果を作成済みの書き出しイメージと比較する場合は、**Farnsworth House Data Set &gt; Supporting Files &gt; Images** に移動します。
 
-![Immagine di esportazione di esempio fornita, proveniente dal set di dati di Casa Farnsworth.](../../.gitbook/assets/1%20%2816%29.png)
+![Provided sample export image from the Farnsworth House Data Set.](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
 

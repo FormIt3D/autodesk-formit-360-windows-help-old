@@ -1,36 +1,36 @@
-# 1.4 - Aggiunta di pavimenti con livelli
+# 1.4 - レベルが適用された床を追加する
 
-_I livelli consentono di tagliare le masse con singoli riferimenti del pavimento e calcolare l'area lorda per massa dell'edificio. I livelli di FormIt e i relativi nomi personalizzati verranno convertiti in livelli di Revit quando il file viene convertito in Revit._
+_レベルを使用すると、個々の床基準面でマスをスライスし、建物のマスごとに総面積を計算できます。FormIt のレベルとそのカスタム名は、ファイルを Revit に変換するときに Revit レベルに変換されます。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file **1.4 - Add Floors with Levels.axm** dai **set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、**FormIt Primer Part 1 Datasets** から **1.4 - Add Floors with Levels.axm** ファイルをダウンロードして開きます。_
 
-## **Creazione e personalizzazione di livelli**
+## **レベルを作成してカスタマイズする**
 
-1 - Per creare livelli:
+1 - レベルを作成します。
 
-1. Accedere alla **tavolozza Livelli** sulla **barra delle tavolozze**.
-2. Fare clic su **+** \(**Aggiungi livello**\) quattro volte per creare quattro livelli.
-3. Fare doppio clic sulla quota altimetrica corrente di ciascun livello per modificarla in **0'-0", 2'-2", 4'-6"** e **17'-8"**.
-4. Fare doppio clic sul nome corrente di ciascun livello e rinominarlo **Ground, Terrace, Main Building,** e **Top of Roof.**
+1. **パレット バー**の**[レベル]パレット**に移動します。
+2. **[+]**アイコン\(**[レベルを追加]**\)を 4 回クリックして、4 つのレベルを作成します。
+3. 各レベルの現在の高さをダブルクリックして、**0'-0"、2'-2"、4'-6"** 、 **17'-8"**に修正します。
+4. 各レベルの現在の名前をダブルクリックして、名前を **Ground、Terrace、Main Building**、**Top of Roof**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Nota** È possibile fare clic sull'icona_ _**++**_ _per creare più livelli, con una distanza specificata e uniforme tra loro. Questa opzione è utile per gli edifici a più piani_.
+_**注**:_ _**[++]**_ _アイコンをクリックすると、指定した均等な距離で複数のレベルを作成できます。これは、複数階の建物の場合に便利です_。
 
-## **Applicazione di livelli alla geometria**
+## **レベルをジオメトリに適用する**
 
-_Nei passaggi precedenti, abbiamo creato solo i livelli. Ora possiamo applicare tali livelli alla geometria che abbiamo creato._
+_前の手順では、レベルのみを作成しました。これで、レベルを作成済みジオメトリに適用する準備が整いました。_
 
-1 - Per applicare i livelli alla geometria esistente:
+1 - レベルを既存のジオメトリに適用します。
 
-1. Selezionare l'intera massa della terrazza superiore facendovi doppio clic.
-2. Nella **tavolozza Proprietà**, fare clic su **Usa livelli**. Con questo passaggio si preselezionano tutti i livelli che attualmente intersecano la geometria selezionata.
-3. Ora alla geometria attualmente selezionata sono applicati tre livelli \(**Main Building, Terrace** e **Ground**\), ma per questo esercizio desideriamo applicare solo **Ground**. Deselezionare **Main Building** e **Terrace**.
-4. Questa procedura garantisce che solo l'area intersecata da **Ground** venga considerata per il calcolo dell'area lorda, che può essere visualizzato nel campo **Area per livello**.
+1. 上部のテラス マス全体をダブルクリックして選択します。
+2. **[プロパティ]パレット**で**[レベルを使用]**をクリックします。この手順によって、選択したジオメトリと現在交差しているすべてのレベルが事前選択されます。
+3. 現在選択されているジオメトリには、適用できるレベルが 3 つ \(**Main Building、Terrace**、**Ground**\)ありますが、この演習では **Ground** のみを適用します。**Main Building** と **Terrace** のチェック ボックスをオフにします。
+4. このプロセスにより、**Ground** と交差する領域のみが総面積の計算で考慮され、**[レベルの面積]**フィールドで確認できます。
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Nota** Se non sono visualizzate linee di livello blu nella massa, digitare_ _**DL**_ _per_ _**Visualizza livelli**._
+_**注:** マスに青いレベル ラインが表示されない場合は、_ _**DL**_ _と入力して_ _**レベルを表示します**。_
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

@@ -1,10 +1,10 @@
-# Sfaccettatura di curve e superfici
+# 曲面 + サーフェス切り子面
 
-FormIt è un sistema di modellazione poliedrica, pertanto oggetti quali cerchi, archi e spline sono rappresentati da una serie di bordi diritti. Analogamente, una superficie curva come il muro di un cilindro, o una cupola, è costituita da una serie di superfici piane con bordi nascosti.
+FormIt は多面体モデリング システムであるため、円、円弧、スプラインなどのオブジェクトは一連の直線エッジで表されます。同様に、円柱の壁やドームのような曲面は、境界エッジが非表示になっている一連の平面で構成されています。
 
-Per default, FormIt utilizza 40 bordi, o sfaccettature, per rappresentare un cerchio e 24 sfaccettature per rappresentare un oggetto curvo 3D, come un cilindro. Per superfici più complesse, ad esempio una cupola, un valore pari a 24 imposta il conteggio delle sfaccettature del perimetro e influisce anche sulla densità di sfaccettatura del resto della forma.
+既定では、FormIt は 40 個のエッジ\(ファセット\)を使用して円を表し、24 個のファセットを使用して円柱のような 3D の曲面オブジェクトを表します。ドームなどの複雑な表面の場合、24 という値は周囲の切り子面の数を設定し、その形の残りの部分の切り子面密度にも影響します。
 
-In FormIt per Windows v18 e versioni successive, i valori di sfaccettatura della curva e della superficie sono personalizzabili:
+FormIt for Windows v18 以降では、曲面とサーフェスの切り子面の値をカスタマイズできます。
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
@@ -12,11 +12,11 @@ In FormIt per Windows v18 e versioni successive, i valori di sfaccettatura della
 
 **Curve Faceting Quality**
 
-La modifica di Curve Faceting Quality influirà sul numero di sfaccettature utilizzate per il disegno di nuovi cerchi e archi in FormIt, nonché sul posizionamento di forme primitive. Ad esempio, se si imposta questa opzione su 64, si creerebbe un cerchio completo a 64 lati o un arco a quarto di cerchio con 16 sfaccettature.
+曲線の切り子面品質を変更すると、FormIt で新しい円や円弧を描画するときや、プリミティブ形状を配置するときに使用される切り子面の数に影響します。たとえば、これを 64 に設定すると、64 辺の完全な円または 16 の切り子面の四半円円弧が作成されます。
 
-Questo valore influirà anche sulla qualità dei cerchi e degli archi importati dai file SAT e quando si esegue il baking della geometria da Dynamo. È possibile impostare questo valore per i nuovi disegni o solo per il disegno corrente.
+この値は、SAT ファイルから読み込んだ円や円弧の品質や、Dynamo からジオメトリをベイク処理する際の品質にも影響します。この値は、新しいスケッチまたは現在のスケッチに対して設定できます。
 
-Per le curve esistenti, è anche possibile utilizzare il plug-in Rebuild Curve per ricreare in modo retroattivo un arco o un cerchio **esistente** con un nuovo numero di sfaccettature:
+既存の曲面の場合は、Rebuild Curve プラグインを使用して、新しい切り子面の数を持つ**既存**の円弧または円を遡及的に再構築することもできます。
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
@@ -24,16 +24,16 @@ Per le curve esistenti, è anche possibile utilizzare il plug-in Rebuild Curve p
 
 **Surface Faceting Quality**
 
-La modifica di questa impostazione globale influirà sulla qualità delle superfici curve 3D importate da file SAT e quando si esegue il baking da Dynamo.
+このグローバル設定を変更すると、SAT ファイルから読み込んだ 3D 曲面サーフェスや、Dynamo からベイク処理した 3D 曲面サーフェスの品質に影響します。
 
-Ad esempio, impostando questa opzione su 64, quindi eseguendo il baking di una sfera da Dynamo verranno utilizzate 64 superfici attorno all'equatore della sfera, più 64 sfaccettature in ciascuno degli anelli che vanno ai poli della sfera, che si aggiungono rapidamente. Utilizzare valori più elevati con cautela, poiché in alcuni casi possono influire sulle prestazioni di FormIt. Una volta ottenuto un risultato di alta qualità, è possibile [convertirlo in una mesh](meshes.md) per migliorare le prestazioni.
+たとえば、これを 64 に設定して Dynamo から球をベイク処理すると、球の赤道の周囲に 64 面、さらに球の両極に向かう各リングに 64 の切り子面が使用されます。場合によっては FormIt のパフォーマンスに影響を与えることがあるため、高い値を使用する場合は注意が必要です。高品質な結果が得られたら、[メッシュに変換](meshes.md)してパフォーマンスを向上させることができます。
 
-Quando si utilizza Dynamo, è possibile modificare la qualità delle sfaccettature e fare clic su Run Graph nel pannello Proprietà senza modificare i parametri, per sfruttare i nuovi conteggi di sfaccettature:
+Dynamo を使用して作業している場合は、切り子面品質を修正して[プロパティ]パレットのグラフの実行ボタンをクリックするだけで、パラメータを変更しなくても新しい切り子面の数を利用できます。
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-Come per le curve, è possibile impostare la qualità delle sfaccettature delle superfici per i nuovi disegni o solo per il disegno corrente.
+曲面の場合と同様に、新しいスケッチまたは現在のスケッチに対してのみ、サーフェスの切り子面品質を設定できます。
 
-Tenere presente che i valori di sfaccettatura sono attualmente limitati a multipli di 4, pertanto quando si immettono numeri manualmente, in FormIt vengono arrotondati al multiplo più vicino. È possibile utilizzare i dispositivi di scorrimento e le frecce per scorrere i valori accettati.
+切り子面の値は現在のところ 4 の倍数に制限されているため、手動で数値を入力すると、最も近い倍数に丸められます。スライダと矢印を使用して、使用できる値を切り替えることができます。
 
 ![](../.gitbook/assets/units-+-precision.png)

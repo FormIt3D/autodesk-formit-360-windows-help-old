@@ -1,129 +1,129 @@
-# 1.9 - Aggiunta di dettagli
+# 1.9 - 詳細を追加する
 
-_FormIt è un ottimo strumento per le volumetrie, oltre a essere un eccellente strumento di modellazione. Cominceremo ad aggiungere dettagli a Casa Farnsworth sotto forma di porte e montanti per il parallelepipedo in vetro. Successivamente, tratteremo alcuni strumenti aggiuntivi ed eseguiremo la procedura di aggiunta di nuova geometria, layer, materiali e gestione di gruppi._
+_FormIt は、優れたマス作成ツールであり、優れたモデリング ツールでもあります。ガラスのボックスに対してドアとマリオンの形状を作成して、Farnsworth House に詳細を追加します。次に、いくつかの追加のツールについて説明し、新しいジオメトリ、レイヤ、マテリアルの追加およびグループ管理のプロセスを練習します。_
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.9 - Add Details.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.9 - Adding Details.axm**ファイルをダウンロードして開きます。_
 
-## **Creazione di telai di finestre**
+## **窓枠を作成する**
 
-_Creeremo un telaio in metallo da 2" e montanti attorno al parallelepipedo in vetro. Questi montanti si sovrappongono intenzionalmente con il parallelepipedo in vetro._
+_この演習では、2" のメタル フレームと、ガラスのボックスを囲むマリオンを作成します。作成したリオンを、ガラスのボックスと意図的に重ねます。_
 
-1 - Creare un nuovo layer denominato **Glass Walls** e spostarvi il gruppo **Glass Wall**.
+1 - **Glass Walls** という名前の新しいレイヤを作成し、グループ **Glass Wall** をそのレイヤに移動します。
 
-2 - Per facilitare la visualizzazione, disattivare il layer **Roof** in modo da poter visualizzare l'intero parallelepipedo in vetro.
+2 - 見やすくするには、レイヤ **Roof** をオフにして、ガラスのボックス全体が表示されるようにします。
 
-3 - Per iniziare a creare il primo telaio della finestra:
+3 - 最初の窓枠の作成を開始します。
 
-1. Sul lato occidentale dell'edificio, utilizzare lo **strumento Rettangolo \(R\)** per disegnare una nuova superficie direttamente sulla superficie esterna in vetro. Assicurarsi di creare la superficie all'esterno del gruppo **Glass Walls**.
-2. Selezionare e trascinare la superficie appena creata **2"** verso l'interno. Premere **ESC** per annullare la selezione. Il risultato finale dovrebbe essere simile a quello mostrato nell'immagine riportata di seguito.
-3. Fare clic una sola volta sulla superficie appena creata. Fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e utilizzare lo **strumento Offset superficie \(OF\).**
+1. 建物の西側で**[長方形\(R\)]**ツールを使用して、外部ガラス面の上に新しいサーフェスを直接描画します。サーフェスを必ずグループ **Glass Walls** の外側に作成してください。
+2. 新しく作成した面を選択して内側に **2"** ドラッグします。**[Esc]**を押して、選択をクリアします。最終的な結果は下図のようになります。
+3. 作成した面をシングルクリックします。右クリックして**コンテキスト メニュー**から**[面をオフセット\(OF\)]ツールを選択します。**
 
-_**Nota**_ _In caso di problemi nella selezione della nuova superficie, premere il tasto_ _**BARRA SPAZIATRICE**_ _per alternare oggetti selezionabili diversi o disattivare temporaneamente il layer_ _**Glass Walls**_ _._
+_**注:**_ _新しい面を選択できない場合は、_ _**[Spacebar]**_ _を押して選択できるオブジェクトを切り替えるか、レイヤ_ _**Glass Walls**_ _を一時的にオフにします。_
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - Per impostare la quota di offset, spostare il mouse all'interno della superficie e immettere **2"** per creare un nuovo rettangolo più piccolo.
+4 - オフセット寸法を設定します。面の内側にマウスを動かし、**2"** と入力して新しい小さな長方形を作成します。
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Fare clic una sola volta per selezionare il rettangolo interno appena creato. Fare nuovamente clic e trascinare la superficie all'interno dell'edificio fino a quando non scompare. Fare clic ancora una volta per terminare la rimozione del volume centrale dalla geometria del telaio.
+5 - 作成した内側の長方形をシングルクリックして選択します。もう一度クリックし、面を建物の内側方向に、消えるまでドラッグします。もう一度クリックして、フレーム ジオメトリからの中央の体積の削除を終了します。
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Fare doppio clic per selezionare la geometria appena creata e scegliere **Gruppo \(G\)**. Denominare il gruppo **Mullion Frame – EW**​.
+6 - 作成したジオメトリをダブルクリックして選択し、**グループ\(G\)**にします。そのグループに「**Mullion Frame – EW**」という名前を付けます​。
 
-7 - Creare un layer denominato **Mullion** e inserirvi il nuovo gruppo.
+7 - **Mullion** という名前のレイヤを作成し、この新しいグループをそのレイヤに配置します。
 
-8 - Per impostare il materiale del telaio:
+8 - フレームのマテリアルを設定します。
 
-1. Nella **tavolozza Materiali**, duplicare il materiale **Metal – Brushed – Colorized** facendovi clic con il pulsante destro del mouse e selezionando **Duplica materiale**.
-2. Fare doppio clic sul riquadro di anteprima del nuovo materiale per modificarlo.
-3. Rinominarlo **Metal – Brushed – Gray**.
-4. Modificare il colore del materiale facendo clic sul riquadro **Colore** nella sezione **Mappe** e scurire il grigio modificando **Val:** in **150**.
+1. **[マテリアル]パレット**内でマテリアル **Metal - Brushed - Colorized** を右クリックして**[マテリアルを複製]**を選択し、複製します。
+2. 編集するために新しいマテリアルのプレビュー タイルをダブルクリックしします。
+3. 名前を「**Metal – Brushed – Gray**」に変更します。
+4. マテリアルの色を変更します。**[マップ]**セクションで**[色]**タイルをクリックして、**[Val]**で明度を「**150**」に変更してグレーを暗くします。
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Fare clic su **OK** per salvare le modifiche apportate al nuovo materiale, quindi dipingere il gruppo **Mullion Frame – EW**. Successivamente, la **tavolozza Proprietà** del gruppo dovrebbe corrispondere a quella mostrata nell'immagine riportata di seguito:
+9 - **[OK]**をクリックして新しいマテリアルに対するこれらの変更を保存し、グループ **Mullion Frame – EW** をペイントします。この操作で、グループの**[プロパティ]パレット**は下図に示す内容と同じになるはずです。
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - Creare una nuova istanza del telaio sul lato orientale utilizzando uno qualsiasi dei seguenti strumenti: **Copia rapida**, **Matrice** o **Copia speculare**.
+10 - **クイック コピー**、**配列**、または**鏡像化**のいずれかのツールを使用して、東側にフレームの新しいインスタンスを作成します。
 
-11 - Ripetere i passaggi precedenti per i lati nord e sud del parallelepipedo in vetro. Demoninare il nuovo gruppo **Mullion Frame – NS**. Non dimenticare di dipingerli e di posizionarli sul layer **Mullion**.
+11 - ガラスのボックスの北側と南側で、上記の手順を繰り返します。新しいグループに「**Mullion Frame – NS**」という名前を付けます。ペイントして、レイヤ **Mullion** に配置するのを忘れないでください。
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Nota**_ _I telai a montanti si sovrappongono in corrispondenza degli angoli. Questo è intenzionale. Il risultato riportato sopra mostra la geometria risultante del telaio a montanti con i layer_ _**Glass Wall**_ _e_ _**Column**_ _disattivati._
+_**注:**_ _マリオン フレームは、コーナーで互いに重なっています。これは意図的に行われています。上の結果は、レイヤ_ _**Glass Wall**_ _および_ _**Column**_ _をオフにした状態のマリオン フレーム ジオメトリを示しています。_
 
-**Creazione di montanti**
+**マリオンを作成する**
 
-1 - In piano con la superficie esterna in vetro sul lato sud o nord dell'edificio, disegnare un **Rettangolo \(R\) da 2" x 10"-10"** che si estende dalla parte inferiore alla parte superiore del telaio a montanti. Non importa la posizione esatta del rettangolo lungo il telaio; lo sposteremo in posizione nei seguenti passaggi.
+1 - 建物の南側または北側の外部ガラス面の平面で、マリオン フレームの下部と上部の間に **2" x 10'-10" の長方形**を描画します。長方形をフレームに沿った正確な位置にする必要はありません。次の手順で、適切な位置に移動します。
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Estrudere il rettangolo indietro di **2"**, quindi scegliere **Gruppo \(G\)o** e denominare il gruppo **Mullion – Vertical**. Posizionare il gruppo sul layer **Mullion** e dipingerlo con il materiale **Metal – Brushed – Grey**.
+2 - 長方形を後方に **2"** 押し出し、**グループ\(G\)**にして、そのグループに「**Mullion – Vertical**」という名前を付けます。グループをレイヤ **Mullion** に配置し、マテリアル **Metal – Brushed – Grey** を使用してペイントします。
 
-**Individuazione dei montanti**
+**マリオンの位置を指定する**
 
-_Ora imposteremo la posizione per il primo montante in modo che sia centrato sul_ _**punto medio**_ _di un pilastro._
+_次に、最初のマリオンの位置を、中心が柱の_ _**中点**_ _上となるように設定します。_
 
-1 - Per visualizzare nuovamente i pilastri, attivare il layer **Column**, se è stato disattivato. Nella **tavolozza Layer**, è inoltre possibile disattivare i layer **Lower Terrace** e **Plan Image** per semplificare i passaggi successivi.
+1 - レイヤ **Column** がオフの場合はオンにして、柱を再度表示します。**[レイヤ]パレット**を開いている場合は、レイヤ **Lower Terrace** と **Plan Image** もオフにすると、次の手順で操作しやすくなります。
 
-2 - Per spostare il montante nella nuova posizione:
+2 - マリオンを新しい位置に移動します。
 
-1. Fare clic una sola volta per selezionare il gruppo di montanti verticali appena creato. Eseguire **Zoom \(Z\)** avanti e fare clic sul **punto medio** del bordo esterno inferiore del montante, simboleggiato da un triangolo rosso**.**
-2. Iniziare a spostare la geometria orizzontalmente verso un pilastro. Premere **MAIUSC** per bloccare il movimento nell'asse rosso \(**Asse X**\). Notare che una volta bloccato il movimento, l'asse rosso diventa più spesso.
-3. Eseguire lo zoom indietro fino a visualizzare la base del pilastro. Tenendo premuto **MAIUSC**, fare clic sul **punto medio** alla base della superficie esterna del pilastro. Il montante continuerà a spostarsi solo lungo l'asse rosso \(**Asse X**\), ma si allineerà al **Punto medio** su cui si è appena fatto clic.
+1. 作成した垂直マリオンのグループをシングルクリックして選択します。**[ズーム \(Z\)]** で拡大し、赤色の三角形で示された、マリオン下部の外部エッジの **中点** をクリックします**。**
+2. ジオメトリを柱に向かって水平方向に移動します。**[Shift]**を押して移動を赤色の **X 軸**方向にロックします。移動がロックされると、赤色の軸の線が太くなります。
+3. 柱の下部が見えるように縮小表示します。**[Shift]**を押したまま、柱の外側面の下部にある**中点**をクリックします。マリオンは赤色の **X 軸**方向にのみ移動し続けますが、先ほどクリックした**中点**に位置合わせされます。
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Nota**_ _Il montante ora si trova direttamente dietro il pilastro. Disattivare il layer_ _**Column**_ _o eseguire_ _**Orbita \(O\)**_ _per visualizzare il montante._
+_**注:**_ _マリオンは柱のすぐ後ろにあります。レイヤ_ _**Column**_ _をオフにするか、_ _**オービット\(O\)**_ _して、マリオンが表示されるようにします。_
 
-3 - Premere **ESC** per deselezionare lo strumento **Sposta**.
+3 - **[Esc]**を押して**[移動]**ツールを終了します。
 
-4 - Utilizzare lo strumento **Matrice \(AR\)** o **Copia rapida** per creare quattro \(4\) montanti verticali sullo stesso lato, distanziati tra loro di **11'**. Per ulteriori informazioni sull'utilizzo dello **strumento Matrice**, consultare i capitoli precedenti.
+4 - **[配列\(AR\)]**または**[クイック コピー]**ツールを使用して、同じ側面に沿って **11'** 間隔でさらに 4 つの垂直マリオンを作成します。**配列ツール**の使用方法については、前の章を参照してください。
 
-5 - Utilizzare il tasto TAB per selezionare tutti i gruppi di montanti **verticali** e copiarli sul lato opposto dell'edificio, in modo che sia i telai a **nord** che quelli a **sud** abbiano gli stessi layout di montanti, come mostrato nell'immagine seguente:
+5 - [Tab]キーを使用してすべての**垂直**マリオンのグループを選択し、建物の反対側にコピーして、次の図のように、**北**側のフレームと**南**側のフレームのマリオン レイアウトが同じになるようにします。
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Creazione dei montanti delle porte**
+## **ドア マリオンを作成する**
 
-1 - Eseguire **Orbita \(O\)** per la vista prospettica fino a quando non si osserva il centro del telaio a montanti ovest.
+1 - パース投影ビューを**オービット\(O\)**して、西のマリオン フレームの中心が表示されるようにします。
 
-2 - Analogamente alla creazione di telai a montanti, disegnare un pannello di porta largo **3'-6"** con un telaio di **2"x 2"**. Impostarlo come **Gruppo \(G\)** con le proprietà: nome del gruppo: **Curtain Wall Door**; layer: **Mullion**; materiale: **Metal – Brushed – Grey**.
+2 - マリオン フレームの作成と同様に、幅が **3'-6"** のドア パネルを **2" x 2"** のフレームで描画します。**グループ\(G\)**にして、グループ名: **Curtain Wall Door**、レイヤ: **Mullion**、マテリアル: **Metal – Brushed – Grey** に設定します。
 
-3 - Copiare questo gruppo per creare il secondo telaio della porta e spostarlo in modo che sia centrato nel gruppo **Mullion Frame – EW**, come mostrato di seguito.
+3 - このグループをコピーして 2 つ目のドア フレームを作成し、次に示すように、グループ **Mullion Frame – EW** の中央に配置されるように移動します。
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Creazione di un cornicione del tetto con estrusione su percorso**
+## **スイープで屋根のコーニスを作成する**
 
-_Ora creeremo il cornicione di Casa Farnsworth con uno degli strumenti di modellazione avanzati di FormIt,_ _**Estrusione su percorso**. Per ulteriori informazioni sulla modellazione avanzata, consultare il capitolo_ **2.2 -** _**Modellazione avanzata**_ _nella_ _**Guida introduttiva di FormIt - Parte II**._
+_FormIt の高度なモデリング ツールである_ _**スイープ**を使用して、Farnsworth House のコーニスを作成します。その他の高度なモデリングについては、_ _**FormIt Primer Part 2** の「_ **2.2 -** _**高度なモデリング**」の章_ _を参照してください。_
 
-_Il primo passaggio per la creazione di un'_ _**estrusione su percorso**_ _consiste nel disegnare un profilo perpendicolare all'estrusione stessa. A tale scopo, utilizzeremo la geometria del tetto come guida._
+_**スイープ**_ _を作成するには、まずスイープの「押し出し」に垂直なプロファイルを描画します。これを行うには、屋根ジオメトリをガイドとして使用します。_
 
-1 - Attivare il layer **Roof** ed eseguire lo zoom avanti di uno dei relativi angoli.
+1 - レイヤ **Roof** をオンにし、そのコーナーの 1 つを拡大表示します。
 
-2 - Utilizzando come riferimento uno dei lati verticali del tetto, disegnare due rettangoli adiacenti. Il primo sarà **6"** di altezza e per **4 5/8**" di larghezza e il secondo sarà **2"x 2"**. Eliminare la linea che divide i due rettangoli per creare una singola superficie. Il risultato dovrebbe essere simile al seguente.
+2 - 屋根の垂直な側面の 1 つを基準として使用し、隣接する 2 つの長方形を描画します。1 つ目は高さ **6"** で幅が **4 5/8"**、2 つ目は **2" x 2"** です。2 つの長方形を分割する線分を削除して、1 つの面を作成します。結果は次のようになります。
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - Per creare l'estrusione su percorso:
+3 - スイープを作成します。
 
-1. Senza geometria selezionata, fare clic sul pulsante **Strumenti di modellazione avanzati** sulla **barra degli strumenti Standard** e selezionare **Estrusione su percorso \(SW\)**.
-2. Verrà avviata la **procedura guidata di selezione dell'estrusione su percorso** e verrà richiesto di **selezionare una superficie \(o i bordi\) per il profilo di estrusione su percorso**. Selezionare la superficie del profilo appena creata.
-3. Una volta selezionato il profilo, verrà richiesto di **selezionare una superficie \(o un bordo\) per la traiettoria di estrusione su percorso, quindi fare clic su Fine**. Selezionare la superficie superiore del tetto. FormIt utilizzerà automaticamente i contorni della superficie selezionata come traiettoria dell'estrusione su percorso e l'estrusione stessa verrà creata attorno all'intero tetto.
+1. ジオメトリを選択していない状態で、**[標準ツールバー]**の**[高度なモデリング ツール]**ボタンをクリックし、**[スイープ\(SW\)]**を選択します。
+2. **スイープの選択ウィザード**が開き、**[スイープ プロファイルの面\(またはエッジ\)を選択します。]**というプロンプトが表示されます。作成したプロファイル面を選択します。
+3. プロファイルを選択すると、**[スイープ パスの面\(またはエッジ\)を選択し、[終了]をクリックします。]**というプロンプトが表示されます。屋根の最上面を選択します。FormIt は選択した面の境界をスイープのパスとして自動的に使用し、スイープは屋根全体の周囲に作成されます。
 
-_**Nota**_ _Se si verificano problemi nella selezione di una delle due superfici,_ eseguire _**Orbita \(O\)**_ _per visualizzare la superficie in modo leggermente migliore e riprovare. Come opzione alternativa, selezionare tutti i bordi del tetto anziché la superficie superiore del tetto per completare l'estrusione su percorso._
+_**注:**_ _選択できない面がある場合は、_ _**オービット\(O\)**_ _して面を少し見やすくしてから、もう一度試してください。あるいは、屋根の最上面ではなく屋根のすべてのエッジを選択して、スイープを完成させるという方法もあります。_
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Tenere ordinato il modello creando un gruppo **Roof - Cornice**, aggiungendolo al layer **Roof** e assegnandogli il materiale **Metal – Brushed – Colorized**.
+4 - **Roof - Cornice** というグループを作成し、それをレイヤ **Roof** に追加して、マテリアル **Metal – Brushed – Colorized** を割り当てることによって、モデルを整理します。
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - Per completare, attivare il layer **Column** e notare che l'estrusione su percorso appena creata interseca la parte superiore dei pilastri. Per risolvere questo problema, modificare uno qualsiasi dei gruppi **Column Tall** e trascinare la superficie superiore verso il basso fino ad allinearla alla parte inferiore del cornicione.
+5 - 仕上げを行うためにレイヤ **Column** をオンにすると、新しく作成したスイープが柱の上部と交差していることがわかります。これを解決するには、グループ **Column Tall** のいずれかを編集し、上面を下にドラッグしてコーニスの下端に位置合わせします。
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

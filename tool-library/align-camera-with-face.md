@@ -1,8 +1,8 @@
-# Allinea cinepresa alla superficie
+# カメラを面に位置合わせする
 
-È possibile allineare rapidamente la cinepresa per osservare direttamente qualsiasi superficie.
+カメラを簡単に位置合わせして、面が直接見えるようにします。
 
-Selezionare una singola superficie, quindi fare clic con il pulsante destro del mouse per accedere al menu contestuale. Cercare Allinea cinepresa alla superficie nella parte superiore del menu o utilizzare il tasto di scelta rapida AF:
+1 つの面を選択し、右クリックしてコンテキスト メニューの最上部にある[カメラを面に位置合わせ]を選択するか、ショートカットの AF を入力します。
 
 ![](../.gitbook/assets/alignwithface.gif)
 

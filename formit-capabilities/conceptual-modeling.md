@@ -1,18 +1,18 @@
-# Modellazione concettuale di solidi
+# コンセプト ソリッド モデリング
 
-È possibile creare in modo semplice e rapido la geometria concettuale per lavorare alle diverse varianti di progetto.
+コンセプト ジオメトリをすばやく簡単に作成して、各種の設計オプションを試してみることができます。
 
-Il kernel di modellazione di solidi di FormIt consente di ottenere straordinari workflow che permettono di risparmiare tempo e di rendere semplice ed efficiente la modellazione.
+FormIt のソリッド モデリング カーネルは時間を節約できる優れたワークフローを可能にし、簡単かつ効率的なモデリングを実現します。
 
-**Il seguente video mostra perché la modellazione di solidi è vantaggiosa e come garantire che il modello sia un solido in modo che possa essere successivamente utilizzato in applicazioni come Revit:**
+**ソリッド モデリングに利点がある理由と、モデルをソリッドにして Revit などの次の段階のアプリケーションで使用できるようにする方法について説明します。**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Una volta che il modello realizzato è un solido, è possibile sfruttare le tecniche di estrusione dei solidi per correggere rapidamente la geometria e mantenere i modelli organizzati:**
+**モデルをソリッドにすると、ソリッドの押し出しを利用してジオメトリをすばやくクリーン アップし、モデルを常に整理できます。**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Inoltre, è possibile utilizzare gli strumenti di selezione intelligente per selezionare rapidamente la geometria simile ed evitare di fare clic più volte:**
+**さらに、スマート選択ツールを使用して類似するジオメトリをすばやく選択し、クリックした内容を保存します。**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
 

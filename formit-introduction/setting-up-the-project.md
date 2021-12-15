@@ -1,39 +1,39 @@
-# Impostazione del progetto
+# プロジェクトを設定する
 
-## Avvio
+## 開始する
 
-Quando si avvia FormIt, si accede ad un ambiente 3D. Dedicare qualche minuto a imparare a [spostarsi all'interno dello spazio 3D](navigating-the-scene.md), quindi iniziare a creare un progetto \([ecco come](../formit-primer/)\), utilizzare il menu File per aprire un progetto di FormIt esistente o importare una serie di altri tipi di file.
+FormIt を起動すると、3D 環境になります。まず [3D 空間をナビゲートする](navigating-the-scene.md)方法を学び、プロジェクトの構築を開始し\([方法はこちら](../formit-primer/)\)、[ファイル]メニューを使用して既存の FormIt プロジェクトを開くか、他のさまざまなファイル タイプを読み込みます。
 
-FormIt consente di aprire, salvare ed esportare file sia localmente che in Autodesk Docs. [L'utilizzo di Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) è un ottimo modo per condividere i modelli nel cloud.
+FormIt では、ローカルおよび BIM 360 Docs の両方のファイルを開いたり、保存したり、ファイルに書き出すことができます。[FormIt で BIM 360 Docs を使用する](https://formit.autodesk.com/page/formit-bim-360-docs)と、クラウドでモデルを共有できます。
 
-A proposito del salvataggio, in FormIt viene salvato con [Salvataggio automatico il lavoro svolto](../tool-library/autosave.md) quando si iniziano ad apportare modifiche al modello. Il salvataggio spesso è comunque consigliato perché consente di correggere il file di backup e di risparmiare spazio.
+FormIt はモデルに変更が加えられると、[作業を自動保存](../tool-library/autosave.md)します。しかし、手動でも保存することをお勧めします。保存することで、バックアップ ファイルがクリーン アップされて容量を節約できます。
 
-## Impostazioni delle app
+## アプリ設定
 
-* Unità:
+* 単位:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * L'impostazione di questa opzione influirà sulle unità in tutti gli strumenti e nella geometria importata, come Dynamo e i tipi di file senza unità come STL.
+   * この設定は、Dynamo など、すべてのツールおよび読み込まれたジオメトリの単位や、STL などの単位のないファイル タイプに影響します。
 
-* Snap alla griglia:
-   * Forza gli strumenti con punti di posizionamento ad eseguire lo snap ai punti di intersezione della griglia. Tenere presente che è possibile disattivare la griglia in [Stili visualizzazione](../formit-primer/part-i/visual-settings.md); se la griglia è disattivata, anche lo snap verrà disattivato.
-* Visualizza quote modificabili:
-   * Scegliere se mantenere visibili le caselle di quota \(è consigliabile mantenerle attive se si desidera disegnare con precisione\).
-* Nascondi contesto gruppo/Opzione per mostrare solo il gruppo modificato:
-   * Ciò influisce sul fatto che la modifica di un gruppo visualizzerà o meno le aree adiacenti. È possibile modificare facilmente questa impostazione utilizzando il tasto di scelta rapida \(H\). L'attivazione/La disattivazione di H durante la modellazione dei gruppi consente di visualizzare i gruppi sia in modo isolato che contestualizzato in base alle esigenze.
-* Evidenziazione della preselezione:
-   * Per default, in FormIt quando si posiziona il cursore, gli oggetti vengono "preselezionati". Ciò è utile per garantire che l'oggetto che si desidera selezionare sia l'oggetto che si ottiene, ma può distrarre l'utente durante la presentazione di un progetto. Utilizzare questa opzione o il tasto di scelta rapida per mostrare o nascondere rapidamente l'evidenziazione della preselezione in base alle esigenze. Tenere presente che questa opzione deve essere attivata per utilizzare funzionalità quali la [selezione intelligente](https://www.youtube.com/watch?v=akLeB1FADt4).
+* グリッドにスナップ:
+   * 配置点を持つツールをグリッドの交点にスナップします。[表示スタイル](../formit-primer/part-i/visual-settings.md)でグリッドをオフにすることができます。グリッドがオフの場合は、そのグリッドへのスナップも無効になります。
+* 編集可能な寸法を表示:
+   * 寸法ボックスを表示したままにするかどうかを選択します\(正確に作図できるよう、オンにしておくことをお勧めします\)。
+* コンテキストを非表示/編集済みグループのみを表示:
+   * これは、グループを編集したときに周囲が表示されるかどうかに影響します。ショートカットの[H]を使用して、この設定を簡単に変更することができます。グループの内外でのモデリング中に[H]で切り替えると、必要に応じてグループを分離してコンテキスト内で表示することができます。
+* 事前選択ハイライト:
+   * 既定で、FormIt ではオブジェクトにカーソルを合わせると、「事前選択」されます。この機能は、事前選択されたオブジェクトが、これから選択するオブジェクトと同じである場合は便利ですが、デザインを表示するときには気が散ってしまうかもしれません。このオプションまたはショートカットを使用して、この機能のオン/オフを必要に応じて切り替えてください。ただし、[スマート選択](https://www.youtube.com/watch?v=akLeB1FADt4)などの機能を使用するには、このオプションを有効にする必要があります。
 
-## Modalità tocco
+## タッチ モード
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-Se il computer dispone di un touchscreen, utilizzare Modalità tocco per navigare facilmente nel modello e creare la geometria. Se si utilizza anche FormIt per iOS, sembrerà familiare.
+タッチスクリーンを使用している場合は、タッチ モードを使用してモデルを簡単にナビゲートし、ジオメトリを作成できます。FormIt for iOS を使用している場合も、この操作にはすぐに馴染めることでしょう。
 
-Quando Modalità tocco è attivata, l'interazione di FormIt diventa più simile a quella di FormIt sull'iPad, calibrando gli strumenti di navigazione e modifica per lavorare con un'interfaccia touch. Per questo motivo, si consiglia di non utilizzare FormIt con un mouse e una tastiera mentre è attivata Modalità tocco.
+タッチ モードがオンの場合、FormIt のインタラクションは iPad での FormIt のようになり、ナビゲーション ツールと修正ツールを調整してタッチ インタフェースで操作できます。このため、タッチ モードがオンのときにマウスとキーボードを使用して FormIt を使用することはお勧めしません。
 
-Quando Modalità tocco è attivata, viene evidenziata sulla barra degli strumenti e viene anche visualizzato il banner Modalità tocco nell'angolo inferiore sinistro della schermata.
+[タッチ モード]がオンになっている場合はツールバーでハイライト表示され、画面の左下コーナーに[タッチ モード]バナーも表示されます。
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

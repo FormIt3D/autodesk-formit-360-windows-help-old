@@ -1,14 +1,14 @@
-# Poligono
+# ポリゴン
 
-Utilizzare lo strumento Poligono per disegnare un poligono a n lati regolare nello spazio o su un altro oggetto.
+[ポリゴン]ツールでは、スペース内または別のオブジェクト上に正 N 角形のポリゴンを描画します。
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-Avviare il poligono e fare clic per scegliere il punto centrale. Specificare il raggio disegnando il secondo punto, digitando una quota o premendo **TAB** per visualizzare **Opzioni strumento**.
+[ポリゴン]ツールを開始し、中心点をクリックして選択します。半径を指定するには、2 つ目の点を描画するか、寸法を入力したり**[Tab]**を押すと表示される**[ツール オプション]**ダイアログ ボックスを使用します。
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-**Opzioni strumento** permette di cambiare il numero di lati e specificare un determinato raggio.
+**[ツール オプション]**ダイアログ ボックスでは、辺の数を変更したり、半径の値を指定できます。
 
 ![](../.gitbook/assets/image.png)
 

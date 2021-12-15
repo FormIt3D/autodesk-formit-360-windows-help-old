@@ -1,10 +1,10 @@
-# Spostamento di oggetti
+# オブジェクトを移動する
 
-1. **Fare doppio clic** per selezionare un intero oggetto \(fare clic per selezionare una superficie, un bordo o un vertice, come descritto in [Modifica di superfici, bordi e punti](modifying-faces-edges-and-points.md).\)
-2. **Fare clic con il pulsante destro del mouse** sul cubo e selezionare lo strumento di **spostamento del gruppo** dal **menu contestuale**. ![](../.gitbook/assets/context-menu.png)
-3. Fare clic e spostare il cerchio nel punto che si utilizzerà come **punto di snap.** ![](../.gitbook/assets/snap-point.png)
-4. **Fare clic e iniziare a trascinare**. Ora si sta spostando l'oggetto e il punto preselezionato diventerà il punto di snap.   ![](../.gitbook/assets/move-object.png)
-5. Premere il **tasto TAB.** È ora possibile digitare una distanza specifica per spostare l'oggetto lungo l'asse corrente. 
+1. **ダブルクリック**してオブジェクト全体を選択します\(面、エッジ、頂点を個別に選択する場合は、それぞれをシングルクリックします。詳しい方法については、「[面、エッジ、点を修正する](modifying-faces-edges-and-points.md)」を参照してください\)
+2. 立方体を**右クリック**し、**コンテキスト メニュー**から**グループを移動**するツールを選択します。![](../.gitbook/assets/context-menu.png)
+3. 円をクリックし、**スナップ点** として使用する点まで円を移動します。![](../.gitbook/assets/snap-point.png)
+4. **オブジェクトをクリックしてドラッグ**します。 この操作によってオブジェクトが移動され、事前に選択された点がスナップ点になります。   ![](../.gitbook/assets/move-object.png)
+5. **[Tab]キー**を押して、現在の軸に沿ってオブジェクトを移動する距離を入力します。
 
 \*\*\*\*
 

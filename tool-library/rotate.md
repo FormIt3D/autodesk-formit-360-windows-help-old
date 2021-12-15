@@ -1,13 +1,13 @@
-# Rotazione di oggetti
+# オブジェクトを回転させる
 
-È possibile modificare l'orientamento di oggetti utilizzando lo strumento Ruota nel menu contestuale.
+コンテキスト メニューの[回転]ツールによって、オブジェクトの方向を変更できます。
 
-1. Selezionare un elemento da ruotare e fare clic con il pulsante destro del mouse per aprire il menu contestuale.
-2. Dal menu contestuale, selezionare lo strumento Ruota.
-3. Quando l'elemento grafico del goniometro viene visualizzato sul mouse, fare clic per impostare il piano per la rotazione.
-4. Utilizzare i grip blu per specificare il punto iniziale della rotazione e, se necessario, reimpostare l'asse. Utilizzare le frecce o il riquadro di quota modificabile per impostare l'angolo di rotazione.
+1. 回転させる要素を選択し、右クリックしてコンテキスト メニューを起動します。
+2. コンテキスト メニューから、[回転]ツールを選択します。
+3. 分度器のグラフィックスがマウスに表示されたら、回転させる平面をクリックして設定します。
+4. 青いグリップを使用して回転の始点を指定します。軸は必要に応じてリセットできます。矢印または編集可能な寸法ボックスを使用して、回転角度を設定します。
 
-Tenere presente che è anche possibile utilizzare il tasto di scelta rapida **Q** per accedere allo strumento Ruota dopo aver selezionato un elemento.
+要素を選択した後でキーボード ショートカットの **Q** を使用しても[回転]ツールにアクセスできます。
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

@@ -1,30 +1,30 @@
-# Assi globali
+# ワールド軸
 
-Il sistema di coordinate e la griglia di default possono essere modificati modificando l'asse globale.
+ワールド軸を変更することにより、既定の座標系とグリッドを変更できます。
 
-## Disegno e modellazione con assi
+## 軸を使用して描画およびモデリングする
 
-Quando si apre un disegno vuoto in FormIt, gli assi globali vengono visualizzati come tre linee, una rossa, una verde e una blu, al centro della schermata. Queste tre linee definiscono le tre direzioni cartesiane che definiscono il mondo 3D. La direzione "X" è definita dalla linea rossa, la direzione "Y" dalla linea verde e la direzione "Z" o "su" dalla linea blu.
+空のスケッチを FormIt で開くと、ワールド軸が画面の中心に赤、緑、青の 3 本線で表示されます。これらの 3 本の線は、3D ワールドを定義する 3 つの直交座標方向を示します。「X」方向は赤、「Y」方向は緑、「Z」方向(「上」方向)は青色の線で表示されます。
 
 ![](../.gitbook/assets/axis.png)
 
-Per ruotare la griglia e ridefinire il punto di origine per il disegno, **fare clic con il pulsante destro del mouse** sullo spazio vuoto nella scena e scegliere l'icona **Imposta assi \(SZ\)** dal menu contestuale.  
+グリッドを回転させてスケッチの原点を再定義するには、シーン内の何もない場所で**右クリック**し、コンテキスト メニューから**[軸を設定\(SZ\)]**アイコンを選択します。  
 ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-Viene visualizzato il widget Imposta assi. Fare clic sul grip grande al centro per selezionare il widget. Fare nuovamente clic per impostare il punto di origine. Ora fare clic sul punto sull'asse rosso per ruotare la griglia oppure fare clic sul punto sull'asse blu per ruotare il piano della griglia verticalmente. Fare clic nello spazio per confermare la modifica.  
+[軸を設定]ウィジェットが表示されます。中央の大きなグリップをクリックして、ウィジェットを選択します。もう一度クリックして原点を設定します。次に、赤い軸上の点をクリックしてグリッドを回転させるか、青い軸上の点をクリックしてグリッド平面を垂直方向に回転させます。スペース内をクリックして変更を確定します。  
 ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-Per **ripristinare** l'impostazione di default dell'origine e della griglia, fare clic con il pulsante destro del mouse sullo spazio vuoto nella scena e scegliere **Reimposta assi \(RZ\)**.
+原点とグリッドを既定の設定に**リセット**するには、シーン内の何もない場所で右クリックし、**[軸をリセット\(RZ\)]**を選択します。
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Assi globali e assi locali
+## ワールド軸とローカル軸
 
-Nei passaggi precedenti viene illustrato come controllare il **sistema di coordinate globali** del disegno. Quando si inizia a lavorare con i [**gruppi**](groups.md), è possibile controllare il **sistema di coordinate locali** di quel gruppo in modo univoco dal disegno complessivo. Quando si modifica un gruppo, è possibile modificare il sistema di coordinate locale seguendo la procedura descritta in precedenza, ma queste modifiche verranno applicate solo al gruppo.
+前述の手順では、スケッチの**グローバル座標系**をコントロールする方法について説明してします。[**グループ**](groups.md)を使用して作業を開始すると、そのグループの**ローカル座標系**をスケッチ全体から一意にコントロールできます。グループを編集する際に前述と同じ手順でローカル座標系を編集できますが、行った変更はそのグループのみに適用されます。
 
-## Interazioni con gli assi
+## 軸に関する操作
 
-* Gli **assi rosso, verde e blu** vengono visualizzati quando si lavora con gli strumenti di disegno per guidare il disegno 3D.
-* L'**asse viola** visualizza un asse perpendicolare e parallelo rispetto alle linee disegnate ad un angolo.
-* Tenere premuto il **tasto MAIUSC** durante il disegno o lo spostamento per **bloccare l'asse corrente**.
+* スケッチ ツールでの作業中は**赤、緑、青の軸**が表示され、3D スケッチのガイドとなります。
+* **紫の軸**は、角度のある線分に対して垂直な軸と平行な軸を示します。
+* **[Shift]キー**を押しながらスケッチまたは移動すると、**現在の軸に固定**されます。
 

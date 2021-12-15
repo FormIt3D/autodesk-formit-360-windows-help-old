@@ -1,12 +1,12 @@
-# Introduzione
+# はじめに
 
-## Documentazione di FormIt per Windows
+## FormIt for Windows のドキュメント
 
 ![](<.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Sono fornite informazioni sulle potenzialità di FormIt per Windows.
+## FormIt for Windows のパワーをご紹介します
 
-Con il software di modellazione architettonica FormIt®, gli architetti possono disegnare, collaborare, analizzare e rivedere i concetti della progettazione nelle fasi iniziali e lavorare in modo più intelligente fin dall'inizio con la progettazione concettuale basata sul BIM.
+建築モデリング ソフトウェアの FormIt® では、初期段階の設計コンセプトのスケッチ、コラボレート、解析、修正を行うことができます。また、プロジェクトの初期段階から BIM ベースのコンセプト デザインを使用して効率的に作業できます。
 
-* L'esecuzione di FormIt per Windows richiede un abbonamento a **FormIt Pro**, che fa parte di [Autodesk AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview).
-* È inoltre possibile scaricare [FormIt per Windows](https://formit.autodesk.com/page/download) e avviare una versione di prova gratuita di 30 giorni di FormIt Pro.
+* FormIt for Windows を使用するには、**FormIt Pro** のサブスクリプションが必要です。このサブスクリプションは [Autodesk AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) に含まれています。
+* また、[FormIt for Windows](https://formit.autodesk.com/page/download) をダウンロードして、FormIt Pro の 30 日間の無料体験版を使用することもできます。

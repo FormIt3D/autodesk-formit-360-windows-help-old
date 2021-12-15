@@ -1,81 +1,81 @@
-# Railing Along Path
+# パスに沿った手摺
 
-## Con tecnologia di Dynamo
+## Dynamo 提供
 
-In FormIt 2021 e versioni successive, è possibile generare una ringhiera lungo un percorso e personalizzare rapidamente i risultati localmente. Railing Along Path è gestito da Dynamo, il che significa che la ringhiera risultante è facilmente configurabile per ottenere i risultati desiderati e la riesecuzione della logica aggiornerà la geometria localmente.
+FormIt 2021 以降では、パスに沿って手摺を生成し、結果をその場で簡単にカスタマイズできます。Railing Along Path \(パスに沿った手摺\)は Dynamo から提供されています。つまり、作成された手摺は簡単に目的の形に設定でき、ロジックを再実行するとジオメトリが所定の位置で更新されます。
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Avvio di Railing Along Path
+## Railing Along Path を開始する
 
-* Accedere al pannello di Dynamo in FormIt per Windows e verificare di trovarsi nella directory Dynamo Samples.
-* Fare clic sull'esempio Railing Along Path.
-* Sul lato sinistro della schermata, verrà visualizzato il messaggio di richiesta Select path for railing.
-   * È necessario selezionare solo una serie di bordi contigui o un gruppo contenente solo una serie di bordi.
-   * Dopo aver selezionato il percorso, fare clic sul pulsante di fine o premere INVIO.
-* Il pannello di Dynamo indicherà che è in corso l'elaborazione delle modifiche. Al termine, si disporrà di una ringhiera generata da Dynamo in un gruppo di FormIt, pronta per la modifica \(vedere qui sotto\).
+* FormIt for Windows の[Dynamo]パレットに移動し、Dynamo Samples フォルダを開いていることを確認します。
+* Railing Along Path サンプルをクリックします。
+* 画面の左側に、「手摺用のパスを選択します」というプロンプトが表示されます。
+   * 一連の連続したエッジのみ、または一連のエッジのみを含むグループを選択します。
+   * パスを選択したら、[終了]ボタンをクリックするか、[Enter]/[Return]キーを押します。
+* [Dynamo]パレットに、変更を処理していることが示されます。完了すると、FormIt グループに Dynamo で生成された手摺が作成され、修正できるようになります\(下記参照\)。
 
-## Iterazione locale
+## 所定の位置で反復する
 
-Dopo l'esecuzione di Railing Along Path, si noterà che i risultati sono impostati sui valori di default. Forse queste funzioni sono utili, ma è possibile personalizzare pesantemente la ringhiera in base alle esigenze specifiche.
+Railing Along Path を実行すると、その結果は既定値に設定されています。これでも問題ないかもしれませんが、ニーズに合わせて手摺を大幅にカスタマイズすることもできます。
 
-All'esecuzione di Railing Along Path, viene creato un nuovo gruppo contenente i risultati. In FormIt viene selezionato automaticamente il gruppo e sono mostrate le opzioni disponibili per l'istanza di Railing Along Path.
+[Railing Along Path]を実行すると、結果を含む新しいグループが作成され、FormIt によって自動的にそのグループが選択されて、Railing Along Path インスタンスで使用可能なオプションが表示されます。
 
-È sempre possibile tornare alle proprietà di Railing Along Path selezionando il gruppo e passando al pannello Proprietà oppure modificando il gruppo che mostrerà automaticamente le proprietà.
+グループを選択して[プロパティ]パレットに切り替えるか、自動的に[プロパティ]が表示されるグループを編集することで、Railing Along Path プロパティにいつでも戻ることができます。
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-L'altezza totale della ringhiera. Utilizza le unità di FormIt correnti.
+手摺の全体の高さ。現在の FormIt 単位を使用します。
 
 ### Post Spacing
 
-La spaziatura tra i montanti verticali principali. Utilizza le unità di FormIt correnti.
+メインの垂直の親柱の間隔。現在の FormIt 単位を使用します。
 
-### Add Posts at Path Vertices?
+### Add Posts at Path Vertices
 
-Quando è **True**, i montanti verranno aggiunti in corrispondenza di ciascun vertice del percorso selezionato e il calcolo per il posizionamento del montante successivo viene reimpostato in quel punto.
+**True** の場合は選択したパスの各頂点に親柱が追加され、その点で次の親柱の位置の計算がリセットされます。
 
-Ad esempio, se è stata selezionata una serie di tre bordi, verrà visualizzato un montante in corrispondenza di ciascuno dei due punti interni. Ciò è utile se i vertici indicano un cambio di direzione \(ad esempio, quando si salgono le scale o si svoltano gli angoli\) in cui si presenterebbe naturalmente un montante.
+たとえば、一連の 3 つのエッジを選択した場合、2 つの内側の点それぞれに親柱が表示されます。これは、その頂点が、親柱の向く方向の変化\(上り階段や曲がり角など\)を示している場合に便利です。
 
-Quando è **False**, i montanti verranno aggiunti solo lungo il percorso a partire da un'estremità e misurando la distanza lungo il percorso, ignorando i vertici lungo il percorso. Questa opzione è utile se è stato selezionato un arco, una spline o un cerchio, in cui i vertici non sono importanti e si desidera che vengano ignorati nella spaziatura dei montanti.
+**False** の場合は一方の終点からパスに沿って親柱が追加され、パスに沿った距離が計測されます。途中の頂点は無視されます。これは、頂点が重要でない円弧、スプライン、または円を選択し、親柱の間隔で頂点を無視する場合に便利です。
 
-### Reverse Path Direction?
+### Reverse Path Direction
 
-Quando si calcola il posizionamento dei montanti, la direzione del percorso scelto determinerà quale estremità del percorso inizierà la misurazione della spaziatura dei montanti.
+親柱の位置を計算する場合、選択したパスの方向によって、親柱の間隔の計測を開始するパスの終点が決まります。
 
-Se la spaziatura dei montanti determina uno spazio residuo su un'estremità indesiderata del percorso, è possibile modificare questo valore in **True** per invertire la curva e avviare la misurazione della spaziatura dei montanti all'estremità opposta.
+親柱の間隔によってパスの望ましくない終点にスペースが残る場合は、この値を **True** に変更してカーブを反転し、反対側の終点で親柱の間隔の計測を開始できます。
 
-### Post Width e Post Depth
+### Post Width / Post Depth
 
-La dimensione \(in pianta\) dei profili rettangolari dei montanti verticali. Utilizza le unità di FormIt correnti.
+角型の垂直親柱のプロファイル サイズ\(平面図\)です。現在の FormIt 単位を使用します。
 
-### Handrail Width e Handrail Height
+### Handrail Width / Handrail Height
 
-La dimensione \(in sezione\) del profilo del corrimano rettangolare. Utilizza le unità di FormIt correnti.
+角型の補助手摺のプロファイル サイズ\(断面\)です。現在の FormIt 単位を使用します。
 
 ### Baluster Orientation
 
-Se è True, le balaustre verranno orientate orizzontalmente, come i cavi. Se è False, le balaustre verranno orientate verticalmente per un aspetto estetico più tradizionale.
+True の場合、手摺子はケーブルのように水平方向になります。False の場合、手摺子は垂直方向に配置され、従来の外観になります。
 
-### Baluster Width e Baluster Depth
+### Baluster Width / Baluster Depth
 
-La dimensione del profilo rettangolare della balaustra. Utilizza le unità di FormIt correnti.
+角型の手摺子のプロファイル サイズ。現在の FormIt 単位を使用します。
 
 ### Baluster Spacing
 
-La quantità di spazio tra ogni balaustra. Utilizza le unità di FormIt correnti.
+各手摺子間の幅。現在の FormIt 単位を使用します。
 
 ### Bottom Rail Start Height
 
-La distanza tra la parte inferiore della ringhiera e la guida inferiore che supporta le balaustre. Utilizza le unità di FormIt correnti.
+手摺の下部と、手摺子を支える下部手摺間の距離。現在の FormIt 単位を使用します。
 
-### Esegui
+### Run
 
-Dopo aver modificato le opzioni, fare clic sul pulsante Esegui per eseguire il grafico di Dynamo sottostante e generare nuovi risultati. Questo pulsante diventa blu quando i parametri sono stati modificati, pertanto è necessario fare clic per visualizzare gli aggiornamenti nella geometria finale.‌
+オプションを編集したら、[Run]ボタンをクリックしてベースとなる Dynamo グラフを実行し、新しい結果を生成します。パラメータを変更すると、このボタンは青に変わるため、最終的なジオメトリで更新内容を確認するためには、ボタンをクリックする必要があることが分かります。‌
 
 ### Edit Embedded Graph
 
-Facendo clic su questa opzione si avvia l'ambiente dell'editor grafico di Dynamo, in modo che sia possibile visualizzare e modificare il grafico di Dynamo sottostante per modificare più rapidamente i parametri e visualizzare gli aggiornamenti dinamici o per esaminare/regolare la logica.
+このボタンをクリックすると、Dynamo グラフ エディタ環境が起動されます。ベースとなる Dynamo グラフを表示および編集して、パラメータをすばやく変更したり、ライブで更新を確認したり、ロジックを調査/調整できます。
 

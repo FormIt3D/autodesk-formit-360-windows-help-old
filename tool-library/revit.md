@@ -1,12 +1,12 @@
 # Revit
 
-FormIt è stato progettato per funzionare correttamente con Revit. Per ulteriori informazioni sulle nozioni di base, consultare [**questa sezione nell'esercitazione della Guida introduttiva di FormIt**]().
+FormIt は Revit と連動するように設計されています。基本的な機能の詳細については、FormIt Primer の[**こちらのチュートリアル**]()を参照してください。
 
-## Utilizzo dei dati di Revit
+## Revit のデータを使用する
 
-È possibile inviare la geometria da Revit a FormIt. Questa opzione è utile per eseguire rapidamente i modelli di studio e quindi inviare nuovamente la geometria a Revit. Ecco una dimostrazione video:
+Revit から FormIt にジオメトリを送信できます。これは、モデルをすばやく解析してジオメトリを Revit に戻す場合などに便利です。ビデオによるデモンストレーションをご覧ください。
 
-## Creazione del contenuto di Revit
+## Revit コンテンツを作成する
 
-FormIt può essere utilizzato per creare contenuto da utilizzare nelle famiglie di Revit. Ecco una dimostrazione video:
+FormIt を使用してコンテンツを作成し、Revit ファミリで使用できます。ビデオによるデモンストレーションをご覧ください。
 

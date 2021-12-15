@@ -1,31 +1,31 @@
-# Superfici: Inclina superficie e Sfaccetta superfici lisce
+# 面: 傾斜およびファセット/スムーズ化
 
-## Utilizzo di superfici: Inclina superficie e Sfaccetta superfici lisce
+## 面を傾斜およびファセット/スムーズ化する
 
-Per creare progetti più complessi dopo aver disegnato una forma o aver posizionato una primitiva, è possibile utilizzare diversi strumenti contestuali per modificare la geometria. Queste operazioni includono Inclina superficie, Matrice e Copia e Incolla.
+形状をスケッチするか、プリミティブを配置した後、より複雑な設計を作成するには、いくつかのコンテキスト ツールを使用してジオメトリを修正します。これらの操作では、傾斜ツール、配列ツール、コピーと貼り付けツールを使用します。
 
-### Inclina superficie
+### 面を傾斜する
 
-Per **inclinare una superficie:**
+**面を傾斜**するには、次の操作を行います。
 
-1. Selezionare una superficie e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
-2. Scegliere l'icona **Inclina superficie** dal menu contestuale.
-3. Definire l'asse di inclinazione disegnando una linea.
-4. Fare clic su un terzo punto per avviare l'operazione di inclinazione.
+1. 面を選択して右クリックし、コンテキスト メニューを表示します。
+2. コンテキスト メニューから**[面を傾斜]**アイコンを選択します。
+3. 線分を描画して傾斜軸を定義します。
+4. 3 つ目の点をクリックして、傾斜操作を開始します。
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Sfaccetta superfici lisce
+### 面をファセットまたはスムーズ化する
 
-Se si posiziona il cursore del mouse su una superficie e si notano linee tratteggiate, questo significa che la superficie è costituita da superfici più piccole a causa della deformazione della superficie stessa. Per **trasformare le linee tratteggiate in bordi del modello:**
+面にカーソルを合わせると点線が表示される場合は、その面が歪んでいるため複数の小さな面で構成されています。**点線をモデルのエッジに変換**するには、次の操作を行います。
 
-1. Selezionare la superficie o l'oggetto da modificare e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
-2. Dal menu contestuale, scegliere lo strumento **Sfaccetta superfici lisce**.
-3. I bordi vengono aggiunti automaticamente dove la superficie era precedentemente liscia.
+1. 変更する面またはオブジェクトを選択し、右クリックしてコンテキスト メニューを表示します。
+2. コンテキスト メニューから**[面をスムーズ ファセット]**ツールを選択します。
+3. 直前まで面がスムーズだった場所に、エッジが自動的に追加されます。
 
-Questo comando funziona anche in modo opposto: è possibile selezionare le superfici sfaccettate e selezionare lo strumento **Sfaccetta superfici lisce** dal menu contestuale per nascondere i bordi e rendere lisce le superfici.
+このコマンドで逆の操作も行うことができます。つまり、切り子面となっている面を選択してコンテキスト メニューから**[面をスムーズ ファセット]**ツールを選択すると、エッジを非表示にして面をスムーズにすることができます。
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

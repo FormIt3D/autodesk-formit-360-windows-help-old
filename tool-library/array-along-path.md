@@ -1,103 +1,103 @@
-# Array Along Path
+# パスに沿った配列
 
-## Con tecnologia di Dynamo
+## Dynamo 提供
 
-In FormIt 2021 e versioni successive, è possibile disporre gli oggetti lungo un percorso e personalizzare rapidamente i risultati localmente. Array Along Path è con tecnologia di Dynamo, il che significa che la matrice è facilmente configurabile per ottenere i risultati desiderati e la riesecuzione della logica aggiornerà la geometria localmente.
+FormIt 2021 以降では、パスに沿ってオブジェクトを配列し、結果をその場でカスタマイズできます。Array Along Path \(パスに沿った配列\)は Dynamo から提供されています。そのため、配列を簡単に設定して目的の結果を得ることができ、ロジックを再実行するとジオメトリがその場で更新されます。
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## Avvio di Array Along Path
+## Array Along Path を開始する
 
-* Accedere al pannello di Dynamo in FormIt per Windows e verificare di trovarsi nella directory Dynamo Samples.
-* Fare clic sull'esempio Array Along Path.
-* Sul lato sinistro della schermata, viene visualizzato il messaggio di richiesta Select object\(s\) to array.
-   * È possibile selezionare qualsiasi combinazione di oggetti di FormIt per questo passaggio.
-   * Dopo aver selezionato un elemento, è possibile fare clic sulla freccia avanti sul lato sinistro della schermata o premere INVIO.
-* Verrà visualizzato il messaggio di richiesta Select path for array.
-   * Qui è necessario selezionare solo una serie di bordi contigui o un gruppo contenente una serie di bordi contigui.
-   * Dopo aver selezionato il percorso, fare clic sul pulsante di fine o premere INVIO.
-* Il pannello di Dynamo indicherà che è in corso l'elaborazione delle modifiche. Al termine, si disporrà di una matrice generata da Dynamo in un gruppo di FormIt, pronta per la modifica \(vedere qui sotto\).
+* FormIt for Windows の[Dynamo]パレットに移動し、Dynamo Samples フォルダを選択します。
+* Array Along Path のサンプルをクリックします。
+* 画面の左側に、「配列するオブジェクトを選択してください」というプロンプトが表示されます。
+   * この手順では、FormIt オブジェクトを組み合わせて選択できます。
+   * 項目を選択したら、プロンプトの右向き矢印の[次へ]ボタンをクリックするか、[Enter]を押します。
+* 次に、「配列用のパスを選択してください」というプロンプトが表示されます。
+   * ここでは、一連の連続したエッジのみ、または一連の連続したエッジを含むグループを選択する必要があります。
+   * パスを選択したら、チェックマークのボタンをクリックするか[Enter]を押して終了します。
+* [Dynamo]パレットに、変更を処理していることが示されます。完了すると、Dynamo で生成された配列が FormIt グループに表示され、修正できるようになります(下記参照)。
 
-## Iterazione locale
+## 所定の位置で反復する
 
-Dopo l'esecuzione di Array Long Path, i risultati verranno impostati sui valori di default, pertanto sarà necessario modificarli in base alle esigenze specifiche.
+[Array Along Path]を実行した後、その結果が既定値に設定されていることが分かります。そこで、必要に応じて配列を変更します。
 
-All'esecuzione di Array Along Path, viene creato un nuovo gruppo contenente i risultati. In FormIt viene selezionato automaticamente il gruppo e sono mostrate le opzioni disponibili per l'istanza di Array Along Path.
+[Array Along Path]を実行すると結果を含む新しいグループが作成され、FormIt は自動的にそのグループを選択して、[Array Along Path]インスタンスで使用可能なオプションを表示します。
 
-È sempre possibile tornare alle proprietà di Array Along Path selezionando il gruppo e passando al pannello Proprietà oppure modificando il gruppo che mostrerà automaticamente le proprietà.
+[グループ]を選択して[プロパティ]パレットに切り替えるか、自動的に[プロパティ]が表示されるグループを編集することで、いつでも[Array Along Path]プロパティに戻ることができます。
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
 ### Select Object\(s\) to Array <a id="run"></a>
 
-Fare clic su questa opzione per tornare alla procedura guidata di selezione per modificare gli oggetti di cui è in corso la creazione della matrice.
+これをクリックすると、選択ウィザードに戻って配列するオブジェクトを変更できます。
 
 ### Select Array Path
 
-Fare clic su questa opzione per tornare alla procedura guidata di selezione per modificare il percorso utilizzato per calcolare la matrice.
+これをクリックすると、選択ウィザードに戻って、配列の計算に使用するパスを変更できます。
 
 ### Array Type <a id="run"></a>
 
-Questa opzione attiva o disattiva il tipo di matrice da calcolare: By Distance o By Number.
+計算する配列のタイプを、距離または数のどちらかに切り替えることができます。
 
-**Se è True**, il calcolo sarà By Distance, quindi il numero seguente si riferisce alla distanza tra le copie.
+**True** の場合、計算は「距離」によって行われます。したがって、下の数はコピー間の距離を意味します。
 
-**Se è False**, il calcolo sarà By Number of Copies, pertanto il numero sotto questo campo si riferisce al numero di copie da adattare lungo il percorso.
+**False** の場合、「コピー数」で計算が行われるため、このフィールドの下の数はパスに沿ってフィットするコピーの数を意味します。
 
-### Include Original Selection In Results?
+### Include Original Selection In Results
 
-Quando è **True**:
+**True** の場合:
 
-* Gli oggetti selezionati verranno conteggiati come una delle nuove copie.
-* Il gruppo di Dynamo risultante includerà la selezione originale nei risultati, in modo che si verifichi lo Z-fighting delle nuove copie con la selezione originale. È possibile inserire la selezione originale in un [layer](layers.md) e disattivarlo per nasconderlo.
+* 選択したオブジェクトは新しいコピーの 1 つとしてカウントされます。
+* 結果として得られる Dynamo グループには、元の選択が結果に含まれるため、新しいコピーと元の選択との間に Z 競合が発生します。元の選択を[レイヤ](layers.md)に配置し、オフにして非表示にすることができます。
 
-Quando è **False**:
+**False** の場合:
 
-* La matrice risultante **non** includerà la selezione originale, pertanto si otterrà il numero di copie specificato **oltre alla** selezione originale e non si verificherà lo Z-fighting dei risultati.
+* 結果の配列に元の選択は**含まれません**。そのため、元の選択に**加えて**指定したコピーの数を取得でき、結果で Z 競合は起こりません。
 
-### Rotate Copies Along Path?
+### Rotate Copies Along Path
 
-Quando è **True**, le copie vengono ruotate per mantenere l'orientamento dell'oggetto originale rispetto al percorso.
+**True** の場合、コピーはパスに対して元のオブジェクトの方向を維持するように回転します。
 
-Quando è **False**, le copie non vengono ruotate, ma solo spostate.
+**False** の場合、コピーは回転せず、移動するだけです。
 
-### Use Relative Positioning Along Path?
+### Use Relative Positioning Along Path
 
-Quando è **True**:
+**True** の場合:
 
-* Ogni copia mantiene la distanza tra il percorso e l'oggetto originale.
-* Se l'oggetto originale **non** è posizionato in corrispondenza di uno dei punti finali del percorso, per il calcolo della matrice verrà utilizzato il segmento rimanente più grande del percorso.
+* 各コピーは、パスと元のオブジェクト間の距離を維持します。
+* 元のオブジェクトがパスの終点の 1 つに配置されて**いない**場合は、パスの残りの最大セグメントが配列計算に使用されます。
 
-Quando è **False**:
+**False** の場合:
 
-* L'intera lunghezza del percorso verrà utilizzata per calcolare la matrice, indipendentemente dal punto in cui si trova l'oggetto originale rispetto al percorso.
-* In questo modo si disgiunge la posizione del percorso rispetto all'oggetto e si utilizza semplicemente l'intero percorso. È utile se il percorso e l'oggetto non sono vicini l'uno all'altro.
+* 元のオブジェクトがパスに対してどこに位置するかに関係なく、パスの全長が配列の計算に使用されます。
+* これにより、オブジェクトに対するパスの位置が切り離され、パス全体が使用されます。パスとオブジェクトが互いに離れている場合に便利です。
 
-### Reverse Path Direction?
+### Reverse Path Direction
 
-Solo per percorsi chiusi. Quando si utilizza Array Along Path con un percorso chiuso, la direzione della curva potrebbe invertire inaspettatamente i risultati previsti della matrice. Impostare questa opzione su **True** per invertire la direzione della matrice se i risultati vengono invertiti.
+閉じたパスにのみ対応します。閉じたパスで[Array Along Path]を使用すると、曲線の方向によって配列の結果が予期せぬ方向に反転することがあります。結果が反転した場合は、これを **True** に切り替えて、配列の方向を反転させます。
 
-### Esegui <a id="run"></a>
+### Run <a id="run"></a>
 
-Dopo aver modificato le opzioni, fare clic sul pulsante Esegui per eseguire il grafico di Dynamo sottostante e generare nuovi risultati. Questo pulsante diventa blu quando i parametri sono stati modificati, pertanto è necessario fare clic per visualizzare gli aggiornamenti nella geometria finale.‌
+オプションを編集したら、[Run]ボタンをクリックしてベースとなる Dynamo グラフを実行し、新しい結果を生成します。パラメータを変更すると、このボタンは青に変わるため、最終的なジオメトリで更新内容を確認するためには、ボタンをクリックする必要があることが分かります。‌
 
 ### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-Facendo clic su questa opzione si avvia l'ambiente dell'editor grafico di Dynamo, in modo che sia possibile visualizzare e modificare il grafico di Dynamo sottostante per modificare più rapidamente i parametri e visualizzare gli aggiornamenti dinamici o per esaminare/regolare la logica.
+このボタンをクリックすると、Dynamo グラフ エディタ環境が起動されます。ベースとなる Dynamo グラフを表示および編集して、パラメータをすばやく変更したり、ライブで更新を確認したり、ロジックを調査/調整できます。
 
 
 
-## Selezione della geometria
+## ジオメトリを選択する
 
-Quando si selezionano gli oggetti per Array Along Path e altri grafici di Dynamo basati sulla selezione:
+[Array Along Path]用のオブジェクトと、他の選択ベースの Dynamo グラフを選択する場合:
 
-* È possibile selezionare qualsiasi combinazione di oggetti di FormIt, ovvero vertici, bordi, superfici, solidi, gruppi e mesh.
-   * Tenere presente che, a seconda del passaggio, alcuni di questi oggetti non devono essere selezionati.
-   * Ad esempio, quando si seleziona il percorso, è necessario selezionare solo una serie contigua di bordi o un gruppo contenente una serie contigua di bordi. Qualsiasi altra operazione causerà un errore del grafico.
-* È possibile fare doppio clic su un oggetto per selezionare tutti gli elementi associati.
-* È possibile utilizzare la finestra di selezione dell'area per acquisire una serie di oggetti.
-* È possibile selezionare gli oggetti già selezionati per deselezionarli.
-* Per procedere con un passaggio basato sulla selezione, è necessario almeno un oggetto.
+* 頂点、エッジ、面、ソリッド、グループ、メッシュなど、FormIt オブジェクトを組み合わせて選択できます。
+   * 手順によっては、一部のオブジェクトは選択できません。
+   * たとえば、パスを選択する場合、連続した一連のエッジのみ、または連続した一連のエッジを含むグループを選択する必要があります。それ以外の場合は、グラフが失敗します。
+* オブジェクトをダブルクリックすると、アタッチされているものをすべて選択できます。
+* 領域選択ウィンドウを使用して、一連のオブジェクトを選択できます。
+* 既に選択されているオブジェクトを選択すると、選択解除できます。
+* 選択ベースの手順で処理するには、1 つ以上のオブジェクトが必要です。
 
 
 

@@ -1,24 +1,24 @@
-# Arco
+# 円弧
 
-Utilizzare lo strumento Arco per creare semicerchi o archi simmetrici. È possibile creare gli archi in due modi.
+[円弧]ツールを使用して、半円や左右対称の円弧を作成します。円弧の作成には、次の 2 つの方法があります。
 
-## Arco per tre punti
+## 3 点を指定した円弧
 
 ![](../.gitbook/assets/arc_three_pts.png)
 
-Un arco è definito da tre punti e può essere disegnato sugli assi X, Y e Z. Definire il primo punto, quindi determinare una distanza dal primo al secondo punto e infine un terzo punto per l'altezza dell'arco. Verrà automaticamente fornito un punto "a semicerchio" a cui è possibile eseguire lo snap; oltre a questo, la linea dell'arco si estenderà oltre i primi due punti.
+3 つの点を指定して円弧を作成します。X、Y、Z 軸に描画できます。最初の点を指定したら、その点から 2 つ目の点までの距離を決定し、最後に 3 つ目の点を指定して円弧の高さを決定します。スナップできる「半円」の点が自動的に表示されます。これを超えると、円弧の線は最初の 2 つの点を超えて伸びます。
 
-È possibile vedere la lunghezza tra il primo e il secondo punto mentre si determina la posizione successiva dei secondi punti; per specificare manualmente una lunghezza, è sufficiente immettere un valore e verrà visualizzata una casella di quota.
+2 つ目の点を指定する際には最初の点との距離が表示されるため、それを参考にしながら場所を設定できます。また、値の入力を開始すると表示される寸法編集用ダイアログ ボックスから距離を手動で指定することもできます。
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-Dopo aver disegnato l'arco, è possibile creare una superficie utilizzando lo [strumento Linea](line-tool.md) per collegare il primo e il secondo punto.
+円弧を描画した後、[[線分]ツール](line-tool.md)を使用して 1 つ目と 2 つ目の点を接続すると、面を作成できます。
 
-## Arco per centro
+## 中心を指定した円弧
 
 ![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Scegliere il punto medio dell'arco, quindi trascinare per scegliere il centro e trascinare per definire la lunghezza dell'arco. È sufficiente digitare un valore per immettere un numero preciso di gradi per l'arco.
+円弧の中心点を指定し、円の半径となる 2 つめの点を決定し、その点をドラッグして円弧の長さを定義します。値の入力を開始すると表示される寸法編集用ダイアログ ボックスを利用して、円弧の正確な角度を指定することもできます。
 
 ![](../.gitbook/assets/arc_circle_demo.gif)
 

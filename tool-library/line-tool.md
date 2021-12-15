@@ -1,20 +1,20 @@
-# Linee
+# 線分
 
-Utilizzare le linee per dividere le superfici e costruire la geometria.
+線分を使用して面を分割し、ジオメトリを作成します。
 
-Tastiera: L
+キーボード ショートカット: [L]
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-È possibile disegnare linee sull'asse X, Y o Z e anche sulla geometria esistente. Quando si esegue lo snap ad un asse, una linea colorata si estende oltre la linea disegnata, indicando l'asse su cui si sta disegnando. È possibile visualizzare la lunghezza della linea mentre si disegna, immettere manualmente una lunghezza specifica premendo **TAB** e inserire un valore.
+線分は X、Y、Z 軸上、および既存のジオメトリに描画できます。線分の描画中にいずれかの軸にスナップすると、その軸を示す色の線が、線分の延長線上に表示されます。線分の長さは描画しながら確認できます。また、**[Tab]**を押して値を入力すると、手動で特定の長さを入力できます。
 
-Colori delle linee per asse:
+軸の色
 
-Per specificare una lunghezza, è sufficiente digitare un valore di quota. Verrà visualizzata la finestra di dialogo Modifica quota. Fare clic su OK o premere INVIO per accettare il valore.
+長さを指定する場合は、その値を入力し、自動的に表示される寸法編集用のダイアログで、[OK]をクリックするか[Enter]を押して値を確定します。
 
-* X = Rosso
-* Y = Verde
-* Z = Blu
+* X 軸 = 赤
+* Y 軸 = 緑
+* Z 軸 = 青
 
 ![](../.gitbook/assets/lines.png)
 

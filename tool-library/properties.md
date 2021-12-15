@@ -1,8 +1,8 @@
-# Proprietà
+# プロパティ
 
-Nella **tavolozza Proprietà** vengono visualizzate le informazioni e i dati relativi ad un oggetto selezionato nel piano di lavoro di FormIt.
+**[プロパティ]パレット**には、FormIt の作業面で選択されているオブジェクトに関する情報とデータが表示されます。
 
-Utilizzando la tavolozza Proprietà, è possibile modificare il gruppo di un oggetto, assegnare un oggetto ad un layer e modificare il materiale di un oggetto.
+[プロパティ]パレットを使用すると、オブジェクトのグループの編集、オブジェクトのレイヤへの割り当て、オブジェクトのマテリアルの変更を行うことができます。
 
 ![](../.gitbook/assets/properties_palette.png)
 

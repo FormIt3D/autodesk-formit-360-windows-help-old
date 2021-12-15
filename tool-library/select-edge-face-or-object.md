@@ -1,34 +1,34 @@
-# Selezione
+# 選択
 
-## Selezione diretta
+## 直接選択
 
-Per **selezionare un vertice, un bordo o una superficie**, posizionare il cursore del mouse sull'oggetto, quindi fare un singolo clic per selezionarlo.
+**頂点、エッジ、または面を選択**するには、オブジェクトにカーソルを合わせ、シングルクリックで選択します。
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-Per **selezionare un intero oggetto** o un oggetto e qualsiasi oggetto ad esso associato, fare doppio clic sull'oggetto.
+**オブジェクト全体を選択**、つまりオブジェクトとそれにアタッチされているものすべてを選択するには、オブジェクトをダブルクリックします。
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-È inoltre possibile tenere premuto CTRL o MAIUSC e aggiungere o rimuovere elementi dalla selezione corrente.
+[Ctrl]または[Shift]を押しながら、現在の選択に要素を追加または削除することもできます。
 
-## Filtro di selezione
+## 選択フィルタ
 
-Per la selezione dell'area o con lazo \(vedere di seguito\), è possibile filtrare la selezione in base al tipo.
+領域選択または投げ縄選択\(下図を参照\)では、タイプに基づいて選択をフィルタできます。
 
-Ciò è particolarmente utile quando si dispone di una combinazione di tipi di geometria molto vicini e si desidera utilizzare la selezione dell'area o con lazo per proiettare una rete ampia, ma recuperare solo un determinato tipo di geometria, escludendone altri.
+この機能は、さまざまなジオメトリ タイプが近接している場合に特に便利で、領域選択または投げ縄選択を使用して大きく囲っても特定のジオメトリ タイプのみが選択され、他のタイプは除外されます。
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## Selezione dell'area/mediante finestra
+## 領域/ウィンドウ選択
 
-Per **selezionare più parti di geometria contemporaneamente**, utilizzare lo strumento di selezione mediante finestra. Assicurarsi di non avere selezionato alcun elemento, quindi fare clic e trascinare il mouse da sinistra a destra o da destra a sinistra per acquisire più parti.
+**複数のジオメトリをまとめて選択**するには、ウィンドウ選択ツールを使用します。 何も選択されていない状態で、マウスをクリックして左右どちらかにドラッグすると、複数のジオメトリがまとめて選択されます。
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## Selezione con lazo
+## 投げ縄選択
 
-Per un **controllo più preciso** quando si selezionano più parti di geometria contemporaneamente, utilizzare lo strumento Selezione con lazo. È possibile selezionarlo dal menu contestuale dopo aver fatto clic con il pulsante destro del mouse sull'area di disegno vuota. Quindi disegnare un contorno attorno all'area di selezione desiderata.
+複数のジオメトリを**より正確に選択**するには、投げ縄ツールを使用します。空のキャンバス内を右クリックすると、コンテキスト メニューに投げ縄ツールが表示されます。投げ縄ツールを使用して、対象となる選択領域を囲むように境界を描画します。
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)

@@ -1,157 +1,157 @@
-# Materiali
+# マテリアル
 
-Rendere visibili i modelli di FormIt con materiali che supportano mappe di riflessione, lucide e di composizione in rilievo.
+FormIt モデルに反射、光沢、バンプ マップをサポートするマテリアルを取り込みます。
 
-## Pannello Materiali
+## [マテリアル]パネル
 
 ![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-Nel pannello Materiali, è possibile scegliere tra una vasta gamma di Campioni di materiali, spostarsi tra le librerie di materiali collegate e, a partire da FormIt 2021, accedere al contenuto Materiali di altri file di FormIt (.AXM) e utilizzarlo.
+[マテリアル]パネルでは、さまざまなマテリアル サンプルから選択したり、リンクされたマテリアル ライブラリ間をナビゲートできます。FormIt 2021 では、他の FormIt (.AXM)ファイルのマテリアル コンテンツにアクセスして使用できます。
 
-### Origini della libreria di materiali
+### マテリアル ライブラリ ソース
 
-In FormIt 2021 e versioni successive, il pannello Materiali dispone di un'interfaccia a discesa che consente di scegliere tra le origini disponibili della libreria di materiali: Nel disegno, Campioni di materiali e [librerie collegate](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+FormIt 2021 以降の[マテリアル]パネルにはドロップダウン インタフェースがあり、使用可能なマテリアル ライブラリ ソース(スケッチ内、マテリアル サンプル、[リンクされたライブラリ](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries))から選択できます。
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### Nel disegno
+#### スケッチ内
 
-Mostra i materiali salvati nel disegno di FormIt corrente.
+現在の FormIt スケッチに保存されているマテリアルが表示されます。
 
-#### Campioni di materiali
+#### マテリアル サンプル
 
-Mostra un elenco dei materiali di esempio disponibili. Queste offerte sono memorizzate in un server basato su cloud, quindi si tenga presente quanto segue:
+使用可能なサンプルのマテリアルのリストが表示されます。このサンプルはクラウド ベースのサーバに保存されているため、次の点にご注意ください。
 
-* È necessaria una connessione ad Internet quando si accede per la prima volta alle categorie di Campioni di materiali.
-* Quando si accede per la prima volta ad una categoria, questa verrà scaricata e quindi memorizzata nella cache del computer in uso, in modo che le sessioni future non richiedano un download.
-* Il team di FormIt può aggiornare occasionalmente le offerte in Campioni di materiali. In tal caso, FormIt eliminerà automaticamente e scaricherà nuovamente le categorie per ottenere le ultime voci.
+* [マテリアル サンプル]カテゴリに初めてアクセスする場合は、インターネット接続が必要です。
+* カテゴリに初めてアクセスすると、ダウンロードされてコンピュータにキャッシュされるため、その後のセッションではダウンロードする必要はありません。
+* FormIt チームは、マテリアル サンプルで提供する内容を更新することがあります。その場合、FormIt では自動的にそのカテゴリが削除されて再ダウンロードされ、最新の情報が取得されます。
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Librerie collegate**
+**リンクされたライブラリ**
 
-Altre directory e posizioni verranno visualizzate dopo il [collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+その他のフォルダや場所は、[マテリアル ライブラリをリンク](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)した後に表示されます。
 
-### Creazione, eliminazione e contagocce
+### 作成、削除、スポイト
 
-![](../.gitbook/assets/materials\_add.PNG) **Crea un nuovo materiale** definendone le impostazioni di colore, trama, mappa di composizione in rilievo, mappa di ritaglio, trasparenza e riflessione/lucidità.
+![](../.gitbook/assets/materials\_add.PNG) 色、テクスチャ、バンプ マップ、カットアウト マップ、透過度、反射/光沢の設定を定義して、**新しいマテリアルを作成**します。
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Eliminare** i materiali selezionati.
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) 選択したマテリアルを**削除**します。
 
-![](../.gitbook/assets/materials\_eyedropper.PNG) Utilizza il **contagocce** per un materiale dipinto nella scena e inizia immediatamente a dipingerlo.
+![](../.gitbook/assets/materials\_eyedropper.PNG) シーン内のペイントされたマテリアルを**スポイト**で吸い上げるようにして、すぐにペイントを開始します。
 
-* Fare clic sullo strumento del contagocce, quindi fare clic su una superficie dipinta con un materiale.
-* Il materiale che si trova sulla superficie verrà evidenziato nel pannello e lo strumento del pennello diventerà attivo con il materiale caricato.
+* [スポイト]ツールをクリックした後、マテリアルでペイントする面をクリックします。
+* 面の上にあるマテリアルがパネルでハイライト表示され、そのマテリアルをロードした状態で[ペイントブラシ]ツールがアクティブになります。
 
-### Aggiornamento, collegamento di librerie ed eliminazione di materiali inutilizzati
+### 更新、ライブラリをリンク、未使用項目を削除
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Collega le librerie di materiali** da directory locali. Nelle directory contenenti file JPG, PNG o AXM (FormIt) verrà visualizzato il contenuto. Per ulteriori informazioni, vedere [Collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) ローカルのフォルダから**マテリアル ライブラリをリンク**します。JPG、PNG、または AXM (FormIt)ファイルを含むフォルダには、コンテンツが表示されます。詳細については、「[マテリアル ライブラリをリンクする](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)」を参照してください。
 
-![](../.gitbook/assets/materials-refresh.png)**Aggiorna** la directory corrente. Il pulsante viene attivato solo quando si visualizza una directory collegata localmente (non Nel disegno o Campioni di materiali).
+![](../.gitbook/assets/materials-refresh.png) 現在のフォルダを**更新**します。ローカルでリンクされたフォルダを表示している場合にのみ有効です(スケッチ内やマテリアル サンプルでは無効です)。
 
-![](../.gitbook/assets/materials-purge.png) **Elimina materiali inutilizzati** dal disegno di FormIt corrente.
+![](../.gitbook/assets/materials-purge.png) 現在の FormIt スケッチのマテリアルから**未使用項目を削除**します。
 
-I materiali inutilizzati possono accumularsi naturalmente durante la procedura di iterazione, ma possono essere aggiunti in modo significativo alle dimensioni del file se utilizzano trame di alta qualità.
+未使用のマテリアルは、処理を繰り返すことで自然に蓄積されますが、高品質のテクスチャが使用されている場合は、ファイル サイズが大幅に増えることがあります。
 
-I materiali inutilizzati compaiono con un nome di colore grigio nell'elenco Nel disegno.
+未使用のマテリアルは、スケッチ内リストで名前が灰色で表示されます。
 
-Fare clic sullo strumento Elimina inutilizzati per eliminare tutti i materiali inutilizzati. Prima verrà visualizzato un messaggio di richiesta, in modo da poter annullare l'operazione in caso di eventuali dubbi. Questo pulsante è attivato solo nell'elenco Nel disegno.
+未使用のマテリアルをすべて削除するには、[未使用項目を削除]ツールをクリックします。確認のメッセージが表示されるため、キャンセルも可能です。このボタンは、[スケッチ内]リストでのみ有効です。
 
-### Collegamento delle librerie di materiali
+### マテリアル ライブラリをリンクする
 
-FormIt 2021 e versioni successive offre la possibilità di collegare il pannello Materiali alle directory locali (librerie) contenenti il contenuto Materiali, incluse le cartelle di file JPG, PNG e/o FormIt:
+FormIt 2021 以降では、JPG、PNG、FormIt ファイルのフォルダなど、マテリアル コンテンツを含むローカル フォルダ(ライブラリ)に[マテリアル]パネルをリンクすることができます。
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![Vista di singoli materiali da un file di FormIt o file JPG/PNG in una directory.](../.gitbook/assets/materials-axm-content.png)
+![View individual Materials from a FormIt file, or JPG/PNG files in a directory.](../.gitbook/assets/materials-axm-content.png)
 
-* **file JPG/PNG** verranno visualizzati come Materiali, che possono essere disegnati direttamente nel disegno di FormIt corrente.
-   * Facendo clic su una miniatura, il file di immagine viene convertito in un materiale di FormIt al volo e copiato nel disegno corrente.
-   * In FormIt si tornerà alla directory Nel disegno per visualizzare il materiale appena copiato nel disegno.
-* **file di FormIt (\*.axm)** verranno visualizzati come cartelle con un'icona di FormIt.
-   * Facendo clic sulle cartelle dei file di FormIt verranno visualizzati tutti i materiali di FormIt salvati in tale file.
-   * Si noti che in FormIt, per ottenere il contenuto Materiali, si deve caricare parte del file, pertanto la visualizzazione di Materiali nel pannello potrebbe richiedere più tempo per i file di grandi dimensioni.
+* **JPG/PNG ファイル**はマテリアルとして表示され、現在の FormIt スケッチに直接ペイントできます。
+   * サムネイルをクリックすると、イメージ ファイルがすぐに FormIt マテリアルに変換され、現在のスケッチにコピーされます。
+   * FormIt は「スケッチ内」フォルダに戻り、コピーしたマテリアルがスケッチに表示されます。
+* **FormIt ファイル(\*.axm)**は、FormIt アイコンが付いたフォルダとして表示されます。
+   * FormIt ファイル フォルダをクリックすると、そのファイルに保存されているすべての FormIt マテリアルが表示されます。
+   * FormIt は、マテリアル コンテンツを取得するためにファイルの一部をロードする必要があるため、大きなファイルの場合はパネルでマテリアルを表示するのに時間がかかることがあります。
 
-### Interazioni di materiali
+### マテリアルの相互作用
 
-**Dipingere un materiale** facendo clic una sola volta sulla miniatura. Verrà attivato lo strumento del pennello, grazie al quale è ora possibile posizionare il cursore sulla geometria nell'area di disegno di FormIt e fare clic su superfici o gruppi per dipingerli.
+**マテリアルをペイント**するには、サムネイルをシングルクリックします。[ペイントブラシ]ツールがアクティブになり、FormIt のキャンバスでジオメトリにカーソルを合わせて面またはグループをクリックすると、ペイントできます。
 
-Una volta attivato lo strumento del pennello:
+[ペイントブラシ]ツールがアクティブになったら、次のように操作します。
 
-* Dipingere superfici e gruppi facendo clic una sola volta.
-   * Quando si dipingono i gruppi, il materiale verrà sovrapposto in serie nella geometria nidificata e coprirà qualsiasi superficie o gruppo dipinto con il materiale di default.
-* Dipingere interi solidi facendo doppio clic su una superficie per selezionare ogni elemento associato.
+* シングルクリックで面とグループをペイントします。
+   * グループをペイントすると、マテリアルはネストされたジオメトリに重ねて表示され、既定のマテリアルでペイントされたサーフェスまたはグループを隠します。
+* 面をダブルクリックしてアタッチされたすべての要素を選択すると、ソリッド全体がペイントされます。
 
-È inoltre possibile selezionare prima le superfici e i gruppi, quindi fare clic una sola volta su una miniatura del materiale per dipingere la selezione con tale materiale.
+面とグループを最初に選択してからマテリアルのサムネイルをシングルクリックして、そのマテリアルで選択した要素をペイントすることもできます。
 
-**Modificare un materiale** facendo doppio clic sulla miniatura, il che consentirà di visualizzare l'Editor materiali (vedere di seguito).
+**マテリアルを編集**するには、サムネイルをダブルクリックします。マテリアル エディタが表示されます(次を参照)。
 
-**Rinominare un materiale** facendo doppio clic sul nome.
+**マテリアルの名前を変更**するには、名前をダブルクリックします。
 
-**Identificare un materiale** dipinto sulla geometria selezionandolo e cercando l'evidenziazione e l'icona che indicano quali materiali sono dipinti sulla geometria selezionata.
+**ジオメトリにペイントされたマテリアルを特定**するには、ジオメトリを選択し、選択したジオメトリにペイントされたマテリアルを示すハイライト表示とアイコンを探します。
 
 ![](../.gitbook/assets/material\_selected.png)
 
-**Il materiale di default** può essere utilizzato per "cancellare" in modo efficace una superficie o un gruppo di eventuali materiali. Qualsiasi geometria non dipinta con un materiale viene dipinta implicitamente con il materiale di default.
+**既定のマテリアル**を使用すると、マテリアルの面やグループを効果的に「クリア」することができます。マテリアルでペイントされていないジオメトリは特に指定がない限り、既定のマテリアルでペイントされます。
 
-### Gestione di elenchi
+### リストの管理
 
-Regolare la dimensione delle miniature regolando la larghezza della colonna (fare clic e trascinare la linea verticale a destra del "materiale").
+列の幅を調整してサムネイルのサイズを調整します(「マテリアル」の右にある垂直線をクリックしてドラッグします)。
 
-Filtrare la visualizzazione per materiali specifici digitando sulla barra "Filtro...".
+特定のマテリアルをフィルタするには、[フィルタ]バーに入力します。
 
-I materiali con nomi visualizzati in un font grigio indicano che tali materiali non sono utilizzati nel disegno corrente.
+名前が灰色のフォントで表示されるマテリアルは、現在のスケッチで使用されていないものです。
 
-## Creazione e modifica di materiali
+## マテリアルを作成および編集する
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-Quando si crea o si modifica un materiale, verrà visualizzata la finestra di dialogo Editor materiali, in cui è possibile personalizzare:
+マテリアルを作成または編集する際、[マテリアル エディタ]ダイアログが表示され、次の項目をカスタマイズできます。
 
-* **Colore**
-* **Mappe immagine**
-   * Fare clic sulla miniatura per scegliere una nuova mappa.
-   * Fare clic sull'icona Salva per salvare la mappa per la modifica in un'altra applicazione.
-   * Fare clic sull'icona Elimina per eliminare la mappa da questo materiale.
-      * **Trama di un file di immagine**
-         * File JPG o PNG
-      * **Mappa di composizione in rilievo di un file di immagine**
-         * File JPG consigliato
-         * Ideale per aggiungere effetti di profondità ai materiali
-         * È possibile utilizzare freeware come ShaderMap per generare mappe di composizione in rilievo a partire da una trama.
-      * **Mappa di ritaglio di un file di immagine**
+* **色**
+* **イメージ マップ**
+   * サムネイルをクリックして新しいマップを選択します。
+   * 別のアプリケーションで編集するためにマップを保存するには、[保存]アイコンをクリックします。
+   * このマテリアルからマップを削除するには、[削除]アイコンをクリックします。
+      * **イメージ ファイルからのテクスチャ**
+         * JPG または PNG
+      * **イメージ ファイルからのバンプ マップ**
+         * JPG を推奨
+         * マテリアルに奥行き効果を追加するのに適しています。
+         * ShaderMap のようなフリーウェアを使用すると、テクスチャを指定したバンプ マップを生成できます。
+      * **イメージ ファイルからのカットアウト マップ**
          * PNG
-         * Ideale per i materiali con trasparenza selettiva, ad esempio le recinzioni o i pannelli perforati.
-* **Nome**
-* **Scala orizzontale e verticale**
-   * Quando è attivato, il pulsante di blocco delle proporzioni assicura che la scala orizzontale e verticale rispetti le proporzioni della trama.
-   * Stirare un materiale regolando la scala orizzontale indipendentemente dalla scala verticale.
-   * È possibile sostituire la scala orizzontale e verticale per ogni superficie utilizzando lo strumento Regola posizionamento materiale (vedere di seguito).
-* **Trasparenza**, **Riflesso: Diretto o Riflesso: Obliquo** e **Lucentezza**
+         * 金網フェンスや穴あきパネルなど、選択透過性を持つマテリアルに適しています。
+* **名前**
+* **水平および垂直スケール**
+   * [縦横比を固定]ボタンを有効にすると、水平および垂直スケールはテクスチャの縦横比に従います。
+   * 垂直スケールと水平スケールを別々に調整して、マテリアルをストレッチします。
+   * [マテリアルの配置を調整]ツール(次を参照)を使用して、面ごとに水平および垂直スケールを変更できます。
+* **透過度**、**反射**、**光沢**
 
-## Regolazione del posizionamento dei materiali
+## マテリアルの配置を調整する
 
-Quando si dipinge un materiale su una superficie, FormIt ipotizza l'orientamento migliore:
+面にマテリアルをペイントする場合、FormIt では最適な推測値で最適な方向に設定されます。
 
-* Le superfici verticali verranno orientate con la parte superiore della trama orientata lungo l'asse Z.
-* Le superfici orizzontali orienteranno la trama in senso longitudinale lungo il lato più lungo della superficie.
+* 垂直面は、テクスチャの上が Z 軸の方向となるように設定されます。
+* 水平面は、テクスチャの縦方向が面の最も長い側面に沿うように設定されます。
 
-Utilizzare lo strumento **Regola posizionamento materiale** per sostituire il posizionamento di default del materiale, nonché la scala del materiale in superfici specifiche:
+**[マテリアルの配置を調整]**ツールを使用して、特定の面上で、既定のマテリアルの配置とマテリアルのスケールを変更します。
 
-* Selezionare una o più superfici dipinte con un materiale.
-   * Se la superficie eredita il materiale dal gruppo principale, sarà necessario prima dipingere la superficie direttamente.
-* Accedere allo strumento Regola posizionamento materiale tramite il tasto di scelta rapida MP o dal menu di scelta rapida:
+* マテリアルでペイントされた面を選択します。
+   * 面が親グループからマテリアルを継承している場合は、最初に面を直接ペイントする必要があります。
+* [マテリアルの配置を調整]ツールには、ショートカットの MP または右クリックで表示されるコンテキスト メニューからアクセスします。
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Utilizzare i controlli su schermo per spostare, ruotare e mettere in scala interattivamente le trame dei materiali direttamente sulla superficie:
+画面上のコントロールを使用して、面上で直接マテリアル テクスチャをインタラクティブに移動、回転、スケールします。
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-Per ripristinare una qualsiasi delle modifiche apportate al posizionamento del materiale, è sufficiente dipingere nuovamente la superficie con il materiale originale, dal pannello Materiali.
+マテリアルの配置に加えた変更をリセットするには、[マテリアル]パネルから元のマテリアルを使用して面を再びペイントします。
 
-## Conversione di materiali in Revit
+## Revit へのマテリアルの変換
 
-I materiali verranno trasferiti in Revit quando si utilizza il [modulo aggiuntivo FormIt](https://formit.autodesk.com/page/formit-revit) per Revit 2018 o versione successiva.
+Revit 2018 以降では、[FormIt アドイン](https://formit.autodesk.com/page/formit-revit)を使用すると、マテリアルが Revit に転送されます。

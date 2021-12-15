@@ -1,20 +1,20 @@
-# Collaborazione
+# コラボレーション
 
-FormIt consente a più utenti di modificare in modo collaborativo un modello di FormIt in qualsiasi combinazione di client Windows, iPadOS o Web, il tutto visualizzando le modifiche in tempo reale.
+FormIt では、Windows、iPadOS、Web のどのクライアントの組み合わせでも、複数のユーザがコラボレートして同じ FormIt モデルを編集でき、そのすべての変更内容をリアルタイムで確認できます。
 
-Con un abbonamento a FormIt Pro, è possibile accedere alla funzionalità di collaborazione in tempo reale che consente di:
+FormIt Pro のサブスクリプションを購入している場合は、リアルタイム コラボレーション機能を使用して次の操作を行うことができます。
 
-* Avviare una sessione di collaborazione e invitare i colleghi.
-* Partecipare ad una sessione di collaborazione dalle app FormIt per Windows, Web o iPadOS.
-* Collaborare con i colleghi per esplorare i progetti in un ambiente sandbox condiviso.
-* Seguire la fotocamera di un altro collaboratore per visualizzare il modello dal suo punto di vista.
-* Permettere a un cliente di seguire la fotocamera dell'utente corrente mentre lo guida durante il progetto.
-* Avviare una chat con i collaboratori nella sessione.
+* コラボレーション セッションを開始し、他のメンバーを招待する。
+* FormIt の Windows、Web、または iPadOS 用のアプリケーションからコラボレーションに参加する。
+* 他のメンバーとコラボレートして、共有サンドボックス環境内で設計を検証する。
+* コラボレーションに参加している他のメンバーのカメラをフォローして、そのメンバーの視点でモデルを表示する。
+* 自分のカメラをクライアントにフォローしてもらい、設計内をガイドする。
+* セッション内で他のメンバーとチャットする。
 
-## Avvio di una sessione di collaborazione
+## コラボレーション セッションを開始する
 
-1. Dall'elenco a discesa di collaborazione, scegliere Avvia sessione di condivisione. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Inviare un collegamento tramite e-mail ai collaboratori. Questo collegamento richiede ai destinatari di accedere ad Autodesk Account per iniziare immediatamente a collaborare.  ![](../.gitbook/assets/collaborate.png)
+1. [コラボレーション]ドロップダウンから、[共有セッションを開始]を選択します。![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. コラボレーションに参加するメンバーに電子メールでリンクを送信します。受信したメンバーがこのリンクをクリックすると、Autodesk アカウントにログインするためのプロンプトが表示され、すぐにコラボレーションを開始できます。![](../.gitbook/assets/collaborate.png)
 
 
 
