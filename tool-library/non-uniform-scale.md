@@ -1,41 +1,41 @@
-# Échelle non uniforme
+# Scala non uniforme
 
-**Utilisez l’échelle non uniforme pour étirer des objets en 1, 2 ou 3 dimensions.**
+**Utilizzare Scala non uniforme per stirare gli oggetti in 1, 2 o 3 quote.**
 
-Sélectionnez une combinaison quelconque d’arêtes, de faces, de solides, de maillages ou de groupes et accédez à Échelle non uniforme à l’aide du raccourci clavier **NU** ou de l’option du menu contextuel :
+Selezionare una combinazione qualsiasi di bordi, superfici, solidi, mesh o gruppi e accedere a Scala non uniforme utilizzando il tasto di scelta rapida **NU** o dall'opzione del menu contestuale:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Une fois l’option activée, vous verrez une série de poignées qui peuvent être utilisées pour mettre à l’échelle l’objet de façon non uniforme sur 1, 2 ou 3 axes simultanément.**
+**Una volta attivata l'opzione, verrà visualizzata una serie di grip che possono essere utilizzati per mettere in scala l'oggetto in modo non uniforme su 1, 2 o 3 assi contemporaneamente.**
 
-Pour plus de clarté, seules les poignées situées face à la caméra sont dessinées. Tournez autour de l’objet si vous devez ajuster une poignée de l’autre côté.
+Per maggiore chiarezza, verranno disegnati solo i grip rivolti verso la cinepresa. Eseguire l'orbita attorno all'oggetto se è necessario regolare un grip sull'altro lato.
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Lorsque vous cliquez sur une poignée, une série de zones de texte modifiables s’affichent. Elles vous permettent d’ajuster l’échelle en pourcentage ou en distance :
+Quando si fa clic su un grip, verrà visualizzata una serie di caselle di testo modificabili in cui è possibile regolare la scala in base alla percentuale o alla distanza:
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Une fois les zones de cote visibles, vous pouvez effectuer les opérations suivantes :**
+**Una volta visualizzate le caselle di quota, è possibile:**
 
-* Commencez à saisir un nombre pour modifier automatiquement la zone de pourcentage et spécifier un facteur d’échelle.
-   * Si vous entrez un nombre négatif, la direction de l’échelle est inversée.
-* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur la zone contenant la cote à mettre à l’échelle en fonction de la distance.
-* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
+* Iniziare a digitare un numero per modificare automaticamente la casella della percentuale e specificare un fattore di scala.
+   * Se si immette un numero negativo, la direzione della scala verrà invertita.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic sulla casella contenente la quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
-**La mise à l’échelle au niveau de l’une des poignées de bord d’angle respecte le rapport de linéarité des cotes adjacentes :**
+**La messa in scala in corrispondenza di uno dei grip dei bordi degli angoli rispetta le proporzioni delle quote adiacenti:**
 
-* Commencez à saisir un nombre pour modifier la valeur de pourcentage.
-* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur l’une des deux zones de cote pour mettre à l’échelle par distance.
-* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
+* Iniziare a digitare un numero per modificare il valore della percentuale.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle due caselle di quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**De même, la mise à l’échelle au niveau de l’une des poignées d’angle respecte le rapport de linéarité de la forme entière et procède à une mise à l’échelle uniforme :**
+**Analogamente, la messa in scala in corrispondenza di uno dei grip degli angoli rispetta le proporzioni dell'intera forma e verrà eseguita correttamente la messa in scala uniforme:**
 
-* Commencez à saisir un nombre pour modifier la valeur de pourcentage.
-* Vous pouvez également cliquer pour définir temporairement l’emplacement de la poignée, puis cliquer sur l’une des trois zones de cote pour mettre à l’échelle par distance.
-* Cliquez dans l’espace ou appuyez sur Échap pour terminer l’opération d’échelle non uniforme.
+* Iniziare a digitare un numero per modificare il valore della percentuale.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle tre caselle di quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

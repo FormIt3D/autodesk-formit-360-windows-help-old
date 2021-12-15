@@ -1,10 +1,10 @@
-# Création de facettes de courbe et de surface
+# Sfaccettatura di curve e superfici
 
-FormIt est un système de modélisation polyédrique. Les objets tels que les cercles, les arcs et les splines sont donc représentés par une série d’arêtes droites. De même, une surface incurvée, comme la paroi d’un cylindre ou d’un dôme, est constituée d’une série de faces planes avec des arêtes de bordure masquées.
+FormIt è un sistema di modellazione poliedrica, pertanto oggetti quali cerchi, archi e spline sono rappresentati da una serie di bordi diritti. Analogamente, una superficie curva come il muro di un cilindro, o una cupola, è costituita da una serie di superfici piane con bordi nascosti.
 
-Par défaut, FormIt utilise 40 arêtes, ou facettes, pour représenter un cercle et 24 facettes pour représenter un objet 3D incurvé comme un cylindre. Pour les surfaces plus complexes comme un dôme, une valeur de 24 définit le nombre de facettes du périmètre et a également un impact sur la densité des facettes du reste de la forme.
+Per default, FormIt utilizza 40 bordi, o sfaccettature, per rappresentare un cerchio e 24 sfaccettature per rappresentare un oggetto curvo 3D, come un cilindro. Per superfici più complesse, ad esempio una cupola, un valore pari a 24 imposta il conteggio delle sfaccettature del perimetro e influisce anche sulla densità di sfaccettatura del resto della forma.
 
-Dans FormIt pour Windows v18 et versions ultérieures, les valeurs de création de facettes de courbe et de surface sont personnalisables :
+In FormIt per Windows v18 e versioni successive, i valori di sfaccettatura della curva e della superficie sono personalizzabili:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
@@ -12,28 +12,28 @@ Dans FormIt pour Windows v18 et versions ultérieures, les valeurs de création
 
 **Curve Faceting Quality**
 
-La modification de la qualité de création de facettes de courbe a une incidence sur le nombre de facettes utilisées lors du dessin de nouveaux cercles et arcs dans FormIt, ainsi que lors du placement de formes primitives. Par exemple, si vous définissez cette option sur 64, vous créez un cercle complet de 64 côtés ou un arc d’un quart de cercle avec 16 facettes.
+La modifica di Curve Faceting Quality influirà sul numero di sfaccettature utilizzate per il disegno di nuovi cerchi e archi in FormIt, nonché sul posizionamento di forme primitive. Ad esempio, se si imposta questa opzione su 64, si creerebbe un cerchio completo a 64 lati o un arco a quarto di cerchio con 16 sfaccettature.
 
-Cette valeur affecte également la qualité des cercles et des arcs importés à partir de fichiers SAT, ainsi que lors de l’ancrage de la géométrie à partir de Dynamo. Vous pouvez définir cette valeur pour les nouvelles esquisses ou uniquement pour l’esquisse actuelle.
+Questo valore influirà anche sulla qualità dei cerchi e degli archi importati dai file SAT e quando si esegue il baking della geometria da Dynamo. È possibile impostare questo valore per i nuovi disegni o solo per il disegno corrente.
 
-Pour les courbes existantes, vous pouvez également utiliser le plug-in Rebuild Curve pour reconstruire rétroactivement un arc ou un cercle **existant** avec un nouveau nombre de facettes :
+Per le curve esistenti, è anche possibile utilizzare il plug-in Rebuild Curve per ricreare in modo retroattivo un arco o un cerchio **esistente** con un nuovo numero di sfaccettature:
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Qualité de création de facettes de surface**
+**Surface Faceting Quality**
 
-La modification de ce paramètre global affecte la qualité des surfaces incurvées 3D importées à partir de fichiers SAT et lorsqu’elles sont ancrées à partir de Dynamo.
+La modifica di questa impostazione globale influirà sulla qualità delle superfici curve 3D importate da file SAT e quando si esegue il baking da Dynamo.
 
-Par exemple, si vous définissez cette option sur 64, l’ancrage d’une sphère à partir de Dynamo utilise 64 faces autour de l’équateur de la sphère, plus 64 facettes dans chacun des anneaux allant vers les pôles de la sphère, ce qui peut rapidement faire beaucoup. Utilisez des valeurs plus élevées avec précaution, car cela peut avoir une incidence sur les performances de FormIt dans certains cas. Une fois que vous obtenez un résultat de haute qualité, vous pouvez [le convertir en maillage](meshes.md) pour améliorer les performances.
+Ad esempio, impostando questa opzione su 64, quindi eseguendo il baking di una sfera da Dynamo verranno utilizzate 64 superfici attorno all'equatore della sfera, più 64 sfaccettature in ciascuno degli anelli che vanno ai poli della sfera, che si aggiungono rapidamente. Utilizzare valori più elevati con cautela, poiché in alcuni casi possono influire sulle prestazioni di FormIt. Una volta ottenuto un risultato di alta qualità, è possibile [convertirlo in una mesh](meshes.md) per migliorare le prestazioni.
 
-Lorsque vous utilisez Dynamo, vous pouvez modifier la qualité de la création de facettes et cliquer sur « Exécuter le graphique » dans le groupe de fonctions Propriétés sans modifier les paramètres, afin d’utiliser d’autres nombres pour la création de facettes :
+Quando si utilizza Dynamo, è possibile modificare la qualità delle sfaccettature e fare clic su Run Graph nel pannello Proprietà senza modificare i parametri, per sfruttare i nuovi conteggi di sfaccettature:
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-Comme avec les courbes, vous pouvez définir la qualité de la création de facettes de surface pour les nouvelles esquisses ou pour l’esquisse actuelle uniquement.
+Come per le curve, è possibile impostare la qualità delle sfaccettature delle superfici per i nuovi disegni o solo per il disegno corrente.
 
-Notez que les valeurs de la création de facettes sont actuellement limitées à des multiples de 4. Par conséquent, lorsque vous saisissez des nombres manuellement, FormIt arrondit au multiple le plus proche. Vous pouvez utiliser les curseurs et les flèches pour parcourir les valeurs acceptées.
+Tenere presente che i valori di sfaccettatura sono attualmente limitati a multipli di 4, pertanto quando si immettono numeri manualmente, in FormIt vengono arrotondati al multiplo più vicino. È possibile utilizzare i dispositivi di scorrimento e le frecce per scorrere i valori accettati.
 
 ![](../.gitbook/assets/units-+-precision.png)

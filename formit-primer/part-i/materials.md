@@ -1,138 +1,138 @@
-# 1.7 – Peinture avec matériaux
+# 1.7 - Pittura con i materiali
 
-Comme nous l’avons vu dans un **exercice précédent**, vous pouvez créer vos propres matériaux, puis peindre des faces avec ces matériaux dans FormIt. Dans cet exercice, vous allez créer et modifier d’autres matériaux, et importer des matériaux à partir de la bibliothèque de matériaux d’Autodesk.
+Come abbiamo visto in un **esercizio precedente**, è possibile creare materiali personalizzati e quindi dipingere superfici con tali materiali in FormIt. In questo esercizio, creeremo e modificheremo più materiali, oltre a importare materiali da Autodesk Material Library.
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.7 – Paint with Materials.axm**_ _à partir du dossier_ _**FormIt Primer Part 1 Datasets** (Jeux de données de la partie I du guide FormIt Primer)._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.7 - Paint with Materials.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-## **Création des murs en verre**
+## **Creazione dei muri in vetro**
 
-1 – Pour afficher le plan contenant les cotes que nous allons référencer, accédez à la **palette Calques** et activez le calque **Plan Image** (Image du plan).
+1 - Per visualizzare la pianta contenente le quote a cui si intende fare riferimento, accedere alla **tavolozza Layer** e attivare il layer **Plan Image**.
 
-2 – Sélectionnez l’outil **Rectangle \(R\)**. Nous allons créer un rectangle directement sur le groupe Floor (Sol) existant. Assurez-vous que vous ne modifiez pas le groupe Floor (Sol), mais que vous dessinez par-dessus l’objet groupé existant.
+2 - Selezionare lo **strumento Rettangolo \(R\)**. Creeremo un rettangolo direttamente sopra il gruppo del pavimento esistente. Assicurarsi di non modificare il gruppo del pavimento, ma di disegnare sopra l'oggetto raggruppato esistente.
 
 ![](../../.gitbook/assets/0%20%283%29.png)
 
-3 – Pour commencer le rectangle pour la zone de verre, procédez comme suit :
+3 - Per iniziare il rettangolo per l'area in vetro:
 
-1. Cliquez sur le coin arrière du sol existant et déplacez la souris le long de son arête la plus courte.
-2. Saisissez **28 pi-8 po** pour définir la longueur de la première arête, puis cliquez sur **OK**. Cette longueur doit être identique à celle de l’arête courte du sol.
-3. Pour définir la deuxième arête, commencez à déplacer la souris le long de l’arête la plus longue du sol existant. Saisissez **55 pi-5 ½ po** pour définir la longueur de la deuxième arête, puis cliquez sur **OK**.
-4. Cliquez sur la touche **Échap** pour quitter l’outil Rectangle. Cliquez une fois à l’intérieur du nouveau rectangle pour sélectionner la face et commencez à la faire glisser vers le haut.
+1. Fare clic sull'angolo posteriore del pavimento esistente e spostare il mouse lungo il bordo più corto.
+2. Digitare **28'-8"** per definire la prima lunghezza del bordo e fare clic su **OK**. La lunghezza deve corrispondere a quella del bordo corto esistente del pavimento.
+3. Per definire il secondo bordo, iniziare a spostare il mouse lungo il bordo più lungo esistente del pavimento. Digitare **55'-5 ½"** per impostare la lunghezza del secondo bordo, quindi fare clic su **OK**.
+4. Fare clic su **ESC** per uscire dallo strumento Rettangolo. Fare clic una sola volta all'interno del nuovo rettangolo per selezionare la superficie e iniziare a trascinarla verso l'alto.
 
 ![](../../.gitbook/assets/1%20%283%29.png)
 
-4 – Pour définir la hauteur, déplacez la souris vers le haut le long de l’**axe Z**, appuyez sur la touche **Tab** et saisissez **11 pi-2 po**.
+4 - Per definire l'altezza, spostare il mouse verso l'alto lungo l'**Asse Z**, premere il tasto **TAB** e immettere **11'-2"**.
 
 ![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Remarque :**_ _chaque fois que vous utilisez un outil pour lequel vous pouvez définir une cote, appuyez sur la touche_ _**Tab**_ _ou saisissez directement des nombres._
+_**Nota**_ _Ogni volta che si utilizza uno strumento per il quale è possibile immettere una quota, premere_ _**TAB**_ _o iniziare a digitare i numeri._
 
-5 – Double-cliquez sur la nouvelle géométrie et utilisez l’outil **Grouper (G\)** pour la regrouper.
+5 - Fare doppio clic e selezionare **Gruppo \(G\)** per la nuova geometria.
 
-6 – Double-cliquez sur le groupe pour le modifier. Dans la **palette Propriétés**, nommez le groupe **Glass Walls (Murs en verre).**
+6 - Fare doppio clic sul gruppo per modificarlo. Nella **tavolozza Proprietà**, denominare il gruppo **Glass Walls.**
 
 ![](../../.gitbook/assets/3%20%283%29.png)
 
-7 – Pour définir l’épaisseur du mur en verre, procédez comme suit :
+7 - Per definire lo spessore del muro in vetro:
 
-1. Cliquez avec le bouton droit de la souris sur la face supérieure et choisissez l’outil **Décaler la face \(OF\).**
-2. Déplacez le curseur de la souris vers l’intérieur et saisissez **4 po.**
-3. Cliquez deux fois sur **Échap** pour effacer l’outil et la sélection.
+1. Fare clic con il pulsante destro del mouse sulla superfice superiore e scegliere lo **strumento Offset superficie \(OF\).**
+2. Spostare il cursore del mouse verso l'interno e digitare **4".**
+3. Premere due volte **ESC** per deselezionare lo strumento e annullare la selezione.
 
 ![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Remarque :**_ _les unités par défaut des projets anglo-saxons sont les pieds, comme dans Revit. Si vous saisissez un seul nombre sans unité spécifiée, par exemple_ _**4**, vous obtenez_ _**4 pieds \(4 pi\)**_ _et non_ _**4 pouces \(4 po\)**._
+​_**Nota**_ _L'unità di default per i progetti con unità di misura imperiali è piedi, analogamente a Revit. Se si immette un numero singolo senza un'unità specificata, ad esempio_ _**4**, si otterrà_ _**4 piedi \(4'\)**_ _e non_ _**4 pollici \(4"\)**._
 
-8 – Pour creuser la zone intérieure, cliquez une fois sur la face supérieure intérieure pour la sélectionner, puis cliquez à nouveau pour **faire glisser la face**. Déplacez la face vers le bas jusqu’à ce qu’elle disparaisse, puis cliquez dans l’espace pour terminer le processus.
+8 - Per ritagliare l'area interna, fare clic una sola volta sulla superficie superiore interna per selezionarla, quindi fare di nuovo clic per avviare l'operazione di **trascinamento della superficie**. Spingere completamente la superficie verso il basso fino a quando non scompare e fare clic nello spazio per completare la procedura.
 
 ![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche de déplacer accidentellement la face à supprimer « trop loin » (entraînant la création d’une extrusion négative)._
+_**Nota**_ _In FormIt, a differenza di altro software, non è possibile spingere accidentalmente "troppo" la superficie che si sta tentando di eliminare in modo da formare una nuova estrusione negativa._
 
-9 – Pour désactiver le mode **Modifier le groupe**, double-cliquez dans l’espace ou appuyez sur la touche **Échap.**
+9 - Terminare la modalità **Modifica gruppo** facendo doppio clic nello spazio o premendo **ESC.**
 
-10 – Sélectionnez le groupe **Glass Walls** (Murs en verre) en un seul clic et placez-le sur le calque **Main Building Floor** (Sol du bâtiment principal).
+10 - Selezionare il gruppo **Glass Walls** con un solo clic e inserirlo nel layer **Main Building Floor**.
 
 ![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Importation d’un matériau à partir de la bibliothèque de matériaux d’Autodesk**
+## **Importazione di un materiale da Autodesk Material Library**
 
-1 – Double-cliquez sur le nouveau groupe **Glass Walls** (Murs en verre) pour le modifier.
+1 - Modificare nuovamente il gruppo **Glass Walls** facendovi doppio clic.
 
-2 – Pour importer un nouveau matériau dans le modèle, procédez comme suit :
+2 - Per importare un nuovo materiale nel modello:
 
-1. Accédez à la **palette Matériaux**.
-2. Choisissez **Échantillon de matériaux** dans le menu déroulant situé dans la partie supérieure de la palette pour naviguer dans la **bibliothèque de matériaux d’Autodesk.** ​
-3. Cliquez sur le dossier **Glass+Glazing** (Verre+Vitrage) pour l’ouvrir.
-4. Recherchez le matériau **Glass – Blue Tint** (Verre – Teinte bleue) et cliquez dessus pour l’ajouter à votre bibliothèque de matériaux **Dans l’esquisse**.
-5. Notez que vous revenez normalement à la bibliothèque **Dans l’esquisse**, qui inclut désormais le matériau nouvellement sélectionné.
+1. Accedere alla **tavolozza Materiali**.
+2. Scegliere **Campioni di materiali** nel menu a discesa nella parte superiore della tavolozza per spostarsi all'interno di **Autodesk Material Library.** ​
+3. Fare clic sulla cartella **Glass+Glazing** per aprirla.
+4. Individuare il materiale **Glass – Blue Tint** e fare clic una sola volta per aggiungere tale materiale alla libreria di materiali **Nel disegno**.
+5. Si noti che è necessario tornare alla libreria **Nel disegno**, che ora include il materiale appena selezionato.
 
 ![](../../.gitbook/assets/7%20%288%29.png)
 
 ![](../../.gitbook/assets/8%20%288%29.png)
 
-3 – Après l’ajout du matériau, vous devez automatiquement vous trouver dans l’outil **Pinceau**. Si ce n’est pas le cas, cliquez simplement une fois sur le matériau **Glass – Blue Tint** (Verre – Teinte bleue). Pour peindre tous les murs, double-cliquez sur la géométrie à l’aide de l’outil **Pinceau**. Le matériau sélectionné est alors appliqué à l’objet entier. ![](../../.gitbook/assets/9%20%281%29.png)​
+3 - Dopo aver aggiunto il materiale, dovrebbe attivarsi automaticamente lo strumento del **pennello**. In caso contrario, è sufficiente fare clic una sola volta di nuovo sul materiale **Glass – Blue Tint**. Per dipingere tutti i muri, fare doppio clic sulla geometria con lo strumento del **pennello**. In questo modo il materiale selezionato verrà applicato all'intero oggetto. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 – Cliquez sur **Échap** pour quitter l’outil **Pinceau**. Appuyez de nouveau sur la touche **Échap** ou double-cliquez dans l’espace pour quitter le groupe.
+4 - Fare clic su **ESC** per uscire dallo strumento del **pennello**. Fare nuovamente clic su **ESC** oppure fare doppio clic nello spazio per uscire dal gruppo.
 
-## **Copie rapide du sol pour créer le toit**
+## **Copia rapida del pavimento per creare il tetto**
 
-1 – Pour créer rapidement le toit en fonction de la géométrie du sol, procédez comme suit :
+1 - Per creare rapidamente il tetto in base alla geometria del pavimento:
 
-1. Sélectionnez le groupe **Floor (Sol)** d’un simple clic.
-2. Cliquez sur l’un des coins inférieurs pour lancer l’outil **Déplacer**.
-3. Commencez à déplacer le sol vers le haut le long de l’axe bleu \(**axe Z**\). Pour créer une **copie rapide**, appuyez sur la touche **Ctrl**. Un aperçu « fantôme » de la copie doit s’afficher​. 
-4. Lorsque vous vous déplacez le long de l’axe bleu \(**axe Z**\), commencez à saisir **12 pi 2 po** et la **boîte de dialogue Cote** s’affiche. Cliquez sur **OK** ou appuyez sur **Entrée** pour finaliser la position.
+1. Selezionare il gruppo **Floor** con un solo clic.
+2. Fare clic su uno degli angoli inferiori per avviare lo strumento **Sposta**.
+3. Iniziare a spostare il pavimento verso l'alto lungo l'asse blu \(**Asse Z**\). Creare una **copia rapida** toccando il tasto **CTRL**. Dovrebbe essere visualizzata un'anteprima "semitrasparente" della copia. ​
+4. Durante lo spostamento lungo l'asse blu \(**Asse Z**\), iniziare a digitare **12' 2"** e verrà visualizzata la **finestra di dialogo Quota**. Fare clic su **OK** o premere **INVIO** per finalizzare la posizione.
 
 ![](../../.gitbook/assets/10%20%281%29.png)
 
 ![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Modification du toit**
+## **Modifica del tetto**
 
-1 – Le groupe copié est toujours sélectionné, mais utilisez la commande **Rendre unique \(MU\)** pour le dissocier du groupe Floor (Sol).
+1 - Mentre il gruppo copiato è ancora selezionato, utilizzare il comando **Rendi univoco \(MU\)** per dissociare questo gruppo dal gruppo Floor.
 
-2 – Double-cliquez sur le groupe pour le modifier. Renommez le groupe **Roof** (Toit) dans la **palette Propriétés**. Pour quitter le groupe, double-cliquez dans l’espace.
+2 - Fare doppio clic sul gruppo per modificarlo. Rinominare il gruppo **Roof** nella **tavolozza Proprietà**. Uscire dal gruppo facendo doppio clic nello spazio.
 
-3 – Dans la **palette Calques**, créez un **calque** appelé **Roof** (Toit) et ajoutez-y le groupe **Roof** (Toit). Vous pouvez activer ou désactiver le calque pour vérifier que les éléments appropriés se trouvent sur le toit. Reportez-vous au **chapitre 6** pour plus d’informations sur l’utilisation des **calques**.
+3 - Nella **tavolozza Layer**, creare un nuovo **layer** denominato **Roof** e aggiungervi il gruppo **Roof**. È possibile attivare e disattivare il layer per verificare che gli elementi corretti si trovino sul tetto. Fare riferimento al **capitolo 6** per ulteriori informazioni su come utilizzare i **layer**.
 
-4 – Accédez à la **palette Matériaux** et importez le matériau **Concrete – Broom Finish – Colorized 1** (Béton – Fini brossé – Coloré 1) à partir du dossier **Concrete+Asphalt** (Béton+Asphalte) dans la bibliothèque **Échantillons de matériaux** **\(Production\)**. Notez qu’en cliquant sur le matériau, la géométrie sélectionnée est automatiquement peinte et le nouveau matériau est ajouté à la bibliothèque de matériaux **Dans l’esquisse**.
+4 - Tornare alla **tavolozza Materiali** e importare il materiale **Concrete - Broom Finish - Colorized 1** dalla cartella **Concrete+Asphalt** nella libreria **Campioni di materiali** **\(Produzione\)**. Notare che facendo clic sul materiale, la geometria selezionata verrà automaticamente dipinta e il nuovo materiale verrà aggiunto alla libreria di materiali **Nel disegno**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Remarque :**_ _peindre un groupe en dehors du_ _**mode de modification de groupe**_ _est une technique utile qui vous permet de peindre différentes occurrences du même groupe avec différents matériaux._
+_**Nota**_ _La pittura di un gruppo al di fuori della_ _**modalità di modifica del gruppo**_ _è una tecnica utile che consente di dipingere diverse istanze dello stesso gruppo con materiali diversi._
 
-## **Création de la terrasse inférieure**
+## **Creazione della terrazza inferiore**
 
-1 – En fonction du calque **Plan Image** (Image du plan), créez la terrasse inférieure sous la forme d’un **rectangle \(R\)** de **55 pi 3 po** de long et **22 pi-7 3/4 po** de large, puis extrudez-le de 1 pi. Positionnez le nouveau rectangle à 8 5/8 po du bord sud du bâtiment principal \(profondeur des poteaux que nous allons créer ultérieurement\).
+1 - In base a **Plan Image**, creare la terrazza inferiore come **Rettangolo \(R\)** lungo **55' 3"** e largo **22'-7 3/4"** ed estruderla di 1'. Posizionare il nuovo rettangolo in modo che si trovi a 8 5/8" dal bordo sud dell'edificio principale \(la profondità dei pilastri che verranno creati in seguito\).
 
-_**Remarques**:_
+_**Note:**_
 
-* _Reportez-vous aux chapitres précédents pour savoir comment dessiner et extruder des rectangles._
-* _Vous devrez peut-être activer ou désactiver l’option_ _**Accrocher à la grille \(SG\)**_ _pour cliquer sur _l’angle de la terrasse.
+* _Consultare i capitoli precedenti per informazioni su come disegnare ed estrudere i rettangoli._
+* _Potrebbe essere necessario attivare o disattivare_ _**Snap alla griglia \(SG\)**_ _per fare clic_ sull'angolo della terrazza.
 
-2 – Pour finaliser la terrasse inférieure, procédez comme suit :
+2 - Per finalizzare la terrazza inferiore:
 
-1. Utilisez l’outil **Grouper \(G\)** pour regrouper la géométrie et nommez-la **Lower Terrace Floor** (Sol de la terrasse inférieure).
-2. **Déplacez** le groupe de **2 pi-2 po** par rapport au plan du sol.
-3. Créez un **calque** appelé **Lower Terrace** (Terrasse inférieure) et ajoutez-y le groupe.
-4. Ajoutez la géométrie **Terrace Level Floor** (Sol de la terrasse inférieure) au groupe.
+1. Selezionare **Gruppo \(G\)** per la geometria e denominarlo **Lower Terrace Floor**.
+2. **Spostare** il gruppo verso l'alto di **2'-2"** dal piano di base.
+3. Creare un nuovo **layer** denominato **Lower Terrace** e aggiungervi il gruppo.
+4. Aggiungere **Terrace Level Floor** al gruppo.
 
 ![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Remarque :**_ _cette image ne représente pas le processus détaillé de création et d’affectation de la géométrie aux groupes, niveaux et calques. Pour plus d’informations sur ces processus, reportez-vous aux chapitres précédents de ce guide._
+_**Nota**_ _Questa immagine non rappresenta la procedura passo passo per creare e assegnare la geometria a gruppi, livelli e layer. Per ulteriori informazioni su queste procedure, consultare i capitoli precedenti di questa Guida introduttiva._
 
-3 – Importez le matériau **Stone > Stone – Travertine** (Pierre > Pierre – Travertin).
+3 - Importare il materiale **Stone &gt; Stone - Travertine**.
 
-4 – Dans la **palette Matériaux**, recherchez le matériau **Travertine** (Travertin) importé et modifiez-le comme suit :
+4 - Nella **tavolozza Materiali**, individuare il materiale **Travertine** importato e modificarlo:
 
-1. Double-cliquez sur la miniature d’aperçu pour ouvrir la fenêtre contextuelle **Éditeur de matériaux**.
-2. Cliquez sur la mosaïque d’aperçu **Color** (Couleur) pour ouvrir la fenêtre contextuelle **Éditeur de couleurs**.
-3. Définissez le champ **Val** sur **190** pour assombrir la teinte du matériau.
+1. Fare doppio clic sul riquadro di anteprima per aprire la finestra popup **Editor materiali**.
+2. Fare clic sul riquadro di anteprima **Colore** per aprire la finestra popup **Scegli colore per questo materiale**.
+3. Modificare il campo **Val** in **190** per scurire la tinta del materiale.
 
 ![](../../.gitbook/assets/14%20%282%29.png)
 
-5 – **Peignez** les groupes **Floor** (Sol) et **Lower Terrace Floor** (Sol de la terrasse inférieure) avec le matériau **Travertine** (Travertin) modifié.
+5 - **Disegnare** i gruppi **Floor** e **Lower Terrace Floor** con il materiale **Travertine** modificato.
 
 ![](../../.gitbook/assets/15.jpeg)
 

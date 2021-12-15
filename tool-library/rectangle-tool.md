@@ -1,24 +1,24 @@
-# Rectangle
+# Rettangolo
 
-Vous pouvez utiliser l’outil **Rectangle** dans le menu de la barre d’outils **Créer une esquisse** pour dessiner rapidement une face rectangulaire. Extrudez la face pour créer un volume rectangulaire.
+È possibile utilizzare lo strumento **Rettangolo** nel menu della barra degli strumenti **Crea disegno** per disegnare rapidamente una superficie rettangolare. Estrudere la superficie per creare un volume rettangolare.
 
-Raccourci clavier : R
+Tasto di scelta rapida: R
 
-Utilisez les axes pour vous assurer que vous dessinez dans la bonne direction :
+Utilizzare gli assi per assicurarsi di disegnare nella direzione corretta:
 
-Vous pouvez dessiner des rectangles sur l’axe X, Y ou Z. Lorsque vous dessinez, vous pouvez spécifier une cote en saisissant simplement une valeur, ce qui permet d’afficher la boîte de dialogue Modifier la cote. Appuyez sur la touche Entrée ou cliquez sur OK pour accepter la cote.
+È possibile disegnare rettangoli sull'asse X, Y o Z. Mentre si disegna, è possibile specificare una quota digitando semplicemente un valore, che consentirà di visualizzare la finestra di dialogo Modifica quota. Premere INVIO o OK per accettare la quota.
 
-Pour dessiner un rectangle, cliquez pour définir le premier point de l’esquisse.
+Per disegnare un rettangolo, fare clic per impostare il primo punto nel disegno.
 
-Couleurs de ligne par axe :
+Colori delle linee per asse:
 
-* X = rouge
-* Y = vert
-* Z = bleu
+* X = Rosso
+* Y = Verde
+* Z = Blu
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Une fois le rectangle dessiné, il devient une face qui peut être extrudée pour créer un volume.
+Una volta completato il disegno, il rettangolo diventa una superficie che può essere estrusa per creare un volume.
 

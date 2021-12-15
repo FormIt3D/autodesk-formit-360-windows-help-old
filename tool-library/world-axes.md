@@ -1,28 +1,30 @@
-# Axes universels
+# Assi globali
 
-Le système de coordonnées et la grille par défaut peuvent être modifiés en changeant l’axe universel.
+Il sistema di coordinate e la griglia di default possono essere modificati modificando l'asse globale.
 
-## Dessin et modélisation avec des axes
+## Disegno e modellazione con assi
 
-Lorsqu’une esquisse vide est ouverte dans FormIt, les axes universels sont représentés par trois lignes rouges, vertes et bleues au centre de l’écran. Ces trois lignes définissent les trois directions cartésiennes qui définissent le monde 3D. La direction « X » est définie par la ligne rouge, la direction « Y » par la ligne verte et la direction « Z » ou « haut » par la ligne bleue.
+Quando si apre un disegno vuoto in FormIt, gli assi globali vengono visualizzati come tre linee, una rossa, una verde e una blu, al centro della schermata. Queste tre linee definiscono le tre direzioni cartesiane che definiscono il mondo 3D. La direzione "X" è definita dalla linea rossa, la direzione "Y" dalla linea verde e la direzione "Z" o "su" dalla linea blu.
 
 ![](../.gitbook/assets/axis.png)
 
-Pour faire pivoter la grille et redéfinir le point d’origine de l’esquisse, **cliquez avec le bouton droit de la souris** sur un espace vide de la scène, puis choisissez l’icône **Définir les axes \(SZ\)** dans le menu contextuel  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
+Per ruotare la griglia e ridefinire il punto di origine per il disegno, **fare clic con il pulsante destro del mouse** sullo spazio vuoto nella scena e scegliere l'icona **Imposta assi \(SZ\)** dal menu contestuale.  
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-Le widget Définir les axes s’affiche. Cliquez sur la grande poignée au centre pour sélectionner le widget. Cliquez à nouveau pour définir le point d’origine. Cliquez sur le point de l’axe rouge pour faire pivoter la grille ou cliquez sur le point des axes bleus pour faire pivoter le plan de grille verticalement. Cliquez dans l’espace pour confirmer la modification  ![](../.gitbook/assets/2021-01-14_12-30-10.gif).
+Viene visualizzato il widget Imposta assi. Fare clic sul grip grande al centro per selezionare il widget. Fare nuovamente clic per impostare il punto di origine. Ora fare clic sul punto sull'asse rosso per ruotare la griglia oppure fare clic sul punto sull'asse blu per ruotare il piano della griglia verticalmente. Fare clic nello spazio per confermare la modifica.  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-Pour **rétablir** les paramètres par défaut de l’origine et de la grille, cliquez avec le bouton droit de la souris sur un espace vide de la scène et choisissez **Réinitialiser les axes \(RZ\)**.
+Per **ripristinare** l'impostazione di default dell'origine e della griglia, fare clic con il pulsante destro del mouse sullo spazio vuoto nella scena e scegliere **Reimposta assi \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Axes universels et axes locaux
+## Assi globali e assi locali
 
-Les étapes ci-dessus expliquent comment contrôler le **système de coordonnées universelles** de votre esquisse. Lorsque vous commencez à travailler avec des [**groupes**](groups.md), vous pouvez contrôler le **système de coordonnées local** de ce groupe de manière unique à partir de l’esquisse globale. Lorsque vous modifiez un groupe, vous pouvez modifier le système de coordonnées local en suivant la même procédure que ci-dessus, mais ces modifications s’appliquent uniquement au groupe.
+Nei passaggi precedenti viene illustrato come controllare il **sistema di coordinate globali** del disegno. Quando si inizia a lavorare con i [**gruppi**](groups.md), è possibile controllare il **sistema di coordinate locali** di quel gruppo in modo univoco dal disegno complessivo. Quando si modifica un gruppo, è possibile modificare il sistema di coordinate locale seguendo la procedura descritta in precedenza, ma queste modifiche verranno applicate solo al gruppo.
 
-## Interactions avec les axes
+## Interazioni con gli assi
 
-* Les **axes rouge, vert et bleu** s’affichent lorsque vous utilisez les outils d’esquisse pour guider votre esquisse 3D.
-* L’**axe violet** affiche un axe perpendiculaire et un axe parallèle par rapport aux lignes dessinées à un angle.
-* Maintenez la touche **Maj** enfoncée pendant que vous effectuez une esquisse ou déplacez le curseur pour **verrouiller sur l’axe actuel**.
+* Gli **assi rosso, verde e blu** vengono visualizzati quando si lavora con gli strumenti di disegno per guidare il disegno 3D.
+* L'**asse viola** visualizza un asse perpendicolare e parallelo rispetto alle linee disegnate ad un angolo.
+* Tenere premuto il **tasto MAIUSC** durante il disegno o lo spostamento per **bloccare l'asse corrente**.
 

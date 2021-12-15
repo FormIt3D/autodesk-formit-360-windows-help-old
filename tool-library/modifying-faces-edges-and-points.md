@@ -1,33 +1,33 @@
-# Modification des faces, des arêtes et des points
+# Modifica di superfici, bordi e punti
 
-Lorsque vous commencez à déplacer les objets que vous avez placés, les choses deviennent intéressantes. Un simple clic vous permet de sélectionner un sommet, une arête, une face ou un maillage.
+Le cose diventano davvero interessanti quando si inizia a spingere e trascinare gli oggetti che sono stati posizionati. Un singolo clic consente di selezionare un singolo vertice o bordo oppure una singola superficie o mesh.
 
-## Modification des faces
+## Modifica di superfici
 
-1. Cliquez une seule fois sur une face.
-2. FormIt vous place automatiquement dans l’outil Faire glisser la face ou Extruder.
-3. Cliquez quelque part pour identifier un point de départ pour l’opération.
-4. Après avoir cliqué, vous pouvez effectuer un accrochage à d’autres objets pour aligner cette face.
-5. Comme avec le déplacement, vous pouvez cliquer sur la **cote temporaire** ou simplement commencer à saisir une valeur pour définir l’amplitude du mouvement.
+1. Fare un singolo clic su una superficie.
+2. In FormIt si attiva automaticamente lo strumento Trascina superficie o Estrudi.
+3. Fare clic in un punto qualsiasi per identificare un punto iniziale per l'operazione.
+4. Dopo aver fatto clic, è possibile eseguire lo snap ad altri oggetti per allineare questa superficie.
+5. Come con lo spostamento, è possibile fare clic sulla **quota temporanea** o è sufficiente iniziare a digitare un valore per definire la quantità di movimento.
 
 ![](../.gitbook/assets/modify.png)
 
-Vous pouvez également supprimer une face à l’aide de la touche **Suppr** ou en cliquant avec le bouton droit de la souris et en choisissant Supprimer dans le menu contextuel.
+È inoltre possibile eliminare una superficie utilizzando il tasto **CANC** o facendo clic con il pulsante destro del mouse e richiamando Elimina dal menu contestuale.
 
-Vous pouvez également supprimer une face à l’aide du **bouton droit de la souris et du bouton X**.
+È anche possibile eliminare una superficie **facendo clic con il pulsante destro del mouse > pulsante X**.
 
-## Modification des arêtes
+## Modifica di bordi
 
-1. Cliquez une fois sur une arête.
-2. FormIt vous place automatiquement dans l’outil Déplacer.
-3. Placez le curseur de la souris sur un point de l’espace à partir duquel vous souhaitez commencer l’opération de déplacement.
-4. Cliquez, puis faites glisser le bord pour modifier la forme.
+1. Fare un singolo clic su un bordo.
+2. In FormIt si attiva automaticamente lo strumento Sposta.
+3. Posizionare il mouse su un punto nello spazio da cui si desidera avviare l'operazione di spostamento.
+4. Fare clic; ora è possibile trascinare il bordo per modificare la forma.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modification des points
+## Modifica di punti
 
-1. Cliquez une fois sur l’un des coins de l’un des cubes.
-2. Comme pour une arête, faites glisser le point le long de l’un des axes pour redéfinir la forme. [Suivant Échelle non uniforme](non-uniform-scale.md)
+1. Fare un singolo clic su uno degli angoli di uno dei cubi.
+2. Analogamente ad un bordo, è possibile trascinare il punto lungo uno degli assi per ridefinire la forma. [Successivo Scala non uniforme](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

@@ -1,31 +1,31 @@
-# Faces : inclinaison et facette/lissage
+# Superfici: Inclina superficie e Sfaccetta superfici lisce
 
-## Utilisation des faces : inclinaison et facette/lissage
+## Utilizzo di superfici: Inclina superficie e Sfaccetta superfici lisce
 
-Pour créer des conceptions plus complexes après avoir esquissé une forme ou placé une primitive, vous pouvez utiliser plusieurs outils contextuels pour modifier votre géométrie. Ces opérations incluent Inclinaison, Réseau et Copier-coller.
+Per creare progetti più complessi dopo aver disegnato una forma o aver posizionato una primitiva, è possibile utilizzare diversi strumenti contestuali per modificare la geometria. Queste operazioni includono Inclina superficie, Matrice e Copia e Incolla.
 
-### Incliner la face
+### Inclina superficie
 
-Pour **incliner une face**, procédez comme suit :
+Per **inclinare una superficie:**
 
-1. Sélectionnez une face et cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
-2. Choisissez l’icône **Inclinaison** dans le menu contextuel.
-3. Pour définir l’axe d’inclinaison, dessinez une ligne.
-4. Cliquez sur un troisième point pour commencer l’opération d’inclinaison.
+1. Selezionare una superficie e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
+2. Scegliere l'icona **Inclina superficie** dal menu contestuale.
+3. Definire l'asse di inclinazione disegnando una linea.
+4. Fare clic su un terzo punto per avviare l'operazione di inclinazione.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Faces de facette/faces lisses
+### Sfaccetta superfici lisce
 
-Si vous placez le curseur sur une face et observez des lignes en pointillé, cela signifie que la face est constituée de faces plus petites en raison de la déformation de la face. Pour **transformer les lignes en pointillés en arêtes de modèle**, procédez comme suit :
+Se si posiziona il cursore del mouse su una superficie e si notano linee tratteggiate, questo significa che la superficie è costituita da superfici più piccole a causa della deformazione della superficie stessa. Per **trasformare le linee tratteggiate in bordi del modello:**
 
-1. Sélectionnez la face ou l’objet à modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
-2. Dans le menu contextuel, choisissez l’outil **Faces lisses de facette**.
-3. Les arêtes sont automatiquement ajoutées à l’endroit où la face était précédemment lisse.
+1. Selezionare la superficie o l'oggetto da modificare e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
+2. Dal menu contestuale, scegliere lo strumento **Sfaccetta superfici lisce**.
+3. I bordi vengono aggiunti automaticamente dove la superficie era precedentemente liscia.
 
-Cette commande fonctionne aussi de la manière opposée : vous pouvez sélectionner les faces de facette et sélectionner l’outil **Faces lisses de facette** dans le menu contextuel pour masquer les arêtes et lisser les faces.
+Questo comando funziona anche in modo opposto: è possibile selezionare le superfici sfaccettate e selezionare lo strumento **Sfaccetta superfici lisce** dal menu contestuale per nascondere i bordi e rendere lisce le superfici.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

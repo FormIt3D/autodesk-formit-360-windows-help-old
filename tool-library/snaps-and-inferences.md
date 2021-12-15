@@ -1,61 +1,63 @@
-# Accrochages et déductions
+# Snap e deduzioni
 
-Pour faciliter l’esquisse et la modélisation, utilisez les points d’accrochage et de déduction pour créer, placer et modifier la géométrie avec précision. Vous pouvez utiliser l’axe de votre choix comme axe sur lequel dessiner ou exécuter une autre action, telle que l’extrusion d’une surface.
+Per semplificare il disegno e la modellazione, utilizzare gli snap e i punti di deduzione per creare, posizionare e modificare la geometria in modo preciso. È possibile utilizzare qualsiasi asse scelto come l'asse su cui disegnare o eseguire un'altra azione, ad esempio l'estrusione di una superficie.
 
-**Remarque :** _reportez-vous à la rubrique_ [_Raccourcis clavier_](../appendix/keyboard-shortcuts.md) _pour savoir comment utiliser les outils du logiciel plus rapidement._
+**Nota** _Per informazioni su come velocizzare l'utilizzo degli strumenti del software, vedere_ [_Tasti di scelta rapida_](../appendix/keyboard-shortcuts.md)_._
 
-## Accrochage
+## Snap
 
-Plusieurs accrochages peuvent vous aider lors de la création d’esquisses et de la modélisation. L’accrochage aux objets est automatiquement activé et vous pouvez effectuer un accrochage aux éléments suivants :
+Esistono diversi snap che possono essere utili durante il disegno e la modellazione. Lo snap ad oggetti viene attivato automaticamente ed è possibile eseguire lo snap a:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Sommets | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Arêtes. Lorsque vous placez le curseur sur l’arête, des petits points rouges sont dessinés aux extrémités et au milieu. | ![](../.gitbook/assets/inf4.png) |
-| Milieux des arêtes | ![](../.gitbook/assets/inf5.png) |
-| Plan d’une face. Lorsque vous passez le curseur sur la face, un petit point rouge est dessiné au niveau du centre de gravité de la face. Cela vous permet de trouver facilement ce point si vous souhaitez y effectuer un accrochage. | ![](../.gitbook/assets/inf6.png) |
-| Centres de gravité des faces | ![](../.gitbook/assets/inf7.png) |
-| Plan de construction, si vous ne n’effectuez d’accrochage à rien d’autre. | ![](../.gitbook/assets/inf8.png) |
-| Centres de cercle ou d’arc | ![](../.gitbook/assets/inf9.png) |
-| Sommets de maillage | ![](../.gitbook/assets/inf2.png) |
-| Plan d’une facette de maillage. | ![](../.gitbook/assets/inf1.png) |
+| Vertici | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Bordi. Quando si posiziona il cursore sul bordo, verranno disegnati piccoli punti rossi in corrispondenza delle        estremità e del punto medio. | ![](../.gitbook/assets/inf4.png) |
+| Punti medi del bordo | ![](../.gitbook/assets/inf5.png) |
+| Il piano di una superficie. Quando si posiziona il cursore sulla superficie, verrà disegnato un piccolo punto rosso
+        in corrispondenza del centroide della superficie. In questo modo sarà più semplice trovare il punto,
+        se si desidera eseguire lo snap. | ![](../.gitbook/assets/inf6.png) |
+| Centroidi della superficie | ![](../.gitbook/assets/inf7.png) |
+| Il piano di lavoro, se non si esegue lo snap ad altri elementi. | ![](../.gitbook/assets/inf8.png) |
+| Centri del cerchio o dell'arco | ![](../.gitbook/assets/inf9.png) |
+| Vertici della mesh | ![](../.gitbook/assets/inf2.png) |
+| Il piano di una sfaccettatura della mesh. | ![](../.gitbook/assets/inf1.png) |
 
-Pour effectuer un accrochage à la grille, vous devez activer le paramètre **Accrocher à la grille (SG)** dans le menu Paramètres.
+Per eseguire lo snap alla griglia, è necessario attivare il pulsante di commutazione **Snap alla griglia (SG)** dal menu Impostazioni.
 
-## Axes et points de déduction
+## Assi e punti di deduzione
 
-La sélection automatique des points de déduction est toujours activée et vous permet de contraindre le mouvement de la géométrie. Les axes de déduction sont générés automatiquement par les outils ou lorsque vous passez la souris sur des arêtes ou des points. Les axes de déduction sont toujours dessinés à l’écran avec des tirets, ce qui vous permet de savoir où ils se trouvent et de les accrocher facilement.
+La selezione automatica dei punti di deduzione è sempre attivata e consentirà di vincolare il movimento della geometria. Gli assi di deduzione vengono generati automaticamente dagli strumenti o quando si posiziona il cursore del mouse su bordi o punti. Gli assi di deduzione vengono sempre disegnati sulla schermata con trattini in modo da sapere dove si trovano e sia facile eseguire lo snap.
 
-**Axe :** vous pouvez déplacer la géométrie le long de l’axe X, Y ou Z. La déduction de l’axe X apparaît en rouge, celle de l’axe Y en vert et celle de l’axe Z en bleu.
+**Asse:** è possibile spostare la geometria lungo l'asse X, Y o Z. L'asse X è rosso, l'asse Y è verde e l'asse Z è blu.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Verrouillage de l’axe :** vous pouvez verrouiller le mouvement le long des axes X, Y ou Z. Maintenez la touche Maj enfoncée pendant que vous êtes sur une déduction d’axe, puis déplacez la souris pour accrocher et déduire d’autres éléments.
+**Blocco dell'asse:** è possibile bloccare il movimento lungo l'asse X, Y o Z. Tenere premuto il tasto MAIUSC mentre si lavora sulla deduzione di un asse, quindi spostare il mouse per eseguire lo snap e la deduzione ad altri elementi.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallèle :** vous pouvez esquisser ou déplacer une géométrie parallèlement aux éléments existants. Les déductions perpendiculaires sont violettes. Vous devez placer le curseur sur une ligne que vous souhaitez utiliser comme référence parallèle.
+**Parallelo:** è possibile disegnare o spostare la geometria parallelamente agli elementi esistenti. Le deduzioni perpendicolari sono viola. È necessario posizionare il cursore su una linea che si desidera utilizzare come riferimento parallelo.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendiculaire :** vous pouvez également dessiner ou déplacer une géométrie perpendiculairement aux éléments existants. Les déductions perpendiculaires sont violettes. Vous devez placer le curseur sur une ligne que vous souhaitez utiliser comme référence perpendiculaire.
+**Perpendicolare:** è inoltre possibile disegnare o spostare la geometria perpendicolarmente agli elementi esistenti. Le deduzioni perpendicolari sono viola. È necessario posizionare il cursore su una linea che si desidera utilizzare come riferimento perpendicolare.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Prolongement à partir d’un point :** vous pouvez également utiliser des déductions afin d’effectuer un prolongement à partir d’un point de référence. Placez le curseur de la souris sur un point que vous souhaitez utiliser comme référence jusqu’à ce que l’info-bulle s’affiche, puis utilisez l’axe de déduction qui s’étend à partir du point.
+**Estensione da un punto:** è anche possibile utilizzare le deduzioni per l'estensione dal riferimento di un punto. Posizionare il cursore del mouse su un punto che si desidera utilizzare come riferimento fino a quando non viene visualizzata la descrizione comando, quindi utilizzare l'asse di deduzione che si estende dal punto.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Centre des cercles** : si vous souhaitez effectuer un accrochage au centre d’un arc ou d’un cercle, placez le curseur sur l’arc ou le cercle. Un petit point rouge apparaît au centre. Si vous vous éloignez de l’arc ou du cercle, il reste visible pendant environ 5 secondes. Déplacez le curseur sur le point rouge pour l’accrocher au centre.
+**Centro del cerchio**: se si desidera eseguire lo snap al centro di un arco o di un cerchio, posizionare il cursore sull'arco o sul cerchio. Verrà mostrato un piccolo punto rosso al centro. Rimarrà visibile per circa 5 secondi dopo che si allontana il cursore dall'arco o dal cerchio. Ora spostare il cursore sul punto rosso per eseguire lo snap al centro.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Milieux d’arcs et de splines** : lorsque vous placez le curseur sur un cercle, un arc ou une spline, vous pouvez effectuer un accrochage au milieu. Le milieu et les extrémités sont représentés par un petit point rouge. Lorsque vous appliquez une déduction à un arc, vous effectuez aussi un accrochage aux sommets des arêtes droites qui représentent l’arc.
+**Punti medi di archi e spline reali**: quando si posiziona il cursore su un cerchio, un arco o una spline, sarà possibile eseguire lo snap al punto medio reale. Il punto medio e i punti finali verranno mostrati da un piccolo punto rosso. In caso di deduzione su un arco, si eseguirà anche lo snap ai vertici dei bordi diritti che rappresentano l'arco.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Suppression des déductions** : il est possible que le dessin génère un plus grand nombre de déductions, ce qui peut empêcher le placement de points qui ne sont pas censés s’accrocher à ces déductions. Si vous appuyez sur les touches **Maj + Espace**, toutes les déductions sont effacées, à l’exception de celles du dernier point placé.
+**Cancellazione delle deduzioni**: è possibile che il disegno generi un numero maggiore di deduzioni, che potrebbero posizionare punti che non dovrebbero eseguire lo snap a tali deduzioni. Se si premono i tasti **MAIUSC + BARRA SPAZIATRICE**, tutte le deduzioni verranno cancellate, ad eccezione di quelle dell'ultimo punto posizionato.
 
-![Avant d’effacer les déductions](../.gitbook/assets/inf19.png)
+![Prima di cancellare le deduzioni](../.gitbook/assets/inf19.png)
 
-![Après avoir effacé les déductions](../.gitbook/assets/inf20.png)
+![Dopo aver cancellato le deduzioni](../.gitbook/assets/inf20.png)

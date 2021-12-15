@@ -1,136 +1,136 @@
-# Forum Aux Questions
+# Domande frequenti
 
-## A propos de FormIt
+## Informazioni su FormIt
 
-**Qu’est-ce que FormIt et FormIt Pro ?**
+**Che cosa sono FormIt e FormIt Pro?**
 
-FormIt est un environnement de modélisation, de visualisation, d’analyse et de calcul 3D pour la conception architecturale.
+FormIt è un ambiente di calcolo, analisi, visualizzazione e modellazione 3D per la progettazione architettonica.
 
-Fonctionnalités de FormIt :
+Funzionalità di FormIt:
 
-* Moteur de modélisation de solides robuste, avec des outils et des workflows puissants optimisés pour la conception de bâtiments
-* Visualisation améliorée de l’environnement pour illustrer les options de conception, y compris les états de modèle enregistrés à l’aide de scènes
-* Emplacement, images satellite et terrain 3D à l’aide de Bing Maps
-* Matériaux de la bibliothèque de matériaux d’Autodesk
-* Outils d’organisation et de visibilité du modèle tels que des groupes, des calques et des scènes
-* Outils d’analyse, notamment :
-   * Validation de l’étanchéité et des faces arrière pour le diagnostic et la réparation des modèles solides
-   * Soleil et Ombres
-   * Analyse d’ensoleillement
-   * Analyse d’énergie
-* Intégrations de produits Autodesk :
-   * BIM 360 Docs
-   * Insight \(analyse d’énergie\)
+* Un efficiente motore di modellazione di solidi, con potenti strumenti e workflow ottimizzati per la progettazione di edifici
+* Visualizzazione ambientale migliorata per illustrare le varianti di progetto, inclusi gli stati dei modelli salvati utilizzando le scene
+* Posizione, immagini satellitari e terreno 3D utilizzando Bing Maps
+* Materiali di Autodesk Material Library
+* Strumenti di visibilità e organizzazione dei modelli, quali gruppi, layer e scene
+* Strumenti di analisi, tra cui:
+   * Convalida delle superfici a tenuta ermetica e posteriori per la diagnostica e la riparazione di modelli di solidi
+   * Sole e ombre
+   * Analisi solare
+   * Analisi energetica
+* Integrazioni di prodotti Autodesk:
+   * Autodesk Docs
+   * Insight \(Analisi energetica\)
    * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
    * [Revit](https://formit.autodesk.com/page/formit-revit)
-* Formats de fichier pris en charge :
-   * Ouverture/Importation
-      * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, Image
-   * Exportation
+* Supporto di formati di file:
+   * Apertura/Importazione
+      * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, immagine
+   * Esportazione
       * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-FormIt est disponible gratuitement sur [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) et [dans votre navigateur](https://app.formit.autodesk.com/). Un abonnement à **FormIt Pro** est requis pour utiliser [FormIt pour Windows](https://formit.autodesk.com/page/download), la version la plus puissante et riche en fonctionnalités de FormIt. L’abonnement à **FormIt Pro** permet également d’accéder à des fonctionnalités supplémentaires sur iOS et le Web, telles que l’analyse d’énergie et d’ensoleillement. **FormIt Pro** est inclus dans [Autodesk AEC Collection](https://www.autodesk.fr/collections/architecture-engineering-construction/overview).
+FormIt è disponibile gratuitamente in [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) e [nel browser in uso](https://app.formit.autodesk.com/). Per utilizzare [FormIt per Windows](https://formit.autodesk.com/page/download), la versione più potente e ricca di funzionalità di FormIt, è necessario un abbonamento a **FormIt Pro**. L'abbonamento a **FormIt Pro** consente inoltre di aggiungere funzionalità in iOS e sul Web, ad esempio Analisi solare e Analisi energetica. **FormIt Pro** è incluso in [Autodesk AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview).
 
-**Qu’est devenu FormIt pour Android ?**
+**Che ne è stato di FormIt per Android?**
 
-Dans un souci constant de rationaliser l’offre de produits FormIt, nous avons dû prendre la décision difficile de mettre fin à l’application Android. Si vous l’avez installée, elle va continuer à s’exécuter, mais elle n’est plus disponible dans le Play Store.
+Per semplificare l'offerta di prodotti FormIt, abbiamo dovuto prendere la difficile decisione di interrompere l'app per Android. Se è stato installato, continuerà ad essere eseguito, ma non sarà più disponibile nel Play Store.
 
-**Comment obtenir Formit ?**
+**Come ottenere FormIt?**
 
-Pour exécuter la version Windows, vous devez avoir accès à **FormIt Pro**, qui fait partie de notre abonnement à [AEC Industry Collection](https://www.autodesk.fr/collections/architecture-engineering-construction/overview). Si votre bureau dispose de Revit, il y a de fortes chances que vous ayez déjà accès à FormIt. Vous pouvez [télécharger FormIt pour Windows directement à partir de notre site Web ](https://formit.autodesk.com/page/download) ou de l’application de bureau Autodesk.
+Per eseguire la versione per Windows, è necessario disporre dell'accesso a **FormIt Pro**, che fa parte dell'abbonamento ad [AEC Industry Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview). Quindi, se l'ufficio dispone di Revit, c'è una buona probabilità di avere già accesso a FormIt. È possibile [scaricare FormIt per Windows direttamente dal nostro sito Web](https://formit.autodesk.com/page/download) o dall'app desktop Autodesk.
 
-En outre, la version Web peut être exécutée directement et gratuitement à partir de notre site Web : [http://formit.autodesk.com](http://formit.autodesk.com).
+Inoltre, la versione per il Web può essere eseguita gratuitamente dal nostro sito Web all'indirizzo: [http://formit.autodesk.com](http://formit.autodesk.com)
 
-Vous pouvez télécharger gratuitement la version iOS à partir de l’App Store d’Apple \(iPad uniquement\).
+La versione per iOS può essere scaricata gratuitamente dall'App Store di Apple \(solo iPad\).
 
-**Si je suis étudiant ou enseignant, puis-je accéder à FormIt Pro gratuitement ?**
+**Gli studenti o i docenti possono accedere a FormIt Pro senza costi?**
 
-Oui. Vous pouvez accéder à l’abonnement FormIt Pro via le portail [Autodesk Education Portal](https://www.autodesk.fr/education/edu-software/overview?sorting=featured&page=1).
+Sì. È possibile accedere all'abbonamento a FormIt Pro tramite il [portale Autodesk Education](https://www.autodesk.it/education/edu-software/overview?sorting=featured&page=1).
 
-**Comment apprendre à utiliser FormIt ?**
+**Come imparare ad utilizzare FormIt?**
 
-Le meilleur endroit pour commencer est le [didacticiel FormIt Primer](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html).
+Il punto migliore da cui iniziare è l'[esercitazione nella Guida introduttiva di FormIt](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html).
 
-Il existe plusieurs sections du guide, allant du niveau débutant \(création d’une maison moderne complète\) à un niveau plus avancé \(utilisation de Revit et de Dynamo de manière plus avancée\).
+Esistono diverse sezioni della Guida introduttiva, che vanno per principianti \(creazione di un'intera casa moderna\) a quelle per utenti più avanzati \(utilizzo di Revit e Dynamo in modi più avanzati\).
 
-Notre série de webinaires FormIt Friday contient également plus de 20 vidéos. Ces webinaires sont disponibles sur notre [chaîne YouTube](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH).
+Abbiamo anche più di 20 video nella serie di webinar FormIt Friday. Questi sono disponibili sul [canale YouTube](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH).
 
-## Utilisation de Revit
+## Utilizzo di Revit
 
-**Comment FormIt fonctionne-t-il avec Revit ?**
+**Come funziona FormIt con Revit?**
 
-FormIt est une application de conception et d’esquisse 3D distincte, mais celle-ci crée des données qui peuvent être facilement converties au format Revit [à l’aide du complément FormIt pour Revit](https://formit.autodesk.com/page/formit-revit).
+FormIt è un'applicazione di disegno e progettazione 3D separata, ma crea dati facilmente convertibili in Revit [utilizzando il modulo aggiuntivo FormIt per Revit](https://formit.autodesk.com/page/formit-revit).
 
-**Que se passe-t-il lorsque vous importez des données dans Revit ?**
+**Cosa succede quando si esegue l'importazione in Revit?**
 
-À partir de la version 2016, Revit est fourni avec un complément permettant d’utiliser les données FormIt. Lorsque vous importez un fichier FormIt AXM dans Revit, ce complément examine chaque objet du fichier et le recrée dans Revit à l’aide de l’API. Par défaut, tous les éléments de FormIt sont classés dans la catégorie Volume.
+A partire dalla versione 2016, Revit viene fornito con un modulo aggiuntivo per l'utilizzo dei dati di FormIt. Quando si importa un file AXM di FormIt in Revit, questo modulo aggiuntivo esamina ogni oggetto del file e lo ricrea in Revit utilizzando l'API. Per default, ogni elemento di FormIt viene classificato come Massa.
 
-Le convertisseur FormIt prend chaque objet de volume et crée une famille de volumes dans Revit à l’aide de l’[API Direct Shape](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/FRA/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
+FormIt Converter acquisisce ogni oggetto Massa e crea una famiglia di masse in Revit utilizzando l'[API Direct Shape](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ITA/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
-Direct Shape est un objet non modifiable utilisé dans les workflows IFC. Bien qu’il ne soit pas modifiable, il présente l’avantage de transférer des textures de matériaux complètes entre FormIt et Revit. [Voici un didacticiel ](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) qui explique le workflow FormIt vers Revit plus en détail.
+Direct Shape è un oggetto non modificabile utilizzato nei workflow di file IFC. Sebbene non sia modificabile, ha il vantaggio evidente di trasferire trame complete di materiali tra FormIt e Revit. [Di seguito è disponibile un'esercitazione](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) che illustra in maggiore dettaglio il workflow da FormIt a Revit.
 
-**FormIt permet-il de créer des murs, des sols et d’autres familles système Revit ?**
+**FormIt è in grado di creare muri, pavimenti e altre famiglie di sistema di Revit?**
 
-Pas directement. Comme indiqué ci-dessus, chaque objet est défini par défaut sur la catégorie Volume. Pour créer des murs, des sols, etc., vous devez importer le modèle dans Revit à l’aide du complément de conversion et utiliser les outils Revit natifs afin de créer des familles système à partir du modèle de volume sous-jacent.
+Non direttamente. Come indicato in precedenza, per default ogni oggetto è impostato sulla categoria Massa. Per creare muri, pavimenti e così via, è necessario importare il modello in Revit con il modulo aggiuntivo di conversione e utilizzare gli strumenti nativi di Revit per creare famiglie di sistema dal modello di massa sottostante.
 
-**Revit peut-il renvoyer des données vers FormIt ?**
+**Revit è in grado di inviare nuovamente i dati a FormIt?**
 
-Oui. Pour réimporter des données dans FormIt, exportez tout ou, de préférence, une _partie_ de votre fichier Revit au format SAT. Il n’est généralement pas nécessaire d’envoyer TOUTES vos données Revit vers FormIt. Au lieu de cela, créez une vue filtrée dans Revit qui inclut uniquement les données minimales \(par exemple, les sols et les murs\) avant l’enregistrement au format SAT.
+Sì. Per reimportare i dati in FormIt, esportare tutto il file di Revit o, preferibilmente, _una parte_, nel formato di file SAT. In genere non è necessario inviare TUTTI i dati di Revit a FormIt. In Revit, invece, creare una vista filtrata che includa solo i dati minimi \(ad esempio, pavimenti e muri\) prima di eseguire il salvataggio in formato SAT.
 
-## Utilisation d’autres applications
+## Utilizzo di altre app
 
-**Pourquoi le format de fichier par défaut « .AXM » est-il utilisé ?**
+**Perché "AXM" è il formato di file di default?**
 
-Avant que FormIt ne soit officiellement nommé, le nom de code interne était XModeler. Par conséquent, le format de fichier que nous avons créé était Autodesk X Modeler, ou AXM.
+Il nome in codice interno prima del nome ufficiale di FormIt era XModeler, quindi il formato di file creato era Autodesk X Modeler o AXM in breve.
 
-**Quels types de formats 3D FormIt peut-il importer ?**
+**Che tipo di formati 3D è possibile importare in FormIt?**
 
-* Windows : AXM, DWG, FBX, OBJ, SAT, SKP, STL
-* Web : OBJ, STL
-* iOS : OBJ, STL, SAT
+* Windows: AXM, DWG, FBX, OBJ, SAT, SKP, STL
+* Web: OBJ, STL
+* iOS: OBJ, STL, SAT
 
-**Quels types de formats FormIt peut-il exporter ?**
+**Quali tipi di formati è possibile esportare in FormIt?**
 
-* Windows : FBX, OBJ, SAT, STL, DAE, DXF
-* Web : OBJ, SAT, STL
-* iOS : OBJ
+* Windows: FBX, OBJ, SAT, STL, DAE, DXF
+* Web: OBJ, SAT, STL
+* iOS: OBJ
 
-**Comment FormIt fonctionne-t-il avec Dynamo ?**
+**Come funziona FormIt con Dynamo?**
 
-[Découvrez comment FormIt et Dynamo fonctionnent ensemble](https://formit.autodesk.com/page/formit-dynamo) pour créer des workflows de conception informatique.
+[Scoprire come FormIt e Dynamo si integrano](https://formit.autodesk.com/page/formit-dynamo) per creare workflow di progettazione computazionale.
 
-**Quelle est la différence entre FormIt et SketchUp ?**
+**In che modo FormIt è paragonabile a SketchUp?**
 
-* Interopérabilité [**améliorée avec Revit**](../tool-library/revit.md) ****
-* [**Intégration de Dynamo**](../tool-library/dynamo.md) pour la conception informatique
-* Outils natifs d’[**analyse d’ensoleillement**](../tool-library/solar-analysis.md) et d’[**analyse d’énergie**](../tool-library/energy-analysis.md) optimisés par Autodesk Insight
-* Noyau de modélisation de solides plus robuste qui permet des opérations de modélisation avancées
-* Outils de modélisation avancés natifs tels que [**Balayage, Couverture, Lisser**](../tool-library/cover-sweep-loft.md), Décaler le solide/Solide de coque, et Congé/Raccordement 3D et [**Aplanir les faces**](../tool-library/flatten-face.md)
-* Plusieurs [**plans de coupe** ](../tool-library/section-planes.md)visibles
-* Outils de diagnostic comme [**Afficher les problèmes d’étanchéité et Afficher les faces arrière**](../tool-library/visual-styles.md)
-* [**Exportation de parties du modèle**](../tool-library/export-data.md) en fonction des éléments sélectionnés et/ou visibles
-* Exportation native des fichiers OBJ, SAT et STL
+* Migliore [**interoperabilità con Revit**](../tool-library/revit.md) ****
+* [**Integrazione di Dynamo**](../tool-library/dynamo.md) per la progettazione computazionale
+* Strumenti nativi per l'[**analisi solare**](../tool-library/solar-analysis.md) e l'[**analisi energetica con tecnologia**](../tool-library/energy-analysis.md) Autodesk Insight
+* Un kernel di modellazione di solidi più affidabile che consente operazioni di modellazione avanzata
+* Strumenti di modellazione avanzati nativi come[**Estrusione su percorso, Copertura, Loft**](../tool-library/cover-sweep-loft.md), Offset/Involucro solidi, Unione/Raccordo (3D) e [**Livella superfici**](../tool-library/flatten-face.md)
+* Più [**piani di sezione** ](../tool-library/section-planes.md)visibili
+* Strumenti di diagnostica come [**Visualizza: Problemi delle superfici a tenuta ermetica e Visualizza: Superfici posteriori**](../tool-library/visual-styles.md)
+* [**Esportazione di parti del modello**](../tool-library/export-data.md) in base a ciò che è selezionato e/o visibile
+* Esportazione di file nativi OBJ, SAT e STL
 
-**Puis-je utiliser mes raccourcis clavier SketchUp ?**
+**È possibile utilizzare i tasti di scelta rapida di SketchUp?**
 
-Oui. FormIt pour Windows dispose d’un modèle de clavier entièrement modifiable. De nombreux raccourcis SketchUp courants sont déjà disponibles par défaut, mais vous pouvez les modifier dans le menu Modifier > Préférences.
+Sì. FormIt per Windows ha una mappa della tastiera completamente modificabile. Per default, sono già presenti molti tasti di scelta rapida di SketchUp comuni, ma è possibile modificarli nel menu Modifica &gt; Preferenze.
 
-**Est-il possible d’utiliser mes fichiers DWG ?**
+**È possibile utilizzare i file DWG?**
 
-Oui. FormIt permet d’importer des fichiers DWG 2D et3D.
+Sì. FormIt importa file DWG 2D e 3D.
 
-## Questions d’assistance courantes
+## Domande comuni per il supporto
 
-**Comment bénéficier d’une assistance ?**
+**Come accedere al supporto?**
 
-Vous pouvez contacter votre revendeur Autodesk ou consulter le [forum FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=fr). De préférence, commencez par rechercher votre question. Si vous n’obtenez pas de réponse, publiez un nouveau sujet et l’équipe FormIt y répondra.
+È possibile iniziare con il rivenditore Autodesk o visitare il [forum di FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). È consigliabile prima cercare la domanda che si desidera porre e, se non è stata fornita una risposta, pubblicare un nuovo argomento così il team di FormIt risponderà.
 
-**Que faire si je ne peux pas me connecter ?**
+**Come procedere se non è possibile eseguire l'accesso?**
 
-* Cette [publication sur le forum](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=fr) traite des problèmes de connexion courants.
-* Si vous disposez d’un PC équipé d’un processeur graphique commutable \(GPU\), il est important de s’assurer que FormIt utilise toujours le processeur graphique plus performant. Voici les instructions pour [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) et [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).
+* Questo [post del forum](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=en) illustra i problemi comuni relativi all'accesso.
+* Se si dispone di un PC con un processore grafico \(GPU\) commutabile, è importante assicurarsi che FormIt utilizzi sempre la GPU con prestazioni superiori. Di seguito sono riportate le istruzioni per [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) e [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).
 
-**Que faire en cas d’échec de l’analyse d’énergie Insight ?**
+**Come procedere se Analisi energetica di Insight non riesce?**
 
-Si l’analyse d’énergie Insight signale une erreur ou ne renvoie aucun résultat, [consultez la page Analyse d’énergie Insight](https://formit.autodesk.com/page/formit-insight) pour obtenir des conseils de dépannage courants.
+Se Analisi energetica di Insight segnala un errore o non restituisce alcun risultato, [consultare la pagina FormIt + Insight - Energy Analysis in FormIt](https://formit.autodesk.com/page/formit-insight) per suggerimenti comuni sulla risoluzione dei problemi.
 

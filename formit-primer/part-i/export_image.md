@@ -1,22 +1,22 @@
-# 1.14 – Exportation de l’image
+# 1.14 - Esportazione di un'immagine
 
-_Dans ce chapitre, nous allons exporter une image haute résolution de la scène en perspective en coupe que nous avons créée au cours des derniers chapitres._
+_In questo capitolo, esporteremo un'immagine ad alta risoluzione della scena di sezione in prospettiva che abbiamo creato negli ultimi capitoli._
 
-_Bien que ce chapitre ne soit pas obligatoire, si vous n’avez pas suivi l’intégralité du didacticiel jusqu’à présent et souhaitez exporter des images semblables à celles qui sont présentées ci-dessous, téléchargez et ouvrez le fichier_ _**1.14 – Export Image.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+_Sebbene non sia necessario completare questo capitolo, se non si è seguita l'intera esercitazione fino a questo punto e si desidera esportare immagini simili a quelle mostrate di seguito, scaricare e aprire il file_ _**1.14 - Export Image.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-1 – Lors de l’exportation d’une image, tout ce qui est affiché dans la zone de dessin est exporté presque exactement comme vous le voyez dans FormIt. Nous souhaitons exporter une image de la scène **Section**.
+1 - Quando si esporta un'immagine, tutto ciò che viene mostrato nell'area di disegno verrà esportato quasi esattamente come viene visualizzato in FormIt. Desideriamo esportare un'immagine della scena **Section**.
 
-1. Tout d’abord, double-cliquez sur cette scène à partir de la **palette Scènes** pour l’ouvrir.
-2. Dans la barre du **menu principal**, accédez à **Fichier > Exporter > Localement \(Ctrl + E\)**. La fenêtre **Exporter le fichier** s’affiche.
-3. Dans la nouvelle fenêtre, sous **Options de type de fichier**, faites défiler la liste vers le bas et sélectionnez **En tant qu’image** \(il s’agit de la dernière option\). Dans la zone Options d’exportation, après **Valeur prédéfinie :**, remplacez l’option de la liste déroulante afin qu’elle affiche·**4K UHD** au lieu de **Fenêtre**. La résolution de l’image de sortie, **Dimension \(px\)**, est automatiquement définie sur **3840** x **2160** pixels.
-4. Cliquez sur **Exporter**. La fenêtre **Spécifier le fichier dans lequel enregistrer...** s’affiche.
-5. Dans la nouvelle fenêtre, recherchez l’emplacement et le nom d’enregistrement de l’image, puis cliquez sur **Enregistrer**.
+1. Per prima cosa, è necessario aprire tale scena dalla **tavolozza Scene** facendovi doppio clic.
+2. Sulla barra **Menu principale**, accedere a **File > Esporta > Localmente \(CTRL+E\)**. Viene visualizzata la finestra **Esporta file**.
+3. Nella nuova finestra, in **Opzioni tipo di file** scorrere verso il basso e selezionare **As Image** \(è l'ultima voce\). Nella casella delle opzioni di esportazione, in **Preimpostazione:** cambia l'opzione dell'elenco a discesa che viene impostata su **4K UHD** anziché su **Finestra**. In questo modo, la risoluzione dell'immagine di output, **Dimensioni \(px\)**, verrà definita automaticamente in **3840** x **2160** pixel.
+4. Fare clic su **Esporta** e verrà visualizzata la finestra popup **Specifica file in cui salvare**.
+5. Nella nuova finestra, scegliere la posizione e il nome in cui salvare l'immagine, quindi fare clic su **Salva**.
 
 ![](../../.gitbook/assets/0%20%285%29.png)
 
-2 – Si vous souhaitez comparer vos résultats à l’image d’exportation fournie, accédez à **Jeu de données Maison Farnsworth > Fichiers de support > Images**.
+2 - Se si desidera confrontare i risultati con l'immagine di esportazione fornita, accedere a **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
 
-![Exemple d’image d’exportation fourni à partir du dossier Jeu de données Maison Farnsworth.](../../.gitbook/assets/1%20%2816%29.png)
+![Immagine di esportazione di esempio fornita, proveniente dal set di dati di Casa Farnsworth.](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
 

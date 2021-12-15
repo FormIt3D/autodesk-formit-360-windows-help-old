@@ -1,22 +1,22 @@
-# Supprimer, Modifier, Déplacer
+# Elimina, Modifica, Sposta
 
-Supprimez un objet, modifiez son emplacement ou ses propriétés.
+È possibile rimuovere un oggetto, cambiarne la posizione o modificarne le proprietà.
 
-## Supprimer
+## Elimina
 
-Tout d’abord, sélectionnez une géométrie.  Ensuite, cliquez avec le bouton droit de la souris pour afficher le menu contextuel dans lequel vous pouvez cliquer sur l’**outil Supprimer**. Vous pouvez également appuyer sur la touche Suppr de votre clavier.
+Innanzitutto, effettuare una selezione della geometria. Quindi, fare clic con il pulsante destro del mouse per visualizzare il menu contestuale dove è possibile fare clic sullo **strumento Elimina**. È inoltre possibile premere il tasto ESC sulla tastiera.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Modifier
+## Modifica
 
-Lorsque vous utilisez de nombreux outils d’édition tels que Déplacer, Réseau, Face Pousser-Tirer et Décalage, une boîte de dialogue de cote bleue s’affiche. Vous pouvez cliquer sur cette cote une fois l’opération terminée et entrer une valeur spécifique. Vous pouvez également saisir une valeur numérique pour accéder à la boîte de dialogue Modifier la cote. Vous pouvez également appuyer sur la touche Tab pour afficher la boîte de dialogue Modifier la cote, mais la touche de tabulation n’est plus requise dans FormIt pour Windows 17 et versions ultérieures.
+Quando si utilizzano molti degli strumenti di modifica, come spostamento, matrice, spinta-trazione della superficie e offset, viene visualizzata una casella di quota blu. È possibile fare clic su questa quota dopo aver completato l'operazione e immettere un valore specifico. È inoltre possibile iniziare semplicemente digitando un valore numerico per accedere alla finestra di dialogo Modifica quota. In alternativa, è possibile premere TAB per visualizzare la finestra di dialogo Modifica quota, ma non è più necessario utilizzare TAB con FormIt per Windows v17 e versioni successive.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Déplacement d’arêtes, de faces ou d’objets
+## Spostamento di bordi, superfici o oggetti
 
-Tout d’abord, sélectionnez l’arête, la face ou l’objet. L’outil de déplacement est automatiquement activé. Placez le curseur sur la zone de dessin pour afficher les accrochages et les points de déduction permettant de spécifier l’emplacement où vous souhaitez commencer l’opération de déplacement, puis cliquez pour commencer. Déplacez maintenant le curseur de la souris pour afficher les accrochages et les points de déduction à l’emplacement où vous souhaitez déplacer l’objet. Cliquez à nouveau pour positionner l’objet.
+Innanzitutto selezionare il bordo, la superficie o l'oggetto. Lo strumento di spostamento viene attivato automaticamente. Posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione per specificare dove si desidera avviare l'operazione di spostamento, quindi fare clic per iniziare. Ora posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione nella posizione in cui si desidera spostare l'oggetto. Fare di nuovo clic per posizionare l'oggetto.
 
 ![](../.gitbook/assets/edit_edge.png)
 

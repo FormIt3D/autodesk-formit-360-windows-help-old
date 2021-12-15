@@ -1,94 +1,94 @@
-# Styles visuels
+# Stili di visualizzazione
 
-Personnalisez l’apparence visuelle de votre modèle, notamment l’éclairage global, les styles d’arêtes et les effets d’environnement. Pour accéder au groupe de fonctions Styles visuels, cliquez sur l’icône représentant des lunettes de soleil dans la barre de la palette :
+È possibile personalizzare l'aspetto visivo del modello, inclusi l'illuminazione complessiva, gli stili dei bordi e gli effetti ambientali. Il pannello Stili visualizzazione è disponibile facendo clic sull'icona degli occhiali da sole sulla barra delle tavolozze:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Les styles visuels [peuvent être définis par scène](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), ce qui vous permet d’enregistrer vos paramètres de style favoris et de les appliquer à d’autres scènes.
+Gli stili di visualizzazione [possono essere impostati per scena](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), in modo da poter salvare le impostazioni di stile preferite e applicarle ad altre scene.
 
-## Surfaces
+## Superfici 
 
-Gérez la façon dont les surfaces sont affichées et ombrées.
+Consente di gestire il modo in cui le superfici vengono visualizzate e ombreggiate.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-L’option **Luminosité ambiante** contrôle la luminosité globale de tous les matériaux de la scène. Une valeur de 100 signifie que les matériaux exposés à la lumière s’afficheront avec toute leur luminosité, comme définie dans la couleur ou la texture du matériau. Les valeurs supérieures à 100 exposent trop les matériaux, mais peuvent être utiles pour les modèles SketchUp qui semblent encore sombres dans FormIt. La valeur par défaut est de 100. 
+**Luminosità ambiente** controlla la luminosità complessiva di tutti i materiali nella scena. Un valore pari a 100 indica che i materiali esposti alla luce verranno visualizzati con la massima luminosità, come definito nel colore o nella trame del materiale. I valori superiori a 100 sovraesporranno i materiali, ma potrebbero essere utili per i modelli di SketchUp che sembrano ancora scuri in FormIt. Il valore di default è 100.
 
-L’option **Contraste ambiant** détermine l’intensité de l’ombre des faces sombres par rapport aux faces exposées à la lumière directe du soleil. Une valeur de 0 signifie que l’éclairage n’a aucun effet \(tous les matériaux apparaîtront avec leur luminosité totale quelle que soit leur orientation\), tandis que des valeurs plus élevées assombrissent de plus en plus les faces ombrées. La valeur par défaut est 25.
+**Contrasto ambiente** controlla il valore in base a cui risultano più scure le superfici all'ombra, se confrontate con quelle esposte alla luce diretta del sole. Un valore pari a 0 indica che l'illuminazione non ha effetto \(tutti i materiali verranno visualizzati in piena luminosità indipendentemente dall'orientamento\), mentre valori più elevati faranno apparire le superfici all'ombra sempre più scure. Il valore di default è 25.
 
-Activez/désactivez l’option **Ombres** pour découvrir comment votre conception serait [ombrée à l’heure actuelle](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Attivare/Disattivare **Ombre** per vedere come il progetto verrebbe [ombreggiato all'ora corrente del giorno](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-L’option **Intensité de l’ombre** détermine la façon dont les ombres sombres sont tracées sur le plan du sol et sur d’autres faces. Une valeur de 0 rend les ombres invisibles et une valeur de 100 rend les ombres noires. La valeur par défaut est de 20. 
+**Intensità ombra** controlla il modo in cui le ombre scure vengono disegnate sul piano del terreno e su altre superfici. Un valore pari a 0 rende le ombre effettivamente invisibili e un valore pari a 100 rende nere le ombre. Il valore di default è 20.
 
-L’option **Ombres ambiantes** ajoute une touche d’ombrage aux coins pour ajouter du réalisme à votre modèle FormIt.
+**Ombre ambiente** consente di aggiungere un tocco di ombreggiatura agli angoli per aggiungere realismo al modello di FormIt.
 
-L’option **Surfaces monotones** désactive la couleur et la texture de tous les matériaux et rend l’environnement blanc. Elle est utile pour les études d’ombres ou d’ombrage.
+**Superfici monocromatiche** disattiva il colore e la trama di tutti i materiali e rende bianco l'ambiente circostante. È utile per studi su ombre o ombreggiatura.
 
-La section Couleurs de surface définit les couleurs par défaut des faces lorsqu’aucun matériau n’est appliqué.
+La sezione Colori superficie definisce i colori di default per le superfici quando non viene applicato alcun materiale.
 
-L’option **Faces** est la couleur par défaut de toutes les faces avant de FormIt \(ou des deux côtés, si l’option Faces arrière est désactivée\) lorsqu’aucun matériau n’est appliqué.
+**Superfici** è il colore di default di tutte le superfici di FormIt anteriori \(o entrambi i lati, se l'opzione Superfici posteriori è deselezionata\) quando non viene applicato alcun materiale.
 
-L’option **Faces arrière** permet d’afficher différents matériaux de chaque côté d’une face unique pour les modèles SketchUp importés dans FormIt et qui en ont besoin. Cette option est désactivée par défaut, mais elle est activée lorsque des modèles SketchUp sont ouverts ou importés. Dans une géométrie autre que SketchUp, la couleur de la face arrière spécifiée s’affiche sur les côtés arrière des faces.
+**Superfici posteriori** consente di visualizzare materiali diversi su entrambi i lati di una singola superficie, per i modelli di SketchUp importati in FormIt e che richiedono tale funzionalità. Questa opzione è deselezionata per default, ma viene selezionata quando i modelli di SketchUp vengono aperti o importati. Nella geometria non di SketchUp, il colore di Superfici posteriori specificato viene visualizzato sui lati posteriori delle superfici.
 
-Utilisez les sections Effets de coupe et Effets de pochage de coupe pour gérer les couleurs par défaut des faces, des lignes et l’effet de pochage lorsque l’outil [Plan de coupe](section-planes.md) est utilisé.
+Utilizzare le sezioni Effetti di taglio sezione ed Effetti scuri sezione per gestire i colori di default di superfici, linee e l'effetto scuro quando si utilizza lo strumento [Piano di sezione](section-planes.md).
 
-## Plans du sol
+## Piani del terreno
 
-Lorsque le plan du sol est désactivé en mode de modification de groupe, la grille du plan de construction bleu est également désactivée.
+Quando l'opzione Piano del terreno è disattivata in modalità di modifica del gruppo, anche la griglia di Piano di lavoro blu è disattivata.
 
-La couleur du plan de construction peut également être personnalisée à partir du groupe de fonctions Styles visuels.
+Il colore di Piano di lavoro può essere personalizzato anche dal gruppo Stili visualizzazione.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Arêtes
+## Bordi
 
-Gérez le style d’affichage de toutes les arêtes du modèle.
+Consente di gestire lo stile di visualizzazione di tutti i bordi del modello.
 
 ![](../.gitbook/assets/edges.PNG)
 
-L’option **Contraste** affecte la visibilité de toutes les arêtes. Une valeur de 0 rend les arêtes invisibles. La valeur par défaut est 60.
+**Contrasto** influisce sulla visibilità di tutti i bordi. Un valore pari a 0 renderebbe i bordi effettivamente invisibili. Il valore di default è 60.
 
-L’option **Couleur** affecte la couleur de toutes les arêtes du modèle. La valeur par défaut est le noir.
+**Colore** influisce sul colore di tutti i bordi del modello. Il valore di default è il nero.
 
-L’option **Arêtes épaisses** permet d’épaissir toutes les arêtes, y compris les arêtes de silhouette.
+**Bordi spessi** rende tutti i bordi più spessi, inclusi i bordi delle silhouette.
 
-L’option **Arêtes d’esquisse** ajoute un effet d’esquisse à toutes les arêtes, afin de simuler un effet de dessin à main levée.
+**Bordi di schizzo** aggiunge un effetto di schizzo a tutti i bordi per simulare un effetto di disegno a mano.
 
-L’option **Arêtes masquées** affiche les arêtes masquées par les surfaces.
+**Bordi nascosti** visualizza i bordi altrimenti occlusi dalle superfici.
 
-L’option **Arêtes étendues** ajoute une extension à certaines arêtes pour simuler un effet de dessin à main levée.
+**Bordi estesi** aggiunge un'estensione ad alcuni bordi per simulare un effetto di disegno a mano.
 
-## Environnement
+## Ambiente
 
-Activez ou désactivez l’affichage des effets d’environnement et des objets assistants.
+Consente di attivare/disattivare la visualizzazione degli effetti ambientali e degli oggetti di supporto.
 
 ![](../.gitbook/assets/environment.PNG)
 
-L’option **Grille** contrôle l’affichage de la grille sur le plan du sol, ainsi que la grille affichée lors de la modification d’un groupe. L’option « Accrocher à la grille » est désactivée lorsque la grille est désactivée.
+**Griglia** controlla la visualizzazione della griglia sul piano del terreno, nonché la griglia mostrata durante la modifica di un gruppo. L'opzione Snap alla griglia verrà disattivata quando Griglia è disattivata.
 
-L’option **Axes** contrôle l’affichage des axes XYZ qui s’affichent à l’origine universelle ou à l’origine du groupe en cas de modification d’un groupe.
+**Assi** controlla la visualizzazione degli assi XYZ mostrati in corrispondenza dell'origine globale o dell'origine del gruppo se si modifica un gruppo.
 
-L’option **Niveaux** contrôle l’affichage des [**niveaux**](levels-and-area.md) ****définis dans le groupe de fonctions Niveaux.
+**Livelli** controlla la visualizzazione dei [**livelli**](levels-and-area.md) ****impostati nel pannello Livelli.
 
-L’option **Brouillard** contrôle l’affichage du brouillard dessiné afin de créer une transition homogène entre le plan du sol et le ciel. Si vous désactivez cette option, une ligne d’horizon continue apparaît à l’endroit où le plan du sol \(si activé\) rencontre le ciel.
+**Nebbia** controlla la visualizzazione della nebbia disegnata per rendere fluida la transizione tra il piano del terreno e il cielo. Se si disattiva Nebbia, viene generata una linea orizzontale netta in cui il piano del terreno \(se attivato\) incontra il cielo.
 
-L’option **Flèche nord** contrôle l’affichage d’un petit widget graphique qui indique la direction du nord du projet \(déterminée par l’emplacement et l’image satellite\).
+**Freccia nord** controlla la visualizzazione di un piccolo widget grafico che indica la direzione del nord di progetto \(come determinato dalla posizione e dalle immagini satellitari\).
 
-Les couleurs d’environnement, telles que le ciel, l’arrière-plan et le plan du sol, peuvent également être personnalisées.
+È possibile personalizzare anche i colori ambientali, quali il cielo, lo sfondo e il piano del terreno.
 
-Le ciel est constitué d’un dégradé de couleurs **Inférieur/arrière-plan**, **Milieu** et **Supérieur**.
+Il cielo è costituito da una sfumatura di colori **Inferiore/Sfondo**, **Centrale** e **Superiore**.
 
-Si l’option **Ciel** est désactivée, seule la couleur **Inférieur/arrière-plan** est visible.
+Se l'opzione **Cielo** è deselezionata, sarà visibile solo il colore **Inferiore/Sfondo**.
 
-## Diagnostics
+## Diagnostica modello
 
-Activez ou désactivez l’affichage des outils de diagnostic.
+Attiva/Disattiva la visualizzazione degli strumenti diagnostici.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-L’option **Identifier les problèmes d’étanchéité** surligne en rouge toutes les arêtes qui ne font pas partie d’un objet solide étanche.
+**Identifica i problemi delle superfici a tenuta ermetica** evidenzia in rosso tutti i bordi che non fanno parte di un oggetto solido a tenuta ermetica.
 
-L’option **Faces arrière** surligne en rouge toutes les faces qui sont orientées dans la mauvaise direction \(les faces arrière de tous les objets solides doivent être orientées vers l’intérieur de la forme solide\).
+**Identifica le superfici posteriori** evidenzia in rosso tutte le superfici rivolte in modo errato \(tutti gli oggetti solidi devono avere le superfici posteriori rivolte verso l'interno della forma del solido\).
 
-[En savoir plus sur l’utilisation des diagnostics d’étanchéité et de faces arrière afin d’identifier et de corriger les problèmes liés aux modèles solides](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Ulteriori informazioni sull'utilizzo della diagnostica per le superfici a tenuta ermetica e posteriori per identificare e risolvere i problemi relativi ai modelli solidi](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

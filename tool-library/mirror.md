@@ -1,13 +1,13 @@
-# Mise en miroir
+# Copia speculare
 
-Utilisez l’outil Miroir pour créer une réplique exacte d’un objet.
+Utilizzare lo strumento Copia speculare per creare un duplicato speculare di un oggetto.
 
-Pour mettre en miroir un objet :
+Per creare la copia speculare di un oggetto:
 
-1. Double-cliquez pour sélectionner un seul objet ou cliquez une fois pour sélectionner un groupe.
-2. Cliquez avec le bouton droit de la souris, puis choisissez l’outil Miroir dans le menu contextuel ou tapez le raccourci clavier **MI**.
-3. Un plan s’affiche et indique l’axe sur lequel l’objet sera mis en miroir. Le plan peut être déplacé ou pivoté pour personnaliser l’axe de la symétrie.
-4. Lorsque vous avez terminé d’ajuster le plan de l’objet mis en miroir, cliquez n’importe où en dehors de la sélection.
+1. Fare doppio clic per selezionare un singolo oggetto o fare un singolo clic per selezionare un gruppo.
+2. Fare clic con il pulsante destro del mouse e scegliere lo strumento Copia speculare dal menu contestuale o digitare il tasto di scelta rapida **MI**.
+3. Viene visualizzato un piano che mostra l'asse su cui verrà creata la copia speculare dell'oggetto. Il piano può essere spostato o ruotato per personalizzare l'asse della copia speculare.
+4. Dopo aver regolato il piano dell'oggetto speculare, fare clic in un punto qualsiasi al di fuori della selezione.
 
 ![](../.gitbook/assets/mirror.png)
 

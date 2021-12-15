@@ -1,14 +1,15 @@
-### Opérations booléennes
-Utilisez les opérations Joindre et Couper pour modifier des objets.
+### Operazioni booleane
+Utilizzare le operazioni Unisci e Taglia per modificare gli oggetti.
 
-#### Joindre
-Pour effectuer une union, sélectionnez tous les objets que vous souhaitez convertir en booléen. Ensuite, sélectionnez l’**outil Joindre** dans le menu contextuel. La partie de la géométrie qui se croise ou se chevauche est regroupée en un seul objet.
+#### Unisci
+Per eseguire un'unione, selezionare tutti gli oggetti che si desidera includere nelle operazioni booleane. Quindi, selezionare lo **strumento Unisci** dal menu contestuale. La parte intersecante/sovrapposta della geometria verrà unita in un unico oggetto.
 
-![] (images/join tool.png)
+![](images/join tool.png)
 
-#### Ouverture
-Pour soustraire des volumes d’une géométrie existante, sélectionnez d’abord l’objet d’origine. Ensuite, sélectionnez l’objet que vous souhaitez soustraire. Sélectionnez ensuite l’**outil Couper** dans le menu contextuel. Le volume d’intersection est soustrait de l’objet d’origine.
+#### Taglia
+Per sottrarre volumi dalla geometria esistente, selezionare prima l'oggetto originale. Successivamente selezionare l'oggetto da cui sottrarre. Quindi selezionare lo **strumento Taglia** dal menu contestuale. Il volume intersecato verrà sottratto dall'oggetto originale.
 
-![](images/cut tool.png)![](images/cut finish.PNG)
+![](images/cut tool.png)
+![](images/cut finish.PNG)
 
 

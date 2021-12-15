@@ -1,6 +1,6 @@
-# Scènes
+# Scene
 
-Vous pouvez enregistrer un point de vue de « scène » et les styles visuels et états de calque associés, puis les utiliser pour configurer des points de caméra afin de guider les visites virtuelles et de raconter une histoire visuelle.
+È possibile salvare il punto di vista di una "scena" e i relativi stili di visualizzazione e stati dei layer, quindi utilizzare questi elementi per impostare i punti della cinepresa per guidare le animazioni e raccontare una storia visiva.
 
-Pour en savoir plus sur l’utilisation des scènes, cliquez [ici](../formit-primer/part-i/visual-settings.md).
+Ulteriori informazioni sull'utilizzo delle scene sono disponibili [qui](../formit-primer/part-i/visual-settings.md).
 

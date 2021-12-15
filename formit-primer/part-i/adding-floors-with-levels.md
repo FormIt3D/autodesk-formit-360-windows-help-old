@@ -1,36 +1,36 @@
-# 1.4 – Ajout de sols avec des niveaux
+# 1.4 - Aggiunta di pavimenti con livelli
 
-_Les niveaux vous permettent de sectionner des volumes avec des références de sol individuelles et de calculer l’aire brute par volume du bâtiment. Les niveaux FormIt et leurs noms personnalisés sont convertis en niveaux Revit lorsque le fichier est converti dans Revit._
+_I livelli consentono di tagliare le masse con singoli riferimenti del pavimento e calcolare l'area lorda per massa dell'edificio. I livelli di FormIt e i relativi nomi personalizzati verranno convertiti in livelli di Revit quando il file viene convertito in Revit._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier **1.4 - Add Floors with Levels.axm** à partir du dossier **Jeux de données Partie I FormIt Primer**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file **1.4 - Add Floors with Levels.axm** dai **set di dati della Parte I della Guida introduttiva di FormIt**._
 
-## **Création et personnalisation de niveaux**
+## **Creazione e personalizzazione di livelli**
 
-1 – Pour créer des niveaux, procédez comme suit :
+1 - Per creare livelli:
 
-1. Accédez à la **palette Niveaux** dans la **barre des palettes**.
-2. Cliquez sur **+** \(**Ajouter un niveau**\) quatre fois pour créer quatre niveaux.
-3. Double-cliquez sur l’élévation actuelle de chaque niveau pour les modifier comme suit : **0’-0", 2’-2", 4’-6"** et **17’-8"**.
-4. Double-cliquez sur le nom actuel de chaque niveau et renommez-les : **Sol, Terrasse, Bâtiment principal** et **Haut du toit.**
+1. Accedere alla **tavolozza Livelli** sulla **barra delle tavolozze**.
+2. Fare clic su **+** \(**Aggiungi livello**\) quattro volte per creare quattro livelli.
+3. Fare doppio clic sulla quota altimetrica corrente di ciascun livello per modificarla in **0'-0", 2'-2", 4'-6"** e **17'-8"**.
+4. Fare doppio clic sul nome corrente di ciascun livello e rinominarlo **Ground, Terrace, Main Building,** e **Top of Roof.**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Remarque** : vous pouvez cliquer sur l’icône_ _**++**_ _pour créer plusieurs niveaux, séparés par une distance spécifiée et uniforme. Cette option est pratique pour les bâtiments de plusieurs étages_.
+_**Nota** È possibile fare clic sull'icona_ _**++**_ _per creare più livelli, con una distanza specificata e uniforme tra loro. Questa opzione è utile per gli edifici a più piani_.
 
-## **Application de niveaux à la géométrie**
+## **Applicazione di livelli alla geometria**
 
-_Dans les étapes précédentes, nous avons uniquement créé des niveaux. Vous pouvez à présent appliquer ces niveaux à la géométrie que vous avez créée._
+_Nei passaggi precedenti, abbiamo creato solo i livelli. Ora possiamo applicare tali livelli alla geometria che abbiamo creato._
 
-1 – Pour appliquer les niveaux à la géométrie existante, procédez comme suit :
+1 - Per applicare i livelli alla geometria esistente:
 
-1. Double-cliquez sur le volume supérieur de la terrasse pour le sélectionner.
-2. Dans la **palette Propriétés**, cliquez sur **Utiliser les niveaux**. Cette étape permet de présélectionner tous les niveaux qui coupent actuellement la géométrie sélectionnée.
-3. Trois niveaux sont maintenant appliqués à la géométrie sélectionnée \(**Bâtiment principal, Terrasse** et **Sol**\), mais dans le cadre de cet exercice, nous allons uniquement appliquer l’option **Sol**. Désactivez les cases **Bâtiment principal** et **Terrasse**.
-4. Cette procédure permet de s’assurer que seule la surface coupée par le **sol** est prise en compte pour le calcul de l’aire brute, qui peut être visualisée dans le champ **Aire par niveau**.
+1. Selezionare l'intera massa della terrazza superiore facendovi doppio clic.
+2. Nella **tavolozza Proprietà**, fare clic su **Usa livelli**. Con questo passaggio si preselezionano tutti i livelli che attualmente intersecano la geometria selezionata.
+3. Ora alla geometria attualmente selezionata sono applicati tre livelli \(**Main Building, Terrace** e **Ground**\), ma per questo esercizio desideriamo applicare solo **Ground**. Deselezionare **Main Building** e **Terrace**.
+4. Questa procedura garantisce che solo l'area intersecata da **Ground** venga considerata per il calcolo dell'area lorda, che può essere visualizzato nel campo **Area per livello**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Remarque** : si aucune ligne de niveau bleue ne s’affiche sur le volume, tapez_ _**DL**_ _pour utiliser l’outil_ _**Afficher les niveaux**._
+_**Nota** Se non sono visualizzate linee di livello blu nella massa, digitare_ _**DL**_ _per_ _**Visualizza livelli**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

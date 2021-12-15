@@ -1,93 +1,93 @@
-# 1.2 – Configuration d’un projet avec des images et une grille
+# 1.2 - Impostazione del progetto con immagini e griglia
 
-_Pour importer des images PNG ou JPG sur le plan du sol du modèle, sélectionnez Fichier > Importer dans la barre de navigation. Toutefois, pour mieux contrôler l’échelle et la position d’une image importée, vous pouvez créer un matériau personnalisé et l’appliquer à un rectangle que vous avez dessiné vous-même._
+_È possibile importare immagini PNG o JPG sul piano del terreno del modello selezionando File > Importa dalla barra di navigazione. Tuttavia, per ottenere un maggiore controllo sulla scala e sulla posizione di un'immagine importata, è possibile creare un materiale personalizzato e applicarlo ad un rettangolo che abbiamo disegnato da soli._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.2 – Project Set Up with Images and Grid.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.2 - Project Set Up with Images and Grid.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di Primer**._
 
-## **Calcul de la taille de l’image**
+## **Calcolo della dimensione dell'immagine**
 
-Le fichier **plan.png** fourni est l’image d’un plan imprimé sur une feuille de 24” x 26” \(ARCH D\) dont la résolution est de 3 600 pixels de large sur 2 400 pixels de haut. Grâce à l’échelle du dessin \(¼ po = 1 pi-0 po\) et les dimensions de l’image, vous pouvez calculer que 1’ = 25 pixels, ce qui signifie que l’image doit être de 144’ x 96’ lorsqu’elle est importée dans FormIt à pleine échelle.
+Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio da 24" x 26" \(ARCH D\), che è 3600 pixel di larghezza per 2400 pixel di altezza. Conoscendo la scala del disegno \(¼"=1'-0"\) e le quote dell'immagine, è possibile calcolare 1' = 25 pixel, il che significa che l'immagine deve essere 144' x 96' quando viene importata in FormIt in scala intera.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Importation d’une image à l’échelle**
+## **Importazione di un'immagine in scala**
 
-1 – Cliquez sur l’icône **Vue de dessus** dans la **barre de navigation flottante** pour visualiser la scène du dessus.
+1 - Fare clic sull'icona **Vista dall'alto** sulla **barra degli strumenti Navigazione mobile** per visualizzare la scena dall'alto.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 – Choisissez l’**outil Rectangle \(R\)** dans la barre d’outils Esquisse 3D.
+2 - Scegliere lo **strumento Rettangolo \(R\)** dalla barra degli strumenti di disegno 3D.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – Pour créer un rectangle ayant les dimensions exactes de **144’** x **96’**, cliquez n’importe où dans l’espace de travail pour définir le point de départ, puis déplacez la souris pour afficher un aperçu et définir la première longueur de côté. Commencez à saisir une valeur de cote pour accéder à une boîte de dialogue dans laquelle vous pouvez entrer la cote exacte. Cliquez sur **OK** ou appuyez sur la touche **Entrée** pour valider la cote. Répétez la procédure pour définir la longueur du deuxième côté et terminer le rectangle.
+3 - Per creare un rettangolo che sia esattamente **144'** x **96'**, fare clic in un punto qualsiasi dell'area di lavoro per definire il punto iniziale, quindi spostare il mouse per visualizzare l'anteprima e definire la lunghezza del primo lato. Iniziare a digitare un valore di quota per accedere ad una finestra di dialogo in cui è possibile immettere la quota esatta. Fare clic su **OK** o premere il tasto **INVIO** per applicare la quota. Ripetere la procedura per impostare la lunghezza del secondo lato e terminare il rettangolo.
 
-![Saisissez la longueur du premier côté du rectangle.](../../.gitbook/assets/3%20%281%29.png)
+![ Immettere la lunghezza per il primo lato del rettangolo.](../../.gitbook/assets/3%20%281%29.png)
 
-![Saisissez la longueur du deuxième côté du rectangle.](../../.gitbook/assets/4%20%281%29.png)
+![Immettere la lunghezza per il secondo lato del rettangolo.](../../.gitbook/assets/4%20%281%29.png)
 
-![Terminez le rectangle.](../../.gitbook/assets/5%20%281%29.png)
+![Terminare il rettangolo.](../../.gitbook/assets/5%20%281%29.png)
 
-4 – Pour créer le matériau « Plan d’étage » procédez comme suit :
+4 - Per creare il nuovo materiale "Floor Plan":
 
-1. Ouvrez la **palette Matériaux**.
-2. Cliquez sur l’icône **+** pour créer un matériau.
-3. Nommez le nouveau matériau « **Plan d’étage ».**
-4. Sous **CARTES**, cliquez sur la mosaïque d’aperçu **Texture** et accédez au fichier **plan.png** dans le dossier **Jeu de données Maison Farnsworth > Fichiers de support > Images**. Ensuite, cliquez sur **Ouvrir**.
-5. Sous **PROPRIÉTÉS**, modifiez l’échelle de l’image en saisissant **144’** dans le champ **Échelle horizontale** et **96’** dans le champ **Échelle verticale**. Il se peut que vous deviez déverrouiller les échelles horizontale et verticale \(icône de **maillons de chaîne**\) afin d’insérer des valeurs qui modifient les proportions de l’image.
-6. Cochez la case **Transparence** et définissez le curseur au milieu de la plage environ. Cela permet d’aligner l’image du plan d’étage importée sur l’image satellite.
-7. Cliquez sur **OK** pour terminer le matériau.
+1. Aprire la **tavolozza Materiali**.
+2. Fare clic sull'icona **+** per creare un nuovo materiale.
+3. Assegnare al nuovo materiale il nome "**Floor Plan".**
+4. In **MAPPE**, fare clic sul riquadro di anteprima delle **trame** e individuare **plan.png** nella cartella **Farnsworth House Data Set &gt; Supporting Files &gt; Images**. Quindi fare clic su **Apri**.
+5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'** nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale \(icona della **catena**\) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
+6. Selezionare **Trasparenza** e impostarla su circa la metà. In questo modo, l'immagine della pianta del pavimento importata verrà allineata all'immagine satellitare.
+7. Fare clic su **OK** per terminare il materiale.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 – Pour peindre le rectangle, procédez comme suit :
+5 - Per dipingere il rettangolo:
 
-1. Dans la **palette Matériaux**, cliquez sur la mosaïque du matériau **Floor Plan** (Plan d’étage) pour peindre avec ce matériau.
-2. Cliquez sur le rectangle que vous avez dessiné pour le peindre. Appuyez sur **Échap** pour quitter l’outil Pinceau.
+1. Nella **tavolozza Materiali**, fare un singolo clic sul riquadro del **materiale Floor Plan** per dipingere con questo materiale. 
+2. Fare clic sul rettangolo disegnato per dipingerlo. Premere **ESC** per uscire dallo strumento del pennello.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 – Si le matériau apparaît à l’envers ou inversé, vous devrez peut-être inverser la face. Pour ce faire, cliquez avec le bouton droit de la souris pour accéder au **menu contextuel**, puis choisissez le bouton Inverser la face \(FF\).
+6 - Se il materiale viene visualizzato invertito o all'indietro, potrebbe essere necessario invertire la superficie. A tale scopo, fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e selezionare il pulsante Inverti superficie \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Alignement de l’image importée sur l’image satellite**
+## **Allineamento dell'immagine importata all'immagine satellitare**
 
-1 – Pour déplacer l’image, double-cliquez d’abord sur le rectangle pour le sélectionner. Ensuite, cliquez sur le rectangle et faites-le glisser jusqu’à ce qu’il chevauche le bâtiment dans l’image satellite. Pour le moment, essayez d’aligner le rectangle le mieux possible. Nous ajusterons l’alignement ultérieurement.
+1 - Per spostare l'immagine, selezionare innanzitutto il rettangolo facendo doppio clic. Quindi fare clic e trascinare il rettangolo, quindi spostarlo fino a quando non si sovrappone all'edificio nell'immagine satellitare. Torneremo ad allinearlo perfettamente in un secondo momento, ma cercheremo di fare del nostro meglio per ora.
 
 ![](../../.gitbook/assets/9.png)
 
-2 – Pour faire pivoter le rectangle afin de l’aligner sur l’image Satellite, procédez comme suit :
+2 - Per ruotare il rettangolo in modo da allinearlo all'immagine satellitare:
 
-1. Cliquez avec le bouton droit de la souris sur le rectangle pour afficher le menu contextuel. Choisissez l’outil **Rotation \(Q\).**
-2. Le **widget Rotation** s’affiche au milieu du rectangle. Pour sélectionner le widget, cliquez une fois sur la poignée orange au milieu. Déplacez le widget vers le coin inférieur gauche du rectangle. Il s’accroche au coin. Cliquez pour le placer.
-3. Tapez **9**. La zone de cote s’affiche. Cliquez sur **OK** pour faire pivoter le rectangle de 9 degrés dans le sens anti-horaire.
+1. Fare clic con il pulsante destro del mouse sul rettangolo per visualizzare il menu contestuale. Scegliere **Ruota \(Q\).**
+2. Viene visualizzato il **widget Ruota** al centro del rettangolo. Selezionare il widget facendo clic una volta sul grip arancione al centro. Spostare il widget nell'angolo inferiore sinistro del rettangolo. Verrà eseguito lo snap all'angolo. Fare clic per posizionarlo.
+3. Digitare **9**. Verrà visualizzata la casella di quota. Fare clic su **OK** per ruotare il rettangolo in senso antiorario di 9 gradi.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Alignement de la grille sur l’image satellite**
+## **Allineamento della griglia all'immagine satellitare**
 
-1 – Nous allons maintenant aligner la grille sur l’image satellite et le plan d’étage. Cliquez avec le bouton droit de la souris n’importe où sur le **plan du sol**, puis choisissez **Définir les axes \(SZ\)**.
+1 - Ora allineeremo la griglia all'immagine satellitare e alla pianta del pavimento. Fare clic con il pulsante destro del mouse in un punto qualsiasi del **piano del terreno** e scegliere **Imposta assi \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – Le widget **Définir l’axe** s’affiche. Déplacez l’axe vers le coin inférieur gauche du rectangle, où il doit s’accrocher. Cliquez pour le placer.
+2 - Viene visualizzato il widget **Imposta assi**. Spostare l'asse nell'angolo inferiore sinistro del rettangolo, dove dovrebbe essere eseguito lo snap. Fare clic per posizionarlo.
 
 ![](../../.gitbook/assets/13.png)
 
-3 – Cliquez sur la poignée située à l’extrémité de l’axe rouge. Déplacez la poignée vers le coin inférieur droit du rectangle de sorte que l’axe rouge soit aligné avec le bord inférieur du plan. Cliquez en dehors de l’espace pour valider cette modification.
+3 - Fare clic sul grip all'estremità dell'asse rosso. Spostare il grip nell'angolo inferiore destro del rettangolo in modo che l'asse rosso si allinei con il bordo inferiore del piano. Fare clic nello spazio per applicare questa modifica.
 
 ![](../../.gitbook/assets/14.png)
 
-4 – Pour aligner la vue sur la nouvelle grille, cliquez sur l’icône Vue de dessus dans la barre de navigation pour réinitialiser la scène.
+4 - Per allineare la vista alla nuova griglia, fare clic sull'icona Vista dall'alto sulla barra di navigazione per reimpostare la scena.
 
 ![](../../.gitbook/assets/15.png)
 
-5 – Pour vous assurer que les deux images du bâtiment se superposent, sélectionnez le plan pour le déplacer une fois de plus jusqu’à ce qu’il chevauche correctement l’image satellite.
+5 - Per garantire che l'edificio in entrambe le immagini si sovrapponga, selezionare la pianta per spostarla nuovamente fino a quando non si sovrappone correttamente all'immagine satellitare.
 
 ![](../../.gitbook/assets/16.png)
 
-6 – L’image satellite, le rectangle et la grille sont désormais alignés, ce qui simplifie l’esquisse 3D.
+6 - L'immagine satellitare, il rettangolo e la griglia sono ora allineati, il che semplifica il disegno 3D.
 

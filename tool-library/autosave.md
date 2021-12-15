@@ -1,54 +1,54 @@
-# Enregistrement automatique
+# Salvataggio automatico
 
-À partir de la version v17.3, FormIt pour Windows inclut la fonction Enregistrement automatique, permettant de créer une copie de sauvegarde de votre modèle FormIt pendant que vous travaillez. Ce fichier de sauvegarde peut être utilisé pour récupérer des données si FormIt se ferme avec des modifications non enregistrées.
+A partire dalla versione v17.3, FormIt per Windows include il comando Salvataggio automatico che crea una copia di backup del modello di FormIt mentre si lavora. Questo file di backup può essere utilizzato per recuperare i dati se FormIt si chiude con modifiche non salvate.
 
-### Activation/désactivation de la fonction Enregistrement automatique
+### Attivazione/Disattivazione di Salvataggio automatico
 
-Recherchez les options de configuration de la fonction Enregistrement automatique dans Modifier > Préférences > Enregistrement automatique.
+Le opzioni di configurazione per Salvataggio automatico sono presenti in Modifica &gt; Preferenze &gt; Salvataggio automatico.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-La fonction Enregistrement automatique est activée par défaut. Pour la désactiver complètement, il vous suffit de décocher la case.
+Il comando Salvataggio automatico è attivato di default, ma può essere disattivato completamente deselezionando semplicemente la casella.
 
-Pour définir l’intervalle \(en minutes\) auquel l’enregistrement automatique effectuera une copie de sauvegarde, saisissez une valeur dans la case numérique « Intervalle d’enregistrement automatique ».
+Impostare l'intervallo \(in minuti\) in cui Salvataggio automatico eseguirà una copia di backup immettendo un valore nella casella del numero Intervallo di Salvataggio automatico.
 
-Notez que ces préférences sont définies au niveau de l’application et ne changent pas lors de l’ouverture de différents fichiers.
+Tenere presente che queste preferenze sono a livello di applicazione e non verranno modificate quando si aprono file diversi.
 
-### Fonctionnement de la fonction Enregistrement automatique
+### Funzionamento di Salvataggio automatico
 
-Lorsque la fonction Enregistrement automatique est activée, elle détermine si le fichier FormIt actif contient des modifications non enregistrées. Si des modifications ne sont pas enregistrées, l’enregistrement automatique crée une copie de sauvegarde du fichier à l’intervalle spécifié.
+Quando l'opzione Salvataggio automatico è attivata, determina se il file di FormIt corrente contiene modifiche non salvate. Se sono presenti modifiche non salvate, Salvataggio automatico crea una copia di backup del file all'intervallo specificato.
 
-Les fichiers de sauvegarde sont stockés à côté du fichier d’origine et portent l’extension `.axmb`.
+I file di backup vengono memorizzati accanto al file originale e hanno un'estensione `.axmb`.
 
-Par exemple, si votre fichier FormIt d’origine est stocké dans `C:/Users/<user>/FormIt/MyProject.axm`, le fichier de sauvegarde se trouve dans `C:/Users/<user>/FormIt/MyProject.axmb`.
+Ad esempio, se il file di FormIt originale è memorizzato in `C:/Users/<user>/FormIt/MyProject.axm`, il file di backup è disponibile in `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-Si vous démarrez une nouvelle session FormIt sans ouvrir de fichier existant, les modifications non enregistrées sont disponibles à l’adresse `C:/Users/<user>/Documents/Untitled.axmb`. Une fois le nouveau modèle enregistré dans un autre emplacement, la sauvegarde commence à ajouter des modifications non enregistrées à côté du nouvel emplacement, comme indiqué ci-dessus.
+Se si avvia una nuova sessione di FormIt senza aprire un file esistente, le modifiche non salvate sono disponibili in `C:/Users/<user>/Documents/Untitled.axmb`. Dopo aver salvato il nuovo modello in un'altra posizione, con il backup si inizieranno ad aggiungere le modifiche non salvate nella nuova posizione, come indicato in precedenza.
 
-Lorsque vous enregistrez les modifications apportées au fichier d’origine, l’enregistrement automatique supprime automatiquement le fichier de sauvegarde, car la sauvegarde est désormais plus ancienne que le fichier d’origine. Toutefois, si vous apportez des modifications ultérieures au fichier enregistré, l’option d’enregistrement automatique vous invite à recommencer la sauvegarde à l’intervalle spécifié.
+Quando si salvano le modifiche apportate al file originale, Salvataggio automatico elimina automaticamente il file di backup poiché il backup è ora meno recente del file originale. Tuttavia, se si apportano modifiche successive al file salvato, verrà richiesto di avviare nuovamente il backup di Salvataggio automatico all'intervallo specificato.
 
-Si votre fichier de travail comporte des modifications non enregistrées et que vous décidez de fermer FormIt et d’ignorer les modifications, la sauvegarde d’enregistrement automatique sera supprimée. Toutefois, si FormIt doit se fermer (soit par un arrêt de l’ordinateur, soit par un blocage de l’application), le fichier de sauvegarde d’enregistrement automatique est conservé et peut être utilisé ultérieurement pour récupérer des données.
+Se il file di lavoro contiene modifiche non salvate e si sceglie di chiudere FormIt e ignorare le modifiche, il backup di Salvataggio automatico verrà eliminato. Tuttavia, se si forza la chiusura di FormIt, tramite un arresto del computer o un arresto anomalo di un'applicazione, il file di backup di Salvataggio automatico rimarrà e potrà essere utilizzato in un secondo momento per recuperare i dati.
 
-### Utilisation de la fonction Enregistrement automatique
+### Utilizzo di Salvataggio automatico attivato
 
-FormIt minimise l’impact potentiel de l’enregistrement automatique sur les performances en exécutant la sauvegarde dans un processus distinct. Dans le cas de fichiers de petite et de moyenne taille, vous ne devriez pas remarquer quand la fonction Enregistrement automatique effectue une sauvegarde. Dans le cas de fichiers très volumineux \(400 Mo environ et plus\), vous pouvez remarquer une pause momentanée pendant que FormIt copie le modèle entier et commence la sauvegarde dans un processus distinct.
+FormIt riduce al minimo l'impatto potenziale di Salvataggio automatico sulle prestazioni eseguendo il backup in un processo separato. Con i file di piccole e medie dimensioni, non si dovrebbe notare quando si esegue il backup di AutoSave. Con file molto grandi \(oltre 400 MB\), si potrebbe notare una pausa momentanea mentre in FormIt viene copiato l'intero modello e si inizia il backup in un processo separato.
 
-Si vous souhaitez savoir si un enregistrement automatique est en cours, consultez la barre d’état située dans la partie inférieure gauche de l’application pour vérifier si le message d’enregistrement automatique suivant est affiché :
+Se si desidera sapere se Salvataggio automatico è attualmente in fase di backup, è possibile controllare la barra di stato nella parte inferiore sinistra dell'applicazione per ricercare il breve messaggio Salvataggio automatico in corso...:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-Si votre barre d’état est désactivée, activez-la dans Windows > Barre d’état ou via le raccourci HS.
+Se la barra di stato è disattivata, è possibile attivarla in Finestra &gt; Barra di stato o tramite il collegamento HS.
 
-### Récupération de données avec la fonction Enregistrement automatique
+### Recupero di dati con Salvataggio automatico
 
-Lorsque vous ouvrez un fichier FormIt pour lequel une sauvegarde est disponible, FormIt vous avertit que le fichier de sauvegarde existe. Comme indiqué ci-dessus, cela peut être dû à la fermeture de FormIt sans que vous ayez choisi d’enregistrer les modifications apportées à ce projet lors de sa dernière modification ou à la fermeture inattendue de FormIt.
+Quando si apre un file di FormIt con un backup disponibile, l'utente viene avvisato che esiste il file di backup. Come già detto, questo problema potrebbe essere semplicemente dovuto alla chiusura di FormIt senza scegliere di salvare le modifiche apportate al progetto l'ultima volta che è stato modificato o a causa della chiusura imprevista di FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Cliquez sur l’hyperlien « Ouvrir ? » pour charger le fichier de sauvegarde `.axmb`.
+Facendo clic sul collegamento ipertestuale Aprirlo? si consente di caricare il file di backup `.axmb`.
 
-De même, vous pouvez utiliser Fichier > Ouvrir et sélectionner manuellement le fichier `.axmb` dans l’explorateur de fichiers pour ouvrir une sauvegarde.
+Analogamente, è possibile utilizzare File &gt; Apri e selezionare manualmente il file `.axmb` da Esplora file per aprire un backup.
 
-Une fois le fichier de sauvegarde ouvert, la prochaine fois que vous l’enregistrerez, FormIt vous demandera de choisir un autre fichier FormIt \(`.axm`\) à remplacer. Vous ne pouvez pas remplacer les fichiers de sauvegarde FormIt \(`.axmb`\).
+Una volta aperto il file di backup, al successivo salvataggio, in FormIt verrà richiesto di selezionare un file di FormIt diverso \(`.axm`\) da sovrascrivere. Non è possibile sovrascrivere i file di backup di FormIt \(`.axmb`\).
 
 
 

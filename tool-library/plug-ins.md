@@ -1,47 +1,47 @@
-# Modules d’extension
+# Plug-in
 
-Utilisez Plugin Manager pour installer des plug-ins utiles de l’équipe FormIt ou découvrez comment [**créer vos propres plug-ins FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Utilizzare Gestione plugin per installare plug-in utili dal team di FormIt o per apprendere come [**creare i plug-in di FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-#### FormIt Plugin Manager
+#### Gestione plugin di FormIt
 
-FormIt Plugin Manager fonctionne comme un hub permettant de découvrir et de gérer des plug-ins FormIt.
+Gestione plugin di FormIt funziona come un hub per la ricerca e la gestione dei plug-in di FormIt.
 
-Plugin Manager est chargé automatiquement au démarrage de FormIt, à condition que FormIt ait accès à Internet.
+Gestione plugin viene caricato automaticamente all'avvio di FormIt, purché FormIt disponga dell'accesso ad Internet.
 
-Vous pouvez accéder au gestionnaire de plug-ins en cliquant sur l’icône de son onglet située sur le côté droit de la fenêtre de l’application :
+È possibile accedere a Gestione plugin facendo clic sull'icona della relativa scheda sul lato destro della finestra dell'applicazione:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### Plugin Manager classe les différents types de plug-ins :
+#### Gestione plugin consente di classificare diversi tipi di plug-in:
 
-* **Plug-ins installés**
-* **Plug-ins recommandés**
-   * Les plug-ins recommandés par l’équipe FormIt permettent de développer les fonctionnalités de base de FormIt et de déverrouiller de nouveaux workflows.
-   * Les plug-ins développés par la communauté apparaissent ici après avoir été approuvés par l’équipe FormIt. Plus de détails à venir sur ce sujet.
-* **Plug-ins publics**
-   * Plug-ins créés par la communauté, mais qui n’ont pas été vérifiés ou approuvés par l’équipe FormIt.
+* **Plug-in installati**
+* **Plug-in consigliati**
+   * Plug-in consigliati dal team di FormIt per espandere le funzionalità principali di FormIt e sbloccare nuovi workflow.
+   * I plug-in sviluppati dalla community verranno visualizzati qui dopo l'approvazione da parte del team di FormIt. Ulteriori dettagli su questo argomento saranno forniti in futuro.
+* **Plug-in pubblici**
+   * Plug-in creati dalla community, ma che non sono stati rivisti o approvati dal team di FormIt.
 
-#### Plugin Manager est conçu à l’aide d’une série d’interfaces développables et réductibles, ce qui facilite la gestion des plug-ins et de leurs référentiels :
+#### Gestione plugin è stato progettato utilizzando una serie di interfacce espandibili e comprimibili, che semplificano la gestione dei plug-in e dei relativi repository:
 
-* **Gestion des plug-ins :**
-   * Cliquez sur un nom de plug-in pour en afficher la description.
-   * Activez ou désactivez le commutateur pour installer ou désinstaller le plug-in.
-      * Le plug-in se manifeste sous la forme d’une barre d’outils située dans la partie supérieure de l’application, d’un groupe de fonctions situé sur la droite ou d’une boîte de dialogue située au milieu, selon le type de plug-in.
-* Si vous [développez votre propre plug-in](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), vous pouvez ajouter son URL privée dans le champ situé en bas et cliquer sur \(+\) :
+* **Gestione dei plug-in:**
+   * Fare clic sul nome di un plug-in per visualizzarne la descrizione.
+   * Attivare/Disattivare l'interruttore per installarlo o disinstallarlo.
+      * Il plug-in viene visualizzato come barra degli strumenti nella parte superiore dell'applicazione, pannello sul lato destro o finestra di dialogo al centro, a seconda del tipo.
+* Se si sta [sviluppando un plug-in](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), è possibile aggiungere il relativo URL privato nel campo in basso e premere \(+\):
 
-![FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Gestione plugin di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### Fonctionnement des plug-ins
+#### Funzionamento dei plug-in
 
-* Les plug-ins sont basés sur le Web et disponibles dans FormIt pour Windows et FormIt pour le Web.
-* Les plug-ins sont constitués d’une série de fichiers et de dossiers hébergés sur GitHub ou sur un serveur local lors de la création de votre propre fichier.
-* Étant donné que les plug-ins externes \(plug-ins non hébergés localement\) nécessitent une connexion Internet pour se charger, les points suivants s’appliquent :
-   * Les plug-ins externes ne se chargent pas si aucune connexion Internet n’est détectée au démarrage de FormIt.
-   * Une fois chargés, certains plug-ins externes peuvent continuer à travailler en mode hors ligne pour cette session, mais d’autres peuvent se bloquer jusqu’à ce que la connectivité soit restaurée.
-   * Les plug-ins externes chargent le dernier code sur le serveur à chaque exécution, de sorte que leur fonctionnalité est mise à jour chaque fois que l’auteur apporte une modification.
-* Étant donné que ces plug-ins sont chargés de façon asynchrone, l’ordre des plug-ins dans l’interface FormIt peut changer dans chaque nouvelle session.
-* Plugin Manager utilise les clés de registre de Windows pour stocker les référentiels et les plug-ins installés.
-   * Si vous devez restaurer les paramètres par défaut de votre Plugin Manager, supprimez la clé de registre suivante :
+* I plug-in sono basati sul Web e sono disponibili in FormIt per Windows e FormIt per il Web.
+* I plug-in sono costituiti da una serie di file e cartelle ospitati su GitHub o su un server locale durante la creazione di file personalizzati.
+* I plug-in esterni \(i plugin non ospitati localmente\) richiedono una connessione ad Internet per il caricamento iniziale, il che significa che:
+   * I plug-in esterni non vengono caricati se, all'avvio di FormIt, non viene rilevata alcuna connessione ad Internet.
+   * Una volta caricati, alcuni plug-in esterni possono continuare a lavorare in modalità offline per tale sessione, ma altri potrebbero interrompersi fino al ripristino della connettività.
+   * I plug-in esterni caricano il codice più recente sul server ad ogni esecuzione, in modo che le loro funzionalità vengano aggiornate ogni volta che l'autore esegue il push di una modifica.
+* I plug-in vengono caricati in modo asincrono, ovvero l'ordine dei plug-in nell'interfaccia di FormIt può cambiare con ogni nuova sessione.
+* Gestione plugin utilizza le chiavi del Registro di sistema in Windows per memorizzare i repository e i plug-in installati.
+   * Se è necessario ripristinare le impostazioni di default di Gestione plugin, eliminare la seguente chiave del Registro di sistema:
       * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-      * Notez que cette action entraîne la désinstallation de tous les référentiels et plug-ins ajoutés par l’utilisateur, réinitialisant ainsi Plugin Manager afin d’inclure uniquement les référentiels et plug-ins intégrés.
+      * Si noti che questa operazione disinstallerà tutti i repository e i plug-in aggiunti dall'utente, reimpostando Gestione plugin in modo da includere solo quelli incorporati.
 

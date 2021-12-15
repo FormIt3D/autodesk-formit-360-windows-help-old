@@ -1,39 +1,39 @@
-# Configuration d’un projet
+# Impostazione del progetto
 
-## Démarrage
+## Avvio
 
-Lorsque vous démarrez FormIt, vous vous trouvez dans un environnement 3D. Prenez le temps d’apprendre à [naviguer dans l’espace 3D](navigating-the-scene.md), puis à construire un projet \([cliquez ici pour en savoir plus](../formit-primer/)\), à utiliser le menu Fichier pour ouvrir un projet FormIt existant ou à importer divers autres types de fichiers.
+Quando si avvia FormIt, si accede ad un ambiente 3D. Dedicare qualche minuto a imparare a [spostarsi all'interno dello spazio 3D](navigating-the-scene.md), quindi iniziare a creare un progetto \([ecco come](../formit-primer/)\), utilizzare il menu File per aprire un progetto di FormIt esistente o importare una serie di altri tipi di file.
 
-FormIt permet d’ouvrir, d’enregistrer et d’exporter des fichiers à la fois localement et dans BIM 360 Docs. [L’utilisation de BIM 360 Docs dans FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) est un excellent moyen de partager des modèles dans le cloud.
+FormIt consente di aprire, salvare ed esportare file sia localmente che in Autodesk Docs. [L'utilizzo di Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) è un ottimo modo per condividere i modelli nel cloud.
 
-En ce qui concerne l’enregistrement, FormIt [enregistre automatiquement votre travail](../tool-library/autosave.md) dès que vous modifiez votre modèle. Il est tout de même recommandé d’enregistrer souvent les fichiers, car cela permet de nettoyer le fichier de sauvegarde et d’économiser de l’espace.
+A proposito del salvataggio, in FormIt viene salvato con [Salvataggio automatico il lavoro svolto](../tool-library/autosave.md) quando si iniziano ad apportare modifiche al modello. Il salvataggio spesso è comunque consigliato perché consente di correggere il file di backup e di risparmiare spazio.
 
-## Paramètres de l’application
+## Impostazioni delle app
 
-* Unités :
+* Unità:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * La configuration de ce paramètre affecte les unités de tous les outils et de la géométrie importée, comme Dynamo et les types de fichiers sans unité tels que STL.
+   * L'impostazione di questa opzione influirà sulle unità in tutti gli strumenti e nella geometria importata, come Dynamo e i tipi di file senza unità come STL.
 
-* Accrocher à la grille :
-   * Ce paramètre oblige les outils avec des points de placement à s’accrocher aux points d’intersection de la grille. Notez que vous pouvez désactiver la grille dans les [styles visuels](../formit-primer/part-i/visual-settings.md). Si la grille est désactivée, l’accrochage à cette grille est également désactivé.
-* Afficher les cotes modifiables :
-   * Choisissez si vous souhaitez que les zones de cote restent visibles \(nous vous recommandons de conserver cette option activée si vous souhaitez dessiner avec précision\).
-* Masquer le contexte/Afficher le groupe modifié uniquement :
-   * Ce paramètre permet d’afficher ou de masquer les éléments environnants d’un groupe modifié. Vous pouvez facilement modifier ce paramètre à l’aide du raccourci \(H\). Activez ou désactivez la touche H lors de la modélisation dans et hors des groupes afin de visualiser les groupes de manière isolée et contextuelle, selon vos besoins.
-* Mise en surbrillance de présélection :
-   * Par défaut, FormIt « présélectionne » les objets lorsque vous passez le curseur dessus. Ce paramètre permet de s’assurer que l’objet que vous souhaitez sélectionner est bien celui que vous obtenez, mais il peut être gênant lors de la présentation d’une conception. Utilisez ce paramètre ou le raccourci pour activer/désactiver la mise en surbrillance de présélection, si nécessaire. Notez que ce paramètre doit être activé pour utiliser des fonctions telles que [Sélection intuitive](https://www.youtube.com/watch?v=akLeB1FADt4).
+* Snap alla griglia:
+   * Forza gli strumenti con punti di posizionamento ad eseguire lo snap ai punti di intersezione della griglia. Tenere presente che è possibile disattivare la griglia in [Stili visualizzazione](../formit-primer/part-i/visual-settings.md); se la griglia è disattivata, anche lo snap verrà disattivato.
+* Visualizza quote modificabili:
+   * Scegliere se mantenere visibili le caselle di quota \(è consigliabile mantenerle attive se si desidera disegnare con precisione\).
+* Nascondi contesto gruppo/Opzione per mostrare solo il gruppo modificato:
+   * Ciò influisce sul fatto che la modifica di un gruppo visualizzerà o meno le aree adiacenti. È possibile modificare facilmente questa impostazione utilizzando il tasto di scelta rapida \(H\). L'attivazione/La disattivazione di H durante la modellazione dei gruppi consente di visualizzare i gruppi sia in modo isolato che contestualizzato in base alle esigenze.
+* Evidenziazione della preselezione:
+   * Per default, in FormIt quando si posiziona il cursore, gli oggetti vengono "preselezionati". Ciò è utile per garantire che l'oggetto che si desidera selezionare sia l'oggetto che si ottiene, ma può distrarre l'utente durante la presentazione di un progetto. Utilizzare questa opzione o il tasto di scelta rapida per mostrare o nascondere rapidamente l'evidenziazione della preselezione in base alle esigenze. Tenere presente che questa opzione deve essere attivata per utilizzare funzionalità quali la [selezione intelligente](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## Mode tactile
+## Modalità tocco
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-Si votre ordinateur est équipé d’un écran tactile, utilisez le mode tactile pour naviguer facilement dans votre modèle et créer une géométrie. Si vous utilisez aussi FormIt pour iOS, ce n’est pas nouveau pour vous.
+Se il computer dispone di un touchscreen, utilizzare Modalità tocco per navigare facilmente nel modello e creare la geometria. Se si utilizza anche FormIt per iOS, sembrerà familiare.
 
-Lorsque le mode tactile est activé, l’interaction de FormIt ressemble davantage à FormIt sur iPad. Les outils de navigation et de modification sont calibrés pour l’interface tactile. Par conséquent, il est déconseillé d’utiliser FormIt avec une souris et un clavier lorsque le mode tactile est activé.
+Quando Modalità tocco è attivata, l'interazione di FormIt diventa più simile a quella di FormIt sull'iPad, calibrando gli strumenti di navigazione e modifica per lavorare con un'interfaccia touch. Per questo motivo, si consiglia di non utilizzare FormIt con un mouse e una tastiera mentre è attivata Modalità tocco.
 
-Lorsque le mode tactile est activé, il est mis en surbrillance dans la barre d’outils, et une bannière « Mode tactile » s’affiche dans le coin inférieur gauche de l’écran.
+Quando Modalità tocco è attivata, viene evidenziata sulla barra degli strumenti e viene anche visualizzato il banner Modalità tocco nell'angolo inferiore sinistro della schermata.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

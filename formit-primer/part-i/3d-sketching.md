@@ -1,69 +1,69 @@
-# 1.3 – Esquisse 3D et Faire glisser la face
+# 1.3 - Disegno 3D e trascinamento della superficie
 
-_Nous sommes prêts à commencer la conception de la maison Farnsworth. La modélisation 3D dans FormIt consiste essentiellement à dessiner des lignes pour créer des faces, puis à faire glisser ces faces pour créer des volumes._
+_Siamo pronti per iniziare a disegnare Casa Farnsworth. La modellazione essenziale 3D in FormIt consiste nel disegnare linee per creare superfici e quindi trascinarle per creare volumi._
 
-‌ _Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.3 – 3D Sketch and Drag Face.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+‌ _Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.3 - 3D Sketch and Drag Face.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-## **Dessiner des faces avec des lignes**
+## **Disegno di superfici con linee**
 
-1 – Pour faciliter le processus de modélisation, vous pouvez utiliser la **barre d’outils de navigation flottante** afin de basculer entre les différents modes de vue. Pour cet exercice, nous vous recommandons d’utiliser les options **Perspective \(VP\)** et **Vue 3D \(V3\).**
+1 - Per facilitare il processo di modellazione, è possibile utilizzare la **barra degli strumenti Navigazione mobile** per passare da una modalità di vista all'altra. Per questo esercizio, consigliamo di utilizzare **Prospettica \(VP\)** e **Vista 3D \(V3\).**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – La géométrie créée va automatiquement « se coller » à toute géométrie non groupée existante en contact avec elle ou la rejoindre. Pour éviter cela, vous devez généralement organiser la géométrie à l’aide de groupes. Pour créer un groupe à partir du plan d’étage, double-cliquez sur le rectangle pour le sélectionner, puis cliquez avec le bouton droit de la souris pour accéder au **menu contextuel** et sélectionnez **Grouper \(G\).**
+2 - La geometria appena creata si unirà o si applicherà automaticamente a qualsiasi geometria non raggruppata esistente che tocca. Per evitare ciò, è in genere consigliabile organizzare la geometria con gruppi. Per creare un gruppo dalla pianta del pavimento, selezionare il rettangolo facendo doppio clic, quindi fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e selezionare **Gruppo \(G\).**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – Lorsque vous tracez le plan, les lignes ne doivent pas s’accrocher à la grille. Pour éviter cela, cliquez sur **Paramètres** dans le **menu principal** et désactivez **Accrocher à la grille \(SG\).**
+3 - Quando tracciamo la pianta, non desideriamo che le linee eseguano lo snap alla griglia, quindi occorre fare clic su **Impostazioni** nel **Menu principale** e deselezionare **Snap alla griglia \(SG\).**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – Pour commencer à dessiner, cliquez sur l’icône **Créer une esquisse** \(Crayon\) de la **barre d’outils standard** et choisissez l’**outil Ligne \(L\)**.
+4 - Per iniziare a disegnare, fare clic sull'icona **Crea disegno** \(matita\) sulla **barra degli strumenti Standard** e scegliere lo **strumento Linea \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 – Commençons par créer un rectangle sur l’image importée. Pour créer la première ligne, procédez comme suit :
+5 - Iniziamo creando un rettangolo nell'immagine importata. Per creare la prima linea:
 
-1. Dans l’**outil Ligne**, cliquez à proximité du **coin supérieur gauche** de la terrasse supérieure dans l’esquisse importée.
-2. Déplacez la souris le long de l’axe rouge qui s’affiche.
-3. Cliquez sur la touche **Tab** pour saisir la cote : **77’-41\8”.**
+1. Nello **strumento Linea**, fare clic nell'**angolo superiore sinistro** della terrazza superiore nel disegno importato.
+2. Spostare il mouse lungo l'asse rosso visualizzato.
+3. Fare clic sul tasto **TAB** per immettere la quota **77'-4 1\8".**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Remarque :** lorsqu’une cote temporaire s’affiche lors de l’esquisse, vous pouvez appuyer sur la touche_ _**Tab** ou saisir un nombre_ _pour ouvrir la_ _**boîte de dialogue Cote**._
+_**Nota** Ogni volta che viene visualizzata una quota temporanea durante il disegno, è possibile premere_ _**TAB** o iniziare a digitare un numero_ _per aprire la_ _**finestra di dialogo Quota**._
 
-6 – Pour créer la deuxième ligne, déplacez le curseur vers le bas le long de l’axe vert et saisissez **28’-8**” pour l’arête courte de la terrasse supérieure.
+6 - Per creare la seconda linea, spostare il mouse verso il basso lungo l'asse verde e immettere **28'-8**" per il bordo corto della terrazza superiore.
 
-7 – Pour définir la troisième arête du rectangle et terminer, procédez comme suit :
+7 - Per definire il terzo bordo e la finitura del rettangolo:
 
-1. Déplacez la souris le long de l’axe rouge et maintenez la touche **Maj** enfoncée. La ligne d’axe rouge s’épaissit pour indiquer que la ligne est verrouillée sur cet axe.
-2. Maintenez la touche **Maj** enfoncée et déplacez la souris sur le premier point que vous avez dessiné. Cliquez pour valider l’extrémité.
-3. Le troisième point est automatiquement défini, parallèlement à l’axe rouge, défini par \(A\), et à l’axe vert, défini par \(B\).
-4. Enfin, pour terminer la délimitation du rectangle, relâchez la touche **Maj** et cliquez de nouveau sur le premier point que vous avez dessiné. Appuyez deux fois sur **Échap** pour quitter l’outil d’esquisse.
+1. Spostare il mouse lungo l'asse rosso e tenere premuto il tasto **MAIUSC**. La linea dell'asse rosso si ispessirà per indicare che la linea è bloccata su questo asse.
+2. Mentre è premuto il **tasto MAIUSC**, spostare il mouse sul primo punto disegnato. Fare clic per confermare il punto finale.
+3. Il terzo punto verrà impostato automaticamente, parallelo all'asse rosso definito da \(A\) e all'asse verde definito da \(B\).
+4. Infine, per terminare di racchiudere il rettangolo, rilasciare il tasto **MAIUSC** e fare clic di nuovo sul primo punto disegnato. Premere **ESC** due volte per uscire dallo strumento di disegno.
 
-_**Remarque :**_ _les axes rouge et vert vous permettent de rester parallèle et perpendiculaire à la grille. Lorsque vous dessinez une ligne en dehors des axes universels, une ligne d’axe violette vous permet de rester à 90 degrés par rapport à votre ligne décalée._
+_**Nota**_ _Gli assi rosso e verde si mantengono paralleli e perpendicolari alla griglia. Quando si disegna una linea sugli assi globali, una linea d'asse viola consente di rimanere a 90 gradi rispetto alla linea fuori asse._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Faire glisser la face pour créer un volume**
+## **Trascinamento della superficie per creare il volume**
 
-1 – Cliquez une fois à l’intérieur du contour que vous venez de dessiner pour sélectionner la face. Vous êtes désormais automatiquement dans l’outil **Faire glisser la face** .
+1 - Fare un singolo clic all'interno del contorno appena disegnato per selezionare la superficie. Ora viene aperto automaticamente lo strumento di **trascinamento della superficie**.
 
-2 – Cliquez une nouvelle fois pour commencer le déplacement. Déplacez la souris vers le haut \(le long de l’axe Z positif\) pour extruder un volume dans cette direction. Commencez à saisir **12’-2”** afin qu’une zone de cote s’affiche avec cette valeur, puis appuyez sur **Entrée**.
+2 - Fare di nuovo un singolo clic per avviare il trascinamento. Spostare il mouse verso l'alto \(lungo l'asse Z positivo\) per estrudere un volume in tale direzione. Iniziare a digitare **12'-2"**. Verrà visualizzata una casella di quota con questo valore, quindi premere **INVIO**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Remarque :**_ _un_ _clic simple_ _permet de sélectionner une seule face, tandis qu’un_ _double-clic_ _permet de sélectionner toutes les faces et arêtes adjacentes \(non groupées\)._
+_**Nota**_ _Un_ _singolo clic_ _consentirà di selezionare una sola superficie, mentre un_ _doppio clic_ _permetterà di selezionare tutte le superfici e tutti i bordi adiacenti \(non raggruppati\)._
 
-## **Esquisse 3D avec Arc, Spline et Cercle**
+## **Disegno 3D con arco, spline e cerchio**
 
-_L’exercice suivant n’est pas essentiel pour terminer la maison. Toutefois, il vous permettra de tester d’autres outils d’esquisse 3D disponibles. Cliquez_ _**ici**_ _pour en savoir plus sur l’esquisse 3D avec des axes universels._
+_Il seguente esercizio non è fondamentale per completare la casa. Tuttavia, consente di provare alcuni degli altri strumenti di disegno 3D disponibili. Fare clic_ _**qui**_ _per ulteriori informazioni sul disegno 3D con assi globali._
 
-1 – Sélectionnez l’outil **Arc par trois points d’arc \(A\)**. Cliquez pour définir le point de départ, puis l’extrémité. Le troisième clic permet de définir le rayon de l’arc.
+1 - Selezionare lo strumento **Arco per tre punti \(A\)**. Fare clic per definire l'inizio, quindi il punto finale. Fare clic la terza volta per definire il raggio dell'arco.
 
-2 – Sélectionnez l’outil **Spline \(S\)**. Cliquez pour définir un nombre quelconque de points pour dessiner une spline.
+2 - Selezionare lo strumento **Spline \(S\)**. Fare clic per definire un numero qualsiasi di punti per disegnare una spline.
 
-3 – Sélectionnez l’outil **Cercle \(C\)**. Placez le curseur de la souris et cliquez pour définir le point central du cercle. Cliquez sur une cote et faites-la glisser, ou saisissez-en une pour définir le rayon.
+3 - Selezionare lo strumento **Cerchio \(C\)**. Posizionare il cursore e fare clic per definire il punto centrale del cerchio. Fare clic e trascinare o immettere una quota per definire il raggio.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

@@ -1,20 +1,20 @@
-# Lignes
+# Linee
 
-Utilisez des lignes pour diviser des faces et construire une géométrie.
+Utilizzare le linee per dividere le superfici e costruire la geometria.
 
-Clavier : L
+Tastiera: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-Vous pouvez tracer des lignes sur l’axe X, Y ou Z, ainsi que sur une géométrie existante. Lorsque vous effectuez un accrochage à un axe, une ligne colorée s’étend au-delà de la ligne que vous dessinez, indiquant l’axe sur lequel vous dessinez. La longueur de la ligne s’affiche pendant que vous dessinez. Pour entrer manuellement une longueur spécifique, appuyez sur la touche **TAB** et saisissez une valeur.
+È possibile disegnare linee sull'asse X, Y o Z e anche sulla geometria esistente. Quando si esegue lo snap ad un asse, una linea colorata si estende oltre la linea disegnata, indicando l'asse su cui si sta disegnando. È possibile visualizzare la lunghezza della linea mentre si disegna, immettere manualmente una lunghezza specifica premendo **TAB** e inserire un valore.
 
-Couleurs de ligne par axe :
+Colori delle linee per asse:
 
-Pour spécifier une longueur, il vous suffit de saisir une valeur de cote. Une boîte de dialogue Modifier la cote s’affiche. Cliquez sur OK ou appuyez sur Entrée pour accepter la valeur.
+Per specificare una lunghezza, è sufficiente digitare un valore di quota. Verrà visualizzata la finestra di dialogo Modifica quota. Fare clic su OK o premere INVIO per accettare il valore.
 
-* X = rouge
-* Y = vert
-* Z = bleu
+* X = Rosso
+* Y = Verde
+* Z = Blu
 
 ![](../.gitbook/assets/lines.png)
 

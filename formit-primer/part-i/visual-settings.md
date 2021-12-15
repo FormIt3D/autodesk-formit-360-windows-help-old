@@ -1,67 +1,67 @@
-# 1.12 – Styles visuels
+# 1.12 - Stili di visualizzazione
 
-_La modélisation de volumes conceptuels représente seulement la moitié des fonctionnalités de FormIt. L’autre moitié sont de superbes graphiques qui aident à raconter une histoire à un client ou à un membre d’équipe. Dans ce chapitre, nous allons aborder les méthodes permettant de configurer vos_ _**styles visuels graphiques**_ _et de créer des animations._
+_La modellazione delle masse concettuali è solo la metà di quello che FormIt ha da offrire. L'altra metà è rappresentata da una splendida grafica che aiuta a raccontare una storia ad un cliente o ad un membro del team. In questo capitolo, descriveremo le modalità di impostazione degli_ _**stili di visualizzazione grafica**_ _e di creazione delle animazioni._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.12 – Visual Styles.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer **._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.12 - Visual Styles.axm**_ _dai_ _**set di dati della Parte 1 della Guida introduttiva di FormIt**._
 
-## **Création d’une animation**
+## **Creazione di un'animazione**
 
-_Dans les étapes suivantes, nous allons apprendre à utiliser les_ _**scènes**_ _pour créer une animation._
+_Nei prossimi passaggi, impareremo come utilizzare le_ _**scene**_ _per creare un'animazione._
 
-1 – Pour créer la première **scène**, procédez comme suit :
+1 - Per creare la prima **scena**:
 
-1. Activez tous les calques, à l’exception de **Terrain**, **Image du plan** et **Volume**.
-2. Assurez-vous que le mode de caméra est défini sur **Perspective \(VP\)** et positionnez la caméra légèrement au-dessus de la maison de façon à la visualiser dans son ensemble, comme dans l’image ci-dessous.
-3. Ouvrez la **palette Scènes**.
-4. Cliquez sur l’icône **+** pour créer une scène à partir de la vue active.
-5. Renommez-la **Aerial View 1** et faites correspondre les autres **propriétés de la scène** à celles indiquées dans l’image ci-dessous.
+1. Attivare tutti i layer ad eccezione di **Terrain**, **Plan Image** e **Massing**.
+2. Assicurarsi che la modalità della cinepresa sia impostata su **Prospettiva \(VP\)** e posizionare la cinepresa in modo che guardi l'intera casa da un punto leggermente superiore, analogamente all'immagine riportata di seguito.
+3. Aprire la **tavolozza Scene**.
+4. Fare clic sull'icona **+** per creare una nuova scena dalla vista corrente.
+5. Rinominarla **Aerial View 1** e far corrispondere le altre **proprietà della scena** a quelle mostrate nell'immagine riportata di seguito.
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 – Pour créer la deuxième **scène**, puis une animation entre elles, procédez comme suit :
+2 - Per creare la seconda **scena** e quindi animarla tra di esse:
 
-1. Ajustez la caméra afin de visualiser la maison sous un autre angle. Créez une **scène** nommée **Aerial View 2** à l’aide de la procédure suivie à l’étape précédente.
-2. Cliquer sur le bouton **Play**. Après la définition du **temps de pause** sur **2 secondes**, l’animation démarre lentement, en se déplaçant d’avant en arrière entre les deux scènes. Cette opération se poursuit jusqu’à ce que vous cliquiez sur le bouton **Arrêter** pour arrêter l’animation.
+1. Regolare la cinepresa su una nuova posizione in modo da osservare la casa da un'angolazione diversa. Creare una nuova **scena** denominata **Aerial View 2** utilizzando la stessa procedura seguita nel passaggio precedente.
+2. Fare clic sul pulsante di **riproduzione**. Dopo aver impostato **Tempo di pausa** su **2 secondi**, l'animazione inizierà lentamente a spostarsi avanti e indietro tra le due scene. Questa operazione continuerà fino a quando non si farà clic sul pulsante di **interruzione** per interrompere l'animazione.
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Remarque :**_ _vous pouvez ajuster le_ _**temps de pause**, le_ _**temps de transition** et le_ _**temps de caméra**_ _à l’aide des paramètres situés dans la partie inférieure des_ _**propriétés de la scène.**. Essayez d’ajouter d’autres scènes et d’ajuster ces paramètres pour personnaliser votre animation._
+_**Nota**_ _È possibile regolare_ _**Tempo di pausa**,_ _**Tempo di transizione** e_ _**Velocità cinepresa**_ _utilizzando le impostazioni nella parte inferiore di_ _**Proprietà scena**. Provare ad aggiungere altre scene e a riprodurle con queste impostazioni per personalizzare l'animazione._
 
-## **Personnalisation des styles visuels**
+## **Personalizzazione degli stili di visualizzazione**
 
-_Nous allons maintenant créer une autre scène avec des paramètres personnalisés de **styles visuels**._
+_Ora creeremo un'altra scena con alcune impostazioni di **Stili visualizzazione** personalizzate._
 
-1ؘ – Tout d’abord, ouvrez la **palette Styles visuels**. Notez qu’il existe quatre \(4\) onglets dans la partie supérieure, chacun contenant des paramètres visuels différents : **Surfaces**, **Arêtes**, **Environnement** et **Diagnostics du modèle**. Pour en savoir plus sur chaque onglet, consultez le chapitre **Styles visuels** de la section **Bibliothèque d’outils**.
+1 - Aprire innanzitutto la **tavolozza Stili visualizzazione**. Notare che nella parte superiore sono presenti quattro \(4\) schede, ciascuna contenente impostazioni di visualizzazione diverse: **Superfici**, **Bordi**, **Ambiente** e **Diagnostica modello**. Per ulteriori informazioni su ciascuna scheda, vedere il capitolo **Stili di visualizzazione** nella sezione **Libreria degli strumenti**.
 
-2 – Pour personnaliser certains paramètres dans l’**onglet Surface**, procédez comme suit :
+2 – Per personalizzare alcune impostazioni nella **scheda Superficie**:
 
-1. Activez l’option **Ombres \(DS\)**.
-2. Activez l’option **Ombres ambiantes \(DA\)**.
-3. Activez l’option **Surfaces monotones \(DM\)**. Cette opération crée une image abstraite en noir et blanc sans aucun matériau.
+1. Attivare **Ombre \(DS\)**.
+2. Attivare **Ombre ambiente \(DA\)**.
+3. Attivare **Superfici monocromatiche \(DM\)**. In questo modo si ottiene un'immagine astratta in bianco e nero senza materiali.
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – Pour personnaliser certains paramètres dans l’**onglet Arête**, procédez comme suit :
+3 – Per personalizzare alcune impostazioni nella **scheda Bordi**:
 
 * 
-   1. Réglez les curseurs afin d’éclaircir le contraste des **arêtes** à environ **30 %**.
-   2. Activez l’option **Prolonger les arêtes \(DX\).**
-   3. Réglez les curseurs afin d’éclaircir le contraste des **silhouettes** à **30 %**.
+   1. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Bordi** a circa **30%**.
+   2. Attivare **Bordi estesi \(DX\).**
+   3. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Silhouette** su **30%**.
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 – Pour personnaliser certains paramètres dans l’**onglet Environnement**, procédez comme suit :
+4 - Per personalizzare alcune impostazioni nella **scheda Ambiente**:
 
-1. Désactivez l’option **Axes**.
-2. Si l’option **Niveaux** est activée, désactivez-la.
+1. Disattivare **Assi**.
+2. Disattivare **Livelli**, se attivata.
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 – Créez une scène nommée **Scène personnalisée** pour enregistrer ces paramètres. Vous pouvez maintenant basculer entre les **scènes** pour réinitialiser les paramètres graphiques.
+5 - Creare una nuova scena denominata **Customized Scene** per salvare queste impostazioni. Ora è possibile passare da una **scena** all'altra per reimpostare le impostazioni grafiche.
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Remarque** : si vous désactivez la propriété_ _**Caméra**_ _de la nouvelle scène, vous pouvez l’utiliser uniquement pour activer les paramètres visuels que nous venons de créer sans déplacer la position de la caméra. Pour essayer, accédez à l’une de vos scènes aériennes précédentes, puis double-cliquez sur la_ _**scène personnalisée**_ _et observez ce qu’il se passe._
+_**Nota** Deselezionando la proprietà_ _Cinepresa****_ _della nuova scena, è possibile utilizzarla per attivare solo le impostazioni di visualizzazione appena create senza spostare la posizione della cinepresa. Provare utilizzando una delle precedenti scene denominate Aerial, quindi fare doppio clic su_ _**Customized Scene**_ _e osservare cosa succede._
 
-_**Remarque :**_ _pour en savoir plus sur les_ _**diagnostics de styles visuels**_ _et les applications avancées pour les_ _**scènes**, consultez la_ _partie II du guide**.**_
+_**Nota**_ _Per ulteriori informazioni su_ _**diagnostica degli stili di visualizzazione**_ _e applicazioni avanzate per_ _**Scene**, consultare la_ _**Parte II della Guida introduttiva**._
 

@@ -1,54 +1,54 @@
-# 1.6 – Contrôle de la visibilité avec les calques
+# 1.6 - Controllo della visibilità con i layer
 
-_Comme dans AutoCAD et Photoshop, les calques dans FormIt vous permettent de gérer la visibilité des objets dans votre modèle. Dans ce chapitre, nous allons créer un calque pour enregistrer et masquer le volume du bâtiment en vue d’une analyse ultérieure._
+_Analogamente ad AutoCAD e Photoshop, i layer in FormIt consentono di gestire la visibilità degli oggetti nel modello. In questo capitolo, creeremo un layer per salvare e nascondere la massa dell'edificio per un'analisi futura._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier __**1.6 - Control Visibility with Layers.axm**__ à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.6 - Control Visibility with Layers.axm**_ _dai_ _set di dati della Parte I della Guida introduttiva di FormIt**.**_
 
-## **Créer des calques**
+## **Creazione di layer**
 
-1 – Pour créer de nouveaux calques, procédez comme suit :
+1 - Per creare i nuovi layer:
 
-1. Accédez à la **palette Calques** et cliquez trois fois sur le signe **+** pour créer trois calques.
-2. Double-cliquez sur les noms des calques pour les renommer **Volume**, **Sol du bâtiment principal** et **Image du plan.**
+1. Accedere alla **tavolozza Layer** e fare clic sul segno **+** tre volte per creare tre layer.
+2. Fare doppio clic sui nomi dei layer per rinominarli **Massing**, **Main Building Floor** e **Plan Image.**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Remarque :**_ _vous pouvez cliquer sur un nom de calque et le faire glisser vers le haut ou vers le bas pour réorganiser les calques._
+_**Nota**_ _È possibile fare clic sul nome di un layer e trascinarlo verso l'alto o verso il basso per riordinare i layer._
 
-2 – Pour affecter le groupe **Volume – Bâtiment principal** au calque **Volume** :
+2 - Per assegnare il gruppo **Massing - Main Building** al layer **Massing**:
 
-1. Dans la zone de dessin, sélectionnez le groupe **Volume – Bâtiment principal**.
-2. Dans la **palette des calques**, choisissez le calque **Volume** dans le menu déroulant « **Sélection activée :** ». De même, affectez le groupe **Image du plan** au calque **Image du plan**.
+1. Nell'area di disegno, selezionare il gruppo **Massing - Main Building**.
+2. Nella **tavolozza Layer**, scegliere il layer **Massing** dal menu a discesa **Selezione su:**. Analogamente, assegnare il gruppo **Plan Image** al layer **Plan Image**.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Dupliquer le groupe**
+## **Duplicazione del gruppo**
 
-_Nous allons maintenant commencer à modéliser le bâtiment plus en détail. La première étape consiste à créer la géométrie du sol en fonction du volume du bâtiment que nous avons déjà._
+_Ora inizieremo il processo di modellazione dell'edificio in modo più dettagliato. Il primo passaggio consiste nel creare la geometria del pavimento in base alla volumetria dell'edificio già presente._
 
-1 – Sélectionnez à nouveau le groupe **Volume – Bâtiment principal**. Appuyez sur **Ctrl + C \(Copier\)** pour copier, puis sur **Ctrl + Maj + V \(Coller sur place\)** pour coller le volume au même endroit.
+1 - Selezionare nuovamente il gruppo **Massing - Main Building**. Premere **CTRL+C \(Copia\)** per copiare, quindi **CTRL+MAIUSC+V \(Incolla nella stessa posizione\)** per incollare la massa nella stessa posizione.
 
-2 – Pour dissocier la nouvelle géométrie de groupe du groupe d’origine : cliquez avec le bouton droit de la souris pour accéder au **menu contextuel**, puis choisissez l’option **Rendre unique \(MU\)**.
+2 - Per dissociare la geometria del nuovo gruppo dal gruppo originale: fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e scegliere l'opzione **Rendi univoco \(MU\)**.
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Remarque** : le nouveau groupe n’est plus associé à l’original. Les modifications apportées au nouveau groupe ne modifieront pas le groupe d’origine._
+_**Nota** Il nuovo gruppo non è più associato all'originale. Le modifiche apportate al nuovo gruppo non altereranno il gruppo originale._
 
-## **Création de la géométrie du sol**
+## **Creazione della geometria del pavimento**
 
-1 – Réaffectez le calque du groupe comme suit :
+1 - Riassegnare il layer del gruppo:
 
-1. Cliquez une fois pour sélectionner l’un des groupes **Volume – Bâtiment principal**.
-2. Placez le groupe sur le calque **Sol du bâtiment principal** à l’aide de la liste déroulante « **Sélection activée :** » de la **palette des calques**.
-3. Désactivez le calque **Volume** pour masquer sa géométrie et la protéger contre les modifications accidentelles.
+1. Fare un singolo clic per selezionare uno dei gruppi **Massing – Main Building**.
+2. Posizionare il gruppo sul layer **Main Building Floor** utilizzando l'elenco a discesa **Selezione su:** nella **tavolozza Layer**.
+3. Deselezionare il layer **Massing** per nasconderne la geometria e proteggerla da eventuali modifiche accidentali.
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 – Double-cliquez sur le groupe visible **Volume – Bâtiment principal** pour le modifier. Renommez le groupe **Sol** dans la **palette Propriétés**.
+2 - Fare doppio clic sul gruppo **Massing – Main Building** visibile per modificarlo. Rinominare il gruppo **Floor** nella **tavolozza Proprietà**.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 – **Cliquez une fois** sur la **face supérieure** de la géométrie pour la sélectionner. Cliquez à nouveau et commencez à faire glisser la face vers le bas. Lorsque vous faites glisser la face vers le bas, tapez **11’-2"**. La **boîte de dialogue Cotation** s’affiche. Cliquez sur **OK** après avoir entré la valeur. Le sol obtenu doit avoir une épaisseur de 1’. Double-cliquez dans l’espace pour quitter le groupe.
+3 - **Fare un singolo clic** sulla **superficie superiore** della geometria per selezionarla. Fare nuovamente clic e iniziare a trascinare la superficie verso il basso. Mentre si trascina la superficie verso il basso, digitare **11'-2"**. Verrà visualizzata la **finestra di dialogo Quota**. Fare clic su **OK** dopo aver immesso il valore. Il pavimento risultante dovrebbe essere spesso 1'. Fare doppio clic nello spazio per uscire dal gruppo.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

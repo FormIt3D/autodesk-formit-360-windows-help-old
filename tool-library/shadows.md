@@ -1,28 +1,28 @@
-# Soleil + Ombres
+# Sole + Ombre
 
-Utilisez l’outil **Soleil + Ombres** pour étudier les effets de la trajectoire du soleil sur vos projets.
+Utilizzare lo strumento **Sole + Ombre** per studiare gli effetti del percorso del sole sui progetti.
 
-La première étape pour effectuer des études d’ombres précises consiste à [**définir l’emplacement du projet**](setting-location.md).
+Il primo passaggio per studi accurati sulle ombre consiste nell'[**impostare la posizione del progetto**](setting-location.md).
 
-Une fois que vous avez défini votre emplacement et éventuellement importé une image satellite, modélisez votre projet, y compris le contexte du bâtiment, et les éléments d’ombrage tels que les persiennes et les arbres.
+Dopo aver impostato la posizione e, se lo si desidera, importato un'immagine satellitare, modellare il progetto, incluso il contesto dell'edificio ed elementi ombreggianti come griglie di ventilazione e alberi.
 
-### Menu Soleil + Ombres
+### Menu Sole + Ombre
 
-Activez les ombres dans le menu Soleil + Ombres situé dans la partie supérieure de l’application \(vous pouvez également activer les ombres et ajuster leur intensité dans [**Styles visuels**](../formit-introduction/tool-bars.md)\) :
+Attivare le ombre nel menu Sole + Ombre nella parte superiore dell'applicazione \(è inoltre possibile attivare le ombre, nonché regolare l'intensità delle ombre, in [**Stili visualizzazione**](../formit-introduction/tool-bars.md)\):
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-Vous pouvez ensuite ajuster l’heure et le jour de l’année. L’année par défaut est 2000. Ne vous inquiétez pas, cela n’affecte pas la précision de l’étude d’ombrage du soleil.
+Da qui, è possibile regolare l'ora del giorno e il giorno dell'anno. L'anno di default è 2000. Non preoccuparsi perché questo non influisce sulla precisione dello studio sull'ombreggiatura del sole.
 
-### Éditeur d’ensoleillement
+### Editor sole
 
-Vous pouvez également activer ou désactiver l’éditeur d’ensoleillement à partir du menu Soleil + Ombres \(ou utiliser le raccourci DR\), qui fournit un affichage graphique de l’emplacement du soleil dans l’espace :
+È inoltre possibile attivare e disattivare l'Editor sole dal menu Sole + Ombre \(o utilizzare il tasto di scelta rapida DR\), che fornisce una visualizzazione grafica della posizione del sole nello spazio:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* L’éditeur d’ensoleillement se déplace avec la caméra. Vous devrez peut-être ajuster le niveau de zoom et/ou l’orientation de la caméra pour placer le widget dans une position qui vous semble pertinente par rapport à la conception que vous étudiez.
-* Utilisez la poignée circulaire pour déplacer le soleil le long de sa trajectoire et ajuster efficacement l’heure.
-* Ajustez la période de l’année à partir du menu Soleil + Ombres. Cette opération permet d’ajuster l’angle et l’orientation de la trajectoire du soleil graphique en fonction de la période de l’année.
+* L'Editor sole si sposta con la cinepresa, pertanto potrebbe essere necessario regolare il livello di zoom e/o l'orientamento della cinepresa per collocare il widget in una posizione che sia appropriata rispetto al progetto che si sta studiando.
+* Afferrare il grip circolare per spostare il sole lungo il percorso e regolare correttamente l'ora del giorno.
+* Regolare l'ora dell'anno dal menu Sole + Ombre. In questo modo, l'angolo e l'orientamento del percorso del sole grafico verranno regolati in base al periodo dell'anno.
 
 
 

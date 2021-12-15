@@ -1,12 +1,12 @@
-# Cercle
+# Cerchio
 
-Utilisez l’outil Cercle pour dessiner un cercle dans l’espace ou sur un autre objet.
+Utilizzare lo strumento Cerchio per disegnare un cerchio nello spazio o su un altro oggetto.
 
-Clavier : C
+Tastiera: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Pour dessiner un cercle, sélectionnez d’abord·le point central, puis indiquez le rayon du cercle. Ensuite, le cercle devient automatiquement une face.
+Per disegnare un cerchio, scegliere prima il punto centrale, quindi specificare il raggio del cerchio. Quindi, il cerchio diventa automaticamente una superficie.
 
 ![](../.gitbook/assets/circle1.png)
 

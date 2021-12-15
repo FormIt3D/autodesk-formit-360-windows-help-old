@@ -1,11 +1,11 @@
-# Mise à l’échelle·d’un objet
+# Scala di oggetti
 
-Vous pouvez utiliser l’**outil Échelle** pour ajuster la taille et l’orientation des objets.
+È possibile utilizzare lo **strumento Scala** per regolare le dimensioni e l'orientamento di oggetti.
 
-1. Sélectionnez l’objet que vous souhaitez ajuster.
-2. Cliquez avec le bouton droit de la souris pour lancer le **menu contextuel**.
-3. Dans le menu contextuel, sélectionnez l’**outil Échelle**.
-4. Utilisez la molette de la souris pour mettre à l’échelle la géométrie vers le haut ou vers le bas.
+1. Selezionare un oggetto che si desidera regolare.
+2. Fare clic con il pulsante destro del mouse per aprire il **menu contestuale**.
+3. Dal menu contestuale, selezionare lo **strumento Scala**.
+4. Utilizzare la rotellina del mouse per aumentare o diminuire la scala della geometria.
 
 ![](../.gitbook/assets/scale1.png)
 

@@ -1,52 +1,52 @@
-# Droite décalée
+# Linea di offset
 
-Dessinez des lignes parallèles ou de décalage à l’aide de l’outil Décaler la ligne. Cet outil permet de créer des formes 2D qui peuvent ensuite être extrudées pour ressembler à des murs 3D.
+È possibile disegnare linee parallele, o di offset, utilizzando lo strumento Linea di offset. Questa opzione è utile per creare forme 2D che possono essere successivamente estruse per assomigliare a muri 3D.
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-L’outil **Décaler la ligne** fonctionne comme l’outil [**Ligne**](https://windows.help.formit.autodesk.com/tool-library/line-tool) :
+Lo strumento **Linea di offset** funziona come lo strumento [**Linea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Cliquez pour définir le premier point, puis déplacez le curseur et placez les points suivants, en les accrochant à la géométrie existante ou aux axes de déduction.
-* Un aperçu de la forme obtenue est affiché. Les deuxième et troisième points déterminent le plan pour le reste des points à suivre, de sorte que le résultat soit planaire.
-* Continuez d’ajouter des points, puis appuyez sur la touche **Échap** ou double-cliquez pour terminer l’outil.
-* Toutes les auto-intersections seront nettoyées et fusionnées afin d’obtenir une face extrudable.
+* Fare clic per impostare il primo punto, quindi spostare il cursore e posizionare i punti successivi, eseguendo lo snap alla geometria esistente o agli assi di deduzione.
+* Viene mostrata un'anteprima della forma risultante. Il secondo e il terzo punto determinano il piano per il resto dei punti da seguire, pertanto il risultato è piano.
+* Continuare ad aggiungere punti e premere **ESC** oppure fare doppio clic per terminare lo strumento.
+* Eventuali autointersezioni verranno corrette e unite, lasciando un'unica superficie estrudibile.
 
-![Après avoir placé 2 points et fait glisser le troisième point](../.gitbook/assets/walls1.png)
+![Dopo aver posizionato 2 punti e aver trascinato il terzo punto](../.gitbook/assets/walls1.png)
 
-La ligne d’entrée est dessinée en rouge et est placée par défaut au centre des lignes de décalage.
+La linea di input viene disegnata in rosso e, per default, viene posizionata al centro delle linee di offset.
 
-Pour modifier l’alignement des lignes de décalage et leur épaisseur, appuyez sur la touche **Tab**. La boite de dialogue **Options d’outil** s’affiche également :
+È possibile modificare l'allineamento delle linee di offset e il relativo spessore premendo il tasto **TAB**. Verrà aperta la finestra di dialogo **Opzioni strumento**:
 
-![Options de l’outil Décaler la ligne](../.gitbook/assets/walls2.png)
+![Opzioni per lo strumento Linea di offset](../.gitbook/assets/walls2.png)
 
-Par exemple, définissez l’option **Alignement** sur **Gauche** et l’option **Épaisseur** sur 6” : les lignes de décalage sont dessinées à gauche des lignes d’entrée, à 6 pouces les unes des autres.
+Modificare **Allineamento** in **Sinistra** e **Spessore** in 6", ad esempio, e le linee di offset verranno disegnate a sinistra delle linee di input, a 6 pollici di distanza.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Conseils utiles
+## Suggerimenti utili
 
-Vous pouvez dessiner une forme fermée en l’accrochant au premier point placé. Le coin obtenu est nettoyé automatiquement :
+È possibile disegnare una forma chiusa eseguendo lo snap al primo punto posizionato. L'angolo risultante verrà corretto automaticamente:
 
 ![](../.gitbook/assets/walls4.png)
 
-Vous pouvez dessiner librement les lignes d’entrée les unes sur les autres. Lorsque l’outil est terminé, les intersections obtenues sont nettoyées.
+È possibile disegnare liberamente le linee di input l'una sopra l'altra. Al termine dello strumento, le intersezioni risultanti vengono corrette.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Par nature, l’outil Décaler la ligne doit générer une géométrie sur un plan, de sorte que les premiers points déterminent le plan sur lequel les autres points suivront.
+Di per sé, lo strumento Linea di offset deve generare la geometria su un piano, in modo che i primi punti determinino il piano che seguiranno i punti rimanenti.
 
-Tout d’abord, dessinez sur le côté d’un cube, par exemple, pour utiliser le plan de cette face. Une fois que trois points non colinéaires sont placés, le plan d’entrée est fixe pour le reste de l’entrée. Notez que lorsque vous dessinez sur une face, la forme obtenue est insérée dans la face, ce qui la divise en plusieurs faces. Pour empêcher l’insertion, la face sur laquelle vous dessinez doit faire partie d’un [groupe](https://windows.help.formit.autodesk.com/tool-library/groups).
+Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di tale superficie. Dopo aver posizionato tre punti non collineari, il piano di input è fisso per il resto dell'input. Notare che quando si disegna su una superficie, la forma risultante viene inserita nella superficie, dividendola in più superfici. Per evitare l'inserimento, la superficie disegnata deve far parte di un [gruppo](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Dessin sur une face verticale](../.gitbook/assets/walls7.png)
+![Disegno su una superficie verticale](../.gitbook/assets/walls7.png)
 
-![Une fois l’outil terminé, les lignes sont insérées et les faces scindées peuvent être manipulées davantage](../.gitbook/assets/walls8.png)
+![Una volta chiuso lo strumento, le linee vengono inserite e le superfici di divisione possono essere ulteriormente modificate](../.gitbook/assets/walls8.png).
 
-Vous pouvez également utiliser l’outil Décaler la ligne pour tracer à partir d’un dessin en plan. Importez le plan en tant qu’image.
+È inoltre possibile utilizzare lo strumento Linea di offset per eseguire il tracciamento da un disegno di pianta. Importare la pianta come immagine.
 
-* Redimensionnez l’image de sorte que le plan soit à l’échelle appropriée. Pour en savoir plus, [cliquez ici](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
-* Vous pouvez utiliser la [caméra orthogonale](orthographic-camera.md) pour effectuer un tracé dans une [vue de dessus](orthographic-views.md) orthogonale.
+* Ridimensionare l'immagine in modo che la pianta abbia la scala corretta. Questa procedura è descritta in maggior dettaglio [qui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* È possibile utilizzare la vista della [cinepresa Ortogonale](orthographic-camera.md) per eseguire il tracciamento in una [vista dall'alto](orthographic-views.md) ortogonale.
 
 ![](../.gitbook/assets/walls9.png)
 

@@ -1,19 +1,19 @@
-# FormIt Primer
+# Guida introduttiva di FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Contenu
+## Contenuto
 
-\*\*\*\*[**La partie I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*comprend un didacticiel de workflow qui passe en revue les outils de base tout en modélisant la célèbre maison Farnsworth étape par étape pour vous aider à commencer la modélisation dès aujourd’hui.
+\*\*\*\*[**La Parte I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*descrive un'unica esercitazione sul workflow che riguarda gli strumenti di base e che consente di modellare passo dopo passo la famosa Casa Farnsworth per iniziare subito la modellazione.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-\*\*\*\*[**La partie II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) présente des outils plus avancés qui utilisent un projet architectural fictif prémodélisé afin d’explorer les fonctionnalités avancées de modélisation, les outils analytiques et les outils de calcul qui vous aident à passer au niveau supérieur dans FormIt.
+\*\*\*\*[**La Parte II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) illustra alcuni strumenti più avanzati utilizzando un progetto architettonico fittizio premodellato per esplorare le funzionalità di modellazione avanzata, gli strumenti analitici e gli strumenti di calcolo che consentono di portare FormIt a un livello superiore.
 
 ![](../.gitbook/assets/screen1.jpg)
 
-## Crédits
+## Riconoscimenti
 
-Cette édition 2021 du guide FormIt est une refonte et une extension du premier guide, développé en partenariat avec [EvolveLAB](https://www.evolvelab.io).
+Questa edizione 2021 della Guida introduttiva di FormIt è una riprogettazione e un'espansione della prima Guida introduttiva, sviluppata in collaborazione con [EvolveLAB](https://www.evolvelab.io).
 
 [![](<../.gitbook/assets/evolvelab\_logo\_\_horizontal (1).png>)](https://www.evolvelab.io)

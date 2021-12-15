@@ -1,73 +1,77 @@
-### Barres d’outils étendues
+### Barre degli strumenti estese
 ---
 
-#### Barre d’outils Action
-La barre d’outils se trouve en haut de l’écran. Les outils proposés ici vous aident à créer, à modifier et à partager du contenu.
-![] (images/Tool Bar-All.PNG)
+#### Barra degli strumenti delle azioni
+La barra degli strumenti si trova nella parte superiore della schermata. Gli strumenti qui disponibili consentono di creare, modificare e condividere contenuto.
+![](images/Tool Bar-All.PNG)
 
-**1. Menu Galerie**
+**1. Menu della raccolta**
 ![](images/Tool Bar-Gallery.PNG)
-- Nouvelle esquisse, ouvrir l’esquisse, enregistrer l’esquisse, importer ou exporter des fichiers.
+- Nuovo disegno, apertura del disegno, salvataggio del disegno, importazione o esportazione di file.
 
-**2. Annuler, Rétablir** ![](images/Tool Bar-Undo Redo.PNG)
-- Cliquez sur ce bouton pour annuler ou rétablir les actions récentes.
+**2. Annulla/Ripeti**
+![](images/Tool Bar-Undo Redo.PNG)
+- Fare clic per annullare o ripetere le azioni recenti.
 
-**3. Sélection et mesure** ![](images/Tool Bar-Select.PNG)
-- Filtre de sélection : cliquez sur ce bouton pour choisir les options de filtrage des types d’objets (arêtes, faces, solides, groupes) à partir de l’outil de sélection.
-- Outils de mesure : cliquez sur ce bouton pour choisir un outil de mesure linéaire ou angulaire.
+**3. Selezione e misurazione**
+![](images/Tool Bar-Select.PNG)
+- Filtro di selezione: fare clic per scegliere le opzioni per filtrare i tipi di oggetto (bordi, superfici, solidi, gruppi) dallo strumento di selezione.
+- Strumenti di misurazione: fare clic per scegliere uno strumento di misurazione lineare o angolare.
 
-**4. Outils de création et de modification** ![](images/Tool Bar-Create.PNG)
-- Outils d’esquisse : cliquez sur ce bouton pour afficher un menu d’outils de création (ligne, arc, spline, rectangle, cercle) vous permettant de dessiner des formes.
-- Primitives : cliquez sur ce bouton pour afficher un menu de formes 3D de base (cube, dôme, pyramide, cylindre, toit) que vous pouvez placer dans votre scène.
-- Outils de modélisation avancés : cliquez sur ce bouton pour effectuer des opérations booléennes de soustraction ou de jonction, de couverture, de balayage ou de lissage.
-- Groupes : cliquez sur ce bouton pour rechercher les outils de regroupement d’objets.
+**4. Strumenti di creazione e modifica**
+![](images/Tool Bar-Create.PNG)
+- Strumenti di disegno: fare clic per visualizzare un menu di strumenti di creazione (linea, arco, spline, rettangolo, cerchio) che consentono di disegnare forme.
+- Primitive: fare clic per visualizzare un menu di forme 3D di base (cubo, cupola, piramide, cilindro, tetto) che è possibile inserire nella scena.
+- Strumenti di modellazione avanzati: fare clic per utilizzare operazioni booleane di taglio o unione, copertura, estrusione su percorso o loft.
+- Gruppi: fare clic per individuare gli strumenti per il raggruppamento di oggetti.
 
-**5. Outils d’analyse et d’emplacement** ![](images/Tool Bar-Analysis.PNG)
-- Emplacement : recherchez un emplacement et importez des images satellites dans votre esquisse.
-- Soleil et ombres : définissez l’heure et le jour pour afficher les ombres et lancer une analyse d’ensoleillement sur un bâtiment.
-- Analyse d’énergie : cliquez sur ce bouton pour effectuer des calculs sur un bâtiment afin de déterminer son utilisation d’énergie.
+**5. Strumenti di posizione e analisi**
+![](images/Tool Bar-Analysis.PNG)
+- Posizione: consente di cercare la posizione e importare immagini satellitari nel disegno.
+- Sole e ombre: consentono di impostare ora e giorno per visualizzare le ombre e avviare un'analisi solare in un edificio.
+- Analisi energetica: fare clic per eseguire calcoli in un edificio per determinarne il consumo energetico.
 
-**6. Identité de l’utilisateur**
+**6. Identità utente**
 ![](images/Tool Bar-User Identity.PNG)
-- Paramètres : définissez les paramètres d’application et d’esquisse, ainsi que le style visuel, et effectuez les diagnostics du modèle.
-- Mode tactile : effectuez des modélisations et naviguez avec des périphériques Windows tactiles à l’aide du doigt, du stylet, de la souris et du clavier.
-- Collaboration : démarrez ou rejoignez une session, ou invitez d’autres utilisateurs à collaborer.
-- Connexion à Autodesk 360 : utilisez les services cloud d’Autodesk 360 pour stocker et partager gratuitement vos esquisses.
-- Aide : utilisez les outils d’informations pour en savoir plus sur FormIt.
+- Impostazioni: consente di impostare le impostazioni dell'applicazione e del disegno insieme allo stile di visualizzazione e di eseguire la diagnostica del modello.
+- Modalità tocco: consente di modellare e navigare con i dispositivi Windows abilitati al tocco utilizzando il dito, lo stilo, il mouse e la tastiera.
+- Collaborazione: consente di avviare una sessione, partecipare ad una sessione o invitare altri utenti a collaborare.
+- Accesso ad Autodesk 360: utilizzare i servizi cloud di Autodesk 360 gratuitamente per memorizzare e condividere i disegni.
+- Guida: utilizzare gli strumenti informativi per ulteriori informazioni su FormIt.
 
-#### Barre d’outils Navigation
-Reportez-vous à la rubrique [Navigation dans la scène](../formit-introduction/navigating-the-scene.md).
+#### Barra degli strumenti Navigazione
+Vedere [Navigazione nella scena](../formit-introduction/navigating-the-scene.md).
 
-#### Barre des palettes
-La barre des palettes s’affiche sur le côté droit de l’écran. Cliquez sur l’une de ces icônes pour ouvrir une palette latérale qui affiche les propriétés du bâtiment, les matériaux, une bibliothèque de contenu et des outils de collaboration.
+#### Barra delle tavolozze
+La barra delle tavolozze viene visualizzata sul lato destro della schermata. Fare clic su una di queste icone per aprire una tavolozza laterale per visualizzare le proprietà dell'edificio, i materiali, una libreria di contenuti e gli strumenti di collaborazione.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Propriétés** Ouvrez cette palette pour afficher l’emplacement, l’aire brute et les rapports de surface au sol de votre esquisse.
+**1. Proprietà** aprire questa tavolozza per visualizzare i rapporti tra la posizione, l'area lorda e le aree del pavimento per il disegno.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Matériaux** Utilisez cette palette pour créer ou appliquer des matériaux.
+**2. Materiali** utilizzare questa tavolozza per creare o applicare materiali.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Calques** Utilisez cette palette pour créer et gérer des calques et affecter des objets sélectionnés à différents calques.
+**3. Layer** utilizzare questa tavolozza per creare e gestire i layer e assegnare gli oggetti selezionati a layer diversi.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Scènes** Utilisez cette palette pour créer, gérer et lire des scènes.
+**4. Scene** utilizzare questa tavolozza per creare, gestire e riprodurre le scene.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Styles visuels** Utilisez cette palette pour modifier la façon dont l’esquisse est affichée en contrôlant les ombres, les surfaces, les arêtes et l’environnement. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Stili visualizzazione** utilizzare questa tavolozza per modificare la modalità di visualizzazione del disegno controllando ombre, superfici, bordi e ambiente. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Arborescence des groupes** Utilisez cette palette pour afficher les groupes et les objets de chaque groupe.
+**6. Struttura gruppi** utilizzare questa tavolozza per visualizzare i gruppi e gli oggetti all'interno di ciascun gruppo.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** Utilisez cette palette pour charger et gérer les modèles de calcul créés dans Dynamo Studio.
+**7. Dynamo** utilizzare questa tavolozza per caricare e gestire i modelli di calcolo creati in Dynamo Studio.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Niveaux** Utilisez cette palette pour afficher et ajouter des niveaux à vos objets de construction.
+**8. Livelli** utilizzare questa tavolozza per visualizzare e aggiungere livelli agli oggetti degli edifici.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. Bibliothèque de contenu** Utilisez la bibliothèque de contenu pour stocker du contenu réutilisable, tel que du mobilier.
+**9. Libreria del contenuto** utilizzare la libreria di contenuti per memorizzare contenuto riutilizzabile, ad esempio l'arredo.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Gestionnaire d’annulation** Utilisez cette palette pour afficher les actions de chaque utilisateur lors de la collaboration.
+**10. Gestione operazioni annullate** utilizzare questa tavolozza per visualizzare le azioni di ciascun utente durante la collaborazione.
 ![](./images/Palette Bar-Undo Manager.PNG)

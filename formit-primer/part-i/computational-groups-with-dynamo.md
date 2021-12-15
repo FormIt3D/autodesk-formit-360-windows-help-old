@@ -1,28 +1,28 @@
-# 1.10 – Groupes de calcul avec Dynamo
+# 1.10 - Gruppi di calcolo con Dynamo
 
-_Dans ce chapitre, nous allons utiliser la puissance de calcul de_ [_**Dynamo**_](http://dynamobim.org/) _pour placer et modifier des groupes flexibles liés aux exemples de graphiques Dynamo OOTB._
+_In questo capitolo, utilizzeremo la potenza di elaborazione di_ [_**Dynamo**_](http://dynamobim.org/) _per posizionare e modificare i gruppi flessibili associati agli esempi di grafici di Dynamo predefiniti._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.10 – Computational Groups with Dynamo.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.10 - Computational Groups with Dynamo.axm**_ _dal_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-_Vous pouvez_ [_**en savoir plus ici**_](http://formit.autodesk.com/page/formit-dynamo) _sur la manière dont FormIt et Dynamo fonctionnent ensemble dans le cadre de workflows de conception informatique._
+_È possibile_ [_**ottenere ulteriori informazioni qui**_](http://formit.autodesk.com/page/formit-dynamo) _sul modo in cui FormIt e Dynamo collaborano per i workflow di progettazione computazionale._
 
-## **Création d’un escalier de terrasse inférieure**
+## **Creazione di scale della terrazza inferiore**
 
-1 – Assurez-vous que les calques **Lower Terrace, Main Building Floor** et **Plan Image** sont activés, car c’est là que vous allez ajouter l’escalier.
+1 - Assicurarsi che i layer **Lower Terrace, Main Building Floor** e **Plan Image** siano attivati, poiché è qui che aggiungeremo le scale.
 
-2 – Pour placer un groupe d’escaliers lié à l’un des exemples Dynamo OOTB, procédez comme suit :
+2 - Per posizionare un gruppo scale collegato ad uno degli esempi di Dynamo predefiniti:
 
-1. Ouvrez la **palette Dynamo** dans la barre des palettes. Quelques objets Dynamo sont normalement intégrés dans le répertoire **Dynamo Samples**.
-2. Cliquez sur l’exemple Dynamo **Stairs** pour l’importer dans l’espace modèle. FormIt exécute le graphique en arrière-plan et génère la géométrie de l’escalier à partir de ce graphique.
-3. Déplacez le curseur sur la zone de dessin. Une fois l’escalier chargé, un aperçu fantôme de la géométrie de l’escalier se déplace à côté du curseur de la souris. Placez le curseur sur la zone de dessin, près de la terrasse, puis cliquez pour placer l’escalier. Appuyez sur la touche **Échap** afin d’effacer la sélection. Notez qu’après avoir placé l’escalier, la **palette Properties** s’ouvre automatiquement.
+1. Aprire la **tavolozza di Dynamo** sulla barra delle tavolozze. Dovrebbero essere visualizzati alcuni oggetti di Dynamo incorporati nella directory **Dynamo Samples**.
+2. Fare clic sull'esempio di Dynamo **Stairs** per portarlo nello spazio modello. In FormIt si eseguirà in background il grafico, da cui verrà generata la geometria della scala.
+3. Spostare il cursore nell'area di disegno e, una volta caricata la scala, un'anteprima semitrasparente della geometria della scala si sposterà ora insieme al mouse. Spostare il cursore nell'area di disegno, vicino alla terrazza, quindi fare clic per posizionare la scala. Premere **ESC** per annullare la selezione. Notare che dopo il posizionamento delle scale, la **tavolozza Proprietà** si aprirà automaticamente.
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Remarque :**_ [_**vous pouvez également lier des répertoires locaux**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _contenant des graphiques Dynamo et exécuter vos propres graphiques Dynamo locaux de la même manière que ces exemples._
+_**Nota**_ [_**È inoltre possibile collegare le directory locali**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _contenenti i grafici di Dynamo ed eseguire i grafici di Dynamo locali come questi esempi._
 
-3 – Pour mettre à jour les cotes de l’escalier, procédez comme suit :
+3 - Per aggiornare le quote delle scale:
 
-1. Une fois le groupe d’escaliers sélectionné, modifiez les entrées disponibles dans la section **INPUTS** de Dynamo, au bas de la **palette Properties**, pour les faire correspondre comme illustré ci-dessous. La plupart des groupes créés à l’aide de scripts Dynamo disposent d’une section Dynamo incluse dans leurs propriétés lorsqu’ils sont sélectionnés.
+1. Con il gruppo scale selezionato, modificare gli input disponibili nella sezione **INPUTS** di Dynamo nella parte inferiore della **tavolozza Proprietà** in modo che corrispondano come mostrato di seguito. La maggior parte dei gruppi creati tramite gli script di Dynamo includerà una sezione di Dynamo nelle relative proprietà quando selezionate.
    * Add Top Landing = False
    * Add Middle Landing = False
    * Add Bottom Landing = False
@@ -32,32 +32,32 @@ _**Remarque :**_ [_**vous pouvez également lier des répertoires locaux**_](ht
    * Tread Length = 1.25
    * Tread Overlap = 0.25
    * Tread Thickness = 0.25
-   * Height Between Middle Landings = \(non pertinent, car aucun palier central n’est créé\)
-   * Middle Landing Length = \(non pertinent, car aucun palier central n’est créé\)
-   * Top/Bottom Landing Length = \(non pertinent, car aucun palier n’est créé\)
-2. Cliquez sur le bouton **Run** pour exécuter à nouveau le script Dynamo à l’aide des valeurs d’entrée mises à jour.
-3. Déplacez le groupe selon vos besoins pour placer l’escalier à l’emplacement approprié en fonction du calque **Plan Image**. Veillez à ne pas modifier l’élévation du groupe d’escaliers lorsque vous le déplacez. Reportez-vous aux chapitres précédents pour en savoir plus sur les astuces et techniques permettant de déplacer des éléments du modèle.
+   * Height Between Middle Landings = \(non pertinente poiché non viene creato alcun pianerottolo centrale\)
+   * Middle Landing Length = \(non pertinente poiché non viene creato alcun pianerottolo centrale\)
+   * Top/Bottom Landing Length = \(non pertinente poiché non viene creato alcun pianerottolo\)
+2. Fare clic sul pulsante **Esegui** per rieseguire lo script di Dynamo utilizzando i valori di input aggiornati.
+3. Spostare il gruppo in base alle esigenze per posizionare la scala nella posizione corretta, in base a **Plan Image**. Prestare attenzione a non modificare il prospetto del gruppo scale mentre lo si sposta. Consultare i capitoli precedenti per ulteriori informazioni sui trucchi e sulle tecniche per lo spostamento degli elementi del modello.
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Remarque :**_ _l’entrée_ _**Floor-to-Floor Height**_ _est une approximation de la hauteur totale de l’escalier. L’entrée_ _**Riser Height**_ _est le paramètre qui définit réellement la hauteur de l’escalier. Dans cet exemple, nous définissons l’entrée_ _**Floor-to-Floor Height**_ _sur 2.6’, mais la hauteur finale de l’escalier est de 3.0’ \(0.6’ \(**Riser Height**\) x 5 \(nombre de contremarches\)\). Étant donné que la travée entre le sol et le sommet de la terrasse est de 3’-2”, les 2” restants sont compris dans la contremarche supérieure._
+_**Nota**_ _L'input_ _**Floor-to-Floor Height**_ _è un'approssimazione dell'altezza totale della scala._ _**Riser Height**_ _è il parametro che definisce effettivamente l'altezza delle scale. In questo esempio impostiamo_ _**Floor-to-Floor Height**_ _su 2.6' ma l'altezza finale della scala è 3.0' \(0.6' \(**Riser Height**\) x 5 \(numero di alzate\)\). Poiché lo spazio tra il terreno e la parte superiore della terrazza del pavimento è di 3'-2", il valore rimanente 2" è contenuto nell'alzata superiore._
 
-## **Création d’un escalier de bâtiment principal**
+## **Creazione di scale dell'edificio principale**
 
-_Dans les étapes précédentes, nous avons créé un escalier sans palier. Nous allons maintenant créer un escalier qui utilise un palier supérieur aligné avec le calque_ _**Main Building Floor**._
+_Nei passaggi precedenti abbiamo creato una scala senza pianerottoli. Ora creeremo una scala che utilizza un pianerottolo superiore allineato con_ _**Main Building Floor**._
 
-1 – Tout d’abord, copiez l’escalier que nous venons de créer :
+1 - Iniziare creando una copia delle scale appena create:
 
-1. Sélectionnez l’escalier existant, puis cliquez n’importe où sur le calque **Plan Image** pour lancer une commande de déplacement. FormIt utilise alors l’élévation du calque **Plan Image** comme hauteur de référence de départ pour placer la nouvelle copie. Appuyez sur la touche **Ctrl** pour effectuer une **copie rapide**.
-2. Déplacez le curseur vers le bâtiment principal au-dessus de la terrasse. Notez que la face supérieure de la terrasse est maintenant le nouveau plan de référence. Cliquez pour placer le groupe.
+1. Selezionare la scala esistente, quindi fare clic in un punto qualsiasi di **Plan Image** per avviare un comando di spostamento. In questo modo in FormIt verrà utilizzato il prospetto di **Plan Image** come altezza di riferimento iniziale per il posizionamento della nuova copia. Premere **CTRL** per eseguire una **copia rapida**.
+2. Spostare il cursore più vicino all'edificio principale sopra la terrazza. Notare che ora la superficie superiore della terrazza è il nuovo piano di riferimento. Fare clic per posizionare il gruppo.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Remarque :**_ _étant donné que le calque_ _**Plan Image**_ _se trouve sur le plan_ _**Ground Level**__, l’__**outil Move**_ _utilise ce plan comme référence pour son point de départ. Notez l’info-bulle_ _**On Face**_ _dans l’image ci-dessus, qui indique que la face Plan Image est sélectionnée comme référence de départ et la face supérieure du calque_ _**Lower Terrace Floor**_ _comme référence de fin._
+_**Nota**_ _Poiché_ _**Plan Image**_ _si trova sul piano_ _**Ground Level**_ _, lo_ _**strumento Sposta**_ _utilizzerà quel piano come riferimento per il punto iniziale. Notare la descrizione comando_ _**Sulla superficie**_ _nell'immagine precedente, ad indicare che la superficie Plan Image è selezionata come riferimento iniziale e la superficie superiore di_ _**Lower Terrace Floor**_ _è selezionata come riferimento finale._
 
-2 – Utilisez l’outil **Make Unique \(MU\)** pour que les modifications apportées aux entrées Dynamo de cet escalier n’affectent pas l’escalier inférieur. Repositionnez le groupe à l’endroit souhaité afin qu’il soit proche de son emplacement final. Nous réglerons cela ultérieurement. Vous pouvez activer ou désactiver la visibilité du calque **Lower Terrace** afin d’afficher le plan ci-dessous et de faciliter ainsi son positionnement. Par contre, veillez à ne pas modifier l’élévation du nouvel escalier lorsque vous le déplacez.
+2 - Utilizzare lo strumento **Rendi univoco \(MU\)** in modo che quando modifichiamo gli input di Dynamo di questa scala, la scala inferiore non verrà influenzata. Riposizionare il gruppo in base alle esigenze in modo che si trovi vicino alla posizione finale. Perfezioneremo questo elemento in un secondo momento. È possibile attivare o disattivare la visibilità del layer **Lower Terrace** per visualizzare la pianta sottostante in modo da posizionarla, ma è necessario fare nuovamente attenzione a non modificare il prospetto della nuova scala mentre la si sposta.
 
-3 – Dans la **palette Properties**, mettez à jour les **entrées Dynamo** comme illustrées ci-dessous et exécutez le script à nouveau.
+3 - Nella **tavolozza Proprietà** aggiornare la sezione **Inputs di Dynamo** come mostrato di seguito ed eseguire nuovamente lo script.
 
 * Add Top Landing = True
 * Floor-to-Floor Height = 2.333
@@ -67,9 +67,9 @@ _**Remarque :**_ _étant donné que le calque_ _**Plan Image**_ _se trouve sur 
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Remarque :**_ _si vous définissez l’entrée_ _**Add Bottom Landing**_ _sur_ _**True**_ _et que vous relancez le script, la face supérieure du palier inférieur doit s’aligner sur la face supérieure du calque_ _**Lower Terrace Floor**. Cela est dû au fait que, contrairement à l’escalier précédent, nous avons ajusté l’entrée_ _**Riser Height**_ _pour faire correspondre l’entrée_ _**Floor-to-Floor Height**_ _à la hauteur réelle que nous souhaitons \(2’-4” ou 2.333’\)._
+_**Nota**_ _Se si imposta_ _**Add Bottom Landing**_ _su_ _**True**_ _e si riesegue lo script, la superficie superiore del pianerottolo inferiore deve essere allineata alla superficie superiore di_ _**Lower Terrace Floor**. Ciò accade perché, diversamente dalle scale precedenti, è stata regolata l'opzione_ _**Riser Height**_ _in modo che_ _**Floor-to-Floor Height**_ _corrisponda all'altezza reale desiderata \(2'-4" o 2.333"\)._
 
-2 – Repositionnez le groupe sur sa position finale. Le palier supérieur doit être aligné avec le calque **Main Building Floor**.
+2 - Riposizionare il gruppo nella posizione finale. Il pianerottolo superiore deve essere allineato con **Main Building Floor**.
 
-3 – Pour finaliser l’escalier, ajoutez le matériau **Stone - Travertine** pour qu’il corresponde aux sols. Pour en savoir plus sur l’application de matériaux, reportez-vous aux chapitres précédents.
+3 - Per finalizzare le scale, aggiungere il materiale **Stone - Travertine** per uniformarle ai pavimenti. Per ulteriori informazioni sull'applicazione dei materiali, vedere i capitoli precedenti.
 

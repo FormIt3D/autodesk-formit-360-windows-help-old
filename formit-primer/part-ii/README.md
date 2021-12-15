@@ -1,28 +1,28 @@
-# Partie II
+# Parte II
 
-## Outils avancés
+## Strumenti avanzati
 
-Dans la **Partie II** de ce guide, nous allons nous intéresser aux outils les plus avancés que FormIt propose. Nous allons découvrir le fonctionnement des outils de modélisation, de diagnostic, d’analyse et d’interopérabilité simples, mais puissants, pour modifier et améliorer le modèle Campus Encode illustré ci-dessous.
+Nella **Parte II** di questa Guida introduttiva, esamineremo alcuni degli strumenti più avanzati che FormIt ha da offrire. Esploreremo come utilizzare strumenti semplici ma potenti di modellazione, diagnostica, analisi e interoperabilità per modificare e migliorare il modello del campus encode illustrato di seguito.
 
-Si vous utilisez FormIt pour la première fois, nous vous recommandons de commencer par la **partie I**, car la **partie II** suppose que vous connaissez déjà les fonctions de base de FormIt.
+Se non si conosce FormIt, è consigliabile iniziare con la **Parte I**, poiché la **Parte II** presuppone di avere già familiarità con le nozioni di base di FormIt.
 
-Reportez-vous aux sections **Introduction à FormIt** et **Bibliothèque d’outils** pour obtenir des explications détaillées sur les outils, barres d’outils, palettes et processus spécifiques décrits dans le présent guide.
+Consultare le sezioni **Introduzione a FormIt** e **Libreria degli strumenti** per spiegazioni dettagliate su strumenti, barre degli strumenti, tavolozze e processi specifici descritti in questo documento.
 
 ![](../../.gitbook/assets/screen1.jpg)
 
-### Prérequis
+### Prerequisiti
 
-Avant de commencer la partie II, téléchargez et installez FormIt pour Windows en suivant les instructions fournies dans la section Introduction à FormIt, à l’adresse suivante : [**Conditions préalables et installation**](../../formit-introduction/prerequisites-and-installation.md).
+Prima di iniziare la Parte II, scaricare e installare FormIt per Windows utilizzando le istruzioni disponibili nella sezione Introduzione a FormIt qui: [**Prerequisiti e installazione**](../../formit-introduction/prerequisites-and-installation.md).
 
-Pour la plupart des chapitres, vous devrez également télécharger et utiliser le jeu de données disponible à l’adresse ci-dessous.
+Per la maggior parte dei capitoli, sarà inoltre necessario scaricare e utilizzare il set di dati disponibile al collegamento riportato di seguito.
 
-_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app) _gratuite. Pour plus d’informations sur les versions de FormIt et les licences, visitez le_ ****[_**site Web FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app) _gratuita. Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ ****[_**sito Web di FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Jeu de données
+### Set di dati
 
-Le campus Encode, illustré ci-dessus, est un projet fictif à usage multiple de taille moyenne, défini dans un tracé urbain, avec des calques, des scènes, des matériaux organisés et même des géométries liées à des scripts Dynamo modifiables en direct.
+Il campus encode, nella figura precedente, è un progetto multiuso fittizio di medie dimensioni impostato in un tracciato urbano, completo di layer, scene, materiali organizzati e persino geometrie, tutti elementi legati a script di Dynamo modificabili dal vivo.
 
-Tous les éléments de façade du bâtiment Encode sont contrôlés par des scripts Dynamo, gérés par un chemin à la base du bâtiment qui définit la forme de la façade.
+Tutti gli elementi della facciata dell'edificio encode sono controllati dagli script di Dynamo, guidati da un percorso alla base dell'edificio che definisce la forma della facciata.
 
-* \*\*\*\*\* [**Jeux de données Partie II FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**Set di dati della Parte II della Guida introduttiva di FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
 

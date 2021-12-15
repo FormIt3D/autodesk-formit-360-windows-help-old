@@ -1,30 +1,30 @@
-# Navigation dans la scène
+# Navigazione nella scena
 
-Utilisez la souris ou l’écran tactile pour naviguer facilement dans vos modèles FormIt et tout autour :
+Utilizzare il mouse o il touchscreen per navigare facilmente all'interno e attorno ai modelli di FormIt:
 
-* Pour **appliquer une orbite**, cliquez avec le bouton droit de la souris et faites glisser le curseur, ou touchez et faites glisser l’écran sur les périphériques tactiles. Cette opération utilise le point du curseur dans l’espace 3D autour duquel la caméra est mise en orbite.
-   * Vous pouvez également maintenir la touche Maj enfoncée pour effectuer un panoramique.
-* Pour **effectuer un zoom avant et arrière**, faites défiler la molette de la souris vers le haut et vers le bas, ou pincez l’écran avec les doigts sur les appareils tactiles. Cette opération utilise un point de l’espace 3D sur lequel effectuer un zoom, et ralentit le zoom lorsque vous approchez une surface ou un autre objet.
-   * Vous pouvez également maintenir la touche Ctrl enfoncée pour effectuer un zoom à une vitesse constante, sans qu’il ne soit affecté par la proximité des objets.
-* Pour **effectuer un panoramique**, cliquez avec le bouton central de la souris et faites glisser le curseur, ou faites glisser l’écran avec deux doigts sur les appareils tactiles.
+* Eseguire **Orbita** facendo clic con il pulsante destro del mouse e trascinando il mouse o scorrendo lo schermo per i dispositivi abilitati al tocco. In questo modo si utilizzerà il punto del cursore nello spazio 3D attorno al quale eseguire l'orbita della cinepresa.
+   * È inoltre possibile tenere premuto il tasto MAIUSC per eseguire la panoramica.
+* Eseguire lo **zoom** avanti e indietro facendo scorrere la rotellina del mouse in avanti e all'indietro oppure avvicinando o allontanando le dita per i dispositivi abilitati per il tocco. In questo modo si utilizzerà un punto nello spazio 3D in cui eseguire lo zoom e tale operazione verrà rallentata quando ci si avvicina ad una superficie o ad un altro oggetto.
+   * È inoltre possibile tenere premuto CTRL per eseguire lo zoom ad una velocità costante, senza che sia influenzata dalla prossimità agli oggetti.
+* Eseguire la **panoramica** facendo clic con il pulsante centrale del mouse e trascinando il mouse oppure trascinando due dita per i dispositivi abilitati per il tocco.
 
-Vous pouvez également utiliser la barre d’outils de navigation flottante située sur le côté droit de la zone de dessin pour accéder à des modes de vue spécifiques. Les raccourcis sont indiqués entre parenthèses.
+È inoltre possibile utilizzare la barra degli strumenti Navigazione mobile sul lato destro dell'area di disegno per accedere a modalità specifiche della vista. I tasti di scelta rapida sono indicati tra parentesi.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Vues orthogonales** : cliquez sur ce bouton pour afficher un menu déroulant des [vues orthogonales](../tool-library/orthographic-views.md) disponibles.
+![](../.gitbook/assets/20190618-ortho-views.png) **Viste ortogonali**: fare clic per visualizzare un menu a comparsa delle [viste ortogonali](../tool-library/orthographic-views.md) disponibili.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vue 3D par défaut \(ZD\) :** lance la vue 3D par défaut.
+![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D di default \(ZD\):** avvia la vista 3D di default.
 
-![](../.gitbook/assets/jet-pack.png) **Visite virtuelle \(FT\) :** le mode « Jetpack » vous permet de parcourir la scène à l’aide de votre clavier. Utilisez WASD pour vous déplacer vers l’avant/l’arrière/la gauche/la droite, et Q/E pour vous déplacer vers le haut/vers le bas. Utilisez la touche Espace pour « survoler » l’écran.
+![](../.gitbook/assets/jet-pack.png) **Animazione \(FT\):** la modalità con l'icona a forma di zaino-jet consente di spostarsi all'interno della scena utilizzando la tastiera. Utilizzare WASD per spostarsi avanti/indietro/a sinistra/a destra e Q/E per spostarsi verso l'alto/verso il basso. Utilizzare la barra spaziatrice per "volare".
 
-![](../.gitbook/assets/orbit-tool.png) **Orbite \(O\) :** lorsque cette option est activée, cliquez avec le bouton gauche de la souris et faites glisser le curseur pour appliquer une orbite au modèle. Vous pouvez également effectuer cette opération à tout moment en cliquant avec le bouton droit de la souris et en faisant glisser le curseur.
+![](../.gitbook/assets/orbit-tool.png) **Orbita \(O\):** quando è attivata, fare clic con il pulsante sinistro del mouse e trascinare il mouse per eseguire l'orbita attorno al modello. È inoltre possibile eseguire questa operazione in qualsiasi momento facendo clic con il pulsante destro del mouse e trascinando il modello.
 
-![](../.gitbook/assets/swivel.PNG) **Pivot \(SV\) :** utilisez l’outil Pivot de la barre d’outils de navigation pour regarder autour de la scène à partir d’un point fixe.
+![](../.gitbook/assets/swivel.PNG) **Ruota attorno ad asse \(SV\):** utilizzare lo strumento Ruota attorno ad asse dalla barra degli strumenti Navigazione per guardare attorno alla scena da un punto fisso.
 
-![](../.gitbook/assets/panning.png) **Panoramique \(P\) :** cliquez sur le bouton central de la souris et faites glisser le curseur, ou utilisez l’outil Panoramique \(main\) de la barre d’outils de navigation pour effectuer un panoramique dans la scène.
+![](../.gitbook/assets/panning.png) **Pan \(P\):** fare clic e trascinare il pulsante centrale del mouse o utilizzare lo strumento Pan \(mano\) dalla barra degli strumenti Navigazione per eseguire la panoramica nella scena.
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\) :** utilisez la molette de la souris ou sélectionnez l’outil Zoom dans la barre d’outils de navigation, puis cliquez sur le bouton gauche de la souris et faites glisser le curseur pour effectuer un zoom.
+![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** scorrere la rotellina del mouse o selezionare lo strumento Zoom dalla barra degli strumenti Navigazione, quindi fare clic e trascinare il pulsante sinistro del mouse per eseguire lo zoom.
 
-![](../.gitbook/assets/zoom_all.png) **Zoom tout \(ZE ou ZA\) :** effectuez un zoom pour ajuster l’ensemble du modèle à la vue active.
+![](../.gitbook/assets/zoom_all.png) **Zoom tutto \(ZE o ZA\):** eseguire lo zoom per adattare l'intero modello alla vista corrente.
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom sur la sélection \(ZS\) :** effectuez un zoom pour ajuster tous les objets actuellement sélectionnés à la vue active.
+![](../.gitbook/assets/zoom_selection.png) **Zoom selezione \(ZS\):** eseguire lo zoom per adattare tutti gli oggetti attualmente selezionati alla vista corrente.
 

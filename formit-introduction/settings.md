@@ -1,20 +1,20 @@
-# Paramètres
+# Impostazioni
 
-Les paramètres sont accessibles à partir du menu ou de la barre d’outils. Tous les paramètres sont enregistrés une fois FormIt fermé.
+È possibile accedere a Impostazioni dal menu o dalla barra degli strumenti. Tutte le impostazioni vengono salvate dopo la chiusura di FormIt.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Unités** : permet de passer des unités anglo-saxonnes aux unités métriques.
-* **Accrocher à la grille** : permet de choisir si les outils de dessin et de modélisation s’accrochent à la grille au sol sous-jacente.
-* **Afficher les cotes modifiables** : permet d’activer ou de désactiver l’affichage des cotes lors du dessin et de la modification.
-* **Afficher les groupes modifiés uniquement** : lorsque cette option est activée, tous les autres groupes sont masqués lorsqu’un autre groupe est modifié.
-* **Mise en surbrillance des présélections** : si cette option est activée, lorsque vous passez le curseur de la souris sur l’ensemble des objets, des arêtes, des faces et des points, ces éléments sont mis en surbrillance.
-* **Boutons de la barre d’outils étendue** : permet d’activer et de désactiver les boutons de la barre d’outils étendue.
-* **Thème de l’application** : permet de basculer entre les thèmes de l’interface utilisateur Clair, Foncé et Bleu.
+* **Unità**: consente di alternarsi tra unità imperiali e unità metriche.
+* **Snap alla griglia**: consente di attivare e disattivare lo snap degli strumenti di disegno e modellazione alla griglia di posizionamento del terreno sottostante.
+* **Visualizza quote modificabili**: consente di attivare e disattivare la visualizzazione delle quote durante il disegno e la modifica.
+* **Nascondi contesto gruppo**: quando l'opzione è attivata, tutti gli altri gruppi vengono nascosti mentre un altro gruppo viene modificato.
+* **Evidenziazione preselezione**: se l'opzione attivata, quando si posiziona il cursore del mouse su tutti gli oggetti, i bordi, le superfici e i punti mostrano un'evidenziazione visiva.
+* **Pulsanti grandi barra degli strumenti**: consente di attivare e disattivare i pulsanti della barra degli strumenti di grandi dimensioni.
+* **Tema app**: consente di passare tra i vari temi dell'interfaccia utente, Chiaro, Scuro e Blu.
 
-## Mode tactile
+## Modalità tocco
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-Le mode tactile vous permet d’utiliser des fenêtres équipées d’écrans tactiles. Lorsque cette option est activée, il vous suffit d’appuyer sur l’écran pour sélectionner les outils de dessin, de modélisation et de modification, et interagir avec ceux-ci. **Remarque : en mode tactile, les outils de dessin et de modification ne fonctionnent pas correctement avec la souris.**
+Modalità tocco consente di utilizzare Windows con touchscreen. Quando è attivata, è possibile utilizzare un singolo tocco e trascinare per selezionare e interagire con gli strumenti di disegno, modellazione e modifica. **Nota In Modalità tocco, gli strumenti di disegno e modifica non funzionano correttamente con il mouse.**
 

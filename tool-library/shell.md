@@ -1,4 +1,4 @@
-# Coque
+# Involucro
 
-À partir d’un objet solide, vous pouvez créer une « coque » d’une largeur spécifiée. Les coques sont utiles pour créer rapidement des murs à partir d’un modèle de volume :
+Da un oggetto solido, è possibile creare un "involucro" di una larghezza specificata. Gli involucri sono utili per creare rapidamente muri da un modello di volumetrie:
 

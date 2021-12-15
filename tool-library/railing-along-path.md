@@ -1,81 +1,81 @@
 # Railing Along Path
 
-## Optimisé par Dynamo
+## Con tecnologia di Dynamo
 
-FormIt 2021 et les versions ultérieures permettent de générer un garde-corps le long d’une trajectoire et de personnaliser rapidement les résultats en place. L’exemple Railing Along Path est optimisée par Dynamo, ce qui signifie que le garde-corps obtenu est facilement configurable afin d’obtenir les résultats souhaités, et la réexécution de la logique permet de mettre à jour la géométrie en place.
+In FormIt 2021 e versioni successive, è possibile generare una ringhiera lungo un percorso e personalizzare rapidamente i risultati localmente. Railing Along Path è gestito da Dynamo, il che significa che la ringhiera risultante è facilmente configurabile per ottenere i risultati desiderati e la riesecuzione della logica aggiornerà la geometria localmente.
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Lancement de Railing Along Path
+## Avvio di Railing Along Path
 
-* Accédez au groupe de fonctions Dynamo dans FormIt pour Windows et vérifiez que vous vous trouvez dans le répertoire Dynamo Samples.
-* Cliquez sur l’exemple Railing Along Path.
-* Dans la partie gauche de l’écran, une fenêtre s’affiche et vous invite à sélectionner la trajectoire du garde-corps.
-   * Vous devez sélectionner uniquement une série d’arêtes contiguës ou un groupe contenant uniquement une série d’arêtes.
-   * Une fois la trajectoire sélectionnée, cliquez sur le bouton « finish » ou appuyez sur Entrée/Retour.
-* Le groupe de fonctions Dynamo indique que les modifications sont en cours de traitement. Lorsque vous avez terminé, vous disposez d’un garde-corps généré par Dynamo dans un groupe FormIt, prêt à être modifié \(reportez-vous à la section ci-dessous\).
+* Accedere al pannello di Dynamo in FormIt per Windows e verificare di trovarsi nella directory Dynamo Samples.
+* Fare clic sull'esempio Railing Along Path.
+* Sul lato sinistro della schermata, verrà visualizzato il messaggio di richiesta Select path for railing.
+   * È necessario selezionare solo una serie di bordi contigui o un gruppo contenente solo una serie di bordi.
+   * Dopo aver selezionato il percorso, fare clic sul pulsante di fine o premere INVIO.
+* Il pannello di Dynamo indicherà che è in corso l'elaborazione delle modifiche. Al termine, si disporrà di una ringhiera generata da Dynamo in un gruppo di FormIt, pronta per la modifica \(vedere qui sotto\).
 
-## Itération en place
+## Iterazione locale
 
-Après l’exécution de l’exemple Railing Along Path, les résultats sont définis sur les valeurs par défaut. Si ces valeurs ne vous conviennent pas, vous pouvez personnaliser le garde-corps en fonction de vos besoins.
+Dopo l'esecuzione di Railing Along Path, si noterà che i risultati sono impostati sui valori di default. Forse queste funzioni sono utili, ma è possibile personalizzare pesantemente la ringhiera in base alle esigenze specifiche.
 
-Lors de l’exécution de l’exemple Railing Along Path, un groupe contenant les résultats est créé. FormIt sélectionne alors automatiquement le groupe et affiche les options disponibles pour cette occurrence Railing Along Path.
+All'esecuzione di Railing Along Path, viene creato un nuovo gruppo contenente i risultati. In FormIt viene selezionato automaticamente il gruppo e sono mostrate le opzioni disponibili per l'istanza di Railing Along Path.
 
-Pour revenir aux propriétés Railing Along Path, sélectionnez le groupe et basculez vers le groupe de fonctions Properties, ou modifiez le groupe qui affiche automatiquement les propriétés.
+È sempre possibile tornare alle proprietà di Railing Along Path selezionando il gruppo e passando al pannello Proprietà oppure modificando il gruppo che mostrerà automaticamente le proprietà.
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-Hauteur globale du garde-corps. Ce paramètre utilise les unités FormIt actives.
+L'altezza totale della ringhiera. Utilizza le unità di FormIt correnti.
 
 ### Post Spacing
 
-Espacement entre les poteaux verticaux principaux. Ce paramètre utilise les unités FormIt actives.
+La spaziatura tra i montanti verticali principali. Utilizza le unità di FormIt correnti.
 
-### Add Posts at Path Vertices
+### Add Posts at Path Vertices?
 
-Lorsque la valeur est définie sur **True**, les poteaux sont ajoutés à chaque sommet de la trajectoire sélectionnée et le calcul du positionnement du poteau suivant est réinitialisé à ce point.
+Quando è **True**, i montanti verranno aggiunti in corrispondenza di ciascun vertice del percorso selezionato e il calcolo per il posizionamento del montante successivo viene reimpostato in quel punto.
 
-Par exemple, si vous avez sélectionné une série de trois arêtes, un poteau s’affiche au niveau de chacun des deux points internes. Ce paramètre est utile si les sommets indiquent un changement de direction \(par exemple, montée d’escaliers ou virages\) où un poteau serait naturellement présent.
+Ad esempio, se è stata selezionata una serie di tre bordi, verrà visualizzato un montante in corrispondenza di ciascuno dei due punti interni. Ciò è utile se i vertici indicano un cambio di direzione \(ad esempio, quando si salgono le scale o si svoltano gli angoli\) in cui si presenterebbe naturalmente un montante.
 
-Lorsque la valeur est définie sur **False**, les poteaux sont uniquement ajoutés le long de la trajectoire à partir d’une extrémité. La distance est mesurée le long de la trajectoire et les sommets sont ignorés. Ce paramètre est utile si vous avez sélectionné un arc, une spline ou un cercle, où les sommets ne sont pas importants et que vous souhaitez que l’espacement des poteaux les ignore.
+Quando è **False**, i montanti verranno aggiunti solo lungo il percorso a partire da un'estremità e misurando la distanza lungo il percorso, ignorando i vertici lungo il percorso. Questa opzione è utile se è stato selezionato un arco, una spline o un cerchio, in cui i vertici non sono importanti e si desidera che vengano ignorati nella spaziatura dei montanti.
 
-### Reverse Path Direction
+### Reverse Path Direction?
 
-Lors du calcul du positionnement des poteaux, la direction de la trajectoire choisie détermine l’extrémité de la trajectoire qui démarre la mesure de l’espacement des poteaux.
+Quando si calcola il posizionamento dei montanti, la direzione del percorso scelto determinerà quale estremità del percorso inizierà la misurazione della spaziatura dei montanti.
 
-Si l’espacement des poteaux génère de l’espace sur une extrémité indésirable de la trajectoire, vous pouvez remplacer cette valeur par **True** pour inverser la courbe et commencer la mesure de l’espacement des poteaux à l’extrémité opposée.
+Se la spaziatura dei montanti determina uno spazio residuo su un'estremità indesiderata del percorso, è possibile modificare questo valore in **True** per invertire la curva e avviare la misurazione della spaziatura dei montanti all'estremità opposta.
 
-### Post Width + Depth
+### Post Width e Post Depth
 
-Taille \(en plan\) des profils de poteaux verticaux rectangulaires. Ce paramètre utilise les unités FormIt actives.
+La dimensione \(in pianta\) dei profili rettangolari dei montanti verticali. Utilizza le unità di FormIt correnti.
 
-### Handrail Width + Height
+### Handrail Width e Handrail Height
 
-Taille \(en section\) du profil rectangulaire des mains courantes. Ce paramètre utilise les unités FormIt actives.
+La dimensione \(in sezione\) del profilo del corrimano rettangolare. Utilizza le unità di FormIt correnti.
 
 ### Baluster Orientation
 
-Lorsque ce paramètre est activé, les barreaux sont orientés horizontalement, comme les câbles. Si la valeur est définie sur False, les barreaux sont orientés verticalement, pour une esthétique plus traditionnelle.
+Se è True, le balaustre verranno orientate orizzontalmente, come i cavi. Se è False, le balaustre verranno orientate verticalmente per un aspetto estetico più tradizionale.
 
-### Baluster width + Depth
+### Baluster Width e Baluster Depth
 
-Taille du profil rectangulaire du barreau. Ce paramètre utilise les unités FormIt actives.
+La dimensione del profilo rettangolare della balaustra. Utilizza le unità di FormIt correnti.
 
 ### Baluster Spacing
 
-Quantité d’espace entre chaque barreau. Ce paramètre utilise les unités FormIt actives.
+La quantità di spazio tra ogni balaustra. Utilizza le unità di FormIt correnti.
 
 ### Bottom Rail Start Height
 
-Distance entre le bas du garde-corps et la traverse inférieure qui soutient les barreaux. Ce paramètre utilise les unités FormIt actives.
+La distanza tra la parte inferiore della ringhiera e la guida inferiore che supporta le balaustre. Utilizza le unità di FormIt correnti.
 
-### Run
+### Esegui
 
-Après avoir modifié les options, cliquez sur le bouton « Run » pour exécuter le graphique Dynamo sous-jacent et générer de nouveaux résultats. Ce bouton devient bleu lorsque les paramètres ont été modifiés. Vous devez donc cliquer dessus pour afficher les mises à jour dans la géométrie finale.‌
+Dopo aver modificato le opzioni, fare clic sul pulsante Esegui per eseguire il grafico di Dynamo sottostante e generare nuovi risultati. Questo pulsante diventa blu quando i parametri sono stati modificati, pertanto è necessario fare clic per visualizzare gli aggiornamenti nella geometria finale.‌
 
 ### Edit Embedded Graph
 
-Cliquez sur ce bouton pour lancer l’environnement de l’éditeur graphique Dynamo. Celui-ci vous permet d’afficher et de modifier le graphique Dynamo sous-jacent afin de modifier plus rapidement les paramètres et d’afficher les mises à jour en direct, ou d’inspecter/ajuster la logique.
+Facendo clic su questa opzione si avvia l'ambiente dell'editor grafico di Dynamo, in modo che sia possibile visualizzare e modificare il grafico di Dynamo sottostante per modificare più rapidamente i parametri e visualizzare gli aggiornamenti dinamici o per esaminare/regolare la logica.
 

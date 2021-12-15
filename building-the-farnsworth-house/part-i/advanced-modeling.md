@@ -1,108 +1,108 @@
-# Modélisation avancée
+# Modellazione avanzata
 
-Dans nos exercices Maison Farnsworth, nous nous sommes concentrés sur les outils de modélisation de base, comme Esquisse, Faire glisser la face, Déplacer, Réseau et Décaler la face. Nous avons également abordé les workflows essentiels concernant les groupes, les calques, les matériaux et les niveaux. Dans cette section, nous allons vous présenter les outils de modélisation avancée **Balayage** et **Congé**.
+Negli esercizi di Casa Farnsworth ci siamo concentrati sugli strumenti di modellazione di base, quali il disegno, il trascinamento della superficie, lo spostamento, la matrice e l'offset della superficie. Abbiamo anche trattato i workflow essenziali che coinvolgono gruppi, layer, materiali e livelli. In questa sezione presenteremo gli strumenti di Modellazione avanzata **Estrusione su percorso** e **Raccordo**.
 
-Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier **farnsworth05.axm** à partir du [dossier FormIt Primer](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
+Se non è stata completata l'ultima sezione, scaricare e aprire il file **farnsworth05.axm** dalla [cartella della Guida introduttiva di FormIt](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-## Balayage
+## Estrusione su percorso
 
-Utilisez l’outil Balayage pour créer une corniche le long du toit.
+Utilizzare lo strumento Estrusione su percorso per creare un cornicione lungo il tetto.
 
-1. À l’aide de l’outil **Rectangle \(R\)**, créez un contour de **6” de haut par 4 5/8”** à n’importe quel coin du toit.
+1. Con lo strumento **Rettangolo \(R\)**, creare un profilo di **6" per 4 5/8"** in qualsiasi angolo del tetto.
 
    ![](../../.gitbook/assets/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
 
-2. Créez un autre contour **Rectangle \(R\)** de **2” x 2”.**
+2. Creare un altro profilo **Rettangolo \(R\)** che sia **2" x 2".**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
 
-3. **Cliquez une fois** sur la ligne entre les contours pour la sélectionner. Utilisez la touche **Suppr** pour supprimer la ligne et créer un contour simple.
+3. **Fare un singolo clic** per selezionare la linea tra i profili. Utilizzare il tasto **CANC** per rimuovere la linea, in modo da creare un singolo contorno.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
-4. Sélectionnez l’[**outil Balayage \(SW\)**](../../tool-library/cover-sweep-loft.md) dans le [**menu Modélisation avancée**](../../formit-introduction/tool-bars.md)**.**
+4. Selezionare lo [**strumento Estrusione su percorso \(SW\)**](../../tool-library/cover-sweep-loft.md) dal [**menu Modellazione avanzata**](../../formit-introduction/tool-bars.md)**.**
 
    ![](../../.gitbook/assets/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
-5. La barre d’outils **Géométrie avancée** s’affiche dans le coin supérieur gauche de la zone de dessin avec des instructions d’aide-mémoire.
+5. La barra degli strumenti **Geometria avanzata** viene visualizzata nell'angolo superiore sinistro dell'area di disegno con istruzioni di testo utili.
 
    ![](../../.gitbook/assets/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **Cliquez une fois** sur la face que vous venez de dessiner pour la sélectionner. Il s’agit du **contour** que vous souhaitez balayer.
+6. **Fare un singolo clic** per selezionare la superficie appena disegnata. Si tratta del **profilo** di cui si desidera eseguire l'estrusione su percorso.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_3.png)
 
-7. La barre d’outils **Géométrie avancée** change lorsque vous sélectionnez une face. Vous êtes maintenant invité à sélectionner une **trajectoire** pour le balayage.
+7. La barra degli strumenti **Geometria avanzata** cambia quando si seleziona una superficie. Ora viene richiesto di selezionare una **traiettoria** per l'estrusione su percorso.
 
    ![](../../.gitbook/assets/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-8. **Cliquez une fois** sur la **face supérieure du toit** pour la sélectionner. L’outil déduit les arêtes de la face comme trajectoire. Le balayage est créé après la sélection du toit.
+8. **Fare un singolo clic** per selezionare la **superficie superiore del tetto**. Lo strumento deduce i bordi della superficie come traiettoria. L'estrusione su percorso viene creata dopo la selezione del tetto.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
-9. Double-cliquez sur l’élément de la corniche pour le sélectionner en entier. Utilisez l’outil **Grouper \(G\)** pour créer un groupe avec la corniche. Modifiez le groupe et nommez-le **Corniche.**
+9. Fare doppio clic per selezionare l'intero elemento cornicione. Selezionare **Gruppo \(G\)** per il cornicione. Modificare il gruppo e denominarlo **cornice.**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
-10. Peignez le groupe Corniche avec le matériau **Béton > Blanc** pour qu’il corresponde au toit. Ajoutez le **groupe Corniche** au calque **Toit**.
+10. Dipingere il gruppo cornice con il materiale **Concrete &gt; White** in modo che corrisponda al tetto. Aggiungere il **gruppo cornice** al layer **Roof**.
 
-Vous devez ajuster la **hauteur des poteaux** afin d’atteindre la corniche. Modifiez l’un des groupes de grands poteaux, sélectionnez la face supérieure et abaissez-la à la hauteur appropriée. Vous devrez peut-être également ajuster l’emplacement des poteaux afin qu’ils affleurent les dalles. C’est le moment idéal d’effectuer ces ajustements mineurs.
+È necessario regolare l'**altezza dei pilastri** per terminare il cornicione. Modificare uno dei gruppi di pilastri alti, selezionare la superficie superiore e portarla all'altezza corretta. Potrebbe inoltre essere necessario regolare la posizione dei pilastri in modo che siano allineati ai solai. Ora è il momento giusto per apportare queste piccole modifiche.
 
-## Congé
+## Raccordo
 
-Vous allez maintenant apprendre à utiliser l’outil Congé afin de créer une arête arrondie et d’adoucir ainsi l’aspect d’un meuble.
+Ora imparerete a utilizzare lo strumento Raccordo per creare un bordo arrotondato e conferire un aspetto più morbido ad un componente di arredo.
 
-1. **Désactivez** le calque **Toit** afin de distinguer l’intérieur de la maison.
-2. Créez un **rectangle de 4’ x 7’** à l’aide de l’outil **Rectangle (R\)** dans le coin nord-est de la maison. Sélectionnez la face et extrudez-la de **1’-6” de haut.**
+1. **Disattivare** il layer **Roof** in modo da poter vedere all'interno della casa.
+2. Creare un **rettangolo \(R\)** **di 4' x 7'** nell'angolo nord-est della casa. Selezionare la superficie ed estruderla ad **un'altezza di 1'-6".**
 
    ![](../../.gitbook/assets/upperterracesketch_20.png)
 
-3. Sélectionnez l’[**outil Congé \(FI\)**](../../tool-library/cover-sweep-loft.md) dans les **outils de modélisation avancés** de la [**barre d’outils Action**](../../formit-introduction/tool-bars.md)**.**
+3. Selezionare lo [**strumento Raccordo \(FI\)**](../../tool-library/cover-sweep-loft.md) dagli **strumenti di Modellazione avanzata** sulla [**barra degli strumenti delle azioni**](../../formit-introduction/tool-bars.md)**.**
 
    ![](../../.gitbook/assets/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-4. Définissez la valeur du **congé** par défaut sur 1” dans la boîte de dialogue qui s’affiche.
-5. **Cliquez une fois** sur la face supérieure du lit. Le congé est créé automatiquement après la sélection de la face.
+4. Modificare il valore di default del **raccordo** in 1" nella finestra di dialogo che viene visualizzata.
+5. **Fare un singolo clic** sulla superficie superiore del letto. Il raccordo viene creato automaticamente dopo la selezione della superficie.
 
    ![](../../.gitbook/assets/upperterracesketch_21.png)
 
-## Arborescence des groupes
+## Struttura gruppi
 
-Au lieu de modifier le groupe pour le nommer et le classer par catégorie, utilisez l’**arborescence des groupes** afin d’effectuer rapidement plusieurs tâches de gestion de modèles.
+Anziché modificare il gruppo per assegnargli un nome e una categoria, utilizzare **Struttura gruppi**, che consente di eseguire rapidamente più attività di gestione dei modelli.
 
-1. **Double-cliquez** sur le lit pour le sélectionner en entier. Ajoutez le lit au groupe à l’aide de l’outil **Grouper \(G\).**
-2. Cliquez sur l’icône **Arborescence des groupes** dans les palettes de droite.
+1. **Fare doppio clic** per selezionare l'intero letto. Aggiungere il letto a **Gruppo \(G\).**
+2. Fare clic sull'icona **Struttura gruppi** dalle tavolozze a destra.
 
    ![](../../.gitbook/assets/groupstree.png)
 
-3. Si vous sélectionnez le groupe de lits dans la zone de dessin, il est mis en surbrillance dans la liste **Arborescence des groupes** \(l’inverse est également vrai, si vous sélectionnez un groupe dans la liste, il est mis en surbrillance dans la zone de dessin\).
-4. Vous pouvez **double-cliquer** sur le nom dans la liste et le nommer **Lit**. Toutes les occurrences du groupe sont mises à jour, une seule dans notre cas.
-5. Lorsque le **groupe Lit** est sélectionné dans la liste, vous pouvez définir la catégorie sur **Mobilier** dans la liste déroulante située dans la partie supérieure de la palette Arborescence des groupes.
+3. Se si seleziona il gruppo Bed nell'area di disegno, viene evidenziato nell'elenco **Struttura gruppi** \(è vero anche l'opposto; se si seleziona un gruppo nell'elenco, questo verrà evidenziato nell'area di disegno\).
+4. È possibile **fare doppio clic** sul nome nell'elenco e modificarlo in **Bed**. Tutte le istanze del gruppo verranno aggiornate. Nel nostro caso, ne esiste solo una.
+5. Quando il **gruppo Bed** è stato selezionato nell'elenco, è possibile impostare la categoria su **Arredo** dall'elenco a discesa nella parte superiore della tavolozza Struttura gruppi.
 
    ![](../../.gitbook/assets/groupstree_palette.png)
 
-## Fusionner les arêtes, Lisser les arêtes et Filtrage de la sélection
+## Unione di bordi, levigatura di bordi e filtro di selezione
 
-Vous allez maintenant masquer les arêtes indésirables du mobilier pour lui donner un aspect plus lisse et plus doux.
+Ora nasconderemo i bordi indesiderati nel nostro arredo, per conferire un aspetto più uniforme e più morbido.
 
-1. **Double-cliquez** sur le groupe pour le modifier. **Double-cliquez** sur le lit pour le sélectionner en entier. **Cliquez avec le bouton droit de la souris**, puis choisissez **Fusionner \(MG\)** dans le menu contextuel.
+1. **Fare doppio clic** per modificare il gruppo. Selezionare l'intero letto con un **doppio clic**. **Fare clic con il pulsante destro del mouse** e scegliere **Unisci \(MG\)** dal menu contestuale.
 
    ![](../../.gitbook/assets/upperterracesketch_215.png)
 
-2. Utilisez le **filtre de sélection** pour ne sélectionner que les **arêtes dans une sélection de fenêtres.**
+2. Utilizzare il **Filtro di selezione** per vincolare una selezione tramite finestra solo ai **bordi di selezione.**
 
    ![](../../.gitbook/assets/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-3. **Faites glisser la souris** du coin supérieur gauche vers le coin inférieur droit pour effectuer une **sélection de fenêtres**. Sélectionnez l’arc et l’arête à chaque coin du lit. Maintenez la touche **Ctrl** ou **Maj** enfoncée pour ajouter des éléments au jeu de sélection.
-4. **Cliquez avec le bouton droit de la souris** et choisissez **Lisser les arêtes \(SE\)**.
+3. **Trascinare il mouse** dall'angolo superiore sinistro all'angolo inferiore destro per eseguire una **selezione tramite finestra**. Selezionare tramite finestra l'arco e il bordo in corrispondenza di ogni angolo del letto. Tenere premuto **CTRL** o **MAIUSC** per aggiungere elementi al gruppo di selezione.
+4. **Fare clic con il pulsante destro del mouse** e scegliere **Leviga bordi\(SE\)**.
 
    ![](../../.gitbook/assets/upperterracesketch_216.png)
 
-5. Pour que ces arêtes soient de nouveau visibles, **cliquez une fois** sur la face supérieure du lit pour la sélectionner, **cliquez avec le bouton droit de la souris**, puis choisissez **Lisser les arêtes de facette** \(UE\).
+5. Per rendere nuovamente visibili questi bordi, **fare un singolo clic** per selezionare la superficie superiore del letto, **fare clic con il pulsante destro del mouse** e scegliere **Leviga bordi** \(UE\).
 
    ![](../../.gitbook/assets/upperterracesketch_217.png)
 
-6. Modifiez le **filtre de sélection** de manière à inclure à nouveau les faces et les groupes. Réactivez le calque **Toit**. Votre modèle de maison Farnsworth avance bien !
+6. Modificare il **Filtro di selezione** per includere nuovamente le superfici e i gruppi. Riattivare il layer **Roof**. Il modello di Casa Farnsworth sta venendo bene.
 
    ![](../../.gitbook/assets/upperterracesketch_22.png)
 

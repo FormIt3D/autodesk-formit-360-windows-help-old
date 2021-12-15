@@ -1,149 +1,149 @@
-# Raccourcis clavier
+# Tasti di scelta rapida
 
-| Commande | Raccourci\(s\) |
+| Comando | Tasti di scelta rapida |
 | :--- | :--- |
-| Paramètres d’application : Afficher les cotes | D, D |
-| Paramètres d’application : Accrocher à la grille | S, G |
-| Collaboration : Inviter à la session | C, I |
-| Collaboration : Rejoindre la session | C, J |
-| Collaboration : Session de démarrage | C, S |
-| Affichage : Ombres ambiantes | D, A |
-| Affichage : Axes | D, Z |
-| Affichage : Faces arrière | D, B |
-| Affichage : Arêtes | D, E |
-| Affichage : Prolonger les lignes | D, X |
-| Affichage : Grille | D, G |
-| Affichage : Zones de contour de groupe | B, B |
-| Affichage : Lignes cachées | D, H |
-| Affichage : Surfaces monotones | D, M |
-| Affichage : Flèche nord | D, N |
-| Affichage : Ombres | D, S |
-| Affichage : Silhouettes | D, O |
-| Affichage : Lignes d’esquisse | D, K |
-| Affichage : Arêtes fines | D, T |
-| Affichage : Problèmes d’étanchéité | D, W |
-| Dessin : Arc | A |
-| Dessin : Cercle | C |
-| Dessin : Ligne | L |
-| Dessin : Rectangle | R |
-| Dessin : Spline | S |
-| Modifier : Copier | Ctrl + C |
-| Modifier : Supprimer | Supprimer |
-| Modifier : Coller | Ctrl + V |
-| Modifier : Préférences |  |
-| Modifier : Rétablir | Ctrl + Y |
-| Modifier : Rétablir | Ctrl+Maj+Z |
-| Modifier : Réinitialiser les axes | R, Z |
-| Modifier : Définir les axes | S, Z |
-| Modifier : Annuler | Ctrl + Z |
-| Analyse d’énergie : Annuler Insight |  |
-| Analyse d’énergie : Générer Insight |  |
-| Analyse d’énergie : Afficher Insight |  |
-| Fichier : Exporter l’image |  |
-| Fichier : Exporter le modèle vers | Ctrl+E |
-| Fichier : Importer un modèle 3D | Ctrl+I |
-| Fichier : Importer une image | Ctrl+Maj+I |
-| Fichier : Nouveau | Ctrl + N |
-| Fichier : Ouvrir depuis BIM 360 Docs | Alt + O |
-| Ouvrir : Fichier | Ctrl + O |
-| Fichier : Enregistrer dans BIM 360 Docs | Alt+S |
-| Fichier : Enregistrer avec l’historique | Ctrl + S, Ctrl + H |
-| Fichier : Enregistrer | Ctrl + S |
-| Groupe : Modifier le groupe \(menu contextuel\) | E |
-| Groupe : Modifier le groupe \(barre d’outils\) | Alt + E |
-| Groupe : Terminer l’action de groupe | F |
-| Groupe : Grouper \(menu contextuel\) | G |
-| Groupe : Grouper (barre d’outils) | Alt+G |
-| Groupe : Rendre unique \(menu contextuel\) | M, U |
-| Groupe : Rendre unique \(barre d’outils\) | Alt + M |
-| Groupe : Dissocier \(menu contextuel\) | U |
-| Groupe : Dissocier \(barre d’outils\) | Alt+U |
-| Groupe : Tout dissocier \(menu contextuel\) | U, A |
-| Groupe : Tout dissocier \(barre d’outils\) | Alt + A |
-| Groupe : Dissocier le modèle | U, M |
-| Aide : À propos |  |
-| Aide : Rechercher les mises à jour FormIt |  |
-| Aide : Blog FormIt |  |
-| Aide : Galerie FormIt |  |
-| Aide : Vidéos FormIt |  |
-| Aide : Obtenir de l’aide |  |
-| Aide : Aide |  |
-| Aide : Quoi de neuf |  |
-| Niveaux : Niveaux d’affichage | D, L |
-| Niveaux : Utiliser les niveaux | U, L |
-| Empêcher les matériaux sur les faces arrière |  |
-| Primitive : Cube | Alt+B |
-| Primitive : Cylindre | Alt + C |
-| Primitive : Dôme | Alt+D |
-| Primitive : Prisme | Alt + R |
-| Primitive : Pyramide | Alt + P |
-| Prototype : Afficher l’état de la souris/grille |  |
-| Filtre de sélection : arêtes | E, S |
-| Filtre de sélection : faces | F, S |
-| Filtre de sélection : groupes | G, S |
-| Filtre de sélection : solides | S, S |
-| Paramètres: Grands boutons |  |
-| Paramètres d’esquisse : Activer/désactiver le type d’unité | U, T |
-| Analyse d’ensoleillement : Analyser | A, A |
-| Analyse d’ensoleillement : Entrer en mode d’analyse d’ensoleillement | S, A |
-| Analyse d’ensoleillement : Quitter |  |
-| Analyse d’ensoleillement : Réinitialiser |  |
-| Outils: Réseau | A, R |
-| Outils: Couverture | C, V |
-| Outils: Couper la géométrie \(menu contextuel\) | C, C |
-| Outils: Couper la géométrie \(barre d’outils\) | C, G |
-| Outils: Activer le contact | E, T |
-| Outils: Activer le contact | T, M |
-| Outils: Extruder arêtes | E, E |
-| Outils: Congé | F, I |
-| Outils: Informations |  |
-| Outils: Attacher la géométrie \(menu contextuel\) | J, C |
-| Outils: Attacher la géométrie \(barre d’outils\) | J, G |
-| Outils: Sélection lasso | L, L |
-| Outils: Lissage des arêtes | L, O |
-| Outils: Mesurer | M |
-| Outils: Mesurer l’angle | M, A |
-| Outils: Fusionner les arêtes et les sommets | M, E |
-| Outils: Miroir | M, I |
-| Outils: Déplacement multiple | M, M |
-| Outils : Décaler le bord | O, E |
-| Outils: Décaler la face | O, F |
-| Outils: Décaler le solide | O, S |
-| Outils: Inverser les faces | F, F |
-| Outils: Rotation | Q |
-| Outils: Exécuter script depuis éditeur |  |
-| Outils: Échelle | S, C |
-| Outils: Sélectionner | Espace |
-| Outils: Définir l’emplacement | S, L |
-| Outils: Coque | S, H |
-| Outils: Lisser les arêtes | S, E |
-| Outils: Balayage | S, W |
-| Outils: Dépouiller la face | T, F |
-| Outils: Rendre les arêtes non lisses | U, E |
-| Vue : Thème bleu |  |
-| Vue : Thème par défaut |  |
-| Vue : Survol de la première personne | F, T |
-| Vue  : Caméra en orbite |  |
-| Vue : Caméra panoramique |  |
-| Vue : Thème système |  |
-| Vue : Activer/désactiver la perspective |  |
-| Vue : Haut | Z, T |
-| Vue : Zoom sur tout | Z, A |
-| Vue : Zoom sur tout | Z, E |
-| Vue : Zoom sur tout | Z, Z |
-| Vue : Zoom sur toutes les images | Z, I |
-| Vue : Caméra avec zoom |  |
-| Vue : Zoom arrière |  |
-| Vue : Zoom sur la sélection | Z, S |
-| Fenêtre : Barre d’outils Conception | H, D |
-| Fenêtre : Barre d’outils de navigation flottante | H, B |
-| Fenêtre : Menu principal | H, M |
-| Fenêtre : Barre d’outils Navigation | H, N |
-| Fenêtre : Barre d’outils Opérations | H, O |
-| Fenêtre : Barre d’outils Paramètres | H, C |
-| Fenêtre : Barre d’outils Esquisse | H, K |
-| Fenêtre : Barre d’outils Solides | H, P |
-| Fenêtre : Barre d’outils Standard | H, T |
-| Fenêtre : Barre d’état | H, S |
-| Fenêtre : Barre d’outils Vue | H, V |
+| Impostazioni applicazione: Visualizza quote | D, D |
+| Impostazioni applicazione: Snap alla griglia | S, G |
+| Collaborazione: Invita alla sessione | C, I |
+| Collaborazione: Partecipa alla sessione | C, J |
+| Collaborazione: Avvia sessione | C, S |
+| Visualizza: Ombre ambiente | D, A |
+| Visualizza: Assi | D, Z |
+| Visualizza: Superfici posteriori | D, B |
+| Visualizza: Bordi | D, E |
+| Visualizza: Bordi estesi | D, X |
+| Visualizza Griglia | D, G |
+| Visualizza: Raggruppa riquadri di delimitazione | B, B |
+| Visualizza: Bordi nascosti | D, H |
+| Visualizza: Superfici monocromatiche | D, M |
+| Visualizza: Freccia nord | D, N |
+| Visualizza: Ombre | D, S |
+| Visualizza: Silhouette | D, O |
+| Visualizza: Bordi di schizzo | D, K |
+| Visualizza: Bordi sottili | D, T |
+| Visualizza: Problemi delle superfici a tenuta ermetica | D, W |
+| Disegna: Arco | A |
+| Disegna: Cerchio | C |
+| Disegna: Linea | L |
+| Disegna: Rettangolo | R |
+| Disegna: Spline | S |
+| Modifica: Copia | CTRL+C |
+| Modifica: Elimina | Eliminazione |
+| Modifica: Incolla | CTRL+V |
+| Modifica: Preferenze |  |
+| Modifica: Ripeti | CTRL+Y |
+| Modifica: Ripeti | CTRL+MAIUSC+Z |
+| Modifica: Reimposta assi | R, Z |
+| Modifica: Imposta assi | S, Z |
+| Modifica: Annulla | CTRL+Z |
+| Analisi energetica: Annulla informazioni approfondite |  |
+| Analisi energetica: Genera informazioni approfondite |  |
+| Analisi energetica: Visualizza informazioni approfondite |  |
+| File: Esportazione dell'immagine |  |
+| File: Esportazione del modello in | CTRL+E |
+| File: Importazione del modello 3D | CTRL+I |
+| File: Importazione dell'immagine | CTRL+MAIUSC+I |
+| File: Nuovo | CTRL+N |
+| File: Apri da Autodesk Docs | Alt+O |
+| File: Apri | CTRL+O |
+| File: Salva con nome in Autodesk Docs | ALT+S |
+| File: Salvataggio con cronologia | CTRL+S, CTRL+H |
+| File: Salva | CTRL+S |
+| Gruppo: Modifica gruppo \(menu contestuale\) | E |
+| Gruppo: Modifica gruppo \(barra degli strumenti\) | Alt + E |
+| Gruppo: Termina modifica gruppo | F |
+| Gruppo: Gruppo \(menu contestuale\) | G |
+| Gruppo: Gruppo \(barra degli strumenti\) | ALT+G |
+| Gruppo: Rendi univoco \(menu contestuale\) | M, U |
+| Gruppo: Rendi univoco \(barra degli strumenti\) | Alt+M |
+| Gruppo: Scomponi \(menu contestuale\) | A |
+| Gruppo: Scomponi \(barra degli strumenti\) | ALT+U |
+| Gruppo: Scomponi tutto \(menu contestuale\) | U, A |
+| Gruppo: Scomponi tutto \(barra degli strumenti\) | ALT+A |
+| Gruppo: Scomponi modello | U, M |
+| Guida: Informazioni su FormIt |  |
+| Guida: Verifica di aggiornamenti di FormIt |  |
+| Guida: Blog di FormIt |  |
+| Guida: Raccolta di FormIt |  |
+| Guida: Video di FormIt |  |
+| Guida: Supporto |  |
+| Guida: Guida di FormIt |  |
+| Guida: Novità |  |
+| Livelli: Visualizza livelli | D, L |
+| Livelli: Usa livelli | U, L |
+| Visualizza: Impedisci materiali sulle superfici posteriori |  |
+| Primitiva: Cubo | ALT+B |
+| Primitiva: Cilindro | ALT + C |
+| Primitiva: Cupola | ALT+D |
+| Primitiva: Prisma | ALT+R |
+| Primitiva: Piramide | Alt+P |
+| Prototipo: Visualizza stato mouse/griglia |  |
+| Filtro di selezione: Bordi | E, S |
+| Filtro di selezione: Superfici | F, S |
+| Filtro di selezione: Gruppi | G, S |
+| Filtro di selezione: Solidi | S, S |
+| Impostazioni: Pulsanti grandi barra degli strumenti |  |
+| Impostazioni disegno: Imposta tipo di unità su (...) | U, T |
+| Analisi solare: Analizza | A, A |
+| Analisi solare: Accedi alla modalità Analisi solare/Esci | S, A |
+| Analisi solare: Esci |  |
+| Analisi solare: Reimposta |  |
+| Strumenti: Matrice | A, R |
+| Strumenti: Copertura | C, V |
+| Strumenti: Taglia geometria \(menu contestuale\) | C, C |
+| Strumenti: Taglia geometria \(barra degli strumenti\) | C, G |
+| Strumenti: Attiva modalità tocco | E, T |
+| Strumenti: Attiva modalità tocco | T, M |
+| Strumenti: Estrudi bordi | E, E |
+| Strumenti: Raccordo | F, I |
+| Tools: Informazioni |  |
+| Strumenti: Unisci geometria \(menu contestuale\) | J, C |
+| Strumenti: Unisci geometria \(barra degli strumenti\) | J, G |
+| Strumenti: Selezione con lazo | L, L |
+| Strumenti: Loft dei bordi | L, O |
+| Strumenti: Misura | M |
+| Strumenti: Misura angolo | M, A |
+| Strumenti: Unisci bordi e vertici | M, E |
+| Strumenti: Copia speculare | M, I |
+| Strumenti: Sposta | M, M |
+| Strumenti: Offset bordi | O, E |
+| Strumenti: Offset superficie | O, F |
+| Strumenti: Offset solido | O, S |
+| Strumenti: Inverti superfici | F, F |
+| Strumenti: Ruota | Q |
+| Strumenti: Esegui script dall'editor |  |
+| Strumenti: Scala | S, C |
+| Strumenti: Seleziona | Spazio |
+| Strumenti: Imposta posizione | S, L |
+| Strumenti: Involucro | S, H |
+| Strumenti: Leviga bordi | S, E |
+| Strumenti: Estrusione su percorso | S, W |
+| Strumenti: Rastrema superficie | T, F |
+| Strumenti: Annulla levigatezza bordi | U, E |
+| Vista: Tema: Blu |  |
+| Vista: Tema di default |  |
+| Vista: Volo in prima persona | F, T |
+| Vista: Orbita cinepresa |  |
+| Vista: Panoramica cinepresa |  |
+| Vista: Tema di sistema |  |
+| Vista: Imposta cinepresa su Prospettica |  |
+| Vista: In alto | Z, T |
+| Vista: Zoom tutto | Z, A |
+| Vista: Zoom tutto | Z, E |
+| Vista: Zoom tutto | Z, Z |
+| Vista: Zoom tutte le immagini | Z, I |
+| Vista: Zoom cinepresa |  |
+| Vista: Zoom indietro |  |
+| Vista: Zoom selezione | Z, S |
+| Finestra: Barra degli strumenti Progettazione | H, D |
+| Finestra: Barra degli strumenti Navigazione mobile | H, B |
+| Finestra: Menu principale | H, M |
+| Finestra: Barra degli strumenti Navigazione | H, N |
+| Finestra: Barra degli strumenti Operazioni | H, O |
+| Finestra: Barra degli strumenti Impostazioni | H, C |
+| Finestra: Barra degli strumenti Disegno | H, K |
+| Finestra: Barra degli strumenti Solidi | H, P |
+| Finestra: Barra degli strumenti Standard | H, T |
+| Finestra: Barra di stato | H, S |
+| Finestra: Barra degli strumenti Vista | H, V |
 

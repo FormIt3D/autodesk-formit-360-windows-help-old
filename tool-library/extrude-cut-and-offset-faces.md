@@ -1,28 +1,28 @@
-# Faces : extrusion, coupe et décalage
+# Superfici: Estrudi, Taglia e Offset
 
-Poussez ou tirez une face, imprimez de nouvelles formes sur des formes existantes ou créez des arêtes décalées.
+È possibile spingere o trascinare una superficie, imprimere nuove forme su quelle esistenti o creare nuovi bordi di offset.
 
-## Extrusion
+## Estrudi
 
-Pour déplacer une face, cliquez dessus une fois pour la sélectionner, puis cliquez et faites glisser le curseur. La face se déplace d’avant en arrière. Vous pouvez désormais déplacer la souris pour accrocher et déduire d’autres éléments du modèle. Cliquez à nouveau pour terminer le déplacement de la face. Maintenez la touche Ctrl enfoncée pour conserver les arêtes d’origine.
+Per spingere o trascinare una superficie, selezionarla con un singolo clic, quindi fare clic e trascinare. La superficie si sposta avanti e indietro; ora è possibile spostare il mouse per eseguire lo snap e la deduzione su altri elementi del modello. Fare nuovamente clic per terminare lo spostamento della superficie. Tenere premuto il tasto CTRL per mantenere i bordi originali.
 
 ![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Graver
+## Imprimi
 
-Pour graver des formes, utilisez un outil d’esquisse 3D pour tracer des lignes, des arcs, des splines, des rectangles ou des cercles sur des faces existantes. Cette action crée de nouvelles faces qui peuvent être déplacées indépendamment de la face d’origine.
+Per imprimere forme, utilizzare uno strumento Disegno 3D per disegnare linee, archi, spline, rettangoli o cerchi su superfici esistenti. Questa azione consente di creare nuove superfici che possono essere spinte o trascinate indipendentemente dalla superficie originale.
 
 ![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Décalage
+## Offset
 
-Pour décaler la face d’un objet, procédez comme suit :
+Per eseguire l'offset della superficie di un oggetto:
 
-1. Tout d’abord, sélectionnez la face que vous souhaitez modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu **contextuel**.
-2. Dans le menu **contextuel**, cliquez sur l’outil **Décaler la face**.
-3. Déplacez le curseur sur la face sélectionnée et ajustez les lignes qui s’affichent jusqu’à ce que vous atteigniez l’effet de décalage souhaité.
-4. Cliquez n’importe où pour terminer le décalage. Vous pouvez maintenant déplacer indépendamment la face décalée.
+1. Selezionare innanzitutto la superficie che si desidera modificare, quindi fare clic con il pulsante destro del mouse per visualizzare il menu **contestuale**.
+2. Dal menu **contestuale**, fare clic sullo strumento **Offset superficie**.
+3. Spostare il cursore del mouse sulla superficie selezionata e regolare le linee visualizzate fino a raggiungere l'effetto di offset desiderato.
+4. Fare clic in un punto qualsiasi per completare l'offset. È ora possibile spingere o trascinare la superficie di offset in modo indipendente.
 
 ![](../.gitbook/assets/offset1.png)  
 ![](../.gitbook/assets/offset2.png)  

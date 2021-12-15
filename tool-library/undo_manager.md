@@ -1,18 +1,18 @@
-# Gestionnaire d’annulation
+# Gestione operazioni annullate
 
-FormIt intègre un système Annuler/Rétablir unique, qui peut être utilisé de deux manières différentes pour annuler une action par groupe ou de manière chronologique et globale :
+FormIt include un sistema Annulla/Ripeti univoco che può essere utilizzato in due modi diversi per annullare l'operazione per gruppo o in modo cronologico e globale:
 
-* L’option Annuler/Rétablir lors de la modification d’un groupe imbriqué affecte uniquement les modifications apportées à l’intérieur de ce groupe
-   * Cela signifie que vous pouvez effectuer une modification dans ce groupe, puis effectuer de nombreuses modifications dans d’autres groupes, et revenir au groupe d’origine et avoir la possibilité d’annuler la dernière modification effectuée dans ce groupe sans affecter les modifications effectuées plus récemment dans un autre groupe.
-* L’option Annuler/Rétablir de l’esquisse principale \(pas lors de la modification d’un groupe\) fonctionne comme les systèmes Annuler/Rétablir classiques : la dernière modification effectuée dans **n’importe quel** groupe est annulée, selon l’ordre chronologique.
+* L'opzione Annulla/Ripeti durante la modifica di un gruppo nidificato avrà effetto solo sulle modifiche all'interno di tale gruppo.
+   * Ciò significa che è possibile apportare una modifica a questo gruppo, quindi apportare molte modifiche in altri gruppi, tornare al gruppo originale e avere la possibilità di annullare l'ultima modifica apportata a questo gruppo senza influenzare le modifiche eseguite più recentemente, in altre posizioni.
+* Annulla/Ripeti nel disegno principale \(non durante la modifica di un gruppo\) funziona come i tradizionali sistemi Annulla/Ripeti: l'ultima modifica apportata in **qualsiasi** gruppo verrà annullata in base all'ordine cronologico.
 
-Le gestionnaire d’annulation enregistre chaque modification apportée à l’intérieur de chaque groupe dans votre modèle FormIt, y compris les modifications apportées à l’esquisse principale. Cette option est utile pour identifier visuellement les opérations annulées dans un groupe du modèle.
+Gestione operazioni annullate registra ogni modifica all'interno di ogni gruppo nel modello di FormIt, incluse le modifiche apportate nel disegno principale. Questa opzione è utile per comprendere visivamente quali operazioni sono state annullate in qualsiasi gruppo nel modello.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-Le gestionnaire d’annulation indique en **gras** l’état actuel, ainsi que les opérations antérieures à cet état et les opérations qui existaient auparavant, mais qui ont été annulées depuis.
+Gestione operazioni annullate indicherà in **grassetto** lo stato corrente, nonché eventuali operazioni precedenti a questo stato ed eventuali operazioni una volta esistenti ma che sono state annullate.
 
-Vous pouvez cliquer avec le bouton droit de la souris sur un état et choisir « Faire tourner vers » pour annuler ou rétablir l’opération de manière à revenir à l’état du modèle.
+È possibile fare clic con il pulsante destro del mouse su uno stato e selezionare Riporta a per annullare o ripetere correttamente le operazioni necessarie per tornare a tale stato del modello.
 
-Les groupes qui ont été explicitement supprimés ou qui n’existent plus en raison d’une action Annuler ou Rétablir sont affichés comme \*Inactifs\*. Pour restaurer ces derniers, annulez ou rétablissez-les dans leur groupe parent jusqu’à ce qu’ils soient de nouveau disponibles.
+I gruppi eliminati esplicitamente o che non sono più presenti a causa di un comando Annulla o Ripeti vengono mostrati come \*Non attivo\*. È possibile ripristinarli annullando o ripetendo le operazioni all'interno del gruppo principale fino a quando non sono recuperati.
 

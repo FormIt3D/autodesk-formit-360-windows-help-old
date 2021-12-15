@@ -1,14 +1,14 @@
-# Réseau
+# Matrice
 
-Vous pouvez créer des réseaux linéaires et radiaux dans FormIt. Pour **mettre en réseau des arêtes, des faces ou des objets entiers**, cliquez sur l’icône Réseau dans le menu contextuel. Ensuite, choisissez Linéaire ou Radial, spécifiez les autres paramètres, puis cliquez sur l’objet pour créer un réseau. Cliquez à nouveau pour positionner les éléments mis en réseau.
+È possibile creare matrici lineari e radiali in FormIt. Per **creare una matrice di bordi, superfici o interi oggetti**, fare clic sull'icona Matrice dal menu contestuale. Quindi, scegliere Lineare o Radiale, specificare gli altri parametri, quindi fare clic sull'oggetto per avviare una matrice. Fare nuovamente clic per posizionare gli elementi creati con la matrice.
 
-## Valeur linéaire
+## Lineare
 
 ![](../.gitbook/assets/array.png)  
 ![](../.gitbook/assets/array_linear2.png)  
 ![](../.gitbook/assets/linear_array_3.png)
 
-## Radial
+## Radiale
 
 ![](../.gitbook/assets/array_radial1.png)  
 ![](../.gitbook/assets/radial_array2.png)  

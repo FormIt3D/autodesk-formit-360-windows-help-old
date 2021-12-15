@@ -1,18 +1,18 @@
-# Caméra orthographique 
+# Cinepresa Ortogonale
 
-FormIt 2021 inclut l’ajout d’une nouvelle fonction de caméra orthogonale. Les boutons Orthogonale et Perspective sont disponibles dans le menu de navigation :
+FormIt 2021 include l'aggiunta della nuova funzionalità della cinepresa Ortogonale. I pulsanti Ortogonale e Prospettica sono disponibili nel menu di navigazione:
 
-![Boutons de vue de caméra Orthogonale \(bas\) et Perspective \(haut\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Pulsanti della vista della cinepresa Ortogonale \(inferiore\) e Prospettica \(superiore\)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Cette nouvelle option vous permet de basculer facilement entre les vues de caméra Orthogonale et Perspective.
+Questa nuova opzione consente di passare facilmente dalla vista della cinepresa Ortogonale a quella Prospettica e viceversa.
 
-![Un modèle peut passer du mode Caméra en perspective au mode Caméra orthogonale.](../.gitbook/assets/ortho-camera.gif)
+![È possibile passare dalla modalità della cinepresa Prospettica a Ortogonale e viceversa per un modello.](../.gitbook/assets/ortho-camera.gif)
 
-Une fois dans la caméra orthogonale, tous les autres outils de caméra respectent le mode actif. Par exemple, l’option **Aligner caméra avec face** permet d’aligner la caméra orthogonale sur la face, ce qui génère une vue d’élévation orthogonale.
+Nella vista della cinepresa Ortogonale, eventuali altri strumenti della cinepresa rispetteranno la modalità corrente. Ad esempio, **Allinea cinepresa alla superficie** allinea la cinepresa Ortogonale alla superficie, producendo una vista di prospetto ortogonale.
 
-Si vous accédez manuellement à une vue orthogonale prédéfinie, telle que Vue de dessus ou Vue de face, la caméra orthogonale s’accroche à cette position, facilitant ainsi l’accès à ces vues prédéfinies.
+Se si passa manualmente ad una vista Ortogonale preimpostata, ad esempio Vista dall'alto o Vista anteriore, la vista della cinepresa Ortogonale eseguirà lo snap a quella posizione, semplificando l'accesso a tali viste preimpostate.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Remarque :** si la délimitation de la caméra se produit en mode Caméra orthogonale, vous pouvez revenir en mode Perspective, effectuer un zoom arrière, puis réessayer.
+**Nota:** Se il ritaglio della cinepresa viene eseguito nella modalità della cinepresa Ortogonale, è possibile tornare alla modalità Prospettiva, eseguire lo zoom indietro e riprovare.
 

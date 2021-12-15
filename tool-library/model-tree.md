@@ -1,16 +1,16 @@
-# Arborescence du modèle
+# Struttura modello
 
-L’arborescence du modèle permet d’afficher la hiérarchie topologique de votre modèle FormIt.
+Struttura modello consente di visualizzare la gerarchia topologica del modello di FormIt.
 
-Pour activer l’arborescence du modèle, accédez au menu Fenêtre et cochez la case située en regard de l’arborescence du modèle.
+Attivare Struttura modello accedendo al menu Finestra e selezionando la casella accanto a Struttura modello.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Dans l’arborescence du modèle, chaque groupe est identifié comme étant un historique, car chaque groupe possède son propre historique de commandes ou une pile Annuler/Rétablir.
+All'interno della Struttura modello, ogni gruppo viene identificato come Cronologia, poiché ogni gruppo dispone di una cronologia dei comandi specifica o di un gruppo Annulla/Ripeti.
 
-Dans chaque historique, vous verrez une liste de groupes imbriqués, d’instances ou d’objets géométriques tels que des corps.
+In ogni voce Cronologia, verrà visualizzato un elenco di gruppi, istanze o oggetti geometrici nidificati, ad esempio corpi.
 
-Vous pouvez également afficher les attributs non géométriques \(attributs de chaîne\) associés aux objets FormIt à l’aide de l’arborescence du modèle. [Vous pouvez placer des attributs de chaîne sur des groupes créés par le nœud SendToFormIt à l’aide de Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+È inoltre possibile visualizzare gli attributi non geometrici \(attributi di stringa\) associati agli oggetti di FormIt utilizzando la Struttura modello. [ È possibile posizionare gli attributi di stringa sui gruppi creati dal nodo SendToFormIt utilizzando Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
 

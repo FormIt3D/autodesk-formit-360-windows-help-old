@@ -1,58 +1,58 @@
-# Groupes
+# Gruppi
 
-L’une des techniques les plus élémentaires, mais importantes, des workflows FormIt concerne le groupement. Les groupes vous permettent d’éviter que la géométrie ne reste collée et de définir des relations parent/enfant entre les éléments copiés. De ce fait, si vous mettez à jour un élément, les deux éléments sont mis à jour. Pour en savoir plus sur les groupes, cliquez [ici](../formit-primer/part-i/grouping-objects.md).
+Una delle tecniche essenziali ma più importanti nei workflow di FormIt prevede il raggruppamento. I gruppi consentono di evitare che la geometria aderisca e di impostare relazioni padre/figlio tra gli elementi copiati in modo che, se si aggiorna un elemento, vengano aggiornati entrambi gli elementi. Ulteriori informazioni sui gruppi sono disponibili [qui](../formit-primer/part-i/grouping-objects.md).
 
-Les groupes peuvent être créés et modifiés de deux manières : à partir du menu contextuel d’un groupe sélectionné ou à partir de la barre d’outils principale.
+I gruppi possono essere creati e modificati in due modi: dal menu contestuale di un gruppo selezionato o dalla barra degli strumenti principale.
 
-## Interactions des groupes
+## Interazioni tra gruppi
 
-Pour **créer un groupe**, sélectionnez les éléments que vous souhaitez regrouper (arêtes, faces, solides ou autres groupes) et cliquez avec le bouton droit de la souris. Choisissez l’outil **Grouper \(G\)** dans le menu contextuel. Les images importées et les images satellites ne peuvent pas être regroupées.
+Per **creare un gruppo**, selezionare gli elementi che si desidera raggruppare, che possono includere bordi, superfici, solidi o altri gruppi, e fare clic con il pulsante destro del mouse. Scegliere lo strumento **Gruppo \(G\)** dal menu contestuale. Le immagini importate e le immagini satellitari non possono essere raggruppate.
 
-Pour **sélectionner un groupe**, cliquez une fois sur le groupe. Lorsque vous sélectionnez un groupe, des lignes en pointillés apparaissent. Elles indiquent la taille totale du groupe.
+Per **selezionare un gruppo**, fare un singolo clic sul gruppo. Notare le linee tratteggiate visualizzate quando si seleziona un gruppo. Queste linee indicano la dimensione totale del gruppo.
 
-Pour **modifier un groupe**, double-cliquez sur le groupe. Cette opération permet de lancer un mode de modification dans lequel vous pouvez uniquement afficher et accrocher des éléments situés en dehors du groupe actuel, mais pas les sélectionner. Vous pouvez également masquer les éléments situés en dehors du groupe actuel à l’aide du raccourci clavier **H**.
+Per **modificare un gruppo**, fare doppio clic. Viene avviata una modalità di modifica in cui è possibile solo visualizzare ed eseguire lo snap agli elementi esterni al gruppo corrente, ma non selezionarli. È inoltre possibile nascondere gli elementi esterni al gruppo corrente utilizzando il tasto di scelta rapida **H**.
 
-Vous pouvez créer des **groupes dans des groupes** : ils sont appelés **groupes imbriqués** et peuvent être créés dans le mode de modification de groupe. Pour monter d’un niveau dans les groupes imbriqués, cliquez n’importe où en dehors des groupes.
+È possibile creare **gruppi all'interno di gruppi:** questi sono denominati **gruppi nidificati** e possono essere creati all'interno della modalità di modifica del gruppo. Per spostarsi verso l'alto di un livello nei gruppi nidificati, fare clic in un punto qualsiasi al di fuori dei gruppi.
 
-Pour **quitter le mode de modification de groupe**, double-cliquez n’importe où en dehors du groupe.
+Per **uscire dalla modalità di modifica del gruppo**, fare doppio clic in un punto qualsiasi al di fuori del gruppo.
 
-Vous pouvez **copier un groupe** pour créer une relation entre le groupe d’origine et sa copie : si vous modifiez un groupe copié, les mêmes modifications affecteront tous les groupes associés.
+È possibile **copiare un gruppo** per creare una relazione tra il gruppo originale e la relativa copia: se si modificano eventuali gruppi copiati, le stesse modifiche avranno effetto su tutti i gruppi correlati.
 
-Pour **rompre la relation entre les groupes copiés**, sélectionnez les groupes que vous souhaitez séparer, cliquez avec le bouton droit de la souris, puis choisissez **Rendre unique** dans le menu contextuel. Vous pouvez également sélectionner Rendre unique dans la barre d’outils Groupes.
+Per **interrompere la relazione tra i gruppi copiati**, selezionare il gruppo o i gruppi che si desidera impostare come separati, fare clic con il pulsante destro del mouse e scegliere **Rendi univoco** dal menu contestuale. È inoltre possibile selezionare Rendi univoco dalla barra degli strumenti Gruppi.
 
-Pour **sélectionner tous les groupes associés**, placez le curseur sur un groupe et appuyez sur la touche Tab. Lorsque tous les groupes associés sont mis en surbrillance, cliquez sur les groupes pour les sélectionner. Vous pouvez ensuite effectuer une action sur tous les groupes à la fois.
+Per **selezionare tutti i gruppi correlati**, posizionare il cursore su un gruppo e premere il tasto TAB. Quando tutti i gruppi correlati vengono evidenziati, fare clic sui gruppi per selezionarli. È quindi possibile eseguire un'azione su tutti i gruppi contemporaneamente.
 
-L’[**arborescence des groupes**](groups-tree.md) fournit un emplacement unique pour afficher et gérer tous les groupes d’un projet.
+[**Struttura gruppi**](groups-tree.md) fornisce un'unica posizione per visualizzare e gestire tutti i gruppi in un progetto.
 
-## Accès au menu contextuel et à la barre d’outils Groupes
+## Menu contestuale Gruppi e accesso alla barra degli strumenti
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Groupement d’éléments**
+**Raggruppamento di elementi**
 
-Pour créer un groupe à partir de la barre d’outils Groupes, sélectionnez un ou plusieurs éléments, cliquez sur l’icône **Créer un groupe**, puis sur l’icône **Terminer**. Vous pouvez également sélectionner **Créer un groupe** dans la barre d’outils Groupes, puis sélectionner les éléments que vous souhaitez regrouper et cliquer sur l’icône **Terminer**.
+Per creare un gruppo dalla voce della barra degli strumenti Gruppi, selezionare uno o più elementi, l'icona **Crea gruppo**, quindi l'icona **Fine**. In alternativa, è possibile selezionare **Crea gruppo** dalla voce della barra degli strumenti Gruppi, quindi scegliere gli elementi che si desidera raggruppare e infine l'icona **Fine**.
 
-Pour **modifier un groupe depuis la barre d’outils Groupes**, sélectionnez l’icône **Modifier le groupe**, puis cliquer sur le groupe que vous voulez modifier. Quand vous avez terminé les modifications, sélectionnez l’icône **Modifier le groupe**. Cet outil vous permet de choisir le groupe spécifique que vous souhaitez modifier, même s’il est profondément imbriqué.
+Per **modificare un gruppo dalla voce della barra degli strumenti Gruppi**, selezionare l'icona **Modifica gruppo**, quindi fare clic sul gruppo che si desidera modificare. Al termine delle modifiche, selezionare l'icona **Fine**. Questo strumento consente di scegliere il gruppo specifico che si desidera modificare, anche se è nidificato in profondità.
 
-**Pour rendre un groupe unique à partir de la barre d’outils,** sélectionnez l’icône **Rendre unique** dans la barre d’outils Groupes. En outre, vous pouvez sélectionner **Rendre unique** dans la barre d’outils Groupes, puis sélectionner le groupe que vous souhaitez rendre unique et cliquer sur l’icône **Terminer**.
+**Per rendere univoco un gruppo dalla barra degli strumenti,** selezionare l'icona **Rendi univoco** nella voce della barra degli strumenti Gruppi. Inoltre, è possibile selezionare **Rendi univoco** dalla voce della barra degli strumenti Gruppi, quindi scegliere il gruppo che si desidera rendere univoco e fare clic sull'icona **Fine**.
 
-**Pour dissocier un groupe de la barre d’outils Groupes,** sélectionnez le groupe à modifier et choisissez l’icône **Dissocier** dans le menu de la barre d’outils Groupes. Cet outil permet de dissocier votre sélection actuelle, mais ne dissocie aucun groupe imbriqué. Sinon, sélectionnez **Dissocier** dans la barre d’outils, le groupe que vous voulez changer, puis cliquez sur l’icône **Terminer**.
+**Per scomporre un gruppo dalla voce della barra degli strumenti Gruppi,** selezionare il gruppo che si desidera modificare e scegliere l'icona **Scomponi** dal menu della barra degli strumenti Gruppi. In questo modo si scompone la selezione corrente, ma non si scompongono eventuali gruppi nidificati. In alternativa, è possibile selezionare **Scomponi** dalla barra degli strumenti, selezionare il gruppo che si desidera modificare, quindi scegliere l'icona **Fine**.
 
-**Pour dissocier tous les groupes imbriqués sous le groupe sélectionné,** sélectionnez un groupe avec des groupes imbriqués et choisissez **Dissocier tous les groupes imbriqués** dans la barre d’outils Groupes.
+**Per scomporre tutti i gruppi nidificati sotto il gruppo attualmente selezionato,** selezionare un gruppo con gruppi nidificati e scegliere **Scomponi tutto** dalla barra degli strumenti Gruppi.
 
-**Pour dissocier tous les groupes du modèle, **sélectionnez l’outil **Tout dissocier** dans la barre d’outils Groupes.
+**Per scomporre tutti i gruppi nel modello,** selezionare lo strumento **Scomponi tutto** dalla barra degli strumenti Gruppi.
 
-## Groupes et Revit
+## Gruppi e Revit
 
-Si vous connaissez les **familles** Revit, vous connaissez le concept de groupes dans FormIt. Les groupes FormIt possèdent des fonctions que vous pouvez utiliser pour les transférer intelligemment dans Revit.
+Se si conoscono bene le **famiglie** di Revit, si avrà familiarità con il concetto di gruppi in FormIt. I gruppi di FormIt dispongono di funzionalità che è possibile utilizzare per trasferirli in modo intelligente in Revit.
 
-**Catégories de groupes FormIt**
+**Categorie di gruppi di FormIt**
 
-Vous pouvez spécifier les **catégories** des groupes dans FormIt afin que vos groupes FormIt deviennent des familles des mêmes catégories lorsque vous les importez dans Revit. Pour affecter des catégories à vos groupes FormIt, sélectionnez un groupe, passez en mode de **modification de groupe** et utilisez le groupe de fonctions **Propriétés** pour choisir des catégories. Vous pouvez également affecter des catégories dans le groupe de fonctions **Arborescence des groupes**.
+È possibile specificare le **categorie** per i gruppi in FormIt in modo che i gruppi di FormIt diventino famiglie delle stesse categorie durante l'importazione in Revit. È possibile assegnare categorie ai gruppi di FormIt selezionando un gruppo, attivando la modalità di **modifica del gruppo** e utilizzando il pannello **Proprietà** per scegliere le categorie. È inoltre possibile assegnare categorie nel gruppo **Struttura gruppi**.
 
-**Noms de groupes FormIt**
+**Nomi dei gruppi di FormIt**
 
-Vous pouvez également utiliser le groupe de fonctions **Propriétés** pour spécifier un nom pour votre groupe FormIt. Cela peut être utile pour naviguer dans votre propre modèle. De plus, quand vous importez votre modèle dans Revit, vous pouvez facilement filtrer les éléments en utilisant le nom du groupe.
+È inoltre possibile utilizzare il pannello **Proprietà** per specificare un nome per il gruppo di FormIt. Ciò può essere utile per navigare nel modello e, quando si importa il modello in Revit, è possibile filtrare facilmente gli elementi utilizzando il nome del gruppo.
 
-Notez que les **groupes imbriqués dans FormIt ne sont pas importés dans Revit en tant que groupes imbriqués**. Cela empêche l’imbrication des familles Revit.
+Notare che **i gruppi nidificati in FormIt non vengono importati in Revit come gruppi nidificati**. In questo modo si evitano le famiglie di Revit nidificate in profondità.
 

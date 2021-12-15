@@ -1,6 +1,6 @@
-# Plans de coupe
+# Piani di sezione
 
-Utilisez les **plans de coupe** pour effectuer une coupe dans votre modèle FormIt, afin de révéler les espaces intérieurs et les éléments structurels.
+Utilizzare **Piani di sezione** per tagliare il modello di FormIt, mostrando vani interni ed elementi strutturali.
 
-Découvrez les plans de coupe dans le guide [FormIt Primer](../formit-primer/part-i/section_planes.md).
+Sono fornite informazioni sui piani di sezione nella [Guida introduttiva di FormIt](../formit-primer/part-i/section_planes.md).
 

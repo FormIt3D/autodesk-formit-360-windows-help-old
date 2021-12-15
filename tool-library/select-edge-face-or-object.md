@@ -1,34 +1,34 @@
-# Sélection
+# Selezione
 
-## Sélection directe
+## Selezione diretta
 
-Pour **sélectionner un sommet, une arête ou une face**, placez le curseur sur l’objet, puis cliquez dessus pour le sélectionner.
+Per **selezionare un vertice, un bordo o una superficie**, posizionare il cursore del mouse sull'oggetto, quindi fare un singolo clic per selezionarlo.
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-Pour **sélectionner un objet entier** ou un objet et tout élément qui lui est attaché, double-cliquez sur l’objet.
+Per **selezionare un intero oggetto** o un oggetto e qualsiasi oggetto ad esso associato, fare doppio clic sull'oggetto.
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-Vous pouvez également maintenir la touche Ctrl ou Maj enfoncée et ajouter ou supprimer des éléments de la sélection actuelle.
+È inoltre possibile tenere premuto CTRL o MAIUSC e aggiungere o rimuovere elementi dalla selezione corrente.
 
-## Filtrage de la sélection
+## Filtro di selezione
 
-Pour la sélection par zone ou lasso \(consultez les sections ci-dessous\), vous pouvez filtrer la sélection en fonction du type.
+Per la selezione dell'area o con lazo \(vedere di seguito\), è possibile filtrare la selezione in base al tipo.
 
-Cette fonction est particulièrement utile lorsque vous disposez d’un mélange de types de géométrie à proximité et que vous souhaitez utiliser la sélection de zones ou lasso pour projeter un réseau étendu, mais récupérer uniquement un certain type de géométrie, en excluant les autres.
+Ciò è particolarmente utile quando si dispone di una combinazione di tipi di geometria molto vicini e si desidera utilizzare la selezione dell'area o con lazo per proiettare una rete ampia, ma recuperare solo un determinato tipo di geometria, escludendone altri.
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## Sélection de zones/fenêtres
+## Selezione dell'area/mediante finestra
 
-Pour **sélectionner plusieurs éléments de géométrie simultanément**, utilisez l’outil de sélection de fenêtres. Assurez-vous qu’aucun élément n’est sélectionné, puis cliquez et faites glisser le curseur de gauche à droite ou de droite à gauche pour capturer plusieurs éléments.
+Per **selezionare più parti di geometria contemporaneamente**, utilizzare lo strumento di selezione mediante finestra. Assicurarsi di non avere selezionato alcun elemento, quindi fare clic e trascinare il mouse da sinistra a destra o da destra a sinistra per acquisire più parti.
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## Sélection lasso
+## Selezione con lazo
 
-Pour un **contrôle plus précis** lors de la sélection simultanée de plusieurs éléments de géométrie, utilisez l’outil Lasso. Vous pouvez le sélectionner dans le menu contextuel après avoir cliqué avec le bouton droit de la souris sur la zone de dessin vide. Ensuite, dessinez un contour autour de la zone de sélection souhaitée.
+Per un **controllo più preciso** quando si selezionano più parti di geometria contemporaneamente, utilizzare lo strumento Selezione con lazo. È possibile selezionarlo dal menu contestuale dopo aver fatto clic con il pulsante destro del mouse sull'area di disegno vuota. Quindi disegnare un contorno attorno all'area di selezione desiderata.
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
