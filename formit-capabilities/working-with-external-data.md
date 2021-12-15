@@ -1,12 +1,12 @@
-# さまざまなデータ形式を使用する
+# 데이터 형식 작업
 
-さまざまなイメージ ファイル形式や 3D ファイル形式を読み込んで、スケッチに詳細を追加します。
+다양한 이미지 파일 형식과 3D 파일 형식을 가져와 스케치에 세부 사항을 추가할 수 있습니다.
 
-次のファイル形式を読み込むことができます。
+다음 파일 형식을 가져올 수 있습니다.
 
-* Windows: OBJ、DWG、STL、SAT、SKP
-* Web: OBJ、STL
-* iOS: OBJ、STL、SAT
+* Windows: OBJ, DWG, STL, SAT, SKP
+* 웹: OBJ, STL
+* iOS: OBJ, STL, SAT
 
-データの読み込みとコンテンツ ライブラリの使用の詳細については、「[モデルを読み込む](../formit-primer/part-i/import-export-and-content-library.md)」を参照してください。
+데이터 가져오기 및 컨텐츠 라이브러리 작업에 대한 자세한 내용은 [모델 가져오기](../formit-primer/part-i/import-export-and-content-library.md)를 참고하십시오.
 

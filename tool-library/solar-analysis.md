@@ -1,4 +1,4 @@
-# 日照解析
+# 일조 해석
 
-FormIt Pro では、**日照解析**機能を使用して、設計の**日照とエネルギーの影響**を調査できます。日照解析の詳細と使用方法については、[こちら](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis)を参照してください。
+FormIt Pro 사용자는 **일조 해석** 기능을 사용하여 설계의 **태양 및 에너지 영향**을 연구할 수 있습니다. 일조 해석에 대한 자세한 내용 및 사용 방법은 [여기](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis)에서 확인하십시오.
 

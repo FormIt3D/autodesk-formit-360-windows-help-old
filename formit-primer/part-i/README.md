@@ -1,24 +1,24 @@
-# パート 1
+# 1부
 
-## Mies van der Rohe のファンズワース邸をモデリングする
+## Mies van der Rohe의 Farnsworth House 모델링
 
-Primer パート 1 では、FormIt の基本的なツールとワークフローについて説明し、歴史的なモダニズム建築の邸宅をわずか 2 時間で作成します。ここで説明するツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
+이 입문서의 1부에서는 역사적으로 가장 현대화된 집을 단 2시간만에 건축하기 위해 기본 FormIt 도구와 워크플로우를 살펴봅니다. 여기에 설명된 도구, 도구막대, 팔레트 및 프로세스에 대한 자세한 설명은 **FormIt 소개** 및 **도구 라이브러리** 섹션을 참고하십시오.
 
 
 
-![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
+![Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### 前提条件
+### 전제 조건
 
-パート 1 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
+1부를 시작하기 전에 FormIt 소개 섹션([**전제 조건 및 설치**](../../formit-introduction/prerequisites-and-installation.md))의 지침에 따라 Windows용 FormIt을 다운로드하고 설치하십시오.
 
-次のリンクにあるデータ セットもダウンロードする必要があります。データ セットは、パート 1 を通して使用するファイルのコレクションです。
+아래 링크에 있는 데이터세트도 다운로드해야 합니다. 데이터세트는 1부 전체에서 사용되는 파일의 컬렉션입니다.
 
-_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
+_Windows용 FormIt을 실행할 수 없는 경우 무료_ [_**웹 응용프로그램**_](https://formit.autodesk.com/app) 을 사용하여 대부분의 튜토리얼을 완료할 수 있습니다.FormIt 버전 및 라이센싱에 대한 자세한 내용은 ****[_**FormIt 웹 사이트**_](https://formit.autodesk.com) _\*\*\*\*를 참고하십시오._
 
-### データ セット
+### 데이터 세트
 
-パート 1 では、取り組みやすいようにモデリングを複数の章に分割しています。順を追ってファンズワース邸を作成していきます。特定の章のみを完了する場合は、選択した章までの作業を終えたデータを下のデータ セットから取得できます。データ セットには、**各章のファイル**の他に、すべての演習を完了するために必要な**サポート ファイル**も含まれています。
+1부에서는 Farnsworth House를 단계별로 건축하며, 모델링은 여러 장으로 적절히 나누어져 있습니다. 특정 장만을 완료하려는 경우 아래 데이터세트에서 수행하기로 선택한 장까지의 진행 상황을 확인할 수 있습니다. **장 파일** 외에 데이터세트에는 모든 연습을 완료하는 데 필요한 **지원 파일**도 포함되어 있습니다.
 
-* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**FormIt 입문서 데이터세트 1부**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
 

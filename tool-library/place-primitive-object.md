@@ -1,7 +1,7 @@
-# プリミティブを配置する
+# 원형 배치
 
-1. [標準ツールバー](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)で**[プリミティブ]ボタン**をクリックして開き、立方体を[選択](select-edge-face-or-object.md)します。![](../.gitbook/assets/primitive-cube.png)
-2. 選択した立方体をドラッグし、適切な位置で**クリックして配置**します。![](../.gitbook/assets/image-2-%20%281%29.png)
-3. ドラッグしている間、立方体は既定の寸法で表示されます。**ドラッグ中**に寸法を変更するには、**[Tab]**キーを押します。自動的に表示される**[ツール オプション]**ダイアログで、寸法を編集できます。![](../.gitbook/assets/image%20%281%29.png)
-4. 新しい値を入力して**[OK]**をクリックすると、新しい寸法の立方体が表示されます。
+1. [작업 도구막대](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)에서 **원형 버튼**을 클릭하여 열고 정육면체를 [선택](select-edge-face-or-object.md)합니다.   ![](../.gitbook/assets/primitive-cube.png)
+2. 그런 다음, 정육면체를 끌고 **클릭하여 배치**합니다.  ![](../.gitbook/assets/image-2-%20%281%29.png)
+3. 정육면체를 끄는 동안 정육면체가 기본 치수로 표시됩니다. **끄는 동안** **Tab** 키를 눌러 이러한 치수를 변경할 수 있습니다. Tab 키를 누르면 치수를 편집할 수 있는 **도구 옵션** 대화상자가 나타납니다. ![](../.gitbook/assets/image%20%281%29.png)
+4. 새 값을 입력하고 **확인**을 누릅니다. 그러면 정육면체가 새 치수로 표시됩니다.
 
