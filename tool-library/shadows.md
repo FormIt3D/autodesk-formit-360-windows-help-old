@@ -1,28 +1,28 @@
-# Sonne und Schatten
+# Sol + sombras
 
-Verwenden Sie das Werkzeug **Sonne und Schatten**, um die Auswirkungen der Sonnenbahn auf Ihre Projekte zu untersuchen.
+Utilice la herramienta **Sol + sombras** para estudiar los efectos de la trayectoria del sol en los proyectos.
 
-Für präzise Schattenstudien müssen Sie als Erstes den [**Projektstandort festlegen**](setting-location.md).
+El primer paso para realizar estudios de sombras precisos es [**establecer la ubicación del proyecto**](setting-location.md).
 
-Nachdem Sie Ihren Standort festgelegt und optional ein Satellitenbild importiert haben, modellieren Sie Ihr Projekt einschließlich Gebäudekontext und Schattierungselementen wie Jalousien und Bäumen.
+Una vez que haya definido la ubicación y haya importado de forma opcional una imagen de satélite, modele el proyecto, incluido el contexto de construcción y elementos de sombreado como lamas y árboles.
 
-### Menü Sonne und Schatten
+### Menú Sol + sombras
 
-Aktivieren Sie Schatten im Menü Sonne und Schatten oben in der Anwendung \(Sie können auch unter [**Visuelle Stile**](../formit-introduction/tool-bars.md) Schatten aktivieren und die Schattenintensität anpassen\):
+Active las sombras en el menú Sol + sombras ubicado en la parte superior de la aplicación \(también puede activar las sombras, así como ajustar su intensidad, en [**Estilos visuales**](../formit-introduction/tool-bars.md)\), como se muestra a continuación:
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-Hier können Sie die Tages- und Jahreszeit anpassen. Das Vorgabejahr ist 2000. Dies beeinträchtigt nicht die Genauigkeit der Sonnen- und Schattenstudie.
+En esta ubicación, puede ajustar la hora del día y el día del año. Se muestra el año por defecto 2000. No se preocupe, esto no afecta a la precisión del estudio de sombreado del sol.
 
-### Sonnen-Editor
+### Editor de sol
 
-Sie können den Sonnen-Editor auch über das Menü Sonne und Schatten \(oder mithilfe des Kurzbefehls DR\) aktivieren bzw. deaktivieren, sodass die Position der Sonne im Raum grafisch dargestellt wird:
+También puede activar y desactivar el Editor de sol desde el menú Sol + Sombras \(o utilizar el método abreviado DR\), que proporciona una visualización gráfica de la ubicación del sol en el espacio:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* Der Sonnen-Editor wird zusammen mit der Kamera verschoben, sodass Sie möglicherweise den Zoomfaktor und/oder die Kameraausrichtung anpassen müssen, um eine Position für das Widget zu erhalten, die in Bezug auf den untersuchten Entwurf sinnvoll ist.
-* Ziehen Sie die Sonne mit dem kreisförmigen Griff entlang der Bahn, und passen Sie die Tageszeit effektiv an.
-* Passen Sie die Jahreszeit über das Menü Sonne und Schatten an. Dadurch werden der Winkel und die Ausrichtung der grafischen Sonnenbahn basierend auf der Jahreszeit angepasst.
+* El Editor de sol se moverá con la cámara, por lo que es posible que tenga que ajustar el nivel de zoom o la orientación de la cámara para que el widget tenga una posición lógica en relación con el diseño que está estudiando.
+* Arrastre el pinzamiento circular para mover el sol a lo largo de su trayectoria y ajustar de forma eficaz la hora del día.
+* Ajuste la hora del año en el menú Sol + Sombras. De este modo, se ajustará el ángulo y la orientación de la trayectoria gráfica del sol en función de la época del año.
 
 
 

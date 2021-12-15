@@ -1,26 +1,26 @@
-# Orthogonale Ansichten
+# Vistas ortogonales
 
-**Zeigen Sie Ihr Modell in verschiedenen orthogonalen Ansichten an, einschließlich Draufsicht, Seitenansicht und Ansicht von unten.**
+**Vea el modelo en diversas vistas ortogonales, incluidas las vistas superior, laterales e inferior.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Orthogonale Ansichten werden angezeigt, wenn Sie auf das obere Symbol in der verschiebbaren Navigationsleiste klicken:**
+**Para buscar vistas ortogonales, haga clic en el icono superior de la barra de herramientas de navegación flotante:**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Einige nützliche Hinweise zum Arbeiten mit orthogonalen Ansichten:**
+**A continuación, se ofrecen algunos consejos útiles al trabajar con vistas ortogonales:**
 
-* Beim Wechseln zwischen orthogonalen Ansichten behält FormIt den Zoomfaktor aus Konsistenzgründen bei.
-* Beim Wechseln der Ansichten (vorne/rechts/links/hinten) behält FormIt die Bodenhöhe aus Konsistenzgründen bei.
-* Sie können die UMSCHALTTASTE beim Schwenken in einer orthogonalen Ansicht gedrückt halten, um die Schwenkbewegung auf die horizontale oder vertikale Achse zu beschränken.
-* Orthogonale Ansichtsrichtungen basieren auf den Weltachsen. Sie können die Achsen neu ausrichten, wodurch sich die Ausrichtungen aller orthogonalen Ansichten ändern:
-   * Verwenden Sie den Kurzbefehl SZ, oder klicken Sie mit der rechten Maustaste in den Raum (nicht über Geometrie):
+* Al cambiar entre vistas ortogonales, FormIt conservará el nivel de zoom para mantener la coherencia.
+* Al cambiar de vista de elevación (frontal/derecha/izquierda/posterior), FormIt conservará la altura del suelo para mantener la coherencia.
+* Puede mantener pulsada la tecla Mayús mientras realiza el encuadre en una vista ortogonal para bloquear el movimiento de encuadre en el eje horizontal o vertical.
+* Las direcciones de las vistas ortogonales se basan en los ejes universales. Puede volver a alinear los ejes, lo que modificará las orientaciones de todas las vistas ortogonales, como se indica a continuación:
+   * Utilice el método abreviado SZ o haga clic con el botón derecho en el espacio (no sobre ninguna geometría):
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * Legen Sie den Ursprung und den Griff an den roten Achsen fest, um ihn in einer sinnvollen Richtung auszurichten.
+   * Defina el origen y establezca el pinzamiento en los ejes rojos para alinearlo con una dirección significativa.
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**Orthogonale Ansichten können mit anderen FormIt-Funktionen verwendet werden:**
+**Las vistas ortogonales funcionan en combinación con otras funciones de FormIt, como se indica a continuación:**
 
-* Speichern Sie Ansichten als Szenen, damit Sie später zu ihnen zurückkehren können.
-* Steuern Sie mit Layern die Sichtbarkeit von Geometrie, die Ansichten möglicherweise im Weg steht.
-* Fügen Sie Schnittebenen hinzu, um Schnittansichten zu erstellen.
+* Guarde las vistas de elevación como escenas para poder volver a ellas más adelante.
+* Controle la visibilidad de la geometría que podría interponerse en las vistas de alzado mediante capas.
+* Añada planos de sección para crear elevaciones de sección.

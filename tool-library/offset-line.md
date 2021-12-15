@@ -1,52 +1,52 @@
-# Versatz-Linie
+# Línea de desfase
 
-Zeichnen Sie parallele oder versetzte Linien mit dem Werkzeug Versatzlinie. Dies ist nützlich, um 2D-Formen zu erstellen, die später extrudiert werden können, sodass sie 3D-Wänden ähneln.
+Dibuje líneas paralelas o de desfase mediante la herramienta Línea de desfase. Esto resulta útil para crear formas 2D que posteriormente se pueden extruir para que tengan un aspecto similar al de los muros 3D.
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-Das Werkzeug **Versatzlinie** funktioniert wie das Werkzeug [**Linie** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
+La herramienta **Línea de desfase** funciona como la [**Línea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Klicken Sie, um den ersten Punkt festzulegen, und bewegen Sie dann den Cursor, um die nachfolgenden Punkte zu platzieren. Dabei werden vorhandene Geometrie oder Ableitungsachsen gefangen.
-* Eine Vorschau der resultierenden Form wird angezeigt. Der zweite und dritte Punkt bestimmen die Ebene, der die restlichen Punkte folgen sollen, sodass das Ergebnis planar ist.
-* Fügen Sie weitere Punkte hinzu, und drücken Sie **ESC**, oder doppelklicken Sie, um das Werkzeug zu beenden.
-* Alle Selbstüberschneidungen werden bereinigt und zusammengeführt, sodass Sie eine extrudierbare Fläche erhalten.
+* Haga clic para definir el primer punto y, a continuación, mueva el cursor y coloque los puntos posteriores, ajustando la geometría existente o los ejes de inferencia.
+* Se muestra una vista preliminar de la forma resultante. Los puntos segundo y tercero determinan el plano que seguirán los demás puntos, por lo que el resultado es plano.
+* Continúe añadiendo puntos y pulse **Esc** o haga doble clic para finalizar la herramienta.
+* Las autointersecciones se limpiarán y se fusionarán, dejando una cara extruible.
 
-![Nach dem Platzieren von zwei Punkten und Ziehen des dritten Punkts](../.gitbook/assets/walls1.png)
+![Después de colocar dos puntos y arrastrar el tercer punto](../.gitbook/assets/walls1.png)
 
-Die Eingabezeile wird rot angezeigt und vorgabemäßig in der Mitte der Versatzlinien platziert.
+La línea de entrada se dibuja en rojo y, por defecto, se coloca en el centro de las líneas de desfase.
 
-Sie können die Ausrichtung der Versatzlinien und deren Stärke ändern, indem Sie die **TABULATORTASTE** drücken. Dadurch wird das Dialogfeld **Werkzeugoptionen** aufgerufen:
+Puede cambiar la alineación de las líneas de desfase y su grosor. Para ello, pulse la tecla **Tab**. Se abre el cuadro de diálogo de **Opciones de herramientas**:
 
-![Optionen für das Werkzeug Versatzlinie](../.gitbook/assets/walls2.png)
+![Opciones de la herramienta Línea de desfase](../.gitbook/assets/walls2.png)
 
-Ändern Sie die **Ausrichtung** beispielsweise in **Links** und die **Stärke** in 6", und die Versatzlinien werden links neben den Eingabelinien gezeichnet, 6 Zoll voneinander entfernt.
+Por ejemplo, cambie la **Alineación** a **Izquierda** y el **Grosor** a 6"; las líneas de desfase se dibujarán a la izquierda de las líneas de entrada a 6 pulgadas de distancia.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Nützliche Tipps
+## Consejos útiles
 
-Sie können eine geschlossene Form zeichnen, indem Sie den ersten platzierten Punkt fangen. Die resultierende Ecke wird automatisch bereinigt:
+Puede dibujar una forma cerrada forzando el cursor al primer punto colocado. La esquina resultante se limpiará automáticamente, como se muestra a continuación:
 
 ![](../.gitbook/assets/walls4.png)
 
-Sie können die Eingabelinien beliebig übereinander zeichnen. Wenn das Werkzeug fertig ist, werden die resultierenden Schnittpunkte bereinigt.
+Puede dibujar de forma libre las líneas de entrada unas encima de otras. Una vez finalizada la herramienta, se limpian las intersecciones resultantes.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Grundsätzlich muss mit dem Werkzeug Versatzlinie Geometrie auf einer Ebene generiert werden, sodass die ersten Punkte die Ebene bestimmen, der die übrigen Punkte folgen.
+Por lo tanto, la herramienta Línea de desfase debe generar geometría en un plano, por lo que los primeros puntos determinarán el plano que seguirán los puntos restantes.
 
-Beginnen Sie beispielsweise mit dem Zeichnen auf der Seite eines Würfels, um die Ebene dieser Fläche zu verwenden. Nachdem drei nicht kollineare Punkte platziert wurden, wird die Eingabeebene für den Rest der Eingabe fixiert. Beachten Sie, dass beim Zeichnen auf einer Fläche die resultierende Form in die Fläche eingefügt und in mehrere Flächen aufgeteilt wird. Um das Einfügen zu verhindern, muss die Fläche, auf der Sie zeichnen, Teil einer [Gruppe](https://windows.help.formit.autodesk.com/tool-library/groups) sein.
+Por ejemplo, inicie el dibujo en un lado de un cubo para usar el plano de esa cara. Después de colocar tres puntos no colineales, el plano de entrada se fija para el resto de la entrada. Tenga en cuenta que, al dibujar en una cara, la forma resultante se inserta en la cara, dividiéndola en varias caras. Para evitar la inserción, la cara en la que dibuje deberá formar parte de un [grupo](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Zeichnen auf einer vertikalen Fläche](../.gitbook/assets/walls7.png)
+![Dibujo en una cara vertical](../.gitbook/assets/walls7.png)
 
-![Nach Beenden des Werkzeugs werden die Linien eingefügt, und die getrennten Flächen können weiter bearbeitet werden.](../.gitbook/assets/walls8.png)
+![Una vez finalizada la herramienta, se insertan las líneas y las caras divididas se pueden manipular de forma adicional.](../.gitbook/assets/walls8.png)
 
-Sie können auch das Werkzeug Versatzlinie verwenden, um eine Draufsicht nachzuzeichnen. Importieren Sie den Plan als Bild.
+También puede utilizar la herramienta Línea de desfase para trazar desde un dibujo de plano. Importe el plano como una imagen.
 
-* Ändern Sie die Größe des Bilds, sodass der Plan den richtigen Maßstab aufweist. Dies wird [hier](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane) genauer beschrieben.
-* Sie können die [orthogonale Kamera](orthographic-camera.md) zum Nachzeichnen in orthogonalen [Draufsichten](orthographic-views.md) verwenden.
+* Cambie el tamaño de la imagen para que el plano tenga la escala correcta. Esto se describe con más detalle [aquí](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). 
+* Puede utilizar la [Cámara ortogonal](orthographic-camera.md) para trazar en una [vista superior](orthographic-views.md) ortogonal.
 
 ![](../.gitbook/assets/walls9.png)
 

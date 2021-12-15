@@ -1,30 +1,30 @@
-# Boolesche Operationen: Verbinden
+# Unión booleana
 
-Mit dem Werkzeug Verbinden können Sie ein Objekt oder eine Gruppe mit anderen Objekten oder Gruppen verbinden. Es gibt zwei Möglichkeiten zum Aufrufen des Werkzeugs Verbinden:
+Puede unir un objeto o un grupo en otro con la herramienta Unir. Existen dos métodos para acceder a la herramienta Unir, como se indica a continuación:
 
-## Zuerst den Befehl Verbinden ausführen
+## Ejecutar primero el comando Unir
 
-Tastatur: J G
+Teclado: J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Führen Sie den Befehl Verbinden aus, und folgen Sie den Anweisungen für den Modus oben links auf dem Bildschirm.
+Ejecute el comando Unir y siga la instrucción de modo que aparece en la parte superior izquierda de la pantalla.
 
-Klicken Sie, um ein Objekt auszuwählen, das verbunden werden soll.
+Haga clic una vez para seleccionar un objeto al que unirse.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Klicken Sie, um ein Objekt oder eine Gruppe zum Verbinden auszuwählen.
+Haga clic una vez para seleccionar un objeto o un grupo que unir.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Klicken Sie auf das Häkchen, um den Befehl zu beenden. 
+Haga clic en la marca de verificación para finalizar el comando.
 
-## Zuerst die Objekte auswählen
+## Seleccionar primero objetos
 
-1. Doppelklicken Sie, um das Objekt auszuwählen, das verbunden werden soll \(einfacher Klick für eine Gruppe\).
-2. Halten Sie die **STRG-Taste** gedrückt, und doppelklicken Sie auf ein überlappendes Objekt, das Sie mit dem ersten Objekt verbinden möchten.
-3. Klicken Sie mit der rechten Maustaste auf eines der Objekte, und wählen Sie im Kontextmenü das Werkzeug Verbinden.
+1. Haga doble clic para seleccionar el objeto que se va a unir \(haga clic una vez para un grupo\).
+2. Mientras mantiene pulsada la tecla **CTRL**, haga doble clic en un objeto solapado que desee unir con el primer objeto.
+3. Haga clic con el botón derecho en cualquiera de los objetos y seleccione la herramienta Unir en el menú contextual.
 
 ![](../.gitbook/assets/join-tool.png)
 

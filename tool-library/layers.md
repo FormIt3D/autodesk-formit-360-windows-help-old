@@ -1,28 +1,28 @@
-# Layer
+# Capas
 
-Verwenden Sie Layer zur Steuerung der Sichtbarkeit von FormIt-Objekten.
+Utilice Capas para controlar la visibilidad de los objetos de FormIt.
 
-Sehen Sie sich Layer in Aktion an, indem Sie die [FormIt-Einführung](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) durcharbeiten.
+Vea las capas en acción en [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Erstellen und Benennen von Layern
+## Creación y denominación de capas
 
-In der Gruppe Layer können Sie Ihre Layer erstellen und benennen, indem Sie auf das Symbol **+** klicken.
+En el panel Capas, puede hacer clic en el icono **+** para crear capas y asignarles nombres.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-Sie können auf den Namen doppelklicken, um den Layer umzubenennen, oder die Sichtbarkeit der Objekte umschalten, indem Sie das linke Kontrollkästchen aktivieren bzw. deaktivieren. Verwenden Sie das rechte Kontrollkästchen, um Layer zu sperren und freizugeben. Ein gesperrter Layer ist weiterhin sichtbar, kann jedoch nicht ausgewählt oder bearbeitet werden.
+Puede hacer doble clic en el nombre de la capa para cambiarlo o activar o desactivar la visibilidad de sus objetos mediante la activación o la desactivación de la casilla de la izquierda. Utilice la casilla de verificación derecha para bloquear y desbloquear capas. Una capa bloqueada seguirá estando visible, pero no se podrá seleccionar ni editar.
 
-## Verwalten von Objekten auf Layern
+## Administración de objetos en capas
 
-Wählen Sie Objekte im Ansichtsbereich aus, und verwenden Sie dann die Dropdown-Liste oben in der Gruppe Layer, um anzugeben, auf welchem Layer die ausgewählten Objekte platziert werden sollen.
+Seleccione objetos en el lienzo y, a continuación, utilice el menú desplegable de la parte superior del panel Capas para indicar en qué capa se deben colocar los objetos seleccionados.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt arbeitet generell ohne vorgabemäßige oder Arbeitslayer. Die gesamte neue Geometrie wird mit Kein Layer erstellt, und Sie müssen Objekte nach der Erstellung den Layern neu zuweisen.
+FormIt no reconoce el concepto de "capa por defecto" o "capa de trabajo". Toda la geometría nueva se creará en "No hay capas" y deberá volver a asignar objetos a capas después de generarlos.
 
-Sie können mit der rechten Maustaste auf einen Layer klicken und Alles auf Layern auswählen wählen, um die gesamte Geometrie auszuwählen, die diesem Layer derzeit zugewiesen ist.
+Puede hacer clic con el botón derecho en una capa y elegir Seleccionar todo en capas para elegir toda la geometría asignada actualmente a esta capa.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-Sie können die Reihenfolge der Layer in der Gruppe auch ändern, indem Sie sie an eine neue Position ziehen. Beachten Sie, dass dies keine Auswirkungen auf die Sichtbarkeit der Geometrie hat. Dies ist ein rein organisatorisches Werkzeug in der Gruppe.
+También puede reordenar las capas en el panel. Para ello, arrástrelas y suéltelas en una nueva posición. Tenga en cuenta que esto no afecta a la visibilidad de la geometría; se trata de una herramienta de organización exclusiva del panel.
 

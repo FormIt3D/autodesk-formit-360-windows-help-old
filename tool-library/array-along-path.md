@@ -1,103 +1,103 @@
-# Array Along Path (Reihe entlang Pfad)
+# Array Along Path
 
-## Powered by Dynamo
+## Con tecnología de Dynamo
 
-In FormIt 2021 und höher können Sie Objekte entlang eines Pfads anordnen und die Ergebnisse sofort und direkt anpassen. Array Along Path (Reihe entlang Pfad) wird von Dynamo unterstützt, d. h., die Reihe kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
+En FormIt 2021 y versiones posteriores, puede organizar los objetos a lo largo de un camino y personalizar rápidamente los resultados in situ. La opción "Array Along Path" cuenta con tecnología de Dynamo, lo que significa que la matriz se puede configurar fácilmente para obtener los resultados deseados y si se vuelve a ejecutar la lógica, se actualizará la geometría in situ.
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## Starten von Array Along Path (Reihe entlang Pfad)
+## Inicio de "Array Along Path"
 
-* Wechseln Sie zur Gruppe Dynamo in FormIt for Windows, und stellen Sie sicher, dass Sie sich im Verzeichnis Dynamo Samples (Dynamo-Beispiele) befinden.
-* Klicken Sie auf das Beispiel für Array Along Path (Reihe entlang Pfad).
-* Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen der anzuordnenden Objekte angezeigt.
-   * Sie können für diesen Schritt eine beliebige Kombination von FormIt-Objekten auswählen.
-   * Wenn Sie eine Auswahl getroffen haben, können Sie auf den Weiter-Pfeil links auf dem Bildschirm klicken oder einfach die EINGABETASTE drücken.
-* Nun wird eine Eingabeaufforderung zum Auswählen des Pfads für die Reihe angezeigt.
-   * Hier sollten Sie nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die eine Reihe von fortlaufenden Kanten enthält, auswählen.
-   * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
-* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird eine in Dynamo generierte Reihe in einer FormIt-Gruppe angezeigt, die Sie bearbeiten können \(siehe unten\).
+* Vaya al panel Dynamo en FormIt para Windows y asegúrese de que se encuentra en el directorio de muestras de Dynamo.
+* Haga clic en la muestra de "Array Along Path".
+* En el lado izquierdo de la pantalla, aparecerá la solicitud "Select object\(s\) to array".
+   * Puede seleccionar cualquier combinación de objetos de FormIt para este paso.
+   * Una vez que haya realizado una selección, puede pulsar la flecha "siguiente" situada a la izquierda de la pantalla o pulsar Intro.
+* Ahora aparecerá la solicitud "Select path for array".
+   * Aquí, debe seleccionar solo una serie de bordes contiguos o un grupo que contenga una serie de bordes contiguos.
+   * Una vez que haya seleccionado el camino, haga clic en el botón "finish" o pulse Intro.
+* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una matriz generada por Dynamo en un grupo de FormIt, lista para modificar \(consulte la información mostrada a continuación\).
 
-## Erstellen von Iterationen an Ort und Stelle
+## Iteración in situ
 
-Nach dem Ausführen von Array Along Path (Reihe entlang Pfad) werden die Ergebnisse auf Vorgabewerte eingestellt. Sie sollten sie daher an Ihre Anforderungen anpassen.
+Después de ejecutar "Array Along Path", verá que sus resultados se han establecido en valores por defecto, por lo que deseará modificarlos para que se adapten a sus necesidades.
 
-Wenn Array Along Path (Reihe entlang Pfad) ausgeführt wird, wird eine neue Gruppe mit den Ergebnissen erstellt. FormIt wählt dann automatisch die Gruppe aus und zeigt die verfügbaren Optionen für dieses Exemplar von Array Along Path (Reihe entlang Pfad) an.
+Cuando se ejecuta, esta función crea un nuevo grupo que contiene los resultados y FormIt selecciona automáticamente el grupo y las opciones disponibles para ese ejemplar de "Array Along Path".
 
-Sie können jederzeit zu den Eigenschaften für Array Along Path (Reihe entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Eigenschaften angezeigt werden.
+Siempre puede volver a las propiedades de "Array Along Path". Para ello, seleccione el grupo y cambie al panel Propiedades o modifique el grupo que mostrará automáticamente las propiedades.
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object\(s\) to Array (Objekte für Reihe auswählen) <a id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und die anzuordnenden Objekte zu ändern.
+Haga clic en este botón para volver al asistente de selección a fin de cambiar los objetos que se van a incluir en la matriz.
 
-### Select Array Path (Pfad für Reihe auswählen)
+### Select Array Path
 
-Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und den Pfad zu ändern, der zum Berechnen der Reihe verwendet wird.
+Haga clic en este botón para volver al asistente de selección y cambiar el camino que se utiliza para calcular la matriz.
 
-### Array Type (Reihentyp) <a id="run"></a>
+### Array Type <a id="run"></a>
 
-Hiermit wird der zu berechnende Reihentyp umgeschaltet: By Distance (Nach Abstand) oder By Number (Nach Nummer).
+Esta opción activa o desactiva el tipo de matriz que se va a calcular: por distancia o por número.
 
-**Wenn True eingestellt ist**, wird die Berechnung By Distance (Nach Abstand) durchgeführt, sodass sich die Zahl unten auf den Abstand zwischen Kopien bezieht.
+**Si se establece en True**, el cálculo será por distancia, por lo que el número mostrado a continuación hará referencia a la distancia entre las copias.
 
-**Wenn False eingestellt ist**, wird die Berechnung By Number of Copies (Nach Anzahl der Kopien) durchgeführt, sodass sich die Zahl unter diesem Feld auf die Anzahl der Kopien bezieht, die entlang des Pfads eingepasst werden sollen.
+**Si se establece en False**, el cálculo será por número de copias, por lo que el número mostrado a continuación hará referencia al número de copias que caben a lo largo del camino.
 
-### Include Original Selection In Results (Ursprüngliche Auswahl in Ergebnisse einschließen)
+### Include Original Selection In Results
 
-Wenn **True**:
+Si se establece en **True**, ocurre lo siguiente:
 
-* Die ausgewählten Objekte werden als eine der neuen Kopien gezählt.
-* Die resultierende Dynamo-Gruppe nimmt die ursprüngliche Auswahl in die Ergebnisse auf, sodass für die neuen Kopien ein Z-Fighting-Effekt mit der ursprünglichen Auswahl auftritt. Sie können die ursprüngliche Auswahl auf einem [Layer](layers.md) platzieren und diesen deaktivieren, um ihn auszublenden.
+* Los objetos seleccionados se contarán como una de las copias nuevas.
+* El grupo de Dynamo resultante incluirá la selección original en sus resultados, por lo que habrá un conflicto de planos entre las nuevas copias y la selección original. Puede colocar la selección original en una [capa](layers.md) y desactivarla para ocultarla.
 
-Wenn **False**:
+Si se establece en **False**:
 
-* Die resultierende Reihe enthält die ursprüngliche Auswahl **nicht**, sodass Sie **zusätzlich** zur ursprünglichen Auswahl die angegebene Anzahl der Kopien erhalten. Bei den Ergebnissen findet kein Z-Fighting statt.
+* La matriz resultante **no** incluirá la selección original, por lo que obtendrá el número de copias especificado,**además de** la selección original, por lo que no habrá ningún conflicto de planos.
 
-### Rotate Copies Along Path (Kopien entlang Pfad drehen)
+### Rotate Copies Along Path
 
-Wenn **True** eingestellt ist, werden die Kopien gedreht, um die Ausrichtung des ursprünglichen Objekts relativ zum Pfad beizubehalten.
+Si se establece en **True**, las copias se rotan para mantener la orientación del objeto original en relación con el camino.
 
-Wenn **False** eingestellt ist, werden die Kopien nicht gedreht, sondern nur verschoben.
+Si se establece en **False**, las copias no se rotan, solo se desplazan.
 
-### Use Relative Positioning Along Path (Relative Positionierung entlang Pfad verwenden)
+### Utilizar posición relativa a lo largo del camino
 
-Wenn **True**:
+Si se establece en **True**, ocurre lo siguiente:
 
-* Bei jeder Kopie wird der Abstand zwischen dem Pfad und dem ursprünglichen Objekt beibehalten.
-* Wenn das ursprüngliche Objekt **nicht** an einem der Endpunkte des Pfads positioniert ist, wird das größte verbleibende Segment des Pfads für die Reihenberechnung verwendet.
+* Cada copia mantendrá la distancia entre el camino y el objeto original.
+* Si el objeto original **no** se coloca en uno de los puntos finales del camino, se utilizará el segmento restante más grande del camino para el cálculo de la matriz.
 
-Wenn **False**:
+Si se establece en **False**:
 
-* Die gesamte Länge des Pfads wird zur Berechnung der Reihe verwendet, unabhängig davon, wo sich das ursprüngliche Objekt relativ zum Pfad befindet.
-* Dadurch wird die Position des Pfads relativ zum Objekt entkoppelt, und es wird einfach der gesamte Pfad verwendet. Dies ist nützlich, wenn der Pfad und das Objekt nicht nahe beieinander liegen.
+* La longitud completa del camino se utilizará para calcular la matriz, independientemente de dónde esté el objeto original en relación con el camino.
+* De este modo, se desenlaza la ubicación del camino en relación con el objeto y se utiliza simplemente todo el camino. Resulta útil si el camino y el objeto no están próximos entre sí.
 
-### Reverse Path Direction (Pfadrichtung umkehren)
+### Reverse Path Direction
 
-Nur für geschlossene Pfade. Wenn Sie Array Along Path (Reihe entlang Pfad) mit einem geschlossenen Pfad verwenden, werden die erwarteten Ergebnisse der Reihe möglicherweise durch die Richtung der Kurve unerwartet umgekehrt. Setzen Sie diesen Wert auf **True**, um auch die Reihenrichtung umzukehren, wenn die Ergebnisse umgekehrt werden.
+Solo para los caminos cerrados. Cuando se utiliza "Array Along Path" con un camino cerrado, la dirección de la curva puede invertir inesperadamente los resultados esperados de la matriz. Establezca esta opción en **True** para invertir la dirección de la matriz si se cambia la orientación de los resultados.
 
-### Run (Ausführen) <a id="run"></a>
+### Ejecutar <a id="run"></a>
 
-Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
+Después de editar las opciones, haga clic en el botón Ejecutar para ejecutar el gráfico subyacente de Dynamo y generar nuevos resultados. Este botón se colorea de azul cuando se han modificado los parámetros, por lo que debe hacer clic en él para ver las actualizaciones en la geometría final.‌
 
-### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) <a id="edit-embedded-graph"></a>
+### Editar gráfico incrustado <a id="edit-embedded-graph"></a>
 
-Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
+Al hacer clic en este botón, se inicia el entorno del editor de gráficos de Dynamo, por lo que puede ver y editar el gráfico subyacente de Dynamo para cambiar los parámetros y ver las actualizaciones directas con mayor rapidez o para inspeccionar o ajustar la lógica.
 
 
 
-## Auswählen von Geometrie
+## Selección de geometría
 
-Bei der Auswahl von Objekten für Array Along Path (Reihe entlang Pfad) und andere auswahlbasierte Dynamo-Diagramme gilt Folgendes:
+Al seleccionar objetos para "Array Along Path" y otros gráficos de Dynamo basados en selección, tenga en cuenta lo siguiente:
 
-* Sie können eine beliebige Kombination von FormIt-Objekten auswählen: Scheitelpunkte, Kanten, Flächen, Volumenkörper, Gruppen oder Netze.
-   * Beachten Sie, dass je nach Schritt einige dieser Objekte nicht ausgewählt werden sollten.
-   * Wenn Sie beispielsweise den Pfad auswählen, sollten Sie nur eine fortlaufende Reihe von Kanten oder eine Gruppe mit einer fortlaufenden Reihe von Kanten auswählen. Andernfalls schlägt das Diagramm fehl.
-* Sie können auf ein Objekt doppelklicken, um alle zugeordneten Objekte auszuwählen.
-* Sie können das Fenster für die Bereichsauswahl verwenden, um eine Reihe von Objekten zu erfassen.
-* Sie können bereits ausgewählte Objekte auswählen, um deren Auswahl aufzuheben.
-* Mindestens ein Objekt ist erforderlich, um mit einem auswahlbasierten Schritt fortzufahren.
+* Puede seleccionar cualquier combinación de objetos de FormIt: vértices, bordes, caras, sólidos, grupos y mallas.
+   * Tenga en cuenta que, en función del paso, algunos de estos objetos no se deben seleccionar.
+   * Por ejemplo, al seleccionar el camino, solo debe seleccionar una serie de bordes contiguos o un grupo que contenga una serie de bordes contiguos. Cualquier otra acción provocará errores en el gráfico.
+* Puede hacer doble clic en un objeto para seleccionar todo lo que está enlazado.
+* Puede utilizar la ventana de selección de área para capturar una serie de objetos.
+* Puede seleccionar objetos seleccionados para anular su selección.
+* Se necesita al menos un objeto para continuar con un paso basado en selección.
 
 
 

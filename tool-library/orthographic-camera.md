@@ -1,18 +1,18 @@
-# Orthogonale Kamera
+# Cámara ortogonal
 
-FormIt 2021 enthält die neue Funktion Orthogonale Kamera. Sie finden die Schaltflächen Orthogonal und Perspektivisch im Navigationsmenü:
+FormIt 2021 incorpora la nueva función Cámara ortogonal. Puede encontrar los botones Ortogonal y Perspectiva en el menú de navegación, como se muestra a continuación:
 
-![Kamera-Ansichtsschaltflächen Orthogonal \(unten\) und Perspektivisch \(oben\)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Botones de vista de cámara Ortogonal \(inferior\) y Perspectiva \(superior\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Mit dieser neuen Option können Sie einfach zwischen den Kameraansichten Orthogonal und Perspektivisch wechseln.
+Esta nueva opción permite alternar fácilmente entre las vistas de cámara ortogonal y en perspectiva.
 
-![Ein Modell kann vom perspektivischen in den orthogonalen Kameramodus umgeschaltet werden.](../.gitbook/assets/ortho-camera.gif)
+![Un modelo se puede cambiar del modo de cámara Perspectiva a Ortogonal. ](../.gitbook/assets/ortho-camera.gif)
 
-Wenn Sie sich in der orthogonalen Kamera befinden, berücksichtigen alle anderen Kamerawerkzeuge den aktuellen Modus. Beispiel: **Kamera an Fläche ausrichten** richtet die orthogonale Kamera an der Fläche aus, wodurch eine orthogonale Ansicht entsteht.
+Una vez que se encuentre en la cámara ortogonal, cualquier otra herramienta de cámara respetará el modo actual. Por ejemplo, **Alinear cámara con cara** alineará la cámara ortogonal con la cara, lo que dará como resultado una vista de elevación ortogonal.
 
-Wenn Sie manuell zu einer voreingestellten orthogonalen Ansicht wie Draufsicht oder Vorderansicht navigieren, fängt die orthogonale Kamera diese Position, sodass der Zugriff auf diese voreingestellten Ansichten erleichtert wird.
+Si se desplaza manualmente a una vista ortogonal predefinida, como Vista superior o Vista frontal, la cámara ortogonal se ajustará a esa posición, lo que facilitará el acceso a esas vistas predefinidas.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Anmerkung:** Wenn ein Kameraschnitt im orthogonalen Kameramodus erfolgt, können Sie zum perspektivischen Modus zurückkehren, die Ansicht verkleinern und es erneut versuchen.
+**Nota** Si se produce un recorte de cámara en el modo de cámara Ortogonal, puede cambiar al modo Perspectiva, reducir la vista e intentarlo de nuevo.
 

@@ -1,18 +1,18 @@
-# Rückgängig-Manager
+# Administrador de deshacer
 
-FormIt bietet ein einzigartiges Rückgängig-/Wiederherstellen-System, das auf zwei verschiedene Arten verwendet werden kann, um Vorgänge entweder gruppenweise oder chronologisch und global rückgängig zu machen:
+FormIt presenta un sistema exclusivo de Deshacer/Rehacer, que se puede utilizar de dos formas diferentes para deshacer por grupo o de forma cronológica y global, como se indica a continuación:
 
-* Die Optionen Rückgängig/Wiederherstellen beim Bearbeiten einer verschachtelten Gruppe wirken sich nur auf die Änderungen innerhalb dieser Gruppe aus.
-   * Das bedeutet, Sie können diese Gruppe ändern, dann zahlreiche Änderungen in anderen Gruppen vornehmen, zur ursprünglichen Gruppe zurückkehren und die letzte Änderung in dieser Gruppe rückgängig machen, ohne dass die zuletzt vorgenommenen Änderungen an anderer Stelle davon betroffen sind.
-* Die Optionen Rückgängig/Wiederherstellen in der Hauptskizze \(nicht während der Bearbeitung einer Gruppe\) verhalten sich wie herkömmliche Systeme zum Rückgängigmachen/Wiederherstellen: Die letzte Änderung in **jeder beliebigen** Gruppe wird in chronologischer Reihenfolge rückgängig gemacht.
+* Las acciones Deshacer/Rehacer al editar un grupo anidado solo afectarán a los cambios dentro de ese grupo.
+   * Esto significa que puede realizar un cambio en este grupo, realizar muchos cambios en otros grupos, volver al grupo original y tener la opción de deshacer el último cambio realizado en este grupo sin que ello afecte a los cambios realizados más recientemente en cualquier otro lugar.
+* El comportamiento de Deshacer/Rehacer desde el boceto principal \(no mientras se edita un grupo\) es igual al de los sistemas tradicionales; se deshará el último cambio realizado en **cualquier** grupo según el orden cronológico.
 
-Der Rückgängig-Manager zeichnet alle Änderungen in jeder Gruppe Ihres FormIt-Modells auf, einschließlich der Änderungen in der Hauptskizze. Dies ist nützlich, um visuell darzustellen, welche Operationen in einer Gruppe im Modell rückgängig gemacht wurden.
+El Administrador de deshacer registra todos los cambios realizados en cada grupo del modelo de FormIt, incluidos los cambios realizados en el boceto principal. Esto resulta útil para conocer visualmente las operaciones que se han deshecho en cualquier grupo del modelo.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-Der Rückgängig-Manager zeigt den aktuellen Status in **Fettdruck** an, ebenso wie alle Operationen vor diesem Status und alle Operationen, die einmal vorhanden waren, jedoch rückgängig gemacht wurden.
+El Administrador de deshacer indicará en **negrita** el estado actual, las operaciones anteriores a este estado y las operaciones que existían, pero que se han deshecho desde entonces.
 
-Sie können mit der rechten Maustaste auf einen Status klicken und Drehung zu auswählen, um effektiv alle Operationen rückgängig zu machen oder wiederherzustellen, bis Sie zu diesem Modellstatus zurückgekehrt sind.
+Puede hacer clic con el botón derecho en un estado y seleccionar Pasar a para deshacer o rehacer de forma eficaz según sea necesario a fin de volver a ese estado del modelo.
 
-Gruppen, die explizit gelöscht wurden oder aufgrund eines Rückgängig- oder Wiederherstellen-Vorgangs nicht mehr vorhanden sind, werden als \*Inaktiv\* angezeigt. Diese können durch Rückgängigmachen oder Wiederherstellen innerhalb der übergeordneten Gruppe wiederhergestellt werden, bis sie wieder existieren.
+Los grupos que se han suprimido explícitamente o que ya no existen debido a una acción Deshacer o Rehacer se muestran como \*Inactivo\*. Se pueden restablecer mediante la acción Deshacer o Rehacer dentro de su grupo principal hasta que vuelvan a existir.
 

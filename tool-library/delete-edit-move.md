@@ -1,22 +1,22 @@
-# Löschen, Bearbeiten, Verschieben
+# Suprimir, Editar y Mover
 
-Sie können Objekte entfernen, neu positionieren oder ihre Eigenschaften ändern.
+Elimine un objeto, cambie su ubicación o modifique sus propiedades.
 
-## Löschen
+## Eliminar
 
-Wählen Sie zunächst Geometrie aus. Öffnen Sie dann durch Rechtsklicken das Kontextmenü und klicken Sie dort auf das **Werkzeug Löschen**. Alternativ können Sie die Entf-Taste auf der Tastatur drücken.
+Realice primero una selección de geometría. A continuación, haga clic con el botón derecho para ver el menú contextual, donde puede hacer clic en la **herramienta Suprimir**. También puede pulsar la tecla Supr del teclado.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Bearbeiten
+## Editar
 
-Bei vielen der Bearbeitungswerkzeuge, etwa Verschieben, Reihe, Fläche schieben/ziehen und Versetzen, wird ein blauer Rahmen für die Bemaßung angezeigt. Nachdem Sie Ihren Vorgang abgeschlossen haben, können Sie auf diese Bemaßung klicken und einen bestimmten Wert eingeben. Sie können auch einfach einen numerischen Wert eingeben, um das Dialogfeld Bemaßung bearbeiten zu öffnen. Alternativ können Sie die TABULATORTASTE drücken, um das Dialogfeld Bemaßung bearbeiten aufzurufen. In FormIt for Windows v17 und höher ist die TABULATORTASTE jedoch nicht mehr erforderlich.
+Al utilizar muchas de las herramientas de edición, como Mover, Matriz, Empujar-tirar cara y Desfase, aparecerá un cuadro de cota de color azul. Puede hacer clic en esta cota después de finalizar la operación e introducir un valor específico. También puede comenzar a escribir un valor numérico para acceder al cuadro de diálogo Editar cota. También puede pulsar la tecla Tab para abrir el cuadro de diálogo Editar cota, pero ya no es necesario usar la tecla Tab con FormIt en Windows v17 y versiones posteriores.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Kanten, Flächen oder Objekte verschieben
+## Mover bordes, caras u objetos
 
-Wählen Sie zuerst die Kante, die Fläche oder das Objekt aus. Das Werkzeug Verschieben wird automatisch aktiviert. Setzen Sie den Cursor an die gewünschte Stelle, um Fang- und Ableitungspunkte für den Anfangspunkt der Verschiebung einzublenden, und klicken Sie, um zu beginnen. Setzen Sie jetzt den Cursor an die benötigte Stelle für die Anzeige von Fang- und Ableitungspunkten für die Zielposition der Verschiebung. Klicken Sie erneut, um das Objekt zu platzieren.
+Seleccione primero el borde, la cara o el objeto. La herramienta Mover se activa automáticamente. Desplace el cursor para ver los forzados de cursor y los puntos de deducción a fin de especificar dónde desea iniciar la operación de desplazamiento; haga clic para empezar. Ahora coloque el cursor para ver los forzados de cursor y los puntos de deducción en la ubicación en la que desea mover el objeto. Haga clic de nuevo para colocar el objeto.
 
 ![](../.gitbook/assets/edit_edge.png)
 

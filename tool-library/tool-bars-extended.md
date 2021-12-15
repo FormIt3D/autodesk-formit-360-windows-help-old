@@ -1,77 +1,77 @@
-### Erweiterte Werkzeugkästen
+### Información ampliada de las barras de herramientas
 ---
 
-#### Aktionsleiste
-Die Aktionsleiste befindet sich am oberen Rand des Bildschirms. Mithilfe ihrer Werkzeuge können Sie Inhalte erstellen, bearbeiten und freigeben.
+#### Barra de herramientas de acciones
+La barra de herramientas se encuentra en la parte superior de la pantalla. Las herramientas que se incluyen aquí le ayudarán a crear, editar y compartir contenido.
 ![](images/Tool Bar-All.PNG)
 
-**1. Gallery Menu (Galerie-Menü)**
+**1. Menú de la galería**
 ![](images/Tool Bar-Gallery.PNG)
-- New sketch, open sketch, save sketch, import or export files (Neue Skizze, Skizze öffnen, Skizze speichern, Dateien importieren oder exportieren).
+- Nuevo boceto, abrir boceto, guardar boceto, importar o exportar archivos.
 
-**2. Undo Redo (Rückgängig Wiederherstellen)**
+**2. Deshacer/Rehacer**
 ![](images/Tool Bar-Undo Redo.PNG)
-- Klicken Sie auf Undo (Rückgängig) oder Redo (Wiederherstellen), um die zuletzt ausgeführten Aktionen rückgängig zu machen oder wiederherzustellen.
+- Haga clic para deshacer o rehacer acciones recientes.
 
-**3. Selection and Measurement (Auswahl und Messung)**
+**3. Selección y medición**
 ![](images/Tool Bar-Select.PNG)
-- Selection Filter (Auswahlfilter): Klicken Sie hier, um Optionen zum Herausfiltern von Objekttypen (Kanten, Flächen, Volumenkörper, Gruppen) aus dem Auswahlwerkzeug zu wählen.
-- Measure Tools (Messwerkzeuge): Klicken Sie hier, um ein Werkzeug für Linear- oder Winkelmessung zu wählen.
+- Filtro de selección: haga clic para seleccionar opciones para filtrar tipos de objeto (bordes, caras, sólidos y grupos) desde la herramienta de selección.
+- Herramientas de medición: haga clic para seleccionar una herramienta de medición lineal o angular.
 
-**4. Creation and Modification Tools (Erstellungs- und Bearbeitungswerkzeuge)**
+**4. Herramientas de creación y modificación**
 ![](images/Tool Bar-Create.PNG)
-- Sketch Tools (Skizzierwerkzeuge): Klicken Sie hier, um ein Menü mit Erstellungswerkzeugen aufzurufen (Linie, Bogen, Spline, Rechteck, Kreis), mit deren Hilfe Sie Formen zeichnen können.
-- Primitives (Grundkörper): Klicken Sie hier, um ein Menü mit 3D-Grundformen aufzurufen (Würfel, Kuppel, Pyramide, Zylinder, Dach), die Sie in Ihrer Szene platzieren können.
-- Advanced Modeling Tools (Erweiterte Modellierungswerkzeuge): Klicken Sie hier, um Boolesche Schnitt- und Vereinigungsfunktionen, Abdeckungen, Sweeps oder Erhebungen zu verwenden.
-- Groups (Gruppen): Hier finden Sie Werkzeuge für die Gruppierung von Objekten.
+- Herramientas de boceto: haga clic para abrir un menú de herramientas de creación (línea, arco, spline, rectángulo y círculo) que le ayudarán a dibujar formas.
+- Primitivas: haga clic para abrir un menú de formas 3D básicas (cubo, cúpula, pirámide, cilindro y cubierta) que puede colocar en la escena.
+- Herramientas avanzadas de modelado: haga clic para utilizar operaciones booleanas de corte o unión, cobertura, barrido o solevación.
+- Grupos: haga clic para localizar herramientas para agrupar objetos.
 
-**5. Location and Analysis Tools (Standort- und Analysewerkzeuge)**
+**5. Herramientas de ubicación y análisis**
 ![](images/Tool Bar-Analysis.PNG)
-- Location (Standort): Suchen Sie nach einem Standort, und importieren Sie Satellitenbilder in Ihre Skizze.
-- Sun and Shadows (Sonne und Schatten): Legen Sie die Uhrzeit und den Tag fest, um Schatten anzuzeigen, und beginnen Sie mit einer Solaranalyse für ein Gebäude.
-- Energy Analysis (Energieanalyse): Klicken Sie hier, um Berechnungen für den Energieverbrauch eines Gebäudes durchzuführen.
+- Ubicación: busque la ubicación e importe imágenes de satélite en el boceto. 
+- Sol y sombras: defina la hora y el día para ver las sombras e inicie un análisis solar en un edificio.
+- Análisis energético: haga clic para realizar cálculos en un edificio para determinar su uso energético.
 
-**6. User Identity (Benutzeridentität)**
+**6. Identidad de usuario**
 ![](images/Tool Bar-User Identity.PNG)
-- Settings (Einstellungen): Hier können Sie Anwendungs- und Skizzeneinstellungen, den Bildstil sowie Diagnosefunktionen für das Modell festlegen.
-- Touch Mode (Berührungsmodus): Modellieren und navigieren Sie auf berührungsempfindlichen Windows-Geräten per Finger, Stift, Maus und Tastatur.
-- Collaboration (Zusammenarbeit): Starten Sie eine Sitzung, nehmen Sie an einer Sitzung teil, oder laden Sie andere zur Zusammenarbeit ein.
-- Login to Autodesk360 (Anmeldung bei Autodesk 360): Verwenden Sie die Autodesk 360-Cloud-Services kostenlos zum Speichern und Freigeben Ihrer Skizzen.
-- Help (Hilfe): Mithilfe der Informationswerkzeuge lernen Sie FormIt noch besser kennen.
+- Configuración: establezca la configuración de la aplicación y el boceto, junto con el estilo visual, y realice diagnósticos del modelo.
+- Modo táctil: modele y navegue con dispositivos de Windows con capacidad táctil mediante un dedo, un lápiz, un ratón y un teclado.
+- Colaboración: inicie una sesión, únase a una existente o invite a otros usuarios a colaborar.
+- Iniciar sesión en Autodesk 360: utilice los servicios en la nube de Autodesk 360 de forma gratuita para almacenar y compartir los bocetos.
+- Ayuda: utilice las herramientas de información para obtener más información sobre FormIt.
 
-#### Navigationsleiste
-Siehe [Navigieren in der Szene](../formit-introduction/navigating-the-scene.md).
+#### Barra de herramientas de navegación
+Consulte [Navegación por la escena](../formit-introduction/navigating-the-scene.md).
 
-#### Palettenleiste
-Die Palettenleiste wird auf der rechten Seite des Bildschirms angezeigt. Durch Klicken auf eines dieser Symbole öffnen Sie eine seitliche Palette mit Gebäudeeigenschaften, Materialien, einer Inhaltsbibliothek sowie Werkzeugen für die Zusammenarbeit.
+#### Barra de paletas
+La barra de paletas aparece en el lado derecho de la pantalla. Haga clic en uno de estos iconos para abrir una paleta lateral a fin de visualizar las propiedades del edificio, los materiales, una biblioteca de contenido y herramientas de colaboración.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Properties (Eigenschaften)**: Öffnen Sie diese Palette, um den Standort, die Bruttofläche sowie Bodenflächenverhältnisse für Ihre Skizze anzuzeigen.
+**1. Propiedades** Abra esta paleta para ver las proporciones de área de suelo, área bruta y ubicación del boceto.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Materials (Materialien)**: Verwenden Sie diese Palette zum Erstellen oder Anwenden von Materialien.
+**2. Materiales** Utilice esta paleta para crear o aplicar materiales.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Layer**: Verwenden Sie diese Palette, um Layer zu erstellen und zu verwalten und um ausgewählte Objekte verschiedenen Layern zuzuweisen.
+**3. Capas** Utilice esta paleta para crear y administrar capas y asignar los objetos seleccionados a diferentes capas.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Scenes (Szenen)**: Verwenden Sie diese Palette zum Erstellen, Verwalten und Wiedergeben von Szenen.
+**4. Escenas** Utilice esta paleta para crear, administrar y reproducir escenas.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Visual Styles (Visuelle Stile)**: Verwenden Sie diese Palette, um die Anzeige der Skizze zu bearbeiten, indem Sie Schatten, Flächen, Kanten und die Umgebung steuern. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Estilos visuales** Utilice esta paleta para editar la visualización del boceto mediante el control de sombras, superficies, bordes y el entorno. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Group Tree (Gruppenstruktur)**: Verwenden Sie diese Palette, um Gruppen und Objekte innerhalb jeder Gruppe anzuzeigen.
+**6. Árbol de grupos** Utilice esta paleta para ver grupos y objetos dentro de cada grupo.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo**: Verwenden Sie diese Palette zum Laden und Verwalten von in Dynamo Studio erstellten Berechnungsmodellen.
+**7. Dynamo** Utilice esta paleta para cargar y administrar modelos de cálculo creados en Dynamo Studio.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Levels (Ebenen)**: Verwenden Sie diese Palette zum Anzeigen und Hinzufügen von Ebenen zu Gebäudeobjekten.
+**8. Niveles** Utilice esta paleta para visualizar y añadir niveles a los objetos de construcción.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. Content Library (Inhaltsbibliothek)**: In der Inhaltsbibliothek können Sie wiederverwendbare Inhalte wie etwa Möbel speichern.
+**9. Biblioteca de contenido** Utilice la biblioteca de contenido para almacenar contenido reutilizable como, por ejemplo, mobiliario.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Undo Manager (Rückgängig-Manager)**: Verwenden Sie diese Palette, um die Aktionen der einzelnen Benutzer bei der Zusammenarbeit anzuzeigen.
+**10. Administrador de deshacer** Utilice esta paleta para ver las acciones de cada usuario al colaborar.
 ![](./images/Palette Bar-Undo Manager.PNG)

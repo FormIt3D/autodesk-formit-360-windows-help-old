@@ -1,70 +1,70 @@
-# 1.15 – Arbeiten mit Revit
+# 1.15 - Trabajo con Revit
 
-_Eine der wichtigsten Funktionen von FormIt ist die Möglichkeit, Ihr Modell von einer flexiblen Modellierungsumgebung wie FormIt in eine leistungsstarke parametrische Umgebung wie Revit zu übertragen. In diesem Kapitel werden einige Übungen beschrieben, mit denen verschiedene Elemente aus FormIt in Revit und aus Revit in FormIt übertragen werden._
+_Una de las funciones más interesantes de FormIt es la posibilidad de transferir el modelo de un entorno de modelado flexible como FormIt a un potente entorno paramétrico como Revit. En este capítulo, realizaremos algunos ejercicios que transfieren varios elementos de FormIt a Revit y viceversa._
 
-_In diesem Kapitel werden Revit-Beispielfamilien verwendet. Falls Sie dies noch nicht getan haben, können Sie diese aus dem Ordner **Farnsworth House Data Set** herunterladen. Wenn Sie das gesamte Lernprogramm bis zu diesem Zeitpunkt noch nicht durchgearbeitet haben, können Sie auch die Datei **1.15 – Working With Revit.axm** aus dem Ordner **FormIt Primer Part 1 Datasets** herunterladen und öffnen._
+_En este capítulo, se utilizarán familias de Revit de muestra. Si aún no lo ha hecho, puede descargarlas en el conjunto de datos de **Farnsworth House.** Si no ha seguido todo el aprendizaje hasta este momento, también puede descargar y abrir el archivo **1.15 – Working With Revit.axm** desde los **conjuntos de datos de la parte 1 de FormIt**._
 
-_In diesen Übungen wird Revit 2022 verwendet, das über verbesserte Interoperabilität mit FormIt verfügt. Vorherige Versionen von Revit enthalten nicht alle Funktionen, die in diesem Lernprogramm vorgestellt werden, und haben eine andere Benutzeroberfläche._
+_En estos ejercicios, utilizaremos la versión Revit 2022, en la que se han mejorado las funciones de interoperabilidad con FormIt. Las versiones anteriores de Revit no presentan algunas o ninguna de las funciones que se muestran en este aprendizaje y tienen una interfaz de usuario diferente._
 
-## Von Revit nach FormIt
+## De Revit a FormIt
 
-### Konvertieren von Revit-Familien zur Verwendung in FormIt
+### Convertir familias de Revit para su uso en FormIt
 
-Wenn Sie \(oder Ihr Unternehmen\) einen Satz von Revit-Familien haben, die Sie in FormIt verwenden möchten, dann werden Sie an diesem Abschnitt interessiert sein, in dem beschrieben wird, wie Sie RFA-Dateien per Stapelexport nach FormIt übertragen.
+Si usted \(o su empresa\) tiene una gran cantidad de familias de Revit que desea utilizar en FormIt, le interesará esta sección, que explica cómo exportar archivos RFA por lotes a FormIt.
 
-_**Anmerkung:**_ _Die folgenden Schritte zeigen die Benutzeroberfläche und die erforderlichen Schritte bei der Verwendung von Revit 2022. Die Werkzeuge zum_ _**Konvertieren von RFA-Dateien für FormIt**_ _sind jedoch seit Revit 2016 verfügbar._
+_**Nota:**_ _En los pasos siguientes, se muestran la interfaz y las acciones necesarias al utilizar Revit 2022. No obstante, las herramientas de_ _**Convertir RFA a FormIt**_ _llevan disponibles desde Revit 2016._
 
-1 – Öffnen Sie ein neues Revit-Projekt oder eine neue Revit-Familie. Gehen Sie anschließend wie folgt vor:
+1 - Abra un nuevo proyecto o familia de Revit. A continuación, realice lo siguiente:
 
-1. Suchen Sie in der Multifunktionsleiste **Zusatzmodule** die Gruppe **FormIt-Konverter**, und klicken Sie auf die Schaltfläche **RFA in FormIt konvertieren**. Das **Dialogfeld Revit-Familien konvertieren** wird angezeigt.
-2. Navigieren Sie im Feld **Pfad zu Revit-Familiendateien** zum Speicherort des folgenden Ordners auf Ihrem Computer: **Farnsworth House Data Set &gt; Supporting Files &gt; Revit**.
-3. Navigieren Sie im Feld **Pfad zu FormIt-Inhalten** zu **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Custom FormIt Content**. Wenn Sie Kapitel **1.11 Importieren von Modellen mit der Inhaltsbibliothek** noch nicht abgeschlossen haben, müssen Sie möglicherweise den Ordner **Custom FormIt Content** erstellen oder ein anderes Ziel auswählen.
-4. Klicken Sie auf **OK**, um die Konvertierung zu starten.
+1. En la cinta de opciones **Complementos**, busque el panel **Conversor a FormIt** y haga clic en el botón **Convertir RFA a FormIt**. Se abrirá el cuadro de diálogo **Convertir familias de Revit**.
+2. En el campo **Ruta a los archivos de la familia de Revit**, vaya a la ubicación en la que haya guardado la siguiente carpeta en el equipo: **Farnsworth House Data Set &gt; Supporting Files &gt; Revit**.
+3. En el campo **Ruta al contenido de FormIt:**, vaya a **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Custom FormIt Content**. Si no ha completado el capítulo **1.11 Importar modelos con la biblioteca de contenido**, es posible que deba crear la carpeta **Custom FormIt Content** o elegir otro destino.
+4. Haga clic en **Aceptar** para iniciar el proceso de conversión.
 
 ![](../../.gitbook/assets/0%20%2823%29.png)
 
-_**Anmerkungen:**_
+_**Notas:**_
 
-* _Dieser Vorgang kann einige Zeit in Anspruch nehmen, da Revit die_ _**RFA**_-_Datei im ersten Pfad öffnet, sie dann konvertiert und im_ _**AXMF**_-_Format für FormIt speichert._
-* _In dieser Übung konvertieren Sie nur eine einzelne Datei. Sie können dieses Verfahren jedoch auch verwenden, um alle_ _**RFA**_-_Dateien im ausgewählten Ordner \(einschließlich aller_ _**RFA**_-_Dateien in verschachtelten Ordnern\) im Stapel zu konvertieren._
+* _Este proceso tardará algo de tiempo en completarse, ya que Revit abre el archivo_ _**RFA**_ _de la primera ruta, lo convierte y, después, lo guarda con el formato_ _**AXMF**_ _para FormIt._
+* _En este ejercicio, solo convertiremos un único archivo, pero puede utilizar este proceso para convertir por lotes todos los archivos_ _**RFA**_ _de la carpeta seleccionada \(incluidos todos los archivos_ _**RFA**_ _de las carpetas anidadas\)._
 
-2 – Wenn der Vorgang abgeschlossen ist, kehren Sie zu FormIt zurück. Dort sehen Sie den neuen Inhalt in der **Palette Inhaltsbibliothek** im Ordner **FormIt &gt;** **Custom FormIt Content**, den Sie zuvor verknüpft haben. Wenn Sie die konvertierten **AXMF**-Dateien an einem anderen Speicherort gespeichert haben oder Kapitel **1.11 Importieren von Modellen mit der Inhaltsbibliothek** nicht abgeschlossen haben, müssen Sie diesen Ordner möglicherweise Ihrer Inhaltsbibliothek hinzufügen, um den Inhalt anzuzeigen. In Kapitel 1.11 finden Sie Anweisungen zum Hinzufügen von Ordnern zu Ihrer Inhaltsbibliothek.
+2 - Una vez completado el proceso, regrese a FormIt. Allí verá que el nuevo contenido aparece en la **paleta Biblioteca de contenido**, dentro de la carpeta **FormIt &gt;** **Custom FormIt Content** que hemos vinculado anteriormente. Si ha guardado los archivos **AXMF** convertidos en una ubicación diferente o no ha completado el capítulo **1.11 Importar modelos con la biblioteca de contenido**, es posible que deba añadir esa carpeta a la biblioteca para ver su contenido. Consulte el capítulo 1.11 para obtener instrucciones sobre cómo añadir carpetas a la biblioteca de contenido.
 
 ![](../../.gitbook/assets/1%20%2824%29.png)‌
 
-**Anmerkung**: _Nicht alle Kategorien aus Revit werden für den Export unterstützt. Die freistehenden oder ebenenbasierten Familien werden unterstützt, die basisbauteilbasierten Familien wie Türen und Fenster jedoch nicht. Körper, Schreinerarbeiten, Umgebung, Möbel, Möbelsystem, Allgemeines Modell, Parkplatz, Grundstück und Sonderausstattung werden alle unterstützt. Alle nicht unterstützten Familien im ausgewählten Ordner werden einfach übersprungen._
+**Nota** _No todas las categorías de Revit se pueden exportar. Se admiten las familias "independientes" o "basadas en niveles", pero no las familias "basadas en anfitrión" como puertas y ventanas. Se admiten Masa, Muebles de obra, Mobiliario, Sistema de mobiliario, Modelo genérico, Aparcamiento, Emplazamiento y Equipos especializado. Todas las familias no admitidas de la carpeta seleccionada simplemente se omitirán._
 
-## Aus FormIt nach Revit
+## De FormIt a Revit
 
-_Es gibt zwei verschiedene Möglichkeiten, Geometrie aus FormIt nach Revit zu übertragen. Sie können eine vorhandene_ _**.axm**-Datei in ein Revit-Projekt oder eine Revit-Familiendatei importieren, die sich ähnlich wie ein importiertes Modell oder eine importierte CAD-Datei verhält. Alternativ können Sie FormIt in Revit starten und jede FormIt-Gruppe als einzelnes Element des Typs Allgemeines Modell in Revit importieren. Die zweite Methode wird in **Teil II** im Kapitel_ _**2.8**_ _**Erweiterte Revit-Arbeitsabläufe** behandelt._
+_Existen dos métodos diferentes para llevar la geometría de FormIt a Revit. Puede importar un archivo_ _**.axm** existente en un proyecto de Revit o en un archivo de familia de Revit, que se comportará de forma similar a un modelo importado o un archivo CAD. También puede iniciar FormIt desde Revit y incluir cada grupo de FormIt en Revit como un elemento de modelo genérico individual. El segundo método se describe en el capítulo de la **parte 2**_ _**2.8**_ _**Flujos de trabajo avanzados de Revit**._
 
-### Importieren des Farnsworth-Hauses in Revit
+### Importación de Farnsworth House a Revit
 
-1 – Um eine FormIt-Datei \(**.axm**\) in Revit zu importieren, starten Sie ein neues Revit-Projekt und öffnen die vorgegebene 3D-Ansicht. Gehen Sie anschließend wie folgt vor:
+1 - Para importar un archivo de FormIt \(**.axm**\) a Revit, inicie un nuevo proyecto de Revit y abra la vista 3D por defecto. A continuación, realice lo siguiente:
 
-1. Wechseln Sie zur **Registerkarte Einfügen**, und klicken Sie auf die Schaltfläche **CAD importieren**. Das Fenster **CAD-Formate importieren** wird geöffnet.
-2. Stellen Sie sicher, dass die Dropdown-Liste **Dateityp** auf **FormIt-Dateien \(\*.axm\)** festgelegt ist.
-3. Navigieren Sie zu der Farnsworth-Datei (**.axm**), an der Sie gearbeitet haben, und wählen Sie sie aus. Wenn Sie den ersten Teil der Einführung nicht durchgearbeitet haben, können Sie auch die Datei **1.15 – Working With Revit.axm** im Ordner **Farnsworth House Data Set &gt; Chapter Files** öffnen.
-4. Stellen Sie sicher, dass **FormIt-Ebenen importieren** aktiviert ist.
-5. Nachdem Sie die Einstellungen definiert haben, klicken Sie auf **Öffnen**. Die FormIt-Geometrie wird als einzelnes Element in Revit importiert.
+1. Vaya a la **ficha Insertar** y haga clic en el botón **Importar CAD**. Se abrirá la ventana **Importar formatos CAD**.
+2. Asegúrese de que la lista desplegable **Archivos de tipo** se haya establecido en **Archivos de FormIt\(\*.axm\)**.
+3. Busque y seleccione el archivo **.axm** de Farnsworth en el que ha estado trabajando. Si no ha seguido la parte 1 de FormIt Primer, también puede abrir el archivo **1.15 – Working With Revit.axm** la carpeta **Farnsworth House Data Set &gt; Chapter Files**.
+4. Asegúrese de que la opción **Import. niv. FormIt** esté activada.
+5. Una vez definidos los parámetros, haga clic en **Abrir**; la geometría FormIt se incorporará en Revit como un solo elemento.
 
 ![](../../.gitbook/assets/2%20%2824%29.png)
 
-Importieren einer FormIt-Datei mithilfe der Schaltfläche CAD importieren
+Importación de un archivo de FormIt mediante el botón de importación de CAD.
 
 ![](../../.gitbook/assets/3%20%2821%29.png)  
-Importiertes AXM-Element. Beachten Sie, dass die Ebenen aus dem FormIt-Modell ebenfalls in Revit importiert werden.
+Elemento .axm importado. Observe que los niveles del modelo FormIt también se importan a Revit.
 
-_Ähnlich wie bei anderen CAD-Formaten werden die Layer in der ursprünglichen Datei in Revit importiert. Mit dieser Funktion können Sie verschiedene Sichtbarkeitseinstellungen für die einzelnen Layer definieren, um die grafische Darstellung Ihrer FormIt-Datei in jeder Revit-Ansicht einfach zu ändern._
+_Al igual que otros formatos CAD, las capas del archivo original se importan a Revit. Esta función permite definir diferentes parámetros de visibilidad para cada capa a fin de manipular fácilmente el aspecto gráfico del archivo de FormIt en cualquier vista de Revit._
 
-2 – So passen Sie die Layer-Sichtbarkeit der importierten AXM-Datei an
+2 - Para ajustar la visibilidad de la capa del archivo .axm importado:
 
-1. Wechseln Sie im Fenster **Überschreibungen Sichtbarkeit/Grafiken \(VG oder VV\)** zur Registerkarte **Importierte Kategorien**, erweitern Sie die importierte FormIt-Datei, deaktivieren Sie den Layer **Planting**, um den Layer in der aktuellen Ansicht auszuschalten, und klicken Sie auf **OK**.
-2. Ändern Sie den **visuellen Stil** in **Realistisch**. Sie werden sehen, dass alle FormIt-Materialien in Revit importiert wurden.
+1. Vaya a la ventana **Modificaciones de visibilidad/gráficos \(VG o VV\)**, ficha **Categorías importadas**, expanda el archivo de FormIt importado y desactive la capa **Planting** para desactivar la capa de la vista actual y haga clic en **Aceptar**.
+2. Cambie el **Estilo visual** a **Realista**; verá que todos los materiales FormIt se han importado en Revit.
 
 ![](../../.gitbook/assets/4%20%2820%29.png)
 
-3 – Die importierten FormIt-Materialien sind jetzt in diesem Revit-Projekt verfügbar, das mit der Klasse **FormIt** gekennzeichnet ist. Öffnen Sie einfach den **Material-Browser**, suchen Sie nach FormIt, und Sie sehen alle Materialien. Diese können nun wie alle anderen Materialien in Ihrem Revit-Projekt verwendet werden.
+3. De hecho, los materiales de FormIt importados estarán disponibles en este proyecto de Revit, etiquetados con la clase **FormIt**. Solo tiene que abrir el **Explorador de materiales** y buscar "FormIt" para ver todos ellos. Ahora se pueden utilizar en el proyecto de Revit como cualquier otro material.
 
 ![](../../.gitbook/assets/5%20%2819%29.png)
 

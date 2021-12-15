@@ -1,149 +1,149 @@
-# Tastaturkurzbefehle
+# Métodos abreviados de teclado
 
-| Befehl | Kurzbefehl\(e\) |
+| Comando | Métodos abreviados |
 | :--- | :--- |
-| Anwendungseinstellungen: Bemaßungen anzeigen | D, D |
-| Anwendungseinstellungen: Rasterfang | S, G |
-| Zusammenarbeit: Zu Sitzung einladen | C, I |
-| Zusammenarbeit: An Sitzung teilnehmen | C, J |
-| Zusammenarbeit: Sitzung starten | C, S |
-| Anzeige: Umgebungsschatten | D, A |
-| Anzeige: Achsen | D, Z |
-| Anzeige: Rückseiten | D, B |
-| Anzeige: Kanten | D, E |
-| Anzeige: Linien verlängern | D, X |
-| Anzeige: Raster | D, G |
-| Anzeige: Begrenzungsrahmen für Gruppen | B, B |
-| Anzeige: Verdeckte Linien | D, H |
-| Anzeige: Monotone Oberflächen | D, M |
-| Anzeige: Nordpfeil | D, N |
-| Anzeige: Schatten | D, S |
-| Anzeige: Silhouetten | D, O |
-| Anzeige: Skizzenartige Linien | D, K |
-| Anzeige: Dünne Kanten | D, T |
-| Anzeige: Dichtheitsprobleme | D, W |
-| Zeichnen: Bogen | A |
-| Zeichnen: Kreis | C |
-| Zeichnen: Linie | L |
-| Zeichnen: Rechteck | R |
-| Zeichnen: Spline | S |
-| Bearbeiten: Kopieren | Strg + C |
-| Bearbeiten: Löschen | Entf |
-| Bearbeiten: Einfügen | Strg + V |
-| Bearbeiten: Voreinstellungen |  |
-| Bearbeiten: Wiederherstellen | Strg + Y |
-| Bearbeiten: Wiederherstellen | Strg + Umschalt + Z |
-| Bearbeiten: Achsen zurücksetzen | R, Z |
-| Bearbeiten: Achsen festlegen | S, Z |
-| Bearbeiten: Rückgängig | Strg + Z |
-| Energieanalyse: Insight abbrechen |  |
-| Energieanalyse: Insight generieren |  |
-| Energieanalyse: Insight anzeigen |  |
-| Datei: Bild exportieren |  |
-| Datei: Modell exportieren in | Strg + E |
-| Datei: 3D-Modell importieren | Strg + I |
-| Datei: Bild importieren | Strg + Umschalt + I |
-| Datei: Neu | Strg + N |
-| Datei: Aus BIM 360 Docs öffnen | Alt + O |
-| Datei: öffnen | Strg + O |
-| Datei: Speichern unter BIM 360 Docs | Alt + S |
-| Datei: Speichern mit Verlauf | Strg + S, Strg + H |
-| Datei: Speichern | Strg + S |
-| Gruppe: Gruppe bearbeiten \(Kontextmenü\) | E |
-| Gruppe: Gruppe bearbeiten \(Werkzeugkasten\) | Alt + E |
-| Gruppe: Aktion für Gruppe fertig stellen | F |
-| Gruppe: Gruppe \(Kontextmenü\) | G |
-| Gruppe: Gruppe \(Werkzeugkasten\) | Alt + G |
-| Gruppe: Als eindeutig definieren \(Kontextmenü\) | M, U |
-| Gruppe: Als eindeutig definieren \(Werkzeugkasten\) | Alt + M |
-| Gruppe: Gruppierung aufheben \(Kontextmenü\) | U |
-| Gruppe: Gruppierung aufheben \(Werkzeugkasten\) | Alt + U |
-| Gruppe: Gruppierung für alle aufheben \(Kontextmenü\) | U, A |
-| Gruppe: Gruppierung für alle aufheben \(Werkzeugkasten\) | Alt + A |
-| Gruppe: Modellgruppierung aufheben | U, M |
-| Hilfe: Info |  |
-| Hilfe: Nach FormIt-Updates suchen |  |
-| Hilfe: FormIt-Blog |  |
-| Hilfe: FormIt-Katalog |  |
-| Hilfe: FormIt-Videos |  |
-| Hilfe: Support abrufen |  |
-| Hilfe: Hilfe |  |
-| Hilfe: Neue Funktionen |  |
-| Ebenen: Ebenen anzeigen | D, L |
-| Ebenen: Ebenen verwenden | U, L |
-| Keine Materialien auf rückwärtigen Flächen |  |
-| Grundkörper: Würfel | Alt + B |
-| Grundkörper: Zylinder | Alt + C |
-| Grundkörper: Kuppel | Alt + D |
-| Grundkörper: Prisma | Alt + R |
-| Grundkörper: Pyramide | Alt + P |
-| Prototyp: Maus-/Rasterstatus anzeigen |  |
-| Auswahlfilter: Kanten | E, S |
-| Auswahlfilter: Flächen | F, S |
-| Auswahlfilter: Gruppen | G, S |
-| Auswahlfilter: Volumenkörper | S, S |
-| Einstellungen: Große Schaltflächen |  |
-| Skizzeneinstellungen: Einheitentyp wechseln | U, T |
-| Sonnenstudie: Analysieren | A, A |
-| Sonnenstudie: Sonnenstudienmodus aufrufen/beenden | S, A |
-| Sonnenstudie: Beenden |  |
-| Sonnenstudie: Zurücksetzen |  |
-| Werkzeuge: Reihe | A, R |
-| Werkzeuge: Abdeckung | C, V |
-| Werkzeuge: Geometrie ausschneiden \(Kontextmenü\) | C, C |
-| Werkzeuge: Geometrie ausschneiden \(Werkzeugkasten\) | C, G |
-| Werkzeuge: Touch aktivieren | E, T |
-| Werkzeuge: Touch aktivieren | T, M |
-| Werkzeuge: Kanten extrudieren | E, E |
-| Werkzeuge: Abrunden | F, I |
-| Werkzeuge: Informationen |  |
-| Werkzeuge: Geometrie verbinden \(Kontextmenü\) | J, C |
-| Werkzeuge: Geometrie verbinden \(Werkzeugkasten\) | J, G |
-| Werkzeuge: Lasso-Auswahl | L, L |
-| Werkzeuge: Erhebung Kanten | L, O |
-| Werkzeuge: Messen | M |
-| Werkzeuge: Winkel messen | M, A |
-| Werkzeuge: Kanten und Scheitelpunkte zusammenführen | M, E |
-| Werkzeuge: Spiegeln | M, I |
-| Werkzeuge: Mehrere verschieben | M, M |
-| Werkzeuge: Kanten versetzen | O, E |
-| Werkzeuge: Fläche versetzen | O, F |
-| Werkzeuge: Volumenkörper versetzen | O, S |
-| Werkzeuge: Fläche umkehren | F, F |
-| Werkzeuge: Drehen | Q |
-| Werkzeuge: Skript ausführen über Editor |  |
-| Werkzeuge: Maßstab | S, C |
-| Werkzeuge: Auswählen | MEP-Raum |
-| Werkzeuge: Standort festlegen | S, L |
-| Werkzeuge: Shell | S, H |
-| Werkzeuge: Glatte Kanten | S, E |
-| Werkzeuge: Sweep | S, W |
-| Werkzeuge: Fläche abschrägen | T, F |
-| Werkzeuge: Kantenglättung aufheben | U, E |
-| Ansicht: Blaues Design |  |
-| Ansicht: Vorgabedesign |  |
-| Ansicht: 3D-Navigation Ich-Perspektive | F, T |
-| Ansicht: Mit Kamera umkreisen |  |
-| Ansicht: Kamera schwenken |  |
-| Ansicht: Systemdesign |  |
-| Ansicht: Perspektive wechseln |  |
-| Ansicht: Von oben | Z, T |
-| Ansicht: Alles zoomen | Z, A |
-| Ansicht: Alles zoomen | Z, E |
-| Ansicht: Alles zoomen | Z, Z |
-| Ansicht: Zoom alle Bilder | Z, I |
-| Ansicht: Kamera-Zoom |  |
-| Ansicht: Auszoomen |  |
-| Ansicht: Auswahl zoomen | Z, S |
-| Fenster: Werkzeugkasten Entwurf | H, D |
-| Fenster: Frei stehende Navigationsleiste | H, B |
-| Fenster: Hauptmenü | H, M |
-| Fenster: Navigationsleiste | H, N |
-| Fenster: Werkzeugkasten Operationen | H, O |
-| Fenster: Werkzeugkasten Einstellungen | H, C |
-| Fenster: Werkzeugkasten Skizze | H, K |
-| Fenster: Werkzeugkasten Volumenkörper | H, P |
-| Fenster: Werkzeugkasten Standard | H, T |
-| Fenster: Statusleiste | H, S |
-| Fenster: Werkzeugkasten Ansicht | H, V |
+| Configuración de la aplicación: Mostrar cotas | D, D |
+| Configuración de la aplicación: Forzar cursor a rejilla | S, G |
+| Colaboración: Invitar a la sesión | C, I |
+| Colaboración: Unirse a la sesión | C, J |
+| Colaboración: Iniciar sesión | C, S |
+| Visualizar: Sombras ambientales | D, A |
+| Visualizar: Ejes | D, Z |
+| Visualizar: Caras posteriores | D, B |
+| Visualizar: Bordes | D, E |
+| Visualización: Alargar líneas | D, X |
+| Visualizar: Cuadrícula | D, G |
+| Visualizar: Cuadros delimitadores de grupo | B, B |
+| Visualizar: Líneas ocultas | D, H |
+| Visualizar: Superficies de un solo tono | D, M |
+| Visualizar: Flecha norte | D, N |
+| Visualizar: Sombras | D, S |
+| Visualizar: Siluetas | D, O |
+| Visualizar: Líneas de boceto | D, K |
+| Visualizar: Bordes finos | D, T |
+| Visualizar: Problemas de hermeticidad | D, W |
+| Dibujar: Arco | A |
+| Dibujar: Círculo | C |
+| Dibujar: Línea | L |
+| Dibujar: Rectángulo | R |
+| Dibujar: Spline | S |
+| Editar: Copiar | Ctrl + C |
+| Editar: Suprimir | Supr |
+| Editar: Pegar | Ctrl + V |
+| Editar: Preferencias |  |
+| Editar: Rehacer | Ctrl + Y |
+| Editar: Rehacer | Ctrl + Mayús +Z |
+| Editar: Restablecer ejes | R, Z |
+| Editar: Establecer ejes | S, Z |
+| Editar: Deshacer | Ctrl + Z |
+| Análisis energético: Cancelar información |  |
+| Análisis energético: Generar información |  |
+| Análisis energético: Ver información |  |
+| Archivo: Exportar imagen |  |
+| Archivo: Exportar modelo a | Ctrl + E |
+| Archivo: Importar modelo 3D | Ctrl + I |
+| Archivo: Importar imagen | Ctrl + Mayús + I |
+| Archivo: Nuevo | Ctrl + N |
+| Archivo: Abrir desde BIM 360 Docs | Alt + O |
+| Archivo: Abrir | Ctrl + O |
+| Archivo: Guardar como en BIM 360 Docs | Alt + S |
+| Archivo: Guardar con historial | Ctrl + S, Ctrl + H |
+| Archivo: Guardar | Ctrl + S |
+| Grupo: Editar grupo \(menú contextual\) | E |
+| Grupo: Editar grupo \(barra de herramientas\) | Alt + E |
+| Grupo: Finalizar acción de grupo | F |
+| Grupo: Grupo \(menú contextual\) | G |
+| Grupo: Grupo \(barra de herramientas\) | Alt+G |
+| Grupo: Establecer como exclusivo \(menú contextual\) | M, U |
+| Grupo: Establecer como exclusivo \(barra de herramientas\) | Alt + M |
+| Grupo: Desagrupar \(menú contextual\) | H |
+| Grupo: Desagrupar \(barra de herramientas\) | Alt + U |
+| Grupo: Desagrupar todo \(menú contextual\) | U, A |
+| Grupo: Desagrupar todo \(barra de herramientas\) | Alt + A |
+| Grupo: Desagrupar modelo | U, M |
+| Ayuda: Acerca de |  |
+| Ayuda: Buscar actualizaciones de FormIt |  |
+| Ayuda: Blog de FormIt |  |
+| Ayuda: Galería de FormIt |  |
+| Ayuda: Vídeos de FormIt |  |
+| Ayuda: Obtener soporte |  |
+| Ayuda: Ayuda |  |
+| Ayuda: Novedades |  |
+| Niveles: Mostrar niveles | D, L |
+| Niveles: Utilizar niveles | U, L |
+| Evitar materiales en caras posteriores |  |
+| Primitiva: Cubo | Alt + B |
+| Primitiva: Cilindro | Alt + C |
+| Primitiva: Cúpula | Alt + D |
+| Primitiva: Prisma | Alt + R |
+| Primitiva: Pirámide | Alt + P |
+| Prototipo: Mostrar estado de ratón/rejilla |  |
+| Filtro de selección: Bordes | E, S |
+| Filtro de selección: Caras | F, S |
+| Filtro de selección: Grupos | G, S |
+| Filtro de selección: Sólidos | S, S |
+| Configuración: Botones grandes |  |
+| Configuración de boceto: Activar/desactivar tipo de unidad | U, T |
+| Análisis solar: Analizar | A, A |
+| Análisis solar: Acceder al modo de análisis solar/Salir del modo de análisis solar | S, A |
+| Análisis solar: Salir |  |
+| Análisis solar: Restablecer |  |
+| Herramientas: Matriz | A, R |
+| Herramientas: Recubrimiento | C, V |
+| Herramientas: Cortar geometría \(menú contextual\) | C, C |
+| Herramientas: Cortar geometría \(barra de herramientas\) | C, G |
+| Herramientas: Activar modo táctil | E, T |
+| Herramientas: Activar modo táctil | T, M |
+| Herramientas: Extruir bordes | E, E |
+| Herramientas: Empalme | F, I |
+| Herramientas: Información |  |
+| Herramientas: Unir geometría \(menú contextual\) | J, C |
+| Herramientas: Unir geometría \(barra de herramientas\) | J, G |
+| Herramientas: Selección de forma irregular | L, L |
+| Herramientas: Solevar bordes | L, O |
+| Herramientas: Medir | M |
+| Herramientas: Medir ángulo | M, A |
+| Herramientas: Fusionar bordes y vértices | M, E |
+| Herramientas: Reflejar | M, I |
+| Herramientas: Desplazamiento múltiple | M, M |
+| Herramientas: Desfasar bordes | O, E |
+| Herramientas: Desfasar cara | O, F |
+| Herramientas: Desfasar sólido | O, S |
+| Herramientas: Invertir caras | F, F |
+| Herramientas: Rotar | Q |
+| Herramientas: Ejecutar secuencia de comandos desde el editor |  |
+| Herramientas: Escala | S, C |
+| Herramientas: Seleccionar | Espacio |
+| Herramientas: Establecer ubicación | S, L |
+| Herramientas: Vaciar | S, H |
+| Herramientas: Suavizar bordes | S, E |
+| Herramientas: Barrido | S, W |
+| Herramientas: Cara trapezoidal | T, F |
+| Herramientas: Anular suavizado de bordes | U, E |
+| Vista: Tema azul |  |
+| Vista: Tema por defecto |  |
+| Vista: Vuelo en primera persona | F, T |
+| Vista: Orbitar cámara |  |
+| Vista: Encuadrar cámara |  |
+| Vista: Tema del sistema |  |
+| Vista: Activar/desactivar perspectiva |  |
+| Vista: Superior | Z, T |
+| Vista: Aplicar zoom a todo | Z, A |
+| Vista: Aplicar zoom a todo | Z, E |
+| Vista: Aplicar zoom a todo | Z, Z |
+| Vista: Aplicar zoom a todas las imágenes | Z, I |
+| Vista: Zoom cámara |  |
+| Vista: Reducir |  |
+| Vista: Aplicar zoom a selección | Z, S |
+| Ventana: Barra de herramientas de diseño | H, D |
+| Ventana: Barra de herramientas de navegación flotante | H, B |
+| Ventana: Menú principal | H, M |
+| Ventana: Barra de herramientas de navegación | H, N |
+| Ventana: Barra de herramientas de operaciones | H, O |
+| Ventana: Barra de herramientas de configuración | H, C |
+| Ventana: Barra de herramientas de boceto | H, K |
+| Ventana: Barra de herramientas de sólidos | H, P |
+| Ventana: Barra de herramientas estándar | H, T |
+| Ventana: Barra de Estado | H, S |
+| Ventana: Barra de herramientas de vista | H, V |
 

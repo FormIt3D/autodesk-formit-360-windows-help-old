@@ -1,20 +1,20 @@
-# Zusammenarbeit
+# Colaboración
 
-Mit FormIt können mehrere Benutzer ein FormIt-Modell gemeinsam unter Verwendung einer beliebigen Kombination aus Windows-, iPadOS- oder Web-Clients bearbeiten und dabei ihre Änderungen in Echtzeit anzeigen.
+FormIt permite a varios usuarios editar de forma conjunta un modelo de FormIt en cualquier combinación de clientes Windows, iPadOS o web, todo ello mientras se ven los cambios en tiempo real.
 
-Ein Abonnement für FormIt Pro gibt Ihnen Zugang zur Zusammenarbeit in Echtzeit mit den folgenden Funktionen:
+Con una suscripción a FormIt Pro, tiene acceso a la función de colaboración en tiempo real, que le permite realizar lo siguiente:
 
-* Starten einer Sitzung für die Zusammenarbeit und Einladen von Kollegen
-* Teilnehmen an einer Sitzung für die Zusammenarbeit über die FormIt-Apps für Windows, Web und iPadOS
-* Gemeinschaftliche Planung und Experimentieren mit Entwürfen in einer gemeinsam genutzten Sandbox-Umgebung
-* Betrachten des Modells aus der Perspektive von Kollegen über deren Kamera.
-* Möglichkeit für den Kunden, Ihrer Kamera zu folgen, während Sie den Entwurf vorführen
-* Chat mit Kollegen in der Sitzung.
+* Inicie una sesión de colaboración e invite a compañeros.
+* Únase a una colaboración desde las aplicaciones de FormIt para Windows, web o iPadOS.
+* Colabore con otros compañeros para explorar diseños en un entorno de pruebas compartido.
+* Siga la cámara de otro colaborador para ver el modelo desde su punto de vista.
+* Deje que un cliente siga la cámara mientras le guía a través del diseño.
+* Charle con colaboradores en la sesión.
 
-## Sitzung für Zusammenarbeit starten
+## Iniciar una sesión de colaboración
 
-1. Wählen Sie in der Dropdown-Liste Zusammenarbeit die Option Gemeinsame Sitzung starten. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Versenden Sie einen Link per E-Mail an Teamkollegen. Über diesen Link werden die Empfänger aufgefordert, sich bei ihrem Konto bei Autodesk Account anzumelden, um sofort mit der Zusammenarbeit zu beginnen.  ![](../.gitbook/assets/collaborate.png)
+1. En el menú desplegable Colaboración, seleccione Iniciar sesión de uso compartido. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Envíe un vínculo por correo electrónico a los colaboradores. Este vínculo solicita a los destinatarios que inicien sesión en sus cuentas de Autodesk Account para iniciar inmediatamente la colaboración. ![](../.gitbook/assets/collaborate.png)
 
 
 

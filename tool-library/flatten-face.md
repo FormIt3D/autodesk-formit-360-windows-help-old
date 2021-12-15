@@ -1,16 +1,16 @@
-# Flächen: Abflachen
+# Caras: Aplanar caras
 
-Verwenden Sie das Werkzeug **Flächen abflachen**, um zwei oder mehr Objektflächen in dieselbe Ebene zu zwingen.
+Utilice la herramienta **Aplanar caras** para forzar dos o más caras de objetos en el mismo plano.
 
-Wenn zwei oder mehr Objektflächen ausgewählt sind, können Sie das Werkzeug **Flächen abflachen** aus dem **Kontextmenü** auswählen. Sie können auf **Flächen abflachen** auch über den Kurzbefehl **FL** zugreifen.
+Cuando se seleccionan dos o más caras de objeto, puede seleccionar la herramienta **Aplanar caras** en el menú **contextual**. También puede acceder a **Aplanar caras** mediante el método abreviado **FL**.
 
 ![](../.gitbook/assets/flatten_faces.png)
 
-**Flächen abflachen** kann als Reparaturwerkzeug nützlich sein, wenn eine Fläche, die planar sein sollte, unerwartet facettiert wird \(mit glatten Kanten zwischen den Facetten\); entweder beim Importieren von Daten mit niedriger Wiedergabetreue wie [SketchUp-Modellen](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) oder wenn versehentlich ein Scheitelpunkt oder eine Kante verschoben wird, wodurch eine Fläche facettiert oder trianguliert wird.
+**Aplanar caras** puede ser útil como herramienta de reparación cuando una cara que debería ser plana se faceta de forma inesperada \(con bordes suaves entre las facetas\), ya sea al importar datos de baja fidelidad como [modelos de SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) o después de mover accidentalmente un vértice o un borde que provoca que una cara se facete o se triangule.
 
-Sie können auch **Flächen abflachen** als Entwurfswerkzeug zum Ausrichten oder Verlängern von Formen verwenden. Wählen Sie dazu zunächst eine Hilfsfläche aus, und wählen Sie dann weitere Flächen aus, die auf die Ebene der ersten Fläche abgeflacht werden sollen.
+También puede utilizar la herramienta **Aplanar caras** como herramienta de diseño para alinear o alargar formas. Para ello, seleccione primero una superficie guía y, a continuación, elija caras adicionales para aplanar hasta el plano de la primera superficie.
 
-Im folgenden Video wird die Leistung und Vielseitigkeit von **Flächen abflachen** erläutert:
+Consulte el siguiente vídeo para ver la eficacia y la versatilidad de la herramienta **Aplanar caras**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
 

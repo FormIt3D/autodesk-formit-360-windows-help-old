@@ -1,40 +1,40 @@
-# 1.13 – Schnittebenen
+# 1.13 - Planos de sección
 
-_In diesem Kapitel lernen Sie, wie Sie mithilfe von_ _**Schnittebenen**_ _Ihr Modell schneiden, sodass Innenräume und Tragwerkselemente sichtbar werden. FormIt unterstützt mehrere_ _**Schnittebenen**_ _gleichzeitig, um einen Schnittbereich-ähnlichen Effekt zu erzielen._
+_En este capítulo, aprenderá a utilizar_ _**planos de sección**_ _para cortar el modelo, mostrando espacios interiores y elementos estructurales. FormIt admite varios __**planos de sección**__ a la vez para obtener un efecto similar al de caja de sección._
 
-_Wenn Sie das vorherige Kapitel nicht bearbeitet haben, laden Sie die Datei_ _**1.  13 – Section Planes.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado el capítulo anterior, descargue y abra el archivo_ _**1. 13 - Section Planes.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-1 – So erstellen Sie eine neue Schnittebene
+1 - Para crear un plano de sección nuevo, realice lo siguiente:
 
-1. Klicken Sie auf die Schaltfläche **Schnittebene \(SP\)** im **Standard-Werkzeugkasten**.
-2. Bewegen Sie den Cursor über das Modell, um eine Ebene festzulegen, die als Referenz verwendet werden soll. Beachten Sie die Pfeile an den Ecken der **Schnittebene**, die die Schnittrichtung angeben. Drücken Sie die **TABULATORTASTE**, um ggf. zwischen verschiedenen Ebenen zu wechseln.
-3. Klicken Sie, um die **Schnittebene** an einer beliebigen Stelle auf der südlichen Glaswand des Hauptgebäudes zu platzieren. Die Ebene wird auf die Größe des Modells skaliert und bleibt ausgewählt.
+1. Haga clic en el botón **Plano de sección \(SP\)** en la **barra de herramientas estándar**.
+2. Coloque el cursor sobre el modelo para identificar el plano que se utilizará como referencia. Observe las flechas en las esquinas del **plano de sección** que indican la dirección del corte de sección. Pulse la tecla **Tab** para alternar entre planos diferentes, si es necesario.
+3. Haga clic para colocar el **plano de sección** en cualquier lugar del muro de cristal sur del edificio principal. El plano se ajustará al tamaño del modelo y permanecerá seleccionado.
 
-![Schnittebenenvorschau, wenn Sie den Mauszeiger über die Glaswand bewegen](../../.gitbook/assets/0%20%286%29.png)
+![Vista preliminar del plano de sección al colocar el cursor sobre el muro de cristal.](../../.gitbook/assets/0%20%286%29.png)
 
-![Skalierte Schnittebene nach der Platzierung](../../.gitbook/assets/1%20%2819%29.png)
+![Plano de sección con escala ajustada después de colocarlo.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 – Klicken Sie bei ausgewählter Schnittebene, um sie nach hinten zu verschieben, bis sie einen Teil des Hauptgebäudes durchschneidet, ähnlich wie in der folgenden Abbildung. Dies funktioniert ähnlich wie das Verschieben eines beliebigen Modellelements, mit der Ausnahme, dass die Schnittebene nur entlang einer Achse verschoben werden kann, die lotrecht zu der Richtung verläuft, in die sie zeigt. Wenn Sie mit der Position zufrieden sind, drücken Sie **ESC**, um die Auswahl aufzuheben.
+2 - Con el plano de sección aún seleccionado, haga clic para empezar a desplazarlo hacia atrás hasta que atraviese parte del edificio principal, como se muestra en la imagen de abajo. Funciona de forma similar al desplazamiento de cualquier elemento de modelo, excepto que el plano de sección solo puede moverse a lo largo de un eje perpendicular en la dirección hacia la que está orientado. Una vez que esté satisfecho con la posición, pulse **Esc** para borrar la selección.
 
 ![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Anmerkung:**_ _Sie können Ihrem Modell bis zu sechs Schnitte gleichzeitig hinzufügen._
+_**Nota**_ _Puede añadir hasta seis cortes de sección al modelo cada vez._
 
-3 – Öffnen Sie die **Layer**-**Palette**. Beachten Sie, dass zwei \(2\) neue Layer erstellt wurden – **Section Indicators** und **Section Cut 1**.
+3 - Abra la **paleta** **Capas**. Tenga en cuenta que se han generado dos capas nuevas \(2\): **Indicadores de sección** y **Corte de sección 1**.
 
-1. Schalten Sie den Layer **Section Cut 1** aus und wieder ein. Damit wird gesteuert, ob der Schnitt das Modell schneidet oder nicht.
-2. Deaktivieren Sie nun den Layer **Section Indicators**. Dadurch werden die Schnittebene und die Pfeilindikatoren ausgeblendet. Dies hat jedoch keine Auswirkungen darauf, ob der tatsächliche Schnitt aktiv ist oder nicht.
+1. Desactive la capa **Corte de sección 1** y vuelva a activarla. Esta opción controla si la sección corta o no el modelo.
+2. Ahora desactive la capa **Indicadores de sección**. Esta acción oculta el plano de sección y sus indicadores de flecha, pero no afecta a si el corte de sección real está activo o no.
 
 ![](../../.gitbook/assets/3%20%286%29.png)
 
-4 – Gehen Sie auf der **Registerkarte Fläche** der **Palette** **Visuelle Stile** folgendermaßen vor:
+4 - En la **ficha Superficie** de la **paleta** **Estilos visuales**, realice lo siguiente:
 
-1. Aktivieren Sie das Kontrollkästchen neben **Schnittmaterialfarbe**, um die Option zu aktivieren. Bei diesem Effekt werden alle durch die Schnittebene geschnittenen Volumenkörper mit einer bestimmten Farbe eingefärbt. Schwarz ist die Vorgabefarbe. Sie können jedoch einfach auf die Farbvorschau klicken, um die Farbe zu ändern.
-2. Deaktivieren Sie **Schatten \(DS\)**.
+1. Active la casilla de verificación situada junto a **Color Poché** para activarla. Este efecto coloreará cualquier sólido cortado por el plano de sección con el color especificado. El color negro es el color por defecto, pero solo tiene que hacer clic en la vista preliminar de color para cambiarlo.
+2. Desactive **Sombras \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 – Um den Schnitt abzuschließen, wechseln Sie zur **Szenenpalette**, erstellen eine neue Szene mit dem Namen **Section** und speichern die aktuelle **Kameraposition**, die Sichtbarkeit der **Layer** und die Einstellungen für **Visuelle Stile**.
+5 - Para finalizar la sección, vaya a la **paleta Escenas** y cree una nueva escena denominada **Sección**, guardando la posición actual de la **cámara**, la visibilidad de las **capas** y la configuración de los **estilos visuales**.
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 

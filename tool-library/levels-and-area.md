@@ -1,48 +1,48 @@
-# Ebenen und Fläche
+# Niveles y área
 
-Nachdem Sie in FormIt Geometrie erstellt haben, können Sie Ebenen anwenden, um anzugeben, wo sich Geschossansichten befinden, und um Flächenberechnungen zu erstellen.
+Después de crear la geometría en FormIt, puede aplicar Niveles para indicar dónde están las elevaciones de suelo y generar cálculos de área.
 
-Sehen Sie sich die [FormIt-Einführung](../formit-primer/part-i/adding-floors-with-levels.md) an, um zu erfahren, wie Ebenen in der Praxis funktionieren.
+Consulte [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md) para ver los niveles en acción.
 
-## Erstellen und Konfigurieren von Ebenen
+## Creación y configuración de niveles
 
-Die Gruppe Ebenen befindet sich rechts in FormIt for Windows:
+Encontrará el panel Niveles en el lado derecho de FormIt para Windows, como se muestra a continuación:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Erstellen und Löschen von Ebenen
+#### Crear y suprimir niveles
 
-* Erstellen Sie eine neue Ebene, indem Sie auf die Schaltfläche + klicken.
-* Erstellen Sie eine Reihe von Ebenen, indem Sie auf die Schaltfläche ++ klicken.
-   * Auf diese Weise können Sie festlegen, wie viele Ebenen erstellt werden sollen, und den vertikalen Abstand zwischen ihnen festlegen.
-* Wählen Sie eine oder mehrere Ebenen aus, und klicken Sie auf -, um sie zu löschen.
+* Para crear un nivel, haga clic en el botón "+".
+* Para crear un serie de niveles, haga clic en el botón "++".
+   * Esto permitirá especificar los niveles que se van a crear y la distancia vertical entre ellos.
+* Seleccione uno o más niveles y haga clic en "-" para suprimirlos.
 
-#### Umbenennen, Festlegen von Höhen und Neunummerieren von Ebenen
+#### Cambiar nombre, establecer elevaciones y volver a numerar niveles
 
-* Benennen Sie eine Ebene um, indem Sie auf den Namen doppelklicken oder indem Sie mit der rechten Maustaste klicken und Namen bearbeiten wählen.
-* Passen Sie die Höhe einer Ebene an, indem Sie auf die Zahl doppelklicken oder indem Sie mit der rechten Maustaste klicken und Höhe bearbeiten wählen.
-* Klicken Sie oben auf das Symbol Aktualisieren, um die Ebenen neu zu nummerieren.
-   * Dies ist hilfreich, wenn Sie Ebenen hinzugefügt oder entfernt haben und das vorgegebene Benennungsschema nicht synchron ist \(z. B. Ebene 1, Ebene 2, Ebene 5\).
-   * Mit dieser Schaltfläche werden alle Ebenen mit benutzerdefinierten Namen ignoriert, alle Ebenen mit einem Namen entsprechend der Syntax Ebene 1 werden jedoch neu nummeriert.
+* Cambie el nombre de un nivel. Para ello, haga doble clic en el nombre o haga clic con el botón derecho y seleccione Editar nombre.
+* Ajuste la elevación de un nivel. Para ello, haga doble clic en el número o haga clic con el botón derecho y seleccione Editar elevación.
+* Haga clic en el icono Actualizar en la parte superior para cambiar la numeración de los niveles.
+   * Esto resulta útil si ha añadido o eliminado niveles y el esquema de nombres por defecto no está sincronizado \(por ejemplo, Nivel 1, Nivel 2, Nivel 5\).
+   * Este botón omitirá los niveles con nombres personalizados, pero volverá a numerar los niveles con el nombre que se encuentre después de la sintaxis "Nivel 1".
 
-## Anwenden von Ebenen
+## Aplicación de niveles
 
-Um Ebenen auf ein Objekt anzuwenden, müssen Sie das Objekt auswählen und direkt zur Gruppe Eigenschaften wechseln.
+Para aplicar niveles a un objeto, deberá seleccionar el objeto y pasar al panel Propiedades.
 
-Beachten Sie, dass zum Anwenden von Ebenen auf ein Objekt das Objekt ein Volumenkörper ohne Rückseite oder Dichtheitsprobleme sein muss. [Erfahren Sie, wie Sie Ihr Modell auf Dichtheit und Probleme mit der Rückseite überprüfen](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Tenga en cuenta que, para aplicar niveles a un objeto, este debe ser sólido, sin problemas de caras posteriores o hermeticidad. [Obtenga información sobre cómo comprobar si el modelo presenta problemas de hermeticidad y caras posteriores](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-Wenn im Ansichtsbereich ein Volumenkörperobjekt ausgewählt ist \(in diesem Beispiel eine einfache Gebäudehülle\), wird in der Gruppe Eigenschaften das Kontrollkästchen Ebenen verwenden angezeigt.
+Con un objeto sólido seleccionado en el lienzo \(en este ejemplo, un vaciado de edificio simple\), el grupo Propiedades presentará la casilla de verificación Utilizar niveles.
 
-* Wenn in der FormIt-Skizze bereits Ebenen definiert sind \(siehe oben\), werden durch Aktivieren dieses Kontrollkästchens alle Ebenen verwendet, die diese Form schneiden würden \(wobei alle Ebenen ignoriert werden, die zu hoch oder zu niedrig wären\).
-* Wenn die FormIt-Skizze noch keine Ebenen enthält, werden durch Aktivieren dieses Kontrollkästchens genügend Vorgabeebenen erstellt\(Geschosshöhe 12'\), um die gesamte Form zu schneiden, und diese Ebenen werden automatisch auf dieses Objekt angewendet.
+* Si el boceto de FormIt ya tiene niveles definidos \(como se muestra arriba\), al activar esta casilla, se utilizarán todos los niveles que se intersequen con esta forma \(y se omitirán los que sean demasiado altos o bajos\).
+* Si el boceto de FormIt no tiene niveles, al activar esta casilla, se crearán suficientes niveles por defecto\(altura de suelo a suelo de 12'\) para intersecar toda la forma y se aplicarán automáticamente esos niveles a este objeto.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Ebenen und Revit
+## Niveles + Revit
 
-Wenn Ebenen auf FormIt-Geometrie angewendet werden, werden diese Ebenen mithilfe des [FormIt-Zusatzmoduls](https://formit.autodesk.com/page/formit-revit) an Revit gesendet.
+Si se aplican niveles a la geometría de FormIt, esos niveles se enviarán a Revit cuando se utilice el [complemento FormIt](https://formit.autodesk.com/page/formit-revit).
 
-In Revit können Sie mithilfe der FormIt-Ebenen mit diesen verknüpfte Körpergeschosse, Geschossdecken über Fläche und Grundrisse erstellen.
+En Revit, puede utilizar los niveles de FormIt para crear suelos de masa, suelos por cara y planos de planta asociados a ellos.
 
 
 

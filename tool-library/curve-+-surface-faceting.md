@@ -1,39 +1,39 @@
-# Kurven- und Flächenfacettierung
+# Facetado de curva + superficie
 
-FormIt ist ein polyedrisches Modellierungssystem, mit dem Objekte wie Kreise, Bogen und Splines durch eine Reihe gerader Kanten dargestellt werden. Ebenso besteht eine gekrümmte Fläche, wie die Wand eines Zylinders oder einer Kuppel, aus einer Reihe von planaren Flächen mit verdeckten Randkanten.
+FormIt es un sistema de modelado poliédrico, por lo que objetos como círculos, arcos y splines se representan mediante una serie de bordes rectos. De forma similar, una superficie curva como la pared de un cilindro o una cúpula se compone de una serie de caras planas con aristas de borde ocultas.
 
-Vorgabemäßig verwendet FormIt 40 Kanten oder Facetten, um einen Kreis darzustellen, und 24 Facetten, um ein gekrümmtes 3D-Objekt wie einen Zylinder darzustellen. Bei komplexeren Flächen wie einer Kuppel wird mit dem Wert 24 die Anzahl der Umfangsfacettierungen festgelegt, und er wirkt sich auch auf die Dichte der Facettierung der restlichen Form aus.
+Por defecto, FormIt utiliza 40 bordes o facetas para representar un círculo y 24 facetas para representar un objeto curvo 3D como un cilindro. Para superficies más complejas como una cúpula, un valor de 24 establece el recuento de facetas del perímetro y también afecta a la densidad del facetado del resto de la forma.
 
-In FormIt for Windows v18 und neuer können die Werte für die Kurven- und Flächenfacettierung angepasst werden:
+En FormIt para Windows v18 y versiones posteriores, los valores de facetado de curvas y superficies se pueden personalizar, como se muestra a continuación:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
 ![](<../.gitbook/assets/faceting (1).png>)
 
-**Curve Faceting Quality** (Kurvenfacettierungsqualität)
+**Calidad de facetado de curva**
 
-Eine Änderung der Kurvenfacettierungsqualität wirkt sich darauf aus, wie viele Facetten beim Zeichnen neuer Kreise und Bogen in FormIt verwendet werden und wie sich dies beim Platzieren von Grundformen auswirkt. Wenn Sie diesen Wert beispielsweise auf 64 festlegen, wird ein 64-seitiger Vollkreis oder ein Viertelkreis mit 16 Facetten erstellt.
+El cambio de la calidad de facetado de curva afectará al número de facetas que se utilizan al dibujar nuevos círculos y arcos en FormIt, así como al colocar formas primitivas. Por ejemplo, si se establece en 64, se creará un círculo completo de 64 lados o un arco de cuarto de círculo con 16 facetas.
 
-Dieser Wert wirkt sich auch auf die Qualität von Kreisen und Bogen aus, die aus SAT-Dateien importiert wurden, sowie beim Einbacken von Geometrie aus Dynamo. Sie können diesen Wert für neue Skizzen oder nur für die aktuelle Skizze festlegen.
+Este valor también afectará a la calidad de los círculos y los arcos importados de archivos SAT, así como al crear geometría desde Dynamo. Puede definir este valor para los bocetos nuevos o solo para el actual.
 
-Für vorhandene Kurven können Sie auch das Plugin Rebuild Curve verwenden, um einen **vorhandenen** Bogen oder Kreis mit einer neuen Facettenanzahl rückwirkend neu zu erstellen:
+Para las curvas existentes, también puede utilizar el módulo de extensión Regenerar curva para regenerar de forma retroactiva un arco o un círculo **existentes** con un nuevo recuento de facetas, como se muestra a continuación:
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Surface Faceting Quality** (Flächenfacettierungsqualität)
+**Calidad de facetado de superficie**
 
-Eine Änderung dieser globalen Einstellung wirkt sich auf die Qualität von gekrümmten 3D-Flächen aus, die aus SAT-Dateien importiert und aus Dynamo eingebacken wurden.
+El cambio de este parámetro global afectará a la calidad de las superficies curvas 3D importadas desde archivos SAT y cuando se crean desde Dynamo.
 
-Wenn Sie diesen Wert beispielsweise auf 64 festlegen und dann eine Kugel aus Dynamo einbacken, werden 64 Flächen um den Kugeläquator sowie 64 Facetten in jedem der Ringe zu den Polen der Kugel verwendet. So entsteht schnell eine beträchtliche Summe. Verwenden Sie höhere Werte mit Vorsicht, da dies in einigen Fällen die Leistung von FormIt beeinträchtigen kann. Wenn Sie ein qualitativ hochwertiges Ergebnis erhalten haben, können Sie es [in ein Netz konvertieren](meshes.md), um die Leistung zu verbessern.
+Por ejemplo, si se establece en 64 y, a continuación, se crea una esfera desde Dynamo, se utilizarán 64 caras alrededor del ecuador de la esfera, más 64 facetas en cada uno de los círculos que van a los polos de la esfera, por lo que el recuento aumenta rápidamente. Utilice valores más altos con precaución, ya que puede afectar al rendimiento de FormIt en algunos casos. Una vez que haya obtenido un resultado de alta calidad, puede [convertirlo en una malla](meshes.md) para mejorar el rendimiento.
 
-Wenn Sie mit Dynamo arbeiten, können Sie die Facettierungsqualität ändern und in der Gruppe Eigenschaften auf Run Graph (Diagramm ausführen) klicken, ohne Parameter zu ändern, um die neue Anzahl der Facettierungen zu nutzen:
+Al trabajar con Dynamo, puede modificar la calidad de facetado y pulsar Ejecutar gráfico en el panel Propiedades sin cambiar ningún parámetro para aprovechar los nuevos recuentos de facetas, como se muestra a continuación:
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-Wie bei Kurven können Sie die Qualität der Flächenfacettierung für neue Skizzen oder nur für die aktuelle Skizze festlegen.
+Al igual que con las curvas, puede definir la calidad de facetado de la superficie para los nuevos bocetos o solo para el actual.
 
-Beachten Sie, dass Facettierungswerte derzeit auf ein Vielfaches von 4 beschränkt sind. Wenn Sie Zahlen also manuell eingeben, rundet FormIt auf das nächste Vielfache auf. Sie können die Schieberegler und Pfeile verwenden, um zwischen den zulässigen Werten zu wechseln.
+Tenga en cuenta que los valores de facetado están limitados actualmente a múltiplos de 4, por lo que, al introducir números manualmente, FormIt redondeará al múltiplo más cercano. Puede utilizar los controles deslizantes y las flechas para recorrer cíclicamente los valores aceptados.
 
 ![](../.gitbook/assets/units-+-precision.png)

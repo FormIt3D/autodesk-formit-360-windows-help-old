@@ -1,24 +1,24 @@
-# Rechteck
+# Rectángulo
 
-Sie können das Werkzeug **Rechteck** im Werkzeugkastenmenü **Skizze erstellen** verwenden, um schnell eine rechteckige Fläche zu zeichnen. Extrudieren Sie die Fläche, um ein rechteckiges Volumen zu erstellen.
+Puede utilizar la herramienta **Rectángulo** del menú de la barra de herramientas **Crear boceto** para dibujar rápidamente una cara rectangular. Extruya la cara para crear un volumen rectangular.
 
-Tastaturkurzbefehl: R
+Método abreviado de teclado: R
 
-Verwenden Sie die Achsen, um sicherzustellen, dass Sie in die richtige Richtung zeichnen:
+Utilice los ejes para asegurarse de que está dibujando en la dirección correcta, como se indica a continuación:
 
-Sie können Rechtecke auf der X-, Y- oder Z-Achse zeichnen. Beim Zeichnen können Sie eine Bemaßung angeben, indem Sie einfach einen Wert eingeben. Daraufhin wird das Dialogfeld Bemaßung bearbeiten geöffnet. Drücken Sie die EINGABETASTE, oder klicken Sie auf OK, um die Bemaßung zu übernehmen.
+Puede dibujar rectángulos en los ejes X, Y o Z. A medida que dibuja, puede especificar una cota simplemente mediante la introducción de un valor, lo que abrirá el cuadro de diálogo Editar cota. Pulse Intro o Aceptar para aceptar la cota.
 
-Zum Zeichnen eines Rechtecks klicken Sie, um den ersten Punkt in der Skizze festzulegen.
+Para dibujar un rectángulo, haga clic a fin de definir el primer punto en el boceto.
 
-Linienfarben nach Achse:
+Colores de línea por eje:
 
-* X = Rot
-* Y = Grün
-* Z = Blau
+* X = Rojo
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Wenn Sie das Rechteck fertig gezeichnet haben, wird es zu einer Fläche, die extrudiert werden kann, um ein Volumen zu erstellen.
+Cuando termine de dibujar el rectángulo, se convertirá en una cara que se puede extruir para crear un volumen.
 

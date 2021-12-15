@@ -1,11 +1,11 @@
-# Skalierung
+# Ajustar escala de objetos
 
-Mit dem **Werkzeug Maßstab** können Sie die Größe und Ausrichtung von Objekten anpassen.
+Puede utilizar la **herramienta Escala** para ajustar el tamaño y la orientación de los objetos.
 
-1. Wählen Sie das anzupassende Objekt aus.
-2. Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** anzuzeigen.
-3. Wählen Sie im Kontextmenü das **Werkzeug Maßstab** aus.
-4. Skalieren Sie die Geometrie mithilfe des Mausrads.
+1. Seleccione el objeto que desea ajustar.
+2. Haga clic con el botón derecho del ratón para iniciar el **menú contextual**.
+3. En el menú contextual, seleccione la **herramienta Escala**.
+4. Utilice la rueda de desplazamiento del ratón para aumentar o reducir la escala de la geometría.
 
 ![](../.gitbook/assets/scale1.png)
 

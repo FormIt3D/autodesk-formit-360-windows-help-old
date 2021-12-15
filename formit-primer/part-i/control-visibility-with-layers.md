@@ -1,54 +1,54 @@
-# 1.6 – Steuern der Sichtbarkeit mit Layern
+# 1.6 - Controlar la visibilidad con capas
 
-_Layer in FormIt ermöglichen ähnlich wie in AutoCAD und Photoshop die Verwaltung der Sichtbarkeit von Objekten im Modell. In diesem Kapitel erstellen Sie einen Layer, der das Speichern und Ausblenden des Gebäudekörpers für die spätere Analyse ermöglicht._
+_Al igual que AutoCAD y Photoshop, las capas de FormIt permiten administrar la visibilidad de los objetos del modelo. En este capítulo, vamos a crear una capa para guardar y ocultar la masa de construcción para su posterior análisis._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.6 – Control Visibility with Layers.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.6 - Control Visibility with Layers.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Layer erstellen**
+## **Crear capas**
 
-1 – So erstellen Sie die neuen Layer
+1 - Para crear nuevas capas, realice lo siguiente:
 
-1. Wechseln Sie zur **Layer-Palette**, und klicken Sie dreimal auf das **+**-Zeichen, um drei Layer zu erstellen.
-2. Doppelklicken Sie auf die Layernamen, um sie in **Massing**, **Main Building Floor** und **Plan Image**
+1. Vaya a la **paleta Capas** y haga clic en el signo **+** tres veces para crear tres capas.
+2. Haga doble clic en los nombres de capa para cambiarles el nombre a **Masa**, **Suelo del edificio principal** e **Imagen de plano.**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Anmerkung:**_ _Sie können auf einen Layernamen klicken und ihn nach oben oder unten ziehen, um die Reihenfolge der Layer zu ändern._
+_**Nota**_ _Puede hacer clic en un nombre de capa y arrastrarlo hacia arriba o hacia abajo para reordenar las capas._
 
-2 – So weisen Sie die Gruppe **Massing – Main Building** dem Layer **Massing** zu
+2 - Para asignar el grupo **Masa - Edificio principal** a la capa **Masa**, realice lo siguiente:
 
-1. Wählen Sie im Ansichtsbereich die Gruppe **Massing – Main Building** aus.
-2. Wählen Sie in der **Layer-Palette** den Layer **Massing** aus dem Dropdown-Menü **Auswahl für:** aus. Weisen Sie entsprechend die Gruppe **Plan Image** dem Layer **Plan Image** zu.
+1. En el lienzo, seleccione el grupo **Masa - Edificio principal**.
+2. En la **paleta Capas**, seleccione la capa **Masa** en el menú desplegable **Selección en:**. Del mismo modo, asigne el grupo **Imagen de plano** a la capa **Imagen de plano**.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Gruppe duplizieren**
+## **Duplicar grupo**
 
-_Jetzt beginnen Sie mit der detaillierten Modellierung des Gebäudes. Der erste Schritt besteht darin, die Geschossgeometrie basierend auf dem bereits vorhandenen Gebäudekörper zu erstellen._
+_Ahora comenzaremos el proceso de modelado del edificio con más detalle. El primer paso consiste en crear la geometría del suelo en función de la masa de construcción que ya tenemos._
 
-1 – Wählen Sie erneut die Gruppe **Massing – Main Building** aus. Drücken Sie zum Kopieren die Tastenkombination **STRG+C \(Kopieren\)** und anschließend **STRG+UMSCHALT+V \(An Position einfügen\)**, um den Körper an derselben Stelle einzufügen.
+1 - Seleccione de nuevo el grupo **Masa - Edificio principal**. Pulse **Ctrl + C \(Copiar\)** para copiar y, a continuación, **Ctrl + Mayús + V \(Pegar in situ\)** para pegar la masa en el mismo lugar.
 
-2 – So trennen Sie die neue Gruppengeometrie von der ursprünglichen Gruppe: Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie die Option **Als eindeutig definieren \(MU\)**.
+2 - Para disociar la nueva geometría del grupo original, haga clic con el botón derecho para acceder al **Menú contextual** y seleccione la opción **Establecer como exclusivo \(MU\)**.
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Anmerkung**: Die neue Gruppe ist nicht mehr mit dem Original verknüpft. Änderungen an der neuen Gruppe wirken sich nicht auf die ursprüngliche Gruppe aus._
+_**Nota** El nuevo grupo ya no está asociado con el original. Los cambios realizados en el nuevo grupo no modificarán el grupo original._
 
-## **Erstellen der Geschossgeometrie**
+## **Crear la geometría de suelo**
 
-1 – Neuzuweisen des Layers der Gruppe
+1 - Vuelva a asignar la capa del grupo como se indica a continuación:
 
-1. Klicken Sie einmal, um eine der Gruppen **Massing – Main Building** auszuwählen.
-2. Platzieren Sie die Gruppe mithilfe der Dropdown-Liste **Auswahl für:** in der **Layer-Palette** auf dem Layer **Main Building Floor**.
-3. Deaktivieren Sie den Layer **Massing**, um die Geometrie auszublenden und den Layer vor versehentlichen Änderungen zu schützen.
+1. Haga clic una vez para seleccionar uno de los grupos de **Masa - Edificio principal**.
+2. Coloque el grupo en la capa **Suelo del edificio principal** mediante el menú desplegable **Selección en:** de la **paleta Capas**.
+3. Desactive la capa **Masa** para ocultar su geometría y mantenerla a salvo de cualquier modificación accidental.
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 – Doppelklicken Sie auf die sichtbare Gruppe **Massing – Main Building**, um sie zu bearbeiten. Benennen Sie die Gruppe **Floor** in der **Eigenschaftenpalette** um.
+2 - Haga doble clic en el grupo visible **Masa - Edificio principal** para editarlo. Cambie el nombre del grupo a **Suelo** en la **paleta Propiedades**.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 – **Klicken Sie einmal** auf die **obere Fläche** der Geometrie, um sie auszuwählen. Klicken Sie erneut, und ziehen Sie die Fläche nach unten. Wenn Sie die Fläche nach unten ziehen, geben Sie **11'-2"** ein, und das **Dialogfeld Bemaßung** wird angezeigt. Klicken Sie nach Eingabe des Werts auf **OK**. Die resultierende Geschossdecke muss 1' dick sein. Doppelklicken Sie auf eine Stelle im Raum, um die Gruppe zu verlassen.
+3 - **Haga clic una vez** en la **cara superior** de la geometría para seleccionarla. Haga clic de nuevo y comience a arrastrar la cara hacia abajo. Cuando arrastre la cara hacia abajo, introduzca **11'-2"**; aparecerá el **cuadro de diálogo Cota**. Haga clic en **Aceptar** después de introducir el valor. El suelo resultante debe tener un grosor de 1'. Haga doble clic en el espacio para salir del grupo.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

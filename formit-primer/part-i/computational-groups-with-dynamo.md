@@ -1,75 +1,75 @@
-# 1.10 – Durch Computational Design erstellte Gruppen aus Dynamo
+# 1.10 - Grupos de cálculo con Dynamo
 
-_In diesem Kapitel nutzen Sie die Rechenleistung von_ [_**Dynamo**_](http://dynamobim.org/), _um flexible Gruppen zu platzieren und zu ändern, die mit OOTB-Dynamo-Diagrammbeispielen verknüpft sind._
+_En este capítulo, aprovecharemos la potencia de cálculo de_ [_**Dynamo**_](http://dynamobim.org/) _para colocar y modificar grupos flexibles vinculados a muestras de gráficos de Dynamo de OOTB._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.10 – Computational Groups with Dynamo.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.10 – Computational Groups with Dynamo.axm**_ _en los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-[_**Hier**_](http://formit.autodesk.com/page/formit-dynamo) _erfahren Sie mehr darüber, wie FormIt und Dynamo bei Computational Design-Arbeitsabläufen zusammenwirken._
+_Puede_ [_**obtener más información aquí**_](http://formit.autodesk.com/page/formit-dynamo) _sobre cómo funcionan juntos FormIt y Dynamo para los flujos de trabajo de diseño computacional._
 
-## **Erstellen von Treppen für die untere Terrasse**
+## **Crear escaleras de terraza interior**
 
-1 – Stellen Sie sicher, dass die Layer **Lower Terrace, Main Building Floor** und **Plan Image** aktiviert sind, da Sie an dieser Stelle die Treppen hinzufügen werden.
+1 - Asegúrese de que las capas **Lower Terrace, Main Building Floor** y **Plan Image** estén activadas, ya que es aquí donde vamos a añadir la escaleras.
 
-2 – So platzieren Sie eine Treppengruppe, die mit einem der OOTB-Dynamo-Beispiele verknüpft ist
+2 - Para colocar un grupo de escaleras vinculado a una de las muestras de Dynamo de OOTB:
 
-1. Öffnen Sie die **Dynamo Palette** (Dynamo-Palette) in der Palettenleiste. Im Verzeichnis **Dynamo Samples** (Dynamo-Beispiele) sollten einige integrierte Dynamo-Objekte angezeigt werden.
-2. Klicken Sie auf das Dynamo-Beispiel für **Stairs** (Treppen), um es in den Modellbereich zu holen. FormIt führt das Diagramm im Hintergrund aus und generiert die Treppengeometrie aus diesem Diagramm.
-3. Bewegen Sie den Cursor über den Ansichtsbereich. Nachdem die Treppe geladen wurde, wird eine Ghost-Vorschau der Treppengeometrie mit der Maus verknüpft. Bewegen Sie den Cursor über den Ansichtsbereich in die Nähe der Terrasse, und klicken Sie, um die Treppe zu platzieren. Drücken Sie **ESC**, um die Auswahl aufzuheben. Beachten Sie, dass nach dem Platzieren der Treppe automatisch die **Properties Palette** (Eigenschaften-Palette) geöffnet wird.
+1. Abra la **paleta Dynamo** en la barra de paletas. Debería ver algunos objetos de Dynamo integrados en el directorio de **muestras de Dynamo**.
+2. Haga clic una vez en la muestra de Dynamo **Stairs** para llevarlo al espacio modelo. FormIt ejecutará el gráfico entre bastidores y generará la geometría de escalera a partir de este gráfico.
+3. Mueva el cursor sobre el lienzo y, una vez cargada la escalera, se desplazará una vista preliminar fantasma de la geometría de la escalera junto con el ratón. Mueva el cursor sobre el lienzo, cerca de la terraza, y haga clic para colocar la escalera. Pulse **Esc** para anular la selección. Tenga en cuenta que, después de colocar las escaleras, la **paleta Propiedades** se abrirá automáticamente.
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Anmerkung:**_ [_**Sie können auch lokale Verzeichnisse**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _mit Dynamo-Diagrammen verknüpfen und Ihre eigenen lokalen Dynamo-Diagramme wie in diesen Beispielen ausführen._
+_**Nota:**_ [_**También puede vincular directorios locales**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _que contengan gráficos de Dynamo y ejecutar sus propios gráficos locales de Dynamo como estas muestras._
 
-3 – So aktualisieren Sie die Treppenbemaßungen
+3 - Para actualizar las cotas de las escaleras, realice lo siguiente:
 
-1. Ändern Sie bei ausgewählter Treppengruppe die Eingaben im Abschnitt **INPUTS** (Eingaben) von Dynamo unten in der **Properties Palette** (Eigenschaften-Palette) entsprechend, wie im Folgenden dargestellt. Die meisten über Dynamo-Skripte erstellten Gruppen verfügen über einen Dynamo-Abschnitt in den Eigenschaften, wenn sie ausgewählt werden.
-   * Add Top Landing (Oberes Podest hinzufügen) = False
-   * Add Middle Landing (Mittleres Podest hinzufügen) = False
-   * Add Bottom Landing (Unteres Podest hinzufügen) = False
-   * Floor-to-Floor Height (Geschosshöhe) = 2.6
-   * Stair Width (Treppenbreite) = 12
-   * Riser Height (Steigung) = 0.6
-   * Tread Length (Auftrittslänge) = 1.25
-   * Tread Overlap (Stufe Überstand) = 0.25
-   * Tread Thickness (Auftrittshöhe) = 0.25
-   * Height Between Middle Landings (Höhe zwischen mittleren Podesten) = \(nicht relevant, da kein mittleres Podest erstellt wird\)
-   * Middle Landing Length (Länge des mittleren Podests) = \(nicht relevant, da kein mittleres Podest erstellt wird\)
-   * Top/Bottom Landing Length (Länge des oberen/unteren Podests) = \(nicht relevant, da kein Podest erstellt wird\)
-2. Klicken Sie auf die Schaltfläche **Run** (Ausführen), um das Dynamo-Skript mit den aktualisierten Eingabewerten erneut auszuführen.
-3. Verschieben Sie die Gruppe nach Bedarf, um die Treppe entsprechend dem Layer **Plan Image** an der richtigen Position zu platzieren. Achten Sie darauf, die Höhe der Treppengruppe beim Verschieben nicht zu ändern. In den vorherigen Kapiteln finden Sie weitere Tricks und Techniken zum Verschieben von Modellelementen.
+1. Con el grupo de escaleras seleccionado, modifique las entradas disponibles en la sección **ENTRADAS** de Dynamo en la parte inferior de la **paleta Propiedades** para que coincidan con las que se muestran a continuación. En la mayoría de los grupos creados mediante las secuencias de comandos de Dynamo, se incluirá una sección de Dynamo cuando se seleccionen.
+   * Add Top Landing = False
+   * Add Middle Landing = False
+   * Add Bottom Landing = False
+   * Floor-to-Floor Height = 2,6
+   * Stair Width = 12
+   * Riser Height = 0,6
+   * Tread Length = 1,25
+   * Tread Overlap = 0,25
+   * Tread Thickness = 0,25
+   * Height Between Middle Landings = \(no es pertinente porque no se está creando ningún descansillo central\)
+   * Middle Landing Length = \(no es pertinente porque no se está creando ningún descansillo central\)
+   * Top/Bottom Landing Length = \(no es pertinente porque no se está creando ningún descansillo\)
+2. Haga clic en el botón **Ejecutar** para volver a ejecutar la secuencia de comandos de Dynamo con los valores de entrada actualizados.
+3. Mueva el grupo según sea necesario para colocar la escalera en la ubicación correcta en consonancia con la **imagen del plano**. Tenga cuidado de no cambiar la elevación del grupo de escaleras al moverlo. Consulte los capítulos anteriores para obtener más información sobre los trucos y las técnicas al mover elementos de modelo.
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Anmerkung:**_ _Die Eingabe für_ _**Floor-to-Floor Height**_ _(Geschosshöhe) ist eine Annäherung an die Gesamthöhe der Treppe._ _**Riser Height**_ _(Steigung) ist der Parameter, der die Höhe der Treppe definiert. In diesem Beispiel wurde_ _**Floor-to-Floor Height**_ _(Geschosshöhe) auf 2.6' festgelegt, die endgültige Treppenhöhe beträgt jedoch 3.0' \(0.6' \(**Riser Height (Steigung)**\) x 5 \(Anzahl Stufen\)\). Da die Spanne zwischen Boden und Oberkante der Terrasse 3'-2" beträgt, sind die verbleibenden 2" in der oberen Steigung enthalten._
+_**Nota:**_ _La entrada de_ _**Floor-to-Floor Height**_ _es una aproximación de la altura total de la escalera. El parámetro_ _**Riser Height**_ _define realmente la altura de las escaleras. En este ejemplo, se establece el valor de __**Floor-to-Floor Height**__ en 2,6', pero la altura final de la escalera es de 3,0' \(0,6' de \(**Riser Height**\) x 5 \(número de contrahuellas\)\). Dado que el intervalo entre el suelo y la parte superior del suelo de la terraza es de 3'-2", los 2" restantes se encuentran en la contrahuella superior._
 
-## **Erstellen der Hauptgebäudetreppen**
+## **Crear las escaleras del edificio principal**
 
-_In den vorherigen Schritten haben Sie eine Treppe ohne Podeste erstellt. Als Nächstes erstellen Sie eine Treppe, bei der ein oberes Podest verwendet wird, das am Layer_ _**Main Building Floor** ausgerichtet ist._
+_En los pasos anteriores, hemos creado una escalera sin descansillos. Ahora crearemos una escalera que utiliza un descansillo superior que se alinea con el_ _**suelo del edificio principal**._
 
-1 – Erstellen Sie zunächst eine Kopie der Treppe, die Sie gerade erstellt haben:
+1 - Realice primero una copia de las escaleras que acabamos de crear, como se indica a continuación:
 
-1. Wählen Sie die vorhandene Treppe aus, und klicken Sie dann auf eine beliebige Stelle im Layer **Plan Image**, um den Befehl Move zu starten. Dadurch wird in FormIt die Höhe von **Plan Image** als Startreferenzhöhe für die Platzierung der neuen Kopie verwendet. Drücken Sie die **STRG-Taste**, um eine **schnelle Kopie** zu erstellen.
-2. Bewegen Sie den Cursor näher zum Hauptgebäude über der Terrasse. Beachten Sie, dass die obere Fläche der Terrasse jetzt die neue Referenzebene ist. Klicken Sie, um die Gruppe zu platzieren.
+1. Seleccione la escalera existente y, a continuación, haga clic en cualquier lugar de la **imagen del plano** para iniciar un comando de desplazamiento. Esta acción permitirá que FormIt utilice la elevación de la **imagen del plano** como la altura de referencia inicial para colocar la nueva copia. Pulse **Ctrl** para realizar una **copia rápida**.
+2. Mueva el cursor en una ubicación más próxima al edificio principal por encima de la terraza. Observe que ahora la cara superior de la terraza es el nuevo plano de referencia. Haga clic para colocar el grupo.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Anmerkung:**_ _Da sich das_ _**Plan Image**_ _auf der Ebene_ _**Ground Level**_ _(Erdgeschoss) befindet, wird diese Ebene vom_ _**Werkzeug Move**_ _(Verschieben) als Referenz für den Startpunkt verwendet. Beachten Sie die QuickInfo_ _**On Face**_ _(Auf Fläche) in der Abbildung oben, die angibt, dass die Fläche von Plan Image als Startreferenz und die obere Fläche von_ _**Lower Terrace Floor**_ _(Unterer Terrassenboden) als Endreferenz ausgewählt ist._
+_**Nota:**_ _Como la_ _**imagen del plano**_ _se encuentra en el plano de_ _**nivel de suelo**_ _, la_ _**herramienta Mover**_ _utilizará ese plano como referencia para su punto inicial. Obsérvese la información de herramientas_ _**En la cara**_ _de la imagen de arriba, que indica que la cara de la imagen del plano está seleccionada como referencia inicial y la cara superior del_ _**suelo de la terraza superior**_ _está seleccionada como la referencia final._
 
-2 – Verwenden Sie das Werkzeug **Make Unique \(MU\)** (Als eindeutig definieren), damit sich Änderungen an den Dynamo-Eingaben dieser Treppe nicht auf die untere Treppe auswirken. Positionieren Sie die Gruppe nach Bedarf neu, sodass sie sich nahe an der endgültigen Position befindet. Diese wird später genauer festgelegt. Sie können die Sichtbarkeit des Layers **Lower Terrace** umschalten, um den Plan darunter zu Hilfszwecken bei der Positionierung anzuzeigen. Achten Sie jedoch darauf, die Höhe der neuen Treppe beim Verschieben nicht zu ändern.
+2. Utilice la herramienta **Establecer como exclusivo \(MU\)** para que, al cambiar las entradas de Dynamo de esta escalera, esto no afecte a la escalera inferior. Cambie la posición del grupo según sea necesario para que esté cerca de su ubicación final. Lo ajustaremos de forma más precisa posteriormente. Puede activar o desactivar la visibilidad de la capa **Lower Terrace** para ver el plano siguiente para ayudarle a colocarla, pero tenga cuidado de no cambiar el alzado de la nueva escalera a medida que la desplaza.
 
-3 – Aktualisieren Sie in der **Properties Palette** (Eigenschaften-Palette) die **Dynamo Inputs** (Dynamo-Eingaben) wie unten dargestellt, und führen Sie das Skript erneut aus.
+3 - En la **paleta Propiedades**, actualice las **entradas de Dynamo** como se muestra a continuación y ejecute la secuencia de comandos una vez más.
 
-* Add Top Landing (Oberes Podest hinzufügen) = True
-* Floor-to-Floor Height (Geschosshöhe) = 2.333
-* Riser Height (Steigung) = 0.466
-* Tread Length (Auftrittslänge) = 1.5
-* Top/Bottom Landing Length (Länge des oberen/unteren Podests) = 2.5
+* Add Top Landing = True
+* Floor-to-Floor Height = 2,333
+* Riser Height = 0,466
+* Tread Length = 1,5
+* Top/Bottom Landing Length = 2,5
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Anmerkung:**_ _Wenn Sie_ _**Add Bottom Landing**_ _(Unteres Podest hinzufügen) auf_ _**True**_ _einstellen und das Skript erneut ausführen, sollte die obere Fläche des unteren Podests an der oberen Fläche von_ _**Lower Terrace Floor** (Unterer Terrassenboden) ausgerichtet sein. Dies geschieht, weil Sie – anders als bei den vorherigen Treppen–_ _**Riser Height**_ _(Steigung) so angepasst haben, dass sie mit der_ _**Floor-to-Floor Height**_ _(Geschosshöhe) entsprechend der gewünschten echten Höhe \(2'-4" oder 2.333'\)übereinstimmt._
+_**Nota:**_ _Si establece_ _**Add Bottom Landing**_ _en_ _**True**_ _y vuelve a ejecutar la secuencia de comandos, la cara superior del descansillo inferior debería alinearse con la cara superior del_ _**suelo de la terraza inferior**. Esto sucede porque, a diferencia de las escaleras anteriores, hemos ajustado el valor de_ _**Riser Height**_ _para que coincida con el valor de_ _**Floor-to-Floor Height**_ _en la verdadera altura que deseamos \(2'-4'' o 2,333'\)._
 
-2 – Positionieren Sie die Gruppe erneut an der endgültigen Position. Das obere Podest muss bündig mit dem Layer **Main Building Floor** abschließen.
+2 - Vuelva a colocar el grupo en su posición final. El descansillo superior debe estar nivelado con el **suelo del edificio principal**.
 
-3 – Um die Treppe fertig zu stellen, fügen Sie das Material **Stone – Travertine** (Stein – Travertin) hinzu, um es an die Geschosse anzupassen. Weitere Informationen zum Anwenden von Materialien finden Sie in den vorherigen Kapiteln.
+3 - Para finalizar las escaleras, añada el material **Stone - Travertine** para que coincida con los suelos. Para obtener más información sobre cómo aplicar materiales, consulte los capítulos anteriores.
 

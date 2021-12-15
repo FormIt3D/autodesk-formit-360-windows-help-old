@@ -1,6 +1,6 @@
-# Präsentationsgrafiken
+# Gráficos de presentación
 
-Profitieren Sie von einer Reihe von Optionen für [visuelle Stile](../tool-library/visual-styles.md), mit denen Sie die Grafiken von FormIt anpassen und beeindruckende Präsentationen erstellen können.
+Disfrute de un conjunto de opciones de [estilos visuales](../tool-library/visual-styles.md) para personalizar los gráficos de FormIt y crear atractivas presentaciones.
 
 ![](../.gitbook/assets/screen1.jpg)
 

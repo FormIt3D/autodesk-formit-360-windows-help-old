@@ -1,13 +1,13 @@
-# Spiegeln
+# Reflejar
 
-Mit dem Werkzeug Spiegeln können Sie ein gespiegeltes Duplikat eines Objekts erstellen.
+Utilice la herramienta Reflejar para crear un duplicado reflejado de un objeto.
 
-So spiegeln Sie ein Objekt
+Para reflejar un objeto, realice lo siguiente:
 
-1. Doppelklicken Sie, um ein einzelnes Objekt auszuwählen, oder klicken Sie einmal, um eine Gruppe auszuwählen.
-2. Klicken Sie mit der rechten Maustaste, und wählen Sie das Werkzeug Spiegeln aus dem Kontextmenü, oder geben Sie den Tastaturkurzbefehl **MI** ein.
-3. Die daraufhin eingeblendete Ebene zeigt die Achse, an der das Objekt gespiegelt wird. Die Ebene kann verschoben oder gedreht werden, um die Spiegelachse anzupassen.
-4. Wenn Sie die Ebene des gespiegelten Objekts angepasst haben, klicken Sie auf eine beliebige Stelle außerhalb der Auswahl.
+1. Haga doble clic para seleccionar un único objeto o haga clic una vez para seleccionar un grupo.
+2. Haga clic con el botón derecho y seleccione la herramienta Reflejar en el menú contextual o escriba el método abreviado de teclado **MI**.
+3. Se muestran un plano y el eje en el que se reflejará el objeto. El plano se puede desplazar o rotar para personalizar el eje del reflejo.
+4. Cuando haya terminado de ajustar el plano del objeto reflejado, haga clic en cualquier lugar fuera de la selección.
 
 ![](../.gitbook/assets/mirror.png)
 

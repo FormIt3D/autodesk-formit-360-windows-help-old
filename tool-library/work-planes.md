@@ -1,16 +1,16 @@
-# Arbeitsebenen
+# Planos de trabajo
 
-Wenn Sie in der Hauptskizze die Weltachsen oder in einer Gruppe die lokalen Achsen ändern, wird den X- und Y-Achsen eine Arbeitsebene zugeordnet. Eine **Arbeitsebene** ist eine zweidimensionale virtuelle Fläche, die als Vorgabeebene beim Skizzieren dient. Diese Arbeitsebene ist unendlich und dient als Oberfläche, auf der Sie ohne Objektfang an dahinter liegenden Elementen skizzieren können.
+Cuando se cambian los ejes globales en el boceto principal o los ejes locales de un grupo, se asocia un plano de trabajo a los ejes X e Y. Un **plano de trabajo** es una superficie virtual bidimensional que se utiliza como plano por defecto para la creación de bocetos. Este plano de trabajo se estirará hasta el infinito y proporcionará una superficie para crear el boceto sin forzar el cursor a los elementos que se encuentran detrás de él.
 
-Informationen zum Bearbeiten der Grundplatte finden Sie unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md)
+Para obtener información sobre cómo editar el plano de suelo, consulte [Estilos visuales.](../formit-primer/part-i/visual-settings.md)
 
-## Ändern von Arbeitsebenen 
+## Cambio de planos de trabajo
 
-Sie können die [Weltachsen](world-axes.md) drehen, sodass sie mit der Ebene eines anderen Objekts in der Skizze übereinstimmen. Die aktive Arbeitsebene wird dadurch an der betreffenden Fläche ausgerichtet. Jetzt können Sie relativ zur neuen XY-Ebene anstatt zur vorgegebenen Grundplatte skizzieren, Elemente platzieren und Elemente ändern. Sie können auch hinter oder unterhalb des Rasters und der Arbeitsebenen mithilfe der Orbitfunktion Elemente als Fang- und Ableitungsreferenzen nutzen.
+Rote los [ejes universales](world-axes.md) al plano de otro objeto en el boceto. De este modo, se alineará el plano de trabajo activo para que se corresponda con esta cara. Ahora puede crear bocetos, colocar elementos y modificar elementos en relación con el nuevo plano XY en lugar del plano de suelo por defecto. Puede orbitar detrás o debajo de la rejilla y los planos de trabajo para forzar el cursor y establecer deducciones a los elementos que están detrás.
 
-Sie können die Sichtbarkeit der Rasterlinie aktivieren bzw. deaktivieren, um das arbeitsebenenbasierte Skizzieren zu nutzen. Sie können diese Einstellung unter Visuelle Stile > Umgebung > **Anzeige: Raster \(DG\).**
+Puede activar y desactivar la visibilidad de la línea de rejilla para beneficiarse de la creación de bocetos basados en planos de trabajo. Puede controlar este parámetro en Estilo visual &gt; Entorno &gt; **Mostrar rejilla \(DG\).**
 
-Sie können auch beim Zeichnen steuern, ob Sie das Raster fangen möchten. Aktivieren bzw. deaktivieren Sie diese Einstellung unter Einstellungen > **Rasterfang \(SG\)**
+También puede controlar si se fuerza el cursor a la rejilla al dibujar. Active y desactive este parámetro en Configuración &gt; **Forzar cursor a rejilla \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
 

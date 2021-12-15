@@ -1,94 +1,94 @@
-# Bildstile
+# Estilos visuales
 
-Passen Sie die visuelle Darstellung Ihres Modells an, einschließlich der allgemeinen Beleuchtung, Kantenstile und Umgebungseffekte. Die Gruppe Visuelle Stile können Sie aufrufen, indem Sie auf das Sonnenbrillensymbol in der Palettenleiste klicken:
+Personalice el aspecto visual del modelo, incluidos los estilos de borde, la iluminación general y los efectos ambientales. Para acceder al panel Estilos visuales, haga clic en el icono de gafas de sol de la barra de paletas, como se indica a continuación:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visuelle Stile [können pro Szene festgelegt werden](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), sodass Sie Ihre bevorzugten Stileinstellungen speichern und auf andere Szenen anwenden können.
+Los estilos visuales [se pueden establecer por escena ](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), lo que le permite guardar sus parámetros de estilo favoritos y aplicarlos a otras escenas.
 
-## Flächen
+## Superficies
 
-Verwalten Sie, wie Flächen angezeigt und schattiert werden.
+Administre la forma en que se muestran y se sombrean las superficies.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-Die Option **Umgebungshelligkeit** steuert die Gesamthelligkeit aller Materialien in der Szene. Ein Wert von 100 bedeutet, dass den Lichtstrahlen ausgesetzte Materialien mit ihrer vollen Helligkeit angezeigt werden, wie in der Farbe oder Textur des Materials definiert. Bei Werten über 100 würden die Materialien überbelichtet, könnten aber für SketchUp-Modelle nützlich sein, die in FormIt immer noch dunkel aussehen. Der Vorgabewert ist 100.
+La opción **Brillo ambiental** controla el brillo general de todos los materiales de la escena. El valor 100 indica que los materiales expuestos a la luz se mostrarán con el brillo completo definido en el color o la textura del material. Los valores superiores a 100 sobreexpondrán los materiales, pero pueden ser útiles para los modelos de SketchUp que aún aparecen oscuros en FormIt. El valor por defecto es 100.
 
-Die Option **Umgebungskontrast** steuert, wie viel dunkler Flächen im Schatten im Vergleich zu Flächen, die direktem Sonnenlicht ausgesetzt sind, angezeigt werden. Der Wert 0 bedeutet, dass die Beleuchtung keine Auswirkung hat \(alle Materialien werden unabhängig von der Ausrichtung mit voller Helligkeit angezeigt\), während bei höheren Werten Flächen im Schatten immer dunkler erscheinen. Der Standardwert ist 25.
+La opción **Contraste ambiental** controla el grado de oscuridad de las caras en la sombra en comparación con las caras expuestas a la luz solar directa. El valor 0 indica que la iluminación no tiene ningún efecto \(todos los materiales aparecerán con su brillo completo, independientemente de la orientación\), mientras que los valores más altos harán que las caras sombreadas parezcan cada vez más oscuras. El valor por defecto es 25.
 
-Aktivieren Sie die Option **Schatten**, um zu sehen, wie Ihr Entwurf [zur aktuellen Tageszeit beschattet wird](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Active o desactive **Sombras** para ver cómo el diseño [se sombrea a la hora actual del día](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-Die Option **Schattenintensität** steuert, wie dunkel Schatten auf der Grundplatte und anderen Flächen gezeichnet werden. Bei einem Wert von 0 werden Schatten effektiv unsichtbar, und bei einem Wert von 100 werden Schatten schwarz. Der Vorgabewert ist 20.
+La opción **Intensidad de sombra** controla el modo en que se dibujan las sombras oscuras en el plano base y en otras caras. El valor 0 hará que las sombras sean realmente invisibles, y el valor 100 hará que las sombras sean negras. El valor por defecto es 20.
 
-Mit **Umgebungsschatten** werden Ecken Schattierungen hinzugefügt, um das FormIt-Modell realistischer zu gestalten.
+La opción **Sombras ambientales** agrega un toque de sombreado a las esquinas para añadir realismo al modelo de FormIt.
 
-Die Option **Monotone Oberflächen** deaktiviert die Farbe und Textur aller Materialien und macht die Umgebung weiß. Dies ist für Schatten- oder Schattierungsstudien hilfreich.
+La opción **Superficies de un solo tono** desactiva el color y la textura de todos los materiales y hace que el entorno circundante sea blanco. Esta opción es útil para estudios de sombras o sombreado.
 
-Im Abschnitt Oberflächenfarben werden Vorgabefarben für Flächen definiert, wenn kein Material angewendet wird.
+La sección Colores de superficie permite definir los colores por defecto para las caras cuando no se aplica ningún material.
 
-**Flächen** ist die Vorgabefarbe aller nach vorne weisenden FormIt-Flächen \(oder beider Seiten, wenn Rückseiten deaktiviert ist\), wenn kein Material angewendet wird.
+La opción **Caras** hace referencia al color por defecto de todas las caras frontales de FormIt \(o de ambos lados, si la opción Caras posteriores está desactivada\) cuando no se aplica ningún material.
 
-**Rückseiten** wird verwendet, um verschiedene Materialien auf beiden Seiten einer einzelnen Fläche für SketchUp-Modelle anzuzeigen, die in FormIt importiert werden und dies erfordern. Diese Option ist vorgabemäßig deaktiviert, wird aber aktiviert, wenn SketchUp-Modelle geöffnet oder importiert werden. In Nicht-SketchUp-Geometrie wird die angegebene Farbe für die Rückseite an den Rückseiten von Flächen angezeigt.
+La opción **Caras posteriores** se utiliza para mostrar diferentes materiales a cada lado de una sola cara para los modelos de SketchUp que se importan en FormIt y requieren esta función. Esta opción está desactivada por defecto, pero está activada cuando se abren o se importan modelos de SketchUp. En una geometría que no sea de SketchUp, el color de cara posterior especificado se mostrará en los lados posteriores de las caras.
 
-Verwenden Sie die Optionen Schnitt – Schnitteffekte und Schnitt – Schnittmaterialeffekte, um die Vorgabefarben von Flächen, Linien und den Schnittmaterialeffekt zu verwalten, wenn das Werkzeug [Schnittebene](section-planes.md) verwendet wird.
+Utilice las secciones Efectos de corte de sección y Efectos poché de sección para administrar los colores por defecto de las caras, las líneas y el efecto poché cuando se utiliza la herramienta [Plano de sección](section-planes.md).
 
-## Grundplatten
+## Planos de suelo
 
-Wenn die Grundplatte im Gruppenbearbeitungsmodus deaktiviert ist, ist das blaue Arbeitsebenenraster jetzt ebenfalls deaktiviert.
+Si la opción Plano de suelo está desactivada en el modo de edición de grupo, la rejilla azul del plano de suelo también está desactivada.
 
-Die Farbe der Arbeitsebene kann auch über die Gruppe Visuelle Stile angepasst werden.
+El color del plano de trabajo también se puede personalizar en el panel Estilos visuales.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Kanten
+## Bordes
 
-Verwalten Sie den Anzeigestil aller Kanten im Modell.
+Administre el estilo de visualización de todos los bordes del modelo.
 
 ![](../.gitbook/assets/edges.PNG)
 
-Der **Kontrast** wirkt sich auf die Sichtbarkeit aller Kanten aus. Bei einem Wert von 0 werden die Kanten praktisch unsichtbar. Der Vorgabewert lautet 60.
+La opción **Contraste** afecta a la visibilidad de todos los bordes. El valor 0 permitirá que los bordes sean realmente invisibles. El valor por defecto es 60.
 
-**Farbe** wirkt sich auf die Farbe aller Kanten im Modell aus. Die Vorgabe ist Schwarz.
+La opción **Color** afecta al color de todos los bordes del modelo. El color por defecto es el negro.
 
-**Dicke Kanten** macht alle Kanten dicker, einschließlich Silhouettenkanten.
+La opción **Bordes gruesos** aumenta el grosor de todos los bordes, incluidos los de silueta.
 
-Mit **Skizzenartige Kanten** wird allen Kanten ein skizzenartiger Effekt hinzugefügt, um den Effekt einer Handzeichnung zu simulieren.
+La opción **Bordes de boceto** añade un efecto de boceto a todos los bordes para simular un efecto de dibujo a mano.
 
-**Verdeckte Kanten** zeigt Kanten an, die ansonsten von Flächen verdeckt sind.
+La opción **Bordes ocultos** muestra los bordes que de otro modo quedarían ocultos por las superficies.
 
-**Erweiterte Kanten** fügt einigen Kanten eine Verlängerung hinzu, um den Effekt einer Handzeichnung zu simulieren.
+La opción **Bordes extendidos** añade una extensión a algunos bordes para simular un efecto de dibujo a mano.
 
-## Umgebung
+## Entorno
 
-Blenden Sie Umgebungseffekte und Hilfsobjekte ein und aus.
+Active o desactive la visualización de los efectos ambientales y los objetos auxiliares.
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Raster** steuert die Anzeige des Rasters auf der Grundplatte sowie das Raster, das beim Bearbeiten einer Gruppe angezeigt wird. Die Option Rasterfang wird deaktiviert, wenn das Raster deaktiviert ist.
+La opción **Rejilla** controla la visualización de la rejilla en el plano de suelo, así como la rejilla mostrada al editar un grupo. La opción Forzar cursos a rejilla se desactivará cuando la rejilla esté desactivada.
 
-Die Option **Achsen** steuert die Anzeige der XYZ-Achsen, die beim Weltursprung oder beim Gruppenursprung angezeigt werden, wenn eine Gruppe bearbeitet wird.
+La opción **Ejes** controla la visualización de los ejes XYZ que se muestran en el origen universal o en el origen del grupo si se está modificando un grupo.
 
-Die Option **Ebenen** steuert die Anzeige der [**Ebenen**](levels-and-area.md)****, die in der Gruppe Ebenen festgelegt wurden.
+La opción **Niveles** controla la visualización de los [**niveles**](levels-and-area.md) establecidos en el panel Niveles.
 
-**Nebel** steuert die Anzeige von Nebel, der gezeichnet wird, damit der Übergang zwischen der Grundplatte und dem Himmel nahtlos aussieht. Wenn Sie Nebel deaktivieren, erhalten Sie eine scharfe Horizontlinie, an der die Grundplatte \(falls aktiviert\) an den Himmel grenzt.
+La opción **Niebla** controla la visualización de la niebla que se dibuja para que la transición entre el plano de suelo y el cielo parezca perfecta. Si desactiva esta opción, se creará una línea de horizonte duro en la ubicación en la que el plano de suelo \(si está activado\) se encuentra con el cielo.
 
-**Nordpfeil** steuert die Anzeige eines kleinen grafischen Widgets, das die Richtung des Projektnordens angibt \(wie durch Standort und Satellitenbilder festgelegt\).
+La opción **Flecha de norte** controla la visualización de un pequeño widget gráfico que indica la dirección del norte del proyecto \(según lo determine la ubicación y las imágenes de satélite\).
 
-Umgebungsfarben wie Himmel, Hintergrund und Grundplatte können ebenfalls angepasst werden.
+Los colores ambientales como el cielo, el fondo y el plano de suelo también se pueden personalizar.
 
-Der Himmel besteht aus einem Verlauf der Farben für **Unten/Hintergrund**, **Mitte** und **Oben**.
+El cielo está formado por un degradado de los colores **Inferior / fondo**, **Medio** y **Superior**.
 
-Wenn die Option **Himmel** deaktiviert ist, ist nur die Farbe **Unten/Hintergrund** sichtbar.
+Si la opción **Cielo** está desactivada, solo estará visible el color **Inferior / fondo**.
 
-## Diagnose
+## Diagnóstico
 
-Blenden Sie Diagnosewerkzeuge ein und aus.
+Active o desactive la visualización de las herramientas de diagnóstico.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-Die Option **Dichtheitsprobleme** hebt alle Kanten, die nicht Teil eines wasserdichten Volumenkörperobjekts sind, rot hervor.
+La opción **Problemas de hermeticidad** resalta en rojo todos los bordes que no formen parte de un objeto sólido hermético.
 
-Die Option **Rückseiten** hebt alle Flächen, die in die falsche Richtung zeigen, rot hervor \(die Rückseiten aller Volumenkörperobjekte sollten zur Innenseite der Volumenkörperform weisen\).
+La opción **Caras posteriores** resalta en rojo todas las caras que están orientadas de forma incorrecta \(las caras posteriores de todos los objetos sólidos deben estar orientadas hacia el interior de la forma sólida\).
 
-[Erfahren Sie mehr über die Verwendung der Dichtheits- und Rückseitendiagnose zum Identifizieren und Beheben von Problemen mit Volumenkörpermodellen](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Obtenga más información sobre el uso de los diagnósticos de caras posteriores y hermeticidad para identificar y solucionar problemas con los modelos sólidos](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

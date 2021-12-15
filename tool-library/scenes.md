@@ -1,6 +1,6 @@
-# Szenen
+# Escenas
 
-Sie können einen Ansichtspunkt einer Szene und die zugehörigen visuellen Stile und Layerstatus speichern und anschließend verwenden, um Kamerapunkte einzurichten, um so Walkthroughs zu steuern und ein visuelles Erlebnis zu generieren.
+Puede guardar un punto de vista de "escena" y sus estilos visuales y estados de capa relacionados y, a continuación, utilizarlos para configurar puntos de cámara para dirigir recorridos y contar una historia visual.
 
-Weitere Informationen zur Verwendung von Szenen finden Sie [hier](../formit-primer/part-i/visual-settings.md).
+Obtenga más información sobre el uso de escenas [aquí](../formit-primer/part-i/visual-settings.md).
 

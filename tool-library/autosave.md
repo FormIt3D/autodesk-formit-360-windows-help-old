@@ -1,54 +1,54 @@
-# Automatisch speichern
+# Guardado automático
 
-Ab Version 17.3 umfasst FormIt for Windows die Funktion Automatisch speichern, wodurch eine Sicherungskopie des FormIt-Modells erstellt wird, während Sie arbeiten. Diese Sicherungsdatei kann verwendet werden, um Daten wiederherzustellen, wenn FormIt mit nicht gespeicherten Änderungen geschlossen wird.
+A partir de la versión v17.3, FormIt para Windows incluye la función Guardado automático, que realiza una copia de seguridad del modelo de FormIt mientras trabaja. Este archivo de copia de seguridad se puede utilizar para recuperar datos si FormIt se cierra con cambios no guardados.
 
-### Aktivieren und Deaktivieren von Automatisch speichern
+### Activación y desactivación de Guardado automático
 
-Suchen Sie die Konfigurationsoptionen für Automatisch speichern unter Bearbeiten &gt; Voreinstellungen &gt; Automatisch speichern.
+Las opciones de configuración de la función Guardado automático se encuentran en Editar &gt; Preferencias &gt; Guardado automático.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-Automatisch speichern ist vorgabemäßig aktiviert, kann jedoch durch Deaktivieren des Kontrollkästchens vollständig deaktiviert werden.
+La función Guardado automático está activada por defecto, pero puede desactivarla por completo. Para ello, solo tiene que anular la selección de la casilla.
 
-Legen Sie das Intervall \(in Minuten\) fest, in dem mit Automatisch speichern eine Sicherungskopie erstellt wird, indem Sie einen Wert in das Zahlenfeld Intervall für automatisches Speichern (Minuten) eingeben.
+Establezca el intervalo \(en minutos\) en el que la función Guardado automático realizará una copia de seguridad. Para ello, especifique un valor en el cuadro de número Intervalo de guardado automático.
 
-Beachten Sie, dass diese Voreinstellungen auf Anwendungsebene festgelegt sind und nicht geändert werden, wenn Sie verschiedene Dateien öffnen.
+Tenga en cuenta que estas preferencias son de nivel de aplicación y no cambiarán al abrir archivos diferentes.
 
-### Funktionsweise von Automatisch speichern
+### Funcionamiento de Guardado automático
 
-Wenn die Option Automatisch speichern aktiviert ist, wird abgefragt, ob die aktuelle FormIt-Datei nicht gespeicherte Änderungen enthält. Wenn Änderungen noch nicht gespeichert wurden, wird mit Automatisch speichern im angegebenen Intervall eine Sicherungskopie der Datei erstellt.
+Cuando la función Guardado automático está activada, esta determina si el archivo de FormIt actual tiene cambios sin guardar. Si hay cambios sin guardar, la función Guardado automático crea una copia de seguridad del archivo en el intervalo especificado.
 
-Sicherungsdateien werden neben der ursprünglichen Datei gespeichert und haben die Erweiterung `.axmb`.
+Los archivos de copia de seguridad se almacenan junto al archivo original y presentan la extensión `.axmb`.
 
-Wenn Ihre ursprüngliche FormIt-Datei beispielsweise unter `C:/Users/<user>/FormIt/MyProject.axm` gespeichert ist, befindet sich die Sicherungsdatei unter `C:/Users/<user>/FormIt/MyProject.axmb`.
+Por ejemplo, si el archivo de FormIt original se almacena en `C:/Users/<user>/FormIt/MyProject.axm`, el archivo de copia de seguridad se encuentra en `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-Wenn Sie eine neue FormIt-Sitzung starten, ohne eine vorhandene Datei zu öffnen, können Sie nicht gespeicherte Änderungen unter `C:/Users/<user>/Documents/Untitled.axmb` finden. Wenn Sie das neue Modell an einem anderen Speicherort gespeichert haben, werden bei der Sicherung nicht gespeicherte Änderungen neben dem neuen Speicherort, wie oben beschrieben, hinzugefügt.
+Si inicia una nueva sesión de FormIt sin abrir un archivo existente, los cambios no guardados se encuentran en `C:/Users/<user>/Documents/Untitled.axmb`. Una vez que guarde el nuevo modelo en una ubicación diferente, la copia de seguridad comenzará a añadir cambios sin guardar junto a la nueva ubicación, como se ha indicado anteriormente.
 
-Wenn Sie Änderungen an der ursprünglichen Datei speichern, wird die Sicherungsdatei von der Funktion Automatisch speichern automatisch gelöscht, da die Sicherungsdatei nun älter als die ursprüngliche Datei ist. Wenn Sie anschließend Änderungen an der gespeicherten Datei vornehmen, wird Automatisch speichern jedoch erneut aktiviert, und es wird erneut eine Sicherung wird im angegebenen Intervall erstellt.
+Al guardar cambios en el archivo original, la función Guardado automático suprime el archivo de copia de seguridad ya que esta copia es ahora más antigua que el archivo original. Sin embargo, si se realizan posteriormente cambios en el archivo guardado, la función Guardado automático volverá a iniciar el proceso de copia de seguridad en el intervalo especificado.
 
-Wenn Ihre Arbeitsdatei nicht gespeicherte Änderungen enthält und Sie FormIt schließen und die Änderungen verwerfen, wird die automatische Sicherungskopie gelöscht. Wenn FormIt jedoch geschlossen werden muss – entweder durch das Herunterfahren des Computers oder einen Anwendungsabsturz – bleibt die automatische Sicherungskopie erhalten und kann später zur Wiederherstellung von Daten verwendet werden.
+Si el archivo de trabajo tiene cambios sin guardar y decide cerrar FormIt y descartar los cambios, se suprimirá la copia de seguridad de Guardado automático. Sin embargo, si se fuerza el cierre de FormIt, al apagar el equipo o debido a un bloqueo de la aplicación, el archivo de copia de seguridad de Guardado automático se conservará y se podrá utilizar más adelante para recuperar los datos.
 
-### Arbeiten mit aktivierter Funktion Automatisch speichern
+### Trabajar con la función Guardado automático activada
 
-FormIt minimiert die potenziellen Auswirkungen von Automatisch speichern auf die Leistung, indem die Sicherung in einem separaten Prozess ausgeführt wird. Bei kleinen bis mittelgroßen Dateien sollten Sie den Vorgang der automatischen Sicherung nicht bemerken. Bei sehr großen Dateien \(~400 MB und mehr\) bemerken Sie möglicherweise nur eine kurze Unterbrechung, während FormIt das gesamte Modell kopiert und in einem separaten Prozess mit der Sicherung beginnt.
+FormIt minimiza los posibles efectos en el rendimiento de la función Guardado automático al ejecutar la copia de seguridad en un proceso independiente. En archivos de tamaño pequeño a mediano, no se debería notar el proceso de copia de seguridad de la función Guardado automático. En archivos muy grandes \(~400 MB y superiores\), es posible que observe una pausa momentánea mientras FormIt copia todo el modelo y comienza a realizar una copia de seguridad en un proceso independiente.
 
-Wenn Sie sich fragen, ob die Funktion Automatisch speichern derzeit eine Sicherungskopie erstellt, können Sie in der Statusleiste unten links in der Anwendung nach einer kurzen Meldung zum automatischen Speichern suchen:
+Si se pregunta si se está realizando una copia de seguridad de Guardado automático, puede consultar la barra de estado en la parte inferior izquierda de la aplicación para ver si aparece el mensaje corto "Guardando automáticamente...":
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-Wenn die Statusleiste deaktiviert ist, können Sie sie unter Fenster &gt; Statusleiste oder über den Kurzbefehl HS aktivieren.
+Si la barra de estado está desactivada, puede activarla en la barra de estado de Windows &gt; o mediante el método abreviado HS.
 
-### Wiederherstellen von Daten mit Automatisch speichern
+### Recuperación de datos con Guardado automático
 
-Wenn Sie eine FormIt-Datei mit einer verfügbaren Sicherungskopie öffnen, werden Sie von FormIt darauf hingewiesen, dass die Sicherungsdatei vorhanden ist. Wie bereits erwähnt, kann dies einfach daran liegen, dass Sie FormIt geschlossen haben, ohne die Änderungen an diesem Projekt nach der letzten Bearbeitung zu speichern, oder daran, dass FormIt unerwartet geschlossen wurde.
+Al abrir un archivo de FormIt con una copia de seguridad disponible, FormIt le avisará de que el archivo de copia de seguridad existe. Como se ha indicado anteriormente, esto puede deberse simplemente a que cerró FormIt sin optar por guardar los cambios realizados en este proyecto la última vez que se modificó o a que FormIt se cerró de forma inesperada.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Wenn Sie auf den Hyperlink Öffnen? klicken, wird die `.axmb`-Sicherungsdatei geladen.
+Al hacer clic en el hipervínculo "¿Desea abrirla?", se cargará el archivo de copia de seguridad `.axmb`.
 
-Auf ähnliche Weise können Sie auch Datei &gt; Öffnen verwenden und die `.axmb`-Datei manuell im Datei-Explorer auswählen, um eine Sicherungskopie zu öffnen.
+De forma similar, puede utilizar &Archivo gt; Abrir y seleccionar manualmente el archivo `.axmb` en el explorador de archivos para abrir una copia de seguridad.
 
-Wenn die Sicherungsdatei geöffnet ist, müssen Sie beim nächsten Speichern in FormIt eine andere FormIt-Datei \(`.axm`\) zum Überschreiben auswählen. Sie können keine FormIt-Sicherungsdateien \(`.axmb`\) überschreiben.
+Una vez abierto el archivo de copia de seguridad, la próxima vez que guarde, FormIt le pedirá que seleccione un archivo de FormIt \(`.axm`\) diferente para sobrescribirlo. No se pueden sobrescribir los archivos de copia de seguridad de FormIt \(`.axmb`\).
 
 
 

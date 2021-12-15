@@ -1,10 +1,10 @@
-# Objekt verschieben
+# Mover objeto
 
-1. **Doppelklicken** Sie auf ein Objekt, um es vollständig auszuwählen \(durch einfaches Klicken wird eine Fläche, eine Kante oder ein Scheitelpunkt ausgewählt, wie unter [Ändern von Flächen, Kanten und Punkten](modifying-faces-edges-and-points.md) beschrieben\)
-2. **Klicken Sie mit der rechten Maustaste** auf den Würfel, und wählen Sie das Werkzeug **Gruppe verschieben** aus dem **Kontextmenü** aus. ![](../.gitbook/assets/context-menu.png)
-3. Klicken Sie und ziehen Sie den Kreis an die Stelle, die als **Fangpunkt verwendet werden soll.** ![](../.gitbook/assets/snap-point.png)
-4. **Klicken Sie und beginnen Sie mit dem Ziehen**. Dadurch verschieben Sie das Objekt, wobei der zuvor ausgewählte Punkt als Fangpunkt verwendet wird.   ![](../.gitbook/assets/move-object.png)
-5. Drücken Sie die **Tabulatortaste.** Sie können jetzt den genauen Abstand zum Verschieben des Objekts entlang der aktuellen Achse eingeben.
+1. **Haga doble clic** para seleccionar un objeto completo \(haga clic una vez para seleccionar una cara, un borde o un vértice, lo que se describe en [Modificación de caras, bordes y puntos](modifying-faces-edges-and-points.md)\)
+2. **Haga clic con el botón derecho** en el cubo y seleccione la herramienta **Mover grupo** en el **menú contextual**. ![](../.gitbook/assets/context-menu.png)
+3. Haga clic en el círculo y desplácelo al punto que utilizará como punto de forzado de cursor **.** ![](../.gitbook/assets/snap-point.png)
+4. **Haga clic y, a continuación, empiece a arrastrar**. Está desplazando el objeto; el punto preseleccionado será ahora el punto de forzado de cursor. ![](../.gitbook/assets/move-object.png)
+5. Pulse la tecla **Tab.** Ahora puede introducir una distancia específica para desplazar ese objeto a lo largo del eje actual.
 
 \*\*\*\*
 

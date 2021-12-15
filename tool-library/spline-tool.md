@@ -1,14 +1,14 @@
 # Spline
 
-Mit dem Werkzeug Spline können Sie fließende Formen im Raum oder auf anderen Objekten skizzieren.
+La herramienta Spline permite crear bocetos orgánicos en el espacio o en otros objetos.
 
 ![](../.gitbook/assets/spline.png)
 
-Ein Spline wird durch Interpolation zwischen mindestens drei Punkten gezeichnet. Die verbundene Geometrie wird vereinfacht, wobei eine glatte, fließende Kurve zwischen den angegebenen Punkten entsteht. Wie andere Zeichenwerkzeuge können Splines auch in 3D gezeichnet werden, indem Sie beim Zeichnen 3D-Punkte fangen.
+Una spline se dibuja a partir de al menos tres puntos interpolados. La geometría conectada se simplifica, lo que crea una curva orgánica y suave entre los puntos especificados. Al igual que otras herramientas de dibujo, las splines se pueden dibujar en 3D mediante el forzado de cursor a puntos 3D durante el dibujo.
 
-Um einen Abstand festzulegen, beginnen Sie mit der Eingabe eines Bemaßungswerts und klicken auf OK, oder drücken Sie die EINGABETASTE im Dialogfeld Bemaßung bearbeiten.
+Para especificar una distancia, comience a introducir un valor de cota y pulse Aceptar o Intro en el cuadro de diálogo Editar cota.
 
-Splines können auch geschlossen werden, wodurch eine Fläche entsteht.
+Las splines también pueden cerrarse en sí mismas creando una cara.
 
 ![](../.gitbook/assets/spline2.png)
 

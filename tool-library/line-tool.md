@@ -1,20 +1,20 @@
-# Linien
+# Líneas
 
-Mithilfe von Linien können Sie Flächen teilen und Geometrie konstruieren.
+Utilice líneas para dividir caras y construir geometría.
 
-Tastatur: L
+Teclado: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-Sie können Linien auf der X-, Y- oder Z-Achse und auch auf vorhandener Geometrie zeichnen. Wenn Sie eine Achse fangen, wird eine farbige Linie über die gezeichnete Linie hinaus erstellt, die angibt, auf welcher Achse Sie zeichnen. Sie können die Länge der Linie beim Zeichnen sehen, und Sie können manuell eine bestimmte Länge eingeben, indem Sie die **TABULATORTASTE** drücken und einen Wert eingeben.
+Puede dibujar líneas en los ejes X, Y o Z, así como en la geometría existente. Cuando se fuerza el cursor a un eje, una línea de color se extiende más allá de la línea que se está dibujando para indicar en qué eje se está dibujando. Puede ver la longitud de la línea a medida que la dibuja. También, puede introducir manualmente una longitud específica. Para ello, pulse la tecla **Tab** e introduzca un valor.
 
-Linienfarben nach Achse:
+Colores de línea por eje:
 
-Um eine Länge anzugeben, geben Sie einfach einen Bemaßungswert ein. Daraufhin wird das Dialogfeld Bemaßung bearbeiten angezeigt. Klicken Sie auf OK, oder drücken Sie die EINGABETASTE, um den Wert zu übernehmen.
+Para especificar una longitud, escriba un valor de cota; aparecerá el cuadro de diálogo Editar cota. Pulse Aceptar o Intro para aceptar el valor.
 
-* X = Rot
-* Y = Grün
-* Z = Blau
+* X = Rojo
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/lines.png)
 

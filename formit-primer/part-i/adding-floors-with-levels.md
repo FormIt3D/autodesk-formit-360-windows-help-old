@@ -1,36 +1,36 @@
-# 1.4 – Hinzufügen von Geschossen mit Ebenen
+# 1.4 - Añadir suelos con niveles
 
-_Mithilfe von Ebenen können Sie Körper mit einzelnen Geschossbezügen segmentieren und die Bruttofläche nach Gebäudekörper berechnen. FormIt-Ebenen und deren benutzerdefinierte Namen werden in Revit-Ebenen umgewandelt, wenn die Datei in Revit konvertiert wird._
+_Los niveles permiten segmentar masas con referencias de suelo individuales y calcular el área bruta por masa de edificio. Los niveles de FormIt y sus nombres personalizados se convertirán en niveles de Revit cuando el archivo se convierta a Revit._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei **1.4 – Add Floors with Levels.axm** aus **FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado la última sección, descargue y abra el archivo **1.4 - Add Floors with Levels.axm** de los **conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Erstellen und Anpassen von Ebenen**
+## **Crear y personalizar niveles**
 
-1 – So erstellen Sie Ebenen
+1 - Para crear niveles, realice lo siguiente:
 
-1. Wechseln Sie zur **Palette Ebene** in der **Palettenleiste**.
-2. Klicken Sie viermal auf **+** \(**Ebene hinzufügen**\), um vier Ebenen zu erstellen.
-3. Doppelklicken Sie auf die aktuelle Höhe der einzelnen Ebenen, um sie in **0'-0", 2'-2", 4'-6"** und **17'-8"** zu ändern.
-4. Doppelklicken Sie auf den aktuellen Namen der einzelnen Ebenen, und benennen Sie sie um: **Ground, Terrace, Main Building** und **Top of Roof**
+1. Vaya a la **paleta Nivel** en la **barra de paletas**.
+2. Haga clic en **+** \(**Añadir nivel**\) cuatro veces para crear cuatro niveles.
+3. Haga doble clic en la elevación actual de cada nivel para modificarla a **0'-0", 2'-2", 4'-6"** y **17'-8"**.
+4. Haga doble clic en el nombre actual de cada nivel y cámbieles el nombre a **Suelo, Terraza, Edificio principal** y **Parte superior de la cubierta.**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Anmerkung**: Sie können auf das Symbol_ _**++**_ _klicken, um mehrere Ebenen mit einem bestimmten und einheitlichen Abstand zu erstellen. Dies ist für mehrstöckige Gebäude praktisch_.
+_**Nota** Puede hacer clic en el icono __**++**__ para crear varios niveles con una distancia especificada y uniforme. Esto es útil para edificios de varias plantas_.
 
-## **Anwenden von Ebenen auf Geometrie**
+## **Aplicar niveles a geometría**
 
-_In den vorherigen Schritten haben wir nur Ebenen erstellt. Jetzt können wir diese Ebenen auf die erstellte Geometrie anwenden._
+_En los pasos anteriores, solo hemos creado niveles. Ahora ya podemos aplicar esos niveles a la geometría que hemos creado._
 
-1 – So wenden Sie Ebenen auf die vorhandene Geometrie an
+1 - Para aplicar niveles a la geometría existente, realice lo siguiente:
 
-1. Wählen Sie den gesamten oberen Terrassenkörper durch Doppelklicken aus.
-2. Klicken Sie in der **Eigenschaftenpalette** auf **Ebenen verwenden**. In diesem Schritt werden alle Ebenen, die die ausgewählte Geometrie aktuell schneiden, vorausgewählt.
-3. Auf die derzeit ausgewählte Geometrie sind drei Ebenen angewendet \(**Main Building, Terrace,** und **Ground**\). In dieser Übung soll jedoch nur **Ground** angewendet werden. Deaktivieren Sie **Main Building** und **Terrace**.
-4. Dadurch wird sichergestellt, dass nur die Fläche, die von **Ground** geschnitten wird, für die Berechnung der Bruttofläche berücksichtigt wird, die im Feld **Fläche nach Ebene** angezeigt wird.
+1. Haga doble clic en la masa de terraza superior completa para seleccionarla.
+2. En la **paleta Propiedades**, haga clic en **Utilizar niveles**. Este paso preseleccionará todos los niveles que se intersequen actualmente con la geometría seleccionada.
+3. Ahora se le han aplicado tres niveles a la geometría seleccionada **(Edificio principal, Terraza** y **Suelo**\), pero en este ejercicio solo deseamos aplicar **Suelo**. Desactive **Edificio principal** y **Terraza**.
+4. Este proceso garantiza que solo se tenga en cuenta el área intersecada por **Suelo** para el cálculo del área bruta, que se puede ver en el campo **Área por nivel**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Anmerkung**: Wenn am Körper keine blauen Ebenenlinien angezeigt werden, geben Sie_ _**DL**_ _für_ _**Ebenen anzeigen** ein._
+_**Nota** Si no aparecen líneas de nivel de color azul en la masa, escriba_ _**DL**_ _para activar la opción_ _**Mostrar niveles**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

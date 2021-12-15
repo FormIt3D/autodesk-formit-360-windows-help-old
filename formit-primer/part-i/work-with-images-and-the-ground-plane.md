@@ -1,93 +1,93 @@
-# 1.2 – Projekteinrichtung mit Bildern und Raster
+# 1.2 - Configuración de proyectos con imágenes y rejilla
 
-_Sie können PNG- oder JPG-Bilder auf die Grundplatte des Modells importieren, indem Sie in der Navigationsleiste Datei &gt; Importieren auswählen. Um jedoch die Kontrolle über den Maßstab und die Position eines importierten Bilds zu erhalten, können Sie ein benutzerdefiniertes Material erstellen und es auf ein selbst gezeichnetes Rechteck anwenden._
+_Puede importar imágenes PNG o JPG en el plano de suelo del modelo. Para ello, seleccione Archivo > Importar desde la barra de navegación. Sin embargo, para obtener un mayor control sobre la escala y la posición de una imagen importada, podemos crear un material personalizado y aplicarlo a un rectángulo que hemos dibujado nosotros mismos._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.2 – Project Setup with Images and Grid.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado la última sección, abra el archivo_ _**1.2 - Project Set Up with Images and Grid.axm**_ _del_ _**conjunto de datos de la parte 1 de FormIt Primer**._
 
-## **Berechnen der Bildgröße**
+## **Calcular el tamaño de la imagen**
 
-Die bereitgestellte Datei **plan.png** ist ein Bild eines Plans, der auf einem Blatt mit den Maßen 24'' x 26'' \(ARCH D\) gedruckt wurde, das 3600 Pixel breit und 2400 Pixel hoch ist. Wenn Sie den Zeichnungsmaßstab \(¼" = 1'-0"\) und die Bildabmessungen kennen, können Sie berechnen, dass 1' = 25 Pixel, d. h., das Bild sollte beim Import in FormIt im vollen Maßstab 144' x 96' betragen.
+El archivo **plan.png** proporcionado es una imagen de un plano impreso en un hoja \(ARCH D\) de 24" x 26", cuya anchura es de 3600 píxeles y su altura es de 2400 píxeles. Al conocer la escala de dibujo \(¼"=1'-0"\) y las cotas de imagen, puede calcular que 1' es igual a 25 píxeles, lo que significa que la imagen debe presentar un tamaño de 144' x 96' cuando se importa a escala completa en FormIt.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Maßstabsgetreues Importieren eines Bilds**
+## **Importar una imagen para ajustar su escala**
 
-1 – Klicken Sie in der **verschiebbaren Navigationsleiste** auf das Symbol **Draufsicht**, um die Szene von oben anzuzeigen.
+1 - Haga clic en el icono **Vista superior** de la **barra de navegación flotante** para ver la escena desde arriba.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 – Wählen Sie im Werkzeugkasten 3D-Skizze das **Werkzeug Rechteck \(R\)**.
+2 - Seleccione la **herramienta Rectángulo \(R\)** en la barra de herramientas Boceto 3D.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – Um ein Rechteck zu erstellen, das genau **144'** x **96'** entspricht, klicken Sie auf eine beliebige Stelle im Arbeitsbereich, um den Startpunkt zu definieren, und bewegen Sie dann die Maus, um eine Vorschau anzuzeigen und die erste Seitenlänge zu definieren. Beginnen Sie mit der Eingabe eines Bemaßungswerts, um ein Dialogfeld zu öffnen, in dem Sie die genaue Bemaßung eingeben können. Klicken Sie auf **OK**, oder drücken Sie die **EINGABETASTE**, um die Bemaßung zu bestätigen. Wiederholen Sie den Vorgang, um die Länge der zweiten Seite festzulegen und das Rechteck fertigzustellen.
+3 - Para crear un rectángulo con un tamaño exacto de **144'** x **96'**, haga clic en cualquier lugar del espacio de trabajo para definir el punto inicial y, a continuación, mueva el ratón para obtener una vista preliminar y definir la longitud del primer lado. Empiece a escribir un valor de cota para acceder a un cuadro de diálogo en el que puede introducir la cota exacta. Haga clic en **Aceptar** o pulse la tecla **Intro** para confirmar la cota. Repita el proceso para establecer la longitud del segundo lado y finalizar el rectángulo.
 
-![ Geben Sie die Länge für die erste Seite des Rechtecks ein.](../../.gitbook/assets/3%20%281%29.png)
+![Introduzca la longitud del primer lado del rectángulo.](../../.gitbook/assets/3%20%281%29.png)
 
-![Geben Sie die Länge für die zweite Seite des Rechtecks ein.](../../.gitbook/assets/4%20%281%29.png)
+![Introduzca la longitud del segundo lado del rectángulo.](../../.gitbook/assets/4%20%281%29.png)
 
-![Stellen Sie das Rechteck fertig.](../../.gitbook/assets/5%20%281%29.png)
+![Finalice el rectángulo.](../../.gitbook/assets/5%20%281%29.png)
 
-4 – So erstellen Sie das neue Material Floor Plan
+4 - Para crear el nuevo material "Plano de planta", realice lo siguiente:
 
-1. Öffnen Sie die **Palette Material**.
-2. Klicken Sie auf das **+**-Symbol, um ein neues Material zu erstellen.
-3. Nennen Sie das neue Material **Floor Plan**
-4. Klicken Sie unter **MAPS** auf die Vorschaukachel **Textur**, und navigieren Sie im Ordner **Farnsworth House Data Set &gt; Supporting Files &gt; Images** zu **plan.png**. Klicken Sie dann auf **Öffnen**.
-5. Ändern Sie unter **EIGENSCHAFTEN** den Maßstab des Bilds, indem Sie **144'** in das Feld **Horizontaler Maßstab** und **96'** in das Feld **Vertikaler Maßstab** eingeben. Beachten Sie, dass möglicherweise eine Entsperrung des horizontalen und vertikalen Maßstabs \(**Kettenglied**-Symbol\) erforderlich ist, um Werte einzufügen, mit denen die Bildproportionen geändert werden können.
-6. Aktivieren Sie **Transparenz**, und setzen Sie diese auf ungefähr die Hälfte. Dadurch wird das importierte Grundrissbild am Satellitenbild ausgerichtet.
-7. Klicken Sie zum Schließen des Materials auf **OK**.
+1. Abra la **paleta Materiales**.
+2. Haga clic en el icono **+** para crear un material nuevo.
+3. Asigne al nuevo material el nombre "**Plano de planta".**
+4. En **MAPAS**, haga clic en el mosaico de vista preliminar de **textura** y vaya al archivo **plan.png** de la carpeta **Farnsworth House Data Set &gt; Supporting Files &gt; Images**. A continuación, haga clic en **Abrir**.
+5. En **PROPIEDADES**, cambie la escala de la imagen. Para ello, introduzca **144'** en el campo **Escala horizontal** y **96'** en el campo **Escala vertical**. Tenga en cuenta que puede que sea necesario desbloquear la escala horizontal y vertical \(**icono de eslabón de cadena**\) para insertar valores que cambien las proporciones de la imagen.
+6. Active **Transparencia** y establezca su valor en aproximadamente la mitad. Esto ayudará a alinear la imagen del plano de planta importada con la imagen de satélite.
+7. Haga clic en **Aceptar **para finalizar el material.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 – So versehen Sie das Rechteck mit einem Material
+5 - Para pintar el rectángulo, realice lo siguiente:
 
-1. Klicken Sie in der **Palette Material** auf die Kachel des **Grundrissmaterials**, um dieses Material zu verwenden.
-2. Klicken Sie auf das skizzierte Rechteck, um es mit dem Material zu versehen. Drücken Sie **ESC**, um das Malpinsel-Werkzeug zu beenden.
+1. En la **paleta Materiales**, haga clic una vez en el mosaico **Material de plano de planta** para pintar con este material.
+2. Haga clic en el rectángulo que ha dibujado para pintarlo. Pulse **Esc** para salir de la herramienta Pincel.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 – Wenn das Material invertiert oder rückwärts angezeigt wird, müssen Sie möglicherweise die Fläche umkehren. Klicken Sie dazu mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie die Schaltfläche Fläche umkehren \(FF\) aus.
+6 - Si el material aparece invertido o hacia atrás, es posible que deba invertir la cara. Para ello, haga clic con el botón derecho del ratón para acceder al **menú contextual** y seleccione el botón Invertir cara \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Ausrichten des importierten Bilds am Satellitenbild**
+## **Alinear la imagen importada con la imagen de satélite**
 
-1 – Um das Bild zu verschieben, wählen Sie zunächst das Rechteck durch Doppelklicken aus. Klicken Sie dann auf das Rechteck, und ziehen Sie es, bis es das Gebäude im Satellitenbild überlappt. Sie werden es später noch optimal ausrichten. Versuchen Sie vorerst nur, es ungefähr richtig zu positionieren.
+1 - Para mover la imagen, seleccione primero el rectángulo. Para ello, haga doble clic en él. A continuación, haga clic en el rectángulo y arrástrelo hasta que solape con el edificio de la imagen de satélite. Volveremos a alinearlo perfectamente más tarde; por el momento, solo vamos a intentar acercarlo.
 
 ![](../../.gitbook/assets/9.png)
 
-2 – So drehen Sie das Rechteck, um es am Satellitenbild auszurichten
+2 - Para rotar el rectángulo a fin de alinearlo con la imagen de satélite:
 
-1. Klicken Sie mit der rechten Maustaste auf das Rechteck, um das Kontextmenü aufzurufen. Wählen Sie **Drehen \(Q\).**
-2. Das **Drehen-Widget** wird in der Mitte des Rechtecks angezeigt. Wählen Sie das Widget aus, indem Sie einmal auf den orangefarbenen Griff in der Mitte klicken. Verschieben Sie das Widget in die untere linke Ecke des Rechtecks. Es wird an der Ecke gefangen. Positionieren Sie es per Mausklick.
-3. Geben Sie **9** ein. Daraufhin wird das Bemaßungsfeld angezeigt. Klicken Sie auf **OK**, um das Rechteck um 9 Grad gegen den Uhrzeigersinn zu drehen.
+1. Haga clic con el botón derecho en el rectángulo para abrir el menú contextual. Seleccione **Rotar \(Q\).**
+2. El **widget de rotación** aparece en el centro del rectángulo. Seleccione el widget. Para ello, haga clic una vez en el pinzamiento naranja situado en el centro. Desplace el widget a la esquina inferior izquierda del rectángulo. Se forzará el cursor a la esquina. Haga clic para colocarlo.
+3. Introduzca **9**; aparecerá el cuadro de cota. Haga clic en el botón **Aceptar** para rotar el rectángulo 9 grados en sentido antihorario.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Ausrichten des Rasters am Satellitenbild**
+## **Alinear la rejilla con la imagen de satélite**
 
-1 – Jetzt richten Sie das Raster am Satellitenbild und am Grundriss aus. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle auf der **Grundplatte**, und wählen Sie **Achsen festlegen (SZ)**.
+1 - Ahora, vamos a alinear la rejilla con la imagen de satélite y el plano de planta. Haga clic con el botón derecho en cualquier lugar del **plano de suelo** y seleccione **Establecer ejes \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – Das Widget **Achse festlegen** wird angezeigt. Verschieben Sie die Achse in die untere linke Ecke des Rechtecks, wo sie gefangen werden soll. Positionieren Sie sie per Mausklick.
+2 - Aparecerá el widget para **establecer ejes**. Desplace el eje a la esquina inferior izquierda del rectángulo, donde se debería forzar el cursor. Haga clic para colocarlo.
 
 ![](../../.gitbook/assets/13.png)
 
-3 – Klicken Sie auf den Griff am Ende der roten Achse. Verschieben Sie den Griff in die untere rechte Ecke des Rechtecks, sodass die rote Achse an der unteren Kante der Ebene ausgerichtet ist. Klicken Sie in den Raum, um diese Änderung zu übernehmen.
+3 - Haga clic en el pinzamiento situado en el extremo del eje rojo. Desplace el pinzamiento a la esquina inferior derecha del rectángulo para que el eje rojo se alinee con el borde inferior del plano. Haga clic fuera del espacio para confirmar este cambio.
 
 ![](../../.gitbook/assets/14.png)
 
-4 – Um die Ansicht am neuen Raster auszurichten, klicken Sie in der Navigationsleiste auf das Symbol für die Draufsicht, um die Szene zurückzusetzen.
+4 - Para alinear la vista con la nueva rejilla, haga clic en el icono Vista superior de la barra de navegación para restablecer la escena.
 
 ![](../../.gitbook/assets/15.png)
 
-5 – Um sicherzustellen, dass das Gebäude in beiden Bildern überlappt, wählen Sie den Plan aus, um ihn erneut zu verschieben, bis er das Satellitenbild korrekt überlappt.
+5 - Para garantizar que el edificio de ambas imágenes se solape, seleccione el plano para desplazarlo una vez más hasta que se solape correctamente con la imagen de satélite.
 
 ![](../../.gitbook/assets/16.png)
 
-6 – Das Satellitenbild, das Rechteck und das Raster sind jetzt ausgerichtet, was die 3D-Skizzierung vereinfacht.
+6 - La imagen de satélite, el rectángulo y la rejilla ahora están alineados, lo que simplificará el boceto 3D.
 

@@ -1,81 +1,81 @@
-# Railing Along Path (Geländer entlang Pfad)
+# Railing Along Path
 
-## Powered by Dynamo
+## Con tecnología de Dynamo
 
-In FormIt 2021 und höher können Sie ein Geländer entlang eines Pfads erstellen und die Ergebnisse sofort und direkt anpassen. Railing Along Path (Geländer entlang Pfad) wird von Dynamo unterstützt, d. h., das resultierende Geländer kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
+En FormIt 2021 y versiones posteriores, puede generar una barandilla a lo largo de un camino y personalizar rápidamente los resultados in situ. La herramienta "Railing Along Path" cuenta con tecnología de Dynamo, lo que significa que la barandilla resultante se puede configurar fácilmente para obtener los resultados deseados y si se vuelve a ejecutar la lógica, se actualizará la geometría in situ.
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Starten von Railing Along Path (Geländer entlang Pfad)
+## Inicio de "Railing Along Path"
 
-* Wechseln Sie zur Gruppe Dynamo in FormIt for Windows, und stellen Sie sicher, dass Sie sich im Verzeichnis Dynamo Samples (Dynamo-Beispiele) befinden.
-* Klicken Sie auf das Beispiel für Railing Along Path (Geländer entlang Pfad).
-* Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen des Pfads für das Geländer angezeigt.
-   * Sie sollten nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die nur eine Reihe von Kanten enthält, auswählen.
-   * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
-* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird ein in Dynamo generiertes Geländer in einer FormIt-Gruppe angezeigt, das Sie bearbeiten können \(siehe unten\).
+* Vaya al panel Dynamo en FormIt para Windows y asegúrese de que se encuentra en el directorio de muestras de Dynamo.
+* Haga clic en la muestra "Railing Along Path".
+* En el lado izquierdo de la pantalla, aparecerá una solicitud para seleccionar un camino para la barandilla.
+   * Aquí, debe seleccionar solo una serie de bordes contiguos o un grupo que contenga solo una serie de bordes.
+   * Una vez que haya seleccionado el camino, haga clic en el botón "finish" o pulse Intro.
+* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una barandilla generada por Dynamo en un grupo de FormIt, lista para modificar \(consulte la información mostrada a continuación\).
 
-## Erstellen von Iterationen an Ort und Stelle
+## Iteración in situ
 
-Nachdem Sie Railing Along Path (Geländer entlang Pfad) ausgeführt haben, werden Sie feststellen, dass die Ergebnisse auf die Vorgabewerte eingestellt sind. Diese Einstellungen sind möglicherweise für Sie geeignet. Sie können das Geländer aber auch umfassend an Ihre Anforderungen anpassen.
+Después de ejecutar "Railing Along Path", observará que sus resultados se han establecido en los valores por defecto. Es posible que le parezcan satisfactorios estos valores, pero también puede personalizar la barandilla para adaptarla a sus necesidades.
 
-Wenn Railing Along Path (Geländer entlang Pfad) ausgeführt wird, wird eine neue Gruppe mit den Ergebnissen erstellt. FormIt wählt dann automatisch die Gruppe aus und zeigt die verfügbaren Optionen für dieses Exemplar von Railing Along Path (Geländer entlang Pfad) an.
+Cuando se ejecuta, esta función crea un nuevo grupo que contiene los resultados y FormIt selecciona automáticamente el grupo y las opciones disponibles para ese ejemplar de "Railing Along Path".
 
-Sie können jederzeit zu den Eigenschaften für Railing Along Path (Geländer entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Properties (Eigenschaften) angezeigt werden.
+Siempre puede volver a las propiedades de "Railing Along Path". Para ello, seleccione el grupo y cambie al panel Propiedades o modifique el grupo que mostrará automáticamente las propiedades.
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height (Geländerhöhe)
+### Altura de barandilla
 
-Die Gesamthöhe des Geländers. Verwendet die aktuellen FormIt-Einheiten.
+La altura total de la barandilla. Utiliza las unidades actuales de FormIt.
 
-### Post Spacing (Pfostenabstand)
+### Post Spacing
 
-Der Abstand zwischen den vertikalen Hauptpfosten. Verwendet die aktuellen FormIt-Einheiten.
+La distancia entre las pilastras verticales principales. Utiliza las unidades actuales de FormIt.
 
-### Add Posts at Path Vertices (Hinzufügen von Pfosten an Pfadscheitelpunkten)
+### Add Posts at Path Vertices
 
-Wenn **True**, werden an jedem Scheitelpunkt des ausgewählten Pfads Pfosten hinzugefügt, und die Berechnung für die nächste Pfostenpositionierung wird an diesem Punkt zurückgesetzt.
+Si se establece en **True**, las pilastras se añadirán en cada vértice del camino seleccionado y el cálculo de la siguiente posición de la pilastra se restablecerá en ese punto.
 
-Wenn Sie beispielsweise eine Reihe von drei Kanten ausgewählt haben, wird an jedem der beiden inneren Punkte ein Pfosten angezeigt. Dies ist nützlich, wenn die Scheitelpunkte eine Richtungsänderung \(z. B. Treppensteigen oder um die Ecke biegen\) an Stellen angeben, an denen natürlicherweise ein Pfosten auftreten würde.
+Por ejemplo, si ha seleccionado una serie de tres bordes, aparecerá una pilastra en cada uno de los dos puntos interiores. Esto resulta útil si los vértices indican un cambio de dirección \(como subir escaleras o girar esquinas\) en el que se colocará de forma natural una pilastra.
 
-Wenn **False**, werden Pfosten nur entlang des Pfads hinzugefügt. Dabei wird an einem Ende begonnen, und die Entfernung entlang des Pfads wird gemessen. Dabei werden Scheitelpunkte entlang des Pfads ignoriert. Dies ist hilfreich, wenn Sie einen Bogen, Spline oder Kreis ausgewählt haben, bei dem die Scheitelpunkte nicht von Bedeutung sind und vom Pfostenabstand ignoriert werden sollen.
+Si se establece en **False**, las pilastras solo se añadirán a lo largo del camino empezando desde un extremo y midiendo la distancia a lo largo del camino, omitiendo los vértices a lo largo de la trayectoria. Esto resulta útil si ha seleccionado un arco, una spline o un círculo, donde los vértices no son importantes y desea que la distancia entre pilastras los omita.
 
-### Reverse Path Direction (Pfadrichtung umkehren)
+### Reverse Path Direction
 
-Bei der Berechnung der Positionierung der Pfosten bestimmt die Richtung des ausgewählten Pfads, an welchem Ende des Pfads die Abstandsmessung für die Pfosten beginnt.
+Al calcular la posición de las pilastras, la dirección del camino seleccionado determinará el extremo del camino en el que se iniciará la medición de la distancia entre pilastras.
 
-In Fällen, in denen der Abstand der Pfosten zu einem verbleibendem Abstand an einem unerwünschten Ende des Pfads führt, können Sie diesen Wert in **True** ändern, um die Kurve umzukehren, und die Messung des Pfostenabstands am gegenüberliegenden Ende beginnen.
+En los casos en que la distancia entre pilastras dé como resultado el espacio restante en un extremo no deseado del camino, puede cambiar este valor a **True** para voltear la curva e iniciar la medición de la separación entre pilastras en el extremo opuesto.
 
-### Post Width + Depth (Pfostenbreite und -tiefe)
+### Post Width + Post Depth
 
-Die Größe \(in der Draufsicht\) der rechteckigen vertikalen Pfostenprofile. Verwendet die aktuellen FormIt-Einheiten.
+El tamaño \(en plano\) de los perfiles de pilastra vertical rectangular. Utiliza las unidades actuales de FormIt.
 
-### Handrail Width + Height (Handlaufbreite und -höhe)
+### Handrail Width + Handrail Height
 
-Die Größe \(in der Schnittansicht\) des rechteckigen Handlaufprofils. Verwendet die aktuellen FormIt-Einheiten.
+El tamaño \(en sección\) del perfil de pasamanos rectangular. Utiliza las unidades actuales de FormIt.
 
-### Baluster Orientation (Ausrichtung der vertikalen Holmen)
+### Baluster Orientation
 
-Wenn für diese Option True eingestellt ist, werden vertikale Holme wie Kabel horizontal ausgerichtet. Wenn False festgelegt wurde, werden die vertikalen Holme vertikal ausgerichtet, um eine traditionellere Ästhetik zu erzielen.
+Si se establece en "True", los balaustres se orientarán horizontalmente, como los cables. Si se establece en "False", los balaustres se orientarán verticalmente para obtener una estética más tradicional.
 
-### Baluster width + Depth (Stärke und Tiefe vertikaler Holme)
+### Baluster Width + Baluster Depth
 
-Die Größe des rechteckigen Profils von vertikalen Holmen. Verwendet die aktuellen FormIt-Einheiten.
+El tamaño del perfil rectangular del balaustre. Utiliza las unidades actuales de FormIt.
 
-### Baluster Spacing (Abstand vertikaler Holme)
+### Baluster Spacing
 
-Der Abstand zwischen den einzelnen vertikalen Holmen. Verwendet die aktuellen FormIt-Einheiten.
+La cantidad de espacio entre cada balaustre. Utiliza las unidades actuales de FormIt.
 
-### Bottom Rail Start Height (Anfangshöhe des Türkantriegels)
+### Bottom Rail Start Height
 
-Der Abstand zwischen der Unterkante des Geländers und dem Türkantriegel, auf dem die vertikalen Holme aufliegen. Verwendet die aktuellen FormIt-Einheiten.
+La distancia entre la parte inferior de la barandilla y el barandal inferior que soporta los balaustres. Utiliza las unidades actuales de FormIt.
 
-### Run (Ausführen)
+### Ejecutar
 
-Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
+Después de editar las opciones, haga clic en el botón Ejecutar para ejecutar el gráfico subyacente de Dynamo y generar nuevos resultados. Este botón se colorea de azul cuando se han modificado los parámetros, por lo que debe hacer clic en él para ver las actualizaciones en la geometría final.‌
 
-### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)
+### Editar gráfico incrustado
 
-Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
+Al hacer clic en este botón, se inicia el entorno del editor de gráficos de Dynamo, por lo que puede ver y editar el gráfico subyacente de Dynamo para cambiar los parámetros y ver las actualizaciones directas con mayor rapidez o para inspeccionar o ajustar la lógica.
 

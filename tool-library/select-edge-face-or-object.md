@@ -1,34 +1,34 @@
-# Auswahl
+# Selección
 
-## Direkte Auswahl
+## Selección directa
 
-Zum **Auswählen eines Scheitelpunkts, einer Kante oder Fläche** bewegen Sie den Mauszeiger über das Objekt und klicken einmal, um es auszuwählen.
+Para **seleccionar un vértice, un borde o una cara**, coloque el cursor sobre el objeto y, a continuación, haga clic una vez para seleccionarlo.
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-Um **ein ganzes Objekt** oder ein Objekt und alle verknüpften Elemente auszuwählen, doppelklicken Sie auf das Objekt.
+Para **seleccionar un objeto completo** o un objeto y cualquier elemento enlazado a él, haga doble clic en el objeto.
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-Sie können auch die STRG- oder UMSCHALTTASTE gedrückt halten und Elemente zur aktuellen Auswahl hinzufügen oder daraus entfernen.
+También puede mantener pulsada la tecla Ctrl o Mayús y añadir o eliminar elementos de la selección actual.
 
-## Auswahlfilterung
+## Filtrado de la selección
 
-Für die Flächen- oder Lasso-Auswahl \(siehe unten\) können Sie die Auswahl nach Typ filtern.
+Para la selección de área o de forma irregular \(vea la imagen mostrada continuación\), puede filtrar la selección en función del tipo.
 
-Dies ist besonders nützlich, wenn verschiedene Geometrietypen nahe beieinander liegen und Sie die Flächen- oder Lasso-Auswahl verwenden möchten, um ein breites Netz zu werfen, aber nur einen bestimmten Geometrietyp erhalten möchten, während andere ausgeschlossen werden sollen.
+Esto resulta muy útil cuando hay diferentes tipos de geometría muy cerca y desea usar la selección de área o de forma irregular para realizar una selección amplia que recupere un determinado tipo de geometría, sin incluir los demás.
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## Flächen-/Fensterauswahl
+## Selección de área/ventana
 
-Zur **Auswahl mehrerer Geometrieobjekte auf einmal** verwenden Sie die Fensterauswahl. Stellen Sie sicher, dass nichts ausgewählt ist. Klicken Sie dann, und ziehen Sie die Maus entweder von links nach rechts oder von rechts nach links, um mehrere Objekte zu erfassen.
+Para **seleccionar varias partes de la geometría simultáneamente**, utilice la herramienta de selección de ventana. Asegúrese de que no haya nada seleccionado y, a continuación, haga clic y arrastre el ratón de izquierda a derecha o de derecha a izquierda para capturar varias piezas.
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso-Auswahl
+## Selección de forma irregular
 
-Verwenden Sie das Lassowerkzeug, wenn Sie mehrere Geometrieobjekte mit **größerer Präzision** auswählen möchten. Es steht im Kontextmenü zur Verfügung, das Sie durch Rechtsklicken im leeren Arbeitsbereich aufrufen. Zeichnen Sie dann eine Begrenzung um den gewünschten Auswahlbereich.
+Para obtener un **control más preciso** al seleccionar simultáneamente varias piezas de geometría, utilice la herramienta Selección de forma irregular. Puede seleccionarla en el menú contextual después de hacer clic con el botón derecho en el lienzo vacío. A continuación, dibuje un contorno alrededor del área de selección deseada.
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)

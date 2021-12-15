@@ -1,43 +1,43 @@
-# Abdeckung, Sweep, Erhebung
+# Recubrimiento, Barrido y Solevación
 
-Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderungen vorzunehmen, die einem aus Kanten bestehenden Pfad folgen, und mehrere Profile oder Kanten zu verbinden.
+Cierre bordes abiertos, realice cambios de geometría a lo largo de un camino de bordes y conecte varios perfiles o bordes.
 
-## So schließen Sie eine Reihe von Flächen
+## Para cerrar una serie de caras
 
-1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Abdeckung**.  ![](../.gitbook/assets/cover-tool.png)
-2. Klicken Sie auf die Kanten des abzudeckenden Objekts.
+1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Recubrimiento**. ![](../.gitbook/assets/cover-tool.png)
+2. Haga clic en los bordes del objeto al que desea aplicar el recubrimiento.
 
 ![](../.gitbook/assets/cover_tool1.png)
 
-3. Klicken Sie auf **Fertig stellen**    
-   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG).
+3. Haga clic en **Finalizar.**    
+   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
 
-## So erstellen Sie ein Sweeping für die Geometrie entlang einem Pfad
+## Para barrer la geometría a lo largo de un camino
 
-1. Verwenden Sie eine Linie, um die Fläche eines zu schneidenden Objekts zu markieren. ![](../.gitbook/assets/sweep.png)
-2. Klicken Sie auf das Symbol des Werkzeugs Sweep.   ![](../.gitbook/assets/sweep-tool.png)
-3. Wählen Sie die zuvor markierte Fläche aus.
+1. Utilice una línea para marcar la cara de un objeto que desea cortar. ![](../.gitbook/assets/sweep.png)
+2. Haga clic en el icono de la herramienta Barrido. ![](../.gitbook/assets/sweep-tool.png)
+3. Seleccione la cara que ha marcado anteriormente.
 
         ![](../.gitbook/assets/sweep2.png) 
 
-4. Wählen Sie die zu bearbeitende Kante aus.
+4. Seleccione el borde que desea cortar.
 
    ![](../.gitbook/assets/sweep3.png)
 
-5. Klicken Sie auf das Symbol **Fertig stellen**.  Das Originalobjekt wird am Sweep-Pfad entlang geändert. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+5. Haga clic en el icono **Finalizar**. El objeto original se modifica a lo largo del camino de barrido. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-## So erheben Sie mehrere Profile oder Kanten
+## Para solevar varios perfiles o bordes
 
-1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Erhebung**.  ![](../.gitbook/assets/loft-tool.png)
-2. Wählen Sie die Fläche oder Kanten aus, die Sie auf dem ersten Objekt erheben möchten.
+1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Solevación**. ![](../.gitbook/assets/loft-tool.png)
+2. Seleccione la cara o los bordes que desea solevar en el primer objeto.
 
    ![](../.gitbook/assets/loft1.png)
 
-3. Wählen Sie die Fläche oder Kanten aus, die Sie auf dem zweiten Objekt erheben möchten. Wiederholen Sie diesen Schritt für weitere Objekte.
+3. Seleccione la cara o los bordes que desea solevar en el segundo objeto. Repita este paso para los objetos adicionales.
 
    ![](../.gitbook/assets/loft2.png)
 
-4. Klicken Sie auf das Symbol **Fertig stellen**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+4. Haga clic en el icono **Finalizar**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
    ![](../.gitbook/assets/loft3.png)
 

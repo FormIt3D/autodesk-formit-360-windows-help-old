@@ -1,13 +1,13 @@
-### Boolesche Operationen
-Ändern Sie Objekte mithilfe der Operationen zum Verbinden und Schneiden.
+### Operaciones booleanas
+Utilice las operaciones Unir y Cortar para modificar objetos.
 
-#### Verbinden
-Wählen Sie alle Objekte aus, die Sie in die boolesche Verbindung aufnehmen möchten. Wählen Sie dann das **Werkzeug Verbinden** aus dem Kontextmenü. Der Bereich, in dem die Geometrie sich überschneidet/überlappt, wird innerhalb eines Objekts zusammengeführt.
+#### Juntar
+Para realizar una unión, seleccione todos los objetos que desee establecer como booleanos. A continuación, seleccione la **herramienta Unir** en el menú contextual. La parte intersecante/solapada de la geometría se unirá a un objeto.
 
 ![](images/join tool.png)
 
-#### Ausschneiden
-Um Volumina von bestehender Geometrie zu subtrahieren, wählen Sie zunächst das Originalobjekt aus. Wählen Sie anschließend das von diesem zu subtrahierende Objekt aus. Wählen Sie dann das **Werkzeug Ausschneiden** aus dem Kontextmenü. Das Schnittvolumen wird vom Originalobjekt subtrahiert.
+#### Cortar
+Para sustraer volúmenes de la geometría existente, seleccione primero el objeto original. A continuación, seleccione el objeto que desea sustraer de él. Después, seleccione la **herramienta Cortar** en el menú contextual. El volumen intersecado se sustraerá del objeto original.
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

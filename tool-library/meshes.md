@@ -1,90 +1,90 @@
-# Netze
+# Mallas
 
-Ab Version 17.0 bietet FormIt einen neuen Geometrietyp: Netze.
+A partir de la versión v17.0, FormIt ofrece un nuevo tipo de geometría, las mallas.
 
-Netze sind vereinfachte Darstellungen von FormIt-Standardobjekten und eignen sich hervorragend zur Verbesserung der Leistung von Geometrie mit vielen Polygonen wie Möbeln oder 3D-Umgebungsobjekten wie Menschen, Bäumen, Autos und Beschilderung. Netze eignen sich auch hervorragend für komplexe DWG-Geometrie, die sich andernfalls auf die Leistung von FormIt auswirken könnte.
+Las mallas son representaciones ligeras de objetos FormIt estándar y son excelentes para mejorar el rendimiento de la geometría de polígonos altos, por ejemplo, el mobiliario o un entorno 3D, como personas, árboles, coches y señales. Las mallas también son excelentes para la geometría DWG compleja que, de lo contrario, podría afectar al rendimiento de FormIt.
 
-Objekte können in Netze konvertiert werden, und Netze können ohne Datenverlust in Objekte zurückkonvertiert werden. Einige Dateitypen werden automatisch als Netze importiert, z. B. OBJ, STL und DWG. Weitere Informationen zum Konvertieren von Typen und anderen Vorteilen und Einschränkungen von Netzen finden Sie weiter unten.
+Los objetos se pueden convertir en mallas y las mallas se pueden volver a convertir en objetos sin perder ningún dato. Algunos tipos de archivo se importan automáticamente como mallas, por ejemplo, OBJ, STL y DWG. A continuación, obtenga más información sobre la conversión entre tipos y otras ventajas y limitaciones de las mallas.
 
-### Konvertieren von Objekten in Netze
+### Conversión de objetos en mallas
 
-Jede Kombination von Scheitelpunkten, Kanten, Flächen oder Volumenkörpern kann in Netze konvertiert werden.
+Cualquier combinación de vértices, bordes, caras o cuerpos sólidos se puede convertir en mallas.
 
-Wählen Sie einfach Objekte aus, und verwenden Sie entweder den Kurzbefehl OM \(Objekte in Netze\) (Objects to Meshes), oder klicken Sie mit der rechten Maustaste, und wählen Sie im Kontextmenü die Option Objects to Meshes (Objekte in Netze) aus:
+Solo tiene que seleccionar Objetos y utilizar el método abreviado OM \(De objetos a mallas\) o hacer clic con el botón derecho y seleccionar De objetos a mallas en el menú contextual, como se muestra a continuación:
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Nachdem die Objekte in Netze konvertiert wurden, wird oben im Bildschirm eine Bestätigungsmeldung angezeigt:
+Una vez que los objetos se hayan convertido en mallas, aparecerá un mensaje de confirmación en la parte superior de la pantalla, como se muestra a continuación:
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**Beim Konvertieren von Objekten in Netze geschieht Folgendes:**
+**Tenga en cuenta lo siguientes al convertir objetos en mallas:**
 
-* Kanten, die auf den Objekten geglättet wurden, bleiben in den resultierenden Netzen geglättet.
-* Die Materialausrichtungen auf den Objekten bleiben in den resultierenden Netzen unverändert.
-* Für jedes angewendete Material wird ein Netz erstellt. Wenn Sie beispielsweise einen einzelnen Würfel mit 6 verschiedenen Farben konvertieren, erhalten Sie 6 verschiedene Netze.
-   * Durch die Rückkonvertierung in ein Objekt werden die einzelnen Netze wieder zu einem Volumenkörper vereinigt.
-* Durch Auswahl eines Volumenkörpers wird der gesamte Körper konvertiert und durch ein Netz ersetzt. Durch Auswahl einzelner Kanten oder Scheitelpunkte, die zu einem Volumenkörper gehören, wird jedoch ein neues Netz über der vorhandenen Geometrie erstellt, ohne dass sich dies auf den ursprünglichen Körper auswirkt.
-* Durch die Konvertierung eines Kanten- oder Scheitelpunktsatzes wird ein einzelnes LineMesh \(ein Netz aus Kanten\) oder ein einzelnes Punktnetz \(ein Netz aus Punkten\) erstellt. Dies bedeutet, dass Sie einzelne Kanten oder Scheitelpunkte nicht auswählen können, sobald sie zu einem einzelnen Netz kombiniert wurden. Konvertieren Sie sie wieder in Objekte, wenn Sie die Position eines einzelnen Elements anpassen möchten.
+* Los bordes suavizados de los objetos permanecerán suavizados en las mallas resultantes.
+* Las orientaciones de los materiales de los objetos permanecerán sin cambios en las mallas resultantes.
+* Se crea una malla para cada material aplicado. Por ejemplo, si convierte un cubo pintado con seis colores diferentes, obtendrá seis mallas diferentes.
+   * Al convertir de nuevo en un objeto, se volverán a sellar las mallas individuales en un cuerpo sólido.
+* Al seleccionar un cuerpo sólido, se convertirá y se reemplazará todo el cuerpo por una malla, pero, al seleccionar bordes o vértices individuales que pertenecen a un sólido, se creará una nueva malla encima de la geometría existente, sin que esto afecte al cuerpo original.
+* La conversión de un conjunto de bordes o vértices creará una única malla de línea \(una malla compuesta de bordes\) o una única malla de puntos \(una malla compuesta de puntos\), por lo que no podrá seleccionar bordes o vértices individuales una vez que se hayan combinado en una única malla. Convierta estos elementos de nuevo en objetos si desea ajustar la posición de un único elemento.
 
-**Konvertieren von gruppierter Geometrie in Netze:**
+**Conversión de geometría agrupada en mallas:**
 
-* Netze werden noch leistungsfähiger, wenn Sie eine komplette Gruppe und alle darin verschachtelten Gruppen in Netze konvertieren können.
-* Gruppen und deren verschachtelte Inhalte können mithilfe eines Plugins in Gruppen konvertiert werden:
-   * Suchen Sie nach dem Plugin Manager-Symbol auf der rechten Seite der Anwendung:
+* Las mallas se vuelven aún más eficaces cuando se puede convertir un grupo completo y todos sus grupos anidados en mallas.
+* Los grupos y su contenido anidado se pueden convertir en grupos mediante un módulo de extensión:
+   * Busque el icono de Plugin Manager en el lado derecho de la aplicación, como se muestra a continuación:
       * ![](../.gitbook/assets/plugin-manager_icon.PNG)
-   * Suchen Sie das Plugin Mesh + Unmesh All, und klicken Sie auf das Kontrollkästchen, um es zu installieren:
+   * Busque el módulo de extensión Mesh + Unmesh All y haga clic en la casilla de verificación para instalarlo, como se muestra a continuación:
       * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
-   * Das Plugin Mesh + Unmesh All wird geladen. Wählen Sie einfach eine Gruppe mit Objekten aus, die Sie in Netze konvertieren möchten, und klicken Sie auf Mesh All (Alle vernetzen).
+   * Se cargará el módulo de extensión Mesh + Unmesh All. Solo tiene que seleccionar un grupo que contenga objetos que desee convertir en mallas y hacer clic en Mesh All.
       * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
-   * Beim Konvertieren verschachtelter Objekte oder Netze mit diesem Plugin wird oben im Bildschirm eine Aktualisierungsmeldung angezeigt, die Ihnen mitteilt, wie viele Gruppen und Exemplare von Gruppen von dem Vorgang betroffen sind:
+   * Al convertir mallas u objetos anidados con este módulo de extensión, aparecerá un mensaje de actualización en la parte superior de la pantalla que indica cuántos grupos y ejemplares de grupos se han visto afectados por la operación:
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### Interaktion mit Netzen
+### Interacción con mallas
 
-**Aufgrund ihrer Einfachheit weisen Netze bestimmte Einschränkungen und Verhaltensweisen auf:**
+**Debido a su naturaleza ligera, las mallas presentan determinadas limitaciones y comportamientos:**
 
-* Sie können die einzelnen Flächen, Kanten oder Scheitelpunkte eines Netzes nicht bearbeiten.
-   * Sie können jedoch Netze neu mit Material versehen und einzelne Netze verschieben, die als Ergebnis der Anwendung verschiedener Materialien auf Flächen erstellt wurden \(siehe oben\).
-* Der Objektfang an Netzen ist auf die Flächen und Scheitelpunkte von Netzen beschränkt. Um die Leistung zu verbessern, funktionieren Objektfang und Ableitung bei Kanten von Netzen nicht.
-   * Bei in Netze konvertierten DWG-Dateien \(ein anderer Netztyp, der als LineMesh bezeichnet wird\) können jedoch weiterhin Netzkanten gefangen und abgeleitet werden.
-* Auf Netze können keine Ebenen angewendet werden.
-* Bei Netzen werden keine Probleme mit der Dichtheit oder Rückseiten gemeldet. Konvertieren Sie sie wieder in Objekte, um zu sehen, ob sie wasserdicht sind oder nicht.
-   * Objekte, die vor der Konvertierung in ein Netz wasserdicht waren, bleiben bei der Rückkonvertierung in ein Objekt weiterhin wasserdicht.
-* Netze können nicht in erweiterten Modellierungsoperationen wie Volumenkörperverbindung/-schnitt, 3D-Hülle, 3D-Versatz, Abrundung, Erhebung, Sweep oder Abdeckung verwendet werden.
+* No podrá editar las caras, bordes o vértices individuales de una malla.
+   * Sin embargo, puede volver a pintar mallas y desplazar mallas individuales creadas como resultado de distintos materiales aplicados a las caras \(consulte la información mostrada anteriormente\).
+* El forzado de cursor a mallas está limitado a las caras y los vértices de las mallas. Para mejorar el rendimiento, el forzado de cursos y las deducciones no funcionarán con los bordes de mallas.
+   * Sin embargo, los archivos DWG convertidos en mallas \(un tipo de malla diferente conocido como malla de línea\) conservarán la capacidad de forzar el cursor a los bordes de malla y realizar deducciones sobre ellos.
+* No se pueden aplicar niveles a las mallas.
+* Las mallas no notificarán problemas de hermeticidad o caras posteriores. Convierta estos elementos de nuevo en objetos para ver si son herméticos o no.
+   * Los objetos herméticos antes de la conversión a una malla permanecerán herméticos cuando se vuelvan a convertir en un objeto.
+* Las mallas no se pueden utilizar en operaciones avanzadas de modelado, como Unir/Cortar sólido, Vaciado 3D, Desfase 3D, Empalme, Solevación, Barrido o Recubrimiento.
 
-Andernfalls werden Netze angezeigt und verhalten sich wie alle anderen FormIt-Objekte: in Gruppen platziert, Layern zugewiesen, in Szenen visualisiert, für die Analyse verwendet usw.
+De lo contrario, las mallas se mostrarán y se comportarán como cualquier otro objeto de FormIt. Se pueden incluir en grupos, asignar a capas, visualizar en escenas, utilizar para el análisis, etc.
 
-**Dass Sie mit einem Netz interagieren, können Sie daran erkennen, dass in der QuickInfo On Mesh (Auf Netz angezeigt) oder in der Gruppe Properties (Eigenschaften) von Netzen gesprochen wird:**
+**Si la información de herramientas indica En la malla o si el panel Propiedades informa de una malla, sabrá que está interactuando con una malla, como se muestra a continuación:**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Einige Dateitypen werden zur Verbesserung der Leistung automatisch als Netze importiert:**
+**Algunos tipos de archivo se importan automáticamente como mallas para mejorar el rendimiento, como se indica a continuación:**
 
-* STL- und OBJ-Dateien, die dichte Geometrie wie Punktwolken aus anderen Anwendungen enthalten können, werden automatisch als Netze importiert.
-* DWG-Dateien, die Millionen von kleinen Kantensegmenten auf hochwertigen Kurven enthalten können, werden automatisch als Netze importiert.
+* Los archivos STL y OBJ, que pueden contener geometría densa como nubes de puntos de otras aplicaciones, se importan automáticamente como mallas.
+* Los archivos DWG, que pueden contener millones de segmentos de borde pequeños en curvas de alta calidad, se importan automáticamente como mallas.
 
-### Zurückkonvertieren von Netzen in Objekte
+### Conversión de mallas en objetos
 
-Wählen Sie einfach Meshes (Netze) aus, und verwenden Sie entweder den Kurzbefehl MO \(Netze in Objekte\) )Meshes to Objects), oder klicken Sie mit der rechten Maustaste, und wählen Sie im Kontextmenü die Option Meshed to Objects (Netze in Objekte) aus:
+Solo tiene que seleccionar Mallas y utilizar el método abreviado MO \(De mallas a objetos\) o hacer clic con el botón derecho y seleccionar De mallas a objetos en el menú contextual:
 
 ![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Nachdem die Objekte in Netze konvertiert wurden, wird oben im Bildschirm eine Bestätigungsmeldung angezeigt:
+Una vez que los objetos se hayan convertido en mallas, aparecerá un mensaje de confirmación en la parte superior de la pantalla, como se muestra a continuación:
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**Beim Zurückkonvertieren von Netzen in Objekte:**
+**Al convertir mallas en objetos, tenga en cuenta lo siguiente:**
 
-* Alle Objekte, die vor der Konvertierung in ein Netz ein wasserdichter Volumenkörper waren, werden beim Konvertieren in ein Objekt wieder zu einem wasserdichten Volumenkörper verbunden.
-* Beim Konvertieren einer Reihe von Kanten \(z. B. aus einer DWG-Datei\) oder einer Reihe von Scheitelpunkten \(z. B. aus einer Punktwolke\) in ein Netz und umgekehrt werden die nicht vernetzten Objekte automatisch in einer Gruppe platziert.
-   * Dadurch wird verhindert, dass die neuen Kanten oder Scheitelpunkte mit anderer Geometrie zusammengeführt werden, was sich nachteilig auf die Leistung auswirken könnte.
-   * Sie können die Gruppierung der resultierenden Gruppe einfach aufheben, um die Kanten und/oder Scheitelpunkte freizugeben.
+* Los objetos que eran sólidos o herméticos antes de convertirlos en mallas se volverán a unir en un sólido hermético cuando se vuelvan a convertir en un objeto.
+* Al convertir una serie de bordes \(por ejemplo, de un archivo DWG\) o de una serie de vértices \(por ejemplo, de una nube de puntos\) en una malla y a la inversa, se incluirán automáticamente los objetos sin malla en un grupo.
+   * Esto impide que los nuevos bordes o vértices se fusionen con otra geometría, lo que podría tener efectos adversos y afectar al rendimiento.
+   * Solo tiene que desagrupar el grupo resultante para liberar los bordes o los vértices.
 
-**Zurückkonvertieren von gruppierten Netzen in Objekte:**
+**Conversión de mallas agrupadas en objetos:**
 
-* Befolgen Sie die oben stehenden Anweisungen, um das Plugin Mesh + Unmesh All zu verwenden und so Gruppen und deren verschachtelte Netze wieder in Objekte zu konvertieren.
+* Consulte las instrucciones anteriores para utilizar el módulo de extensión Mesh + Unmesh All para convertir los grupos y sus mallas anidadas en objetos.
 

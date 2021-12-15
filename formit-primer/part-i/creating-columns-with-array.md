@@ -1,146 +1,146 @@
-# 1.8 – Erstellen von Stützen mit Reihe
+# 1.8 - Crear pilares con matriz
 
-_In dieser Übung skizzieren Sie ein detailliertes Element, eine I-Träger-Stütze. Anschließend erstellen Sie mit dem Werkzeug Reihe schnell mehrere Kopien mit gleichem Abstand._
+_En este ejercicio, vamos a crear un boceto de un elemento detallado: un pilar de viga en I. A continuación, utilizaremos la herramienta Matriz para crear rápidamente varias copias espaciadas uniformemente._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.8 – Create Columns with Array.axm**_ _aus_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.8 – Create Columns with Array.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Skizzieren des Stützenprofils**
+## **Crear el boceto del perfil de pilar**
 
-1 – So vereinfachen Sie den Entwurfsprozess
+1 - Para facilitar el proceso de dibujo, realice lo siguiente:
 
-1. Wechseln Sie zur **Draufsicht \(VT\)**.
-2. Ändern Sie den Ansichtsmodus in **Orthogonal \(VO\)**.
-3. Deaktivieren Sie die Layer **Main Building**, **Floor** und **Roof**. Dadurch wird verhindert, dass die neue Geometrie auf den vorhandenen Geometrien dieser Layer gefangen wird.
-4. Vergrößern Sie die obere linke Ecke des Bilds des **importierten Grundrisses**, sodass Sie die Stütze im Detail sehen können.
-5. Deaktivieren Sie die Funktion **Rasterfang \(SG\)** \(sofern aktiviert\). Dies hilft beim Zeichnen der Detaillinien.
+1. Vaya a la **Vista superior \(VT\)**.
+2. Cambie el modo de vista a **Ortogonal \(VO\)**.
+3. Desactive las capas **Main Building**, **Floor** y **Roof**. Este paso impedirá que la nueva geometría se ajuste a la geometría existente en esas capas.
+4. Amplíe la esquina superior izquierda de la imagen de **plano de planta importado** para poder ver el pilar en detalle.
+5. Desactive la función **Forzar cursor a rejilla \(SG\)** \(si la ha activado\). Esto ayudará a dibujar las líneas de detalle.
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_Um die Stütze zu zeichnen, zeichnen Sie zunächst eine Hälfte und spiegeln diese dann, um schnell die andere symmetrische Hälfte zu erstellen._
+_Para dibujar el pilar, dibujaremos primero la mitad y, a continuación, lo reflejaremos para crear rápidamente la otra mitad simétrica._
 
-2 – Zum Erstellen der ersten Hälfte des I-Trägers verwenden Sie das **Werkzeug Linie \(L\)**, um die folgende Skizze mit den angegebenen Bemaßungen zu erstellen. Sie müssen sich noch keine Gedanken über die genaue Position der Stütze auf dem Planbild machen.
+2 - Para crear la primera mitad de la viga en I, utilice la **herramienta Línea \(L\)** para crear el siguiente boceto con las cotas especificadas. No se preocupe por la posición exacta del pilar en la imagen de plano.
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 – So spiegeln Sie die gerade gezeichnete Form
+3 - Para reflejar la forma que acaba de dibujar, realice lo siguiente:
 
-1. Doppelklicken Sie, um alle Flächen und Kanten der gezeichneten Geometrie auszuwählen.
-2. Klicken Sie mit der rechten Maustaste, und wählen Sie das **Werkzeug Spiegeln \(MI\)** aus.
-3. Klicken Sie auf den orangefarbenen Griff in der Mitte des **Spiegeln-Widgets**, und platzieren Sie es in der unteren linken Ecke der Geometrie.
-4. Verwenden Sie den unteren Pfeil der doppelseitigen Pfeil-Schaltfläche im Widget, um die Spiegelachse um -90 Grad \(im Uhrzeigersinn\) zu drehen.
-5. Klicken Sie auf eine beliebige Stelle, oder drücken Sie **ESC**, um den Spiegelvorgang abzuschließen. Das Ergebnis sollte wie ein I-Träger-Profil mit einer Linie in der Mitte aussehen. Drücken Sie erneut **ESC**, um die Auswahl aufzuheben.
+1. Haga doble clic para seleccionar todas las caras y los bordes de la geometría dibujada.
+2. Haga clic con el botón derecho y seleccione la **herramienta Reflejar \(MI\)**.
+3. Haga clic en el pinzamiento naranja central del **widget Reflejar** y colóquelo en la esquina inferior izquierda de la geometría.
+4. Utilice la flecha inferior del botón de flecha de doble cara del widget para rotar el eje de simetría -90 grados \(sentido horario\).
+5. Haga clic una vez en el espacio o pulse **Esc** para finalizar el proceso de reflejo. El resultado debe tener un aspecto similar al de un perfil de viga en I con una línea que desciende por el medio. Pulse **Esc** de nuevo para anular la selección.
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Anmerkung**: Während Sie das Spiegeln-Widget anpassen, wird in der Vorschau die endgültige Position und Ausrichtung der Geometrie mit der blauen Geisterform angezeigt. Sie können diese Vorschau als Referenz verwenden, um die Geometrie an der gewünschten Position zu spiegeln._
+_**Nota**: La orientación y la ubicación de la geometría final se previsualizan con la forma azul fantasma mientras se ajusta el widget Reflejar. Puede utilizar esta vista preliminar como referencia para reflejar la geometría en la ubicación deseada._
 
-4 – Um beide Seiten zu einer einzigen Geometrie zu verbinden, entfernen Sie die sie trennende Linie, indem Sie zum Auswählen darauf klicken und dann **ENTF** drücken. Jetzt sind die beiden Flächen in einer einzigen Fläche verbunden.
+4 - Para unir ambos lados en una sola geometría, elimine la línea que los divide. Para ello, haga clic en ella para seleccionarla y, a continuación, pulse **Suprimir**. Ahora las dos superficies se unen en una sola.
 
-5 – So verschieben Sie die Geometrie an ihre endgültige Position
+5 - Para mover la geometría a su ubicación final, realice lo siguiente:
 
-1. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Plan Image** und **Roof**, um sie als Hilfsmittel zu verwenden.
-2. Doppelklicken Sie auf das Stützenprofil, um seine Fläche und alle Linien auszuwählen. Verschieben Sie die Auswahl entlang der grünen Achse \(**Y-Achse**\). Halten Sie die **UMSCHALTTASTE** gedrückt, und verschieben Sie das Profil, bis es am Dach ausgerichtet ist. Klicken Sie dann, um es zu platzieren.
-3. Verschieben Sie die Geometrie ähnlich wie im vorherigen Schritt erneut, und beschränken Sie sie diesmal auf die rote Achse \(**X-Achse**\).
-4. Klicken Sie, um sie auf dem I-Träger zu platzieren, der in **Plan Image** gezeichnet wurde. Es reicht, wenn die Platzierung ungefähr stimmt. Wie Sie im folgenden Bild sehen, muss die horizontale Position nicht perfekt sein.
+1. Si está desactivada, active las capas **Plan Image** y **Roof** para utilizarlas como guía.
+2. Haga doble clic en el perfil de pilar para seleccionar su cara y todas sus líneas. Empiece a mover la selección a lo largo del eje verde \(**Eje Y**\). Mantenga pulsada la tecla **Mayús** y mueva el perfil hasta que se alinee con la cubierta y, a continuación, haga clic para colocarlo.
+3. De forma similar al paso anterior, vuelva a mover la geometría; esta vez, bloquéela en el eje rojo \(**Eje X**\).
+4. Haga clic para colocarla encima de la viga en I dibujada en **Plan Image**. Acercarse es suficiente, como en la siguiente imagen, la posición horizontal no tiene que ser perfecta.
 
-_**Anmerkung:**_ _Die_ _**UMSCHALTTASTE**_ _beschränkt die Bewegung der Geometrie auf nur eine Achse, in diesem Fall die grüne \(**Y-Achse**\). Dadurch wird sichergestellt, dass das Stützenprofil nicht versehentlich nach oben verschoben und an der Oberseite der Dachebene ausgerichtet wird._
+_**Nota:**_ _La tecla_ _**Mayús**_ _bloqueará la geometría para moverla solo a lo largo de un eje, en este caso, el verde \(**Eje Y**\). De este modo, se garantiza que el perfil del pilar no se mueva hacia arriba y se alinee accidentalmente con la parte superior del plano de cubierta._
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrudieren und Anordnen der Stütze**
+## **Extrusión y matriz del pilar**
 
-1 – Um den nächsten Zeichenprozess zu erleichtern, ändern Sie den Ansichtsmodus wieder in **Perspektivisch \(VP\)** und **umkreisen \(O\)** die Ansicht, um die Kamera so zu positionieren, dass das I-Träger-Profil aus Nordwest visualisiert wird. Verwenden Sie den Nordpfeil unten links, um die Ansicht zu positionieren.
+1 - Para facilitar el siguiente proceso de dibujo, vuelva a cambiar el modo de vista a **Perspectiva \(VP\)** y utilice **Orbitar \(O\)** para colocar la cámara como si se visualizase el perfil de la viga en I desde el noroeste. Utilice la flecha norte situada en la esquina inferior izquierda para facilitar la colocación de la vista.
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Anmerkung:**_ _Um zu erfahren, wie Sie in der Skizze navigieren, empfehlen wir, das Kapitel_ _**Navigieren in der Szene**_ _zu lesen._
+_**Nota:**_ _Para obtener información sobre cómo desplazarse por el boceto, se recomienda que consulte el capítulo sobre_ _**desplazamiento por la escena**_ _._
 
-2 – Wählen Sie die Fläche des Stützenprofils aus, und extrudieren Sie die Fläche auf **17'-8"**.
+2- Seleccione la cara del perfil del pilar y extruya la cara hasta**17'-8"**.
 
-_**Anmerkung:**_ _Wenn das Stützenprofil beim Verschieben am Dach ausgerichtet wird, extrudieren Sie die Fläche um_ _**17'-8"**   nach unten anstatt nach oben._
+_**Nota:**_ _Si el perfil del pilar se alinea con la cubierta al moverlo, extruya la cara hacia abajo_ _**17'-8"**   en lugar de hacia arriba._
 
-3 – Verkleinern Sie die Ansicht, und aktivieren Sie den Layer **Roof** \(falls deaktiviert\). Die Oberkante der Stütze sollte an der Oberkante des Dachs ausgerichtet sein.
+3 - Reduzca la vista y active la capa **Roof** \(si está desactivada\). La parte superior del pilar debe alinearse con la parte superior de la cubierta.
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 – Um das Modell übersichtlich und ordentlich zu halten, wählen Sie die Stützengeometrie erneut aus und führen die folgenden Schritte durch:
+4 - Para mantener el modelo organizado y ordenado, seleccione de nuevo la geometría del pilar y realice lo siguiente:
 
-1. **Gruppieren \(G\)** Sie die Geometrie, und nennen Sie sie **Column Tall**.
-2. Erstellen Sie einen neuen **Layer** mit der Bezeichnung **Column**, und fügen Sie die Gruppe hinzu.
-3. Importieren Sie das Material **Metal – Brushed – Colorized**, und versehen Sie die Gruppe damit.
+1. Utilice la herramienta **Grupo \(G\)** y asígnele el nombre **Column Tall**.
+2. Cree una nueva **capa** denominada **Column** y añádala al grupo.
+3. Importe el material **Metal - Brushed - Colorized** y pinte el grupo con él.
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Anmerkung:**_ _Weitere Informationen zu_ _**Gruppen**,_ _**Layern** und_ _**Materialien** finden Sie in den vorherigen Kapiteln._
+_**Nota:**_ _Consulte los capítulos anteriores para obtener más información sobre los_ _**grupos**, las_ _**capas** y los_ _**materiales**._
 
-4 – Klicken Sie auf **ESC**, um das Pinselwerkzeug zu löschen.
+4 - Haga clic en **Esc** para desactivar la herramienta de pincel.
 
-## **Stützen in Reihe anordnen**
+## **Organizar en matriz los pilares**
 
-1 – Wechseln Sie in die **Draufsicht \(VT\)**, und ändern Sie den Kameramodus wieder in **Orthogonal \(VO\)**.
+1 - Vaya a la **Vista superior \(VT\)** y cambie de nuevo el modo de cámara a **Ortogonal \(VO\)**.
 
-2 – Deaktivieren Sie den Layer **Roof**.
+2 - Desactive la capa **Roof**.
 
-3 – So starten Sie den Reihenprozess
+3 - Para iniciar el proceso de agrupación en matriz, realice lo siguiente:
 
-1. Klicken Sie, um die Stützengruppe auszuwählen. Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie **Reihe \(AR\)**.
-2. Verwenden Sie im Dialogfeld **Reiheneigenschaften**￼ die folgenden Einstellungen:
-   * **Länge zwischen Kopien**
-   * **Linear** \(Vorgabe\)
-   * **Gruppieren: jeder Volumenkörper, dann Reihe** \(Vorgabe\)
-   * **Anzahl der Kopien: 3**
-   * Klicken Sie auf **OK**, um das Dialogfeld zu schließen.
+1. Haga clic una vez para seleccionar el grupo de pilares. Haga clic con el botón derecho para abrir el **menú contextual** y seleccione **Matriz \(AR\)**.
+2. En el cuadro de diálogo **Propiedades de matriz**, utilice los siguientes parámetros:
+   * **Longitud entre copias**
+   * **Lineal** \(por defecto\)
+   * **Agrupar cada sólido e incluir en matriz** \(por defecto\)
+   * **Número de copias: 3**
+   * Pulse **Aceptar** para cerrar el cuadro de diálogo.
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 – So platzieren Sie die neuen Elemente
+4 - Para colocar los nuevos elementos, realice lo siguiente:
 
-1. Klicken Sie auf die Stütze, um die **Reihe** zu starten. Bewegen Sie den Cursor entlang der roten Achse \(**X-Achse**\).
-2. Legen Sie die Bemaßung auf **22'** fest. Sie haben nun **vier** Stützen mit einem Abstand von **22'**.
-3. Drücken Sie **ESC**, um die Auswahl aufzuheben.
+1. Haga clic una vez en el pilar para iniciar la herramienta **Matriz**. Mueva el cursor a lo largo del eje rojo \(**Eje X**\).
+2. Defina la cota en **22'**. Ahora tiene **cuatro** pilares con una separación de **22'**.
+3. Pulse **Esc** para borrar la selección.
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 – Um alle Gruppen unter **Tall Column** gleichzeitig auszuwählen, bewegen Sie den Mauszeiger über eine von ihnen und drücken einmal die **TABULATORTASTE**. Beachten Sie, dass alle Begrenzungsrahmen der vier Stützen markiert wurden. Klicken Sie auf die Stütze, über die Sie den Mauszeiger halten. Alle Stützen werden ausgewählt. Dies ist eine schnelle Methode, um alle Exemplare derselben Gruppe gleichzeitig auszuwählen.
+5 - Para seleccionar todos los grupos de **Tall Column** a la vez, coloque el cursor sobre uno de ellos y pulse la tecla **Tab** una vez. Observe que se han resaltado los cuadros delimitadores de los cuatro pilares. Haga clic una vez en el pilar sobre el que ha colocado el cursor del ratón; se seleccionarán todos. Esta es una forma rápida de seleccionar todos los ejemplares del mismo grupo a la vez.
 
-6 – Führen Sie eine weitere **Reihe \(AR\)** aus, um die Stützen auf der anderen Seite des Gebäudes zu erstellen. Erstellen Sie dieses Mal eine Kopie entlang der grünen Achse im gesamten Gebäude. Legen Sie die Bemaßung auf **29'-4 5/8" fest.**
+6 - Utilice de nuevo la herramienta **Matriz \(AR\)** para crear los pilares en el otro lado del edificio. Esta vez, realice una copia a lo largo del eje verde a través del edificio. Establezca la cota en **29'- 4 5/8".**
 
-_**Anmerkung:**_ _29' 4 5/8" = 8 5/8" \(Stützentiefe\) + 28'-8" \(Hauptgebäudebreite\)_
+_**Nota:**_ _29' 4 5/8" = 8 5/8" \(profundidad del pilar\) + 28'-8" \(anchura del edificio principal\)._
 
-7 – Um das gesamte Gebäude zu visualisieren, wechseln Sie zur **3D-Ansicht \(V3\)** und legen **Perspektivisch \(VP\)** fest. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Main Building Floor**, **Roof**, **Lower Terrace** und **Column**.
+7 - Para visualizar todo el edificio, vaya a la **Vista 3D \(V3\)** y establézcalo en **Perspectiva \(VP\)**. Si están desactivadas, active las capas **Main Building Floor**, **Roof**, **Lower Terrace** y **Column**.
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Erstellen der Terrassenstützen**
+## **Crear los pilares de la terraza**
 
-_Jetzt duplizieren Sie die Hauptgebäudestützen, um ähnliche, aber kürzere Versionen für die Terrasse zu erstellen._
+_Ahora duplicaremos los pilares del edificio principal para crear versiones similares, pero más cortas, para la terraza._
 
-1 – Um das Zeichnen zu erleichtern, empfehlen wir, zu den Einstellungen **Orthogonal \(OV\)** und **Draufsicht \(VT\)** zurückzukehren.
+1 - Para facilitar el dibujo, es recomendable volver a los parámetros **Ortogonal \(OV\)** y **Vista superior \(VT\)**.
 
-2 – So erstellen Sie die neuen Stützen
+2 - Para crear los nuevos pilares, realice lo siguiente:
 
-1. Halten Sie die **STRG**- oder **UMSCHALTTASTE** gedrückt, und klicken Sie auf die drei Stützen, die sich am nächsten zum **unteren Terrassenboden** befinden, um sie auszuwählen.
-2. Klicken Sie auf eine der Stützen, um alle drei ausgewählten Stützen gleichzeitig zu verschieben. Drücken Sie die **STRG-Taste**, um eine **schnelle Kopie** zu erstellen. Eine Geistervorschau der Kopie wird angezeigt.
-3. Verschieben Sie die Kopien entlang der grünen Achse \(**Y-Achse**\) um **23'-4 3/8"** nach unten. Drücken Sie die **ESC**-Taste.
-4. Verschieben Sie die kopierten Stützen ohne Abwahl um **22'** entlang der roten Achse \(**X-Achse**\), um sie an ihrer endgültigen Position zu platzieren.
-5. Klicken Sie mit der rechten Maustaste auf eine der kopierten Stützen, während die drei neuen Stützen weiterhin ausgewählt sind, und wählen Sie **Als eindeutig definieren \(MU\)** aus. Diese Stützen sind jetzt miteinander verknüpft, unterscheiden sich jedoch eindeutig von den Originalen.
+1. Mantenga pulsada la tecla **Ctrl** o **Mayús** y haga clic en los tres pilares más próximos al **suelo de la terraza interior** para seleccionarlos.
+2. Haga clic una vez en cualquiera de los pilares para empezar a mover los tres pilares seleccionados a la vez. Pulse la tecla **Ctrl** una vez para crear una **copia rápida**. Aparecerá una vista preliminar fantasma de la copia.
+3. Mueva las copias hacia abajo a lo largo del eje verde \(**Eje Y**\) **23'-4 3/8"**. Pulse **Esc**.
+4. Sin anular la selección, mueva los pilares copiados a lo largo del eje rojo \(**Eje X**\) **22'** para colocarlos en su posición final.
+5. Con los tres nuevos pilares seleccionados, haga clic otra vez con el botón derecho en uno de los pilares copiados y seleccione **Establecer como exclusivo \(MU\)**. Estos pilares están ahora asociados entre sí, pero son exclusivos frente a los originales.
 
-_**Anmerkung:**_ _Halten Sie die_ _**UMSCHALTTASTE**_ _oder_ _**STRG-Taste**_ _gedrückt, wenn Sie mehrere Elemente gleichzeitig auswählen oder Elemente aus der aktuellen Auswahl entfernen möchten._
+_**Nota:**_ _Si se mantiene pulsada la tecla_ _**Mayús**_ _o_ _**Ctrl**_ _, es posible seleccionar varios elementos a la vez o eliminar elementos de la selección actual._
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 – Ändern Sie die neue Stützengruppe:
+3 - Modifique el nuevo grupo de pilares. Para ello, realice lo siguiente:
 
-1. Doppelklicken Sie, um eine der neuen Gruppen zu bearbeiten, und benennen Sie sie in **Column Short**
-2. Passen Sie die Höhe der neuen Stütze so an, dass sie an der Oberseite des **unteren** **Terrassenbodens** ausgerichtet ist \(3'-2"\). Dazu wählen Sie die Stützenfläche aus, ziehen sie entlang der blauen Achse \(**Z-Achse**\) nach unten und halten die **UMSCHALTTASTE** gedrückt. Wenn Sie den Mauszeiger an eine beliebige Stelle auf der oberen Fläche des **unteren Terrassenbodens** setzen, wird die Höhe der Stütze automatisch an der unteren Terrasse ausgerichtet. Klicken Sie nach dem Festlegen der Höhe, um den Vorgang abzuschließen.
+1. Haga doble clic para editar uno de los nuevos grupos y cambie su nombre a **Column Short.**
+2. Ajuste la altura del nuevo pilar para alinearlo con la parte superior de la **suelo de terraza** **inferior** \(3'-2"\). Para ello, seleccione y arrastre la cara del pilar hacia abajo a lo largo del eje azul \(**Eje Z**\) y mantenga pulsada la tecla **Mayús**. Coloque el cursor sobre cualquier lugar de la cara superior del **suelo de terraza inferior** y la altura del pilar se alineará automáticamente con la terraza inferior. Una vez que se haya definido la altura, haga clic para finalizar.
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Anmerkung:**_ _Sie können die Höhe der kurzen Stützen mit dem Werkzeug_ _**Messen \(ME\)**_ _überprüfen. Alternativ können Sie eine der vertikalen Kanten der Stütze auswählen und ihre Länge in der_ _**Eigenschaftenpalette** anzeigen._
+_**Nota:**_ _Puede comprobar la altura de los pilares cortos mediante la herramienta_ _**Medir \(ME\)**_ _. También puede seleccionar uno de los bordes verticales del pilar y ver su longitud en la_ _**paleta Propiedades**._
 
-4 – Kopieren Sie mithilfe der gerade erlernten Techniken die am weitesten entfernte kurze Stütze auf die gegenüberliegende Seite des **unteren Terrassenbodens**, um die letzte verbleibende Stütze zu erstellen.
+4- Mediante las técnicas que acaba de aprender, copie el pilar corto más lejano al lado opuesto del **suelo de terraza inferior** para crear el último pilar restante.
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

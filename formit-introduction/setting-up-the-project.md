@@ -1,39 +1,39 @@
-# Einrichten des Projekts
+# Configuración del proyecto
 
-## Start
+## Inicio desactivado
 
-Wenn Sie FormIt starten, befinden Sie sich in einer 3D-Umgebung. Nehmen Sie sich etwas Zeit, um zu lernen, wie Sie [im 3D-Raum navigieren](navigating-the-scene.md). Beginnen Sie dann mit dem Erstellen eines Projekts \([hier erfahren Sie, wie das geht](../formit-primer/)\), verwenden Sie das Menü Datei, um ein vorhandenes FormIt-Projekt zu öffnen, oder importieren Sie eine Reihe anderer Dateitypen.
+Cuando inicie FormIt, estará en un entorno 3D. Dedique algún tiempo a aprender a [desplazarse por el espacio 3D](navigating-the-scene.md) y, a continuación, empiece a crear un proyecto \([aquí se indica cómo](../formit-primer/)\), utilice el menú Archivo para abrir un proyecto de FormIt existente o importar diversos tipos de archivo.
 
-FormIt ermöglicht das Öffnen, Speichern und Exportieren von Dateien sowohl lokal als auch in BIM 360 Docs. [Die Verwendung von BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) ist eine hervorragende Möglichkeit für die gemeinsame Nutzung von Modellen in der Cloud.
+FormIt permite abrir, guardar y exportar archivos tanto localmente como en BIM 360 Docs. [El uso de BIM 360 Docs en FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) es una excelente forma de compartir modelos en la nube.
 
-Apropos Speichern: FormIt [speichert Ihre Arbeit automatisch](../tool-library/autosave.md), sobald Sie Änderungen am Modell vornehmen. Es wird weiterhin empfohlen, häufig zu speichern, da dadurch die Sicherungsdatei bereinigt und Speicherplatz gespart wird.
+En cuanto al guardado, FormIt [guarda automáticamente el trabajo](../tool-library/autosave.md) una vez que se empiecen a realizar cambios en el modelo. Es recomendable guardar a menudo porque esta acción limpiará el archivo de copia de seguridad y ahorrará espacio.
 
-## App-Einstellungen
+## Configuración de la aplicación
 
-* Einheiten:
+* Unidades:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * Diese Einstellung wirkt sich auf die Einheiten in allen Werkzeugen und in importierter Geometrie aus, z. B. Dynamo und Dateitypen ohne Einheiten wie STL.
+   * Esta configuración afectará a las unidades de todas las herramientas y a la geometría importada, como Dynamo, y los tipos de archivo sin unidad, como STL.
 
-* Rasterfang:
-   * Erzwingt, dass Werkzeuge mit Platzierungspunkten an Rasterschnittpunkten gefangen werden. Beachten Sie, dass Sie das Raster unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md) deaktivieren können. Wenn das Raster deaktiviert ist, wird auch der Objektfang deaktiviert.
-* Bearbeitbare Bemaßungen anzeigen:
-   * Wählen Sie, ob die Bemaßungsfelder sichtbar bleiben sollen \(es wird empfohlen, diese Option aktiviert zu lassen, wenn Sie mit großer Genauigkeit zeichnen möchten\).
-* Kontext ausblenden/Nur bearbeitete Gruppe anzeigen:
-   * Dies wirkt sich darauf aus, ob beim Bearbeiten einer Gruppe die Umgebung angezeigt wird oder nicht. Sie können diese Einstellung einfach über den Kurzbefehl \(H\) ändern. Wenn Sie beim Modellieren in und außerhalb von Gruppen den Befehl H umschalten, können Sie Gruppen nach Bedarf isoliert und im Kontext anzeigen.
-* Vorauswahl-Hervorhebung:
-   * Vorgabemäßig werden Objekte von FormIt vorausgewählt, wenn Sie den Cursor darüber bewegen. Dies ist nützlich, um sicherzustellen, dass Sie wirklich das Objekt auswählen, das Sie auswählen möchten. Es kann jedoch bei der Präsentation eines Entwurfs störend wirken. Verwenden Sie diese Option oder den Tastaturbefehl, um bei Bedarf schnell zwischen dem Ein- und Ausblenden der Vorauswahl-Hervorhebung zu wechseln. Beachten Sie, dass diese Option aktiviert werden muss, um Funktionen wie die [intelligente Auswahl](https://www.youtube.com/watch?v=akLeB1FADt4) verwenden zu können.
+* Forzar cursor a rejilla:
+   * Fuerza a las herramientas con puntos de posición a forzar el cursor a los puntos de intersección de la rejilla. Tenga en cuenta que puede desactivar la rejilla en [Estilos visuales](../formit-primer/part-i/visual-settings.md); si la rejilla está desactivada, también se desactivará el forzado de cursor a ella.
+* Mostrar cotas editables:
+   * Elija si desea mantener visibles las casillas de cota \(se recomienda mantener esta opción activada si desea dibujar con precisión\).
+* Ocultar contexto/Mostrar solo grupo editado:
+   * Esto afecta a si la edición de un grupo mostrará su entorno o no. Puede cambiar fácilmente esta configuración mediante el acceso directo \(H\). Al activar y desactivar H durante el modelado de grupos, puede ver los grupos de forma aislada y en contexto según sea necesario.
+* Resaltado de preselección:
+   * Por defecto, FormIt "preselecciona" objetos cuando se mantiene el cursor sobre ellos. Esto resulta útil para asegurarse de que el objeto que desea seleccionar es el que obtiene, pero puede ser una distracción al presentar un diseño. Utilice esta opción o su método abreviado para alternar rápidamente entre visualizar y ocultar el resaltado de preselección según sea necesario. Tenga en cuenta que esta opción debe estar activada para utilizar funciones como [Selección inteligente](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## Berührungsmodus
+## Modo táctil
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-Wenn Ihr Computer über einen Touchscreen verfügt, verwenden Sie den Berührungsmodus, um einfach im Modell zu navigieren und Geometrie zu erstellen. Wenn Sie FormIt auch für iOS verwenden, wird Ihnen dies bekannt vorkommen.
+Si el equipo tiene una pantalla táctil, utilice el modo táctil para desplazarse por el modelo y crear geometría con facilidad. Si también utiliza FormIt para iOS, esto le resultará familiar.
 
-Wenn der Berührungsmodus aktiviert ist, ähnelt die Interaktion von FormIt der von FormIt auf dem iPad, da die Navigations- und Bearbeitungswerkzeuge so kalibriert werden, dass sie mit einer Touch-Benutzeroberfläche verwendet werden können. Aus diesem Grund wird bei aktiviertem Berührungsmodus die Verwendung von FormIt mit der Maus und Tastatur nicht empfohlen.
+Si el modo táctil está activado, la interacción de FormIt se parece más a FormIt en iPad, calibrando las herramientas de navegación y modificación para trabajar con una interfaz táctil. Por este motivo, no es recomendable utilizar FormIt con un ratón y un teclado mientras el modo táctil esté activado.
 
-Wenn der Berührungsmodus aktiviert ist, wird dieser im Werkzeugkasten hervorgehoben, und in der linken unteren Ecke des Bildschirms wird ein Berührungsmodus-Banner angezeigt.
+Si el modo táctil está activado, este aparecerá resaltado en la barra de herramientas, así como un título de Modo táctil, en la esquina inferior izquierda de la pantalla.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

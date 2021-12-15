@@ -1,8 +1,8 @@
-# Kamera an Fläche ausrichten
+# Alinear cámara con cara
 
-Richten Sie die Kamera schnell so aus, dass Sie direkt auf eine beliebige Fläche gerichtet ist.
+Alinee rápidamente la cámara para mirar directamente a cualquier cara.
 
-Wählen Sie eine einzelne Fläche aus, und klicken Sie dann mit der rechten Maustaste, um das Kontextmenü aufzurufen. Suchen Sie im oberen Bereich des Menüs nach der Option Kamera an Fläche ausrichten, oder verwenden Sie den Kurzbefehl AF:
+Seleccione una sola cara y, a continuación, haga clic con el botón derecho para acceder al menú contextual. Busque Alinear cámara con cara en la parte superior del menú o utilice el método abreviado AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
 

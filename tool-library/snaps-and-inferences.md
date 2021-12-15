@@ -1,61 +1,64 @@
-# Objektfang und Ableitungen
+# Forzados de cursor y deducciones
 
-Objektfang und Ableitungspunkte ermöglichen eine präzise Erstellung, Platzierung und Bearbeitung von Geometrie und erleichtern dadurch das Skizzieren und Modellieren. Sie können die Achse wählen, entlang derer Sie zeichnen oder eine andere Funktion ausführen möchten, etwa das Extrudieren einer Oberfläche.
+Para facilitar el boceto y el modelado, utilice forzados de cursor y puntos de deducción para crear, colocar y editar la geometría con precisión. Puede utilizar el eje que elija como aquel en el que dibujar o ejecutar otra acción, como la extrusión de una superficie.
 
-**Anmerkung:** _Unter_ [_Tastaturkurzbefehle_](../appendix/keyboard-shortcuts.md) _finden Sie Informationen dazu, wie Sie noch schneller mit den Werkzeugen der Software arbeiten können._
+**Nota** _Consulte_ [_Métodos abreviados de teclado_](../appendix/keyboard-shortcuts.md) _para obtener información sobre cómo agilizar el uso de las herramienta del software._
 
-## Objektfang
+## Forzado de cursor
 
-Beim Skizzieren und Modellieren stehen mehrere Objektfangfunktionen zur Verfügung. Der Objektfang für Objekte ist automatisch aktiviert. Die folgenden Fangreferenzen sind verfügbar:
+Existen varios forzados de cursor que pueden ayudarle durante la creación de bocetos y el modelado. El forzado de cursos se activa automáticamente y puede forzar el cursor a los siguientes elementos:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Knoten | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Kanten Wenn Sie den Mauszeiger über die Kante bewegen, werden kleine        rote Punkte an den Enden und am Mittelpunkt gezeichnet. | ![](../.gitbook/assets/inf4.png) |
-| Kantenmittelpunkte | ![](../.gitbook/assets/inf5.png) |
-| Die Ebene einer Fläche. Wenn Sie den Mauszeiger über die Fläche bewegen, wird ein        kleiner roter Punkt am Flächenschwerpunkt gezeichnet. Dadurch können Sie den Punkt leicht finden,        wenn Sie diesen fangen möchten. | ![](../.gitbook/assets/inf6.png) |
-| Flächenschwerpunkte | ![](../.gitbook/assets/inf7.png) |
-| Die Arbeitsebene, wenn Sie kein anderes Element fangen. | ![](../.gitbook/assets/inf8.png) |
-| Kreis- oder Bogenmittelpunkte | ![](../.gitbook/assets/inf9.png) |
-| Netzscheitelpunkte | ![](../.gitbook/assets/inf2.png) |
-| Die Ebene einer Netzfacette. | ![](../.gitbook/assets/inf1.png) |
+| Vértices. | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Bordes. Al colocar el cursor en el borde, se dibujarán pequeños puntos rojos en los
+        extremos y en el punto medio. | ![](../.gitbook/assets/inf4.png) |
+| Puntos medios de bordes. | ![](../.gitbook/assets/inf5.png) |
+| El plano de una cara. Al colocar el cursor en la cara, se dibujará un pequeño punto rojo
+        en el centro de la cara. Esto hará que sea fácil encontrar ese punto
+        si desea forzar el cursor a él. | ![](../.gitbook/assets/inf6.png) |
+| Centroides de caras. | ![](../.gitbook/assets/inf7.png) |
+| El plano de trabajo, si no se fuerza el cursor a otro elemento. | ![](../.gitbook/assets/inf8.png) |
+| Centros de círculos o arcos. | ![](../.gitbook/assets/inf9.png) |
+| Vértices de malla. | ![](../.gitbook/assets/inf2.png) |
+| El plano de una faceta de malla. | ![](../.gitbook/assets/inf1.png) |
 
-Um den Objektfang am Raster zu verwenden, müssen Sie die Option **Rasterfang (SG)** aus dem Menü Einstellungen aktivieren.
+Para forzar el cursor a la rejilla, debe activar el conmutador **Forzar cursor a rejilla (SG)** en el menú Configuración.
 
-## Ableitungsachsen und -punkte
+## Puntos y ejes de deducción
 
-Die automatische Auswahl für Ableitungspunkte ist immer aktiviert und unterstützt Sie dabei, die Bewegungsmöglichkeiten für Geometrie einzuschränken. Ableitungsachsen werden automatisch durch Werkzeuge generiert oder wenn Sie den Mauszeiger über Kanten oder Punkte bewegen. Ableitungsachsen werden immer mit Strichen auf dem Bildschirm gezeichnet, damit Sie wissen, wo sie sich befinden, und damit sie einfach gefangen werden können.
+La selección automática de puntos de deducción siempre está activada y le ayudará a restringir el desplazamiento de la geometría. Las herramientas generan automáticamente ejes de deducción o al colocar el cursor sobre los bordes o los puntos. Los ejes de deducción siempre se dibujan en la pantalla con guiones para que sepa dónde se encuentran y sea fácil detectarlos.
 
-**Achse:** Sie können Geometrie entlang der X-, Y- oder Z-Achse verschieben. Die Ableitung für die X-Achse ist rot, für die Y-Achse grün und für die Z-Achse blau.
+**Eje:** puede desplazar la geometría a lo largo del eje X, Y o Z. La deducción del eje X es roja, la del eje Y es verde y la del eje Z es azul.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Achse sperren:** Sie können die Bewegung entlang der X-, Y- oder Z-Achse sperren. Halten Sie die Umschalttaste gedrückt, während Sie eine Achsenableitung verwenden, und bewegen Sie die Maus, um den Objektfang und die Ableitung mit anderen Elementen als Referenzen zu verwenden.
+**Bloqueo del eje:** puede bloquear el desplazamiento a lo largo del eje X, Y o Z. Mantenga pulsada la tecla Mayús mientras se encuentra en una deducción de eje y, a continuación, mueva el cursor para forzarlo y realizar deducciones en otros elementos.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** Sie können Geometrie parallel zu bestehenden Elementen skizzieren oder verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als parallele Referenz verwenden möchten.
+**Paralelo:** puede crear un boceto o desplazar la geometría de forma paralela a los elementos existentes. Las deducciones perpendiculares son púrpura. Es necesario colocar el cursor sobre una línea que se desea utilizar como referencia paralela.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Lotrecht:** Es ist auch möglich, Geometrie lotrecht zu bestehenden Elementen zu zeichnen oder zu verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als lotrechte Referenz verwenden möchten.
+**Perpendicular:** también puede dibujar o desplazar geometría de forma perpendicular a los elementos existentes. Las deducciones perpendiculares son púrpura. Es necesario colocar el cursor sobre una línea que se desea utilizar como referencia perpendicular.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Von einem Punkt ausgehend:** Sie können auch von einer Punktreferenz ausgehende Ableitungen verwenden. Setzen Sie den Cursor auf den Punkt, den Sie als Referenz verwenden möchten, bis die QuickInfo angezeigt wird, und verwenden Sie die von diesem Punkt ausgehende Ableitungsachse.
+**Extensión desde un punto:** también puede utilizar las deducciones para la extensión desde una referencia de punto. Coloque el cursor sobre un punto que desee utilizar como referencia hasta que aparezca la información de herramientas y, a continuación, utilice el eje de deducción que se extiende desde el punto.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Kreismittelpunkt**: Wenn Sie den Mittelpunkt eines Bogens oder Kreises fangen möchten, bewegen Sie den Mauszeiger über den Bogen oder Kreis. Es wird ein kleiner roter Punkt in der Mitte angezeigt. Er bleibt noch etwa 5 Sekunden sichtbar, wenn Sie den Mauszeiger vom Bogen oder Kreis weg bewegen. Bewegen Sie den Cursor nun über den roten Punkt, um den Mittelpunkt zu fangen.
+**Centro del círculo**: si desea forzar el cursor al centro de un arco o un círculo, coloque el cursor en uno de estos elementos. Se mostrará un pequeño punto rojo en el centro. Permanecerá visible durante unos 5 segundos después de alejarse del arco o círculo. Ahora mueva el cursor sobre el punto rojo para forzarlo al centro.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Tatsächliche Bogen- und Spline-Mittelpunkte**: Wenn Sie den Mauszeiger über einen Kreis, Bogen oder Spline bewegen, können Sie den tatsächlichen Mittelpunkt fangen. Dieser und die Endpunkte werden durch einen kleinen roten Punkt dargestellt. Wenn Sie einen Bogen ableiten, werden auch die Scheitelpunkte der geraden Kanten, die den Bogen darstellen, gefangen.
+**Puntos medios reales de arcos y splines**: al pasar el cursor sobre un círculo, un arco o una spline, podrá forzar el cursor al punto medio real. Este punto y los puntos finales se mostrarán con un pequeño punto rojo. Al realizar la deducción en un arco, también forzará el cursor a los vértices de los bordes rectos que presentan el arco.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Löschen von Ableitungen**: Es ist möglich, dass in Zeichnungen eine größere Anzahl von Ableitungen generiert wird. Dies könnte beim Platzieren von Punkten, die diese Ableitungen nicht fangen sollen, stören. Wenn Sie die **UMSCHALTTASTE+LEERTASTE** drücken, werden alle Ableitungen gelöscht, mit Ausnahme derjenigen am zuletzt platzierten Punkt.
+**Borrado de deducciones**: es posible que al dibujar se genere un mayor número de deducciones, lo que puede estorbar la colocación de puntos que se supone que no deben forzar el cursor a esas deducciones. Si pulsa las teclas de **Mayús + barra espaciadora**, se borrarán todas las deducciones, excepto las que se encuentren en el último punto colocado.
 
-![Vor dem Löschen von Ableitungen](../.gitbook/assets/inf19.png)
+![Antes de borrar las deducciones](../.gitbook/assets/inf19.png)
 
-![Nach dem Löschen von Ableitungen](../.gitbook/assets/inf20.png)
+![Después de borrar las deducciones](../.gitbook/assets/inf20.png)

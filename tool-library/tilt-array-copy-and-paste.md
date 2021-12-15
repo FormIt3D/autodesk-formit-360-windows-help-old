@@ -1,31 +1,31 @@
-# Flächen: Neigen und Facettieren/Glatt
+# Caras: Inclinar cara y Facetar caras suaves
 
-## Arbeiten mit Flächen: Neigen und Facettieren/Glatt
+## Trabajo con caras: Inclinar cara y Facetar caras suaves
 
-Um komplexere Entwürfe zu erstellen, nachdem Sie eine Form skizziert oder einen Grundkörper eingefügt haben, können Sie die Geometrie mithilfe einer Reihe kontextabhängiger Werkzeuge bearbeiten. Zu diesen Operationen zählen Neigen, Reihe sowie Kopieren und Einfügen
+Para crear diseños más complejos después de crear un boceto de una forma o colocar una primitiva, puede utilizar varias herramientas contextuales a fin de modificar la geometría. Estas operaciones incluyen Inclinar cara, Matriz, Copiar y Pegar.
 
-### Fläche neigen
+### Inclinar cara
 
-So **neigen Sie eine Fläche**
+Para **inclinar una cara**, realice lo siguiente:
 
-1. Wählen Sie eine Fläche aus, und klicken Sie mit der rechten Maustaste, um das Kontextmenü anzuzeigen.
-2. Wählen Sie dann das Symbol **Neigen** aus dem Kontextmenü.
-3. Definieren Sie die Neigungsachse, indem Sie eine Linie zeichnen.
-4. Klicken Sie auf einen dritten Punkt, um den Neigungsvorgang zu starten.
+1. Seleccione una cara y haga clic con el botón derecho para ver el menú contextual.
+2. Seleccione el icono **Inclinar cara** en el menú contextual.
+3. Defina el eje de inclinación. Para ello, dibuje una línea.
+4. Haga clic en un tercer punto para iniciar la operación de inclinación.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Glatte Flächen facettieren
+### Facetar caras suaves
 
-Wenn Sie den Cursor auf eine Fläche setzen und dabei gepunktete Linien angezeigt werden, bedeutet dies, dass die Fläche sich aus kleineren Flächen zusammensetzt, da sie gekrümmt ist. So **wandeln Sie die gepunkteten Linien in Modellkanten um**
+Si pasa el cursor sobre una cara y observa líneas discontinuas, esto significa que la cara está formada por caras más pequeñas debido a la deformación de la cara. Para **convertir las líneas discontinuas en bordes del modelo**, realice lo siguiente:
 
-1. Wählen Sie die Fläche oder das Objekt aus, die bzw. das Sie ändern möchten, und klicken Sie mit der rechten Maustaste, um das Kontextmenü anzuzeigen.
-2. Wählen Sie im Kontextmenü das Werkzeug **Glatte Flächen facettieren**.
-3. Kanten werden automatisch an der Stelle hinzugefügt, an der die Fläche zuvor glatt war.
+1. Seleccione la cara o el objeto que desea cambiar y haga clic con el botón derecho para ver el menú contextual.
+2. En el menú contextual, seleccione la herramienta **Facetar caras suaves**.
+3. Los bordes se añaden automáticamente en la ubicación en la que la cara se ha suavizado anteriormente.
 
-Dieser Befehl funktioniert auch umgekehrt: Sie können facettierte Flächen auswählen und das Werkzeug **Glatte Flächen facettieren** aus dem Kontextmenü auswählen, um die Kanten auszublenden und die Flächen glatt erscheinen zu lassen.
+Este comando también funciona de la forma opuesta: puede seleccionar caras facetadas y elegir la herramienta **Facetar caras suaves** en el menú contextual para ocultar los bordes y conseguir que las caras parezcan suaves.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

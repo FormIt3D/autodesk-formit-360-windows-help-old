@@ -1,80 +1,80 @@
-# Storefront/Curtainwall Mullion System (Ladenfront-/Fassadenpfosten-System)
+# Sistema de montantes de escaparate/muro cortina
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## Con tecnología de Dynamo
 
-Die Möglichkeit, in FormIt schnell Ladenfront-/Fassadenpfosten-Systeme erstellen zu können, wird von Dynamo unterstützt. Sie finden das Ladenfront-/Fassadensystem im Dynamo-Beispielverzeichnis (Dynamo Samples) in der Gruppe Dynamo:
+Dynamo proporciona la capacidad de crear rápidamente sistemas de montantes de muro cortina/escaparate en FormIt. Puede encontrar el sistema de muro cortina/escaparate en el directorio de muestras de Dynamo del panel de Dynamo:
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Auswählen von Glas für das Pfostensystem
+## Selección de "cristal" para el sistema de montantes
 
-Ab FormIt 2021.2 verwendet das Ladenfront-/Fassadensystem den neuen [SelectFromFormIt-Block](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), mit dem Sie einen Glaskörper \(eine einzelne Fläche oder einen extrudierten Volumenkörper\) auswählen können, um den ein Pfostensystem erstellt werden soll.
+A partir de FormIt 2021.2, el sistema de muro cortina/escaparate utiliza el nuevo nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), que permite seleccionar un elemento de "cristal" \(una cara única o un sólido extruido\) alrededor del que generar un sistema de montantes.
 
-![Einfache Ebene aus Glas mit einer Öffnung für Türen unten](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Un plano sencillo de "cristal" con un hueco para puertas en la parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-Wenn Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade) klicken \(beachten Sie das Symbol, das angibt, dass eine Auswahl erforderlich ist\), fordert FormIt Sie auf, die Glasgeometrie auszuwählen, um fortzufahren:
+Al hacer clic en la miniatura del muro cortina/escaparate \(observe el icono que indica que se requiere una selección\), FormIt le solicitará que seleccione la geometría de cristal para continuar, como se muestra a continuación:
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-Einige Hinweise und Warnungen zur Funktionsweise der Glasauswahl:
+A continuación, se ofrecen algunas notas y advertencias sobre cómo funciona la selección de cristal:
 
-* Derzeit werden nur planare Flächen unterstützt. Wenn Sie eine Reihe von Flächen auswählen \(z. B. eine gekrümmte Fläche, die aus kleineren planaren Flächen besteht\), sucht das Skript die größte planare Fläche und verwendet diese.
-* Wenn die Verglasung ein Volumenkörper ist, d. h., wenn eine einzelne Fläche sehr leicht extrudiert wurde, um eine gewisse Dicke zu erhalten, findet das Skript die größte Fläche, sodass die resultierenden Pfosten auf einer Seite des Glasvolumenkörpers generiert werden.
-* Sie können Öffnungen für Türen skizzieren und die resultierende Fläche aus der Glasumgrenzung entfernen. Die resultierenden Pfosten berücksichtigen die Türöffnung, sodass diese leer bleibt, damit die Tür hinzugefügt werden kann.
-* Aufgrund von Einschränkungen in Dynamo funktioniert dieses Skript nicht, wenn die Glasgeometrie Öffnungen in der Mitte aufweist.
+* Actualmente, solo se admiten superficies planas. Si selecciona una serie de superficies \(por ejemplo, una superficie "curva" compuesta de superficies planas más pequeñas\), la secuencia de comandos encontrará la cara plana más grande y la utilizará. 
+* Si el cristal es sólido (es decir, una sola cara extruida ligeramente para representar algo de grosor), la secuencia de comandos encontrará la superficie más grande, por lo que los montantes resultantes se generarán en un lado del sólido de cristal.
+* Puede dibujar huecos para puertas y eliminar la superficie resultante del contorno de cristal; los montantes resultantes respetarán el hueco de puerta, dejándolo en blanco para la adición de puertas.
+* Debido a las limitaciones de Dynamo, esta secuencia de comandos no funcionará si la geometría de cristal tiene huecos en el medio.
 
-## Tipps und Tricks
+## Consejos y trucos
 
-Bei der Auswahl von Geometrie für ein Dynamo-Diagramm in FormIt können bestimmte organisatorische Tricks die Arbeit vereinfachen und eine einfache Instanziierung der Ergebnisse ermöglichen:
+Al seleccionar la geometría de un gráfico de Dynamo en FormIt, algunos trucos organizativos pueden simplificar la experiencia y facilitar la creación de ejemplares de los resultados, como se indica a continuación:
 
-* Fügen Sie die Verglasung zu einer Gruppe hinzu, und verwenden Sie die Gruppe als Auswahl für das Skript Storefront/Curtainwall (Ladenfront-/Fassade). Auf diese Weise ist es einfacher, das Glasprofil zu bearbeiten, nachdem die Pfosten generiert wurden. Wenn die Verglasung zwischen den Ausführungen umfassend geändert wird und andere Flächen-IDs gelten, stellt die Gruppe sicher, dass das Skript die Verglasung immer findet, da es die Gruppen-ID und nicht die Flächen-ID verwendet.
-* Wenn Sie planen, die Ergebnisse des Pfostensystems zu kopieren und an anderen Stellen im Modell einzufügen, sollten die Verglasung und die resultierenden Pfosten in einer Gruppe enthalten sein. Dadurch wird auch verhindert, dass der Auswahlblock nicht weiß, welches Glasexemplar verwendet werden soll, wenn nur die resultierende Pfostengruppe kopiert und eingefügt wird.
-   * Fassen Sie die Verglasung zuerst in einer Group (Gruppe) zusammen. Doppelklicken Sie darauf, um die Verglasung auszuwählen, und drücken Sie G, oder verwenden Sie die Gruppenbefehle im Kontextmenü oder im Werkzeugkasten.
-   * Wählen Sie die resultierende Gruppe aus, und fügen Sie sie zu einer anderen Gruppe hinzu.
-   * Doppelklicken Sie, um die erste Gruppe aufzurufen. Diese ist der Container für die Verglasung und die resultierenden Pfosten.
-   * Klicken Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade), und verwenden Sie die Glasgruppe als Auswahl.
-   * Nachdem das Skript ausgeführt wurde, können Sie die Gruppe beenden und den Container nach Bedarf kopieren und einfügen. Sie können jedes der Exemplare problemlos bearbeiten \(Anpassen der Glasform oder der Parameter\).
+* Coloque el cristal en un grupo y utilice este como selección para la secuencia de comandos de escaparate/muro cortina. De esta forma, es más fácil editar el perfil de cristal después de generar los montantes y, si el cristal se modifica considerablemente entre tramos y los ID de cara han cambiado, el grupo garantiza que la secuencia de comandos siempre encuentre el cristal, ya que utiliza el ID de grupo, no el ID de cara.
+* Si tiene previsto copiar y pegar los resultados del sistema de montantes en otras ubicaciones del modelo, es mejor que el cristal y los montantes resultantes se hayan incluido en un grupo. Esto también evitará problemas si el nodo de selección no sabe qué ejemplar de cristal utilizar cuando solo se copie y se pegue el grupo de montantes resultante.
+   * Incluya primero el cristal en un grupo. Haga doble clic en él para seleccionar el cristal y pulse G, o bien utilice los comandos de grupo del menú contextual o la barra de herramientas.
+   * Seleccione el grupo resultante y colóquelo en otro grupo.
+   * Haga doble clic para introducir el primer grupo. Este es el "contenedor" tanto para el cristal como para los montantes resultantes.
+   * Haga clic en la miniatura del muro cortina/escaparate y utilice el grupo de cristal como selección.
+   * Una vez que se ejecute la secuencia de comandos, puede salir del grupo y copiar y pegar el contenedor según sea necesario. Puede editar cualquiera de los ejemplares \(ajustando la forma o los parámetros de cristal\) sin problemas.
 
-## Optionen des Pfostensystems
+## Opciones del sistema de montantes
 
-Wenn Sie die Verglasung auswählen und das Skript ausführen, erhalten Sie ein Ergebnis in Form einer FormIt-Gruppe im FormIt-Ansichtsbereich. Diese Gruppe wird automatisch ausgewählt, und die verfügbaren Optionen werden in der Gruppe Properties (Eigenschaften) angezeigt.
+Una vez que seleccione un cristal y ejecute la secuencia de comandos, obtendrá un resultado en el lienzo de FormIt en forma de grupo de FormIt. Este grupo se seleccionará automáticamente y el panel Propiedades presentará las opciones disponibles.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run (Ausführen)**: Wenn Sie die Form der Verglasung ändern und das Diagramm erneut ausführen möchten, um die Pfostergebnisse zu aktualisieren, klicken Sie auf diese Schaltfläche.
-* **Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)**: Bearbeiten Sie das Dynamo-Skript, mit dem die Geometrie erstellt wird. Dieses Skript ist in die FormIt-Datei eingebettet und ist spezifisch für diese Gruppe.
-* **Select Glass \(Surface or Solid\) (Glas auswählen \(Fläche oder Volumenkörper\))**: Klicken Sie auf diese Option, um einen anderen Glaskörper auszuwählen, um den Pfosten erstellt werden sollen.
+* **Ejecutar**: si modifica la forma del cristal y desea volver a ejecutar el gráfico para actualizar los resultados del montante, haga clic en este botón.
+* **Editar gráfico incrustado**: edite la secuencia de comandos de Dynamo que genera la geometría. Esta secuencia de comandos está incrustada en el archivo de FormIt y es específica de este grupo.
+* **Select Glass \(Surface or Solid\)**: haga clic en esta opción para actualizar la selección a un cristal diferente alrededor del que generar los montantes.
 
-Das Skript verwendet für die erste Ausführung Vorgabewerte. Sie sollten diese daher für Ihren speziellen Anwendungsfall anpassen. Für alle Werte werden die aktuellen FormIt-Einheiten verwendet.
+La secuencia de comandos utilizará los valores por defecto para su primera ejecución, por lo que es recomendable que los ajuste a su caso de uso exclusivo. Todos los valores utilizarán las unidades de FormIt actuales.
 
-* **Mullion Width + Depth (Pfostenbreite und -tiefe)**: Die Breite und Tiefe aller Pfostenelemente.
-* **Vertical Mullion Spacing (Abstand vertikaler Pfosten)**: Der Abstand (in der Mitte) zwischen den einzelnen vertikalen Pfosten.
-* **Flip Vertical Mullion Layout (Layout vertikaler Pfosten umkehren)**: Das Skript beginnt den vertikalen Pfostenabstand von einer Seite, die beliebig ausgewählt werden kann. Wenn der Pfostenabstand auf der falschen Seite für Ihren Anwendungsfall beginnt, setzen Sie diesen Wert auf True, um das Layout so umzukehren, dass es auf der gegenüberliegenden Seite beginnt.
-* **Center Vertical mullion Layout (Layout vertikaler Pfosten zentrieren)**: Anstatt die Berechnung des vertikalen Pfostenabstands an einem Ende der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout vertikaler Pfosten erstellt.
-* **First Horizontal Mullion Spacing (Abstand erster horizontaler Pfosten)**: Legt den Abstand des ersten horizontalen Pfostens von unten fest. Diese Option ist nützlich, wenn Sie eine Reihe kürzerer Verglasungsmodule unten benötigen, getrennt vom Rest des Abstands horizontaler Pfosten.
-* **Horizontal Mullion Spacing (Abstand horizontaler Pfosten)**: Der typische horizontale Pfostenabstand in der Mitte, beginnend nach dem ersten Pfosten, wie oben beschrieben.
-* **Flip Horizontal Mullion Layout (Layout horizontaler Pfosten umkehren)**: Wenn das Layout der horizontalen Pfosten nicht unten, sondern oben beginnen soll, setzen Sie diese Option auf True.
-* **Center Horizontal Mullion Layout (Layout horizontaler Pfosten zentrieren)**: Anstatt die Berechnung des horizontalen Pfostenabstands an der Unter- oder Oberseite der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout horizontaler Pfosten erstellt.
+* **Mullion Width + Mullion Depth**: la anchura y la profundidad de los elementos de montante.
+* **Vertical Mullion Spacing**: la distancia, en el centro, entre cada montante vertical.
+* **Flip Vertical Mullion Layout**: la secuencia de comandos inicia la separación entre montantes verticales desde un lado, elegido arbitrariamente. Si el resultado inicia la separación entre montantes en el lado incorrecto para el caso de uso, establezca esta opción en "True" para cambiar la presentación para que comience en el sitio opuesto.
+* **Center Vertical Mullion Layout**: en lugar de iniciar el cálculo de separación entre montantes verticales en un extremo del cristal, inicie el cálculo en el medio, lo que permite crear un diseño simétrico de montantes verticales.
+* **First Horizontal Mullion Spacing** permite establecer la primera separación entre montantes horizontales desde la parte inferior. Resulta útil si necesita una fila de módulos de cristalera más cortos en la parte inferior, separados del resto de la distancia de montantes horizontales.
+* **Horizontal Mullion Spacing**: separación típica entre montantes horizontales, en el centro, a partir del primer montante, tal como se ha indicado anteriormente.
+* **Flip Horizontal Mullion Layout**: si desea que el diseño de montante horizontal comience en la parte superior en lugar de en la inferior, establezca esta opción en "True".
+* **Center Horizontal Mullion Layout**: en lugar de iniciar el cálculo de separación entre montantes horizontales en la parte inferior o superior del cristal, inicie el cálculo en el medio, lo que permite crear un diseño simétrico de montantes horizontales.
 
-## Verdeckte Optionen
+## Opciones ocultas
 
-Sie möchten weitere Anpassungen vornehmen? Mehrere erweiterte Optionen werden aus der Gruppe der FormIt-Eigenschaften ausgeblendet, können jedoch durch Klicken auf Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) aufgerufen werden, um den vollständigen Inhalt des Diagramms in Dynamo anzuzeigen:
+¿Desea un mayor nivel de personalización? Hay varias opciones avanzadas ocultas en el panel Propiedades de FormIt; se puede acceder a ellas haciendo clic en Editar gráfico incrustado para visualizar el contenido completo del gráfico en Dynamo:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Zufällige Pfosten
+### Montantes aleatorios
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout (Layout vertikaler und horizontaler Pfosten zufällig anordnen)**: Setzen Sie diese Option auf True, um die vertikalen oder horizontalen Pfosten zufällig anzuordnen.
-* **Min/Max Mullion Spacing \(if random\) (Min./Max. Pfostenabstand \(falls zufällig\))**: Passen Sie diese Werte an, um einen Bereich von minimalen und maximalen zufälligen Abstandswerten festzulegen.
+* **Randomize Vertical and Horizontal Mullion Layout**: establezca esta opción en "True" para separar los montantes verticales u horizontales de forma aleatoria.
+* **Min/Max Mullion Spacing \(if random\)**: ajuste estos valores para establecer un intervalo de valores aleatorios de distancia mínima y máxima.
 
-### Randpfosten
+### Montantes de borde
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions (Versatzrichtung von Randpfosten umkehren)**: Vorgabemäßig verwendet das Pfostensystem die Glasumgrenzung und versetzt sie nach innen, um die Randpfosten zu erstellen. Um sie nach außen zu versetzen, setzen Sie diese Option auf True. Dadurch wird die Gesamtgröße des Pfostensystems außerhalb der Glasumgrenzung um den Wert für Pfostenbreite erhöht.
-* **Tolerance Between Selection and Border Mullions (Toleranz zwischen Auswahl und Randpfosten)**: Vorgabemäßig generiert das Pfostensystem Elemente genau an der Glasgrenze, was zu Z-Fighting an den Stellen führen kann, an denen die Glaskante und die äußeren Flächen der Randpfosten kollidieren. In den meisten Fällen ist dies nicht sichtbar. Wenn es für Ihren Fall jedoch erforderlich ist, dass die Kanten des Systems sichtbar sind und Sie Z-Fighting vermeiden möchten, aktivieren Sie diese Option und passen den Toleranzwert nach Bedarf an.
+* **Flip Offset Direction of Border Mullions:** por defecto, el sistema de montantes utilizará el contorno de cristal y lo desfasará hacia dentro para crear los montantes de borde. Para desfasar hacia fuera, establezca esta opción en "True". Esto aumentará el tamaño general del sistema de montantes fuera del contorno de cristal mediante la opción "Mullion Width".
+* **Tolerance Between Selection and Border Mullions**: por defecto, el sistema de montantes se genera exactamente en el borde del cristal, lo que podría provocar un conflicto de planos en el que chocarían el borde del cristal y las superficies exteriores de los montantes de borde. En la mayoría de los casos, esto no será visible, pero si el caso de uso requiere que los bordes del sistema estén visibles y desea evitar el conflicto de planos, active esta opción y ajuste el valor de tolerancia según sea necesario.
 

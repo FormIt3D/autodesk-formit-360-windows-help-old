@@ -1,29 +1,29 @@
-# Voraussetzungen und Installation
+# Requisitos previos e instalación
 
-## Download und Installation
+## Descarga e instalación
 
-* Laden Sie die neueste Version von [FormIt for Windows](https://formit.autodesk.com/page/download) herunter.
-* Melden Sie sich mit Ihrem Konto bei Autodesk Account an, oder [erstellen Sie hier ein kostenloses Konto bei Autodesk Account](https://accounts.autodesk.com/).
-* Das FormIt-Zusatzmodul für Revit ist in Revit 2017 und höher enthalten. Sie können das Zusatzmodul auch [von unserer Website](https://formit.autodesk.com/page/formit-revit) herunterladen und manuell installieren.
+* Descargue la versión más reciente de [FormIt para Windows](https://formit.autodesk.com/page/download).
+* Utilice su cuenta de Autodesk Account para iniciar sesión o [cree una gratuita aquí](https://accounts.autodesk.com/).
+* El complemento FormIt para Revit se incluye con Revit 2017 y versiones posteriores. También puede descargar e instalar manualmente el complemento [desde nuestro sitio web](https://formit.autodesk.com/page/formit-revit).
 
-## Empfohlene Systemkonfiguration
+## Configuración del sistema recomendada
 
-| Anforderung | Details |
+| Requisito | Detalles |
 | :--- | :--- |
-| **Betriebssystem** | Microsoft® Windows® 8, 8.1 oder 10 _Anmerkung: Parallels Desktop wird aufgrund von Leistungs- und Grafikproblemen bei OpenGL-Treibern offiziell nicht unterstützt._ |
-| **CPU** | Intel® Pentium®-, Xeon®- oder i-Series-Prozessor oder entsprechender AMD®-Prozessor mit SSE2-Technologie. Höchstmögliche CPU-Geschwindigkeit wird empfohlen. |
-| **Arbeitsspeicher** | Mindestens 4 GB RAM, 8 GB oder mehr empfohlen. |
-| **Grafikkarte \(GPU\)** | Eine eigenständige NVIDIA- oder AMD-GPU, die OpenGL 4.2 und DirectX 11 oder höher unterstützt, wird dringend empfohlen. Bei Systemen mit umschaltbaren Grafikkarten befolgen Sie die Anweisungen des Herstellers, um sicherzustellen, dass FormIt immer die dedizierte GPU verwendet. Weitere Informationen finden Sie in den Anweisungen für [AMD ](https://www.amd.com/de/support/kb/faq/dh-017)und [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1). Um eine optimale Leistung und Zuverlässigkeit zu erzielen, stellen Sie sicher, dass die Grafikkartentreiber auf dem neuesten Stand sind. Informationen hierzu finden Sie auf der Website des Herstellers oder bei Windows Update. FormIt zeigt beim Start eine Meldung an, wenn die Grafikkarte aufgrund von veralteten Treibern oder anderen Problemen nicht verwendet werden kann. Wenn FormIt nach der Aktualisierung der Treiber nicht gestartet werden kann, [sehen Sie in den Foren nach](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=de). |
-| **Festplattenspeicherplatz** | 1 GB freier Festplattenspeicherplatz |
-| **Konnektivität und Lizenzierung** | Ein Konto bei Autodesk Account mit Berechtigung für ein FormIt Pro-Cloud-Abonnement ist erforderlich, um FormIt Pro unter Windows auszuführen. FormIt Pro ist als Teil der [**Autodesk AEC Collection**](https://www.autodesk.de/collections/architecture-engineering-construction/overview) erhältlich. |
+| **Sistema operativo** | Microsoft® Windows® 8, 8.1 o 10 _Nota Parallels Desktop no se admite oficialmente debido a la reducción del rendimiento y a problemas gráficos de los controladores OpenGL._ |
+| **CPU** | Procesador Intel® Pentium® o Xeon® de varios núcleos o procesador i-Series o equivalente AMD® con tecnología SSE2. Se recomienda adquirir un procesador con la máxima velocidad posible. |
+| **Memoria** | Se requiere un mínimo de 4 GB de RAM, aunque se recomiendan 8 GB o más. |
+| **Tarjeta de vídeo \(GPU\)** | Se recomienda encarecidamente utilizar una GPU dedicada NVIDIA o AMD compatible con OpenGL 4.2 y DirectX 11 o superior. Para sistemas con tarjetas gráficas intercambiables, siga las instrucciones del fabricante para asegurarse de que FormIt siempre utilice la GPU dedicada. Consulte las instrucciones para [AMD ](https://www.amd.com/es/support/kb/faq/dh-017)y [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1). Para obtener un rendimiento y una fiabilidad óptimos, asegúrese de que los controladores de la tarjeta gráfica estén actualizados desde el sitio web del fabricante o Windows Update. FormIt mostrará un mensaje al inicio si no puede utilizar la tarjeta de vídeo debido a controladores obsoletos u otros problemas. Si FormIt no se inicia después de actualizar los controladores, [póngase en contacto con nosotros en los foros](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=es). |
+| **Espacio en disco** | 1 GB de espacio libre en disco. |
+| **Conectividad y licencias** | Se necesita una cuenta de Autodesk Account con una suscripción en la nube de FormIt Pro para ejecutar FormIt Pro en Windows. FormIt Pro está disponible como parte de la [**Autodesk AEC Collection**](https://www.autodesk.es/collections/architecture-engineering-construction/overview). |
 
-## Empfohlene Windows-DPI-Einstellungen
+## Configuración recomendada de DPI de Windows
 
-FormIt for Windows funktioniert am besten, wenn der Bildschirm in Windows auf eine DPI-Skalierung von 125 % oder weniger eingestellt ist.
+FormIt para Windows funciona mejor cuando la pantalla de visualización se establece en un 125 % o una escala inferior de DPI en Windows.
 
-Sie können dies in Windows 10 wie folgt ändern:
+Puede cambiar esto en Windows 10 mediante las siguientes acciones:
 
-* Suchen Sie im Startmenü nach Anzeige, und wählen Sie Anzeigeeinstellungen ändern.
-* Wählen Sie das Rechteck für den Bildschirm aus, den Sie in FormIt verwenden werden.
-* Öffnen Sie im Abschnitt Skalierung und Anordnung die Dropdown-Liste Größe von Text, Apps und anderen Elementen ändern, und wählen Sie einen Wert von 125 % oder weniger aus.
+* Busque "Pantalla" en el menú Inicio y seleccione Cambiar configuración de pantalla.
+* Seleccione el rectángulo que representa el monitor que utilizará con FormIt.
+* En la sección Escala y distribución, abra el menú desplegable Cambiar el tamaño del texto, las aplicaciones y otros elementos y seleccione un valor de 125 % o menos.
 

@@ -1,8 +1,8 @@
-# Reihe
+# Matriz
 
-Sie können sowohl lineare als auch radiale Reihen in FormIt erstellen. Um **Reihen von Kanten, Flächen oder ganzen Objekten zu erstellen**, wählen Sie im Kontextmenü das Reihensymbol. Wählen Sie dann Linear oder Radial, geben Sie die anderen Parameter an, und klicken Sie auf das Objekt, um eine Reihe zu beginnen. Klicken Sie erneut, um die Elementreihen zu platzieren.
+Puede crear matrices lineales y radiales en FormIt. Para **crear matrices de bordes, caras u objetos completos**, haga clic en el icono Matriz del menú contextual. A continuación, elija Lineal o Radial, especifique los demás parámetros y haga clic en el objeto para iniciar una matriz. Haga clic de nuevo para colocar los elementos de la matriz.
 
-## Linear
+## Lineal
 
 ![](../.gitbook/assets/array.png)  
 ![](../.gitbook/assets/array_linear2.png)  

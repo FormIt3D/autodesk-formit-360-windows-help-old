@@ -1,30 +1,29 @@
-# Weltachsen
+# Ejes universales
 
-Das vorgegebene Koordinatensystem und sein Raster können durch Ändern der Weltachse bearbeitet werden.
+El sistema de coordenadas y la rejilla por defecto se pueden modificar mediante la modificación del eje global.
 
-## Zeichnen und Modellieren mit Achsen
+## Dibujo y modelado con ejes
 
-Beim Öffnen einer leeren Skizze in FormIt werden die Weltachsen in Form dreier Linien (rot, grün, blau) in der Mitte des Bildschirms angezeigt. Diese drei Linien markieren die drei kartesischen Richtungen, die die 3D-Welt definieren. Die X-Richtung wird durch die rote, die Y-Richtung durch die grüne und die Z-Richtung (nach oben) durch die blaue Linie definiert.
+Cuando se abre un boceto en blanco en FormIt, los ejes universales se muestran como tres líneas (roja, verde y azul) en el centro de la pantalla. Estas tres líneas definen las tres direcciones cartesianas que establecen el mundo 3D. La dirección X se define mediante la línea roja, la dirección Y mediante la línea verde y la dirección Z o arriba mediante la línea azul.
 
 ![](../.gitbook/assets/axis.png)
 
-Um das Raster zu drehen und den Ursprungspunkt für die Skizze neu zu definieren, **klicken Sie mit der rechten Maustaste** auf eine leere Stelle in der Szene und wählen das Symbol **Achsen festlegen \(SZ\)** aus dem Kontextmenü.  
-![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
+Para rotar la rejilla y redefinir el punto de origen del boceto, **haga clic con el botón derecho** en un espacio vacío de la escena y seleccione el icono **Establecer ejes \(SZ\)** en el menú contextual  
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
 
-Das Widget Achsen festlegen wird angezeigt. Klicken Sie auf den großen Griff in der Mitte, um das Widget aufzurufen. Klicken Sie erneut, um den Ursprungspunkt festzulegen. Klicken Sie nun auf den Punkt auf der roten Achse, um das Raster zu drehen, oder klicken Sie auf den Punkt auf den blauen Achsen, um die Rasterebene vertikal zu schwenken. Klicken Sie in den Raum, um die Änderung zu bestätigen.  
-![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+Aparece el widget para establecer ejes. Haga clic en el pinzamiento grande del centro para seleccionar el widget. Haga clic de nuevo para establecer el punto de origen. A continuación, haga clic en el punto del eje rojo para rotar la rejilla o haga clic en el punto de los ejes azules para girar el plano de rejilla verticalmente. Haga clic fuera del espacio para confirmar el cambio  ![](../.gitbook/assets/2021-01-14_12-30-10.gif).
 
-Um den Ursprung und das Raster auf die Vorgabeeinstellungen **zurückzusetzen**, klicken Sie mit der rechten Maustaste auf eine leere Stelle in der Szene und wählen **Achsen zurücksetzen \(RZ\)**.
+Para **restablecer** el origen y la rejilla a la configuración por defecto, haga clic con el botón derecho en un espacio vacío de la escena y elija **Restablecer ejes \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Weltachsen und lokale Achsen
+## Ejes universales y locales
 
-Die oben beschriebenen Schritte erläutern, wie Sie das **globale Koordinatensystem** Ihrer Skizze steuern. Wenn Sie mit der Arbeit mit [**Gruppen** ](groups.md)beginnen, können Sie das **lokale Koordinatensystem** dieser Gruppe direkt über die Gesamtskizze steuern. Wenn Sie eine Gruppe bearbeiten, können Sie das lokale Koordinatensystem bearbeiten, indem Sie die gleichen Schritte wie oben ausführen. Diese Änderungen werden jedoch nur auf diese Gruppe angewendet.
+En los pasos anteriores se explica cómo controlar el **sistema de coordenadas global** del boceto. Cuando se comienza a trabajar con [**grupos**](groups.md), puede controlar el **sistema de coordenadas local** de ese grupo de forma exclusiva desde el boceto general. Al editar un grupo, puede editar el sistema de coordenadas local siguiendo los mismos pasos que antes, pero estos cambios solo se aplicarán al grupo.
 
-## Interaktionen mit Achsen
+## Interacciones con ejes
 
-* Die **roten, grünen und blauen Achsen** werden als Orientierung für das 3D-Skizzieren angezeigt, wenn Sie sich in den Skizzierwerkzeugen befinden.
-* Die **violette Achse** zeigt eine lotrechte und parallele Achse relativ zu Linien an, die in einem Winkel gezeichnet wurden.
-* Halten Sie beim Skizzieren oder Verschieben die **UMSCHALTTASTE** gedrückt, um Operationen auf die **aktuelle Achse zu beschränken**.
+* Los **ejes rojo, verde y azul** se muestran cuando se está en las herramientas de boceto para guiar el boceto 3D.
+* El **eje púrpura** muestra un eje perpendicular y paralelo con respecto a las líneas dibujadas en un ángulo.
+* Mantenga pulsada la **tecla Mayús** mientras crea el boceto o se desplaza para **bloquear el eje actual**.
 

@@ -1,14 +1,14 @@
-# Polygon
+# Polígono
 
-Verwenden Sie das Werkzeug Polygon, um ein normales n-seitiges Polygon im Raum oder auf einem anderen Objekt zu zeichnen.
+Utilice la herramienta Polígono para dibujar un polígono normal de n lados en el espacio o en otro objeto.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-Starten Sie das Polygon, und klicken Sie, um den Mittelpunkt zu wählen. Legen Sie den Radius fest, indem Sie den zweiten Punkt zeichnen, eine Bemaßung eingeben oder die **TABULATORTASTE** drücken, um die **Werkzeugoptionen** aufzurufen.
+Inicie el polígono y haga clic para elegir el centro. Especifique el radio. Para ello, dibuje el segundo punto, introduzca una cota o pulse la tecla **Tab** para abrir las **Opciones de herramientas**.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-Die Option **Werkzeugoptionen** ermöglicht es Ihnen, die Anzahl der Seiten zu ändern und einen bestimmten Radius festzulegen.
+Las **Opciones de herramientas** permiten cambiar el número de lados y especificar un radio específico.
 
 ![](../.gitbook/assets/image.png)
 

@@ -1,20 +1,20 @@
-# Einstellungen
+# Configuración
 
-Die Einstellungen können über das Menü oder den Werkzeugkasten aufgerufen werden. Alle Einstellungen werden gespeichert, sobald FormIt geschlossen wird.
+Se puede acceder a la configuración desde el menú o la barra de herramientas. Todos los parámetros se guardan una vez cerrado FormIt.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Einheiten**: Wechseln Sie zwischen britischen und metrischen Einheiten.
-* **Rasterfang**: Legen Sie fest, ob Zeichnungs- und Modellierungswerkzeuge am zugrunde liegenden Raster der Ausgangsposition gefangen werden.
-* **Bearbeitbare Bemaßungen anzeigen**: Schalten Sie die Anzeige von Bemaßungen beim Zeichnen und Bearbeiten um.
-* **Nur bearbeitete Gruppen anzeigen**: Wenn diese Option aktiviert ist, werden alle anderen Gruppen ausgeblendet, während eine andere Gruppe bearbeitet wird.
-* **Hervorhebung für Vorauswahl**: Wenn diese Option aktiviert ist und Sie den Mauszeiger über alle Objekte, Kanten, Flächen und Punkte bewegen, erhalten Sie eine visuelle Hervorhebung.
-* **Große Schaltflächen**: Aktiviert bzw. deaktiviert große Schaltflächen in Werkzeugkästen.
-* **App-Design**: Wechseln Sie zwischen hellen, dunklen und blauen Benutzeroberflächen-Designs.
+* **Unidades**: cambie entre unidades imperiales y métricas.
+* **Forzar cursor a rejilla**: permite determinar si las herramientas de dibujo y modelado fuerzan el cursor o no a la rejilla de suelo subyacente.
+* **Mostrar cotas editables**: active o desactive la visualización de cotas al dibujar y editar.
+* **Mostrar solo grupo editado**: si está activada esta opción, el resto de grupos se ocultan mientras se edita otro grupo.
+* **Resaltado de preselección**: si está activada esta opción, al pasar el cursor sobre todos los objetos, los bordes, las caras y los puntos, se resaltan visualmente estos elementos.
+* **Botones grandes de la barra de herramientas**: permite activar y desactivar los botones grandes de la barra de herramientas.
+* **Tema de la aplicación**: cambie entre los temas de la interfaz de usuario Claro, Oscuro y Azul.
 
-## Berührungsmodus
+## Modo táctil
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-Der Berührungsmodus ermöglicht es Ihnen, Windows-Anwendungen mit Touch-Bildschirmen zu verwenden. Wenn diese Option aktiviert ist, können Sie mit einer Berührung des Bildschirms und Ziehen mit dem Finger Zeichnungs-, Modellierungs- und Änderungswerkzeuge auswählen und mit diesen interagieren. **Anmerkung: Im Berührungsmodus funktionieren Zeichnungs- und Bearbeitungswerkzeuge nicht ordnungsgemäß mit der Maus.**
+El modo táctil permite utilizar dispositivos con Windows equipados con pantallas táctiles. Si está activada esta opción, puede utilizar un solo toque y arrastrar para seleccionar herramientas de dibujo, modelado y modificación e interactuar con ellas. **Nota En el modo táctil, las herramientas de dibujo y modificación no funcionarán correctamente con el ratón.**
 

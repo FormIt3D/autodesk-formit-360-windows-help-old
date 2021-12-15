@@ -1,18 +1,18 @@
-# Konzeptionelle Volumenkörper-Modellierung
+# Modelado conceptual de sólidos
 
-Schnelle und einfache Erstellung von Geometrie zum Experimentieren mit Entwurfsoptionen.
+Cree de forma rápida y sencilla geometría conceptual para utilizar las opciones de diseño.
 
-Der FormIt-Kernel für die Volumenkörper-Modellierung ermöglicht unglaubliche, zeitsparende Arbeitsabläufe, um die Modellierung einfach und effizient zu gestalten.
+El núcleo de modelado de sólidos de FormIt permite flujos de trabajo increíbles que ahorran tiempo para que el modelado sea fácil y eficiente.
 
-**Erfahren Sie, warum die Volumenkörper-Modellierung von Vorteil ist und wie Sie sicherstellen können, dass Ihr Modell ein Volumenkörper ist, sodass es in nachgelagerten Anwendungen wie Revit verwendet werden kann:**
+**Descubra por qué el modelado de sólidos es ventajoso y cómo asegurarse de que el modelo sea sólido para que se pueda utilizar en otras aplicaciones, como Revit:**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Sobald Ihr Modell ein Volumenkörper ist, können Sie die Techniken der Volumenkörper-Extrusion nutzen, um Geometrie schnell zu bereinigen und organisierte Modelle beizubehalten:**
+**Una vez que el modelo sea sólido, puede aprovechar las técnicas de extrusión de sólidos para limpiar rápidamente la geometría y mantener los modelos organizados:**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Verwenden Sie die Werkzeuge für die intelligente Auswahl, um ähnliche Geometrie schnell und mit weniger Klicks auszuwählen:**
+**Además, utilice las herramientas de selección inteligente para elegir geometría similar rápidamente con menos pulsaciones del ratón:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
 

@@ -1,12 +1,12 @@
-# Kreis
+# Círculo
 
-Mit dem Werkzeug Kreis können Sie einen Kreis im Raum oder auf einem anderen Objekt zeichnen.
+Utilice la herramienta Círculo para dibujar un círculo en el espacio o en otro objeto.
 
-Tastatur: C
+Teclado: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Um einen Kreis zu zeichnen, wählen Sie zunächst den Mittelpunkt aus und geben dann den Radius des Kreises an. Als Nächstes wird der Kreis automatisch zu einer Fläche.
+Para dibujar un círculo, seleccione primero el centro y, a continuación, especifique el radio del círculo. A continuación, el círculo se convierte automáticamente en una cara.
 
 ![](../.gitbook/assets/circle1.png)
 

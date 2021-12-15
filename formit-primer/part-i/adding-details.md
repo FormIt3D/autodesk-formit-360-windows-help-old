@@ -1,129 +1,129 @@
-# 1.9 – Hinzufügen von Details
+# 1.9 - Adición de detalles
 
-_FormIt ist ein hervorragendes Körpermodellwerkzeug und ein exzellentes Modellierungswerkzeug. Beginnen Sie nun, dem Farnsworth House Details in Form von Türen und Pfosten für die Glaszelle hinzuzufügen. Anschließend erfahren Sie mehr über einige zusätzliche Werkzeuge, und Sie werden das Hinzufügen neuer Geometrie, Layer, Materialien und die Gruppenverwaltung üben._
+_FormIt es una excelente herramienta de masa, además de una fantástica herramienta de modelado. Empezaremos a añadir detalles a la Farnsworth House en forma de puertas y montantes para la caja de cristal. A continuación, abordaremos algunas herramientas adicionales y practicaremos el proceso de añadir nueva geometría, capas, materiales y administración de grupos._
 
-_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.9 – Adding Details.axm**_ _aus_ _**FormIt Primer Part 1 Datasets** herunter, und öffnen Sie sie._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.9 - Adding Details.axm**_ _desde los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Erstellen von Fensterrahmen**
+## **Crear marcos de ventana**
 
-_Sie erstellen einen 2" breiten Metallrahmen und Pfosten um die Glaszelle. Beachten Sie, dass diese Pfosten absichtlich mit der Glaszelle überlappen._
+_Vamos a crear montantes y un marco metálico de 2" alrededor de la caja de cristal. Tenga en cuenta que estos montantes se solaparán intencionadamente con la caja de cristal._
 
-1 – Erstellen Sie einen neuen Layer mit der Bezeichnung **Glass Walls**, und verschieben Sie die Gruppe **Glass Wall** dorthin.
+1 - Cree una nueva capa denominada **Glass Walls** y desplace el grupo **Glass Wall** a ella.
 
-2 – Um die Visualisierung zu erleichtern, deaktivieren Sie den Layer **Roof**, sodass Sie die gesamte Glaszelle sehen können.
+2 - Para facilitar la visualización, desactive la capa **Roof** para que podamos ver toda la caja de cristal.
 
-3 – So erstellen Sie den ersten Fensterrahmen
+3 - Para comenzar a crear el primer marco de ventana, realice lo siguiente:
 
-1. Zeichnen Sie an der Westseite des Gebäudes mit dem **Werkzeug Rechteck \(R\)** eine neue Fläche direkt über der Glasaußenfläche. Erstellen Sie die Fläche außerhalb der Gruppe **Glass Walls**.
-2. Wählen Sie die neu erstellte Fläche aus, und ziehen Sie sie **2"** nach innen. Drücken Sie **ESC**, um die Auswahl aufzuheben. Das endgültige Ergebnis sollte wie die folgende Abbildung aussehen.
-3. Klicken Sie auf die Fläche, die Sie gerade erstellt haben. Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen und das **Werkzeug Fläche versetzen \(OF\)**
+1. En el lado oeste del edificio, utilice la **herramienta Rectángulo \(R\)** para dibujar una nueva superficie directamente sobre la cara de cristal exterior. Asegúrese de crear la superficie fuera del grupo **Glass Walls**.
+2. Seleccione y arrastre la cara recién creada **2"** hacia el interior. Pulse **Esc** para anular la selección. El resultado final debe tener un aspecto similar al de la imagen siguiente.
+3. Haga clic una vez en la cara que acaba de crear. Haga clic con el botón derecho para acceder al **menú contextual** y utilizar la **herramienta Desfasar cara \(OF\).**
 
-_**Anmerkung:**_ _Wenn Sie Schwierigkeiten bei der Auswahl der neuen Fläche haben, drücken Sie die_ _**LEERTASTE**_ _, um zwischen verschiedenen auswählbaren Objekten zu wechseln, oder deaktivieren Sie vorübergehend den Layer_ _**Glass Walls**_ _._
+_**Nota:**_ _Si tiene problemas para seleccionar la nueva cara, pulse la_ _**barra espaciadora**_ _para alternar entre los diferentes objetos seleccionables o desactive temporalmente la capa_ _**Glass Walls**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 – Um die Versatzbemaßung festzulegen, bewegen Sie den Mauszeiger zur Innenseite der Fläche, und geben Sie **2"** ein, um ein neues kleineres Rechteck zu erstellen.
+4 - Para definir la cota de desfase, mueva el cursor del ratón hacia el interior de la cara e introduzca **2"** para crear un rectángulo más pequeño.
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 – Klicken Sie, um das gerade erstellte innere Rechteck auszuwählen. Klicken Sie erneut, und ziehen Sie die Fläche in Richtung Gebäudeinnere, bis sie ausgeblendet wird. Klicken Sie erneut, um den Entfernungsvorgang des mittleren Volumens aus der Rahmengeometrie zu beenden.
+5 - Haga clic una vez para seleccionar el rectángulo interior que acaba de crear. Haga clic de nuevo y arrastre la cara hacia el interior del edificio hasta que desaparezca. Haga clic una vez más para terminar de eliminar el volumen central de la geometría del marco.
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 – Doppelklicken Sie, um die soeben erstellte Geometrie auszuwählen, und **gruppieren \(G\)** Sie sie. Nennen Sie die Gruppe **Mullion Frame – EW**.
+6 - Haga doble clic para seleccionar la geometría que acabamos de crear y utilice la opción **Grupo \(G\)** para agruparla. Asigne al grupo el nombre **Mullion Frame – EW**.
 
-7 – Erstellen Sie einen Layer mit dem Namen **Mullion**, und platzieren Sie die neue Gruppe darauf.
+7 - Cree una capa denominada **Mullion** y coloque el nuevo grupo en ella.
 
-8 – So legen Sie das Material des Rahmens fest
+8 - Para configurar el material del marco, realice lo siguiente:
 
-1. Duplizieren Sie in der **Materialpalette** das Material **Metal – Brushed – Colorized**, indem Sie mit der rechten Maustaste darauf klicken und **Material duplizieren** auswählen.
-2. Doppelklicken Sie auf die Vorschaukachel des neuen Materials, um es zu bearbeiten.
-3. Benennen Sie das Material in **Metal – Brushed – Gray** um.
-4. Ändern Sie die Materialfarbe, indem Sie auf die Kachel **Farbe** im Abschnitt **Maps** klicken, und dunkeln Sie das Grau ab, indem Sie **Wert** in **150** ändern.
+1. En la **paleta Materiales**, duplique el material **Metal – Brushed – Colorized**. Para ello, haga clic con el botón derecho en él y seleccione **Duplicar material**.
+2. Haga doble clic en el mosaico de vista preliminar del nuevo material para editarlo.
+3. Cambie el nombre a **Metal – Brushed – Gray**.
+4. Modifique el color del material. Para ello, haga clic en el mosaico **Color** de la sección **Mapas** y oscurezca el gris cambiando el valor **Val:** a **150**.
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 – Klicken Sie auf **OK**, um diese Änderungen am neuen Material zu speichern, und versehen Sie dann die Gruppe **Mullion Frame – EW** mit dem neuen Material. Anschließend sollte die **Eigenschaftenpalette** der Gruppe der folgenden Abbildung entsprechen:
+9 - Haga clic en **Aceptar** para guardar estos cambios en el nuevo material y, a continuación, pinte el grupo **Mullion Frame – EW** con él. Después, la **paleta Propiedades** del grupo debería coincidir con lo que se muestra en la imagen siguiente:
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 – Erstellen Sie mithilfe eines der folgenden Werkzeuge ein neues Exemplar des Rahmens auf der Ostseite: **Schnelles Kopieren**, **Reihe** oder **Spiegeln**.
+10 - Cree un nuevo ejemplar del marco en el lado este mediante cualquiera de las siguientes herramientas: **Copia rápida**, **Matriz** o **Duplicar**.
 
-11 – Wiederholen Sie die obigen Schritte für die Nord- und Südseite der Glaszelle. Nennen Sie die neue Gruppe **Mullion Frame – NS**. Vergessen Sie nicht, die Seiten mit einem Material zu versehen und auf dem Layer **Mullion** zu platzieren.
+11 - Repita los pasos anteriores para los lados norte y sur de la caja de cristal. Asigne al nuevo grupo el nombre **Mullion Frame – NS**. No olvide pintarlos y colocarlos en la capa **Mullion**.
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Anmerkung:**_ _Die Pfostenrahmen überlappen sich an den Ecken. Das ist Absicht. Das obige Ergebnis zeigt die resultierende Pfostenrahmengeometrie mit deaktivierten Layern_ _**Glass Wall**_ _und_ _**Column**_ _._
+_**Nota:**_ _Los marcos de los montantes se solapan entre sí en las esquinas. Esto es intencionado. En el resultado de arriba, se muestra la geometría de marco de montante con las capas_ _**Glass Wall**_ _y_ _**Column**_ _desactivadas._
 
-**Pfosten erstellen**
+**Crear montantes**
 
-1 – Zeichnen Sie in der Ebene mit der Glasaußenfläche auf der Süd- oder Nordseite des Gebäudes ein **Rechteck \(R\) mit den Maßen 2" x 10'-10"**, das sich zwischen der Unter- und Oberkante des Pfostenrahmens erstreckt. Sie müssen sich nicht um die genaue Position des Rechtecks entlang des Rahmens kümmern. Es wird in den folgenden Schritten an die gewünschte Position verschoben.
+1 - En un plano con la cara de cristal exterior en el lado sur o norte del edificio, dibuje un rectángulo de **2" x 10'-10" \(R\)** que se extienda desde la parte inferior y la parte superior del marco del montante. No se preocupe por la posición exacta del rectángulo a lo largo del marco, lo colocaremos en su lugar en los pasos siguientes.
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 – Extrudieren Sie das Rechteck zurück zum Wert **2"**, **gruppieren \(G\)** Sie es, und geben Sie der Gruppe den Namen **Mullion – Vertical**. Platzieren Sie die Gruppe auf dem Layer **Mullion**, und versehen Sie sie mit dem Material **Metal – Brushed – Grey**.
+2 - Extruya el rectángulo hacia atrás **2"** y, a continuación, **Agrupe \(G\)** y asigne al grupo el nombre **Mullion – Vertical**. Coloque el grupo en la capa **Mullion** y píntelo con el material **Metal – Brushed – Grey**.
 
-**Positionieren der Pfosten**
+**Ubicación de los montantes**
 
-_Jetzt legen Sie die Position für den ersten Pfosten fest, sodass er am_ _**Mittelpunkt**_ _einer Stütze zentriert ist._
+_Ahora vamos a definir la ubicación del primer montante para que se centre en el __**Punto medio**__ de un pilar._
 
-1 – Um die Stützen wieder anzuzeigen, aktivieren Sie den Layer **Column**, falls er deaktiviert war. In der **Layer-Palette** können Sie auch die Layer **Lower Terrace** und **Plan Image** deaktivieren, um die nächsten Schritte zu erleichtern.
+1 - Para volver a ver los pilares, active la capa **Column**, si estaba desactivada. Mientras se encuentra en la **paleta Capas**, también puede desactivar las capas **Lower Terrace** e **Plan Image** para facilitar los pasos siguientes.
 
-2 – So verschieben Sie den Pfosten an die neue Position
+2 - Para mover el montante a su nueva ubicación, realice lo siguiente:
 
-1. Klicken Sie, um die soeben erstellte vertikale Pfostengruppe auszuwählen. Verwenden Sie **Zoom \(Z\)** zum Vergrößern, und klicken Sie auf den **Mittelpunkt** der unteren Außenkante des Pfostens, der durch ein rotes Dreieck symbolisiert wird**.**
-2. Verschieben Sie die Geometrie horizontal in Richtung einer Stütze. Drücken Sie die **UMSCHALTTASTE**, um die Bewegung in der roten Achse \(**X-Achse**\) zu sperren. Beachten Sie, dass die rote Achse dicker wird, sobald die Bewegung gesperrt ist.
-3. Verkleinern Sie die Ansicht, bis Sie die Basis der Stütze sehen können. Halten Sie die **UMSCHALTTASTE** gedrückt, und klicken Sie auf den **Mittelpunkt** an der Basis der Außenfläche der Stütze. Der Pfosten wird nur entlang der roten Achse \(**X-Achse**\) verschoben, aber am **Mittelpunkt** ausgerichtet, auf den Sie gerade geklickt haben.
+1. Haga clic una vez para seleccionar el grupo de montantes verticales que acaba de crear. Utilice la función **Zoom \(Z\)** y haga clic en el **Punto medio** del borde exterior inferior del montante, representado por un triángulo rojo**.**
+2. Empiece a mover la geometría horizontalmente hacia un pilar. Pulse **Mayús** para bloquear el movimiento en el eje rojo \(**Eje X**\). Tenga en cuenta que, una vez que el movimiento esté bloqueado, el eje rojo se volverá más grueso.
+3. Reduzca la vista hasta que pueda ver la base del pilar. Mientras mantiene pulsada la tecla **Mayús**, haga clic en el **Punto medio** en la base de la cara exterior del pilar. El montante seguirá moviéndose únicamente a lo largo del eje rojo \(**Eje X**\), pero se alineará con el **Punto medio** en el que acaba de hacer clic.
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Anmerkung:**_ _Der Pfosten befindet sich jetzt direkt hinter der Stütze. Deaktivieren Sie den Layer_ _**Column**_, _oder_ _**umkreisen \(O\)**_ _ Sie die Ansicht, um den Pfosten zu visualisieren._
+_**Nota:**_ _El montante ahora se encuentra directamente detrás del pilar. Desactive la capa_ _**Column**_ _o utilice_ _**Orbitar \(O\)**_ _para visualizar el montante._
 
-3 – Drücken Sie **ESC**, um das Werkzeug **Verschieben** zu deaktivieren.
+3 - Pulse **Esc** para desactivar la herramienta **Mover**.
 
-4 – Verwenden Sie das Werkzeug **Reihe \(AR\)** oder **Schnelles Kopieren**, um vier \(4\) weitere vertikale Pfosten mit einem Abstand von **11'** auf derselben Seite zu erstellen. Informationen zur Verwendung des **Werkzeugs Reihe** finden Sie in den vorherigen Kapiteln.
+4 - Utilice la herramienta **Matriz \(AR\)** o **Copia rápida** para crear cuatro \(4\) montantes verticales más a lo largo del mismo lado con una separación de **11'**. Para obtener información sobre cómo utilizar la **herramienta Matriz**, consulte los capítulos anteriores.
 
-5 – Wählen Sie mit der TABULATORTASTE alle **vertikalen** Pfostengruppen aus, und kopieren Sie sie auf die gegenüberliegende Seite des Gebäudes, sodass sowohl der **Nord**- als auch der **Südrahmen** identische Pfostenlayouts aufweisen, wie in der folgenden Abbildung gezeigt:
+5 - Utilice la tecla Tab para seleccionar todos los grupos de montantes **verticales** y cópielos en el lado opuesto del edificio para que tanto el marco **norte** como el **sur** tengan diseños de montantes idénticos, como se muestra en la siguiente imagen:
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Erstellen der Türpfosten**
+## **Crear montantes de puerta**
 
-1 – **Umkreisen (O\)** Sie die Perspektivansicht, bis Sie auf die Mitte des westlichen Pfostenrahmens blicken.
+1 - Utilice la herramienta **Orbitar \(O\)** para orbitar la vista en perspectiva hasta que mire al centro del marco del montante oeste.
 
-2 – Zeichnen Sie ähnlich wie beim Erstellen von Pfostenrahmen ein **3'-6"** breites Türelement mit einem Rahmen von **2" x 2"**. Erstellen Sie eine **Gruppe \(G\)** mit den folgenden Eigenschaften: Gruppenname: **Curtain Wall Door**; Layer: **Mullion**; Material: **Metal – Brushed – Grey**.
+2 - De forma similar a la creación de marcos de montantes, dibuje un panel de puerta con una anchura de **3'-6"** y un marco de **2"x 2"**. Conviértalo en un **Grupo \(G\)** con las propiedades: nombre de grupo: **Curtain Wall Door**; capa: **Mullion**, y material: **Metal – Brushed – Grey**.
 
-3 – Kopieren Sie diese Gruppe, um den zweiten Türrahmen zu erstellen, und verschieben Sie Rahmen so, dass sie sich in der Mitte der Gruppe **Mullion Frame – EW** befinden, wie unten gezeigt.
+3 - Copie este grupo para crear el segundo marco de puerta y muévalo para que se centren en el grupo **Mullion Frame – EW**, como se muestra a continuación.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Erstellen eines Dachgesims mit Sweep**
+## **Crear cornisa de cubierta con barrido**
 
-_Sie erstellen nun das Gesims des Farnsworth House mithilfe eines der erweiterten Modellierungswerkzeuge von FormIt:_ _**Sweep**. Weitere Informationen über erweiterte Modellierung finden Sie im Kapitel_ **2.2 –** _**Erweiterte Modellierung** in_ _der_ _**FormIt-Einführung, Teil II**._
+_Ahora crearemos la cornisa de la Farnsworth House mediante una de las herramientas avanzadas de modelado de FormIt ,_ _**Barrido**. Para obtener más información sobre el modelado avanzado, consulte el capítulo_ **2.2 -** _**Herramientas avanzadas de modelado** en_ _la_ _**parte 2 de FormIt Primer**._
 
-_Der erste Schritt beim Erstellen eines_ _**Sweep**_ _besteht darin, ein Profil lotrecht zur Sweep-Extrusion zu zeichnen. Dazu verwenden Sie die Dachgeometrie als Orientierung._
+_El primer paso para crear un __**barrido**__ es dibujar un perfil perpendicular a la "extrusión" del barrido. Para ello, utilizaremos la geometría de la cubierta como guía._
 
-1 – Aktivieren Sie den Layer **Roof**, und vergrößern Sie eine der Ecken.
+1 - Active la capa **Roof** y amplíe una de sus esquinas.
 
-2 – Zeichnen Sie mithilfe einer der vertikalen Seiten des Dachs als Referenz zwei benachbarte Rechtecke. Die erste ist **6"** hoch und **4 5/8"** breit, und die zweite hat die Maße **2" x 2"**. Löschen Sie die Linie, die die beiden Rechtecke teilt, um eine einzige Fläche zu erhalten. Das Ergebnis sollte der folgenden Abbildung entsprechen.
+2 - Con uno de los lados verticales de la cubierta como referencia, dibuje dos rectángulos adyacentes. El primero tendrá una anchura de **6"** por **4 5/8**" y, el segundo, de **2" por 2"**. Suprima la línea que divide los dos rectángulos para crear una única cara. El resultado debe tener el aspecto siguiente.
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 – So erstellen Sie das Sweeping
+3 - Para crear el barrido:
 
-1. Klicken Sie ohne ausgewählte Geometrie auf die Schaltfläche **Erweiterte Modellierungswerkzeuge** im **Standard-Werkzeugkasten **, und wählen Sie **Sweep \(SW\)** aus.
-2. Der **Sweep-Auswahlassistent** wird gestartet und fordert Sie auf, eine **Fläche \(oder Kanten\) für das Sweep-Profil auszuwählen**. Wählen Sie die Profilfläche aus, die Sie gerade erstellt haben.
-3. Nachdem Sie das Profil ausgewählt haben, werden Sie aufgefordert, eine **Fläche \(oder Kante\) für den Sweep-Pfad auszuwählen und dann auf Fertig stellen zu klicken**. Wählen Sie die obere Dachfläche aus. FormIt verwendet automatisch die Begrenzungen der ausgewählten Fläche als Sweep-Pfad, und das Sweeping wird um das gesamte Dach erstellt.
+1. Sin geometría seleccionada, haga clic en el botón **Herramientas avanzadas de modelado** de la **barra de herramientas estándar** y seleccione **Barrido \(SW\)**.
+2. El **Asistente para la selección de barridos** se iniciará y le solicitará que **Seleccione una cara \(o bordes\) para el perfil de barrido**. Seleccione la cara del perfil que acabamos de crear.
+3. Una vez seleccionado el perfil, se le solicitará que **Seleccione una cara \(o bordes\) para el camino de barrido y, a continuación, haga clic en Finalizar**. Seleccione la cara superior de la cubierta. FormIt utilizará automáticamente los contornos de la cara seleccionada como camino del barrido y el barrido se creará alrededor de toda la cubierta.
 
-_**Anmerkung:**_ _Wenn Sie Schwierigkeiten bei der Auswahl einer der Flächen haben,_ _**umkreisen (O\)**_ _Sie die Ansicht, um die Fläche besser sehen zu können, und versuchen Sie es erneut. Alternativ können Sie auch alle Kanten des Dachs statt der oberen Dachfläche auswählen, um das Sweeping abzuschließen._
+_**Nota:**_ _Si tiene problemas para seleccionar una de las caras, utilice la herramienta_ _**Orbitar \(O\)**_ _para ver la cara un poco mejor y vuelva a intentarlo. Como opción alternativa, seleccione todos los bordes de la cubierta en lugar de la cara superior de la cubierta para completar el barrido._
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 – Halten Sie Ihr Modell übersichtlich, indem Sie eine Gruppe **Roof – Cornice** erstellen, sie dem Layer **Roof** hinzufügen und ihr das Material **Metal – Brushed – Colorized** zuweisen.
+4 - Mantenga el modelo organizado mediante la creación de un grupo **Roof - Cornice**, la adición a la capa **Roof** y la asignación del material **Metal – Brushed – Colorized** a él.
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 – Aktivieren Sie zum Abschluss den Layer **Column**. Sie sehen nun, dass das neu erstellte Sweeping die Oberseiten der Stützen schneidet. Dieses Problem können Sie beheben, indem Sie eine der Gruppen unter **Column Tall** bearbeiten und die obere Fläche nach unten ziehen, bis sie am unteren Rand des Gesims ausgerichtet ist.
+5 - Para terminar, active la capa **Column** y verá que el barrido recién creado se interseca con la parte superior de los pilares. Resuelva esto mediante la edición de cualquiera de los grupos **Column Tall** y arrastrando la cara superior hacia abajo hasta que se alinee con la parte superior de la cornisa.
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

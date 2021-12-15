@@ -1,99 +1,99 @@
-# Festlegen des Standorts
+# Configuración de la ubicación
 
-Die Angabe des geografischen Standorts Ihres Projekts ist wichtig für die Genauigkeit Ihres Modells und für Analysen im weiteren Verlauf des Projekts. Dazu zählt Folgendes:
+La configuración de la ubicación del proyecto en el mundo es importante para la precisión del modelo y los análisis posteriores, incluido lo siguiente:
 
-* Der Standort wird verwendet, um ein Satellitenbild zu importieren, das zum Nachzeichnen eines vorhandenen Grundstücks oder Gebäudes verwendet werden kann.
-* Der Standort wird verwendet, um 3D-Gelände zu importieren, das zum Referenzieren topologischer Daten für ein Grundstück verwendet werden kann.
-* Der Standort wird für die genaue Positionierung der Sonne am Himmel verwendet, was sich auf die Berechnung von Schatten auswirkt.
-* Der Standort wird für die Solar- und Energieanalyse verwendet, um genaue analytische Berechnungen zu ermöglichen.
+* La ubicación se utiliza para importar una imagen de satélite que se puede utilizar para trazar un emplazamiento o edificio existentes.
+* La ubicación se utiliza para importar terreno 3D, que se puede utilizar para hacer referencia a datos topológicos de un emplazamiento.
+* La ubicación se utiliza para colocar con precisión el sol en el cielo, lo que afecta al cálculo de sombras.
+* La ubicación se utiliza para el análisis solar y el análisis energético a fin de proporcionar cálculos analíticos precisos.
 
-Sie müssen sich mit Ihrem Konto bei Autodesk Account anmelden, um auf das Dialogfeld Standort festlegen und die zugehörigen Dienste zuzugreifen.
+Deberá iniciar sesión con su cuenta de Autodesk Account para acceder al cuadro de diálogo Establecer ubicación y sus servicios.
 
-### Erste Schritte mit Standort
+### Para empezar a configurar la ubicación
 
-* Öffnen Sie das Dialogfeld **Standort festlegen** über das Werkzeug **Standort** im Werkzeugkasten oder über den Tastaturbefehl SL.
+* Inicie el cuadro de diálogo **Establecer ubicación** desde la herramienta **Ubicación** de la barra de herramientas o con el acceso directo del teclado SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Beginnen Sie, indem Sie den Standort des Projekts in das Suchfeld in der oberen linken Ecke des Fensters _Standort festlegen_ eingeben.
+* Escriba primero la ubicación del proyecto en el cuadro de búsqueda de la esquina superior izquierda de la ventana _Establecer ubicación_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Wählen Sie eine der Optionen für die automatische Angabe der Standortdaten, oder drücken Sie die EINGABETASTE, um die erste Option zu wählen.
-* Der gesuchte Standort wird automatisch vergrößert.
+* Seleccione una de las opciones de ubicación de relleno automático o pulse Intro para elegir la primera
+* Se ampliará la vista de la ubicación que ha buscado automáticamente.
 
-### Nur Standort festlegen im Vergleich mit Satellitenbilder und Gelände importieren
+### Comparación de Establecer solo ubicación e Importar imagen de satélite y terreno
 
-Nachdem Sie nach einem Standort gesucht haben, können Sie eine von zwei Optionen wählen:
+Una vez que haya buscado una ubicación, puede elegir una de estados opciones:
 
-* **Nur Standort festlegen** legt den Standort in der Datei fest, ohne Satellitenbilder zu importieren.
-* **Satellitenbilder und Gelände importieren** legt den Standort fest und importiert außerdem Satellitenbilder und Geländedaten mit einem Zoomfaktor und Grenzen, die Sie konfigurieren können.
+* La opción **Establecer solo ubicación** definirá la ubicación en el archivo sin importar imágenes de satélite.
+* La opción **Importar imagen de satélite y terreno** definirá la ubicación, e importará también imágenes de satélite y terreno con un nivel de zoom y extensión que se pueden configurar.
 
-### Importieren von Satellitenbildern
+### Importación de imágenes de satélite
 
-* Klicken Sie auf **Satellitenbilder und Gelände importieren** oben rechts im Fenster **Standort festlegen**.
-* Eine Vorschau der Satellitenbilder wird in der Mitte des Fensters angezeigt, zusammen mit einem Hinweis darauf, wo der FormIt-Ursprung relativ zu den Bildern angezeigt wird.
+* Haga clic en **Importar imagen de satélite y terreno** en la parte superior derecha de la ventana **Establecer ubicación**.
+* Aparecerá una vista preliminar de las imágenes de satélite en el centro de la ventana, junto con una indicación de dónde aparecerá el origen de FormIt en relación con las imágenes.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Ziehen Sie die Satellitenbilder innerhalb des Quadrats, um ihre Position anzupassen.
-* Wenn sich die gewünschten Bilder innerhalb der quadratischen Fläche befinden, klicken Sie auf **Import beenden**.
-* Das Bild wird maßstabsgetreu mit dem geografischen Norden nach oben und zentriert am Ursprung des FormIt-Ansichtsbereichs importiert. Sie können die Transparenz und Z-Reihenfolge des importierten Bildes ändern, indem Sie darauf doppelklicken und die [**Eigenschaftenpalette**](../formit-introduction/tool-bars.md) verwenden.
+* Arrastre las imágenes de satélite dentro del cuadrado para ajustar su posición.
+* Una vez que el área cuadrada encapsule las imágenes que desea, haga clic en **Finalizar importación de imagen**.
+* La imagen se importará a escala, con el norte real orientado hacia arriba, centrado en el origen del lienzo de FormIt. Puede cambiar la transparencia y el orden Z de la imagen importada. Para ello, haga doble clic en ella y vaya a la [**paleta Propiedades**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Aktualisieren von Satellitenbildern
+### Actualización de imágenes de satélite
 
-Nachdem Sie Satellitenbilder erstmalig importiert haben, können Sie im Fenster Standort festlegen den Zoomfaktor oder die Grenzen der Satellitenbilder anpassen.
+Después de importar imágenes de satélite por primera vez, puede utilizar la ventana Establecer ubicación para ajustar el nivel de zoom o la extensión de las imágenes de satélite.
 
-* Starten Sie das Fenster **Standort festlegen** erneut, indem Sie es wie oben beschrieben über den Werkzeugkasten aufrufen.
-* Klicken Sie auf **Satellitenbilder und Gelände importieren**
-* Sie sehen den aktuellen Zoomfaktor und die Grenzen des Satellitenbilds, wie im FormIt-Ansichtsbereich dargestellt.
-* Passen Sie einfach die Position an, oder zoomen Sie, und klicken Sie wie zuvor auf **Import beenden**.
-* Wenn das Bild wieder in den Ansichtsbereich importiert wird, wird es an die richtige Position relativ zur ursprünglichen Bildposition verschoben \(und ist möglicherweise nicht mehr am Ursprung zentriert\):
+* Inicie de nuevo la ventana **Establecer ubicación** accediendo a ella desde la barra de herramientas, como se ha indicado anteriormente.
+* Haga clic en **Importar imagen de satélite y terreno**
+* Verá el nivel de zoom y la extensión de la imagen de satélite actual, como se muestra en el lienzo de FormIt.
+* Solo tiene que ajustar la posición o el zoom y hacer clic en **Finalizar importación de imagen** como antes.
+* Cuando la imagen se vuelva a importar en el lienzo, se desplazará a la ubicación correcta con respecto a la posición de la imagen original \(y puede que ya no esté centrada en el origen\), como se muestra a continuación:
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importieren von Gelände
+### Importación de terreno
 
-Neu in FormIt 2021.3 ist, dass Sie auch Geländedaten erhalten, wenn Sie das Dialogfeld **Standort festlegen** verwenden, um Satellitenbilder zu importieren.
+Como novedad en FormIt 2021.3, al utilizar el cuadro de diálogo **Establecer ubicación** para importar imágenes de satélite, también obtendrá terreno.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Wenn Geländedaten importiert werden, werden diese auf einem Layer platziert, der vorgabemäßig deaktiviert ist \(falls Sie schon mit dem Modellieren begonnen haben, wird Ihr Modell möglicherweise vom Gelände überdeckt\).
+Cuando se importa terreno, este se coloca en una capa, que está desactivada por defecto \(en caso de que haya comenzado a modelar, el modelo puede estar cubierto por el terreno\).
 
-Wenn Sie bereit sind, das Gelände anzuzeigen, aktivieren Sie das Kontrollkästchen, um den Gelände-Layer anzuzeigen:
+Cuando esté listo para ver el terreno, active la casilla de verificación para activar o desactivar la capa de terreno, como se muestra a continuación:
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Arbeiten mit Geländedaten
+### Trabajo con terreno
 
-Geländedaten werden in eine FormIt-Gruppe eingefügt. Doppelklicken Sie auf die Gruppe, um sie zu bearbeiten.
+El terreno se colocará en un grupo de FormIt. Haga doble clic en el grupo para editarlo.
 
-Darin finden Sie zwei Netze: eines für die Seiten und die Unterseite und eines für die Oberseite.
+Dentro, encontrará dos mallas, una para los lados y la parte inferior y otra para la parte superior.
 
-Wenn Sie das Gelände ändern möchten, müssen Sie die Netze in ein einzelnes Volumenkörperobjekt umwandeln:
+Si desea modificar el terreno, deberá convertir las mallas en un único objeto sólido, como se indica a continuación:
 
-* Wählen Sie beide Netze aus.
-* Klicken Sie mit der rechten Maustaste, und wählen Sie die Option Netze in Objekte, oder verwenden Sie den Kurzbefehl MO.
+* Seleccionar ambas mallas.
+* Haga clic con el botón derecho y elija la opción De mallas a objetos o utilice el método abreviado MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-Wenn beide Netze gleichzeitig in ein Objekt konvertiert werden, kann FormIt sie zu einem bündigen Volumenkörperobjekt kombinieren, das für Volumenkörperoperationen wie die Boolesche Operation Ausschneiden verwendet werden kann.
+Al convertir ambas mallas en un objeto al mismo tiempo, FormIt puede combinarlas en un objeto sólido y múltiple, que se puede utilizar para operaciones sólidas como el corte booleano.
 
-Hier können Sie eine Kombination aus [Draufsicht](orthographic-views.md) und [orthogonaler Kamera](orthographic-camera.md) verwenden, um die Grundstücksgrenze auf einer horizontalen Ebene nachzuzeichnen, und dann diese Ebene in ein Volumen extrudieren, das das Gelände schneidet. Die Verwendung eines transparenten [Materials](materials.md) hilft Ihnen dabei, das Gelände durch den Schnittvolumenkörper zu sehen:
+Desde aquí, puede utilizar una combinación de [Vista superior](orthographic-views.md) y [Cámara ortogonal](orthographic-camera.md) para trazar el contorno del emplazamiento en un plano horizontal y, a continuación, extruir el plano en un volumen que se interseque con el terreno. El uso de un [material](materials.md) transparente le ayuda a ver el terreno a través del sólido de corte, como se muestra a continuación:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Verwenden Sie das Werkzeug Geometrie ausschneiden, und wählen Sie unter Zu schneidenden Volumenkörper auswählen das Gelände und als Volumenkörper, der entfernt werden soll, das Schnittvolumen aus.
+Utilice la herramienta Cortar geometría y seleccione el terreno como el sólido en el que se cortará y el volumen de corte como el sólido que se va a eliminar.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-Das Ergebnis ist das Gelände, aus dem der Schnittvolumenkörper entfernt wurde, sodass ein Abzugskörper entsteht, in dem Sie das neue Grundstück und das neue Fundament zeichnen können.
+El resultado será el terreno con el sólido de corte eliminado, lo que expone el vacío donde puede dibujar el nuevo emplazamiento y cimentación.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-Sie können [Layer](layers.md) verwenden, um den Schnittvolumenkörper auszublenden oder sogar Kopien des Geländes mit und ohne Schnitt zu erstellen, falls Sie das ursprüngliche Gelände referenzieren müssen, oder Sie können die Schnittform ändern, bevor Sie den Volumenkörperschnitt ausführen.
+Puede utilizar [capas](layers.md) para ocultar el sólido de corte, o incluso para realizar copias del terreno con y sin el corte, en caso de que necesite hacer referencia al terreno original o cambiar la forma de corte antes de ejecutar la operación de corte de sólido.
 
