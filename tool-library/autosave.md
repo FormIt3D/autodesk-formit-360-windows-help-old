@@ -1,54 +1,54 @@
-# Automatické ukládání
+# Automatisch speichern
 
-Počínaje verzí 17.3 zahrnuje aplikace FormIt pro systém Windows funkci automatického ukládání, která během práce vytváří záložní kopii modelu aplikace FormIt. Tento záložní soubor lze použít k obnovení dat, pokud se aplikace FormIt ukončí s neuloženými změnami.
+Ab Version 17.3 umfasst FormIt for Windows die Funktion Automatisch speichern, wodurch eine Sicherungskopie des FormIt-Modells erstellt wird, während Sie arbeiten. Diese Sicherungsdatei kann verwendet werden, um Daten wiederherzustellen, wenn FormIt mit nicht gespeicherten Änderungen geschlossen wird.
 
-### Přepínání automatického ukládání
+### Aktivieren und Deaktivieren von Automatisch speichern
 
-Možnosti konfigurace funkce Automatické ukládání najdete v nabídce Úpravy &gt; Předvolby &gt; Automatické ukládání.
+Suchen Sie die Konfigurationsoptionen für Automatisch speichern unter Bearbeiten &gt; Voreinstellungen &gt; Automatisch speichern.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-Automatické ukládání je ve výchozím nastavení povoleno, ale lze jej zcela zakázat pouhým zrušením zaškrtnutí políčka.
+Automatisch speichern ist vorgabemäßig aktiviert, kann jedoch durch Deaktivieren des Kontrollkästchens vollständig deaktiviert werden.
 
-Zadáním hodnoty do pole Interval automatického ukládání nastavte interval \(v minutách\), ve kterém bude funkce automatického ukládání vytvářet záložní kopii.
+Legen Sie das Intervall \(in Minuten\) fest, in dem mit Automatisch speichern eine Sicherungskopie erstellt wird, indem Sie einen Wert in das Zahlenfeld Intervall für automatisches Speichern (Minuten) eingeben.
 
-Tyto předvolby jsou na úrovni aplikace a při otevírání různých souborů se nezmění.
+Beachten Sie, dass diese Voreinstellungen auf Anwendungsebene festgelegt sind und nicht geändert werden, wenn Sie verschiedene Dateien öffnen.
 
-### Jak funguje automatické ukládání
+### Funktionsweise von Automatisch speichern
 
-Když je funkce automatického ukládání zapnuta, zjišťuje, zda aktuální soubor aplikace FormIt obsahuje neuložené změny. Pokud existují neuložené změny, funkce automatického ukládání vytvoří v zadaném intervalu záložní kopii souboru.
+Wenn die Option Automatisch speichern aktiviert ist, wird abgefragt, ob die aktuelle FormIt-Datei nicht gespeicherte Änderungen enthält. Wenn Änderungen noch nicht gespeichert wurden, wird mit Automatisch speichern im angegebenen Intervall eine Sicherungskopie der Datei erstellt.
 
-Záložní soubory jsou ukládány vedle původního souboru a mají příponu `.axmb`.
+Sicherungsdateien werden neben der ursprünglichen Datei gespeichert und haben die Erweiterung `.axmb`.
 
-Pokud je například původní soubor aplikace FormIt uložen v umístění `C:/Users/<user>/FormIt/MyProject.axm`, naleznete záložní soubor v umístění `C:/Users/<user>/FormIt/MyProject.axmb`.
+Wenn Ihre ursprüngliche FormIt-Datei beispielsweise unter `C:/Users/<user>/FormIt/MyProject.axm` gespeichert ist, befindet sich die Sicherungsdatei unter `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-Jestliže zahájíte novou relaci aplikace FormIt bez otevření existujícího souboru, neuložené změny lze najít v umístění `C:/Users/<user>/Documents/Untitled.axmb`. Jakmile nový model uložíte do jiného umístění, začnou se při zálohování přidávat neuložené změny vedle nového umístění, jak je uvedeno výše.
+Wenn Sie eine neue FormIt-Sitzung starten, ohne eine vorhandene Datei zu öffnen, können Sie nicht gespeicherte Änderungen unter `C:/Users/<user>/Documents/Untitled.axmb` finden. Wenn Sie das neue Modell an einem anderen Speicherort gespeichert haben, werden bei der Sicherung nicht gespeicherte Änderungen neben dem neuen Speicherort, wie oben beschrieben, hinzugefügt.
 
-Když uložíte změny do původního souboru, funkce automatického ukládání automaticky odstraní záložní soubor, protože záloha je nyní starší než původní soubor. Pokud však v uloženém souboru provedete následné změny, automatické ukládání znovu zahájí zálohování v zadaném intervalu.
+Wenn Sie Änderungen an der ursprünglichen Datei speichern, wird die Sicherungsdatei von der Funktion Automatisch speichern automatisch gelöscht, da die Sicherungsdatei nun älter als die ursprüngliche Datei ist. Wenn Sie anschließend Änderungen an der gespeicherten Datei vornehmen, wird Automatisch speichern jedoch erneut aktiviert, und es wird erneut eine Sicherung wird im angegebenen Intervall erstellt.
 
-Jestliže pracovní soubor obsahuje neuložené změny a vy se rozhodnete zavřít aplikaci FormIt a zrušit změny, bude záloha automatického ukládání odstraněna. Pokud však dojde k nucenému ukončení aplikace FormIt, ať už v důsledku vypnutí počítače nebo chybového ukončení aplikace, soubor automatického ukládání zůstane zachován a lze jej později použít k obnovení dat.
+Wenn Ihre Arbeitsdatei nicht gespeicherte Änderungen enthält und Sie FormIt schließen und die Änderungen verwerfen, wird die automatische Sicherungskopie gelöscht. Wenn FormIt jedoch geschlossen werden muss – entweder durch das Herunterfahren des Computers oder einen Anwendungsabsturz – bleibt die automatische Sicherungskopie erhalten und kann später zur Wiederherstellung von Daten verwendet werden.
 
-### Práce s povoleným automatickým ukládáním
+### Arbeiten mit aktivierter Funktion Automatisch speichern
 
-Aplikace FormIt minimalizuje potenciální dopad automatického ukládání na výkon tím, že zálohování provádí v samostatném procesu. U malých až středně velkých souborů byste si probíhajícího automatického zálohování neměli všimnout. U velmi velkých souborů \(400 MB a více\) můžete zaznamenat pouze chvilkové pozastavení, zatímco aplikace FormIt zkopíruje celý model a zahájí zálohování v samostatném procesu.
+FormIt minimiert die potenziellen Auswirkungen von Automatisch speichern auf die Leistung, indem die Sicherung in einem separaten Prozess ausgeführt wird. Bei kleinen bis mittelgroßen Dateien sollten Sie den Vorgang der automatischen Sicherung nicht bemerken. Bei sehr großen Dateien \(~400 MB und mehr\) bemerken Sie möglicherweise nur eine kurze Unterbrechung, während FormIt das gesamte Modell kopiert und in einem separaten Prozess mit der Sicherung beginnt.
 
-Pokud vás zajímá, zda funkce automatického ukládání aktuálně provádí zálohování, můžete sledovat stavový řádek v levé dolní části aplikace, kde se zobrazí krátká zpráva „Automatické ukládání…“:
+Wenn Sie sich fragen, ob die Funktion Automatisch speichern derzeit eine Sicherungskopie erstellt, können Sie in der Statusleiste unten links in der Anwendung nach einer kurzen Meldung zum automatischen Speichern suchen:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-Pokud je stavový řádek zakázán, můžete jej povolit v nabídce Okno &gt; Stavový řádek nebo pomocí klávesové zkratky HS.
+Wenn die Statusleiste deaktiviert ist, können Sie sie unter Fenster &gt; Statusleiste oder über den Kurzbefehl HS aktivieren.
 
-### Obnovení dat pomocí funkce automatického ukládání
+### Wiederherstellen von Daten mit Automatisch speichern
 
-Při otevírání souboru aplikace FormIt s dostupnou zálohou vás aplikace FormIt upozorní, že existuje záložní soubor. Jak bylo uvedeno výše, mohl být záložní soubor vytvořen proto, že jste aplikaci FormIt zavřeli, aniž byste se rozhodli uložit změny v daném projektu při jeho poslední úpravě, nebo v důsledku neočekávaného ukončení aplikace FormIt.
+Wenn Sie eine FormIt-Datei mit einer verfügbaren Sicherungskopie öffnen, werden Sie von FormIt darauf hingewiesen, dass die Sicherungsdatei vorhanden ist. Wie bereits erwähnt, kann dies einfach daran liegen, dass Sie FormIt geschlossen haben, ohne die Änderungen an diesem Projekt nach der letzten Bearbeitung zu speichern, oder daran, dass FormIt unerwartet geschlossen wurde.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Kliknutím na hypertextový odkaz „Otevřít?“ načtete záložní soubor `.axmb`.
+Wenn Sie auf den Hyperlink Öffnen? klicken, wird die `.axmb`-Sicherungsdatei geladen.
 
-Můžete také kliknout na nabídku Soubor &gt; Otevřít a ručním výběrem souboru `.axmb` v průzkumníku souborů otevřít zálohu.
+Auf ähnliche Weise können Sie auch Datei &gt; Öffnen verwenden und die `.axmb`-Datei manuell im Datei-Explorer auswählen, um eine Sicherungskopie zu öffnen.
 
-Po otevření záložního souboru vás aplikace FormIt při příštím uložení vyzve, abyste vybrali jiný soubor aplikace FormIt \(`.axm`\), který chcete přepsat. Záložní soubory aplikace FormIt \(`.axmb`\) nelze přepisovat.
+Wenn die Sicherungsdatei geöffnet ist, müssen Sie beim nächsten Speichern in FormIt eine andere FormIt-Datei \(`.axm`\) zum Überschreiben auswählen. Sie können keine FormIt-Sicherungsdateien \(`.axmb`\) überschreiben.
 
 
 

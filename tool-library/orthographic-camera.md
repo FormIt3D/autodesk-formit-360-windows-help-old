@@ -1,18 +1,18 @@
-# Ortografická kamera
+# Orthogonale Kamera
 
-Aplikace FormIt 2021 obsahuje novou funkci Ortografická kamera. V navigační nabídce naleznete tlačítka ortografického a perspektivního pohledu:
+FormIt 2021 enthält die neue Funktion Orthogonale Kamera. Sie finden die Schaltflächen Orthogonal und Perspektivisch im Navigationsmenü:
 
-![Tlačítka ortografického pohledu \(dolní\) a perspektivního pohledu \(horní\) kamery](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Kamera-Ansichtsschaltflächen Orthogonal \(unten\) und Perspektivisch \(oben\)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-Díky této nové možnosti můžete snadno přepínat mezi ortografickým a perspektivním pohledem kamery.
+Mit dieser neuen Option können Sie einfach zwischen den Kameraansichten Orthogonal und Perspektivisch wechseln.
 
-![Model lze přepnout z režimu perspektivní kamery do režimu ortografické kamery.](../.gitbook/assets/ortho-camera.gif)
+![Ein Modell kann vom perspektivischen in den orthogonalen Kameramodus umgeschaltet werden.](../.gitbook/assets/ortho-camera.gif)
 
-V režimu ortografické kamery budou všechny ostatní nástroje kamery respektovat aktuální režim. Například možnost **Zarovnat kameru s plochou** zarovná ortografickou kameru s plochou, čímž vznikne ortografický bokorysný pohled.
+Wenn Sie sich in der orthogonalen Kamera befinden, berücksichtigen alle anderen Kamerawerkzeuge den aktuellen Modus. Beispiel: **Kamera an Fläche ausrichten** richtet die orthogonale Kamera an der Fläche aus, wodurch eine orthogonale Ansicht entsteht.
 
-Pokud ručně přejdete k přednastavenému ortografickému pohledu, například hornímu pohledu nebo přednímu pohledu, ortografická kamera se k této poloze přichytí, což usnadní používání těchto přednastavených pohledů.
+Wenn Sie manuell zu einer voreingestellten orthogonalen Ansicht wie Draufsicht oder Vorderansicht navigieren, fängt die orthogonale Kamera diese Position, sodass der Zugriff auf diese voreingestellten Ansichten erleichtert wird.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Poznámka:** Pokud v režimu ortografické kamery dojde k oříznutí kamery, můžete přepnout zpět do režimu perspektivního pohledu, oddálit pohled a poté akci opakovat.
+**Anmerkung:** Wenn ein Kameraschnitt im orthogonalen Kameramodus erfolgt, können Sie zum perspektivischen Modus zurückkehren, die Ansicht verkleinern und es erneut versuchen.
 

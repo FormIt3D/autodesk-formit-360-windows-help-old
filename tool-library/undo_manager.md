@@ -1,18 +1,18 @@
-# Správce vrácení zpět
+# Rückgängig-Manager
 
-Aplikace FormIt nabízí jedinečný systém Zpět/Znovu, který lze použít dvěma různými způsoby, a to buď pro jednotlivé skupiny, nebo chronologicky a globálně:
+FormIt bietet ein einzigartiges Rückgängig-/Wiederherstellen-System, das auf zwei verschiedene Arten verwendet werden kann, um Vorgänge entweder gruppenweise oder chronologisch und global rückgängig zu machen:
 
-* Příkaz Zpět/Znovu při úpravách vnořené skupiny ovlivní pouze změny uvnitř této skupiny.
-   * To znamená, že můžete provést změnu v této skupině, poté provést mnoho změn v jiných skupinách, vrátit se do původní skupiny a mít možnost vrátit zpět poslední změny provedené v této skupině, aniž by to ovlivnilo změny provedené nedávno jinde.
-* Příkaz Zpět/Znovu provedený z hlavního náčrtu \(nikoli při úpravách skupiny\) funguje tradičním způsobem: vrácena zpět bude poslední změna provedená v **libovolné** skupině na základě chronologického pořadí.
+* Die Optionen Rückgängig/Wiederherstellen beim Bearbeiten einer verschachtelten Gruppe wirken sich nur auf die Änderungen innerhalb dieser Gruppe aus.
+   * Das bedeutet, Sie können diese Gruppe ändern, dann zahlreiche Änderungen in anderen Gruppen vornehmen, zur ursprünglichen Gruppe zurückkehren und die letzte Änderung in dieser Gruppe rückgängig machen, ohne dass die zuletzt vorgenommenen Änderungen an anderer Stelle davon betroffen sind.
+* Die Optionen Rückgängig/Wiederherstellen in der Hauptskizze \(nicht während der Bearbeitung einer Gruppe\) verhalten sich wie herkömmliche Systeme zum Rückgängigmachen/Wiederherstellen: Die letzte Änderung in **jeder beliebigen** Gruppe wird in chronologischer Reihenfolge rückgängig gemacht.
 
-Správce vrácení zpět zaznamenává každou změnu v každé skupině modelu aplikace FormIt, včetně změn provedených v hlavním náčrtu. Nabízí tak vizuální přehled o tom, které operace byly zrušeny v kterékoli skupině modelu.
+Der Rückgängig-Manager zeichnet alle Änderungen in jeder Gruppe Ihres FormIt-Modells auf, einschließlich der Änderungen in der Hauptskizze. Dies ist nützlich, um visuell darzustellen, welche Operationen in einer Gruppe im Modell rückgängig gemacht wurden.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-Správce vrácení zpět **tučně** označí aktuální stav a navíc zobrazí všechny operace před tímto stavem a všechny operace, které dříve existovaly, ale byly od té doby vráceny zpět.
+Der Rückgängig-Manager zeigt den aktuellen Status in **Fettdruck** an, ebenso wie alle Operationen vor diesem Status und alle Operationen, die einmal vorhanden waren, jedoch rückgängig gemacht wurden.
 
-Kliknutím pravým tlačítkem myši na požadovaný stav a výběrem možnosti Přejít na se můžete podle potřeby vrátit do daného stavu modelu.
+Sie können mit der rechten Maustaste auf einen Status klicken und Drehung zu auswählen, um effektiv alle Operationen rückgängig zu machen oder wiederherzustellen, bis Sie zu diesem Modellstatus zurückgekehrt sind.
 
-Skupiny, které byly explicitně odstraněny nebo již neexistují v důsledku použití příkazu Zpět nebo Znovu, jsou zobrazeny jako \*Neaktivní\*. Tyto skupiny lze obnovit opakovaným použitím příkazů Zpět nebo Znovu v rámci nadřazené skupiny, dokud se neobnoví.
+Gruppen, die explizit gelöscht wurden oder aufgrund eines Rückgängig- oder Wiederherstellen-Vorgangs nicht mehr vorhanden sind, werden als \*Inaktiv\* angezeigt. Diese können durch Rückgängigmachen oder Wiederherstellen innerhalb der übergeordneten Gruppe wiederhergestellt werden, bis sie wieder existieren.
 

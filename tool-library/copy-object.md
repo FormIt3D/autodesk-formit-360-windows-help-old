@@ -1,29 +1,29 @@
-# Kopírování objektu
+# Objekt kopieren
 
-Objekt lze kopírovat třemi způsoby.
+Es gibt drei Möglichkeiten zum Kopieren eines Objekts.
 
-**Kopírování pomocí místní nabídky**
+**Kopieren mithilfe des Kontextmenüs**
 
-1. Dvojitým kliknutím vyberte požadovaný objekt.
-2. Klikněte pravým tlačítkem na objekt.
-3. V místní nabídce vyberte [**nástroj Kopírovat**](tilt-array-copy-and-paste.md).
-4. Klikněte pravým tlačítkem myši na libovolné místo ve scéně a vyberte příkaz **Vložit**.
+1. Wählen Sie das Objekt durch Doppelklicken aus.
+2. Klicken Sie mit der rechten Maustaste auf das Objekt.
+3. Wählen Sie das [**Werkzeug Kopieren**](tilt-array-copy-and-paste.md) im Kontextmenü aus.
+4. Klicken Sie mit der rechten Maustaste auf eine beliebige andere Stelle in der Szene, und wählen Sie die **Schaltfläche Einfügen**.
 
-Poznámka: Tento způsob funguje také s klávesovými zkratkami **Ctrl+C** a **Ctrl+V**. Pomocí příkazu Vložit na místo \(**Ctrl+Shift+V**\) vložíte objekt přesně na místo, odkud byl zkopírován.
+Anmerkung: Dieser Vorgang ist auch mit **STRG+C** bzw. **V** möglich. Verwenden Sie die Option An Position einfügen \(**STRG+UMSCHALT+V**\), um ein Objekt genau an der Position einzufügen, an der es kopiert wurde.
 
-**Kopírování pomocí klávesy Ctrl**
+**Kopieren mit der STRG-Taste**
 
-1. Vyberte požadovaný objekt tak, že na něj kliknete \(dvojitým kliknutím vyberte celé těleso nebo vše k němu připojené\).
-2. Stiskněte a podržte klávesu **Ctrl** a začněte táhnout objekt, nebo začněte přesouvat objekt a potom stiskněte klávesu **Ctrl**.
-3. Místo objektu nyní přesouváte jeho kopii.
-4. Všimněte si, že při zapnutém režimu dotykového ovládání kopírování s klávesou Ctrl nefunguje.
-   1. V režimu dotykového ovládání musíte použít nástroje pro kopírování/vkládání v místní nabídce \(stiskněte a podržte\) nebo použijte kombinaci kláves Ctrl+C a Ctrl+V, poté objekt umístěte dolů a přemístěte jej podle potřeby.
+1. Wählen Sie das Objekt aus, indem Sie darauf klicken \(doppelklicken Sie, um einen ganzen Körper oder alle zugeordneten Objekte auszuwählen\).
+2. Halten Sie die **STRG-Taste** gedrückt, und ziehen Sie das Objekt. Alternativ können Sie auch das Objekt verschieben und dann auf **STRG** tippen.
+3. Anstatt das Objekt zu verschieben, verschieben Sie nun eine Kopie davon.
+4. Beachten Sie, dass STRG+Kopieren derzeit nicht funktioniert, wenn der Berührungsmodus aktiviert ist.
+   1. Im Berührungsmodus müssen Sie die Werkzeuge zum Kopieren/Einfügen im Kontextmenü \(Drücken und Halten\) oder STRG+C und STRG+V verwenden, das Objekt dann platzieren und nach Bedarf neu positionieren.
 
-**Kopírování pomocí nástroje Pole**
+**Kopieren mit dem Werkzeug Reihe**
 
-1. Dvojitým kliknutím vyberte požadovaný objekt.
-2. **Klikněte pravým tlačítkem** na objekt a vyberte [**nástroj Pole**](tilt-array-copy-and-paste.md).
-3. Zadejte požadovaný počet kopií.
-4. Zvolte, zda další tažení bude určovat vzdálenost mezi dvěma objekty, nebo celkovou délku pole.
-5. Klikněte na tlačítko **OK.**  ![](../.gitbook/assets/array_properties.png)
+1. Wählen Sie das Objekt durch Doppelklicken aus.
+2. **Klicken Sie mit der rechten Maustaste** auf das Objekt, und wählen Sie das [**Werkzeug Reihe**](tilt-array-copy-and-paste.md).
+3. Wählen Sie die Anzahl der Kopien aus, die Sie erstellen möchten.
+4. Wählen Sie, ob mit dem nächsten Ziehvorgang der Abstand zwischen zwei Objekten oder die Gesamtlänge der Reihe definiert werden soll.
+5. Klicken Sie auf **OK.**  ![](../.gitbook/assets/array_properties.png)
 

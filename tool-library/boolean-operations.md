@@ -1,13 +1,13 @@
-### Booleovské operace
-Pomocí operací Spojit a Oříznout můžete měnit objekty.
+### Boolesche Operationen
+Ändern Sie Objekte mithilfe der Operationen zum Verbinden und Schneiden.
 
-#### Spojit
-Chcete-li provést spojení, vyberte všechny objekty, u kterých chcete provést booleovskou operaci. Poté v místní nabídce vyberte **nástroj Spojit**. Protínající se / překrývající se části geometrie se spojí do jednoho objektu.
+#### Verbinden
+Wählen Sie alle Objekte aus, die Sie in die boolesche Verbindung aufnehmen möchten. Wählen Sie dann das **Werkzeug Verbinden** aus dem Kontextmenü. Der Bereich, in dem die Geometrie sich überschneidet/überlappt, wird innerhalb eines Objekts zusammengeführt.
 
 ![](images/join tool.png)
 
-#### Oříznout
-Chcete-li oddělit objemy od existující geometrie, vyberte nejprve původní objekt. Dále vyberte objekt, který chcete oddělit. Poté v místní nabídce vyberte **nástroj Oříznout**. Protnutý objem se oddělí od původního objektu.
+#### Ausschneiden
+Um Volumina von bestehender Geometrie zu subtrahieren, wählen Sie zunächst das Originalobjekt aus. Wählen Sie anschließend das von diesem zu subtrahierende Objekt aus. Wählen Sie dann das **Werkzeug Ausschneiden** aus dem Kontextmenü. Das Schnittvolumen wird vom Originalobjekt subtrahiert.
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

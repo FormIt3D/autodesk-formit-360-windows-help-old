@@ -1,22 +1,22 @@
-# Odstranění, úpravy, přesunutí
+# Löschen, Bearbeiten, Verschieben
 
-Odstraňte objekt, změňte jeho umístění nebo upravte jeho vlastnosti.
+Sie können Objekte entfernen, neu positionieren oder ihre Eigenschaften ändern.
 
-## Odstranění
+## Löschen
 
-Nejprve vytvořte výběr geometrie. Poté kliknutím pravým tlačítkem myši zobrazte místní nabídku a klikněte na **nástroj Odstranit**. Můžete také stisknout klávesu Delete na klávesnici.
+Wählen Sie zunächst Geometrie aus. Öffnen Sie dann durch Rechtsklicken das Kontextmenü und klicken Sie dort auf das **Werkzeug Löschen**. Alternativ können Sie die Entf-Taste auf der Tastatur drücken.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Úpravy
+## Bearbeiten
 
-Při použití mnoha nástrojů pro úpravy, jako jsou například Přesunout, Pole, Zatlačit/Vytáhnout plochu a Odsazení, se zobrazí modrý rámeček kóty. Po dokončení operace můžete na tuto kótu kliknout a zadat konkrétní hodnotu. Můžete také jednoduše začít psát číselnou hodnotu, čímž zobrazíte dialog Upravit kótu. Případně můžete dialog Upravit kótu vyvolat stisknutím klávesy Tab, ale v aplikaci FormIt pro Windows verze 17 a novějších verzích již není klávesa Tab vyžadována.
+Bei vielen der Bearbeitungswerkzeuge, etwa Verschieben, Reihe, Fläche schieben/ziehen und Versetzen, wird ein blauer Rahmen für die Bemaßung angezeigt. Nachdem Sie Ihren Vorgang abgeschlossen haben, können Sie auf diese Bemaßung klicken und einen bestimmten Wert eingeben. Sie können auch einfach einen numerischen Wert eingeben, um das Dialogfeld Bemaßung bearbeiten zu öffnen. Alternativ können Sie die TABULATORTASTE drücken, um das Dialogfeld Bemaßung bearbeiten aufzurufen. In FormIt for Windows v17 und höher ist die TABULATORTASTE jedoch nicht mehr erforderlich.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Posunutí hran, ploch nebo objektů
+## Kanten, Flächen oder Objekte verschieben
 
-Nejprve vyberte hranu, plochu nebo objekt. Nástroj Přesunout se automaticky aktivuje. Přesunutím kurzoru zobrazte body uchopení a odvození, pomocí nichž určete, kde chcete zahájit operaci přesunutí, a kliknutím ji spusťte. Nyní přesunutím kurzoru myši zobrazte body uchopení a odvození v umístění, do kterého chcete objekt přesunout. Dalším kliknutím objekt umístěte.
+Wählen Sie zuerst die Kante, die Fläche oder das Objekt aus. Das Werkzeug Verschieben wird automatisch aktiviert. Setzen Sie den Cursor an die gewünschte Stelle, um Fang- und Ableitungspunkte für den Anfangspunkt der Verschiebung einzublenden, und klicken Sie, um zu beginnen. Setzen Sie jetzt den Cursor an die benötigte Stelle für die Anzeige von Fang- und Ableitungspunkten für die Zielposition der Verschiebung. Klicken Sie erneut, um das Objekt zu platzieren.
 
 ![](../.gitbook/assets/edit_edge.png)
 

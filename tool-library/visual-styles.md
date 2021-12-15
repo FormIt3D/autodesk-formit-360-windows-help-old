@@ -1,94 +1,94 @@
-# Vizuální styly
+# Bildstile
 
-Přizpůsobte si vizuální vzhled modelu, včetně celkového osvětlení, stylů hran a efektů prostředí. Panel Vizuální styly zobrazíte kliknutím na ikonu slunečních brýlí na panelu palet:
+Passen Sie die visuelle Darstellung Ihres Modells an, einschließlich der allgemeinen Beleuchtung, Kantenstile und Umgebungseffekte. Die Gruppe Visuelle Stile können Sie aufrufen, indem Sie auf das Sonnenbrillensymbol in der Palettenleiste klicken:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Vizuální styly [lze nastavit pro jednotlivé scény](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), takže si můžete uložit oblíbená nastavení stylů a použít je pro další scény.
+Visuelle Stile [können pro Szene festgelegt werden](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), sodass Sie Ihre bevorzugten Stileinstellungen speichern und auf andere Szenen anwenden können.
 
-## Povrchy
+## Flächen
 
-Spravujte způsob zobrazení a stínování povrchů.
+Verwalten Sie, wie Flächen angezeigt und schattiert werden.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Okolní jas** řídí celkový jas všech materiálů ve scéně. Hodnota 100 znamená, že materiály vystavené světlu se zobrazí v plném jasu definovaném v barvě nebo textuře materiálu. Při nastavení hodnot větších než 100 budou materiály přeexponované, ale toto nastavení může být užitečné u modelů aplikace SketchUp, které v aplikaci FormIt stále vypadají tmavě. Výchozí hodnota je 100.
+Die Option **Umgebungshelligkeit** steuert die Gesamthelligkeit aller Materialien in der Szene. Ein Wert von 100 bedeutet, dass den Lichtstrahlen ausgesetzte Materialien mit ihrer vollen Helligkeit angezeigt werden, wie in der Farbe oder Textur des Materials definiert. Bei Werten über 100 würden die Materialien überbelichtet, könnten aber für SketchUp-Modelle nützlich sein, die in FormIt immer noch dunkel aussehen. Der Vorgabewert ist 100.
 
-**Okolní kontrast** určuje, o kolik tmavší se zobrazí plochy ve stínu ve srovnání s plochami vystavenými přímému slunečnímu světlu. Hodnota 0 znamená, že osvětlení nemá žádný vliv \(všechny materiály se zobrazí v plném jasu bez ohledu na orientaci\), zatímco vyšší hodnoty způsobí, že se plochy ve stínu budou jevit jako tmavší. Výchozí hodnota je 25.
+Die Option **Umgebungskontrast** steuert, wie viel dunkler Flächen im Schatten im Vergleich zu Flächen, die direktem Sonnenlicht ausgesetzt sind, angezeigt werden. Der Wert 0 bedeutet, dass die Beleuchtung keine Auswirkung hat \(alle Materialien werden unabhängig von der Ausrichtung mit voller Helligkeit angezeigt\), während bei höheren Werten Flächen im Schatten immer dunkler erscheinen. Der Standardwert ist 25.
 
-Přepnutím možnosti **Stíny** zjistíte, jak by byl váš návrh [zastíněn v aktuální denní době](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Aktivieren Sie die Option **Schatten**, um zu sehen, wie Ihr Entwurf [zur aktuellen Tageszeit beschattet wird](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Intenzita stínu** určuje, jak moc tmavé stíny se vykreslí na základní rovině a dalších plochách. Při hodnotě 0 budou stíny neviditelné a při hodnotě 100 budou stíny černé. Výchozí hodnota je 20.
+Die Option **Schattenintensität** steuert, wie dunkel Schatten auf der Grundplatte und anderen Flächen gezeichnet werden. Bei einem Wert von 0 werden Schatten effektiv unsichtbar, und bei einem Wert von 100 werden Schatten schwarz. Der Vorgabewert ist 20.
 
-**Okolní stíny** přidají stínování do rohů, díky čemuž budou modely aplikace FormIt působit realističtěji.
+Mit **Umgebungsschatten** werden Ecken Schattierungen hinzugefügt, um das FormIt-Modell realistischer zu gestalten.
 
-Možnost **Monotónní povrchy** vypne barvu a texturu všech materiálů a okolní prostředí změní na bílé. Tato možnost je užitečná pro studie stínů nebo stínování.
+Die Option **Monotone Oberflächen** deaktiviert die Farbe und Textur aller Materialien und macht die Umgebung weiß. Dies ist für Schatten- oder Schattierungsstudien hilfreich.
 
-Část Barvy povrchu definuje výchozí barvy ploch, pokud není použit žádný materiál.
+Im Abschnitt Oberflächenfarben werden Vorgabefarben für Flächen definiert, wenn kein Material angewendet wird.
 
-Možnost **Plochy** určuje výchozí barvu všech čelních ploch modelů aplikace FormIt \(nebo obou stran, jestliže není zaškrtnuto políčko Zadní plochy\), pokud není použit žádný materiál.
+**Flächen** ist die Vorgabefarbe aller nach vorne weisenden FormIt-Flächen \(oder beider Seiten, wenn Rückseiten deaktiviert ist\), wenn kein Material angewendet wird.
 
-Možnost **Zadní plochy** slouží k zobrazení různých materiálů na obou stranách jedné plochy u modelů aplikace SketchUp importovaných do aplikace FormIt, které to vyžadují. Tato možnost není ve výchozím nastavení zaškrtnuta, ale při otevření nebo importu modelů SketchUp je zaškrtnuta. V geometrii jiné než SketchUp se na zadních stranách ploch zobrazí zadaná barva zadní plochy.
+**Rückseiten** wird verwendet, um verschiedene Materialien auf beiden Seiten einer einzelnen Fläche für SketchUp-Modelle anzuzeigen, die in FormIt importiert werden und dies erfordern. Diese Option ist vorgabemäßig deaktiviert, wird aber aktiviert, wenn SketchUp-Modelle geöffnet oder importiert werden. In Nicht-SketchUp-Geometrie wird die angegebene Farbe für die Rückseite an den Rückseiten von Flächen angezeigt.
 
-V částech Efekty řezu a Efekty šrafování řezu můžete spravovat výchozí barvy ploch, čar a efektu šrafování při použití nástroje [Rovina řezu](section-planes.md).
+Verwenden Sie die Optionen Schnitt – Schnitteffekte und Schnitt – Schnittmaterialeffekte, um die Vorgabefarben von Flächen, Linien und den Schnittmaterialeffekt zu verwalten, wenn das Werkzeug [Schnittebene](section-planes.md) verwendet wird.
 
-## Základní roviny
+## Grundplatten
 
-Když je v režimu úprav skupiny vypnuta základní rovina, je nyní vypnuta také modrá osnova pracovní roviny.
+Wenn die Grundplatte im Gruppenbearbeitungsmodus deaktiviert ist, ist das blaue Arbeitsebenenraster jetzt ebenfalls deaktiviert.
 
-Barvu pracovní roviny si také můžete přizpůsobit na panelu Vizuální styly.
+Die Farbe der Arbeitsebene kann auch über die Gruppe Visuelle Stile angepasst werden.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Hrany
+## Kanten
 
-Spravujte styl zobrazení všech hran v modelu.
+Verwalten Sie den Anzeigestil aller Kanten im Modell.
 
 ![](../.gitbook/assets/edges.PNG)
 
-**Kontrast** ovlivňuje viditelnost všech hran. Při hodnotě 0 budou hrany neviditelné. Výchozí hodnota je 60.
+Der **Kontrast** wirkt sich auf die Sichtbarkeit aller Kanten aus. Bei einem Wert von 0 werden die Kanten praktisch unsichtbar. Der Vorgabewert lautet 60.
 
-**Barva** ovlivňuje barvu všech hran v modelu. Výchozí barva je černá.
+**Farbe** wirkt sich auf die Farbe aller Kanten im Modell aus. Die Vorgabe ist Schwarz.
 
-Možnost **Tlusté hrany** nastaví všechny hrany silnější, včetně hran siluet.
+**Dicke Kanten** macht alle Kanten dicker, einschließlich Silhouettenkanten.
 
-Možnost **Načrtnuté hrany** přidá ke všem hranám efekt náčrtu, který navozuje dojem ručního kreslení.
+Mit **Skizzenartige Kanten** wird allen Kanten ein skizzenartiger Effekt hinzugefügt, um den Effekt einer Handzeichnung zu simulieren.
 
-Možnost **Skryté hrany** zobrazí hrany, které jsou jinak zakryty povrchy.
+**Verdeckte Kanten** zeigt Kanten an, die ansonsten von Flächen verdeckt sind.
 
-Možnost **Prodloužené hrany** přidá k některým hranám prodloužení, které navozuje dojem ručního kreslení.
+**Erweiterte Kanten** fügt einigen Kanten eine Verlängerung hinzu, um den Effekt einer Handzeichnung zu simulieren.
 
-## Prostředí
+## Umgebung
 
-V této části můžete přepínat zobrazení efektů prostředí a pomocných objektů.
+Blenden Sie Umgebungseffekte und Hilfsobjekte ein und aus.
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Osnova** řídí zobrazení osnovy na základní rovině a také osnovy zobrazené při úpravách skupiny. Pokud je osnova zakázána, bude zakázána také možnost Přichytit k osnově.
+**Raster** steuert die Anzeige des Rasters auf der Grundplatte sowie das Raster, das beim Bearbeiten einer Gruppe angezeigt wird. Die Option Rasterfang wird deaktiviert, wenn das Raster deaktiviert ist.
 
-**Osy** řídí zobrazení os XYZ, které se zobrazí v počátku světa nebo v počátku skupiny, pokud upravujete skupinu.
+Die Option **Achsen** steuert die Anzeige der XYZ-Achsen, die beim Weltursprung oder beim Gruppenursprung angezeigt werden, wenn eine Gruppe bearbeitet wird.
 
-Možnost **Podlaží** řídí zobrazení [**podlaží** ](levels-and-area.md)****na panelu Podlaží.
+Die Option **Ebenen** steuert die Anzeige der [**Ebenen**](levels-and-area.md)****, die in der Gruppe Ebenen festgelegt wurden.
 
-**Mlha** ovládá zobrazení mlhy, která je vykreslena tak, aby přechod mezi základní rovinou a oblohou vypadal plynule. Vypnutím mlhy se vytvoří tvrdá linie horizontu v místě, kde se základní rovina \(pokud je povolena\) setkává s oblohou.
+**Nebel** steuert die Anzeige von Nebel, der gezeichnet wird, damit der Übergang zwischen der Grundplatte und dem Himmel nahtlos aussieht. Wenn Sie Nebel deaktivieren, erhalten Sie eine scharfe Horizontlinie, an der die Grundplatte \(falls aktiviert\) an den Himmel grenzt.
 
-Možnost **Směrová růžice** řídí zobrazení malé grafické pomůcky, která označuje směr severu projektu \(podle umístění a satelitního snímku\).
+**Nordpfeil** steuert die Anzeige eines kleinen grafischen Widgets, das die Richtung des Projektnordens angibt \(wie durch Standort und Satellitenbilder festgelegt\).
 
-Přizpůsobit lze také barvy prostředí, jako je obloha, pozadí a základní rovina. 
+Umgebungsfarben wie Himmel, Hintergrund und Grundplatte können ebenfalls angepasst werden.
 
-Obloha se skládá z gradientu barev **Dolní/Pozadí**, **Střední** a **Horní**.
+Der Himmel besteht aus einem Verlauf der Farben für **Unten/Hintergrund**, **Mitte** und **Oben**.
 
-Pokud možnost **Obloha** není zaškrtnuta, bude viditelná pouze barva **Dolní/Pozadí**.
+Wenn die Option **Himmel** deaktiviert ist, ist nur die Farbe **Unten/Hintergrund** sichtbar.
 
-## Diagnostika
+## Diagnose
 
-Zde můžete přepínat zobrazení diagnostických nástrojů.
+Blenden Sie Diagnosewerkzeuge ein und aus.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-Možnost **Problémy s vodotěsností** zvýrazní červeně všechny hrany, které nejsou součástí vodotěsného objektu tělesa.
+Die Option **Dichtheitsprobleme** hebt alle Kanten, die nicht Teil eines wasserdichten Volumenkörperobjekts sind, rot hervor.
 
-**Zadní plochy** zvýrazní červeně všechny plochy, které směřují nesprávným směrem \(všechny objekty těles by měly mít zadní plochy obrácené směrem dovnitř tvaru tělesa\).
+Die Option **Rückseiten** hebt alle Flächen, die in die falsche Richtung zeigen, rot hervor \(die Rückseiten aller Volumenkörperobjekte sollten zur Innenseite der Volumenkörperform weisen\).
 
-[Přečtěte si další informace o použití diagnostických nástrojů Problémy s vodotěsností a Zadní plochy k identifikaci a opravě problémů s modely těles](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Erfahren Sie mehr über die Verwendung der Dichtheits- und Rückseitendiagnose zum Identifizieren und Beheben von Problemen mit Volumenkörpermodellen](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

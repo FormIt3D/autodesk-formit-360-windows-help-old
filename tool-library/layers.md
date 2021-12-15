@@ -1,28 +1,28 @@
-# Hladiny
+# Layer
 
-Pomocí hladin můžete ovládat viditelnost objektů aplikace FormIt.
+Verwenden Sie Layer zur Steuerung der Sichtbarkeit von FormIt-Objekten.
 
-Prostudujte si [příručku k aplikaci FormIt a zjistěte, jak hladiny fungují.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Sehen Sie sich Layer in Aktion an, indem Sie die [FormIt-Einführung](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) durcharbeiten.
 
-## Vytvoření a pojmenování hladin
+## Erstellen und Benennen von Layern
 
-Na panelu Hladiny můžete vytvořit a pojmenovat své hladiny kliknutím na ikonu „**+**“.
+In der Gruppe Layer können Sie Ihre Layer erstellen und benennen, indem Sie auf das Symbol **+** klicken.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-Dvojitým kliknutím na název můžete hladinu přejmenovat nebo můžete přepnout viditelnost jejích objektů zaškrtnutím a zrušením zaškrtnutí příslušného políčka nalevo. Pomocí zaškrtávacího políčka vpravo můžete hladiny uzamknout a odemknout. Uzamknutá hladina bude stále viditelná, ale nebude ji možné vybrat ani upravit.
+Sie können auf den Namen doppelklicken, um den Layer umzubenennen, oder die Sichtbarkeit der Objekte umschalten, indem Sie das linke Kontrollkästchen aktivieren bzw. deaktivieren. Verwenden Sie das rechte Kontrollkästchen, um Layer zu sperren und freizugeben. Ein gesperrter Layer ist weiterhin sichtbar, kann jedoch nicht ausgewählt oder bearbeitet werden.
 
-## Správa objektů v hladinách
+## Verwalten von Objekten auf Layern
 
-Vyberte objekty na kreslicí ploše a pak pomocí rozevíracího seznamu v horní části panelu Vrstvy určete, do které vrstvy mají být vybrané objekty umístěny. 
+Wählen Sie Objekte im Ansichtsbereich aus, und verwenden Sie dann die Dropdown-Liste oben in der Gruppe Layer, um anzugeben, auf welchem Layer die ausgewählten Objekte platziert werden sollen.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-Aplikace FormIt nemá koncepci „výchozí“ nebo „pracovní“ hladiny. Veškerá nová geometrie bude vytvořena s použitím možnosti „Žádná hladina“ a po vygenerování budete muset objekty znovu přiřadit k hladinám.
+FormIt arbeitet generell ohne vorgabemäßige oder Arbeitslayer. Die gesamte neue Geometrie wird mit Kein Layer erstellt, und Sie müssen Objekte nach der Erstellung den Layern neu zuweisen.
 
-Kliknutím pravým tlačítkem myši na hladinu a výběrem možnosti Vybrat vše na hladinách vyberete veškerou geometrii aktuálně přiřazenou k této hladině.
+Sie können mit der rechten Maustaste auf einen Layer klicken und Alles auf Layern auswählen wählen, um die gesamte Geometrie auszuwählen, die diesem Layer derzeit zugewiesen ist.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-Můžete také změnit pořadí hladin v panelu a to přetažením do nového umístění. Všimněte si, že změna pořadí nemá žádný vliv na viditelnost geometrie, jedná se čistě o nástroj správy v panelu.
+Sie können die Reihenfolge der Layer in der Gruppe auch ändern, indem Sie sie an eine neue Position ziehen. Beachten Sie, dass dies keine Auswirkungen auf die Sichtbarkeit der Geometrie hat. Dies ist ein rein organisatorisches Werkzeug in der Gruppe.
 

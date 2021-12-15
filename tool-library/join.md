@@ -1,30 +1,30 @@
-# Booleovské spojení
+# Boolesche Operationen: Verbinden
 
-Pomocí nástroje Spojit můžete spojit jeden objekt nebo skupinu s jiným objektem či skupinou. Nástroj Spojit lze spustit dvěma způsoby:
+Mit dem Werkzeug Verbinden können Sie ein Objekt oder eine Gruppe mit anderen Objekten oder Gruppen verbinden. Es gibt zwei Möglichkeiten zum Aufrufen des Werkzeugs Verbinden:
 
-## Jako první je spuštěn příkaz Spojit
+## Zuerst den Befehl Verbinden ausführen
 
-Klávesnice: J G
+Tastatur: J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Spusťte příkaz Spojit a postupujte podle pokynů v levé horní části obrazovky.
+Führen Sie den Befehl Verbinden aus, und folgen Sie den Anweisungen für den Modus oben links auf dem Bildschirm.
 
-Kliknutím vyberte objekt, k němuž chcete spojení provést.
+Klicken Sie, um ein Objekt auszuwählen, das verbunden werden soll.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Kliknutím vyberte objekt nebo skupinu, která má být spojena.
+Klicken Sie, um ein Objekt oder eine Gruppe zum Verbinden auszuwählen.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Kliknutím na značku zaškrtnutí dokončete příkaz. 
+Klicken Sie auf das Häkchen, um den Befehl zu beenden. 
 
-## Jako první jsou vybrány objekty
+## Zuerst die Objekte auswählen
 
-1. Dvojitým kliknutím vyberte objekt, který chcete spojit \(kliknutím vyberete skupinu\).
-2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekt, který chcete spojit s prvním objektem.
-3. Klikněte pravým tlačítkem myši na kterýkoli z objektů a v místní nabídce vyberte nástroj Spojit.
+1. Doppelklicken Sie, um das Objekt auszuwählen, das verbunden werden soll \(einfacher Klick für eine Gruppe\).
+2. Halten Sie die **STRG-Taste** gedrückt, und doppelklicken Sie auf ein überlappendes Objekt, das Sie mit dem ersten Objekt verbinden möchten.
+3. Klicken Sie mit der rechten Maustaste auf eines der Objekte, und wählen Sie im Kontextmenü das Werkzeug Verbinden.
 
 ![](../.gitbook/assets/join-tool.png)
 

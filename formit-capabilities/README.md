@@ -1,9 +1,9 @@
-# Možnosti aplikace FormIt
+# Funktionen in FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Možnosti aplikace FormIt
+## Funktionen in FormIt
 
-Vytvářejte koncepční návrhy budov pomocí výkonného integrovaného systému modelování těles, neuvěřitelných možností vizualizace a nativní integrace aplikace Dynamo, a to vše při zahájení pracovního postupu BIM.
+Erstellen Sie konzeptuelle Gebäudeentwürfe mit einem leistungsstarken integrierten Volumenkörper-Modellierungssystem, beeindruckenden Visualisierungsoptionen und nativer Dynamo-Integration, während Sie gleichzeitig einen BIM-Arbeitsablauf initiieren.
 
-Pomocí aplikace Autodesk® FormIt® můžete zachytit koncept návrhu budovy, který vás zrovna napadne. Využijte výhod přesného a snadného modelování těles, uspořádejte své nápady ve skupinách a hladinách a získejte reálné informace o pozemku, například satelitní snímky, pro správnou orientaci a analýzu návrhů pomocí stínů, analýzy slunečního záření a energetické analýzy. Přesuňte předběžné návrhy do centralizovaného úložiště dat, abyste k nim mohli přistupovat a vylepšovat je v softwaru Autodesk® Revit® nebo jiné aplikaci.
+Verwenden Sie Autodesk® FormIt®, um Ihre Ideen sofort in Konzepten für Gebäudeentwürfe festzuhalten. Die präzise und einfache Volumenkörper-Modellierung unterstützt Sie bei der Organisation Ihrer Ideen in Gruppen und Layern. Mithilfe von realen Standortdaten, z. B. Satellitenbildern, können Sie Ihre Entwürfe mit Schatten, Solar- und Energieanalysen richtig ausrichten und analysieren. Übertragen Sie Ihre Vorentwürfe in zentrale Datenspeicher, um mit Autodesk® Revit®-Software oder anderen Anwendungen auf sie zuzugreifen und sie weiterzuentwickeln.

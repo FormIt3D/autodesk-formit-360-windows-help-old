@@ -1,12 +1,12 @@
-# Kružnice
+# Kreis
 
-Pomocí nástroje Kružnice můžete nakreslit kružnici v prostoru nebo na jiném objektu.
+Mit dem Werkzeug Kreis können Sie einen Kreis im Raum oder auf einem anderen Objekt zeichnen.
 
-Klávesnice: C
+Tastatur: C
 
 ![](../.gitbook/assets/circle_toolbar.png)
 
-Chcete-li nakreslit kružnici, vyberte nejprve středový bod a poté určete poloměr kružnice. Z kružnice se poté automaticky stane plocha.
+Um einen Kreis zu zeichnen, wählen Sie zunächst den Mittelpunkt aus und geben dann den Radius des Kreises an. Als Nächstes wird der Kreis automatisch zu einer Fläche.
 
 ![](../.gitbook/assets/circle1.png)
 

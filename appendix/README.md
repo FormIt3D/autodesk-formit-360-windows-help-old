@@ -1,7 +1,7 @@
-# Příloha
+# Anhang
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Příloha
+## Anhang
 
-V této části naleznete další zdroje pro pokročilou práci v aplikaci FormIt. Přidali jsme klávesové zkratky, které urychlují práci v aplikaci FormIt, a také postup pro spolupráci s ostatními uživateli na jednom projektu.
+In diesem Abschnitt finden Sie Informationen zu zusätzlichen Ressourcen, die Sie dabei unterstützen, Ihre Arbeit mit FormIt zu vertiefen. Dazu gehören Tastaturbefehle, mit denen Sie Ihre Arbeit in FormIt beschleunigen können, sowie Funktionen für die Zusammenarbeit mit Kollegen am selben Projekt.

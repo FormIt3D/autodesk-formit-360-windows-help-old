@@ -1,6 +1,6 @@
-# Roviny řezu
+# Schnittflächen
 
-Pomocí **rovin řezu** můžete provést řez do modelu aplikace FormIt a odhalit vnitřní prostory a konstrukční prvky.
+Verwenden Sie **Schnittebenen**, um in Ihr FormIt-Modell zu schneiden und so Innenräume und tragende Elemente freizulegen.
 
-Přečtěte si informace o rovinách řezů v [Příručce k aplikaci FormIt](../formit-primer/part-i/section_planes.md).
+Informationen zu Schnittebenen finden Sie in der [FormIt-Einführung](../formit-primer/part-i/section_planes.md).
 

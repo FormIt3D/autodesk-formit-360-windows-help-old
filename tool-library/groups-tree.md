@@ -1,12 +1,12 @@
-# Strom skupin
+# Gruppenstruktur
 
-Paleta **Strom skupin** poskytuje jedno místo pro správu všech skupin v souboru. Stromový pohled zobrazuje vnořené skupiny a ve sloupci Stav je zobrazeno, která skupina je aktuálně upravována a zda se jedná o skupinu aplikace Dynamo nebo Revit.
+Die Palette **Gruppenstruktur** ist ein zentraler Ort zum Verwalten aller Gruppen in der Datei. In der Strukturansicht werden verschachtelte Gruppen angezeigt, und in der Statusspalte wird dargestellt, welche Gruppe derzeit bearbeitet wird und ob die Gruppe aus Dynamo oder Revit stammt.
 
-* **Výběr**: Každá instance je uvedena samostatně. Vyberte instanci ve stromu a instance bude vybrána ve 3D scéně.
-* **Úpravy**: Chcete-li některou skupinu upravit, klikněte na ikonu pera v horní části palety nebo klikněte pravým tlačítkem myši a vyberte možnost Upravit.
-* **Přejmenování**: Pokud chcete některou skupinu přejmenovat, dvakrát klikněte na její název nebo klikněte pravým tlačítkem myši a vyberte možnost Přejmenovat.
-* **Odstranění**: Chcete-li některou skupinu odstranit, klikněte na ikonu \(**-**\) v horní části palety nebo klikněte pravým tlačítkem myši a vyberte možnost Odstranit.
-* **Změna kategorie**: Pokud chcete změnit kategorii skupiny, vyberte požadovanou skupinu a použijte rozevírací seznam Kategorie v horní části palety.
+* **Auswählen**: Jedes Exemplar wird einzeln aufgeführt. Wählen Sie eine Instanz in der Struktur aus, und die Instanz\(en\) wird/werden in der 3D-Szene ausgewählt.
+* **Bearbeiten**: Um eine Gruppe zu bearbeiten, verwenden Sie das Stiftsymbol oben in der Palette oder klicken mit der rechten Maustaste und wählen Bearbeiten.
+* **Umbenennen**: Doppelklicken Sie zum Umbenennen einer Gruppe auf den Namen, oder klicken Sie mit der rechten Maustaste, und wählen Sie Umbenennen.
+* **Löschen**: Um eine Gruppe zu löschen, verwenden Sie das Symbol \(**-**\) oben in der Palette oder klicken mit der rechten Maustaste und wählen Löschen.
+* **Kategorie ändern**: Um die Kategorie einer Gruppe zu ändern, wählen Sie die Gruppe aus und verwenden die Dropdown-Liste Kategorie oben in der Palette.
 
 ![](../.gitbook/assets/groups.png)
 

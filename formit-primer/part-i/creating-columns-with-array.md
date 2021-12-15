@@ -1,146 +1,146 @@
-# 1.8 – Vytvoření sloupů nástrojem Pole
+# 1.8 – Erstellen von Stützen mit Reihe
 
-_V tomto cvičení načrtneme prvek detailu – sloup nosníku ve tvaru I. Poté pomocí nástroje Pole rychle vytvoříme několik rovnoměrně rozmístěných kopií._
+_In dieser Übung skizzieren Sie ein detailliertes Element, eine I-Träger-Stütze. Anschließend erstellen Sie mit dem Werkzeug Reihe schnell mehrere Kopien mit gleichem Abstand._
 
-_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.8 – Create Columns with Array.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.8 – Create Columns with Array.axm**_ _aus_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Načrtnutí profilu sloupu**
+## **Skizzieren des Stützenprofils**
 
-1 – Postup usnadnění procesu kreslení:
+1 – So vereinfachen Sie den Entwurfsprozess
 
-1. Přejděte do **horního pohledu \(VT\)**.
-2. Přepněte režim pohledu na možnost **Ortografické \(VO\)**.
-3. Vypněte hladiny **Podlaží** **hlavní budovy** a **Střecha**. Tento krok zabrání přichycení nové geometrie ke stávající geometrii v těchto hladinách.
-4. Přibližte si levý horní roh **importovaného obrázku půdorysu**, abyste si mohli podrobně prohlédnout sloup.
-5. Vypněte funkci **Přichytit k osnově \(SG\)** \(pokud je zapnutá\). Pomůže vám to při kreslení čar detailu.
+1. Wechseln Sie zur **Draufsicht \(VT\)**.
+2. Ändern Sie den Ansichtsmodus in **Orthogonal \(VO\)**.
+3. Deaktivieren Sie die Layer **Main Building**, **Floor** und **Roof**. Dadurch wird verhindert, dass die neue Geometrie auf den vorhandenen Geometrien dieser Layer gefangen wird.
+4. Vergrößern Sie die obere linke Ecke des Bilds des **importierten Grundrisses**, sodass Sie die Stütze im Detail sehen können.
+5. Deaktivieren Sie die Funktion **Rasterfang \(SG\)** \(sofern aktiviert\). Dies hilft beim Zeichnen der Detaillinien.
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_Při kreslení sloupu nejprve nakreslíme jednu polovinu a poté ji zrcadlově otočíme, abychom rychle vytvořili druhou symetrickou polovinu._
+_Um die Stütze zu zeichnen, zeichnen Sie zunächst eine Hälfte und spiegeln diese dann, um schnell die andere symmetrische Hälfte zu erstellen._
 
-2 – K vytvoření první poloviny I-nosníku použijte nástroj **Čára (L)** a nakreslete následující náčrt se zadanými kótami. Zatím si nedělejte starosti s přesnou polohou sloupu na půdorysném obrázku.
+2 – Zum Erstellen der ersten Hälfte des I-Trägers verwenden Sie das **Werkzeug Linie \(L\)**, um die folgende Skizze mit den angegebenen Bemaßungen zu erstellen. Sie müssen sich noch keine Gedanken über die genaue Position der Stütze auf dem Planbild machen.
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 – Zrcadlení tvaru, který jste právě nakreslili, proveďte takto:
+3 – So spiegeln Sie die gerade gezeichnete Form
 
-1. Dvojitým kliknutím vyberte všechny plochy a hrany nakreslené geometrie.
-2. Klikněte pravým tlačítkem a vyberte **nástroj Zrcadlit \(MI\)**.
-3. Klikněte na středový oranžový úchyt **pomůcky Zrcadlit** a umístěte jej do levého dolního rohu geometrie.
-4. Pomocí šipky dolů na oboustranném tlačítku šipky v pomůcce otočte osu zrcadlení o -90 stupňů \(ve směru hodinových ručiček\).
-5. Kliknutím na volné místo nebo stisknutím klávesy **Esc** dokončete proces zrcadlení. Výsledek by měl vypadat jako profil I-nosníku s čarou uprostřed. Dalším stisknutím klávesy **Esc** zrušte výběr.
+1. Doppelklicken Sie, um alle Flächen und Kanten der gezeichneten Geometrie auszuwählen.
+2. Klicken Sie mit der rechten Maustaste, und wählen Sie das **Werkzeug Spiegeln \(MI\)** aus.
+3. Klicken Sie auf den orangefarbenen Griff in der Mitte des **Spiegeln-Widgets**, und platzieren Sie es in der unteren linken Ecke der Geometrie.
+4. Verwenden Sie den unteren Pfeil der doppelseitigen Pfeil-Schaltfläche im Widget, um die Spiegelachse um -90 Grad \(im Uhrzeigersinn\) zu drehen.
+5. Klicken Sie auf eine beliebige Stelle, oder drücken Sie **ESC**, um den Spiegelvorgang abzuschließen. Das Ergebnis sollte wie ein I-Träger-Profil mit einer Linie in der Mitte aussehen. Drücken Sie erneut **ESC**, um die Auswahl aufzuheben.
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Poznámka:** Při úpravě pomůcky zrcadlení se zobrazí náhled umístění a orientace konečné geometrie jako stínovaný modrý tvar. Tento náhled můžete použít jako referenci k zrcadlení geometrie do požadovaného umístění._
+_**Anmerkung**: Während Sie das Spiegeln-Widget anpassen, wird in der Vorschau die endgültige Position und Ausrichtung der Geometrie mit der blauen Geisterform angezeigt. Sie können diese Vorschau als Referenz verwenden, um die Geometrie an der gewünschten Position zu spiegeln._
 
-4 – Spojte obě strany do jediné geometrie: odstraňte čáru, která je rozděluje, tak že na ni kliknete a poté stisknete klávesu **Delete**. Nyní jsou tyto dva povrchy spojeny do jednoho povrchu.
+4 – Um beide Seiten zu einer einzigen Geometrie zu verbinden, entfernen Sie die sie trennende Linie, indem Sie zum Auswählen darauf klicken und dann **ENTF** drücken. Jetzt sind die beiden Flächen in einer einzigen Fläche verbunden.
 
-5 – Přesuňte geometrii do jejího konečného umístění:
+5 – So verschieben Sie die Geometrie an ihre endgültige Position
 
-1. Pokud jsou vypnuty, zapněte hladiny **Obrázek půdorysu** a **Střecha**, aby je bylo možné použít jako vodítko.
-2. Dvojitým kliknutím na profil sloupu vyberte jeho plochu a všechny jeho čáry. Začněte výběr přesouvat podél zelené osy \(**osa Y**\). Podržte klávesu **Shift** a přesuňte profil tak, aby byl zarovnán se střechou. Poté jej kliknutím umístěte.
-3. Podobně jako v předchozím kroku znovu přesuňte geometrii a tentokrát ji uzamkněte k červené ose \(**osa X**\).
-4. Kliknutím profil umístěte na horní část I-nosníku nakresleného v hladině **Obrázek půdorysu** \(horizontální poloha nemusí být dokonalá\).
+1. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Plan Image** und **Roof**, um sie als Hilfsmittel zu verwenden.
+2. Doppelklicken Sie auf das Stützenprofil, um seine Fläche und alle Linien auszuwählen. Verschieben Sie die Auswahl entlang der grünen Achse \(**Y-Achse**\). Halten Sie die **UMSCHALTTASTE** gedrückt, und verschieben Sie das Profil, bis es am Dach ausgerichtet ist. Klicken Sie dann, um es zu platzieren.
+3. Verschieben Sie die Geometrie ähnlich wie im vorherigen Schritt erneut, und beschränken Sie sie diesmal auf die rote Achse \(**X-Achse**\).
+4. Klicken Sie, um sie auf dem I-Träger zu platzieren, der in **Plan Image** gezeichnet wurde. Es reicht, wenn die Platzierung ungefähr stimmt. Wie Sie im folgenden Bild sehen, muss die horizontale Position nicht perfekt sein.
 
-_**Poznámka:**_ _Klávesa_ _**Shift**_ _uzamkne geometrii, aby se pohybovala pouze podél jedné osy, v tomto případě zelené \(**osa Y**\). Tím se zajistí, že se profil sloupu náhodně neposune nahoru a nezarovná se k horní části roviny střechy._
+_**Anmerkung:**_ _Die_ _**UMSCHALTTASTE**_ _beschränkt die Bewegung der Geometrie auf nur eine Achse, in diesem Fall die grüne \(**Y-Achse**\). Dadurch wird sichergestellt, dass das Stützenprofil nicht versehentlich nach oben verschoben und an der Oberseite der Dachebene ausgerichtet wird._
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Vysunutí a uspořádání sloupu**
+## **Extrudieren und Anordnen der Stütze**
 
-1 – Abyste si usnadnili další proces kreslení, přepněte režim pohledu zpět na **Perspektivní \(VP\)** a pomocí nástroje **Orbit \(O\)** umístěte kameru tak, aby zobrazovala profil I-nosníku od severozápadu. Šipka severu v levém dolním rohu vám pomůže s umístěním pohledu.
+1 – Um den nächsten Zeichenprozess zu erleichtern, ändern Sie den Ansichtsmodus wieder in **Perspektivisch \(VP\)** und **umkreisen \(O\)** die Ansicht, um die Kamera so zu positionieren, dass das I-Träger-Profil aus Nordwest visualisiert wird. Verwenden Sie den Nordpfeil unten links, um die Ansicht zu positionieren.
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Poznámka:**_ _Informace o tom, jak se pohybovat v náčrtu, získáte v kapitole_ _**Navigace ve scéně**_ _._
+_**Anmerkung:**_ _Um zu erfahren, wie Sie in der Skizze navigieren, empfehlen wir, das Kapitel_ _**Navigieren in der Szene**_ _zu lesen._
 
-2 – Vyberte plochu profilu sloupu a vysuňte ji nahoru do vzdálenosti **17’-8"**.
+2 – Wählen Sie die Fläche des Stützenprofils aus, und extrudieren Sie die Fläche auf **17'-8"**.
 
-_**Poznámka:**_ _Pokud se při přesouvání profil sloupu zarovnal ke střeše, vysuňte plochu dolů o_ _**17’-8"**  , nikoli nahoru._
+_**Anmerkung:**_ _Wenn das Stützenprofil beim Verschieben am Dach ausgerichtet wird, extrudieren Sie die Fläche um_ _**17'-8"**   nach unten anstatt nach oben._
 
-3 – Oddalte pohled a zapněte hladinu **Střecha** \(pokud je vypnutá\). Vrchol sloupu by měl být zarovnán s horní částí střechy.
+3 – Verkleinern Sie die Ansicht, und aktivieren Sie den Layer **Roof** \(falls deaktiviert\). Die Oberkante der Stütze sollte an der Oberkante des Dachs ausgerichtet sein.
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 – Aby byl model uspořádaný a přehledný, vyberte znovu geometrii sloupů a proveďte následující kroky:
+4 – Um das Modell übersichtlich und ordentlich zu halten, wählen Sie die Stützengeometrie erneut aus und führen die folgenden Schritte durch:
 
-1. Vytvořte **skupinu \(G\)** a pojmenujte ji **Vysoký sloup**.
-2. Vytvořte novou **hladinu** s názvem **Sloup** a přidejte do ní vytvořenou skupinu.
-3. Importujte materiál **Kov – kartáčovaný – zbarvený** a pomalujte jím skupinu.
+1. **Gruppieren \(G\)** Sie die Geometrie, und nennen Sie sie **Column Tall**.
+2. Erstellen Sie einen neuen **Layer** mit der Bezeichnung **Column**, und fügen Sie die Gruppe hinzu.
+3. Importieren Sie das Material **Metal – Brushed – Colorized**, und versehen Sie die Gruppe damit.
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Poznámka:**_ _Další informace o_ _**skupinách**,_ _**hladinách** a_ _**materiálech** získáte v předchozích kapitolách._
+_**Anmerkung:**_ _Weitere Informationen zu_ _**Gruppen**,_ _**Layern** und_ _**Materialien** finden Sie in den vorherigen Kapiteln._
 
-4 – Stisknutím klávesy **Esc** ukončete nástroj Štětec.
+4 – Klicken Sie auf **ESC**, um das Pinselwerkzeug zu löschen.
 
-## **Vytvoření pole sloupů**
+## **Stützen in Reihe anordnen**
 
-1 – Přejděte do **horního pohled \(VT\)** a znovu přepněte režim kamery na možnost **Ortografické \(VO\)**.
+1 – Wechseln Sie in die **Draufsicht \(VT\)**, und ändern Sie den Kameramodus wieder in **Orthogonal \(VO\)**.
 
-2 – Vypněte hladinu **Střecha**.
+2 – Deaktivieren Sie den Layer **Roof**.
 
-3 – Zahajte proces tvorby pole:
+3 – So starten Sie den Reihenprozess
 
-1. Kliknutím vyberte skupinu sloupů. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte položku **Pole \(AR\)**.
-2. V dialogu **Vlastnosti pole** použijte následující nastavení:
-   * **Délka mezi kopiemi**
-   * **Lineární** \(výchozí\)
-   * **Seskupit každé těleso a poté vytvořit pole** \(výchozí\)
-   * **Počet kopií: 3**
-   * Kliknutím na tlačítko **OK** zavřete dialog.
+1. Klicken Sie, um die Stützengruppe auszuwählen. Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie **Reihe \(AR\)**.
+2. Verwenden Sie im Dialogfeld **Reiheneigenschaften**￼ die folgenden Einstellungen:
+   * **Länge zwischen Kopien**
+   * **Linear** \(Vorgabe\)
+   * **Gruppieren: jeder Volumenkörper, dann Reihe** \(Vorgabe\)
+   * **Anzahl der Kopien: 3**
+   * Klicken Sie auf **OK**, um das Dialogfeld zu schließen.
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 – Umístěte nové prvky:
+4 – So platzieren Sie die neuen Elemente
 
-1. Kliknutím na sloup spusťte nástroj **Pole**. Přesuňte kurzor podél červené osy \(**osa X**\).
-2. Nastavte kótu na **22'**. Nyní máte **čtyři** sloupy vzdálené od sebe **22'**.
-3. Stisknutím klávesy **Esc** zrušte výběr.
+1. Klicken Sie auf die Stütze, um die **Reihe** zu starten. Bewegen Sie den Cursor entlang der roten Achse \(**X-Achse**\).
+2. Legen Sie die Bemaßung auf **22'** fest. Sie haben nun **vier** Stützen mit einem Abstand von **22'**.
+3. Drücken Sie **ESC**, um die Auswahl aufzuheben.
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 – Chcete-li vybrat všechny skupiny **Vysoký sloup** najednou, přesuňte ukazatel myši nad jednu z nich a stiskněte klávesu **Tab**. Všimněte si, že byly zvýrazněny ohraničující kvádry všech 4 sloupů. Kliknutím na sloup, nad kterým je umístěn ukazatel myši, nyní vyberete všechny sloupy. Tímto způsobem můžete rychle vybrat všechny instance stejné skupiny najednou.
+5 – Um alle Gruppen unter **Tall Column** gleichzeitig auszuwählen, bewegen Sie den Mauszeiger über eine von ihnen und drücken einmal die **TABULATORTASTE**. Beachten Sie, dass alle Begrenzungsrahmen der vier Stützen markiert wurden. Klicken Sie auf die Stütze, über die Sie den Mauszeiger halten. Alle Stützen werden ausgewählt. Dies ist eine schnelle Methode, um alle Exemplare derselben Gruppe gleichzeitig auszuwählen.
 
-6 – Pomocí dalšího **pole \(AR\)** vytvořte sloupy na druhé straně budovy. Tentokrát vytvořte jednu kopii podél zelené osy napříč budovou. Nastavte kótu na hodnotu **29'-4 5/8"**
+6 – Führen Sie eine weitere **Reihe \(AR\)** aus, um die Stützen auf der anderen Seite des Gebäudes zu erstellen. Erstellen Sie dieses Mal eine Kopie entlang der grünen Achse im gesamten Gebäude. Legen Sie die Bemaßung auf **29'-4 5/8" fest.**
 
-_**Poznámka:**_ _29’ 4 5/8" = 8 5/8" \(hloubka sloupů\) + 28’-8" \(šířka hlavní budovy\)._
+_**Anmerkung:**_ _29' 4 5/8" = 8 5/8" \(Stützentiefe\) + 28'-8" \(Hauptgebäudebreite\)_
 
-7 – Chcete-li vizualizovat celou budovu, přejděte do **3D pohledu \(V3\)** a nastavte možnost **Perspektivní \(VP\)**. Pokud jsou vypnuty, zapněte hladiny **Podlaží hlavní budovy**, **Střecha**, **Dolní terasa** a **Sloup**.
+7 – Um das gesamte Gebäude zu visualisieren, wechseln Sie zur **3D-Ansicht \(V3\)** und legen **Perspektivisch \(VP\)** fest. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Main Building Floor**, **Roof**, **Lower Terrace** und **Column**.
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Vytvoření sloupů terasy**
+## **Erstellen der Terrassenstützen**
 
-_Nyní zkopírujeme sloupy hlavní budovy a vytvoříme podobné, ale kratší, verze pro terasu._
+_Jetzt duplizieren Sie die Hauptgebäudestützen, um ähnliche, aber kürzere Versionen für die Terrasse zu erstellen._
 
-1 – Kvůli usnadnění kreslení doporučujeme vrátit se k nastavení **Ortografické \(OV\)** a **Horní pohled \(VT\)**.
+1 – Um das Zeichnen zu erleichtern, empfehlen wir, zu den Einstellungen **Orthogonal \(OV\)** und **Draufsicht \(VT\)** zurückzukehren.
 
-2 – Vytvořte nové sloupy:
+2 – So erstellen Sie die neuen Stützen
 
-1. Podržte klávesu **Ctrl** nebo **Shift** a kliknutím vyberte 3 sloupy, které jsou nejblíže **podlaží dolní terasy**.
-2. Kliknutím na kterýkoli ze sloupů začněte přesouvat všechny 3 vybrané sloupy najednou. Chcete-li vytvořit **rychlou kopii**, stiskněte jednou klávesu **Ctrl**. Zobrazí se obrys kopie.
-3. Posuňte kopie dolů podél zelené osy \(**osa Y**\) o **23’-4 3/8"**. Stiskněte klávesu **Esc**.
-4. Aniž byste zrušili výběr, přesuňte zkopírované sloupy podél červené osy \(**osa X**\) o **22’** a umístěte je do konečné polohy.
-5. Se stále vybranými 3 novými sloupy klikněte pravým tlačítkem myši na jeden z kopírovaných sloupů a vyberte možnost **Vytvořit jedinečné \(MU\)**. Tyto sloupy jsou nyní navzájem propojeny, ale jsou jedinečné oproti originálům.
+1. Halten Sie die **STRG**- oder **UMSCHALTTASTE** gedrückt, und klicken Sie auf die drei Stützen, die sich am nächsten zum **unteren Terrassenboden** befinden, um sie auszuwählen.
+2. Klicken Sie auf eine der Stützen, um alle drei ausgewählten Stützen gleichzeitig zu verschieben. Drücken Sie die **STRG-Taste**, um eine **schnelle Kopie** zu erstellen. Eine Geistervorschau der Kopie wird angezeigt.
+3. Verschieben Sie die Kopien entlang der grünen Achse \(**Y-Achse**\) um **23'-4 3/8"** nach unten. Drücken Sie die **ESC**-Taste.
+4. Verschieben Sie die kopierten Stützen ohne Abwahl um **22'** entlang der roten Achse \(**X-Achse**\), um sie an ihrer endgültigen Position zu platzieren.
+5. Klicken Sie mit der rechten Maustaste auf eine der kopierten Stützen, während die drei neuen Stützen weiterhin ausgewählt sind, und wählen Sie **Als eindeutig definieren \(MU\)** aus. Diese Stützen sind jetzt miteinander verknüpft, unterscheiden sich jedoch eindeutig von den Originalen.
 
-_**Poznámka:**_ _Podržením klávesy_ _**Shift**_ _nebo_ _**Ctrl**_ _můžete vybrat více prvků najednou nebo odebrat prvky z aktuálního výběru._
+_**Anmerkung:**_ _Halten Sie die_ _**UMSCHALTTASTE**_ _oder_ _**STRG-Taste**_ _gedrückt, wenn Sie mehrere Elemente gleichzeitig auswählen oder Elemente aus der aktuellen Auswahl entfernen möchten._
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 – Upravte novou skupinu sloupů:
+3 – Ändern Sie die neue Stützengruppe:
 
-1. Dvojitým kliknutím upravte jednu z nových skupin a přejmenujte ji na **Krátký sloup**
-2. Upravte výšku nového sloupu tak, aby byl zarovnán s horní částí **podlaží** **dolní terasy** \(3’-2"\). To provedete tak, že vyberete a přetáhnete plochu sloupu dolů podél modré osy \(**osa Z**\) a podržíte klávesu **Shift**. Umístěte ukazatel myši na libovolné místo na horní ploše **podlaží dolní terasy** a výška sloupu se automaticky zarovná k dolní terase. Jakmile je výška nastavena, kliknutím ukončete akci.
+1. Doppelklicken Sie, um eine der neuen Gruppen zu bearbeiten, und benennen Sie sie in **Column Short**
+2. Passen Sie die Höhe der neuen Stütze so an, dass sie an der Oberseite des **unteren** **Terrassenbodens** ausgerichtet ist \(3'-2"\). Dazu wählen Sie die Stützenfläche aus, ziehen sie entlang der blauen Achse \(**Z-Achse**\) nach unten und halten die **UMSCHALTTASTE** gedrückt. Wenn Sie den Mauszeiger an eine beliebige Stelle auf der oberen Fläche des **unteren Terrassenbodens** setzen, wird die Höhe der Stütze automatisch an der unteren Terrasse ausgerichtet. Klicken Sie nach dem Festlegen der Höhe, um den Vorgang abzuschließen.
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Poznámka:**_ _Výšku krátkých sloupů můžete zkontrolovat pomocí nástroje_ _**Měřit \(ME\)**_ _. Případně můžete vybrat jednu ze svislých hran sloupu a zobrazit jeho délku na_ _**paletě Vlastnosti**._
+_**Anmerkung:**_ _Sie können die Höhe der kurzen Stützen mit dem Werkzeug_ _**Messen \(ME\)**_ _überprüfen. Alternativ können Sie eine der vertikalen Kanten der Stütze auswählen und ihre Länge in der_ _**Eigenschaftenpalette** anzeigen._
 
-4 – Pomocí technik, které jste se právě naučili, vytvořte poslední zbývající sloup zkopírováním nejkratšího sloupu na opačnou stranu **podlaží dolní terasy**.
+4 – Kopieren Sie mithilfe der gerade erlernten Techniken die am weitesten entfernte kurze Stütze auf die gegenüberliegende Seite des **unteren Terrassenbodens**, um die letzte verbleibende Stütze zu erstellen.
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

@@ -1,77 +1,77 @@
-### Rozšířené panely nástrojů
+### Erweiterte Werkzeugkästen
 ---
 
-#### Panel nástrojů Akce
-Tento panel nástrojů se nachází v horní části obrazovky. Nástroje, které zde naleznete, vám pomohou vytvářet, upravovat a sdílet obsah.
+#### Aktionsleiste
+Die Aktionsleiste befindet sich am oberen Rand des Bildschirms. Mithilfe ihrer Werkzeuge können Sie Inhalte erstellen, bearbeiten und freigeben.
 ![](images/Tool Bar-All.PNG)
 
-**1. Nabídka Galerie**
+**1. Gallery Menu (Galerie-Menü)**
 ![](images/Tool Bar-Gallery.PNG)
-- Nový náčrt, otevření náčrtu, uložení náčrtu, import nebo export souborů.
+- New sketch, open sketch, save sketch, import or export files (Neue Skizze, Skizze öffnen, Skizze speichern, Dateien importieren oder exportieren).
 
-**2. Zpět Znovu**
+**2. Undo Redo (Rückgängig Wiederherstellen)**
 ![](images/Tool Bar-Undo Redo.PNG)
-- Kliknutím vrátíte zpět nebo znovu provedete poslední akce.
+- Klicken Sie auf Undo (Rückgängig) oder Redo (Wiederherstellen), um die zuletzt ausgeführten Aktionen rückgängig zu machen oder wiederherzustellen.
 
-**3. Výběr a měření**
+**3. Selection and Measurement (Auswahl und Messung)**
 ![](images/Tool Bar-Select.PNG)
-- Filtr výběru: Kliknutím vyberte z nástroje pro výběr možnosti pro filtrování typů objektů (hrany, plochy, tělesa, skupiny).
-- Nástroje měření: Kliknutím vyberte nástroj pro lineární nebo úhlové měření.
+- Selection Filter (Auswahlfilter): Klicken Sie hier, um Optionen zum Herausfiltern von Objekttypen (Kanten, Flächen, Volumenkörper, Gruppen) aus dem Auswahlwerkzeug zu wählen.
+- Measure Tools (Messwerkzeuge): Klicken Sie hier, um ein Werkzeug für Linear- oder Winkelmessung zu wählen.
 
-**4. Nástroje pro vytváření a úpravy**
+**4. Creation and Modification Tools (Erstellungs- und Bearbeitungswerkzeuge)**
 ![](images/Tool Bar-Create.PNG)
-- Nástroje náčrtu: Kliknutím zobrazíte nabídku nástrojů pro vytváření (úsečka, oblouk, spline, obdélník, kružnice), s nimiž můžete kreslit různé tvary.
-- Základní tělesa: Kliknutím zobrazíte nabídku základních 3D tvarů (krychle, kupole, jehlan, válec, střecha), které můžete umístit do scény.
-- Pokročilé nástroje modelování: Kliknutím použijte booleovské oříznutí nebo spojení, krytí, tažení nebo šablonování.
-- Skupiny: Kliknutím vyhledejte nástroje pro seskupování objektů.
+- Sketch Tools (Skizzierwerkzeuge): Klicken Sie hier, um ein Menü mit Erstellungswerkzeugen aufzurufen (Linie, Bogen, Spline, Rechteck, Kreis), mit deren Hilfe Sie Formen zeichnen können.
+- Primitives (Grundkörper): Klicken Sie hier, um ein Menü mit 3D-Grundformen aufzurufen (Würfel, Kuppel, Pyramide, Zylinder, Dach), die Sie in Ihrer Szene platzieren können.
+- Advanced Modeling Tools (Erweiterte Modellierungswerkzeuge): Klicken Sie hier, um Boolesche Schnitt- und Vereinigungsfunktionen, Abdeckungen, Sweeps oder Erhebungen zu verwenden.
+- Groups (Gruppen): Hier finden Sie Werkzeuge für die Gruppierung von Objekten.
 
-**5. Nástroje pro umístění a analýzu**
+**5. Location and Analysis Tools (Standort- und Analysewerkzeuge)**
 ![](images/Tool Bar-Analysis.PNG)
-- Umístění: Vyhledejte umístění a importujte do náčrtu satelitní snímky.
-- Slunce a stíny: Nastavte čas a den k zobrazení stínů a spusťte analýzu slunečního záření pro budovu.
-- Energetická analýza: Kliknutím proveďte výpočty pro budovu a určete její spotřebu energie.
+- Location (Standort): Suchen Sie nach einem Standort, und importieren Sie Satellitenbilder in Ihre Skizze.
+- Sun and Shadows (Sonne und Schatten): Legen Sie die Uhrzeit und den Tag fest, um Schatten anzuzeigen, und beginnen Sie mit einer Solaranalyse für ein Gebäude.
+- Energy Analysis (Energieanalyse): Klicken Sie hier, um Berechnungen für den Energieverbrauch eines Gebäudes durchzuführen.
 
-**6. Identita uživatele**
+**6. User Identity (Benutzeridentität)**
 ![](images/Tool Bar-User Identity.PNG)
-- Nastavení: Zadejte nastavení aplikace a náčrtu spolu s vizuálním stylem a proveďte diagnostiku modelu. 
-- Režim dotykového ovládání: V zařízeních se systémem Windows s podporou dotykového ovládání můžete vytvářet modely a provádět navigaci v modelu pomocí prstu, pera, myši a klávesnice.
-- Spolupráce: Zahajte relaci, připojte se k relaci nebo pozvěte ostatní ke spolupráci.
-- Přihlášení ke službě Autodesk 360: K ukládání a sdílení náčrtů můžete zdarma využívat cloudové služby Autodesk 360.
-- Nápověda: Získejte další informace o aplikaci FormIt.
+- Settings (Einstellungen): Hier können Sie Anwendungs- und Skizzeneinstellungen, den Bildstil sowie Diagnosefunktionen für das Modell festlegen.
+- Touch Mode (Berührungsmodus): Modellieren und navigieren Sie auf berührungsempfindlichen Windows-Geräten per Finger, Stift, Maus und Tastatur.
+- Collaboration (Zusammenarbeit): Starten Sie eine Sitzung, nehmen Sie an einer Sitzung teil, oder laden Sie andere zur Zusammenarbeit ein.
+- Login to Autodesk360 (Anmeldung bei Autodesk 360): Verwenden Sie die Autodesk 360-Cloud-Services kostenlos zum Speichern und Freigeben Ihrer Skizzen.
+- Help (Hilfe): Mithilfe der Informationswerkzeuge lernen Sie FormIt noch besser kennen.
 
-#### Panel nástrojů Navigace
-Viz část [Navigace ve scéně](../formit-introduction/navigating-the-scene.md).
+#### Navigationsleiste
+Siehe [Navigieren in der Szene](../formit-introduction/navigating-the-scene.md).
 
-#### Panel palet
-Panel palet naleznete v pravé části obrazovky. Kliknutím na jednu z těchto ikon otevřete boční paletu, ve které můžete zobrazit vlastnosti budovy, materiály, knihovnu obsahu a nástroje pro spolupráci.
+#### Palettenleiste
+Die Palettenleiste wird auf der rechten Seite des Bildschirms angezeigt. Durch Klicken auf eines dieser Symbole öffnen Sie eine seitliche Palette mit Gebäudeeigenschaften, Materialien, einer Inhaltsbibliothek sowie Werkzeugen für die Zusammenarbeit.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Vlastnosti** Tuto paletu otevřete, chcete-li zobrazit umístění, hrubou plochu a poměry plochy podlaží pro náčrt.
+**1. Properties (Eigenschaften)**: Öffnen Sie diese Palette, um den Standort, die Bruttofläche sowie Bodenflächenverhältnisse für Ihre Skizze anzuzeigen.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Materiály** Pomocí této palety můžete vytvářet nebo používat materiály.
+**2. Materials (Materialien)**: Verwenden Sie diese Palette zum Erstellen oder Anwenden von Materialien.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Hladiny** Pomocí této palety můžete vytvářet a spravovat hladiny a přiřazovat vybrané objekty k různým hladinám.
+**3. Layer**: Verwenden Sie diese Palette, um Layer zu erstellen und zu verwalten und um ausgewählte Objekte verschiedenen Layern zuzuweisen.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Scény** Tato paleta slouží k vytváření, správě a přehrávání scén.
+**4. Scenes (Szenen)**: Verwenden Sie diese Palette zum Erstellen, Verwalten und Wiedergeben von Szenen.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Vizuální styly** Tato paleta slouží k úpravám zobrazení náčrtu pomocí řízení stínů, povrchů, hran a prostředí. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Visual Styles (Visuelle Stile)**: Verwenden Sie diese Palette, um die Anzeige der Skizze zu bearbeiten, indem Sie Schatten, Flächen, Kanten und die Umgebung steuern. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Strom skupin** Tato paleta slouží k zobrazení skupin a objektů v rámci jednotlivých skupin.
+**6. Group Tree (Gruppenstruktur)**: Verwenden Sie diese Palette, um Gruppen und Objekte innerhalb jeder Gruppe anzuzeigen.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** Tato paleta slouží k načtení a správě výpočetních modelů vytvořených v aplikaci Dynamo Studio.
+**7. Dynamo**: Verwenden Sie diese Palette zum Laden und Verwalten von in Dynamo Studio erstellten Berechnungsmodellen.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Podlaží** Tato paleta slouží k zobrazení a přidávání podlaží k objektům budov.
+**8. Levels (Ebenen)**: Verwenden Sie diese Palette zum Anzeigen und Hinzufügen von Ebenen zu Gebäudeobjekten.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. Knihovna obsahu** Pomocí knihovny obsahu můžete ukládat opakovaně použitelný obsah, například nábytek.
+**9. Content Library (Inhaltsbibliothek)**: In der Inhaltsbibliothek können Sie wiederverwendbare Inhalte wie etwa Möbel speichern.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Správce vrácení zpět** Tato paleta slouží k zobrazení akcí jednotlivých uživatelů při spolupráci.
+**10. Undo Manager (Rückgängig-Manager)**: Verwenden Sie diese Palette, um die Aktionen der einzelnen Benutzer bei der Zusammenarbeit anzuzeigen.
 ![](./images/Palette Bar-Undo Manager.PNG)

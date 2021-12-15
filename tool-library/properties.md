@@ -1,8 +1,8 @@
-# Vlastnosti
+# Eigenschaften
 
-**Paleta Vlastnosti** zobrazuje informace a data týkající se vybraného objektu v pracovní rovině aplikace FormIt.
+Die **Eigenschaftenpalette** zeigt Informationen und Daten an, die für ein ausgewähltes Objekt in der Formit-Arbeitsebene relevant sind.
 
-Pomocí palety Vlastnosti můžete upravit skupinu objektu, přiřadit objekt k hladině a změnit materiál objektu.
+Mit der Eigenschaftenpalette können Sie die Gruppe eines Objekts bearbeiten, einem Layer ein Objekt zuweisen und das Material eines Objekts ändern.
 
 ![](../.gitbook/assets/properties_palette.png)
 

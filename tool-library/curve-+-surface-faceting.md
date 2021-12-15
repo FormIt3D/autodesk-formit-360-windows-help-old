@@ -1,39 +1,39 @@
-# Tvorba plošek křivek a povrchů
+# Kurven- und Flächenfacettierung
 
-FormIt je polyhedralový modelovací systém, takže objekty jako kružnice, oblouky a křivky spline jsou reprezentovány řadou přímých hran. Podobně se zakřivená plocha, jako je stěna válce nebo kupole, skládá z řady rovinných ploch se skrytými hraničními hranami. 
+FormIt ist ein polyedrisches Modellierungssystem, mit dem Objekte wie Kreise, Bogen und Splines durch eine Reihe gerader Kanten dargestellt werden. Ebenso besteht eine gekrümmte Fläche, wie die Wand eines Zylinders oder einer Kuppel, aus einer Reihe von planaren Flächen mit verdeckten Randkanten.
 
-Ve výchozím nastavení aplikace FormIt používá k reprezentaci kružnice 40 hran neboli plošek a 24 plošek k reprezentaci 3D zakřiveného objektu, jako je válec. U složitějších povrchů, jako je kupole, nastaví hodnota 24 počet plošek obvodu a také ovlivňuje hustotu plošek zbytku tvaru.
+Vorgabemäßig verwendet FormIt 40 Kanten oder Facetten, um einen Kreis darzustellen, und 24 Facetten, um ein gekrümmtes 3D-Objekt wie einen Zylinder darzustellen. Bei komplexeren Flächen wie einer Kuppel wird mit dem Wert 24 die Anzahl der Umfangsfacettierungen festgelegt, und er wirkt sich auch auf die Dichte der Facettierung der restlichen Form aus.
 
-V aplikaci FormIt verze 18 a novější pro systém Windows si můžete hodnoty plošek křivek a povrchu přizpůsobit:
+In FormIt for Windows v18 und neuer können die Werte für die Kurven- und Flächenfacettierung angepasst werden:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
 ![](<../.gitbook/assets/faceting (1).png>)
 
-**Kvalita tvorby plošek křivky**
+**Curve Faceting Quality** (Kurvenfacettierungsqualität)
 
-Změna kvality tvorby plošek křivky ovlivní počet plošek použitých při kreslení nových kružnic a oblouků v aplikaci FormIt a také při umísťování základních tvarů. Například při nastavení na hodnotu 64 by se vytvořil 64stranný plný kruh nebo čtvrtkruhový oblouk se 16 ploškami.
+Eine Änderung der Kurvenfacettierungsqualität wirkt sich darauf aus, wie viele Facetten beim Zeichnen neuer Kreise und Bogen in FormIt verwendet werden und wie sich dies beim Platzieren von Grundformen auswirkt. Wenn Sie diesen Wert beispielsweise auf 64 festlegen, wird ein 64-seitiger Vollkreis oder ein Viertelkreis mit 16 Facetten erstellt.
 
-Tato hodnota ovlivní také kvalitu kružnic a oblouků importovaných ze souborů SAT a také při zapékání geometrie z aplikace Dynamo. Tuto hodnotu můžete nastavit pro nové náčrty nebo pouze pro aktuální náčrt.
+Dieser Wert wirkt sich auch auf die Qualität von Kreisen und Bogen aus, die aus SAT-Dateien importiert wurden, sowie beim Einbacken von Geometrie aus Dynamo. Sie können diesen Wert für neue Skizzen oder nur für die aktuelle Skizze festlegen.
 
-U existujících oblouků můžete také použít modul plug-in Rebuild Curve k retroaktivnímu novému vytvoření **existujícího** oblouku nebo kružnice s novým počtem plošek:
+Für vorhandene Kurven können Sie auch das Plugin Rebuild Curve verwenden, um einen **vorhandenen** Bogen oder Kreis mit einer neuen Facettenanzahl rückwirkend neu zu erstellen:
 
 ![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
 ![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Kvalita tvorby plošek povrchu**
+**Surface Faceting Quality** (Flächenfacettierungsqualität)
 
-Změna tohoto globálního nastavení ovlivní kvalitu 3D zakřivených povrchů importovaných ze souborů SAT a také při zapékání z aplikace Dynamo. 
+Eine Änderung dieser globalen Einstellung wirkt sich auf die Qualität von gekrümmten 3D-Flächen aus, die aus SAT-Dateien importiert und aus Dynamo eingebacken wurden.
 
-Pokud například nastavíte hodnotu na 64 a poté z aplikace Dynamo zapečete kouli, bude použito 64 plošek kolem rovníku koule a 64 plošek v každé z kružnic směřujících k pólům koule, což se vše rychle sečte. Vyšší hodnoty používejte opatrně, protože v některých případech mohou ovlivnit výkon aplikace FormIt. Jakmile získáte výsledek ve vysoké kvalitě, můžete jej [převést na síť](meshes.md) a zlepšit tak výkon.
+Wenn Sie diesen Wert beispielsweise auf 64 festlegen und dann eine Kugel aus Dynamo einbacken, werden 64 Flächen um den Kugeläquator sowie 64 Facetten in jedem der Ringe zu den Polen der Kugel verwendet. So entsteht schnell eine beträchtliche Summe. Verwenden Sie höhere Werte mit Vorsicht, da dies in einigen Fällen die Leistung von FormIt beeinträchtigen kann. Wenn Sie ein qualitativ hochwertiges Ergebnis erhalten haben, können Sie es [in ein Netz konvertieren](meshes.md), um die Leistung zu verbessern.
 
-Při práci s aplikací Dynamo můžete upravit kvalitu tvorby plošek a kliknout na tlačítko „Run Graph“ na panelu vlastností, aniž byste měnili jakékoli parametry, což vám umožní snadno využít nové počty plošek:
+Wenn Sie mit Dynamo arbeiten, können Sie die Facettierungsqualität ändern und in der Gruppe Eigenschaften auf Run Graph (Diagramm ausführen) klicken, ohne Parameter zu ändern, um die neue Anzahl der Facettierungen zu nutzen:
 
 ![](../.gitbook/assets/faceting\_column.gif)
 
-Stejně jako u křivek můžete nastavit kvalitu plošek povrchu pro nové náčrty nebo pouze pro aktuální náčrt.
+Wie bei Kurven können Sie die Qualität der Flächenfacettierung für neue Skizzen oder nur für die aktuelle Skizze festlegen.
 
-Hodnoty plošek jsou v současné době omezeny na násobky 4, takže při ručním zadávání čísel bude aplikace FormIt zaokrouhlovat na nejbližší násobek. Přijatelné hodnoty můžete procházet pomocí posuvníků a šipek.
+Beachten Sie, dass Facettierungswerte derzeit auf ein Vielfaches von 4 beschränkt sind. Wenn Sie Zahlen also manuell eingeben, rundet FormIt auf das nächste Vielfache auf. Sie können die Schieberegler und Pfeile verwenden, um zwischen den zulässigen Werten zu wechseln.
 
 ![](../.gitbook/assets/units-+-precision.png)

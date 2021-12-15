@@ -1,8 +1,8 @@
-# Zarovnání kamery s plochou
+# Kamera an Fläche ausrichten
 
-Kameru můžete rychle zarovnat tak, aby se dívala přímo na libovolnou plochu.
+Richten Sie die Kamera schnell so aus, dass Sie direkt auf eine beliebige Fläche gerichtet ist.
 
-Vyberte jednu plochu a poté kliknutím pravým tlačítkem zobrazte místní nabídku. V horní části nabídky vyhledejte položku Zarovnat kameru s plochou nebo použijte klávesovou zkratku AF:
+Wählen Sie eine einzelne Fläche aus, und klicken Sie dann mit der rechten Maustaste, um das Kontextmenü aufzurufen. Suchen Sie im oberen Bereich des Menüs nach der Option Kamera an Fläche ausrichten, oder verwenden Sie den Kurzbefehl AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
 

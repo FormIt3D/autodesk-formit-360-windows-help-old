@@ -1,149 +1,149 @@
-# Klávesové zkratky
+# Tastaturkurzbefehle
 
-| Příkaz | Zkratky |
+| Befehl | Kurzbefehl\(e\) |
 | :--- | :--- |
-| Nastavení aplikace: Kóty zobrazení | D, D |
-| Nastavení aplikace: Přichytit k osnově | S, G |
-| Spolupráce: Pozvat do relace | C, I |
-| Spolupráce: Připojit relaci | C, J |
-| Spolupráce: Spustit relaci | C, S |
-| Zobrazit: Okolní stíny | D, A |
-| Zobrazit: Osy | D, Z |
-| Zobrazit: Zadní plochy | D, B |
-| Zobrazit: Hrany | D, E |
-| Zobrazit: Prodloužit čáry | D, X |
-| Zobrazit: Osnova | D, G |
-| Zobrazit: Ohraničující kvádry skupin | B, B |
-| Zobrazit: Skryté čáry | D, H |
-| Zobrazit: Monotonní povrchy | D, M |
-| Zobrazit: Směrová růžice | D, N |
-| Zobrazit: Stíny | D, S |
-| Zobrazit: Siluety | D, O |
-| Zobrazit: Čáry náčrtu | D, K |
-| Zobrazit: Tenké hrany | D, T |
-| Zobrazit: Problémy s vodotěsností | D, W |
-| Kreslit: Oblouk | A |
-| Kreslit: Kružnice | C |
-| Kreslit: Úsečka | L |
-| Kreslit: Obdélník | R |
-| Kreslit: Spline | S |
-| Upravit: Kopírovat | Ctrl+C |
-| Upravit: Odstranit | Delete |
-| Upravit: Vložit | Ctrl+V |
-| Upravit: Předvolby |  |
-| Upravit: Znovu | Ctrl+Y |
-| Upravit: Znovu | Ctrl+Shift+Z |
-| Upravit: Obnovit osy | R, Z |
-| Upravit: Nastavit osy | S, Z |
-| Upravit: Zpět | Ctrl+Z |
-| Energetická analýza: Zrušit přehled |  |
-| Energetická analýza: Generovat přehled |  |
-| Energetická analýza: Zobrazit přehled |  |
-| Soubor: Exportovat obrázek |  |
-| Soubor: Exportovat model do | Ctrl+E |
-| Soubor: Importovat 3D model | Ctrl+I |
-| Soubor: Importovat obrázek | Ctrl+Shift+I |
-| Soubor: Nový | Ctrl+N |
-| Soubor: Otevřít ze služby BIM 360 Docs | Alt+O |
-| Soubor: Otevřít | Ctrl+O |
-| Soubor: Uložit jako do služby BIM 360 Docs | Alt+S |
-| Soubor: Uložit s historií | Ctrl+S, Ctrl+H |
-| Soubor: Uložit | Ctrl+S |
-| Skupina: Upravit skupinu \(místní nabídka\) | V |
-| Skupina: Upravit skupinu \(panel nástrojů\) | Alt+E |
-| Skupina: Dokončit akci skupiny | F |
-| Skupina: Seskupit \(místní nabídka\) | G |
-| Skupina: Seskupit \(panel nástrojů\) | Alt+G |
-| Skupina: Vytvořit jedinečné \(místní nabídka\) | M, U |
-| Skupina: Vytvořit jedinečné \(panel nástrojů\) | Alt+M |
-| Skupina: Zrušit seskupení \(místní nabídka\) | Z |
-| Skupina: Zrušit seskupení \(panel nástrojů\) | Alt+U |
-| Skupina: Zrušit seskupení všeho \(místní nabídka\) | U, A |
-| Skupina: Zrušit seskupení všeho \(panel nástrojů\) | Alt+A |
-| Skupina: Zrušit seskupení modelu | U, M |
-| Nápověda: O aplikaci |  |
-| Nápověda: Kontrola aktualizací aplikace FormIt |  |
-| Nápověda: Blog aplikace FormIt |  |
-| Nápověda: Galerie aplikace FormIt |  |
-| Nápověda: Videofilmy k aplikaci FormIt |  |
-| Nápověda: Získání podpory |  |
-| Nápověda: Nápověda |  |
-| Nápověda: Co je nového |  |
-| Podlaží: Zobrazit podlaží | D, L |
-| Podlaží: Použít podlaží | U, L |
-| Zabránit materiálům na zadních bočních plochách |  |
-| Základní těleso: Krychle | Alt+B |
-| Základní těleso: Válec | Alt+C |
-| Základní těleso: Kupole | Alt+D |
-| Základní těleso: Hranol | Alt+R |
-| Základní těleso: Jehlan | Alt+P |
-| Prototyp: Zobrazit stav myši/osnovy |  |
-| Filtr výběru: Hrany | E, S |
-| Filtr výběru: Plochy | F, S |
-| Filtr výběru: Skupiny | G, S |
-| Filtr výběru: Tělesa | S, S |
-| Nastavení: Velká tlačítka |  |
-| Nastavení náčrtu: Přepnout typ jednotky | U, T |
-| Analýza slunečního záření: Analyzovat | A, A |
-| Analýza slunečního záření: Zadejte/Ukončete režim analýzy slunečního záření | S, A |
-| Analýza slunečního záření: Konec |  |
-| Analýza slunečního záření: Obnovit |  |
-| Nástroje: Pole | A, R |
-| Nástroje: Pokrýt | C, V |
-| Nástroje: Oříznout geometrii \(místní nabídka\) | C, C |
-| Nástroje: Oříznout geometrii \(panel nástrojů\) | C, G |
-| Nástroje: Povolit dotykový režim | E, T |
-| Nástroje: Povolit dotykový režim | T, M |
-| Nástroje: Vysunout hrany | E, E |
-| Nástroje: Zaoblení | F, I |
-| Nástroje: Informace |  |
-| Nástroje: Spojit geometrii \(místní nabídka\) | J, C |
-| Nástroje: Spojit geometrii \(panel nástrojů\) | J, G |
-| Nástroje: Nepravidelný výběr | L, L |
-| Nástroje: Hrany šablonování | L, O |
-| Nástroje: Odměřit | M |
-| Nástroje: Odměřit úhel | M, A |
-| Nástroje: Sloučit hrany a vrcholy | M, E |
-| Nástroje: Zrcadlit | M, I |
-| Nástroje: Vícenásobné přesunutí | M, M |
-| Nástroje: Odsadit hranu | O, E |
-| Nástroje: Odsadit plochy | O, F |
-| Nástroje: Odsadit těleso | O, S |
-| Nástroje: Obrátit plochy | F, F |
-| Nástroje: Otočit | Q |
-| Nástroje: Spustit skript z editoru |  |
-| Nástroje: Měřítko | S, C |
-| Nástroje: Vybrat | Mezera |
-| Nástroje: Nastavit umístění | S, L |
-| Nástroje: Skořepina | S, H |
-| Nástroje: Vyhladit hrany | S, E |
-| Nástroje: Tažení | S, W |
-| Nástroje: Zešikmená plocha | T, F |
-| Nástroje: Nevyhlazené hrany | U, E |
-| Pohled: Modrý motiv |  |
-| Pohled: Výchozí motiv |  |
-| Pohled: Průlet kamery | F, T |
-| Pohled: Orbit kamery |  |
-| Pohled: Posunout kameru |  |
-| Pohled: Systémový motiv |  |
-| Pohled: Přepnout perspektivu |  |
-| Pohled: Horní | Z, T |
-| Pohled: Přiblížit vše | Z, A |
-| Pohled: Přiblížit vše | Z, E |
-| Pohled: Přiblížit vše | Z, Z |
-| Pohled: Přiblížit všechny obrázky | Z, I |
-| Pohled: Přiblížit kameru |  |
-| Pohled: Oddálit |  |
-| Pohled: Přiblížit na výběr | Z, S |
-| Okno: Panel nástrojů Návrh | H, D |
-| Okno: Plovoucí panel nástrojů Navigace | H, B |
-| Okno: Hlavní nabídka | H, M |
-| Okno: Panel nástrojů Navigace | H, N |
-| Okno: Panel nástrojů Operace | H, O |
-| Okno: Panel nástrojů Nastavení | H, C |
-| Okno: Panel nástrojů Náčrt | H, K |
-| Okno: Panel nástrojů Tělesa | H, P |
-| Okno: Panel nástrojů Standard | H, T |
-| Okno: Stavový řádek | H, S |
-| Okno: Panel nástrojů Pohled | H, V |
+| Anwendungseinstellungen: Bemaßungen anzeigen | D, D |
+| Anwendungseinstellungen: Rasterfang | S, G |
+| Zusammenarbeit: Zu Sitzung einladen | C, I |
+| Zusammenarbeit: An Sitzung teilnehmen | C, J |
+| Zusammenarbeit: Sitzung starten | C, S |
+| Anzeige: Umgebungsschatten | D, A |
+| Anzeige: Achsen | D, Z |
+| Anzeige: Rückseiten | D, B |
+| Anzeige: Kanten | D, E |
+| Anzeige: Linien verlängern | D, X |
+| Anzeige: Raster | D, G |
+| Anzeige: Begrenzungsrahmen für Gruppen | B, B |
+| Anzeige: Verdeckte Linien | D, H |
+| Anzeige: Monotone Oberflächen | D, M |
+| Anzeige: Nordpfeil | D, N |
+| Anzeige: Schatten | D, S |
+| Anzeige: Silhouetten | D, O |
+| Anzeige: Skizzenartige Linien | D, K |
+| Anzeige: Dünne Kanten | D, T |
+| Anzeige: Dichtheitsprobleme | D, W |
+| Zeichnen: Bogen | A |
+| Zeichnen: Kreis | C |
+| Zeichnen: Linie | L |
+| Zeichnen: Rechteck | R |
+| Zeichnen: Spline | S |
+| Bearbeiten: Kopieren | Strg + C |
+| Bearbeiten: Löschen | Entf |
+| Bearbeiten: Einfügen | Strg + V |
+| Bearbeiten: Voreinstellungen |  |
+| Bearbeiten: Wiederherstellen | Strg + Y |
+| Bearbeiten: Wiederherstellen | Strg + Umschalt + Z |
+| Bearbeiten: Achsen zurücksetzen | R, Z |
+| Bearbeiten: Achsen festlegen | S, Z |
+| Bearbeiten: Rückgängig | Strg + Z |
+| Energieanalyse: Insight abbrechen |  |
+| Energieanalyse: Insight generieren |  |
+| Energieanalyse: Insight anzeigen |  |
+| Datei: Bild exportieren |  |
+| Datei: Modell exportieren in | Strg + E |
+| Datei: 3D-Modell importieren | Strg + I |
+| Datei: Bild importieren | Strg + Umschalt + I |
+| Datei: Neu | Strg + N |
+| Datei: Aus BIM 360 Docs öffnen | Alt + O |
+| Datei: öffnen | Strg + O |
+| Datei: Speichern unter BIM 360 Docs | Alt + S |
+| Datei: Speichern mit Verlauf | Strg + S, Strg + H |
+| Datei: Speichern | Strg + S |
+| Gruppe: Gruppe bearbeiten \(Kontextmenü\) | E |
+| Gruppe: Gruppe bearbeiten \(Werkzeugkasten\) | Alt + E |
+| Gruppe: Aktion für Gruppe fertig stellen | F |
+| Gruppe: Gruppe \(Kontextmenü\) | G |
+| Gruppe: Gruppe \(Werkzeugkasten\) | Alt + G |
+| Gruppe: Als eindeutig definieren \(Kontextmenü\) | M, U |
+| Gruppe: Als eindeutig definieren \(Werkzeugkasten\) | Alt + M |
+| Gruppe: Gruppierung aufheben \(Kontextmenü\) | U |
+| Gruppe: Gruppierung aufheben \(Werkzeugkasten\) | Alt + U |
+| Gruppe: Gruppierung für alle aufheben \(Kontextmenü\) | U, A |
+| Gruppe: Gruppierung für alle aufheben \(Werkzeugkasten\) | Alt + A |
+| Gruppe: Modellgruppierung aufheben | U, M |
+| Hilfe: Info |  |
+| Hilfe: Nach FormIt-Updates suchen |  |
+| Hilfe: FormIt-Blog |  |
+| Hilfe: FormIt-Katalog |  |
+| Hilfe: FormIt-Videos |  |
+| Hilfe: Support abrufen |  |
+| Hilfe: Hilfe |  |
+| Hilfe: Neue Funktionen |  |
+| Ebenen: Ebenen anzeigen | D, L |
+| Ebenen: Ebenen verwenden | U, L |
+| Keine Materialien auf rückwärtigen Flächen |  |
+| Grundkörper: Würfel | Alt + B |
+| Grundkörper: Zylinder | Alt + C |
+| Grundkörper: Kuppel | Alt + D |
+| Grundkörper: Prisma | Alt + R |
+| Grundkörper: Pyramide | Alt + P |
+| Prototyp: Maus-/Rasterstatus anzeigen |  |
+| Auswahlfilter: Kanten | E, S |
+| Auswahlfilter: Flächen | F, S |
+| Auswahlfilter: Gruppen | G, S |
+| Auswahlfilter: Volumenkörper | S, S |
+| Einstellungen: Große Schaltflächen |  |
+| Skizzeneinstellungen: Einheitentyp wechseln | U, T |
+| Sonnenstudie: Analysieren | A, A |
+| Sonnenstudie: Sonnenstudienmodus aufrufen/beenden | S, A |
+| Sonnenstudie: Beenden |  |
+| Sonnenstudie: Zurücksetzen |  |
+| Werkzeuge: Reihe | A, R |
+| Werkzeuge: Abdeckung | C, V |
+| Werkzeuge: Geometrie ausschneiden \(Kontextmenü\) | C, C |
+| Werkzeuge: Geometrie ausschneiden \(Werkzeugkasten\) | C, G |
+| Werkzeuge: Touch aktivieren | E, T |
+| Werkzeuge: Touch aktivieren | T, M |
+| Werkzeuge: Kanten extrudieren | E, E |
+| Werkzeuge: Abrunden | F, I |
+| Werkzeuge: Informationen |  |
+| Werkzeuge: Geometrie verbinden \(Kontextmenü\) | J, C |
+| Werkzeuge: Geometrie verbinden \(Werkzeugkasten\) | J, G |
+| Werkzeuge: Lasso-Auswahl | L, L |
+| Werkzeuge: Erhebung Kanten | L, O |
+| Werkzeuge: Messen | M |
+| Werkzeuge: Winkel messen | M, A |
+| Werkzeuge: Kanten und Scheitelpunkte zusammenführen | M, E |
+| Werkzeuge: Spiegeln | M, I |
+| Werkzeuge: Mehrere verschieben | M, M |
+| Werkzeuge: Kanten versetzen | O, E |
+| Werkzeuge: Fläche versetzen | O, F |
+| Werkzeuge: Volumenkörper versetzen | O, S |
+| Werkzeuge: Fläche umkehren | F, F |
+| Werkzeuge: Drehen | Q |
+| Werkzeuge: Skript ausführen über Editor |  |
+| Werkzeuge: Maßstab | S, C |
+| Werkzeuge: Auswählen | MEP-Raum |
+| Werkzeuge: Standort festlegen | S, L |
+| Werkzeuge: Shell | S, H |
+| Werkzeuge: Glatte Kanten | S, E |
+| Werkzeuge: Sweep | S, W |
+| Werkzeuge: Fläche abschrägen | T, F |
+| Werkzeuge: Kantenglättung aufheben | U, E |
+| Ansicht: Blaues Design |  |
+| Ansicht: Vorgabedesign |  |
+| Ansicht: 3D-Navigation Ich-Perspektive | F, T |
+| Ansicht: Mit Kamera umkreisen |  |
+| Ansicht: Kamera schwenken |  |
+| Ansicht: Systemdesign |  |
+| Ansicht: Perspektive wechseln |  |
+| Ansicht: Von oben | Z, T |
+| Ansicht: Alles zoomen | Z, A |
+| Ansicht: Alles zoomen | Z, E |
+| Ansicht: Alles zoomen | Z, Z |
+| Ansicht: Zoom alle Bilder | Z, I |
+| Ansicht: Kamera-Zoom |  |
+| Ansicht: Auszoomen |  |
+| Ansicht: Auswahl zoomen | Z, S |
+| Fenster: Werkzeugkasten Entwurf | H, D |
+| Fenster: Frei stehende Navigationsleiste | H, B |
+| Fenster: Hauptmenü | H, M |
+| Fenster: Navigationsleiste | H, N |
+| Fenster: Werkzeugkasten Operationen | H, O |
+| Fenster: Werkzeugkasten Einstellungen | H, C |
+| Fenster: Werkzeugkasten Skizze | H, K |
+| Fenster: Werkzeugkasten Volumenkörper | H, P |
+| Fenster: Werkzeugkasten Standard | H, T |
+| Fenster: Statusleiste | H, S |
+| Fenster: Werkzeugkasten Ansicht | H, V |
 

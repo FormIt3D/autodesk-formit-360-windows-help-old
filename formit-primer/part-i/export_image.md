@@ -1,22 +1,22 @@
-# 1.14 – Export obrázku
+# 1.14 – Bild exportieren
 
-_V této kapitole budeme exportovat obrázek perspektivní scény řezu ve vysokém rozlišení, který jsme vytvořili v několika posledních kapitolách._
+_In diesem Kapitel exportieren wir ein hochauflösendes Bild der Schnittperspektivenszene, die wir in den letzten Kapiteln erstellt haben._
 
-_Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto okamžiku neprováděli celý výukový program a chtěli byste exportovat obrázky podobné těm, které jsou zobrazeny níže, stáhněte si a otevřete soubor_ _**1.14 – Export Image.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Sie müssen dieses Kapitel nicht zwingend durcharbeiten. Wenn Sie nicht das gesamte Lernprogramm bis zu diesem Zeitpunkt absolviert haben und Bilder wie die unten stehenden Bilder exportieren möchten, laden Sie die Datei_ _**1.14 – Export Image.axm**_ _aus_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-1 – Při exportu obrázku bude vše, co je zobrazeno na kreslicí ploše, exportováno téměř přesně tak, jak je vidět v aplikaci FormIt. V tomto příkladu chceme exportovat obrázek scény **řezu**.
+1 – Beim Exportieren eines Bilds werden alle im Ansichtsbereich angezeigten Elemente fast genauso exportiert wie sie in FormIt angezeigt werden. Wir möchten ein Bild der **Schnittszene** exportieren.
 
-1. Nejprve je tedy nutné tuto scénu dvojitým kliknutím otevřít z **palety Scény**.
-2. Na panelu **Hlavní nabídka** přejděte na **Soubor &gt; Exportovat &gt; Místně \(Ctrl+E\)**. Zobrazí se okno **Exportovat soubor**.
-3. V zobrazeném okně v části **Možnosti typu souboru** přejděte dolů a vyberte možnost **Jako obrázek** \(je to poslední položka\). V poli s možnostmi exportu vyberte v rozevíracím seznamu **Předvolba** místo položky **Výřez** položku **4K UHD**. Tím se automaticky definuje rozlišení výstupního obrázku v části **Rozměry \(px\)** na **3840** x **2160** pixelů.
-4. Klikněte na tlačítko **Exportovat**. Zobrazí se okno **Určit soubor k uložení**.
-5. V zobrazeném okně přejděte do požadovaného umístění a vyberte název, pod kterým chcete obrázek uložit. Poté klikněte na tlačítko **Uložit**.
+1. Zunächst müssen wir die Szene aus der **Szenenpalette** öffnen, indem wir darauf doppelklicken.
+2. Wechseln Sie in der **Hauptmenüleiste** zu **Datei &gt; Exportieren &gt; Lokal \(STRG+E\)**. Das Fenster **Datei exportieren** wird angezeigt.
+3. Führen Sie im neuen Fenster unter **Dateitypoptionen** einen Bildlauf nach unten durch, und wählen Sie **Als Bild** \(letzte Option\) aus. Im Feld Exportoptionen wird nach **Voreinstellung** die Dropdown-Option in **4K UHD** statt **Ansichtsfenster** geändert. Dadurch wird automatisch die Ausgabebildauflösung, **Bemaßung \(px\)**, auf **3840** x **2160** Pixel festgelegt.
+4. Klicken Sie auf **Exportieren**. Das Fenster **Datei angeben, in der gespeichert werden soll...** wird angezeigt.
+5. Navigieren Sie im neuen Fenster zur Auswahl von Speicherort und Name des Bilds, und klicken Sie dann auf **Speichern**.
 
 ![](../../.gitbook/assets/0%20%285%29.png)
 
-2 – Pokud chcete porovnat své výsledky s dodaným obrázkem k exportu, přejděte do složky **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; Obrázky**.
+2 – Wenn Sie Ihre Ergebnisse mit dem bereitgestellten Exportbild vergleichen möchten, wechseln Sie zu **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
 
-![Dodaný vzorový obrázek k exportu z datové sady Farnsworth House](../../.gitbook/assets/1%20%2816%29.png)
+![Beispielexportbild aus dem Farnsworth House-Datensatz](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
 

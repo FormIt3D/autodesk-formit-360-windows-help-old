@@ -1,69 +1,69 @@
-# 1.3 – 3D náčrt a přetažení plochy
+# 1.3 – 3D-Skizze und Ziehen von Flächen
 
-_Jsme připraveni začít kreslit dům Farnsworth House. 3D modelování v aplikaci FormIt se v podstatě skládá z kreslení čar, které vytvářejí plochy, a následného přetahování těchto ploch, čímž se vytváří objemy._
+_Jetzt können Sie mit dem Zeichnen des Farnsworth-Hauses beginnen. Die 3D-Modellierung in FormIt besteht im Wesentlichen aus dem Zeichnen von Linien, um Flächen zu erstellen, und dem anschließenden Ziehen dieser Flächen, um Volumen zu generieren._
 
-‌_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.3 – 3D Sketch and Drag Face.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+‌ _Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.3 – 3D Sketch and Drag Face.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Kreslení ploch pomocí čar**
+## **Zeichnen von Flächen mit Linien**
 
-1 – Proces modelování si můžete usnadnit přepínáním mezi různými režimy pohledů pomocí **plovoucího panelu nástrojů Navigace**. V tomto cvičení doporučujeme použít režimy **Perspektivní \(VP\)** a **3D pohled \(V3\).**
+1 – Um den Modellierungsprozess zu erleichtern, können Sie mit der **verschiebbaren Navigationsleiste** zwischen verschiedenen Ansichtsmodi wechseln. Für diese Übung wird die Verwendung der **Perspektivansicht \(VP\)** und **3D-Ansicht \(V3\)**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Nově vytvořená geometrie se automaticky připojí nebo „přilepí“ k jakékoli existující neseskupené geometrii, které se dotýká. Abyste se tomu chování vyhnuli, budete obvykle chtít uspořádat geometrii pomocí skupin. Chcete-li vytvořit skupinu z půdorysu, vyberte obdélník dvojitým kliknutím, poté kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte možnost **Skupina \(G\).**
+2 – Neu erstellte Geometrie wird automatisch mit vorhandener, nicht gruppierter Geometrie, die von dieser berührt wird, verbunden bzw. daran fixiert. Um dies zu vermeiden, sollten Sie Ihre Geometrie normalerweise in Gruppen organisieren. Um eine Gruppe aus dem Grundriss zu erstellen, wählen Sie das Rechteck durch Doppelklicken aus, klicken dann mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen **Gruppe \(G\)**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – Při trasování půdorysu nechceme, aby se čáry přichytávaly k osnově, proto v **hlavní nabídce** klikněte na **Nastavení** a zrušte zaškrtnutí políčka **Přichytit k osnově \(SG\).**
+3 – Beim Nachzeichnen des Plans sollen die Linien nicht am Raster gefangen werden. Klicken Sie deshalb im **Hauptmenü** auf **Einstellungen**, und deaktivieren Sie **Rasterfang \(SG\)**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – Chcete-li začít kreslit, klikněte na ikonu **Vytvořit náčrt** \(Tužka\) na **panelu nástrojů Standard** a vyberte **nástroj Čára \(L\)**.
+4 – Um mit dem Zeichnen zu beginnen, klicken Sie auf das Symbol **Skizze erstellen** \(Bleistift\) im **Standard-Werkzeugkasten** und wählen das **Werkzeug Linie \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 – Začneme vytvořením obdélníku na importovaném obrázku. Vytvořte první čáru:
+5 – Erstellen Sie zunächst ein Rechteck auf dem importierten Bild. So erstellen Sie die erste Linie
 
-1. V **nástroji Čára** klikněte poblíž **levého horního rohu** horní terasy v importovaném náčrtu.
-2. Pohybujte myší podél zobrazené červené osy.
-3. Klikněte na klávesu **Tab** a zadejte kótu **77'-4 1\8"**
+1. Klicken Sie im **Werkzeug Linie** in die Nähe der **oberen linken Ecke** der oberen Terrasse in der importierten Skizze.
+2. Bewegen Sie den Cursor entlang der roten Achse, die angezeigt wird.
+3. Drücken Sie die **TABULATORTASTE**, um die Bemaßung **77'-4 1\8" einzugeben.**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Poznámka:** Kdykoli se při vytváření náčrtu zobrazí dočasná kóta, můžete buď stisknutím klávesy_ _**Tab**, nebo tím, že jednoduše začnete psát číslo_ _, otevřít_ _**dialog Kóta**._
+_**Anmerkung:** Wenn beim Skizzieren eine temporäre Bemaßung angezeigt wird, können Sie entweder die_ _**TABULATORTASTE** drücken oder einfach eine Zahl eingeben_, _um das_ _**Dialogfeld Bemaßung** zu öffnen._
 
-6 – Vytvořte druhou čáru: posuňte ukazatel myši dolů podél zelené osy a zadejte hodnotu **28’-8"**, která odpovídá krátké hraně horní terasy.
+6 – Um die zweite Linie zu erstellen, bewegen Sie die Maus entlang der grünen Achse nach unten, und geben Sie **28'-8"** für die kurze Kante der oberen Terrasse ein.
 
-7 – Zadáním třetí hrany obdélníku dokončete kreslení plochy:
+7 – So definieren Sie die dritte Kante des Rechtecks und beenden den Vorgang
 
-1. Přesuňte ukazatel myši podél červené osy a podržte klávesu **Shift**. Červená čára osy zesílí, což znamená, že čára je uzamčena k této ose.
-2. Se stisknutou klávesou **Shift** přesuňte ukazatel myši k prvnímu bodu, který jste nakreslili. Kliknutím potvrďte koncový bod.
-3. Třetí bod se automaticky nastaví rovnoběžně s červenou osou definovanou pomocí \(A\) a zelenou osou definovanou pomocí \(B\).
-4. Uzavřete obdélník: uvolněte klávesu **Shift** a klikněte zpět na první bod, který jste nakreslili. Ukončete nástroj Náčrt tak, že dvakrát stisknete klávesu **Esc**.
+1. Bewegen Sie den Cursor entlang der roten Achse, und halten Sie die **UMSCHALTTASTE** gedrückt. Die rote Achsenlinie wird verdickt, um anzuzeigen, dass die Linie auf dieser Achse gesperrt ist.
+2. Halten Sie die **UMSCHALTTASTE** gedrückt, und bewegen Sie die Maus zum ersten gezeichneten Punkt. Klicken Sie, um den Endpunkt zu bestätigen.
+3. Der dritte Punkt wird automatisch festgelegt, parallel zur roten Achse, die durch \(A\) definiert ist, und zur grünen Achse, die durch \(B\) definiert ist.
+4. Um das Umschließen des Rechtecks abzuschließen, lassen Sie die **UMSCHALTTASTE** los, und klicken Sie wieder auf den ersten gezeichneten Punkt. Drücken Sie zweimal **ESC**, um das Skizzierwerkzeug zu beenden.
 
-_**Poznámka:**_ _Červené a zelené osy vás udržují rovnoběžné a kolmé k osnově. Při kreslení čáry mimo globální osy vám fialová čára osy umožní zůstat v úhlu 90 stupňů vzhledem k čáře mimo osu._
+_**Anmerkung:**_ _Mit der roten und grünen Achse bleibt die Ausrichtung stets parallel und lotrecht zum Raster. Wenn Sie eine Linie außerhalb der Weltachsen zeichnen, können Sie mithilfe einer violetten Achsenlinie 90 Grad relativ zu Ihrer achsenverschobenen Linie bleiben._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Vytvoření objemu přetažením plochy**
+## **Ziehen der Fläche zum Erstellen von Volumen**
 
-1 – Kliknutím uvnitř obrysu, který jste právě nakreslili, vyberte plochu. Nyní se automaticky nacházíte v nástroji **Přetáhnout plochu**.
+1 – Klicken Sie einmal in die Kontur, die Sie gerade gezeichnet haben, um die Fläche auszuwählen. Sie befinden sich nun automatisch im Werkzeug **Flächen ziehen**.
 
-2 – Dalším kliknutím zahajte tažení. Přesunutím ukazatele myši nahoru \(podél kladné osy Z\) vysuňte objem v tomto směru. Začněte psát **12'-2"**. Zobrazí se pole kóty s touto hodnotou, poté stiskněte klávesu **Enter**.
+2 – Klicken Sie erneut, um mit dem Ziehen zu beginnen. Bewegen Sie die Maus nach oben \(entlang der positiven Z-Achse\), um ein Volumen in diese Richtung zu extrudieren. Geben Sie **12'-2"** ein. Daraufhin wird ein Bemaßungsfeld mit diesem Wert angezeigt. Drücken Sie dann die **EINGABETASTE**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Poznámka:**_ _Jedním_ _kliknutím_ _vyberete pouze jednu plochu, zatímco_ _dvojitým kliknutím_ _vyberete všechny \(neseskupené\) sousední hrany a plochy._
+_**Anmerkung:**_ _Durch_ _einen einfachen Klick_ _wird nur eine einzelne Fläche ausgewählt, während durch einen_ _Doppelklick_ _alle \(nicht gruppierten\) angrenzenden Kanten und Flächen ausgewählt werden._
 
-## **Tvorba 3D náčrtů pomocí oblouku, křivky spline a kružnice**
+## **Skizzieren in 3D mit Bogen, Spline und Kreis**
 
-_Následující cvičení není pro dokončení domu důležité. Umožní vám však experimentovat s některými dalšími dostupnými nástroji pro 3D náčrty. Kliknutím_ _**sem**_ _získáte další informace o tvorbě 3D náčrtů pomocí globálních os._
+_Die folgende Übung ist nicht unbedingt erforderlich, um das Haus fertigzustellen. Sie haben hier jedoch die Möglichkeit, mit einigen der übrigen verfügbaren Werkzeuge zum Skizzieren in 3D zu experimentieren. Klicken Sie_ _**hier**_, _um mehr zum Skizzieren in 3D mit Weltachsen zu erfahren._
 
-1 – Vyberte nástroj **Oblouk pomocí tří bodů oblouku \(A\)**. Kliknutím definujte počáteční a koncový bod. Třetí kliknutí definuje poloměr oblouku.
+1 – Wählen Sie das Werkzeug **Bogen durch drei Bogenpunkte \(A\)** aus. Klicken Sie, um den Start- und dann den Endpunkt zu definieren. Mit dem dritten Klick definieren Sie den Radius des Bogens.
 
-2 – Vyberte nástroj **Spline \(S\)**. Kliknutím definujte libovolný počet bodů, které chcete použit k nakreslení křivky spline.
+2 – Wählen Sie das Werkzeug **Spline \(S\)**. Definieren Sie durch Klicken auf die gewünschten Stellen beliebig viele Punkte, um einen Spline zu zeichnen.
 
-3 – Vyberte nástroj **Kružnice \(C\)**. Přesuňte kurzor na požadované místo a kliknutím definujte středový bod kružnice. Kliknutím a přetažením nebo zadáním kóty zadejte poloměr.
+3 – Wählen Sie das Werkzeug **Kreis \(C\)** aus. Setzen Sie den Cursor auf die gewünschte Stelle, und klicken Sie, um den Mittelpunkt des Kreises zu definieren. Klicken und ziehen Sie, oder geben Sie eine Bemaßung ein, um den Radius zu definieren.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

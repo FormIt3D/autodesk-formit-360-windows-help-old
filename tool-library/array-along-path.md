@@ -1,103 +1,103 @@
-# Skript Array Along Path
+# Array Along Path (Reihe entlang Pfad)
 
-## Používá technologii aplikace Dynamo
+## Powered by Dynamo
 
-V aplikaci FormIt 2021 a novějších verzích můžete uspořádat objekty podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Array Along Path používá technologii aplikace Dynamo, což znamená, že pole lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
+In FormIt 2021 und höher können Sie Objekte entlang eines Pfads anordnen und die Ergebnisse sofort und direkt anpassen. Array Along Path (Reihe entlang Pfad) wird von Dynamo unterstützt, d. h., die Reihe kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## Spuštění skriptu Array Along Path
+## Starten von Array Along Path (Reihe entlang Pfad)
 
-* V aplikaci FormIt pro systém Windows přejděte na panel aplikace Dynamo a ujistěte se, že se nacházíte v adresáři Dynamo Samples.
-* Klikněte na ukázku Array Along Path.
-* Na levé straně obrazovky se zobrazí výzva k výběru objektů pro pole.
-   * Pro tento krok můžete vybrat libovolnou kombinaci objektů aplikace FormIt.
-   * Jakmile něco vyberete, můžete stisknout šipku „Další“ na levé straně obrazovky nebo stisknout klávesu Enter.
-* Nyní se zobrazí výzva k výběru trajektorie pro pole.
-   * Zde byste měli vybrat pouze řadu přilehlých hran nebo skupinu obsahující řadu přilehlých hran.
-   * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter.
-* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt pole vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
+* Wechseln Sie zur Gruppe Dynamo in FormIt for Windows, und stellen Sie sicher, dass Sie sich im Verzeichnis Dynamo Samples (Dynamo-Beispiele) befinden.
+* Klicken Sie auf das Beispiel für Array Along Path (Reihe entlang Pfad).
+* Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen der anzuordnenden Objekte angezeigt.
+   * Sie können für diesen Schritt eine beliebige Kombination von FormIt-Objekten auswählen.
+   * Wenn Sie eine Auswahl getroffen haben, können Sie auf den Weiter-Pfeil links auf dem Bildschirm klicken oder einfach die EINGABETASTE drücken.
+* Nun wird eine Eingabeaufforderung zum Auswählen des Pfads für die Reihe angezeigt.
+   * Hier sollten Sie nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die eine Reihe von fortlaufenden Kanten enthält, auswählen.
+   * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
+* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird eine in Dynamo generierte Reihe in einer FormIt-Gruppe angezeigt, die Sie bearbeiten können \(siehe unten\).
 
-## Iterace na místě
+## Erstellen von Iterationen an Ort und Stelle
 
-Po spuštění skriptu Array Along Path uvidíte, že jeho výsledky jsou nastaveny na výchozí hodnoty, takže je vhodné je upravit tak, aby vyhovovaly vašim potřebám.
+Nach dem Ausführen von Array Along Path (Reihe entlang Pfad) werden die Ergebnisse auf Vorgabewerte eingestellt. Sie sollten sie daher an Ihre Anforderungen anpassen.
 
-Při spuštění skriptu Array Along Path se vytvoří nová skupina obsahující výsledky a aplikace FormIt automaticky vybere skupinu a zobrazí dostupné možnosti pro danou instanci skriptu Array Along Path.
+Wenn Array Along Path (Reihe entlang Pfad) ausgeführt wird, wird eine neue Gruppe mit den Ergebnissen erstellt. FormIt wählt dann automatisch die Gruppe aus und zeigt die verfügbaren Optionen für dieses Exemplar von Array Along Path (Reihe entlang Pfad) an.
 
-K vlastnostem skriptu Array Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
+Sie können jederzeit zu den Eigenschaften für Array Along Path (Reihe entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Eigenschaften angezeigt werden.
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object\(s\) to Array (Objekte für Reihe auswählen) <a id="run"></a>
 
-Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a můžete změnit, které objekty budou přidány do pole.
+Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und die anzuordnenden Objekte zu ändern.
 
-### Select Array Path
+### Select Array Path (Pfad für Reihe auswählen)
 
-Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a změníte trajektorii, která se použije k výpočtu pole.
+Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und den Pfad zu ändern, der zum Berechnen der Reihe verwendet wird.
 
-### Array Type <a id="run"></a>
+### Array Type (Reihentyp) <a id="run"></a>
 
-Přepíná typ pole, které se má vypočítat: podle vzdálenosti nebo podle počtu.
+Hiermit wird der zu berechnende Reihentyp umgeschaltet: By Distance (Nach Abstand) oder By Number (Nach Nummer).
 
-**Pokud je hodnota True**, bude použit výpočet „By Distance“, takže níže uvedené číslo se vztahuje ke vzdálenosti mezi kopiemi.
+**Wenn True eingestellt ist**, wird die Berechnung By Distance (Nach Abstand) durchgeführt, sodass sich die Zahl unten auf den Abstand zwischen Kopien bezieht.
 
-**Pokud je hodnota False**, bude použit výpočet „By Number of Copies“, takže číslo pod tímto polem označuje počet kopií, které se mají vejít podél trajektorie.
+**Wenn False eingestellt ist**, wird die Berechnung By Number of Copies (Nach Anzahl der Kopien) durchgeführt, sodass sich die Zahl unter diesem Feld auf die Anzahl der Kopien bezieht, die entlang des Pfads eingepasst werden sollen.
 
-### Include Original Selection In Results
+### Include Original Selection In Results (Ursprüngliche Auswahl in Ergebnisse einschließen)
 
-Hodnota **True**:
+Wenn **True**:
 
-* Vybrané objekty budou započítány jako jedna z nových kopií.
-* Výsledná skupina aplikace Dynamo zahrne do svých výsledků původní výběr, takže nové kopie mohou s původním výběrem trpět chybou z-fight. Původní výběr můžete umístit do [hladiny](layers.md) a jejím vypnutím jej skrýt.
+* Die ausgewählten Objekte werden als eine der neuen Kopien gezählt.
+* Die resultierende Dynamo-Gruppe nimmt die ursprüngliche Auswahl in die Ergebnisse auf, sodass für die neuen Kopien ein Z-Fighting-Effekt mit der ursprünglichen Auswahl auftritt. Sie können die ursprüngliche Auswahl auf einem [Layer](layers.md) platzieren und diesen deaktivieren, um ihn auszublenden.
 
-Hodnota **False**:
+Wenn **False**:
 
-* Výsledné pole **nebude** obsahovat původní výběr, takže **kromě** původního výběru získáte také počet kopií, které jste zadali, a výsledky nebudou trpět chybou z-fight.
+* Die resultierende Reihe enthält die ursprüngliche Auswahl **nicht**, sodass Sie **zusätzlich** zur ursprünglichen Auswahl die angegebene Anzahl der Kopien erhalten. Bei den Ergebnissen findet kein Z-Fighting statt.
 
-### Rotate Copies Along Path
+### Rotate Copies Along Path (Kopien entlang Pfad drehen)
 
-Pokud je vybrána hodnota **True**, kopie se otočí, aby byla zachována orientace původního objektu vzhledem k trajektorii.
+Wenn **True** eingestellt ist, werden die Kopien gedreht, um die Ausrichtung des ursprünglichen Objekts relativ zum Pfad beizubehalten.
 
-Pokud je vybrána hodnota **False**, kopie nejsou otočeny, pouze přesunuty.
+Wenn **False** eingestellt ist, werden die Kopien nicht gedreht, sondern nur verschoben.
 
-### Use Relative Positioning Along Path
+### Use Relative Positioning Along Path (Relative Positionierung entlang Pfad verwenden)
 
-Hodnota **True**:
+Wenn **True**:
 
-* Každá kopie zachová vzdálenost mezi trajektorií a původním objektem.
-* Pokud původní objekt **není** umístěn v jednom z koncových bodů trajektorie, použije se pro výpočet pole největší zbývající segment trajektorie.
+* Bei jeder Kopie wird der Abstand zwischen dem Pfad und dem ursprünglichen Objekt beibehalten.
+* Wenn das ursprüngliche Objekt **nicht** an einem der Endpunkte des Pfads positioniert ist, wird das größte verbleibende Segment des Pfads für die Reihenberechnung verwendet.
 
-Hodnota **False**:
+Wenn **False**:
 
-* K výpočtu pole se použije celá délka trajektorie bez ohledu na to, kde se původní objekt vzhledem k trajektorii nachází.
-* Tím se oddělí umístění trajektorie vzhledem k objektu a jednoduše se použije celá trajektorie. Tato možnost je užitečná, pokud se trajektorie a objekt nenacházejí blízko sebe.
+* Die gesamte Länge des Pfads wird zur Berechnung der Reihe verwendet, unabhängig davon, wo sich das ursprüngliche Objekt relativ zum Pfad befindet.
+* Dadurch wird die Position des Pfads relativ zum Objekt entkoppelt, und es wird einfach der gesamte Pfad verwendet. Dies ist nützlich, wenn der Pfad und das Objekt nicht nahe beieinander liegen.
 
-### Reverse Path Direction
+### Reverse Path Direction (Pfadrichtung umkehren)
 
-Pouze pro uzavřené trajektorie. Při použití skriptu Array Along Path s uzavřenou trajektorií může směr křivky neočekávaně převrátit očekávané výsledky pole. Pokud jsou výsledky převráceny, přepnutím této možnosti na hodnotu **True** obrátíte směr pole.
+Nur für geschlossene Pfade. Wenn Sie Array Along Path (Reihe entlang Pfad) mit einem geschlossenen Pfad verwenden, werden die erwarteten Ergebnisse der Reihe möglicherweise durch die Richtung der Kurve unerwartet umgekehrt. Setzen Sie diesen Wert auf **True**, um auch die Reihenrichtung umzukehren, wenn die Ergebnisse umgekehrt werden.
 
-### Run <a id="run"></a>
+### Run (Ausführen) <a id="run"></a>
 
-Po úpravě možností kliknutím na tlačítko Run spusťte základní graf aplikace Dynamo a vygenerujte nové výsledky. Toto tlačítko se po změně parametrů zbarví modře, abyste věděli, že je třeba na tlačítko kliknout, aby se aktualizace zobrazily ve výsledné geometrii.‌
+Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
 
-### Edit Embedded Graph <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) <a id="edit-embedded-graph"></a>
 
-Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
+Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
 
 
 
-## Výběr geometrie
+## Auswählen von Geometrie
 
-Při výběru objektů pro skript Array Along Path a další grafy aplikace Dynamo založené na výběru platí následující skutečnosti:
+Bei der Auswahl von Objekten für Array Along Path (Reihe entlang Pfad) und andere auswahlbasierte Dynamo-Diagramme gilt Folgendes:
 
-* Můžete vybrat libovolnou kombinaci objektů aplikace FormIt – vrcholy, hrany, plochy, tělesa, skupiny a sítě.
-   * V závislosti na prováděném kroku by některé z těchto objektů neměly být vybrány.
-   * Například při výběru trajektorie byste měli vybrat řadu přilehlých hran nebo skupinu obsahující řadu přilehlých hran. Cokoli jiného způsobí selhání grafu.
-* Dvojitým kliknutím na objekt vyberete vše, co je k němu připojeno.
-* Pomocí okna pro výběr oblasti můžete uchopit řadu objektů.
-* Můžete vybrat objekty, které již byly vybrány, a zrušit jejich výběr.
-* Abyste mohli pokračovat v kroku založeném na výběru, je nutné vybrat alespoň jeden objekt.
+* Sie können eine beliebige Kombination von FormIt-Objekten auswählen: Scheitelpunkte, Kanten, Flächen, Volumenkörper, Gruppen oder Netze.
+   * Beachten Sie, dass je nach Schritt einige dieser Objekte nicht ausgewählt werden sollten.
+   * Wenn Sie beispielsweise den Pfad auswählen, sollten Sie nur eine fortlaufende Reihe von Kanten oder eine Gruppe mit einer fortlaufenden Reihe von Kanten auswählen. Andernfalls schlägt das Diagramm fehl.
+* Sie können auf ein Objekt doppelklicken, um alle zugeordneten Objekte auszuwählen.
+* Sie können das Fenster für die Bereichsauswahl verwenden, um eine Reihe von Objekten zu erfassen.
+* Sie können bereits ausgewählte Objekte auswählen, um deren Auswahl aufzuheben.
+* Mindestens ein Objekt ist erforderlich, um mit einem auswahlbasierten Schritt fortzufahren.
 
 
 

@@ -1,26 +1,26 @@
-# Ortografické pohledy
+# Orthogonale Ansichten
 
-**Model můžete zobrazit v různých ortografických pohledech, včetně horního, bočního a dolního pohledu.**
+**Zeigen Sie Ihr Modell in verschiedenen orthogonalen Ansichten an, einschließlich Draufsicht, Seitenansicht und Ansicht von unten.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**K ortografickým pohledům získáte přístup kliknutím na horní ikonu na plovoucím panelu nástrojů navigace:**
+**Orthogonale Ansichten werden angezeigt, wenn Sie auf das obere Symbol in der verschiebbaren Navigationsleiste klicken:**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Užitečné tipy pro práci s ortografickými pohledy:**
+**Einige nützliche Hinweise zum Arbeiten mit orthogonalen Ansichten:**
 
-* Při přepínání mezi ortografickými pohledy aplikace FormIt zachová kvůli konzistenci úroveň přiblížení.
-* Při přepínání bokorysných pohledů (přední/pravý/levý/zadní) aplikace FormIt zachová kvůli konzistenci výšku terénu.
-* Při posouvání v ortografickém pohledu můžete podržením klávesy Shift uzamknout pohyb k horizontální nebo vertikální ose.
-* Ortografické směry pohledu jsou založeny na globálních osách. Zarovnání os můžete změnit, čímž se změní orientace všech ortografických pohledů:
-   * Použijte zkratku SZ nebo klikněte pravým tlačítkem myši do volného místa (vyhněte se jakékoli geometrii):
+* Beim Wechseln zwischen orthogonalen Ansichten behält FormIt den Zoomfaktor aus Konsistenzgründen bei.
+* Beim Wechseln der Ansichten (vorne/rechts/links/hinten) behält FormIt die Bodenhöhe aus Konsistenzgründen bei.
+* Sie können die UMSCHALTTASTE beim Schwenken in einer orthogonalen Ansicht gedrückt halten, um die Schwenkbewegung auf die horizontale oder vertikale Achse zu beschränken.
+* Orthogonale Ansichtsrichtungen basieren auf den Weltachsen. Sie können die Achsen neu ausrichten, wodurch sich die Ausrichtungen aller orthogonalen Ansichten ändern:
+   * Verwenden Sie den Kurzbefehl SZ, oder klicken Sie mit der rechten Maustaste in den Raum (nicht über Geometrie):
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * Nastavte počátek a poté nastavte uzel na červené ose tak, aby byla zarovnána do smysluplného směru.
+   * Legen Sie den Ursprung und den Griff an den roten Achsen fest, um ihn in einer sinnvollen Richtung auszurichten.
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**Ortografické pohledy fungují ve spojení s dalšími funkcemi aplikace FormIt:**
+**Orthogonale Ansichten können mit anderen FormIt-Funktionen verwendet werden:**
 
-* Bokorysné pohledy uložte jako scény, abyste se k nim později mohli vrátit.
-* Pomocí hladin můžete řídit viditelnost geometrie, která by mohla překážet v bokorysných pohledech.
-* Přidáním rovin řezu vytvořte pohledy řezu.
+* Speichern Sie Ansichten als Szenen, damit Sie später zu ihnen zurückkehren können.
+* Steuern Sie mit Layern die Sichtbarkeit von Geometrie, die Ansichten möglicherweise im Weg steht.
+* Fügen Sie Schnittebenen hinzu, um Schnittansichten zu erstellen.

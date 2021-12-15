@@ -1,24 +1,24 @@
-# Obdélník
+# Rechteck
 
-Pomocí nástroje **Obdélník**, který je dostupný v nabídce panelu nástrojů **Vytvořit náčrt**, můžete rychle nakreslit obdélníkovou plochu. Vysunutím plochy pak vytvoříte pravoúhlý objem.
+Sie können das Werkzeug **Rechteck** im Werkzeugkastenmenü **Skizze erstellen** verwenden, um schnell eine rechteckige Fläche zu zeichnen. Extrudieren Sie die Fläche, um ein rechteckiges Volumen zu erstellen.
 
-Klávesová zkratka: R
+Tastaturkurzbefehl: R
 
-Pomocí os se ujistěte, že kreslíte ve správném směru:
+Verwenden Sie die Achsen, um sicherzustellen, dass Sie in die richtige Richtung zeichnen:
 
-Obdélníky můžete kreslit na ose X, Y nebo Z. Při kreslení můžete určit kótu zadáním hodnoty, čímž se zobrazí dialog Upravit kótu. Stisknutím klávesy Enter nebo kliknutím na tlačítko OK potvrďte kótu.
+Sie können Rechtecke auf der X-, Y- oder Z-Achse zeichnen. Beim Zeichnen können Sie eine Bemaßung angeben, indem Sie einfach einen Wert eingeben. Daraufhin wird das Dialogfeld Bemaßung bearbeiten geöffnet. Drücken Sie die EINGABETASTE, oder klicken Sie auf OK, um die Bemaßung zu übernehmen.
 
-Chcete-li nakreslit obdélník, kliknutím nastavte první bod v náčrtu.
+Zum Zeichnen eines Rechtecks klicken Sie, um den ersten Punkt in der Skizze festzulegen.
 
-Barvy čar podle osy:
+Linienfarben nach Achse:
 
-* X = červená
-* Y = zelená
-* Z = modrá
+* X = Rot
+* Y = Grün
+* Z = Blau
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Po dokončení kreslení obdélníku se z něj stane plocha, kterou lze vysunout a vytvořit tak objem.
+Wenn Sie das Rechteck fertig gezeichnet haben, wird es zu einer Fläche, die extrudiert werden kann, um ein Volumen zu erstellen.
 

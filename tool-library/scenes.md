@@ -1,6 +1,6 @@
-# Scény
+# Szenen
 
-Můžete uložit bod pohledu scény, související vizuální styly a stavy hladin, a pak je použít k nastavení bodů kamery, kterými můžete řídit procházení modelem a vizuální prezentace.
+Sie können einen Ansichtspunkt einer Szene und die zugehörigen visuellen Stile und Layerstatus speichern und anschließend verwenden, um Kamerapunkte einzurichten, um so Walkthroughs zu steuern und ein visuelles Erlebnis zu generieren.
 
-Další informace o používání scén naleznete [zde](../formit-primer/part-i/visual-settings.md).
+Weitere Informationen zur Verwendung von Szenen finden Sie [hier](../formit-primer/part-i/visual-settings.md).
 

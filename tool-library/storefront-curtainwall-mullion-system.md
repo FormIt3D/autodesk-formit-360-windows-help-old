@@ -1,80 +1,80 @@
-# Systém příčlí výloh/obvodových plášťů
+# Storefront/Curtainwall Mullion System (Ladenfront-/Fassadenpfosten-System)
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Používá technologii aplikace Dynamo
+## Powered by Dynamo
 
-Možnost rychle vytvořit systémy příčlí výloh/obvodových plášťů v aplikaci FormIt je založena na technologii aplikace Dynamo. Skript Storefront Curtainwall najdete v adresáři Dynamo Samples na panelu Dynamo:
+Die Möglichkeit, in FormIt schnell Ladenfront-/Fassadenpfosten-Systeme erstellen zu können, wird von Dynamo unterstützt. Sie finden das Ladenfront-/Fassadensystem im Dynamo-Beispielverzeichnis (Dynamo Samples) in der Gruppe Dynamo:
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Výběr „skla“ pro systém příčlí
+## Auswählen von Glas für das Pfostensystem
 
-Počínaje verzí FormIt 2021.2 používá skript Storefront Curtainwall nový uzel [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), který umožňuje vybrat část „skla“ \(jednu plochu nebo vysunuté těleso\), kolem kterého se vytvoří systém příčlí.
+Ab FormIt 2021.2 verwendet das Ladenfront-/Fassadensystem den neuen [SelectFromFormIt-Block](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), mit dem Sie einen Glaskörper \(eine einzelne Fläche oder einen extrudierten Volumenkörper\) auswählen können, um den ein Pfostensystem erstellt werden soll.
 
-![Jednoduchá rovina „skla“ s otvorem pro dveře v dolní části.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Einfache Ebene aus Glas mit einer Öffnung für Türen unten](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-Když kliknete na miniaturu Storefront Curtainwall \(všimněte si ikony označující, že je vyžadován výběr\), aplikace FormIt zobrazí výzvu k výběru geometrie skla, abyste mohli pokračovat:
+Wenn Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade) klicken \(beachten Sie das Symbol, das angibt, dass eine Auswahl erforderlich ist\), fordert FormIt Sie auf, die Glasgeometrie auszuwählen, um fortzufahren:
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-Několik poznámek a upozornění týkají se výběru skla:
+Einige Hinweise und Warnungen zur Funktionsweise der Glasauswahl:
 
-* Aktuálně jsou podporovány pouze rovinné plochy. Pokud vyberete řadu ploch \(například „zakřivenou“ plochu složenou z menších rovinných ploch\), skript najde největší rovinnou plochu a použije ji.
-* Pokud je sklo plné, tj. jedna plocha je velmi mírně vysunuta, aby se vyjádřila její tloušťka, skript najde největší plochu, takže výsledné příčle budou vygenerovány na jedné straně skleněného tělesa.
-* Můžete nakreslit otvory pro dveře a odstranit výsledný povrch z hranice skla. Výsledné příčle budou respektovat otvor dveří a ponechají otvor prázdný pro přidání dveří.
-* Kvůli omezením aplikace Dynamo tento skript nefunguje, pokud má geometrie skla otvory uprostřed.
+* Derzeit werden nur planare Flächen unterstützt. Wenn Sie eine Reihe von Flächen auswählen \(z. B. eine gekrümmte Fläche, die aus kleineren planaren Flächen besteht\), sucht das Skript die größte planare Fläche und verwendet diese.
+* Wenn die Verglasung ein Volumenkörper ist, d. h., wenn eine einzelne Fläche sehr leicht extrudiert wurde, um eine gewisse Dicke zu erhalten, findet das Skript die größte Fläche, sodass die resultierenden Pfosten auf einer Seite des Glasvolumenkörpers generiert werden.
+* Sie können Öffnungen für Türen skizzieren und die resultierende Fläche aus der Glasumgrenzung entfernen. Die resultierenden Pfosten berücksichtigen die Türöffnung, sodass diese leer bleibt, damit die Tür hinzugefügt werden kann.
+* Aufgrund von Einschränkungen in Dynamo funktioniert dieses Skript nicht, wenn die Glasgeometrie Öffnungen in der Mitte aufweist.
 
-## Tipy a triky
+## Tipps und Tricks
 
-Při výběru geometrie grafu aplikace Dynamo v aplikaci FormIt vám mohou určité organizační triky zjednodušit práci a umožnit snadné vytváření instancí výsledků:
+Bei der Auswahl von Geometrie für ein Dynamo-Diagramm in FormIt können bestimmte organisatorische Tricks die Arbeit vereinfachen und eine einfache Instanziierung der Ergebnisse ermöglichen:
 
-* Vložte sklo do skupiny a použijte tuto skupinu jako výběr pro skript Storefront/Curtainwall. Tento způsob umožňuje snazší úpravy profilu skla po vygenerování příčlí a pokud je sklo výrazně upraveno mezi jednotlivými spuštěními a ID ploch se změní, skupina zajistí, že skript sklo vždy najde, protože používá ID skupiny, nikoli ID plochy.
-* Pokud plánujete kopírovat a vkládat výsledky systému příčlí do jiných míst v modelu, doporučujeme, aby sklo a výsledné příčle byly obsaženy ve skupině. Tím se také předejde problémům s tím, že by uzel výběru nevěděl, kterou instanci skla použít, když je zkopírována a vložena pouze výsledná skupina příčlí.
-   * Nejprve vložte sklo do skupiny. Dvojitým kliknutím vyberte sklo a stiskněte klávesu G nebo použijte příkaz Skupina v místní nabídce nebo na panelu nástrojů.
-   * Vyberte výslednou skupinu a umístěte ji do jiné skupiny.
-   * Dvojitým kliknutím přejděte do první skupiny. Toto je „kontejner“ pro sklo i výsledné příčle.
-   * Klikněte na miniaturu Storefront Curtainwall a jako výběr použijte skupinu skla.
-   * Po spuštění skriptu můžete skupinu ukončit a podle potřeby kontejner zkopírovat nebo vložit. Můžete bez problémů upravovat libovolnou instanci \(upravit tvar skla nebo parametry\).
+* Fügen Sie die Verglasung zu einer Gruppe hinzu, und verwenden Sie die Gruppe als Auswahl für das Skript Storefront/Curtainwall (Ladenfront-/Fassade). Auf diese Weise ist es einfacher, das Glasprofil zu bearbeiten, nachdem die Pfosten generiert wurden. Wenn die Verglasung zwischen den Ausführungen umfassend geändert wird und andere Flächen-IDs gelten, stellt die Gruppe sicher, dass das Skript die Verglasung immer findet, da es die Gruppen-ID und nicht die Flächen-ID verwendet.
+* Wenn Sie planen, die Ergebnisse des Pfostensystems zu kopieren und an anderen Stellen im Modell einzufügen, sollten die Verglasung und die resultierenden Pfosten in einer Gruppe enthalten sein. Dadurch wird auch verhindert, dass der Auswahlblock nicht weiß, welches Glasexemplar verwendet werden soll, wenn nur die resultierende Pfostengruppe kopiert und eingefügt wird.
+   * Fassen Sie die Verglasung zuerst in einer Group (Gruppe) zusammen. Doppelklicken Sie darauf, um die Verglasung auszuwählen, und drücken Sie G, oder verwenden Sie die Gruppenbefehle im Kontextmenü oder im Werkzeugkasten.
+   * Wählen Sie die resultierende Gruppe aus, und fügen Sie sie zu einer anderen Gruppe hinzu.
+   * Doppelklicken Sie, um die erste Gruppe aufzurufen. Diese ist der Container für die Verglasung und die resultierenden Pfosten.
+   * Klicken Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade), und verwenden Sie die Glasgruppe als Auswahl.
+   * Nachdem das Skript ausgeführt wurde, können Sie die Gruppe beenden und den Container nach Bedarf kopieren und einfügen. Sie können jedes der Exemplare problemlos bearbeiten \(Anpassen der Glasform oder der Parameter\).
 
-## Možnosti systému příčlí
+## Optionen des Pfostensystems
 
-Po výběru skla a spuštění skriptu se na kreslicí ploše aplikace FormIt zobrazí výsledek v podobě skupiny aplikace FormIt. Tato skupina bude automaticky vybrána a na panelu Vlastnosti se zobrazí dostupné možnosti.
+Wenn Sie die Verglasung auswählen und das Skript ausführen, erhalten Sie ein Ergebnis in Form einer FormIt-Gruppe im FormIt-Ansichtsbereich. Diese Gruppe wird automatisch ausgewählt, und die verfügbaren Optionen werden in der Gruppe Properties (Eigenschaften) angezeigt.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: Na toto tlačítko klikněte, pokud změníte tvar skla a chcete znovu spustit graf, aby se aktualizovaly výsledné příčle.
-* **Edit Embedded Graph**: Umožňuje upravit skript aplikace Dynamo, který vytváří geometrii. Tento skript je vložen do souboru aplikace FormIt a je specifický pro tuto skupinu.
-* **Select Glass \(Surface or Solid\)**: Kliknutím na toto tlačítko můžete vybrat jiné sklo, kolem kterého chcete vytvořit příčle.
+* **Run (Ausführen)**: Wenn Sie die Form der Verglasung ändern und das Diagramm erneut ausführen möchten, um die Pfostergebnisse zu aktualisieren, klicken Sie auf diese Schaltfläche.
+* **Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)**: Bearbeiten Sie das Dynamo-Skript, mit dem die Geometrie erstellt wird. Dieses Skript ist in die FormIt-Datei eingebettet und ist spezifisch für diese Gruppe.
+* **Select Glass \(Surface or Solid\) (Glas auswählen \(Fläche oder Volumenkörper\))**: Klicken Sie auf diese Option, um einen anderen Glaskörper auszuwählen, um den Pfosten erstellt werden sollen.
 
-Při prvním spuštění skript použije výchozí hodnoty, takže je vhodné je upravit pro váš jedinečný případ použití. Všechny hodnoty budou používat aktuální jednotky aplikace FormIt.
+Das Skript verwendet für die erste Ausführung Vorgabewerte. Sie sollten diese daher für Ihren speziellen Anwendungsfall anpassen. Für alle Werte werden die aktuellen FormIt-Einheiten verwendet.
 
-* **Mullion Width + Depth**: Šířka a hloubka všech prvků příčlí.
-* **Vertical Mullion Spacing**: Středová vzdálenost mezi jednotlivými svislými příčlemi.
-* **Flip Vertical Mullion Layout**: Skript zahájí rozteč svislých příčlí z jedné libovolně zvolené strany. Pokud pro vaše potřeby ve výsledku začíná rozteč příčlí na nesprávné straně, nastavte tuto možnost na hodnotu True, aby se rozvržení obrátilo a začínalo na opačné straně.
-* **Center Vertical mullion Layout**: Místo toho, abyste výpočet rozteče svislých příčlí zahájili na jednom konci skla, zahajte výpočet uprostřed a vytvořte tak symetrické rozvržení svislých příčlí.
-* **First Horizontal Mullion Spacing**: Nastaví první rozteč vodorovných příčlí od dolního okraje. Tato možnost je užitečná, pokud potřebujete řadu kratších modulů zasklení v dolní části, odděleně od rozteče zbývajících svislých příčlí.
-* **Horizontal Mullion Spacing**: Typická středová rozteč horizontálních příčlí, počínaje první příčlí, jak je uvedeno výše.
-* **Flip Horizontal Mullion Layout**: Pokud chcete, aby rozvržení horizontálních příčlí začínalo nahoře místo dole, nastavte tuto možnost na hodnotu True.
-* **Center Horizontal Mullion Layout**: Místo zahájení výpočtu rozteče horizontálních příčlí v dolní nebo horní části skla zahajte výpočet uprostřed a vytvořte tak symetrické rozvržení horizontálních příčlí.
+* **Mullion Width + Depth (Pfostenbreite und -tiefe)**: Die Breite und Tiefe aller Pfostenelemente.
+* **Vertical Mullion Spacing (Abstand vertikaler Pfosten)**: Der Abstand (in der Mitte) zwischen den einzelnen vertikalen Pfosten.
+* **Flip Vertical Mullion Layout (Layout vertikaler Pfosten umkehren)**: Das Skript beginnt den vertikalen Pfostenabstand von einer Seite, die beliebig ausgewählt werden kann. Wenn der Pfostenabstand auf der falschen Seite für Ihren Anwendungsfall beginnt, setzen Sie diesen Wert auf True, um das Layout so umzukehren, dass es auf der gegenüberliegenden Seite beginnt.
+* **Center Vertical mullion Layout (Layout vertikaler Pfosten zentrieren)**: Anstatt die Berechnung des vertikalen Pfostenabstands an einem Ende der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout vertikaler Pfosten erstellt.
+* **First Horizontal Mullion Spacing (Abstand erster horizontaler Pfosten)**: Legt den Abstand des ersten horizontalen Pfostens von unten fest. Diese Option ist nützlich, wenn Sie eine Reihe kürzerer Verglasungsmodule unten benötigen, getrennt vom Rest des Abstands horizontaler Pfosten.
+* **Horizontal Mullion Spacing (Abstand horizontaler Pfosten)**: Der typische horizontale Pfostenabstand in der Mitte, beginnend nach dem ersten Pfosten, wie oben beschrieben.
+* **Flip Horizontal Mullion Layout (Layout horizontaler Pfosten umkehren)**: Wenn das Layout der horizontalen Pfosten nicht unten, sondern oben beginnen soll, setzen Sie diese Option auf True.
+* **Center Horizontal Mullion Layout (Layout horizontaler Pfosten zentrieren)**: Anstatt die Berechnung des horizontalen Pfostenabstands an der Unter- oder Oberseite der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout horizontaler Pfosten erstellt.
 
-## Skryté možnosti
+## Verdeckte Optionen
 
-Hledáte další možnosti přizpůsobení? Některé pokročilé možnosti jsou na panelu vlastností aplikace FormIt skryté, ale jsou přístupné po kliknutí na tlačítko Edit Embedded Graph, kterým zobrazíte úplný obsah grafu v aplikaci Dynamo:
+Sie möchten weitere Anpassungen vornehmen? Mehrere erweiterte Optionen werden aus der Gruppe der FormIt-Eigenschaften ausgeblendet, können jedoch durch Klicken auf Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) aufgerufen werden, um den vollständigen Inhalt des Diagramms in Dynamo anzuzeigen:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Náhodně rozdělené příčle
+### Zufällige Pfosten
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Tuto možnost nastavte na hodnotu True, pokud chcete pro vertikální nebo horizontální příčle použít náhodnou rozteč.
-* **Min/Max Mullion Spacing \(if random\)**: Úpravou těchto hodnot nastavíte rozsah minimálních a maximálních náhodných hodnot rozteče.
+* **Randomize Vertical and Horizontal Mullion Layout (Layout vertikaler und horizontaler Pfosten zufällig anordnen)**: Setzen Sie diese Option auf True, um die vertikalen oder horizontalen Pfosten zufällig anzuordnen.
+* **Min/Max Mullion Spacing \(if random\) (Min./Max. Pfostenabstand \(falls zufällig\))**: Passen Sie diese Werte an, um einen Bereich von minimalen und maximalen zufälligen Abstandswerten festzulegen.
 
-### Hraniční příčle
+### Randpfosten
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions**: Ve výchozím nastavení použije systém příčlí hranici skla a odsadí ji dovnitř, aby se vytvořily hraniční příčle. Chcete-li provést odsazení ven, nastavte tuto možnost na hodnotu True. Tím se zvýší celková velikost systému příčlí vně hranice skla o hodnotu nastavenou pro parametr Mullion Width.
-* **Tolerance Between Selection and Border Mullions**: Ve výchozím nastavení se systém příčlí vytvoří přesně na hranici skla, což může způsobit chybu z-fight v místě, kde se střetává hrana skla a vnější povrchy hraničních příčlí. Ve většině případů to nebude viditelné, ale pokud váš případ použití vyžaduje, aby byly hrany systému viditelné, a chcete se vyhnout chybě z-fight, povolte tuto možnost a podle potřeby upravte hodnotu tolerance.
+* **Flip Offset Direction of Border Mullions (Versatzrichtung von Randpfosten umkehren)**: Vorgabemäßig verwendet das Pfostensystem die Glasumgrenzung und versetzt sie nach innen, um die Randpfosten zu erstellen. Um sie nach außen zu versetzen, setzen Sie diese Option auf True. Dadurch wird die Gesamtgröße des Pfostensystems außerhalb der Glasumgrenzung um den Wert für Pfostenbreite erhöht.
+* **Tolerance Between Selection and Border Mullions (Toleranz zwischen Auswahl und Randpfosten)**: Vorgabemäßig generiert das Pfostensystem Elemente genau an der Glasgrenze, was zu Z-Fighting an den Stellen führen kann, an denen die Glaskante und die äußeren Flächen der Randpfosten kollidieren. In den meisten Fällen ist dies nicht sichtbar. Wenn es für Ihren Fall jedoch erforderlich ist, dass die Kanten des Systems sichtbar sind und Sie Z-Fighting vermeiden möchten, aktivieren Sie diese Option und passen den Toleranzwert nach Bedarf an.
 

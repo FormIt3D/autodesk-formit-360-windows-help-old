@@ -1,16 +1,16 @@
-# Pracovní roviny
+# Arbeitsebenen
 
-Když změníte globální osy v hlavním náčrtu nebo místní osy skupiny, přiřadí se k osám X a Y pracovní rovina. **Pracovní rovina** je virtuální dvourozměrná plocha, která se používá jako výchozí rovina pro tvorbu náčrtů. Tato pracovní rovina se rozprostírá do nekonečna a poskytuje povrch, na který lze vytvořit náčrt, aniž by došlo k přichycení k prvkům za ní.
+Wenn Sie in der Hauptskizze die Weltachsen oder in einer Gruppe die lokalen Achsen ändern, wird den X- und Y-Achsen eine Arbeitsebene zugeordnet. Eine **Arbeitsebene** ist eine zweidimensionale virtuelle Fläche, die als Vorgabeebene beim Skizzieren dient. Diese Arbeitsebene ist unendlich und dient als Oberfläche, auf der Sie ohne Objektfang an dahinter liegenden Elementen skizzieren können.
 
-Informace o možnostech úprav základní roviny naleznete v části [Vizuální styly](../formit-primer/part-i/visual-settings.md)
+Informationen zum Bearbeiten der Grundplatte finden Sie unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md)
 
-## Změna pracovních rovin
+## Ändern von Arbeitsebenen 
 
-Otočte [globální osy](world-axes.md) do roviny jiného objektu v náčrtu. Tím zarovnáte aktivní pracovní rovinu tak, aby odpovídala této ploše. Nyní můžete vytvořit náčrt, umisťovat prvky a upravovat prvky vzhledem k nové rovině XY, nikoli k výchozí základní rovině. Můžete otáčet pohled za nebo pod osnovou a pracovními rovinami a přichytávat a odvozovat prvky za pracovní rovinou.
+Sie können die [Weltachsen](world-axes.md) drehen, sodass sie mit der Ebene eines anderen Objekts in der Skizze übereinstimmen. Die aktive Arbeitsebene wird dadurch an der betreffenden Fläche ausgerichtet. Jetzt können Sie relativ zur neuen XY-Ebene anstatt zur vorgegebenen Grundplatte skizzieren, Elemente platzieren und Elemente ändern. Sie können auch hinter oder unterhalb des Rasters und der Arbeitsebenen mithilfe der Orbitfunktion Elemente als Fang- und Ableitungsreferenzen nutzen.
 
-Můžete zapnout nebo vypnout viditelnost čáry osnovy, abyste mohli vytvářet náčrty založené na pracovní rovině. Chcete-li řídit toto nastavení, přejděte na Vizuální styl &gt; Prostředí &gt; **Zobrazit osnovu \(DG\)**
+Sie können die Sichtbarkeit der Rasterlinie aktivieren bzw. deaktivieren, um das arbeitsebenenbasierte Skizzieren zu nutzen. Sie können diese Einstellung unter Visuelle Stile > Umgebung > **Anzeige: Raster \(DG\).**
 
-Můžete také řídit, zda se při kreslení přichytíte k osnově. Toto nastavení můžete zapnout nebo vypnout v Nastavení > **Přichytit k osnově \(SG\).**
+Sie können auch beim Zeichnen steuern, ob Sie das Raster fangen möchten. Aktivieren bzw. deaktivieren Sie diese Einstellung unter Einstellungen > **Rasterfang \(SG\)**
 
 ![](../.gitbook/assets/work-plane.gif)
 

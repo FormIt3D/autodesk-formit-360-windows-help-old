@@ -1,30 +1,30 @@
-# Navigace ve scéně
+# Navigieren in der Szene
 
-Pomocí myši nebo dotykové obrazovky se můžete snadno pohybovat v modelech aplikace FormIt a v jejich okolí:
+Verwenden Sie die Maus oder den Touchscreen, um in Ihren FormIt-Modellen zu navigieren:
 
-* **Otáčejte** pohledem tak, že kliknete pravým tlačítkem myši a přetáhnete ukazatel myši nebo táhněte prstem přes obrazovku na zařízeních s dotykovým ovládáním. Tím ve 3D prostoru použijete bod kurzoru, kolem kterého se bude otáčet kamera.
-   * Můžete také podržet klávesu Shift a posunout pohled.
-* **Přibližujte a oddalujte** pohled otáčením kolečka myši nahoru a dolů nebo stažením či roztažením prstů na zařízeních s dotykovým ovládáním. V tomto případě se použije bod ve 3D prostoru, ke kterému se má pohled přiblížit, přičemž přiblížení se zpomalí, jakmile se přiblížíte k povrchu nebo jinému objektu.
-   * Můžete také podržet klávesu Ctrl, pokud chcete pohled přibližovat a oddalovat konstantní rychlostí, která není ovlivněna blízkostí objektů.
-* **Posouvejte** pohled kliknutím prostředním tlačítkem myši a jejím tažením nebo přetažením dvou prstů na zařízeních s dotykovým ovládáním. 
+* **Umkreisen** Sie die Ansicht, indem Sie mit der rechten Maustaste klicken und die Maus ziehen oder bei berührungsempfindlichen Geräten mit dem Finger über den Bildschirm wischen. Dadurch wird der Cursor-Punkt im 3D-Raum verwendet, um den die Kamera kreist.
+   * Sie können zur Verwendung von Pan auch die UMSCHALTTASTE gedrückt halten.
+* **Vergrößern und verkleinern** Sie die Ansicht, indem Sie das Mausrad nach oben und unten drehen oder bei berührungsempfindlichen Geräten die Finger zusammen- oder auseinanderziehen. Dadurch wird ein Punkt im 3D-Raum verwendet, auf den gezoomt werden soll, und der Zoomvorgang wird verlangsamt, wenn Sie sich einer Fläche oder einem anderen Objekt nähern.
+   * Sie können auch die STRG-Taste gedrückt halten, um mit konstanter Geschwindigkeit zu zoomen, ohne dass dies durch die Nähe zu einem Objekt beeinflusst wird.
+* Verwenden Sie **Pan**, indem Sie mit der mittleren Maustaste klicken und die Maus ziehen, oder ziehen Sie bei berührungsempfindlichen Geräten zwei Finger.
 
-K přechodu do konkrétních režimů pohledu můžete použít také plovoucí panel nástrojů navigace v pravé části kreslicí plochy. V závorkách jsou uvedeny klávesové zkratky.
+Sie können auch die verschiebbare Navigationsleiste auf der rechten Seite des Ansichtsbereichs verwenden, um bestimmte Ansichtsmodi aufzurufen. Kurzbefehle werden in Klammern angegeben.
 
-![](../.gitbook/assets/20190618-ortho-views.png)**Ortografické pohledy**: Kliknutím zobrazíte rozevírací nabídku [ortografických pohledů](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png) **Orthogonale Ansichten**: Klicken Sie auf diese Option, um ein Flyout-Menü mit den verfügbaren [orthogonalen Ansichten](../tool-library/orthographic-views.md) anzuzeigen.
 
-![](../.gitbook/assets/20190618-3d-view.png)**Výchozí 3D pohled \(ZD\):** Spustí výchozí 3D pohled.
+![](../.gitbook/assets/20190618-3d-view.png) **Vorgegebene 3D-Ansicht \(ZD\):** Startet die vorgegebene 3D-Ansicht.
 
-![](../.gitbook/assets/jet-pack.png)**Procházka \(FT\):** Tento režim umožňuje procházet scénou pomocí klávesnice. Pomocí kláves WASD se můžete pohybovat vpřed, vzad, doleva nebo doprava a pomocí kláves Q/E se můžete pohybovat nahoru nebo dolů. Mezerníkem můžete zobrazit průlet scénou.
+![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\):** Im Jetpack-Modus können Sie sich mithilfe der Tastatur in der Szene bewegen. Verwenden Sie WASD, um sich vorwärts/rückwärts/nach links/nach rechts zu bewegen, und verwenden Sie Q/E, um sich nach oben/unten zu bewegen. Verwenden Sie die LEERTASTE, um die 3D-Navigation zu nutzen.
 
-![](../.gitbook/assets/orbit-tool.png)**Orbit \(O\):** Pokud je tato možnost povolena, klikněte levým tlačítkem myši a tažením otáčejte pohled kolem modelu. To lze kdykoli provést také kliknutím pravým tlačítkem myši a tažením.
+![](../.gitbook/assets/orbit-tool.png) **Umkreisen \(O\):** Wenn diese Option aktiviert ist, klicken Sie mit der linken Maustaste und ziehen die Maus, um das Modell zu umkreisen. Sie können dies auch jederzeit durch Klicken mit der rechten Maustaste und Ziehen tun.
 
-![](../.gitbook/assets/swivel.PNG)**Natočit \(SV\):** Nástroj Natočit z panelu nástrojů navigace použijte, pokud se chcete rozhlédnout po scéně z pevného bodu.
+![](../.gitbook/assets/swivel.PNG) **Schwenken \(SV\):** Mit dem Werkzeug Schwenken aus der Navigationsleiste können Sie die Szene von einem bestimmten Punkt aus ansehen.
 
-![](../.gitbook/assets/panning.png)**Posun pohledu \(P\):** Chcete-li posouvat pohled po scéně, klikněte a přetáhněte prostřední tlačítko myši nebo použijte nástroj Posun pohledu \(ručička\) z panelu nástrojů Navigace.
+![](../.gitbook/assets/panning.png) **Pan \(P\):** Klicken Sie mit der mittleren Maustaste, und ziehen Sie die Maus, oder verwenden Sie das Werkzeug Pan \(Hand\) aus der Navigationsleiste, um über die Szene zu schwenken.
 
-![](../.gitbook/assets/zoom.png)**Přiblížit \(Z\):** Chcete-li přiblížit pohled, otočte kolečkem myši nebo vyberte nástroj Přiblížit na panelu nástrojů Navigace a kliknutím a přetažením levého tlačítka myši proveďte přiblížení.
+![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** Drehen Sie das Mausrad, oder verwenden Sie das Werkzeug Zoom aus der Navigationsleiste, und ziehen Sie bei gedrückter linker Maustaste die Maus, um das Modell zu vergrößern oder zu verkleinern.
 
-![](../.gitbook/assets/zoom_all.png)**Přiblížit vše \(ZE nebo ZA\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešel celý model.
+![](../.gitbook/assets/zoom_all.png) **Alles zoomen \(ZE oder ZA\):** Zoomen Sie zum Einpassen des gesamten Modells in die aktuelle Ansicht.
 
-![](../.gitbook/assets/zoom_selection.png)**Přiblížit na výběr \(ZS\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešly všechny aktuálně vybrané objekty.
+![](../.gitbook/assets/zoom_selection.png) **Auswahl zoomen \(ZS\):** Zoomen Sie zum Einpassen aller aktuell ausgewählten Objekte in die aktuelle Ansicht.
 

@@ -1,33 +1,33 @@
-# Úpravy ploch, hran a bodů
+# Ändern von Flächen, Kanten und Punkten
 
-Skutečně zajímavé to začne být, když začnete umístěné objekty tlačit a tahat. Kliknutím můžete vybrat jeden vrchol, hranu, plochu nebo síť.
+Der interessante Teil der Arbeit beginnt, wenn Sie die platzierten Objekte verschieben. Durch einmaliges Klicken können Sie einen einzelnen Scheitelpunkt, eine einzelne Kante, eine einzelne Fläche oder ein einzelnes Netz auswählen.
 
-## Úpravy plochy
+## Ändern von Flächen
 
-1. Klikněte na plochu.
-2. Aplikace FormIt automaticky přepne do nástroje Přetáhnout plochu nebo Vysunout.
-3. Kliknutím na libovolné místo určete počáteční bod operace.
-4. Po kliknutí se můžete přichytit k jiným objektům a zarovnat tuto plochu.
-5. Stejně jako v případě přesunu můžete kliknout na **dočasnou kótu** nebo jednoduše začít zadávat hodnotu a definovat tak míru pohybu.
+1. Klicken Sie einmal auf eine Fläche.
+2. FormIt aktiviert automatisch das Werkzeug Flächen ziehen oder Extrudieren.
+3. Klicken Sie auf eine beliebige Stelle, um einen Startpunkt für den Vorgang anzugeben.
+4. Nach dem Klicken können Sie andere Objekte fangen, um diese Fläche auszurichten.
+5. Wie beim Verschieben können Sie auch hier auf die **temporäre Bemaßung** klicken oder einfach einen Wert eingeben, um den Betrag der Verschiebung zu definieren.
 
 ![](../.gitbook/assets/modify.png)
 
-Plochu můžete také odstranit pomocí klávesy **Delete** nebo kliknutím pravým tlačítkem myši a výběrem položky Odstranit v místní nabídce.
+Sie können eine Fläche auch löschen, indem Sie die **ENTF**-Taste drücken, oder indem Sie mit der rechten Maustaste klicken und im Kontextmenü die Option Löschen aufrufen.
 
-Plochu můžete odstranit také tak, že **kliknete pravým tlačítkem myši a pak kliknete na tlačítko X**.
+Darüber hinaus können Sie eine Fläche über **Rechtsklick > X-Schaltfläche** löschen.
 
-## Úpravy hran
+## Ändern von Kanten
 
-1. Klikněte na hranu.
-2. Aplikace FormIt automaticky přepne do nástroje Přesunout.
-3. Umístěte ukazatel myši na bod v prostoru, ze kterého chcete zahájit operaci přesunutí.
-4. Klikněte a přetažením hrany změňte tvar.
+1. Doppelklicken Sie auf eine Kante.
+2. FormIt aktiviert automatisch das Werkzeug Verschieben.
+3. Positionieren Sie den Cursor über einem Punkt im Raum, von dem aus Sie den Verschiebevorgang starten möchten.
+4. Klicken Sie. Nun können Sie die Kante ziehen, um die Form zu ändern.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Úprava bodů
+## Ändern von Punkten
 
-1. Klikněte na jeden z rohů některé z krychlí.
-2. Podobně jako u hrany můžete přetažením bodu podél jedné z os předefinovat tvar. [Další Nejednotná změna měřítka](non-uniform-scale.md)
+1. Klicken Sie auf eine der Ecken an einem der Würfel.
+2. Sie können ähnlich wie bei Kanten die Form neu definieren, indem Sie den Punkt entlang einer der Achsen ziehen. [Nächste ungleichmäßige Skalierung](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

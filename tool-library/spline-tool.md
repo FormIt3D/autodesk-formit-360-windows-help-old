@@ -1,14 +1,14 @@
 # Spline
 
-Pomocí nástroje Spline můžete vytvářet organické náčrty v prostoru nebo na jiných objektech.
+Mit dem Werkzeug Spline können Sie fließende Formen im Raum oder auf anderen Objekten skizzieren.
 
 ![](../.gitbook/assets/spline.png)
 
-Křivka spline je tvořena nejméně 3 interpolovanými body. Připojená geometrie je zjednodušena a mezi zadanými body se vytvoří hladká a organická křivka. Podobně jako u jiných nástrojů pro kreslení lze křivky spline kreslit ve 3D přichycením k 3D bodům při kreslení.
+Ein Spline wird durch Interpolation zwischen mindestens drei Punkten gezeichnet. Die verbundene Geometrie wird vereinfacht, wobei eine glatte, fließende Kurve zwischen den angegebenen Punkten entsteht. Wie andere Zeichenwerkzeuge können Splines auch in 3D gezeichnet werden, indem Sie beim Zeichnen 3D-Punkte fangen.
 
-Chcete-li určit vzdálenost, začněte zadávat hodnotu kóty a poté v dialogu Upravit kótu klikněte na tlačítko OK nebo stiskněte klávesu Enter.
+Um einen Abstand festzulegen, beginnen Sie mit der Eingabe eines Bemaßungswerts und klicken auf OK, oder drücken Sie die EINGABETASTE im Dialogfeld Bemaßung bearbeiten.
 
-Křivky spline se mohou také uzavírat samy do sebe a vytvořit tak plochu.
+Splines können auch geschlossen werden, wodurch eine Fläche entsteht.
 
 ![](../.gitbook/assets/spline2.png)
 

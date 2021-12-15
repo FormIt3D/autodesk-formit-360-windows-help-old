@@ -1,42 +1,43 @@
-# Nástroje Pokrýt, Tažení, Šablonování
+# Abdeckung, Sweep, Erhebung
 
-Uzavírejte otevřené hrany, provádějte změny geometrie podél trajektorie hran a propojujte více profilů nebo hran.
+Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderungen vorzunehmen, die einem aus Kanten bestehenden Pfad folgen, und mehrere Profile oder Kanten zu verbinden.
 
-## Uzavření řady ploch
+## So schließen Sie eine Reihe von Flächen
 
-1. V nabídce **Pokročilé nástroje geometrie** na panelu Akce klikněte na nástroj **Pokrýt**. ![](../.gitbook/assets/cover-tool.png)
-2. Klikněte na hrany objektu, který chcete pokrýt.
+1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Abdeckung**.  ![](../.gitbook/assets/cover-tool.png)
+2. Klicken Sie auf die Kanten des abzudeckenden Objekts.
 
 ![](../.gitbook/assets/cover_tool1.png)
 
-3. Klikněte na tlačítko **Dokončit**    ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG).
+3. Klicken Sie auf **Fertig stellen**    
+   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG).
 
-## Tažení geometrie podél trajektorie
+## So erstellen Sie ein Sweeping für die Geometrie entlang einem Pfad
 
-1. Pomocí čáry označte plochu objektu, který chcete oříznout. ![](../.gitbook/assets/sweep.png)
-2. Klikněte na ikonu nástroje Tažení. ![](../.gitbook/assets/sweep-tool.png)
-3. Vyberte plochu, kterou jste označili dříve.
+1. Verwenden Sie eine Linie, um die Fläche eines zu schneidenden Objekts zu markieren. ![](../.gitbook/assets/sweep.png)
+2. Klicken Sie auf das Symbol des Werkzeugs Sweep.   ![](../.gitbook/assets/sweep-tool.png)
+3. Wählen Sie die zuvor markierte Fläche aus.
 
         ![](../.gitbook/assets/sweep2.png) 
 
-4. Vyberte hranu, kterou chcete oříznout.
+4. Wählen Sie die zu bearbeitende Kante aus.
 
    ![](../.gitbook/assets/sweep3.png)
 
-5. Klikněte na ikonu **Dokončit**. Původní objekt je upraven podél trajektorie tažení. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+5. Klicken Sie auf das Symbol **Fertig stellen**.  Das Originalobjekt wird am Sweep-Pfad entlang geändert. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-## Šablonování více profilů nebo hran
+## So erheben Sie mehrere Profile oder Kanten
 
-1. V nabídce **Pokročilé nástroje geometrie** na panelu Akce klikněte na nástroj **Šablonování**. ![](../.gitbook/assets/loft-tool.png)
-2. Na prvním objektu vyberte plochu nebo hrany, u kterých chcete provést šablonování.
+1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Erhebung**.  ![](../.gitbook/assets/loft-tool.png)
+2. Wählen Sie die Fläche oder Kanten aus, die Sie auf dem ersten Objekt erheben möchten.
 
    ![](../.gitbook/assets/loft1.png)
 
-3. Na druhém objektu vyberte plochu nebo hrany, u kterých chcete provést šablonování. Tento krok opakujte pro další objekty.
+3. Wählen Sie die Fläche oder Kanten aus, die Sie auf dem zweiten Objekt erheben möchten. Wiederholen Sie diesen Schritt für weitere Objekte.
 
    ![](../.gitbook/assets/loft2.png)
 
-4. Klikněte na ikonu **Dokončit**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+4. Klicken Sie auf das Symbol **Fertig stellen**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
    ![](../.gitbook/assets/loft3.png)
 

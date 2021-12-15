@@ -1,41 +1,41 @@
-# Nejednotná změna měřítka
+# Ungleichmäßig skalieren
 
-**Pomocí nejednotné změny měřítka můžete protáhnout objekty v 1, 2 nebo 3 rozměrech.**
+**Verwenden Sie Ungleichmäßig skalieren, um Objekte in 1, 2 oder 3 Bemaßungen zu strecken.**
 
-Vyberte libovolnou kombinaci hran, ploch, těles, sítí nebo skupin a použijte možnost Nejednotná změna měřítka pomocí klávesové zkratky **NU** nebo z místní nabídky:
+Wählen Sie eine beliebige Kombination von Kanten, Flächen, Volumenkörpern, Netzen oder Gruppen aus, und greifen Sie über den Tastaturkurzbefehl **NU** oder über die Option im Kontextmenü auf Ungleichmäßig skalieren zu:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Jakmile je tato možnost aktivní, zobrazí se řada uzlů, které lze použít k současnému nastavení nejednotného měřítka objektu v 1, 2 nebo 3 osách.**
+**Nach der Aktivierung sehen Sie eine Reihe von Griffen, mit denen Sie das Objekt ungleichmäßig in 1, 2 oder 3 Achsen gleichzeitig skalieren können.**
 
-Kvůli přehlednosti budou vykresleny pouze uzly směřující ke kameře. Pokud potřebujete upravit uzel na druhé straně, otočte pohled kolem objektu.
+Zur besseren Übersichtlichkeit werden nur die Griffe gezeichnet, die der Kamera zugewandt sind. Umkreisen Sie das Objekt, wenn Sie einen Griff auf der anderen Seite anpassen müssen.
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Po kliknutí na uzel se zobrazí řada upravitelných textových polí, ve kterých můžete nastavit měřítko podle procent nebo vzdálenosti:
+Wenn Sie auf einen Griff klicken, sehen Sie eine Reihe von bearbeitbaren Textfeldern, in denen Sie die Skalierung nach Prozent oder Abstand anpassen können:
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Jakmile jsou pole kót viditelná, můžete provést následující akce:**
+**Sobald die Bemaßungsfelder sichtbar sind, können Sie Folgendes tun:**
 
-* Začněte zadávat číslo, čímž automaticky upravíte pole s procenty a zadáte faktor měřítka.
-   * Zadáním záporného čísla se obrátí směr měřítka.
-* Případně kliknutím dočasně nastavte umístění uzlu a poté klikněte na pole obsahující kótu, u níž se má měřítko měnit podle vzdálenosti.
-* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
+* Eingeben einer Zahl, um das Prozentfeld automatisch zu bearbeiten und einen Skalierungsfaktor anzugeben
+   * Durch Eingabe einer negativen Zahl wird die Skalierungsrichtung umgekehrt.
+* Klicken, um die Griffposition vorübergehend festzulegen, und anschließendes Klicken auf das Feld mit der nach Abstand zu skalierenden Bemaßung
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
-**Při změně měřítka v některém z uzlů rohových hran bude brán ohled na poměr stran sousedních kót:**
+**Beim Skalieren an einem der Eckkantengriffe wird das Seitenverhältnis der angrenzenden Bemaßungen berücksichtigt:**
 
-* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
-* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze dvou polí kót nastavte měřítko podle vzdálenosti.
-* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
+* Geben Sie eine Zahl ein, um den Prozentwert zu bearbeiten.
+* Oder klicken Sie, um die Griffposition vorübergehend festzulegen, und klicken Sie dann auf eines der beiden Bemaßungsfelder, um die Skalierung nach Abstand durchzuführen.
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Podobně platí, že při změně měřítka v některém z rohových uzlů bude dodržen poměr stran celého tvaru a změna měřítka bude rovnoměrná:**
+**Entsprechend wird beim Skalieren an einem der Eckgriffe das Seitenverhältnis der gesamten Form berücksichtigt, und die Skalierung erfolgt gleichmäßig und effektiv:**
 
-* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
-* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze tří polí kót nastavte měřítko podle vzdálenosti.
-* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
+* Geben Sie eine Zahl ein, um den Prozentwert zu bearbeiten.
+* Oder klicken Sie, um die Griffposition vorübergehend festzulegen, und klicken Sie dann auf eines der drei Bemaßungsfelder, um die Skalierung nach Abstand durchzuführen.
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

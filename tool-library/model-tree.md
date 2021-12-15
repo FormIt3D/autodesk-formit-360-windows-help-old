@@ -1,16 +1,16 @@
-# Strom modelu
+# Modellstruktur
 
-Strom modelu umožňuje zobrazit topologickou hierarchii modelu aplikace FormIt.
+Die Modellstruktur bietet eine Möglichkeit zum Anzeigen der topologischen Hierarchie Ihres FormIt-Modells.
 
-Strom modelu povolíte v nabídce Okno zaškrtnutím políčka vedle položky Strom modelu.
+Aktivieren Sie die Modellstruktur, indem Sie zum Menü Fenster wechseln und das Kontrollkästchen neben Modellstruktur aktivieren.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Ve stromu modelu je každá skupina označena jako Historie, protože každá skupina má vlastní historii příkazů nebo zásobník akcí Zpět/Znovu.
+In der Modellstruktur wird jede Gruppe als Verlauf angesehen, da jede Gruppe über einen eigenen Befehlsverlauf (oder einen Stapel für Rückgängig/Wiederherstellen) verfügt.
 
-V rámci každé historie se zobrazí seznam vnořených skupin, instancí nebo geometrických objektů, jako jsou tělesa.
+In jedem Verlauf wird eine Liste verschachtelter Gruppen, Exemplare oder geometrischer Objekte wie Körper angezeigt.
 
-Pomocí stromu modelu můžete také zobrazit negeometrické atributy \(atributy řetězce\) připojené k objektům aplikace FormIt. [Atributy řetězce lze umístit do skupin vytvořených uzlem SendToFormIt pomocí aplikace Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Sie können auch nicht geometrische Attribute \(Zeichenfolgenattribute\), die FormIt-Objekten zugeordnet sind, mithilfe der Modellstruktur anzeigen. [Sie können Zeichenfolgenattribute in Gruppen platzieren, die mithilfe von Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) mit dem SendToFormIt-Block erstellt wurden.
 
 ![](../.gitbook/assets/model-tree-attribute.png)
 

@@ -1,70 +1,70 @@
-# Analýza slunečního záření a energetická analýza
+# Sonnenstudie und Energieanalyse
 
-Vytvořený model můžeme využít k vytvoření studie **slunečního záření a energetické analýzy** pro náš návrh. Tyto funkce jsou součástí aplikace FormIt, takže můžete zkoumat i ty nejranější studie návrhu z hlediska výkonnosti budovy. Tyto funkce jsou k dispozici pouze v aplikaci **FormIt Pro**, takže pokud používáte webovou verzi aplikace, pravděpodobně k nim nebudete mít přístup.
+Da das Modell nun erstellt wurde, können Sie es zur Untersuchung der **Sonnen- und Energieauswirkungen** im Entwurf verwenden. Diese Funktionen sind in FormIt integriert, damit die ersten Studien von der Perspektive der Gebäudeleistung aus nachvollzogen werden können. Diese Funktionen sind nur in **FormIt Pro** verfügbar. Wenn Sie die Web-App verwenden, haben Sie möglicherweise keinen Zugriff darauf.
 
-Pokud jste nedokončili poslední část, klikněte na Soubor &gt; Otevřít a vyberte soubor **farnsworth08.axm** ze složky FormIt Primer.
+Wenn Sie den letzten Abschnitt nicht bearbeitet haben, wählen Sie Datei &gt; Öffnen und anschließend **farnsworth08.axm** aus dem Ordner FormIt Primer.
 
-## Stíny
+## Schatten
 
-Před použitím libovolného nástroje analýzy je nutné [nastavit umístění](). To aplikaci FormIt umožní přístup k přesným údajům o slunci, stínech a klimatu.
+Bevor Sie eines dieser Analysewerkzeuge verwenden können, müssen Sie den [Standort festlegen](). Damit erhält FormIt Zugriff auf präzise Sonnen-, Schatten- und Klimadaten.
 
-1. Na [**panelu nástrojů Akce**](../../formit-introduction/tool-bars.md) klikněte na ikonu slunce a zaškrtněte políčko **Stíny \(DS\)**.
+1. Klicken Sie auf das Sonnensymbol in der [**Aktionsleiste**](../../formit-introduction/tool-bars.md), und aktivieren Sie **Schatten \(DS\)**.
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. Nastavte posuvníky **Den** a **Čas**, abyste viděli, jak se mění stíny.
+2. Passen Sie die Schieberegler **Tag** und **Zeit** an, um zu sehen, wie sich die Schatten ändern.
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. Všimněte si, že krytá terasa je v nejteplejších hodinách letních měsíců zastíněná – to určitě není náhoda, ale záměr.
+3. Beachten Sie, wie hier die überdachte Terrasse während der heißesten Tageszeit in den Sommermonaten beschattet wird. Dies ist kein Zufall, sondern bewusst in dieser Form entworfen.
 
-**Poznámka**: Stíny mohou způsobit snížení výkonu aplikace. Dva návrhy na zmírnění tohoto problému: vypněte stíny, pokud zaznamenáte snížení výkonu, nebo vypněte hladiny jako **nábytek**, pokud nejsou ke studiu stínů nezbytné. 
+**Anmerkung**: Schatten können zu einer Verringerung der Anwendungsleistung führen. Zwei Vorschläge zur Abmilderung dieses Problems: Deaktivieren Sie Schatten, wenn die Navigation langsam wird, oder deaktivieren Sie Layer wie **Möbel**, wenn sie nicht zur Untersuchung von Schatten benötigt werden.
 
-## Analýza slunečního záření
+## Sonnenstudie
 
-Designéři dokáží pracovat s vizuálními informacemi, díky čemuž mohou získat a využívat neuvěřitelné množství informací z diagramů tepelných map, jako je ten, který se chystáme vytvořit.
+Als visuelle Menschen können Designer eine unglaubliche Menge an Informationen aus Heatmap-Diagrammen wie dem, das Sie erstellen werden, herauslesen und vermitteln.
 
-1. V dolní části [**nabídky Slunce**](../../formit-introduction/tool-bars.md) klikněte na tlačítko **Analýza slunečního záření**. 
-2. Přejdete do speciálního režimu, ve kterém jsou vypnuty **stíny**, **klávesové zkratky** a další **panely nástrojů**.
-3. Chování výběru je v režimu **analýzy slunečního záření** upraveno. Můžete vybírat **ve skupinách**, nemusíte držet klávesu **Ctrl** nebo **Shift** pro přidání do sady výběru a můžete zrušit výběr položek tak, že na ně znovu kliknete. Výběr geometrie můžete provádět **kliknutím**, **dvojitým kliknutím** nebo pomocí **okna výběru**.
-4. Vyberte plochy, které chcete studovat. **Klikněte** na horní část **střechy** a horní část **podlaží**. Nevybírejte malé prvky, například nábytek.
+1. Klicken Sie unten im [**Menü Sonne**](../../formit-introduction/tool-bars.md) auf die Schaltfläche **Solaranalyse**.
+2. Sie befinden sich in einem speziellen Modus, in dem **Schatten**, **Tastaturbefehle** und andere **Werkzeugkästen** deaktiviert sind.
+3. Das Auswahlverhalten wird im Modus **Solaranalyse** geändert. Sie können **gruppenübergreifende** Auswahlen treffen, Sie müssen nicht die **STRG**- oder **UMSCHALTTASTE** gedrückt halten, um Elemente zum Auswahlsatz hinzuzufügen, und Sie können die Auswahl von Elementen aufheben, indem Sie erneut darauf klicken. Sie können Geometrie per **einfachem Klick**, **Doppelklick** oder **Fensterauswahl** auswählen.
+4. Wählen Sie die Flächen, die Sie untersuchen möchten. **Klicken Sie einmal** auf die Oberseite des **Dachs** und die Oberseite der **Geschosse**. Vermeiden Sie die Auswahl kleiner Elemente wie Möbel.
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. V levém horním rohu kreslicí plochy vyhledejte panel nástrojů **Analýza slunečního záření**. Klikněte na tlačítko **Analyzovat**. Aplikace FormIt vypočítá a vyrenderuje povrchy. Zde uvedená nastavení lze upravit před **a** po dokončení analýzy.
+5. Suchen Sie in der oberen linken Ecke des Ansichtsbereichs den Werkzeugkasten **Solaranalyse**. Klicken Sie auf **Analysieren**. FormIt berechnet und rendert die Flächen. Die Einstellungen hier können vor **und** nach Abschluss der Analyse angepasst werden.
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. Nastavení **Měsíční špička** zobrazuje **špičkové** hodnoty \(v BTU/čtv. stopu\) pro zadaný měsíc. Tato možnost je určena pro **studie stínování**. Nastavení měsíce lze změnit a grafika se okamžitě aktualizuje. **Přesunutím kurzoru** nad analyzovaný povrch získáte **konkrétní** hodnotu.
+6. Die Einstellung **Monatsspitze** zeigt die **Spitzenwerte** \(in BTU/sq ft\) für den angegebenen Monat. Dies ist für **Schattierungsstudien** vorgesehen. Sie können die Monatseinstellung ändern, und die Grafiken werden sofort aktualisiert. Indem Sie den **Cursor auf eine der analysierten Flächen setzen**, erhalten Sie deren **spezifischen** Wert.
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. Nastavení **Roční kumulativní** zobrazuje **kumulativní** energii za celý rok \(v kWh/čtv. m\). Tato možnost je určena pro **studie potenciální energetických zisků z instalace fotovoltaických panelů**.
+7. Die Einstellung **Jahr kumulativ** zeigt den **Gesamtwert** der Energie für das ganze Jahr \(in kWh/qm\). Dies ist für **PV-Potenzialstudien** vorgesehen.
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. Tyto studie **analýzy slunečního záření** lze exportovat kliknutím na možnost **Soubor &gt; Exportovat \(Ctrl+E\)** a výběrem možnosti **Obrázek** v seznamu vlevo.
+8. Diese Studien zur **Solaranalyse** können exportiert werden, indem Sie auf **Datei &gt; Exportieren \(STRG+E\)** klicken und **Bild** aus der Liste auf der linken Seite auswählen.
 
-## Energetická analýza s aplikací Insight
+## Energieanalyse mit Insight
 
-V aplikaci FormIt jsou integrovány stejné nástroje pro analýzu výkonnosti budovy, jaké používá aplikace Revit. Aplikace **Insight** obsahuje řídicí panel se systémovými parametry budovy, které lze upravit tak, aby odrážely potenciální scénáře, aniž by bylo nutné **znovu analyzovat** geometrii modelu. Aplikace Insight nejlépe funguje s geometrií**objemů** aplikace FormIt.
+FormIt verfügt über dieselben integrierten Werkzeuge zur Gebäudeleistungsanalyse, die auch Revit verwendet. **Insight** bietet ein Dashboard mit Gebäudesystemparametern, die angepasst werden können, um mögliche Szenarien zu berücksichtigen, ohne dass Sie die Modellgeometrie **erneut analysieren** müssen. Insight funktioniert am besten mit FormIt**-Körpergeometrie**.
 
-1. Ujistěte se, že jste přihlášeni k účtu Autodesk. Vypněte **všechny** hladiny **kromě** hladiny **objemů**. Geometrie musí mít alespoň jedno **podlaží**.
-2. Aplikace FormIt odešle do aplikace Insight pouze **viditelnou** geometrii. Všimněte si, že i pro jednoduchý **objem** získáte z aplikace **Insight** spoustu dat.
+1. Vergewissern Sie sich, dass Sie bei Ihrem Konto bei Autodesk Account angemeldet sind. Deaktivieren Sie **alle** Layer **außer** dem Layer **Massing**. Auf Ihre Geometrie muss mindestens eine **Ebene** angewendet sein.
+2. FormIt sendet nur **sichtbare** Geometrie an Insight. Beachten Sie, dass auch bei einem einfachen **Körper** eine Vielzahl von Daten in **Insight** generiert werden.
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. Klikněte na tlačítko **Insight &gt; Generovat přehled**. Analýza bude probíhat v cloudu, takže během výpočtu můžete pokračovat v modelování.
+3. Klicken Sie auf die Schaltfläche **Insight &gt; Insight generieren**. Die Analyse wird in der Cloud ausgeführt, sodass Sie während der Berechnung mit dem Modellieren fortfahren können.
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. Po dokončení analýzy klikněte na tlačítko **Zobrazit přehled**, čímž zobrazíte **energetický model** a **faktory výkonu** \(případně můžete přejít přímo na web na adrese [**http://insight.autodesk.com**](http://insight.autodesk.com/)\).
+4. Wenn die Analyse abgeschlossen ist, klicken Sie auf die Schaltfläche **Insight anzeigen**, um das **Energiemodell** und die **Leistungsfaktoren** anzuzeigen. \(Optional können Sie die Website direkt unter [**http://insight.autodesk.com**](http://insight.autodesk.com/) aufrufen.\)
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. Na řídicím panelu aplikace Insight můžete nastavit hodnotu \(nebo rozsah hodnot\) pro jednotlivé **faktory výkonu** tak, že kliknete na požadovaný faktor a přetáhnete modré body. Rozsah je užitečný, pokud ještě neznáte konkrétní systém, který bude budova používat.
-6. Při každé změně **faktoru** se aktualizuje celkový **rozsah nákladů na energie** \(měřeno v USD/čtv. m za rok\). Výkon svého návrhu můžete porovnat s referenčními hodnotami, jako je například standard **Ashrae 90.1** nebo výzva **Architecture 2030**.
-7. Pokud se podoba vašeho návrhu zásadně změní, můžete znovu odeslat aktualizovaný objem na stejný řídicí panel. Jestliže chcete pro aktualizovaný návrh vytvořit **nový** řídicí panel, nezapomeňte návrh nejprve uložit pomocí příkazu **Uložit jako** v aplikaci FormIt.
-8. Pokud se energetická analýza nezdaří, můžete geometrii zkontrolovat a opravit v aplikaci FormIt pomocí nástroje **Problémy s vodotěsností \(DW\)**.
-9. Vypněte hladinu **objemů** a znovu zapněte všechny ostatní hladiny.
+5. Im Insight-Dashboard können Sie einen Wert \(oder einen Wertebereich\) für jedes **Leistungsfaktor**-Widget festlegen, indem Sie auf den Faktor klicken und die blauen Punkte ziehen. Der Bereich ist hilfreich, wenn Sie das spezifische System, das Ihr Gebäude verwenden wird, noch nicht kennen.
+6. Mit jeder Änderung an einem **Faktor** wird der gesamte **Energiekostenbereich** \(gemessen in USD/qm/Jahr\) aktualisiert. Sie können die Leistung Ihres Entwurfs anhand von Benchmarks wie **Ashrae 90.1** und der Herausforderung von **Architecture 2030** ermitteln.
+7. Wenn sich Ihr Entwurf drastisch ändert, können Sie den aktualisierten Körper erneut an dasselbe Dashboard senden. Wenn Sie für den aktualisierten Entwurf ein **neues** Dashboard erstellen möchten, müssen Sie den Entwurf zunächst in FormIt mit **Speichern unter** speichern.
+8. Wenn die Energieanalyse fehlschlägt, liegen möglicherweise geometriebasierte **Dichtheitsprobleme \(DW\)** vor. Diese können in FormIt geprüft und behoben werden.
+9. Deaktivieren Sie den Layer **Massing**, und aktivieren Sie alle anderen Layer wieder.
 

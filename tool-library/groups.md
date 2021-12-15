@@ -1,58 +1,58 @@
-# Skupiny
+# Gruppen
 
-Jedna z nejzákladnějších, ale nejdůležitějších technik pracovních postupů aplikace FormIt zahrnuje seskupování. Skupiny zabraňují spojení geometrie a umožňují nastavit vztahy nadřazenosti/podřazenosti mezi kopírovanými prvky tak, aby se při aktualizaci jednoho prvku aktualizovaly oba prvky. Další informace o skupinách naleznete [zde](../formit-primer/part-i/grouping-objects.md).
+Eine der grundlegendsten und dennoch wichtigsten Techniken bei FormIt-Arbeitsabläufen ist die Gruppierung. Mit Gruppen können Sie verhindern, dass Geometrie zusammenklebt, und Sie können Beziehungen zwischen über- und untergeordneten Elementen für kopierte Elemente erstellen, sodass beim Aktualisieren eines Elements beide Elemente aktualisiert werden. [Hier](../formit-primer/part-i/grouping-objects.md) erfahren Sie mehr über Gruppen.
 
-Skupiny lze vytvářet a upravovat dvěma způsoby: buď z místní nabídky vybrané skupiny, nebo z hlavního panelu nástrojů.
+Gruppen können auf zwei Arten erstellt und bearbeitet werden: Entweder über das Kontextmenü einer ausgewählten Gruppe oder über den Hauptwerkzeugkasten.
 
-## Interakce se skupinami
+## Gruppeninteraktionen
 
-Chcete-li **vytvořit skupinu**, vyberte prvky, které chcete seskupit, například hrany, plochy, tělesa nebo jiné skupiny, a klikněte pravým tlačítkem myši. V místní nabídce vyberte nástroj **Skupina \(G\)**. Importované obrázky a satelitní snímky nelze seskupit.
+Um eine **Gruppe zu erstellen**, wählen Sie die Elemente aus, die Sie gruppieren möchten – dies kann Kanten, Flächen, Volumenkörper oder andere Gruppen umfassen – und klicken Sie mit der rechten Maustaste. Wählen Sie das Werkzeug **Gruppe \(G\)** aus dem Kontextmenü. Importierte Bilder und Satellitenbilder können nicht gruppiert werden.
 
-Chcete-li **vybrat skupinu**, jednou na ni klikněte. Všimněte si přerušovaných čar, které se zobrazí při výběru skupiny. Tyto čáry označují celkovou velikost skupiny.
+Um eine **Gruppe auszuwählen**, klicken Sie auf diese. Beachten Sie die gestrichelten Linien, die angezeigt werden, wenn Sie eine Gruppe auswählen. Diese Linien geben die Gesamtgröße der Gruppe an.
 
-Chcete-li **upravit skupinu**, dvakrát na ni klikněte. Spustí se režim úprav, ve kterém lze pouze zobrazit a přichytit prvky mimo aktuální skupinu, ale nelze je vybrat. Prvky mimo aktuální skupinu lze také skrýt klávesovou zkratkou **H**.
+Um eine **Gruppe zu bearbeiten**, doppelklicken Sie auf diese. Dadurch wird ein Bearbeitungsmodus gestartet, in dem Sie nur Elemente außerhalb der aktuellen Gruppe anzeigen und fangen, jedoch keine Elemente auswählen können. Sie können auch die Elemente außerhalb der aktuellen Gruppe mithilfe des Tastaturkurzbefehls **H** ausblenden.
 
-Můžete vytvořit **skupiny v rámci skupin**: tyto skupiny se nazývají **vnořené skupiny** a lze je vytvořit v režimu úprav skupiny. Chcete-li se ve vnořených skupinách přesunout o jednu úroveň výše, klikněte kamkoli mimo skupiny.
+Sie können **Gruppen innerhalb von Gruppen** erstellen. Diese werden als **verschachtelte Gruppen** bezeichnet und können im Gruppenbearbeitungsmodus erstellt werden. Um in verschachtelten Gruppen eine Ebene nach oben zu gelangen, klicken Sie auf eine beliebige Stelle außerhalb der Gruppen.
 
-Jestliže chcete **ukončit režim úprav skupiny**, dvakrát klikněte kamkoli mimo skupinu.
+Um den **Gruppenbearbeitungsmodus zu beenden**, doppelklicken Sie auf eine beliebige Stelle außerhalb der Gruppe.
 
-Můžete **kopírovat skupinu** a vytvořit tak vztah mezi původní skupinou a její kopií. Pokud upravíte jakékoli zkopírované skupiny, stejné změny se projeví ve všech souvisejících skupinách.
+Sie können eine **Gruppe kopieren**, um eine Beziehung zwischen der ursprünglichen Gruppe und ihrer Kopie zu erstellen: Wenn Sie kopierte Gruppen bearbeiten, wirken sich diese Änderungen auf alle zugehörigen Gruppen aus.
 
-Chcete-li **přerušit vztah mezi zkopírovanými skupinami**, vyberte skupinu nebo skupiny, které chcete oddělit, klikněte pravým tlačítkem myši a v místní nabídce vyberte položku **Vytvořit jedinečné**. Možnost Vytvořit jedinečné můžete také vybrat na panelu nástrojů Skupiny.
+Um **die Beziehung zwischen kopierten Gruppen aufzuheben**, wählen Sie die Gruppe(n) aus, die Sie trennen möchten, klicken mit der rechten Maustaste und wählen **Als eindeutig definieren** aus dem Kontextmenü. Sie können auch im Werkzeugkasten Gruppen die Option Als eindeutig definieren auswählen.
 
-Chcete-li **vybrat všechny související skupiny**, přesuňte ukazatel myši na skupinu a stiskněte klávesu Tab. Až se zvýrazní všechny související skupiny, kliknutím na tyto skupiny je vyberte. Poté můžete provést požadovanou akci pro všechny skupiny najednou.
+Um **alle zugehörigen Gruppen auszuwählen**, bewegen Sie den Mauszeiger über eine Gruppe und drücken die TABULATORTASTE. Wenn alle zugehörigen Gruppen markiert sind, klicken Sie auf die Gruppen, um sie auszuwählen. Sie können dann eine Aktion für alle Gruppen gleichzeitig durchführen.
 
-[**Strom skupin**](groups-tree.md) umožňuje zobrazit a spravovat všechny skupiny v projektu na jediném místě.
+Die [**Gruppenstruktur**](groups-tree.md) bietet eine zentrale Stelle zum Anzeigen und Verwalten aller Gruppen in einem Projekt.
 
-## Místní nabídka skupin a přístup k panelu nástrojů
+## Zugriff auf Kontextmenü und Werkzeugkasten für Gruppen
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Prvky skupiny**
+**Gruppieren von Elementen**
 
-Chcete-li vytvořit skupinu pomocí panelu nástrojů Skupiny, vyberte jeden nebo více prvků, klikněte na ikonu **Vytvořit skupinu** a poté vyberte ikonu **Dokončit**. Případně můžete vybrat možnost **Vytvořit skupinu** na panelu nástrojů Skupiny, poté vybrat prvky, které chcete seskupit, a kliknout na ikonu **Dokončit**.
+Um eine Gruppe aus dem Werkzeugkastenelement Gruppen zu erstellen, wählen Sie eines oder mehrere Elemente aus, klicken auf das Symbol **Gruppe erstellen** und dann auf das Symbol **Fertig stellen**. Alternativ können Sie **Gruppe erstellen** aus dem Werkzeugkastenelement Gruppen auswählen, die Elemente auswählen, die Sie gruppieren möchten, und dann auf das Symbol **Fertig stellen** klicken.
 
-Pokud chcete **upravit skupinu pomocí panelu nástrojů Skupiny**, vyberte ikonu **Upravit skupinu** a poté klikněte na skupinu, kterou chcete upravit. Po dokončení úprav klikněte na ikonu **Dokončit**. Tento nástroj umožňuje vybrat k úpravám konkrétní skupinu, i když je hluboce vnořená.
+Um **eine Gruppe über das Werkzeugkastenelement Gruppen zu bearbeiten**, wählen Sie das Symbol **Gruppe bearbeiten** aus und klicken dann auf die Gruppe, die Sie bearbeiten möchten. Wenn Sie alle Änderungen vorgenommen haben, klicken Sie auf das Symbol **Fertig stellen**. Mit diesem Werkzeug können Sie die spezifische Gruppe auswählen, die Sie bearbeiten möchten, auch wenn sie tief verschachtelt ist.
 
-**Chcete-li skupinu nastavit jako jedinečnou pomocí panelu nástrojů**, vyberte na panelu nástrojů Skupiny ikonu **Vytvořit jedinečné**. Můžete také na panelu nástrojů Skupiny vybrat možnost **Vytvořit jedinečné**, poté vybrat skupinu, kterou chcete nastavit jako jedinečnou, a kliknout na ikonu **Dokončit**.
+**Um eine Gruppe über den Werkzeugkasten eindeutig zu definieren**, wählen Sie das Symbol **Als eindeutig definieren** im Werkzeugkastenelement Gruppen aus. Darüber hinaus können Sie im Werkzeugkastenelement Gruppen die Option **Als eindeutig definieren** auswählen, dann die Gruppe auswählen, die Sie eindeutig definieren möchten, und auf das Symbol **Fertig stellen** klicken.
 
-**Chcete-li zrušit seskupení skupiny pomocí panelu nástrojů Skupiny**, vyberte skupinu, kterou chcete změnit, a v nabídce panelu nástrojů Skupiny vyberte ikonu **Zrušit seskupení**. Tím zrušíte seskupení aktuálního výběru, ale nezrušíte seskupení vnořených skupin. Případně můžete na panelu nástrojů vybrat možnost **Zrušit seskupení**, vybrat skupinu, kterou chcete změnit, a poté vybrat ikonu **Dokončit**.
+**Um die Gruppierung einer Gruppe im Werkzeugkastenelement Gruppen aufzuheben**, wählen Sie die Gruppe aus, die Sie ändern möchten, und klicken Sie im Werkzeugkastenmenü Gruppen auf das Symbol **Gruppierung aufheben**. Dadurch wird die Gruppierung der aktuellen Auswahl aufgehoben, die Gruppierung verschachtelter Gruppen wird jedoch beibehalten. Alternativ können Sie **Gruppierung aufheben** aus dem Werkzeugkasten auswählen, die zu ändernde Gruppe auswählen und dann das Symbol **Fertig stellen** auswählen.
 
-**Chcete-li zrušit seskupení všech skupin vnořených pod aktuálně vybranou skupinou**, vyberte skupinu s vnořenými skupinami a na panelu nástrojů Skupiny vyberte možnost **Zrušit seskupení všech vnořených**.
+**Um die Gruppierung aller Gruppen, die unterhalb der aktuell ausgewählten Gruppe verschachtelt sind, aufzuheben**, wählen Sie eine Gruppe mit verschachtelten Gruppen und dann **Gruppierung aller Verschachtelten aufheben** aus dem Werkzeugkasten Gruppen aus.
 
-**Chcete-li zrušit seskupení všech skupin v modelu**, vyberte na panelu nástrojů Skupiny možnost **Zrušit seskupení všeho**.
+**Um die Gruppierung aller Gruppen in Ihrem Modell aufzuheben**, wählen Sie das Werkzeug **Gruppierung für alle aufheben** im Werkzeugkasten Gruppen aus.
 
-## Skupiny a aplikace Revit
+## Gruppen und Revit
 
-Pokud jste obeznámeni s **rodinami** aplikace Revit, jste obeznámeni s koncepcí skupin v aplikaci FormIt. Skupiny aplikace FormIt mají funkce, které lze použít k jejich inteligentnímu přenosu do aplikace Revit.
+Wenn Sie mit Revit-**Familien** vertraut sind, kennen Sie das Konzept von Gruppen in FormIt. FormIt-Gruppen verfügen über Funktionen, mit denen Sie sie intelligent in Revit übertragen können.
 
-**Kategorie skupin aplikace FormIt**
+**FormIt-Gruppenkategorien**
 
-V aplikaci FormIt můžete zadat **kategorie** skupin tak, aby se z vašich skupin aplikace FormIt při importu do aplikace Revit staly rodiny stejných kategorií. Ke skupinám aplikace FormIt můžete přiřadit kategorie tak, že vyberete skupinu, přejdete do režimu **úprav skupiny** a pomocí panelu **Vlastnosti** vyberete požadované kategorie. Kategorie můžete také přiřadit na panelu **Strom skupin**.
+Sie können die **Kategorien** für Gruppen in FormIt so festlegen, dass Ihre FormIt-Gruppen beim Importieren in Revit zu Familien derselben Kategorien werden. Sie können Ihren FormIt-Gruppen Kategorien zuweisen, indem Sie eine Gruppe auswählen, den **Gruppenbearbeitungsmodus** aufrufen und im Fenster **Eigenschaften** Kategorien auswählen. Sie können Kategorien auch in der Gruppe **Gruppenstruktur** zuweisen.
 
-**Názvy skupin aplikace FormIt**
+**FormIt-Gruppennamen**
 
-K zadání názvu skupiny aplikace FormIt můžete použít také panel **Vlastnosti**. To může být užitečné při navigaci ve vlastním modelu a při importu modelu do aplikace Revit můžete prvky snadno filtrovat pomocí názvu skupiny.
+Sie können auch die Gruppe **Eigenschaften** verwenden, um einen Namen für Ihre FormIt-Gruppe anzugeben. Dies kann beim Navigieren in Ihrem eigenen Modell hilfreich sein. Wenn Sie Ihr Modell in Revit importieren, können Sie Elemente mithilfe des Namens der Gruppe leicht filtern.
 
-Všimněte si, že **vnořené skupiny v aplikaci FormIt nejsou importovány do aplikace Revit jako vnořené skupiny**. Tím se zabrání hluboce vnořeným rodinám aplikace Revit.
+Beachten Sie, dass **verschachtelte Gruppen in FormIt nicht als verschachtelte Gruppen in Revit importiert werden**. Dadurch werden stark verschachtelte Revit-Familien verhindert.
 

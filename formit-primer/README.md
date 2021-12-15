@@ -1,19 +1,19 @@
-# Příručka k aplikaci FormIt
+# FormIt-Einführung
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Obsah
+## Inhalt
 
-\*\*\*\*[**Část I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*obsahuje jeden výukový kurz zaměřený na pracovní postupy, jenž popisuje základní nástroje při modelování slavného domu Farnsworth House a usnadní vám začátky modelování.
+\*\*\*\*[**Teil I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*beinhaltet ein einzelnes Arbeitsablauf-Lernprogramm, in dem die grundlegenden Werkzeuge vorgestellt werden, während das berühmte Farnsworth House Schritt für Schritt modelliert wird, damit Sie noch heute mit dem Modellieren beginnen können.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-\*\*\*\*[**Část II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) se zabývá některými pokročilejšími nástroji a využívá předem modelovaný fiktivní architektonický projekt k seznámení s pokročilými funkcemi modelování, analytickými nástroji a výpočetními nástroji, které vám umožní pracovat s aplikací FormIt na vyšší úrovni.
+\*\*\*\* [**Teil II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) behandelt einige erweiterte Werkzeuge, für die ein vormodelliertes, fiktives Architekturprojekt verwendet wird, sodass Sie erweiterte Modellierungsfunktionen, analytische Werkzeuge und Berechnungswerkzeuge ausprobieren können, damit Sie FormIt auf der nächsten Ebene nutzen können.
 
 ![](../.gitbook/assets/screen1.jpg)
 
-## Autoři
+## Danksagungen
 
-Toto vydání příručky k aplikaci FormIt z roku 2021 je přepracované a rozšířené vydání první příručky, které vzniklo ve spolupráci se společností [EvolveLAB](https://www.evolvelab.io).
+Diese Version 2021 der FormIt-Einführung ist eine Neugestaltung und Erweiterung der ersten Einführung und wurde in Zusammenarbeit mit [EvolveLAB](https://www.evolvelab.io) entwickelt.
 
 [![](<../.gitbook/assets/evolvelab\_logo\_\_horizontal (1).png>)](https://www.evolvelab.io)

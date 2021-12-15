@@ -1,39 +1,39 @@
-# Nastavení projektu
+# Einrichten des Projekts
 
-## Začátek
+## Start
 
-Po spuštění nástroje FormIt se ocitnete ve 3D prostředí. Věnujte trochu času tomu, abyste se naučili [pohybovat ve 3D prostředí](navigating-the-scene.md). Poté začněte vytvářet projekt \([zde zjistíte, jak na to](../formit-primer/)\), otevřete existující projekt aplikace FormIt pomocí nabídky Soubor nebo importujte řadu dalších typů souborů.
+Wenn Sie FormIt starten, befinden Sie sich in einer 3D-Umgebung. Nehmen Sie sich etwas Zeit, um zu lernen, wie Sie [im 3D-Raum navigieren](navigating-the-scene.md). Beginnen Sie dann mit dem Erstellen eines Projekts \([hier erfahren Sie, wie das geht](../formit-primer/)\), verwenden Sie das Menü Datei, um ein vorhandenes FormIt-Projekt zu öffnen, oder importieren Sie eine Reihe anderer Dateitypen.
 
-Aplikace FormIt umožňuje otevírání, ukládání a export do souborů jak místně, tak ve službě BIM 360 Docs. [Používání služby BIM 360 Docs v aplikaci FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) je skvělý způsob sdílení modelů v cloudu.
+FormIt ermöglicht das Öffnen, Speichern und Exportieren von Dateien sowohl lokal als auch in BIM 360 Docs. [Die Verwendung von BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) ist eine hervorragende Möglichkeit für die gemeinsame Nutzung von Modellen in der Cloud.
 
-Když už mluvíme o ukládání, aplikace FormIt [automaticky uloží vaši práci](../tool-library/autosave.md), jakmile začnete provádět změny v modelu. Časté ukládání se stále doporučuje, protože se tím záložní soubor vyčistí a šetří se tak místo.
+Apropos Speichern: FormIt [speichert Ihre Arbeit automatisch](../tool-library/autosave.md), sobald Sie Änderungen am Modell vornehmen. Es wird weiterhin empfohlen, häufig zu speichern, da dadurch die Sicherungsdatei bereinigt und Speicherplatz gespart wird.
 
-## Nastavení aplikace
+## App-Einstellungen
 
-* Jednotky:
+* Einheiten:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * Nastavení této možnosti ovlivní jednotky ve všech nástrojích a importované geometrii, například v aplikaci Dynamo a typech souborů bez jednotek, jako je STL.
+   * Diese Einstellung wirkt sich auf die Einheiten in allen Werkzeugen und in importierter Geometrie aus, z. B. Dynamo und Dateitypen ohne Einheiten wie STL.
 
-* Přichytit k osnově:
-   * Vynutí přichycení nástrojů s body umístění k bodům průsečíku osnovy. Všimněte si, že osnovu můžete ve [vizuálních stylech](../formit-primer/part-i/visual-settings.md) vypnout. Pokud je osnova vypnutá, bude vypnuto také její přichycení.
-* Zobrazit upravitelné kóty:
-   * Vyberte, zda chcete ponechat pole kót viditelná \(pokud chcete kreslit s přesností, doporučujeme tuto možnost ponechat zapnutou\).
-* Skrýt kontext/Zobrazit pouze upravenou skupinu:
-   * Určuje, zda se při úpravě skupiny zobrazí její okolí, nebo ne. Toto nastavení můžete snadno změnit klávesovou zkratkou \(H\). Přepínáním klávesou H při modelování ve skupinách a mimo ně můžete podle potřeby zobrazit skupiny samostatně i v kontextu.
-* Zvýraznění předvýběru:
-   * Ve výchozím nastavení aplikace FormIt objekty „předem vybere“, když nad ně umístíte kurzor myši. To je užitečné, abyste se ujistili, že vyberete právě ten objekt, který chcete vybrat, ale při prezentaci návrhu to může působit rušivě. Pomocí této možnosti nebo klávesové zkratky můžete podle potřeby rychle přepínat mezi zobrazením a skrytím zvýraznění předvýběru. Tuto možnost je nutné povolit, chcete-li používat některé funkce, například [Inteligentní výběr](https://www.youtube.com/watch?v=akLeB1FADt4).
+* Rasterfang:
+   * Erzwingt, dass Werkzeuge mit Platzierungspunkten an Rasterschnittpunkten gefangen werden. Beachten Sie, dass Sie das Raster unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md) deaktivieren können. Wenn das Raster deaktiviert ist, wird auch der Objektfang deaktiviert.
+* Bearbeitbare Bemaßungen anzeigen:
+   * Wählen Sie, ob die Bemaßungsfelder sichtbar bleiben sollen \(es wird empfohlen, diese Option aktiviert zu lassen, wenn Sie mit großer Genauigkeit zeichnen möchten\).
+* Kontext ausblenden/Nur bearbeitete Gruppe anzeigen:
+   * Dies wirkt sich darauf aus, ob beim Bearbeiten einer Gruppe die Umgebung angezeigt wird oder nicht. Sie können diese Einstellung einfach über den Kurzbefehl \(H\) ändern. Wenn Sie beim Modellieren in und außerhalb von Gruppen den Befehl H umschalten, können Sie Gruppen nach Bedarf isoliert und im Kontext anzeigen.
+* Vorauswahl-Hervorhebung:
+   * Vorgabemäßig werden Objekte von FormIt vorausgewählt, wenn Sie den Cursor darüber bewegen. Dies ist nützlich, um sicherzustellen, dass Sie wirklich das Objekt auswählen, das Sie auswählen möchten. Es kann jedoch bei der Präsentation eines Entwurfs störend wirken. Verwenden Sie diese Option oder den Tastaturbefehl, um bei Bedarf schnell zwischen dem Ein- und Ausblenden der Vorauswahl-Hervorhebung zu wechseln. Beachten Sie, dass diese Option aktiviert werden muss, um Funktionen wie die [intelligente Auswahl](https://www.youtube.com/watch?v=akLeB1FADt4) verwenden zu können.
 
-## Režim dotykového ovládání
+## Berührungsmodus
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-Pokud má váš počítač dotykovou obrazovku, můžete použít režim dotykového ovládání ke snadné navigaci v modelu a vytváření geometrie. Pokud používáte také aplikaci FormIt pro iOS, bude vám to povědomé.
+Wenn Ihr Computer über einen Touchscreen verfügt, verwenden Sie den Berührungsmodus, um einfach im Modell zu navigieren und Geometrie zu erstellen. Wenn Sie FormIt auch für iOS verwenden, wird Ihnen dies bekannt vorkommen.
 
-Když je zapnutý režim dotykového ovládání, interakce aplikace FormIt se více podobá aplikaci FormIt na iPadu a nástroje pro navigaci a úpravy jsou přizpůsobeny práci s dotykovým rozhraním. Z tohoto důvodu se při zapnutém režimu dotykového ovládání nedoporučuje používat aplikaci FormIt s myší a klávesnicí.
+Wenn der Berührungsmodus aktiviert ist, ähnelt die Interaktion von FormIt der von FormIt auf dem iPad, da die Navigations- und Bearbeitungswerkzeuge so kalibriert werden, dass sie mit einer Touch-Benutzeroberfläche verwendet werden können. Aus diesem Grund wird bei aktiviertem Berührungsmodus die Verwendung von FormIt mit der Maus und Tastatur nicht empfohlen.
 
-Když je režim dotykového ovládání zapnutý, je zvýrazněný na panelu nástrojů a v levém dolním rohu se zobrazí nápis Režim dotykového ovládání.
+Wenn der Berührungsmodus aktiviert ist, wird dieser im Werkzeugkasten hervorgehoben, und in der linken unteren Ecke des Bildschirms wird ein Berührungsmodus-Banner angezeigt.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

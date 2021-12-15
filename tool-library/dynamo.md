@@ -1,6 +1,6 @@
 # Dynamo
 
-V aplikaci FormIt pro systém Windows verze 17.0 a novějších verzích je integrována aplikace Dynamo, takže můžete spouštět místní grafy aplikace Dynamo a snadno generovat složitou geometrii v aplikaci FormIt.
+In FormIt for Windows v17.0 und höher ist Dynamo integriert, sodass Sie Ihre lokalen Dynamo-Diagramme ausführen können, um komplexe Geometrie in FormIt auf einfache Weise zu generieren.
 
-[Zjistěte, jak aplikace FormIt a Dynamo spolupracují](https://formit.autodesk.com/page/formit-dynamo).
+[Erfahren Sie, wie FormIt und Dynamo funktionieren](https://formit.autodesk.com/page/formit-dynamo).
 

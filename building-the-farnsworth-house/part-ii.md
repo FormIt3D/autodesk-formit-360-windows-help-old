@@ -1,26 +1,26 @@
-# Část II \(již brzy\)
+# Teil II \(demnächst verfügbar\)
 
-## Pokročilé nástroje
+## Zusätzliche Werkzeuge
 
-V **části II** této příručky se budeme zabývat některými pokročilejšími nástroji, které jsou k dispozici v aplikaci FormIt. Prozkoumáme, jak pomocí jednoduchých, ale výkonných nástrojů pro modelování, diagnostiku, analýzu a interoperabilitu upravit a vylepšit níže uvedený model Encode Campus.
+In **Teil II** dieser Einführung werden wir uns mit einigen der erweiterten Werkzeuge beschäftigen, die in FormIt enthalten sind. Wir werden untersuchen, wie Sie mithilfe einfacher und dennoch leistungsstarker Werkzeuge für Modellierung, Diagnose, Analyse und Interoperabilität das unten abgebildete Modell Encode Campus ändern und verbessern können.
 
-Pokud jste s aplikací FormIt dosud nepracovali, doporučujeme začít **částí I**, protože **část II** předpokládá, že již znáte základy aplikace FormIt.
+Wenn Sie FormIt zum ersten Mal verwenden, empfehlen wir, mit **Teil I** zu beginnen, da **Teil II** voraussetzt, dass Sie bereits mit den Grundlagen von FormIt vertraut sind.
 
-Podrobné informace o konkrétních nástrojích, panelech nástrojů, paletách a procesech, které jsou zde popsány, naleznete v částech **Úvod do aplikace FormIt** a **Knihovna nástrojů**.
+Weitere Informationen zu den hier beschriebenen Werkzeugen, Werkzeugkästen, Paletten und Prozessen finden Sie in den Abschnitten **Einführung in FormIt** und **Werkzeugbibliothek**.
 
-![Vzorový model Encode Campus](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
+![Beispielmodell Encode Campus](../.gitbook/assets/encode-campus-sample-model-intro-image.png)
 
-### Předpoklady
+### Voraussetzungen
 
-Před zahájením části II si stáhněte a nainstalujte aplikaci FormIt pro systém Windows pomocí pokynů uvedených v části Úvod do aplikace FormIt: [**Předpoklady a instalace**](../formit-introduction/prerequisites-and-installation.md).
+Bevor Sie mit Teil II beginnen, laden Sie FormIt for Windows herunter, und installieren Sie die Anwendung mithilfe der Anweisungen im Abschnitt Einführung in FormIt unter: [**Voraussetzungen und Installation**](../formit-introduction/prerequisites-and-installation.md).
 
-U většiny kapitol si budete muset stáhnout a použít datový soubor, který naleznete v níže uvedeném odkazu.
+Für die meisten Kapitel müssen Sie auch den Datensatz herunterladen und verwenden, der unter dem folgenden Link zu finden ist.
 
-_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na webových stránkách aplikace_ ****[_**FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Wenn Sie FormIt for Windows nicht ausführen können, kann der größte Teil des Lernprogramms in der kostenlosen_ [_**Web-Anwendung**_](https://formit.autodesk.com/app) _abgeschlossen werden. Weitere Informationen zu FormIt-Versionen und zur Lizenzierung finden Sie auf der_ ****[_**FormIt-Website.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Datová sada
+### Daten
 
-Encode Campus zobrazený výše je fiktivní středně velký víceúčelový projekt zasazený do městského plánu s uspořádanými hladinami, scénami, materiály a dokonce i geometriemi vázanými na upravitelné skripty aplikace Dynamo. Tato datová sada obsahuje dvě verze vzorového modelu Encode Campus: jedna je připravena k tomu, abyste ji mohli ve výukového programu upravovat, a druhá obsahuje dokončenou verzi všeho, co je popsáno v **části II**, takže si ji můžete otevřít a sami prozkoumat očekávané výsledky.
+Der oben abgebildete Encode Campus ist ein fiktives Mehrzweck-Projekt mittlerer Größe auf einem städtischen Grundstück, das organisierte Layer, Szenen, Materialien und sogar Geometrien enthält, die mit bearbeitbaren Dynamo-Live-Skripten verknüpft sind. Dieser Datensatz enthält zwei Versionen des Beispielmodells Encode Campus: eine Version, die im gesamten Lernprogramm von Ihnen bearbeitet werden kann, und eine zweite, die eine fertige Version mit allen Aktionen enthält, die in **Teil II** durchgeführt werden, sodass Sie die das Modell öffnen und die erwarteten Ergebnisse selbst prüfen können.
 
-* **Datové sady k příručce Základy aplikace FormIt, část II**
+* **FormIt Primer Data Sets Part II**
 

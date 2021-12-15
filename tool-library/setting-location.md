@@ -1,99 +1,99 @@
-# Umístění nastavení
+# Festlegen des Standorts
 
-Nastavení umístění projektu na světě je důležité pro přesnost modelu a následných analýz:
+Die Angabe des geografischen Standorts Ihres Projekts ist wichtig für die Genauigkeit Ihres Modells und für Analysen im weiteren Verlauf des Projekts. Dazu zählt Folgendes:
 
-* Umístění slouží k importu satelitního snímku, který lze použít k trasování existujícího pozemku nebo budovy.
-* Umístění slouží k importu 3D terénu, který lze použít k odkazování na topologická data pozemku.
-* Umístění slouží k přesnému určení polohy slunce na obloze, což ovlivňuje výpočet stínů.
-* Umístění slouží k zajištění přesných analytických výpočtů při provádění analýzy slunečního záření a energetické analýzy.
+* Der Standort wird verwendet, um ein Satellitenbild zu importieren, das zum Nachzeichnen eines vorhandenen Grundstücks oder Gebäudes verwendet werden kann.
+* Der Standort wird verwendet, um 3D-Gelände zu importieren, das zum Referenzieren topologischer Daten für ein Grundstück verwendet werden kann.
+* Der Standort wird für die genaue Positionierung der Sonne am Himmel verwendet, was sich auf die Berechnung von Schatten auswirkt.
+* Der Standort wird für die Solar- und Energieanalyse verwendet, um genaue analytische Berechnungen zu ermöglichen.
 
-Pro přístup k dialogu Nastavit umístění a jeho službám musíte být přihlášeni pomocí účtu Autodesk.
+Sie müssen sich mit Ihrem Konto bei Autodesk Account anmelden, um auf das Dialogfeld Standort festlegen und die zugehörigen Dienste zuzugreifen.
 
-### Začínáme s umístěním
+### Erste Schritte mit Standort
 
-* Otevřete dialog **Nastavit umístění** pomocí nástroje **Umístění** na panelu nástrojů nebo pomocí klávesové zkratky SL.
+* Öffnen Sie das Dialogfeld **Standort festlegen** über das Werkzeug **Standort** im Werkzeugkasten oder über den Tastaturbefehl SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Začněte zadávat umístění projektu do vyhledávacího pole v levém horním rohu okna _Nastavit umístění_.
+* Beginnen Sie, indem Sie den Standort des Projekts in das Suchfeld in der oberen linken Ecke des Fensters _Standort festlegen_ eingeben.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Vyberte jednu z automaticky vyplňovaných možností umístění nebo stisknutím klávesy Enter vyberte první možnost.
-* Vyhledané umístění se automaticky přiblíží.
+* Wählen Sie eine der Optionen für die automatische Angabe der Standortdaten, oder drücken Sie die EINGABETASTE, um die erste Option zu wählen.
+* Der gesuchte Standort wird automatisch vergrößert.
 
-### Nastavení pouze umístění vs. import satelitního obrázku a terénu
+### Nur Standort festlegen im Vergleich mit Satellitenbilder und Gelände importieren
 
-Po vyhledání umístění si můžete vybrat jednu ze dvou možností:
+Nachdem Sie nach einem Standort gesucht haben, können Sie eine von zwei Optionen wählen:
 
-* **Nastavit pouze umístění**: Nastaví umístění v souboru bez importu satelitního snímku.
-* **Importovat satelitní snímek a terén**: Nastaví umístění a také importuje satelitní snímek a terén s použitím úrovně přiblížení a rozsahu, které lze konfigurovat.
+* **Nur Standort festlegen** legt den Standort in der Datei fest, ohne Satellitenbilder zu importieren.
+* **Satellitenbilder und Gelände importieren** legt den Standort fest und importiert außerdem Satellitenbilder und Geländedaten mit einem Zoomfaktor und Grenzen, die Sie konfigurieren können.
 
-### Import satelitních snímků
+### Importieren von Satellitenbildern
 
-* V pravé horní části okna **Nastavit umístění** klikněte na možnost **Importovat satelitní snímek a terén**.
-* Ve středu okna se zobrazí náhled satelitního snímku a údaj o tom, kde se vzhledem ke snímku zobrazí počáteční bod aplikace FormIt.
+* Klicken Sie auf **Satellitenbilder und Gelände importieren** oben rechts im Fenster **Standort festlegen**.
+* Eine Vorschau der Satellitenbilder wird in der Mitte des Fensters angezeigt, zusammen mit einem Hinweis darauf, wo der FormIt-Ursprung relativ zu den Bildern angezeigt wird.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Přetažením satelitního snímku v rámci čtverce upravte jeho polohu.
-* Jakmile čtvercová oblast obsahuje požadovaný snímek, klikněte na tlačítko **Dokončit import**.
-* Snímek bude importován ve správném měřítku se skutečným severem směrem nahoru a bude vystředěn na počátek kreslicí plochy aplikace FormIt. Průhlednost a pořadí vykreslování importovaného snímku můžete změnit tak, že na něj dvakrát kliknete a přejdete do [**palety Vlastnosti**](../formit-introduction/tool-bars.md).
+* Ziehen Sie die Satellitenbilder innerhalb des Quadrats, um ihre Position anzupassen.
+* Wenn sich die gewünschten Bilder innerhalb der quadratischen Fläche befinden, klicken Sie auf **Import beenden**.
+* Das Bild wird maßstabsgetreu mit dem geografischen Norden nach oben und zentriert am Ursprung des FormIt-Ansichtsbereichs importiert. Sie können die Transparenz und Z-Reihenfolge des importierten Bildes ändern, indem Sie darauf doppelklicken und die [**Eigenschaftenpalette**](../formit-introduction/tool-bars.md) verwenden.
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Aktualizace satelitního snímku
+### Aktualisieren von Satellitenbildern
 
-Po prvním importu satelitního snímku můžete v okně Nastavit umístění upravit úroveň přiblížení nebo rozsah satelitního snímku.
+Nachdem Sie Satellitenbilder erstmalig importiert haben, können Sie im Fenster Standort festlegen den Zoomfaktor oder die Grenzen der Satellitenbilder anpassen.
 
-* Znovu otevřete okno **Nastavit umístění** z panelu nástrojů, jak je popsáno výše.
-* Klikněte na tlačítko **Importovat satelitní snímek a terén**
-* Zobrazí se aktuální úroveň přiblížení a rozsah satelitního snímku, jak je znázorněno na kreslicí ploše aplikace FormIt.
-* Nyní stačí upravit polohu nebo přiblížení a kliknout na tlačítko **Dokončit import**, stejně jako předtím.
-* Po novém importu snímku na kreslicí plochu se snímek přesune do správného umístění vzhledem k původní poloze obrázku \(již nemusí být vystředěn v počátku\):
+* Starten Sie das Fenster **Standort festlegen** erneut, indem Sie es wie oben beschrieben über den Werkzeugkasten aufrufen.
+* Klicken Sie auf **Satellitenbilder und Gelände importieren**
+* Sie sehen den aktuellen Zoomfaktor und die Grenzen des Satellitenbilds, wie im FormIt-Ansichtsbereich dargestellt.
+* Passen Sie einfach die Position an, oder zoomen Sie, und klicken Sie wie zuvor auf **Import beenden**.
+* Wenn das Bild wieder in den Ansichtsbereich importiert wird, wird es an die richtige Position relativ zur ursprünglichen Bildposition verschoben \(und ist möglicherweise nicht mehr am Ursprung zentriert\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Import terénu
+### Importieren von Gelände
 
-Nově se v aplikaci FormIt 2021.3 při importu satelitních snímků pomocí dialogu **Nastavit umístění** importuje také terén.
+Neu in FormIt 2021.3 ist, dass Sie auch Geländedaten erhalten, wenn Sie das Dialogfeld **Standort festlegen** verwenden, um Satellitenbilder zu importieren.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Terén je při importu umístěn na hladině, která je ve výchozím nastavení vypnutá \(v případě, že jste začali modelovat, by model mohl být zakrytý terénem\).
+Wenn Geländedaten importiert werden, werden diese auf einem Layer platziert, der vorgabemäßig deaktiviert ist \(falls Sie schon mit dem Modellieren begonnen haben, wird Ihr Modell möglicherweise vom Gelände überdeckt\).
 
-Když budete připraveni zobrazit terén, zapněte hladinu Terén zaškrtnutím políčka:
+Wenn Sie bereit sind, das Gelände anzuzeigen, aktivieren Sie das Kontrollkästchen, um den Gelände-Layer anzuzeigen:
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Práce s terénem
+### Arbeiten mit Geländedaten
 
-Terén bude umístěn do skupiny aplikace FormIt. Dvakrát klikněte na skupinu, abyste ji mohli upravit.
+Geländedaten werden in eine FormIt-Gruppe eingefügt. Doppelklicken Sie auf die Gruppe, um sie zu bearbeiten.
 
-Uvnitř najdete dvě sítě: jednu pro strany a dolní část a jednu pro horní část.
+Darin finden Sie zwei Netze: eines für die Seiten und die Unterseite und eines für die Oberseite.
 
-Pokud chcete upravit terén, je nutné převést sítě na jeden objekt tělesa:
+Wenn Sie das Gelände ändern möchten, müssen Sie die Netze in ein einzelnes Volumenkörperobjekt umwandeln:
 
-* Vyberte obě sítě.
-* Klikněte pravým tlačítkem a vyberte možnost Sítě na objekty nebo použijte klávesovou zkratku MO.
+* Wählen Sie beide Netze aus.
+* Klicken Sie mit der rechten Maustaste, und wählen Sie die Option Netze in Objekte, oder verwenden Sie den Kurzbefehl MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-Při současném převodu obou sítí na objekt je aplikace FormIt může zkombinovat do tělesa, rozloženého objektu, který lze použít k operacím s tělesy, jako je booleovský řez.
+Wenn beide Netze gleichzeitig in ein Objekt konvertiert werden, kann FormIt sie zu einem bündigen Volumenkörperobjekt kombinieren, das für Volumenkörperoperationen wie die Boolesche Operation Ausschneiden verwendet werden kann.
 
-Zde můžete pomocí kombinace možností [Horní pohled](orthographic-views.md) a [Ortografická kamera](orthographic-camera.md) trasovat hranice pozemku v horizontální rovině a poté tuto rovinu vysunout do objemu, který protíná terén. Použití průhledného [materiálu](materials.md) pomáhá zobrazit terén skrz ořezávané těleso:
+Hier können Sie eine Kombination aus [Draufsicht](orthographic-views.md) und [orthogonaler Kamera](orthographic-camera.md) verwenden, um die Grundstücksgrenze auf einer horizontalen Ebene nachzuzeichnen, und dann diese Ebene in ein Volumen extrudieren, das das Gelände schneidet. Die Verwendung eines transparenten [Materials](materials.md) hilft Ihnen dabei, das Gelände durch den Schnittvolumenkörper zu sehen:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Použijte nástroj Oříznout geometrii a vyberte terén jako „těleso, do kterého má být proveden řez“, a objem řezání jako „těleso, které má být odebráno“.
+Verwenden Sie das Werkzeug Geometrie ausschneiden, und wählen Sie unter Zu schneidenden Volumenkörper auswählen das Gelände und als Volumenkörper, der entfernt werden soll, das Schnittvolumen aus.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-Výsledkem bude terén s odebraným tělesem a prázdným místem, kam můžete nakreslit nový pozemek a základy.
+Das Ergebnis ist das Gelände, aus dem der Schnittvolumenkörper entfernt wurde, sodass ein Abzugskörper entsteht, in dem Sie das neue Grundstück und das neue Fundament zeichnen können.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-Pomocí [hladin](layers.md) můžete těleso oříznutí skrýt nebo dokonce vytvořit kopie terénu s řezem a bez něj pro případ, že byste potřebovali odkazovat na původní terén nebo změnit tvar řezu před provedením operace řezu objemovým tělesem.
+Sie können [Layer](layers.md) verwenden, um den Schnittvolumenkörper auszublenden oder sogar Kopien des Geländes mit und ohne Schnitt zu erstellen, falls Sie das ursprüngliche Gelände referenzieren müssen, oder Sie können die Schnittform ändern, bevor Sie den Volumenkörperschnitt ausführen.
 

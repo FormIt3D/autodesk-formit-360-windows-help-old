@@ -1,28 +1,30 @@
-# Globální osy
+# Weltachsen
 
-Výchozí souřadnicový systém a osnovu lze upravit změnou globální osy.
+Das vorgegebene Koordinatensystem und sein Raster können durch Ändern der Weltachse bearbeitet werden.
 
-## Kreslení a modelování pomocí os
+## Zeichnen und Modellieren mit Achsen
 
-Když je v aplikaci FormIt otevřen prázdný náčrt, zobrazí se ve středu obrazovky globální osy jako tři čáry (červená, zelená a modrá). Tyto tři čáry definují tři kartézské směry, které definují 3D svět. Směr X je definován červenou čárou, směr Y zelenou čárou a směr Z (neboli nahoru) modrou čárou.
+Beim Öffnen einer leeren Skizze in FormIt werden die Weltachsen in Form dreier Linien (rot, grün, blau) in der Mitte des Bildschirms angezeigt. Diese drei Linien markieren die drei kartesischen Richtungen, die die 3D-Welt definieren. Die X-Richtung wird durch die rote, die Y-Richtung durch die grüne und die Z-Richtung (nach oben) durch die blaue Linie definiert.
 
 ![](../.gitbook/assets/axis.png)
 
-Chcete-li osnovu otočit a znovu definovat počáteční bod náčrtu, **klikněte pravým tlačítkem** na prázdné místo ve scéně a v místní nabídce vyberte ikonu **Nastavit osy \(SZ\)**.   ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
+Um das Raster zu drehen und den Ursprungspunkt für die Skizze neu zu definieren, **klicken Sie mit der rechten Maustaste** auf eine leere Stelle in der Szene und wählen das Symbol **Achsen festlegen \(SZ\)** aus dem Kontextmenü.  
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-Zobrazí se pomůcka Nastavit osy. Kliknutím na velký uzel uprostřed pomůcku vyberte. Dalším kliknutím nastavte bod počátku. Nyní kliknutím na tečku na červené ose otočte osnovu nebo kliknutím na tečku na modré ose vertikálně otočte rovinu osnovy. Kliknutím do prostoru potvrďte změnu.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+Das Widget Achsen festlegen wird angezeigt. Klicken Sie auf den großen Griff in der Mitte, um das Widget aufzurufen. Klicken Sie erneut, um den Ursprungspunkt festzulegen. Klicken Sie nun auf den Punkt auf der roten Achse, um das Raster zu drehen, oder klicken Sie auf den Punkt auf den blauen Achsen, um die Rasterebene vertikal zu schwenken. Klicken Sie in den Raum, um die Änderung zu bestätigen.  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-Chcete-li **obnovit** výchozí nastavení počátku a osnovy, klikněte pravým tlačítkem myši na prázdné místo ve scéně a vyberte možnost **Obnovit osy \(RZ\)**.
+Um den Ursprung und das Raster auf die Vorgabeeinstellungen **zurückzusetzen**, klicken Sie mit der rechten Maustaste auf eine leere Stelle in der Szene und wählen **Achsen zurücksetzen \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Globální osy a místní osy
+## Weltachsen und lokale Achsen
 
-Výše uvedený postup vysvětluje, jak řídit **globální souřadnicový systém** náčrtu. Když začnete pracovat se [**skupinami**](groups.md), můžete řídit **místní souřadnicový systém** této skupiny jedinečně z celkového náčrtu. Při úpravách skupiny můžete upravovat místní souřadnicový systém podle stejných kroků jako výše – tyto změny se však budou týkat pouze dané skupiny.
+Die oben beschriebenen Schritte erläutern, wie Sie das **globale Koordinatensystem** Ihrer Skizze steuern. Wenn Sie mit der Arbeit mit [**Gruppen** ](groups.md)beginnen, können Sie das **lokale Koordinatensystem** dieser Gruppe direkt über die Gesamtskizze steuern. Wenn Sie eine Gruppe bearbeiten, können Sie das lokale Koordinatensystem bearbeiten, indem Sie die gleichen Schritte wie oben ausführen. Diese Änderungen werden jedoch nur auf diese Gruppe angewendet.
 
-## Interakce s osami
+## Interaktionen mit Achsen
 
-* Při práci s nástroji náčrtu se zobrazí **červené, zelené a modré osy**, které slouží jako vodítko pro 3D kreslení. 
-* **Fialová osa** zobrazuje kolmou a rovnoběžnou osu vzhledem k čarám nakresleným pod úhlem.
-* Podržením **klávesy Shift** při kreslení nebo posouvání se **uzamkne aktuální osa**.
+* Die **roten, grünen und blauen Achsen** werden als Orientierung für das 3D-Skizzieren angezeigt, wenn Sie sich in den Skizzierwerkzeugen befinden.
+* Die **violette Achse** zeigt eine lotrechte und parallele Achse relativ zu Linien an, die in einem Winkel gezeichnet wurden.
+* Halten Sie beim Skizzieren oder Verschieben die **UMSCHALTTASTE** gedrückt, um Operationen auf die **aktuelle Achse zu beschränken**.
 

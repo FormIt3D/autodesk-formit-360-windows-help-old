@@ -1,93 +1,93 @@
-# 1.2 – Nastavení projektu pomocí obrázků a osnovy
+# 1.2 – Projekteinrichtung mit Bildern und Raster
 
-_Výběrem možnosti Soubor > Importovat na panelu Navigace můžete do základní roviny modelu importovat obrázky PNG nebo JPG. Chcete-li však získat větší kontrolu nad měřítkem a umístěním importovaného obrázku, můžete vytvořit vlastní materiál a použít jej na obdélník, který jste sami nakreslili._
+_Sie können PNG- oder JPG-Bilder auf die Grundplatte des Modells importieren, indem Sie in der Navigationsleiste Datei &gt; Importieren auswählen. Um jedoch die Kontrolle über den Maßstab und die Position eines importierten Bilds zu erhalten, können Sie ein benutzerdefiniertes Material erstellen und es auf ein selbst gezeichnetes Rechteck anwenden._
 
-_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.2 – Project Set Up with Images and Grid.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.2 – Project Setup with Images and Grid.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Výpočet velikost obrázku**
+## **Berechnen der Bildgröße**
 
-Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o rozměrech 24" x 26", který je široký 3 600 pixelů a vysoký 2 400 pixelů. Když znáte měřítko výkresu \(¼"=1'-0"\) a rozměry obrázku, můžete vypočítat, že 1’ = 25 pixelů, což znamená, že obrázek by měl mít po importu do aplikace FormIt v plném měřítku rozměry 144' x 96'.
+Die bereitgestellte Datei **plan.png** ist ein Bild eines Plans, der auf einem Blatt mit den Maßen 24'' x 26'' \(ARCH D\) gedruckt wurde, das 3600 Pixel breit und 2400 Pixel hoch ist. Wenn Sie den Zeichnungsmaßstab \(¼" = 1'-0"\) und die Bildabmessungen kennen, können Sie berechnen, dass 1' = 25 Pixel, d. h., das Bild sollte beim Import in FormIt im vollen Maßstab 144' x 96' betragen.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import obrázku v měřítku**
+## **Maßstabsgetreues Importieren eines Bilds**
 
-1 – Kliknutím na ikonu **Horní pohled** na **plovoucím panelu nástrojů Navigace** zobrazte scénu shora.
+1 – Klicken Sie in der **verschiebbaren Navigationsleiste** auf das Symbol **Draufsicht**, um die Szene von oben anzuzeigen.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 – Na panelu nástrojů 3D náčrt vyberte nástroj **Obdélník \(R\)**.
+2 – Wählen Sie im Werkzeugkasten 3D-Skizze das **Werkzeug Rechteck \(R\)**.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – Chcete-li vytvořit obdélník o rozměrech přesně **144’** x **96’**, kliknutím kdekoli v pracovním prostoru definujte počáteční bod a poté pohybem myši zobrazte náhled a zadejte délku první strany. Začněte zadávat hodnotu kóty, čímž se zobrazí dialog, do kterého můžete zadat přesnou kótu. Kliknutím na tlačítko **OK** nebo stisknutím klávesy **Enter** potvrďte kótu. Opakujte postup, nastavte délku druhé strany a dokončete obdélník.
+3 – Um ein Rechteck zu erstellen, das genau **144'** x **96'** entspricht, klicken Sie auf eine beliebige Stelle im Arbeitsbereich, um den Startpunkt zu definieren, und bewegen Sie dann die Maus, um eine Vorschau anzuzeigen und die erste Seitenlänge zu definieren. Beginnen Sie mit der Eingabe eines Bemaßungswerts, um ein Dialogfeld zu öffnen, in dem Sie die genaue Bemaßung eingeben können. Klicken Sie auf **OK**, oder drücken Sie die **EINGABETASTE**, um die Bemaßung zu bestätigen. Wiederholen Sie den Vorgang, um die Länge der zweiten Seite festzulegen und das Rechteck fertigzustellen.
 
-![Zadejte délku pro první stranu obdélníku.](../../.gitbook/assets/3%20%281%29.png)
+![ Geben Sie die Länge für die erste Seite des Rechtecks ein.](../../.gitbook/assets/3%20%281%29.png)
 
-![Zadejte délku pro druhou stranu obdélníku.](../../.gitbook/assets/4%20%281%29.png)
+![Geben Sie die Länge für die zweite Seite des Rechtecks ein.](../../.gitbook/assets/4%20%281%29.png)
 
-![Dokončete obdélník.](../../.gitbook/assets/5%20%281%29.png)
+![Stellen Sie das Rechteck fertig.](../../.gitbook/assets/5%20%281%29.png)
 
-4 – Vytvoření nového materiálu „Půdorys podlaží“:
+4 – So erstellen Sie das neue Material Floor Plan
 
-1. Otevřete **paletu Materiál**.
-2. Kliknutím na ikonu **+** vytvořte nový materiál.
-3. Pojmenujte nový materiál jako **Půdorys podlaží**
-4. V části **MAPY** klikněte na dlaždici náhledu **Textura** a přejděte k souboru **plan.png** ve složce **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Poté klikněte na tlačítko **Otevřít**.
-5. V části **VLASTNOSTI** změňte měřítko obrázku zadáním hodnoty **144'** do pole **Horizontální měřítko** a **96'** do pole **Vertikální měřítko**. Všimněte si, že k vložení hodnot, které mění poměr stran obrázku, může být nutné odemknout horizontální a vertikální měřítko \(ikona **řetězu**\).
-6. Zaškrtněte políčko **Průhlednost** a nastavte hodnotu přibližně na polovinu rozsahu. To usnadní zarovnání importovaného obrázku půdorysu podlaží se satelitním snímkem.
-7. Kliknutím na tlačítko **OK** dokončete materiál.
+1. Öffnen Sie die **Palette Material**.
+2. Klicken Sie auf das **+**-Symbol, um ein neues Material zu erstellen.
+3. Nennen Sie das neue Material **Floor Plan**
+4. Klicken Sie unter **MAPS** auf die Vorschaukachel **Textur**, und navigieren Sie im Ordner **Farnsworth House Data Set &gt; Supporting Files &gt; Images** zu **plan.png**. Klicken Sie dann auf **Öffnen**.
+5. Ändern Sie unter **EIGENSCHAFTEN** den Maßstab des Bilds, indem Sie **144'** in das Feld **Horizontaler Maßstab** und **96'** in das Feld **Vertikaler Maßstab** eingeben. Beachten Sie, dass möglicherweise eine Entsperrung des horizontalen und vertikalen Maßstabs \(**Kettenglied**-Symbol\) erforderlich ist, um Werte einzufügen, mit denen die Bildproportionen geändert werden können.
+6. Aktivieren Sie **Transparenz**, und setzen Sie diese auf ungefähr die Hälfte. Dadurch wird das importierte Grundrissbild am Satellitenbild ausgerichtet.
+7. Klicken Sie zum Schließen des Materials auf **OK**.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 – Vykreslení obdélníku:
+5 – So versehen Sie das Rechteck mit einem Material
 
-1. Na **paletě Materiál** klikněte na dlaždici **materiálu Půdorys podlaží**,abyste tímto materiálem mohli malovat.
-2. Kliknutím na načrtnutý obdélník jej vykreslete. Stisknutím klávesy **ESC** ukončete nástroj Štětec.
+1. Klicken Sie in der **Palette Material** auf die Kachel des **Grundrissmaterials**, um dieses Material zu verwenden.
+2. Klicken Sie auf das skizzierte Rechteck, um es mit dem Material zu versehen. Drücken Sie **ESC**, um das Malpinsel-Werkzeug zu beenden.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 – Pokud se materiál zobrazuje převrácený nebo obrácený, bude nutné obrátit plochu. To provedete tak, že kliknutím pravým tlačítkem myši zobrazíte **místní nabídku** a vyberete tlačítko Obrátit plochu \(FF\).
+6 – Wenn das Material invertiert oder rückwärts angezeigt wird, müssen Sie möglicherweise die Fläche umkehren. Klicken Sie dazu mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie die Schaltfläche Fläche umkehren \(FF\) aus.
 
 ![](../../.gitbook/assets/8.png)
 
-## **Zarovnání importovaného obrázku se satelitním snímkem**
+## **Ausrichten des importierten Bilds am Satellitenbild**
 
-1 – Chcete-li obrázek přesunout, vyberte nejprve obdélník tím, že na něj dvakrát kliknete. Poté klikněte na obdélník a přesuňte jej, dokud nepřekryje budovu na satelitním snímku. K dokonalému zarovnání se vrátíme později, teď se jen snažte, aby to bylo co nejblíže.
+1 – Um das Bild zu verschieben, wählen Sie zunächst das Rechteck durch Doppelklicken aus. Klicken Sie dann auf das Rechteck, und ziehen Sie es, bis es das Gebäude im Satellitenbild überlappt. Sie werden es später noch optimal ausrichten. Versuchen Sie vorerst nur, es ungefähr richtig zu positionieren.
 
 ![](../../.gitbook/assets/9.png)
 
-2 – Otočení obdélníku tak, aby byl zarovnán se satelitním snímkem:
+2 – So drehen Sie das Rechteck, um es am Satellitenbild auszurichten
 
-1. Kliknutím pravým tlačítkem myši na obdélník zobrazte místní nabídku. Vyberte možnost **Otočit \(Q\)**
-2. Uprostřed obdélníku se zobrazí **pomůcka pro otočení**. Vyberte pomůcku kliknutím na oranžový uzel uprostřed. Přesuňte pomůcku do levého dolního rohu obdélníku. Pomůcka se přichytí k rohu. Kliknutím ji umístěte.
-3. Zadejte hodnotu **9**. Zobrazí se pole kóty. Kliknutím na tlačítko **OK** otočte obdélník o 9 stupňů proti směru hodinových ručiček.
+1. Klicken Sie mit der rechten Maustaste auf das Rechteck, um das Kontextmenü aufzurufen. Wählen Sie **Drehen \(Q\).**
+2. Das **Drehen-Widget** wird in der Mitte des Rechtecks angezeigt. Wählen Sie das Widget aus, indem Sie einmal auf den orangefarbenen Griff in der Mitte klicken. Verschieben Sie das Widget in die untere linke Ecke des Rechtecks. Es wird an der Ecke gefangen. Positionieren Sie es per Mausklick.
+3. Geben Sie **9** ein. Daraufhin wird das Bemaßungsfeld angezeigt. Klicken Sie auf **OK**, um das Rechteck um 9 Grad gegen den Uhrzeigersinn zu drehen.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Zarovnání osnovy se satelitním snímkem**
+## **Ausrichten des Rasters am Satellitenbild**
 
-1 – Nyní zarovnáme osnovu se satelitním snímkem a půdorysem podlaží. Klikněte pravým tlačítkem myši kamkoli na **základní rovinu** a vyberte možnost **Nastavit osy \(SZ\)**.
+1 – Jetzt richten Sie das Raster am Satellitenbild und am Grundriss aus. Klicken Sie mit der rechten Maustaste auf eine beliebige Stelle auf der **Grundplatte**, und wählen Sie **Achsen festlegen (SZ)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – Zobrazí se pomůcka pro **nastavení os**. Přesuňte osu do levého dolního rohu obdélníku, kde by se měla přichytit. Kliknutím ji umístěte.
+2 – Das Widget **Achse festlegen** wird angezeigt. Verschieben Sie die Achse in die untere linke Ecke des Rechtecks, wo sie gefangen werden soll. Positionieren Sie sie per Mausklick.
 
 ![](../../.gitbook/assets/13.png)
 
-3 – Klikněte na uzel na konci červené osy. Přesuňte uzel do pravého dolního rohu obdélníku tak, aby se červená osa zarovnala s dolní hranou roviny. Kliknutím na volné místo  potvrďte změnu.
+3 – Klicken Sie auf den Griff am Ende der roten Achse. Verschieben Sie den Griff in die untere rechte Ecke des Rechtecks, sodass die rote Achse an der unteren Kante der Ebene ausgerichtet ist. Klicken Sie in den Raum, um diese Änderung zu übernehmen.
 
 ![](../../.gitbook/assets/14.png)
 
-4 – Chcete-li zarovnat pohled s novou osnovou, obnovte scénu kliknutím na ikonu Horní pohled na panelu Navigace.
+4 – Um die Ansicht am neuen Raster auszurichten, klicken Sie in der Navigationsleiste auf das Symbol für die Draufsicht, um die Szene zurückzusetzen.
 
 ![](../../.gitbook/assets/15.png)
 
-5 – Chcete-li zajistit, aby se budova na obou snímcích překrývala, vyberte půdorys a znovu jej přesuňte, dokud se nebude správně překrývat se satelitním snímkem.
+5 – Um sicherzustellen, dass das Gebäude in beiden Bildern überlappt, wählen Sie den Plan aus, um ihn erneut zu verschieben, bis er das Satellitenbild korrekt überlappt.
 
 ![](../../.gitbook/assets/16.png)
 
-6 – Satelitní snímek, obdélník a osnova jsou nyní zarovnány, což usnadní 3D kreslení.
+6 – Das Satellitenbild, das Rechteck und das Raster sind jetzt ausgerichtet, was die 3D-Skizzierung vereinfacht.
 

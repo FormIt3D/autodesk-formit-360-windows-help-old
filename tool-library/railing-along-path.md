@@ -1,81 +1,81 @@
-# Skript Railing Along Path
+# Railing Along Path (Geländer entlang Pfad)
 
-## Používá technologii aplikace Dynamo
+## Powered by Dynamo
 
-V aplikaci FormIt 2021 a novějších verzích můžete vygenerovat zábradlí podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Railing Along Path používá technologii aplikace Dynamo, což znamená, že výsledné zábradlí lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
+In FormIt 2021 und höher können Sie ein Geländer entlang eines Pfads erstellen und die Ergebnisse sofort und direkt anpassen. Railing Along Path (Geländer entlang Pfad) wird von Dynamo unterstützt, d. h., das resultierende Geländer kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## Spuštění skriptu Railing Along Path
+## Starten von Railing Along Path (Geländer entlang Pfad)
 
-* V aplikaci FormIt pro systém Windows přejděte na panel aplikace Dynamo a ujistěte se, že se nacházíte v adresáři Dynamo Samples.
-* Klikněte na ukázku Railing Along Path.
-* Na levé straně obrazovky se zobrazí výzva k výběru trajektorie pro zábradlí.
-   * Měli byste vybrat pouze řadu přilehlých hran nebo skupinu obsahující pouze řadu přilehlých hran.
-   * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter/Return.
-* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt zábradlí vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
+* Wechseln Sie zur Gruppe Dynamo in FormIt for Windows, und stellen Sie sicher, dass Sie sich im Verzeichnis Dynamo Samples (Dynamo-Beispiele) befinden.
+* Klicken Sie auf das Beispiel für Railing Along Path (Geländer entlang Pfad).
+* Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen des Pfads für das Geländer angezeigt.
+   * Sie sollten nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die nur eine Reihe von Kanten enthält, auswählen.
+   * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
+* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird ein in Dynamo generiertes Geländer in einer FormIt-Gruppe angezeigt, das Sie bearbeiten können \(siehe unten\).
 
-## Iterace na místě
+## Erstellen von Iterationen an Ort und Stelle
 
-Po spuštění skriptu Railing Along Path uvidíte, že jeho výsledky jsou nastaveny na výchozí hodnoty. Možná vám vyhovují, ale zábradlí si můžete výrazně přizpůsobit svým potřebám.
+Nachdem Sie Railing Along Path (Geländer entlang Pfad) ausgeführt haben, werden Sie feststellen, dass die Ergebnisse auf die Vorgabewerte eingestellt sind. Diese Einstellungen sind möglicherweise für Sie geeignet. Sie können das Geländer aber auch umfassend an Ihre Anforderungen anpassen.
 
-Při spuštění skriptu Railing Along Path se vytvoří nová skupina obsahující výsledky a aplikace FormIt automaticky vybere skupinu a zobrazí dostupné možnosti pro danou instanci skriptu Railing Along Path.
+Wenn Railing Along Path (Geländer entlang Pfad) ausgeführt wird, wird eine neue Gruppe mit den Ergebnissen erstellt. FormIt wählt dann automatisch die Gruppe aus und zeigt die verfügbaren Optionen für dieses Exemplar von Railing Along Path (Geländer entlang Pfad) an.
 
-K vlastnostem skriptu Railing Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
+Sie können jederzeit zu den Eigenschaften für Railing Along Path (Geländer entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Properties (Eigenschaften) angezeigt werden.
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height
+### Railing Height (Geländerhöhe)
 
-Celková výška zábradlí. Použijí se aktuální jednotky aplikace FormIt.
+Die Gesamthöhe des Geländers. Verwendet die aktuellen FormIt-Einheiten.
 
-### Post Spacing
+### Post Spacing (Pfostenabstand)
 
-Rozteč mezi hlavními vertikálními sloupky. Použijí se aktuální jednotky aplikace FormIt.
+Der Abstand zwischen den vertikalen Hauptpfosten. Verwendet die aktuellen FormIt-Einheiten.
 
-### Add Posts at Path Vertices
+### Add Posts at Path Vertices (Hinzufügen von Pfosten an Pfadscheitelpunkten)
 
-Pokud je nastavena hodnota **True**, budou sloupky přidány v každé vrcholu vybrané trajektorie a výpočet pro umístění dalšího sloupku se v tomto bodě obnoví.
+Wenn **True**, werden an jedem Scheitelpunkt des ausgewählten Pfads Pfosten hinzugefügt, und die Berechnung für die nächste Pfostenpositionierung wird an diesem Punkt zurückgesetzt.
 
-Jestliže jste například vybrali řadu 3 hran, bude se sloupek zobrazovat v každém ze dvou vnitřních bodů. To je užitečné, pokud vrcholy označují změnu směru \(například chůze do schodů nebo zatáčka\), kde by se přirozeně vyskytoval sloupek.
+Wenn Sie beispielsweise eine Reihe von drei Kanten ausgewählt haben, wird an jedem der beiden inneren Punkte ein Pfosten angezeigt. Dies ist nützlich, wenn die Scheitelpunkte eine Richtungsänderung \(z. B. Treppensteigen oder um die Ecke biegen\) an Stellen angeben, an denen natürlicherweise ein Pfosten auftreten würde.
 
-Pokud je nastavena hodnota **False**, sloupky se přidají pouze podél trajektorie počínaje od jednoho konce a budou měřit vzdálenost podél trajektorie, přičemž budou ignorovat vrcholy podél trajektorie. To je užitečné, pokud jste vybrali oblouk, spline nebo kružnici, kde vrcholy nejsou důležité a chcete, aby je rozteč sloupků ignorovala.
+Wenn **False**, werden Pfosten nur entlang des Pfads hinzugefügt. Dabei wird an einem Ende begonnen, und die Entfernung entlang des Pfads wird gemessen. Dabei werden Scheitelpunkte entlang des Pfads ignoriert. Dies ist hilfreich, wenn Sie einen Bogen, Spline oder Kreis ausgewählt haben, bei dem die Scheitelpunkte nicht von Bedeutung sind und vom Pfostenabstand ignoriert werden sollen.
 
-### Reverse Path Direction
+### Reverse Path Direction (Pfadrichtung umkehren)
 
-Při výpočtu umístění sloupků bude směr vybrané trajektorie určovat, na kterém konci trajektorie začne měření rozteče sloupků.
+Bei der Berechnung der Positionierung der Pfosten bestimmt die Richtung des ausgewählten Pfads, an welchem Ende des Pfads die Abstandsmessung für die Pfosten beginnt.
 
-V případech, kdy rozteč sloupků vytváří zbývající prostor na nežádoucím konci trajektorie, můžete tuto hodnotu změnit na hodnotu **True**, čímž se křivka převrátí a měření rozteče sloupků začne na opačném konci.
+In Fällen, in denen der Abstand der Pfosten zu einem verbleibendem Abstand an einem unerwünschten Ende des Pfads führt, können Sie diesen Wert in **True** ändern, um die Kurve umzukehren, und die Messung des Pfostenabstands am gegenüberliegenden Ende beginnen.
 
-### Post Width + Depth
+### Post Width + Depth (Pfostenbreite und -tiefe)
 
-Velikost \(v půdorysu\) obdélníkových svislých profilů sloupků. Použijí se aktuální jednotky aplikace FormIt.
+Die Größe \(in der Draufsicht\) der rechteckigen vertikalen Pfostenprofile. Verwendet die aktuellen FormIt-Einheiten.
 
-### Handrail Width + Height
+### Handrail Width + Height (Handlaufbreite und -höhe)
 
-Velikost \(v řezu\) obdélníkového profilu madla zábradlí. Použijí se aktuální jednotky aplikace FormIt.
+Die Größe \(in der Schnittansicht\) des rechteckigen Handlaufprofils. Verwendet die aktuellen FormIt-Einheiten.
 
-### Baluster Orientation
+### Baluster Orientation (Ausrichtung der vertikalen Holmen)
 
-Pokud je hodnota True, příčle budou orientovány horizontálně, podobně jako kabely. Pokud je hodnota False, příčle budou orientovány vertikálně, aby bylo dosaženo tradičnějšího estetického dojmu.
+Wenn für diese Option True eingestellt ist, werden vertikale Holme wie Kabel horizontal ausgerichtet. Wenn False festgelegt wurde, werden die vertikalen Holme vertikal ausgerichtet, um eine traditionellere Ästhetik zu erzielen.
 
-### Baluster Width + Depth
+### Baluster width + Depth (Stärke und Tiefe vertikaler Holme)
 
-Velikost obdélníkového profilu příčle. Použijí se aktuální jednotky aplikace FormIt.
+Die Größe des rechteckigen Profils von vertikalen Holmen. Verwendet die aktuellen FormIt-Einheiten.
 
-### Baluster Spacing
+### Baluster Spacing (Abstand vertikaler Holme)
 
-Velikost mezery mezi jednotlivými příčlemi. Použijí se aktuální jednotky aplikace FormIt.
+Der Abstand zwischen den einzelnen vertikalen Holmen. Verwendet die aktuellen FormIt-Einheiten.
 
-### Bottom Rail Start Height
+### Bottom Rail Start Height (Anfangshöhe des Türkantriegels)
 
-Vzdálenost mezi dolní částí zábradlí a dolní lištou, která podpírá příčle. Použijí se aktuální jednotky aplikace FormIt.
+Der Abstand zwischen der Unterkante des Geländers und dem Türkantriegel, auf dem die vertikalen Holme aufliegen. Verwendet die aktuellen FormIt-Einheiten.
 
-### Run
+### Run (Ausführen)
 
-Po úpravě možností kliknutím na tlačítko Run spusťte základní graf aplikace Dynamo a vygenerujte nové výsledky. Toto tlačítko se po změně parametrů zbarví modře, abyste věděli, že je třeba na tlačítko kliknout, aby se aktualizace zobrazily ve výsledné geometrii.‌
+Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
 
-### Edit Embedded Graph
+### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)
 
-Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
+Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
 

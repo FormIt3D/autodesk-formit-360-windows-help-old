@@ -1,12 +1,12 @@
 # Revit
 
-Aplikace FormIt byla navržena tak, aby dobře spolupracovala s aplikací Revit. Další základní informace naleznete v [**této části výukového programu příručky FormIt**]().
+FormIt wurde für die nahtlose Verwendung mit Revit entwickelt. Weitere Informationen zu den Grundlagen finden Sie in [**diesem Abschnitt der FormIt-Einführung**]().
 
-## Práce s daty z aplikace Revit
+## Arbeiten mit Daten aus Revit
 
-Geometrii z aplikace Revit můžete odesílat do aplikace FormIt. To je užitečné při provádění rychlých studií modelů a následném odesílání geometrie zpět do aplikace Revit. Prohlédněte si ukázkové video:
+Sie können Geometrie aus Revit an FormIt senden. Dies ist nützlich, um schnell Studienmodelle zu erstellen und die Geometrie anschließend wieder an Revit zu senden. Hier sehen Sie eine Videodemonstration:
 
-## Vytvoření obsahu aplikace Revit
+## Erstellen von Revit-Inhalten
 
-Aplikaci FormIt lze použít k vytvoření obsahu, který lze používat v rodinách aplikace Revit. Prohlédněte si ukázkové video:
+FormIt kann zum Erstellen von Inhalten für die Verwendung in Revit-Familien verwendet werden. Hier sehen Sie eine Videodemonstration:
 

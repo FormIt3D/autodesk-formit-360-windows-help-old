@@ -1,54 +1,54 @@
-# 1.6 – Řízení viditelnosti pomocí hladin
+# 1.6 – Steuern der Sichtbarkeit mit Layern
 
-_Hladiny v aplikaci FormIt umožňují spravovat viditelnost objektů v modelu, podobně jako v aplikaci AutoCAD nebo Photoshop. V této kapitole vytvoříme hladinu k uložení a skrytí objemu budovy pro budoucí analýzu._
+_Layer in FormIt ermöglichen ähnlich wie in AutoCAD und Photoshop die Verwaltung der Sichtbarkeit von Objekten im Modell. In diesem Kapitel erstellen Sie einen Layer, der das Speichern und Ausblenden des Gebäudekörpers für die spätere Analyse ermöglicht._
 
-_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.6 – Computational Groups with Dynamo.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.6 – Control Visibility with Layers.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Vytvoření hladin**
+## **Layer erstellen**
 
-1 – Vytvoření nových hladin:
+1 – So erstellen Sie die neuen Layer
 
-1. Přejděte na **paletu Hladiny** a třikrát klikněte na ikonu **+**, čímž vytvoříte tři hladiny.
-2. Dvakrát klikněte na názvy hladin a přejmenujte je na **Objemy**, **Podlaží hlavní budovy** a **Obrázek půdorysu**
+1. Wechseln Sie zur **Layer-Palette**, und klicken Sie dreimal auf das **+**-Zeichen, um drei Layer zu erstellen.
+2. Doppelklicken Sie auf die Layernamen, um sie in **Massing**, **Main Building Floor** und **Plan Image**
 
 ![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Poznámka:**_ _Kliknutím na název hladiny a jejím přetažením nahoru nebo dolů můžete změnit pořadí hladin._
+_**Anmerkung:**_ _Sie können auf einen Layernamen klicken und ihn nach oben oder unten ziehen, um die Reihenfolge der Layer zu ändern._
 
-2 – Přiřazení skupiny **Objemy – hlavní budova** k hladině **Objemy**:
+2 – So weisen Sie die Gruppe **Massing – Main Building** dem Layer **Massing** zu
 
-1. Na kreslicí ploše vyberte skupinu **Objemy – hlavní budova**.
-2. Na **paletě Hladiny** vyberte v rozevírací nabídce **Výběr na** hladinu **Objemy**. Podobně přiřaďte skupinu **Obrázek půdorysu** k hladině **Obrázek půdorysu**.
+1. Wählen Sie im Ansichtsbereich die Gruppe **Massing – Main Building** aus.
+2. Wählen Sie in der **Layer-Palette** den Layer **Massing** aus dem Dropdown-Menü **Auswahl für:** aus. Weisen Sie entsprechend die Gruppe **Plan Image** dem Layer **Plan Image** zu.
 
 ![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplikování skupiny**
+## **Gruppe duplizieren**
 
-_Nyní zahájíme proces podrobnějšího modelování budovy. Prvním krokem je vytvoření geometrie podlaží na základě objemů budovy, které již máme k dispozici._
+_Jetzt beginnen Sie mit der detaillierten Modellierung des Gebäudes. Der erste Schritt besteht darin, die Geschossgeometrie basierend auf dem bereits vorhandenen Gebäudekörper zu erstellen._
 
-1 – Znovu vyberte skupinu **Objemy – hlavní budova**. Stisknutím kláves **Ctrl+C \(Kopírovat\)** zkopírujte a poté stisknutím kláves **Ctrl+Shift+V \(Vložit na místo\)** vložte objem na stejné místo.
+1 – Wählen Sie erneut die Gruppe **Massing – Main Building** aus. Drücken Sie zum Kopieren die Tastenkombination **STRG+C \(Kopieren\)** und anschließend **STRG+UMSCHALT+V \(An Position einfügen\)**, um den Körper an derselben Stelle einzufügen.
 
-2 – Chcete-li geometrii nové skupiny oddělit od původní skupiny, klikněte pravým tlačítkem myši a v **místní nabídce** vyberte možnost **Vytvořit jedinečné \(MU\)**.
+2 – So trennen Sie die neue Gruppengeometrie von der ursprünglichen Gruppe: Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie die Option **Als eindeutig definieren \(MU\)**.
 
 ![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Poznámka**: Nová skupina již není spojena s původní skupinou. Změny nové skupiny nezmění původní skupinu._
+_**Anmerkung**: Die neue Gruppe ist nicht mehr mit dem Original verknüpft. Änderungen an der neuen Gruppe wirken sich nicht auf die ursprüngliche Gruppe aus._
 
-## **Vytvoření geometrie podlaží**
+## **Erstellen der Geschossgeometrie**
 
-1 – Změňte přiřazení hladiny skupiny:
+1 – Neuzuweisen des Layers der Gruppe
 
-1. Kliknutím vyberte některou ze skupin **Objemy – hlavní budova**.
-2. Umístěte skupinu na hladinu **Podlaží hlavní budovy** pomocí rozevíracího seznamu **Výběr na** na **paletě Hladiny**.
-3. Zrušte zaškrtnutí políčka u hladiny **Objemy**, abyste skryli její geometrii a ochránili ji před náhodnými úpravami. 
+1. Klicken Sie einmal, um eine der Gruppen **Massing – Main Building** auszuwählen.
+2. Platzieren Sie die Gruppe mithilfe der Dropdown-Liste **Auswahl für:** in der **Layer-Palette** auf dem Layer **Main Building Floor**.
+3. Deaktivieren Sie den Layer **Massing**, um die Geometrie auszublenden und den Layer vor versehentlichen Änderungen zu schützen.
 
 ![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 – Dvakrát klikněte na viditelnou skupinu **Objemy – hlavní budova**, kterou chcete upravit. Na **paletě Vlastnosti** přejmenujte skupinu na **Podlaží**.
+2 – Doppelklicken Sie auf die sichtbare Gruppe **Massing – Main Building**, um sie zu bearbeiten. Benennen Sie die Gruppe **Floor** in der **Eigenschaftenpalette** um.
 
 ![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 – **Klikněte** na **horní plochu** geometrie a vyberte ji. Klikněte znovu a začněte táhnout plochu dolů. Při tažení plochy dolů zadejte **11’-2"**. Zobrazí se **dialog Kóta**. Po zadání hodnoty klikněte na tlačítko **OK**. Výsledné podlaží by mělo mít tloušťku 1'. Dvojitým kliknutím na volné místo skupinu ukončete.
+3 – **Klicken Sie einmal** auf die **obere Fläche** der Geometrie, um sie auszuwählen. Klicken Sie erneut, und ziehen Sie die Fläche nach unten. Wenn Sie die Fläche nach unten ziehen, geben Sie **11'-2"** ein, und das **Dialogfeld Bemaßung** wird angezeigt. Klicken Sie nach Eingabe des Werts auf **OK**. Die resultierende Geschossdecke muss 1' dick sein. Doppelklicken Sie auf eine Stelle im Raum, um die Gruppe zu verlassen.
 
 ![](../../.gitbook/assets/5%20%2810%29.png)
 

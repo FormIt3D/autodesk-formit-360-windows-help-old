@@ -1,20 +1,20 @@
-# Nastavení
+# Einstellungen
 
-K nastavení lze získat přístup z nabídky nebo panelu nástrojů. Všechna nastavení se uloží po zavření aplikace FormIt.
+Die Einstellungen können über das Menü oder den Werkzeugkasten aufgerufen werden. Alle Einstellungen werden gespeichert, sobald FormIt geschlossen wird.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **Jednotky**: Změna mezi britskými a metrickými jednotkami.
-* **Přichytit k osnově**: Určuje, zda se nástroje pro kreslení a modelování přichytí k základní osnově.
-* **Zobrazit upravitelné kóty**: Přepne zobrazení kót při kreslení a úpravách.
-* **Zobrazit pouze upravené skupiny**: Když je tato možnost zapnuta, všechny ostatní skupiny budou při úpravě jiné skupiny skryty.
-* **Zvýraznění předvýběru**: Když je tato možnost zapnuta, při umístění ukazatele myši na jakékoli objekty se vizuálně zvýrazní hrany, plochy a body.
-* **Velká tlačítka panelu nástrojů**: Zapíná a vypíná velká tlačítka panelu nástrojů.
-* **Motiv aplikace**: Změna mezi světlým, tmavým a modrým motivem uživatelského rozhraní.
+* **Einheiten**: Wechseln Sie zwischen britischen und metrischen Einheiten.
+* **Rasterfang**: Legen Sie fest, ob Zeichnungs- und Modellierungswerkzeuge am zugrunde liegenden Raster der Ausgangsposition gefangen werden.
+* **Bearbeitbare Bemaßungen anzeigen**: Schalten Sie die Anzeige von Bemaßungen beim Zeichnen und Bearbeiten um.
+* **Nur bearbeitete Gruppen anzeigen**: Wenn diese Option aktiviert ist, werden alle anderen Gruppen ausgeblendet, während eine andere Gruppe bearbeitet wird.
+* **Hervorhebung für Vorauswahl**: Wenn diese Option aktiviert ist und Sie den Mauszeiger über alle Objekte, Kanten, Flächen und Punkte bewegen, erhalten Sie eine visuelle Hervorhebung.
+* **Große Schaltflächen**: Aktiviert bzw. deaktiviert große Schaltflächen in Werkzeugkästen.
+* **App-Design**: Wechseln Sie zwischen hellen, dunklen und blauen Benutzeroberflächen-Designs.
 
-## Režim dotykového ovládání
+## Berührungsmodus
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-Režim dotykového ovládání umožňuje používat zařízení se systémem Windows s dotykovými obrazovkami. Když je tato možnost zapnuta, můžete jediným dotykem a přetažením vybírat nástroje pro kreslení, modelování a úpravy a pracovat s nimi. **Poznámka: V režimu dotykového ovládání nebudou nástroje pro kreslení a úpravy správně fungovat s myší.**
+Der Berührungsmodus ermöglicht es Ihnen, Windows-Anwendungen mit Touch-Bildschirmen zu verwenden. Wenn diese Option aktiviert ist, können Sie mit einer Berührung des Bildschirms und Ziehen mit dem Finger Zeichnungs-, Modellierungs- und Änderungswerkzeuge auswählen und mit diesen interagieren. **Anmerkung: Im Berührungsmodus funktionieren Zeichnungs- und Bearbeitungswerkzeuge nicht ordnungsgemäß mit der Maus.**
 

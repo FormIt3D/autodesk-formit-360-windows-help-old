@@ -1,20 +1,20 @@
-# Čáry
+# Linien
 
-Pomocí čar můžete rozdělit plochy a vytvořit geometrii.
+Mithilfe von Linien können Sie Flächen teilen und Geometrie konstruieren.
 
-Klávesnice: L
+Tastatur: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-Čáry můžete kreslit na ose X, Y nebo Z a také na existující geometrii. Při přichycení k ose se za kreslenou čáru prodlouží barevná čára označující osu, na kterou kreslíte. Během kreslení vidíte délku čáry, přičemž stisknutím klávesy **Tab** a zadáním hodnoty můžete ručně zadat konkrétní délku.
+Sie können Linien auf der X-, Y- oder Z-Achse und auch auf vorhandener Geometrie zeichnen. Wenn Sie eine Achse fangen, wird eine farbige Linie über die gezeichnete Linie hinaus erstellt, die angibt, auf welcher Achse Sie zeichnen. Sie können die Länge der Linie beim Zeichnen sehen, und Sie können manuell eine bestimmte Länge eingeben, indem Sie die **TABULATORTASTE** drücken und einen Wert eingeben.
 
-Barvy čar podle osy:
+Linienfarben nach Achse:
 
-Chcete-li zadat délku, stačí zadat hodnotu kóty a zobrazí se dialog Upravit kótu. Kliknutím na tlačítko OK nebo stisknutím klávesy Enter hodnotu potvrďte.
+Um eine Länge anzugeben, geben Sie einfach einen Bemaßungswert ein. Daraufhin wird das Dialogfeld Bemaßung bearbeiten angezeigt. Klicken Sie auf OK, oder drücken Sie die EINGABETASTE, um den Wert zu übernehmen.
 
-* X = červená
-* Y = zelená
-* Z = modrá
+* X = Rot
+* Y = Grün
+* Z = Blau
 
 ![](../.gitbook/assets/lines.png)
 

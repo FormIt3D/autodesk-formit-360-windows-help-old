@@ -1,157 +1,157 @@
-# Materiály
+# Materialien
 
-Vylepšete své modely aplikace FormIt pomocí materiálů, které podporují odrazy, lesk a mapy nerovností.
+Versehen Sie Ihre FormIt-Modelle mit Materialien, die Reflexions-, Glanz- und Relief-Maps unterstützen.
 
-## Panel Materiály
+## Gruppe Materialien
 
 ![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-Na panelu materiálů můžete vybírat ze široké škály ukázek materiálů, procházet připojené knihovny materiálů a od verze aplikace FormIt 2021 také přistupovat k obsahu materiálů jiných souborů FormIt (.AXM) a používat je.
+In der Gruppe Materialien können Sie aus einer Vielzahl von Materialmustern wählen, zwischen verknüpften Materialbibliotheken navigieren und ab FormIt 2021 auf die Materialinhalte anderer FormIt-Dateien (.AXM) zugreifen und diese verwenden.
 
-### Zdroje knihovny materiálů
+### Materialbibliotheksquellen
 
-V aplikaci FormIt 2021 a novějších verzích obsahuje panel Materiály rozevírací seznam, ve kterém si můžete vybrat z dostupných zdrojů knihovny materiálů: V náčrtu, Ukázky materiálů a [připojené knihovny](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+In FormIt 2021 und höher verfügt die Gruppe Materialien über eine Dropdown-Benutzeroberfläche, in der Sie aus den verfügbaren Materialbibliotheksquellen wählen können: In Skizze, Materialmuster und [verknüpfte Bibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### V náčrtu
+#### In Skizze
 
-Zobrazí materiály uložené v aktuálním náčrtu aplikace FormIt.
+Zeigt die Materialien an, die in der aktuellen FormIt-Skizze gespeichert sind.
 
-#### Ukázky materiálů
+#### Materialmuster
 
-Zobrazí seznam dostupných vzorových materiálů. Tyto nabídky jsou uloženy na cloudovém serveru, proto mějte na paměti:
+Zeigt eine Liste der verfügbaren Mustermaterialien an. Diese Angebote werden auf einem Cloud-basierten Server gespeichert. Beachten Sie daher Folgendes:
 
-* Při prvním přístupu do kategorií seznamu Ukázky materiálů je nutné připojení k internetu.
-* Při prvním přístupu ke kategorii bude daná kategorie stažena a poté uložena do vyrovnávací paměti v počítači, aby budoucí relace nevyžadovaly stažení.
-* Tým aplikace FormIt může čas od času aktualizovat nabídku v seznamu Ukázky materiálů. Pokud k tomu dojde, aplikace FormIt automaticky odstraní a znovu stáhne kategorie, abyste měli k dispozici nejnovější verzi.
+* Eine Internetverbindung ist erforderlich, wenn Sie zum ersten Mal auf die Kategorien für Materialmuster zugreifen.
+* Wenn Sie eine Kategorie zum ersten Mal aufrufen, wird sie heruntergeladen und dann auf Ihrem Computer zwischengespeichert, sodass für zukünftige Sitzungen kein Herunterladen mehr erforderlich ist.
+* Das FormIt-Team kann gelegentlich die Angebote in den Materialmustern aktualisieren. In diesem Fall werden die Kategorien von FormIt automatisch gelöscht und erneut heruntergeladen, um die neueste Version zu erhalten.
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Připojené knihovny**
+**Verknüpfte Bibliotheken**
 
-Další adresáře a umístění se zobrazí po [připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Nach dem [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) werden andere Verzeichnisse und Speicherorte angezeigt.
 
-### Vytváření, odstraňování a kapátko
+### Erstellen, Löschen und Pipette
 
-![](../.gitbook/assets/materials\_add.PNG)**Vytvořte nový materiál** definováním jeho barvy, textury, mapy nerovností, mapy výřezů, průhlednosti a nastavení odlesku/lesku.
+![](../.gitbook/assets/materials\_add.PNG) **Erstellen Sie ein neues Material**, indem Sie die Einstellungen für Farbe, Textur, Relief-Map, Ausschnitt-Map, Transparenz und Reflexion/Glanz festlegen.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Odstranit** vybrané materiály.
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Löschen** Sie die ausgewählten Materialien.
 
-![](../.gitbook/assets/materials\_eyedropper.PNG)**Kapátko** – Zkopírujte materiál ve scéně a ihned s ním začněte malovat.
+Verwenden Sie ![](../.gitbook/assets/materials\_eyedropper.PNG) **Pipette** für ein Material, das in der Szene vorhanden ist, und nutzen Sie es sofort zum Auftragen.
 
-* Klikněte na nástroj Kapátko a pak klikněte na plochu pomalovanou požadovaným materiálem.
-* Materiál, který se nachází na ploše, se v panelu zvýrazní a aktivuje se nástroj Štětec s načteným materiálem.
+* Klicken Sie auf das Werkzeug Pipette und dann auf eine mit einem Material versehene Fläche.
+* Das Material auf der Fläche wird in der Gruppe hervorgehoben, das Pinselwerkzeug wird aktiviert, und das Material wird geladen.
 
-### Obnovení, připojení knihoven a čištění nepoužívaných materiálů
+### Aktualisieren, Bibliotheken verknüpfen und Nicht verwendete bereinigen
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Připojte knihovny materiálů** z místních adresářů. Zobrazí se obsah v adresářích se soubory JPG, PNG nebo AXM (FormIt). Další informace naleznete v části [Připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+\*\*\*\*![](../.gitbook/assets/materials-link.png) **Verknüpfen Sie Materialbibliotheken** aus lokalen Verzeichnissen. In Verzeichnissen mit JPG-, PNG- oder AXM-Dateien (FormIt) werden Inhalte angezeigt. Weitere Informationen finden Sie unter [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-![](../.gitbook/assets/materials-refresh.png)**Obnovte** aktuální adresář. Tato možnost je povolena pouze při zobrazení místně připojeného adresáře (není k dispozici v seznamu V náčrtu nebo Ukázky materiálu).
+![](../.gitbook/assets/materials-refresh.png)**Aktualisieren** Sie das aktuelle Verzeichnis. Nur aktiviert, wenn ein lokal verknüpftes Verzeichnis angezeigt wird (nicht In Skizze oder Materialmuster).
 
-![](../.gitbook/assets/materials-purge.png)**Vyčistěte nepoužívané** materiály z aktuálního náčrtu aplikace FormIt.
+![](../.gitbook/assets/materials-purge.png) **Bereinigen Sie nicht verwendete** Materialien aus der aktuellen FormIt-Skizze.
 
-Nepoužívané materiály se mohou během iterace přirozeně hromadit, ale mohou výrazně zvýšit velikost souboru, pokud používají vysoce kvalitní textury.
+Nicht verwendete Materialien können sich naturgemäß aufgrund von Iterationen ansammeln. Durch sie wird allerdings unter Umständen die Dateigröße erheblich erhöht, wenn sie qualitativ hochwertige Texturen umfassen.
 
-Nepoužívané materiály se v seznamu V náčrtu zobrazí s šedě zbarveným názvem.
+Nicht verwendete Materialien werden in der Liste In Skizze grau angezeigt.
 
-Kliknutím na nástroj Vyčistit nepoužívané odstraníte všechny nepoužívané materiály. Nejprve se zobrazí výzva, takže pokud si čištění rozmyslíte, můžete akci zrušit. Toto tlačítko je aktivní pouze v seznamu V náčrtu.
+Klicken Sie auf das Werkzeug Nicht verwendete bereinigen, um alle nicht verwendeten Materialien zu löschen. Sie werden noch einmal zur Bestätigung aufgefordert. Wenn Sie sich umentschieden haben, können Sie den Vorgang also noch abbrechen. Diese Schaltfläche ist nur in der Liste In Skizze aktiviert.
 
-### Připojení knihoven materiálů
+### Verknüpfen von Materialbibliotheken
 
-Aplikace FormIt 2021 a novější nabízí možnost propojit panel Materiály s místními adresáři (knihovnami) obsahujícími materiály včetně složek se soubory JPG, PNG nebo soubory aplikace FormIt:
+FormIt 2021 und höher bietet die Möglichkeit, die Gruppe Materialien mit lokalen Verzeichnissen (Bibliotheken) zu verknüpfen, in denen sich Materialinhalte befinden, einschließlich Ordnern mit JPG-, PNG- und/oder FormIt-Dateien:
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![Zobrazení jednotlivých materiálů ze souboru FormIt nebo souborů JPG/PNG v adresáři](../.gitbook/assets/materials-axm-content.png)
+![Zeigen Sie einzelne Materialien aus einer FormIt-Datei oder JPG-/PNG-Dateien in einem Verzeichnis an.](../.gitbook/assets/materials-axm-content.png)
 
-* **Soubory JPG/PNG** se zobrazí jako materiály, kterými lze malovat přímo v aktuální náčrtu aplikace FormIt.
-   * Kliknutím na miniaturu se soubor obrázku za běhu převede na materiál aplikace FormIt a zkopíruje se do aktuálního náčrtu.
-   * Aplikace FormIt vás vrátí do adresáře „V náčrtu“, kde uvidíte materiál, který jste právě zkopírovali do náčrtu.
-* **Soubory aplikace FormIt (*.axm)** se zobrazí jako složky s ikonou aplikace FormIt.
-   * Kliknutím na složky souborů aplikace FormIt zobrazíte všechny materiály aplikace FormIt uložené v daném souboru.
-   * Aby bylo možné získat obsah materiálu, musí aplikace FormIt načíst část souboru, takže u větších souborů může zobrazení materiálů na panelu trvat déle.
+* **JPG-/PNG-Dateien** werden als Materialien angezeigt, die direkt in die aktuelle FormIt-Skizze integriert werden können.
+   * Wenn Sie auf eine Miniaturansicht klicken, wird die Bilddatei sofort in ein FormIt-Material konvertiert und in die aktuelle Skizze kopiert.
+   * FormIt wechselt zurück zum Verzeichnis In Skizze, in dem das Material angezeigt wird, das Sie gerade in die Skizze kopiert haben.
+* **FormIt-Dateien (\*.axm)** werden als Ordner mit einem FormIt-Symbol angezeigt.
+   * Wenn Sie auf die FormIt-Dateiordner klicken, werden alle in dieser Datei gespeicherten FormIt-Materialien angezeigt.
+   * Beachten Sie, dass FormIt einen Teil der Datei laden muss, um den Materialinhalt abzurufen. Bei größeren Dateien kann es daher länger dauern, Materialien in der Gruppe anzuzeigen.
 
-### Interakce s materiály
+### Materialinteraktionen
 
-**Malujte s materiálem** jedním kliknutím na miniaturu. Aktivuje se nástroj Štětec, který můžete umístit nad geometrii na kreslicí ploše aplikace FormIt a kliknutím na plochy nebo skupiny je vyplnit daným materiálem.
+**Tragen Sie ein Material auf**, indem Sie auf die Miniaturansicht klicken. Das Pinselwerkzeug wird geöffnet, in dem Sie dann den Mauszeiger über die Geometrie im FormIt-Ansichtsbereich bewegen und auf Flächen oder Gruppen klicken können, um sie mit einem Material zu versehen.
 
-Jakmile se aktivuje nástroj Štětec:
+Wenn Sie das Pinselwerkzeug aufgerufen haben:
 
-* Můžete jedním kliknutím pomalovat plochy a skupiny.
-   * Při malování skupin se materiál promítne do vnořené geometrie a pokryje všechny plochy nebo skupiny vybarvené výchozím materiálem.
-* Můžete vybarvit celá tělesa tak, že dvakrát kliknete na některou plochu, čímž vyberete vše, co je k ní připojeno.
+* Versehen Sie Flächen und Gruppen durch einfaches Klicken mit einem Material.
+   * Wenn Sie Gruppen mit einem Material versehen, wird das Material auf die verschachtelte Geometrie kaskadiert, und alle Flächen oder Gruppen, die mit dem Vorgabematerial versehen wurden, werden bedeckt.
+* Versehen Sie ganze Volumenkörper mit einem Material, indem Sie auf eine Fläche doppelklicken, um alle zugeordneten Objekte auszuwählen.
 
-Můžete také nejprve vybrat plochy a skupiny a poté jedním kliknutím na miniaturu materiálu pomalovat výběr tímto materiálem.
+Sie können auch zuerst Flächen und Gruppen auswählen und dann auf die Miniaturansicht eines Materials klicken, um die Auswahl mit diesem Material zu versehen.
 
-**Upravte materiál** dvojitým kliknutím na miniaturu, čímž zobrazíte Editor materiálů (viz níže).
+**Bearbeiten Sie ein Material**, indem Sie auf die Miniaturansicht doppelklicken. Dadurch wird der Material-Editor geöffnet (siehe unten).
 
-**Přejmenujte materiál** dvojitým kliknutím na jeho název.
+**Benennen Sie ein Material um**, indem Sie darauf doppelklicken.
 
-**Identifikujte materiál** namalovaný na geometrii tak, že jej vyberete a vyhledáte zvýraznění a ikonu označující, které materiály jsou namalovány na vybrané geometrii.
+**Identifizieren Sie ein Material**, das auf Geometrie aufgetragen wurde, indem Sie es auswählen und nach der Hervorhebung und dem Symbol suchen, die angeben, welche Materialien auf die ausgewählte Geometrie aufgetragen wurden.
 
 ![](../.gitbook/assets/material\_selected.png)
 
-**Výchozí materiál** lze použít k efektivnímu „vyčištěn“ plochy nebo skupiny od jakýchkoli materiálů. Veškerá geometrie, která není vyplněna materiálem, je implicitně omalována výchozím materiálem.
+Das **Vorgabematerial** kann verwendet werden, um eine Fläche oder eine Gruppe mit beliebigen Materialien effektiv zu löschen. Geometrien, auf die kein Material aufgetragen wird, werden implizit mit dem Vorgabematerial versehen.
 
-### Správa seznamu
+### Listenverwaltung
 
-Upravte velikost miniatur nastavením šířky sloupce (klikněte a přetáhněte svislou čáru vpravo od položky „Materiál“).
+Passen Sie die Größe der Miniaturansichten an, indem Sie die Breite der Spalte anpassen (klicken Sie auf die vertikale Linie, und ziehen Sie sie nach rechts neben Material).
 
-Konkrétní materiály můžete filtrovat zadáním požadovaného názvu do řádku „Filtr…“.
+Filtern Sie nach bestimmten Materialien, indem Sie in der Filterleiste einen Begriff eingeben.
 
-Názvy materiálů, které se zobrazují šedě, označují materiály, které nejsou v aktuálním náčrtu použity.
+Materialien mit Namen, die in grauer Schrift angezeigt werden, weisen auf Materialien hin, die nicht in der aktuellen Skizze verwendet werden.
 
-## Tvorba a úpravy materiálů
+## Erstellen und Bearbeiten von Materialien
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-Při vytváření nebo úpravě materiálu se zobrazí dialog Editor materiálu, ve kterém můžete upravit řadu položek:
+Wenn Sie ein Material erstellen oder bearbeiten, wird das Dialogfeld Material-Editor angezeigt, in dem Sie Folgendes anpassen können:
 
-* **Barva**
-* **Obrázkové mapy**
-   * Kliknutím na miniaturu vyberte novou mapu.
-   * Kliknutím na ikonu Uložit uložte mapu pro úpravy v jiné aplikaci.
-   * Kliknutím na ikonu Odstranit odstraníte mapu z tohoto materiálu.
-      * **Textura ze souboru obrázku**
-         * JPG nebo PNG
-      * **Mapa nerovností ze souboru obrázku**
-         * Doporučený formát JPG
-         * Ideální pro přidání efektů hloubky k materiálům
-         * Pomocí freewaru, jako je například ShaderMap, můžete generovat mapy nerovností s danou texturou.
-      * **Mapa výřezů ze souboru obrázku**
+* **Farbe**
+* **Bild-Maps**
+   * Klicken Sie auf die Miniaturansicht, um eine neue Map auszuwählen.
+   * Klicken Sie auf das Symbol Speichern, um die Map zur Bearbeitung in einer anderen Anwendung zu speichern.
+   * Klicken Sie auf das Symbol Löschen, um die Map aus diesem Material zu löschen.
+      * **Textur aus einer Bilddatei**
+         * JPG oder PNG
+      * **Relief-Map aus einer Bilddatei**
+         * JPG wird empfohlen
+         * Diese Option eignet sich hervorragend zum Hinzufügen von Tiefeneffekten zu Materialien.
+         * Sie können Freeware wie ShaderMap verwenden, um Relief-Maps für eine bestimmte Textur zu generieren.
+      * **Ausschnitt-Map aus einer Bilddatei**
          * PNG
-         * Ideální pro materiály se selektivní průhledností, jako jsou ploty z drátěného pletiva nebo děrované panely.
-* **Název**
-* **Horizontální a vertikální měřítko**
-   * Pokud je tato možnost povolena, tlačítko Uzamknout poměr stran zajistí, že horizontální a vertikální měřítko bude respektovat poměr stran textury.
-   * Roztáhněte materiál nastavením horizontálního měřítka nezávisle na vertikálním měřítku.
-   * Horizontální a vertikální měřítko pro plochu můžete přepsat pomocí nástroje Upravit umístění materiálu (viz níže).
-* **Průhlednost**, **Odraz** a **Lesk**
+         * Diese Option eignet sich hervorragend für Materialien mit selektiver Transparenz, wie Maschendrahtzäune oder perforierte Elemente.
+* **Name**
+* **Horizontaler und Vertikaler Maßstab**
+   * Wenn diese Option aktiviert ist, stellt die Schaltfläche Seitenverhältnis sperren sicher, dass der horizontale und vertikale Maßstab das Seitenverhältnis der Textur berücksichtigen.
+   * Strecken Sie ein Material, indem Sie den horizontalen Maßstab unabhängig vom vertikalen Maßstab anpassen.
+   * Sie können den horizontalen und vertikalen Maßstab pro Fläche mit dem Werkzeug Materialplatzierung anpassen überschreiben (siehe unten).
+* **Transparenz**, **Reflexion** und **Glanz**
 
-## Úprava umístění materiálu
+## Anpassen der Materialplatzierung
 
-Při malování materiálu na plochu se aplikace FormIt snaží odhadnout nejlepší orientaci:
+Beim Auftragen eines Materials auf eine Fläche wird in FormIt eine Einschätzung der optimalen Ausrichtung vorgenommen:
 
-* Svislé plochy budou orientovány tak, že vrchol textury bude orientován podél osy Z.
-* U horizontálních ploch bude textura orientována podélně podél nejdelší strany plochy.
+* Vertikale Flächen werden so ausgerichtet, dass die Oberseite der Textur entlang der Z-Achse ausgerichtet ist.
+* Bei horizontalen Flächen wird die Textur längs entlang der längsten Seite der Fläche ausgerichtet.
 
-Pomocí nástroje **Upravit umístění materiálu** můžete změnit výchozí umístění materiálu a měřítko materiálu na konkrétních plochách:
+Verwenden Sie das Werkzeug **Materialplatzierung anpassen**, um die vorgegebene Materialplatzierung sowie die Materialskalierung auf bestimmten Flächen zu überschreiben:
 
-* Vyberte plochu nebo plochy pomalované materiálem.
-   * Pokud plocha dědí svůj materiál ze své nadřazené skupiny, bude nutné nejprve pomalovat plochu přímo.
-* Nástroj Upravit umístění materiálu můžete spustit pomocí klávesové zkratky MP nebo z místní nabídky, která se zobrazí po kliknutí pravým tlačítkem myši:
+* Wählen Sie eine oder mehrere Flächen aus, die mit einem Material versehen sind.
+   * Wenn die Fläche das Material aus der übergeordneten Gruppe übernimmt, müssen Sie die Fläche zuerst direkt mit dem Material versehen.
+* Sie können das Werkzeug Materialplatzierung anpassen über den Tastaturkurzbefehl MP oder über das Kontextmenü aufrufen:
 
 ![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Pomocí ovládacích prvků na obrazovce můžete interaktivně přesouvat a otáčet textury materiálů a měnit jejich měřítko přímo na ploše:
+Verwenden Sie die Steuerelemente auf dem Bildschirm, um die Materialtexturen direkt auf der Fläche interaktiv zu verschieben, zu drehen und zu skalieren:
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-Chcete-li zrušit všechny změny umístění materiálu, jednoduše znovu vymalujte plochu původním materiálem z panelu Materiály.
+Um Änderungen an der Materialplatzierung zurückzusetzen, tragen Sie in der Gruppe Materialien das ursprüngliche Material einfach erneut auf die Fläche auf.
 
-## Převod materiálů do aplikace Revit
+## Materialübertragung nach Revit
 
-Materiály můžete převést do aplikace Revit pomocí [doplňku FormIt](https://formit.autodesk.com/page/formit-revit) pro aplikaci Revit 2018 a novější.
+Materialien werden nach Revit übertragen, wenn Sie das [FormIt-Zusatzmodul](https://formit.autodesk.com/page/formit-revit) für Revit 2018 oder höher verwenden.

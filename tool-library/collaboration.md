@@ -1,20 +1,20 @@
-# Spolupráce
+# Zusammenarbeit
 
-Aplikace FormIt umožňuje více uživatelům provádět společné úpravy modelu aplikace FormIt v libovolné kombinaci klientů pro systém Windows, iPadOS nebo web, přičemž všechny změny se zobrazují v reálném čase.
+Mit FormIt können mehrere Benutzer ein FormIt-Modell gemeinsam unter Verwendung einer beliebigen Kombination aus Windows-, iPadOS- oder Web-Clients bearbeiten und dabei ihre Änderungen in Echtzeit anzeigen.
 
-S předplatným aplikace FormIt Pro získáte přístup k funkci spolupráce v reálném čase, která vám umožní:
+Ein Abonnement für FormIt Pro gibt Ihnen Zugang zur Zusammenarbeit in Echtzeit mit den folgenden Funktionen:
 
-* Zahájit relaci spolupráce a pozvat kolegy.
-* Připojit se ke spolupráci z aplikací FormIt pro Windows, web nebo iPadOS.
-* Spolupracovat s kolegy a zkoumat návrhy ve sdíleném prostředí sandboxu.
-* Sledovat kameru jiného spolupracovníka a prohlédnout si model z jeho pohledu.
-* Nechat klienta sledovat vaši kameru během prezentace návrhu.
-* Chatovat se spolupracovníky během relace.
+* Starten einer Sitzung für die Zusammenarbeit und Einladen von Kollegen
+* Teilnehmen an einer Sitzung für die Zusammenarbeit über die FormIt-Apps für Windows, Web und iPadOS
+* Gemeinschaftliche Planung und Experimentieren mit Entwürfen in einer gemeinsam genutzten Sandbox-Umgebung
+* Betrachten des Modells aus der Perspektive von Kollegen über deren Kamera.
+* Möglichkeit für den Kunden, Ihrer Kamera zu folgen, während Sie den Entwurf vorführen
+* Chat mit Kollegen in der Sitzung.
 
-## Zahájení relace spolupráce
+## Sitzung für Zusammenarbeit starten
 
-1. V rozevíracím seznamu Spolupráce vyberte možnost Spustit relaci sdílení. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Odešlete spolupracovníkům e-mailem odkaz. Tento odkaz vyzve příjemce, aby se přihlásili ke svým účtům Autodesk a ihned začali spolupracovat. ![](../.gitbook/assets/collaborate.png)
+1. Wählen Sie in der Dropdown-Liste Zusammenarbeit die Option Gemeinsame Sitzung starten. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Versenden Sie einen Link per E-Mail an Teamkollegen. Über diesen Link werden die Empfänger aufgefordert, sich bei ihrem Konto bei Autodesk Account anzumelden, um sofort mit der Zusammenarbeit zu beginnen.  ![](../.gitbook/assets/collaborate.png)
 
 
 

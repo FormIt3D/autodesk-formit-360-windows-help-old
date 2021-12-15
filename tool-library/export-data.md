@@ -1,22 +1,22 @@
-# Import a export dat
+# Importieren und Exportieren von Daten
 
-## Import dat
+## Importieren von Daten
 
-Importovat lze následující formáty souborů.
+Die folgenden Dateiformate können importiert werden.
 
-* **OBJ**: Soubory 3D sítí ve formátu OBJ jsou importovány jako jedna skupina aplikace FormIt. Nejsou importovány žádné materiály.
-* **DWG**: 2D a 3D soubory DWG jsou importovány jako jedna skupina aplikace FormIt. Barvy objektů jsou podporovány.
-* **STL**: Soubory 3D sítí ve formátu STL jsou importovány jako jedna skupina aplikace FormIt.
-* **SAT**: Soubory modelů těles SAT jsou importovány jako jedna skupina aplikace FormIt.
-* **SKP**: Soubory aplikace SketchUp lze importovat. Skupiny a komponenty jsou importovány jako skupiny aplikace FormIt. Podporovány jsou hladiny a materiály.
+* **OBJ**: OBJ-3D-Netzdateien werden als einzelne FormIt-Gruppe importiert. Es werden keine Materialien importiert.
+* **DWG**: 2D- und 3D-DWG-Dateien werden als einzelne FormIt-Gruppe importiert. Objektfarben werden unterstützt.
+* **STL**: STL-3D-Netzdateien werden als einzelne FormIt-Gruppe importiert.
+* **SAT**: SAT-Volumenkörper-Modelldateien werden als einzelne FormIt-Gruppe importiert.
+* **SKP**: SketchUp-Dateien werden importiert. Gruppen und Komponenten werden als FormIt-Gruppen importiert. Layer und Materialien werden unterstützt.
 
-[**Další informace o práci s importovanými daty**](../formit-primer/part-i/import-export-and-content-library.md)
+[**Erfahren Sie mehr über die Arbeit mit importierten Daten.**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exportování dat
+## Exportieren von Daten
 
-Aplikace FormIt může exportovat následující formáty souborů: AXM \(soubor aplikace FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiály a 3D data v jednom souboru ZIP\), obrázky PNG.
+FormIt kann die folgenden Dateiformate exportieren: AXM \(FormIt-Datei\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(Materialien und 3D-Daten in einer einzelnen ZIP-Datei\), PNG-Bilder.
 
-Při exportu jednotlivých souborů můžete vybrat následující možnosti exportu: **Všechny objekty**, **Pouze viditelné** nebo **Pouze vybrané**.
+Beim Exportieren einzelner Dateien können Sie auswählen, ob **Alle Objekte**, **Nur sichtbare** oder **Nur ausgewählte** exportiert werden sollen.
 
 ![](../.gitbook/assets/export_window.png)
 

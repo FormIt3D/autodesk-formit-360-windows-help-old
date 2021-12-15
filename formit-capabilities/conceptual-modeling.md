@@ -1,18 +1,18 @@
-# Koncepční modelování těles
+# Konzeptionelle Volumenkörper-Modellierung
 
-Vytvářejte snadno a rychle koncepční geometrii, abyste mohli pracovat s variantami návrhů.
+Schnelle und einfache Erstellung von Geometrie zum Experimentieren mit Entwurfsoptionen.
 
-Jádro pro modelování těles aplikace FormIt umožňuje pokročilé pracovní postupy, které šetří čas a usnadňují a zefektivňují modelování.
+Der FormIt-Kernel für die Volumenkörper-Modellierung ermöglicht unglaubliche, zeitsparende Arbeitsabläufe, um die Modellierung einfach und effizient zu gestalten.
 
-**Zjistěte, proč je modelování těles výhodné, a jak zajistit, aby byl model tělesem, aby jej bylo možné použít v následných aplikacích, například v aplikaci Revit:**
+**Erfahren Sie, warum die Volumenkörper-Modellierung von Vorteil ist und wie Sie sicherstellen können, dass Ihr Modell ein Volumenkörper ist, sodass es in nachgelagerten Anwendungen wie Revit verwendet werden kann:**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Jakmile je model tělesem, můžete využít techniky vysunutí těles k rychlému začištění geometrie a správě uspořádaných modelů:**
+**Sobald Ihr Modell ein Volumenkörper ist, können Sie die Techniken der Volumenkörper-Extrusion nutzen, um Geometrie schnell zu bereinigen und organisierte Modelle beizubehalten:**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Pomocí nástrojů inteligentního výběru navíc můžete snadno a rychle vybrat podobnou geometrii:**
+**Verwenden Sie die Werkzeuge für die intelligente Auswahl, um ähnliche Geometrie schnell und mit weniger Klicks auszuwählen:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
 

@@ -1,67 +1,67 @@
-# 1.12 – Vizuální styly
+# 1.12 – Visuelle Stile
 
-_Modelování koncepčních objemů je jen polovinou toho, co aplikace FormIt nabízí. Druhá polovina je krásná grafika, která usnadňuje komunikaci s klienty nebo členy týmu. V této kapitole se budeme zabývat způsoby nastavení_ _**grafických vizuálních stylů**_ _a vytváření animací._
+_Die Modellierung von Entwurfskörpern ist nur die Hälfte des Funktionsumfangs von FormIt. Die andere Hälfte sind aussagekräftige Grafiken, die Ihnen dabei helfen, einem Kunden oder Teammitglied Ihre Geschichte zu erzählen. In diesem Kapitel werden Möglichkeiten zum Einrichten Ihrer_ _**visuellen Grafikstile**_ _und zum Erstellen von Animationen behandelt._
 
-_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.12 – Visual Styles.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.12 – Visual Styles.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Tvorba animace**
+## **Erstellen einer Animation**
 
-_V následujících krocích se naučíme používat_ _**scény**_ _k vytvoření animace._
+_In den nächsten Schritten lernen Sie, wie Sie mithilfe von_ _**Szenen**_ _eine Animation erstellen._
 
-1 – Vytvoření první **scény**:
+1 – So erstellen Sie die erste **Szene**
 
-1. Zapněte všechny hladiny kromě **terénu**, **obrázku půdorysu** a **objemů**.
-2. Ujistěte se, že je režim kamery nastaven na možnost **Perspektivní \(VP\)**, a umístěte kameru tak, aby se dívala na celý dům mírně shora, podobně jako na obrázku níže.
-3. Otevřete **paletu Scény**.
-4. Kliknutím na ikonu **+** vytvořte novou scénu z aktuálního pohledu.
-5. Přejmenujte ji na **Letecký pohled 1** a ostatní **vlastnosti scény** nastavte způsobem zobrazeným na obrázku níže.
+1. Aktivieren Sie alle Layer außer **Terrain**, **Plan Image** und **Massing**.
+2. Stellen Sie sicher, dass der Kameramodus auf **Perspektivisch \(VP\)** eingestellt ist, und positionieren Sie die Kamera so, dass das gesamte Haus ähnlich wie in der Abbildung unten etwas von oben betrachtet wird.
+3. Öffnen Sie die **Szenenpalette**.
+4. Klicken Sie auf das **+**-Symbol, um eine neue Szene aus der aktuellen Ansicht zu erstellen.
+5. Benennen Sie sie in **Aerial View 1** um, und passen Sie die anderen **Szeneneigenschaften** an die in der folgenden Abbildung gezeigten an.
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 – Vytvoření druhé **scény** a následné animace mezi nimi:
+2 – So erstellen Sie die zweite **Szene** und dann eine Animation der beiden Szenen
 
-1. Nastavte kameru do nové polohy, abyste se na dům dívali z jiného úhlu. Vytvořte novou **scénu** s názvem **Letecký pohled 2** stejným postupem jako v předchozím kroku.
-2. Klikněte na tlačítko **Přehrát**. Po uplynutí **doby pozastavení** nastavené na **2 sekundy** se animace začne pomalu přesouvat mezi dvěma scénami tam a zpět. Přehrávání bude pokračovat, dokud animaci nezastavíte kliknutím na tlačítko **Zastavit**.
+1. Legen Sie eine neue Position für die Kamera fest, sodass Sie das Haus aus einem anderen Winkel betrachten. Erstellen Sie auf die gleiche Weise wie im vorherigen Schritt eine neue **Szene** mit dem Namen **Aerial View 2**.
+2. Klicken Sie anschließend auf die **Start**-Schaltfläche. Nach der eingestellten **Unterbrechungszeit**￼ von **2 Sekunden** beginnt die Animation langsam und bewegt sich zwischen den beiden Szenen hin und her. Dieser Vorgang wird so lange fortgesetzt, bis Sie auf die Schaltfläche **Stopp** klicken, um die Animation zu beenden.
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Poznámka:**_ _Pomocí nastavení v dolní části okna_ _**Vlastnosti scény** můžete upravit_ _**dobu pozastavení**,_ _**dobu přechodu**_ _a_ _**rychlost kamery**. Zkuste přidat další scény a pohrát si s těmito nastaveními, abyste si animaci přizpůsobili._
+_**Anmerkung:**_ _Sie können die Einstellungen für_ _**Unterbrechungszeit**,_ _**Übergangszeit** und_ _**Kamerageschwindigkeit**_ _anpassen, indem Sie die Einstellungen unten in den_ _**Szeneneigenschaften** verwenden. Fügen Sie weitere Szenen hinzu, und spielen Sie mit diesen Einstellungen, um Ihre Animation anzupassen._
 
-## **Přizpůsobení vizuálních stylů**
+## **Anpassen der visuellen Stile**
 
-_Nyní vytvoříme další scénu s několika přizpůsobenými nastaveními **vizuálních stylů**._
+_Jetzt erstellen Sie eine weitere Szene mit einigen benutzerdefinierten Einstellungen für **visuelle Stile**._
 
-1 – Nejprve otevřete **paletu Vizuální styly**. V horní části jsou čtyři \(4\) karty, z nichž každá obsahuje různá vizuální nastavení: **Povrchy**, **Hrany**, **Prostředí** a **Diagnostika modelu**. Další informace o jednotlivých kartách naleznete v kapitole **Vizuální styly** v části **Knihovna nástrojů**.
+1 – Öffnen Sie zunächst die **Palette Visuelle Stile**. Beachten Sie, dass oben vier \(4\) Registerkarten mit jeweils unterschiedlichen visuellen Einstellungen angezeigt werden: **Flächen**, **Kanten**, **Umgebung** und **Modelldiagnose**. Weitere Informationen zu den einzelnen Registerkarten finden Sie im Kapitel **Visuelle Stile** im Abschnitt **Werkzeugbibliothek**.
 
-2 – Přizpůsobte si některá nastavení na kartě **Povrchy**:
+2 – So passen Sie einige Einstellungen auf der **Registerkarte Fläche** an
 
-1. Zapněte možnost **Stíny \(DS\)**.
-2. Zapněte možnost **Okolní stíny \(DA\)**.
-3. Zapněte možnost **Monotonní povrchy \(DM\)**. Tím se vytvoří abstraktní černobílý obraz bez jakýchkoli materiálů.
+1. Aktivieren Sie **Schatten \(DS\)**.
+2. Aktivieren Sie **Umgebungsschatten \(DA\)**.
+3. Aktivieren Sie **Monotone Oberflächen \(DM\)**. Dadurch wird ein abstraktes Schwarzweißbild ohne Materialien erstellt.
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – Přizpůsobte si některá nastavení na kartě **Hrany**:
+3 – So passen Sie einige Einstellungen auf der **Registerkarte Kante** an
 
 * 
-   1. Zesvětlete **hrany** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
-   2. Zapněte možnost **Prodloužit hrany \(DX\).**
-   3. Zesvětlete **siluety** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
+   1. Stellen Sie die Schieberegler so ein, dass der Kontrast für die **Kanten** ungefähr **30%** beträgt.
+   2. Aktivieren Sie **Verlängerte Kanten \(DX\)**
+   3. Passen Sie die Schieberegler an, um den Kontrast der **Silhouetten** auf **30%** einzustellen.
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 – Přizpůsobte si některá nastavení na kartě **Prostředí**:
+4 – So passen Sie einige Einstellungen auf der **Registerkarte Umgebung** an
 
-1. Vypněte možnost **Osy**.
-2. Pokud je zapnuta, vypněte možnost **Podlaží**.
+1. Deaktivieren Sie **Achsen**.
+2. Deaktivieren Sie **Ebenen**, falls aktiviert.
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 – Vytvořte novou scénu s názvem **Přizpůsobená scéna** a uložte tato nastavení. Nyní můžete přepínat mezi **scénami** tam a zpět a obnovit tak nastavení grafiky.
+5 – Erstellen Sie eine neue Szene mit dem Namen **Customized Scene**, um diese Einstellungen zu speichern. Sie können jetzt zwischen den **Szenen** hin- und herwechseln, um die Grafikeinstellungen zurückzusetzen.
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Poznámka:** Pokud u nové scény zrušíte zaškrtnutí vlastnosti_ _**Kamera**_ _, můžete pomocí ní pouze přepnout na vizuální nastavení, které jsme právě vytvořili, bez přesunutí polohy kamery. Vyzkoušejte to tak, že přejdete do jedné z předchozích leteckých scén a dvakrát kliknete na_ _**přizpůsobenou scénu**_ _. Sledujte, co se stane!_
+_**Anmerkung**: Wenn Sie die Eigenschaft_ _**Kamera**_ _der neuen Szene deaktivieren, können Sie sie verwenden, um nur die gerade erstellten visuellen Einstellungen zu aktivieren, ohne die Kameraposition zu ändern. Probieren Sie es aus, indem Sie zu einer Ihrer vorherigen Luftbildszenen wechseln, dann auf die_ _**angepasste Szene**_ _doppelklicken und beobachten, was passiert._
 
-_**Poznámka:**_ _Informace o_ _**diagnostice vizuálních stylů**_ _a pokročilých možnostech použití_ _**scén** získáte v_ _**části II této příručky**._
+_**Anmerkung:**_ _Informationen zur_ _**Diagnose visueller Stile**_ _und zu erweiterten Anwendungen für_ _**Szenen** finden Sie in der_ _**Einführung, Teil II**._
 

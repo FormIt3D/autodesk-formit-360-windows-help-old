@@ -1,28 +1,28 @@
-# Slunce a stíny
+# Sonne und Schatten
 
-Pomocí nástroje **Slunce a stíny** můžete studovat vliv dráhy slunce na své projekty.
+Verwenden Sie das Werkzeug **Sonne und Schatten**, um die Auswirkungen der Sonnenbahn auf Ihre Projekte zu untersuchen.
 
-Prvním krokem pro přesné studie stínů je [**nastavení umístění projektu**](setting-location.md).
+Für präzise Schattenstudien müssen Sie als Erstes den [**Projektstandort festlegen**](setting-location.md).
 
-Po nastavení umístění a volitelném importu satelitního snímku vymodelujte projekt včetně kontextu budov a stínících prvků, jako jsou žaluzie a stromy.
+Nachdem Sie Ihren Standort festgelegt und optional ein Satellitenbild importiert haben, modellieren Sie Ihr Projekt einschließlich Gebäudekontext und Schattierungselementen wie Jalousien und Bäumen.
 
-### Nabídka Slunce a stíny
+### Menü Sonne und Schatten
 
-Zapněte stíny v nabídce Slunce a stíny v horní části aplikace \(povolit stíny a upravit jejich intenzitu můžete také ve [**vizuálních stylech**](../formit-introduction/tool-bars.md)\):
+Aktivieren Sie Schatten im Menü Sonne und Schatten oben in der Anwendung \(Sie können auch unter [**Visuelle Stile**](../formit-introduction/tool-bars.md) Schatten aktivieren und die Schattenintensität anpassen\):
 
 ![](../.gitbook/assets/sun-+-shadows.PNG)
 
-Zde můžete upravit denní čas a den v roce. Jako výchozí je zobrazen rok 2000. Nebojte se, na přesnost studie zastínění to nemá vliv.
+Hier können Sie die Tages- und Jahreszeit anpassen. Das Vorgabejahr ist 2000. Dies beeinträchtigt nicht die Genauigkeit der Sonnen- und Schattenstudie.
 
-### Editor slunce
+### Sonnen-Editor
 
-V nabídce Slunce a stíny můžete také zapnout nebo vypnout Editor slunce \(nebo použijte klávesovou zkratku DR\), který poskytuje grafické zobrazení polohy slunce v prostoru:
+Sie können den Sonnen-Editor auch über das Menü Sonne und Schatten \(oder mithilfe des Kurzbefehls DR\) aktivieren bzw. deaktivieren, sodass die Position der Sonne im Raum grafisch dargestellt wird:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* Editor slunce se bude pohybovat s kamerou, takže možná bude nutné upravit úroveň přiblížení nebo orientaci kamery, aby se tato pomůcka dostala do polohy, která je vzhledem ke zkoumanému návrhu smysluplná.
-* Uchopte kruhový uzel a posuňte slunce podél jeho trajektorie a efektivně upravte denní čas.
-* Upravte roční období pomocí nabídky Slunce a stíny. Tím se upraví úhel a orientace grafické dráhy slunce podle ročního období.
+* Der Sonnen-Editor wird zusammen mit der Kamera verschoben, sodass Sie möglicherweise den Zoomfaktor und/oder die Kameraausrichtung anpassen müssen, um eine Position für das Widget zu erhalten, die in Bezug auf den untersuchten Entwurf sinnvoll ist.
+* Ziehen Sie die Sonne mit dem kreisförmigen Griff entlang der Bahn, und passen Sie die Tageszeit effektiv an.
+* Passen Sie die Jahreszeit über das Menü Sonne und Schatten an. Dadurch werden der Winkel und die Ausrichtung der grafischen Sonnenbahn basierend auf der Jahreszeit angepasst.
 
 
 

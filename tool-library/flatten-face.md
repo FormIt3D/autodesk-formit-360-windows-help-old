@@ -1,16 +1,16 @@
-# Plochy: Vyrovnání
+# Flächen: Abflachen
 
-Pomocí nástroje **Vyrovnat plochy** můžete vynutit, aby dvě nebo více ploch objektů bylo ve stejné rovině.
+Verwenden Sie das Werkzeug **Flächen abflachen**, um zwei oder mehr Objektflächen in dieselbe Ebene zu zwingen.
 
-Pokud jsou vybrány dvě nebo více ploch objektů, můžete v **místní** nabídce vybrat nástroj **Vyrovnat plochy**. K nástroji **Vyrovnat plochy** můžete také získat přístup pomocí klávesové zkratky **FL**.
+Wenn zwei oder mehr Objektflächen ausgewählt sind, können Sie das Werkzeug **Flächen abflachen** aus dem **Kontextmenü** auswählen. Sie können auf **Flächen abflachen** auch über den Kurzbefehl **FL** zugreifen.
 
 ![](../.gitbook/assets/flatten_faces.png)
 
-Nástroj **Vyrovnat plochy** se hodí k opravám v případech, kdy u ploch, které měly být rovinné, neočekávaně vzniknou plošky \(s hladkými hranami mezi plochami\), a to buď při importu dat s nižší věrností, například [modelů aplikace SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), nebo po náhodném přesunutí vrcholu nebo hrany, který způsobí, že plocha bude složena z plošek nebo trojúhelníků.
+**Flächen abflachen** kann als Reparaturwerkzeug nützlich sein, wenn eine Fläche, die planar sein sollte, unerwartet facettiert wird \(mit glatten Kanten zwischen den Facetten\); entweder beim Importieren von Daten mit niedriger Wiedergabetreue wie [SketchUp-Modellen](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) oder wenn versehentlich ein Scheitelpunkt oder eine Kante verschoben wird, wodurch eine Fläche facettiert oder trianguliert wird.
 
-Nástroj **Vyrovnat plochy** můžete také použít k zarovnání nebo prodloužení tvarů. Chcete-li to provést, vyberte nejprve vodicí plochu a poté vyberte další plochy, které chcete vyrovnat s rovinou prvního povrchu.
+Sie können auch **Flächen abflachen** als Entwurfswerkzeug zum Ausrichten oder Verlängern von Formen verwenden. Wählen Sie dazu zunächst eine Hilfsfläche aus, und wählen Sie dann weitere Flächen aus, die auf die Ebene der ersten Fläche abgeflacht werden sollen.
 
-Prohlédněte si následující videofilm, který zobrazuje výkon a univerzálnost nástroje **Vyrovnat plochy**:
+Im folgenden Video wird die Leistung und Vielseitigkeit von **Flächen abflachen** erläutert:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
 

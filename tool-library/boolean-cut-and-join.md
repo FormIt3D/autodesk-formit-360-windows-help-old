@@ -1,28 +1,28 @@
-# Booleovský řez
+# Boolesche Operationen: Ausschneiden
 
-Pomocí nástroje Oříznout můžete oddělit jeden objekt nebo skupinu z jiného objektu nebo skupiny. Nástroj Oříznout lze použít dvěma způsoby:
+Mit dem Schnittwerkzeug können Sie ein Objekt oder eine Gruppe aus anderen Objekten oder Gruppen ausschneiden. Es gibt zwei Möglichkeiten zum Aufrufen des Schnittwerkzeugs:
 
-## Jako první je spuštěn příkaz Oříznout
+## Zuerst den Befehl Ausschneiden ausführen
 
-Klávesnice: C G
+Tastatur: C G
 
 ![](../.gitbook/assets/cut_tool.png)
 
-Spusťte příkaz Oříznout a postupujte podle pokynů v levé horní části obrazovky.
+Führen Sie den Befehl Ausschneiden aus, und folgen Sie den Anweisungen für den Modus oben links auf dem Bildschirm.
 
-Kliknutím vyberte objekt, který chcete oříznout:
+Klicken Sie, um ein Objekt auszuwählen, in das geschnitten werden soll:
 
 ![](../.gitbook/assets/boolean_cut.png)
 
-Kliknutím vyberte objekty nebo skupiny, které chcete odebrat:
+Klicken Sie, um Objekte oder Gruppen zum Entfernen auszuwählen:
 
 ![](../.gitbook/assets/boolean_cut2.png)
 
-Kliknutím na značku zaškrtnutí dokončete příkaz. Odebraný objekt zůstane ve scéně. Můžete jej odstranit nebo skrýt pomocí možnosti [Hladiny](layers.md).
+Klicken Sie auf das Häkchen, um den Befehl zu beenden. Das entfernte Objekt bleibt in der Szene erhalten. Sie können es löschen oder mit [Layern](layers.md) ausblenden.
 
-## Jako první jsou vybrány objekty
+## Zuerst die Objekte auswählen
 
-1. Dvojitým kliknutím vyberte objekt, který chcete oříznout. \(Jedním kliknutím vyberete skupinu.\)
-2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekty, které chcete oříznout.
-3. Klikněte pravým tlačítkem na objekt, který chcete oříznout, a v místní nabídce vyberte [**nástroj Oříznout**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](../.gitbook/assets/booleancut.png)
+1. Doppelklicken Sie, um das Objekt auszuwählen, in das geschnitten werden soll. \(Einzelklick für eine Gruppe\)
+2. Halten Sie die **STRG-Taste** gedrückt, und doppelklicken Sie auf ein überlappendes Objekt, das Sie ausschneiden möchten.
+3. Klicken Sie mit der rechten Maustaste auf das auszuschneidende Objekt, und wählen Sie im Kontextmenü das [**Werkzeug Ausschneiden**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](../.gitbook/assets/booleancut.png)
 

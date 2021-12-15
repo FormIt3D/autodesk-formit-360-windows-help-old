@@ -1,48 +1,48 @@
-# Podlaží a plocha
+# Ebenen und Fläche
 
-Po vytvoření geometrie v aplikaci FormIt můžete použít podlaží k určení výšky podlaží a k výpočtům ploch.
+Nachdem Sie in FormIt Geometrie erstellt haben, können Sie Ebenen anwenden, um anzugeben, wo sich Geschossansichten befinden, und um Flächenberechnungen zu erstellen.
 
-Prostudujte si [příručku k aplikaci FormIt ](../formit-primer/part-i/adding-floors-with-levels.md)a zjistěte, jak podlaží fungují.
+Sehen Sie sich die [FormIt-Einführung](../formit-primer/part-i/adding-floors-with-levels.md) an, um zu erfahren, wie Ebenen in der Praxis funktionieren.
 
-## Tvorba a konfigurace podlaží
+## Erstellen und Konfigurieren von Ebenen
 
-Panel Podlaží se nachází na pravé straně aplikace FormIt pro systém Windows:
+Die Gruppe Ebenen befindet sich rechts in FormIt for Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Tvorba a odstraňování podlaží
+#### Erstellen und Löschen von Ebenen
 
-* Kliknutím na tlačítko „+“ vytvoříte nové podlaží.
-* Kliknutím na tlačítko „++“ vytvoříte řadu podlaží.
-   * Můžete určit, kolik podlaží se má vytvořit, a zadat svislou vzdálenost mezi nimi.
-* Chcete-li odstranit jedno nebo více podlaží, vyberte je a kliknutím na tlačítko „-“ je odstraňte.
+* Erstellen Sie eine neue Ebene, indem Sie auf die Schaltfläche + klicken.
+* Erstellen Sie eine Reihe von Ebenen, indem Sie auf die Schaltfläche ++ klicken.
+   * Auf diese Weise können Sie festlegen, wie viele Ebenen erstellt werden sollen, und den vertikalen Abstand zwischen ihnen festlegen.
+* Wählen Sie eine oder mehrere Ebenen aus, und klicken Sie auf -, um sie zu löschen.
 
-#### Přejmenování, nastavení výšek a přečíslování podlaží
+#### Umbenennen, Festlegen von Höhen und Neunummerieren von Ebenen
 
-* Chcete-li přejmenovat některé podlaží, dvakrát klikněte na jeho název nebo klikněte pravým tlačítkem myši a vyberte položku Upravit název.
-* Výšku podlaží můžete upravit dvojitým kliknutím na číslo nebo kliknutím pravým tlačítkem myši a výběrem položky Upravit výšku.
-* Chcete-li podlaží přečíslovat, klikněte na ikonu Obnovit v horní části.
-   * To je užitečné, pokud jste přidali nebo odstranili podlaží a výchozí schéma pojmenování není synchronizované \(tj. Podlaží 1, Podlaží 2, Podlaží 5\).
-   * Toto tlačítko bude ignorovat všechna podlaží s vlastními názvy, ale přečísluje všechna podlaží s názvem, který se řídí syntaxí „Podlaží 1“.
+* Benennen Sie eine Ebene um, indem Sie auf den Namen doppelklicken oder indem Sie mit der rechten Maustaste klicken und Namen bearbeiten wählen.
+* Passen Sie die Höhe einer Ebene an, indem Sie auf die Zahl doppelklicken oder indem Sie mit der rechten Maustaste klicken und Höhe bearbeiten wählen.
+* Klicken Sie oben auf das Symbol Aktualisieren, um die Ebenen neu zu nummerieren.
+   * Dies ist hilfreich, wenn Sie Ebenen hinzugefügt oder entfernt haben und das vorgegebene Benennungsschema nicht synchron ist \(z. B. Ebene 1, Ebene 2, Ebene 5\).
+   * Mit dieser Schaltfläche werden alle Ebenen mit benutzerdefinierten Namen ignoriert, alle Ebenen mit einem Namen entsprechend der Syntax Ebene 1 werden jedoch neu nummeriert.
 
-## Použití podlaží
+## Anwenden von Ebenen
 
-Chcete-li použít podlaží na objekt, je nutné vybrat objekt a přejít na panel Vlastnosti.
+Um Ebenen auf ein Objekt anzuwenden, müssen Sie das Objekt auswählen und direkt zur Gruppe Eigenschaften wechseln.
 
-Aby bylo možné použít podlaží na objekt, musí být objekt těleso, které nemá problémy se zadními plochami nebo vodotěsností. [Zjistěte, jak zkontrolovat, zda v modelu nejsou problémy s vodotěsností a zadními plochami](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Beachten Sie, dass zum Anwenden von Ebenen auf ein Objekt das Objekt ein Volumenkörper ohne Rückseite oder Dichtheitsprobleme sein muss. [Erfahren Sie, wie Sie Ihr Modell auf Dichtheit und Probleme mit der Rückseite überprüfen](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-Pokud je na kreslicí ploše vybrán objekt tělesa \(v tomto příkladu jednoduchá skořepina budovy\), na panelu Vlastnosti se zobrazí zaškrtávací políčko Použít podlaží.
+Wenn im Ansichtsbereich ein Volumenkörperobjekt ausgewählt ist \(in diesem Beispiel eine einfache Gebäudehülle\), wird in der Gruppe Eigenschaften das Kontrollkästchen Ebenen verwenden angezeigt.
 
-* Jestliže již náčrt aplikace FormIt obsahuje definovaná podlaží \(viz výše\), zaškrtnutím tohoto políčka se použijí všechna podlaží, která by protínala tento tvar \(přitom budou ignorována všechna podlaží, která by byla příliš vysoko nebo příliš nízko\).
-* Pokud náčrt aplikace FormIt ještě podlaží neobsahuje, zaškrtnutím tohoto políčka se vytvoří dostatek výchozích podlaží \(s výškou 12' mezi podlažími\) protínající celý tvar a tato podlaží se automaticky použijí na tento objekt.
+* Wenn in der FormIt-Skizze bereits Ebenen definiert sind \(siehe oben\), werden durch Aktivieren dieses Kontrollkästchens alle Ebenen verwendet, die diese Form schneiden würden \(wobei alle Ebenen ignoriert werden, die zu hoch oder zu niedrig wären\).
+* Wenn die FormIt-Skizze noch keine Ebenen enthält, werden durch Aktivieren dieses Kontrollkästchens genügend Vorgabeebenen erstellt\(Geschosshöhe 12'\), um die gesamte Form zu schneiden, und diese Ebenen werden automatisch auf dieses Objekt angewendet.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Podlaží a aplikace Revit
+## Ebenen und Revit
 
-Pokud jsou u geometrie aplikace FormIt použita podlaží, budou tato podlaží odeslána do aplikace Revit pomocí [doplňku aplikace FormIt](https://formit.autodesk.com/page/formit-revit).
+Wenn Ebenen auf FormIt-Geometrie angewendet werden, werden diese Ebenen mithilfe des [FormIt-Zusatzmoduls](https://formit.autodesk.com/page/formit-revit) an Revit gesendet.
 
-V aplikaci Revit můžete pomocí podlaží aplikace FormIt vytvářet podlaží objemu, podlaží na ploše a půdorysy podlaží přidružené k podlažím aplikace FormIt.
+In Revit können Sie mithilfe der FormIt-Ebenen mit diesen verknüpfte Körpergeschosse, Geschossdecken über Fläche und Grundrisse erstellen.
 
 
 

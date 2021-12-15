@@ -1,24 +1,24 @@
-# Oblouk
+# Bogen
 
-Pomocí nástroje Oblouk můžete vytvářet poloviční kružnice nebo symetrické oblouky. Oblouky lze vytvářet dvěma způsoby.
+Mithilfe des Werkzeugs Bogen können Sie Halbkreise oder symmetrische Bogen erstellen. Bogen können mit zwei Methoden erstellt werden:
 
-## Oblouk pomocí tří bodů
+## Bogen durch drei Punkte
 
 ![](../.gitbook/assets/arc_three_pts.png)
 
-Oblouk je definován třemi body a lze jej nakreslit na osách X, Y a Z. Definujte první bod, poté určete vzdálenost od prvního bodu ke druhému a nakonec zadáním třetího bodu definujte výšku oblouku. Automaticky se zobrazí bod „poloviční kružnice“, ke kterému se můžete přichytit. Za tímto bodem se čára oblouku protáhne za první dva body.
+Ein Bogen wird durch drei Punkte definiert und kann auf der X-, Y- oder Z-Achse gezeichnet werden. Definieren Sie den ersten Punkt, legen Sie dann die Entfernung vom ersten zum zweiten Punkt fest und definieren Sie schließlich einen dritten Punkt für die Höhe des Bogens. Ein Punkt, der den Halbkreis markiert, wird automatisch angezeigt und kann als Fangpunkt verwendet werden. Jenseits davon wird die Bogenlinie über die ersten beiden Punkte hinaus verlängert.
 
-Při určování umístění druhého bodu se zobrazuje vzdálenost mezi prvním a druhým bodem. Chcete-li vzdálenost zadat ručně, stačí zadat hodnotu a zobrazí se pole kóty. 
+Während Sie die Position des zweiten Punkts bestimmen, wird die Entfernung zwischen dem ersten und zweiten Punkt angezeigt. Zur manuellen Angabe der Entfernung geben Sie einfach einen Wert ein. Daraufhin wird ein Bemaßungsfeld angezeigt.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-Po nakreslení oblouku můžete vytvořit plochu pomocí [nástroje Čára](line-tool.md), který spojí první a druhý bod.
+Nachdem Sie den Bogen gezeichnet haben, können Sie mithilfe des [Werkzeugs Linie](line-tool.md) eine Fläche erstellen, um den ersten und den zweiten Punkt zu verbinden.
 
-## Oblouk pomocí středu
+## Bogen durch Mittelpunkt
 
 ![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Vyberte středový bod oblouku, poté tažením vyberte střed a tažením definujte délku oblouku. Chcete-li definovat přesný počet stupňů oblouku, jednoduše zadejte požadovanou hodnotu.
+Wählen Sie den Mittelpunkt des Bogens, ziehen Sie dann den Cursor, um die Mitte zu wählen, und ziehen Sie ihn erneut, um die Länge des Bogens zu definieren. Geben Sie einfach einen Wert ein, um eine genaue Gradzahl für den Bogen einzugeben.
 
 ![](../.gitbook/assets/arc_circle_demo.gif)
 

@@ -1,61 +1,61 @@
-# Uchopení a odvození
+# Objektfang und Ableitungen
 
-Chcete-li si usnadnit kreslení a modelování, používejte k přesnému vytvoření, umístění a úpravě geometrie body uchopení a odvození. Jakoukoli zvolenou osu můžete použít jako osu pro kreslení nebo provedení jiné akce, například vysunutí povrchu.
+Objektfang und Ableitungspunkte ermöglichen eine präzise Erstellung, Platzierung und Bearbeitung von Geometrie und erleichtern dadurch das Skizzieren und Modellieren. Sie können die Achse wählen, entlang derer Sie zeichnen oder eine andere Funktion ausführen möchten, etwa das Extrudieren einer Oberfläche.
 
-**Poznámka:** _Informace o tom, jak urychlit používání nástrojů softwaru, najdete v části_ [_Klávesové zkratky_](../appendix/keyboard-shortcuts.md)_._
+**Anmerkung:** _Unter_ [_Tastaturkurzbefehle_](../appendix/keyboard-shortcuts.md) _finden Sie Informationen dazu, wie Sie noch schneller mit den Werkzeugen der Software arbeiten können._
 
-## Uchopení
+## Objektfang
 
-Při vytváření náčrtů a modelování vám může pomoci několik uchopení. Přichytání k objektům je automaticky povoleno a přichytit se můžete k následujícím prvkům:
+Beim Skizzieren und Modellieren stehen mehrere Objektfangfunktionen zur Verfügung. Der Objektfang für Objekte ist automatisch aktiviert. Die folgenden Fangreferenzen sind verfügbar:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vrcholy | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Hrany. Při umístění kurzoru nad hranu se na koncích a ve středovém bodu zabrazí malé červené tečky. | ![](../.gitbook/assets/inf4.png) |
-| Středové body hrany | ![](../.gitbook/assets/inf5.png) |
-| Rovina plochy. Při umístění kurzoru nad plochu se v těžišti plochy zobrazí malý červený bod. To vám usnadní nalezení bodu, pokud k němu chcete provést přichycení. | ![](../.gitbook/assets/inf6.png) |
-| Těžiště ploch | ![](../.gitbook/assets/inf7.png) |
-| Pracovní rovina, pokud neprovedete přichycení k jinému prvku. | ![](../.gitbook/assets/inf8.png) |
-| Středy kružnic nebo oblouků | ![](../.gitbook/assets/inf9.png) |
-| Vrcholy sítě | ![](../.gitbook/assets/inf2.png) |
-| Rovina plošky sítě. | ![](../.gitbook/assets/inf1.png) |
+| Knoten | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Kanten Wenn Sie den Mauszeiger über die Kante bewegen, werden kleine        rote Punkte an den Enden und am Mittelpunkt gezeichnet. | ![](../.gitbook/assets/inf4.png) |
+| Kantenmittelpunkte | ![](../.gitbook/assets/inf5.png) |
+| Die Ebene einer Fläche. Wenn Sie den Mauszeiger über die Fläche bewegen, wird ein        kleiner roter Punkt am Flächenschwerpunkt gezeichnet. Dadurch können Sie den Punkt leicht finden,        wenn Sie diesen fangen möchten. | ![](../.gitbook/assets/inf6.png) |
+| Flächenschwerpunkte | ![](../.gitbook/assets/inf7.png) |
+| Die Arbeitsebene, wenn Sie kein anderes Element fangen. | ![](../.gitbook/assets/inf8.png) |
+| Kreis- oder Bogenmittelpunkte | ![](../.gitbook/assets/inf9.png) |
+| Netzscheitelpunkte | ![](../.gitbook/assets/inf2.png) |
+| Die Ebene einer Netzfacette. | ![](../.gitbook/assets/inf1.png) |
 
-Chcete-li provést přichycení k osnově, je nutné v nabídce Nastavení povolit možnost **Přichytit k osnově (SG)**.
+Um den Objektfang am Raster zu verwenden, müssen Sie die Option **Rasterfang (SG)** aus dem Menü Einstellungen aktivieren.
 
-## Osy a body odvození
+## Ableitungsachsen und -punkte
 
-Automatický výběr bodů odvození je vždy povolen a pomůže vám omezit pohyb geometrie. Osy odvození se generují automaticky pomocí nástrojů nebo při umístění ukazatele myši nad hrany nebo body. Osy odvození jsou na obrazovce vždy nakresleny čárkovaně, abyste věděli, kde jsou, a mohli k nim snadno provést přichycení.
+Die automatische Auswahl für Ableitungspunkte ist immer aktiviert und unterstützt Sie dabei, die Bewegungsmöglichkeiten für Geometrie einzuschränken. Ableitungsachsen werden automatisch durch Werkzeuge generiert oder wenn Sie den Mauszeiger über Kanten oder Punkte bewegen. Ableitungsachsen werden immer mit Strichen auf dem Bildschirm gezeichnet, damit Sie wissen, wo sie sich befinden, und damit sie einfach gefangen werden können.
 
-**Osa:** Geometrii lze posunovat podél osy X, Y nebo Z. Osa X je červená, osa Y je zelená a osa Z je modrá.
+**Achse:** Sie können Geometrie entlang der X-, Y- oder Z-Achse verschieben. Die Ableitung für die X-Achse ist rot, für die Y-Achse grün und für die Z-Achse blau.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Uzamknutí osy:** Pohyb můžete uzamknout podél osy X, Y nebo Z. Když jste na ose odvození, podržte klávesu Shift a poté pohybem myši proveďte přichycení a odvození k jiným prvkům.
+**Achse sperren:** Sie können die Bewegung entlang der X-, Y- oder Z-Achse sperren. Halten Sie die Umschalttaste gedrückt, während Sie eine Achsenableitung verwenden, und bewegen Sie die Maus, um den Objektfang und die Ableitung mit anderen Elementen als Referenzen zu verwenden.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Rovnoběžné:** Geometrii můžete nakreslit nebo přesunout rovnoběžně s existujícími prvky. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako rovnoběžnou referenci.
+**Parallel:** Sie können Geometrie parallel zu bestehenden Elementen skizzieren oder verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als parallele Referenz verwenden möchten.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Kolmé:** Můžete také nakreslit nebo přesunout geometrii kolmo k existujícím prvkům. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako kolmou referenci.
+**Lotrecht:** Es ist auch möglich, Geometrie lotrecht zu bestehenden Elementen zu zeichnen oder zu verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als lotrechte Referenz verwenden möchten.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Prodloužení z bodu:** Pomocí odvození můžete také provést prodloužení z referenčního bodu. Přesuňte ukazatel myši nad bod, který chcete použít jako referenci, dokud se nezobrazí popisek nástroje, a poté použijte osu odvození, která vede z tohoto bodu.
+**Von einem Punkt ausgehend:** Sie können auch von einer Punktreferenz ausgehende Ableitungen verwenden. Setzen Sie den Cursor auf den Punkt, den Sie als Referenz verwenden möchten, bis die QuickInfo angezeigt wird, und verwenden Sie die von diesem Punkt ausgehende Ableitungsachse.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Střed kružnice:** Chcete-li provést přichycení ke středu oblouku nebo kružnice, přesuňte ukazatel myši nad oblouk nebo kružnici. Uprostřed se zobrazí malá červená tečka, která zůstane viditelná po dobu asi 5 sekund poté, co kurzor z oblouku nebo kružnice přesunete pryč. Nyní přesuňte kurzor nad tuto červenou tečku a proveďte přichycení ke středu.
+**Kreismittelpunkt**: Wenn Sie den Mittelpunkt eines Bogens oder Kreises fangen möchten, bewegen Sie den Mauszeiger über den Bogen oder Kreis. Es wird ein kleiner roter Punkt in der Mitte angezeigt. Er bleibt noch etwa 5 Sekunden sichtbar, wenn Sie den Mauszeiger vom Bogen oder Kreis weg bewegen. Bewegen Sie den Cursor nun über den roten Punkt, um den Mittelpunkt zu fangen.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Skutečné středové body oblouků a spline:** Při umístění kurzoru nad kružnici, oblouk nebo spline se budete moci přichytit ke skutečnému středovému bodu. Tento bod a koncové body budou zobrazeny malou červenou tečkou. Při odvozování na oblouk se také přichytíte k vrcholům přímých hran, které představují oblouk.
+**Tatsächliche Bogen- und Spline-Mittelpunkte**: Wenn Sie den Mauszeiger über einen Kreis, Bogen oder Spline bewegen, können Sie den tatsächlichen Mittelpunkt fangen. Dieser und die Endpunkte werden durch einen kleinen roten Punkt dargestellt. Wenn Sie einen Bogen ableiten, werden auch die Scheitelpunkte der geraden Kanten, die den Bogen darstellen, gefangen.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Odstranění odvození:** Je možné, že kreslení vygeneruje větší počet odvození, což může vadit v umístění bodů, které se nemají k těmto odvozením přichytit. Pokud stisknete klávesy **Shift+mezerník**, budou všechna odvození smazána, kromě těch, které se nacházejí v posledním umístěném bodě.
+**Löschen von Ableitungen**: Es ist möglich, dass in Zeichnungen eine größere Anzahl von Ableitungen generiert wird. Dies könnte beim Platzieren von Punkten, die diese Ableitungen nicht fangen sollen, stören. Wenn Sie die **UMSCHALTTASTE+LEERTASTE** drücken, werden alle Ableitungen gelöscht, mit Ausnahme derjenigen am zuletzt platzierten Punkt.
 
-![Před vymazáním odvození](../.gitbook/assets/inf19.png)
+![Vor dem Löschen von Ableitungen](../.gitbook/assets/inf19.png)
 
-![Po vymazání odvození](../.gitbook/assets/inf20.png)
+![Nach dem Löschen von Ableitungen](../.gitbook/assets/inf20.png)
