@@ -1,6 +1,6 @@
-# Płaszczyzny tnące
+# Planos de seção
 
-Za pomocą **płaszczyzn przekroju** możesz ciąć model programu FormIt, odsłaniając pomieszczenia wewnętrzne i elementy konstrukcyjne.
+Use **Planos de corte** para cortar no modelo do FormIt, revelando espaços internos e elementos estruturais.
 
-Więcej na temat płaszczyzn przekroju można znaleźć w [podręczniku FormIt Primer](../formit-primer/part-i/section_planes.md).
+Saiba mais sobre os planos de corte no [Manual do FormIt](../formit-primer/part-i/section_planes.md).
 

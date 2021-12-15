@@ -1,18 +1,18 @@
-# Modelowanie brył koncepcyjnych
+# Modelagem conceitual de sólidos
 
-Szybko i łatwo twórz geometrię koncepcyjną, aby pracować z użyciem wariantów projektu.
+Crie de forma rápida e fácil a geometria conceitual para trabalhar com as opções de projeto.
 
-Jądro do modelowania brył programu FormIt zapewnia niezwykłe, oszczędzające czas procesy robocze umożliwiające łatwe i wydajne modelowanie.
+O kernel de modelagem sólida do FormIt permite fluxos de trabalho incríveis que economizam tempo para tornar a modelagem fácil e eficiente.
 
-**Dowiedz się, dlaczego modelowanie brył jest korzystne i jak zapewnić, że model będzie bryłą, aby można go było używać w aplikacjach do pracy na kolejnych etapach, takich jak Revit:**
+**Saiba por que a modelagem de sólidos é vantajosa e como garantir que o modelo seja sólido para que possa ser usado em aplicativos de nível superior, como o Revit:**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Gdy model jest już bryłą, można skorzystać z technik wyciągania brył, aby szybko wyczyścić geometrię i zadbać o uporządkowanie modeli:**
+**Quando o modelo for sólido, você poderá aproveitar as técnicas de extrusão de sólidos para limpar rapidamente a geometria e manter modelos organizados:**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Ponadto za pomocą narzędzi inteligentnego wybierania można szybko wybrać podobną geometrię i zaoszczędzić sobie kliknięć:**
+**Além disso, use as ferramentas de Seleção inteligente para selecionar rapidamente geometrias semelhantes e salvar cliques:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
 

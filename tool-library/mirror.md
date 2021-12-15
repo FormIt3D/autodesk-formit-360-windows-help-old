@@ -1,13 +1,13 @@
-# Odbij
+# Espelhamento
 
-Narzędzie Odbij służy do tworzenia lustrzanego odbicia obiektu.
+Use a ferramenta Espelhar para criar uma cópia espelhada de um objeto.
 
-Tworzenie odbicia lustrzanego obiektu:
+Para espelhar um objeto:
 
-1. Kliknij dwukrotnie, aby wybrać pojedynczy obiekt, lub kliknij jednokrotnie, aby wybrać grupę.
-2. Kliknij prawym przyciskiem myszy i wybierz z menu kontekstowego narzędzie Odbij lub wpisz skrót klawiaturowy **MI**.
-3. Zostanie wyświetlona płaszczyzna wskazująca oś, za pomocą których zostanie odbity obiekt. Płaszczyznę można przesuwać lub obracać, aby dostosować oś odbicia.
-4. Po zakończeniu dopasowywania płaszczyzny odbijanego obiektu kliknij w dowolnym miejscu poza obszarem wyboru.
+1. Clique duas vezes para selecionar um único objeto ou clique uma vez para selecionar um grupo.
+2. Clique com o botão direito do mouse e selecione a ferramenta Espelhar no menu de contexto ou digite o atalho de teclado **MI**.
+3. Um plano exibe e mostra o eixo no qual o objeto será espelhado. É possível mover ou rotacionar o plano para personalizar o eixo do espelho.
+4. Quando terminar de ajustar o plano do objeto espelhado, clique em qualquer lugar fora da seleção.
 
 ![](../.gitbook/assets/mirror.png)
 

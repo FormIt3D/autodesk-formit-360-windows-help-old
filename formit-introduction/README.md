@@ -1,9 +1,9 @@
-# Wprowadzenie do programu FormIt
+# Introdução ao FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Wprowadzenie do programu FormIt
+## Introdução ao FormIt
 
-Poznaj podstawy programu FormIt — co można w nim zrobić, jak można go uzyskać i jak można go dostosować.
+Aprenda alguns dos conceitos básicos do FormIt – o que ele pode fazer, onde você pode obtê-lo e como você pode personalizá-lo.
 
-Jeśli sfinalizowano już konfigurację początkową i można już przystąpić do nauki obsługi programu, czas zapoznać się z podręcznikiem [FormIt Primer](../formit-primer/).
+Se você tiver terminado a configuração inicial e estiver pronto para aprender como usá-lo, consulte o [Manual do FormIt](../formit-primer/).

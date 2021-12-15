@@ -1,36 +1,36 @@
-# 1.4 — Dodawanie kondygnacji z poziomami
+# 1.4 – Adicionar pisos com níveis
 
-_Poziomy umożliwiają tworzenie płatów brył z odniesieniami do poszczególnych kondygnacji i obliczanie powierzchni całkowitej na bryłę budynku. Poziomy programu FormIt i ich nazwy niestandardowe zostaną przekształcone w poziomy programu Revit po przekonwertowaniu pliku na format programu Revit._
+_Os níveis permitem dividir massas com dados de piso individuais e calcular a área bruta por massa de construção. Os níveis do FormIt e seus nomes personalizados serão convertidos em níveis do Revit quando o arquivo for convertido para o Revit._
 
-_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik**1.4 — Add Floors with Levels.axm** z folderu **FormIt Primer Part 1 Datasets**._
+_Se você não completou a última seção, faça o download e abra o arquivo **1.4 – Add Floors with Levels.axm** nos **Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Tworzenie i dostosowywanie poziomów**
+## **Criar e personalizar níveis**
 
-1 — Aby utworzyć poziomy:
+1 – Para criar níveis:
 
-1. Przejdź do **palety Poziomy** na **pasku palet**.
-2. Kliknij przycisk **+** \(**Dodaj poziom**\) cztery razy, aby utworzyć cztery poziomy.
-3. Kliknij dwukrotnie bieżącą rzędną każdego poziomu, aby zmienić je na: **0’-0", 2'-2", 4’-6"** i **17’-8"**.
-4. Kliknij dwukrotnie bieżącą nazwę każdego poziomu i zmień je na: **Ground, Terrace, Main Building** i **Top of Roof.**
+1. Vá para a **paleta Níveis** na **Barra de paletas**.
+2. Clique em **+** \(**Adicionar nível**\) quatro vezes para criar quatro níveis.
+3. Clique duas vezes na elevação atual de cada nível para modificá-los para: **0’-0", 2’-2", 4’-6"** e **17’-8"**.
+4. Clique duas vezes no nome atual de cada nível e renomeie-os: **Solo, Terraço, Construção principal** e **Topo do telhado.**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Uwaga**: Możesz kliknąć ikonę_ _**++**_ _w celu utworzenia wielu poziomów z określonymi i jednakowymi odstępami między nimi. Jest to przydatne w przypadku budynków wielokondygnacyjnych_.
+_**Observação**: É possível clicar no ícone __**++**__ para criar vários níveis, com uma distância especificada e uniforme separada. Isso é útil para construções com vários andares_.
 
-## **Stosowanie poziomów do geometrii**
+## **Aplicar níveis à geometria**
 
-_W poprzednich krokach tylko utworzyliśmy poziomy. Teraz możemy zastosować te poziomy do utworzonej geometrii._
+_Nas etapas anteriores, só criamos níveis. Agora estamos prontos para aplicar esses níveis à geometria que criamos._
 
-1 — Aby zastosować poziomy do istniejącej geometrii:
+1 – Para aplicar níveis à geometria existente:
 
-1. Wybierz całą bryłę górnego tarasu, klikając ją dwukrotnie.
-2. Na **palecie Właściwości** kliknij opcję **Użyj poziomów**. W tym kroku zostaną wstępnie wybrane wszystkie poziomy, które aktualnie przecinają wybraną geometrię.
-3. Obecnie wybrana geometria ma zastosowane trzy poziomy \(**Main Building, Terrace** i **Ground**\), ale w tym ćwiczeniu chcemy zastosować tylko poziom **Ground**. Anuluj zaznaczenie pól wyboru **Main Building** i **Terrace**.
-4. Ten proces zapewnia uwzględnienie w obliczeniach powierzchni całkowitej tylko powierzchni przeciętej przez poziom **Ground**, co widać w polu **Powierzchnia wg poziomu**.
+1. Selecione toda a massa do terraço superior clicando duas vezes nela.
+2. Na **paleta Propriedades**, clique em **Usar níveis**. Esse passo pré-selecionará todos os níveis que atualmente efetuam a interseção com a geometria selecionada.
+3. Agora a geometria atualmente selecionada tem três níveis aplicados \(**Construção principal, Terraço **e **Solo**\), mas para este exercício, queremos aplicar somente **Solo**. Desmarque **Construção principal** e **Terraço**.
+4. Esse processo assegura que somente a área intersecionada pelo **Solo** seja considerada para o cálculo da área bruta, que pode ser vista no campo **Área por nível**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Uwaga**: Jeśli na bryle nie widać niebieskich linii poziomu, wpisz_ _**DL**_ _w polu_ _**Wyświetl poziomy**._
+_**Observação**: Se você não visualizar linhas de nível azuis na massa, digite_ _**DL**_ _para_ _**Exibir níveis**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

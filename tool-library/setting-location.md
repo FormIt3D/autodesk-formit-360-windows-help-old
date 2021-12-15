@@ -1,99 +1,99 @@
-# Ustawianie położenia
+# Definir a localização
 
-Ustawienie położenia projektu na świecie ma znaczenie dla dokładności modelu i analiz następczych. Dotyczy to między innymi następujących kwestii:
+Definir a localização de seu projeto no mundo é importante para a precisão do modelo e análises posteriores, incluindo:
 
-* Położenie jest używane przy importowaniu obrazu satelitarnego, który może być używany do śledzenia istniejącego terenu lub budynku.
-* Położenie jest używane przy importowaniu terenu 3D, który może być używany do tworzenia odniesień do danych topologicznych terenu.
-* Położenie jest używane do dokładnego pozycjonowania słońca na niebie, co wpływa na obliczenia cieni.
-* Położenie jest używane do analizy oświetlenia naturalnego i analizy energetycznej w celu zapewnienia dokładnych obliczeń analitycznych.
+* A localização é usada para importar uma imagem de satélite que pode ser usada para traçar um terreno ou construção existente.
+* A localização é usada para importar um terreno 3D, que pode ser usado para referenciar dados topológicos para um terreno.
+* A localização é usada para posicionamento preciso do sol no céu, afetando o cálculo de sombras.
+* A localização é usada para a análise solar e a análise de energia para fornecer cálculos analíticos precisos.
 
-Aby uzyskać dostęp do okna dialogowego Ustaw położenie i jego usług, należy się zalogować przy użyciu konta Autodesk.
+Você precisará estar conectado com a Autodesk Account para acessar a caixa de diálogo Configurar localização e seus serviços.
 
-### Położenie — pierwsze kroki
+### Introdução à localização
 
-* Uruchom okno dialogowe **Ustaw położenie** z narzędzia **Położenie** na pasku narzędzi lub za pomocą skrótu klawiaturowego SL.
+* Abra a caixa de diálogo **Configurar localização** da ferramenta **Localização** na barra de ferramentas ou com o atalho de teclado SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* Najpierw wpisz położenie projektu w polu wyszukiwania w lewym górnym rogu okna _Ustaw położenie_.
+* Comece digitando a localização do projeto na caixa de pesquisa no canto superior esquerdo da janela _Configurar localização_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Wybierz jedną z automatycznie wypełnionych opcji położenia lub naciśnij klawisz Enter, aby wybrać pierwszą.
-* Widok zostanie powiększony do położenia, które zostało automatycznie wyszukane.
+* Selecione uma das opções de localização de preenchimento automático ou pressione Enter para escolher a primeira
+* Você aumentará o zoom na localização que pesquisou automaticamente
 
-### „Ustaw tylko położenie” a „Importuj obraz satelitarny i teren”
+### Definir somente localização versus Importar imagem de satélite e terreno
 
-Po wyszukaniu położenia można wybrać jedną z dwóch opcji:
+Após ter pesquisado uma localização, você pode escolher uma das duas opções:
 
-* **Ustaw tylko położenie** spowoduje ustawienie położenia w pliku bez importowania obrazów satelitarnych.
-* **Importuj obraz satelitarny i teren** spowoduje ustawienie położenia, a także zaimportowanie obrazów satelitarnych i terenu przy użyciu poziomu powiększenia i zakresu, które można skonfigurować.
+* **Definir somente localização** definirá a localização no arquivo sem importar as imagens de satélite.
+* **Importar imagem de satélite e terreno** definirá a localização e também importará imagens de satélite e terreno usando um nível de zoom e extensões que você pode configurar.
 
-### Importowanie obrazów satelitarnych
+### Importar imagens de satélite
 
-* Kliknij opcję **Importuj obraz satelitarny i teren** w prawej górnej części okna **Ustaw położenie**.
-* W środku okna zostanie wyświetlony podgląd obrazu satelitarnego wraz ze wskazaniem miejsca, w którym pojawi się początek programu FormIt (względem obrazu).
+* Clique em **Importar imagem de satélite e terreno** na parte superior direita da janela **Definir localização**.
+* Uma visualização das imagens de satélite será exibida no centro da janela, junto com uma indicação de onde a origem do FormIt será exibida, relativa às imagens.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Przeciągnij obraz satelitarny w kwadracie, aby dopasować jego położenie.
-* Po ujęciu w obszarze kwadratowym odpowiedniego obrazu kliknij przycisk **Zakończ importowanie**.
-* Obraz zostanie zaimportowany z przeskalowaniem, przy czym północ rzeczywista jest skierowana w górę, wyśrodkowana w początku obszaru rysunku FormIt. Przezroczystość i kolejność względem osi Z zaimportowanego obrazu można zmienić, klikając go dwukrotnie i przechodząc do [**palety Właściwości**](../formit-introduction/tool-bars.md).
+* Arraste as imagens de satélite dentro do quadrado para ajustar sua posição
+* Depois que a área quadrada encapsula as imagens desejadas, clique em **Concluir importação**
+* A imagem será importada em escala, com o norte verdadeiro voltado para cima, centralizado na origem da tela do FormIt. É possível alterar a transparência e a ordem Z da imagem importada clicando duas vezes nela e acessando a [**paleta Propriedades**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Aktualizowanie obrazów satelitarnych
+### Atualizar as imagens de satélite
 
-Po wstępnym zaimportowaniu obrazów satelitarnych można za pomocą okna Ustaw położenie dostosować poziom powiększenia lub zakres obrazu satelitarnego.
+Após importar imagens de satélite pela primeira vez, é possível usar a janela Configurar localização para ajustar o nível de zoom ou as extensões das imagens de satélite.
 
-* Ponownie uruchom okno **Ustaw położenie**, uzyskując do niego dostęp z paska narzędzi, jak wyjaśniono powyżej.
-* Kliknij opcję **Importuj obraz satelitarny i teren.**
-* Zostanie wyświetlony bieżący poziom powiększenia obrazu satelitarnego i zakres, jak pokazano w obszarze rysunku FormIt.
-* Wystarczy dopasować położenie lub powiększenie, a następnie kliknąć przycisk **Zakończ importowanie**, tak jak poprzednio.
-* Po ponownym zaimportowaniu obrazu do obszaru rysunku zostanie on przesunięty do właściwego położenia względem oryginalnego położenia obrazu \(i może nie być już wyśrodkowany w początku\):
+* Inicie a janela **Configurar localização** novamente acessando-a na barra de ferramentas, como descrito acima.
+* Clique em **Importar imagem de satélite e terreno.**
+* Você verá o nível de zoom e as extensões da imagem de satélite atual, como mostrado na tela do FormIt
+* Basta ajustar a posição ou o zoom e clicar em **Concluir importação** como você fez antes
+* Quando a imagem for reimportada para a tela, ela se moverá para a localização correta relativa à posição original da imagem \(e não poderá mais ser centralizada na origem\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importowanie terenu
+### Importar terreno
 
-Nowość w programie FormIt 2021.3: w przypadku importowania obrazów satelitarnych przy użyciu okna dialogowego **Ustaw położenie** uzyskuje się również teren.
+Novo no FormIt 2021.3, quando você usa a caixa de diálogo **Configurar localização** para importar imagens de satélite, também obterá o terreno.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-Po zaimportowaniu terenu jest on umieszczany na warstwie, która jest domyślnie wyłączona \(w przypadku rozpoczęcia modelowania model może być przykryty przez teren).
+Quando o terreno é importado, ele é colocado em uma camada, que está desativada por padrão \(caso você tenha iniciado a modelagem, o modelo poderá ser coberto pelo terreno\).
 
-Gdy wszystko będzie gotowe do wyświetlenia terenu, zaznacz pole wyboru w celu przełączenia warstwy terenu:
+Quando estiver pronto para visualizar o terreno, alterne a camada do terreno marcando a caixa:
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### Praca z terenem
+### Trabalhar com o terreno
 
-Teren zostanie umieszczony w grupie programu FormIt. Kliknij dwukrotnie grupę, aby ją edytować.
+O terreno será colocado em um grupo do FormIt. Clique duas vezes no grupo para editá-lo.
 
-Wewnątrz znajdują się dwie siatki: jedna dla boków i dołu oraz jedna dla góry.
+Dentro ele, você encontrará duas malhas: uma para os lados e a parte inferior e outra para a parte superior.
 
-Aby zmodyfikować teren, należy przekonwertować siatki na pojedynczy obiekt bryłowy:
+Se você desejar modificar o terreno, será necessário converter as Malhas em um único objeto sólido:
 
-* Wybierz obie siatki.
-* Kliknij prawym przyciskiem myszy i wybierz opcję Siatki na obiekty lub użyj skrótu MO.
+* Selecione ambas as malhas.
+* Clique com o botão direito do mouse e escolha a opção Malhas em objetos ou use o atalho MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-W przypadku konwertowania obu siatek na obiekt w tym samym czasie program FormIt może połączyć je w bryłę, obiekt rozgałęziony, którego można używać do operacji bryłowych, takich jak Wycięcie logiczne.
+Ao converter ambas as malhas em um objeto ao mesmo tempo, o FormIt poderá combiná-las em um objeto sólido e múltiplo, que poderá ser usado para operações de sólido, como Corte booleano.
 
-W tym miejscu można użyć połączenia opcji [Widok z góry](orthographic-views.md) i [Kamera prostopadła](orthographic-camera.md), aby śledzić obszar graniczny na płaszczyźnie poziomej, a następnie wyciągnąć tę płaszczyznę w obiekt objętościowy przecinający teren. Zastosowanie przezroczystego [materiału](materials.md) pomaga w obserwowaniu terenu poprzez bryłę tnącą:
+Daqui, é possível usar uma combinação de [Vista superior](orthographic-views.md) e [Câmera ortogonal](orthographic-camera.md) para traçar o limite do terreno em um plano horizontal e, em seguida, efetuar a extrusão do plano em um volume que efetua a interseção com o terreno. Usar um [material](materials.md) transparente ajudará a visualizar o terreno por meio do sólido de corte:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Użyj narzędzia Dotnij geometrię i wybierz teren jako bryłę, w której ma zostać wycięty element, oraz tnący obiekt objętościowy jako bryłę do usunięcia.
+Use a ferramenta Cortar geometria e selecione o terreno como o “Sólido a ser cortado” e o volume de corte como “Sólido a ser removido”.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-W wyniku tego powstanie teren z usuniętą bryłą tnącą, co spowoduje odsłonięcie miejsca, w którym można narysować nowy teren i fundament.
+O resultado será o terreno com o sólido de corte removido, expondo o vazio onde é possível desenhar o novo terreno e fundação.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-Za pomocą [warstw](layers.md) można ukryć bryłę tnącą lub nawet utworzyć kopie terenu z wycięciem i bez niego na wypadek, gdyby trzeba było utworzyć odniesienie do pierwotnego terenu lub zmienić kształt wycięcia przed wykonaniem operacji wycięcia bryły.
+É possível usar [camadas](layers.md) para ocultar o sólido de corte, ou até mesmo fazer cópias do terreno com e sem o corte, caso seja necessário referenciar o terreno original, ou alterar a forma de corte antes de executar a operação de corte sólido.
 

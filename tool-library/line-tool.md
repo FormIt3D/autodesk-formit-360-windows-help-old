@@ -1,20 +1,20 @@
-# Linie
+# Linhas
 
-Za pomocą linii można dzielić powierzchnie i tworzyć geometrię.
+Use linhas para dividir faces e construir geometria.
 
-Klawiatura: L
+Teclado: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-Linie można rysować na osiach X, Y oraz Z, a także na istniejącej geometrii. Podczas przyciągania do osi, rysowana linia jest przedłużana za pomocą kolorowej linii wskazującej, na której osi użytkownik rysuje. Długość linii jest widoczna podczas rysowania, ale można też ręcznie wprowadzić określoną długość, naciskając klawisz **Tab** i wprowadzając wartość.
+É possível desenhar linhas no eixo X, Y ou Z e também na geometria existente. Quando você efetua o snap em um eixo, uma linha colorida se estende além da linha que você está desenhando, indicando em qual eixo você está desenhando. É possível ver o comprimento da linha ao desenhar e inserir manualmente um comprimento específico pressionando **tab** e inserindo um valor.
 
-Kolory linii według osi:
+Cores de linha por eixo:
 
-Aby określić długość, wystarczy wpisać wartość wymiaru, a zostanie wyświetlone okno dialogowe Edycja wymiaru. Naciśnij przycisk OK lub naciśnij klawisz Enter, aby zaakceptować tę wartość.
+Para especificar um comprimento, basta digitar um valor de cota e uma caixa de diálogo Editar cota será exibida. Pressione OK ou Enter para aceitar o valor.
 
-* X = kolor czerwony
-* Y = kolor zielony
-* Z = kolor niebieski
+* X = Vermelho
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/lines.png)
 

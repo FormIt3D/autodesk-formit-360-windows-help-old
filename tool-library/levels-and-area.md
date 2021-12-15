@@ -1,48 +1,48 @@
-# Poziomy i powierzchnia
+# Níveis e área
 
-Po utworzeniu geometrii w programie FormIt można zastosować poziomy, aby wskazać, gdzie znajdują się rzędne kondygnacji, i wygenerować obliczenia powierzchni.
+Após criar a geometria no FormIt, é possível aplicar Níveis para indicar onde as elevações do piso estão e para gerar cálculos de área.
 
-Zobacz poziomy w działaniu, korzystając z podręcznika [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md).
+Confira o [Manual do FormIt](../formit-primer/part-i/adding-floors-with-levels.md) para ver os níveis em ação.
 
-## Tworzenie i konfigurowanie poziomów
+## Criar e configurar níveis
 
-Panel Poziomy znajduje się po prawej stronie programu FormIt dla systemu Windows:
+Você encontrará o painel Níveis no lado direito do FormIt para Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### Tworzenie i usuwanie poziomów
+#### Criar e excluir níveis
 
-* Utwórz nowy poziom, klikając przycisk „+”.
-* Utwórz serię poziomów, klikając przycisk „++”.
-   * Pozwoli to na określenie liczby tworzonych poziomów i odległości pionowej między nimi.
-* Wybierz co najmniej jeden poziom i kliknij przycisk „-”, aby go usunąć.
+* Crie um novo nível clicando no botão “+”.
+* Crie uma série de níveis clicando no botão “++”.
+   * Isso permitirá especificar quantos níveis serão criados e a distância vertical entre eles.
+* Selecione um ou mais níveis e clique em “-” para excluí-los.
 
-#### Zmiana nazw, ustawianie rzędnych i ponowne numerowanie poziomów
+#### Renomear, definir elevações e renumerar níveis
 
-* Zmień nazwę poziomu, klikając dwukrotnie jego nazwę lub klikając prawym przyciskiem myszy i wybierając opcję „Edytuj nazwę”.
-* Dopasuj rzędną poziomu, klikając dwukrotnie tę liczbę lub klikając prawym przyciskiem myszy i wybierając opcję „Edytuj rzędną”.
-* Kliknij ikonę Odśwież u góry, aby ponownie ponumerować poziomy.
-   * Jest to przydatne, jeśli dodano lub usunięto poziomy i domyślny schemat nazewnictwa jest nieuporządkowany \(np. Poziom 1, Poziom 2, Poziom 5\).
-   * Ten przycisk ignoruje wszystkie poziomy o nazwach niestandardowych, ale ponownie numeruje wszystkie poziomy o nazwach zgodnych ze składnią „Poziom 1”.
+* Renomeie um nível clicando duas vezes no nome ou clicando com o botão direito do mouse e escolhendo “Editar nome”.
+* Ajuste a elevação de um nível clicando duas vezes no número ou clicando com o botão direito do mouse e escolhendo “Editar elevação”.
+* Clique no ícone Atualizar na parte superior para renumerar níveis.
+   * Isso será útil se você tiver adicionado ou removido níveis e se o esquema de nomenclatura padrão não estiver sincronizado \(ou seja, Nível 1, Nível 2, Nível 5\).
+   * Esse botão ignorará quaisquer níveis com nomes personalizados, mas renumerará quaisquer níveis com o nome que segue a sintaxe “Nível 1”.
 
-## Stosowanie poziomów
+## Aplicar níveis
 
-Aby zastosować poziomy do obiektu, należy wybrać obiekt i przejść do panelu Właściwości.
+Para aplicar níveis a um objeto, você precisará selecionar o objeto e passar para o painel Propriedades.
 
-Należy pamiętać, że aby można było zastosować poziomy do obiektu, musi on być bryłą, bez problemów z powierzchnią tylną ani ze szczelnością. [Dowiedz się, jak sprawdzić model pod kątem problemów z powierzchnią tylną i szczelnością](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Observe que para aplicar níveis a um objeto, o objeto deve ser sólido, sem problemas de face posterior ou impermeável. [Saiba como verificar o modelo quanto a problemas de vedação e face posterior](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-Po wybraniu obiektu bryłowego w obszarze rysunku \(w tym przykładzie prostej powłoki budynku\) w panelu Właściwości zostanie wyświetlone pole wyboru „Użyj poziomów”.
+Com um objeto sólido selecionado na tela \(neste exemplo, uma casca de construção simples\), o painel Propriedades mostrará uma caixa de seleção “Usar níveis”.
 
-* Jeśli w szkicu programu FormIt już zdefiniowano poziomy \(zobacz powyżej\), zaznaczenie tego pola spowoduje użycie wszystkich poziomów, które przecinałyby ten kształt \(ze zignorowaniem tych, które wypadłyby zbyt wysoko lub zbyt nisko\).
-* Jeśli szkic programu FormIt nie zawiera jeszcze poziomów, zaznaczenie tego pola spowoduje utworzenie wystarczającej liczby poziomów domyślnych\(o wysokości między kondygnacjami równej 12' \), aby przeciąć cały kształt, i automatycznie zastosuje te poziomy do obiektu.
+* Se o esboço do FormIt já tiver níveis definidos \(veja acima\), marcar essa caixa usará todos os níveis que farão interseção com essa forma \(ignorando todos os que sejam muito altos ou muito baixos\).
+* Se o esboço do FormIt ainda não tiver níveis, marcar essa caixa criará níveis padrão suficientes.\(Altura de 12' piso a piso\) para efetuar a interseção com toda a forma e para aplicar automaticamente esses níveis a esse objeto.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Poziomy + program Revit
+## Níveis + Revit
 
-W przypadku zastosowania poziomów do geometrii programu FormIt zostaną one wysłane do programu Revit podczas korzystania z [dodatku FormIt](https://formit.autodesk.com/page/formit-revit).
+Quando os níveis são aplicados à geometria do FormIt, esses níveis serão enviados para o Revit ao usar o [complemento do FormIt](https://formit.autodesk.com/page/formit-revit).
 
-W programie Revit można używać poziomów programu FormIt do tworzenia skojarzonych z nimi zakresów kondygnacji, kondygnacji według powierzchni i rzutów kondygnacji.
+No Revit, é possível usar os níveis do FormIt para criar pisos de massa, piso por face e plantas de piso associadas aos níveis do FormIt.
 
 
 

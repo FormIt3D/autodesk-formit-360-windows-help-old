@@ -1,8 +1,8 @@
-# Właściwości
+# Propriedades
 
-Na **palecie Właściwości** wyświetlane są informacje i dane dotyczące wybranego obiektu w płaszczyźnie roboczej programu Formit.
+A **paleta Propriedades** exibe informações e dados relevantes para um objeto selecionado no Plano de trabalho do FormIt.
 
-Za pomocą palety Właściwości można edytować grupę obiektu, przypisać obiekt do warstwy i zmienić materiał obiektu.
+Usando a paleta Propriedades, é possível editar o grupo de um objeto, atribuir um objeto a uma camada e alterar o material de um objeto.
 
 ![](../.gitbook/assets/properties_palette.png)
 

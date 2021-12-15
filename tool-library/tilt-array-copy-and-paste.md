@@ -1,31 +1,31 @@
-# Powierzchnie: pochylanie i spłaszczanie/wygładzanie
+# Faces: inclinar e facetar/suavizar
 
-## Praca z powierzchniami: pochylanie i spłaszczanie/wygładzanie
+## Trabalhar com faces: inclinar e facetar/suavizar
 
-Aby tworzyć bardziej złożone projekty po naszkicowaniu kształtu lub umieszczeniu prymitywu, można modyfikować geometrię za pomocą kilku narzędzi kontekstowych. Te operacje obejmują polecenia Pochyl, Szyk oraz Kopiuj i Wklej.
+Para criar projetos mais complexos após desenhar uma forma ou inserir um primitivo, é possível usar diversas ferramentas contextuais para modificar a geometria. Essas operações incluem Inclinar, Matriz, Copiar e Colar.
 
-### Pochylanie powierzchni
+### Inclinar face
 
-**Pochylanie powierzchni:**
+Para **inclinar uma face:**
 
-1. Wybierz powierzchnię i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
-2. Wybierz ikonę **Pochyl** z menu kontekstowego.
-3. Zdefiniuj oś pochylenia, rysując linię.
-4. Kliknij trzeci punkt, aby rozpocząć operację pochylania.
+1. Selecione uma face e clique com o botão direito do mouse para ver o menu de contexto.
+2. Selecione o ícone **Inclinar** no menu de contexto.
+3. Defina o eixo de inclinação desenhando uma linha.
+4. Clique num terceiro ponto para iniciar a operação de inclinação.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Spłaszczanie/wygładzanie powierzchni
+### Facetas/faces suaves
 
-Jeśli po umieszczeniu kursora na powierzchni pojawiają się linie kropkowane, oznacza to, że dana powierzchnia składa się z mniejszych powierzchni, ponieważ jest zdeformowana. **Przekształcanie linii kropkowanych w krawędzie modelu:**
+Se você passar o cursor sobre uma face e observar linhas pontilhadas, isso significará que a face é composta de faces menores devido à face que está sendo distorcida. Para **transformar as linhas pontilhadas em arestas do modelo:**
 
-1. Wybierz powierzchnię lub obiekt, który chcesz zmienić, a następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
-2. Z menu kontekstowego wybierz narzędzie **Powierzchnie wygładzone płaszczyzną**.
-3. W miejscu, w którym powierzchnia była wcześniej gładka, zostaną automatycznie dodane krawędzie.
+1. Selecione a face ou o objeto que deseja alterar e clique com o botão direito do mouse para ver o menu de contexto.
+2. No menu de contexto, selecione a ferramenta **Facetas suaves**.
+3. São adicionadas arestas automaticamente no local onde a face era anteriormente suave.
 
-To polecenie działa też w odwrotny sposób: można również wybrać powierzchnie mające wiele płaszczyzn i wybrać narzędzie **Powierzchnie wygładzone płaszczyzną** z menu kontekstowego, aby ukryć krawędzie i wygładzić powierzchnie.
+Esse comando também funciona da maneira oposta: é possível selecionar faces que são facetadas e selecionar a ferramenta **Facetas suaves** no menu de contexto para ocultar as arestas e fazer com que as faces pareçam suaves.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

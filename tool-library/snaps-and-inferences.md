@@ -1,61 +1,61 @@
-# Przyciąganie i wnioskowanie
+# Snaps e inferências
 
-Aby łatwiej szkicować i modelować, używaj przyciągania i punktów wnioskowania w celu dokładnego tworzenia, umieszczania i edytowania geometrii. Można używać dowolnej osi jako tej, na podstawie której będzie coś rysowane lub zostanie wykonana inna operacja, np. wyciągnięcie powierzchni.
+Para facilitar o esboço e a modelagem, use snaps e pontos de inferência para criar, inserir e editar a geometria com precisão. É possível usar qualquer eixo escolhido para desenhar ou executar outra ação, como a extrusão de uma superfície.
 
-**Uwaga:** _Zobacz temat_ [_Skróty klawiaturowe_](../appendix/keyboard-shortcuts.md)_, aby uzyskać informacje na temat przyspieszenia korzystania z narzędzi oprogramowania._
+**Observação:** _Consulte_ [_Atalhos de teclado_](../appendix/keyboard-shortcuts.md)_ para obter informações sobre como acelerar o uso das ferramentas do software._
 
-## Przyciąganie
+## Posicionamento
 
-Istnieje kilka trybów przyciągania, które mogą być pomocne podczas szkicowania i modelowania. Przyciąganie do obiektów jest automatycznie włączone i można je przyciągać do następujących elementów:
+Há vários snaps que poderão ajudar enquanto você estiver desenhando e modelando. O snap a objetos é automaticamente ativado. É possível efetuar snap a:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Wierzchołki | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| krawędzi Po ustawieniu wskaźnika na krawędzi na końcach i w punkcie środkowym zostaną narysowane małe czerwone kropki. | ![](../.gitbook/assets/inf4.png) |
-| Punkty środkowe krawędzi | ![](../.gitbook/assets/inf5.png) |
-| Płaszczyzna powierzchni. Po ustawieniu wskaźnika na powierzchni na środku ciężkości powierzchni zostanie narysowana mała czerwona kropka. Ułatwi to znalezienie tego punktu, jeśli chcesz do niego przyciągnąć. | ![](../.gitbook/assets/inf6.png) |
-| Środki ciężkości powierzchni | ![](../.gitbook/assets/inf7.png) |
-| Płaszczyzna robocza, jeśli nie przyciągniesz do niczego innego. | ![](../.gitbook/assets/inf8.png) |
-| Środki okręgów lub łuków | ![](../.gitbook/assets/inf9.png) |
-| Wierzchołki siatki | ![](../.gitbook/assets/inf2.png) |
-| Płaszczyzna fasety siatki. | ![](../.gitbook/assets/inf1.png) |
+| Vértices | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Arestas. Ao passar o cursor sobre a aresta, pequenos pontos vermelhos serão desenhados nas extremidades e no ponto médio. | ![](../.gitbook/assets/inf4.png) |
+| Pontos médios da aresta | ![](../.gitbook/assets/inf5.png) |
+| O plano de uma face. Ao passar o cursor sobre a face, um pequeno ponto vermelho será desenhado no centroide da face. Isso facilitará a localização desse ponto, caso você deseje efetuar snap a ele. | ![](../.gitbook/assets/inf6.png) |
+| Centroides de face | ![](../.gitbook/assets/inf7.png) |
+| O plano de trabalho, se você não efetuar o snap a nenhuma outra coisa. | ![](../.gitbook/assets/inf8.png) |
+| Centros de arco ou círculo | ![](../.gitbook/assets/inf9.png) |
+| Vértices de malha | ![](../.gitbook/assets/inf2.png) |
+| O plano de uma faceta de malha. | ![](../.gitbook/assets/inf1.png) |
 
-Aby przyciągnąć do siatki, należy włączyć przełącznik **Przyciągaj do siatki (SG)** w menu Ustawienia.
+Para efetuar o snap à grade, será necessário ativar a opção **Snap à grade (SG)** no menu Configurações.
 
-## Punkty i osie wnioskowania
+## Eixos e pontos de inferência
 
-Automatyczny wybór punktów wnioskowania jest zawsze włączony i pomaga ograniczyć ruch geometrii. Osie wnioskowania są generowane za pomocą narzędzi automatycznie lub po umieszczeniu wskaźnika myszy na krawędziach bądź punktach. Osie wnioskowania są zawsze rysowane na ekranie za pomocą kresek, dzięki czemu użytkownik wie, gdzie się znajdują, i można łatwo do nich przyciągać.
+A seleção automática de pontos de inferência sempre está ativada e ajudará a restringir o movimento da geometria. Os eixos de inferência são gerados por ferramentas automaticamente ou quando você passa o mouse sobre as arestas ou os pontos. Os eixos de inferência são sempre desenhados na tela com traços para que você saiba onde estão e para que seja fácil efetuar o snap.
 
-**Oś:** Geometrię można przesuwać wzdłuż osi X, Y lub Z. Oś wnioskowania X ma kolor czerwony, oś Y zielony, a oś Z niebieski.
+**Eixo:** é possível mover a geometria ao longo do eixo X, Y ou Z. A inferência do eixo X é vermelho e o eixo Z é azul.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Blokowanie osi:** Ruch można blokować wzdłuż osi X, Y lub Z. Przy wskaźniku znajdującym się na osi wnioskowania przytrzymaj klawisz Shift, a następnie przesuń mysz, aby przyciągnąć i wnioskować w zakresie innych elementów.
+**Bloqueio de eixo:** é possível bloquear o movimento ao longo do eixo X, Y ou Z. Mantenha pressionada a tecla Shift enquanto estiver em uma inferência de eixo e, em seguida, mova o mouse para efetuar o snap e a inferência para outros elementos.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Równoległe:** Geometrię można szkicować lub przesuwać równolegle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie równoległe.
+**Paralelo:** é possível desenhar ou mover a geometria paralela aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência paralela.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Prostopadłe:** Można również rysować lub przesuwać geometrię prostopadle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie prostopadłe.
+**Perpendicular:** também é possível desenhar ou mover a geometria perpendicular aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência perpendicular.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Wydłużanie od punktu:** Można również używać odniesień, aby wydłużać od punktu odniesienia. Ustaw wskaźnik myszy na punkcie, który ma służyć jako odniesienie, i poczekaj, aż zostanie wyświetlona etykieta narzędzia, a następnie użyj osi wnioskowania, która rozciąga się od tego punktu.
+**Estender desde um ponto:** também é possível usar as inferências para estender desde uma referência de ponto. Passe o mouse sobre um ponto que você deseja usar como referência até que a dica de ferramenta seja exibida e, em seguida, use o eixo de inferência que se estende desde o ponto.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Środek okręgu**: Aby przyciągnąć do środka łuku lub okręgu, ustaw kursor na łuku lub okręgu. Spowoduje to wyświetlenie małej czerwonej kropki w środku. Po odsunięciu kursora od łuku lub okręgu będzie ona widoczna przez około 5 sekund. Teraz przesuń kursor na czerwoną kropkę, aby przyciągnąć do środka.
+**Centro do círculo**: caso deseje efetuar o snap ao centro de um arco ou círculo, passe o cursor sobre o arco ou círculo. Isso mostrará um pequeno ponto vermelho no centro. Ele permanecerá visível por cerca de 5 segundos após você se afastar do arco ou círculo. Agora, mova o cursor sobre o ponto vermelho para efetuar o snap ao centro.
 
 ![](../.gitbook/assets/inf17.png)
 
-**Rzeczywiste punkty środkowe łuku i splajnu**: Po umieszczeniu wskaźnika myszy na okręgu, łuku lub splajnie można przyciągać do rzeczywistego punktu środkowego. Ten punkt i punkty końcowe będą wskazywane za pomocą małej czerwonej kropki. Podczas wnioskowania na łuku można również przyciągać do wierzchołków krawędzi prostych, które reprezentują łuk.
+**Pontos médios de arco e spline verdadeiros**: quando você passar o cursor sobre um círculo, arco ou spline, será possível efetuar o snap ao ponto central verdadeiro. Ele e os pontos finais serão exibidos por um pequeno ponto vermelho. Ao inferir em um arco, você também efetuará o snap aos vértices das arestas retas que representam o arco.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Czyszczenie elementów wnioskowania**: Może się zdarzyć, że wskutek rysowania zostanie wygenerowana duża liczba elementów wnioskowania, co może przeszkadzać w umieszczaniu punktów, które nie powinny być przyciągane do tych elementów. Naciśnięcie klawiszy **Shift + Spacja** spowoduje usunięcie wszystkich elementów wnioskowania, z wyjątkiem tych znajdujących się w ostatnio umieszczonym punkcie.
+**Limpar inferências**: é possível que o desenho gere um número maior de inferências, que pode estar na forma de colocar pontos que não devem efetuar o snap a essas inferências. Se você pressionar as teclas **Shift + barra de espaço**, todas as inferências serão apagadas, exceto as no último ponto inserido.
 
-![Przed wyczyszczeniem elementów wnioskowania](../.gitbook/assets/inf19.png)
+![Antes de limpar as inferências](../.gitbook/assets/inf19.png)
 
-![Po wyczyszczeniu elementów wnioskowania](../.gitbook/assets/inf20.png)
+![Após limpar as inferências](../.gitbook/assets/inf20.png)

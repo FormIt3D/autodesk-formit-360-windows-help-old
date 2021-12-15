@@ -1,6 +1,6 @@
-# Grafika prezentacji
+# Desenho de apresentação
 
-Za pomocą pakietu opcji [Style wizualne](../tool-library/visual-styles.md) możesz dostosowywać grafikę programu FormIt i tworzyć zapadające w pamięć prezentacje.
+Aproveite um conjunto de opções de [Estilos visuais](../tool-library/visual-styles.md) para personalizar os gráficos do FormIt e criar apresentações impressionantes.
 
 ![](../.gitbook/assets/screen1.jpg)
 

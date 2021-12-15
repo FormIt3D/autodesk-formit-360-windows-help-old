@@ -1,12 +1,12 @@
-# Jednostka
+# Medir
 
-Narzędzie **Zmierz** znajduje się na [pasku narzędzi](../formit-introduction/tool-bars.md).
+A ferramenta **Medir** está localizada na [barra de ferramentas](../formit-introduction/tool-bars.md).
 
-Za pomocą narzędzia **Zmierz** można zmierzyć istniejącą geometrię w modelu. Za pomocą narzędzia **Zmierz** można również przypisać wymiary do geometrii.
+É possível usar a ferramenta **Medir** para medir a geometria existente em um modelo. Também é possível usar a ferramenta **Medir** para atribuir cotas à geometria.
 
-1. Wybierz narzędzie **Zmierz**.
-2. Wybierz dwa punkty, aby zmierzyć odległość między nimi.
-3. Wybierz powierzchnię lub krawędź, którą chcesz dostosować, kliknij wyświetloną wartość i dodaj nową wartość w wyświetlonym oknie dialogowym.
+1. Selecione a ferramenta **Medir**.
+2. Selecione dois pontos para medir a distância entre eles.
+3. Selecione uma face ou aresta que deseja ajustar, clique no valor exibido e adicione um novo valor na caixa de diálogo que é exibida.
 
 ![](../.gitbook/assets/measure%20%281%29.png)  
 ![](../.gitbook/assets/measure2.png)  

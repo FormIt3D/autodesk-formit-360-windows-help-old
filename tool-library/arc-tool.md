@@ -1,24 +1,24 @@
-# Łuk
+# Arco
 
-Korzystaj z narzędzia Łuk, aby tworzyć półokręgi lub łuki symetryczne. Istnieją dwa sposoby tworzenia łuków.
+Use a ferramenta Arco para criar meios círculos ou arcos simétricos. Há duas formas de criar arcos.
 
-## Łuk na podstawie trzech punktów
+## Arco por três pontos
 
 ![](../.gitbook/assets/arc_three_pts.png)
 
-Łuk jest definiowany przez trzy punkty i można go narysować na osiach X, Y i Z. Zdefiniuj pierwszy punkt, a następnie określ odległość od pierwszego do drugiego punktu, a na końcu — trzeci punkt wskazujący wysokość łuku. Automatycznie pojawi się punkt „półokręgu”, do którego można będzie przyciągać. Linia łuku zostanie wydłużona poza dwa pierwsze punkty.
+Um arco é definido por três pontos e pode ser desenhado nos eixos X, Y e Z. Defina o primeiro ponto e, em seguida, determine a distância do primeiro ao segundo ponto e, por fim, um terceiro ponto para a altura do arco. Você receberá automaticamente um ponto de “meio círculo” no qual você pode efetuar snap; além disso, a linha de arco se estenderá além dos dois primeiros pontos.
 
-Długość między pierwszym a drugim punktem jest widoczna podczas określania drugiego punktu w następnym położeniu. Aby ręcznie określić długość, wystarczy wprowadzić wartość, a pojawi się pole wymiaru.
+É possível ver o comprimento entre o primeiro e o segundo ponto ao determinar o segundo ponto na próxima localização; para especificar manualmente um comprimento, basta inserir um valor e uma caixa de cota será exibida.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-Po narysowaniu łuku można utworzyć powierzchnię za pomocą [narzędzia Linia](line-tool.md), łącząc pierwszy i drugi punkt.
+Após desenhar o arco, é possível criar uma face usando a [ferramenta Linha](line-tool.md) para conectar o primeiro e o segundo ponto.
 
-## Łuk na podstawie środka
+## Arco por centro
 
 ![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Wybierz punkt środkowy łuku, przeciągnij, aby wybrać środek, a potem przeciągnij, aby zdefiniować długość łuku. Aby wprowadzić dokładną liczbę stopni kąta łuku, wystarczy rozpocząć wpisywanie wartości.
+Selecione o ponto central do arco, arraste para selecionar o centro e arraste para definir o comprimento do arco. Basta começar a digitar um valor para inserir um número preciso de graus para o arco.
 
 ![](../.gitbook/assets/arc_circle_demo.gif)
 

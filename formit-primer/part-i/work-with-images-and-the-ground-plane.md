@@ -1,93 +1,93 @@
-# 1.2 — Konfiguracja projektu z obrazami i siatką
+# 1.2 – Configuração de projeto com imagens e grade
 
-_Obrazy PNG lub JPG można importować na płaszczyznę terenu modelu, wybierając opcje Plik &gt; Importuj na pasku nawigacji. Aby jednak uzyskać większą kontrolę nad skalą i położeniem zaimportowanego obrazu, można utworzyć materiał niestandardowy i zastosować go do samodzielnie narysowanego prostokąta._
+_É possível importar imagens PNG ou JPG para o plano de chão do modelo selecionando Arquivo &gt; Importar na barra de navegação. No entanto, para obter mais controle sobre a escala e a posição de uma imagem importada, podemos criar um material personalizado e aplicá-lo a um retângulo que nós mesmos desenhamos._
 
-_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.2 - Project Set Up with Images and Grid.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.2 – Project Set Up with Images and Grid.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Obliczanie rozmiaru obrazu**
+## **Calcular tamanho da imagem**
 
-Dostarczony plik **plan.png** jest obrazem rzutu drukowanym na arkuszu 24" x 26" \(ARCH D\) o szerokości 3600 pikseli i wysokości 2400 pikseli. Znając skalę rysunku \(¼"=1'-0"\) i wymiary obrazu, można obliczyć, że 1' = 25 pikseli, co oznacza, że obraz powinien mieć rozmiar 144' x 96' w przypadku zaimportowania do formatu programu FormIt w pełnej skali.
+O arquivo **plan.png** fornecido é uma imagem de uma planta impressa em uma folha de 24" x 26" \(ARCO D\), que tem 3600 pixels de largura por 2400 pixels de altura. Conhecendo a escala de desenho \(¼"=1'-0"\) e as cotas da imagem, é possível calcular que 1’ = 25 pixels, o que significa que a imagem deve ser 144'x96' quando importada para o FormIt em escala completa.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Importowanie obrazu w skali**
+## **Importar uma imagem para escala**
 
-1 — Kliknij ikonę **Widok z góry** na **ruchomym pasku nawigacji**, aby wyświetlić scenę z góry.
+1 – Clique no ícone **Vista superior** na **Barra de navegação flutuante** para ver a cena de cima.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 — Wybierz **narzędzie Prostokąt \(R\)** na pasku narzędzi Szkic 3D.
+2 – Selecione a **ferramenta Retângulo \(R\)** na barra de ferramentas de esboço 3D.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 — W celu utworzenia prostokąta o długości dokładnie **144’** x **96’** kliknij w dowolnym miejscu w obszarze roboczym, aby zdefiniować punkt początkowy, a następnie przesuń wskaźnik myszy, aby wyświetlić podgląd i zdefiniować długość pierwszego boku. Rozpocznij wpisywanie wartości wymiaru, aby uzyskać dostęp do okna dialogowego, w którym można wprowadzić dokładny wymiar. Kliknij przycisk **OK** lub naciśnij klawisz **Enter**, aby zatwierdzić wymiar. Powtórz ten proces, aby ustawić długość drugiego boku i dokończyć prostokąt.
+3 – Para criar um retângulo que seja exatamente **144’** x **96’**, clique em qualquer lugar no espaço de trabalho para definir o ponto inicial e, em seguida, mova o mouse para visualizar e definir o comprimento do primeiro lado. Comece a digitar um valor de cota para acessar uma caixa de diálogo na qual é possível inserir a cota exata. Clique em **OK** ou pressione a tecla **Enter** para confirmar a cota. Repita o processo para definir o comprimento do segundo lado e concluir o retângulo.
 
-![ Wprowadź długość pierwszego boku prostokąta.](../../.gitbook/assets/3%20%281%29.png)
+![ Insira o comprimento do primeiro lado do retângulo.](../../.gitbook/assets/3%20%281%29.png)
 
-![Wprowadź długość drugiego boku prostokąta.](../../.gitbook/assets/4%20%281%29.png)
+![ Insira o comprimento do segundo lado do retângulo.](../../.gitbook/assets/4%20%281%29.png)
 
-![Dokończ prostokąt.](../../.gitbook/assets/5%20%281%29.png)
+![Conclua o retângulo.](../../.gitbook/assets/5%20%281%29.png)
 
-4 — Aby utworzyć nowy materiał „Floor Plan”:
+4 – Para criar o novo material de “Planta de piso”:
 
-1. Otwórz **paletę Materiał**.
-2. Kliknij ikonę **+**, aby utworzyć nowy materiał.
-3. Nadaj nowemu materiałowi nazwę „**Floor Plan”.**
-4. W obszarze **MAPY** kliknij obszar podglądu **Tekstura** i przejdź do pliku **plan.png** w folderze **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Następnie kliknij przycisk **Otwórz**.
-5. W obszarze **WŁAŚCIWOŚCI** zmień skalę obrazu, wprowadzając wartość **144'** w polu **Skala pozioma** i wartość **96'** w polu **Skala pionowa**. Pamiętaj, że może być wymagane odblokowanie skali poziomej i pionowej \(ikona **ogniwa łańcucha**\) w celu wstawienia wartości, które zmieniają proporcje obrazu.
-6. Zaznacz pole wyboru **Przezroczystość** i ustaw jej wartość równą około połowie. Ułatwi to wyrównanie zaimportowanego obrazu rzutu kondygnacji względem obrazu satelitarnego.
-7. Kliknij przycisk **OK**, aby dokończyć materiał.
+1. Abra a **paleta Materiais**.
+2. Clique no ícone **+** para criar um novo material.
+3. Nomeie o novo material “**Planta de piso”.**
+4. Em **MAPAS**, clique na miniatura de visualização **Textura** e navegue para **plan.png** na pasta **Conjunto de dados da Residência Farnsworth &gt; Arquivos de suporte &gt Imagens**. Em seguida, clique em **Abrir**.
+5. Em **PROPRIEDADES**, altere a escala da imagem inserindo **144'** no campo **Escala horizontal** e **96'** no campo **Escala vertical**. Observe que desbloquear as escalas horizontal e vertical \(ícone **elo de corrente**\) pode ser necessário para inserir valores que alteram as proporções da imagem.
+6. Marque **Transparência** e defina-a em torno da metade. Isso ajudará a alinhar a imagem da planta de piso importada com a imagem de satélite.
+7. Clique em **OK** para finalizar o material.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 — Aby pomalować prostokąt:
+5 – Para pintar o retângulo:
 
-1. Na **palecie Materiał** kliknij jeden raz obszar **Materiał Floor Plan**, aby pomalować tym materiałem.
-2. Kliknij naszkicowany prostokąt, aby go pomalować. Naciśnij klawisz **Esc**, aby zakończyć pracę z narzędziem pędzla.
+1. Na **paleta Materiais**, clique uma vez na miniatura **Material da planta de piso** para pintar com esse material.
+2. Clique no retângulo desenhado para pintá-lo. Pressione **Esc** para sair da ferramenta Pincel.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 — Jeśli materiał jest wyświetlany jako odwrócony, może być konieczne odwrócenie powierzchni. Można to zrobić, klikając prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego**, i wybierając przycisk Odwróć powierzchnię \(FF\).
+6 – Se o material for exibido invertido ou em sentido contrário, talvez seja necessário inverter a face. É possível fazer isso clicando com o botão direito do mouse para acessar o **menu de contexto** e selecionando o botão Inverter face \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Wyrównywanie zaimportowanego obrazu względem obrazu satelitarnego**
+## **Alinhar a imagem importada com a imagem de satélite**
 
-1 — Aby przesunąć obraz, najpierw wybierz prostokąt, klikając go dwukrotnie. Następnie kliknij i przeciągnij prostokąt i przesuwaj go, aż nałoży się na budynek na obrazie satelitarnym. O idealne wyrównanie zadbamy później, na razie wystarczy wyrównanie mniej więcej odpowiednie.
+1 – Para mover a imagem, primeiro selecione o retângulo clicando duas vezes nele. Em seguida, clique e arraste o retângulo e mova-o até que ele se sobreponha à construção na imagem de satélite. Voltaremos a alinhar perfeitamente mais tarde, apenas tentaremos aproximá-lo por enquanto.
 
 ![](../../.gitbook/assets/9.png)
 
-2 — Aby obrócić prostokąt w celu wyrównania go względem obrazu satelitarnego:
+2 – Para rotacionar o retângulo para alinhar com a imagem do satélite:
 
-1. Kliknij prawym przyciskiem myszy prostokąt, aby wywołać menu kontekstowe. Wybierz opcję **Obróć \(Q\).**
-2. W środku prostokąta zostanie wyświetlony **widżet obracania**. Wybierz widżet, klikając jeden raz pomarańczowy uchwyt w środku. Przesuń widżet do lewego dolnego narożnika prostokąta. Zostanie on przyciągnięty do narożnika. Kliknij, aby umieścić ten element.
-3. Wpisz **9**, a pojawi się pole wymiaru. Kliknij przycisk **OK**, aby obrócić prostokąt przeciwnie do ruchu wskazówek zegara o 9 stopni.
+1. Clique com o botão direito do mouse no retângulo para abrir o menu de contexto. Selecione **Rotacionar \(Q\).**
+2. O **widget Rotacionar** é exibido no meio do retângulo. Selecione o widget clicando uma vez na alça laranja no meio. Mova o widget para o canto inferior esquerdo do retângulo. Ele efetuará o snap ao canto. Clique para posicioná-lo.
+3. Digite **9**. A caixa de cota será exibida. Clique em **OK** para rotacionar o retângulo em sentido anti-horário em 9 graus.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Wyrównywanie siatki względem obrazu satelitarnego**
+## **Alinhar a grade com a imagem do satélite**
 
-1 — Teraz wyrównamy siatkę względem obrazu satelitarnego i rzutu kondygnacji. Kliknij prawym przyciskiem myszy w dowolnym miejscu na **płaszczyźnie terenu** i wybierz opcję **Ustaw osie \(SZ\)**.
+1 – Agora, alinharemos a grade com a imagem do satélite e a planta de piso. Clique com o botão direito do mouse em qualquer lugar no **plano de chão** e selecione **Definir eixos \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 — Zostanie wyświetlony widżet **Ustaw oś**. Przesuń oś w lewy dolny narożnik prostokąta, do którego powinna zostać przyciągnięta. Kliknij, aby umieścić ten element.
+2 – O widget **Definir eixo** será exibido. Mova o eixo para o canto inferior esquerdo do retângulo, onde ele deve efetuar o snap. Clique para posicioná-lo.
 
 ![](../../.gitbook/assets/13.png)
 
-3 — Kliknij uchwyt na końcu czerwonej osi. Przesuń uchwyt do prawego dolnego narożnika prostokąta, tak aby czerwona oś była wyrównana względem dolnej krawędzi płaszczyzny. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.
+3 – Clique na alça na extremidade do eixo vermelho. Mova a alça para o canto inferior direito do retângulo para que o eixo vermelho se alinhe com a aresta inferior do plano. Clique fora do espaço para confirmar essa alteração.
 
 ![](../../.gitbook/assets/14.png)
 
-4 — Aby wyrównać widok względem nowej siatki, kliknij ikonę Widok z góry na pasku nawigacji, aby zresetować scenę.
+4 – Para alinhar a vista com a nova grade, clique no ícone Vista superior na barra de navegação para redefinir a cena.
 
 ![](../../.gitbook/assets/15.png)
 
-5 — Aby budynek na obu obrazach się nakładał, wybierz rzut, aby ponownie go przesuwać, aż właściwie nałoży się na obraz satelitarny.
+5 – Para garantir que as construções em ambas as imagens se sobreponham, selecione a planta para movê-la mais uma vez até que ela se sobreponha corretamente à imagem de satélite.
 
 ![](../../.gitbook/assets/16.png)
 
-6 — Obraz satelitarny, prostokąt i siatka są teraz wyrównane, co uprości szkicowanie 3D.
+6 – A imagem de satélite, o retângulo e a grade agora estão alinhados, o que simplificará o esboço 3D.
 

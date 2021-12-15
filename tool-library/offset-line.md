@@ -1,52 +1,52 @@
-# Linia odsunięcia
+# Linha de deslocamento
 
-Rysuj linie równoległe (czyli odsunięte) za pomocą narzędzia Linia odsunięcia. Jest to przydatne do tworzenia kształtów 2D, które można później wyciągać, aby wyglądały jak ściany 3D.
+Desenhe linhas paralelas ou de deslocamento usando a ferramenta Linha de deslocamento. Isso será útil para criar formas 2D das quais é possível efetuar a extrusão para que se pareçam com paredes 3D.
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-Narzędzie **Linia odsunięcia** działa podobnie jak narzędzie [**Linia**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
+A ferramenta **Linha de deslocamento** funciona como a ferramenta [**Linha**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Kliknij, aby ustawić pierwszy punkt, a następnie przesuń kursor i umieść kolejne punkty, przyciągając do istniejącej geometrii lub osi odniesienia.
-* Zostanie wyświetlony podgląd wynikowego kształtu. Drugi i trzeci punkt określają płaszczyznę dla kolejnych punktów, więc wynikowa całość jest płaska.
-* Dodawaj kolejne punkty, a następnie naciśnij klawisz **Escape** lub kliknij dwukrotnie, aby zakończyć pracę z narzędziem.
-* Wszystkie przecięcia wewnętrzne zostaną wyczyszczone i scalone, pozostawiając jedną gotową do wyciągnięcia powierzchnię.
+* Clique para definir o primeiro ponto e, em seguida, mova o cursor e insira os pontos subsequentes, efetuando o snap à geometria existente ou aos eixos de inferência.
+* Uma visualização da forma resultante é exibida. O segundo e o terceiro pontos determinam o plano para o resto dos pontos a seguir, de forma que o resultado seja plano.
+* Continue adicionando pontos e pressione **Esc** ou clique duas vezes para concluir a ferramenta.
+* As autointerseções serão limpas e mescladas, deixando você com uma face que pode ser extrudada.
 
-![Po umieszczeniu 2 punktów i przeciągnięciu trzeciego punktu](../.gitbook/assets/walls1.png)
+![Após posicionar 2 pontos e arrastar o 3º ponto](../.gitbook/assets/walls1.png)
 
-Linia wejściowa jest rysowana na czerwono i jest domyślnie umieszczana w środku linii odsunięcia.
+A linha de entrada é desenhada em vermelho e, por padrão, é colocada no centro das linhas de deslocamento.
 
-Dopasowanie linii odsunięcia i ich grubość można zmienić, naciskając klawisz **Tab**. Spowoduje to wywołanie okna dialogowego **Opcje Narzędzia**:
+É possível alterar o alinhamento das linhas de deslocamento e sua espessura pressionando a tecla **Tab**. Isso chamará a caixa de diálogo **Opções de ferramentas**:
 
-![Opcje narzędzia Linia odsunięcia](../.gitbook/assets/walls2.png)
+![Opções da ferramenta Linha de deslocamento](../.gitbook/assets/walls2.png)
 
-Zmień ustawienie opcji **Wyrównanie** na **Lewo** i opcji **Grubość** na 6", a linie odsunięcia będą rysowane po lewej stronie linii wejściowych w odległości 6 cali od siebie.
+Altere o **Alinhamento** para **Esquerda** e a **Espessura** para 6", por exemplo, e as linhas de deslocamento serão desenhadas à esquerda das linhas de entrada, com 6 polegadas de distância.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Przydatne porady
+## Dicas úteis
 
-Przyciągając do pierwszego umieszczonego punktu, można narysować zamknięty kształt. Wynikowy narożnik zostanie automatycznie wyczyszczony:
+É possível desenhar uma forma fechada ao efetuar o snap ao primeiro ponto inserido. O canto resultante será limpo automaticamente:
 
 ![](../.gitbook/assets/walls4.png)
 
-Linie wejściowe można dowolnie rysować jedna na drugiej. Po zakończeniu działania narzędzia przecięcia wynikowe są czyszczone.
+É possível desenhar livremente as linhas de entrada umas sobre as outras. Quando a ferramenta é finalizada, as interseções resultantes são limpas.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Narzędzie Linia odsunięcia musi generować geometrię na płaszczyźnie: pierwszych kilka punktów określa płaszczyznę, za którą będą podążać pozostałe punkty.
+Inerentemente, a ferramenta Linha de deslocamento deve gerar geometria em um plano, de modo que os primeiros pontos determinem o plano que os pontos restantes seguirão.
 
-Na przykład rozpocznij rysowanie od boku sześcianu, aby użyć płaszczyzny tej powierzchni. Po umieszczeniu trzech niewspółliniowych punktów płaszczyzna wejściowa jest stała dla pozostałej części danych wejściowych. Należy pamiętać, że podczas rysowania na powierzchni kształt wynikowy jest wstawiany na tej powierzchni, co dzieli ją na wiele powierzchni. Aby można było zapobiec temu wstawieniu, rysowana powierzchnia musi być częścią [grupy](https://windows.help.formit.autodesk.com/tool-library/groups).
+Comece a desenhar na lateral de um cubo, por exemplo, para usar o plano dessa face. Após três pontos não colineares serem colocados, o plano de entrada é fixado para o restante da entrada. Observe que, ao desenhar em uma face, a forma resultante é inserida na face, dividindo-a em várias faces. Para evitar a inserção, a face desenhada deve fazer parte de um [grupo](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Rysowanie na powierzchni pionowej](../.gitbook/assets/walls7.png)
+![Desenhar em uma face vertical](../.gitbook/assets/walls7.png)
 
-![Po zakończeniu pracy narzędzia linie zostają wstawione, a podzielonymi powierzchniami można dalej manipulować](../.gitbook/assets/walls8.png)
+![Após a ferramenta ter sido finalizada, as linhas serão inseridas e as faces de divisão poderão ser manipuladas adicionalmente](../.gitbook/assets/walls8.png)
 
-Można również użyć narzędzia Linia odsunięcia, aby śledzić dane z rysunku rzutu. Zaimportuj rzut jako obraz.
+Também é possível usar a ferramenta Linha de deslocamento para traçar com base em um desenho de planta. Importe a planta como uma imagem.
 
-* Zmień rozmiar obrazu, tak aby rzut miał odpowiednią skalę. Jest to szczegółowo opisane [tutaj](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
-* Za pomocą [kamery prostopadłej](orthographic-camera.md) można śledzić w prostokątnym [widoku z góry](orthographic-views.md).
+* Redimensione a imagem para que a planta tenha a escala apropriada. Isso é descrito em mais detalhes [aqui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* É possível usar a [Câmera ortogonal](orthographic-camera.md) para traçar em uma [vista superior](orthographic-views.md) ortogonal.
 
 ![](../.gitbook/assets/walls9.png)
 

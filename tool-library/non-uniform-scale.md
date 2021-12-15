@@ -1,41 +1,41 @@
-# Skalowanie niejednorodne
+# Escala não uniforme
 
-**Skalowanie niejednorodne umożliwia rozciągnięcie obiektów w jednym, dwóch lub trzech wymiarach.**
+**Use Escala não uniforme para esticar objetos em 1, 2 ou 3 cotas.**
 
-Wybierz dowolną kombinację krawędzi, powierzchni, brył, siatek lub grup i uzyskaj dostęp do polecenia skalowania niejednorodnego za pomocą skrótu klawiaturowego **NU** lub opcji menu kontekstowego:
+Selecione qualquer combinação de arestas, faces, sólidos, malhas ou grupos e acesse Escala não uniforme usando o atalho de teclado **NU** ou a opção Menu de contexto:
 
 ![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Gdy ta funkcja jest aktywna, wyświetlonych jest szereg uchwytów, za pomocą których można skalować obiekt niejednorodnie w osiach wszystkich trzech wymiarów jednocześnie.**
+**Uma vez ativada a opção, você verá uma série de alças que podem ser usadas para dimensionar de forma não uniforme o objeto em 1, 2 ou 3 eixos simultaneamente.**
 
-Dla zachowania przejrzystości rysowane są tylko uchwyty widoczne dla kamery. Aby dopasować uchwyt po drugiej stronie, obróć obiekt.
+Para maior clareza, somente as alças voltadas para a câmera serão desenhadas. Orbite em torno do objeto se você precisar ajustar uma alça no outro lado.
 
 ![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Po kliknięciu uchwytu zostanie wyświetlony szereg edytowalnych pól tekstowych, w których można dostosować skalę za pomocą wartości procentowej lub odległości:
+Após clicar em uma alça, você verá uma série de caixas de texto editáveis onde é possível ajustar a escala por porcentagem ou distância:
 
 ![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Oto co można zrobić, gdy są widoczne pola wymiarów:**
+**Quando as caixas de cota estiverem visíveis, será possível:**
 
-* Rozpocznij wpisywanie liczby, aby automatycznie edytować pole wartości procentowej i określić współczynnik skali.
-   * Wprowadzenie wartości ujemnej spowoduje odwrócenie kierunku skali.
-* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć pole zawierające wymiar, aby przeskalować według odległości.
-* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
+* Começar a digitar um número para editar automaticamente a caixa de porcentagem e especificar um fator de escala.
+   * Inserir um número negativo inverterá a direção da escala.
+* Ou clicar para definir temporariamente a localização da alça e, em seguida, clicar na caixa que contém a cota para dimensionar por distância.
+* Clicar fora do espaço ou pressionar Esc para concluir a operação Escala não uniforme.
 
-**Skalowanie za pomocą jednego z uchwytów krawędzi narożnika zachowuje zgodność ze współczynnikiem proporcji sąsiednich wymiarów:**
+**O dimensionamento em uma das alças de aresta de canto respeitará a proporção das cotas adjacentes:**
 
-* Rozpocznij wpisywanie liczby, aby edytować wartość procentową.
-* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć jedno z dwóch pól wymiarów, aby przeskalować według odległości.
-* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
+* Comece a digitar um número para editar o valor de porcentagem.
+* Ou clique para definir temporariamente a localização da alça e, em seguida, clique em uma das duas caixas de cota para dimensionar por distância.
+* Clique fora do espaço ou pressione Esc para concluir a operação Escala não uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Podobnie: skalowanie za pomocą jednego z uchwytów narożnika uwzględnia współczynnik proporcji całego kształtu i w efekcie powoduje skalowanie jednorodne:**
+**De forma similar, a escala em uma das alças de canto respeitará a proporção de toda a forma e, de forma eficaz, dimensionará uniformemente:**
 
-* Rozpocznij wpisywanie liczby, aby edytować wartość procentową.
-* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć jedno z trzech pól wymiarów, aby przeskalować według odległości.
-* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
+* Comece a digitar um número para editar o valor de porcentagem.
+* Ou clique para definir temporariamente a localização da alça e, em seguida, clique em uma das três caixas de cota para dimensionar por distância.
+* Clique fora do espaço ou pressione Esc para concluir a operação Escala não uniforme.
 
 ![](../.gitbook/assets/nu-scale_grips-4.PNG)
 

@@ -1,24 +1,24 @@
-# Prostokąt
+# Retângulo
 
-Narzędzie **Prostokąt** z menu paska narzędzi **Utwórz szkic** umożliwia szybkie rysowanie powierzchni prostokątnej. Wyciągnij tę powierzchnię, aby utworzyć bryłę prostokątną.
+É possível usar a ferramenta **Retângulo** no menu da barra de ferramentas **Criar esboço** para desenhar rapidamente uma face retangular. Faça a extrusão da face para criar um volume retangular.
 
-Skrót klawiaturowy: R
+Atalho de teclado: R
 
-Za pomocą osi upewnij się, że rysunek jest wykonywany w odpowiednim kierunku:
+Use os eixos para assegurar que você esteja desenhando na direção correta:
 
-Prostokąty można rysować na osi X, Y lub Z. Podczas rysowania można określić wymiar, wpisując wartość, co spowoduje wyświetlenie okna dialogowego Edycja wymiaru. Naciśnij klawisz Enter lub naciśnij przycisk OK, aby zaakceptować wymiar.
+É possível desenhar retângulos no eixo X, Y ou Z. Ao desenhar, é possível especificar uma cota simplesmente digitando um valor, que abrirá a caixa de diálogo Editar cota. Pressione Enter ou OK para aceitar a cota.
 
-W celu narysowania prostokąta kliknij, aby ustawić pierwszy punkt w szkicu.
+Para desenhar um retângulo, clique para definir o primeiro ponto no esboço.
 
-Kolory linii według osi:
+Cores de linha por eixo:
 
-* X = kolor czerwony
-* Y = kolor zielony
-* Z = kolor niebieski
+* X = Vermelho
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-Po zakończeniu rysowania prostokąta staje się on powierzchnią, którą można wyciągnąć, aby utworzyć bryłę.
+Quando você terminar de desenhar o retângulo, ele se torna numa face que pode sofrer extrusão para criar um volume.
 

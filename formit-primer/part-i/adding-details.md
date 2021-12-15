@@ -1,129 +1,129 @@
-# 1.9 — Dodawanie szczegółów
+# 1.9 – Adicionar detalhes
 
-_FormIt to doskonałe narzędzie zarówno do modelowania bryłowego, jak i tworzenia szczegółowych modeli. Zaczniemy dodawać do domu pani Farnsworth szczegóły w postaci drzwi i szprosów w pomieszczeniu ze szklanymi ścianami. Następnie omówimy pewne dodatkowe narzędzia i przećwiczymy proces dodawania geometrii, warstw i materiałów oraz zarządzania grupami._
+_O FormIt é uma excelente ferramenta de massa, além de uma excelente ferramenta de modelagem. Vamos começar a adicionar detalhes à “Farnsworth House”, sob a forma de portas e montantes para a caixa de vidro. Em seguida, vamos abordar algumas ferramentas adicionais e praticar o processo de adicionar nova geometria, camadas, materiais e gerenciamento de grupos._
 
-_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.9 — Adding Details.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
+_Se você não concluiu a última seção, faça o download e abra o arquivo_ _**1.9 – Adding Details.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Tworzenie ram okiennych**
+## **Criar molduras de janela**
 
-_Utworzymy teraz wokół pomieszczenia ze szklanymi ścianami 2-calową ramę metalową ze szprosami. Pamiętaj, że szprosy celowo nakładają się na szklane ściany._
+_Vamos criar montantes e uma moldura de metal de 2" em torno da caixa de vidro. Observe que esses montantes serão intencionalmente sobrepostos com a caixa de vidro._
 
-1 — Utwórz nową warstwę o nazwie **Szklane ściany** i przenieś na nią grupę **Szklana ściana**.
+1 – Crie uma nova camada chamada **Paredes de vidro** e mova o grupo **Parede de vidro** para essa camada.
 
-2 — Dla lepszej widoczności wyłącz warstwę **Dach**, dzięki czemu będzie można zobaczyć całe pomieszczenie ze szklanymi ścianami.
+2 – Para facilitar a visualização, desative a camada **Telhado** para que possamos ver toda a caixa de vidro.
 
-3 — Rozpocznij tworzenie pierwszej ramy okiennej:
+3 – Para começar a criar a primeira moldura de janela:
 
-1. Użyj **narzędzia Prostokąt \(R\)**, aby narysować nową powierzchnię bezpośrednio nad zewnętrzną powierzchnią szkła po zachodniej stronie budynku. Pamiętaj, aby utworzyć tę powierzchnię poza grupą **Szklane ściany**.
-2. Wybierz nowo utworzoną powierzchnię i przeciągnij o **2 cale** w kierunku wnętrza. Naciśnij klawisz **Esc**, aby anulować wybór. Końcowy rezultat powinien wyglądać tak jak na poniższej ilustracji.
-3. Kliknij jeden raz utworzoną powierzchnię. Kliknij prawym przyciskiem myszy, aby otworzyć **menu kontekstowe** i użyj **narzędzia Odsuń powierzchnię \(OF\).**
+1. No lado oeste do edifício, use a **ferramenta Retângulo \(R\)** para desenhar uma nova superfície diretamente sobre a face de vidro externa. Certifique-se de criar a superfície fora do grupo **Paredes de vidro**.
+2. Selecione e arraste a face recém-criada **2"** em direção ao interior. Pressione **ESC** para limpar a seleção. O resultado final deve ser parecido com a imagem abaixo.
+3. Clique uma vez na face que você acabou de criar. Clique com o botão direito do mouse para acessar o **Menu de contexto** para usar a **ferramenta Deslocar face \(DE\).**
 
-_**Uwaga:**_ _w przypadku problemów z wybraniem nowej powierzchni naciskaj klawisz_ _**Spacja**_ _, aby przechodzić między różnymi obiektami, które można wybrać, lub tymczasowo wyłącz warstwę_ _**Szklane ściany**_ _._
+_**Observação:**_ _Se você tiver problemas para selecionar a nova face, pressione a tecla_ _**barra de espaço**_ _para alternar entre diferentes objetos selecionáveis ou desative temporariamente a camada_ _**Paredes de vidro**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 — Aby ustawić wymiar odsunięcia, przesuń wskaźnik myszy w kierunku środka powierzchni i wprowadź wartość **2 cale**, aby utworzyć nowy, mniejszy prostokąt.
+4 – Para definir a dimensão de deslocamento, mova o mouse em direção ao interior da face e insira **2"** para criar um novo retângulo menor.
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 — Kliknij nowo utworzony wewnętrzny prostokąt jeden raz, aby go wybrać. Kliknij ponownie i przeciągnij powierzchnię w kierunku wnętrza budynku, aż zniknie. Kliknij jeszcze raz, aby dokończyć usuwanie objętości ze środka geometrii ramy.
+5 – Clique uma vez para selecionar o retângulo interno que você acabou de criar. Clique novamente e arraste a face em direção ao interior do edifício até que ela desapareça. Clique mais uma vez para concluir a remoção do volume central da geometria da estrutura.
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 — Kliknij dwukrotnie, aby wybrać utworzoną geometrię, i dodaj ją do **Grupy \(G\)**. Nadaj grupie nazwę **Rama szprosu — wschód-zachód**.​
+6 – Clique duas vezes para selecionar a geometria que acabamos de criar e **Agrupar \(G\)** a geometria. Nomeie o grupo **Moldura do montante – LO**.​
 
-7 — Utwórz warstwę o nazwie **Szpros** i umieść na niej nową grupę.
+7 – Crie uma camada denominada **Montante** e coloque o novo grupo nessa camada.
 
-8 — Ustaw materiał ramy:
+8 – Para definir o material da estrutura:
 
-1. Na **palecie Materiały** powiel materiał **Metal — matowy — kolorowy**, klikając go prawym przyciskiem myszy i wybierając polecenie **Powiel materiał**.
-2. Kliknij dwukrotnie kafelek podglądu nowego materiału, aby go edytować.
-3. Zmień jego nazwę na **Metal — matowy — szary**.
-4. Zmień kolor materiału, klikając kafelek **Kolor** w sekcji **Mapy**, a następnie przyciemnij odcień szarości, zmieniając wartość **War:** na **150**.
+1. Na **paleta Materiais**, duplique o material **Metal – Escovado – Colorido** clicando com o botão direito do mouse e selecionando a opção **Duplicar material**.
+2. Clique duas vezes na miniatura de visualização do novo material para editá-lo.
+3. Renomeie-o como **Metal – Escovado – Cinza**.
+4. Modifique a cor do material clicando na miniatura **Cor**, na seção **Mapas**, e escureça a cor cinza ao alterar o **Valor:** para **150**.
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 — Kliknij przycisk **OK**, aby zapisać zmiany w nowym materiale, a następnie pomaluj nim grupę **Rama szprosu — wschód-zachód**. Po zakończeniu **paleta Właściwości** grupy powinna wyglądać tak, jak na poniższej ilustracji:
+9 – Clique em **OK** para salvar essas alterações no novo material e, em seguida, pinte o grupo **Moldura do montante – LO** com base nessas definições. Depois, a **paleta Propriedades** do grupo deve coincidir com o que é mostrado na imagem abaixo:
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 — Utwórz nowe wystąpienie ramy po wschodniej stronie za pomocą dowolnego z następujących narzędzi: **Szybka kopia**, **Szyk** lub **Odbicie lustrzane**.
+10 – Crie uma nova instância da moldura no lado leste usando qualquer uma das seguintes ferramentas: **Cópia rápida**, **Matriz** ou **Espelhar**.
 
-11 — Powtórz powyższe czynności po północnej i południowej stronie pomieszczenia ze szklanymi ścianami. Nadaj nowej grupie nazwę **Rama szprosu — północ-południe**. Nie zapomnij pomalować elementów i umieścić ich na warstwie **Szpros**.
+11 – Repita as etapas indicadas acima para os lados norte e sul da caixa de vidro. Nomeie o novo grupo como **Moldura do montante – NS**. Não se esqueça de pintá-los e colocá-los na camada **Montante**.
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Uwaga:**_ _ramy szprosów nakładają się na siebie w narożnikach. To jest zamierzone. Powyżej przedstawiono wynikową geometrię ram szprosów z wyłączonymi warstwami_ _**Szklana ściana**_ _i_ _**Słup**_ _._
+_**Observação:**_ _As molduras de montante se sobrepõem nos cantos. Isso é intencional. O resultado acima mostra a geometria resultante da moldura do montante com as camadas_ _**Parede de vidro**_ _e_ _**Coluna**_ _desativadas._
 
-**Tworzenie szprosów**
+**Criar montantes**
 
-1 — W jednej płaszczyźnie z zewnętrzną powierzchnią szkła po południowej lub północnej stronie budynku narysuj **Prostokąt \(R\) o wymiarach 2 cale x 10 stóp i 10 cali** sięgający dolnej i górnej krawędzi ramy szprosu. Nie przejmuj się dokładnym położeniem prostokąta względem ramy — przeniesiemy go w odpowiednie miejsce w kolejnych krokach.
+1 – No plano com a face de vidro externa nos lados sul ou norte do edifício, desenhe um retângulo de **2" x 10’-10" \(R\)** que se estende entre as partes inferior e superior da moldura do montante. Não se preocupe com a posição exata do retângulo ao longo da moldura, nós vamos movê-lo para o lugar certo nas etapas seguintes.
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 — Wyciągnij prostokąt o **2 cale** w tył, a następnie dodaj go do **grupy \(G\)** o nazwie **Szpros — pionowy**. Umieść grupę na warstwie **Szpros** i pomaluj ją materiałem **Metal — matowy — szary**.
+2 – Faça novamente a extrusão do retângulo em **2"** e, em seguida, **agrupe \(G\)** o retângulo e nomeie o grupo como **Montante – Vertical**. Coloque o grupo na camada **Montante** e pinte-o com o material **Metal – Escovado – Cinza**.
 
-**Określanie położenia szprosów**
+**Localizar os montantes**
 
-_Teraz ustawimy położenie pierwszego szprosu, tak aby był wyśrodkowany względem_ _**punktu środkowego**_ _słupa._
+_Agora, vamos definir a localização do primeiro montante para que ele fique centralizado no __**ponto médio**__ de uma coluna._
 
-1 — Aby ponownie wyświetlić słupy, włącz warstwę **Słup**, jeśli była wyłączona. Na **palecie Warstwy** można również wyłączyć warstwy **Dolny taras** i **Obraz rzutu**, aby ułatwić wykonywanie kolejnych kroków.
+1 – Para ver as colunas novamente, ative a camada **Coluna**, se estiver desativada. Enquanto estiver na **paleta Camadas**, também é possível desativar as camadas **Terraço inferior** e **Imagem da planta** para facilitar as próximas etapas.
 
-2 — Przesuń szpros w nowe położenie:
+2 – Para mover o montante para a nova localização:
 
-1. Kliknij utworzoną grupę szprosu pionowego jeden raz, aby ją wybrać. **Powiększ \(Z\)** widok i kliknij **punkt środkowy** dolnej krawędzi zewnętrznej szprosu, oznaczony czerwonym trójkątem**.**
-2. Rozpocznij przesuwanie geometrii w poziomie w kierunku słupa. Naciśnij klawisz **Shift**, aby zablokować ruch na czerwonej osi \(**osi X**\). Pamiętaj, że po zablokowaniu ruchu czerwona oś zostanie pogrubiona.
-3. Pomniejszaj widok, aż będzie widać podstawę słupa. Trzymając wciśnięty klawisz **Shift**, kliknij **punkt środkowy** u podstawy zewnętrznej powierzchni słupa. Szpros będzie nadal przesuwany tylko wzdłuż czerwonej osi \(**osi X**\), ale zostanie wyrównany do klikniętego **punktu środkowego**.
+1. Clique uma vez para selecionar o grupo de montante vertical acabado de criar. Aplique **Zoom \(Z\)** e clique no **ponto médio** da aresta externa inferior do montante, simbolizado por um triângulo vermelho**.**
+2. Comece a mover a geometria horizontalmente em direção a uma coluna. Pressione **Shift** para travar o movimento no eixo vermelho \(**Eixo X**\). Observe que o eixo vermelho fica mais espesso quando o movimento é travado.
+3. Diminua o zoom até que seja possível ver a base da coluna. Enquanto mantém pressionada a tecla **Shift**, clique no **ponto médio** na base da face externa da coluna. O montante vai continuar movendo-se somente ao longo do eixo vermelho \(**Eixo X**\), mas vai alinhar-se com o **ponto médio** no qual você acabou de clicar.
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Uwaga:**_ _szpros znajduje się teraz bezpośrednio za słupem. Wyłącz warstwę_ _**Słup**_ _lub użyj narzędzia_ _**Obróć\(O\)**_ _, aby zobaczyć szpros._
+_**Observação:**_ _Agora, o montante está diretamente atrás da coluna. Desative a camada_ _**Coluna**_ _ou use a_ _**Órbita \(O\)**_ _para visualizar o montante._
 
-3 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie **Przesuń**.
+3 – Pressione **Esc** para limpar a ferramenta **Mover**.
 
-4 — Za pomocą narzędzia **Szyk \(AR\)** lub **Szybka kopia** utwórz jeszcze cztery \(4\) szprosy pionowe po tej samej stronie, rozmieszczone w odstępach **11 stóp**. Aby dowiedzieć się, jak używać **narzędzia Szyk**, zapoznaj się z poprzednimi rozdziałami.
+4 – Use a ferramenta **Matriz \(AR\)** ou **Cópia rápida** para criar mais quatro \(4\) montantes verticais ao longo do mesmo lado, espaçados a **11’** de distância. Para saber como usar a **ferramenta Matriz**, consulte os capítulos anteriores.
 
-5 — Użyj klawisza Tab, aby wybrać wszystkie grupy szprosów **pionowych** i skopiować je na przeciwną stronę budynku, tak aby ramy **północna** i **południowa** miały identyczny układ szprosów, co pokazano na poniższej ilustracji:
+5 – Use a tecla Tab para selecionar todos os grupos de **Montantes verticais** e os copie para o lado oposto do edifício, de modo que as molduras **Norte** e **Sul** tenham layouts de montantes idênticos, como mostrado na próxima imagem:
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Tworzenie szprosów drzwi**
+## **Criar montantes de porta**
 
-1 — **Obróć \(O\)** widok perspektywiczny w celu pokazania środka ramy szprosów po zachodniej stronie.
+1 – Use a **Órbita \(O\)** para girar a vista em perspectiva até que você esteja olhando para o centro da moldura do montante Oeste.
 
-2 — Podobnie jak podczas tworzenia ram szprosów narysuj panel drzwi o szerokości **3 stóp i 6 cali** z ramą **2 x 2 cale**. Dodaj go do **grupy \(G\)** o następujących właściwościach: nazwa grupy: **Drzwi ściany kurtynowej**; warstwa: **Szpros**; materiał: **Metal — matowy — szary**.
+2 – De forma semelhante à criação de molduras de montante, desenhe um painel de porta com a largura de **3’-6"** e uma moldura de **2"x 2"**. Torne-o num **Grupo \(G\)** com as seguintes propriedades: Nome do grupo: **Porta de parede cortina**; camada: **Montante**; material: **Metal – Escovado – Cinza**.
 
-3 — Skopiuj tę grupę, aby utworzyć drugą ramę drzwi, i przesuń ramy w taki sposób, aby były wyśrodkowane względem grupy **Rama szprosu — wschód-zachód**, jak pokazano poniżej.
+3 – Copie esse grupo para criar a segunda moldura de porta e mova-os para que fiquem centralizados no grupo **Moldura do montante – LO**, como mostrado abaixo.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Tworzenie gzymsu dachowego przy użyciu narzędzia Przeciągnięcie**
+## **Criar a cornija de telhado com varredura**
 
-_Teraz utworzymy gzyms domu pani Farnsworth za pomocą jednego z zaawansowanych narzędzi do modelowania programu FormIt — __**Przeciągnięcie**. Aby poznać inne zaawansowane funkcji modelowania, zapoznaj się z rozdziałem_ **2.2 —** _**Modelowanie zaawansowane**_ _w sekcji_ _**FormIt Primer — część II**._
+_Agora, vamos criar a cornija da “Farnsworth House” usando uma das ferramentas avançadas de modelagem do FormIt:_ _**Varredura**. Para saber mais sobre outras modelagens avançadas, confira o capítulo_ **2.2 –** _**Modelagem avançada** no_ _**Manual do FormIt – Parte II**._
 
-_Pierwszym krokiem procesu tworzenia_ _**Przeciągnięcia**_ _jest narysowanie profilu prostopadłego do wyciągnięcia. W tym celu użyjemy geometrii dachu jako wzoru._
+_O primeiro passo para criar uma __**Varredura**__ é desenhar um perfil perpendicular à “extrusão” da varredura. Para isso, vamos usar a geometria do telhado como guia._
 
-1 — Włącz warstwę **Dach** i powiększ jeden z jej narożników.
+1 – Ative a camada **Telhado** e aumente o zoom em um de seus cantos.
 
-2 — Używając jednej z pionowych powierzchni dachu jako odniesienia, narysuj dwa sąsiadujące prostokąty. Pierwszy będzie miał wysokość **6 cali** i szerokość **4 i 5/8** cala, a drugi — **2 x 2 cale**. Usuń linię dzielącą oba prostokąty, aby utworzyć jedną powierzchnię. Rezultat powinien wyglądać tak, jak poniżej.
+2 – Usando um dos lados verticais do telhado como referência, desenhe dois retângulos adjacentes. O primeiro terá **6"** de altura por **4 5/8**" de largura e o segundo será de **2"x 2"**. Exclua a linha que divide os dois retângulos para criar uma única face. O resultado deve ser tal como mostrado abaixo.
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 — Utwórz przeciągnięcie:
+3 – Para criar a varredura:
 
-1. Bez wybranej geometrii kliknij przycisk **Zaawansowane narzędzia modelowania** na **standardowym pasku narzędzi** i wybierz **Przeciągnięcie \(SW\)**.
-2. Zostanie uruchomiony **Kreator wyboru przeciągnięcia** i zobaczysz monit **Należy wybrać powierzchnię \(lub krawędzie\) dla profilu przeciągnięcia**. Wybierz powierzchnię profilu utworzoną w poprzednim kroku.
-3. Po wybraniu profilu zostanie wyświetlony monit **Należy wybrać powierzchnię \(lub krawędzie\) dla ścieżki przeciągnięcia, a następnie kliknąć przycisk Zakończ**. Wybierz górną powierzchnię dachu. Program FormIt automatycznie użyje obwiedni wybranej powierzchni jako ścieżki przeciągnięcia i utworzy przeciągnięcie wokół całego dachu.
+1. Sem geometria selecionada, clique no botão **Ferramentas avançadas de modelagem**, na **barra de ferramentas padrão**, e selecione **Varredura \(SW\)**.
+2. O **Assistente de seleção de varredura** será iniciado e você será solicitado a **selecionar uma face \(ou arestas\) para o perfil de varredura**. Selecione a face do perfil que acabamos de criar.
+3. Uma vez selecionado o perfil, você será solicitado a **selecionar uma face \(ou aresta\) para o caminho de varredura e, em seguida, deve clicar em Concluir**. Selecione a face superior do telhado. O FormIt usará automaticamente os limites da face selecionada como o caminho da varredura. A varredura será criada em torno de todo o telhado.
 
-_**Uwaga:**_ _w przypadku problemów z wybraniem dowolnej z powierzchni użyj narzędzia_ _**Obróć \(O\)**_ _, aby lepiej zobaczyć powierzchnię, i spróbuj ponownie. Możesz też wybrać wszystkie krawędzie dachu zamiast jego górnej powierzchni, aby ukończyć tworzenie przeciągnięcia._
+_**Observação:**_ _Se você estiver com problemas para selecionar uma das faces, use_ _**Órbita \(O\)**_ _para visualizar a face que esteja um pouco melhor e tente novamente. Como uma opção alternativa, selecione todas as arestas do telhado em vez da face superior do telhado para concluir a varredura._
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 — Aby uporządkować model, utwórz grupę **Dach — gzyms**, dodaj ją do warstwy **Dach** i przypisz do niej materiał **Metal — matowy — kolorowy**.
+4 – Mantenha o modelo organizado criando um grupo **Telhado – Cornija**, adicionando-o à camada **Telhado** e atribuindo o material **Metal – Escovado – Colorido** ao grupo.
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 — Na koniec włącz warstwę **Słup**. Zobaczysz, że nowo utworzony gzyms przecina górne części słupów. Aby to poprawić, edytuj dowolną grupę **Słup — wysoki** i przeciągnij górną powierzchnię w dół do momentu wyrównania z dolną powierzchnią gzymsu.
+5 – Para concluir, ative a camada **Coluna** e você verá que a varredura recém-criada efetua uma interseção com o topo das colunas. Resolva isso editando qualquer um dos grupos **Altura das colunas** e arrastando a face superior para baixo até que ela se alinhe com a parte inferior da cornija.
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

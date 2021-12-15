@@ -1,12 +1,12 @@
-# Wprowadzenie
+# Introdução
 
-## Dokumentacja programu FormIt dla systemu Windows
+## Documentação do FormIt para Windows
 
 ![](<.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Dowiedz się więcej na temat możliwości programu FormIt dla systemu Windows
+## Saiba mais sobre o poder do FormIt para Windows
 
-Oprogramowanie do modelowania architektonicznego FormIt® umożliwia architektom szkicowanie, współpracę, analizowanie i modyfikowanie koncepcji projektowych na wczesnym etapie projektu oraz sprawniejszą pracę już od samego początku dzięki projektowaniu koncepcyjnemu opartemu na BIM.
+Com o software de modelagem arquitetônica FormIt®, os arquitetos podem esboçar, colaborar, analisar e revisar conceitos de projeto nos estágios iniciais e trabalhar de forma mais inteligente desde o início com o projeto conceitual baseado em BIM.
 
-* Korzystanie z programu FormIt dla systemu Windows wymaga subskrypcji **FormIt Pro**, która jest częścią [kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC)](https://www.autodesk.pl/collections/architecture-engineering-construction/overview).
-* Można również pobrać program [FormIt dla systemu Windows](https://formit.autodesk.com/page/download) i rozpocząć korzystanie z 30-dniowej bezpłatnej wersji próbnej programu FormIt Pro.
+* A execução do FormIt para Windows requer uma assinatura do **FormIt Pro**, que faz parte da [Autodesk AEC Collection](https://www.autodesk.com.br/collections/architecture-engineering-construction/overview).
+* Você também pode fazer o download do [FormIt para Windows](https://formit.autodesk.com/page/download) e iniciar uma versão gratuita de avaliação do FormIt Pro por 30 dias.

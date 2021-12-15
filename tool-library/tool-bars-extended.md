@@ -1,77 +1,76 @@
-### Rozszerzone paski narzędzi
+### Barras de ferramentas estendidas
 ---
 
-#### Pasek narzędzi operacji
-Ten pasek narzędzi znajduje się w górnej części ekranu. Znajdujące się na nim narzędzia ułatwiają tworzenie, edytowanie i udostępnianie zawartości.
+#### Barra de ferramentas de ação
+A barra de ferramentas está localizada na parte superior da tela. As ferramentas aqui o ajudarão a criar, editar e compartilhar conteúdo.
 ![](images/Tool Bar-All.PNG)
 
-**1. Menu galerii**
+**1. Menu Gallery**
 ![](images/Tool Bar-Gallery.PNG)
-- Nowy szkic, otwórz szkic, zapisz szkic, zaimportuj lub wyeksportuj pliki.
+- Novo esboço, abrir esboço, salvar esboço, importar ou exportar arquivos.
 
-**2. Cofnij Ponów**
+**2. Undo Redo**
 ![](images/Tool Bar-Undo Redo.PNG)
-- Kliknij, aby cofnąć lub ponowić ostatnie operacje.
+- Clique para desfazer ou refazer ações recentes.
 
-**3. Wybór i pomiar**
+**3. Selection and Measurement**
 ![](images/Tool Bar-Select.PNG)
-- Filtr wyboru — kliknij, aby wybrać opcje filtrowania typów obiektów (krawędzi, powierzchni, brył, grup) z narzędzia wyboru.
-- Narzędzia pomiaru — kliknij, aby wybrać narzędzie pomiaru liniowego lub kątowego.
+- Selection Filter: clique para escolher opções para descartar os tipos de objetos (arestas, faces, sólidos, grupos) na ferramenta de seleção.
+- Measure Tools: clique para selecionar uma ferramenta de medição linear ou angular.
 
-**4. Narzędzia do tworzenia i modyfikacji**
+**4. Ferramentas de criação e modificação**
 ![](images/Tool Bar-Create.PNG)
-- Narzędzia do szkicowania — kliknij, aby wywołać menu narzędzi do tworzenia (linia, łuk, splajn, prostokąt, okrąg), które ułatwiają rysowanie kształtów.
-- Prymitywy — kliknij, aby wywołać menu podstawowych kształtów 3D (sześcian, kopuła, ostrosłup, walec, dach), które można umieścić w scenie.
-- Zaawansowane narzędzia modelowania — kliknij, aby użyć operacji logicznych wycinania lub łączenia, zakrywania, przeciągania lub wyciągnięcia złożonego.
-- Grupy — kliknij, aby znaleźć narzędzia do grupowania obiektów.
+- Sketch Tools: clique para abrir um menu de ferramentas de criação (linha, arco, spline, retângulo, círculo) que o ajudarão a desenhar formas.
+- Primitives: clique para abrir um menu de formas 3D básicas (cubo, domo, pirâmide, cilindro, telhado) que você pode colocar em sua cena.
+- Advanced Modeling Tools: clique para usar operações booleanas de corte ou união, cobertura, varredura ou elevação.
+- Groups: clique para localizar as ferramentas para agrupar objetos.
 
-**5. Narzędzia położenia i analizy**
+**5. Ferramentas de localização e análise**
 ![](images/Tool Bar-Analysis.PNG)
-- Położenie — wyszukaj położenie i zaimportuj obrazy satelitarne do szkicu.
-- Słońce i cienie — ustaw godzinę i dzień, aby wyświetlić cienie i rozpocząć analizę oświetlenia naturalnego budynku.
-- Analiza energetyczna — kliknij, aby wykonać obliczenia dla budynku w celu określenia jego zużycia energii.
+- Location: pesquise a localização e importe imagens de satélite em seu esboço.
+- Sun and Shadows: defina a hora e o dia para visualizar as sombras e iniciar uma análise solar em uma construção.
+- Energy Analysis: clique para executar cálculos em uma construção para determinar seu uso de energia.
 
-**6. Tożsamość użytkownika**
-![](images/Tool Bar-User Identity.PNG)
-- Ustawienia — skonfiguruj ustawienia aplikacji i szkicu oraz styl wizualny, a także przeprowadź diagnostykę modelu.
-- Tryb dotyku — modeluj i nawiguj na urządzeniach dotykowych systemu Windows, wykorzystując palec, pióro, mysz i klawiaturę.
-- Współpraca — rozpocznij sesję, dołącz do sesji lub zaproś innych użytkowników do współpracy.
-- Zaloguj się w usłudze Autodesk 360: bezpłatnie przechowuj i udostępniaj szkice w usłudze Autodesk 360 Cloud Services.
-- Pomoc: więcej informacji na temat programu FormIt można znaleźć w narzędziach informacyjnych.
+**6. User Identity**![](images/Tool Bar-User Identity.PNG)
+- Settings: defina as configurações do aplicativo e do esboço junto com o estilo visual e execute o diagnósticos do modelo.
+- Touch Mode: modele e navegue com dispositivos Windows sensíveis ao toque usando o dedo, a caneta stylus, o mouse e o teclado.
+- Collaboration: inicie uma sessão, participe de uma sessão ou convide outras pessoas para colaborar.
+- Login to Autodesk360: use os Serviços na nuvem do Autodesk 360 gratuitamente para armazenar e compartilhar os esboços.
+- Help: use as ferramentas de informação para saber mais sobre o FormIt.
 
-#### Pasek narzędzi nawigacji
-Zobacz temat [Nawigacja po scenie](../formit-introduction/navigating-the-scene.md).
+#### Barra de ferramentas de navegação
+Consulte [Navegar na cena](../formit-introduction/navigating-the-scene.md).
 
-#### Pasek palety
-Pasek palety jest widoczny po prawej stronie ekranu. Kliknij jedną z tych ikon, aby otworzyć paletę boczną w celu wyświetlenia właściwości budynku, materiałów, Biblioteki elementów i narzędzi do współpracy.
+#### Barra de paletas
+A barra de paletas é exibida no lado direito da tela. Clique em um desses ícones para abrir uma paleta lateral para exibir propriedades de construção, materiais, uma biblioteca de conteúdo e ferramentas de colaboração.
 
 ![](./images/Palette Bar-All.PNG)
 
-**1. Właściwości** Otwórz tę paletę, aby wyświetlić położenie, powierzchnię brutto i współczynniki powierzchni kondygnacji dla szkicu.
+**1. Properties** Abra essa paleta para visualizar a localização, a área bruta e as relações de área de piso para o esboço.
 ![](./images/Palette Bar-Properties.PNG)
 
-**2. Materiały** Ta paleta służy do tworzenia lub stosowania materiałów.
+**2. Materials** Use essa paleta para criar ou aplicar materiais.
 ![](./images/Palette Bar-Materials.PNG)
 
-**3. Warstwy** Ta paleta służy do tworzenia warstw i zarządzania nimi oraz przypisywania wybranych obiektów do różnych warstw.
+**3. Layers** Use essa paleta para criar e gerenciar camadas e atribuir os objetos selecionados a diferentes camadas.
 ![](./images/Palette Bar-Layers.PNG)
 
-**4. Sceny** Ta paleta służy do tworzenia scen, zarządzania nimi i ich odtwarzania.
+**4. Scenes** Use essa paleta para criar, gerenciar e reproduzir cenas.
 ![](./images/Palette Bar-Scenes.PNG)
 
-**5. Style wizualne** Ta paleta służy do edycji sposobu wyświetlania szkicu przez sterowanie cieniami, powierzchniami, krawędziami i środowiskiem. <br> ![](./images/Palette Bar-Visual Styles.PNG)
+**5. Visual Styles** Use essa paleta para editar como o esboço é visualizado ao controlar sombras, superfícies, arestas e o ambiente. <br> ![](./images/Palette Bar-Visual Styles.PNG)
 
-**6. Drzewo grup** Ta paleta służy do wyświetlania grup i obiektów w poszczególnych grupach.
+**6. Group Tree** Use essa paleta para visualizar grupos e objetos dentro de cada grupo.
 ![](./images/Palette Bar-Groups Tree.PNG)
 
-**7. Dynamo** Ta paleta służy do wczytywania modeli obliczeniowych utworzonych w programie Dynamo Studio i zarządzania nimi.
+**7. Dynamo** Use essa paleta para carregar e gerenciar modelos computacionais criados no Dynamo Studio.
 ![](./images/Palette Bar-Dynamo.PNG)
 
-**8. Poziomy** Ta paleta służy do wyświetlania i dodawania poziomów do obiektów budynku.
+**8. Levels** Use essa paleta para exibir e adicionar níveis aos objetos de construção.
 ![](./images/Palette Bar-Levels.PNG)
 
-**9. Biblioteka elementów** Biblioteka elementów służy do przechowywania elementów wielokrotnego użytku, takich jak meble.
+**9. Content Library** Use a biblioteca de conteúdo para armazenar o conteúdo reutilizável, como mobiliário.
 ![](./images/Palette Bar-Content Library.PNG)
 
-**10. Menedżer cofania** Ta paleta służy do wyświetlania operacji poszczególnych użytkowników podczas współpracy.
+**10. Undo Manager** Use essa paleta para visualizar as ações de cada usuário ao colaborar.
 ![](./images/Palette Bar-Undo Manager.PNG)

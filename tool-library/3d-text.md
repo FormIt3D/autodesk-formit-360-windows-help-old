@@ -1,119 +1,119 @@
-# Tekst 3D
+# 3D Text
 
-## Obsługiwane przez dodatek Dynamo
+## Fornecido pelo Dynamo
 
-W programie FormIt 2021 i jego nowszych wersjach można generować i modyfikować obiekty tekstu 3D obsługiwane przez dodatek Dynamo. Dodatek Dynamo umożliwia edycję czcionki, rozmiaru i innych właściwości tekstu lokalnie, bez konieczności ponownego generowania i zmiany położenia tekstu, gdy potrzebne są zmiany.
+No FormIt 2021 e versões mais recentes, é possível gerar e modificar objetos de texto 3D, fornecidos pelo Dynamo. O Dynamo permite editar a fonte, o tamanho e outras propriedades do texto no local, sem a necessidade de gerar novamente e reposicionar o texto quando as edições são necessárias.
 
 ![](../.gitbook/assets/3d-text.gif)
 
-## Umieszczanie tekstu 3D
+## Inserção de texto 3D
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
-* Kliknij przykładowy tekst 3D („3D Text”).
-* Przesuń kursor na obszar rysunku. Na kursorze pojawi się tekst 3D.
-   * Zanim umieścisz tekst, możesz ustawić kursor na geometrii, aby inaczej ustawić orientację tekstu 3D — na przykład na pionowej powierzchni, aby wyrównać tekst pionowo. Możesz również klikać klawisz Tab, aby przełączać się między orientacjami.
-* Kliknij, aby umieścić tekst 3D, który zostanie wygenerowany wewnątrz grupy FormIt.
-* Po umieszczeniu zostanie wyświetlony panel Właściwości zawierający opcje dostępne dla tekstu 3D.
+* Vá para o painel do Dynamo no FormIt para Windows e certifique-se de que você esteja no diretório Dynamo Samples.
+* Clique na amostra 3D Text.
+* Mova o cursor para a tela e você verá o texto 3D ser exibido no cursor.
+   * Antes de inserir, é possível passar o cursor sobre a geometria para orientar o texto 3D de forma diferente; por exemplo, em uma superfície vertical para fazer o texto se alinhar verticalmente. Também é possível pressionar Tab para alternar entre orientações.
+* Clique para inserir o texto 3D, que será gerado em um grupo do FormIt.
+* Após inserir, o painel Properties será exibido para revelar as opções disponíveis para 3D Text.
 
-## Iteracja lokalna
+## Iteração no local
 
-Zaleta generowania tekstu 3D za pomocą dodatku Dynamo polega na tym, że edycja tekstu jest łatwa, a tekst pozostaje w bieżącym położeniu, co umożliwia szybką iterację.
+A maior vantagem de usar o Dynamo para gerar texto 3D é que editá-lo é fácil, e ele mantém o texto em sua posição atual, para rápida iteração.
 
-Opcje tekstu 3D są dostępne w panelu Właściwości po wybraniu grupy tekstu 3D lub podczas edycji grupy.
+As opções 3D Text estão disponíveis no painel Properties quando o 3D Text Group é selecionado ou ao editar o grupo.
 
-Po wstępnym umieszczeniu tekstu 3D automatycznie zostanie wyświetlony panel Właściwości. Możesz również wybrać grupę i samodzielnie przełączyć się na panel Właściwości lub kliknąć dwukrotnie grupę, aby zrobić to automatycznie.
+Após colocar o texto 3D inicialmente, o painel Properties será exibido automaticamente. Também é possível selecionar o Group e alternar para Properties ou clicar duas vezes em Group para alternar automaticamente para o painel Properties.
 
 ![](../.gitbook/assets/3d-text-options.png)
 
 ### Text
 
-Wprowadź tekst, który ma być wyświetlany w geometrii tekstu 3D. To pole zawiera również podgląd wybranej czcionki i wyrównania. Naciśnij klawisz Enter/Return, aby uzyskać wiele linii.
+Insira o texto que você deseja que a geometria 3D Text exiba. Esse campo também oferece a visualização da fonte e da justificação selecionadas. Pressione Enter/Return para várias linhas.
 
-### Czcionka
+### Font
 
-Wybierz czcionkę dla tekstu 3D. Na tej liście zostaną wyświetlone czcionki dostępne na komputerze, a wybranie nowej czcionki spowoduje aktualizację pola Tekst.
+Selecione a fonte para 3D Text. Essa lista exibirá as fontes disponíveis no computador. Selecionar uma nova fonte atualizará o campo Text.
 
-Pamiętaj, że niektóre czcionki mają bardziej złożoną geometrię i wygenerowanie ich za pomocą dodatku Dynamo może zająć więcej czasu.
+Observe que algumas fontes têm geometria mais complexa, e mais tempo pode ser necessário para gerá-las usando o Dynamo.
 
-### Wyrównanie
+### Justification
 
-Ta opcja spowoduje przesunięcie tekstu w celu wyrównania go względem początku lokalnego układu współrzędnych grupy.
+Isso moverá o texto para alinhamento em relação à origem Group's Local Coordinate System.
 
-* Ustawienie Left zapewni, że tekst będzie zaczynał się na początku grupy i rozwijał w prawo.
-* Ustawienie Center zapewni, że tekst będzie zawsze wyśrodkowany względem początku grupy.
-* Ustawienie Right spowoduje, że tekst będzie kończył się na początku grupy.
+* Esquerda garantirá que o texto comece na origem do grupo e se expanda para a direita.
+* Centralizado garantirá que o texto esteja sempre centralizado em relação à origem do grupo.
+* Direita garantirá que o texto termine na origem do grupo.
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 
-### Rozmiar tekstu
+### Text Size
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-Wysokość tekstu w bieżących jednostkach programu FormIt.
+A altura do texto, nas unidades atuais do FormIt.
 
 ### Extrusion Depth
 
-Wielkość wyciągnięcia 3D tekstu w bieżących jednostkach programu FormIt. Tekst 3D jest zaprojektowany jako bryła, dlatego ta wartość nie może wynosić zero, natomiast może być bardzo bliska 0, aby jego wyciągnięcie nie było oczywiste.
+A quantidade de extrusão 3D do texto, nas unidades atuais do FormIt. O texto 3D foi projetado para ser sólido; portanto, esse valor não pode ser zero. No entanto, você pode torná-lo muito próximo de 0, para que seja menos óbvio que foi feita a extrusão.
 
-### Śledzenie
+### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Śledzenie przydaje się podczas dopasowywania domyślnych odstępów między literami z określonej czcionki. Ta wartość jest podawana w bieżących jednostkach programu FormIt i może być dodatnia lub ujemna. Na przykład w przypadku stóp wartość 0,25 spowoduje dodanie odstępu o szerokości 3" między poszczególnymi literami. I na odwrót: wartość -0,25 przybliży wszystkie litery do siebie o 3".
+O rastreamento é útil para ajustar o espaçamento padrão entre letras de uma fonte específica. Usa as unidades atuais do FormIt e pode ser positivo ou negativo. Por exemplo, em pés, 0,25 adicionará 3" de espaçamento entre cada letra. Por outro lado, -0,25 aproximará todas as letras em 3".
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Jeśli w polu Tekst znajduje się wiele wierszy, ta wartość określa wielkość odstępu między poszczególnymi wierszami tekstu. Używane są bieżące jednostki programu FormIt.
+Se você tiver várias linhas no campo Text, esse valor controlará o espaço entre cada linha de texto. Usa as unidades atuais do FormIt.
 
 ### Invert Text
 
 ![](../.gitbook/assets/3d-text-inverted.png)
 
-Gdy ta opcja ma wartość True, wokół tekstu zostanie utworzona bryła, z której zostanie usunięty tekst, dając w rezultacie efekt „odwróconego” tekstu — jak gdyby tekst został wycięty z materiału.
+Quando True, essa opção criará um sólido em torno do texto e removerá o texto dele, fornecendo o resultado de texto “invertido” – como se o texto tivesse sido cortado de um material.
 
 ### Inverted Text Border
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Ma zastosowanie tylko w sytuacji, gdy opcja Invert Text ma wartość True. Określa wielkość obramowania wokół tekstu używanego względem bryły, z której jest usuwany tekst. Używane są bieżące jednostki programu FormIt.
+Somente se aplica quando Invert Text é true. Especifica a quantidade de borda em torno do texto a ser usada para o sólido do qual o texto é removido. Usa as unidades atuais do FormIt.
 
 ### Curve Faceting Quality
 
-Krzywe z czcionek są przekształcane na segmenty linii za pomocą tekstu 3D, dlatego ta wartość określa, z jak wielu płaszczyzn składają się krzywe.
+As curvas das fontes são convertidas em segmentos de linha usando 3D Text; portanto, esse valor controla a precisão com que as curvas são facetadas.
 
-Mniejsze liczby spowodują utworzenie mniej precyzyjnych płaszczyzn \(dłuższych segmentów\), a większe — bardziej precyzyjnych \(krótszych segmentów\). Ta wartość zastępuje ustawienia płaszczyzn krzywej i powierzchni w Preferencjach programu FormIt.
+Números menores resultarão em facetas mais grosseiras \(segmentos mais longos\) e números maiores resultarão em facetas mais finas \(segmentos mais curtos\). Esse valor substitui as configurações de facetamento Curve and Surface do FormIt em Preferences.
 
-### Uruchom
+### Run
 
-Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy kliknąć przycisk „Run”, aby zobaczyć aktualizacje w końcowej geometrii.‌
+Após editar as opções, clique no botão “Run” para executar o gráfico subjacente do Dynamo e gerar novos resultados. Esse botão ficará azul quando os parâmetros forem alterados, para que você saiba que “Run” precisa ser clicado para ver as atualizações na geometria final.‌
 
 ### Edit Embedded Graph
 
-Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybkiej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki. Nie jest to wymagane, ale może się przydać do rozwiązywania problemów lub szybszej edycji. W dalszej części znajdują się dodatkowe informacje.
+Clicar nesse botão iniciará o ambiente do editor gráfico do Dynamo, para que você possa visualizar e editar o gráfico subjacente do Dynamo para alterar rapidamente os parâmetros e ver as atualizações ao vivo ou para inspecionar/ajustar a lógica. Isso não é necessário, mas pode ser útil para solução de problemas ou para edição mais rápida. Veja abaixo para obter mais informações.
 
-## Szybsze iteracje w dodatku Dynamo
+## Iterate Faster in Dynamo
 
-Iteracja opcji tekstu 3D może być szybsza dzięki uruchomieniu edytora wykresów Dynamo, który umożliwi dostosowywanie parametrów i wyświetlanie zmian w czasie rzeczywistym. Umożliwia on również sprawdzanie logiki wykresu w przypadku wystąpienia problemów.
+Se você estiver iterando em opções 3D Text, poderá ser mais rápido iniciar o editor gráfico do Dynamo, que permitirá ajustar os parâmetros e ver as alterações em tempo real. Isso também permite inspecionar a lógica por trás do gráfico, caso haja problemas.
 
 ![](../.gitbook/assets/3d-text-edit-embedded.png)
 
-Aby uruchomić edytor wykresów Dynamo, można kliknąć przycisk Edytuj osadzony wykres w panelu Właściwości.
+É possível clicar no botão “Edit Embedded Graph” no painel Properties para iniciar o editor gráfico do Dynamo.
 
 ![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
 
-## Rozwiązywanie problemów
+## Solução de problemas
 
-Dodatek Dynamo jest używany przez funkcję tekstu 3D w tle. Do generowania geometrii przekazywanej z powrotem do formatu FormIt służy jądro modelowania o nazwie ASM.
+O texto 3D usa o Dynamo nos bastidores e o Dynamo usa um kernel de modelagem chamado ASM para gerar sua geometria, que é passada de volta para o FormIt.
 
-Niektóre czcionki mogą powodować tworzenie „samoprzecinających się krzywych” lub innej problematycznej geometrii będącej przyczyną błędów w jądrze ASM.
+Algumas fontes podem criar “curvas com autointerseção” ou outra geometria problemática, que causam erros no ASM.
 
-Jeśli podczas próby uruchomienia tekstu 3D wystąpi błąd lub litery znikną, warto kliknąć opcję „Edit Embedded Graph”, aby zobaczyć, co dzieje się z wykresem i gdzie mógł wystąpić błąd.
+Se você receber um erro ao tentar executar 3D Text ou se as letras desaparecerem, será recomendável clicar em “Edit Embedded Graph” para ver o que está errado com o gráfico e onde pode estar acontecendo a falha.
 
-Niektóre czcionki mają również znane problemy, które uniemożliwiają przekształcenie ich w prawidłową geometrię. Jednym z przykładów takiej czcionki jest Bahnschrift. Jeśli natrafisz na inną problematyczną czcionkę, [poinformuj nas o tym na forach ](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Zrobimy wszystko, co w naszej mocy, aby rozwiązać problemy z określonymi czcionkami.
+Algumas fontes também têm problemas conhecidos que impedem que elas sejam transformadas na geometria adequada. Bahnschrift é um exemplo disso. Se você encontrar outra fonte problemática, [nos informe nos fóruns](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=pt-br). Faremos o que for possível para corrigir problemas com fontes específicas.
 
 
 

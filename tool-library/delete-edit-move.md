@@ -1,22 +1,22 @@
-# Usuwanie, edytowanie, przesuwanie
+# Excluir, editar, mover
 
-Usuń obiekt, zmień jego położenie lub zmień jego właściwości.
+Remova um objeto, altere sua localização ou modifique suas propriedades.
 
-## Usuń
+## Excluir
 
-Najpierw dokonaj wyboru geometrii. Następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe, w którym możesz kliknąć **narzędzie Usuń**. Możesz również nacisnąć klawisz Delete na klawiaturze.
+Primeiro, faça a seleção de uma geometria. Em seguida, clique com o botão direito do mouse para ver o menu de contexto, onde é possível clicar na **ferramenta Excluir**. Alternativamente, pressione a tecla Delete do teclado.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edytuj
+## Editar
 
-Podczas korzystania z wielu narzędzi edycji, takich jak narzędzia przesunięcia, szyku, pchnięcia/ciągnięcia powierzchni i odsunięcia, jest wyświetlana niebieska ramka wymiarowa. Po zakończeniu operacji można kliknąć ten wymiar i wprowadzić określoną wartość. Można również po prostu rozpocząć wpisywanie wartości liczbowej, aby uzyskać dostęp do okna dialogowego Edycja wymiaru. Ewentualnie można kliknąć klawisz Tab, aby wywołać okno dialogowe Edytuj wymiar, ale naciśnięcie klawisza Tab nie jest już wymagane w przypadku korzystania z programu FormIt dla systemu Windows 17 ani w nowszych wersjach.
+Ao usar muitas das ferramentas de edição, como Mover, Matriz, Empurrar/puxar face e Deslocamento, você verá uma caixa de cota azul. É possível clicar nessa cota após concluir a operação e inserir um valor específico. Você também pode simplesmente começar a digitar um valor numérico para acessar a caixa de diálogo Editar cota. Como alternativa, é possível pressionar Tab para abrir a caixa de diálogo Editar cota, mas Tab não é mais necessário com o FormIt para o Windows v17 e versões mais recentes.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## Przesuwanie krawędzi, powierzchni lub obiektów
+## Mover arestas, faces ou objetos
 
-Najpierw wybierz krawędź, powierzchnię lub obiekt. Narzędzie przesuwania zostanie automatycznie aktywowane. Ustaw kursor, aby wyświetlić punkty przyciągania i wnioskowania oraz określić, gdzie chcesz rozpocząć operację przesuwania. Kliknij, aby rozpocząć. Teraz umieść wskaźnik myszy, aby wyświetlić punkty przyciągania i wnioskowania dla położenia, do którego chcesz przesunąć obiekt. Kliknij ponownie, aby umieścić obiekt.
+Selecione primeiro a aresta, a face ou o objeto. A ferramenta de movimentação é ativada automaticamente. Passe o cursor do mouse para ver os snaps e pontos de inferência para especificar onde deseja iniciar a operação de movimentação e, em seguida, clique para iniciar. Agora, passe o mouse para ver os snaps e pontos de inferência para a localização na qual deseja mover o objeto. Clique novamente para posicionar o objeto.
 
 ![](../.gitbook/assets/edit_edge.png)
 

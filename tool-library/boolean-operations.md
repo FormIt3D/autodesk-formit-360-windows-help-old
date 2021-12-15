@@ -1,13 +1,13 @@
-### Operacje logiczne
-Operacje Dołącz i Wytnij służą do zmieniania obiektów.
+### Operações booleanas
+Use as operações Unir e Cortar para alterar objetos.
 
-#### Dołącz
-Aby wykonać sumowanie logiczne, wybierz wszystkie obiekty, które ma objąć operacja logiczna. Następnie wybierz z menu kontekstowego **narzędzie Dołącz**. Część przecinająca się (nakładająca się) geometrii zostanie połączona w jeden obiekt.
+#### Unir
+Para realizar uma união, selecione todos os objetos que deseja tornar booleanos. Em seguida, selecione a **ferramenta Unir** no menu de contexto. A parte de interseção/sobreposição da geometria será unida em um objeto.
 
 ![](images/join tool.png)
 
-#### Wytnij
-Aby odjąć objętości od istniejącej geometrii, najpierw wybierz oryginalny obiekt. Następnie wybierz obiekt, który chcesz od niego odjąć. Potem wybierz z menu kontekstowego **narzędzie Wytnij**. Przecinająca się objętość zostanie odjęta od oryginalnego obiektu.
+#### Recortar
+Para subtrair volumes da geometria existente, primeiro selecione o objeto original. Em seguida, selecione o objeto que deseja subtrair dele. Depois, selecione a **ferramenta Corte** no menu de contexto. O volume intersecionado será subtraído do objeto original.
 
 ![](images/cut tool.png)
 ![](images/cut finish.PNG)

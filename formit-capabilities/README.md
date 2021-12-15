@@ -1,9 +1,9 @@
-# Możliwości programu FormIt
+# Recursos do FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Możliwości programu FormIt
+## Recursos do FormIt
 
-Twórz koncepcyjne projekty budynków za pomocą wydajnego, wbudowanego systemu modelowania brył, niesamowitych opcji wizualizacji i natywnej integracji z dodatkiem Dynamo w ramach inicjalizacji procesu BIM.
+Crie projetos de construção conceitual com um poderoso sistema de modelagem de sólidos incorporado, incríveis opções de visualização e uma integração nativa do Dynamo, tudo isso enquanto inicia um fluxo de trabalho de BIM.
 
-Program Autodesk® FormIt® pozwala uchwycić nasuwające się koncepcje projektu budynku. Korzystaj z precyzyjnego i łatwego modelowania brył, organizuj pomysły w grupach i na warstwach oraz pobieraj rzeczywiste informacje o terenie, takie jak obrazy satelitarne, aby poprawnie orientować i analizować projekty z uwzględnieniem cieni, analizy oświetlenia naturalnego i analizy energetycznej. Własne projekty wstępne można przenieść do scentralizowanego magazynu danych w celu ich otwierania i dopracowywania w programie Autodesk® Revit® lub w innym oprogramowaniu.
+Use o Autodesk® FormIt® para registrar conceitos de projeto de edificações quando ocorrerem ideias. Aproveite a modelagem sólida precisa e fácil, organize suas ideias em grupos e camadas e obtenha informações do local do mundo real, como imagens de satélite, para orientar e analisar corretamente seus projetos com sombras, análise solar e análise energética. Mova os projetos preliminares para o armazenamento de dados centralizado para acesso e refinamento no software Autodesk® Revit® ou em outros softwares.

@@ -1,94 +1,94 @@
-# Style wizualne
+# Estilos visuais
 
-Dostosuj wygląd modelu, w tym ogólne oświetlenie, style krawędzi i efekty środowiskowe. Panel Style wizualne można znaleźć, klikając ikonę okularów przeciwsłonecznych na pasku palety:
+Personalize a aparência visual do modelo, incluindo iluminação geral, estilos de aresta e efeitos ambientais. O painel Estilos visuais pode ser encontrado clicando no ícone de óculos escuros na barra de paletas:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Style wizualne [można ustawiać dla poszczególnych scen](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings). Można więc zapisać ustawienia ulubionych stylów i zastosować je do innych scen.
+Os estilos visuais [podem ser definidos por cena](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), para que você possa salvar as configurações de estilo favoritas e aplicá-las a outras cenas.
 
-## Powierzchnie
+## Superfícies
 
-Zarządzaj sposobem wyświetlania i cieniowania powierzchni.
+Gerencie a maneira como as superfícies são exibidas e sombreadas.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Jasność otoczenia** — ta opcja steruje całkowitą jasnością wszystkich materiałów w scenie. Wartość 100 oznacza, że materiały wystawione na światło będą wyświetlane z pełną jasnością określoną w kolorze lub teksturze materiału. Wartości powyżej 100 powodują nadmierną ekspozycję materiałów, ale mogą być przydatne w przypadku modeli programu SketchUp, których wygląd jest nadal ciemny w programie FormIt. Domyślną wartością jest 100.
+**Brilho do ambiente** controla o brilho geral de todos os materiais na cena. Um valor de 100 significa que os materiais expostos à luz serão exibidos com todo o brilho, conforme definido na cor ou textura do material. Valores acima de 100 expõem materiais em excesso, mas podem ser úteis para modelos do SketchUp que ainda parecem escuros no FormIt. O valor padrão é 100.
 
-**Kontrast otoczenia** — ta opcja steruje tym, jak wyglądają ciemniejsze powierzchnie w cieniu w porównaniu z powierzchniami wystawionymi na bezpośrednie światło słoneczne. Wartość 0 oznacza, że oświetlenie nie ma wpływu \(wszystkie materiały będą wyświetlane z pełną jasnością niezależnie od orientacji\), natomiast wartości wyższe powodują, że powierzchnie znajdujące się w cieniu są coraz ciemniejsze. Domyślną wartością jest 25.
+**Contraste de ambiente** controla o quanto as faces mais escuras na sombra são exibidas, quando comparadas com as faces expostas à luz solar direta. Um valor de 0 significa que a iluminação não tem efeito \(todos os materiais serão exibidos com seu brilho completo, independentemente da orientação\), enquanto valores maiores farão com que as faces na sombra pareçam cada vez mais escuras. O valor padrão é 25.
 
-Przełącz opcję **Cienie**, aby zobaczyć, w jaki sposób projekt będzie [cieniowany o bieżącej porze dnia](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Ative/desative as **Sombras** para ver como o projeto seria [sombreado na hora atual do dia](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Intensywność cienia** — ta opcja określa sposób rysowania ciemnych cieni na płaszczyźnie terenu i innych powierzchniach. Wartość 0 spowoduje, że cienie staną się w zasadzie niewidoczne, a wartość 100 — że staną się czarne. Domyślną wartością jest 20.
+**Intensidade da sombra** controla como as sombras escuras são desenhadas no plano de chão e em outras faces. Um valor de 0 tornará as sombras efetivamente invisíveis e um valor de 100 tornará as sombras pretas. O valor padrão é 20.
 
-**Cienie otoczenia** — ta opcja dodaje cieniowanie do narożników, aby model programu FormIt był bardziej realistyczny.
+**Sombras de ambiente** adiciona um toque de sombreamento aos cantos para adicionar realismo ao modelo do FormIt.
 
-**Powierzchnie monotone** — ta opcja wyłącza kolor i teksturę wszystkich materiałów oraz powoduje, że środowisko otoczenia staje się białe. Jest to przydatne w przypadku badań cieni i cieniowania.
+**Superfícies monotônicas** desativa a cor e a textura de todos os materiais e tornam branco o ambiente ao redor. Útil para estudos de sombra ou sombreamento.
 
-Sekcja Kolory powierzchni definiuje domyślne kolory powierzchni, gdy nie zastosowano materiału.
+A seção Cores de superfície define as cores padrão das faces quando nenhum material é aplicado.
 
-**Powierzchnie** — to domyślny kolor wszystkich powierzchni programu FormIt skierowanych przodem \(lub po obu stronach, jeśli nie jest zaznaczona opcja Tylne powierzchnie\), gdy nie zastosowano żadnego materiału.
+**Faces** é a cor padrão de todas as faces frontais do FormIt \(ou de ambos os lados, se a opção Faces posteriores estiver desmarcada\) quando nenhum material está aplicado.
 
-**Tylne powierzchnie** — ta opcja służy do wyświetlania różnych materiałów po obu stronach pojedynczej powierzchni dla modeli programu SketchUp importowanych do programu FormIt, które tego wymagają. Ta opcja jest domyślnie niezaznaczona, ale jest zaznaczona podczas otwierania lub importowania modeli programu SketchUp. W geometrii innej niż programu SketchUp określony kolor tylnej powierzchni będzie wyświetlany na tylnych stronach powierzchni.
+A opção **Faces posteriores** é usada para exibir diferentes materiais em qualquer lado de uma única face, para modelos do SketchUp que são importados no FormIt e requerem isso. Essa opção está desmarcada por padrão, mas é marcada quando os modelos do SketchUp estão abertos ou importados. Em geometria que não seja do SketchUp, a cor especificada da Face posterior será exibida nos lados posteriores das faces.
 
-W obszarach Efekty przekroju i Efekty wypełnienia sekcji można zarządzać domyślnymi kolorami powierzchni, linii i efektu wypełnienia, gdy używane jest narzędzie [Płaszczyzna przekroju](section-planes.md).
+Use as seções Efeitos de corte de seção e Efeitos de poché de efeitos para gerenciar as cores padrão de faces, linhas e o efeito poché quando a ferramenta [Plano de corte](section-planes.md) é usada.
 
-## Płaszczyzny terenu
+## Planos de chão
 
-Gdy płaszczyzna terenu jest wyłączona w trybie edycji grupy, niebieska siatka płaszczyzny roboczej także jest wyłączona.
+Quando o Plano de chão é desativado no Modo de edição de grupo, a grade azul do Plano de trabalho também é desativada.
 
-Kolor płaszczyzny roboczej można również dostosować z poziomu panelu Style wizualne.
+A cor do plano de trabalho também pode ser personalizada no painel Estilos visuais.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## Krawędzie
+## Arestas
 
-Zarządzaj stylem wyświetlania wszystkich krawędzi w modelu.
+Gerencie o estilo de exibição de todas as arestas no modelo.
 
 ![](../.gitbook/assets/edges.PNG)
 
-**Kontrast** — ta opcja wpływa na to, jak bardzo widoczne są wszystkie krawędzie. Wartość 0 spowoduje, że krawędzie staną się niewidoczne. Domyślną wartością jest 60.
+**Contraste** afeta a visibilidade de todas as arestas. Um valor de 0 tornaria as arestas efetivamente invisíveis. O valor padrão é 60.
 
-**Kolor** — ta opcja wpływa na kolor wszystkich krawędzi w modelu. Domyślną wartością jest czarny.
+**Cor** afeta a cor de todas as arestas no modelo. O padrão é preto.
 
-**Grube krawędzie** — ta opcja powoduje, że wszystkie krawędzie stają się grubsze, w tym krawędzie sylwetki.
+**Arestas grossas** torna todas as arestas mais grossas, incluindo as arestas de silhueta.
 
-**Krawędzie szkicu** — ta opcja dodaje efekt szkicu do wszystkich krawędzi, symulując efekt rysowania odręcznego.
+**Arestas de esboço** adiciona um efeito de esboço a todas as arestas para simular um efeito de desenho à mão.
 
-**Ukryte krawędzie** — ta opcja wyświetla krawędzie przesłonięte przez powierzchnie.
+**Arestas ocultas** exibe arestas ocluídas por superfícies, por outros motivos.
 
-**Wydłużone krawędzie** — ta opcja dodaje przedłużenie do niektórych krawędzi, symulując efekt rysowania odręcznego.
+**Arestas estendidas** adiciona uma extensão a algumas arestas para simular um efeito desenhado à mão.
 
-## Środowisko
+## Ambiente
 
-Przełącz wyświetlanie efektów środowiskowych i obiektów pomocniczych.
+Alternar a exibição de efeitos ambientais e objetos de ajuda.
 
 ![](../.gitbook/assets/environment.PNG)
 
-**Siatka** — ta opcja steruje wyświetlaniem siatki na płaszczyźnie terenu, jak również siatką wyświetlaną podczas edycji grupy. Opcja „Przyciągaj do siatki” jest wyłączona, gdy siatka jest wyłączona.
+**Grade** controla a exibição da grade no plano de chão, bem como a grade mostrada ao editar um Grupo. A opção “Snap à grade” será desativada quando a grade estiver desativada.
 
-**Osie** — ta opcja steruje wyświetlaniem osi XYZ wyświetlanych w początku globalnym lub w początku grupy podczas edycji grupy.
+**Eixos** controla a exibição dos eixos XYZ que aparecerão na origem universal ou na origem do grupo se um grupo for editado.
 
-**Poziomy** — ta opcja steruje wyświetlaniem [**poziomów**](levels-and-area.md) **** ustawionych w panelu Poziomy.
+**Níveis** controla a exibição de [**Níveis**](levels-and-area.md) ****definido no Painel de níveis.
 
-**Mgła** — ta opcja steruje wyświetlaniem mgły, która jest rysowana, aby przejście między płaszczyzną terenu a niebem było płynniejsze. Wyłączenie mgły spowoduje utworzenie wyraźnej linii horyzontu, na której płaszczyzna terenu \(jeśli jest włączona) styka się z niebem.
+**Névoa** controla a exibição da névoa que é desenhada para fazer com que a transição entre o plano de chão e o céu pareça perfeita. Desativar a Névoa resultará em uma linha de horizonte sólida em que o plano de chão \(se ativado\) encontra o céu.
 
-**Strzałka północy** — ta opcja steruje wyświetlaniem małego widżetu graficznego wskazującego kierunek północy projektu \(zgodnie z określeniem położenia i obrazami satelitarnymi\).
+**Seta de norte** controla a exibição de um pequeno widget gráfico que indica a direção do norte do projeto \(como determinado pela localização e imagens de satélite\).
 
-Można również dostosować kolory środowiskowe, takie jak nieba, tła i płaszczyzny terenu.
+Cores ambientais como céu, plano de fundo e plano de chão também podem ser personalizadas.
 
-Niebo składa się z gradientu kolorów **Dolne/tło**, **Środek** i **Górne**.
+O céu é composto de um gradiente de cores **Inferior/plano de fundo**, **Médio** e **Superior**.
 
-Jeśli opcja **Niebo** nie jest zaznaczona, widoczny będzie tylko kolor **Dolne/tło**.
+Se a opção **Céu** estiver desmarcada, somente a cor **Inferior/plano de fundo** estará visível.
 
-## Diagnostyka
+## Diagnóstico
 
-Przełącz wyświetlanie narzędzi diagnostycznych.
+Ative/desative a exibição de ferramentas de diagnóstico.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-**Problemy z uszczelnieniem** — ta opcja powoduje wyróżnienie na czerwono wszystkich krawędzi, które nie są częścią szczelnego obiektu bryłowego.
+**Problemas herméticos** realça em vermelho todas as arestas que não fazem parte de um objeto sólido hermético.
 
-**Tylne powierzchnie** — ta opcja powoduje wyróżnienie na czerwono wszystkich powierzchni skierowanych w złą stronę \(wszystkie obiekty bryłowe powinny mieć tylne powierzchnie skierowane w stronę wewnętrznej strony kształtu bryły\).
+**Faces posteriores** realça em vermelho todas as faces que estão voltadas para a direção errada \(todos os objetos sólidos devem ter as faces posteriores voltadas para o interior da forma sólida\).
 
-[Dowiedz się więcej na temat korzystania z diagnostyki uszczelnienia i tylnych powierzchni w celu identyfikowania i rozwiązywania problemów z modelami brył](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Saiba mais sobre como usar o diagnóstico de Vedação e faces posteriores para identificar e corrigir problemas com modelos sólidos](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

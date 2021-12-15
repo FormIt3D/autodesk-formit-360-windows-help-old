@@ -1,58 +1,58 @@
-# Grupy
+# Grupos
 
-Jedną z najbardziej podstawowych, ale jednocześnie ważnych technik w procesach roboczych programu FormIt jest grupowanie. Grupy zapobiegają łączeniu się geometrii i umożliwiają konfigurowanie relacji nadrzędności/podrzędności między skopiowanymi elementami, tak aby zaktualizowanie jednego elementu powodowało zaktualizowanie obu. Więcej informacji na temat grup zamieszczono [tutaj](../formit-primer/part-i/grouping-objects.md).
+Uma das técnicas mais básicas, porém importantes, nos fluxos de trabalho do FormIt envolve o agrupamento. Os grupos permitem que você impeça que a geometria fique unida e possibilitam configurar as relações pai/filho entre os elementos copiados para que, se você atualizar um elemento, ambos os elementos sejam atualizados. Saiba mais sobre os grupos [aqui](../formit-primer/part-i/grouping-objects.md).
 
-Grupy można tworzyć i edytować na dwa sposoby: z poziomu menu kontekstowego wybranej grupy lub z poziomu głównego paska narzędzi.
+É possível criar e editar os grupos de duas maneiras: no menu de contexto de um grupo selecionado ou na barra de ferramentas principal.
 
-## Interakcje grup
+## Interações de grupos
 
-Aby **utworzyć grupę**, wybierz elementy, które chcesz zgrupować — mogą to być krawędzie, powierzchnie, bryły lub inne grupy — i kliknij prawym przyciskiem myszy. Z menu kontekstowego wybierz narzędzie **Grupuj \(G\)**. Nie można grupować obrazów zaimportowanych i satelitarnych.
+Para **criar um grupo**, selecione os elementos que você deseja agrupar (isso pode incluir arestas, faces, sólidos ou outros grupos) e clique com o botão direito do mouse. Selecione a ferramenta **Grupo \(G\)** no menu de contexto. Não é possível agrupar imagens importadas e imagens de satélite.
 
-Aby **wybrać grupę**, kliknij ją raz. Zwróć uwagę na przerywane linie widoczne podczas wybierania grupy — wskazują one całkowity rozmiar grupy.
+Para **selecionar um grupo**, clique uma vez no grupo. Observe as linhas tracejadas que são exibidas ao selecionar um grupo; elas indicam o tamanho total do grupo.
 
-Aby **edytować grupę**, kliknij ją dwukrotnie. Spowoduje to uruchomienie trybu edycji, w którym elementy spoza bieżącej grupy można jedynie wyświetlać i przyciągać, ale nie można ich wybierać. Możesz również ukryć elementy spoza bieżącej grupy, używając skrótu klawiaturowego **H**.
+Para **editar um grupo**, clique duas vezes no grupo. Isso inicia um modo de edição no qual você só pode visualizar e efetuar o snap para elementos fora do grupo atual, mas não pode selecioná-los. Também é possível ocultar os elementos fora do grupo atual usando o atalho de teclado **H**.
 
-Istnieje możliwość tworzenia **grup w grupach:** grupy te, nazywane **grupami zagnieżdżonymi**, można tworzyć w trybie edycji grupy. Aby przejść o jeden poziom w górę w grupach zagnieżdżonych, kliknij w dowolnym miejscu poza grupami.
+É possível criar **grupos dentro de grupos:** eles são chamados de **grupos aninhados** e podem ser criados dentro do modo de edição de grupo. Para mover um nível acima em grupos aninhados, clique em qualquer lugar fora dos grupos.
 
-Aby **wyjść z trybu edycji grupy**, kliknij dwukrotnie w dowolnym miejscu poza grupą.
+Para **sair do modo de edição de grupo**, clique duas vezes em qualquer lugar fora do grupo.
 
-Możesz **skopiować grupę**, aby utworzyć relację między oryginalną grupą a jej kopią: w przypadku edycji jakichkolwiek skopiowanych grup te same zmiany będą miały wpływ na wszystkie powiązane grupy.
+É possível **copiar um grupo** para criar uma relação entre o grupo original e sua cópia: se você editar qualquer grupo copiado, as mesmas alterações afetarão todos os grupos relacionados.
 
-Aby **rozłączyć relację między skopiowanymi grupami**, wybierz grupę lub grupy, które chcesz oddzielić, kliknij prawym przyciskiem myszy i z menu kontekstowego wybierz opcję **Ustaw jako niepowtarzalne**. Opcję Ustaw jako niepowtarzalne możesz również wybrać z paska narzędzi Grupy.
+Para **remover a relação entre grupos copiados**, selecione o grupo ou os grupos que você deseja separar, clique com o botão direito do mouse e selecione **Tornar exclusivo** no menu de contexto. Também é possível selecionar Tornar exclusivo na barra de ferramentas Grupos.
 
-Aby **wybrać wszystkie powiązane grupy**, ustaw kursor na grupie i naciśnij klawisz Tab. Gdy wszystkie powiązane grupy zostaną wyróżnione, kliknij te grupy, aby je wybrać. Możesz wówczas wykonać operację na wszystkich grupach jednocześnie.
+Para **selecionar todos os grupos relacionados**, passe o cursor sobre um grupo e pressione a tecla Tab. Quando todos os grupos relacionados estiverem realçados, clique nos grupos para selecioná-los. É possível executar uma ação em todos os grupos de uma vez.
 
-[**Drzewo grup**](groups-tree.md) to jedno miejsce, w którym możesz wyświetlić wszystkie grupy w projekcie i zarządzać nimi.
+A [**Árvore de grupos**](groups-tree.md) fornece um único local para visualizar e gerenciar todos os grupos em um projeto.
 
-## Menu kontekstowe Grupy i dostęp do paska narzędzi
+## Menu de contexto Grupos e acesso à barra de ferramentas
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Grupuj elementy**
+**Agrupar elementos**
 
-Aby utworzyć grupę z elementu paska narzędzi Grupy, wybierz co najmniej jeden element, wybierz ikonę **Utwórz grupę**, a następnie wybierz ikonę **Zakończ**. Możesz również wybrać opcję **Utwórz grupę** z elementu paska narzędzi Grupy, a następnie wybrać elementy, które chcesz zgrupować, i wybrać ikonę **Zakończ**.
+Para criar um grupo com base no item da barra de ferramentas Grupos, selecione um ou mais elementos, selecione o ícone **Criar grupo** e, em seguida, selecione o ícone **Concluir**. Como alternativa, é possível selecionar **Criar grupo** no item da barra de ferramentas Grupos, selecionar os elementos que você deseja agrupar e selecionar o ícone **Concluir**.
 
-Aby **edytować grupę z poziomu elementu paska narzędzi Grupy**, wybierz ikonę **Edytuj grupę**, a następnie kliknij grupę, którą chcesz edytować. Po zakończeniu wprowadzania zmian wybierz ikonę **Zakończ**. To narzędzie umożliwia wybranie określonej grupy, która ma być edytowana, nawet jeśli jest głęboko zagnieżdżona.
+Para **editar um grupo no item da barra de ferramentas Grupos**, selecione o ícone **Editar grupo** e clique no grupo que você deseja editar. Quando tiver terminado de fazer edições, selecione o ícone **Concluir**. Essa ferramenta permite selecionar o grupo específico que você deseja editar, mesmo que ele esteja profundamente aninhado.
 
-**Aby grupa była unikatowa na pasku narzędzi**, wybierz ikonę **Ustaw jako niepowtarzalne** na pasku narzędzi Grupy. Ponadto możesz wybrać opcję **Ustaw jako niepowtarzalne** z elementu paska narzędzi Grupy, a następnie wybrać grupę, która ma być niepowtarzalna, i kliknąć ikonę **Zakończ**.
+**Para tornar um grupo exclusivo na barra de ferramentas,** selecione o ícone **Tornar exclusivo** no item da barra de ferramentas Grupos. Além disso, é possível selecionar **Tornar exclusivo** no item da barra de ferramentas Grupos, selecionar o grupo que você deseja tornar exclusivo e clicar no ícone **Concluir**.
 
-**Aby usunąć grupowanie grupy z elementu paska narzędzi Grupy**, wybierz grupę, którą chcesz zmienić, a następnie wybierz ikonę **Usuń grupowanie** z menu paska narzędzi Grupy. Spowoduje to usunięcie grupowania bieżącego wyboru, ale nie zostanie usunięte grupowanie jakichkolwiek grup zagnieżdżonych. Możesz również wybrać opcję **Usuń grupowanie** na pasku narzędzi, wybrać grupę, którą chcesz zmienić, a następnie wybrać ikonę **Zakończ**.
+**Para desagrupar um grupo do item da barra de ferramentas Grupos,** selecione o grupo que você deseja alterar e escolha o ícone **Desagrupar** no menu da barra de ferramentas Grupos. Isso desagrupa a seleção atual, mas não desagrupa nenhum grupo aninhado. Como alternativa, é possível selecionar **Desagrupar** na barra de ferramentas, selecionar o grupo que você deseja alterar e, em seguida, selecionar o ícone **Concluir**.
 
-**Aby usunąć grupowanie wszystkich grup zagnieżdżonych poniżej aktualnie wybranej grupy, **wybierz grupę zawierającą grupy zagnieżdżone, a następnie wybierz opcję **Usuń grupowanie wszystkich zagnieżdżonych** z paska narzędzi Grupy.
+**Para desagrupar todos os grupos aninhados abaixo do grupo atualmente selecionado,** selecione um grupo com grupos aninhados e selecione **Desagrupar todos aninhados** na barra de ferramentas Grupos.
 
-**Aby usunąć grupowanie wszystkich grup w modelu, **wybierz narzędzie **Usuń grupowanie wszystkiego** z paska narzędzi Grupy.
+**Para desagrupar todos os grupos no modelo,** selecione a ferramenta **Desagrupar tudo** na barra de ferramentas Grupos.
 
-## Grupy i program Revit
+## Grupos e Revit
 
-Jeśli znasz **rodziny** programu Revit, rozumiesz również koncepcję grup w programie FormIt. Grupy programu FormIt mają funkcje, których można użyć do inteligentnego przenoszenia ich do programu Revit.
+Se você está familiarizado com as **famílias** do Revit, também está familiarizado com o conceito de grupos no FormIt. Os grupos do FormIt têm recursos que você pode usar para transferi-los de forma inteligente para o Revit.
 
-**Kategorie grup programu FormIt**
+**Categorias de grupos do FormIt**
 
-Dla grup w programie FormIt możesz określić **kategorie**, aby po zaimportowaniu grup programu FormIt do programu Revit stały się one rodzinami tych samych kategorii. Kategorie możesz przypisać do grup programu FormIt, wybierając grupę, przechodząc do trybu **Edycja grupy** i wybierając kategorie za pomocą panelu **Właściwości**. Kategorie możesz również przypisać w panelu **Drzewo grup**.
+É possível especificar as **categorias** para grupos no FormIt para que os grupos do FormIt se tornem famílias das mesmas categorias ao importá-las para o Revit. É possível atribuir categorias aos grupos do FormIt selecionando um grupo, entrando no modo **Edição de grupo** e usando o painel **Propriedades** para escolher categorias. Também é possível atribuir categorias no painel **Árvore de grupos**.
 
-**Nazwy grup programu FormIt**
+**Nomes de grupos do FormIt**
 
-Za pomocą panelu **Właściwości** możesz również określić nazwę grupy programu FormIt. Może to być przydatne podczas nawigacji po własnym modelu, a po zaimportowaniu modelu do programu Revit można będzie łatwo filtrować elementy, używając nazwy grupy.
+Também é possível usar o painel **Propriedades** para especificar um nome para o grupo do FormIt. Isso pode ser útil para navegar em seu próprio modelo e, ao importar o modelo para o Revit, será possível filtrar facilmente os elementos usando o nome do grupo.
 
-Pamiętaj, że **grupy zagnieżdżone w programie FormIt nie są importowane do programu Revit jako grupy zagnieżdżone**. Zapobiega to tworzeniu głęboko zagnieżdżonych rodzin programu Revit.
+Observe que os **grupos aninhados no FormIt não são importados para o Revit como grupos aninhados**. Isso impede famílias do Revit profundamente aninhadas.
 

@@ -1,11 +1,11 @@
-# Skalowanie obiektu
+# Dimensionar objeto
 
-**Narzędzie Skaluj** umożliwia dostosowanie rozmiaru i orientacji obiektów.
+É possível usar a **ferramenta Escala** para ajustar o tamanho e a orientação dos objetos.
 
-1. Wybierz obiekt, który chcesz dostosować.
-2. Kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**.
-3. Z menu kontekstowego wybierz **narzędzie Skala**.
-4. Za pomocą kółka przewijania myszy przeskaluj geometrię w górę lub w dół.
+1. Selecione o objeto que deseja ajustar.
+2. Clique com o botão direito do mouse para iniciar o **menu de contexto**.
+3. No menu de contexto, selecione a **ferramenta Escala**.
+4. Use a roda de rolagem do mouse para dimensionar a geometria para cima ou para baixo.
 
 ![](../.gitbook/assets/scale1.png)
 

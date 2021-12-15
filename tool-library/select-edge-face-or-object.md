@@ -1,34 +1,34 @@
-# Zaznaczenie
+# Seleção
 
-## Wybór bezpośredni
+## Seleção direta
 
-Aby **wybrać wierzchołek, krawędź lub powierzchnię**, ustaw kursor na obiekcie, a następnie kliknij go jednokrotnie w celu wybrania go.
+Para **selecionar um vértice, uma aresta ou uma face**, passe o cursor sobre o objeto e, em seguida, clique uma vez para selecioná-lo.
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-Aby **wybrać cały obiekt** lub obiekt i wszystkie elementy z nim połączone, kliknij dwukrotnie ten obiekt.
+Para **selecionar um objeto inteiro** ou um objeto e qualquer coisa anexada a ele, clique duas vezes no objeto.
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-Można również przytrzymać naciśnięty klawisz Ctrl lub Shift i dodać lub usunąć elementy z zestawu obecnie wybranych.
+Também é possível manter pressionada a tecla Ctrl ou Shift e adicionar ou remover elementos da seleção atual.
 
-## Filtrowanie wyboru
+## Filtragem de seleção
 
-W przypadku wyboru powierzchni lub za pomocą narzędzia Lasso \(patrz poniżej\) można filtrować wybór na podstawie typu.
+Para a seleção de área ou de laço \(veja abaixo\), é possível filtrar a seleção com base no tipo.
 
-Jest to szczególnie przydatne, gdy na niewielkim obszarze znajduje się wiele typów geometrii, a wybór powierzchni lub za pomocą narzędzia Lasso ma posłużyć do uchwycenia wielu elementów, ale tylko o określonym typie geometrii, z wykluczeniem innych typów.
+Isso é especialmente útil quando você tem uma mistura de tipos de geometria muito próximos e deseja usar a seleção de área ou de laço para projetar uma rede larga, mas recupera somente um determinado tipo de geometria, enquanto exclui outros.
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## Wybór za pomocą obszaru/okna
+## Seleção de área/janela
 
-Aby **wybrać jednocześnie wiele elementów geometrii**, użyj narzędzia wyboru za pomocą okna. Upewnij się, że nic nie wybrano, a następnie kliknij i przeciągnij myszą od lewej strony do prawej lub od prawej do lewej, aby uchwycić wiele elementów.
+Para **selecionar várias porções de geometria simultaneamente**, use a ferramenta de seleção de janela. Certifique-se de que não haja nada selecionado e, em seguida, clique e arraste o mouse da esquerda para a direita ou da direita para a esquerda para capturar várias partes.
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## Wybór za pomocą narzędzia Lasso
+## Seleção de laço
 
-Aby **dokładniej sterować** podczas jednoczesnego wybierania wielu elementów geometrii, użyj narzędzia Lasso. Narzędzie to możesz wybrać z menu kontekstowego po kliknięciu prawym przyciskiem myszy pustego obszaru roboczego. Następnie narysuj obwiednię wokół żądanego obszaru wyboru.
+Para **um controle mais preciso** ao selecionar vários itens de geometria simultaneamente, use a ferramenta de laço. É possível selecioná-la no menu de contexto após clicar com o botão direito do mouse na tela vazia. Em seguida, desenhe um limite em torno da área de seleção desejada.
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)

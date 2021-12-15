@@ -1,19 +1,19 @@
-# FormIt Primer
+# Manual do FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Zawartość
+## Conteúdo
 
-\*\*\*\*[**Część I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*obejmuje samouczek z pojedynczym procesem roboczym, w ramach którego omawiane są podstawowe narzędzia i krok po kroku modelowany jest słynny dom pani Farnsworth, co ułatwia natychmiastowe rozpoczęcie modelowania.
+A \*\*\*\*[**Parte I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*aborda um único tutorial de fluxo de trabalho que abrange as ferramentas básicas ao modelar passo a passo a famosa Residência Farnsworth para ajudá-lo a começar a modelar hoje mesmo.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-\*\*\*\*[**Część II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) zawiera omówienie bardziej zaawansowanych narzędzi z wykorzystaniem wstępnie wymodelowanego fikcyjnego projektu architektonicznego na potrzeby przeglądu zaawansowanych funkcji modelowania, narzędzi analitycznych i narzędzi obliczeniowych, co pozwala rozwinąć umiejętności korzystania z programu FormIt.
+A \*\*\*\*[**Parte II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) aborda algumas ferramentas mais avançadas usando um projeto de arquitetura ficcional pré-modelado para explorar recursos avançados de modelagem, ferramentas analíticas e ferramentas computacionais para ajudá-lo a levar o FormIt para um nível mais avançado.
 
 ![](../.gitbook/assets/screen1.jpg)
 
-## Autorstwo
+## Créditos
 
-Ta wersja 2021 podręcznika FormIt Primer to przeprojektowana i rozszerzona wersja pierwszego podręcznika Primer opracowanego wspólnie z firmą [EvolveLAB](https://www.evolvelab.io).
+Esta edição de 2021 do Manual do FormIt é uma reformulação e expansão do primeiro Manual, desenvolvida em parceria com a [EvolveLAB](https://www.evolvelab.io).
 
 [![](<../.gitbook/assets/evolvelab\_logo\_\_horizontal (1).png>)](https://www.evolvelab.io)

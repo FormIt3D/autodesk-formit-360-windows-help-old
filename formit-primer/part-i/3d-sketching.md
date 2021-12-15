@@ -1,69 +1,69 @@
-# 1.3 — Szkic 3D i przeciąganie powierzchni
+# 1.3 – Esboço 3D e arrastar face
 
-_Jesteśmy gotowi do rozpoczęcia rysowania domu pani Farnsworth. Modelowanie 3D w programie FormIt zasadniczo polega na rysowaniu linii w celu tworzenia powierzchni, a następnie przeciągania tych powierzchni w celu tworzenia kubatury._
+_Estamos prontos para começar a desenhar a Residência Farnsworth. A modelagem 3D no FormIt, em seu núcleo, consiste em linhas de desenho para criar faces e, em seguida, arrastar essas faces para criar volumes._
 
-‌ _Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.3 - 3D Sketch and Drag Face.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
+‌_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.3 – 3D Sketch and Drag Face.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Rysowanie powierzchni za pomocą linii**
+## **Desenhar faces com linhas**
 
-1 — Aby uprościć proces modelowania, możesz użyć **ruchomego paska narzędzi Nawigacja** do przełączania między różnymi trybami widoków. W tym ćwiczeniu zalecamy korzystanie z opcji **Perspektywa \(VP\)** i **Widok 3D \(V3\).**
+1 – Para facilitar o processo de modelagem, é possível usar a **Barra de ferramentas de navegação flutuante** para alternar entre diferentes modos de vista. Para este exercício, recomendamos usar a **Perspectiva \(VP\)** e a **Vista 3D \(V3\).**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 — Nowo utworzona geometria zostanie automatycznie połączona lub „sklejona” z dowolną istniejącą niepogrupowaną geometrią, z którą się styka. Aby tego uniknąć, zazwyczaj trzeba podzielić geometrię na grupy. Aby utworzyć grupę na podstawie rzutu kondygnacji, wybierz prostokąt, klikając go dwukrotnie, a następnie kliknij prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego** i wybrać opcję **Grupuj \(G\).**
+2 – A geometria recém-criada será unida ou “manterá” automaticamente qualquer geometria desagrupada existente associada. Para evitar isso, você normalmente desejará organizar a geometria em grupos. Para criar um grupo com base na planta de piso, selecione o retângulo clicando duas vezes nele e, em seguida, clique com o botão direito do mouse para acessar o **Menu de contexto** e selecione **Grupo \(G\).**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 — Podczas śledzenia rzutu nie chcemy, aby linie były przyciągane do siatki, dlatego klikniemy opcję **Ustawienia** w **menu głównym** i usuniemy zaznaczenie opcji **Przyciągaj do siatki \(SG\).**
+3 – Ao traçar o plano, não é conveniente que as linhas efetuem o snap à grade, então clique em **Configurações** no **Menu principal** e desmarque **Snap à grade \(SG\).**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 — Aby rozpocząć rysowanie, kliknij ikonę **Utwórz szkic** \(Ołówek\) na **pasku narzędzi Standardowy** i wybierz **narzędzie Linia \(L\)**.
+4 – Para iniciar o desenho, clique no ícone **Criar esboço** \(Lápis\) na **Barra de ferramentas padrão** e selecione a **ferramenta Linha \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 — Zacznijmy od utworzenia prostokąta na zaimportowanym obrazie. Aby utworzyć pierwszą linię:
+5 – Vamos começar criando um retângulo na imagem importada. Para criar a primeira linha:
 
-1. W **narzędziu Linia** kliknij w pobliżu **lewego górnego narożnika** górnego tarasu w zaimportowanym szkicu.
-2. Przesuń wskaźnik myszy wzdłuż wyświetlonej czerwonej osi.
-3. Kliknij klawisz **Tab**, aby wprowadzić wymiar: **77'-4 1\8".**
+1. Enquanto estiver na **ferramenta Linha**, clique próximo ao **canto superior esquerdo** do terraço superior no esboço importado.
+2. Mova o mouse ao longo do eixo vermelho que é exibido.
+3. Clique na tecla **Tab** para inserir a cota: **77'-4 1\8".**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Uwaga:** Za każdym razem, gdy podczas szkicowania pojawia się wymiar tymczasowy, możesz nacisnąć klawisz_ _**Tab** lub po prostu rozpocząć wpisywanie liczby_ _, aby otworzyć_ _**okno dialogowe Wymiar**._
+_**Observação:** Sempre que uma cota temporária for exibida durante o esboço, pressione_ _**Tab** ou comece a digitar um número_ _para abrir a_ _**caixa de diálogo Cota**._
 
-6 — Aby utworzyć drugą linię, przesuń wskaźnik myszy w dół wzdłuż zielonej osi i wprowadź wartość **28’-8**” dla krótkiej krawędzi górnego tarasu.
+6 – Para criar a segunda linha, mova o mouse para baixo ao longo do eixo verde e insira **28’-8**" para a aresta curta do terraço superior.
 
-7 — Aby zdefiniować trzecią krawędź prostokąta i zakończyć:
+7 – Para definir a terceira aresta e o acabamento do retângulo:
 
-1. Przesuń wskaźnik myszy wzdłuż czerwonej osi i przytrzymaj klawisz **Shift**. Linia czerwonej osi zostanie pogrubiona, aby pokazać, że jest ona zablokowana względem tej osi.
-2. Przytrzymując naciśnięty **klawisz Shift**, przesuń wskaźnik myszy do pierwszego narysowanego punktu. Kliknij, aby zatwierdzić punkt końcowy.
-3. Trzeci punkt zostanie automatycznie ustawiony równolegle do czerwonej osi zdefiniowanej przez \(A\) i zielonej osi zdefiniowanej przez \(B\).
-4. Na koniec, aby zakończyć zamykanie prostokąta, zwolnij klawisz **Shift** i kliknij ponownie pierwszy narysowany punkt. Aby zakończyć pracę z narzędziem szkicowania, naciśnij dwukrotnie klawisz **Esc**.
+1. Mova o mouse ao longo do eixo vermelho e mantenha pressionada a tecla **Shift**. A linha vermelha do eixo ficará mais grossa para indicar que a linha está bloqueada nesse eixo.
+2. Enquanto a **tecla Shift** está pressionada – mova o mouse para o primeiro ponto desenhado. Clique para confirmar o ponto final.
+3. O terceiro ponto será automaticamente definido, paralelo ao eixo vermelho, definido por \(A\), e ao eixo verde, definido por \(B\).
+4. Por fim, para terminar de delimitar o retângulo, solte a tecla **Shift** e clique de volta no primeiro ponto desenhado. Pressione **Esc** duas vezes para sair da barra de ferramentas de esboço.
 
-_**Uwaga:**_ _Osie czerwona i zielona zapewniają równoległość i prostopadłość względem siatki. Podczas rysowania linii poza osiami globalnymi fioletowa linia osi umożliwia zachowanie kąta 90 stopni względem linii poza osią._
+_**Observação:**_ _Os eixos vermelho e verde mantêm você paralelo e perpendicular à grade. Quando você desenha uma linha fora dos eixos universais, uma linha de eixo roxa permitirá que você permaneça 90 graus em relação à linha fora do eixo._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Przeciąganie powierzchni w celu utworzenia kubatury**
+## **Arrastar a face para criar volume**
 
-1 — Kliknij raz wewnątrz właśnie narysowanego zarysu, aby wybrać powierzchnię. Automatycznie przejdziesz do narzędzia **Przeciągnij powierzchnię**.
+1 – Clique uma vez dentro do contorno que você acabou de desenhar para selecionar a face. Você agora está automaticamente na ferramenta **Arrastar face**.
 
-2 — Kliknij ponownie, aby rozpocząć przeciąganie. Przesuń wskaźnik myszy w górę \(wzdłuż dodatniej osi Z), aby wyciągnąć kubaturę w tym kierunku. Zacznij wpisywać wartość **12'-2"**. Zostanie wyświetlone pole wymiaru z tą wartością. Następnie naciśnij klawisz **Enter**.
+2 – Clique mais uma vez para começar a arrastar. Mova o mouse para cima \(ao longo do eixo Z positivo\) para efetuar a extrusão de um volume nessa direção. Comece digitando **12'-2"**. Quando uma caixa de cota for exibida com esse valor e pressione **Enter**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Uwaga:**_ _Pojedyncze_ _kliknięcie_ _spowoduje wybranie tylko jednej powierzchni, podczas gdy_ _dwukrotne kliknięcie_ _spowoduje wybranie wszystkich \(niezgrupowanych\) sąsiadujących krawędzi i powierzchni._
+_**Observação:**_ _Um_ _clique único_ _selecionará apenas uma face, enquanto um_ _clique duplo_ _selecionará todas as faces e arestas adjacentes \(desagrupadas\)._
 
-## **Szkicowanie 3D za pomocą łuku, splajnu i okręgu**
+## **Esboço 3D com arco, spline e círculo**
 
-_Poniższe ćwiczenie nie jest istotne dla wykończenia domu. Pozwoli jednak wypróbować inne dostępne narzędzia szkicowania 3D. Kliknij_ _**tutaj**_ _, aby dowiedzieć się więcej na temat szkicowania 3D za pomocą osi globalnych._
+_O exercício a seguir não é essencial para a finalização da casa. No entanto, ele permitirá que você experimente algumas das outras ferramentas de esboço 3D disponíveis. Clique_ _**aqui**_ _para saber mais sobre o esboço 3D com eixos universais._
 
-1 — Wybierz narzędzie **Łuk przez trzy punkty łuku \(A\)**. Kliknij, aby zdefiniować początek, a następnie punkt końcowy. Trzecie kliknięcie definiuje promień łuku.
+1 – Selecione a ferramenta **Arco por três pontos de arco \(A\)**. Clique para definir o ponto inicial e, em seguida, o ponto final. O terceiro clique define o raio do arco.
 
-2 — Wybierz narzędzie **Splajn \(S\)**. Kliknij, aby zdefiniować dowolną liczbę punktów w celu narysowania splajnu.
+2 – Selecione a ferramenta **Spline \(S\)**. Clique para definir qualquer número de pontos para desenhar uma spline.
 
-3 — Wybierz narzędzie **Okrąg \(C\)**. Ustaw kursor i kliknij, aby zdefiniować punkt środkowy okręgu. Kliknij i przeciągnij lub wprowadź wymiar, aby zdefiniować promień.
+3 – Selecione a ferramenta **Círculo \(C\)**. Passe o mouse e clique para definir o ponto central do círculo. Clique e arraste ou insira uma cota para definir o raio.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

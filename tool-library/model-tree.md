@@ -1,16 +1,16 @@
-# Drzewo modelu
+# Árvore de modelos
 
-Drzewo modelu umożliwia wyświetlanie hierarchii topologicznej modelu programu FormIt.
+A Árvore de modelos fornece uma forma de visualizar a hierarquia topológica do modelo do FormIt.
 
-Włącz drzewo modelu, przechodząc do menu Okno i zaznaczając pole wyboru obok drzewa modelu.
+Ative a Árvore de modelos acessando o menu Janela e marcando a caixa ao lado da Árvore de modelos.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-W obrębie drzewa modelu każda grupa jest identyfikowana jako „historia”, ponieważ każda grupa ma własną historię poleceń, czyli stos cofania/wykonywania ponownie.
+Dentro da Árvore de modelos, cada Grupo é identificado como um Histórico, já que cada Grupo tem seu próprio histórico de comandos ou pilha Desfazer/Refazer.
 
-W każdej historii wyświetlana jest lista zagnieżdżonych grup, wystąpień lub obiektów geometrycznych, takich jak bryły.
+Em cada histórico, você verá uma lista de grupos aninhados, instâncias ou objetos geométricos como corpos.
 
-Za pomocą drzewa modelu można również wyświetlić dołączone do obiektów programu FormIt atrybuty niegeometryczne \(atrybuty w postaci ciągów\). [ Atrybuty w postaci ciągów można umieszczać w grupach utworzonych przez węzeł SendToFormIt za pomocą dodatku Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Usando a Árvore de modelos, também é possível visualizar atributos não geométricos \(atributos de sequência\) anexados a objetos do FormIt. [É possível inserir atributos de sequência de caracteres em grupos criados pelo nó SendToFormIt usando o Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
 

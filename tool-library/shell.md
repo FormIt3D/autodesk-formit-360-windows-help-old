@@ -1,4 +1,4 @@
-# Skorupa
+# Casca
 
-Na podstawie obiektu bryłowego można utworzyć „skorupę” („powłokę”) o określonej szerokości. Są one przydatne do szybkiego tworzenia ścian z modelu bryłowego:
+Com base em um objeto sólido, é possível criar uma “casca” de uma largura especificada. As cascas são úteis para criar rapidamente paredes com base em um modelo de massa:
 

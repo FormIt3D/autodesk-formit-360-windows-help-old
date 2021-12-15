@@ -1,6 +1,6 @@
-# Sceny
+# Cenas
 
-Punkt obserwacji „sceny” oraz powiązane z nim style wizualne i stany warstw można zapisać, a następnie można za ich pomocą ustawiać punkty kamery w celu sterowania animacjami i opowiadania wizualnej historii.
+É possível salvar um ponto de vista de “cena” e seus estilos visuais e estados de camada relacionados e, em seguida, usá-los para definir pontos de câmera para conduzir percursos virtuais e contar uma história visual.
 
-Dowiedz się więcej na temat korzystania ze scen [tutaj](../formit-primer/part-i/visual-settings.md).
+Saiba mais sobre como usar Cenas [aqui](../formit-primer/part-i/visual-settings.md).
 

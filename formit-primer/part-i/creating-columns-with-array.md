@@ -1,146 +1,146 @@
-# 1.8 — Tworzenie słupów przy użyciu narzędzia Szyk
+# 1.8 – Criar colunas com matriz
 
-_W tym ćwiczeniu naszkicujemy element szczegółowy — słup o kształcie dwuteownika. Następnie za pomocą narzędzia Szyk szybko utworzymy wiele kopii w równych odstępach._
+_Neste exercício, vamos desenhar um elemento detalhado – uma coluna de viga em I. Em seguida, usaremos a ferramenta Matriz para criar rapidamente várias cópias uniformemente espaçadas._
 
-_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.8 — Create Columns with Array.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.8 – Create Columns with Array.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Szkicowanie profilu słupa**
+## **Desenhar o perfil da coluna**
 
-1 — Dla ułatwienia procesu kreślenia:
+1 – Para facilitar o processo de desenho:
 
-1. Przejdź do **Widoku z góry \(VT\)**.
-2. Przełącz tryb widoku na **Prostopadły \(VO\)**.
-3. Wyłącz warstwy **Budynek główny**, **Podłoga** i **Dach**. Dzięki temu nowa geometria nie będzie przyciągana do istniejącej geometrii na tych warstwach.
-4. Powiększ lewy górny narożnik **zaimportowanego obrazu rzutu podłogi**, aby widzieć szczegóły słupa.
-5. Wyłącz **Przyciąganie do siatki \(SG\)** \(jeśli jest włączone\). To pomoże w rysowaniu linii szczegółów.
+1. Acesse **Vista superior \(VT\)**.
+2. Alterne o modo de visualização para **Ortográfico \(VO\)**.
+3. Desative as camadas **Prédio principal** **Piso** e **Telhado**. Essa etapa impedirá que a nova geometria efetue o snap à geometria existente nessas camadas.
+4. Aplique zoom no canto superior esquerdo da imagem da **planta de piso importada** para que você possa visualizar a coluna em detalhes.
+5. Desative o recurso **Snap à grade \(SG\)** \(se estiver ativado\). Isso vai ajudar a desenhar as linhas de detalhe.
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_Aby narysować słup, najpierw narysujemy połowę, a następnie wykonamy odbicie lustrzane, aby szybko utworzyć drugą, symetryczną połowę._
+_Para desenhar a coluna, primeiro vamos desenhar uma metade e, em seguida, espelhá-la para criar rapidamente a outra metade simétrica._
 
-2 — Aby utworzyć pierwszą połowę dwuteownika, użyj **narzędzia Linia \(L\)** i wykonaj następujący szkic o podanych wymiarach. Na tym etapie nie musisz się martwić dokładnym położeniem słupa na rzucie.
+2 – Para criar a primeira metade da viga em I, use a **ferramenta Linha \(L\)** para fazer o seguinte esboço usando as cotas especificadas. Não se preocupe ainda com a posição exata da coluna na imagem da planta.
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 — Utwórz odbicie lustrzane narysowanego kształtu:
+3 – Para espelhar a forma que você acabou de desenhar:
 
-1. Kliknij dwukrotnie, aby wybrać wszystkie powierzchnie i krawędzie narysowanej geometrii.
-2. Kliknij prawym przyciskiem myszy i wybierz **narzędzie Odbicie lustrzane \(MI\)**.
-3. Kliknij środkowy pomarańczowy uchwyt **narzędzia odbicia lustrzanego** i umieść go w lewym dolnym rogu geometrii.
-4. Użyj strzałki w dół na przycisku strzałki dwustronnej w narzędziu, aby obrócić oś odbicia lustrzanego o –90 stopni \(zgodnie z ruchem wskazówek zegara\).
-5. Kliknij jeden raz w pustym obszarze lub naciśnij klawisz **Esc**, aby zakończyć proces tworzenia odbicia lustrzanego. Rezultat powinien wyglądać jak profil dwuteownika z linią biegnącą pionowo przez środek. Naciśnij ponownie klawisz **Esc**, aby anulować wybór.
+1. Clique duas vezes para selecionar todas as faces e arestas da geometria desenhada.
+2. Clique com o botão direito do mouse e selecione a **ferramenta Espelhar \(MI\)**.
+3. Clique na alça laranja central do **Widget de espelho** e coloque-a no canto inferior esquerdo da geometria.
+4. Use a seta inferior do botão de seta dupla no Widget para rotacionar o eixo de espelhamento em 90 graus \(sentido horário\).
+5. Clique uma vez no espaço ou pressione **Esc** para concluir o processo de espelhamento. O resultado deve ser semelhante a um perfil de viga em I com uma linha no meio. Pressione novamente **ESC** para limpar a seleção.
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Uwaga**: podczas dopasowywania narzędzia odbicia lustrzanego położenie i orientacja tworzonej geometrii są widoczne na podglądzie jako półprzezroczysty niebieski kształt. Można skorzystać z tego podglądu jako odniesienia, aby utworzyć odbicie lustrzane geometrii w zamierzonym położeniu._
+_**Observação**: A orientação e a localização da geometria final são visualizadas com a forma azul fantasma enquanto você estiver ajustando o widget de espelho. É possível usar essa visualização como uma referência para espelhar a geometria para a localização desejada._
 
-4 — Aby połączyć połowy w jedną geometrię, usuń dzielącą je linię, wybierając ją kliknięciem, a następnie naciskając klawisz **Delete**. Teraz obie powierzchnie zostały połączone w jedną.
+4 – Para unir ambos os lados em uma única geometria, remova a linha divisória clicando nela para selecioná-la e, em seguida, pressione **Excluir**. Agora, as duas superfícies estão unidas em uma única superfície.
 
-5 — Przesuń geometrię w jej ostateczne położenie:
+5 – Para mover a geometria para sua posição final:
 
-1. Jeśli są wyłączone, włącz warstwy **Obraz rzutu** i **Dach**, aby używać ich jako odniesienia.
-2. Kliknij dwukrotnie profil słupa, aby wybrać jego powierzchnię i wszystkie linie. Rozpocznij przesuwanie wybranych elementów wzdłuż zielonej osi \(**osi Y**\). Przytrzymaj klawisz **Shift** i przesuwaj profil do momentu wyrównania z dachem, a następnie kliknij, aby go umieścić.
-3. Podobnie jak w poprzednim kroku przesuń ponownie geometrię, tym razem blokując ją na czerwonej osi \(**osi X**\).
-4. Kliknij, aby umieścić element na belce dwuteowej narysowanej na **obrazie rzutu**. Wystarczy umieścić go blisko, jak na poniższej ilustracji — położenie w poziomie nie musi być idealne.
+1. Se estiverem desativadas, ative as camadas **Imagem da planta** e **Telhado** para usá-las como guia.
+2. Clique duas vezes no perfil da coluna para selecionar sua face e todas as suas linhas. Comece a mover a seleção ao longo do eixo verde \(**Eixo Y**\). Mantenha pressionada a tecla **Shift** e mova o perfil até que ele se alinhe com o telhado e, em seguida, clique para posicioná-lo.
+3. De forma semelhante à etapa anterior, mova a geometria novamente, desta vez bloqueando-a no eixo vermelho \(**Eixo X**\).
+4. Clique para posicioná-la na parte superior da viga em I desenhada na **Imagem da planta**. É suficiente ficar próximo da posição desejada, como na imagem a seguir, a posição horizontal não precisa ser perfeita.
 
-_**Uwaga:**_ _klawisz_ _**Shift**_ _umożliwia zablokowanie geometrii w celu przesuwania jej tylko wzdłuż jednej osi, w tym przypadku — zielonej \(**osi Y**\). To zapobiega przypadkowemu przesunięciu profilu słupa w górę i wyrównaniu go do górnej części płaszczyzny dachu._
+_**Observação:**_ _A tecla_ _**Shift**_ _bloqueará a geometria para que o movimento aconteça ao longo de apenas um eixo. Neste caso, o verde \(**Eixo Y**\). Isso vai garantir que o perfil da coluna não se mova acidentalmente para cima e se alinhe com a parte superior do plano do telhado._
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Wyciąganie słupa i tworzenie szyku**
+## **Extrusão e matriz da coluna**
 
-1 — Dla ułatwienia kolejnego procesu kreślenia przełącz widok z powrotem na tryb **Perspektywa \(VP\)** i **obróć \(O\)** kamerę w taki sposób, aby widzieć profil belki dwuteowej z północnego zachodu. Użyj strzałki wskazującej północ w lewym dolnym rogu, aby łatwiej ustawić widok.
+1 – Para facilitar o próximo processo de desenho, alterne o modo de vista de volta para **Perspectiva \(VP\)** e use a **Órbita \(O\)** para posicionar a câmera de forma a visualizar o perfil da viga em I da perspectiva noroeste. Use a seta de norte no canto inferior esquerdo para ajudar a posicionar a vista.
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Uwaga:**_ _aby dowiedzieć się, jak poruszać się po szkicu, zapoznaj się z rozdziałem_ _**Nawigacja po scenie**_ _._
+_**Observação:**_ _Para saber como navegar pelo esboço, recomendamos consultar o capítulo_ _**Navegar na cena**_ _._
 
-2. Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
+2 – Selecione a face do perfil da coluna e faça a extrusão da face para cima em **17’-8"**.
 
-_**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**   w dół, a nie w górę._
+_**Observação:**_ _Se, ao mover o perfil da coluna, ele se alinhar com o telhado, faça a extrusão da face para baixo em_ _**17’-8"**  , em vez de para cima._
 
-3 — Pomniejsz widok i włącz warstwę **Dach** \(jeśli jest wyłączona\). Górna powierzchnia słupa powinna być wyrównana do górnej powierzchni dachu.
+3 – Diminua o zoom e ative a camada **Telhado** \(se estiver desativada\). A parte superior da coluna deve se alinhar com a parte superior do telhado.
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 — Uporządkuj model, ponownie wybierając geometrię słupa i wykonując następujące czynności:
+4 – Para manter o modelo organizado e arrumado, selecione a geometria da coluna novamente e faça o seguinte:
 
-1. Dodaj słup do **grupy \(G\)** i nazwij ją **Słup — wysoki**.
-2. Utwórz nową **Warstwę** o nazwie **Słup** i dodaj do niej tę grupę.
-3. Zaimportuj materiał **Metal — matowy — kolorowy** i pomaluj nim grupę.
+1. **Agrupe \(G\)** e nomeie-a como **Altura da coluna**.
+2. Crie uma nova **Camada** chamada **Coluna** e adicione o grupo à camada.
+3. Importe o material **Metal – Escovado – Colorido** e pinte o grupo com ele.
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Uwaga:**_ _więcej informacji na temat_ _**grup**,_ _**warstw** i_ _**materiałów** zawierają poprzednie rozdziały._
+_**Observação:**_ _Consulte os capítulos anteriores para obter mais informações sobre_ _**Grupos**,_ _**Camadas**e_ _**Materiais**._
 
-4 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie pędzla.
+4 – Clique em **Esc** para limpar a ferramenta de pincel.
 
-## **Tworzenie szyku słupów**
+## **Matriz de colunas**
 
-1 — Przejdź do **widoku z góry \(VT\)** i ponownie przełącz tryb kamery na **Prostopadły \(VO\)**.
+1 – Vá para a **Vista superior \(VT\)** e alterne novamente o modo de câmera para **Ortogonal \(VO\)**.
 
-2 — Wyłącz warstwę **Dach**.
+2 – Desative a camada **Telhado**.
 
-3 — Rozpocznij tworzenie szyku:
+3 – Para iniciar o processo de matriz:
 
-1. Kliknij grupę słupa jeden raz, aby ją wybrać. Kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**, i wybierz narzędzie **Szyk \(AR\)**.
-2. W oknie dialogowym **Właściwości szyku** użyj następujących ustawień:
-   * **Długość pomiędzy kopiami**
-   * **Liniowa** \(ustawienie domyślne\)
-   * **Pogrupuj każdą bryłę, a następnie utwórz szyk** \(ustawienie domyślne\)
-   * **Liczba kopii: 3**
-   * Kliknij przycisk **OK**, aby zamknąć okno dialogowe.
+1. Clique uma vez para selecionar o grupo de colunas. Clique com o botão direito do mouse para abrir o **Menu de contexto** e selecione **Matriz \(AR\)**.
+2. Na caixa de diálogo **Propriedades da matriz**, use as seguintes configurações:
+   * **Comprimento entre cópias**
+   * **Linear** \(padrão\)
+   * **Agrupar cada sólido e, em seguida, a matriz** \(padrão\)
+   * **Número de cópias: 3**
+   * Clique em **OK** para fechar a caixa de diálogo.
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 — Umieść nowe elementy:
+4 – Para posicionar os novos elementos:
 
-1. Kliknij słup jeden raz, aby rozpocząć tworzenie **szyku**. Przesuń kursor wzdłuż czerwonej osi \(**osi X**\).
-2. Ustaw wymiar na **22 stopy**. Masz teraz **cztery** słupy w odległości **22 stóp**.
-3. Naciśnij klawisz **Esc**, aby anulować wybór.
+1. Clique uma vez na coluna para iniciar a **Matriz**. Mova o cursor ao longo do eixo vermelho \(**Eixo X**\).
+2. Defina a cota como **22'**. Agora, existem **quatro** colunas a uma distância de **22'**.
+3. Pressione **Esc** para limpar a seleção.
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 — Aby wybrać wszystkie grupy **Słup — wysoki** jednocześnie, umieść wskaźnik myszy na jednej z nich i naciśnij klawisz **Tab** jeden raz. Zobaczysz, że wszystkie 4 ramki ograniczające słupów zostały wyróżnione. Kliknij jeden raz słup, na którym znajduje się kursor myszy, aby wybrać wszystkie z nich. To szybki sposób na wybranie wszystkich wystąpień tej samej grupy jednocześnie.
+5 – Para selecionar todos os grupos da **Coluna Altura** de uma vez, passe o cursor do mouse sobre um deles e pressione a tecla **Tab** uma única vez. Observe que todas as caixas delimitadoras das quatro colunas foram realçadas. Clique uma vez na coluna sobre a qual está o cursor do mouse e todas serão selecionadas. Essa é uma forma rápida de selecionar todas as instâncias do mesmo grupo de uma só vez.
 
-6 — Ponownie użyj narzędzia **Szyk \(AR\)**, aby utworzyć słupy po drugiej stronie budynku. Tym razem utwórz 1 kopię wzdłuż zielonej osi biegnącej w poprzek budynku. Ustaw wymiar na **29 stóp i 4 i 5/8 cala.**
+6 – Execute outra **Matriz \(AR\)** para criar as colunas no outro lado do edifício. Desta vez, faça uma cópia ao longo do eixo verde em todo o edifício. Defina a cota como **29'- 4 5/8".**
 
-_**Uwaga:**_ _29 stóp i 4 i 5/8 cala = 8 i 5/8 cala \(głębokość słupa\) + 28 stóp i 8 cali \(szerokość budynku głównego\)._
+_**Observação:**_ _29’ 4 5/8" = 8 5/8" \(profundidade da coluna\) + 28’-8" \(largura do edifício principal\)._
 
-7 — Aby wyświetlić cały budynek, przejdź do **widoku 3D \(V3\)** i ustaw tryb **Perspektywa \(VP\)**. Jeśli są wyłączone, włącz warstwy **Podłoga budynku głównego**, **Dach**, **Taras dolny** i **Słup**.
+7 – Para visualizar todo o edifício, vá para a opção **Vista 3D \(V3\)** e defina-a como **Perspectiva \(VP\)**. Se estiverem desativadas, ative as camadas **Piso do edifício principal**, **Telhado**, **Terraço inferior** e **Coluna**.
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Tworzenie słupów tarasu**
+## **Criar as colunas do terraço**
 
-_Teraz powielimy słupy budynku głównego, aby utworzyć podobne, ale krótsze słupy tarasu._
+_Agora, vamos duplicar as colunas do edifício principal para criar versões semelhantes, mas menores, para o terraço._
 
-1 — Dla ułatwienia kreślenia zalecamy powrót do ustawień **Ortogonalny \(OV\)** i **Widok z góry \(VT\)**.
+1 – Para facilitar o desenho, recomendamos voltar para uma configuração **Ortogonal \(OV\)** e com **Vista superior \(VT\)**.
 
-2 — Utwórz nowe słupy:
+2 – Para criar as novas colunas:
 
-1. Przytrzymaj wciśnięty klawisz **Ctrl** lub **Shift** i kliknij 3 słupy znajdujące się najbliżej **podłogi dolnego tarasu**, aby je wybrać.
-2. Kliknij jeden raz dowolny ze słupów, aby rozpocząć przesuwanie wszystkich 3 wybranych słupów jednocześnie. Naciśnij jeden raz klawisz **Ctrl**, aby utworzyć **szybką kopię**. Zostanie wyświetlony półprzezroczysty podgląd kopii.
-3. Przesuń kopie w dół zielonej osi \(**osi Y**\) o **23 stopy i 4 i 3/8 cala**. Naciśnij klawisz **Esc**.
-4. Nie anulując wyboru, przesuń skopiowane słupy wzdłuż czerwonej osi \(**osi X**\) o **22 stopy**, aby umieścić je w docelowym położeniu.
-5. Nadal nie anulując wyboru 3 nowych słupów, kliknij prawym przyciskiem myszy jeden ze skopiowanych słupów i wybierz opcję **Ustaw jako unikatowe \(MU\)**. Słupy są teraz skojarzone ze sobą, ale unikatowe względem oryginałów.
+1. Mantenha pressionada a tecla **Ctrl** ou **Shift**, clique nas três colunas mais próximas do **Piso do terraço inferior** para selecioná-las.
+2. Clique uma vez em qualquer uma das colunas para começar a mover todas as três colunas selecionadas de uma só vez. Pressione a tecla **Ctrl** uma vez para criar uma **cópia rápida**. Uma visualização fantasma da cópia será exibida.
+3. Mova as cópias para baixo ao longo do eixo verde \(**Eixo Y**\) por **23’-4 3/8**". Pressione **Esc**.
+4. Sem desmarcar, mova as colunas copiadas ao longo do eixo vermelho \(**Eixo X**\) por **22’** para colocá-las em sua posição final.
+5. Novamente, com as três novas colunas ainda selecionadas, clique com o botão direito do mouse em uma das colunas copiadas e selecione **Tornar único \(MU\)**. Agora, essas colunas estão associadas entre si, mas são exclusivas dos originais.
 
-_**Uwaga:**_ _przytrzymanie naciśniętego klawisza_ _**Shift**_ _lub_ _**Ctrl**_ _pozwala wybrać wiele elementów jednocześnie lub usunąć elementy z bieżącego wyboru._
+_**Observação:**_ _Ao manter pressionada a tecla_ _**Shift**_ _ou a tecla_ _**Ctrl**_ _, é possível selecionar vários elementos de uma só vez ou remover elementos da seleção atual._
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 — Zmodyfikuj nową grupę słupów:
+3 – Modificar o novo grupo de colunas:
 
-1. Kliknij dwukrotnie, aby edytować jedną z nowych grup i zmień jej nazwę na **Słup — krótki.**
-2. Dopasuj wysokość nowej kolumny, aby wyrównać ją względem górnej krawędzi **Podłogi** **dolnego tarasu** \(3 stopy i 2 cale\). W tym celu wybierz powierzchnię słupa i przeciągnij ją w dół wzdłuż niebieskiej osi \(**osi Z**\), przytrzymując naciśnięty klawisz **Shift**. Umieść kursor w dowolnym miejscu na górnej powierzchni **Podłogi dolnego tarasu**, a wysokość słupa zostanie automatycznie wyrównana do dolnego tarasu. Po ustawieniu wysokości kliknij, aby zakończyć.
+1. Clique duas vezes para editar um dos novos grupos e renomeie-o como **Coluna curta.**
+2. Ajuste a altura da nova coluna para alinhar com a parte superior do **Piso do** **terraço inferior** \(3’-2"\). Para fazer isso, selecione e arraste a face da coluna para baixo ao longo do eixo azul \(**Eixo Z**\) e mantenha pressionada a tecla **Shift**. Passe o cursor sobre qualquer lugar na face superior do **Piso do terraço inferior** e a altura da coluna será automaticamente alinhada com o Terraço inferior. Uma vez definida a altura, clique para concluir.
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz \(ME\)**_ _. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
+_**Observação:**_ _É possível verificar a altura das colunas curtas usando a ferramenta_ _**Medir \(ME\)**_ _. Outra opção é selecionar uma das arestas verticais da coluna e ver seu comprimento na_ _**paleta Propriedades**._
 
-4. Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
+4 – Com as técnicas que você acabou de aprender, copie a coluna curta mais afastada para o lado oposto do **Piso do terraço inferior** para criar a última coluna restante.
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

@@ -1,16 +1,16 @@
-# Płaszczyzny robocze
+# Planos de trabalho
 
-W przypadku zmiany osi globalnych w szkicu głównym lub osi lokalnych grupy z osiami X i Y zostaje skojarzona płaszczyzna robocza. **Płaszczyzna robocza** jest wirtualną powierzchnią 2-wymiarową używaną jako płaszczyzna domyślna szkicowania. Ta płaszczyzna robocza rozciąga się w nieskończoność i zapewnia powierzchnię do szkicowania bez przyciągania do elementów znajdujących się za nią.
+Quando você altera os eixos universais no esboço principal ou os eixos locais de um grupo, um plano de trabalho é associado aos eixos X e Y. Um **plano de trabalho** é uma superfície bidimensional virtual usada como o plano padrão para o esboço. Esse plano de trabalho será esticado até o infinito e fornecerá uma superfície para o esboço sem efetuar o snap aos elementos atrás dele.
 
-Aby dowiedzieć się, jak edytować płaszczyznę terenu, zobacz temat [ Style wizualne.](../formit-primer/part-i/visual-settings.md)
+Para saber como editar o plano do chão, consulte [Estilos visuais.](../formit-primer/part-i/visual-settings.md)
 
-## Zmienianie płaszczyzn roboczych
+## Alterar os planos de trabalho
 
-Obróć [osie globalne](world-axes.md) do płaszczyzny innego obiektu w szkicu. Spowoduje to wyrównanie aktywnej płaszczyzny roboczej odpowiednio do tej powierzchni. Teraz można szkicować, umieszczać elementy i modyfikować elementy względem tej nowej płaszczyzny XY, a nie domyślnej płaszczyzny terenu. Można obracać widok wokół siatki i płaszczyzn roboczych — za nimi lub pod nimi — aby przyciągać do elementów znajdujących się za nimi i korzystać z wnioskowania względem tych elementów.
+Gire os [Eixos universais](world-axes.md) para o plano de outro objeto no esboço. Isso alinhará o plano de trabalho ativo para corresponder a essa face. Agora é possível desenhar, inserir elementos e modificar elementos relativos ao novo plano XY, em vez do plano de chão padrão. É possível orbitar atrás ou abaixo da grade e dos planos de trabalho para efetuar o snap e inferência para elementos atrás dela.
 
-Widoczność linii siatki można włączać i wyłączać, aby korzystać ze szkicowania opartego na płaszczyźnie roboczej. Ustawieniem tym można sterować w obszarze Styl wizualny &gt; Środowisko &gt; **Wyświetl siatkę \(DG\).**
+É possível ativar e desativar a visibilidade da linha de eixo para se beneficiar do esboço com base no plano de trabalho. É possível controlar essa configuração em Estilo visual &gt; Ambiente &gt; **Exibir grade \(DG\).**
 
-Można również określić, czy podczas rysowania ma być włączone przyciąganie do siatki. Włącz lub wyłącz to ustawienie w obszarze Ustawienia &gt; **Przyciągaj do siatki \(SG\).**
+Também é possível controlar se você efetua o snap à grade ao desenhar. Ative e desative essa configuração em Configurações &gt; **Snap à grade \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
 

@@ -1,33 +1,33 @@
-# Modyfikowanie powierzchni, krawędzi i punktów
+# Modificar faces, arestas e pontos
 
-Wypychanie i ciągnięcie umieszczonych obiektów może dawać bardzo interesujące wyniki. Kliknięcie jednokrotne umożliwia wybranie pojedynczego wierzchołka, krawędzi, powierzchni lub siatki.
+As coisas ficam realmente interessantes quando você começa a empurrar e puxar os objetos que você colocou. Um único clique permitirá selecionar um único vértice, aresta, face ou malha.
 
-## Modyfikowanie powierzchni
+## Modificar faces
 
-1. Kliknij jednokrotnie powierzchnię.
-2. Program FormIt automatycznie umieści Cię w narzędziu Przeciągnij powierzchnię lub Wyciągnij.
-3. Kliknij w dowolnym miejscu, aby określić punkt początkowy operacji.
-4. Po kliknięciu możesz przyciągać do innych obiektów, aby wyrównać tę powierzchnię.
-5. Podobnie jak w przypadku przesunięcia, możesz kliknąć **wymiar tymczasowy** lub po prostu rozpocząć wpisywanie wartości, aby zdefiniować wielkość przesunięcia.
+1. Clique uma vez em uma face.
+2. O FormIt abre automaticamente a ferramenta Arrastar face ou Extrusão.
+3. Clique em algum lugar para identificar um ponto inicial para a operação.
+4. Após clicar, é possível efetuar o snap para outros objetos para alinhar essa face.
+5. Como com o movimento, você pode clicar na **dimensão temporária** ou simplesmente começar a digitar um valor para definir a quantidade de movimento.
 
 ![](../.gitbook/assets/modify.png)
 
-Można również usunąć powierzchnię, używając klawisza **Delete** lub klikając prawym przyciskiem myszy i wywołując polecenie Usuń z menu kontekstowego.
+Também é possível excluir uma face usando a tecla **Delete** ou clicando com o botão direito do mouse e selecionando Excluir no menu de contexto.
 
-Powierzchnię można również usunąć, **klikając prawym przyciskiem myszy i wybierając przycisk X**.
+Também é possível excluir uma face usando **Clique com o botão direito do mouse > Botão X**.
 
-## Modyfikowanie krawędzi
+## Modificar arestas
 
-1. Kliknij jednokrotnie krawędź.
-2. Program FormIt automatycznie umieści Cię w narzędziu Przesuń.
-3. Umieść wskaźnik myszy na punkcie w przestrzeni, od którego chcesz rozpocząć operację przesuwania.
-4. Kliknij, a następnie przeciągnij krawędź, aby zmienić kształt.
+1. Clique uma vez em uma aresta.
+2. O FormIt abre automaticamente a ferramenta Mover.
+3. Posicione o mouse sobre um ponto no espaço do qual você deseja iniciar a operação Mover.
+4. Clique para arrastar a aresta e modificar a forma.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modyfikowanie punktów
+## Modificar pontos
 
-1. Kliknij jednokrotnie narożnik jednego z sześcianów.
-2. Podobnie jak w przypadku krawędzi, przeciągnij punkt wzdłuż jednej z osi, aby ponownie zdefiniować kształt. [Następne: Skalowanie niejednorodne](non-uniform-scale.md)
+1. Clique uma vez em um dos cantos de um dos cubos.
+2. De forma similar a uma aresta, arraste o ponto ao longo de um dos eixos para redefinir a forma. [Próxima escala não uniforme](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

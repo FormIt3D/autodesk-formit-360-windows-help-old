@@ -1,12 +1,12 @@
 # Revit
 
-Program FormIt zaprojektowano tak, aby dobrze współdziałał z programem Revit. Aby dowiedzieć się więcej na temat podstaw, zapoznaj się z [**tą sekcją w samouczku podręcznika FormIt Primer**]().
+O FormIt foi projetado para funcionar bem com o Revit. Para saber mais sobre os conceitos básicos, consulte [**esta seção no tutorial do Manual do FormIt**]().
 
-## Praca z danymi z programu Revit
+## Trabalhar com dados do Revit
 
-Geometrię z programu Revit można wysłać do programu FormIt. Jest to przydatne podczas tworzenia modeli do szybkich badań, a następnie wysyłania geometrii z powrotem do programu Revit. Oto prezentacja wideo:
+É possível enviar a geometria do Revit para o FormIt. Isso é útil para fazer modelos de estudo rápidos e, em seguida, enviar a geometria de volta para o Revit. Veja a seguir uma demonstração em vídeo:
 
-## Tworzenie zawartości programu Revit
+## Criar conteúdo do Revit
 
-Za pomocą programu FormIt można tworzyć zawartość do użytku w rodzinach programu Revit. Oto prezentacja wideo:
+É possível usar o FormIt para criar conteúdo para uso em famílias do Revit. Veja a seguir uma demonstração em vídeo:
 

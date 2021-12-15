@@ -1,8 +1,8 @@
-# Wyrównywanie kamery z powierzchnią
+# Alinhar câmera com a face
 
-Szybko wyrównaj kamerę, aby patrzeć bezpośrednio na dowolną powierzchnię.
+Alinhe rapidamente a câmera para olhar diretamente para qualquer face.
 
-Wybierz pojedynczą powierzchnię, a następnie kliknij prawym przyciskiem myszy, aby uzyskać dostęp do menu kontekstowego. Znajdź opcję Wyrównaj kamerę z powierzchnią u góry menu lub użyj skrótu AF:
+Selecione uma única face e, em seguida, clique com o botão direito do mouse para acessar o menu de contexto. Procure Alinhar câmera com a face na parte superior do menu ou use o atalho AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
 

@@ -1,40 +1,40 @@
-# 1.13 — Płaszczyzny przekroju
+# 1.13 – Planos de corte
 
-_Z tego rozdziału dowiesz się, jak używać_ _**płaszczyzn przekroju**_ _do cięcia modelu, odsłaniania pomieszczeń wewnętrznych i elementów konstrukcyjnych. Program FormIt obsługuje jednocześnie wiele_ _**płaszczyzn przekroju**_ _w celu uzyskania efektu przypominającego zakres przekroju._
+_Neste capítulo, você aprenderá como usar_ _**Planos de corte**_ _para cortar o modelo, revelando espaços internos e elementos estruturais. O FormIt suporta vários_ _**planos de corte**_ _de uma vez para um efeito semelhante a Caixa de corte._
 
-_Jeśli poprzedni rozdział nie został ukończony, pobierz i otwórz plik_ _**1. 13 — Section Planes.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
+_Se você não concluiu o capítulo anterior, faça o download e abra o arquivo_ _**1. 13 – Section Planes.axm**_ _dos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-1 — Tworzenie nowej płaszczyzny przekroju:
+1 – Para criar um novo plano de corte:
 
-1. Kliknij przycisk **Płaszczyzna przekroju \(SP\)** na **standardowym pasku narzędzi**.
-2. Ustaw kursor na modelu, aby zidentyfikować płaszczyznę, która ma służyć jako odniesienie. Zwróć uwagę na strzałki w narożnikach **płaszczyzny przekroju**, które wskazują kierunek cięcia przekroju. Naciśnij klawisz **Tab**, aby w razie potrzeby przełączać się między różnymi płaszczyznami.
-3. Kliknij, aby umieścić **płaszczyznę przekroju** w dowolnym miejscu na południowej ścianie szklanej budynku głównego. Płaszczyzna zostanie przeskalowana do rozmiaru modelu i pozostanie wybrana.
+1. Clique no botão **Plano de corte \(SP\)** na **barra de ferramentas padrão**.
+2. Passe o mouse sobre o modelo para identificar um plano a ser usado como referência. Observe as setas nos cantos do **Plano de corte** indicando a direção do corte de seção. Pressione a tecla **Tab** para alternar entre diferentes planos, se necessário.
+3. Clique para colocar o **Plano de corte** em qualquer lugar na parede de vidro sul do edifício principal. O plano será dimensionado para o tamanho do modelo e permanecerá selecionado.
 
-![Podgląd płaszczyzny przekroju po umieszczeniu wskaźnika myszy na ścianie szklanej.](../../.gitbook/assets/0%20%286%29.png)
+![Visualização do plano de corte ao passar o cursor sobre a parede de vidro.](../../.gitbook/assets/0%20%286%29.png)
 
-![Przeskalowana płaszczyzna przekroju po umieszczeniu.](../../.gitbook/assets/1%20%2819%29.png)
+![ Plano de corte dimensionado após ser inserido.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 — Przy nadal wybranej płaszczyźnie przekroju kliknij, aby rozpocząć przesuwanie jej do tyłu, aż przetnie część budynku głównego, jak na poniższej ilustracji. Działa to podobnie do przesuwania dowolnego elementu modelu, ale płaszczyzna przekroju może się przesuwać tylko wzdłuż osi prostopadłej do kierunku, w którym jest skierowany jej front. Po uzyskaniu zadowalającego położenia naciśnij klawisz **Esc**, aby anulować wybór.
+2 – Com o plano de corte ainda selecionado, clique para começar a movê-lo para trás até que esteja cortando através de parte do edifício principal, similar à imagem abaixo. Isso funciona de forma similar a mover qualquer elemento do modelo, exceto que o plano de corte somente pode se mover ao longo de um eixo perpendicular à direção que está voltada. Quando estiver satisfeito com a posição, pressione **Esc** para limpar a seleção.
 
 ![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Uwaga:**_ _Do modelu można dodać jednocześnie maksymalnie 6 przekrojów._
+_**Observação:**_ _É possível adicionar até seis cortes de seção ao modelo de uma só vez._
 
-3 — Otwórz **paletę** **Warstwy**. Zauważ, że wygenerowano dwie \(2\) nowe warstwy — **Wskaźniki przekroju** i **Cięcie przekroju 1**.
+3 – Abra a **paleta** **Camadas**. Observe que duas \(2\) novas camadas foram geradas – **Indicadores de seção** e **Corte de seção 1**.
 
-1. Włącz i wyłącz warstwę **Cięcie przekroju 1**. Steruje to tym, czy przekrój przecina model.
-2. Teraz wyłącz warstwę **Wskaźniki przekroju**. Powoduje to ukrycie płaszczyzny przekroju i jej wskaźników w postaci strzałek, ale nie wpływa na to, czy samo cięcie przekroju jest aktywne, czy nie.
+1. Ative e desative a camada **Corte da seção 1**. Isso controla se a seção corta o modelo ou não.
+2. Agora, desative a camada **Indicador de seção**. Isso oculta o plano de corte e seus indicadores de seta, mas não afeta se o corte de seção real está ativo ou não.
 
 ![](../../.gitbook/assets/3%20%286%29.png)
 
-4 — Na **karcie Powierzchnia** na **palecie** **Style wizualne**:
+4 – Na **guia Superfície** da **paleta** **Estilos visuais**:
 
-1. Zaznacz pole wyboru obok opcji **Kolor wypełnienia**, aby ją włączyć. Efekt ten spowoduje pokolorowanie wszystkich brył przeciętych przez płaszczyznę przekroju określonym kolorem. Domyślnym kolorem jest kolor czarny, ale wystarczy kliknąć podgląd koloru, aby go zmienić.
-2. Wyłącz opcję **Cienie \(DS\)**.
+1. Marque a caixa ao lado de **Cor de preenchimento** para ativá-la. Esse efeito colorirá quaisquer sólidos cortados pelo plano de corte com uma cor especificada. Preto é a cor padrão, mas você pode simplesmente clicar na visualização de cor para alterá-la.
+2. Desative **Sombras \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 — Aby zakończyć tworzenie przekroju, przejdź do **palety Sceny** i utwórz nową scenę o nazwie **Section**, zapisując bieżącą pozycję **kamery**, widoczność **warstw** i ustawienia **stylów wizualnych**.
+5 – Para finalizar o corte, vá para a **paleta Cenas** e crie uma nova cena chamada **Corte**, salvando a posição atual da **Câmera**, a visibilidade das **Camadas** e as configurações dos **Estilos visuais**.
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 

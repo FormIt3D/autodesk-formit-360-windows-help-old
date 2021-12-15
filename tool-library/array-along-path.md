@@ -1,103 +1,103 @@
 # Array Along Path
 
-## Obsługiwane przez dodatek Dynamo
+## Fornecido pelo Dynamo
 
-W programie FormIt 2021 i nowszych wersjach można ustawiać obiekty w szyku wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Szyk wzdłuż ścieżki jest obsługiwany przez dodatek Dynamo, co oznacza, że można go łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
+No FormIt 2021 e versões mais recentes, é possível dispor objetos ao longo de um caminho em uma matriz e personalizar rapidamente os resultados no local. A amostra Array Along Path é fornecida pelo Dynamo, o que significa que o corrimão resultante é facilmente configurável para obter os resultados desejados, e a nova execução da lógica atualizará a geometria no local.
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## Uruchamianie przykładu Array Along Path
+## Iniciar Array Along Path
 
-* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
-* Kliknij przykład Array Along Path.
-* Po lewej stronie ekranu zostanie wyświetlony monit „Select object\(s\) to array”.
-   * W tym kroku możesz wybrać dowolne połączenie obiektów programu FormIt.
-   * Po wybraniu elementu możesz kliknąć strzałkę „next” po lewej stronie ekranu lub po prostu nacisnąć klawisz Enter.
-* Teraz zostanie wyświetlony monit „Select path for array”.
-   * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię przylegających krawędzi.
-   * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter.
-* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu szyk wygenerowany przez dodatek Dynamo będzie dostępny w grupie FormIt i będzie można go modyfikować \(patrz poniżej\).
+* Vá para o painel do Dynamo no FormIt para Windows e certifique-se de que você esteja no diretório Dynamo Samples.
+* Clique na amostra Array Along Path.
+* No lado esquerdo da tela, você verá um prompt para “Select object\(s\) to array”.
+   * É possível selecionar qualquer combinação de objetos do FormIt para esta etapa.
+   * Depois de selecionar algo, é possível clicar na seta “Avançar” no lado esquerdo da tela ou pressionar Enter.
+* Agora você verá um prompt para “Select path for array”.
+   * Aqui, você deve selecionar somente uma série de arestas contíguas ou um grupo que contém uma série de arestas contíguas.
+   * Depois de selecionar o caminho, clique no botão “finish” ou pressione Enter.
+* O painel do Dynamo indicará que está processando as alterações. Ao terminar, você terá uma matriz, gerada pelo Dynamo em um grupo do FormIt, pronta para modificação \(veja abaixo\).
 
-## Iteracja lokalna
+## Iteração no local
 
-Po uruchomieniu narzędzia Array Along Path wyniki jego działania będą miały wartości domyślne, dlatego należy zmodyfikować je odpowiednio do potrzeb.
+Após executar Array Along Path, você verá que seus resultados estão definidos com os valores padrão; por isso, será conveniente modificá-los para atender às suas necessidades.
 
-Gdy narzędzie Array Along Path jest uruchomione, tworzona jest nowa grupa zawierająca wyniki, a polecenie FormIt automatycznie wybiera grupę i wyświetla dostępne opcje dla wystąpienia tego narzędzia.
+Quando a amostra Array Along Path é executada, ela cria um novo grupo que contém os resultados, e o FormIt selecionará automaticamente o grupo e mostrará as opções disponíveis para essa instância de Array Along Path.
 
-W każdej chwili można wrócić do właściwości narzędzia Array Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
+Você sempre pode retornar às propriedades Array Along Path selecionando o grupo e alternando para o painel Properties ou editando o grupo que mostrará automaticamente Properties.
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
 ### Select Object\(s\) to Array <a id="run"></a>
 
-Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić obiekty ustawiane w szyku.
+Clique nessa opção para voltar ao assistente de seleção e alterar quais objetos estão sendo dispostos em matriz.
 
 ### Select Array Path
 
-Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić ścieżkę służącą do obliczenia szyku.
+Clique para voltar ao assistente de seleção para alterar o caminho usado para calcular a matriz.
 
 ### Array Type <a id="run"></a>
 
-Ta opcja służy do przełączania typu szyku do obliczenia: By Distance lub By Number.
+Isso alterna o tipo de matriz para cálculo: By Distance ou By Number.
 
-**W przypadku wybrania wartości True** obliczenia będą wykonywane według odległości \(„By Distance”\), dlatego liczba poniżej odnosi się do odległości między kopiami.
+**Quando true**, o cálculo será “By Distance”. O número abaixo se refere à distância entre cópias.
 
-**W przypadku wybrania wartości False** obliczenia będą wykonywane według liczby kopii \(„By Number of Copies”\), dlatego liczba poniżej tego pola odnosi się do liczby kopii, które mają zostać dopasowane wzdłuż ścieżki.
+**Quando false**, o cálculo será feito por “By Number of Copies”. O número abaixo desse campo se refere ao número de cópias que se ajustam ao longo do caminho.
 
 ### Include Original Selection In Results
 
-W przypadku wartości **True**:
+Quando **true**:
 
-* Wybrane obiekty będą liczone jako jedna z nowych kopii
-* Powstała grupa Dynamo będzie uwzględniała w wynikach oryginalny wybór, dlatego w przypadku nowych kopii i oryginalnego wyboru będzie występował efekt Z-fight. Oryginalny wybór można umieścić na [warstwie](layers.md) i wyłączyć, aby go ukryć.
+* Os objetos selecionados serão contabilizados como uma das novas cópias.
+* O grupo do Dynamo resultante incluirá a seleção original em seus resultados, de modo que as novas cópias efetuarão a luta Z com a seleção original. É possível colocar a seleção original em uma [Camada](layers.md) e desativá-la para ocultá-la.
 
-W przypadku wartości **False**:
+Quando **false**:
 
-* Powstały szyk **nie** będzie zawierał oryginalnego wyboru, dlatego otrzymasz określoną liczbę kopii **oprócz** oryginalnego wyboru, a w wynikach nie będzie występował efekt Z-fight
+* A matriz resultante **não** incluirá a seleção original, portanto você obterá o número de cópias especificado **além** da seleção original, e os resultados não efetuarão a luta Z.
 
 ### Rotate Copies Along Path
 
-Gdy jest ustawiona wartość **True**, kopie są obracane w celu zachowania orientacji oryginalnego obiektu względem ścieżki.
+Quando **true**, as cópias são rotacionadas para manter a orientação do objeto original com relação ao caminho.
 
-Gdy jest ustawiona wartość **False**, kopie nie są obracane, a tylko przesuwane.
+Quando **false**, as cópias não são rotacionadas, somente movidas.
 
 ### Use Relative Positioning Along Path
 
-W przypadku wartości **True**:
+Quando **true**:
 
-* Każda kopia zachowuje odległość między ścieżką a oryginalnym obiektem.
-* Jeśli oryginalny obiekt **nie** znajduje się w jednym z punktów końcowych ścieżki, do obliczenia szyku zostanie użyty największy pozostały segment ścieżki.
+* Cada cópia manterá a distância entre o caminho e o objeto original.
+* Se o objeto original **não** estiver posicionado em uma das extremidades do caminho, o maior segmento restante do caminho será usado para o cálculo da matriz.
 
-W przypadku wartości **False**:
+Quando **false**:
 
-* Do obliczenia szyku zostanie użyta cała długość ścieżki, niezależnie od tego, gdzie znajduje się oryginalny obiekt względem ścieżki.
-* Powoduje to odłączenie położenia ścieżki względem obiektu i pozwala na użycie całej ścieżki. Jest to przydatne, gdy ścieżka i obiekt nie znajdują się blisko siebie.
+* O comprimento inteiro do caminho será usado para calcular a matriz, independentemente de onde o objeto original está em relação ao caminho.
+* Isso dissocia a localização do caminho em relação ao objeto e simplesmente usa o caminho inteiro. Isso será útil se o caminho e o objeto não estiverem próximos um do outro.
 
 ### Reverse Path Direction
 
-Dotyczy tylko zamkniętych ścieżek. W przypadku użycia narzędzia Array Along Path z zamkniętą ścieżką kierunek krzywej może spowodować nieoczekiwane odwrócenie spodziewanych wyników szyku. Jeśli wyniki są odwrócone, przełącz tę opcję na **True**, aby odwrócić kierunek szyku.
+Somente para caminhos fechados. Ao usar Array Along Path com um caminho fechado, a direção da curva pode inesperadamente inverter os resultados esperados da matriz. Alterne para **true** para inverter a direção da matriz se os resultados forem invertidos.
 
-### Uruchom <a id="run"></a>
+### Run <a id="run"></a>
 
-Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy go kliknąć, aby zobaczyć aktualizacje w końcowej geometrii.‌
+Após editar as opções, clique no botão “Run” para executar o gráfico subjacente do Dynamo e gerar novos resultados. Esse botão ficará azul quando os parâmetros forem alterados, para que você saiba que ele precisa ser clicado para ver as atualizações na geometria final.‌
 
 ### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
+Clicar nesse botão iniciará o ambiente do editor gráfico do Dynamo, para que você possa visualizar e editar o gráfico subjacente do Dynamo para alterar mais rapidamente os parâmetros e ver as atualizações ao vivo ou para inspecionar/ajustar a lógica.
 
 
 
-## Wybieranie geometrii
+## Selecting Geometry
 
-Podczas wybierania obiektów dla narzędzia Array Along Path i innych wykresów Dynamo opartych na wyborze:
+Ao selecionar objetos para Array Along Path e outros gráficos do Dynamo com base em seleção:
 
-* Możesz wybrać dowolne połączenie obiektów FormIt — wierzchołków, krawędzi, powierzchni, brył, grup i siatek.
-   * Pamiętaj, że w zależności od kroku niektórych z tych obiektów nie należy wybierać.
-   * Na przykład podczas wybierania ścieżki należy wybrać tylko przylegającą serię krawędzi lub grupę zawierającą przylegającą serię krawędzi. Wszystkie pozostałe opcje spowodują błąd wykresu.
-* Klikając dwukrotnie obiekt, możesz wybrać wszystkie dołączone elementy.
-* Aby pobrać serię obiektów, możesz użyć okna wyboru obszaru.
-* Wybierając już wybrane obiekty, możesz usunąć ich zaznaczenie.
-* Do wykonania kroku opartego na wyborze wymagany jest co najmniej jeden obiekt.
+* Será possível selecionar qualquer combinação de objetos do FormIt: vértices, arestas, faces, sólidos, grupos e malhas.
+   * Observe que, dependendo da etapa, alguns desses objetos não devem ser selecionados.
+   * Por exemplo, ao selecionar o caminho, você deverá selecionar somente uma série contígua de arestas ou um Grupo que contém uma série contígua de arestas. Qualquer outra coisa causará a falha do gráfico.
+* Será possível clicar duas vezes em um objeto para selecionar tudo que está anexado.
+* Será possível usar a janela de seleção de área para capturar uma série de objetos.
+* Será possível selecionar objetos já selecionados para desfazer a seleção.
+* Ao menos um objeto é necessário para continuar com uma etapa com base na seleção.
 
 
 

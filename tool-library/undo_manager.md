@@ -1,18 +1,18 @@
-# Menedżer cofania
+# Gerenciador de desfazer
 
-Program FormIt zawiera wyjątkowy system poleceń Cofnij/Wykonaj ponownie, którego można używać na dwa różne sposoby: do cofania według grupy lub chronologicznie i globalnie:
+O FormIt apresenta um sistema único de Desfazer/Refazer, que pode ser usado de duas maneiras diferentes para desfazer por grupo ou cronologicamente e globalmente:
 
-* Wybranie polecenia Cofnij/Wykonaj ponownie podczas edycji grupy zagnieżdżonej wpłynie tylko na zmiany wewnątrz tej grupy.
-   * Oznacza to, że można wprowadzić zmiany w tej grupie, a następnie wprowadzić wiele zmian w innych grupach i po powrocie do tej pierwszej grupy cofać ostatnie zmiany wprowadzone w tej grupie bez wpływu na zmiany wprowadzone później w innych miejscach.
-* Polecenie Cofnij/Wykonaj ponownie użyte w szkicu głównym \(a nie podczas edycji grupy\) działa podobnie jak tradycyjne systemy Cofnij/Wykonaj ponownie: cofnięta zostanie ostatnia zmiana wprowadzona w **dowolnej** grupie na podstawie kolejności chronologicznej.
+* Desfazer/Refazer ao editar um grupo aninhado somente afetará as alterações dentro desse grupo.
+   * Isso significa que você pode fazer uma alteração nesse grupo, fazer muitas alterações em outros grupos e retornar ao grupo original e ter a opção de Desfazer a última alteração feita nesse grupo sem afetar as alterações feitas mais recentemente, em outros lugares.
+* Desfazer/Refazer no esboço principal \(não ao editar um grupo\) age como os sistemas tradicionais Desfazer/Refazer: a última alteração feita em **qualquer** grupo será desfeita, com base na ordem cronológica.
 
-Menedżer cofania rejestruje wszystkie zmiany w każdej grupie w modelu programu FormIt, w tym zmiany wprowadzone w szkicu głównym. Ułatwia to wizualne zrozumienie tego, które operacje zostały cofnięte w dowolnej grupie w modelu.
+O Gerenciador de desfazer registra todas as alterações dentro de cada grupo no modelo FormIt, incluindo as alterações feitas no esboço principal. Isso é útil para entender visualmente quais operações foram desfeitas em qualquer grupo no modelo.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-Menedżer cofania wyróżnia **pogrubieniem czcionki** stan bieżący, jak również wszystkie operacje poprzedzające ten stan oraz wszystkie operacje, które wykonano, ale cofnięto.
+O Gerenciador de desfazer indicará em **negrito** o estado atual, bem como todas as operações antes desse estado e todas as operações que existissem antes, mas que tenham sido desfeitas desde então.
 
-Można kliknąć stan prawym przyciskiem myszy i wybrać opcję „Przełącz do”, aby odpowiednio cofnąć lub wykonać ponownie w celu powrócenia do tego stanu modelu.
+É possível clicar com o botão direito do mouse em um estado e selecionar “Rolar para” para efetivamente desfazer ou refazer, conforme necessário, para retornar para o estado do modelo.
 
-Grupy, które jawnie usunięto lub już nie istnieją z powodu cofnięcia lub ponownego wykonania operacji, są wyświetlane jako \*Nieaktywne\*. Można je przywrócić przez cofanie lub ponowne wykonywanie operacji w odpowiedniej grupie nadrzędnej do momentu ich ponownego pojawienia się.
+Os grupos que foram explicitamente excluídos ou que não existem mais devido a uma ação Desfazer ou Refazer são mostrados como \*Inativos\*. Eles podem ser restaurados ao desfazer ou refazer dentro de seu grupo pai até que eles voltem a existir.
 

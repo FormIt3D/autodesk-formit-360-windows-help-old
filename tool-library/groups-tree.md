@@ -1,12 +1,12 @@
-# Drzewo grup
+# Árvore de grupos
 
-Paleta **Drzewo grup** zapewnia jedno miejsce do zarządzania wszystkimi grupami w pliku. W widoku drzewa są wyświetlane grupy zagnieżdżone, a w kolumnie Stan są wyświetlane informacje o tym, czy grupa jest aktualnie edytowana, i o tym, czy pochodzi ona z dodatku Dynamo, czy z programu Revit.
+A paleta **Árvore de grupos** fornece um único local para gerenciar todos os grupos no arquivo. A vista em árvore exibe grupos aninhados e a coluna Status mostra qual grupo está sendo editado no momento e se o grupo é do Dynamo ou do Revit.
 
-* **Wybieranie**: Każde wystąpienie jest prezentowane osobno. Wybierz wystąpienie w drzewie, a wystąpienie (lub wystąpienia) zostanie wybrane w scenie 3D.
-* **Edytowanie**: Aby edytować grupę, użyj ikony długopisu na górze palety lub kliknij prawym przyciskiem myszy i wybierz polecenie Edytuj.
-* **Zmiana nazwy**: Aby zmienić nazwę grupy, kliknij ją dwukrotnie lub kliknij prawym przyciskiem myszy i wybierz polecenie Zmień nazwę.
-* **Usuwanie**: Aby usunąć grupę, użyj ikony \(**-**\) na górze palety lub kliknij prawym przyciskiem myszy i wybierz polecenie Usuń.
-* **Zmiana kategorii**: Aby zmienić kategorię grupy, wybierz grupę i użyj listy rozwijanej Kategoria na górze palety.
+* **Selecionar**: cada instância é listada individualmente. Selecione uma instância na árvore e as instâncias são selecionadas na cena 3D.
+* **Editar**: para editar um grupo, use o ícone de caneta na parte superior da paleta ou clique com o botão direito do mouse e selecione Editar.
+* **Renomear**: para renomear um grupo, clique duas vezes no nome ou clique com o botão direito do mouse e selecione Renomear.
+* **Excluir**: para excluir um grupo, use o ícone \(**-**\) na parte superior da paleta ou clique com o botão direito do mouse e selecione Excluir.
+* **Alterar categoria**: para alterar a categoria de um grupo, selecione o grupo e use o menu suspenso Categoria na parte superior da paleta.
 
 ![](../.gitbook/assets/groups.png)
 

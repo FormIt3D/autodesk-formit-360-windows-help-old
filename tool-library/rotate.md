@@ -1,13 +1,13 @@
-# Obracanie obiektu
+# Rotacionar objeto
 
-Orientację obiektów można zmieniać za pomocą narzędzia Obróć z menu kontekstowego.
+É possível alterar a orientação dos objetos usando a ferramenta Rotacionar no menu de contexto.
 
-1. Wybierz element, który chcesz obrócić, i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
-2. Z menu kontekstowego wybierz narzędzie Obróć.
-3. Gdy na wskaźniku myszy pojawi się grafika kątomierza, kliknij, aby ustawić płaszczyznę obrotu.
-4. Użyj niebieskich uchwytów, aby określić punkt początkowy obrotu i jeśli to konieczne, zresetuj oś. Za pomocą strzałek lub edytowalnego pola wymiarowego ustaw kąt obrotu.
+1. Selecione um elemento que deseja rotacionar e clique com o botão direito do mouse para iniciar o menu de contexto.
+2. No menu de contexto, selecione a ferramenta Rotacionar.
+3. Quando o gráfico do transferidor aparecer no mouse, clique para definir o plano para rotação.
+4. Use as alças azuis para especificar o ponto inicial da rotação e redefina o eixo, se necessário. Use as setas ou a caixa de cota editável para definir o ângulo de rotação.
 
-Można też użyć skrótu klawiaturowego **Q**, aby po wybraniu elementu uzyskać dostęp do narzędzia obrotu.
+Observe que também é possível usar o atalho de teclado **Q** para acessar a ferramenta de rotação após selecionar um elemento.
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

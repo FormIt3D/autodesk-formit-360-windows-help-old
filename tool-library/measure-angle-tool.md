@@ -1,26 +1,26 @@
-# Zmierz kąt
+# Medir ângulo
 
-Narzędzie Zmierz kąt znajduje się na [pasku narzędzi](../formit-introduction/tool-bars.md).
+A ferramenta Medir ângulo está localizada na [barra de Ferramentas](../formit-introduction/tool-bars.md).
 
-Narzędzie Zmierz kąt służy do mierzenia kątów między wierzchołkami, krawędziami, powierzchniami i bryłami. Za pomocą narzędzia Zmierz kąt można też sterować wymiarami geometrii.
+A ferramenta Medir ângulo é usada para medir ângulos entre vértices, arestas, faces e volumes. Também é possível usar a ferramenta Medir ângulo para controlar as cotas da geometria.
 
-* Z menu paska narzędzi **Zmierz** wybierz narzędzie **Zmierz kąt** lub użyj skrótu klawiaturowego **M A** i wybierz punkt początkowy.
+* No menu da barra de ferramentas **Medir**, selecione a ferramenta **Medir ângulo** ou use o atalho de teclado **M A** e selecione um ponto inicial.
 
    ![](../.gitbook/assets/measure-angle.png)
 
-* Kliknij i przeciągnij uchwyt do wierzchołka początkowego.
+* Clique e arraste a alça para o vértice inicial.
 
    ![](../.gitbook/assets/measure-angle2.png)
 
-* Użyj strzałek, aby zmierzyć kąt między punktami.
+* Use as setas para medir o ângulo entre um ponto e outro.
 
    ![](../.gitbook/assets/measure-angle4.png)
 
-* Aby zmienić geometrię, kliknij krawędź lub powierzchnię i wprowadź nową wartość kąta, klikając wyświetlony kąt.
+* Para alterar a geometria, clique em uma aresta ou face e insira um novo valor de ângulo clicando no ângulo exibido.
 
    ![](../.gitbook/assets/measure-angle3.png)
 
-* Zmiany lub pomiary są wyświetlane:
+* As alterações ou medições são exibidas:
 
    ![](../.gitbook/assets/measure-angle5.png)
 

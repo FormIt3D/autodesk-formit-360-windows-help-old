@@ -1,30 +1,30 @@
-# Łączenie logiczne
+# União booleana
 
-Za pomocą narzędzia Dołącz można połączyć jeden obiekt lub grupę z inną. Dostęp do narzędzia Dołącz można uzyskać na dwa sposoby:
+É possível unir um objeto ou grupo em outro com a ferramenta Unir. Há duas maneiras de acessar a ferramenta Unir:
 
-## Najpierw uruchomienie polecenia Dołącz
+## Executar o comando Unir primeiro
 
-Klawiatura: J G
+Teclado: J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-Uruchom polecenie Dołącz i postępuj zgodnie z instrukcją trybu w lewym górnym rogu ekranu.
+Execute o comando Unir e siga as instruções de modo no canto superior esquerdo da tela
 
-Kliknij jednokrotnie, aby wybrać obiekt, do którego chcesz dołączyć.
+Clique uma vez para selecionar um objeto para unir.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-Kliknij jednokrotnie, aby wybrać obiekt lub grupę do dołączenia.
+Clique uma vez para selecionar um objeto ou grupo a ser unido.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-Kliknij znacznik wyboru, aby wykonać polecenie.
+Clique na marca de seleção para encerrar o comando.
 
-## Najpierw wybranie obiektów
+## Selecionar primeiro os objetos
 
-1. Kliknij dwukrotnie, aby wybrać obiekt, który ma zostać dołączony \(w przypadku grupy kliknij jednokrotnie\).
-2. Trzymając naciśnięty klawisz **CTRL**, kliknij dwukrotnie nakładający się obiekt, który chcesz dołączyć do pierwszego obiektu.
-3. Kliknij prawym przyciskiem myszy jeden z tych obiektów i wybierz narzędzie Dołącz z menu kontekstowego.
+1. Clique duas vezes para selecionar o objeto a ser unido \(clique simples para um grupo\).
+2. Mantendo pressionada a tecla **Ctrl**, clique duas vezes em um objeto sobreposto que você deseja unir com o primeiro objeto.
+3. Clique com o botão direito do mouse em qualquer um dos objetos e selecione a ferramenta Unir no menu de contexto.
 
 ![](../.gitbook/assets/join-tool.png)
 

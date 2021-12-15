@@ -1,80 +1,80 @@
-# System szprosów witryny/ściany kurtynowej
+# Sistema de montante de vitrine/cortina parede
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Obsługiwane przez dodatek Dynamo
+## Fornecido pelo Dynamo
 
-Możliwość szybkiego tworzenia systemów szprosów witryny/ściany kurtynowej w programie FormIt jest obsługiwana przez dodatek Dynamo. System Storefront Curtainwall można znaleźć w katalogu Dynamo Samples w panelu Dynamo:
+A capacidade de criar rapidamente sistemas de montante de vitrine/cortina parede no FormIt é fornecida pelo Dynamo. É possível localizar o sistema Storefront Curtainwall no diretório Dynamo Samples no painel Dynamo:
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Wybieranie szyby dla systemu szprosów
+## Selecionar “Glass” para o sistema do montante
 
-Od wersji FormIt 2021.2 w systemie Storefront Curtainwall używany jest nowy węzeł [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), który umożliwia wybranie szyby, „glass” \(pojedynczej powierzchni lub wyciągniętej bryły\), wokół której ma zostać wygenerowany system szprosów.
+A partir do FormIt 2021.2, o sistema Storefront Curtainwall usa o novo [nó SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), permitindo que você selecione um pedaço de “vidro” \(um sólido de face única ou de extrusão\) em torno do qual será gerado um sistema de montante.
 
-![Prosta szklana płaszczyzna z otworem na drzwi na dole.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![ Um plano simples de &quot;vidro&quot; com uma abertura para portas na parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-Po kliknięciu miniatury Storefront Curtainwall \(zwróć uwagę na ikonę wskazującą, że wymagany jest wybór\) zostanie wyświetlony monit programu FormIt o wybranie geometrii szyby, aby można było kontynuować:
+Quando você clicar na miniatura Storefront Curtainwall \(observe o ícone que indica que uma seleção é necessária\), o FormIt solicitará que você selecione a geometria do vidro para continuar:
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-Kilka uwag i zastrzeżeń dotyczących sposobu wyboru szyby:
+Algumas notas e ressalvas sobre como funciona a seleção de vidro:
 
-* Obecnie obsługiwane są tylko powierzchnie płaskie. Jeśli zostanie wybrany szereg powierzchni \(na przykład powierzchnia „zakrzywiona” składająca się z mniejszych powierzchni płaskich\), skrypt znajdzie największą powierzchnię płaską i użyje tej powierzchni.
-* Jeśli szyba jest bryłą — tzn. pojedyncza powierzchnia jest wyciągnięta bardzo nieznacznie w celu uzyskania odrobiny grubości — skrypt znajdzie największą powierzchnię i wynikowe szprosy zostaną wygenerowane po jednej stronie bryły szklanej.
-* Można naszkicować otwory na drzwi i usunąć wynikową powierzchnię z obwiedni szyby. Wynikowe szprosy będą uwzględniać otwór drzwiowy, pozostawiając puste miejsce na dodanie drzwi.
-* Z powodu ograniczeń dodatku Dynamo ten skrypt nie będzie działał, jeśli geometria szyby ma otwory w środku.
+* No momento, somente superfícies planas são suportadas. Se você selecionar uma série de superfícies \(por exemplo, uma superfície “curvada” composta de superfícies planas menores\), o script encontrará a maior face plana e a usará.
+* Se o vidro for sólido – ou seja, uma única face com extrusão muito pequena para transmitir um pouco de espessura – o script encontrará a maior superfície, de modo que os montantes resultantes serão gerados em um lado do sólido de vidro.
+* É possível desenhar aberturas para portas e remover a superfície resultante do limite de vidro. Os montantes resultantes respeitarão a abertura da porta, deixando-a em branco para a adição de portas.
+* Devido às limitações do Dynamo, esse script não funcionará se a geometria de vidro tiver aberturas no meio.
 
-## Porady
+## Dicas e truques
 
-Podczas wybierania geometrii dla wykresu Dynamo w programie FormIt niektóre rozwiązania organizacyjne mogą uprościć pracę i ułatwić uzyskiwanie wyników:
+Ao selecionar a geometria de um gráfico do Dynamo no FormIt, alguns truques organizacionais podem simplificar a experiência e permitir a instanciação fácil dos resultados:
 
-* Umieść szybę w grupie i użyj opcji Grupa jako wyboru dla skryptu Storefront/Curtainwall. W ten sposób łatwiej jest edytować profil szyby po wygenerowaniu szprosów. Jeśli szyba jest w znacznym stopniu modyfikowana między przebiegami i zmieniają się identyfikatory powierzchni, grupa zapewnia, że skrypt zawsze znajdzie tę szybę, ponieważ używa identyfikatora grupy, a nie identyfikatora powierzchni.
-* Jeśli planujesz skopiowanie i wklejenie wyników systemu szprosów w innych miejscach w modelu, najlepiej, aby szyba i wynikowe szprosy były zawarte w grupie. Zapobiegnie to również problemom z ustaleniem w węźle wyboru, które wystąpienie szyby ma być używane podczas kopiowania i wklejania wynikowej grupy szprosów.
-   * Najpierw umieść szybę w grupie. Kliknij dwukrotnie szybę, aby ją wybrać, a następnie naciśnij klawisz G lub użyj poleceń grupy w menu kontekstowym lub na pasku narzędzi.
-   * Wybierz grupę wynikową i umieść ją w innej grupie.
-   * Kliknij dwukrotnie, aby przejść do pierwszej grupy. Jest to „pojemnik” zarówno na szybę, jak i na wynikowe szprosy.
-   * Kliknij miniaturę Storefront Curtainwall i użyj grupy szyby jako wyboru.
-   * Po uruchomieniu skryptu można zamknąć grupę i skopiować/wkleić pojemnik, w którym się znajduje, jeśli zachodzi taka potrzeba. Bez problemu można edytować dowolne wystąpienia \(dopasowując kształt lub parametry szyby\).
+* Coloque o vidro em um grupo e use o grupo como a seleção para o script Storefront/Curtainwall. Dessa forma, é mais fácil editar o perfil de vidro após os montantes terem sido gerados e, se o vidro for muito modificado entre os trechos e as IDs de face tiverem sido alteradas, o grupo garantirá que o script sempre encontre o vidro – porque ele está usando a ID de grupo, não a ID de face.
+* Se você estiver planejando copiar e colar os resultados do sistema de montante em outros locais do modelo, será melhor ter o vidro e os montantes resultantes contidos em um grupo. Isso também evitará problemas nos quais o nó de seleção não sabe qual instância de vidro usar quando apenas o grupo de montante resultante foi copiado e colado.
+   * Coloque o vidro em um grupo primeiro. Clique duas vezes para selecionar o vidro e pressione G ou use os comandos de grupo no menu de contexto ou na barra de ferramentas.
+   * Selecione o grupo resultante e coloque-o em outro grupo.
+   * Clique duas vezes para inserir o primeiro grupo. Esse é o “contêiner” para o vidro e os montantes resultantes.
+   * Clique na miniatura Storefront Curtainwall e use o grupo de vidro como seleção.
+   * Após a execução do script, você pode sair do grupo e copiar/colar o contêiner conforme necessário. É possível editar qualquer uma das instâncias \(ajustando a forma do vidro ou parâmetros\) sem problemas.
 
-## Opcje systemu szprosów
+## Opções do sistema de montante
 
-Po wybraniu szyby i uruchomieniu skryptu uzyskuje się wynik w obszarze rysunku programu FormIt w postaci grupy programu FormIt. Ta grupa zostanie automatycznie wybrana, a na panelu Właściwości zostaną wyświetlone dostępne opcje.
+Depois de selecionar o vidro e executar o script, você obterá um resultado na tela do FormIt, na forma de um grupo do FormIt. Esse grupo será selecionado automaticamente e o painel Properties exibirá as opções disponíveis.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: Jeśli zmienisz kształt szyby i zechcesz ponownie uruchomić wykres, aby zaktualizować wyniki szprosów, kliknij tę opcję.
-* **Edit Embedded Graph**: Edytuj skrypt Dynamo, który generuje geometrię. Ten skrypt jest osadzony w pliku programu FormIt i jest charakterystyczny dla tej grupy.
-* **Select Glass \(Surface or Solid\)**: Kliknij tę opcję, aby zaktualizować wybór do innej szyby, wokół której mają być generowane szprosy.
+* **Run**: se você modificar a forma do vidro e desejar executar novamente o gráfico para atualizar os resultados do montante, clique nessa opção.
+* **Edit Embedded Graph**: edite o script do Dynamo que está gerando a geometria. Esse script é incorporado no arquivo FormIt e é específico para esse grupo.
+* **Select Glass \(Surface or Solid\)**: clique para atualizar a seleção para uma peça de vidro diferente ao redor da qual serão gerados montantes.
 
-Skrypt będzie używał wartości domyślnych dla pierwszego przebiegu, dlatego należy dostosować je do danego konkretnego przypadku zastosowania. Wszystkie wartości będą mieć bieżące jednostki FormIt.
+O script usará valores padrão para sua primeira execução, portanto, você desejará ajustá-los para seu caso de uso exclusivo. Todos os valores usarão as unidades atuais do FormIt.
 
-* **Mullion Width + Depth**: Szerokość i głębokość wszystkich elementów szprosu.
-* **Vertical Mullion Spacing**: Odległość między środkami poszczególnych szprosów pionowych.
-* **Flip Vertical Mullion Layout**: Skrypt rozpoczyna odstępy między szprosami pionowymi z jednej dowolnie wybranej strony. Jeśli w wyniku tej operacji odstępy między szprosami rozpoczynają się po niewłaściwej dla danego zastosowania stronie, ustaw wartość True, aby odwrócić ten układ.
-* **Center Vertical mullion Layout**: Zamiast rozpoczynać obliczenia odstępów między szprosami pionowymi na jednym końcu szyby, rozpocznij obliczenia od środka, tworząc symetryczny układ szprosów pionowych.
-* **First Horizontal Mullion Spacing**: Umożliwia ustawienie odstępu pierwszego szprosu poziomego od dołu. Jest to przydatna opcja, jeśli na dole potrzebny jest rząd krótszych modułów przeszklenia, niezależnie od pozostałych rozstawów szprosów poziomych.
-* **Horizontal Mullion Spacing**: Typowy odstęp między środkami szprosów poziomych, od pierwszego szprosu, jak wyjaśniono powyżej.
-* **Flip Horizontal Mullion Layout**: Jeśli układ szprosów poziomych ma rozpoczynać się u góry, a nie u dołu, ustaw wartość True.
-* **Center Horizontal Mullion Layout**: Zamiast rozpoczynać obliczenia odstępów między szprosami poziomymi u dołu lub u góry szyby, rozpocznij obliczenia od środka, tworząc symetryczny układ szprosów poziomych.
+* **Mullion Width + Depth**: a largura e a profundidade de todos os elementos do montante.
+* **Vertical Mullion Spacing**: a distância, no centro, entre cada montante vertical.
+* **Flip Vertical Mullion Layout**: o script inicia o espaçamento do montante vertical de um lado, escolhido arbitrariamente. Se o resultado iniciar o espaçamento do montante no lado errado para seu caso de uso, defina como True para inverter o layout para iniciar no terreno oposto.
+* **Center Vertical mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante vertical em uma extremidade do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes verticais.
+* **First Horizontal Mullion Spacing**: define o primeiro espaçamento do montante horizontal começando na parte inferior. Será útil se você precisar de uma linha de módulos de vidraça mais curtos na parte inferior, separada do restante do espaçamento do montante horizontal.
+* **Horizontal Mullion Spacing**: o espaçamento do montante horizontal típico, no centro, começando após o primeiro montante como descrito acima.
+* **Flip Horizontal Mullion Layout**: se você desejar que o layout do montante horizontal comece na parte superior, em vez de na parte inferior, defina essa opção como True.
+* **Center Horizontal Mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante horizontal na parte inferior ou superior do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes horizontais.
 
-## Opcje ukryte
+## Opções ocultas
 
-Szukasz dodatkowych możliwości dostosowania? W panelu właściwości programu FormIt jest ukrytych kilka zaawansowanych opcji, ale są one dostępne po kliknięciu przycisku „Edit Embedded Graph” w celu wyświetlenia całej zawartości wykresu w dodatku Dynamo:
+Procurando mais personalização? Diversas opções avançadas estão ocultas do painel de propriedades do FormIt, mas podem ser acessadas clicando em “Edit Embedded Graph” para visualizar o conteúdo completo do gráfico no Dynamo:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Szprosy losowe
+### Montantes aleatórios
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Ustaw wartość True, aby losowo rozmieścić szprosy pionowe lub poziome.
-* **Min/Max Mullion Spacing \(if random\)**: Te wartości można dostosować, aby ustawić zakres minimalnych i maksymalnych losowych wartości odstępów.
+* **Randomize Vertical and Horizontal Mullion Layout**: defina como True para espaçar os montantes verticais ou horizontais aleatoriamente.
+* **Min/Max Mullion Spacing \(if random\)**: ajuste esses valores para definir uma faixa de valores de espaçamento aleatório mínimo e máximo.
 
-### Szprosy graniczne
+### Montantes de borda
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** Domyślnie system szprosów będzie używał obwiedni szyby i odsunie ją do wewnątrz, aby utworzyć szprosy graniczne. Aby odsunąć ją na zewnątrz, ustaw tę opcję na True. Spowoduje to rozszerzenie całkowitego rozmiaru systemu szprosów poza obwiednię szyby o wartość szerokości szprosu.
-* **Tolerance Between Selection and Border Mullions**: Domyślnie system szprosów będzie generowany dokładnie na granicy szyby, co może spowodować niedopasowanie brzegu szyby i zewnętrznych powierzchni szprosów granicznych. W większości przypadków nie będzie to widoczne, ale jeśli w danym zastosowaniu wymagana jest widoczność krawędzi systemu i chcesz uniknąć niedopasowania, włącz tę opcję i dostosuj wartość tolerancji zgodnie z potrzebami.
+* **Flip Offset Direction of Border Mullions:** por padrão, o sistema de montante usará o limite de vidro e o deslocará para dentro para criar os montantes de borda. Para deslocar para fora, defina essa opção como True. Isso aumentará o tamanho geral do sistema de montante fora do limite de vidro pela configuração Mullion Width.
+* **Tolerance Between Selection and Border Mullions**: por padrão, o sistema de montante será gerado exatamente na borda do vidro, o que pode causar a luta Z onde a borda do vidro e as superfícies externas dos montantes de borda colidem. Na maioria dos casos, isso não será visível, mas se seu caso de uso exigir que as arestas do sistema estejam visíveis e você desejar evitar a luta Z, ative essa opção e ajuste o valor de tolerância conforme necessário.
 

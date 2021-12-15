@@ -1,28 +1,29 @@
-# Osie globalne
+# Eixos universais
 
-Domyślny układ współrzędnych i siatkę można modyfikować, zmieniając oś globalną.
+É possível modificar o sistema de coordenadas e a grade padrão ao alterar o eixo universal.
 
-## Rysowanie i modelowanie z osiami
+## Desenho e modelagem com eixos
 
-Gdy w programie FormIt zostanie otwarty pusty szkic, osie globalne będą wyświetlane na środku ekranu jako trzy linie: czerwona, zielona i niebieska. Te trzy linie określają trzy kierunki kartezjańskie definiujące przestrzeń 3D. Kierunek „X” jest definiowany przez linię czerwoną, kierunek „Y” przez linię zieloną, a kierunek „Z” („w górę”) przez linię niebieską.
+Quando um esboço em branco é aberto no FormIt, os eixos universais são exibidos como três linhas vermelhas, verdes e azuis no centro da tela. Essas três linhas definem as três direções cartesianas que definem o mundo 3D. A direção “X” é definida pela linha vermelha, a direção “Y” pela linha verde e a direção “Z” ou “acima” pela linha azul.
 
 ![](../.gitbook/assets/axis.png)
 
-Aby obrócić siatkę i ponownie zdefiniować punkt początkowy szkicu, **kliknij prawym przyciskiem myszy** puste miejsce w scenie i wybierz ikonę **Ustaw osie \(SZ\)** z menu kontekstowego.  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
+Para rotacionar a grade e redefinir o ponto de origem para o esboço, **clique com o botão direito do mouse** no espaço vazio na cena e selecione o ícone **Definir eixos \(SZ\)** no menu de contexto  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-Zostanie wyświetlony widżet Ustaw osie. Kliknij duży uchwyt w środku, aby aktywować widżet. Kliknij ponownie, aby ustawić punkt początkowy. Kliknij kropkę na czerwonej osi, aby obrócić siatkę, lub kliknij kropkę na niebieskich osiach, aby obrócić płaszczyznę siatki w pionie. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+O widget Definir eixos é exibido. Clique na alça grande no centro para selecionar o widget. Clique novamente para definir o ponto de origem. Agora, clique no ponto no eixo vermelho para rotacionar a grade ou clique no ponto nos eixos azuis para girar o plano da grade verticalmente. Clique fora do espaço para confirmar a alteração.  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-Aby **przywrócić ustawienia domyślne** punktu początkowego i siatki, kliknij prawym przyciskiem myszy puste miejsce w scenie i wybierz opcję **Resetuj osie \(RZ\)**.
+Para **redefinir** a origem e a grade de volta para a configuração padrão, clique com o botão direito do mouse em um espaço vazio na cena e escolha **Redefinir eixos \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## Osie globalne i lokalne
+## Eixos universais e eixos locais
 
-W powyższych instrukcjach opisano sposób sterowania **globalnym układem współrzędnych** szkicu. Po rozpoczęciu pracy z [**grupami**](groups.md) można sterować **lokalnym układem współrzędnych** danej grupy niezależnie od szkicu ogólnego. Podczas edycji grupy można edytować lokalny układ współrzędnych, wykonując te same czynności co powyżej — w tym przypadku zmiany będą miały zastosowanie tylko do grupy.
+As etapas acima explicam como controlar o **sistema de coordenadas global** do esboço. Quando você começa a trabalhar com [**grupos**](groups.md), é possível controlar o **sistema de coordenadas local** desse grupo de forma exclusiva do esboço geral. Quando você edita um grupo, é possível editar o sistema de coordenadas local seguindo as mesmas etapas acima – mas essas alterações somente se aplicam ao grupo.
 
-## Interakcje z osiami
+## Interações com eixos
 
-* **Osie czerwona, zielona i niebieska** są wyświetlane podczas pracy z narzędziami do szkicowania w celu ułatwienia szkicowania 3D.
-* **Oś fioletowa** wskazuje osie prostopadłą i równoległą względem linii rysowanych pod kątem.
-* Przytrzymaj naciśnięty **klawisz Shift** podczas szkicowania lub przesuwania, aby **zablokować ruch względem bieżącej osi**.
+* Os eixos **vermelho, verde e azul** são exibidos quando você está em ferramentas de esboço para guiar o esboço 3D
+* O **eixo roxo** exibe um eixo perpendicular e paralelo com relação às linhas desenhadas em um ângulo
+* Mantenha pressionada a tecla **Shift** ao desenhar ou mover para **travar no eixo atual**
 

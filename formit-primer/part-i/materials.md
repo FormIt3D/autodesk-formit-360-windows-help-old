@@ -1,138 +1,138 @@
-# 1.7 — Malowanie materiałami
+# 1.7 – Pintar com materiais
 
-Jak widzieliśmy we **wcześniejszym ćwiczeniu**, w programie FormIt można tworzyć własne materiały, a następnie malować powierzchnie przy użyciu tych materiałów. Podczas tego ćwiczenia utworzysz i edytujesz większą liczbę materiałów i zaimportujesz materiały z Biblioteki materiałów Autodesk.
+Como vimos em um **exercício anterior**, você pode criar seus próprios materiais e, em seguida, pintar faces com esses materiais no FormIt. Neste exercício, você vai criar e editar mais materiais, bem como importar materiais da Bibliotecas de materiais da Autodesk.
 
-_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.7 — Paint with Materials.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.7 – Paint with Materials.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Tworzenie szklanych ścian**
+## **Criar as paredes de vidro**
 
-1 — Aby wyświetlić rzut zawierający wymiary, do których będziemy się odwoływać, przejdź do **palety Warstwy** i włącz warstwę **Obraz rzutu**.
+1 – Para visualizar a planta que contém as cotas que vamos referenciar, vá para a **paleta Camadas** e ative a camada **Imagem da planta**.
 
-2 — Wybierz **narzędzie Prostokąt \(R\)**. Utworzymy prostokąt bezpośrednio na powierzchni istniejącej grupy Podłoga. Pamiętaj, aby nie edytować grupy Podłoga, tylko rysować na powierzchni istniejącego zgrupowanego obiektu.
+2 – Selecione a **ferramenta Retângulo \(R\)**. Vamos criar um retângulo diretamente na parte superior do grupo do piso existente. Certifique-se de que você não esteja editando o Grupo do piso, e sim desenhando na parte superior do objeto agrupado existente.
 
 ![](../../.gitbook/assets/0%20%283%29.png)
 
-3 — Rozpocznij tworzenie prostokąta dla tafli szkła:
+3 – Para iniciar o retângulo na área de vidro:
 
-1. Kliknij w tylnym narożniku istniejącej podłogi i przesuń wskaźnik myszy wzdłuż jej krótszej krawędzi.
-2. Wpisz **28’-8”**, aby zdefiniować długość pierwszej krawędzi, i kliknij przycisk **OK**. Ta długość powinna być taka sama, jak długość krótszej krawędzi istniejącej podłogi.
-3. Aby zdefiniować drugą krawędź, zacznij przesuwać kursor myszy wzdłuż dłuższej krawędzi istniejącej podłogi. Wpisz **55 stóp i 5 i ½ cala**, aby ustawić długość drugiej krawędzi, a następnie kliknij przycisk **OK**.
-4. Naciśnij klawisz **Esc**, aby zamknąć narzędzie Prostokąt. Kliknij jeden raz wewnątrz nowo utworzonego prostokąta, aby wybrać powierzchnię i rozpocząć przeciąganie jej w górę.
+1. Clique no canto posterior do piso existente e mova o mouse ao longo da aresta mais curta.
+2. Digite **28’-8"** para definir o comprimento da primeira aresta e clique em **OK**. Esse deve ser o mesmo comprimento da aresta curta existente do piso.
+3. Para definir a segunda aresta, comece a mover o mouse ao longo da aresta mais longa existente do piso. Digite **55'-5 ½"** para definir o comprimento da segunda aresta e, em seguida, clique em **OK**.
+4. Pressione **ESC** para sair da ferramenta de retângulo. Clique uma vez dentro do novo retângulo para selecionar a face e começar a arrastá-la para cima.
 
 ![](../../.gitbook/assets/1%20%283%29.png)
 
-4 — Aby zdefiniować wysokość, przesuń wskaźnik myszy w górę wzdłuż **osi Z**, naciśnij klawisz **Tab** i wpisz **11 stóp i 2 cale**.
+4 – Para definir a altura, mova o mouse para cima ao longo do **Eixo Z**, pressione a tecla **Tab** e insira **11'-2"**.
 
 ![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Uwaga:**_ _używając narzędzia, w którym można wprowadzić wymiar, możesz nacisnąć klawisz_ _**Tab**_ _lub po prostu zacząć wpisywanie liczb._
+_**Observação:**_ _Sempre que você estiver usando uma ferramenta na qual possa inserir uma cota, poderá pressionar_ _**Tab**_ _ou apenas começar a digitar os números._
 
-5 — Kliknij dwukrotnie nową geometrię i dodaj ją do **grupy \(G\)**.
+5 – Clique duas vezes e **agrupe \(G\)** a nova geometria.
 
-6 — Kliknij dwukrotnie grupę, aby ją edytować. Na **palecie Właściwości** nadaj grupie nazwę **Szklane ściany.**
+6 – Clique duas vezes no grupo para editá-lo. Na **paleta Propriedades**, nomeie o grupo como **Paredes de vidro.**
 
 ![](../../.gitbook/assets/3%20%283%29.png)
 
-7 — Zdefiniuj grubość szklanej ściany:
+7 – Para definir a espessura da parede de vidro:
 
-1. Kliknij prawym przyciskiem myszy górną powierzchnię i wybierz **narzędzie Odsuń powierzchnię \(OF\).**
-2. Przesuń kursor myszy do wewnątrz i wpisz wartość **4 cale.**
-3. Naciśnij dwukrotnie klawisz **Esc**, aby zamknąć narzędzie i anulować wybór.
+1. Clique com o botão direito do mouse na face superior e escolha a **ferramenta Deslocar face \(OF\).**
+2. Mova o cursor do mouse para dentro e digite **4".**
+3. Clique em **Esc** duas vezes para limpar a ferramenta e a seleção.
 
 ![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Uwaga:**_ _jednostką domyślną dla projektów w jednostkach brytyjskich są stopy, podobnie jak w programie Revit. Jeśli wprowadzisz pojedynczą liczbę bez określonej jednostki, na przykład_ _**4**, otrzymasz_ _**4 stopy \(4’\)**_ _, a nie_ _**4 cale \(4”\)**._
+​_**Observação:**_ _A unidade padrão para projetos imperiais é pés, tal como no Revit. Se você inserir um número sem uma unidade especificada, como_ _**4**, obterá_ _**4 pés \(4’\)**_ _e não_ _**4 polegadas \(4"\)**._
 
-8 — Aby wyciąć obszar wewnętrzny, kliknij górną powierzchnię wewnętrzną jeden raz, aby ją wybrać, a następnie kliknij ponownie, aby rozpocząć operację **przeciągania powierzchni**. Przesuwaj powierzchnię w dół, aż zniknie, a następnie kliknij w pustym obszarze, aby zakończyć ten proces.
+8 – Para recortar a área interna, clique uma vez na face superior interna para selecioná-la e, em seguida, clique novamente para iniciar a operação de **arrastar a face**. Empurre a face para baixo até que ela desapareça e clique no espaço para concluir o processo.
 
 ![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Uwaga:**_ _w programie FormIt, inaczej niż w innych programach, nie można przypadkowo utworzyć ujemnego wyciągnięcia przez zbyt dalekie przesunięcie powierzchni, którą próbujesz usunąć._
+_**Observação:**_ _No FormIt, ao contrário de outros softwares, não é possível empurrar acidentalmente a face que você está tentando excluir “muito longe”, de modo que uma nova extrusão negativa seja formada._
 
-9 — Zakończ tryb **edycji grupy**, klikając dwukrotnie w pustym obszarze lub naciskając klawisz **Esc.**
+9 – Termine o modo **Editar grupo** clicando duas vezes no espaço ou pressionando **Esc.**
 
-10 — Wybierz grupę **Szklane ściany** za pomocą pojedynczego kliknięcia i umieść ją na warstwie **Podłoga głównego budynku**.
+10 – Selecione o grupo **Paredes de vidro** com um único clique e coloque-o na camada **Piso do edifício principal**.
 
 ![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Importowanie materiału z Biblioteki materiałów Autodesk**
+## **Importar um material da Bibliotecas de materiais da Autodesk**
 
-1 — Ponownie edytuj grupę **Szklane ściany**, klikając ją dwukrotnie.
+1 – Edite o grupo **Paredes de vidro** novamente clicando duas vezes nele.
 
-2 — Zaimportuj nowy materiał do modelu:
+2 – Para importar um novo material para o modelo:
 
-1. Przejdź do **palety Materiały**.
-2. Wybierz **Przykłady materiałów** z menu rozwijanego u góry palety, aby przeglądać **Bibliotekę materiałów Autodesk.** ​
-3. Kliknij folder **Szkło/Szklenie**, aby go otworzyć.
-4. Znajdź materiał **Szkło — z odcieniem niebieskim** i kliknij go jeden raz, aby dodać go do biblioteki materiałów **W szkicu**.
-5. Powinna być teraz znów widoczna biblioteka **W szkicu**, zawierająca nowo wybrany materiał.
+1. Vá para a **paleta Materiais**.
+2. Selecione **Amostra de material** no menu suspenso, na parte superior da paleta, para navegar através da **Biblioteca de materiais da Autodesk.** ​
+3. Clique na pasta **Vidro+Vidraça** para abri-la.
+4. Localize o material **Vidro – Matiz azul** e clique uma vez nele para adicionar esse material à biblioteca de materiais na opção **No esboço**.
+5. Observe que você deve estar de volta na biblioteca **No esboço**, que agora inclui o material recém-selecionado.
 
 ![](../../.gitbook/assets/7%20%288%29.png)
 
 ![](../../.gitbook/assets/8%20%288%29.png)
 
-3 — Po dodaniu materiału automatycznie powinno zostać wybrane narzędzie **Pędzel**. Jeśli tak nie jest, ponownie kliknij materiał **Szkło — z odcieniem niebieskim**. Aby pomalować wszystkie ściany, kliknij dwukrotnie geometrię za pomocą narzędzia **Pędzel**. Spowoduje to zastosowanie wybranego materiału do całego obiektu. ![](../../.gitbook/assets/9%20%281%29.png)​
+3 – Após adicionar o material, você deve estar automaticamente na ferramenta **Pincel**. Se não estiver, clique uma vez no material **Vidro – Matiz Azul** novamente. Para pintar todas as paredes, clique duas vezes na geometria com a ferramenta **Pincel**. Isso permitirá aplicar o material selecionado em todo o objeto. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 — Naciśnij klawisz **Esc**, aby zamknąć narzędzie **Pędzel**. Naciśnij ponownie klawisz **Esc** lub kliknij dwukrotnie w pustym obszarze, aby zakończyć pracę z grupą.
+4 – Clique em **Esc** para sair da ferramenta **Pincel**. Clique em **Esc** novamente ou clique duas vezes no espaço para sair do grupo.
 
-## **Szybkie kopiowanie podłogi w celu utworzenia dachu**
+## **Cópia rápida do piso para criar o telhado**
 
-1 — Aby szybko utworzyć dach na podstawie geometrii podłogi, wykonaj te czynności:
+1 – Para criar rapidamente o telhado com base na geometria do piso:
 
-1. Wybierz grupę **Podłoga** za pomocą pojedynczego kliknięcia.
-2. Kliknij jeden z dolnych narożników, aby uruchomić narzędzie **Przesuń**.
-3. Rozpocznij przesuwanie podłogi w górę wzdłuż niebieskiej osi \(**osi Z**\). Utwórz **szybką kopię**, naciskając klawisz **Ctrl**. Powinien zostać wyświetlony półprzezroczysty podgląd kopii. ​
-4. Podczas przesuwania wzdłuż niebieskiej osi \(**osi Z**\) rozpocznij wpisywanie wartości **12 stóp i 2 cale** — zostanie wyświetlone **okno dialogowe Wymiar**. Kliknij przycisk **OK** lub naciśnij klawisz **Enter**, aby zakończyć określanie położenia.
+1. Selecione o grupo **Piso** com um único clique.
+2. Clique em um dos cantos inferiores para iniciar a ferramenta **Mover**.
+3. Comece a mover o piso para cima ao longo do eixo azul \(**Eixo Z**\). Crie uma **cópia rápida** tocando na tecla **Ctrl**. Uma visualização “fantasma” da cópia deve aparecer. ​
+4. Ao mover ao longo do eixo azul \(**Eixo Z**\), comece a digitar **12' 2"** e será exibida uma **caixa de diálogo Cota**. Clique em **OK** ou pressione **Enter** para finalizar o posicionamento.
 
 ![](../../.gitbook/assets/10%20%281%29.png)
 
 ![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edytowanie dachu**
+## **Editar o telhado**
 
-1 — Nie anulując wyboru skopiowanej grupy, użyj polecenia **Ustaw jako unikatowe \(MU\)**, aby usunąć skojarzenie tej grupy z grupą podłogi.
+1 – Enquanto o grupo copiado ainda estiver selecionado, use o comando **Tornar único \(MU\)** para dissociar esse grupo do grupo do piso.
 
-2 — Kliknij dwukrotnie grupę, aby ją edytować. Zmień nazwę grupy na **Dach** na **palecie Właściwości**. Zakończ pracę z grupą, klikając dwukrotnie w pustym obszarze.
+2 – Clique duas vezes no grupo para editá-lo. Nomeie novamente o grupo como **Telhado** na **paleta Propriedades**. Saia do grupo clicando duas vezes no espaço.
 
-3 — Na **palecie Warstwy** utwórz nową **warstwę** o nazwie **Dach** i dodaj do niej grupę **Dach**. Warstwę można włączać i wyłączać, aby sprawdzić, czy na dachu znajdują się odpowiednie elementy. Aby uzyskać więcej informacji na temat pracy z **warstwami**, zobacz **Rozdział 6**.
+3 – Na **paleta Camadas**, crie uma nova **Camada** chamada **Telhado** e adicione o grupo **Telhado** a essa camada. É possível ativar e desativar a camada para verificar se os elementos corretos estão no telhado. Consulte o **Capítulo 6** para obter mais informações sobre como trabalhar com **Camadas**.
 
-4 — Wróć do **palety Materiały** i zaimportuj materiał **Beton — ze szczotkowanym wykończeniem — koloryzowany 1** z folderu **Beton+asfalt** w bibliotece **Przykłady materiałów** **\(Produkcja\)**. Pamiętaj, że kliknięcie materiału spowoduje automatyczne pomalowanie wybranej geometrii i dodanie nowego materiału do biblioteki materiałów **W szkicu**.
+4 – Navegue de volta para a **paleta Materiais** e importe o material **Concreto – Acabamento escovado – Colorido 1** da pasta **Concreto+Asfalto**, na biblioteca de **Amostras de material** **\(Produção\)**. Observe que, ao clicar no material, a geometria selecionada será automaticamente pintada e o novo material será adicionado à biblioteca de materiais **No esboço**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Uwaga:**_ _malowanie grupy poza_ _**trybem edycji grupy**_ _jest przydatną techniką umożliwiającą malowanie różnych wystąpień tej samej grupy przy użyciu różnych materiałów._
+_**Observação:**_ _Pintar um grupo fora do_ _**Modo de edição de grupos**_ _é uma técnica útil que permite pintar diferentes instâncias do mesmo grupo com diferentes materiais._
 
-## **Tworzenie dolnego tarasu**
+## **Criar o terraço inferior**
 
-1 — Na podstawie **obrazu rzutu** utwórz dolny taras jako **Prostokąt \(R\)** o długości **55 stóp i 3 cali** i szerokości **22 stóp i 7 i 3/4 cala**, a następnie wyciągnij go o 1 stopę. Umieść nowy prostokąt tak, aby znajdował się w odległości 8 i 5/8 cala od południowej krawędzi budynku głównego \(to głębokość słupów, które utworzymy później\).
+1 – Com base na **Imagem da planta**, crie o terraço inferior como um **Retângulo \(R\)** que tem **55' 3"** de comprimento e **22'-7 3/4"** de largura e faça a extrusão por 1’. Posicione o novo retângulo de forma que esteja a uma distância de 8 5/8" da aresta sul do edifício principal \(criaremos mais tarde a profundidade das colunas\).
 
-_**Uwagi:**_
+_**Notas:**_
 
-* _Sposób rysowania i wyciągania prostokątów przedstawiono w poprzednich rozdziałach._
-* _Może być konieczne włączenie lub wyłączenie opcji_ _**Przyciągaj do siatki \(SG\)**_ _, aby kliknąć_ narożnik tarasu.
+* _Consulte os capítulos anteriores para saber como desenhar e efetuar a extrusão de retângulos._
+* _Talvez seja necessário ativar ou desativar a opção __**Snap à grade \(SG\)**__ para clicar no_ canto do terraço.
 
-2 — Dokończ tworzenie tarasu dolnego:
+2 – Para finalizar o terraço inferior:
 
-1. Dodaj geometrię do **grupy \(G\)** i nazwij ją **Podłoga dolnego tarasu**.
-2. **Przesuń** grupę w górę o **2 stopy i 2 cale** od płaszczyzny terenu.
-3. Utwórz nową **Warstwę** o nazwie **Dolny taras** i dodaj do niej utworzoną grupę.
-4. Dodaj do grupy **Poziom tarasu**.
+1. **Agrupe \(G\)** a geometria e nomeie-a como **Piso do terraço inferior**.
+2. **Mova** o grupo para cima **2'-2"** do plano do chão.
+3. Crie uma nova **Camada** chamada **Terraço inferior** e adicione o grupo à camada.
+4. Adicione o **Piso do nível do terraço** ao grupo.
 
 ![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Uwaga:**_ _ta ilustracja nie przedstawia procesu tworzenia i przypisywania geometrii do grup, poziomów i warstw krok po kroku. Więcej informacji na temat tych procesów można znaleźć w poprzednich rozdziałach tego przewodnika Primer._
+_**Observação:**_ _Essa imagem não representa o processo passo a passo para criar e atribuir a geometria a grupos, níveis e camadas. Para obter mais informações sobre esses processos, consulte os capítulos anteriores deste Manual._
 
-3 — Zaimportuj materiał **Kamień &gt; Kamień — trawertyn**.
+3 – Importe o material **Pedra &gt; Pedra – Travertino**.
 
-4 — Na **palecie Materiały** znajdź zaimportowany materiał **Trawertyn** i zmodyfikuj go:
+4 – Na **paleta Materiais**, localize o material **Travertino** importado e modifique-o:
 
-1. Kliknij dwukrotnie kafelek podglądu, aby otworzyć wyskakujące okienko **Edytor materiałów**.
-2. Kliknij kafelek podglądu **Kolor**, aby otworzyć wyskakujące okienko **Edytor kolorów**.
-3. Zmień wartość w polu **War:** na **190**, aby zmienić odcień materiału na ciemniejszy.
+1. Clique duas vezes na miniatura de visualização para abrir a janela pop-up **Editor de material**.
+2. Clique na miniatura de visualização de **Cor** para abrir a janela pop-up **Editor de cores**.
+3. Altere o campo **Valor** para **190** para escurecer o matiz do material.
 
 ![](../../.gitbook/assets/14%20%282%29.png)
 
-5 — **Pomaluj** grupy **Podłoga** i **Podłoga dolnego tarasu** przy użyciu zmodyfikowanego materiału **Trawertyn**.
+5 – **Pinte** os grupos **Piso** e **Piso do terraço inferior** com o material **Travertino** modificado.
 
 ![](../../.gitbook/assets/15.jpeg)
 

@@ -1,22 +1,22 @@
-# 1.14 — Eksportowanie obrazu
+# 1.14 – Exportar imagem
 
-_W tym rozdziale wyeksportujemy obraz utworzonej w ciągu ostatnich kilku rozdziałów przekrojowej sceny perspektywicznej w wysokiej rozdzielczości._
+_Neste capítulo, exportaremos uma imagem de alta resolução da cena em perspectiva secional que criamos nos últimos capítulos._
 
-_Chociaż nie jest to wymagane do ukończenia tego rozdziału, jeśli nie zostały wykonane wszystkie czynności opisane do tej pory w tym samouczku, a chcesz eksportować obrazy w sposób podobny do tego, który przedstawiono poniżej, pobierz i otwórz plik_ _**1.14 — Export Image.axm**_ _z_ _**zestawów danych FormIt Primer Part 1**._
+_Embora não seja necessário concluir este capítulo, se você não seguiu todo o tutorial até este ponto e desejar exportar imagens semelhantes às mostradas abaixo, faça o download e abra o arquivo_ _**1.14 – Export Image.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-1 — W przypadku eksportowania obrazu zostanie wyeksportowane wszystko, co jest wyświetlane w obszarze rysunku, w postaci niemal identycznej z tą widoczną w programie FormIt. Chcemy wyeksportować obraz sceny **Section**.
+1 – Ao exportar uma imagem, o que for exibido na tela será exportado quase exatamente como você vê no FormIt. Desejamos exportar uma imagem da cena da **Seção**.
 
-1. Dlatego najpierw musimy otworzyć tę scenę za pomocą **palety Sceny**, klikając ją dwukrotnie.
-2. Na **głównym pasku menu** przejdź do opcji **Plik &gt; Eksportuj &gt; Lokalnie \(Ctrl + E\)**. Zostanie wyświetlone okno **Eksportuj plik**.
-3. W tym nowym oknie w obszarze **Opcje typu pliku** przewiń w dół i wybierz opcję **Jako obraz** \(jest to ostatnia pozycja\). W polu opcji eksportu po opcji **Ustawienie wstępne:** zmień opcję listy rozwijanej z **Rzutnia** na **4K UHD**. Spowoduje to automatyczne zdefiniowanie rozdzielczości obrazu wyjściowego, **Wymiar \(px\)**, jako **3840** x **2160** pikseli.
-4. Kliknij opcję **Eksportuj**, a zostanie wyświetlone okno **Określ plik do zapisania**.
-5. W nowym oknie wybierz położenie i nazwę do zapisania obrazu, a następnie kliknij przycisk **Zapisz**.
+1. Primeiro, precisamos abrir aquela cena na **paleta Cenas** clicando duas vezes nela.
+2. Na barra **Menu principal**, vá para **Arquivo &gt; Exportar &gt; Localmente \(Ctrl + E\)**. A janela **Exportar arquivo** será exibida.
+3. Na nova janela, em **Opções de tipo de arquivo**, role para baixo e selecione **Como imagem** \(é a última\). Na caixa de opções de exportação, após **Predefinição:**, altere a opção suspensa para **4K UHD** em vez de **Viewport**. Isso definirá automaticamente a resolução da imagem de saída, **Dimensão \(px\)**, como **3840** x **2160** pixels.
+4. Clique em **Exportar** para exibir a janela **Especifique o arquivo para salvar...**
+5. Na nova janela, navegue para selecionar a localização e o nome em que deseja salvar a imagem e, em seguida, clique em **Salvar**.
 
 ![](../../.gitbook/assets/0%20%285%29.png)
 
-2 — Jeśli chcesz porównać wyniki z dostarczonym obrazem eksportu, przejdź do folderu **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
+2 – Se você desejar comparar os resultados com a imagem de exportação fornecida, vá para **Conjunto de dados da Residência Farnsworth &gt; Arquivos de suporte &gt; Imagens**.
 
-![Dostarczony przykładowy obraz eksportu z zestawu danych Farnsworth House Data Set.](../../.gitbook/assets/1%20%2816%29.png)
+![Foi fornecida uma imagem de exportação de amostra do conjunto de dados da Residência Farnsworth.](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
 

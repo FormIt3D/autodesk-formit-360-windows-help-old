@@ -1,43 +1,43 @@
-# Zakrywanie, przeciąganie, wyciągnięcie złożone
+# Cobertura, varredura, elevação
 
-Zamknij otwarte krawędzie, wprowadź zmiany geometrii wzdłuż ścieżki krawędzi i połącz wiele profili lub krawędzi.
+Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho de arestas e conecte vários perfis ou arestas.
 
-## Zamykanie serii powierzchni
+## Para fechar uma série de faces
 
-1. W menu **Zaawansowane narzędzia geometrii** na pasku operacji kliknij narzędzie **Zakryj**. ![](../.gitbook/assets/cover-tool.png)
-2. Kliknij krawędzie obiektu, który ma zostać zakryty.
+1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Cobertura**. ![](../.gitbook/assets/cover-tool.png)
+2. Clique nas arestas do objeto que deseja cobrir.
 
 ![](../.gitbook/assets/cover_tool1.png)
 
-3. Kliknij opcję **Zakończ**.    
+3. Clique em **Concluir**    
    ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
 
-## Przeciąganie geometrii wzdłuż ścieżki
+## Para varrer a geometria ao longo de um caminho
 
-1. Za pomocą linii oznacz powierzchnię obiektu, który ma zostać wycięty. ![](../.gitbook/assets/sweep.png)
-2. Kliknij ikonę narzędzia przeciągnięcia. ![](../.gitbook/assets/sweep-tool.png)
-3. Wybierz powierzchnię, która została wcześniej oznaczona.
+1. Use uma linha para marcar a face de um objeto que você deseja cortar. ![](../.gitbook/assets/sweep.png)
+2. Clique no ícone da ferramenta de varredura. ![](../.gitbook/assets/sweep-tool.png)
+3. Selecione a face que você marcou anteriormente.
 
         ![](../.gitbook/assets/sweep2.png) 
 
-4. Wybierz krawędź, którą chcesz wyciąć.
+4. Selecione a aresta a ser recortada.
 
    ![](../.gitbook/assets/sweep3.png)
 
-5. Kliknij ikonę **Zakończ**. Oryginalny obiekt zostanie zmodyfikowany wzdłuż ścieżki przeciągnięcia. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+5. Clique no ícone **Concluir**. O objeto original é modificado ao longo do caminho de varredura. ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-## Wyciąganie złożone wielu profili lub krawędzi
+## Para elevar vários perfis ou arestas
 
-1. W menu **Zaawansowane narzędzia geometrii** na pasku operacji kliknij narzędzie **Wyciągnięcie złożone**. ![](../.gitbook/assets/loft-tool.png)
-2. Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na pierwszym obiekcie.
+1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Elevar**. ![](../.gitbook/assets/loft-tool.png)
+2. Selecione a face ou as arestas que deseja elevar no primeiro objeto.
 
    ![](../.gitbook/assets/loft1.png)
 
-3. Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na drugim obiekcie. Powtórz tę czynność dla dodatkowych obiektów.
+3. Selecione a face ou as arestas que deseja elevar no segundo objeto. Repita essa etapa para objetos adicionais.
 
    ![](../.gitbook/assets/loft2.png)
 
-4. Kliknij ikonę **Zakończ**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+4. Clique no ícone **Concluir**. ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
    ![](../.gitbook/assets/loft3.png)
 

@@ -1,26 +1,26 @@
-# Widoki prostopadłe
+# Vistas ortogonais
 
-**Wyświetl model w różnych widokach prostopadłych, w tym w widokach z góry, z boków i z dołu.**
+**Visualize o modelo em várias vistas ortogonais, incluindo superior, lateral e inferior.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Dostęp do widoków prostopadłych można uzyskać, klikając górną ikonę na ruchomym pasku narzędzi nawigacji:**
+**Você encontrará vistas ortogonais clicando no ícone superior na barra de ferramentas de navegação flutuante:**
 
 ![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Zestaw przydatnych wskazówek podczas pracy z widokami prostokątnymi:**
+**Algumas dicas úteis ao trabalhar com vistas ortogonais:**
 
-* Podczas przełączania się między widokami prostopadłymi program FormIt zachowuje poziom powiększenia w celu zachowania spójności.
-* Podczas przełączania się między widokami elewacji (przód/prawo/lewo/tył) program FormIt zachowuje wysokość podłoża w celu zachowania spójności.
-* Aby zablokować przesuwanie widoku w kierunku osi poziomej lub pionowej, podczas przesuwania w widoku prostopadłym można przytrzymać naciśnięty klawisz Shift.
-* Kierunki widoku prostopadłego są oparte na osiach globalnych. Można ponownie wyrównać osie, co spowoduje zmianę orientacji wszystkich widoków prostopadłych:
-   * Użyj skrótu SZ lub kliknij prawym przyciskiem myszy w pustej przestrzeni (poza wszelkimi geometriami):
+* Ao alternar entre vistas ortogonais, o FormIt manterá o nível de zoom para fins de consistência.
+* Ao alternar entre vistas de elevação (frontal/direita/esquerda/trás), o FormIt manterá a altura do solo para consistência.
+* É possível manter pressionada a tecla Shift ao efetuar o pan em uma vista ortogonal para bloquear o movimento Pan para o eixo horizontal ou vertical.
+* As direções da vista ortogonal são baseadas nos eixos universais. É possível realinhar os eixos, o que alterará as orientações de todas as vistas ortogonais:
+   * Use o atalho SZ ou clique com o botão direito do mouse no espaço (não sobre qualquer geometria):
    * ![](../.gitbook/assets/set-axes\_context.PNG)
-   * Ustaw początek i ustaw uchwyt na czerwonych osiach, aby wyrównać go z konkretnym kierunkiem
+   * Defina a origem e, em seguida, a alça nos eixos vermelhos para alinhá-la com uma direção significativa
    * ![](../.gitbook/assets/set-axes.PNG)
 
-**Widoki prostopadłe działają w połączeniu z innymi funkcjami programu FormIt:**
+**As vistas ortogonais funcionam em conjunto com outros recursos do FormIt:**
 
-* Zapisuj widoki elewacji jako sceny, aby móc do nich później wracać.
-* Steruj widocznością geometrii, która może przeszkadzać w widokach elewacji, za pomocą warstw.
-* Dodawaj płaszczyzny przekroju, aby tworzyć elewacje-przekroje.
+* Salve as vistas de elevação como Cenas para que você possa retornar a elas mais tarde.
+* Controle a visibilidade da geometria que pode atrapalhar as vistas de elevação usando camadas.
+* Adicione planos de corte para criar elevações de corte.

@@ -1,28 +1,28 @@
-# Warstwy
+# Camadas
 
-Za pomocą warstw możesz sterować widocznością obiektów programu FormIt.
+Use as camadas para controlar a visibilidade dos objetos do FormIt.
 
-Zobacz warstwy w działaniu, korzystając z podręcznika [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Consulte Camadas em ação ao seguir o [Manual do FormIt.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Tworzenie i nazywanie warstw
+## Criar e nomear camadas
 
-W panelu Warstwy można tworzyć warstwy i nadawać im nazwy, klikając ikonę „**+**”.
+No painel Camadas, é possível criar e nomear as camadas clicando no ícone “**+**”.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-Klikając dwukrotnie warstwę, można zmienić jej nazwę. Natomiast przez zaznaczenie lub wyczyszczenie lewego pola wyboru można przełączać widoczność jej obiektów. Za pomocą prawego pola wyboru można blokować i odblokowywać warstwy. Zablokowana warstwa będzie nadal widoczna, ale nie będzie dostępna do wyboru ani do edycji.
+É possível clicar duas vezes no nome para renomear a camada ou alternar a visibilidade de seus objetos ao marcar e desmarcar a caixa esquerda. Use a caixa de seleção à direita para bloquear e desbloquear camadas. Uma camada bloqueada ainda estará visível, mas não poderá ser selecionada ou editável.
 
-## Zarządzanie obiektami na warstwach
+## Gerenciar objetos em camadas
 
-Wybierz obiekty w obszarze rysunku, a następnie za pomocą listy rozwijanej w górnej części panelu Warstwy wskaż warstwę, na której powinny one zostać umieszczone.
+Selecione objetos na tela e, em seguida, use o menu suspenso na parte superior do painel Camadas para indicar em qual camada os objetos selecionados devem ser colocados.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-W programie FormIt nie ma pojęcia „warstwy domyślnej” ani „warstwy roboczej”. Cała nowa geometria jest tworzona w obszarze „Brak warstwy” i po wygenerowaniu obiektów należy przypisać je do warstw.
+O FormIt não tem o conceito de “padrão” ou “camada de trabalho”. Toda a nova geometria será criada em “Nenhuma camada” e você precisará reatribuir os objetos às camadas após serem gerados.
 
-Można kliknąć warstwę prawym przyciskiem myszy i wybrać opcję „Wybierz wszystkie obiekty na warstwie”, aby wybrać całą geometrię aktualnie przypisaną do tej warstwy.
+É possível clicar com o botão direito do mouse em uma camada e escolher “Selecionar todos os objetos na camada” para selecionar toda a geometria atualmente atribuída a essa camada.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-Można również zmienić kolejność warstw w panelu, przeciągając je i upuszczając w nowych położeniach. Należy pamiętać, że nie ma to wpływu na widoczność geometrii — jest to narzędzie służące wyłącznie do organizacji tego panelu.
+Também é possível reordenar as camadas no painel ao arrastar e soltá-las em uma nova posição. Observe que isso não tem impacto na visibilidade da geometria – essa é apenas uma ferramenta organizacional no painel.
 

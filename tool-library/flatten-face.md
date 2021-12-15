@@ -1,16 +1,16 @@
-# Powierzchnie: spłaszczanie
+# Faces: aplainar
 
-Za pomocą narzędzia **Spłaszcz powierzchnie** można wymusić umieszczenie dwóch lub więcej powierzchni obiektu w tej samej płaszczyźnie.
+Use a ferramenta **Aplainar faces** para forçar duas ou mais faces de objeto no mesmo plano.
 
-Po wybraniu co najmniej dwóch powierzchni obiektu można wybrać narzędzie **Spłaszcz powierzchnie** z **menu kontekstowego**. Dostęp do narzędzia **Spłaszcz powierzchnie** można również uzyskać za pomocą skrótu „**FL**”.
+Quando duas ou mais faces de objeto são selecionadas, é possível selecionar a ferramenta **Aplainar faces** no **menu de contexto**. Também é possível acessar **Aplainar faces** usando o atalho “**FL**”.
 
 ![](../.gitbook/assets/flatten_faces.png)
 
-Polecenie **Spłaszcz powierzchnie** może być przydatne jako narzędzie naprawcze, gdy powierzchnia, która powinna być płaska, stała się nieoczekiwanie płaszczyznowa \(z gładkimi krawędziami między płaszczyznami\) — w wyniku importowania danych o niższej dokładności, takich jak [modele programu SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), lub w wyniku przypadkowego przesunięcia wierzchołka bądź krawędzi, co nadało powierzchni charakter płaszczyznowy lub triangulowany.
+**Aplainar faces** pode ser útil como uma ferramenta de reparo quando uma face que deveria ser plana se torna facetada inesperadamente \(com arestas suaves entre as facetas\), ao importar dados de fidelidade inferior como [modelos do SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) ou após mover acidentalmente um vértice ou aresta que faz com que uma face seja facetada ou triangulada.
 
-Polecenia **Spłaszcz powierzchnie** można również używać jako narzędzia do projektowania w celu wyrównywania lub wydłużania kształtów. Aby to zrobić, najpierw wybierz powierzchnię prowadzącą, a następnie wybierz dodatkowe powierzchnie, które mają zostać spłaszczone do płaszczyzny pierwszej powierzchni.
+Também é possível usar **Aplainar faces** como uma ferramenta de projeto para alinhar ou estender formas. Para fazer isso, selecione primeiro uma superfície guia e, em seguida, selecione faces adicionais para aplainar para o plano da primeira superfície.
 
-Obejrzyj poniższe nagranie wideo, aby zobaczyć możliwości i przekonać się o uniwersalności funkcji **Spłaszcz powierzchnie**:
+Confira o vídeo abaixo para ver a potência e a versatilidade de **Aplainar faces**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
 

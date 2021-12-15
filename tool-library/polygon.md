@@ -1,14 +1,14 @@
-# Wielobok
+# Polígono
 
-Narzędzie Wielobok służy do rysowania wielokąta foremnego o n bokach w przestrzeni lub na innym obiekcie.
+Use a ferramenta Polígono para desenhar um polígono normal de n lados no espaço ou em outro objeto.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
-Rozpocznij rysowanie wielokąta i kliknij, aby wybrać punkt środkowy. Określ promień, rysując drugi punkt, wpisując wymiar lub naciskając klawisz **Tab**, aby wywołać okno dialogowe **Opcje narzędzia**.
+Inicie o polígono e clique para selecionar o ponto central. Especifique o raio desenhando o segundo ponto, digitando uma cota ou pressionando **Tab** para abrir a caixa de diálogo **Opções de ferramentas**.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-Okno dialogowe **Opcje narzędzia** umożliwia zmianę liczby boków i określenie promienia.
+A caixa de diálogo **Opções de ferramentas** permite alterar o número de lados e especificar um raio em particular.
 
 ![](../.gitbook/assets/image.png)
 
