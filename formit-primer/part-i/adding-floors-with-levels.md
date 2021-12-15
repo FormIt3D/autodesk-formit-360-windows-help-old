@@ -1,36 +1,36 @@
-# 1.4 - 레벨이 있는 바닥 추가
+# 1.4 — Dodawanie kondygnacji z poziomami
 
-_레벨을 사용하면 개별 바닥 기준으로 매스를 슬라이스하고 건물 매스당 총 면적을 계산할 수 있습니다. 파일이 Revit으로 변환되면 FormIt 레벨 및 해당 사용자 지정 이름이 Revit 레벨로 변환됩니다._
+_Poziomy umożliwiają tworzenie płatów brył z odniesieniami do poszczególnych kondygnacji i obliczanie powierzchni całkowitej na bryłę budynku. Poziomy programu FormIt i ich nazwy niestandardowe zostaną przekształcone w poziomy programu Revit po przekonwertowaniu pliku na format programu Revit._
 
-_마지막 섹션을 완료하지 않은 경우 **FormIt 입문서 1부 데이터세트**에서 **1.4 - Add Floors with Levels.axm** 파일을 다운로드하고 엽니다._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik**1.4 — Add Floors with Levels.axm** z folderu **FormIt Primer Part 1 Datasets**._
 
-## **레벨 작성 및 사용자화**
+## **Tworzenie i dostosowywanie poziomów**
 
-1 - 레벨을 작성하려면
+1 — Aby utworzyć poziomy:
 
-1. **팔레트 막대**에서 **레벨 팔레트**로 이동합니다.
-2. **+**\(**레벨 추가**\)를 네 번 클릭하여 네 개의 레벨을 작성합니다.
-3. 각 레벨의 현재 높이를 두 번 클릭하여 **0’-0", 2'-2", 4'-6"** 및 **17’-8"**로 수정합니다.
-4. 각 레벨의 현재 이름을 두 번 클릭하고 이름을 **지반, 테라스, 주 건물** 및 **지붕 상단**
+1. Przejdź do **palety Poziomy** na **pasku palet**.
+2. Kliknij przycisk **+** \(**Dodaj poziom**\) cztery razy, aby utworzyć cztery poziomy.
+3. Kliknij dwukrotnie bieżącą rzędną każdego poziomu, aby zmienić je na: **0’-0", 2'-2", 4’-6"** i **17’-8"**.
+4. Kliknij dwukrotnie bieżącą nazwę każdego poziomu i zmień je na: **Ground, Terrace, Main Building** i **Top of Roof.**
 
 ![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**주**:_ _**++**_ _아이콘을 클릭하여 지정된 거리와 일정한 거리를 두고 여러 레벨을 작성할 수 있습니다. 이것은 다층 건물에 유용합니다_.
+_**Uwaga**: Możesz kliknąć ikonę_ _**++**_ _w celu utworzenia wielu poziomów z określonymi i jednakowymi odstępami między nimi. Jest to przydatne w przypadku budynków wielokondygnacyjnych_.
 
-## **형상에 레벨 적용**
+## **Stosowanie poziomów do geometrii**
 
-_이전 단계에서는 레벨만 작성했습니다. 이제 이러한 레벨을 작성한 형상에 적용해 보겠습니다._
+_W poprzednich krokach tylko utworzyliśmy poziomy. Teraz możemy zastosować te poziomy do utworzonej geometrii._
 
-1 - 기존 형상에 레벨을 적용하려면
+1 — Aby zastosować poziomy do istniejącej geometrii:
 
-1. 전체 상단 테라스 매스를 두 번 클릭하여 선택합니다.
-2. **특성 팔레트**에서 **레벨 사용**을 클릭합니다. 이 단계에서는 현재 선택한 형상과 교차하는 모든 레벨이 미리 선택됩니다.
-3. 이제 현재 선택한 형상에 세 개의 레벨\(**주 건물, 테라스** 및 **지반**\)이 적용되었지만 이 연습에서는 **지반**만 적용하려고 합니다. **주 건물**과 **테라스**를 선택 취소합니다.
-4. 이 프로세스를 수행하면 **레벨별 면적** 필드에서 볼 수 있는 총 면적 계산에 대해 **지반**으로 교차된 면적만 고려됩니다.
+1. Wybierz całą bryłę górnego tarasu, klikając ją dwukrotnie.
+2. Na **palecie Właściwości** kliknij opcję **Użyj poziomów**. W tym kroku zostaną wstępnie wybrane wszystkie poziomy, które aktualnie przecinają wybraną geometrię.
+3. Obecnie wybrana geometria ma zastosowane trzy poziomy \(**Main Building, Terrace** i **Ground**\), ale w tym ćwiczeniu chcemy zastosować tylko poziom **Ground**. Anuluj zaznaczenie pól wyboru **Main Building** i **Terrace**.
+4. Ten proces zapewnia uwzględnienie w obliczeniach powierzchni całkowitej tylko powierzchni przeciętej przez poziom **Ground**, co widać w polu **Powierzchnia wg poziomu**.
 
 ![](../../.gitbook/assets/1%20%284%29.png)
 
-_**주**: 매스에 파란색 레벨 선이 표시되지 않는 경우_ _**레벨 표시**에_ _**DL**_ _을 입력합니다._
+_**Uwaga**: Jeśli na bryle nie widać niebieskich linii poziomu, wpisz_ _**DL**_ _w polu_ _**Wyświetl poziomy**._
 
 ![](../../.gitbook/assets/2%20%283%29.png)
 

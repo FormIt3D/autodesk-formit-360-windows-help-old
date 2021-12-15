@@ -1,4 +1,4 @@
-# 쉘
+# Skorupa
 
-솔리드 객체에서 지정된 폭의 "쉘"을 작성할 수 있습니다. 쉘은 매스작업 모델에서 벽을 빠르게 작성하는 데 유용합니다.
+Na podstawie obiektu bryłowego można utworzyć „skorupę” („powłokę”) o określonej szerokości. Są one przydatne do szybkiego tworzenia ścian z modelu bryłowego:
 

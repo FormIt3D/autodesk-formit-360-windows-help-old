@@ -1,69 +1,69 @@
-# 1.3 - 3D 스케치 및 면 끌기
+# 1.3 — Szkic 3D i przeciąganie powierzchni
 
-_이제 판스워스 하우스를 그릴 준비가 되었습니다. FormIt의 3D 모델링의 핵심은 선을 그려 면을 작성한 다음, 해당 면을 끌어 볼륨을 작성하는 것입니다._
+_Jesteśmy gotowi do rozpoczęcia rysowania domu pani Farnsworth. Modelowanie 3D w programie FormIt zasadniczo polega na rysowaniu linii w celu tworzenia powierzchni, a następnie przeciągania tych powierzchni w celu tworzenia kubatury._
 
- _마지막 섹션을 완료하지 않은 경우 _**FormIt Primer 1부 데이터세트**에서 __**1.3 - 3D Sketch and Drag Face.axm**__ 파일을 다운로드하고 엽니다_._
+‌ _Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.3 - 3D Sketch and Drag Face.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **선으로 면 그리기**
+## **Rysowanie powierzchni za pomocą linii**
 
-1 - 모델링 프로세스를 용이하게 하기 위해 **부동 탐색 도구막대**를 사용하여 다양한 뷰 모드 간에 전환할 수 있습니다. 이 연습에서는 **투시\(VP\)** 및 **3D 뷰\(V3\)를 사용하는 것이 좋습니다.**
+1 — Aby uprościć proces modelowania, możesz użyć **ruchomego paska narzędzi Nawigacja** do przełączania między różnymi trybami widoków. W tym ćwiczeniu zalecamy korzystanie z opcji **Perspektywa \(VP\)** i **Widok 3D \(V3\).**
 
 ![](../../.gitbook/assets/0%20%284%29.png)
 
-2 - 새로 작성된 형상은 접촉되는 그룹화되지 않은 기존 형상에 자동으로 결합되거나 "고정"됩니다. 이를 방지하기 위해 일반적으로 형상을 그룹으로 구성할 수 있습니다. 평면도에서 그룹을 작성하려면 직사각형을 두 번 클릭하여 선택한 다음, 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스하고 **그룹\(G\)**
+2 — Nowo utworzona geometria zostanie automatycznie połączona lub „sklejona” z dowolną istniejącą niepogrupowaną geometrią, z którą się styka. Aby tego uniknąć, zazwyczaj trzeba podzielić geometrię na grupy. Aby utworzyć grupę na podstawie rzutu kondygnacji, wybierz prostokąt, klikając go dwukrotnie, a następnie kliknij prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego** i wybrać opcję **Grupuj \(G\).**
 
 ![](../../.gitbook/assets/1%20%282%29.png)
 
-3 - 평면을 추적할 때 선이 그리드로 스냅되지 않도록 하려면 **주 메뉴**에서 **설정**을 클릭하고 **그리드로 스냅\(SG\)을 선택 취소합니다.**
+3 — Podczas śledzenia rzutu nie chcemy, aby linie były przyciągane do siatki, dlatego klikniemy opcję **Ustawienia** w **menu głównym** i usuniemy zaznaczenie opcji **Przyciągaj do siatki \(SG\).**
 
 ![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 - 그리기를 시작하려면 **표준 도구막대**에서 **스케치 작성**\(연필\) 아이콘을 클릭하고 **선 도구\(L\)**를 선택합니다.
+4 — Aby rozpocząć rysowanie, kliknij ikonę **Utwórz szkic** \(Ołówek\) na **pasku narzędzi Standardowy** i wybierz **narzędzie Linia \(L\)**.
 
 ![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - 먼저 가져온 이미지에 직사각형을 작성해 보겠습니다. 첫 번째 선을 작성하려면 다음을 수행합니다.
+5 — Zacznijmy od utworzenia prostokąta na zaimportowanym obrazie. Aby utworzyć pierwszą linię:
 
-1. **선 도구**를 사용하는 동안, 가져온 스케치에서 상단 테라스의 **왼쪽 상단 코너** 근처를 클릭합니다.
-2. 나타나는 빨간색 축을 따라 마우스를 이동합니다.
-3. **Tab** 키를 클릭하여 치수 **77'-4 1\8"**
+1. W **narzędziu Linia** kliknij w pobliżu **lewego górnego narożnika** górnego tarasu w zaimportowanym szkicu.
+2. Przesuń wskaźnik myszy wzdłuż wyświetlonej czerwonej osi.
+3. Kliknij klawisz **Tab**, aby wprowadzić wymiar: **77'-4 1\8".**
 
 ![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**주:** 스케치하는 동안 임시 치수가 나타날 때마다 __**Tab** 키를 누르거나 숫자를 입력하면 __**치수 대화상자**_를 열 수 있습니다.__
+_**Uwaga:** Za każdym razem, gdy podczas szkicowania pojawia się wymiar tymczasowy, możesz nacisnąć klawisz_ _**Tab** lub po prostu rozpocząć wpisywanie liczby_ _, aby otworzyć_ _**okno dialogowe Wymiar**._
 
-6 - 두 번째 선을 작성하려면 마우스를 녹색 축을 따라 아래로 이동하고 상단 테라스의 짧은 가장자리에 **28’-8**"를 입력합니다.
+6 — Aby utworzyć drugą linię, przesuń wskaźnik myszy w dół wzdłuż zielonej osi i wprowadź wartość **28’-8**” dla krótkiej krawędzi górnego tarasu.
 
-7 - 직사각형의 세 번째 모서리와 마감을 정의하려면 다음을 수행합니다.
+7 — Aby zdefiniować trzecią krawędź prostokąta i zakończyć:
 
-1. **Shift** 키를 누른 상태로 빨간색 축을 따라 마우스를 이동합니다. 빨간색 축 선이 두껍게 표시되면서 선이 이 축에 잠겼음을 나타냅니다.
-2. **Shift 키**를 누른 상태에서 처음으로 그린 점으로 마우스를 이동합니다. 클릭하여 끝점을 적용합니다.
-3. 세 번째 점은 \(A\)로 정의된 빨간색 축과 \(B\)로 정의된 녹색 축에 평행하게 자동으로 설정됩니다.
-4. 마지막으로, 직사각형 둘러싸기를 완료하려면 **Shift** 키에서 손을 떼고 첫 번째로 그린 점을 다시 클릭합니다. **Esc** 키를 두 번 눌러 스케치 도구를 종료합니다.
+1. Przesuń wskaźnik myszy wzdłuż czerwonej osi i przytrzymaj klawisz **Shift**. Linia czerwonej osi zostanie pogrubiona, aby pokazać, że jest ona zablokowana względem tej osi.
+2. Przytrzymując naciśnięty **klawisz Shift**, przesuń wskaźnik myszy do pierwszego narysowanego punktu. Kliknij, aby zatwierdzić punkt końcowy.
+3. Trzeci punkt zostanie automatycznie ustawiony równolegle do czerwonej osi zdefiniowanej przez \(A\) i zielonej osi zdefiniowanej przez \(B\).
+4. Na koniec, aby zakończyć zamykanie prostokąta, zwolnij klawisz **Shift** i kliknij ponownie pierwszy narysowany punkt. Aby zakończyć pracę z narzędziem szkicowania, naciśnij dwukrotnie klawisz **Esc**.
 
-_**주:**_ _빨간색 축과 녹색 축은 그리드에 평행하고 수직을 유지합니다. 표준 축에서 선을 그리는 경우 자주색 축 선을 사용하면 축에서 벗어난 선에 대해 90도를 유지할 수 있습니다._
+_**Uwaga:**_ _Osie czerwona i zielona zapewniają równoległość i prostopadłość względem siatki. Podczas rysowania linii poza osiami globalnymi fioletowa linia osi umożliwia zachowanie kąta 90 stopni względem linii poza osią._
 
 ![](../../.gitbook/assets/5%20%282%29.png)
 
-## **면을 끌어 볼륨 작성**
+## **Przeciąganie powierzchni w celu utworzenia kubatury**
 
-1 - 방금 그린 윤곽 내부를 한 번 클릭하여 면을 선택합니다. 그러면 자동으로 **면 끌기** 도구로 이동됩니다.
+1 — Kliknij raz wewnątrz właśnie narysowanego zarysu, aby wybrać powierzchnię. Automatycznie przejdziesz do narzędzia **Przeciągnij powierzchnię**.
 
-2 - 한 번 더 클릭하여 끌기를 시작합니다. 마우스를 위로 \(양의 Z축을 따라\) 이동하여 해당 방향으로 볼륨을 돌출시킵니다. **12'-2"**를 입력하기 시작하면 이 값이 입력된 치수 상자가 나타납니다. 그러면 **Enter** 키를 누릅니다.
+2 — Kliknij ponownie, aby rozpocząć przeciąganie. Przesuń wskaźnik myszy w górę \(wzdłuż dodatniej osi Z), aby wyciągnąć kubaturę w tym kierunku. Zacznij wpisywać wartość **12'-2"**. Zostanie wyświetlone pole wymiaru z tą wartością. Następnie naciśnij klawisz **Enter**.
 
 ![](../../.gitbook/assets/6%20%283%29.png)
 
-_**주:**_ ___한 번 클릭__하면 단일 면만 선택되지만 __두 번 클릭__하면 \(그룹화되지 않은\) 인접 모서리와 면이 모두 선택됩니다._
+_**Uwaga:**_ _Pojedyncze_ _kliknięcie_ _spowoduje wybranie tylko jednej powierzchni, podczas gdy_ _dwukrotne kliknięcie_ _spowoduje wybranie wszystkich \(niezgrupowanych\) sąsiadujących krawędzi i powierzchni._
 
-## **호, 스플라인 및 원을 사용한 3D 스케치**
+## **Szkicowanie 3D za pomocą łuku, splajnu i okręgu**
 
-_다음 연습은 집을 완성하는 데 중요하지 않습니다. 그러나 사용 가능한 다른 3D 스케치 도구 중 일부를 사용하여 실험해볼 수 있습니다. __**여기**__를 클릭하여 표준 축을 사용한 3D 스케치에 대해 자세히 알아보십시오._
+_Poniższe ćwiczenie nie jest istotne dla wykończenia domu. Pozwoli jednak wypróbować inne dostępne narzędzia szkicowania 3D. Kliknij_ _**tutaj**_ _, aby dowiedzieć się więcej na temat szkicowania 3D za pomocą osi globalnych._
 
-1 - **3개의 호 점으로 호 생성\(A\)** 도구를 선택합니다. 클릭하여 시작점과 끝점을 차례로 정의합니다. 세 번째로 클릭하면 호의 반지름이 정의됩니다.
+1 — Wybierz narzędzie **Łuk przez trzy punkty łuku \(A\)**. Kliknij, aby zdefiniować początek, a następnie punkt końcowy. Trzecie kliknięcie definiuje promień łuku.
 
-2 - **스플라인\(S\)** 도구를 선택합니다. 클릭하여 스플라인을 그리기 위한 점의 수를 정의합니다.
+2 — Wybierz narzędzie **Splajn \(S\)**. Kliknij, aby zdefiniować dowolną liczbę punktów w celu narysowania splajnu.
 
-3 - **원\(C\)** 도구를 선택합니다. 마우스 커서를 올려 놓은 후 클릭하여 원의 중심점을 정의합니다. 클릭하고 끌거나 치수를 입력하여 반지름을 정의합니다.
+3 — Wybierz narzędzie **Okrąg \(C\)**. Ustaw kursor i kliknij, aby zdefiniować punkt środkowy okręgu. Kliknij i przeciągnij lub wprowadź wymiar, aby zdefiniować promień.
 
 ![](../../.gitbook/assets/7%20%287%29.png)
 

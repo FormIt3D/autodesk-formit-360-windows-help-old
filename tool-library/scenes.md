@@ -1,6 +1,6 @@
-# 장면
+# Sceny
 
-'장면' 뷰포트와 관련 비주얼 스타일 및 레이어 상태를 저장한 다음, 이를 사용하여 카메라 점을 설정해 보행 시선을 조종하고 시각적 스토리를 전달할 수 있습니다.
+Punkt obserwacji „sceny” oraz powiązane z nim style wizualne i stany warstw można zapisać, a następnie można za ich pomocą ustawiać punkty kamery w celu sterowania animacjami i opowiadania wizualnej historii.
 
-[여기](../formit-primer/part-i/visual-settings.md)에서 장면 사용에 대해 자세히 알아보십시오.
+Dowiedz się więcej na temat korzystania ze scen [tutaj](../formit-primer/part-i/visual-settings.md).
 

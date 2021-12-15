@@ -1,14 +1,14 @@
-# 배열
+# Szyk
 
-FormIt에서 선형 및 방사형 배열을 모두 작성할 수 있습니다. **모서리, 면 또는 전체 객체를 배열**하려면 상황에 맞는 메뉴에서 배열 아이콘을 클릭합니다. 그런 다음, 선형 또는 방사형을 선택하고 다른 매개변수를 지정한 후, 객체를 클릭하여 배열을 시작합니다. 다시 클릭하여 배열된 요소를 배치합니다.
+W programie FormIt można tworzyć szyki liniowe i promieniowe. Aby **ustawić w szyku krawędzie, powierzchnie lub całe obiekty**, kliknij ikonę Szyk w menu kontekstowym. Następnie wybierz opcję Liniowe lub Promieniowe, określ inne parametry i kliknij obiekt, aby rozpocząć szyk. Kliknij ponownie, aby umieścić elementy w szyku.
 
-## 단위
+## Liniowy
 
 ![](../.gitbook/assets/array.png)  
 ![](../.gitbook/assets/array_linear2.png)  
 ![](../.gitbook/assets/linear_array_3.png)
 
-## 반지름
+## Promieniowy
 
 ![](../.gitbook/assets/array_radial1.png)  
 ![](../.gitbook/assets/radial_array2.png)  

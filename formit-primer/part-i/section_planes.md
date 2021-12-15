@@ -1,40 +1,40 @@
-# 1.13 - 단면 평면
+# 1.13 — Płaszczyzny przekroju
 
-_이 장에서는 __**단면 평면**__을 사용하여 모델을 절단하고 내부 공간 및 구조 요소를 표시하는 방법을 알아봅니다. FormIt은 단면 상자와 같은 효과를 위해 여러 개의_ _**단면 평면**__을 한 번에 지원합니다._
+_Z tego rozdziału dowiesz się, jak używać_ _**płaszczyzn przekroju**_ _do cięcia modelu, odsłaniania pomieszczeń wewnętrznych i elementów konstrukcyjnych. Program FormIt obsługuje jednocześnie wiele_ _**płaszczyzn przekroju**_ _w celu uzyskania efektu przypominającego zakres przekroju._
 
-_이전 장을 완료하지 않은 경우_ _**1. 13 - Section Planes.axm**_ _파일을_ _**FormIt 입문서 1부 데이터세트**에서 다운로드하여 여십시오._
+_Jeśli poprzedni rozdział nie został ukończony, pobierz i otwórz plik_ _**1. 13 — Section Planes.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-1 - 새 단면 평면을 작성하려면
+1 — Tworzenie nowej płaszczyzny przekroju:
 
-1. **표준 도구막대**에서 **단면 평면\(SP\)** 버튼을 클릭합니다.
-2. 모델 위에 마우스 커서를 놓으면 참조로 사용할 평면을 식별할 수 있습니다. **단면 평면**의 코너에 있는 화살표는 단면 절단 방향을 나타냅니다. 필요한 경우 **Tab** 키를 눌러 다른 평면으로 전환합니다.
-3. **단면 평면**의 아무 곳이나 클릭하여 주 건물의 남쪽 유리 벽에 배치합니다. 평면은 모델 크기에 맞게 축척되고 선택된 상태로 유지됩니다.
+1. Kliknij przycisk **Płaszczyzna przekroju \(SP\)** na **standardowym pasku narzędzi**.
+2. Ustaw kursor na modelu, aby zidentyfikować płaszczyznę, która ma służyć jako odniesienie. Zwróć uwagę na strzałki w narożnikach **płaszczyzny przekroju**, które wskazują kierunek cięcia przekroju. Naciśnij klawisz **Tab**, aby w razie potrzeby przełączać się między różnymi płaszczyznami.
+3. Kliknij, aby umieścić **płaszczyznę przekroju** w dowolnym miejscu na południowej ścianie szklanej budynku głównego. Płaszczyzna zostanie przeskalowana do rozmiaru modelu i pozostanie wybrana.
 
-![유리 벽 위에 마우스 커서를 놓았을 때 표시되는 단면 평면 미리보기](../../.gitbook/assets/0%20%286%29.png)
+![Podgląd płaszczyzny przekroju po umieszczeniu wskaźnika myszy na ścianie szklanej.](../../.gitbook/assets/0%20%286%29.png)
 
-![배치된 후 축척된 단면 평면](../../.gitbook/assets/1%20%2819%29.png)
+![Przeskalowana płaszczyzna przekroju po umieszczeniu.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - 단면 평면을 선택한 상태에서 클릭하여 아래 이미지와 유사하게 주 건물의 일부를 절단할 때까지 뒤로 이동합니다. 이는 단면 평면이 향하고 있는 방향에 수직인 축을 따라서만 이동할 수 있다는 점을 제외하고, 모델 요소를 이동하는 것과 유사하게 작동합니다. 위치가 만족스러우면 **Esc** 키를 눌러 선택을 취소합니다.
+2 — Przy nadal wybranej płaszczyźnie przekroju kliknij, aby rozpocząć przesuwanie jej do tyłu, aż przetnie część budynku głównego, jak na poniższej ilustracji. Działa to podobnie do przesuwania dowolnego elementu modelu, ale płaszczyzna przekroju może się przesuwać tylko wzdłuż osi prostopadłej do kierunku, w którym jest skierowany jej front. Po uzyskaniu zadowalającego położenia naciśnij klawisz **Esc**, aby anulować wybór.
 
 ![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**주:**_ _한 번에 최대 6개의 단면 절단을 모델에 추가할 수 있습니다._
+_**Uwaga:**_ _Do modelu można dodać jednocześnie maksymalnie 6 przekrojów._
 
-3 - **레이어** **팔레트**를 엽니다. 2개의 새 레이어 **단면 표시기** 및 **단면 절단 1**이 생성되었습니다.
+3 — Otwórz **paletę** **Warstwy**. Zauważ, że wygenerowano dwie \(2\) nowe warstwy — **Wskaźniki przekroju** i **Cięcie przekroju 1**.
 
-1. **단면 절단 1** 레이어를 껐다가 다시 켭니다. 이렇게 하면 단면이 모델을 절단하는지 여부를 제어할 수 있습니다.
-2. 이제 **단면 표시기** 레이어를 끕니다. 이렇게 하면 단면 평면과 해당 화살표 표시기가 숨겨지지만 실제 단면 절단의 활성 여부는 영향을 받지 않습니다.
+1. Włącz i wyłącz warstwę **Cięcie przekroju 1**. Steruje to tym, czy przekrój przecina model.
+2. Teraz wyłącz warstwę **Wskaźniki przekroju**. Powoduje to ukrycie płaszczyzny przekroju i jej wskaźników w postaci strzałek, ale nie wpływa na to, czy samo cięcie przekroju jest aktywne, czy nie.
 
 ![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - **비주얼 스타일** **팔레트**의 **표면 탭**에서:
+4 — Na **karcie Powierzchnia** na **palecie** **Style wizualne**:
 
-1. **지면 횡단면 색상** 옆에 있는 확인란을 선택하여 켭니다. 이 효과는 단면 평면에 의해 절단된 모든 솔리드에 지정된 색상을 지정합니다. 검은색이 기본 색상이지만 색상 미리보기를 클릭하여 변경할 수 있습니다.
-2. **그림자\(DS\)**를 끕니다.
+1. Zaznacz pole wyboru obok opcji **Kolor wypełnienia**, aby ją włączyć. Efekt ten spowoduje pokolorowanie wszystkich brył przeciętych przez płaszczyznę przekroju określonym kolorem. Domyślnym kolorem jest kolor czarny, ale wystarczy kliknąć podgląd koloru, aby go zmienić.
+2. Wyłącz opcję **Cienie \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - 단면을 마무리하려면 **장면 팔레트**로 이동하고 **단면**이라는 새 장면을 작성하고 현재 **카메라** 위치, **레이어** 가시성 및 **비주얼 스타일** 설정을 저장합니다.
+5 — Aby zakończyć tworzenie przekroju, przejdź do **palety Sceny** i utwórz nową scenę o nazwie **Section**, zapisując bieżącą pozycję **kamery**, widoczność **warstw** i ustawienia **stylów wizualnych**.
 
 ![](../../.gitbook/assets/5%20%287%29.png)
 

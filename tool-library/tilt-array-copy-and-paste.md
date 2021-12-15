@@ -1,31 +1,31 @@
-# 면: 경사 및 깎인면/부드러움
+# Powierzchnie: pochylanie i spłaszczanie/wygładzanie
 
-## 면 작업: 경사 및 깎인면/부드러움
+## Praca z powierzchniami: pochylanie i spłaszczanie/wygładzanie
 
-모양을 스케치하거나 원형을 배치한 후 보다 복잡한 설계를 작성하려면 여러 상황별 도구를 사용하여 형상을 수정할 수 있습니다. 경사, 배열, 복사 및 붙여넣기가 이러한 작업에 포함됩니다.
+Aby tworzyć bardziej złożone projekty po naszkicowaniu kształtu lub umieszczeniu prymitywu, można modyfikować geometrię za pomocą kilku narzędzi kontekstowych. Te operacje obejmują polecenia Pochyl, Szyk oraz Kopiuj i Wklej.
 
-### 경사 면
+### Pochylanie powierzchni
 
-**면을 기울이려면**
+**Pochylanie powierzchni:**
 
-1. 면을 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다.
-2. 상황에 맞는 메뉴에서 **경사** 아이콘을 선택합니다.
-3. 선을 그려 경사 축을 정의합니다.
-4. 세 번째 점을 클릭하여 경사 작업을 시작합니다.
+1. Wybierz powierzchnię i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Wybierz ikonę **Pochyl** z menu kontekstowego.
+3. Zdefiniuj oś pochylenia, rysując linię.
+4. Kliknij trzeci punkt, aby rozpocząć operację pochylania.
 
 ![](../.gitbook/assets/tilt_face.png)  
 ![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### 깎인면/부드러운 면
+### Spłaszczanie/wygładzanie powierzchni
 
-면 위에 마우스 커서를 놓았는데 점선이 보이면, 면이 변형되기 때문에 더 작은 면으로 구성되어 있다는 것을 의미합니다. **점선을 모델 모서리로 변환하려면** 다음을 수행합니다.
+Jeśli po umieszczeniu kursora na powierzchni pojawiają się linie kropkowane, oznacza to, że dana powierzchnia składa się z mniejszych powierzchni, ponieważ jest zdeformowana. **Przekształcanie linii kropkowanych w krawędzie modelu:**
 
-1. 변경할 면 또는 객체를 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다.
-2. 상황에 맞는 메뉴에서 **깎인면의 부드러운 면** 도구를 선택합니다.
-3. 이전에 면이 부드러워진 곳에 모서리가 자동으로 추가됩니다.
+1. Wybierz powierzchnię lub obiekt, który chcesz zmienić, a następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Z menu kontekstowego wybierz narzędzie **Powierzchnie wygładzone płaszczyzną**.
+3. W miejscu, w którym powierzchnia była wcześniej gładka, zostaną automatycznie dodane krawędzie.
 
-이 명령은 반대로도 작동합니다. 깎인면에 해당하는 면을 선택하고 상황에 맞는 메뉴에서 **깎인면의 부드러운 면** 도구를 선택하여 모서리를 숨기고 면을 부드럽게 만들 수 있습니다.
+To polecenie działa też w odwrotny sposób: można również wybrać powierzchnie mające wiele płaszczyzn i wybrać narzędzie **Powierzchnie wygładzone płaszczyzną** z menu kontekstowego, aby ukryć krawędzie i wygładzić powierzchnie.
 
 ![](../.gitbook/assets/smooth_face.png)  
 ![](../.gitbook/assets/smoothed_face.png)

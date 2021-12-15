@@ -1,90 +1,90 @@
-# 메쉬
+# Siatki
 
-FormIt은 17.0 버전부터 새로운 유형의 형상인 메쉬를 제공합니다.
+Począwszy od wersji 17.0, program FormIt oferuje nowy typ geometrii: Siatki.
 
-메쉬는 표준 FormIt 객체의 단순한 표현으로, 가구와 같은 높은 다각형 형상의 성능이나 사람, 나무, 자동차 및 표지판과 같은 3D 환경을 개선하는 데 매우 유용합니다. 또한 메쉬는 FormIt의 성능에 영향을 줄 수 있는 복잡한 DWG 형상에도 적합합니다.
+Siatki to lekkie reprezentacje standardowych obiektów programu FormIt, które doskonale zwiększają wydajność geometrii wieloboków, takich jak meble lub elementy otoczenia 3D, na przykład ludzie, drzewa, samochody i oznakowanie. Siatki są również przydatne w przypadku złożonej geometrii DWG, która bez nich mogłaby mieć wpływ na wydajność programu FormIt.
 
-객체를 메쉬로 변환할 수 있으며, 데이터 손실 없이 메쉬를 객체로 다시 변환할 수 있습니다. 일부 파일 형식은 OBJ, STL 및 DWG와 같은 메쉬로 자동으로 가져오기됩니다. 아래에서 메쉬의 유형 간 변환과 기타 이점 및 제한 사항에 대해 자세히 알아보십시오.
+Obiekty można przekształcać w siatki, a siatki można przekształcać z powrotem w obiekty bez utraty danych. Niektóre typy plików są automatycznie importowane jako siatki, na przykład OBJ, STL i DWG. Poniżej znajdziesz więcej informacji na temat przekształcania typów oraz innych korzyści i ograniczeń dotyczących siatek.
 
-### 객체를 메쉬로 변환
+### Przekształcanie obiektów w siatki
 
-정점, 모서리, 면 또는 솔리드 본체의 조합은 메쉬로 변환할 수 있습니다.
+Dowolną kombinację wierzchołków, krawędzi, powierzchni lub brył można przekształcić w siatkę.
 
-객체를 선택하고 바로 가기 OM\(객체를 메쉬로\)을 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 객체를 메쉬로를 선택하면 됩니다.
+Wystarczy wybrać obiekty i użyć skrótu OM \(Obiekty na siatki\) lub kliknąć prawym przyciskiem myszy i wybrać opcję Obiekty na siatki w menu kontekstowym:
 
 ![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-객체가 메쉬로 변환되면 화면 상단에 확인 메시지가 표시됩니다.
+Po przekształceniu obiektów w siatki na górze ekranu zostanie wyświetlony komunikat potwierdzający:
 
 ![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**객체를 메쉬로 변환할 때:**
+**Podczas przekształcania obiektów w siatki**
 
-* 객체에서 부드럽게 처리된 모서리는 결과 메쉬에서 부드럽게 유지됩니다.
-* 객체의 재료 방향은 결과 메쉬에서 변경되지 않고 유지됩니다.
-* 적용된 모든 재료에 대해 메쉬가 작성됩니다. 예를 들어 6가지 색상으로 페인팅된 단일 정육면체를 변환하면 6개의 서로 다른 메쉬가 작성됩니다.
-   * 객체로 다시 변환하면 개별 메쉬가 솔리드 본체로 다시 밀봉됩니다.
-* 솔리드 본체를 선택하면 전체 본체가 변환되고 메쉬로 대체되지만 솔리드가 소유한 개별 모서리 또는 정점을 선택하면 원래 본체에 영향을 주지 않고 기존 형상 위에 새 메쉬가 작성됩니다.
-* 모서리 또는 정점 세트를 변환하면 단일 Linemesh\(모서리로 구성된 메쉬\) 또는 단일 Pointmesh\(점으로 구성된 메쉬\)가 작성됩니다. 이는 단일 메쉬로 결합되면 개별 모서리나 정점을 선택할 수 없음을 의미합니다. 단일 요소의 위치를 조정하려면 객체로 다시 변환합니다.
+* Krawędzie, które zostały wygładzone na obiektach, pozostaną wygładzone w powstałych siatkach.
+* Orientacje materiałów na obiektach pozostaną niezmienione w powstałych siatkach.
+* Dla każdego zastosowanego materiału jest tworzona siatka. Na przykład w przypadku przekształcania pojedynczego sześcianu pomalowanego 6 różnymi kolorami otrzymamy 6 różnych siatek.
+   * Przekształcenie z powrotem w obiekt spowoduje ponowną zamianę poszczególnych siatek w bryłę.
+* Wybranie bryły spowoduje przekształcenie i zastąpienie całej bryły siatką, ale wybranie pojedynczych krawędzi lub wierzchołków należących do bryły spowoduje utworzenie nowej siatki na istniejącej geometrii bez wpływu na oryginalną bryłę.
+* Przekształcenie zestawu krawędzi lub wierzchołków spowoduje utworzenie pojedynczej siatki liniowej \(siatki złożonej z krawędzi\) lub pojedynczej siatki punktów \(siatki złożonej z punktów\), co oznacza, że nie będzie można wybrać poszczególnych krawędzi lub wierzchołków po ich połączeniu w jedną siatkę. Aby dopasować położenie pojedynczego elementu, należy przekształcić je z powrotem w obiekty.
 
-**그룹화된 형상을 메쉬로 변환:**
+**Przekształcanie zgrupowanej geometrii w siatki:**
 
-* 전체 그룹 및 내포된 모든 그룹을 메쉬로 변환할 수 있을 때 메쉬는 훨씬 강력해집니다.
-* 그룹 및 내포된 컨텐츠는 플러그인을 사용하여 그룹으로 변환할 수 있습니다.
-   * 응용프로그램 오른쪽에서 Plugin Manager 아이콘을 찾습니다.
+* Siatki dają jeszcze więcej możliwości po przekształceniu całej grupy i wszystkich jej zagnieżdżonych grup.
+* Grupy i ich zagnieżdżone elementy można przekształcić w siatki za pomocą wtyczki:
+   * Znajdź ikonę narzędzia Plugin Manager po prawej stronie aplikacji:
       * ![](../.gitbook/assets/plugin-manager_icon.PNG)
-   * "Mesh + Unmesh All" 플러그인을 찾은 후 확인란을 클릭하여 설치합니다.
+   * Znajdź wtyczkę „Mesh + Unmesh All” i kliknij pole wyboru, aby ją zainstalować:
       * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
-   * Mesh + Unmesh All 플러그인이 로드됩니다. 메쉬로 변환할 객체가 포함된 그룹을 선택하고 Mesh All을 클릭하면 됩니다.
+   * Zostanie wczytana wtyczka Mesh + Unmesh All. Wystarczy wybrać grupę zawierającą obiekty, które mają zostać przekształcone w siatki, a następnie kliknąć opcję Mesh All.
       * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
-   * 이 플러그인을 사용하여 중첩된 객체 또는 메쉬를 변환할 때 화면 상단에 작업의 영향을 받은 그룹의 수 및 그룹의 인스턴스(instance) 수를 나타내는 업데이트 메시지가 표시됩니다.
+   * Podczas przekształcania obiektów zagnieżdżonych lub siatek za pomocą tej wtyczki na górze ekranu będzie wyświetlany komunikat dotyczący aktualizacji z informacjami o liczbie grup i wystąpień grup, na które miała wpływ operacja:
 
 ![](../.gitbook/assets/success_mesh-all.PNG)
 
-### 메쉬와 상호 작용
+### Interakcja z siatkami
 
-**메쉬는 경량이므로 다음과 같은 특정 제한 사항 및 동작이 적용됩니다.**
+**Ze względu na ich lekką naturę siatki mają określone ograniczenia i zachowania:**
 
-* 메쉬의 개별 면, 모서리 또는 정점은 편집할 수 없습니다.
-   * 그러나 다양한 재료가 면에 적용되어 작성된 메쉬를 다시 페인트하고 개별 메쉬를 이동할 수 있습니다\(위 참고\).
-* 메쉬로 스냅은 메쉬의 면과 정점으로 제한됩니다. 성능상의 이유로 스냅 및 추정은 메쉬의 모서리에 작동하지 않습니다.
-   * 그러나 메쉬\(Linemesh로 알려진 다른 유형의 메쉬\)로 변환된 DWG 파일은 메쉬 모서리에 스냅하고 추정하는 기능을 유지합니다.
-* 메쉬에는 레벨을 적용할 수 없습니다.
-* 메쉬는 수밀 또는 뒷면 문제를 보고하지 않습니다. 메쉬를 객체로 다시 변환하여 객체가 수밀인지 여부를 확인합니다.
-   * 메쉬로 변환되기 전에 수밀이었던 객체는 객체로 다시 변환될 때 수밀 상태를 유지합니다.
-* 솔리드 결합/절단, 3D 쉘, 3D 간격띄우기, 모깎기, 로프트, 스윕 또는 피복과 같은 고급 모델링 작업에는 메쉬를 사용할 수 없습니다.
+* Nie można edytować poszczególnych powierzchni, krawędzi ani wierzchołków siatki.
+   * Można jednak ponownie malować siatki i przesuwać poszczególne siatki utworzone w wyniku zastosowania do powierzchni innych materiałów \(patrz wyżej\).
+* Przyciąganie do siatek jest ograniczone do ich powierzchni i wierzchołków. Ze względu na wydajność przyciąganie i wnioskowanie nie działa z krawędziami siatek.
+   * Jednak pliki DWG przekształcone w siatki \(inny typ siatki zwany siatką liniową\) zachowują możliwość przyciągania i wnioskowania w przypadku krawędzi siatki.
+* Do siatek nie można stosować poziomów.
+* Siatki nie zgłaszają problemów ze szczelnością ani tylnymi powierzchniami. Aby sprawdzić, czy siatki są szczelne, należy przekształcić je z powrotem w obiekty.
+   * Obiekty, które były szczelne przed przekształceniem w siatkę, po przekształceniu z powrotem w obiekt pozostają szczelne.
+* Siatek nie można używać w zaawansowanych operacjach modelowania, takich jak łączenie/docinanie brył, skorupa 3D, odsunięcie 3D, zaokrąglenie, wyciągnięcie złożone, przeciągnięcie lub zakrywanie.
 
-그렇지 않으면 메쉬가 표시되고 다른 FormIt 객체처럼 동작합니다. 즉, 그룹에 배치되고 레이어에 지정되고 장면에 시각화되거나 해석에 사용됩니다.
+W przeciwnym razie siatki są wyświetlane i zachowują się tak samo jak wszystkie pozostałe obiekty programu FormIt: umieszczone w grupach, przypisane do warstw, wizualizowane w scenach, używane do analizy itp.
 
-**툴팁에서 "메쉬에서"를 보고하거나 특성 패널에서 메쉬를 보고하면 메쉬와 상호 작용하고 있는 것입니다.**
+**Jeśli na etykietce narzędzia jest wyświetlana informacja „Na siatce” lub w panelu Właściwości jest wyświetlana informacja o siatce, wiesz, że masz do czynienia z siatką:**
 
 ![](../.gitbook/assets/snap_on-mesh.PNG)
 
 ![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**일부 파일 형식은 성능을 향상하기 위해 자동으로 메쉬로 가져오기됩니다.**
+**Niektóre typy plików są automatycznie importowane jako siatki w celu zwiększenia wydajności:**
 
-* 다른 응용프로그램의 점 구름과 같이 조밀한 형상을 포함할 수 있는 STL 및 OBJ 파일은 자동으로 메쉬로 가져오기됩니다.
-* 고품질 곡선에 수백만 개의 작은 모서리 세그먼트를 포함할 수 있는 DWG 파일은 자동으로 메쉬로 가져오기됩니다.
+* Pliki STL i OBJ, które mogą zawierać gęstą geometrię, na przykład chmury punktów z innych aplikacji, są automatycznie importowane jako siatki.
+* Pliki DWG, które mogą zawierać miliony małych segmentów krawędzi na krzywych o wysokiej jakości, są automatycznie importowane jako siatki.
 
-### 메쉬를 객체로 다시 변환
+### Przekształcanie siatek z powrotem w obiekty
 
-메쉬를 선택하고 바로 가기 MO\(메쉬를 객체로\)를 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 메쉬를 객체로를 선택하면 됩니다.
+Wystarczy wybrać siatki, a następnie użyć skrótu MO \(Siatki na obiekty\) lub kliknąć prawym przyciskiem myszy i wybrać z menu kontekstowego opcję Siatki na obiekty:
 
 ![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-객체가 메쉬로 변환되면 화면 상단에 확인 메시지가 표시됩니다.
+Po przekształceniu obiektów w siatki na górze ekranu zostanie wyświetlony komunikat potwierdzający:
 
 ![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**메쉬를 다시 객체로 변환할 때:**
+**Podczas przekształcania siatek z powrotem w obiekty:**
 
-* 메쉬로 변환되기 전에 이전에 솔리드/수밀이었던 모든 객체는 객체로 다시 변환될 때 수밀 솔리드에 다시 결합됩니다.
-* 일련의 모서리\(예: DWG 파일에 포함\) 또는 일련의 정점\(예: 점 구름에 포함\)을 메쉬로 변환한 다음 되돌리면 메쉬되지 않은 객체가 그룹에 자동으로 추가됩니다.
-   * 이렇게 하면 새 모서리나 정점이 다른 형상과 병합되지 않으므로 역효과가 나타나고 성능이 영향을 받을 수 있습니다.
-   * 결과 그룹을 해제하여 모서리 및/또는 정점을 해제하기만 하면 됩니다.
+* Wszystkie obiekty, które przed przekształceniem w siatkę były szczelne lub miały postać bryły, podczas przekształcania z powrotem w obiekt zostaną ponownie połączone w szczelną bryłę.
+* Przekształcenie serii krawędzi \(na przykład z pliku DWG\) lub serii wierzchołków \(na przykład z chmury punktów\) w siatkę i z powrotem spowoduje automatyczne umieszczenie obiektów bez siatki w grupie.
+   * Zapobiega to scalaniu nowych krawędzi lub wierzchołków z inną geometrią, co mogłoby mieć negatywny wpływ na wydajność.
+   * Aby zwolnić krawędzie i/lub wierzchołki, można po prostu usunąć grupowanie powstałej grupy.
 
-**그룹화된 메쉬를 객체로 다시 변환:**
+**Przekształcanie zgrupowanych siatek z powrotem w obiekty:**
 
-* 위의 지침에 따라 메쉬 + 전체 메쉬 플러그인을 사용하여 그룹 및 내포된 메쉬를 객체로 다시 변환합니다.
+* Aby użyć wtyczki Mesh + Unmesh All w celu przekształcenia grup i ich zagnieżdżonych siatek z powrotem w obiekty, zapoznaj się z powyższymi instrukcjami.
 

@@ -1,67 +1,67 @@
-# 1.12 - 비주얼 스타일
+# 1.12 — Style wizualne
 
-_개념 매스 모델링은 FormIt이 제공해야 하는 기능의 절반에 불과합니다. 나머지 절반은 고객 또는 팀 구성원에게 스토리를 전달하는 데 유용한 멋진 그래픽입니다. 이 장에서는_ _**그래픽 비주얼 스타일**_ _을 설정하고 애니메이션을 작성하는 방법을 알아봅니다._
+_Modelowanie brył koncepcyjnych to tylko połowa możliwości oferowanych przez program FormIt. Druga połowa to piękne grafiki, które pomagają przedstawić opowieść klientowi lub członkowi zespołu. W tym rozdziale omówiono sposoby konfigurowania_ _**graficznych stylów wizualnych**_ _i tworzenia animacji._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.12 - Visual Styles.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.12 – Visual Styles.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **애니메이션 작성**
+## **Tworzenie animacji**
 
-_다음 단계에서는 __**장면**__을 사용하여 애니메이션을 작성하는 방법을 알아봅니다._
+_W ramach następnych kroków dowiemy się, jak tworzyć animacje za pomocą_ _**Scen**_ _._
 
-1 - 첫 번째 **장면**을 작성하려면 다음을 수행합니다.
+1 — Aby utworzyć pierwszą **scenę**:
 
-1. **지형**, **평면 이미지** 및 **매스작업**을 제외한 모든 레이어를 켭니다.
-2. 카메라 모드가 **투시\(VP\)**로 설정되어 있는지 확인하고 아래 이미지와 유사하게 약간 위에서 집 전체를 바라보도록 카메라를 배치합니다.
-3. **장면 팔레트**를 엽니다.
-4. **+** 아이콘을 클릭하여 현재 뷰에서 새 장면을 작성합니다.
-5. 이름을 **공중 뷰 1**로 바꾸고 다른 **장면 특성**을 아래 이미지에 표시된 것과 일치시킵니다.
+1. Włącz wszystkie warstwy z wyjątkiem warstw **Terrain**, **Plan Image** i **Massing**.
+2. Upewnij się, że jako tryb kamery ustawiono opcję **Perspektywa \(VP\)**, i skieruj kamerę tak, aby jej pole widzenia obejmowało cały dom z nieznacznie podwyższonej pozycji, podobnie jak na poniższym rysunku.
+3. Otwórz **paletę Sceny**.
+4. Kliknij ikonę **+**, aby utworzyć nową scenę z bieżącego widoku.
+5. Zmień jego nazwę na **Aerial View 1** i dopasuj pozostałe **Właściwości sceny** do tego, co pokazano na poniższym rysunku.
 
 ![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - 두 번째 **장면**을 작성한 다음, 장면 간에 애니메이션 효과를 넣으려면 다음을 수행합니다.
+2 — Aby utworzyć drugą **scenę**, a następnie dodać animację między nimi:
 
-1. 집을 다른 각도에서 보도록 카메라의 위치를 새로 조정합니다. 이전 단계에서 수행한 것과 동일한 프로세스를 사용하여 **공중 뷰 2**라는 새 **장면**을 작성합니다.
-2. **재생** 버튼을 클릭합니다. **일시 정지 시간**을 **2초**로 설정하면 애니메이션이 두 장면 사이에서 천천히 앞뒤로 이동하기 시작합니다. 이 동작은 **중지** 버튼을 클릭하여 애니메이션을 중지할 때까지 계속됩니다.
+1. Dostosuj kamerę do nowego położenia, tak aby oglądać dom pod innym kątem. Utwórz nową **scenę** o nazwie **Aerial View 2**, stosując ten sam proces, który przeprowadzono w poprzednim kroku.
+2. Kliknij przycisk **Odtwórz**. Po ustawieniu opcji **Czas wstrzymania** na **2 sekundy** animacja zacznie powoli poruszać się w jednym i drugim kierunku między dwoma scenami. Operacja będzie kontynuowana do momentu kliknięcia przycisku **Zatrzymaj** w celu zatrzymania animacji.
 
 ![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**주**_ _:_ _**장면 특성**하단에 있는 설정을 사용하여_ _**일시 정지 시간**,_ _**변환 시간** 및_ _**카메라 속도**_ _를 조정할 수 있습니다. 장면을 더 추가하고 이러한 설정으로 재생하여 애니메이션을 사용자 지정해 보십시오._
+_**Uwaga:**_ _Można dostosować_ _**Czas wstrzymania**,_ _**Czas przejścia** i_ _**Prędkość kamery**_ _za pomocą ustawień na dole okna dialogowego_ _**Właściwości sceny**. Spróbuj dodać więcej scen i dostosować animację, eksperymentując z wartościami tych ustawień._
 
-## **비주얼 스타일 사용자 지정**
+## **Dostosowywanie stylów wizualnych**
 
-_이제 사용자 지정된 일부 **비주얼 스타일** 설정을 사용하여 다른 장면을 작성해 보겠습니다._
+_Teraz utworzymy kolejną scenę z pewnymi dostosowanymi ustawieniami **stylów wizualnych**._
 
-1 - 먼저 **비주얼 스타일 팔레트**를 엽니다. 상단에 서로 다른 비주얼 설정이 포함된 4개의 탭이 있습니다. 각 탭은 **표면**, **모서리**, **환경** 및 **모델 진단**입니다. 각 탭에 대해 자세히 알아보려면 **도구 라이브러리** 섹션의 **비주얼 스타일** 장을 방문하십시오.
+1 — Najpierw otwórz **paletę Style wizualne**. Należy pamiętać, że u góry znajdują się cztery \(4\) karty, z których każda zawiera różne ustawienia wizualne: **Powierzchnie**, **Krawędzie**, **Środowisko** i **Diagnostyka modelu**. Aby dowiedzieć się więcej na temat każdej karty, zapoznaj się z rozdziałem **Style wizualne** w sekcji **Biblioteka narzędzi**.
 
-2 - **표면 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
+2 —— Aby dostosować niektóre ustawienia na **karcie Powierzchnia**:
 
-1. **그림자\(DS\)**를 켭니다.
-2. **앰비언트 그림자\(DA\)**를 켭니다.
-3. **단조 표면\(DM\)**을 켭니다. 이렇게 하면 재료 없이 추상적 흑백 이미지가 만들어집니다.
+1. Włącz opcję **Cienie \(DS\)**.
+2. Włącz opcję **Cienie otoczenia \(DA\)**.
+3. Włącz opcję **Powierzchnie monotone \(DM\)**. Spowoduje to utworzenie abstrakcyjnego czarno-białego obrazu bez użycia żadnych materiałów.
 
 ![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – **모서리 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
+3 — Aby dostosować niektóre ustawienia na **karcie Krawędź**:
 
 * 
-   1. 슬라이더를 조정하여 **모서리** 대비를 **30%** 정도로 밝게 합니다.
-   2. **모서리 확장\(DX\)**
-   3. 슬라이더를 조정하여 **실루엣** 대비를 **30%** 정도로 밝게 합니다.
+   1. Dostosuj suwaki, aby rozjaśnić kontrast dla opcji **Krawędzie** do wartości około **30%**.
+   2. Włącz opcję **Wydłuż krawędzie \(DX\).**
+   3. Dostosuj suwaki, aby rozjaśnić kontrast dla opcji **Sylwetki** do wartości **30%**.
 
 ![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - **환경 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
+4 — Aby dostosować niektóre ustawienia na **karcie Środowisko**:
 
-1. **축**를 끕니다.
-2. **레벨**를 끕니다(켜져 있는 경우).
+1. Wyłącz opcję **Osie**.
+2. Wyłącz opcję **Poziomy**, jeśli jest włączona.
 
 ![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - **사용자 지정된 장면**이라는 새 장면을 작성하여 이러한 설정을 저장합니다. 이제 **장면** 간에 전환하여 그래픽 설정을 재설정할 수 있습니다.
+5 — Utwórz nową scenę o nazwie **Customized Scene**, aby zapisać te ustawienia. Teraz można przełączać się między **scenami**, aby resetować ustawienia grafiki.
 
 ![](../../.gitbook/assets/5%20%286%29.png)
 
-_**주**: 새 장면의_ _**카메라**_ _특성을 선택 취소하면 카메라 위치를 이동하지 않고 방금 지정한 비주얼 설정만 전환하는 데 사용할 수 있습니다. 이전 공중 장면 중 하나로 이동한 다음 __**사용자 지정된 장면**__을 두 번 클릭하여 어떤 결과가 나타나는지 확인해 보십시오._
+_**Uwaga**: Po wyczyszczeniu właściwości_ _**Kamera**_ _nowej sceny możesz za jej pomocą jedynie przełączać ustawienia wizualne utworzone przed chwilą bez przesuwania położenia kamery. Spróbuj przejść do jednej z poprzednich scen widocznych z lotu ptaka („Aerial...”), a następnie kliknij dwukrotnie pozycję_ _**Customized Scene**_ _i obserwuj, co się stanie._
 
-_**주**_ _:_ _**비주얼 스타일 진단**_ _및_ _**장면**에 대한 고급 응용 사례를 확인하려면_ _**Primer II부**를 확인하십시오._
+_**Uwaga:**_ _Aby dowiedzieć się więcej na temat_ _**diagnostyki stylów wizualnych**_ _i zaawansowanych zastosowań_ _**scen**, zapoznaj się z częścią_ _**Primer Part II**._
 

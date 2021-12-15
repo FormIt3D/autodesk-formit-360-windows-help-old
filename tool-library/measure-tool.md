@@ -1,12 +1,12 @@
-# 측정
+# Jednostka
 
-**측정** 도구는 [도구막대](../formit-introduction/tool-bars.md)에 있습니다.
+Narzędzie **Zmierz** znajduje się na [pasku narzędzi](../formit-introduction/tool-bars.md).
 
-**측정** 도구를 사용하여 모델의 기존 형상을 측정할 수 있습니다. **측정** 도구를 사용하여 형상에 치수를 지정할 수도 있습니다.
+Za pomocą narzędzia **Zmierz** można zmierzyć istniejącą geometrię w modelu. Za pomocą narzędzia **Zmierz** można również przypisać wymiary do geometrii.
 
-1. **측정** 도구를 선택합니다.
-2. 두 점을 선택하여 두 점 사이의 거리를 측정합니다.
-3. 조정할 면 또는 모서리를 선택하고 표시된 값을 클릭한 다음, 표시되는 대화상자에서 새 값을 추가합니다.
+1. Wybierz narzędzie **Zmierz**.
+2. Wybierz dwa punkty, aby zmierzyć odległość między nimi.
+3. Wybierz powierzchnię lub krawędź, którą chcesz dostosować, kliknij wyświetloną wartość i dodaj nową wartość w wyświetlonym oknie dialogowym.
 
 ![](../.gitbook/assets/measure%20%281%29.png)  
 ![](../.gitbook/assets/measure2.png)  

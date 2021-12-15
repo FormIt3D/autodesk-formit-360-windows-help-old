@@ -1,13 +1,13 @@
-# 객체 회전
+# Obracanie obiektu
 
-상황에 맞는 메뉴의 회전 도구를 사용하여 객체의 방향을 변경할 수 있습니다.
+Orientację obiektów można zmieniać za pomocą narzędzia Obróć z menu kontekstowego.
 
-1. 회전할 요소를 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 시작합니다.
-2. 상황에 맞는 메뉴에서 회전 도구를 선택합니다.
-3. 분도기 그래픽이 마우스에 나타나면 회전할 평면을 클릭하여 설정합니다.
-4. 파란색 그립을 사용하여 회전의 시작점을 지정하고 필요한 경우 축을 재설정합니다. 화살표 또는 편집 가능한 치수 상자를 사용하여 회전 각도를 설정합니다.
+1. Wybierz element, który chcesz obrócić, i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Z menu kontekstowego wybierz narzędzie Obróć.
+3. Gdy na wskaźniku myszy pojawi się grafika kątomierza, kliknij, aby ustawić płaszczyznę obrotu.
+4. Użyj niebieskich uchwytów, aby określić punkt początkowy obrotu i jeśli to konieczne, zresetuj oś. Za pomocą strzałek lub edytowalnego pola wymiarowego ustaw kąt obrotu.
 
-요소를 선택한 후 키보드 바로 가기 **Q**를 사용하여 회전 도구에 액세스할 수도 있습니다.
+Można też użyć skrótu klawiaturowego **Q**, aby po wybraniu elementu uzyskać dostęp do narzędzia obrotu.
 
 ![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)

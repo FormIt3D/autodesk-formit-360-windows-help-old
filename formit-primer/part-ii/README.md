@@ -1,28 +1,28 @@
-# 2부
+# Część II
 
-## 고급 도구
+## Narzędzia zaawansowane
 
-이 입문서의 **2부**에서는 FormIt이 제공해야 하는 고급 도구 몇 가지를 자세히 살펴봅니다. 또한 간단하면서도 강력한 모델링, 진단, 분석 및 상호 운용성 도구를 사용하여 아래 그림에 나와 있는 인코드 캠퍼스 모델을 수정하고 개선하는 방법도 알아봅니다.
+W **części II** tego podręcznika Primer omówimy kilka bardziej zaawansowanych narzędzi dostępnych w programie FormIt. Przeanalizujemy sposoby używania prostych, ale wydajnych narzędzi wspierających modelowanie, diagnostykę, analizę i współdziałanie na potrzeby modyfikowania i ulepszania modelu Encode Campus pokazanego poniżej.
 
-FormIt을 처음 사용하는 경우, **2부**에서는 사용자가 FormIt의 기본 사항을 이미 숙지하고 있다고 가정하므로 **1부**를 먼저 검토하는 것이 좋습니다.
+Jeśli jesteś nowym użytkownikiem programu FormIt, zalecamy rozpoczęcie pracy od **części I**, ponieważ w **części II** przyjmuje się, że czytelnik zna już podstawowe funkcje programu FormIt.
 
-여기에 설명된 특정 도구, 도구막대, 팔레트 및 프로세스에 대한 자세한 설명은 **FormIt 소개** 및 **도구 라이브러리** 섹션을 참고하십시오.
+Szczegółowe objaśnienia dotyczące konkretnych narzędzi, pasków narzędzi, palet i procesów podano w sekcjach **Wprowadzenie do programu FormIt** i **Biblioteka narzędzi**.
 
 ![](../../.gitbook/assets/screen1.jpg)
 
-### 전제 조건
+### Wymagania wstępne
 
-2부를 시작하기 전에 FormIt 소개 섹션([**전제 조건 및 설치**](../../formit-introduction/prerequisites-and-installation.md))의 지침에 따라 Windows용 FormIt을 다운로드하고 설치하십시오.
+Przed rozpoczęciem części II pobierz i zainstaluj program FormIt dla systemu Windows, korzystając z instrukcji podanych w sekcji „Wprowadzenie do programu FormIt” — tutaj: [**Wymagania wstępne i instalacja**](../../formit-introduction/prerequisites-and-installation.md).
 
-대부분의 장에서는 아래 링크에 있는 데이터세트를 다운로드하고 사용해야 합니다.
+W przypadku większości rozdziałów konieczne jest również pobranie i używanie zestawu danych, do którego prowadzi poniższe łącze.
 
-_Windows용 FormIt을 실행할 수 없는 경우 무료_ [_**웹 응용프로그램**_](https://formit.autodesk.com/app) 을 사용하여 대부분의 튜토리얼을 완료할 수 있습니다.FormIt 버전 및 라이센싱에 대한 자세한 내용은 ****[_**FormIt 웹 사이트**_](https://formit.autodesk.com) _\*\*\*\*를 참고하십시오._
+_Jeśli nie można uruchomić programu FormIt dla systemu Windows, większość ćwiczeń z tego samouczka można wykonać za pomocą bezpłatnej_ [_**aplikacji internetowej**_](https://formit.autodesk.com/app)_**.** Aby uzyskać więcej informacji na temat wersji i licencjonowania programu FormIt, odwiedź witrynę internetową_ ****[_**programu FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### 데이터 세트
+### Dane
 
-위 그림에 나온 인코드 캠퍼스는 도시 플롯에 설정된 가상의 다목적 프로젝트(중간 크기)로, 구성된 레이어, 장면, 재료 및 실시간으로 편집 가능한 Dynamo 스크립트에 연결된 형상까지 완비되어 있습니다.
+Model Encode Campus, przedstawiony powyżej, jest fikcyjnym projektem o średniej wielkości i wielu zastosowaniach, który osadzono w środowisku miejskim. Zawiera uporządkowane warstwy, sceny, materiały, a nawet geometrie powiązane z aktywnymi edytowalnymi skryptami Dynamo.
 
-인코드 건물의 모든 정면 요소는 정면 모양을 정의하는 건물 베이스의 경로로 구동되는 Dynamo 스크립트에 의해 제어됩니다.
+Wszystkie elementy fasady budynku Encode są sterowane przez skrypty Dynamo i zależne od ścieżki u podstawy budynku, która definiuje kształt fasady.
 
-* \*\*\*\*[**FormIt 입문서 데이터세트 2부**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
+* \*\*\*\*[**Zestaw danych podręcznika FormIt Primer — część II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
 

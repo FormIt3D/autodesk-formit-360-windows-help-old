@@ -1,39 +1,39 @@
-# 프로젝트 설정
+# Konfigurowanie projektu
 
-## 시작
+## Rozpoczęcie
 
-FormIt을 시작하면 3D 환경이 됩니다. 시간을 내어 [3D 공간을 탐색](navigating-the-scene.md)한 다음, 프로젝트 작성을 시작하거나\([여기에서 방법 참고](../formit-primer/)\), 파일 메뉴를 사용하여 기존 FormIt 프로젝트를 열거나, 다양한 기타 파일 형식을 가져오는 방법을 알아보십시오.
+Po uruchomieniu programu FormIt włączone zostaje środowisko 3D. Poświęć trochę czasu, aby dowiedzieć się, jak [poruszać się po przestrzeni 3D](navigating-the-scene.md), a następnie rozpocząć tworzenie projektu \([oto jak](../formit-primer/)\), używać menu Plik w celu otwierania istniejącego projektu programu FormIt lub importować różne inne typy plików.
 
-FormIt을 사용하면 로컬에서는 물론 BIM 360 Docs에서 파일을 열고 저장하고 파일로 내보낼 수 있습니다. [FormIt에서 BIM 360 Docs를 사용하면](https://formit.autodesk.com/page/formit-bim-360-docs) 클라우드에서 편리하게 모델을 공유할 수 있습니다.
+Program FormIt umożliwia otwieranie, zapisywanie i eksportowanie plików lokalnie i w usłudze BIM 360 Docs. [Korzystanie z usługi BIM 360 Docs w programie FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) to doskonały sposób na udostępnianie modeli w chmurze.
 
-사용자가 모델을 변경하기 시작하면 FormIt은 [작업 내용을 자동으로 저장](../tool-library/autosave.md)합니다. 백업 파일이 정리되고 공간이 절약되므로 자주 저장하는 것이 좋습니다.
+Jeśli chodzi o zapisywanie, program FormIt [automatycznie zapisuje pracę użytkownika](../tool-library/autosave.md) po rozpoczęciu wprowadzania zmian w modelu. Mimo to częste zapisywanie jest zalecane, ponieważ powoduje ono czyszczenie pliku kopii zapasowej i pozwala zaoszczędzić miejsce.
 
-## 앱 설정
+## Ustawienia aplikacji
 
-* 단위:
+* Jednostki:
 
    ![](../.gitbook/assets/formit_units.png)
 
-   * 이 설정은 모든 도구 및 가져온 형상의 단위(예: Dynamo) 및 단위 없는 파일 형식(예: STL)에 영향을 줍니다.
+   * Ustawienie tej opcji wpływa na jednostki we wszystkich narzędziach i w całej zaimportowanej geometrii, na przykład w dodatku Dynamo i plikach bez jednostek, takich jak STL.
 
-* 그리드로 스냅:
-   * 배치 점이 있는 도구가 강제로 그리드 교차점에 스냅되도록 합니다. [비주얼 스타일](../formit-primer/part-i/visual-settings.md)에서 그리드를 끌 수 있습니다. 그리드가 꺼져 있으면 그리드에 대한 스냅도 사용 안 함으로 설정됩니다.
-* 편집 가능한 치수 표시:
-   * 치수 상자를 계속 표시할지 여부를 선택합니다. 정확하게 그리려면 이 옵션을 켜 두는 것이 좋습니다.
-* 컨텍스트 숨기기/편집된 그룹만 표시:
-   * 이 옵션은 그룹 편집이 주변 환경을 표시할지 여부에 영향을 줍니다. 바로 가기\(H\)를 사용하면 이 설정을 쉽게 변경할 수 있습니다. 그룹 내부 및 외부에서 모델링하는 동안 H 키를 전환하여 필요에 따라 분리된 그룹 및 컨텍스트의 그룹을 모두 볼 수 있습니다.
-* 사전 선택 강조표시:
-   * 기본적으로 FormIt은 객체 위에 마우스 커서를 놓으면 해당 객체를 "사전 선택"합니다. 이 옵션은 선택하려는 객체가 가져오는 객체가 확실할 때 유용하지만, 설계를 발표할 때 산만해질 수 있습니다. 이 옵션 또는 바로 가기를 사용하면 필요에 따라 사전 선택 강조표시의 표시 및 숨기기 간에 빠르게 전환할 수 있습니다. [스마트 선택](https://www.youtube.com/watch?v=akLeB1FADt4)과 같은 기능을 사용하려면 이 옵션을 사용하도록 설정해야 합니다.
+* Przyciągaj do siatki:
+   * W przypadku narzędzi z punktami umieszczenia wymusza przyciąganie do punktów przecięcia siatki. Należy pamiętać, że siatkę można wyłączyć w oknie [Style wizualne](../formit-primer/part-i/visual-settings.md). Jeśli siatka jest wyłączona, przyciąganie do niej również zostanie wyłączone.
+* Wyświetl wymiary edytowalne:
+   * Określ, czy pola wymiarów mają być widoczne \(zalecane jest pozostawienie ich włączonych, jeśli chcesz rysować z dokładnością\).
+* Ukryj kontekst/Pokaż tylko edytowaną grupę:
+   * Ma to wpływ na to, czy podczas edycji grupy będzie wyświetlane jej otoczenie. To ustawienie można łatwo zmienić za pomocą skrótu \(H\). Przełączanie za pomocą skrótu H podczas modelowania w grupach i poza nimi umożliwia wyświetlanie grup w izolacji i w kontekście — zgodnie z potrzebami.
+* Wyróżnienie wstępnego wyboru:
+   * Domyślnie w programie FormIt po umieszczeniu na nich wskaźnika myszy obiekty będą „wstępnie wybierane”. Jest to przydatne, ponieważ pozwala upewnić się, że wybrany jest właściwy obiekt, ale może rozpraszać podczas prezentacji projektu. Użyj tej opcji lub skrótu, aby szybko przełączać się między wyświetlaniem i ukryciem wyróżnienia wstępnego wyboru stosownie do potrzeb. Należy pamiętać, że ta opcja musi być włączona, aby można było korzystać z funkcji takich jak [inteligentny wybór](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## 터치 모드
+## Tryb dotykowy
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-컴퓨터에 터치스크린이 있는 경우 터치 모드를 사용하여 모델을 쉽게 탐색하고 형상을 작성할 수 있습니다. iOS용 FormIt을 사용하는 경우에는 이 기능이 익숙할 것입니다.
+Jeśli komputer ma ekran dotykowy, za pomocą trybu dotykowego możesz łatwo nawigować po modelu i tworzyć geometrię. Jeśli używasz też aplikacji FormIt dla systemu iOS, ten tryb będzie wyglądać znajomo.
 
-터치 모드가 켜져 있으면 FormIt의 상호 작용이 iPad용 FormIt과 좀 더 비슷해지며, 터치 인터페이스로 작동하도록 탐색 및 수정 도구가 보정됩니다. 따라서 터치 모드가 켜져 있는 동안에는 마우스와 키보드로 FormIt을 사용하지 않는 것이 좋습니다.
+Przy włączonym trybie dotykowym interakcja z programem FormIt przypomina bardziej tę w aplikacji FormIt na iPadzie. Narzędzia do nawigacji i modyfikacji są skalibrowane do pracy z interfejsem dotykowym. Z tego powodu nie zaleca się używania programu FormIt z myszą i klawiaturą, gdy włączony jest tryb dotykowy.
 
-터치 모드가 켜져 있으면 도구막대에서 강조표시되고, 화면 왼쪽 하단에 "터치 모드" 배너가 표시됩니다.
+Gdy włączony jest tryb dotykowy, zostanie to wyróżnione na pasku narzędzi, jak również wskazane za pomocą banera „Tryb dotykowy” w lewym dolnym rogu ekranu.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 

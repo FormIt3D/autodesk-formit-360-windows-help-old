@@ -1,98 +1,98 @@
-# 1.5 - 그룹 객체
+# 1.5 — Grupowanie obiektów
 
-_FormIt의 그룹은 Revit의 패밀리 및 SketchUp의 구성요소와 유사하게 작동합니다. 다른 객체를 그룹화하면 해당 형상이 결합되지 않습니다. 그룹 복사본은 원본 형상의 인스턴스(Instance) 역할을 하므로 하나의 복사본을 변경하면 모든 복사본이 영향을 받습니다._
+_Grupy w programie FormIt działają podobnie do rodzin w programie Revit i komponentów w programie SketchUp. Grupowanie różnych obiektów zapobiega łączeniu ich geometrii. Kopie grupy działają jak wystąpienie oryginalnej geometrii, co oznacza, że zmiany wprowadzone w jednej kopii będą miały wpływ na wszystkie._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.5 - Group Objects.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.5 - Group Objects.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **그룹 작성**
+## **Tworzenie grupy**
 
-1 - 상단 테라스 매스를 두 번 클릭하여 선택합니다.
+1 — Wybierz bryłę górnego tarasu, klikając ją dwukrotnie.
 
-2 - 마우스 오른쪽 버튼을 클릭하고 **그룹\(G\)**을 선택하거나 ‘**G**’ 키를 누릅니다.
+2 — Kliknij prawym przyciskiem myszy i wybierz opcję **Grupuj \(G\)** lub po prostu naciśnij klawisz „**G**”.
 
 ![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - 그룹이 작성되면 이동 도구에 자동으로 배치됩니다.
+3 — Zwróć uwagę, że po utworzeniu grupy automatycznie przejdziesz do narzędzia Przenieś.
 
-## **그룹 이동**
+## **Przenoszenie grupy**
 
-1 - 모델링 프로세스를 지원하려면 **그리드 스냅\(SG\)**을 켭니다(꺼져 있는 경우).
+1 — Aby uprościć proces modelowania, włącz opcję **Przyciąganie do siatki \(SG\)**, jeśli była wyłączona.
 
 ![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - 선택한 객체를 이동하기 시작하려면 **이동\(M\)** 명령 상태에서 매스의 하단 코너를 한 번 클릭합니다. 그런 다음, 커서를 위로 이동합니다. 그러면 파란색 \(Z\) 축 선이 나타납니다. 이 선은 객체를 위로 똑바로 이동하는 데 도움이 됩니다.
+2 — Aby rozpocząć przenoszenie wybranego obiektu, w narzędziu **Przenieś \(M\)** kliknij raz w dowolnym dolnym rogu bryły. Następnie przesuń kursor w górę. Powinna zostać wyświetlona niebieska linia osi \(Z\). Linia ta pomaga w przenoszeniu obiektu w górę.
 
-3 - 파란색 축이 표시된 상태에서 **4'-6"**를 입력하면 치수 대화상자가 나타납니다. 치수를 입력한 후 **확인**를 클릭하거나 키보드의 **Enter** 키를 누릅니다. 이렇게 하면 전체 매스가 **Z축**을 따라 지반 면에서 위로 이동합니다.
+3 — Przy widocznej niebieskiej osi wpisz **4'-6"**. Zostanie wyświetlone okno dialogowe wymiaru. Po wprowadzeniu wymiaru kliknij przycisk **OK** lub naciśnij klawisz **Enter** na klawiaturze. Spowoduje to przeniesienie całej bryły w górę z płaszczyzny podstawy wzdłuż **osi Z**.
 
-_**주:**_ _Revit과 비슷하게, 영국식 단위를 사용할 때_ _**4’6**,_ _**4’6”**_ _또는_ _**4.5**를 입력하면 해당 값이 4\(피트\) 6\(인치\)로 해석됩니다._
+_**Uwaga:**_ _Podobnie jak w programie Revit, możesz również wpisać_ _**4’6**,_ _**4’6”,**_ _lub_ _**4,5**, a program zinterpretuje tę wartość jako 4\(stopy\) 6\(cali\) w przypadku korzystania z jednostek calowych._
 
 ![](../../.gitbook/assets/2%20%282%29.png)
 
-## **그룹 편집**
+## **Edycja grupy**
 
-1 - **그룹 편집 모드**를 시작하려면 매스를 두 번 클릭합니다.
+1 — Aby przejść do **trybu edycji grupy**, kliknij dwukrotnie bryłę.
 
-1. **특성 팔레트**에서 그룹의 이름을 **"매스작업 - 주 건물"**로 바꿉니다.
-2. 변경사항을 저장하고 **그룹 편집 모드**를 종료하려면 캔버스의 왼쪽 상단 코너에 있는 **그룹 편집 완료** 확인 표시 아이콘을 클릭하거나 공간을 두 번 클릭합니다.
+1. Na **palecie Właściwości** zmień nazwę grupy **„Massing - Main Building”**.
+2. Aby zapisać zmiany i wyjść z **trybu edycji grupy**, kliknij ikonę znacznika wyboru **Zakończ edycję grupy** w lewym górnym rogu obszaru rysunku lub kliknij dwukrotnie w przestrzeni.
 
 ![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**주:**_
+_**Uwagi**:_
 
-* _**카테고리**_ _옵션에 대해 알아보려면_ _**Revit 작업**_ _장으로 이동하십시오._‌
-* _각 그룹에는 고유한 실행취소/재실행 내역이 있으며, 이러한 내역은 전체 프로젝트와 별개입니다. 캔버스의 왼쪽 상단 코너에 있는_ _**그룹 편집 마법사**_ _에서_ _**실행취소**_ _및_ _**재실행**_ _을 클릭할 수 있습니다._
+* _Aby dowiedzieć się więcej na temat opcji_ _**Kategoria**_ _, przejdź do rozdziału_ _**Praca z programem Revit**_ _._‌
+* _Każda grupa ma własną historię cofania/ponawiania, która różni się od całego projektu — w lewym górnym rogu obszaru rysunku można klikać strzałki_ _**Cofnij**_ _i_ _**Wykonaj ponownie**_ _w_ _**kreatorze edycji grupy**_ _._
 
-## **그룹에 레벨 적용**
+## **Stosowanie poziomów do grupy**
 
-_**주:**_ _형상을 그룹화하면 형상에 적용했을 수 있는 이전 설정이 재지정됩니다. 따라서 이전 연습의 레벨을 다시 적용해야 합니다._
+_**Uwaga:**_ _Zgrupowanie geometrii powoduje zastąpienie poprzednich ustawień, które mogły być zastosowane do geometrii. Z tego powodu konieczne będzie ponowne zastosowanie poziomów z poprzedniego ćwiczenia._
 
-1 - 그룹에 레벨을 적용하려면 다음을 수행합니다.
+1 — Aby zastosować poziomy do grupy:
 
-1. **매스작업** **- 주 건물** 그룹을 한 번 클릭하여 선택합니다.
-2. **특성 팔레트**로 이동하여 **레벨 사용**
-3. 다른 모든 항목의 선택을 취소하여 **주 건물** 레벨만 유지합니다.
-4. **레벨별 면적** 필드에는 현재 선택한 객체의 총 면적이 표시됩니다. 각 **레벨**의 면적은 각 **레벨**의 이름 앞에 표시됩니다.
-5. 객체를 수평으로 교차하는 파란색 레벨 선이 보이지 않는 경우 **설정 메뉴 &gt; 비주얼 스타일 &gt; 레벨 표시\(DL\)**
+1. Kliknij raz grupę **Massing** **- Main Building**, aby ją wybrać.
+2. Przejdź do **palety Właściwości** i zaznacz pole wyboru **Użyj poziomów.**
+3. Zachowaj tylko poziom **Main Building**, usuwając zaznaczenie wszystkich pozostałych.
+4. W polu **Powierzchnia wg poziomu** zostanie wyświetlona powierzchnia całkowita aktualnie wybranych obiektów. Obszar każdego **poziomu** jest wyświetlany przed nazwą każdego **poziomu**.
+5. Jeśli nie widzisz niebieskiej linii przecinającej obiekt w poziomie, włącz wyświetlanie poziomu, wybierając opcje **Ustawienia &gt; Styl wizualny &gt; Wyświetl poziomy \(DL\).**
 
-_**주**: _ _**주 건물**_ _레벨에 대해 보고된 면적이 없으면 형상은 높이가 4’-6”인 레벨을 교차하지 않을 수 있습니다. 교차하도록 형상 또는 __**레벨**_ _높이를 재배치하여 문제를 해결하십시오._
+_**Uwaga**: Jeśli w przypadku poziomu_ _**Main Building**_ _nie jest podawana powierzchnia, geometria może nie przecinać się z poziomem, który powinien być na wysokości 4’-6”. Rozwiąż ten problem, zmieniając położenie geometrii lub wysokość_ _**poziomu**_ _tak, aby się przecinały._
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - **Esc** 키를 누르거나 공간을 한 번 클릭하여 그룹의 선택을 취소합니다. 객체를 선택하지 않으면 **특성 팔레트**에서 특정 객체의 면적이 아닌 전체 스케치의 총 면적이 보고됩니다.
+2 — Usuń zaznaczenie grupy, naciskając klawisz **Esc** lub klikając raz w przestrzeni. Gdy nie został wybrany żaden obiekt, na **palecie Właściwości** będzie wyświetlana całkowita powierzchnia szkicu, a nie powierzchnia określonego obiektu.
 
 ![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **그룹 관리**
+## **Zarządzanie grupami**
 
-1 - 스케치의 모든 그룹을 보고 관리하려면 다음을 수행합니다.
+1 — Aby wyświetlić wszystkie grupy w szkicu i zarządzać nimi:
 
-1. **그룹 트리 팔레트**로 이동합니다. 여기에는 다음이 표시됩니다.
-   * **지형** 그룹 - **위성 이미지를 가져올 때** 자동으로 작성된 그룹입니다.
-   * **매스작업 - 주 건물** - 방금 작성한 건물 매스 형상 그룹입니다.
-   * **그룹 2** - 바닥 평면 이미지가 포함된 명명되지 않은 그룹입니다.
-2. 그룹 트리 팔레트를 통해 **그룹 2**의 이름을 바꾸려면 **그룹 2**를 두 번 클릭한 다음, **평면 이미지**를 입력합니다.
+1. Przejdź do **palety Drzewo grup**. Zostaną wyświetlone następujące elementy:
+   * Grupa **Terrain** — grupa tworzona automatycznie po **zaimportowaniu obrazu satelitarnego**.
+   * **Massing — Main Building** — grupa geometrii bryły budynku, którą właśnie utworzyliśmy.
+   * **group 2** — grupa bez nazwy zawierająca obraz rzutu kondygnacji.
+2. Aby zmienić nazwę **group 2** za pomocą palety Drzewo grup, kliknij dwukrotnie pozycję **group 2**, a następnie wpisz **Plan Image**.
 
 ![](../../.gitbook/assets/6%20%284%29.png)
 
-_**주:**_
+_**Uwagi:**_
 
-* _깔끔한 모델의 경우 그룹 이름을 설명형으로 유지하는 것이 좋습니다._
-* _이것은 모델의 모든 그룹을 한 곳에서 관리하고 편집할 수 있는 유용한 방법입니다._
+* _W celu zachowania porządku w modelu zalecamy stosowanie opisowych nazw grup._
+* _Jest to wygodny sposób edytowania wszystkich grup w modelu i zarządzania nimi z jednego miejsca._
 
-2 - **평면 이미지** 그룹을 선택한 상태에서 **특성 팔레트**로 이동합니다. 그룹 이름이 **그룹** 필드에서도 업데이트되었습니다.
+2 — Mając wciąż wybraną grupę **Plan Image**, przejdź do **palety Właściwości**. Zwróć uwagę, że nazwa grupy została również zaktualizowana w polu **Grupa**.
 
 ![](../../.gitbook/assets/7.png)
 
-## **그룹 컨텍스트 숨기기**
+## **Ukryj kontekst grupy**
 
-_이 도구를 사용하면 현재 편집 중인 그룹 외부의 모든 형상을 빠르게 숨길 수 있습니다. 이 도구는 모델이 크고 복잡하여 다른 형상이 방해가 될 때 매우 편리합니다._
+_To narzędzie umożliwia szybkie ukrycie całej geometrii poza edytowaną grupą. Staje się ono bardzo przydatne, gdy model jest duży i złożony, a inne geometrie przeszkadzają._
 
-1 - 그룹을 분리하려면 다음을 수행합니다.
+1 — Aby wyizolować grupę:
 
-1. 해당 형상을 두 번 클릭하여 그룹을 편집합니다.
-2. **주 메뉴**에서 **설정**으로 이동하고 **그룹 컨텍스트 숨기기**를 선택하거나 키보드의 **H** 키를 누릅니다. **평면 이미지**가 어떻게 사라지는지 확인합니다.
-3. 그룹 편집을 완료합니다. **그룹 컨텍스트 숨기기\(H\)** 모드는 **그룹 편집 마법사** 내에서만 활성화됩니다.
-4. 이 모드를 다시 해제하려면 **H** 키를 누르기만 하면 됩니다. 이 옵션은 그룹 내부 또는 외부에서 언제든지 전환할 수 있습니다.
+1. Kliknij dwukrotnie geometrię grupy, aby edytować grupę.
+2. Przejdź do opcji **Ustawienia** w **menu głównym** i zaznacz pole wyboru **Ukryj kontekst grupy** lub naciśnij klawisz **H** na klawiaturze. Zwróć uwagę, jak znika warstwa **Plan Image**.
+3. Zakończ edycję grupy. Pamiętaj, że tryb **Ukryj kontekst grupy \(H\)** jest aktywny tylko w **kreatorze edycji grupy**.
+4. Aby ponownie wyłączyć ten tryb, wystarczy nacisnąć klawisz **H**. Tę opcję można przełączyć w dowolnym momencie, w grupie lub poza nią.
 
 ![](../../.gitbook/assets/8%20%285%29.png)
 

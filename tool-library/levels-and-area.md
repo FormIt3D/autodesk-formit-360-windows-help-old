@@ -1,48 +1,48 @@
-# 레벨 및 면적
+# Poziomy i powierzchnia
 
-FormIt에서 형상을 작성한 후 레벨을 적용하여 바닥 높이가 있는 위치를 나타내고 면적 계산을 생성할 수 있습니다.
+Po utworzeniu geometrii w programie FormIt można zastosować poziomy, aby wskazać, gdzie znajdują się rzędne kondygnacji, i wygenerować obliczenia powierzchni.
 
-[FormIt 입문서](../formit-primer/part-i/adding-floors-with-levels.md)에서 실제로 작동하는 레벨을 확인할 수 있습니다.
+Zobacz poziomy w działaniu, korzystając z podręcznika [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md).
 
-## 레벨 작성 및 구성
+## Tworzenie i konfigurowanie poziomów
 
-Windows용 FormIt의 경우 오른쪽에 레벨 패널이 있습니다.
+Panel Poziomy znajduje się po prawej stronie programu FormIt dla systemu Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-#### 레벨 작성 및 삭제
+#### Tworzenie i usuwanie poziomów
 
-* 새 레벨을 작성하려면 "+" 버튼을 클릭합니다.
-* 일련의 레벨을 작성하려면 "++" 버튼을 클릭합니다.
-   * 이렇게 하면 작성할 레벨 수와 레벨 사이의 수직 거리를 지정할 수 있습니다.
-* 하나 이상의 레벨을 선택하고 "-"를 클릭하여 삭제합니다.
+* Utwórz nowy poziom, klikając przycisk „+”.
+* Utwórz serię poziomów, klikając przycisk „++”.
+   * Pozwoli to na określenie liczby tworzonych poziomów i odległości pionowej między nimi.
+* Wybierz co najmniej jeden poziom i kliknij przycisk „-”, aby go usunąć.
 
-#### 레벨 이름 바꾸기, 높이 설정 및 레벨 번호 다시 지정
+#### Zmiana nazw, ustawianie rzędnych i ponowne numerowanie poziomów
 
-* 이름을 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 "이름 편집"을 선택하여 레벨 이름을 바꿉니다.
-* 번호를 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 "높이 편집"을 선택하여 레벨의 높이를 조정합니다.
-* 맨 위에 있는 새로 고침 아이콘을 클릭하여 레벨 번호를 다시 지정합니다.
-   * 이 기능은 레벨을 추가 또는 제거했으며 기본 명명 체계가 동기화되지 않은 경우\(예: 레벨 1, 레벨 2, 레벨 5\) 유용합니다.
-   * 이 버튼을 누르면 사용자 지정 이름이 있는 모든 레벨이 무시되지만, 이름이 "레벨 1" 구문을 따르는 모든 레벨 번호는 다시 지정됩니다.
+* Zmień nazwę poziomu, klikając dwukrotnie jego nazwę lub klikając prawym przyciskiem myszy i wybierając opcję „Edytuj nazwę”.
+* Dopasuj rzędną poziomu, klikając dwukrotnie tę liczbę lub klikając prawym przyciskiem myszy i wybierając opcję „Edytuj rzędną”.
+* Kliknij ikonę Odśwież u góry, aby ponownie ponumerować poziomy.
+   * Jest to przydatne, jeśli dodano lub usunięto poziomy i domyślny schemat nazewnictwa jest nieuporządkowany \(np. Poziom 1, Poziom 2, Poziom 5\).
+   * Ten przycisk ignoruje wszystkie poziomy o nazwach niestandardowych, ale ponownie numeruje wszystkie poziomy o nazwach zgodnych ze składnią „Poziom 1”.
 
-## 레벨 적용
+## Stosowanie poziomów
 
-객체에 레벨을 적용하려면 객체를 선택하고 특성 패널로 이동해야 합니다.
+Aby zastosować poziomy do obiektu, należy wybrać obiekt i przejść do panelu Właściwości.
 
-객체에 레벨을 적용하려면 객체가 솔리드여야 하며 뒷면 또는 수밀 문제가 없어야 합니다. [모델에 수밀 및 뒷면 문제가 있는지 확인하는 방법을 알아보십시오](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Należy pamiętać, że aby można było zastosować poziomy do obiektu, musi on być bryłą, bez problemów z powierzchnią tylną ani ze szczelnością. [Dowiedz się, jak sprawdzić model pod kątem problemów z powierzchnią tylną i szczelnością](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-캔버스에서 솔리드 객체를 선택한 경우\(이 예에서는 간단한 건물 쉘\) 특성 패널에 "레벨 사용" 확인란이 표시됩니다.
+Po wybraniu obiektu bryłowego w obszarze rysunku \(w tym przykładzie prostej powłoki budynku\) w panelu Właściwości zostanie wyświetlone pole wyboru „Użyj poziomów”.
 
-* FormIt 스케치에 이미 레벨이 정의되어 있는 경우\(위 참고\) 이 확인란을 선택하면 이 모양을 교차하는 모든 레벨이 사용됩니다\(너무 높거나 너무 낮은 레벨 무시\).
-* FormIt 스케치에 레벨이 아직 없는 경우 이 확인란을 선택하면 전체 모양을 교차할충분한 기본 레벨\(12' 바닥 간 높이\)이 작성되고 해당 레벨이 이 객체에 자동으로 적용됩니다.
+* Jeśli w szkicu programu FormIt już zdefiniowano poziomy \(zobacz powyżej\), zaznaczenie tego pola spowoduje użycie wszystkich poziomów, które przecinałyby ten kształt \(ze zignorowaniem tych, które wypadłyby zbyt wysoko lub zbyt nisko\).
+* Jeśli szkic programu FormIt nie zawiera jeszcze poziomów, zaznaczenie tego pola spowoduje utworzenie wystarczającej liczby poziomów domyślnych\(o wysokości między kondygnacjami równej 12' \), aby przeciąć cały kształt, i automatycznie zastosuje te poziomy do obiektu.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## 레벨 + Revit
+## Poziomy + program Revit
 
-레벨이 FormIt 형상에 적용되면 [FormIt 애드인](https://formit.autodesk.com/page/formit-revit)을 사용할 때 해당 레벨이 Revit으로 전송됩니다.
+W przypadku zastosowania poziomów do geometrii programu FormIt zostaną one wysłane do programu Revit podczas korzystania z [dodatku FormIt](https://formit.autodesk.com/page/formit-revit).
 
-Revit에서 FormIt 레벨을 사용하여 FormIt 레벨과 연관된 매스 바닥, 면으로 바닥 만들기 및 평면도를 작성할 수 있습니다.
+W programie Revit można używać poziomów programu FormIt do tworzenia skojarzonych z nimi zakresów kondygnacji, kondygnacji według powierzchni i rzutów kondygnacji.
 
 
 

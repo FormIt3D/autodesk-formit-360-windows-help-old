@@ -1,129 +1,129 @@
-# 1.9 - 상세정보 추가
+# 1.9 — Dodawanie szczegółów
 
-_FormIt은 훌륭한 모델링 도구이자 매스작업 도구입니다. 먼저 유리 상자에 대해 문과 문설주 형태로 판스워스 하우스에 상세정보를 추가해 보겠습니다. 그런 다음 몇 가지 추가 도구를 살펴보고 새로운 형상, 레이어, 재료 및 그룹 관리를 추가하는 프로세스를 연습해 보겠습니다._
+_FormIt to doskonałe narzędzie zarówno do modelowania bryłowego, jak i tworzenia szczegółowych modeli. Zaczniemy dodawać do domu pani Farnsworth szczegóły w postaci drzwi i szprosów w pomieszczeniu ze szklanymi ścianami. Następnie omówimy pewne dodatkowe narzędzia i przećwiczymy proces dodawania geometrii, warstw i materiałów oraz zarządzania grupami._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.9 - Adding Details.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.9 — Adding Details.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
 
-## **창 프레임 작성**
+## **Tworzenie ram okiennych**
 
-_유리 상자 주위에 2" 금속 프레임과 멀리언을 작성할 것입니다. 멀리언은 의도적으로 유리 상자와 겹쳐집니다._
+_Utworzymy teraz wokół pomieszczenia ze szklanymi ścianami 2-calową ramę metalową ze szprosami. Pamiętaj, że szprosy celowo nakładają się na szklane ściany._
 
-1 - **유리 벽**이라는 새 레이어를 작성하고 **유리 벽** 그룹을 이 레이어로 이동합니다.
+1 — Utwórz nową warstwę o nazwie **Szklane ściany** i przenieś na nią grupę **Szklana ściana**.
 
-2 - 시각화를 용이하게 하려면 **지붕** 레이어를 꺼서 전체 유리 상자를 표시합니다.
+2 — Dla lepszej widoczności wyłącz warstwę **Dach**, dzięki czemu będzie można zobaczyć całe pomieszczenie ze szklanymi ścianami.
 
-3 - 첫 번째 창 프레임을 작성하려면 다음을 수행합니다.
+3 — Rozpocznij tworzenie pierwszej ramy okiennej:
 
-1. 건물 서쪽에서 **직사각형 도구\(R\)**를 사용하여 외부 유리 면 바로 위에 새 표면을 그립니다. **유리 벽** 그룹 외부에 표면을 작성해야 합니다.
-2. 새로 작성한 면을 선택하여 내부쪽으로 **2"** 끕니다. **Esc** 키를 눌러 선택을 취소합니다. 최종 결과는 아래 이미지와 같이 표시되어야 합니다.
-3. 방금 작성한 면을 한 번 클릭합니다. 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스한 다음 **면 간격띄우기 도구\(OF\)를 사용합니다.**
+1. Użyj **narzędzia Prostokąt \(R\)**, aby narysować nową powierzchnię bezpośrednio nad zewnętrzną powierzchnią szkła po zachodniej stronie budynku. Pamiętaj, aby utworzyć tę powierzchnię poza grupą **Szklane ściany**.
+2. Wybierz nowo utworzoną powierzchnię i przeciągnij o **2 cale** w kierunku wnętrza. Naciśnij klawisz **Esc**, aby anulować wybór. Końcowy rezultat powinien wyglądać tak jak na poniższej ilustracji.
+3. Kliknij jeden raz utworzoną powierzchnię. Kliknij prawym przyciskiem myszy, aby otworzyć **menu kontekstowe** i użyj **narzędzia Odsuń powierzchnię \(OF\).**
 
-_**주:**_ _새 면을 선택하는 데 문제가 있는 경우_ _**스페이스바**_ _키를 눌러 선택 가능한 여러 객체 간에 번갈아 이동하거나_ _**유리 벽**_ _레이어를 일시적으로 끕니다._
+_**Uwaga:**_ _w przypadku problemów z wybraniem nowej powierzchni naciskaj klawisz_ _**Spacja**_ _, aby przechodzić między różnymi obiektami, które można wybrać, lub tymczasowo wyłącz warstwę_ _**Szklane ściany**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - 간격띄우기 치수를 설정하려면 마우스를 면 내부로 이동하고 **2"**를 입력하여 더 작은 새 직사각형을 작성합니다.
+4 — Aby ustawić wymiar odsunięcia, przesuń wskaźnik myszy w kierunku środka powierzchni i wprowadź wartość **2 cale**, aby utworzyć nowy, mniejszy prostokąt.
 
 ![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - 한 번 클릭하여 방금 작성한 내부 직사각형을 선택합니다. 다시 클릭하고 면이 사라질 때까지 건물 내부를 향해 끕니다. 한 번 더 클릭하여 프레임 형상에서 체적 중심 제거를 마칩니다.
+5 — Kliknij nowo utworzony wewnętrzny prostokąt jeden raz, aby go wybrać. Kliknij ponownie i przeciągnij powierzchnię w kierunku wnętrza budynku, aż zniknie. Kliknij jeszcze raz, aby dokończyć usuwanie objętości ze środka geometrii ramy.
 
 ![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - 방금 작성한 형상을 두 번 클릭하여 선택하고 **그룹\(G\)**을 클릭합니다. 그룹 이름을 **멀리언 프레임 - EW**로 지정합니다.​
+6 — Kliknij dwukrotnie, aby wybrać utworzoną geometrię, i dodaj ją do **Grupy \(G\)**. Nadaj grupie nazwę **Rama szprosu — wschód-zachód**.​
 
-7 - **멀리언**이라는 이름의 레이어를 작성하고 이 레이어에 새 그룹을 배치합니다.
+7 — Utwórz warstwę o nazwie **Szpros** i umieść na niej nową grupę.
 
-8 - 프레임의 재료를 설정하려면 다음을 수행합니다.
+8 — Ustaw materiał ramy:
 
-1. **재료 팔레트** 내에서 **금속 - 브러쉬 - 색상** 재료를 마우스 오른쪽 버튼으로 클릭하고 **재료 복제**를 선택하여 이 재료를 복제합니다.
-2. 새 재료의 미리보기 타일을 두 번 클릭하여 편집합니다.
-3. 이름을 **금속 - 브러시 - 회색**으로 바꿉니다.
-4. **맵** 섹션에서 **색상** 타일을 클릭하여 재료의 색상을 수정하고 **값:**을 **150**으로 변경하여 회색을 어둡게 만듭니다.
+1. Na **palecie Materiały** powiel materiał **Metal — matowy — kolorowy**, klikając go prawym przyciskiem myszy i wybierając polecenie **Powiel materiał**.
+2. Kliknij dwukrotnie kafelek podglądu nowego materiału, aby go edytować.
+3. Zmień jego nazwę na **Metal — matowy — szary**.
+4. Zmień kolor materiału, klikając kafelek **Kolor** w sekcji **Mapy**, a następnie przyciemnij odcień szarości, zmieniając wartość **War:** na **150**.
 
 ![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - **확인**을 클릭하여 이러한 변경 사항을 새 재료에 저장한 다음 **멀리언 프레임 - EW** 그룹을 새 재료로 페인트합니다. 이후에 이 그룹의 **특성 팔레트**는 아래 이미지에 표시된 것과 일치해야 합니다.
+9 — Kliknij przycisk **OK**, aby zapisać zmiany w nowym materiale, a następnie pomaluj nim grupę **Rama szprosu — wschód-zachód**. Po zakończeniu **paleta Właściwości** grupy powinna wyglądać tak, jak na poniższej ilustracji:
 
 ![](../../.gitbook/assets/4.jpeg)
 
-10 - **빠른 복사**, **배열** 또는 **대칭** 도구 중 하나를 사용하여 동쪽에 프레임의 새 인스턴스(instance)를 작성합니다.
+10 — Utwórz nowe wystąpienie ramy po wschodniej stronie za pomocą dowolnego z następujących narzędzi: **Szybka kopia**, **Szyk** lub **Odbicie lustrzane**.
 
-11 - 유리 상자의 북쪽과 남쪽에 대해 위의 단계를 반복합니다. 새 그룹의 이름을 **멀리언 프레임 - NS**로 지정합니다. 잊지 말고 페인트하여 **멀리언** 레이어에 배치하십시오.
+11 — Powtórz powyższe czynności po północnej i południowej stronie pomieszczenia ze szklanymi ścianami. Nadaj nowej grupie nazwę **Rama szprosu — północ-południe**. Nie zapomnij pomalować elementów i umieścić ich na warstwie **Szpros**.
 
 ![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**주:**_ _멀리언 프레임은 구석에서 서로 겹칩니다. 이는 의도된 것입니다. 위의 결과는_ _**유리 벽**_ _및_ _**기둥**_ _레이어를 끈 멀리언 프레임 형상을 보여줍니다._
+_**Uwaga:**_ _ramy szprosów nakładają się na siebie w narożnikach. To jest zamierzone. Powyżej przedstawiono wynikową geometrię ram szprosów z wyłączonymi warstwami_ _**Szklana ściana**_ _i_ _**Słup**_ _._
 
-**멀리언 작성**
+**Tworzenie szprosów**
 
-1 - 건물의 남쪽 또는 북쪽에 외부 유리 면이 있는 평면에서 멀리언 프레임의 맨 아래와 맨 위 사이에 걸쳐 있는 **2” x 10’-10” 직사각형\(R\)**을 그립니다. 프레임을 따라 직사각형을 정확한 위치에 배치해야 하는 문제에 대해 너무 걱정하지 마십시오. 다음 단계에서 직사각형을 제자리로 이동할 것입니다.
+1 — W jednej płaszczyźnie z zewnętrzną powierzchnią szkła po południowej lub północnej stronie budynku narysuj **Prostokąt \(R\) o wymiarach 2 cale x 10 stóp i 10 cali** sięgający dolnej i górnej krawędzi ramy szprosu. Nie przejmuj się dokładnym położeniem prostokąta względem ramy — przeniesiemy go w odpowiednie miejsce w kolejnych krokach.
 
 ![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - 직사각형을 다시 **2"**만큼 돌출시킨 다음 **그룹화\(G\)**하고 그룹 이름을 **멀리언 - 수직**으로 지정합니다. 이 그룹을 **멀리언** 레이어에 배치하고 **금속 - 브러쉬 - 회색** 재료로 페인트합니다.
+2 — Wyciągnij prostokąt o **2 cale** w tył, a następnie dodaj go do **grupy \(G\)** o nazwie **Szpros — pionowy**. Umieść grupę na warstwie **Szpros** i pomaluj ją materiałem **Metal — matowy — szary**.
 
-**멀리언 찾기**
+**Określanie położenia szprosów**
 
-_이제 첫 번째 멀리언의 위치를 설정하여 멀리언이 기둥의_ _**중간 점**__에 배치되도록 합니다._
+_Teraz ustawimy położenie pierwszego szprosu, tak aby był wyśrodkowany względem_ _**punktu środkowego**_ _słupa._
 
-1 - 기둥을 다시 표시하려면 **기둥** 레이어를 켭니다(꺼진 경우). **레이어 팔레트**가 열려 있는 동안 **낮은 테라스** 및 **평면도 이미지** 레이어를 꺼서 다음 단계를 쉽게 수행할 수도 있습니다.
+1 — Aby ponownie wyświetlić słupy, włącz warstwę **Słup**, jeśli była wyłączona. Na **palecie Warstwy** można również wyłączyć warstwy **Dolny taras** i **Obraz rzutu**, aby ułatwić wykonywanie kolejnych kroków.
 
-2 - 멀리언을 새 위치로 이동하려면 다음 단계를 수행합니다.
+2 — Przesuń szpros w nowe położenie:
 
-1. 한 번 클릭하여 방금 작성한 수직 멀리언 그룹을 선택합니다. **줌\(Z\)** 확대하고 빨간색 삼각형**으로 표시된 멀리언 아래쪽 외부 모서리의 **중간 점**을 클릭합니다.**
-2. 형상을 기둥 쪽으로 수평으로 이동하기 시작합니다. **Shift** 키를 눌러 빨간색 축\(**X축**\)에서 이동을 잠급니다. 이동이 잠기면 빨간색 축이 더 두꺼워집니다.
-3. 기둥의 기준이 보일 때까지 줌 축소합니다. **Shift** 키를 계속 누른 상태에서 기둥 외부 면의 기준에 있는 **중간 점**을 클릭합니다. 멀리언은 계속해서 빨간색 축\(**X축**\)을 따라서만 이동하지만 방금 클릭한 **중간 점**에 맞춰 정렬됩니다.
+1. Kliknij utworzoną grupę szprosu pionowego jeden raz, aby ją wybrać. **Powiększ \(Z\)** widok i kliknij **punkt środkowy** dolnej krawędzi zewnętrznej szprosu, oznaczony czerwonym trójkątem**.**
+2. Rozpocznij przesuwanie geometrii w poziomie w kierunku słupa. Naciśnij klawisz **Shift**, aby zablokować ruch na czerwonej osi \(**osi X**\). Pamiętaj, że po zablokowaniu ruchu czerwona oś zostanie pogrubiona.
+3. Pomniejszaj widok, aż będzie widać podstawę słupa. Trzymając wciśnięty klawisz **Shift**, kliknij **punkt środkowy** u podstawy zewnętrznej powierzchni słupa. Szpros będzie nadal przesuwany tylko wzdłuż czerwonej osi \(**osi X**\), ale zostanie wyrównany do klikniętego **punktu środkowego**.
 
 ![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**주:**_ _이제 멀리언이 기둥 바로 뒤에 있습니다. 멀리언을 시각화하려면_ _**기둥**_ _레이어를 끄거나_ _**궤도 이동\(O\)**__합니다._
+_**Uwaga:**_ _szpros znajduje się teraz bezpośrednio za słupem. Wyłącz warstwę_ _**Słup**_ _lub użyj narzędzia_ _**Obróć\(O\)**_ _, aby zobaczyć szpros._
 
-3 - **Esc** 키를 눌러 **이동** 도구를 종료합니다.
+3 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie **Przesuń**.
 
-4 - **배열\(AR\)** 또는 **빠른 복사** 도구를 사용하여 동일한 측면을 따라 간격이 **11'**만큼 떨어진 위치에 수직 멀리언 네 개\(4\)를 추가로 작성합니다. **배열 도구** 사용 방법을 알아보려면 이전 장을 참조하십시오.
+4 — Za pomocą narzędzia **Szyk \(AR\)** lub **Szybka kopia** utwórz jeszcze cztery \(4\) szprosy pionowe po tej samej stronie, rozmieszczone w odstępach **11 stóp**. Aby dowiedzieć się, jak używać **narzędzia Szyk**, zapoznaj się z poprzednimi rozdziałami.
 
-5 - Tab 키를 사용하여 모든 **수직** 멀리언 그룹을 선택하고 건물의 반대쪽에 복사하여 다음 이미지에 표시된 것처럼 **북쪽** 및 **남쪽** 프레임의 멀리언 배치가 동일하도록 합니다.
+5 — Użyj klawisza Tab, aby wybrać wszystkie grupy szprosów **pionowych** i skopiować je na przeciwną stronę budynku, tak aby ramy **północna** i **południowa** miały identyczny układ szprosów, co pokazano na poniższej ilustracji:
 
 ![](../../.gitbook/assets/8%20%286%29.png)
 
-## **문 멀리언 작성**
+## **Tworzenie szprosów drzwi**
 
-1 - 서쪽 멀리언 프레임의 중심이 보일 때까지 투시 뷰를 **궤도 이동\(O\)**합니다.
+1 — **Obróć \(O\)** widok perspektywiczny w celu pokazania środka ramy szprosów po zachodniej stronie.
 
-2 - 멀리언 프레임을 작성하는 것과 유사하게 **2"x 2"** 프레임이 있는 **3’-6"** 폭 문 패널을 그립니다. 그룹 이름: **커튼월 문**, 레이어: **멀리언**, 재료: **금속 – 브러시 – 회색** 특성을 사용하여 **그룹\(G\)**으로 만듭니다.
+2 — Podobnie jak podczas tworzenia ram szprosów narysuj panel drzwi o szerokości **3 stóp i 6 cali** z ramą **2 x 2 cale**. Dodaj go do **grupy \(G\)** o następujących właściwościach: nazwa grupy: **Drzwi ściany kurtynowej**; warstwa: **Szpros**; materiał: **Metal — matowy — szary**.
 
-3 - 이 그룹을 복사하여 두 번째 문 프레임을 작성한 다음 아래 표시된 대로 **멀리언 프레임 - EW** 그룹의 중심에 오도록 이동합니다.
+3 — Skopiuj tę grupę, aby utworzyć drugą ramę drzwi, i przesuń ramy w taki sposób, aby były wyśrodkowane względem grupy **Rama szprosu — wschód-zachód**, jak pokazano poniżej.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **스윕으로 지붕 처마 작성**
+## **Tworzenie gzymsu dachowego przy użyciu narzędzia Przeciągnięcie**
 
-_이제 FormIt의 고급 모델링 도구 중 하나인_ _**스윕**을 사용하여 판스워스 하우스의 처마를 작성합니다. 기타 고급 모델링에 대해 자세히 알아보려면_ _**FormIt Primer - 2부**의_ **2.2 -** _**고급 모델링** 장_ _을 참조하십시오._
+_Teraz utworzymy gzyms domu pani Farnsworth za pomocą jednego z zaawansowanych narzędzi do modelowania programu FormIt — __**Przeciągnięcie**. Aby poznać inne zaawansowane funkcji modelowania, zapoznaj się z rozdziałem_ **2.2 —** _**Modelowanie zaawansowane**_ _w sekcji_ _**FormIt Primer — część II**._
 
-_**스윕**_ _작성의 첫 번째 단계는 스윕 '돌출'에 수직인 프로파일을 그리는 것입니다. 이렇게 하기 위해 지붕 형상을 가이드로 사용할 것입니다._
+_Pierwszym krokiem procesu tworzenia_ _**Przeciągnięcia**_ _jest narysowanie profilu prostopadłego do wyciągnięcia. W tym celu użyjemy geometrii dachu jako wzoru._
 
-1 - **지붕** 레이어를 켜고 모서리 중 하나를 줌 확대합니다.
+1 — Włącz warstwę **Dach** i powiększ jeden z jej narożników.
 
-2 - 지붕의 수직 면 중 하나를 참조로 사용하여 인접한 두 개의 직사각형을 그립니다. 첫 번째 직사각형은 높이 **6"**에 폭은 **4 5/8**"이며 두 번째 직사각형은 **2"x 2"**입니다. 두 직사각형을 분할하는 선을 삭제하여 단일 면을 만듭니다. 결과는 아래와 같이 표시되어야 합니다.
+2 — Używając jednej z pionowych powierzchni dachu jako odniesienia, narysuj dwa sąsiadujące prostokąty. Pierwszy będzie miał wysokość **6 cali** i szerokość **4 i 5/8** cala, a drugi — **2 x 2 cale**. Usuń linię dzielącą oba prostokąty, aby utworzyć jedną powierzchnię. Rezultat powinien wyglądać tak, jak poniżej.
 
 ![](../../.gitbook/assets/10.jpeg)
 
-3 - 스윕을 작성하려면 다음 단계를 수행합니다.
+3 — Utwórz przeciągnięcie:
 
-1. 형상을 선택하지 않은 상태에서 **표준 도구막대**의 **고급 모델링 도구** 버튼을 클릭하고 **스윕\(SW\)**을 선택합니다.
-2. **스윕 선택 마법사**가 시작되고 **스윕 프로파일을 작성할 면\(또는 모서리\)을 선택합니다**라는 메시지가 표시됩니다. 방금 작성한 프로파일 면을 선택합니다.
-3. 프로파일을 선택하면 **스윕 경로의 면\(또는 모서리\)을 선택한 다음 완료를 클릭합니다**라는 메시지가 표시됩니다. 지붕의 상단 면을 선택합니다. FormIt은 선택한 면의 경계를 스윕 경로로 자동으로 사용하고, 전체 지붕 주위에 스윕을 작성합니다.
+1. Bez wybranej geometrii kliknij przycisk **Zaawansowane narzędzia modelowania** na **standardowym pasku narzędzi** i wybierz **Przeciągnięcie \(SW\)**.
+2. Zostanie uruchomiony **Kreator wyboru przeciągnięcia** i zobaczysz monit **Należy wybrać powierzchnię \(lub krawędzie\) dla profilu przeciągnięcia**. Wybierz powierzchnię profilu utworzoną w poprzednim kroku.
+3. Po wybraniu profilu zostanie wyświetlony monit **Należy wybrać powierzchnię \(lub krawędzie\) dla ścieżki przeciągnięcia, a następnie kliknąć przycisk Zakończ**. Wybierz górną powierzchnię dachu. Program FormIt automatycznie użyje obwiedni wybranej powierzchni jako ścieżki przeciągnięcia i utworzy przeciągnięcie wokół całego dachu.
 
-_**주:**_ _두 면 중 하나를 선택하는 데 문제가 있는 경우 주위를_ _**궤도 이동\(O\)**_ _하여 면을 좀 더 자세히 살펴본 후 다시 시도하십시오. 또 다른 옵션으로, 지붕의 상단 면 대신 지붕의 모든 모서리를 선택하여 스윕을 완료합니다._
+_**Uwaga:**_ _w przypadku problemów z wybraniem dowolnej z powierzchni użyj narzędzia_ _**Obróć \(O\)**_ _, aby lepiej zobaczyć powierzchnię, i spróbuj ponownie. Możesz też wybrać wszystkie krawędzie dachu zamiast jego górnej powierzchni, aby ukończyć tworzenie przeciągnięcia._
 
 ![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - **지붕 - 처마** 그룹을 작성하고 **지붕** 레이어에 추가한 다음 이 그룹에 **금속 - 브러시 - 컬러** 재료를 할당하여 모델을 구성된 상태로 유지합니다.
+4 — Aby uporządkować model, utwórz grupę **Dach — gzyms**, dodaj ją do warstwy **Dach** i przypisz do niej materiał **Metal — matowy — kolorowy**.
 
 ![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - 마무리를 위해 **기둥** 레이어를 켜면 새로 작성한 스윕이 기둥의 상단과 교차하는 것을 볼 수 있습니다. 이 문제를 해결하려면 **긴 기둥** 그룹 중 하나를 편집하고 처마 하단에 맞춰 정렬될 때까지 상단 면을 아래로 끕니다.
+5 — Na koniec włącz warstwę **Słup**. Zobaczysz, że nowo utworzony gzyms przecina górne części słupów. Aby to poprawić, edytuj dowolną grupę **Słup — wysoki** i przeciągnij górną powierzchnię w dół do momentu wyrównania z dolną powierzchnią gzymsu.
 
 ![](../../.gitbook/assets/13%20%285%29.png)
 

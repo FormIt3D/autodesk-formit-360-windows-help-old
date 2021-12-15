@@ -1,80 +1,80 @@
-# 점두/커튼월 멀리언 시스템
+# System szprosów witryny/ściany kurtynowej
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Dynamo에서 제공
+## Obsługiwane przez dodatek Dynamo
 
-FormIt에서 점두/커튼월 멀리언 시스템을 신속하게 작성하는 기능은 Dynamo에서 제공합니다. 아래와 같이 Dynamo 패널의 Dynamo Samples 디렉토리에서 Storefront Curtainwall 시스템을 찾을 수 있습니다.
+Możliwość szybkiego tworzenia systemów szprosów witryny/ściany kurtynowej w programie FormIt jest obsługiwana przez dodatek Dynamo. System Storefront Curtainwall można znaleźć w katalogu Dynamo Samples w panelu Dynamo:
 
 ![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## 멀리언 시스템에 대해 "유리" 선택
+## Wybieranie szyby dla systemu szprosów
 
-FormIt 2021.2부터 점두 커튼월 시스템에서는 새 [SelectFromFormIt 노드](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)를 사용하여 멀리언 시스템을 생성할 "유리"\(단일 면 또는 돌출된 솔리드\) 조각을 선택할 수 있습니다.
+Od wersji FormIt 2021.2 w systemie Storefront Curtainwall używany jest nowy węzeł [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), który umożliwia wybranie szyby, „glass” \(pojedynczej powierzchni lub wyciągniętej bryły\), wokół której ma zostać wygenerowany system szprosów.
 
-![하단에 문의 개구부가 있는 &quot;유리&quot;의 단순 평면입니다.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Prosta szklana płaszczyzna z otworem na drzwi na dole.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-점두 커튼월 썸네일\(선택이 필요함을 나타내는 아이콘\)을 클릭하면, 계속하려면 유리 형상을 선택하라는 메시지가 FormIt에 표시됩니다.
+Po kliknięciu miniatury Storefront Curtainwall \(zwróć uwagę na ikonę wskazującą, że wymagany jest wybór\) zostanie wyświetlony monit programu FormIt o wybranie geometrii szyby, aby można było kontynuować:
 
 ![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-유리 선택이 작동하는 방식에 대한 몇 가지 참고 사항 및 주의 사항:
+Kilka uwag i zastrzeżeń dotyczących sposobu wyboru szyby:
 
-* 현재 평면형 표면만 지원됩니다. 일련의 표면\(예: 작은 평면형 표면으로 구성된 "곡선" 표면\)을 선택하는 경우 스크립트는 가장 큰 평면형 면을 찾아서 사용합니다.
-* 유리가 솔리드\(즉, 두께를 나타내기 위해 아주 약간 돌출된 단일 면\)인 경우 스크립트는 가장 큰 표면을 찾습니다. 따라서 결과 멀리언이 유리 솔리드의 한 쪽에서 생성됩니다.
-* 문의 개구부를 스케치하고 유리 경계에서 결과 표면을 제거할 수 있습니다. 그러면 결과 멀리언은 문 개구부를 고려해 문을 추가할 수 있도록 비어 있게 됩니다.
-* Dynamo 제한으로 인해 유리 형상의 가운데에 개구부가 있는 경우 이 스크립트는 작동하지 않습니다.
+* Obecnie obsługiwane są tylko powierzchnie płaskie. Jeśli zostanie wybrany szereg powierzchni \(na przykład powierzchnia „zakrzywiona” składająca się z mniejszych powierzchni płaskich\), skrypt znajdzie największą powierzchnię płaską i użyje tej powierzchni.
+* Jeśli szyba jest bryłą — tzn. pojedyncza powierzchnia jest wyciągnięta bardzo nieznacznie w celu uzyskania odrobiny grubości — skrypt znajdzie największą powierzchnię i wynikowe szprosy zostaną wygenerowane po jednej stronie bryły szklanej.
+* Można naszkicować otwory na drzwi i usunąć wynikową powierzchnię z obwiedni szyby. Wynikowe szprosy będą uwzględniać otwór drzwiowy, pozostawiając puste miejsce na dodanie drzwi.
+* Z powodu ograniczeń dodatku Dynamo ten skrypt nie będzie działał, jeśli geometria szyby ma otwory w środku.
 
-## 정보 및 소개
+## Porady
 
-FormIt에서 Dynamo 그래프의 형상을 선택할 때 다음과 같은 특정 구성 방식을 통해 환경을 간소화하고 결과를 쉽게 인스턴스화할 수 있습니다.
+Podczas wybierania geometrii dla wykresu Dynamo w programie FormIt niektóre rozwiązania organizacyjne mogą uprościć pracę i ułatwić uzyskiwanie wyników:
 
-* 유리를 그룹에 놓고 그룹을 점두/커튼월 스크립트에 대한 선택사항으로 사용합니다. 이렇게 하면 멀리언이 생성된 후 유리 프로파일을 보다 쉽게 편집할 수 있으며, 실행 간에 유리가 크게 수정되고 면 ID가 변경된 경우 그룹은 면 ID가 아닌 그룹 ID를 사용하므로 스크립트가 유리를 항상 찾게 됩니다.
-* 멀리언 시스템의 결과를 복사하여 모델의 다른 위치에 붙여넣으려고 하는 경우 유리와 결과 멀리언을 그룹에 포함하는 것이 가장 좋습니다. 그러면 결과 멀리언 그룹만 복사하여 붙여넣을 때 사용할 유리 인스턴스(instance)를 선택 노드가 알지 못하는 문제도 방지할 수 있습니다.
-   * 먼저 유리를 그룹에 놓습니다. 두 번 클릭하여 유리를 선택하고 G 키를 누르거나 상황에 맞는 메뉴 또는 도구막대에서 그룹 명령을 사용합니다.
-   * 결과 그룹을 선택하고 다른 그룹에 놓습니다.
-   * 두 번 클릭하여 첫 번째 그룹으로 들어갑니다. 이 그룹은 유리와 결과 멀리언 모두에 대한 "컨테이너"입니다.
-   * 점두 커튼월 썸네일을 클릭하고 유리 그룹을 선택사항으로 사용합니다.
-   * 스크립트가 실행되면 그룹을 종료하고 필요에 따라 컨테이너를 복사/붙여넣을 수 있습니다. 문제 없이 인스턴스(instance)를 편집\(유리 모양 또는 매개변수 조정\)할 수 있습니다.
+* Umieść szybę w grupie i użyj opcji Grupa jako wyboru dla skryptu Storefront/Curtainwall. W ten sposób łatwiej jest edytować profil szyby po wygenerowaniu szprosów. Jeśli szyba jest w znacznym stopniu modyfikowana między przebiegami i zmieniają się identyfikatory powierzchni, grupa zapewnia, że skrypt zawsze znajdzie tę szybę, ponieważ używa identyfikatora grupy, a nie identyfikatora powierzchni.
+* Jeśli planujesz skopiowanie i wklejenie wyników systemu szprosów w innych miejscach w modelu, najlepiej, aby szyba i wynikowe szprosy były zawarte w grupie. Zapobiegnie to również problemom z ustaleniem w węźle wyboru, które wystąpienie szyby ma być używane podczas kopiowania i wklejania wynikowej grupy szprosów.
+   * Najpierw umieść szybę w grupie. Kliknij dwukrotnie szybę, aby ją wybrać, a następnie naciśnij klawisz G lub użyj poleceń grupy w menu kontekstowym lub na pasku narzędzi.
+   * Wybierz grupę wynikową i umieść ją w innej grupie.
+   * Kliknij dwukrotnie, aby przejść do pierwszej grupy. Jest to „pojemnik” zarówno na szybę, jak i na wynikowe szprosy.
+   * Kliknij miniaturę Storefront Curtainwall i użyj grupy szyby jako wyboru.
+   * Po uruchomieniu skryptu można zamknąć grupę i skopiować/wkleić pojemnik, w którym się znajduje, jeśli zachodzi taka potrzeba. Bez problemu można edytować dowolne wystąpienia \(dopasowując kształt lub parametry szyby\).
 
-## 멀리언 시스템 옵션
+## Opcje systemu szprosów
 
-유리를 선택하고 스크립트를 실행하면 FormIt 캔버스에 FormIt 그룹 형식으로 결과가 표시됩니다. 이 그룹은 자동으로 선택되며 특성 패널에 사용 가능한 옵션이 표시됩니다.
+Po wybraniu szyby i uruchomieniu skryptu uzyskuje się wynik w obszarze rysunku programu FormIt w postaci grupy programu FormIt. Ta grupa zostanie automatycznie wybrana, a na panelu Właściwości zostaną wyświetlone dostępne opcje.
 
 ![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **실행**: 유리의 모양을 수정하고 그래프를 다시 실행하여 멀리언 결과를 업데이트하려는 경우 이 옵션을 클릭합니다.
-* **포함된 그래프 편집**: 형상을 생성하는 Dynamo 스크립트를 편집합니다. 이 스크립트는 이 그룹에 고유한 스크립트로 FormIt 파일에 포함되어 있습니다.
-* **유리\(표면 또는 솔리드\) 선택**: 멀리언을 생성할 다른 유리 조각으로 선택사항을 업데이트하려면 이 옵션을 클릭합니다.
+* **Run**: Jeśli zmienisz kształt szyby i zechcesz ponownie uruchomić wykres, aby zaktualizować wyniki szprosów, kliknij tę opcję.
+* **Edit Embedded Graph**: Edytuj skrypt Dynamo, który generuje geometrię. Ten skrypt jest osadzony w pliku programu FormIt i jest charakterystyczny dla tej grupy.
+* **Select Glass \(Surface or Solid\)**: Kliknij tę opcję, aby zaktualizować wybór do innej szyby, wokół której mają być generowane szprosy.
 
-스크립트는 첫 번째 실행에 기본값을 사용하므로 이러한 값을 사용자 고유의 사용 사례에 맞게 조정할 수 있습니다. 모든 값은 현재 FormIt 단위를 사용합니다.
+Skrypt będzie używał wartości domyślnych dla pierwszego przebiegu, dlatego należy dostosować je do danego konkretnego przypadku zastosowania. Wszystkie wartości będą mieć bieżące jednostki FormIt.
 
-* **멀리언 폭 + 깊이**: 모든 멀리언 요소의 폭 및 깊이입니다.
-* **수직 멀리언 간격**: 중심에서 각 수직 멀리언 사이의 거리입니다.
-* **수직 멀리언 배치 반전**: 스크립트는 임의로 선택된 한쪽에서 수직 멀리언 간격을 시작합니다. 결과에서 사용 사례에 대해 잘못된 쪽에서 멀리언 간격을 시작하는 경우, 이 값을 참으로 설정하여 배치가 반대쪽에서 시작되도록 반전합니다.
-* **수직 멀리언 가운데 배치**: 유리의 한쪽 끝에서 수직 멀리언 간격 계산을 시작하는 대신, 중간에서 계산을 시작하여 수직 멀리언의 대칭 배치를 작성합니다.
-* **첫 번째 수평 멀리언 간격**: 하단에서 첫 번째 수평 멀리언 간격을 설정합니다. 나머지 수평 멀리언 간격과는 별도로 하단에 더 짧은 유리 모듈 행이 필요한 경우에 유용합니다.
-* **수평 멀리언 간격**: 위에 설명된 첫 번째 멀리언 이후에 시작하는, 중심에서의 일반적인 수평 멀리언 간격입니다.
-* **수평 멀리언 배치 반전**: 수평 멀리언 배치를 하단이 아닌 상단에서 시작하려면 이 옵션을 참으로 설정합니다.
-* **수평 멀리언 가운데 배치**: 유리의 하단 또는 상단에서 수평 멀리언 간격 계산을 시작하는 대신, 중간에서 계산을 시작하여 수평 멀리언의 대칭 배치를 작성합니다.
+* **Mullion Width + Depth**: Szerokość i głębokość wszystkich elementów szprosu.
+* **Vertical Mullion Spacing**: Odległość między środkami poszczególnych szprosów pionowych.
+* **Flip Vertical Mullion Layout**: Skrypt rozpoczyna odstępy między szprosami pionowymi z jednej dowolnie wybranej strony. Jeśli w wyniku tej operacji odstępy między szprosami rozpoczynają się po niewłaściwej dla danego zastosowania stronie, ustaw wartość True, aby odwrócić ten układ.
+* **Center Vertical mullion Layout**: Zamiast rozpoczynać obliczenia odstępów między szprosami pionowymi na jednym końcu szyby, rozpocznij obliczenia od środka, tworząc symetryczny układ szprosów pionowych.
+* **First Horizontal Mullion Spacing**: Umożliwia ustawienie odstępu pierwszego szprosu poziomego od dołu. Jest to przydatna opcja, jeśli na dole potrzebny jest rząd krótszych modułów przeszklenia, niezależnie od pozostałych rozstawów szprosów poziomych.
+* **Horizontal Mullion Spacing**: Typowy odstęp między środkami szprosów poziomych, od pierwszego szprosu, jak wyjaśniono powyżej.
+* **Flip Horizontal Mullion Layout**: Jeśli układ szprosów poziomych ma rozpoczynać się u góry, a nie u dołu, ustaw wartość True.
+* **Center Horizontal Mullion Layout**: Zamiast rozpoczynać obliczenia odstępów między szprosami poziomymi u dołu lub u góry szyby, rozpocznij obliczenia od środka, tworząc symetryczny układ szprosów poziomych.
 
-## 숨겨져 있는 옵션
+## Opcje ukryte
 
-더 많은 사용자 지정 옵션을 찾고 있습니까? FormIt 특성 패널에 고급 옵션 여러 개가 숨겨져 있지만 "포함된 그래프 편집"을 클릭하여 Dynamo에서 전체 그래프 컨텐츠를 표시하면 액세스할 수 있습니다.
+Szukasz dodatkowych możliwości dostosowania? W panelu właściwości programu FormIt jest ukrytych kilka zaawansowanych opcji, ale są one dostępne po kliknięciu przycisku „Edit Embedded Graph” w celu wyświetlenia całej zawartości wykresu w dodatku Dynamo:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### 임의 멀리언
+### Szprosy losowe
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **수직 및 수평 멀리언 배치 임의 지정**: 수직 또는 수평 멀리언의 간격을 임의로 지정하려면 참으로 설정합니다.
-* **최소/최대 멀리언 간격\(임의 지정인 경우\)**: 임의 지정된 최소 및 최대 간격 값 범위를 설정하려면 이러한 값을 조정합니다.
+* **Randomize Vertical and Horizontal Mullion Layout**: Ustaw wartość True, aby losowo rozmieścić szprosy pionowe lub poziome.
+* **Min/Max Mullion Spacing \(if random\)**: Te wartości można dostosować, aby ustawić zakres minimalnych i maksymalnych losowych wartości odstępów.
 
-### 경계 멀리언
+### Szprosy graniczne
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **경계 멀리언의 간격띄우기 방향 반전:** 기본적으로 멀리언 시스템은 유리 경계를 사용하고 안쪽으로 간격띄우기하여 경계 멀리언을 작성합니다. 바깥쪽으로 간격띄우기하려면 이 옵션을 참으로 설정합니다. 이렇게 하면 유리 경계 외부에 있는 멀리언 시스템의 전체 크기가 멀리언 폭 설정만큼 증가합니다.
-* **선택사항과 경계 멀리언 사이의 공차**: 기본적으로 멀리언 시스템은 유리의 경계에서 정확하게 생성되며, 이로 인해 유리 모서리와 경계 멀리언의 외부 표면이 충돌하는 Z-fighting이 유발될 수 있습니다. 대부분의 경우 이 설정은 표시되지 않지만 사용 사례에서 Z-fighting을 피하기 위해 시스템의 모서리를 표시해야 하는 경우 이 옵션을 사용하도록 설정하고 필요에 따라 공차 값을 조정합니다.
+* **Flip Offset Direction of Border Mullions:** Domyślnie system szprosów będzie używał obwiedni szyby i odsunie ją do wewnątrz, aby utworzyć szprosy graniczne. Aby odsunąć ją na zewnątrz, ustaw tę opcję na True. Spowoduje to rozszerzenie całkowitego rozmiaru systemu szprosów poza obwiednię szyby o wartość szerokości szprosu.
+* **Tolerance Between Selection and Border Mullions**: Domyślnie system szprosów będzie generowany dokładnie na granicy szyby, co może spowodować niedopasowanie brzegu szyby i zewnętrznych powierzchni szprosów granicznych. W większości przypadków nie będzie to widoczne, ale jeśli w danym zastosowaniu wymagana jest widoczność krawędzi systemu i chcesz uniknąć niedopasowania, włącz tę opcję i dostosuj wartość tolerancji zgodnie z potrzebami.
 

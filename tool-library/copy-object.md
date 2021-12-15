@@ -1,29 +1,29 @@
-# 객체 복사
+# Kopiuj obiekt
 
-다음 세 가지 방법으로 객체를 복사할 수 있습니다.
+Istnieją trzy sposoby kopiowania obiektu.
 
-**상황에 맞는 메뉴를 사용하여 복사**
+**Kopiowanie za pomocą menu kontekstowego**
 
-1. 객체를 두 번 클릭하여 선택합니다.
-2. 객체를 마우스 오른쪽 버튼으로 클릭합니다.
-3. 상황에 맞는 메뉴에서 [**복사 도구**](tilt-array-copy-and-paste.md)를 선택합니다.
-4. 장면의 아무 곳이나 마우스 오른쪽 버튼으로 클릭하고 **붙여넣기 버튼**을 선택합니다.
+1. Wybierz obiekt, klikając go dwukrotnie.
+2. Kliknij prawym przyciskiem myszy obiekt.
+3. Wybierz [**narzędzie Kopiuj**](tilt-array-copy-and-paste.md) z menu kontekstowego.
+4. Kliknij prawym przyciskiem myszy w dowolnym innym miejscu w scenie i wybierz **przycisk Wklej**.
 
-주: **Ctrl+C** 또는 **Ctrl+V**를 눌러 복사하고 붙여넣을 수도 있습니다. 위치에 붙여넣기\(**Ctrl+Shift+V**\)를 사용하여 복사한 객체를 정확한 위치에 붙여넣습니다.
+Uwaga: działa to również z kombinacją klawiszy **CTRL+C** lub **V**. Za pomocą polecenia Wklej lokalnie \(**CTRL+Shift+V**\) wklej obiekt dokładnie w miejscu, z którego został skopiowany.
 
-**Ctrl 키를 사용하여 복사**
+**Kopiowanie za pomocą klawisza CTRL**
 
-1. 객체를 클릭하여\(전체 본체 또는 부착된 모든 항목을 선택하려면 두 번 클릭\) 선택합니다.
-2. **Ctrl 키**를 누른 상태에서 객체를 끌기 시작하거나 객체를 이동하기 시작한 다음 **Ctrl** 키를 누릅니다.
-3. 이제 객체를 이동하는 대신 복사본을 이동합니다.
-4. 현재, 터치 모드가 사용으로 설정되어 있으면 Ctrl+복사가 작동하지 않습니다.
-   1. 터치 모드에서는 상황에 맞는 메뉴의 복사/붙여넣기 도구를 사용하거나\(길게 누르기\), Ctrl+C 및 Ctrl+V를 사용한 다음 객체를 배치하고 필요에 따라 위치를 조정해야 합니다.
+1. Wybierz obiekt, klikając go \(kliknij dwukrotnie, aby wybrać całą bryłę lub wszystkie dołączone elementy\).
+2. Naciśnij i przytrzymaj **klawisz CTRL** i rozpocznij przeciąganie obiektu albo najpierw rozpocznij przesuwanie obiektu, a potem naciśnij klawisz **CTRL**.
+3. W ten sposób zamiast przesuwać obiekt, przenosisz jego kopię.
+4. Pamiętaj, że polecenie Kopiuj przy naciśniętym klawiszu Ctrl nie działa obecnie, gdy jest włączony tryb dotykowy.
+   1. W trybie dotykowym należy użyć narzędzi Kopiuj/Wklej z menu kontekstowego \(przez naciśnięcie i przytrzymanie\) lub użyć kombinacji klawiszy Ctrl+C i Ctrl+V, a następnie umieścić obiekt i zmienić jego położenie zgodnie z potrzebami.
 
-**배열 도구를 사용하여 복사**
+**Kopiowanie za pomocą narzędzia Szyk**
 
-1. 객체를 두 번 클릭하여 선택합니다.
-2. 객체를 **마우스 오른쪽 버튼으로 클릭**하고 [**배열 도구**](tilt-array-copy-and-paste.md)를 선택합니다.
-3. 인쇄할 사본 수를 선택합니다.
-4. 다음번 끌기로 두 객체 사이의 거리를 정의할지 아니면 배열의 총 길이를 정의할지를 선택합니다.
-5. **확인을 클릭합니다.**  ![](../.gitbook/assets/array_properties.png)
+1. Wybierz obiekt, klikając go dwukrotnie.
+2. **Kliknij prawym przyciskiem myszy** obiekt i wybierz [**narzędzie Szyk**](tilt-array-copy-and-paste.md).
+3. Określ liczbę kopii do utworzenia.
+4. Wybierz, czy następne przeciągnięcie zdefiniuje odległość między dwoma obiektami, czy całkowitą długość szyku.
+5. Kliknij **OK.**  ![](../.gitbook/assets/array_properties.png)
 

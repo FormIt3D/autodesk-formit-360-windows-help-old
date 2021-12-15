@@ -1,58 +1,58 @@
-# 그룹
+# Grupy
 
-FormIt 워크플로우에서 가장 기본적이면서 중요한 기술 중 하나는 그룹화입니다. 그룹을 사용하면 형상이 서로 부착되지 않도록 하고 복사된 요소 간에 상위/하위 관계를 설정하여 한 요소를 업데이트할 때 두 요소가 모두 업데이트되도록 할 수 있습니다. [여기](../formit-primer/part-i/grouping-objects.md)에서 그룹에 대해 자세히 알아보십시오.
+Jedną z najbardziej podstawowych, ale jednocześnie ważnych technik w procesach roboczych programu FormIt jest grupowanie. Grupy zapobiegają łączeniu się geometrii i umożliwiają konfigurowanie relacji nadrzędności/podrzędności między skopiowanymi elementami, tak aby zaktualizowanie jednego elementu powodowało zaktualizowanie obu. Więcej informacji na temat grup zamieszczono [tutaj](../formit-primer/part-i/grouping-objects.md).
 
-그룹은 선택한 그룹의 상황에 맞는 메뉴 또는 주 도구막대에서 작성 및 편집할 수 있습니다.
+Grupy można tworzyć i edytować na dwa sposoby: z poziomu menu kontekstowego wybranej grupy lub z poziomu głównego paska narzędzi.
 
-## 그룹 상호 작용
+## Interakcje grup
 
-**그룹을 작성**하려면 함께 그룹화하려는 요소(모서리, 면, 솔리드 또는 기타 그룹이 포함될 수 있음)를 선택하고 마우스 오른쪽 버튼을 클릭합니다. 상황에 맞는 메뉴에서 **그룹\(G\)** 도구를 선택합니다. 가져온 이미지 및 위성 이미지는 그룹화할 수 없습니다.
+Aby **utworzyć grupę**, wybierz elementy, które chcesz zgrupować — mogą to być krawędzie, powierzchnie, bryły lub inne grupy — i kliknij prawym przyciskiem myszy. Z menu kontekstowego wybierz narzędzie **Grupuj \(G\)**. Nie można grupować obrazów zaimportowanych i satelitarnych.
 
-**그룹을 선택**하려면 그룹을 한 번 클릭합니다. 그룹을 선택하면 파형선이 나타납니다. 이러한 선은 그룹의 전체 크기를 나타냅니다.
+Aby **wybrać grupę**, kliknij ją raz. Zwróć uwagę na przerywane linie widoczne podczas wybierania grupy — wskazują one całkowity rozmiar grupy.
 
-**그룹을 편집**하려면 그룹을 두 번 클릭합니다. 그러면 편집 모드가 시작됩니다. 편집 모드에서는 요소는 선택할 수 없고 현재 그룹 외부의 요소만 보고 스냅할 수 있습니다. **H** 키보드 바로 가기를 사용하여 현재 그룹 외부의 요소를 숨길 수도 있습니다.
+Aby **edytować grupę**, kliknij ją dwukrotnie. Spowoduje to uruchomienie trybu edycji, w którym elementy spoza bieżącej grupy można jedynie wyświetlać i przyciągać, ale nie można ich wybierać. Możesz również ukryć elementy spoza bieżącej grupy, używając skrótu klawiaturowego **H**.
 
-**그룹 내에 그룹**을 작성할 수 있습니다. 이러한 그룹을 **내포된 그룹**이라고 하며 내포된 그룹은 그룹 편집 모드 내에서 작성할 수 있습니다. 내포된 그룹에서 한 수준 위로 이동하려면 그룹 외부의 아무 곳이나 클릭합니다.
+Istnieje możliwość tworzenia **grup w grupach:** grupy te, nazywane **grupami zagnieżdżonymi**, można tworzyć w trybie edycji grupy. Aby przejść o jeden poziom w górę w grupach zagnieżdżonych, kliknij w dowolnym miejscu poza grupami.
 
-**그룹 편집 모드를 종료**하려면 그룹 외부의 아무 곳이나 두 번 클릭합니다.
+Aby **wyjść z trybu edycji grupy**, kliknij dwukrotnie w dowolnym miejscu poza grupą.
 
-**그룹을 복사**하여 원래 그룹과 해당 복사본 간의 관계를 만들 수 있습니다. 복사된 그룹을 편집하는 경우 동일한 변경사항이 관련된 모든 그룹에 영향을 미칩니다.
+Możesz **skopiować grupę**, aby utworzyć relację między oryginalną grupą a jej kopią: w przypadku edycji jakichkolwiek skopiowanych grup te same zmiany będą miały wpływ na wszystkie powiązane grupy.
 
-**복사된 그룹 간의 관계를 끊으려면** 분리하려는 그룹을 하나 이상 선택하고 마우스 오른쪽 버튼을 클릭한 다음, 상황에 맞는 메뉴에서 **고유하게 설정**을 선택합니다. 그룹 도구막대에서 고유하게 설정을 선택할 수도 있습니다.
+Aby **rozłączyć relację między skopiowanymi grupami**, wybierz grupę lub grupy, które chcesz oddzielić, kliknij prawym przyciskiem myszy i z menu kontekstowego wybierz opcję **Ustaw jako niepowtarzalne**. Opcję Ustaw jako niepowtarzalne możesz również wybrać z paska narzędzi Grupy.
 
-**모든 관련 그룹을 선택**하려면 그룹 위에 커서를 올려 놓고 Tab 키를 누릅니다. 모든 관련 그룹이 강조표시되면 그룹을 클릭하여 선택합니다. 그런 다음, 모든 그룹에 대해 한 번에 작업을 수행할 수 있습니다.
+Aby **wybrać wszystkie powiązane grupy**, ustaw kursor na grupie i naciśnij klawisz Tab. Gdy wszystkie powiązane grupy zostaną wyróżnione, kliknij te grupy, aby je wybrać. Możesz wówczas wykonać operację na wszystkich grupach jednocześnie.
 
-[**그룹 트리**](groups-tree.md)는 한 곳에서 프로젝트의 모든 그룹을 보고 관리할 수 있도록 해줍니다.
+[**Drzewo grup**](groups-tree.md) to jedno miejsce, w którym możesz wyświetlić wszystkie grupy w projekcie i zarządzać nimi.
 
-## 그룹의 상황에 맞는 메뉴 및 도구막대 액세스
+## Menu kontekstowe Grupy i dostęp do paska narzędzi
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**그룹 요소**
+**Grupuj elementy**
 
-그룹 도구막대 항목에서 그룹을 작성하려면 하나 이상의 요소를 선택하고 **그룹 작성** 아이콘을 선택한 다음, **완료** 아이콘을 선택합니다. 또는 그룹 도구막대 항목에서 **그룹 작성**을 선택한 다음, 그룹화할 요소를 선택하고 **완료** 아이콘을 선택해도 됩니다.
+Aby utworzyć grupę z elementu paska narzędzi Grupy, wybierz co najmniej jeden element, wybierz ikonę **Utwórz grupę**, a następnie wybierz ikonę **Zakończ**. Możesz również wybrać opcję **Utwórz grupę** z elementu paska narzędzi Grupy, a następnie wybrać elementy, które chcesz zgrupować, i wybrać ikonę **Zakończ**.
 
-**그룹 도구막대 항목에서 그룹을 편집**하려면 **그룹 편집** 아이콘을 선택한 다음, 편집할 그룹을 클릭합니다. 편집을 마쳤으면 **완료** 아이콘을 선택합니다. 이 도구를 사용하면 그룹이 깊게 내포되어 있더라도 편집할 특정 그룹을 선택할 수 있습니다.
+Aby **edytować grupę z poziomu elementu paska narzędzi Grupy**, wybierz ikonę **Edytuj grupę**, a następnie kliknij grupę, którą chcesz edytować. Po zakończeniu wprowadzania zmian wybierz ikonę **Zakończ**. To narzędzie umożliwia wybranie określonej grupy, która ma być edytowana, nawet jeśli jest głęboko zagnieżdżona.
 
-**도구막대에서 그룹을 고유하게 만들려면** 그룹 도구막대 항목에서 **고유하게 설정** 아이콘을 선택합니다. 또는 그룹 도구막대 항목에서 **고유하게 설정**을 선택한 다음, 고유하게 만들려는 그룹을 선택하고 **완료** 아이콘을 클릭해도 됩니다.
+**Aby grupa była unikatowa na pasku narzędzi**, wybierz ikonę **Ustaw jako niepowtarzalne** na pasku narzędzi Grupy. Ponadto możesz wybrać opcję **Ustaw jako niepowtarzalne** z elementu paska narzędzi Grupy, a następnie wybrać grupę, która ma być niepowtarzalna, i kliknąć ikonę **Zakończ**.
 
-**그룹 도구막대 항목에서 그룹의 그룹화를 해제하려면** 변경할 그룹을 선택하고 그룹 도구막대 메뉴에서 **그룹 해제** 아이콘을 선택합니다. 이렇게 하면 현재 선택한 그룹은 해제되지만 내포된 그룹은 해제되지 않습니다. 또는 도구막대에서 **그룹 해제**를 선택하고 변경할 그룹을 선택한 다음, **완료** 아이콘을 선택해도 됩니다.
+**Aby usunąć grupowanie grupy z elementu paska narzędzi Grupy**, wybierz grupę, którą chcesz zmienić, a następnie wybierz ikonę **Usuń grupowanie** z menu paska narzędzi Grupy. Spowoduje to usunięcie grupowania bieżącego wyboru, ale nie zostanie usunięte grupowanie jakichkolwiek grup zagnieżdżonych. Możesz również wybrać opcję **Usuń grupowanie** na pasku narzędzi, wybrać grupę, którą chcesz zmienić, a następnie wybrać ikonę **Zakończ**.
 
-**현재 선택한 그룹 아래에 내포된 모든 그룹을 해제하려면** 내포된 그룹이 있는 그룹을 선택하고 그룹 도구막대에서 **내포된 모든 그룹 해제**를 선택합니다.
+**Aby usunąć grupowanie wszystkich grup zagnieżdżonych poniżej aktualnie wybranej grupy, **wybierz grupę zawierającą grupy zagnieżdżone, a następnie wybierz opcję **Usuń grupowanie wszystkich zagnieżdżonych** z paska narzędzi Grupy.
 
-**모델에 있는 모든 그룹을 해제하려면** 그룹 도구막대에서 **모두 그룹 해제** 도구를 선택합니다.
+**Aby usunąć grupowanie wszystkich grup w modelu, **wybierz narzędzie **Usuń grupowanie wszystkiego** z paska narzędzi Grupy.
 
-## 그룹 및 Revit
+## Grupy i program Revit
 
-Revit **패밀리**에 익숙한 사용자라면 FormIt의 그룹 개념을 잘 알고 있을 것입니다. FormIt 그룹에는 Revit으로 지능적으로 전송하는 데 사용할 수 있는 기능이 있습니다.
+Jeśli znasz **rodziny** programu Revit, rozumiesz również koncepcję grup w programie FormIt. Grupy programu FormIt mają funkcje, których można użyć do inteligentnego przenoszenia ich do programu Revit.
 
-**FormIt 그룹 카테고리**
+**Kategorie grup programu FormIt**
 
-FormIt에서 그룹에 대한 **카테고리**를 지정하여 FormIt 그룹을 Revit으로 가져올 때 동일한 카테고리의 패밀리가 되도록 할 수 있습니다. 그룹을 선택하고 **그룹 편집** 모드를 시작한 다음, **특성** 패널을 사용하여 카테고리를 선택하면 FormIt 그룹에 카테고리를 지정할 수 있습니다. **그룹 트리** 패널에서도 카테고리를 지정할 수 있습니다.
+Dla grup w programie FormIt możesz określić **kategorie**, aby po zaimportowaniu grup programu FormIt do programu Revit stały się one rodzinami tych samych kategorii. Kategorie możesz przypisać do grup programu FormIt, wybierając grupę, przechodząc do trybu **Edycja grupy** i wybierając kategorie za pomocą panelu **Właściwości**. Kategorie możesz również przypisać w panelu **Drzewo grup**.
 
-**FormIt 그룹 이름**
+**Nazwy grup programu FormIt**
 
-**특성** 패널을 사용하여 FormIt 그룹의 이름을 지정할 수도 있습니다. 이 기능은 사용자 고유의 모델을 탐색하는 데 유용할 수 있으며, 모델을 Revit으로 가져올 때 그룹 이름을 사용하여 요소를 쉽게 필터링할 수 있습니다.
+Za pomocą panelu **Właściwości** możesz również określić nazwę grupy programu FormIt. Może to być przydatne podczas nawigacji po własnym modelu, a po zaimportowaniu modelu do programu Revit można będzie łatwo filtrować elementy, używając nazwy grupy.
 
-**FormIt의 내포된 그룹은 Revit에 내포된 그룹으로 가져오기되지 않습니다**. 따라서 Revit 패밀리가 깊게 내포되지 않습니다.
+Pamiętaj, że **grupy zagnieżdżone w programie FormIt nie są importowane do programu Revit jako grupy zagnieżdżone**. Zapobiega to tworzeniu głęboko zagnieżdżonych rodzin programu Revit.
 

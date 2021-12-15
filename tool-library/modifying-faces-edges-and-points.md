@@ -1,33 +1,33 @@
-# 면, 모서리 및 점 수정
+# Modyfikowanie powierzchni, krawędzi i punktów
 
-배치한 객체의 밀고 당기기를 시작하면 흥미로운 결과가 나타납니다. 한 번 클릭하면 단일 정점, 모서리, 면 또는 메쉬를 선택할 수 있습니다.
+Wypychanie i ciągnięcie umieszczonych obiektów może dawać bardzo interesujące wyniki. Kliknięcie jednokrotne umożliwia wybranie pojedynczego wierzchołka, krawędzi, powierzchni lub siatki.
 
-## 면 수정
+## Modyfikowanie powierzchni
 
-1. 면을 한 번 클릭합니다.
-2. 그러면 FormIt의 면 끌기 또는 돌출 도구로 자동으로 이동됩니다.
-3. 아무 곳이나 클릭하여 작업 시작점을 식별합니다.
-4. 클릭한 후 다른 객체로 스냅하여 이 면을 정렬할 수 있습니다.
-5. 이동과 마찬가지로 **임시 치수**를 클릭하거나 값을 입력하여 이동량을 정의할 수 있습니다.
+1. Kliknij jednokrotnie powierzchnię.
+2. Program FormIt automatycznie umieści Cię w narzędziu Przeciągnij powierzchnię lub Wyciągnij.
+3. Kliknij w dowolnym miejscu, aby określić punkt początkowy operacji.
+4. Po kliknięciu możesz przyciągać do innych obiektów, aby wyrównać tę powierzchnię.
+5. Podobnie jak w przypadku przesunięcia, możesz kliknąć **wymiar tymczasowy** lub po prostu rozpocząć wpisywanie wartości, aby zdefiniować wielkość przesunięcia.
 
 ![](../.gitbook/assets/modify.png)
 
-**Delete** 키를 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 삭제를 호출하여 면을 삭제할 수도 있습니다.
+Można również usunąć powierzchnię, używając klawisza **Delete** lub klikając prawym przyciskiem myszy i wywołując polecenie Usuń z menu kontekstowego.
 
-또한 **마우스 오른쪽 버튼을 클릭하고 X 버튼**을 눌러 면을 삭제할 수도 있습니다.
+Powierzchnię można również usunąć, **klikając prawym przyciskiem myszy i wybierając przycisk X**.
 
-## 모서리 수정
+## Modyfikowanie krawędzi
 
-1. 모서리를 한 번 클릭합니다.
-2. 그러면 FormIt의 이동 도구로 자동으로 이동됩니다.
-3. 이동 작업을 시작할 공간의 점 위에 마우스 커서를 놓습니다.
-4. 이제 모서리를 클릭한 후 끌어 모양을 수정할 수 있습니다.
+1. Kliknij jednokrotnie krawędź.
+2. Program FormIt automatycznie umieści Cię w narzędziu Przesuń.
+3. Umieść wskaźnik myszy na punkcie w przestrzeni, od którego chcesz rozpocząć operację przesuwania.
+4. Kliknij, a następnie przeciągnij krawędź, aby zmienić kształt.
 
 ![](../.gitbook/assets/modify2.png)
 
-## 점 수정
+## Modyfikowanie punktów
 
-1. 한 정육면체의 모서리 중 하나를 한 번 클릭합니다.
-2. 모서리와 마찬가지로, 축 중 하나를 따라 점을 끌어 모양을 재정의합니다. [다음 비균일 축척](non-uniform-scale.md)
+1. Kliknij jednokrotnie narożnik jednego z sześcianów.
+2. Podobnie jak w przypadku krawędzi, przeciągnij punkt wzdłuż jednej z osi, aby ponownie zdefiniować kształt. [Następne: Skalowanie niejednorodne](non-uniform-scale.md)
 
 ![](<../.gitbook/assets/modify3 (1) (1).png>)

@@ -1,16 +1,16 @@
-# 작업 기준면
+# Płaszczyzny robocze
 
-주 스케치의 표준 축 또는 그룹의 로컬 축을 변경하면 작업 기준면이 X축 및 Y축과 연관됩니다. **작업 기준면**은 스케치를 위한 기본 평면으로 사용되는 가상 2D 표면입니다. 이 작업 기준면은 무한대로 연장되며, 뒤에 있는 요소에 스냅하지 않고 스케치할 표면을 제공합니다.
+W przypadku zmiany osi globalnych w szkicu głównym lub osi lokalnych grupy z osiami X i Y zostaje skojarzona płaszczyzna robocza. **Płaszczyzna robocza** jest wirtualną powierzchnią 2-wymiarową używaną jako płaszczyzna domyślna szkicowania. Ta płaszczyzna robocza rozciąga się w nieskończoność i zapewnia powierzchnię do szkicowania bez przyciągania do elementów znajdujących się za nią.
 
-지반 면을 편집하는 방법은 [비주얼 스타일](../formit-primer/part-i/visual-settings.md)
+Aby dowiedzieć się, jak edytować płaszczyznę terenu, zobacz temat [ Style wizualne.](../formit-primer/part-i/visual-settings.md)
 
-## 작업 기준면 변경
+## Zmienianie płaszczyzn roboczych
 
-[표준 축](world-axes.md)을 스케치의 다른 객체 평면으로 회전합니다. 그러면 활성 작업 기준면이 이 면과 일치하도록 정렬됩니다. 이제 기본 지반 면 대신 새 XY 평면을 기준으로 요소를 스케치, 배치 및 수정할 수 있습니다. 그리드 및 작업 기준면 뒤나 아래에서 궤도를 이동하여 그리드 및 작업 기준면 뒤의 요소에 스냅하고 추정할 수 있습니다.
+Obróć [osie globalne](world-axes.md) do płaszczyzny innego obiektu w szkicu. Spowoduje to wyrównanie aktywnej płaszczyzny roboczej odpowiednio do tej powierzchni. Teraz można szkicować, umieszczać elementy i modyfikować elementy względem tej nowej płaszczyzny XY, a nie domyślnej płaszczyzny terenu. Można obracać widok wokół siatki i płaszczyzn roboczych — za nimi lub pod nimi — aby przyciągać do elementów znajdujących się za nimi i korzystać z wnioskowania względem tych elementów.
 
-그리드 선의 가시성을 켜거나 꺼서 작업 기준면 기반 스케치를 활용할 수 있습니다. 비주얼 스타일 &gt; 환경 &gt; **그리드 표시\(DG\)**
+Widoczność linii siatki można włączać i wyłączać, aby korzystać ze szkicowania opartego na płaszczyźnie roboczej. Ustawieniem tym można sterować w obszarze Styl wizualny &gt; Środowisko &gt; **Wyświetl siatkę \(DG\).**
 
-그릴 때 그리드로 스냅할지 여부도 제어할 수 있습니다. 이 설정은 설정 &gt; **그리드로 스냅\(SG\)**
+Można również określić, czy podczas rysowania ma być włączone przyciąganie do siatki. Włącz lub wyłącz to ustawienie w obszarze Ustawienia &gt; **Przyciągaj do siatki \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
 

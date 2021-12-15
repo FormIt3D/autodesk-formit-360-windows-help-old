@@ -1,24 +1,24 @@
-# 호
+# Łuk
 
-호 도구를 사용하여 반원 또는 대칭 호를 작성할 수 있습니다. 호를 작성하는 방법에는 다음 두 가지 방법이 있습니다.
+Korzystaj z narzędzia Łuk, aby tworzyć półokręgi lub łuki symetryczne. Istnieją dwa sposoby tworzenia łuków.
 
-## 세 점에 의한 호
+## Łuk na podstawie trzech punktów
 
 ![](../.gitbook/assets/arc_three_pts.png)
 
-호는 세 점으로 정의되며 X, Y 및 Z축에 그릴 수 있습니다. 첫 번째 점을 정의한 다음, 첫 번째 점에서 두 번째 점까지의 거리를 결정하고 마지막으로 세 번째 점을 선택하여 호의 높이를 지정합니다. 스냅할 수 있는 '반원' 점이 자동으로 제공됩니다. 이 점을 넘어가면 호 선이 처음 두 점을 지나 연장됩니다.
+Łuk jest definiowany przez trzy punkty i można go narysować na osiach X, Y i Z. Zdefiniuj pierwszy punkt, a następnie określ odległość od pierwszego do drugiego punktu, a na końcu — trzeci punkt wskazujący wysokość łuku. Automatycznie pojawi się punkt „półokręgu”, do którego można będzie przyciągać. Linia łuku zostanie wydłużona poza dwa pierwsze punkty.
 
-다음 위치에서 두 번째 점을 결정할 때 첫 번째 점과 두 번째 점 사이의 길이를 확인할 수 있습니다. 길이를 수동으로 지정하려는 경우 값을 입력하기만 하면 치수 상자가 나타납니다.
+Długość między pierwszym a drugim punktem jest widoczna podczas określania drugiego punktu w następnym położeniu. Aby ręcznie określić długość, wystarczy wprowadzić wartość, a pojawi się pole wymiaru.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-호를 그린 후 [선 도구](line-tool.md)를 사용하여 첫 번째 점과 두 번째 점을 연결할 수 있습니다.
+Po narysowaniu łuku można utworzyć powierzchnię za pomocą [narzędzia Linia](line-tool.md), łącząc pierwszy i drugi punkt.
 
-## 중심에 의한 호
+## Łuk na podstawie środka
 
 ![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-호의 중간 점을 선택한 다음 끌어 중심을 선택하고, 다시 끌어 호의 길이를 정의합니다. 값 입력을 시작하여 호의 정확한 각도를 입력하기만 하면 됩니다.
+Wybierz punkt środkowy łuku, przeciągnij, aby wybrać środek, a potem przeciągnij, aby zdefiniować długość łuku. Aby wprowadzić dokładną liczbę stopni kąta łuku, wystarczy rozpocząć wpisywanie wartości.
 
 ![](../.gitbook/assets/arc_circle_demo.gif)
 

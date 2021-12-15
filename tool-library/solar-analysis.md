@@ -1,4 +1,4 @@
-# 일조 해석
+# Analiza oświetlenia naturalnego
 
-FormIt Pro 사용자는 **일조 해석** 기능을 사용하여 설계의 **태양 및 에너지 영향**을 연구할 수 있습니다. 일조 해석에 대한 자세한 내용 및 사용 방법은 [여기](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis)에서 확인하십시오.
+Użytkownicy programu FormIt Pro mogą badać **wpływ oświetlenia naturalnego i energii** na projekty za pomocą funkcji **Analiza oświetlenia naturalnego**. Dowiedz się więcej na temat analizy oświetlenia naturalnego i korzystania z niej [tutaj](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
 

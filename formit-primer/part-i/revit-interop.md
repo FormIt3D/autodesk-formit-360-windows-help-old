@@ -1,70 +1,70 @@
-# 1.15 - Revit 작업
+# 1.15 — Praca z programem Revit
 
-_FormIt의 가장 흥미로운 기능 중 하나는 FormIt과 같은 유연한 모델링 환경에서 Revit과 같은 강력한 파라메트릭 환경으로 모델을 이동하는 기능입니다. 이 장에서는 FormIt에서 Revit으로, 그리고 Revit에서 FormIt으로 다양한 요소를 이동하는 연습을 합니다._
+_Jedną z najbardziej ekscytujących funkcji programu FormIt jest możliwość przenoszenia modelu z elastycznego środowiska modelowania, takiego jak program FormIt, do zaawansowanego środowiska parametrycznego, takiego jak program Revit. W tym rozdziale omówimy kilka ćwiczeń, które obejmują przenoszenie różnych elementów z programu FormIt do programu Revit i odwrotnie._
 
-_이 장에서는 샘플 Revit 패밀리를 사용합니다. 아직 다운로드하지 않은 경우 **판스워스 하우스 데이터세트**에서 다운로드할 수 있습니다. 지금까지 전체 튜토리얼을 따르지 않은 경우 **FormIt Primer 1부 데이터세트**에서 **1.15 - Working With Revit.axm** 파일을 다운로드하고 열 수도 있습니다._
+_W tym rozdziale zostaną użyte przykładowe rodziny programu Revit. Jeśli jeszcze nie zostało to zrobione, można je pobrać z zestawu danych **Farnsworth House Data Set.** Jeśli nie wykonano wszystkich czynności opisanych do tej pory w tym samouczku, można również pobrać i otworzyć plik **1.15 – Praca z plikiem Revit.axm** z **zestawów danych FormIt Primer Part 1 Datasets**._
 
-_이 연습에서는 FormIt과의 상호 운용성 기능이 향상된 Revit 2022를 사용합니다. 이전 버전의 Revit에는 이 튜토리얼에 나와 있는 기능이 일부 없을 수 있으며 UI도 다릅니다._
+_W tych ćwiczeniach będziemy używać programu Revit 2022, który zapewnia ulepszone możliwości współdziałania z programem FormIt. Poprzednie wersje programu Revit nie będą zawierać niektórych lub żadnych z elementów przedstawionych w tym samouczku i będą miały inny interfejs użytkownika._
 
-## Revit에서 FormIt으로
+## Z programu Revit do programu FormIt
 
-### FormIt에서 사용하기 위해 Revit 패밀리 변환
+### Konwertowanie rodzin programu Revit do użycia w programie FormIt
 
-FormIt에서 사용할 Revit 패밀리가 사용자나 사용자의 회사에 있다면 RFA 파일을 FormIt으로 일괄로 내보내는 방법을 다루는 이 섹션에 관심이 있을 것입니다.
+Jeśli użytkownik \(lub jego firma\) ma serię rodzin programu Revit, które mają być używane w programie FormIt, przydatne okaże się zapoznanie się z tą sekcją, w której opisano sposób zbiorczego eksportowania plików RFA do programu FormIt.
 
-_**주:**_ _아래 단계에서는 Revit 2022를 사용할 때 따라야 하는 단계와 해당 인터페이스를 보여 주지만 __**RFA를 FormIt으로 변환**__ 도구는 Revit 2016부터 제공되었습니다._
+_**Uwaga:**_ _Poniżej przedstawiono interfejs i czynności niezbędne podczas korzystania z programu Revit 2022, ale narzędzia_ _**Konwertuj RFA na format programu FormIt**_ _są dostępne od wersji Revit 2016._
 
-1 - 새 Revit 프로젝트 또는 패밀리를 엽니다. 그런 후 다음을 수행합니다.
+1 — Otwórz nowy projekt lub rodzinę programu Revit. Następnie:
 
-1. **애드인** 리본에서 **FormIt 변환기** 패널을 찾고 **RFA를 FormIt으로 변환** 버튼을 클릭합니다. **Revit 패밀리 변환 대화상자**가 팝업됩니다.
-2. **Revit 패밀리 파일 경로** 필드에서 **판스워스 하우스 데이터 세트 &gt; 지원 파일 &gt; Revit** 폴더를 저장한 컴퓨터의 위치로 이동합니다.
-3. **FormIt 컨텐츠 경로** 필드에서 **판스워스 하우스 데이터세트 &gt; 지원 파일 &gt; FormIt &gt; FormIt 컨텐츠 사용자 지정**으로 이동합니다. **1.11 컨텐츠 라이브러리를 사용하여 모델 가져오기** 장을 완료하지 않은 경우 **FormIt 컨텐츠 사용자 지정** 폴더를 작성하거나 다른 대상을 선택해야 할 수 있습니다.
-4. **확인**을 클릭하여 변환 프로세스를 시작합니다.
+1. Na wstążce **Dodatki** znajdź panel **Konwerter formatu FormIt** i kliknij przycisk **Konwertuj RFA na format programu FormIt**. Zostanie wyświetlone okno dialogowe **Konwertuj rodziny programu Revit**.
+2. W polu **Ścieżka do pliku rodziny programu Revit** przejdź do dowolnego miejsca, w którym zapisano na komputerze następujący folder: **Farnsworth House Data Set &gt; Supporting Files &gt; Revit**.
+3. W polu **Ścieżka do zawartości FormIt** przejdź do zestawu danych **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Custom FormIt Content**. Jeśli rozdział **1.11 — Importowanie modeli przy użyciu Biblioteki elementów** nie został jeszcze ukończony, może być konieczne utworzenie folderu **Custom FormIt Content** lub wybranie innego miejsca docelowego.
+4. Kliknij przycisk **OK**, aby rozpocząć proces konwersji.
 
 ![](../../.gitbook/assets/0%20%2823%29.png)
 
-_**주:**_
+_**Uwagi:**_
 
-* _이 프로세스에서는 Revit이 첫 번째 경로에서_ _**RFA**_ _를 연 다음, 이를 FormIt용_ _**AXMF**_ _형식으로 변환하고 저장하는 데 시간이 다소 걸립니다._
-* _이 연습에서는 단일 파일만 변환하지만 이 프로세스를 사용하여 선택한 폴더의 모든_ _**RFA**_ _\(내포된 폴더의 모든_ _**RFA**_ _포함\)를 일괄로 변환할 수 있습니다._
+* _Ten proces zajmie trochę czasu, ponieważ program Revit otworzy plik_ _**RFA**_ _w pierwszej ścieżce, a następnie przekonwertuje go i zapisze w formacie_ _**AXMF**_ _dla programu FormIt._
+* _W tym ćwiczeniu konwertujemy tylko jeden plik, ale w ramach tego procesu można zbiorczo przekonwertować wszystkie pliki_ _**RFA**_ _w wybranym folderze \(w tym wszystkie pliki_ _**RFA**_ _w folderach zagnieżdżonych\)._
 
-2 - 프로세스가 완료되면 FormIt으로 돌아갑니다. 그러면 **컨텐츠 라이브러리 팔레트**에서 이전에 링크한 **FormIt &gt;** **FormIt 컨텐츠 사용자 지정** 폴더 내에 새 컨텐츠가 나타납니다. 변환된 **AXMF** 파일을 다른 위치에 저장했거나 **1.11 컨텐츠 라이브러리를 사용하여 모델 가져오기** 장을 완료하지 않은 경우, 해당 폴더를 컨텐츠 라이브러리에 추가해야 해당 컨텐츠를 볼 수 있습니다. 컨텐츠 라이브러리에 폴더를 추가하는 방법에 대한 지침은 1.11장을 참고하십시오.
+2 — Po ukończeniu procesu wróć do programu FormIt. Na **Palecie Biblioteki elementów** pojawi się nowa zawartość wewnątrz folderu **FormIt &gt;** **Custom FormIt Content**, który wcześniej połączyliśmy. Jeśli przekonwertowane pliki **AXMF** zapisano w innym położeniu lub nie ukończono rozdziału **1.11 — Importowanie modeli przy użyciu Biblioteki elementów**, może być konieczne dodanie tego folderu do Biblioteki elementów, aby wyświetlić jego zawartość. Instrukcje dotyczące dodawania folderów do Biblioteki elementów znajdują się w rozdziale 1.11.
 
 ![](../../.gitbook/assets/1%20%2824%29.png)‌
 
-**주**: _Revit의 일부 카테고리는 내보내기가 지원되지 않습니다. '독립형' 또는 '레벨 기반' 패밀리는 지원되지만, 문이나 창과 같은 '호스트 기반' 패밀리는 지원되지 않습니다. 매스, 케이스워크, 환경, 가구, 가구 시스템, 일반 모델, 주차, 대지 및 특수 시설물은 모두 지원됩니다. 선택한 접이에서 지원되지 않는 패밀리는 그냥 건너뜁니다._
+**Uwaga**: _Nie wszystkie kategorie z programu Revit są obsługiwane podczas eksportowania. Rodziny „wolnostojące” i „poziom bazowy” są obsługiwane, ale rodziny „oparte na obiekcie nadrzędnym”, takie jak drzwi i okna, nie są obsługiwane. Obsługiwane są wszystkie następujące kategorie: bryła, zabudowa, otoczenie, meble, system mebli, model ogólny, parking, teren oraz wyposażenie specjalistyczne. Wszystkie nieobsługiwane rodziny w wybranym zawinięciu zostaną po prostu pominięte._
 
-## FormIt에서 Revit으로
+## Z programu FormIt do programu Revit
 
-_FormIt에서 Revit으로 형상을 가져오는 방법에는 두 가지가 있습니다. 기존_ _**.axm**을 Revit 프로젝트 또는 Revit 패밀리 파일로 가져올 수 있습니다. 이 경우 형상은 가져온 모델 또는 CAD 파일과 유사하게 동작합니다. 또는 Revit 내에서 FormIt을 시작하고 각 FormIt 그룹을 개별 일반 모델 요소로 Revit으로 가져올 수 있습니다. 두 번째 방법은 **II부** **2.8**_ _**고급 Revit 워크플로우** 장에서 다룹니다._
+_Istnieją dwa różne sposoby przenoszenia geometrii z programu FormIt do programu Revit. Istniejący plik_ _**.axm** można zaimportować do projektu programu Revit lub pliku rodziny programu Revit i będzie on się zachowywać podobnie jak zaimportowany model lub plik CAD. Można również uruchomić program FormIt z poziomu programu Revit i przenieść poszczególne grupy programu FormIt do programu Revit jako pojedyncze elementy modelu ogólnego. Druga metoda jest opisana w rozdziale **Part II** __**2.8** __**Zaawansowane procesy robocze programu Revit**._
 
-### 판스워스 하우스를 Revit으로 가져오기
+### Importowanie domu pani Farnsworth do programu Revit
 
-1 - FormIt 파일\(**.axm**\)을 Revit으로 가져오려면 새 Revit 프로젝트를 시작하고 기본 3D 뷰를 엽니다. 그런 후 다음을 수행합니다.
+1 — Aby zaimportować plik programu FormIt \(**.axm**\) do programu Revit, uruchom nowy projekt programu Revit i otwórz domyślny widok 3D. Następnie:
 
-1. **삽입 탭**으로 이동하고 **CAD 가져오기** 버튼을 클릭합니다. **CAD 형식 가져오기** 창이 열립니다.
-2. **파일 형식** 드롭다운이 **FormIt 파일\(\*.axm\)**로 설정되어 있는지 확인합니다.
-3. 작업한 판스워스 **.axm** 파일로 이동하여 선택합니다. Primer I부를 따라 작업하지 않은 경우 **판스워스 하우스 데이터세트 &gt; 장 파일** 폴더에서 **1.15 – Working With Revit.axm** 파일을 열 수도 있습니다.
-4. **FormIt 레벨 가져오기**가 선택되어 있는지 확인합니다.
-5. 설정을 정의했으면 **열기**를 클릭합니다. 그러면 FormIt 형상이 단일 요소로 Revit으로 가져오기됩니다.
+1. Przejdź do **karty Wstaw** i kliknij przycisk **Importuj CAD**. Zostanie otwarte okno **Importuj formaty CAD**.
+2. Upewnij się, że lista rozwijana **Pliki typu** jest ustawiona na **Pliki FormIt \(\*.axm\)**.
+3. Przejdź do pliku Farnsworth **.axm**, nad którym pracujesz, i wybierz go. W przypadku nieprześledzenia materiałów w części Primer Part I możesz również otworzyć plik **1.15 – Working With Revit.axm**, folder **Farnsworth House Data Set &gt; Chapter Files**.
+4. Upewnij się, że zaznaczona jest opcja **Importuj poziomy FormIt**.
+5. Po zdefiniowaniu ustawień kliknij przycisk **Otwórz**, a geometria programu FormIt zostanie przeniesiona do programu Revit jako pojedynczy element.
 
 ![](../../.gitbook/assets/2%20%2824%29.png)
 
-CAD 가져오기 버튼을 사용하여 FormIt 파일 가져오기
+Importowanie pliku programu FormIt za pomocą przycisku Importuj CAD.
 
 ![](../../.gitbook/assets/3%20%2821%29.png)  
-가져온 .axm 요소. FormIt 모델의 레벨도 Revit으로 가져오기됩니다.
+Zaimportowany element .axm. Warto zauważyć, że poziomy z modelu programu FormIt są również importowane do programu Revit.
 
-_다른 CAD 형식과 유사하게 원래 파일의 레이어가 Revit으로 가져오기됩니다. 이 기능을 사용하면 각 레이어에 대해 서로 다른 가시성 설정을 정의하여 모든 Revit 뷰에서 FormIt 파일의 그래픽 모양을 쉽게 조작할 수 있습니다._
+_Podobnie jak w przypadku innych formatów CAD, warstwy w oryginalnym pliku są importowane do programu Revit. Ta funkcja umożliwia zdefiniowanie różnych ustawień widoczności dla każdej warstwy, co ułatwia manipulowanie wyglądem graficznym pliku programu FormIt w dowolnym widoku programu Revit._
 
-2 - 가져온 .axm 파일의 레이어 가시성을 조정하려면 다음을 수행합니다.
+2 — Aby dostosować widoczność warstwy zaimportowanego pliku .axm:
 
-1. **가시성/그래픽 재지정\(VG 또는 VV\)** 창의 **가져온 카테고리** 탭으로 이동하여 가져온 FormIt 파일을 확장하고 **재배** 레이어를 선택 취소하여 현재 뷰에서 해당 레이어를 끕니다. 그런 다음, **확인**을 클릭합니다.
-2. **비주얼 스타일**을 **사실적**으로 변경하면 모든 FormIt 재료가 Revit으로 가져오기됩니다.
+1. Przejdź do okna **Nadpisania widoczności/grafiki \(VG lub VV\)**, na karcie **Kategorie importowane** rozwiń zaimportowany plik programu FormIt i wyczyść zaznaczenie warstwy **Planting**, aby wyłączyć warstwę w bieżącym widoku, a następnie kliknij przycisk **OK**.
+2. Zmień ustawienie **Styl wizualny** na **Realistyczny**. Zobaczysz, że wszystkie materiały programu FormIt zostały zaimportowane do programu Revit.
 
 ![](../../.gitbook/assets/4%20%2820%29.png)
 
-3 - 실제로, 가져온 FormIt 재료는 이제 클래스 **FormIt**이라는 태그가 지정된 이 Revit 프로젝트에서 사용할 수 있습니다. **재료 탐색기**를 열고 "FormIt"을 검색합니다. 그러면 모든 것이 표시됩니다. 이제 다른 재료와 마찬가지로 이러한 재료를 Revit 프로젝트에서 사용할 수 있습니다.
+3 — W rzeczywistości zaimportowane materiały programu FormIt będą teraz dostępne w tym projekcie programu Revit oznaczonym klasą **FormIt**. Wystarczy otworzyć **Przeglądarkę materiałów** i wyszukać „FormIt”, aby zobaczyć je wszystkie. Można ich teraz używać w projekcie programu Revit tak samo jak innych materiałów.
 
 ![](../../.gitbook/assets/5%20%2819%29.png)
 

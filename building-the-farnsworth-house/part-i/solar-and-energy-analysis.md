@@ -1,70 +1,70 @@
-# 일조 및 에너지 해석
+# Analiza oświetlenia naturalnego i analiza energetyczna
 
-이제 모델이 작성되었으므로 모델을 활용하여 설계의 **일조 및 에너지 영향**을 연구할 수 있습니다. 이러한 기능은 FormIt에 내장되어 있으므로 초기 연구를 건물 성능 측면에서 이해할 수 있습니다. **FormIt Pro**에서만 이러한 기능을 사용할 수 있으며 웹 앱에서는 이러한 기능에 액세스하지 못할 수 있습니다.
+Po utworzeniu modelu można go wykorzystać do zbadania **wpływu oświetlenia naturalnego i energii** w projekcie. Te funkcje są wbudowane w programie FormIt, dzięki czemu już najwcześniejsze badania można rozpatrywać w kontekście wydajności budynku. Te funkcje są dostępne tylko w programie **FormIt Pro**. Jeśli korzystasz z aplikacji internetowej, możesz nie mieć do nich dostępu.
 
-마지막 섹션을 완료하지 않은 경우 파일 &gt; 열기를 클릭하고 FormIt Primer 폴더에서 **farnsworth08.axm**을 선택합니다.
+Jeśli ostatnia sekcja nie została ukończona, kliknij opcje Plik &gt; Otwórz i wybierz plik **farnsworth08.axm** z folderu FormIt Primer.
 
-## 그림자
+## Cienie
 
-이러한 해석 도구를 사용하려면 [위치를 설정]()해야 합니다. 위치를 설정하면 FormIt에서 정확한 태양, 그림자 및 기후 데이터에 액세스할 수 있습니다.
+Przed użyciem tych narzędzi analizy należy [ustawić położenie](). Zapewnia to programowi FormIt dostęp do dokładnych danych dotyczących słońca, cieni i klimatu.
 
-1. [**작업 도구막대**](../../formit-introduction/tool-bars.md)에서 태양 아이콘을 클릭하고 **그림자\(DS\)**를 선택합니다.
+1. Kliknij ikonę słońca na [**pasku narzędzi operacji**](../../formit-introduction/tool-bars.md) i sprawdź opcję **Cienie \(DS\)**.
 
    ![](../../.gitbook/assets/3bdf0e2a-0ad4-4aac-b6fc-5e789643b0d6.png)
 
-2. **일** 및 **시간** 슬라이더를 조정하여 그림자가 어떻게 변경되는지 확인합니다.
+2. Dostosuj suwaki **Dzień** i **Czas**, aby zaobserwować, jak zmieniają się cienie.
 
    ![](../../.gitbook/assets/upperterracesketch_32.png)
 
-3. 커버드 테라스가 여름철의 가장 뜨거운 시간에 어떻게 그늘이 지는지 확인합니다. 그늘이 지는 것은 우연이 아니라 설계의 문제입니다.
+3. Zwróć uwagę, że kryty taras jest zacieniony w najgorętszych godzinach letnich — z pewnością nie jest to przypadek, ale kwestia projektu.
 
-**주**: 그림자로 인해 응용프로그램 성능이 저하될 수 있습니다. 이를 완화하기 위한 두 가지 제안 사항이 있습니다. 하나는 탐색이 느려지면 그림자를 끄는 것이고 다른 하나는 그림자를 연구하는 데 필요하지 않은 **가구**와 같은 레이어를 끄는 것입니다.
+**Uwaga**: Cienie mogą powodować spadek wydajności aplikacji. Dwie sugestie dotyczące łagodzenia tego problemu: wyłącz cienie, jeśli spowalniają nawigację, lub wyłącz warstwy, na przykład warstwę **furniture**, jeśli nie są one potrzebne do badania cieni.
 
-## 일조 해석
+## Analiza oświetlenia naturalnego
 
-설계자는 시각적 기억력이 좋기 때문에 우리가 작성하려는 것과 같은 열 지도 다이어그램에서 엄청난 양의 정보를 알아내 전달할 수 있습니다.
+Projektanci, którzy są osobami polegającymi na reprezentacjach wizualnych, mogą poznawać i prezentować niesamowitą ilość informacji za pomocą wykresów ciepła, takich jak ten, który zamierzamy utworzyć.
 
-1. [**태양 메뉴**](../../formit-introduction/tool-bars.md)의 맨 아래에서 **일조 해석** 버튼을 클릭합니다.
-2. **그림자**, **키보드 바로 가기** 및 기타 **도구막대**가 사용 안 함으로 설정되어 있는 특수 모드로 전환됩니다.
-3. 선택 동작은 **일조 해석** 모드에서 수정됩니다. **통과 그룹**을 선택할 수 있으며, 선택 세트에 추가하기 위해 **Ctrl** 키 또는 **Shift** 키를 누르고 있을 필요가 없고, 항목을 다시 클릭하여 선택을 취소할 수 있습니다. 형상을 **한 번 클릭**하거나, **두 번 클릭**하거나, **창 선택**할 수 있습니다.
-4. 연구할 면을 선택합니다. **지붕** 상단을 **한 번 클릭**하고 **바닥** 상단을 한 번 클릭합니다. 가구와 같은 작은 요소는 선택하지 마십시오.
+1. W dolnej części [**menu Słońce**](../../formit-introduction/tool-bars.md) kliknij przycisk **Analiza oświetlenia naturalnego**.
+2. Tryb specjalny umożliwia włączenie opcji **cieni**, **skrótów klawiaturowych** i innych **pasków narzędzi**.
+3. Zachowanie wyboru jest zmodyfikowane w trybie **Analiza oświetlenia naturalnego**. Można wybierać **z grup** (nie trzeba przytrzymywać klawisza **Ctrl** ani **Shift**), aby dodawać elementy do zestawu wyboru, i można usuwać zaznaczenie elementów, klikając je ponownie. Można **klikać pojedynczo**, **klikać dwukrotnie** lub **wybierać geometrię za pomocą okna**.
+4. Wybierz powierzchnie, które chcesz zbadać. **Kliknij pojedynczo** górę **dachu** i górę **stropów**. Unikaj wybierania małych elementów, takich jak meble.
 
    ![](../../.gitbook/assets/upperterracesketch_33.png)
 
-5. 캔버스의 왼쪽 상단 코너에서 **일조 해석** 도구막대를 찾습니다. **해석**을 클릭하십시오. FormIt에서 표면을 계산하고 렌더링합니다. 여기에 있는 설정은 해석이 끝나기 전**과** 후에 조정할 수 있습니다.
+5. W lewym górnym rogu obszaru roboczego znajduje się pasek narzędzi **Analiza oświetlenia naturalnego**. Kliknij przycisk **Analiza**. Program FormIt obliczy i wyrenderuje powierzchnie. Ustawienia w tym miejscu można dostosować przed analizą **oraz** po jej zakończeniu.
 
    ![](../../.gitbook/assets/solaranalysis.png)
 
-6. **피크 월** 설정은 지정된 월의 **피크** 값\(BTU/sq ft\)을 표시합니다. 이 값은 **음영처리 연구**에 사용됩니다. 월 설정을 변경하면 그래픽이 즉시 업데이트됩니다. 해석된 표면 위에 **커서를 놓으면** **특정** 값을 얻을 수 있습니다.
+6. Ustawienie **Szczyt miesiąca** zawiera wartości **szczytowe** \(w BTU/stopy kwadratowe\) dla określonego miesiąca. Jest to przeznaczone do **analiz cieniowania**. Można zmienić ustawienie miesiąca, a grafika zostanie natychmiast zaktualizowana. **Umieść kursor** na analizowanej powierzchni, aby uzyskać **określoną** wartość.
 
    ![](../../.gitbook/assets/460060a0-ea3b-4095-af45-40045811be22.png)
 
-7. **누적 연도** 설정은 전체 연도의 **누적** 에너지\(KwH/sq m\)를 표시합니다. 이 값은 **PV 전위 연구**에 사용됩니다.
+7. Ustawienie **Rok łącznie** pokazuje **skumulowaną** energię dla całego roku \(w kWH/metry kwadratowe\). Jest to przeznaczone do **badań potencjału fotowoltaicznego**.
 
    ![](../../.gitbook/assets/a9f61dfb-dfc9-4751-b145-b131a69c53cf.png)
 
-8. 이러한 **일조 해석** 연구는 **파일 &gt; 내보내기\(Ctrl+E\)**를 클릭하고 왼쪽에 있는 리스트에서 **이미지**를 선택하여 내보낼 수 있습니다.
+8. Te badania **analizy oświetlenia naturalnego** można wyeksportować, klikając opcję **Plik &gt; Eksportuj \(Ctrl + E\)** i wybierając opcję **Obraz** z listy po lewej stronie.
 
-## Insight를 사용한 에너지 해석
+## Analiza energetyczna w usłudze Insight
 
-FormIt은 Revit에서 사용하는 것과 동일한 건물 성능 해석 도구를 통합했습니다. **Insight**는 모델 형상을 **다시 해석**하지 않고도 잠재적인 시나리오를 반영하도록 조정할 수 있는 건물 시스템 매개변수의 대시보드를 제공합니다. Insight는 FormIt **매스작업** 형상에서 가장 잘 작동합니다.
+W programie FormIt zintegrowano te same narzędzia do analizy wydajności budynku, które są używane w programie Revit. Program **Insight** udostępnia pulpit nawigacyjny parametrów systemu budynku, które można dostosować, aby odzwierciedlały potencjalne scenariusze bez konieczności **ponownego analizowania** geometrii modelu. Usługa Insight działa najlepiej z geometrią **massing** programu FormIt.
 
-1. Autodesk 계정에 로그인되어 있는지 확인합니다. **매스작업** 레이어를 **제외한** **모든** 레이어를 끕니다. 형상에 하나 이상의 **레벨**이 적용되어 있어야 합니다.
-2. FormIt은 **가시적인** 형상만 Insight로 보냅니다. 간단한 **매스**로도 **Insight**에서 많은 데이터를 얻을 수 있습니다.
+1. Upewnij się, że zalogowano się na koncie Autodesk. Wyłącz **wszystkie** warstwy **z wyjątkiem** warstwy **massing**. Geometria musi mieć zastosowany co najmniej jeden **poziom**.
+2. Program FormIt wyśle tylko **widoczną** geometrię do usługi Insight. Należy pamiętać, że nawet prosta **bryła** spowoduje zwrócenie mnóstwa danych z usługi **Insight**.
 
    ![](../../.gitbook/assets/energymassing.png)
 
-3. **Insight &gt; Insight 생성** 버튼을 클릭합니다. 해석이 클라우드에서 실행되므로 계산 중에 계속해서 모델링할 수 있습니다.
+3. Kliknij przycisk **Insight &gt; Generuj Insight**. Analiza zostanie uruchomiona w chmurze, dzięki czemu można kontynuować modelowanie podczas obliczeń.
 
    ![](../../.gitbook/assets/energymenu.png)
 
-4. 해석이 완료되면 **Insight 보기** 버튼을 클릭하여 **에너지 모델** 및 **성능 요소**를 확인합니다\(선택적으로 [**http://insight.autodesk.com**](http://insight.autodesk.com/)에서 직접 웹 사이트를 방문할 수 있음\).
+4. Po zakończeniu analizy kliknij przycisk **Wyświetl Insight**, aby wyświetlić **model energetyczny** i **współczynniki wydajności** \(opcjonalnie można odwiedzić witrynę internetową bezpośrednio pod adresem [**http://insight.autodesk.com**](http://insight.autodesk.com/)\).
 
    ![](../../.gitbook/assets/energydashboard.png)
 
-5. Insight 대시보드에서 요소를 클릭하고 파란색 점을 끌어 각 **성능 요소** 위젯에 대한 값\(또는 값 범위\)을 설정할 수 있습니다. 이 범위는 건물에서 사용할 구체적인 시스템을 아직 모르는 경우에 유용합니다.
-6. **요소**가 변경될 때마다 전체 **에너지 비용 범위**\(USD/sq m/yr 단위로 측정됨\)가 업데이트됩니다. **Ashrae 90.1** 및 **Architecture 2030**과 같은 벤치마크를 기준으로 설계의 성능을 확인할 수 있습니다.
-7. 설계가 대폭 변경되면 업데이트된 매스를 동일한 대시보드로 다시 보낼 수 있습니다. 업데이트된 설계에 대해 **새** 대시보드를 작성하려면 먼저 FormIt에서 **다른 이름으로 저장**해야 합니다.
-8. 에너지 해석이 실패하면 형상에 기반한 **수밀 문제\(DW\)**가 있을 수 있습니다. 이러한 문제는 FormIt에서 검토하고 수정할 수 있습니다.
-9. **매스작업** 레이어를 끈 후 다른 모든 레이어를 다시 켭니다.
+5. Na pulpicie nawigacyjnym usługi Insight można ustawić wartość \(lub zakres wartości\) dla każdego widżetu **Współczynnik wydajności**, klikając współczynnik i przeciągając niebieskie kropki. Zakres jest pomocny, jeśli nie wiesz, jaki konkretnie system będzie używany w budynku.
+6. Po każdej zmianie **współczynnika** aktualizowany jest całkowity **zakres kosztów energii** \(mierzony w USD/metr kwadratowy/rok\). Możesz sprawdzić wydajność projektu na tle testów porównawczych, takimi jak **Ashrae 90.1** i **Architecture 2030**.
+7. Jeśli projekt ulegnie drastycznym zmianom, można ponownie wysłać zaktualizowaną bryłę do tego samego pulpitu nawigacyjnego. Aby utworzyć **nowy** pulpit nawigacyjny dla zaktualizowanego projektu, najpierw należy użyć polecenia **Zapisz jako** w programie FormIt.
+8. Jeśli analiza energetyczna nie powiodła się, być może występują związane z geometrią **problemy z uszczelnieniem \(DW\)**, które można przejrzeć i rozwiązać w programie FormIt.
+9. Wyłącz warstwę **massing** i ponownie włącz wszystkie pozostałe warstwy.
 

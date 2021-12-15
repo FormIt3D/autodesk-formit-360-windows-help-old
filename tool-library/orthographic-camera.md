@@ -1,18 +1,18 @@
-# 직각 카메라
+# Kamera prostopadła
 
-FormIt 2021에는 직교 카메라 기능이 새롭게 추가되었습니다. 탐색 메뉴에서 직교 및 투시 버튼을 찾을 수 있습니다.
+Program FormIt 2021 zawiera nową funkcję kamery prostopadłej. Przyciski Prostopadły i Perspektywa można znaleźć w menu nawigacji:
 
-![직교\(저면도\) 및 투시\(평면도\) 카메라 뷰 버튼 ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Przyciski widoku kamery: Prostopadły \(dół\) i Perspektywa \(góra\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-이 새로운 옵션을 사용하면 직교 및 투시 카메라 뷰 간을 쉽게 전환할 수 있습니다.
+Ta nowa opcja umożliwia łatwe przełączanie między widokami kamery prostopadłej i perspektywicznej.
 
-![모델은 투시 카메라에서 직교 카메라 모드로 전환될 수 있습니다.](../.gitbook/assets/ortho-camera.gif)
+![Model można przełączyć z trybu kamery perspektywicznej do trybu kamery prostopadłej.](../.gitbook/assets/ortho-camera.gif)
 
-직교 카메라에 있을 때 다른 모든 카메라 도구는 현재 모드를 반영합니다. 예를 들어, **면에 카메라 정렬**은 직교 카메라를 면에 정렬하여 직교 입면뷰를 생성합니다.
+W trybie kamery prostopadłej wszystkie inne narzędzia kamery uwzględniają bieżący tryb. Przykładowo polecenie **Wyrównaj kamerę do powierzchni** spowoduje wyrównanie kamery prostopadłej do powierzchni i powstanie prostokątnego widoku elewacji.
 
-평면도 또는 정면도와 같이 사전 설정된 직교 뷰로 수동으로 이동하면 직교 카메라가 해당 위치로 스냅되어 사전 설정된 뷰에 더 쉽게 액세스할 수 있습니다.
+W przypadku ręcznego przejścia do wstępnie ustawionego widoku prostopadłego, takiego jak widok z góry lub widok z przodu, kamera prostopadła zostaje przyciągnięta do tego położenia, co ułatwia dostęp do tych wstępnie ustawionych widoków.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**주:** 카메라 자르기가 직교 카메라 모드에서 발생하는 경우 투시 모드로 다시 전환하고 줌 축소한 후 다시 시도할 수 있습니다.
+**Uwaga:** Jeśli w trybie kamery prostopadłej występuje przycinanie kamery, można przełączyć się z powrotem do trybu perspektywicznego, pomniejszyć widok, a następnie spróbować ponownie.
 

@@ -1,9 +1,9 @@
-# FormIt 기능
+# Możliwości programu FormIt
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt 기능
+## Możliwości programu FormIt
 
-BIM 워크플로우를 시작하면서 강력한 내장 솔리드 모델링 시스템, 놀라운 시각화 옵션, 기본 Dynamo 통합을 통해 개념 건물 설계를 작성할 수 있습니다.
+Twórz koncepcyjne projekty budynków za pomocą wydajnego, wbudowanego systemu modelowania brył, niesamowitych opcji wizualizacji i natywnej integracji z dodatkiem Dynamo w ramach inicjalizacji procesu BIM.
 
-Autodesk® FormIt®을 통해 아이디어를 반영하여 건물 설계 개념을 구현할 수 있습니다. 정확하고 쉬운 솔리드 모델링을 활용하고, 그룹 및 레이어로 아이디어를 구성하고, 위성 이미지와 같은 실제 대지 정보를 가져와 그림자, 일조 해석 및 에너지 해석을 사용하여 설계의 방향을 올바르게 지정하고 해석할 수 있습니다. 또한 Autodesk® Revit® 소프트웨어 또는 기타 소프트웨어에서 액세스하고 개선할 수 있도록 예비 설계를 중앙 집중식 데이터 저장소로 이동할 수도 있습니다.
+Program Autodesk® FormIt® pozwala uchwycić nasuwające się koncepcje projektu budynku. Korzystaj z precyzyjnego i łatwego modelowania brył, organizuj pomysły w grupach i na warstwach oraz pobieraj rzeczywiste informacje o terenie, takie jak obrazy satelitarne, aby poprawnie orientować i analizować projekty z uwzględnieniem cieni, analizy oświetlenia naturalnego i analizy energetycznej. Własne projekty wstępne można przenieść do scentralizowanego magazynu danych w celu ich otwierania i dopracowywania w programie Autodesk® Revit® lub w innym oprogramowaniu.

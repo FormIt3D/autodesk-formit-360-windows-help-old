@@ -1,75 +1,75 @@
-# 1.10 - Dynamo를 사용하는 계산 그룹
+# 1.10 — Grupy obliczeniowe w dodatku Dynamo
 
-_이 장에서는_ [_**Dynamo**_](http://dynamobim.org/) _의 계산 능력을 활용하여 OOTB Dynamo 그래프 샘플에 연결된 유연한 그룹을 배치하고 수정합니다._
+_W tym rozdziale wykorzystamy moc obliczeniową dodatku_ [_**Dynamo**_](http://dynamobim.org/)_, aby umieścić i zmodyfikować elastyczne grupy powiązane z przykładami wykresów OOTB Dynamo._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.10 – Computational Groups with Dynamo.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.10 – Computational Groups with Dynamo.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-_FormIt과 Dynamo가 계산 설계 워크플로우에서 함께 작동하는 방식에 대한 자세한 내용은_ [_**여기에서 자세히 알아볼**_](http://formit.autodesk.com/page/formit-dynamo) _수 있습니다._
+_Więcej informacji na temat sposobu współpracy programu FormIt z dodatkiem Dynamo w procesach roboczych projektowania obliczeniowego_ [_**można znaleźć tutaj**_](http://formit.autodesk.com/page/formit-dynamo)_._
 
-## **하단 테라스 계단 작성**
+## **Tworzenie schodów dolnego tarasu**
 
-1 - 계단을 추가할 차례입니다. **하단 테라스, 주 건물 바닥** 및 **평면 이미지** 레이어가 켜져 있는지 확인합니다.
+1 — Upewnij się, że warstwy **Lower Terrace, Main Building Floor** i **Plan Image** są włączone, ponieważ właśnie tam zostaną dodane schody.
 
-2 - OOTB Dynamo Samples 중 하나에 연결된 계단 그룹을 배치하려면 다음을 수행합니다.
+2 — Aby umieścić grupę schodów powiązaną z jednym z przykładów OOTB Dynamo Samples:
 
-1. 팔레트 막대에서 **Dynamo 팔레트**를 엽니다. **Dynamo Samples** 디렉토리에는 몇 개의 Dynamo 객체가 내장되어 있습니다.
-2. **Stairs** Dynamo 샘플을 한 번 클릭하여 모델 공간으로 가져옵니다. FormIt은 그래프를 백그라운드로 실행하고 이 그래프에서 계단 형상을 생성합니다.
-3. 커서를 캔버스 위로 이동하고 계단이 로드되면 계단 형상의 가상 미리보기가 마우스를 따라 이동합니다. 캔버스 위의 테라스 근처로 커서를 이동하고 클릭하여 계단을 배치합니다. 선택을 취소하려면 **Esc** 키를 누릅니다. 계단을 배치하면 **특성 팔레트**가 자동으로 열립니다.
+1. Otwórz **paletę Dynamo** na pasku palet. W katalogu **Dynamo Samples** powinno być widocznych kilka wbudowanych obiektów dodatku Dynamo.
+2. Kliknij raz przykład dodatku Dynamo **Stairs**, aby przenieść go do obszaru modelu. Program FormIt uruchomi wykres w tle i na podstawie tego wykresu wygeneruje geometrię schodów.
+3. Przesuń kursor na obszar rysunku. Po wczytaniu schodów półprzezroczysty podgląd ich geometrii będzie przesuwał się wraz ze wskaźnikiem myszy. Przesuń kursor na obszar rysunku w pobliżu tarasu i kliknij, aby umieścić tam schody. Naciśnij klawisz **Esc**, aby usunąć zaznaczenie. Zwróć uwagę, że po umieszczeniu schodów automatycznie zostanie otwarta **paleta Właściwości**.
 
 ![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**주:**_ Dynamo 그래프가 포함된 [_**로컬 디렉토리를 링크**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)_하고 이러한 샘플과 마찬가지로 고유한 로컬 Dynamo 그래프를 실행할 수도 있습니다._
+_**Uwaga:**_ [_**Możesz również dołączać katalogi lokalne**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _zawierające wykresy Dynamo i uruchamiać własne lokalne wykresy Dynamo, podobnie jak w tych przykładach._
 
-3 - 계단 치수를 업데이트하려면 다음을 수행합니다.
+3 — Aby zaktualizować wymiary schodów:
 
-1. 계단 그룹을 선택한 상태에서, **특성 팔레트** 하단의 Dynamo **입력** 섹션에서 사용할 수 있는 입력을 아래 표시된 대로 수정합니다. Dynamo 스크립트를 통해 작성된 대부분의 그룹은 선택하는 경우 해당 특성에 Dynamo 섹션이 포함됩니다.
-   * 상단 계단참 추가 = 거짓
-   * 중간 계단참 추가 = 거짓
-   * 하단 계단참 추가 = 거짓
-   * 바닥 간 높이 = 2.6
-   * 계단 폭 = 12
-   * 라이저 높이 = 0.6
-   * 디딤판 길이 = 1.25
-   * 디딤판 겹침 = 0.25
-   * 디딤판 두께 = 0.25
-   * 중간 계단참 사이의 높이 = \(중간 계단참이 작성되지 않으므로 관련이 없음\)
-   * 중간 계단참 길이 = \(중간 계단참이 작성되지 않으므로 관련이 없음\)
-   * 상단/하단 계단참 길이 = \(계단참이 작성되지 않으므로 관련이 없음\)
-2. **실행** 버튼을 클릭하여 업데이트된 입력 값으로 Dynamo 스크립트를 다시 실행합니다.
-3. 필요에 따라 그룹을 이동하여 **평면 이미지**에 따라 계단을 올바른 위치에 배치합니다. 계단 그룹을 이동할 때 계단 그룹의 입면을 변경하지 않도록 주의하십시오. 모델 요소를 이동할 경우 이전 장에서 요령 및 기술을 자세히 알아보십시오.
+1. Po wybraniu grupy schodów zmodyfikuj dane wejściowe dostępne w sekcji **INPUTS** dodatku Dynamo u dołu **palety Właściwości**, aby były zgodne z poniższą ilustracją. Po wybraniu większości grup utworzonych za pomocą skryptów Dynamo w ich właściwościach znajduje się sekcja dodatku Dynamo.
+   * Add Top Landing = False
+   * Add Middle Landing = False
+   * Add Bottom Landing = False
+   * Floor-to-Floor Height = 2,6
+   * Stair Width = 12
+   * Riser Height = 0,6
+   * Tread Length = 1,25
+   * Tread Overlap = 0,25
+   * Tread Thickness = 0,25
+   * Height Between Middle Landings = \(nie dotyczy, ponieważ nie jest tworzony środkowy podest\)
+   * Middle Landing Length = \(nie dotyczy, ponieważ nie jest tworzony środkowy podest\)
+   * Top/Bottom Landing Length = \(nie dotyczy, ponieważ nie jest tworzony żaden podest\)
+2. Kliknij przycisk **Run**, aby uruchomić ponownie skrypt Dynamo przy użyciu zaktualizowanych wartości danych wejściowych.
+3. Przesuń grupę odpowiednio do potrzeb, aby umieścić schody we właściwym położeniu zgodnie z warstwą **Plan Image**. Uważaj, aby podczas przesuwania nie zmienić rzędnej grupy schodów. Więcej na temat sztuczek i technik stosowanych podczas przesuwania elementów modelu można dowiedzieć się z poprzednich rozdziałów.
 
 ![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**주**_ _:_ _**바닥 간 높이**_ _입력은 계단의 총 높이의 근사치입니다. **라이저 높이**_ _는 계단의 높이를 실제로 정의하는 매개변수입니다. 이 예에서는_ _**바닥 간 높이**_ _를 2.6’로 설정했지만 최종 계단 높이는 3.0’\(0.6’ \(**라이저 높이**\) x 5 \(라이저 수\)\)입니다. 지면과 바닥의 테라스 맨 위 사이의 간격이 3’-2"이므로 나머지 2"는 상단 라이저에 포함됩니다._
+_**Uwaga ‌:**_ _Dane wejściowe_ _**Floor-to-Floor Height**_ _to przybliżona wartość całkowitej wysokości schodów. Parametr_ _**Riser Height**_ _faktycznie definiuje wysokość schodów. W tym przykładzie ustawiamy wartość parametru_ _**Floor-to-Floor Height**_ _na 2,6’, ale ostateczna wysokość schodów wynosi 3,0’ \(0,6’ \(**Riser Height**\) x 5 \(liczba podstopnic\)\). Ponieważ rozpiętość między podłożem a górną powierzchnią stropu tarasu wynosi 3’-2”, pozostałe 2” znajdują się w górnej podstopnicy._
 
-## **주 건물 계단 작성**
+## **Tworzenie schodów budynku głównego**
 
-_이전 단계에서는 계단참이 없는 계단을 작성했습니다. 이제_ _**주 건물 바닥**에 맞춰 정렬되는 상단 계단참을 사용하는 계단을 작성하겠습니다._
+_W poprzednich krokach utworzyliśmy schody bez podestów. Teraz utworzymy schody korzystające z górnego podestu dopasowanego do warstwy_ _**Main Building Floor**._
 
-1 - 먼저 방금 만든 계단의 복사본을 다음과 같이 만듭니다.
+1 — Zacznij od utworzenia kopii właśnie utworzonych schodów:
 
-1. 기존 계단을 선택한 다음, **평면 이미지**에서 아무 곳이나 클릭하여 이동 명령을 시작합니다. 이렇게 하면 FormIt에서 **평면 이미지**의 입면을 새 사본을 배치하기 위한 시작 참조 높이로 사용합니다. **Ctrl** 키를 눌러 **빠른 복사**를 수행합니다.
-2. 테라스 위의 주 건물 가까이로 커서를 이동합니다. 이제 테라스의 맨 윗면이 새 참조 평면이 됩니다. 클릭하여 그룹을 배치합니다.
+1. Wybierz istniejące schody, a następnie kliknij w dowolnym miejscu na warstwie **Plan Image**, aby uruchomić polecenie przesuwania. Spowoduje to, że program FormIt użyje rzędnej warstwy **Plan Image** jako początkowej wysokości odniesienia do umieszczenia nowej kopii. Naciśnij klawisz **Ctrl**, aby utworzyć **szybką kopię**.
+2. Przesuń kursor bliżej głównego budynku powyżej tarasu. Zwróć uwagę, że teraz górna powierzchnia tarasu jest nową płaszczyzną odniesienia. Kliknij, aby umieścić grupę.
 
 ![](../../.gitbook/assets/2%20%289%29.png)
 
-_**주**_ _:_ _**평면 이미지**_ _는_ _**지면 레벨**_ _평면에 있으므로_ _**이동 도구**_ _는 해당 평면을 시작점에 대한 참조로 사용합니다. 위 이미지에서_ _**면에서**_ _툴팁은 평면 이미지 면이 시작 참조로 선택되어 있고 __**하단 테라스 바닥**__의 상단 면이 끝 참조로 선택되어 있음을 나타냅니다._
+_**Uwaga:**_ _Ponieważ warstwa_ _**Plan Image**_ _znajduje się na płaszczyźnie_ _**Ground Level**_ ___**narzędzie Przesuń**_ _będzie używało tej płaszczyzny jako odniesienia dla punktu początkowego. Na powyższej ilustracji zwróć uwagę na etykietkę narzędzia_ _**On Face**_ _wskazującą, że jako odniesienie początkowe została wybrana powierzchnia warstwy Plan Image, a jako odniesienie końcowe — górna powierzchnia warstwy_ _**Lower Terrace Floor**__._
 
-2 - 이 계단의 Dynamo 입력을 변경해도 하단 계단에 영향을 주지 않도록 **고유하게 설정\(MU\)** 도구를 사용합니다. 필요에 따라 그룹을 최종 위치에 가깝게 그룹을 재배치합니다. 이에 대해서는 나중에 세부적으로 다룰 예정입니다. **하단 테라스** 레이어 가시성을 전환하여 아래 평면을 보면서 편리하게 배치할 수 있지만, 이동할 때 새 계단의 입면을 변경하지 않도록 주의하십시오.
+2 — Użyj narzędzia **Ustaw jako niepowtarzalny \(MU\)**, aby zmiana danych wejściowych tych schodów w dodatku Dynamo nie wpłynęła na dolne schody. Zmień położenie grupy odpowiednio do potrzeb, aby znajdowała się ona blisko położenia końcowego — dostosujemy to później. Możesz przełączyć widoczność warstwy **Lower Terrace**, aby wyświetlić poniższy rzut, co ułatwi jego umieszczenie, ale uważaj, aby nie zmienić rzędnej nowych schodów podczas ich przesuwania.
 
-3 - **특성 팔레트**에서 아래에 표시된 대로 **Dynamo 입력**을 업데이트하고 스크립트를 다시 한 번 실행합니다.
+3 — Na **palecie Właściwości** zaktualizuj dane **Dynamo Inputs**, jak pokazano poniżej, i jeszcze raz uruchom skrypt.
 
-* 상단 계단참 추가 = 참
-* 바닥 간 높이 = 2.333
-* 라이저 높이 = 0.466
-* 디딤판 길이 = 1.5
-* 상단/하단 계단참 길이 = 2.5
+* Add Top Landing = True
+* Floor-to-Floor Height = 2,333
+* Riser Height = 0,466
+* Tread Length = 1,5
+* Top/Bottom Landing Length = 2,5
 
 ![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**주:**_ ___**하단 계단참 추가**__를 __**참**__으로 설정하고 스크립트를 다시 실행하면 하단 계단참의 상단 면이 __**하단 테라스 바닥**의 상단 면에 맞춰집니다. 이전 계단과는 다르게 __**바닥 간 높이**__가 원하는 실제 높이\(2’-4” 또는 2.333’\)와 일치하도록 __**라이저 높이**__를 조정했으므로 이러한 결과가 나타납니다._
+_**Uwaga:**_ _Jeśli ustawisz dla parametru_ _**Add Bottom Landing**_ _wartość_ _**True**_ _i uruchomisz ponownie skrypt, górna powierzchnia dolnego podestu powinna pasować do górnej powierzchni warstwy_ _**Lower Terrace Floor**. Dzieje się tak, ponieważ — w odróżnieniu od poprzednich schodów — dopasowaliśmy parametr_ _**Riser Height**_ _do rzeczywistej wysokości parametru_ _**Floor-to-Floor Height**__, jaką chcemy uzyskać \(2’-4” lub 2,333’\)._
 
-2 - 그룹을 다시 최종 위치로 재배치합니다. 상단 계단참은 **주 건물 바닥**에 플러시되어야 합니다.
+2 — Ponownie zmień położenie grupy na końcowe. Górny podest powinien być równoległy do warstwy **Main Building Floor**.
 
-3 - 계단을 마무리하려면 바닥과 일치하도록 **석재 - 트래버틴** 재료를 추가합니다. 재료를 적용하는 방법에 대한 자세한 내용은 이전 장을 참고하십시오.
+3 — Aby zakończyć tworzenie schodów, dodaj do nich materiał **Stone — Travertine**, aby dopasować go do kondygnacji. Więcej informacji na temat sposobu stosowania materiałów można znaleźć w poprzednich rozdziałach.
 

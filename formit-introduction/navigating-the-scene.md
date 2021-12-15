@@ -1,30 +1,30 @@
-# 장면 탐색
+# Nawigowanie po scenie
 
-마우스 또는 터치 스크린을 사용하여 FormIt 모델을 손쉽게 탐색하고 둘러볼 수 있습니다.
+Łatwo nawiguj w modelach programu FormIt i wokół nich za pomocą myszy lub ekranu dotykowego:
 
-* 마우스 오른쪽 버튼을 클릭하고 끌거나 터치 지원 장치의 화면을 스와이프하여 **궤도**를 이동합니다. 그러면 카메라 궤도를 이동하려는 3D 공간에서 커서 점이 사용됩니다.
-   * Shift 키를 누른 상태로 초점이동할 수도 있습니다.
-* 마우스 휠을 위아래로 스크롤하거나 터치 지원 장치에서 손가락을 펼치거나 오므려서 **줌 확대/축소**합니다. 이렇게 하면 줌할 3D 공간에서 점이 사용되고 표면 또는 다른 객체에 접근할 때 줌이 느려집니다.
-   * Ctrl 키를 누른 상태로 일정한 속도로 줌 확대/축소할 수도 있습니다. 이렇게 하면 객체 근접성의 영향을 받지 않습니다.
-* 마우스 가운데 버튼을 클릭하고 끌거나 터치 지원 장치의 경우 두 손가락을 끌어 **초점이동**합니다.
+* **Obróć**, klikając prawym przyciskiem myszy i przeciągając myszą lub przesuwając palcem po ekranie w przypadku urządzeń dotykowych. Spowoduje to użycie punktu kursora w przestrzeni 3D jako punktu, wokół którego ma być obracana kamera.
+   * Możesz również przytrzymać klawisz Shift, aby przesunąć widok.
+* **Powiększ lub pomniejsz**, przewijając kółkiem myszy w górę i w dół albo wykonując gest uszczypnięcia na urządzeniu dotykowym. Spowoduje to użycie punktu w przestrzeni 3D jako punktu odniesienia dla powiększenia. Powiększenie będzie spowalniane w miarę zbliżania się do powierzchni lub innego obiektu.
+   * Możesz również przytrzymać naciśnięty klawisz Ctrl, aby powiększać ze stałą szybkością, bez względu na odległość od obiektów.
+* **Przesuń**, klikając środkowym przyciskiem myszy i przeciągając lub przesuwając dwoma palcami na urządzeniu dotykowym.
 
-캔버스 오른쪽에 있는 부동 탐색 도구막대를 사용하여 특정 뷰 모드로 전환할 수도 있습니다. 바로 가기가 괄호 안에 표시되어 있습니다.
+Możesz również przechodzić do określonych trybów widoku za pomocą ruchomego paska narzędzi nawigacji po prawej stronie obszaru rysunku. Skróty wskazano w nawiasach.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **직교 뷰**: 사용 가능한 [직교 뷰](../tool-library/orthographic-views.md)의 플라이아웃 메뉴를 표시하려면 클릭합니다.
+![](../.gitbook/assets/20190618-ortho-views.png) **Widoki prostokątne**: Kliknij, aby wyświetlić menu rozwijane dostępnych [widoków prostokątnych](../tool-library/orthographic-views.md).
 
-![](../.gitbook/assets/20190618-3d-view.png) **기본 3D 뷰\(ZD\):** 기본 3D 뷰를 시작합니다.
+![](../.gitbook/assets/20190618-3d-view.png) **Domyślny widok 3D \(ZD\):** Uruchamia domyślny widok 3D.
 
-![](../.gitbook/assets/jet-pack.png) **보행 시선\(FT\):** "제트팩" 모드를 사용하면 키보드를 사용하여 보행 시선을 따라 장면을 이동할 수 있습니다. 앞으로/뒤로/왼쪽으로/오른쪽으로 이동하려면 WASD를 사용하고 위/아래로 이동하려면 Q/E를 사용합니다. "조감"하려면 스페이스바 키를 사용합니다.
+![](../.gitbook/assets/jet-pack.png) **Animacja \(FT\):** Tryb „przelotu” umożliwiający spacer po scenie przy użyciu klawiatury. Używaj klawiszy WASD, aby poruszać się do przodu/do tyłu/w lewo/w prawo, oraz klawiszy Q/E, aby poruszać się w górę/w dół. Klawisz spacji umożliwia włączenie „lotu”.
 
-![](../.gitbook/assets/orbit-tool.png) **궤도 이동\(O\):** 이 옵션을 사용으로 설정할 경우 마우스 왼쪽 버튼을 클릭하고 끌면 모델 궤도를 이동할 수 있습니다. 또한 마우스 오른쪽 버튼을 클릭하고 끌어서도 언제든지 이 작업을 수행할 수 있습니다.
+![](../.gitbook/assets/orbit-tool.png) **Obróć \(O\):** Po włączeniu tej opcji kliknij lewym przyciskiem myszy i przeciągnij, aby orbitować wokół modelu. Można to również zrobić w dowolnym momencie, klikając prawym przyciskiem myszy i przeciągając.
 
-![](../.gitbook/assets/swivel.PNG) **회전\(SV\):** 탐색 도구막대의 회전 도구를 사용하여 고정 지점에서 장면을 둘러봅니다.
+![](../.gitbook/assets/swivel.PNG) **Przekręć \(SV\):** Za pomocą narzędzia Przekręć z paska narzędzi nawigacji można rozejrzeć się po scenie ze stałego punktu obserwacyjnego.
 
-![](../.gitbook/assets/panning.png) **초점이동\(P\):**마우스 가운데 버튼을 클릭하고 끌거나 탐색 도구막대에서 초점이동\(손 모양\) 도구를 사용하여 장면에서 초점이동합니다.
+![](../.gitbook/assets/panning.png) **Przesuń \(P\):** Kliknij środkowym przyciskiem myszy i przeciągnij lub użyj narzędzia Przesuń \(ikona dłoni\) z paska narzędzi nawigacji, aby przesunąć widok w poprzek sceny.
 
-![](../.gitbook/assets/zoom.png) **줌\(Z\):** 마우스 휠을 스크롤하거나 탐색 도구막대에서 줌 도구를 선택하고 마우스 왼쪽 버튼을 클릭한 후 끌어 줌합니다.
+![](../.gitbook/assets/zoom.png) **Powiększ \(Z\):** Przewiń kółkiem myszy lub wybierz narzędzie Powiększ z paska narzędzi nawigacji, a następnie kliknij lewym przyciskiem myszy i przeciągnij, aby powiększyć.
 
-![](../.gitbook/assets/zoom_all.png) **전체 줌\(ZE 또는 ZA\):** 전체 모델을 현재 뷰에 맞게 줌합니다.
+![](../.gitbook/assets/zoom_all.png) **Powiększ wszystko \(ZE lub ZA\):** Powiększ, aby dopasować cały model do bieżącego widoku.
 
-![](../.gitbook/assets/zoom_selection.png) **선택사항 줌\(ZS\):** 현재 선택한 모든 객체를 현재 뷰에 맞게 줌합니다.
+![](../.gitbook/assets/zoom_selection.png) **Powiększ wybór \(ZS\):** Powiększ, aby dopasować wszystkie aktualnie wybrane obiekty do bieżącego widoku.
 

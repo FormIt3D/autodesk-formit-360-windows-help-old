@@ -1,99 +1,99 @@
-# 위치 설정
+# Ustawianie położenia
 
-표준 좌표에서 프로젝트 위치를 설정하는 것은 다음을 비롯한 모델 및 다운스트림 해석의 정확성을 위해 중요합니다.
+Ustawienie położenia projektu na świecie ma znaczenie dla dokładności modelu i analiz następczych. Dotyczy to między innymi następujących kwestii:
 
-* 위치는 기존 대지나 건물을 추적하는 데 사용할 수 있는 위성 이미지를 가져오는 데 사용됩니다.
-* 위치는 3D 지형을 가져오는 데 사용되며, 이 지형은 대지에 대한 위상 데이터를 참조하는 데 사용될 수 있습니다.
-* 위치는 하늘에서 태양의 정확한 위치를 지정하는 데 사용되며 그림자 계산에 영향을 줍니다.
-* 위치는 정확한 해석 계산을 제공하기 위해 일조 해석 및 에너지 해석에 사용됩니다.
+* Położenie jest używane przy importowaniu obrazu satelitarnego, który może być używany do śledzenia istniejącego terenu lub budynku.
+* Położenie jest używane przy importowaniu terenu 3D, który może być używany do tworzenia odniesień do danych topologicznych terenu.
+* Położenie jest używane do dokładnego pozycjonowania słońca na niebie, co wpływa na obliczenia cieni.
+* Położenie jest używane do analizy oświetlenia naturalnego i analizy energetycznej w celu zapewnienia dokładnych obliczeń analitycznych.
 
-위치 설정 대화상자 및 해당 서비스에 액세스하려면 Autodesk 계정으로 로그인해야 합니다.
+Aby uzyskać dostęp do okna dialogowego Ustaw położenie i jego usług, należy się zalogować przy użyciu konta Autodesk.
 
-### 위치 시작하기
+### Położenie — pierwsze kroki
 
-* 도구막대의 **위치** 도구에서 또는 키보드 바로 가기 SL을 사용하여 **위치 설정** 대화상자를 시작합니다.
+* Uruchom okno dialogowe **Ustaw położenie** z narzędzia **Położenie** na pasku narzędzi lub za pomocą skrótu klawiaturowego SL.
 
 ![](../.gitbook/assets/location-toolbar.png)
 
-* 먼저 _위치 설정_ 창의 왼쪽 상단 코너에 있는 검색 상자에 프로젝트 위치를 입력합니다.
+* Najpierw wpisz położenie projektu w polu wyszukiwania w lewym górnym rogu okna _Ustaw położenie_.
 
 ![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* 자동 채우기 위치 옵션 중 하나를 선택하거나 Enter 키를 눌러 첫 번째 위치 옵션을 선택합니다.
-* 자동으로 검색한 위치로 확대합니다.
+* Wybierz jedną z automatycznie wypełnionych opcji położenia lub naciśnij klawisz Enter, aby wybrać pierwszą.
+* Widok zostanie powiększony do położenia, które zostało automatycznie wyszukane.
 
-### 위치만 설정과 위성 이미지 및 지형 가져오기 비교
+### „Ustaw tylko położenie” a „Importuj obraz satelitarny i teren”
 
-위치를 검색한 후, 다음 두 가지 옵션 중 하나를 선택할 수 있습니다.
+Po wyszukaniu położenia można wybrać jedną z dwóch opcji:
 
-* **위치만 설정**은 위성 이미지를 가져오지 않고 파일에서 위치를 설정합니다.
-* **위성 이미지 및 지형 가져오기**는 위치를 설정하고 구성할 수 있는 줌 레벨 및 범위를 사용하여 위성 이미지 및 지형도 가져옵니다.
+* **Ustaw tylko położenie** spowoduje ustawienie położenia w pliku bez importowania obrazów satelitarnych.
+* **Importuj obraz satelitarny i teren** spowoduje ustawienie położenia, a także zaimportowanie obrazów satelitarnych i terenu przy użyciu poziomu powiększenia i zakresu, które można skonfigurować.
 
-### 위성 이미지 가져오기
+### Importowanie obrazów satelitarnych
 
-* **위치 설정** 창의 오른쪽 상단에 있는 **위성 이미지 및 지형 가져오기**를 클릭합니다.
-* 위성 이미지의 미리보기가 이미지를 기준으로 FormIt 원점이 나타날 위치에 대한 표시와 함께 창 중앙에 나타납니다.
+* Kliknij opcję **Importuj obraz satelitarny i teren** w prawej górnej części okna **Ustaw położenie**.
+* W środku okna zostanie wyświetlony podgląd obrazu satelitarnego wraz ze wskazaniem miejsca, w którym pojawi się początek programu FormIt (względem obrazu).
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* 사각형 내에서 위성 이미지를 끌어 위치를 조정합니다.
-* 사각형 영역이 원하는 이미지를 캡슐화하면 **가져오기 완료**를 클릭합니다.
-* 이미지가 실제 북쪽이 위를 향하고 FormIt 캔버스 원점의 중심에 오도록 축척되어 가져오기됩니다. 가져온 이미지를 두 번 클릭하고 [**특성 팔레트**](../formit-introduction/tool-bars.md)로 이동하여 투명도 및 Z-순서를 변경할 수 있습니다.
+* Przeciągnij obraz satelitarny w kwadracie, aby dopasować jego położenie.
+* Po ujęciu w obszarze kwadratowym odpowiedniego obrazu kliknij przycisk **Zakończ importowanie**.
+* Obraz zostanie zaimportowany z przeskalowaniem, przy czym północ rzeczywista jest skierowana w górę, wyśrodkowana w początku obszaru rysunku FormIt. Przezroczystość i kolejność względem osi Z zaimportowanego obrazu można zmienić, klikając go dwukrotnie i przechodząc do [**palety Właściwości**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### 위성 이미지 업데이트
+### Aktualizowanie obrazów satelitarnych
 
-위성 이미지를 처음 가져온 후 위치 설정 창을 사용하여 위성 이미지의 줌 레벨 또는 범위를 조정할 수 있습니다.
+Po wstępnym zaimportowaniu obrazów satelitarnych można za pomocą okna Ustaw położenie dostosować poziom powiększenia lub zakres obrazu satelitarnego.
 
-* 위에 설명된 대로 도구막대에서 **위치 설정** 창에 액세스하여 위치 설정을 다시 시작합니다.
-* **위성 이미지 및 지형 가져오기**
-* FormIt 캔버스에 표시된 것처럼 현재 위성 이미지 줌 레벨 및 범위가 표시됩니다.
-* 위치 또는 줌을 조정하고 이전과 마찬가지로 **가져오기 완료**를 클릭하기만 하면 됩니다.
-* 이미지를 캔버스로 다시 가져오면 원래 이미지 위치를 기준으로 올바른 위치로 이동되며 더 이상 원점의 중심에 배치되지 않을 수 있습니다.
+* Ponownie uruchom okno **Ustaw położenie**, uzyskując do niego dostęp z paska narzędzi, jak wyjaśniono powyżej.
+* Kliknij opcję **Importuj obraz satelitarny i teren.**
+* Zostanie wyświetlony bieżący poziom powiększenia obrazu satelitarnego i zakres, jak pokazano w obszarze rysunku FormIt.
+* Wystarczy dopasować położenie lub powiększenie, a następnie kliknąć przycisk **Zakończ importowanie**, tak jak poprzednio.
+* Po ponownym zaimportowaniu obrazu do obszaru rysunku zostanie on przesunięty do właściwego położenia względem oryginalnego położenia obrazu \(i może nie być już wyśrodkowany w początku\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### 지형 가져오기
+### Importowanie terenu
 
-FormIt 2021.3부터는 **위치 설정** 대화상자를 사용하여 위성 이미지를 가져오면 지형도 가져오기됩니다.
+Nowość w programie FormIt 2021.3: w przypadku importowania obrazów satelitarnych przy użyciu okna dialogowego **Ustaw położenie** uzyskuje się również teren.
 
 ![](../.gitbook/assets/terrain-button_original.png)
 
-가져온 지형은 기본적으로 꺼져 있는 레이어에 배치됩니다. 모델링을 시작한 경우 모델은 지형에 의해 덮일 수 있습니다.
+Po zaimportowaniu terenu jest on umieszczany na warstwie, która jest domyślnie wyłączona \(w przypadku rozpoczęcia modelowania model może być przykryty przez teren).
 
-지형을 볼 준비가 되면 해당 확인란을 선택하여 지형 레이어를 전환합니다.
+Gdy wszystko będzie gotowe do wyświetlenia terenu, zaznacz pole wyboru w celu przełączenia warstwy terenu:
 
 ![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
 ![](../.gitbook/assets/terrain_solid.png)
 
-### 지형 작업
+### Praca z terenem
 
-지형이 FormIt 그룹에 배치됩니다. 그룹을 두 번 클릭하여 편집합니다.
+Teren zostanie umieszczony w grupie programu FormIt. Kliknij dwukrotnie grupę, aby ją edytować.
 
-내부에는 두 개의 메쉬가 있습니다. 하나는 측면과 하단용 메쉬이고, 다른 하나는 상단용 메쉬입니다.
+Wewnątrz znajdują się dwie siatki: jedna dla boków i dołu oraz jedna dla góry.
 
-지형을 수정하려면 다음과 같이 메쉬를 단일 솔리드 객체로 변환해야 합니다.
+Aby zmodyfikować teren, należy przekonwertować siatki na pojedynczy obiekt bryłowy:
 
-* 두 메쉬를 모두 선택합니다.
-* 마우스 오른쪽 버튼을 클릭하고 메쉬를 객체로 옵션을 선택하거나 바로 가기 MO를 사용합니다.
+* Wybierz obie siatki.
+* Kliknij prawym przyciskiem myszy i wybierz opcję Siatki na obiekty lub użyj skrótu MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-두 메쉬를 동시에 객체로 변환할 때 FormIt은 두 메쉬를 솔리드 매니폴드 객체로 결합할 수 있으며, 결합된 객체는 부울 절단과 같은 솔리드 작업에 사용할 수 있습니다.
+W przypadku konwertowania obu siatek na obiekt w tym samym czasie program FormIt może połączyć je w bryłę, obiekt rozgałęziony, którego można używać do operacji bryłowych, takich jak Wycięcie logiczne.
 
-여기에서 [평면도](orthographic-views.md)와 [직교 카메라](orthographic-camera.md)를 조합해서 사용하여 수평 평면에서 대지 경계를 추적한 다음, 지형과 교차하는 볼륨으로 해당 평면을 돌출시킬 수 있습니다. 투명한 [재료](materials.md)를 사용하면 절단 솔리드를 관통해서 지형을 볼 수 있습니다.
+W tym miejscu można użyć połączenia opcji [Widok z góry](orthographic-views.md) i [Kamera prostopadła](orthographic-camera.md), aby śledzić obszar graniczny na płaszczyźnie poziomej, a następnie wyciągnąć tę płaszczyznę w obiekt objętościowy przecinający teren. Zastosowanie przezroczystego [materiału](materials.md) pomaga w obserwowaniu terenu poprzez bryłę tnącą:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-형상 절단 도구를 사용하여 지형을 "절단할 솔리드"로 선택하고 절단 볼륨을 "제거할 솔리드"로 선택합니다.
+Użyj narzędzia Dotnij geometrię i wybierz teren jako bryłę, w której ma zostać wycięty element, oraz tnący obiekt objętościowy jako bryłę do usunięcia.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-그러면 절단 솔리드가 제거된 지형이 생성되고, 새 대지 및 기초를 그릴 수 있는 빈 공간이 노출됩니다.
+W wyniku tego powstanie teren z usuniętą bryłą tnącą, co spowoduje odsłonięcie miejsca, w którym można narysować nowy teren i fundament.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-원래 지형을 참조해야 하거나 솔리드 절단 작업을 실행하기 전에 절단 모양을 변경해야 하는 경우, [레이어](layers.md)를 사용하여 절단 솔리드를 숨기거나 절단이 있거나 없는 지형의 사본을 만들 수 있습니다.
+Za pomocą [warstw](layers.md) można ukryć bryłę tnącą lub nawet utworzyć kopie terenu z wycięciem i bez niego na wypadek, gdyby trzeba było utworzyć odniesienie do pierwotnego terenu lub zmienić kształt wycięcia przed wykonaniem operacji wycięcia bryły.
 

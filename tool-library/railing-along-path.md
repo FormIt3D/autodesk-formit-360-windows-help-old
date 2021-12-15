@@ -1,81 +1,81 @@
-# 경로에 따라 난간 생성
+# Railing Along Path
 
-## Dynamo에서 제공
+## Obsługiwane przez dodatek Dynamo
 
-FormIt 2021 이상에서는 경로를 따라 난간을 생성하고 그 자리에서 결과를 신속하게 사용자 지정할 수 있습니다. 경로를 따라 난간 생성은 Dynamo에 의해 제공합니다. 즉, 결과 난간을 쉽게 구성하고 원하는 결과를 얻을 수 있으며 논리를 다시 실행하면 형상이 그 자리에서 업데이트됩니다.
+W programie FormIt 2021 i w nowszych wersjach można generować poręcz wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Poręcz wzdłuż ścieżki jest obsługiwana przez dodatek Dynamo, co oznacza, że wynikową poręcz można łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
 
 ![](../.gitbook/assets/railing-along-path.gif)
 
-## 경로를 따라 난간 생성 시작
+## Uruchamianie przykładu Railing Along Path
 
-* Windows용 FormIt의 Dynamo 패널로 이동하여 현재 위치가 Dynamo Samples 디렉토리인지 확인합니다.
-* Railing Along Path 샘플을 클릭합니다.
-* 화면 왼쪽에 "난간 경로 선택" 메시지가 표시됩니다.
-   * 일련의 연속 모서리만 선택하거나 일련의 모서리만 포함된 그룹을 선택해야 합니다.
-   * 경로를 선택한 후 "완료" 버튼을 클릭하거나 Enter/Return 키를 누릅니다.
-* Dynamo 패널에는 변경사항이 처리되고 있음이 표시됩니다. 완료되면 Dynamo에서 생성된 난간을 FormIt 그룹에 추가하여 수정할 수 있습니다\(아래 참고\).
+* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
+* Kliknij przykład Railing Along Path.
+* Po lewej stronie ekranu zostanie wyświetlony monit „Select path for railing”.
+   * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię krawędzi.
+   * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter/Return.
+* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu poręcz wygenerowana przez dodatek Dynamo będzie dostępna w grupie FormIt i będzie można ją modyfikować \(patrz poniżej\).
 
-## 그 자리에서 반복
+## Iteracja lokalna
 
-경로를 따라 난간 생성을 실행하면 결과가 기본값으로 설정됩니다. 이러한 기본값이 적합할 수 있지만, 필요에 따라 난간을 대폭 사용자 지정할 수 있습니다.
+Po uruchomieniu narzędzia Railing Along Path wyniki jego działania będą miały wartości domyślne. Być może będą w danym przypadku odpowiednie, ale poręcz można w znacznym stopniu dostosować do własnych potrzeb.
 
-경로를 따라 난간 생성이 실행되면 결과가 포함된 새 그룹이 작성되고, FormIt이 자동으로 그룹을 선택하고 해당 경로를 따라 난간 생성 인스턴스(instance)에 대해 사용 가능한 옵션을 표시합니다.
+Gdy narzędzie Railing Along Path jest uruchomione, tworzona jest nowa grupa zawierająca wyniki, a polecenie FormIt automatycznie wybiera grupę i wyświetla dostępne opcje dla wystąpienia tego narzędzia.
 
-그룹을 선택하고 특성 패널로 전환하거나 특성을 자동으로 표시하는 그룹을 편집하여 언제든지 경로를 따라 난간 생성 특성으로 돌아갈 수 있습니다.
+W każdej chwili można wrócić do właściwości narzędzia Railing Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
 
 ![](../.gitbook/assets/railing-along-path-options.png)
 
-### 난간 높이
+### Wysokość poręczy
 
-난간의 전체 높이입니다. 현재 FormIt 단위를 사용합니다.
+Całkowita wysokość poręczy. Używane są bieżące jednostki programu FormIt.
 
-### 기둥 간격
+### Post Spacing
 
-주 수직 기둥 사이의 간격입니다. 현재 FormIt 단위를 사용합니다.
+Odstępy między głównymi słupkami pionowymi. Używane są bieżące jednostki programu FormIt.
 
-### 경로 정점에 기둥 추가
+### Add Posts at Path Vertices
 
-**참**인 경우 선택한 경로의 각 정점에 기둥이 추가되고 해당 점에서 다음 기둥 위치에 대한 계산이 재설정됩니다.
+Gdy jest ustawiona wartość **true**, słupki zostaną dodane w poszczególnych wierzchołkach wybranej ścieżki, a obliczenia dla następnego położenia słupka zostaną zresetowane w tych punktach.
 
-예를 들어, 세 개의 모서리를 선택한 경우 두 개의 내부 점 각각에 기둥이 나타납니다. 이러한 기능은 정점이 기둥이 자연스럽게 나타나게 되는 방향 변경\(예: 계단 위로 올라가기 또는 코너 돌기\)을 나타내는 경우에 유용합니다.
+Na przykład jeśli wybrano serię 3 krawędzi, w każdym z dwóch punktów wewnętrznych pojawi się słupek. Jest to przydatne, jeśli wierzchołki wskazują zmianę kierunku \(np. kierunek schodów w górę lub zakręty\) w miejscach, w których słupki w naturalny sposób występują.
 
-**거짓**인 경우 기둥이 한 끝에서 시작하여 경로를 따라 추가되고 중간에 있는 정점을 무시하면서 경로를 따라 거리를 측정합니다. 이 옵션은 정점이 중요하지 않은 호, 스플라인 또는 원을 선택했으며 기둥 간격에서 정점을 무시하려는 경우에 유용합니다.
+Gdy jest ustawiona wartość **false**, słupki zostaną dodane tylko wzdłuż ścieżki rozpoczynającej się na jednym końcu i z pomiarem odległości wzdłuż ścieżki oraz ignorowaniem występujących wzdłuż ścieżki wierzchołków. Jest to przydatne, jeśli wybrano łuk, splajn lub okrąg, w których wierzchołki nie są ważne i powinny być ignorowane w odstępach między słupkami.
 
-### 경로 방향 반전
+### Reverse Path Direction
 
-기둥의 위치를 계산할 때 선택한 경로의 방향에 따라 기둥 간격 측정을 시작할 경로의 끝이 결정됩니다.
+Podczas obliczania położenia słupków kierunek wybranej ścieżki określa, od którego końca ścieżki rozpocznie się pomiar odstępów między słupkami.
 
-기둥 간격으로 인해 경로의 원치 않는 끝에 공간이 남아 있는 경우 이 값을 **참**으로 변경하여 곡선을 반전시키고 반대쪽 끝에서 기둥 간격 측정을 시작할 수 있습니다.
+W przypadkach gdy odstępy między słupkami powodują powstanie pustej przestrzeni na nieodpowiednim końcu ścieżki, można zmienić tę wartość na **true**, aby odwrócić krzywą i rozpocząć pomiar odstępów między słupkami na przeciwległym końcu.
 
-### 기둥 폭 + 깊이
+### Post Width + Depth
 
-직사각형 수직 기둥 프로파일의 크기\(평면에서\)입니다. 현재 FormIt 단위를 사용합니다.
+Rozmiar \(w rzucie\) profili pionowych słupków prostokątnych. Używane są bieżące jednostki programu FormIt.
 
-### 핸드레일 폭 + 높이
+### Handrail Width + Height
 
-직사각형 핸드레일 프로파일의 크기\(단면에서\)입니다. 현재 FormIt 단위를 사용합니다.
+Rozmiar \(w przekroju\) profilu poręczy prostokątnej. Używane są bieżące jednostki programu FormIt.
 
-### 난간동자 방향
+### Baluster Orientation
 
-참인 경우 난간동자는 케이블과 같이 수평 방향으로 지정됩니다. 거짓인 경우 난간동자는 보다 전통적인 미적 측면을 위해 수직 방향으로 지정됩니다.
+Gdy jest ustawiona wartość „true”, tralki będą zorientowane poziomo, podobnie jak kable. W przypadku wartości „false” tralki będą zorientowane pionowo, zapewniając bardziej tradycyjną estetykę.
 
-### 난간동자 폭 + 깊이
+### Baluster width + Depth
 
-난간동자의 직사각형 프로파일 크기입니다. 현재 FormIt 단위를 사용합니다.
+Rozmiar profilu prostokątnego tralki. Używane są bieżące jednostki programu FormIt.
 
-### 난간동자 간격두기
+### Baluster Spacing
 
-각 난간동자 사이의 공간 크기입니다. 현재 FormIt 단위를 사용합니다.
+Ilość miejsca między poszczególnymi tralkami. Używane są bieżące jednostki programu FormIt.
 
-### 하단 난간 시작 높이
+### Bottom Rail Start Height
 
-난간 하단과 난간동자를 지지하는 하단 난간 사이의 거리입니다. 현재 FormIt 단위를 사용합니다.
+Odległość między dołem poręczy a dolną szyną, która podpiera tralki. Używane są bieżące jednostki programu FormIt.
 
-### 실행
+### Uruchom
 
-옵션을 편집했으면 "실행" 버튼을 클릭하여 기본 Dynamo 그래프를 실행하고 새 결과를 생성합니다. 매개변수가 변경되면 이 버튼이 파란색으로 바뀌므로 최종 형상에서 업데이트를 보려면 이 버튼을 클릭해야 합니다.‌
+Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy go kliknąć, aby zobaczyć aktualizacje w końcowej geometrii.‌
 
-### 포함된 그래프 편집
+### Edit Embedded Graph
 
-이 옵션을 클릭하면 Dynamo 그래프 편집기 환경이 시작되므로 기본 Dynamo 그래프를 보고 편집하여 좀 더 신속하게 매개변수를 변경하고 라이브 업데이트를 확인하거나 논리를 검사/조정할 수 있습니다.
+Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
 

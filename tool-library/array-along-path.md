@@ -1,103 +1,103 @@
-# 경로를 따라 배열
+# Array Along Path
 
-## Dynamo에서 제공
+## Obsługiwane przez dodatek Dynamo
 
-FormIt 2021 이상에서는 경로를 따라 객체를 배열하고 그 자리에서 결과를 신속하게 사용자 지정할 수 있습니다. 경로를 따라 배열은 Dynamo에서 제공합니다. 즉, 배열을 쉽게 구성하고 원하는 결과를 얻을 수 있으며 논리를 다시 실행하면 형상이 그 자리에서 업데이트됩니다.
+W programie FormIt 2021 i nowszych wersjach można ustawiać obiekty w szyku wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Szyk wzdłuż ścieżki jest obsługiwany przez dodatek Dynamo, co oznacza, że można go łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
 
 ![](../.gitbook/assets/array-along-path.gif)
 
-## 경로를 따라 배열 시작
+## Uruchamianie przykładu Array Along Path
 
-* Windows용 FormIt의 Dynamo 패널로 이동하여 현재 위치가 Dynamo Samples 디렉토리인지 확인합니다.
-* Array Along Path 샘플을 클릭합니다.
-* 화면 왼쪽에 "배열할 객체 선택" 메시지가 표시됩니다.
-   * 이 단계에서 FormIt 객체를 혼합하여 선택할 수 있습니다.
-   * 항목을 선택한 후에는 화면 왼쪽의 "다음" 화살표를 누르거나 Enter 키를 누릅니다.
-* 이제 "배열 경로를 선택하십시오."라는 메시지가 표시됩니다.
-   * 여기서는 일련의 연속 모서리만 선택하거나 일련의 연속 모서리가 포함된 그룹을 선택해야 합니다.
-   * 경로를 선택한 후 "완료" 버튼을 클릭하거나 Enter 키를 누릅니다.
-* Dynamo 패널에는 변경사항이 처리되고 있음이 표시됩니다. 완료되면 Dynamo에서 생성된 배열을 FormIt 그룹에 추가하여 수정할 수 있습니다\(아래 참고\).
+* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
+* Kliknij przykład Array Along Path.
+* Po lewej stronie ekranu zostanie wyświetlony monit „Select object\(s\) to array”.
+   * W tym kroku możesz wybrać dowolne połączenie obiektów programu FormIt.
+   * Po wybraniu elementu możesz kliknąć strzałkę „next” po lewej stronie ekranu lub po prostu nacisnąć klawisz Enter.
+* Teraz zostanie wyświetlony monit „Select path for array”.
+   * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię przylegających krawędzi.
+   * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter.
+* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu szyk wygenerowany przez dodatek Dynamo będzie dostępny w grupie FormIt i będzie można go modyfikować \(patrz poniżej\).
 
-## 그 자리에서 반복
+## Iteracja lokalna
 
-경로를 따라 배열을 실행하면 결과가 기본값으로 설정되므로 필요에 따라 수정할 수 있습니다.
+Po uruchomieniu narzędzia Array Along Path wyniki jego działania będą miały wartości domyślne, dlatego należy zmodyfikować je odpowiednio do potrzeb.
 
-경로를 따라 배열이 실행되면 결과가 포함된 새 그룹이 작성되고 FormIt이 자동으로 그룹을 선택하고 경로를 따라 배열 인스턴스(instance)에 대해 사용 가능한 옵션을 표시합니다.
+Gdy narzędzie Array Along Path jest uruchomione, tworzona jest nowa grupa zawierająca wyniki, a polecenie FormIt automatycznie wybiera grupę i wyświetla dostępne opcje dla wystąpienia tego narzędzia.
 
-그룹을 선택하고 특성 패널로 전환하거나 특성을 자동으로 표시하는 그룹을 편집하여 언제든지 경로를 따라 배열 특성으로 돌아갈 수 있습니다.
+W każdej chwili można wrócić do właściwości narzędzia Array Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
 
 ![](../.gitbook/assets/array-along-path-options.png)
 
-### 배열할 객체 선택 <a id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-이 옵션을 클릭하면 선택 마법사로 돌아가 배열할 객체를 변경할 수 있습니다.
+Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić obiekty ustawiane w szyku.
 
-### 배열 경로 선택
+### Select Array Path
 
-이 옵션을 클릭하면 선택 마법사로 돌아가 배열 계산에 사용되는 경로를 변경할 수 있습니다.
+Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić ścieżkę służącą do obliczenia szyku.
 
-### 배열 유형 <a id="run"></a>
+### Array Type <a id="run"></a>
 
-이 옵션으로 계산할 배열 유형인 거리별 또는 개수별을 전환할 수 있습니다.
+Ta opcja służy do przełączania typu szyku do obliczenia: By Distance lub By Number.
 
-**참인 경우** "거리별"로 계산되므로 아래 숫자는 복사본 간의 거리를 나타냅니다.
+**W przypadku wybrania wartości True** obliczenia będą wykonywane według odległości \(„By Distance”\), dlatego liczba poniżej odnosi się do odległości między kopiami.
 
-**거짓인 경우** "복사본 개수별"로 계산되므로 이 필드 아래의 숫자는 경로를 따라 맞출 복사본 수를 나타냅니다.
+**W przypadku wybrania wartości False** obliczenia będą wykonywane według liczby kopii \(„By Number of Copies”\), dlatego liczba poniżej tego pola odnosi się do liczby kopii, które mają zostać dopasowane wzdłuż ścieżki.
 
-### 결과에 원래 선택 포함
+### Include Original Selection In Results
 
-**참**인 경우:
+W przypadku wartości **True**:
 
-* 선택한 객체가 새 복사본 중 하나로 계산됩니다.
-* 결과로 생성된 Dynamo 그룹은 원래 선택을 결과에 포함하므로 새 복사본이 원래 선택에 대해 z-fighting됩니다. 원래 선택을 [레이어](layers.md)에 둔 후 해제하여 숨길 수 있습니다.
+* Wybrane obiekty będą liczone jako jedna z nowych kopii
+* Powstała grupa Dynamo będzie uwzględniała w wynikach oryginalny wybór, dlatego w przypadku nowych kopii i oryginalnego wyboru będzie występował efekt Z-fight. Oryginalny wybór można umieścić na [warstwie](layers.md) i wyłączyć, aby go ukryć.
 
-**거짓**인 경우:
+W przypadku wartości **False**:
 
-* 결과로 생성된 배열은 원래 선택을 포함하지 **않기** 때문에 원래 선택과 **함께** 지정한 복사본 수를 얻게 되며 결과가 z-fighting되지 않습니다.
+* Powstały szyk **nie** będzie zawierał oryginalnego wyboru, dlatego otrzymasz określoną liczbę kopii **oprócz** oryginalnego wyboru, a w wynikach nie będzie występował efekt Z-fight
 
-### 경로를 따라 복사본 회전
+### Rotate Copies Along Path
 
-**참**인 경우 복사본이 회전되어 경로를 기준으로 원래 객체의 방향이 유지됩니다.
+Gdy jest ustawiona wartość **True**, kopie są obracane w celu zachowania orientacji oryginalnego obiektu względem ścieżki.
 
-**거짓**인 경우 복사본이 회전되지 않고 이동되기만 합니다.
+Gdy jest ustawiona wartość **False**, kopie nie są obracane, a tylko przesuwane.
 
-### 경로를 따라 상대 위치 사용
+### Use Relative Positioning Along Path
 
-**참**인 경우:
+W przypadku wartości **True**:
 
-* 각 복사본은 경로와 원래 객체 사이의 거리를 유지합니다.
-* 원래 객체가 경로 끝점 중 하나에 배치되지 **않은** 경우 경로의 가장 큰 나머지 세그먼트가 배열 계산에 사용됩니다.
+* Każda kopia zachowuje odległość między ścieżką a oryginalnym obiektem.
+* Jeśli oryginalny obiekt **nie** znajduje się w jednym z punktów końcowych ścieżki, do obliczenia szyku zostanie użyty największy pozostały segment ścieżki.
 
-**거짓**인 경우:
+W przypadku wartości **False**:
 
-* 경로의 전체 길이는 경로를 기준으로 원래 객체의 상대적인 위치에 관계없이 배열을 계산하는 데 사용됩니다.
-* 이렇게 하면 객체를 기준으로 경로의 위치가 분리되고 전체 경로가 사용됩니다. 경로와 객체가 서로 가까이 있지 않은 경우에 유용합니다.
+* Do obliczenia szyku zostanie użyta cała długość ścieżki, niezależnie od tego, gdzie znajduje się oryginalny obiekt względem ścieżki.
+* Powoduje to odłączenie położenia ścieżki względem obiektu i pozwala na użycie całej ścieżki. Jest to przydatne, gdy ścieżka i obiekt nie znajdują się blisko siebie.
 
-### 경로 방향 반전
+### Reverse Path Direction
 
-닫힌 경로에만 해당합니다. 닫힌 경로에서 경로를 따라 배열을 사용할 때 곡선의 방향이 예기치 않게 배열의 예상 결과를 반전할 수 있습니다. 결과가 반전되는 경우 이 옵션을 **참**으로 전환하여 배열 방향을 반전합니다.
+Dotyczy tylko zamkniętych ścieżek. W przypadku użycia narzędzia Array Along Path z zamkniętą ścieżką kierunek krzywej może spowodować nieoczekiwane odwrócenie spodziewanych wyników szyku. Jeśli wyniki są odwrócone, przełącz tę opcję na **True**, aby odwrócić kierunek szyku.
 
-### 실행 <a id="run"></a>
+### Uruchom <a id="run"></a>
 
-옵션을 편집했으면 "실행" 버튼을 클릭하여 기본 Dynamo 그래프를 실행하고 새 결과를 생성합니다. 매개변수가 변경되면 이 버튼이 파란색으로 바뀌므로 최종 형상에서 업데이트를 보려면 이 버튼을 클릭해야 합니다.‌
+Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy go kliknąć, aby zobaczyć aktualizacje w końcowej geometrii.‌
 
-### 포함된 그래프 편집 <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-이 옵션을 클릭하면 Dynamo 그래프 편집기 환경이 시작되므로 기본 Dynamo 그래프를 보고 편집하여 좀 더 신속하게 매개변수를 변경하고 라이브 업데이트를 확인하거나 논리를 검사/조정할 수 있습니다.
+Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
 
 
 
-## 형상 선택
+## Wybieranie geometrii
 
-경로를 따라 배열을 위한 객체를 선택하거나 기타 선택 기반 Dynamo 그래프를 선택하는 경우:
+Podczas wybierania obiektów dla narzędzia Array Along Path i innych wykresów Dynamo opartych na wyborze:
 
-* 정점, 모서리, 면, 솔리드, 그룹 및 메쉬와 같은 FormIt 객체를 혼합하여 선택할 수 있습니다.
-   * 단계에 따라서는 이러한 객체 중 일부를 선택하지 않는 것이 좋습니다.
-   * 예를 들어 경로를 선택할 때는 연속된 일련의 모서리만 선택하거나 연속된 일련의 모서리가 포함된 그룹을 선택해야 합니다. 그 밖의 항목을 선택하면 그래프가 실패하게 됩니다.
-* 객체를 두 번 클릭하여 부착된 모든 항목을 선택할 수 있습니다.
-* 영역 선택 창을 사용하여 일련의 객체를 선택할 수 있습니다.
-* 이미 선택된 객체를 선택하여 선택 취소할 수 있습니다.
-* 선택 기반 단계를 진행하려면 하나 이상의 객체가 필요합니다.
+* Możesz wybrać dowolne połączenie obiektów FormIt — wierzchołków, krawędzi, powierzchni, brył, grup i siatek.
+   * Pamiętaj, że w zależności od kroku niektórych z tych obiektów nie należy wybierać.
+   * Na przykład podczas wybierania ścieżki należy wybrać tylko przylegającą serię krawędzi lub grupę zawierającą przylegającą serię krawędzi. Wszystkie pozostałe opcje spowodują błąd wykresu.
+* Klikając dwukrotnie obiekt, możesz wybrać wszystkie dołączone elementy.
+* Aby pobrać serię obiektów, możesz użyć okna wyboru obszaru.
+* Wybierając już wybrane obiekty, możesz usunąć ich zaznaczenie.
+* Do wykonania kroku opartego na wyborze wymagany jest co najmniej jeden obiekt.
 
 
 

@@ -1,149 +1,149 @@
-# 키보드 바로 가기
+# Skróty klawiaturowe
 
-| 명령 | 바로 가기 |
+| Polecenie | Skróty |
 | :--- | :--- |
-| 응용프로그램 설정: 치수 표시 | D, D |
-| 응용프로그램 설정: 그리드로 스냅 | S, G |
-| 공동작업: 세션에 초대 | C, I |
-| 공동작업: 세션 참가 | C, J |
-| 공동작업: 세션 시작 | C, S |
-| 표시: 앰비언트 그림자 | D, A |
-| 표시: 축 | D, Z |
-| 표시: 뒷면 | D, B |
-| 표시: 모서리 | D, E |
-| 표시: 선 연장 | D, X |
-| 표시: 그리드 | D, G |
-| 표시: 그룹 경계 상자 | B, B |
-| 표시: 은선 | D, H |
-| 표시: 단조 표면 | D, M |
-| 표시: 북쪽 화살표 | D, N |
-| 표시: 그림자 | D, S |
-| 표시: 실루엣 | D, O |
-| 표시: 스케치 선 | D, K |
-| 표시: 얇은 모서리 | D, T |
-| 표시: 수밀 문제 | D, W |
-| 그리기: 호 | A |
-| 그리기: 원 | C |
-| 그리기: 선 | L |
-| 그리기: 직사각형 | R |
-| 그리기: 스플라인 |   |
-| 편집: 복사 | Ctrl + C |
-| 편집: 삭제 | 삭제 |
-| 편집: 붙여넣기 | Ctrl + V |
-| 편집: 기본 설정 |  |
-| 편집: 재실행 | Ctrl + Y |
-| 편집: 재실행 | Ctrl+Shift+Z |
-| 편집: 축 재설정 | R, Z |
-| 편집: 축 설정 | S, Z |
-| 편집: 실행취소 | Ctrl+Z |
-| 에너지 해석: Insight 취소 |  |
-| 에너지 해석: Insight 생성 |  |
-| 에너지 해석: Insight 보기 |  |
-| 파일: 이미지 내보내기 |  |
-| 파일: 다음 위치로 모델 내보내기 | Ctrl + E |
-| 파일: 3D 모델 가져오기 | Ctrl+I |
-| 파일: 이미지 가져오기 | Ctrl+Shift+I |
-| 파일: 새로 만들기 | Ctrl+N |
-| 파일: BIM 360 Docs에서 열기 | Alt + O |
-| 파일: 열기 | Ctrl+O |
-| 파일: BIM 360 Docs에 다른 이름으로 저장 | Alt+S |
-| 파일: 사용내역과 함께 저장 | Ctrl+S, Ctrl+H |
-| 파일: 저장 | Ctrl+S |
-| 그룹: 그룹 편집\(상황에 맞는 메뉴\) | E |
-| 그룹: 그룹 편집\(도구막대\) | Alt+E |
-| 그룹: 그룹 작업 완료 | F |
-| 그룹: 그룹\(상황에 맞는 메뉴\) | G |
-| 그룹: 그룹\(도구막대\) | Alt+G |
-| 그룹: 고유하게 설정\(상황에 맞는 메뉴\) | M, U |
-| 그룹: 고유하게 설정\(도구막대\) | Alt+M |
-| 그룹: 그룹 해제\(상황에 맞는 메뉴\) | U |
-| 그룹: 그룹 해제\(도구막대\) | Alt+U |
-| 그룹: 모두 그룹 해제\(상황에 맞는 메뉴\) | U, A |
-| 그룹: 모두 그룹 해제\(도구막대\) | Alt+A |
-| 그룹: 모델 그룹 해제 | U, M |
-| 도움말: 정보 |  |
-| 도움말: FormIt 업데이트 확인 |  |
-| 도움말: FormIt 블로그 |  |
-| 도움말: FormIt 갤러리 |  |
-| 도움말: FormIt 비디오 |  |
-| 도움말: 지원 받기 |  |
-| 도움말: 도움말 |  |
-| 도움말: 새로운 기능 |  |
-| 레벨: 레벨 표시 | D, L |
-| 레벨: 레벨 사용 | U, L |
-| 뒤쪽 면의 재료 방지 |  |
-| 원형: 정육면체 | Alt+B |
-| 원형: 원통 | Alt+C |
-| 원형: 돔 | Alt+D |
-| 원형: 프리즘 | Alt+R |
-| 원형: 피라미드 | Alt+P |
-| 프로토타입: 마우스/그리드 상태 표시 |  |
-| 선택 필터: 모서리 | E, S |
-| 선택 필터: 면 | F, S |
-| 선택 필터: 그룹 | G, S |
-| 선택 필터: 솔리드 | S, S |
-| 설정: 큰 버튼 |  |
-| 스케치 설정: 단위 유형 전환 | U, T |
-| 일조 해석: 해석 | A, A |
-| 일조 해석: 일조 해석 모드 시작/종료 | S, A |
-| 일조 해석: 종료 |  |
-| 일조 해석: 재설정 |  |
-| 도구: 배열 | A, R |
-| 도구: 피복 | C, V |
-| 도구: 형상 절단\(상황에 맞는 메뉴\) | C, C |
-| 도구: 형상 절단\(도구막대\) | C, G |
-| 도구: 터치 사용 | E, T |
-| 도구: 터치 사용 | T, M |
-| 도구: 모서리 돌출 | E, E |
-| 도구: 모깎기 | F, I |
-| 도구: 정보 |  |
-| 도구: 형상 결합\(상황에 맞는 메뉴\) | J, C |
-| 도구: 형상 결합\(도구막대\) | J, G |
-| 도구: 올가미 선택 | L, L |
-| 도구: 로프트 모서리 | L, O |
-| 도구: 측정 | M |
-| 도구: 각도 측정 | M, A |
-| 도구: 모서리와 정점 병합 | M, E |
-| 도구: 대칭 | M, I |
-| 도구: 다중 이동 | M, M |
-| 도구: 모서리 간격띄우기 | O, E |
-| 도구: 면 간격띄우기 | O, F |
-| 도구: 솔리드 간격띄우기 | O, S |
-| 도구: 면 반전 | F, F |
-| 도구: 회전 | Q |
-| 도구: 편집기에서 스크립트 실행 |  |
-| 도구: 축척 | S, C |
-| 도구: 선택 | 공간 |
-| 도구: 위치 설정 | S, L |
-| 도구: 쉘 | S, H |
-| 도구: 부드러운 모서리 | S, E |
-| 도구: 스윕 | S, W |
-| 도구: 면 테이퍼 | T, F |
-| 도구: 부드럽지 않은 모서리 | U, E |
-| 뷰: 파란색 주제 |  |
-| 뷰: 기본 주제 |  |
-| 뷰: 일인칭 플라이쓰루 | F, T |
-| 뷰: 카메라 궤도 이동 |  |
-| 뷰: 카메라 초점이동 |  |
-| 뷰: 시스템 주제 |  |
-| 뷰: 투시 전환 |  |
-| 뷰: 맨 위 | Z, T |
-| 뷰: 전체 줌 | Z, A |
-| 뷰: 전체 줌 | Z, E |
-| 뷰: 전체 줌 | Z, Z |
-| 뷰: 전체 이미지 줌 | Z, I |
-| 뷰: 카메라 줌 |  |
-| 뷰: 줌 축소 |  |
-| 뷰: 선택사항 줌 | Z, S |
-| 창: 설계 도구막대 | H, D |
-| 창: 부동 탐색 도구막대 | H, B |
-| 창: 주 메뉴 | H, M |
-| 창: 탐색 도구막대 | H, N |
-| 창: 작업 도구막대 | H, O |
-| 창: 설정 도구막대 | H, C |
-| 창: 스케치 도구막대 | H, K |
-| 창: 솔리드 도구막대 | H, P |
-| 창: 표준 도구막대 | H, T |
-| 창: 상태 막대 | H, S |
-| 창: 뷰 도구막대 | H, V |
+| Ustawienia aplikacji: Wyświetl wymiary | D, D |
+| Ustawienia aplikacji: Przyciągaj do siatki | S, G |
+| Współpraca: Zaproś do sesji | C, I |
+| Współpraca: Dołącz do sesji | C, J |
+| Współpraca: Uruchom sesję | C, S |
+| Wyświetlanie: Cienie otoczenia | D, A |
+| Wyświetlanie: Osie | D, Z |
+| Wyświetlanie: Powierzchnie tylne | D, B |
+| Wyświetlanie: Krawędzie | D, E |
+| Wyświetlanie: Wydłużone linie | D, X |
+| Wyświetlanie: Siatka | D, G |
+| Wyświetlanie: Ramki ograniczające grupy | B, B |
+| Wyświetlanie: Ukryte linie | D, H |
+| Wyświetlanie: Powierzchnie monotone | D, M |
+| Wyświetlanie: Strzałka wskazująca północ | D, N |
+| Wyświetlanie: Cienie | D, S |
+| Wyświetlanie: Sylwetki | D, O |
+| Wyświetlanie: Linie szkicu | D, K |
+| Wyświetlanie: Cienkie krawędzie | D, T |
+| Wyświetlanie: Problemy z uszczelnieniem | D, W |
+| Rysowanie: Łuk | A |
+| Rysowanie: Okrąg | C |
+| Rysowanie: Linia | L |
+| Rysowanie: Prostokąt | R |
+| Rysowanie: Splajn | S |
+| Edycja: Kopiuj | Ctrl + C |
+| Edycja: Usuń | Usuń |
+| Edycja: Wklej | Ctrl + V |
+| Edycja: Preferencje |  |
+| Edycja: Ponów | Ctrl + Y |
+| Edycja: Ponów | Ctrl+Shift+Z |
+| Edycja: Resetuj osie | R, Z |
+| Edycja: Ustaw osie | S, Z |
+| Edycja: Cofnij | Ctrl + Z |
+| Analiza energetyczna: Anuluj Insight |  |
+| Analiza energetyczna: Generuj Insight |  |
+| Analiza energetyczna: Wyświetl Insight |  |
+| Plik: Eksportuj obraz |  |
+| Plik: Eksportuj model do | CTRL+E |
+| Plik: Importuj model 3D | CTRL + I |
+| Plik: Importuj obraz | CTRL + SHIFT + I |
+| Plik: Nowy | Ctrl + N |
+| Plik: Otwórz z usługi BIM 360 Docs | Alt + O |
+| Plik: Otwórz | Ctrl + O |
+| Plik: Zapisz w usłudze BIM 360 Docs | Alt+S |
+| Plik: Zapisz z historią | Ctrl + S, Ctrl + H |
+| Plik: Zapisz | Ctrl + S |
+| Grupa: Edytuj grupę \(menu kontekstowe\) | E |
+| Grupa: Edytuj grupę \(pasek narzędzi\) | Alt + E |
+| Grupa: Zakończ edycję grupy | F |
+| Grupa: Grupuj \(menu kontekstowe\) | G |
+| Grupa: Grupuj \(pasek narzędzi\) | Alt + G |
+| Grupa: Ustaw jako niepowtarzalne \(menu kontekstowe\) | M, U |
+| Grupa: Ustaw jako niepowtarzalne \(pasek narzędzi\) | Alt + M |
+| Grupa: Usuń grupowanie \(menu kontekstowe\) | U |
+| Grupa: Usuń grupowanie \(pasek narzędzi\) | Alt + U |
+| Grupa: Usuń grupowanie wszystkiego \(menu kontekstowe\) | U, A |
+| Grupa: Usuń grupowanie wszystkiego \(pasek narzędzi\) | Alt+A |
+| Grupa: Usuń grupowanie modelu | U, M |
+| Pomoc: Informacje |  |
+| Pomoc: Sprawdź, czy są dostępne aktualizacje FormIt |  |
+| Pomoc: Blog programu FormIt |  |
+| Pomoc: Galeria programu FormIt |  |
+| Pomoc: Filmy programu FormIt |  |
+| Pomoc: Uzyskaj pomoc techniczną |  |
+| Pomoc: Pomoc |  |
+| Pomoc: Co nowego |  |
+| Poziomy: Wyświetl poziomy | D, L |
+| Poziomy: Użyj poziomów | U, L |
+| Zapobieganie materiałom na powierzchniach tylnych |  |
+| Prymityw: Sześcian | Alt + B |
+| Prymityw: Walec | ALT+C |
+| Prymityw: Kopuła | Alt + D |
+| Prymityw: Graniastosłup | ALT + R |
+| Prymityw: Ostrosłup | Alt + P |
+| Prototyp: Wyświetl stan myszy/siatki |  |
+| Filtr wyboru: Krawędzie | E, S |
+| Filtr wyboru: Powierzchnie | F, S |
+| Filtr wyboru: Grupy | G, S |
+| Filtr wyboru: Bryły | S, S |
+| Ustawienia: Duże przyciski |  |
+| Ustawienia szkicu: Przełącz typ jednostki | U, T |
+| Analiza oświetlenia naturalnego: Analizuj | A, A |
+| Analiza oświetlenia naturalnego: Przejdź w tryb analizy oświetlenia naturalnego/Wyjdź z trybu analizy oświetlenia naturalnego | S, A |
+| Analiza oświetlenia naturalnego: Wyjdź |  |
+| Analiza oświetlenia naturalnego: Resetuj |  |
+| Narzędzia: Szyk | A, R |
+| Narzędzia: Zakryj | C, V |
+| Narzędzia: Dotnij geometrię \(menu kontekstowe\) | C, C |
+| Narzędzia: Dotnij geometrię \(pasek narzędzi\) | C, G |
+| Narzędzia: Włącz tryb dotykowy | E, T |
+| Narzędzia: Włącz tryb dotykowy | T, M |
+| Narzędzia: Wyciągnij krawędzie | E, E |
+| Narzędzia: Zaokrąglenie | F, I |
+| Narzędzia: Informacje |  |
+| Narzędzia: Dołącz geometrię \(menu kontekstowe\) | J, C |
+| Narzędzia: Dołącz geometrię \(pasek narzędzi\) | J, G |
+| Narzędzia: Wybór za pomocą narzędzia Lasso | L, L |
+| Narzędzia: Krawędzie wyciągnięcia złożonego | L, O |
+| Narzędzia: Zmierz | M |
+| Narzędzia: Zmierz kąt | M, A |
+| Narzędzia: Scal krawędzie i wierzchołki | M, E |
+| Narzędzia: Odbij | M, I |
+| Narzędzia: Przesuń wiele | M, M |
+| Narzędzia: Odsuń krawędzie | O, E |
+| Narzędzia: Odsuń powierzchnię | O, F |
+| Narzędzia: Odsuń bryłę | O, S |
+| Narzędzia: Odwróć powierzchnie | F, F |
+| Narzędzia: Obróć | Q |
+| Narzędzia: Uruchom skrypt z edytora |  |
+| Narzędzia: Skala | S, C |
+| Narzędzia: Wybierz | Space (odstęp) |
+| Narzędzia: Ustaw położenie | S, L |
+| Narzędzia: Skorupa | S, H |
+| Narzędzia: Wygładź krawędzie | S, E |
+| Narzędzia: Przeciągnij | S, W |
+| Narzędzia: Zwęź powierzchnię | T, F |
+| Narzędzia: Usuń wygładzenie krawędzi | U, E |
+| Widok: Motyw niebieski |  |
+| Widok: Motyw domyślny |  |
+| Widok: Przelot z perspektywy pierwszej osoby | F, T |
+| Widok: Obróć kamerę |  |
+| Widok: Przesuń kamerę |  |
+| Widok: Motyw systemowy |  |
+| Widok: Przełącz perspektywę |  |
+| Widok: Góra | Z, T |
+| Widok: Powiększ wszystko | Z, A |
+| Widok: Powiększ wszystko | Z, E |
+| Widok: Powiększ wszystko | Z, Z |
+| Widok: Powiększ wszystkie obrazy | Z, I |
+| Widok: Powiększ kamerę |  |
+| Widok: Pomniejsz |  |
+| Widok: Powiększ wybór | Z, S |
+| Okno: Pasek narzędzi Projekt | H, D |
+| Okno: Ruchomy pasek narzędzi Nawigacja | H, B |
+| Okno: Menu główne | H, M |
+| Okno: Pasek narzędzi Nawigacja | H, N |
+| Okno: Pasek narzędzi Operacje | H, O |
+| Okno: Pasek narzędzi Ustawienia | H, C |
+| Okno: Pasek narzędzi Szkic | H, K |
+| Okno: Pasek narzędzi Bryły | H, P |
+| Okno: Pasek narzędzi Standardowy | H, T |
+| Okno: Pasek stanu | H, S |
+| Okno: Pasek narzędzi Widok | H, V |
 

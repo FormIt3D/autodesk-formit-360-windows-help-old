@@ -1,28 +1,28 @@
-# 레이어
+# Warstwy
 
-레이어를 사용하여 FormIt 객체의 가시성을 제어할 수 있습니다.
+Za pomocą warstw możesz sterować widocznością obiektów programu FormIt.
 
-[FormIt 입문서](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)를 참조하여 레이어의 실제 작동을 확인하십시오.
+Zobacz warstwy w działaniu, korzystając z podręcznika [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## 레이어 작성 및 이름 지정
+## Tworzenie i nazywanie warstw
 
-레이어 패널에서 "**+**" 아이콘을 클릭하여 레이어를 작성하고 이름을 지정할 수 있습니다.
+W panelu Warstwy można tworzyć warstwy i nadawać im nazwy, klikając ikonę „**+**”.
 
 ![](../.gitbook/assets/layer-locking-image.jpg)
 
-이름을 두 번 클릭하여 레이어의 이름을 바꾸거나 왼쪽 상자를 선택 및 선택 취소하여 객체의 가시성을 전환할 수 있습니다. 오른쪽 확인란을 사용하여 레이어를 잠그거나 잠금을 해제합니다. 잠긴 레이어는 계속 표시되지만 선택하거나 편집할 수 없습니다.
+Klikając dwukrotnie warstwę, można zmienić jej nazwę. Natomiast przez zaznaczenie lub wyczyszczenie lewego pola wyboru można przełączać widoczność jej obiektów. Za pomocą prawego pola wyboru można blokować i odblokowywać warstwy. Zablokowana warstwa będzie nadal widoczna, ale nie będzie dostępna do wyboru ani do edycji.
 
-## 레이어의 객체 관리
+## Zarządzanie obiektami na warstwach
 
-캔버스에서 객체를 선택한 다음, 레이어 패널 맨 위에 있는 드롭다운을 사용하여 선택한 객체를 배치해야 하는 레이어를 나타냅니다.
+Wybierz obiekty w obszarze rysunku, a następnie za pomocą listy rozwijanej w górnej części panelu Warstwy wskaż warstwę, na której powinny one zostać umieszczone.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt에는 "기본" 또는 "작업 레이어"라는 개념이 없습니다. 모든 새 형상이 "레이어 없음"으로 작성되므로, 레이어를 생성한 후 객체를 레이어에 재지정해야 합니다.
+W programie FormIt nie ma pojęcia „warstwy domyślnej” ani „warstwy roboczej”. Cała nowa geometria jest tworzona w obszarze „Brak warstwy” i po wygenerowaniu obiektów należy przypisać je do warstw.
 
-레이어를 마우스 오른쪽 버튼으로 클릭하고 "레이어의 모든 객체 선택"을 선택하여 이 레이어에 현재 지정된 모든 형상을 선택할 수 있습니다.
+Można kliknąć warstwę prawym przyciskiem myszy i wybrać opcję „Wybierz wszystkie obiekty na warstwie”, aby wybrać całą geometrię aktualnie przypisaną do tej warstwy.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-패널에서 레이어를 새 위치로 끌어다 놓아 순서를 변경할 수도 있습니다. 순서를 변경해도 형상 가시성에는 영향을 주지 않습니다. 순서 변경은 패널의 구성 도구일 뿐입니다.
+Można również zmienić kolejność warstw w panelu, przeciągając je i upuszczając w nowych położeniach. Należy pamiętać, że nie ma to wpływu na widoczność geometrii — jest to narzędzie służące wyłącznie do organizacji tego panelu.
 

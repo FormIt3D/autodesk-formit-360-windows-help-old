@@ -1,94 +1,94 @@
-# 비주얼 스타일
+# Style wizualne
 
-전체 조명, 모서리 스타일 및 환경 효과를 포함하여 모델의 비주얼 모양을 사용자 지정합니다. 비주얼 스타일 패널은 팔레트 막대에서 선글라스 아이콘을 클릭하여 찾을 수 있습니다.
+Dostosuj wygląd modelu, w tym ogólne oświetlenie, style krawędzi i efekty środowiskowe. Panel Style wizualne można znaleźć, klikając ikonę okularów przeciwsłonecznych na pasku palety:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-비주얼 스타일은 [장면별로 설정할 수 있습니다](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings). 따라서 자주 사용하는 스타일 설정을 저장하고 다른 장면에 적용할 수 있습니다.
+Style wizualne [można ustawiać dla poszczególnych scen](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings). Można więc zapisać ustawienia ulubionych stylów i zastosować je do innych scen.
 
-## 표면
+## Powierzchnie
 
-표면이 표시되고 음영처리되는 방식을 관리합니다.
+Zarządzaj sposobem wyświetlania i cieniowania powierzchni.
 
 ![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**주변 밝기**는 장면에 있는 모든 재료의 전체 밝기를 제어합니다. 값이 100이면 조명에 노출된 재료가 재료의 색상 또는 텍스처에 정의된 대로 전체 밝기로 표시됩니다. 값이 100을 넘으면 재료가 과도하게 노출되지만 FormIt에서 여전히 어둡게 보이는 SketchUp 모델에 유용할 수 있습니다. 기본값은 100입니다. 
+**Jasność otoczenia** — ta opcja steruje całkowitą jasnością wszystkich materiałów w scenie. Wartość 100 oznacza, że materiały wystawione na światło będą wyświetlane z pełną jasnością określoną w kolorze lub teksturze materiału. Wartości powyżej 100 powodują nadmierną ekspozycję materiałów, ale mogą być przydatne w przypadku modeli programu SketchUp, których wygląd jest nadal ciemny w programie FormIt. Domyślną wartością jest 100.
 
-**주변 대비**는 직사광선에 노출된 면과 비교할 때 음영의 면이 얼마나 더 어둡게 나타나는지를 제어합니다. 값이 0이면 조명이 영향을 주지 않음을 의미하고\(모든 재료는 방향에 관계없이 전체 밝기로 표시됨\), 값이 클수록 음영의 면이 더 어둡게 나타납니다. 기본값은 25입니다.
+**Kontrast otoczenia** — ta opcja steruje tym, jak wyglądają ciemniejsze powierzchnie w cieniu w porównaniu z powierzchniami wystawionymi na bezpośrednie światło słoneczne. Wartość 0 oznacza, że oświetlenie nie ma wpływu \(wszystkie materiały będą wyświetlane z pełną jasnością niezależnie od orientacji\), natomiast wartości wyższe powodują, że powierzchnie znajdujące się w cieniu są coraz ciemniejsze. Domyślną wartością jest 25.
 
-설계가 [하루 중 현재 시간에 어떻게 음영처리되는지](https://windows.help.formit.autodesk.com/tool-library/shadows) 확인하려면 **그림자**를 전환합니다.
+Przełącz opcję **Cienie**, aby zobaczyć, w jaki sposób projekt będzie [cieniowany o bieżącej porze dnia](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**그림자 강도**는 그림자가 지반 면 및 다른 면에 얼마나 어둡게 그려지는지를 제어합니다. 값이 0이면 그림자가 사실상 표시되지 않고 값이 100이면 그림자가 검은색으로 변합니다. 기본값은 20입니다.
+**Intensywność cienia** — ta opcja określa sposób rysowania ciemnych cieni na płaszczyźnie terenu i innych powierzchniach. Wartość 0 spowoduje, że cienie staną się w zasadzie niewidoczne, a wartość 100 — że staną się czarne. Domyślną wartością jest 20.
 
-**앰비언트 그림자**는 코너에 음영처리 터치를 추가하여 FormIt 모델에 사실성을 더합니다.
+**Cienie otoczenia** — ta opcja dodaje cieniowanie do narożników, aby model programu FormIt był bardziej realistyczny.
 
-**단조 표면**은 모든 재료의 색상과 텍스처를 사용 안 함으로 설정하고 주변 환경을 흰색으로 만듭니다. 그림자 또는 음영 연구에 유용합니다.
+**Powierzchnie monotone** — ta opcja wyłącza kolor i teksturę wszystkich materiałów oraz powoduje, że środowisko otoczenia staje się białe. Jest to przydatne w przypadku badań cieni i cieniowania.
 
-표면 색상 섹션은 재료가 적용되지 않은 경우 면의 기본 색상을 정의합니다.
+Sekcja Kolory powierzchni definiuje domyślne kolory powierzchni, gdy nie zastosowano materiału.
 
-**면**은 재료가 적용되지 않은 경우 모든 정면 FormIt 면\(또는 뒷면이 선택되지 않은 경우 양쪽 면\)의 기본 색상입니다.
+**Powierzchnie** — to domyślny kolor wszystkich powierzchni programu FormIt skierowanych przodem \(lub po obu stronach, jeśli nie jest zaznaczona opcja Tylne powierzchnie\), gdy nie zastosowano żadnego materiału.
 
-**뒷면**은 FormIt으로 가져온 SketchUp 모델에 대해 단일 면의 양쪽에 서로 다른 재료를 표시하는 데 사용됩니다. 이 옵션은 기본적으로 선택되어 있지 않지만 SketchUp 모델을 열거나 가져올 때 선택됩니다. SketchUp 이외의 형상에서 지정된 뒷면 색상이 면의 뒷면에 표시됩니다.
+**Tylne powierzchnie** — ta opcja służy do wyświetlania różnych materiałów po obu stronach pojedynczej powierzchni dla modeli programu SketchUp importowanych do programu FormIt, które tego wymagają. Ta opcja jest domyślnie niezaznaczona, ale jest zaznaczona podczas otwierania lub importowania modeli programu SketchUp. W geometrii innej niż programu SketchUp określony kolor tylnej powierzchni będzie wyświetlany na tylnych stronach powierzchni.
 
-[단면 평면](section-planes.md) 도구를 사용하는 경우 면, 선 및 지면 횡단면 효과의 기본 색상을 관리하려면 단면 절단 효과 및 단면 지면 횡단면 효과 섹션을 사용합니다.
+W obszarach Efekty przekroju i Efekty wypełnienia sekcji można zarządzać domyślnymi kolorami powierzchni, linii i efektu wypełnienia, gdy używane jest narzędzie [Płaszczyzna przekroju](section-planes.md).
 
-## 지반 면
+## Płaszczyzny terenu
 
-그룹 편집 모드에서 지반 면이 꺼져 있으면 파란색 작업 기준면 그리드도 꺼집니다.
+Gdy płaszczyzna terenu jest wyłączona w trybie edycji grupy, niebieska siatka płaszczyzny roboczej także jest wyłączona.
 
-작업 기준면의 색상은 비주얼 스타일 패널에서 사용자 지정할 수도 있습니다.
+Kolor płaszczyzny roboczej można również dostosować z poziomu panelu Style wizualne.
 
 ![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-## 모서리
+## Krawędzie
 
-모델에 있는 모든 모서리의 표시 스타일을 관리합니다.
+Zarządzaj stylem wyświetlania wszystkich krawędzi w modelu.
 
 ![](../.gitbook/assets/edges.PNG)
 
-**대비**는 모든 모서리가 표시되는 방식에 영향을 줍니다. 값이 0이면 모서리가 사실상 표시되지 않습니다. 기본값은 60입니다.
+**Kontrast** — ta opcja wpływa na to, jak bardzo widoczne są wszystkie krawędzie. Wartość 0 spowoduje, że krawędzie staną się niewidoczne. Domyślną wartością jest 60.
 
-**색상**은 모델의 모든 모서리 색상에 영향을 줍니다. 기본값은 검은색입니다.
+**Kolor** — ta opcja wpływa na kolor wszystkich krawędzi w modelu. Domyślną wartością jest czarny.
 
-**두꺼운 모서리**를 사용하면 실루엣 모서리를 포함하여 모든 모서리가 더 두꺼워집니다.
+**Grube krawędzie** — ta opcja powoduje, że wszystkie krawędzie stają się grubsze, w tym krawędzie sylwetki.
 
-**스케치 모서리**는 모든 모서리에 스케치 효과를 추가하여 손으로 그린 효과를 시뮬레이션합니다.
+**Krawędzie szkicu** — ta opcja dodaje efekt szkicu do wszystkich krawędzi, symulując efekt rysowania odręcznego.
 
-**숨겨진 모서리**는 표면에 가려져 있는 모서리를 표시합니다.
+**Ukryte krawędzie** — ta opcja wyświetla krawędzie przesłonięte przez powierzchnie.
 
-**확장된 모서리**는 일부 모서리를 확장하여 손으로 그린 효과를 시뮬레이션합니다.
+**Wydłużone krawędzie** — ta opcja dodaje przedłużenie do niektórych krawędzi, symulując efekt rysowania odręcznego.
 
-## 환경
+## Środowisko
 
-환경 효과 및 도우미 객체의 표시를 전환합니다.
+Przełącz wyświetlanie efektów środowiskowych i obiektów pomocniczych.
 
 ![](../.gitbook/assets/environment.PNG)
 
-**그리드**는 지반 면의 그리드 표시와 그룹을 편집할 때 표시되는 그리드를 제어합니다. 그리드가 사용 안 함으로 설정되어 있으면 "그리드로 스냅" 옵션이 사용 안 함으로 설정됩니다.
+**Siatka** — ta opcja steruje wyświetlaniem siatki na płaszczyźnie terenu, jak również siatką wyświetlaną podczas edycji grupy. Opcja „Przyciągaj do siatki” jest wyłączona, gdy siatka jest wyłączona.
 
-**축**은 표준 원점 또는 그룹 원점(그룹을 편집하는 경우)에 표시되는 XYZ 축의 표시를 제어합니다.
+**Osie** — ta opcja steruje wyświetlaniem osi XYZ wyświetlanych w początku globalnym lub w początku grupy podczas edycji grupy.
 
-**레벨**은 레벨 패널에 설정된 [**레벨**](levels-and-area.md)의 표시를 제어합니다.
+**Poziomy** — ta opcja steruje wyświetlaniem [**poziomów**](levels-and-area.md) **** ustawionych w panelu Poziomy.
 
-**안개**는 지반 면과 하늘 사이의 변환이 원활하게 나타나도록 하기 위해 그려진 안개의 표시를 제어합니다. 안개를 끄면 지반 면\(사용하도록 설정된 경우\)이 하늘과 만나는 수평선이 뚜렷하게 나타납니다.
+**Mgła** — ta opcja steruje wyświetlaniem mgły, która jest rysowana, aby przejście między płaszczyzną terenu a niebem było płynniejsze. Wyłączenie mgły spowoduje utworzenie wyraźnej linii horyzontu, na której płaszczyzna terenu \(jeśli jest włączona) styka się z niebem.
 
-**북쪽 화살표**는 도북 방향을 나타내는 작은 그래픽 위젯의 표시를 제어합니다\(위치 및 위성 이미지에 따라 결정됨\).
+**Strzałka północy** — ta opcja steruje wyświetlaniem małego widżetu graficznego wskazującego kierunek północy projektu \(zgodnie z określeniem położenia i obrazami satelitarnymi\).
 
-하늘, 배경 및 지반 면과 같은 환경 색상도 사용자 지정할 수 있습니다.
+Można również dostosować kolory środowiskowe, takie jak nieba, tła i płaszczyzny terenu.
 
-하늘은 **하단/배경**, **중간** 및 **상단** 색상의 그라데이션으로 구성됩니다.
+Niebo składa się z gradientu kolorów **Dolne/tło**, **Środek** i **Górne**.
 
-**하늘** 옵션을 선택 취소하면 **하단/배경** 색상만 표시됩니다.
+Jeśli opcja **Niebo** nie jest zaznaczona, widoczny będzie tylko kolor **Dolne/tło**.
 
-## 진단
+## Diagnostyka
 
-진단 도구의 표시를 전환합니다.
+Przełącz wyświetlanie narzędzi diagnostycznych.
 
 ![](../.gitbook/assets/diagnostics.PNG)
 
-**수밀 문제**는 수밀 솔리드 객체의 일부가 아닌 모든 모서리를 빨간색으로 강조표시합니다.
+**Problemy z uszczelnieniem** — ta opcja powoduje wyróżnienie na czerwono wszystkich krawędzi, które nie są częścią szczelnego obiektu bryłowego.
 
-**뒷면**은 잘못된 방향을 향하고 있는 모든 면을 빨간색으로 강조표시합니다\(모든 솔리드 객체의 뒷면은 솔리드 모양 내부를 향해야 함\).
+**Tylne powierzchnie** — ta opcja powoduje wyróżnienie na czerwono wszystkich powierzchni skierowanych w złą stronę \(wszystkie obiekty bryłowe powinny mieć tylne powierzchnie skierowane w stronę wewnętrznej strony kształtu bryły\).
 
-[수밀 및 뒷면 진단 사용에 대해 자세히 알아보고 솔리드 모델의 문제를 식별하고 수정하십시오](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Dowiedz się więcej na temat korzystania z diagnostyki uszczelnienia i tylnych powierzchni w celu identyfikowania i rozwiązywania problemów z modelami brył](https://formit.autodesk.com/blog/post/repairing-solid-models).
 

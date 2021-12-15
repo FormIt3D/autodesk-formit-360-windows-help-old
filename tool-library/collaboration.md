@@ -1,20 +1,20 @@
-# 공동 작업
+# Współpraca
 
-FormIt을 사용하면 여러 사용자(Windows, iPadOS 또는 웹 클라이언트의 모든 조합)가 FormIt 모델을 실시간으로 보면서 공동으로 편집할 수 있습니다.
+Program FormIt umożliwia wielu użytkownikom korzystającym z dowolnego zestawu klientów z systemami Windows i iPadOS oraz klientów internetowych wspólną edycję modelu programu FormIt z wyświetlaniem wszystkich zmian w czasie rzeczywistym.
 
-FormIt Pro 서브스크립션을 구매하면 다음과 같은 작업을 수행할 수 있는 실시간 공동작업 기능에 액세스할 수 있습니다.
+Dzięki subskrypcji programu FormIt Pro masz dostęp do funkcji współpracy w czasie rzeczywistym, która zapewnia następujące możliwości:
 
-* 공동작업 세션을 시작하고 동료를 초대합니다.
-* FormIt Windows, 웹 또는 iPadOS 앱에서 공동작업에 참여합니다.
-* 동료와 공동작업하여 공유 샌드박스 환경에서 설계를 탐색합니다.
-* 다른 공동작업자의 카메라를 따라가면서 뷰포트에서 모델을 봅니다.
-* 고객에게 설계를 안내할 때 고객이 카메라를 따라가면서 설계를 보도록 합니다.
-* 세션의 공동작업자와 채팅합니다.
+* Rozpoczynanie sesji współpracy i zapraszanie współpracowników.
+* Dołączanie do współpracy z poziomu aplikacji FormIt dla systemu Windows lub iPadOS albo internetowej.
+* Współpracowanie z innymi w celu przeglądania projektów we współdzielonym środowisku piaskownicy.
+* Obserwowanie modelu z perspektywy innego współpracownika za pomocą jego kamery.
+* Udostępnianie klientowi perspektywy własnej kamery w celu poprowadzenia go po projekcie.
+* Czatowanie ze współpracownikami w sesji.
 
-## 공동작업 세션 시작
+## Rozpoczynanie sesji współpracy
 
-1. 공동작업 드롭다운에서 "공유 섹션 시작"을 선택합니다. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. 공동작업자에게 링크를 전자 메일로 보냅니다. 이 링크를 클릭하면 수신자가 Autodesk Account 계정에 로그인하여 즉시 공동작업을 시작하라는 메시지가 표시됩니다.  ![](../.gitbook/assets/collaborate.png)
+1. Z listy rozwijanej Współpraca wybierz opcję Rozpocznij sesję udostępniania. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Wyślij łącze do współpracowników pocztą e-mail. To łącze monituje odbiorców o zalogowanie się na ich konta Autodesk, aby mogli natychmiast rozpocząć współpracę. ![](../.gitbook/assets/collaborate.png)
 
 
 

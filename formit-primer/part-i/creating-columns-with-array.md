@@ -1,146 +1,146 @@
-# 1.8 - 배열로 기둥 작성
+# 1.8 — Tworzenie słupów przy użyciu narzędzia Szyk
 
-_이 연습에서는 상세 요소, 즉 I-보 기둥을 스케치합니다. 그런 다음 배열 도구를 사용하여 복사본을 균등한 간격으로 여러 개 신속하게 작성합니다._
+_W tym ćwiczeniu naszkicujemy element szczegółowy — słup o kształcie dwuteownika. Następnie za pomocą narzędzia Szyk szybko utworzymy wiele kopii w równych odstępach._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.8 - Create Columns with Array.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.8 — Create Columns with Array.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
 
-## **기둥 프로파일 스케치**
+## **Szkicowanie profilu słupa**
 
-1 - 드래프팅 프로세스를 원활하게 진행하려면 다음 단계를 수행합니다.
+1 — Dla ułatwienia procesu kreślenia:
 
-1. **평면도\(VT\)**로 이동합니다.
-2. 뷰 모드를 **직교\(VO\)**로 전환합니다.
-3. **주 건물** **바닥** 및 **지붕** 레이어를 끕니다. 이 단계에서는 새 형상이 해당 레이어의 기존 형상으로 스냅되지 않습니다.
-4. **가져온 평면도** 이미지의 왼쪽 상단을 줌 확대하여 기둥을 자세히 볼 수 있습니다.
-5. **그리드로 스냅\(SG\)** 기능을 끕니다\(켜져 있는 경우\). 이렇게 하면 상세 선을 그리는 데 도움이 됩니다.
+1. Przejdź do **Widoku z góry \(VT\)**.
+2. Przełącz tryb widoku na **Prostopadły \(VO\)**.
+3. Wyłącz warstwy **Budynek główny**, **Podłoga** i **Dach**. Dzięki temu nowa geometria nie będzie przyciągana do istniejącej geometrii na tych warstwach.
+4. Powiększ lewy górny narożnik **zaimportowanego obrazu rzutu podłogi**, aby widzieć szczegóły słupa.
+5. Wyłącz **Przyciąganie do siatki \(SG\)** \(jeśli jest włączone\). To pomoże w rysowaniu linii szczegółów.
 
 ![](../../.gitbook/assets/0%20%2813%29.png)
 
-_기둥을 그리려면 우선 절반을 그린 다음 대칭시켜 다른 대칭되는 절반을 신속하게 작성합니다._
+_Aby narysować słup, najpierw narysujemy połowę, a następnie wykonamy odbicie lustrzane, aby szybko utworzyć drugą, symetryczną połowę._
 
-2 - I-보의 처음 절반을 작성하려면 **선 도구\(L\)**를 사용하여 지정된 치수를 사용하여 다음 스케치를 만듭니다. 평면도 이미지에서 기둥의 정확한 위치에 대해서는 걱정하지 마십시오.
+2 — Aby utworzyć pierwszą połowę dwuteownika, użyj **narzędzia Linia \(L\)** i wykonaj następujący szkic o podanych wymiarach. Na tym etapie nie musisz się martwić dokładnym położeniem słupa na rzucie.
 
 ![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - 방금 그린 모양을 대칭하려면 다음 작업을 수행합니다.
+3 — Utwórz odbicie lustrzane narysowanego kształtu:
 
-1. 두 번 클릭하여 그려진 형상의 모든 면과 모서리를 선택합니다.
-2. 마우스 오른쪽 버튼을 클릭하고 **대칭 도구\(MI\)**를 선택합니다.
-3. **대칭 위젯**의 가운데 주황색 그립을 클릭하고 형상의 왼쪽 하단에 배치합니다.
-4. 위젯의 양면 화살표 버튼에서 아래쪽 화살표를 사용하여 대칭 축을 -90도\(시계 방향\) 회전합니다.
-5. 공간에서 한 번 클릭하거나 **Esc** 키를 눌러 대칭 프로세스를 마칩니다. 결과는 중간 아래에 선이 있는 I-보 프로파일과 유사해야 합니다. **Esc** 키를 다시 눌러 선택을 취소합니다.
+1. Kliknij dwukrotnie, aby wybrać wszystkie powierzchnie i krawędzie narysowanej geometrii.
+2. Kliknij prawym przyciskiem myszy i wybierz **narzędzie Odbicie lustrzane \(MI\)**.
+3. Kliknij środkowy pomarańczowy uchwyt **narzędzia odbicia lustrzanego** i umieść go w lewym dolnym rogu geometrii.
+4. Użyj strzałki w dół na przycisku strzałki dwustronnej w narzędziu, aby obrócić oś odbicia lustrzanego o –90 stopni \(zgodnie z ruchem wskazówek zegara\).
+5. Kliknij jeden raz w pustym obszarze lub naciśnij klawisz **Esc**, aby zakończyć proces tworzenia odbicia lustrzanego. Rezultat powinien wyglądać jak profil dwuteownika z linią biegnącą pionowo przez środek. Naciśnij ponownie klawisz **Esc**, aby anulować wybór.
 
 ![](../../.gitbook/assets/2%20%285%29.png)
 
 ![](../../.gitbook/assets/3%20%287%29.png)
 
-_**주**: 대칭 위젯을 조정하는 동안 가상으로 표시된 파란색 모양으로 최종 형상 위치 및 방향을 미리 볼 수 있습니다. 이 미리보기를 참조로 사용하여 형상을 의도한 위치에 대칭시킬 수 있습니다._
+_**Uwaga**: podczas dopasowywania narzędzia odbicia lustrzanego położenie i orientacja tworzonej geometrii są widoczne na podglądzie jako półprzezroczysty niebieski kształt. Można skorzystać z tego podglądu jako odniesienia, aby utworzyć odbicie lustrzane geometrii w zamierzonym położeniu._
 
-4 - 양쪽을 단일 형상으로 결합하려면 두 면을 클릭하여 선택한 다음 **Delete** 키를 눌러 분할하는 선을 제거합니다. 이제 두 표면이 단일 표면으로 결합됩니다.
+4 — Aby połączyć połowy w jedną geometrię, usuń dzielącą je linię, wybierając ją kliknięciem, a następnie naciskając klawisz **Delete**. Teraz obie powierzchnie zostały połączone w jedną.
 
-5 - 형상을 최종 위치로 이동하려면 다음 단계를 수행합니다.
+5 — Przesuń geometrię w jej ostateczne położenie:
 
-1. 꺼져 있는 경우 **평면도 이미지** 및 **지붕** 레이어를 켜서 가이드로 사용합니다.
-2. 기둥 프로파일을 두 번 클릭하여 해당 면과 모든 선을 선택합니다. 녹색 축\(**Y축**\)을 따라 선택 항목 이동을 시작합니다. **Shift** 키를 누른 상태로 지붕에 맞춰 정렬될 때까지 프로파일을 이동한 다음 클릭하여 배치합니다.
-3. 이전 단계와 마찬가지로 형상을 다시 한 번 이동합니다. 이번에는 형상을 빨간색 축\(**X축**\)에 잠급니다.
-4. 클릭하여 **평면도 이미지**에 그려진 I-보의 맨 위에 배치합니다. 다음 이미지처럼 점점 가까워져도 괜찮습니다. 수평 위치가 완벽할 필요는 없습니다.
+1. Jeśli są wyłączone, włącz warstwy **Obraz rzutu** i **Dach**, aby używać ich jako odniesienia.
+2. Kliknij dwukrotnie profil słupa, aby wybrać jego powierzchnię i wszystkie linie. Rozpocznij przesuwanie wybranych elementów wzdłuż zielonej osi \(**osi Y**\). Przytrzymaj klawisz **Shift** i przesuwaj profil do momentu wyrównania z dachem, a następnie kliknij, aby go umieścić.
+3. Podobnie jak w poprzednim kroku przesuń ponownie geometrię, tym razem blokując ją na czerwonej osi \(**osi X**\).
+4. Kliknij, aby umieścić element na belce dwuteowej narysowanej na **obrazie rzutu**. Wystarczy umieścić go blisko, jak na poniższej ilustracji — położenie w poziomie nie musi być idealne.
 
-_**주**_ _:_ _**Shift**_ _키는 축 하나만을 따라 이동하도록 형상을 잠그는 기능을 합니다. 이 경우에는 녹색 축\(**Y축**\)입니다. 이렇게 하면 기둥 프로파일이 실수로 위로 이동하여 지붕 평면의 상단에 정렬되지 않습니다._
+_**Uwaga:**_ _klawisz_ _**Shift**_ _umożliwia zablokowanie geometrii w celu przesuwania jej tylko wzdłuż jednej osi, w tym przypadku — zielonej \(**osi Y**\). To zapobiega przypadkowemu przesunięciu profilu słupa w górę i wyrównaniu go do górnej części płaszczyzny dachu._
 
 ![](../../.gitbook/assets/4%20%289%29.png)
 
-## **기둥 돌출 및 배열**
+## **Wyciąganie słupa i tworzenie szyku**
 
-1 - 다음 드래프팅 프로세스를 용이하게 하려면 뷰 모드를 다시 **투시도\(VP\)** 및 **궤도 이동\(O\)**으로 전환하여 북서쪽에서 I-보 프로파일을 시각화할 수 있도록 카메라를 배치합니다. 왼쪽 하단 코너에 있는 북쪽 화살표를 사용하여 뷰를 쉽게 배치할 수 있습니다.
+1 — Dla ułatwienia kolejnego procesu kreślenia przełącz widok z powrotem na tryb **Perspektywa \(VP\)** i **obróć \(O\)** kamerę w taki sposób, aby widzieć profil belki dwuteowej z północnego zachodu. Użyj strzałki wskazującej północ w lewym dolnym rogu, aby łatwiej ustawić widok.
 
 ![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**주:**_ _스케치 탐색 방법을 알아보려면_ _**장면 탐색**_ _장을 확인하는 것이 좋습니다._
+_**Uwaga:**_ _aby dowiedzieć się, jak poruszać się po szkicu, zapoznaj się z rozdziałem_ _**Nawigacja po scenie**_ _._
 
-2 - 기둥 프로파일 면을 선택하고 면을 최대 **17’-8"**까지 돌출시킵니다.
+2. Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
 
-_**주:**_ _기둥 프로파일을 이동하는 동안 기둥 프로파일이 지붕에 정렬되어 있다면 위가 아니라 대신 아래로_ _**17’-8”**   돌출합니다._
+_**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**   w dół, a nie w górę._
 
-3 - 줌 축소하고 **지붕** 레이어를 켭니다\(꺼져 있는 경우\). 기둥의 상단은 지붕 상단과 일직선이 되어야 합니다.
+3 — Pomniejsz widok i włącz warstwę **Dach** \(jeśli jest wyłączona\). Górna powierzchnia słupa powinna być wyrównana do górnej powierzchni dachu.
 
 ![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - 모형을 깔끔하게 정리하기 위해 기둥 형상을 다시 선택하고 다음 단계를 수행합니다.
+4 — Uporządkuj model, ponownie wybierając geometrię słupa i wykonując następujące czynności:
 
-1. **그룹화\(G\)**하고 이름을 **긴 기둥**으로 지정합니다.
-2. **기둥**이라는 새 **레이어**를 작성하고 이 레이어에 그룹을 추가합니다.
-3. **금속 - 브러쉬 - 색상** 재료를 가져와 그룹을 페인트합니다.
+1. Dodaj słup do **grupy \(G\)** i nazwij ją **Słup — wysoki**.
+2. Utwórz nową **Warstwę** o nazwie **Słup** i dodaj do niej tę grupę.
+3. Zaimportuj materiał **Metal — matowy — kolorowy** i pomaluj nim grupę.
 
 ![](../../.gitbook/assets/7%20%284%29.png)
 
-_**주**_ _:_ _**그룹**,_ _**레이어** 및_ _**재료**에 대한 자세한 내용은 이전 장을 참조하십시오._
+_**Uwaga:**_ _więcej informacji na temat_ _**grup**,_ _**warstw** i_ _**materiałów** zawierają poprzednie rozdziały._
 
-4 - **Esc** 키를 클릭하여 페인트 브러시 도구를 종료합니다.
+4 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie pędzla.
 
-## **기둥 배열**
+## **Tworzenie szyku słupów**
 
-1 - **평면도\(VT\)**로 이동하고 카메라 모드를 다시 **직교\(VO\)**로 전환합니다.
+1 — Przejdź do **widoku z góry \(VT\)** i ponownie przełącz tryb kamery na **Prostopadły \(VO\)**.
 
-2 - **지붕** 레이어를 끕니다.
+2 — Wyłącz warstwę **Dach**.
 
-3 - 배열 프로세스를 시작하려면 다음 단계를 수행합니다.
+3 — Rozpocznij tworzenie szyku:
 
-1. 한 번 클릭하여 기둥 그룹을 선택합니다. 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**를 표시하고 **배열\(AR\)**을 선택합니다.
-2. **배열 특성** 대화상자에서 다음 설정을 사용합니다.
-   * **복사본 사이의 길이**
-   * **선형**\(기본값\)
-   * **각 솔리드를 그룹화한 다음 배열**\(기본값\)
-   * **복사본 수: 3**
-   * **확인**을 눌러 대화상자를 닫습니다.
+1. Kliknij grupę słupa jeden raz, aby ją wybrać. Kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**, i wybierz narzędzie **Szyk \(AR\)**.
+2. W oknie dialogowym **Właściwości szyku** użyj następujących ustawień:
+   * **Długość pomiędzy kopiami**
+   * **Liniowa** \(ustawienie domyślne\)
+   * **Pogrupuj każdą bryłę, a następnie utwórz szyk** \(ustawienie domyślne\)
+   * **Liczba kopii: 3**
+   * Kliknij przycisk **OK**, aby zamknąć okno dialogowe.
 
 ![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - 새 요소를 배치하려면 다음 단계를 수행합니다.
+4 — Umieść nowe elementy:
 
-1. 기둥을 한 번 클릭하여 **배열**을 시작합니다. 빨간색 축\(**X축**\)을 따라 커서를 이동합니다.
-2. 치수를 **22'**로 설정합니다. 이제 **4개** 기둥이 **22'**씩 떨어졌습니다.
-3. **Esc** 키를 눌러 선택을 취소합니다.
+1. Kliknij słup jeden raz, aby rozpocząć tworzenie **szyku**. Przesuń kursor wzdłuż czerwonej osi \(**osi X**\).
+2. Ustaw wymiar na **22 stopy**. Masz teraz **cztery** słupy w odległości **22 stóp**.
+3. Naciśnij klawisz **Esc**, aby anulować wybór.
 
 ![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - 모든 **긴 기둥** 그룹을 한 번에 선택하려면 그룹 중 하나에 마우스를 놓고 **Tab** 키를 한 번 누릅니다. 4개의 기둥 경계 상자가 모두 강조 표시됩니다. 마우스가 놓여 있는 기둥을 한 번 클릭하면 모두 선택됩니다. 이렇게 하면 동일한 그룹의 모든 인스턴스(instance)를 한 번에 빠르게 선택할 수 있습니다.
+5 — Aby wybrać wszystkie grupy **Słup — wysoki** jednocześnie, umieść wskaźnik myszy na jednej z nich i naciśnij klawisz **Tab** jeden raz. Zobaczysz, że wszystkie 4 ramki ograniczające słupów zostały wyróżnione. Kliknij jeden raz słup, na którym znajduje się kursor myszy, aby wybrać wszystkie z nich. To szybki sposób na wybranie wszystkich wystąpień tej samej grupy jednocześnie.
 
-6 - 다른 **배열\(AR\)**을 수행하여 건물의 다른 쪽에 기둥을 작성합니다. 이번에는 건물을 가로지르는 녹색 축을 따라 복사본을 1개 만듭니다. 치수를 **29'- 4 5/8”**
+6 — Ponownie użyj narzędzia **Szyk \(AR\)**, aby utworzyć słupy po drugiej stronie budynku. Tym razem utwórz 1 kopię wzdłuż zielonej osi biegnącej w poprzek budynku. Ustaw wymiar na **29 stóp i 4 i 5/8 cala.**
 
-_**주:**_ _29’ 4 5/8” = 8 5/8” \(기둥 깊이\) + 28’-8” \(주 건물 폭\)._
+_**Uwaga:**_ _29 stóp i 4 i 5/8 cala = 8 i 5/8 cala \(głębokość słupa\) + 28 stóp i 8 cali \(szerokość budynku głównego\)._
 
-7 - 전체 건물을 시각화하려면 **3D 뷰\(V3\)**로 이동하여 **투시\(VP\)**로 설정합니다. 꺼져 있는 경우 **주 건물 바닥**, **지붕**, **낮은 테라스** 및 **기둥** 레이어를 켭니다.
+7 — Aby wyświetlić cały budynek, przejdź do **widoku 3D \(V3\)** i ustaw tryb **Perspektywa \(VP\)**. Jeśli są wyłączone, włącz warstwy **Podłoga budynku głównego**, **Dach**, **Taras dolny** i **Słup**.
 
 ![](../../.gitbook/assets/10%20%287%29.png)
 
-## **테라스 기둥 작성**
+## **Tworzenie słupów tarasu**
 
-_이제 주 건물 기둥을 복제하여 테라스에 대해 더 짧지만 유사한 버전을 작성합니다._
+_Teraz powielimy słupy budynku głównego, aby utworzyć podobne, ale krótsze słupy tarasu._
 
-1 - 드래프팅을 용이하게 하려면 **직교\(OV\)** 및 **평면도\(VT\)** 설정으로 다시 돌아가는 것이 좋습니다.
+1 — Dla ułatwienia kreślenia zalecamy powrót do ustawień **Ortogonalny \(OV\)** i **Widok z góry \(VT\)**.
 
-2 - 새 기둥을 작성하려면 다음 단계를 수행합니다.
+2 — Utwórz nowe słupy:
 
-1. **Ctrl** 또는 **Shift** 키를 누른 채 **낮은 테라스 바닥**에 가장 가까운 기둥 3개를 클릭하여 선택합니다.
-2. 기둥 중 하나를 한 번 클릭하여 선택한 기둥 3개를 모두 한 번에 이동하기 시작합니다. **Ctrl** 키를 한 번 눌러 **빠른 복사**를 작성합니다. 복사본의 가상 미리보기가 나타납니다.
-3. 녹색 축\(**Y축**\)을 따라 **23’-4 3/8**"만큼 복사본을 아래로 이동합니다. **Esc** 키를 누릅니다. 
-4. 선택 취소하지 않고 빨간색 축\(**X축**\)을 따라 **22'**만큼 이동하여 복사한 기둥을 마지막 위치에 배치합니다.
-5. 다시 기둥 3개가 선택된 상태에서 복사한 기둥 중 하나를 마우스 오른쪽 버튼으로 클릭하고 **고유하게 설정 \(MU\)**을 선택합니다. 이러한 기둥은 이제 서로 연관되긴 했지만 원본과 달리 고유한 기둥입니다.
+1. Przytrzymaj wciśnięty klawisz **Ctrl** lub **Shift** i kliknij 3 słupy znajdujące się najbliżej **podłogi dolnego tarasu**, aby je wybrać.
+2. Kliknij jeden raz dowolny ze słupów, aby rozpocząć przesuwanie wszystkich 3 wybranych słupów jednocześnie. Naciśnij jeden raz klawisz **Ctrl**, aby utworzyć **szybką kopię**. Zostanie wyświetlony półprzezroczysty podgląd kopii.
+3. Przesuń kopie w dół zielonej osi \(**osi Y**\) o **23 stopy i 4 i 3/8 cala**. Naciśnij klawisz **Esc**.
+4. Nie anulując wyboru, przesuń skopiowane słupy wzdłuż czerwonej osi \(**osi X**\) o **22 stopy**, aby umieścić je w docelowym położeniu.
+5. Nadal nie anulując wyboru 3 nowych słupów, kliknij prawym przyciskiem myszy jeden ze skopiowanych słupów i wybierz opcję **Ustaw jako unikatowe \(MU\)**. Słupy są teraz skojarzone ze sobą, ale unikatowe względem oryginałów.
 
-_**주**_ _:_ _**Shift**_ _키 또는_ _**Ctrl**_ _키를 계속 누르고 있으면 여러 요소를 한 번에 선택하거나 현재 선택에서 요소를 제거할 수 있습니다._
+_**Uwaga:**_ _przytrzymanie naciśniętego klawisza_ _**Shift**_ _lub_ _**Ctrl**_ _pozwala wybrać wiele elementów jednocześnie lub usunąć elementy z bieżącego wyboru._
 
 ![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - 새 기둥 그룹을 수정합니다.
+3 — Zmodyfikuj nową grupę słupów:
 
-1. 새 그룹 중 하나를 두 번 클릭하여 편집하고 이름을 **짧은 기둥**
-2. 새 기둥의 높이를 조정하여 **낮은 테라스** **바닥**\(3’-2"\)의 상단에 맞춰 정렬합니다. 이렇게 하려면 **Shift** 키를 누른 상태에서 기둥의 면을 파란색 축\(**Z축**\)을 따라 아래로 끕니다. 커서를 **낮은 테라스 바닥**의 상단 면 위의 아무 곳에나 가져가면 기둥 높이가 자동으로 가장 낮은 테라스에 정렬됩니다. 높이가 설정되면 클릭하여 마칩니다.
+1. Kliknij dwukrotnie, aby edytować jedną z nowych grup i zmień jej nazwę na **Słup — krótki.**
+2. Dopasuj wysokość nowej kolumny, aby wyrównać ją względem górnej krawędzi **Podłogi** **dolnego tarasu** \(3 stopy i 2 cale\). W tym celu wybierz powierzchnię słupa i przeciągnij ją w dół wzdłuż niebieskiej osi \(**osi Z**\), przytrzymując naciśnięty klawisz **Shift**. Umieść kursor w dowolnym miejscu na górnej powierzchni **Podłogi dolnego tarasu**, a wysokość słupa zostanie automatycznie wyrównana do dolnego tarasu. Po ustawieniu wysokości kliknij, aby zakończyć.
 
 ![](../../.gitbook/assets/12%20%284%29.png)
 
-_**주**_ _:_ _**측정\(ME\)**_ _도구를 사용하여 짧은 기둥의 높이를 확인할 수 있습니다. 또는 기둥의 수직 모서리 중 하나를 선택하여_ _**특성 팔레트**에서 기둥 길이를 확인할 수 있습니다._
+_**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz \(ME\)**_ _. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
 
-4 - 방금 배운 기술을 사용하여 가장 멀리 있는 짧은 기둥을 **낮은 테라스 바닥**의 반대쪽으로 복사하여 마지막으로 나머지 기둥을 작성합니다.
+4. Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
 
 ![](../../.gitbook/assets/13%20%284%29.png)
 

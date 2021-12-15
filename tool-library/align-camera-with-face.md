@@ -1,8 +1,8 @@
-# 면에 맞춰 카메라 정렬
+# Wyrównywanie kamery z powierzchnią
 
-면을 직접 보도록 카메라를 신속하게 정렬할 수 있습니다.
+Szybko wyrównaj kamerę, aby patrzeć bezpośrednio na dowolną powierzchnię.
 
-단일 면을 선택한 다음, 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴에 액세스합니다. 메뉴 맨 위에서 면에 맞춰 카메라 정렬을 찾거나 바로 가기 AF를 사용합니다.
+Wybierz pojedynczą powierzchnię, a następnie kliknij prawym przyciskiem myszy, aby uzyskać dostęp do menu kontekstowego. Znajdź opcję Wyrównaj kamerę z powierzchnią u góry menu lub użyj skrótu AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
 

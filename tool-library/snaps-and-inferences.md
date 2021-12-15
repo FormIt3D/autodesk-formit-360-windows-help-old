@@ -1,64 +1,61 @@
-# 스냅 및 추정
+# Przyciąganie i wnioskowanie
 
-스케치와 모델링을 보다 쉽게 수행하려면 스냅 점 및 추정 점을 사용하여 형상을 정확하게 작성, 배치 및 편집합니다. 원하는 축을 표면 돌출과 같은 다른 작업을 그리거나 실행할 축으로 선택하여 사용할 수 있습니다.
+Aby łatwiej szkicować i modelować, używaj przyciągania i punktów wnioskowania w celu dokładnego tworzenia, umieszczania i edytowania geometrii. Można używać dowolnej osi jako tej, na podstawie której będzie coś rysowane lub zostanie wykonana inna operacja, np. wyciągnięcie powierzchni.
 
-**주:** 소프트웨어 도구 사용 속도를 높이는 방법에 대한 자세한 내용은 [_키보드 바로 가기_](../appendix/keyboard-shortcuts.md)_를 _참고_하십시오._
+**Uwaga:** _Zobacz temat_ [_Skróty klawiaturowe_](../appendix/keyboard-shortcuts.md)_, aby uzyskać informacje na temat przyspieszenia korzystania z narzędzi oprogramowania._
 
-## 스냅
+## Przyciąganie
 
-스케치하고 모델링하는 동안 도움이 될 수 있는 스냅이 여러 개 있습니다. 객체로 스냅은 자동으로 사용할 수 있게 설정되며 다음으로 스냅할 수 있습니다.
+Istnieje kilka trybów przyciągania, które mogą być pomocne podczas szkicowania i modelowania. Przyciąganie do obiektów jest automatycznie włączone i można je przyciągać do następujących elementów:
 
 |                                                                                                                                                                            |                                            |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| 정점 | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| 모서리. 모서리 위에 마우스 커서를 놓으면 끝점과 중간 점에
-        작은 빨간색 점이 그려집니다. | ![](../.gitbook/assets/inf4.png) |
-| 모서리 중간 점 | ![](../.gitbook/assets/inf5.png) |
-| 면의 평면. 면 위에 마우스 커서를 놓으면 면 중심에
-        작은 빨간색 점이 그려집니다. 그러면 점에 스냅하려는 경우 해당 점을
-        쉽게 찾을 수 있습니다. | ![](../.gitbook/assets/inf6.png) |
-| 면 중심 | ![](../.gitbook/assets/inf7.png) |
-| 작업 기준면(다른 항목으로 스냅하지 않는 경우) | ![](../.gitbook/assets/inf8.png) |
-| 원 또는 호 중심 | ![](../.gitbook/assets/inf9.png) |
-| 메쉬 정점 | ![](../.gitbook/assets/inf2.png) |
-| 메쉬 깍인면의 평면 | ![](../.gitbook/assets/inf1.png) |
+| Wierzchołki | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| krawędzi Po ustawieniu wskaźnika na krawędzi na końcach i w punkcie środkowym zostaną narysowane małe czerwone kropki. | ![](../.gitbook/assets/inf4.png) |
+| Punkty środkowe krawędzi | ![](../.gitbook/assets/inf5.png) |
+| Płaszczyzna powierzchni. Po ustawieniu wskaźnika na powierzchni na środku ciężkości powierzchni zostanie narysowana mała czerwona kropka. Ułatwi to znalezienie tego punktu, jeśli chcesz do niego przyciągnąć. | ![](../.gitbook/assets/inf6.png) |
+| Środki ciężkości powierzchni | ![](../.gitbook/assets/inf7.png) |
+| Płaszczyzna robocza, jeśli nie przyciągniesz do niczego innego. | ![](../.gitbook/assets/inf8.png) |
+| Środki okręgów lub łuków | ![](../.gitbook/assets/inf9.png) |
+| Wierzchołki siatki | ![](../.gitbook/assets/inf2.png) |
+| Płaszczyzna fasety siatki. | ![](../.gitbook/assets/inf1.png) |
 
-그리드로 스냅하려면 설정 메뉴에서 **그리드로 스냅(SG)** 토글을 사용으로 설정해야 합니다.
+Aby przyciągnąć do siatki, należy włączyć przełącznik **Przyciągaj do siatki (SG)** w menu Ustawienia.
 
-## 추정 축 및 점
+## Punkty i osie wnioskowania
 
-추정 점의 자동 선택은 항상 사용할 수 있게 설정되어 있으며 형상의 이동을 구속하는 데 도움이 됩니다. 추정 축은 도구에 의해 자동으로 생성되거나 모서리 또는 점 위에 마우스 커서를 놓으면 생성됩니다. 추정 축은 항상 대시로 화면에 그려지므로 위치를 알 수 있고 간편하게 스냅할 수 있습니다.
+Automatyczny wybór punktów wnioskowania jest zawsze włączony i pomaga ograniczyć ruch geometrii. Osie wnioskowania są generowane za pomocą narzędzi automatycznie lub po umieszczeniu wskaźnika myszy na krawędziach bądź punktach. Osie wnioskowania są zawsze rysowane na ekranie za pomocą kresek, dzięki czemu użytkownik wie, gdzie się znajdują, i można łatwo do nich przyciągać.
 
-**축:** X, Y 또는 Z축을 따라 형상을 이동할 수 있습니다. X축은 빨간색, Y축은 초록색, Z축은 파란색입니다.
+**Oś:** Geometrię można przesuwać wzdłuż osi X, Y lub Z. Oś wnioskowania X ma kolor czerwony, oś Y zielony, a oś Z niebieski.
 
 ![](../.gitbook/assets/inf10.png)
 
-**축 잠금:** X, Y 또는 Z축을 따라 이동을 잠글 수 있습니다. Shift 키를 누른 상태에서 축 추정을 켠 다음, 마우스를 이동하여 다른 요소로 스냅하고 추정합니다.
+**Blokowanie osi:** Ruch można blokować wzdłuż osi X, Y lub Z. Przy wskaźniku znajdującym się na osi wnioskowania przytrzymaj klawisz Shift, a następnie przesuń mysz, aby przyciągnąć i wnioskować w zakresie innych elementów.
 
 ![](../.gitbook/assets/inf13.png)
 
-**평행:** 기존 요소에 평행하게 형상을 스케치하거나 이동할 수 있습니다. 수직 추정은 자주색입니다. 평행 참조로 사용할 선 위에 커서를 놓아야 합니다.
+**Równoległe:** Geometrię można szkicować lub przesuwać równolegle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie równoległe.
 
 ![](../.gitbook/assets/inf14.png)
 
-**수직:** 기존 요소에 수직으로 형상을 그리거나 이동할 수도 있습니다. 수직 추정은 자주색입니다. 수직 참조로 사용할 선 위에 커서를 놓아야 합니다.
+**Prostopadłe:** Można również rysować lub przesuwać geometrię prostopadle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie prostopadłe.
 
 ![](../.gitbook/assets/inf15.png)
 
-**점에서 연장:** 추정을 사용하여 점 참조에서 연장할 수도 있습니다. 툴팁이 나타날 때까지 참조로 사용할 점 위에 마우스 커서를 놓은 다음, 해당 점에서 연장되는 추정 축을 사용합니다.
+**Wydłużanie od punktu:** Można również używać odniesień, aby wydłużać od punktu odniesienia. Ustaw wskaźnik myszy na punkcie, który ma służyć jako odniesienie, i poczekaj, aż zostanie wyświetlona etykieta narzędzia, a następnie użyj osi wnioskowania, która rozciąga się od tego punktu.
 
 ![](../.gitbook/assets/inf16.png)
 
-**원 중심**: 호 또는 원의 중심으로 스냅하려면 호 또는 원 위에 마우스 커서를 놓습니다. 그러면 중심에 작은 빨간색 점이 표시됩니다. 이 점은 호 또는 원에서 멀리 이동하면 약 5초 동안 표시됩니다. 이제 빨간색 점 위로 커서를 이동하여 중심으로 스냅합니다.
+**Środek okręgu**: Aby przyciągnąć do środka łuku lub okręgu, ustaw kursor na łuku lub okręgu. Spowoduje to wyświetlenie małej czerwonej kropki w środku. Po odsunięciu kursora od łuku lub okręgu będzie ona widoczna przez około 5 sekund. Teraz przesuń kursor na czerwoną kropkę, aby przyciągnąć do środka.
 
 ![](../.gitbook/assets/inf17.png)
 
-**실제 호 및 스플라인 중간 점**: 원, 호 또는 스플라인 위에 마우스 커서를 놓으면 실제 중간 점으로 스냅할 수 있습니다. 이 점과 끝점은 작은 빨간색 점으로 표시됩니다. 호에 대한 추정을 할 때 호를 나타내는 직선 모서리의 정점으로 스냅합니다.
+**Rzeczywiste punkty środkowe łuku i splajnu**: Po umieszczeniu wskaźnika myszy na okręgu, łuku lub splajnie można przyciągać do rzeczywistego punktu środkowego. Ten punkt i punkty końcowe będą wskazywane za pomocą małej czerwonej kropki. Podczas wnioskowania na łuku można również przyciągać do wierzchołków krawędzi prostych, które reprezentują łuk.
 
 ![](../.gitbook/assets/inf18.png)
 
-**추정 지우기**: 도면에서 더 많은 추정이 생성될 수 있으며, 이는 해당 추정으로 스냅해서는 안 되는 점을 배치하는 데 방해가 될 수 있습니다. **Shift+스페이스바** 키를 누르면 마지막으로 배치된 점에 있는 추정을 제외한 모든 추정이 지워집니다.
+**Czyszczenie elementów wnioskowania**: Może się zdarzyć, że wskutek rysowania zostanie wygenerowana duża liczba elementów wnioskowania, co może przeszkadzać w umieszczaniu punktów, które nie powinny być przyciągane do tych elementów. Naciśnięcie klawiszy **Shift + Spacja** spowoduje usunięcie wszystkich elementów wnioskowania, z wyjątkiem tych znajdujących się w ostatnio umieszczonym punkcie.
 
-![추정을 지우기 전](../.gitbook/assets/inf19.png)
+![Przed wyczyszczeniem elementów wnioskowania](../.gitbook/assets/inf19.png)
 
-![추정을 지운 후](../.gitbook/assets/inf20.png)
+![Po wyczyszczeniu elementów wnioskowania](../.gitbook/assets/inf20.png)

@@ -1,8 +1,8 @@
-# 특성
+# Właściwości
 
-**특성 팔레트**에는 Formit 작업 기준면에서 선택한 객체와 관련된 정보 및 데이터가 표시됩니다.
+Na **palecie Właściwości** wyświetlane są informacje i dane dotyczące wybranego obiektu w płaszczyźnie roboczej programu Formit.
 
-특성 팔레트를 사용하여 객체 그룹을 편집하고, 레이어에 객체를 지정하고, 객체의 재료를 변경할 수 있습니다.
+Za pomocą palety Właściwości można edytować grupę obiektu, przypisać obiekt do warstwy i zmienić materiał obiektu.
 
 ![](../.gitbook/assets/properties_palette.png)
 

@@ -1,13 +1,13 @@
-# 미러
+# Odbij
 
-대칭 도구를 사용하여 객체의 대칭 사본을 작성합니다.
+Narzędzie Odbij służy do tworzenia lustrzanego odbicia obiektu.
 
-객체를 대칭하려면
+Tworzenie odbicia lustrzanego obiektu:
 
-1. 두 번 클릭하여 단일 객체를 선택하거나 한 번 클릭하여 그룹을 선택합니다.
-2. 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 대칭 도구를 선택하거나 키보드 바로 가기 **MI**를 입력합니다.
-3. 평면이 표시되고 평면에 객체가 대칭되는 축이 표시됩니다. 평면을 이동하거나 회전하여 대칭 축을 사용자화할 수 있습니다.
-4. 대칭된 객체의 평면 조정을 마치면 선택 항목 외부의 아무 곳이나 클릭합니다.
+1. Kliknij dwukrotnie, aby wybrać pojedynczy obiekt, lub kliknij jednokrotnie, aby wybrać grupę.
+2. Kliknij prawym przyciskiem myszy i wybierz z menu kontekstowego narzędzie Odbij lub wpisz skrót klawiaturowy **MI**.
+3. Zostanie wyświetlona płaszczyzna wskazująca oś, za pomocą których zostanie odbity obiekt. Płaszczyznę można przesuwać lub obracać, aby dostosować oś odbicia.
+4. Po zakończeniu dopasowywania płaszczyzny odbijanego obiektu kliknij w dowolnym miejscu poza obszarem wyboru.
 
 ![](../.gitbook/assets/mirror.png)
 

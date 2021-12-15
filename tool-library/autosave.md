@@ -1,54 +1,54 @@
-# 자동 저장
+# Autozapis
 
-Windows용 FormIt은 17.3 버전부터 작업하는 동안 FormIt 모델의 백업 사본을 만들 수 있는 자동 저장 기능을 제공합니다. 이 백업 파일은 변경사항이 저장되지 않은 상태에서 FormIt이 닫히는 경우 데이터를 복구하는 데 사용할 수 있습니다.
+Od wersji 17.3 program FormIt dla systemu Windows zawiera funkcję Autozapis, która umożliwia tworzenie kopii zapasowej modelu FormIt podczas pracy. Używając tego pliku kopii zapasowej, można odzyskać dane, gdy program FormIt zostanie zamknięty bez zapisania zmian.
 
-### 자동 저장 전환
+### Włączanie i wyłączanie autozapisu
 
-편집 &gt; 기본 설정 &gt; 자동 저장에서 자동 저장에 대한 구성 옵션을 찾습니다.
+Znajdź opcje konfiguracji funkcji Autozapis, wybierając opcje Edycja &gt; Preferencje &gt; Autozapis.
 
 ![](../.gitbook/assets/20190613-autosave.png)
 
-자동 저장은 기본적으로 사용하도록 설정되어 있지만 해당 확인란을 선택 취소하기만 하면 아예 사용하지 않는 것으로 설정할 수 있습니다.
+Funkcja Autozapis jest domyślnie włączona, ale można ją całkowicie wyłączyć przez usunięcie zaznaczenia pola wyboru.
 
-"자동 저장 간격" 수치 상자에 값을 입력하여 자동 저장 기능으로 백업 사본을 만들 간격\(분\)을 설정합니다.
+Ustaw czas \(w minutach\), co jaki funkcja Autozapis będzie wykonywała kopię zapasową, wprowadzając wartość w polu liczbowym „Interwał autozapisu”.
 
-이러한 기본 설정은 응용프로그램 레벨이며 다른 파일을 열 때 변경되지 않습니다.
+Pamiętaj, że te preferencje są wprowadzane na poziomie aplikacji i nie zmieniają się podczas otwierania różnych plików.
 
-### 자동 저장 작동 방식
+### Działanie funkcji Autozapis
 
-자동 저장이 사용하도록 설정되어 있는 경우 자동 저장 기능은 현재 FormIt 파일에 저장되지 않은 변경사항이 있는지 여부를 확인합니다. 저장하지 않은 변경사항이 있으면 자동 저장 기능은 지정된 간격으로 파일의 백업 사본을 작성합니다.
+Włączona funkcja Autozapis sprawdza, czy w bieżącym pliku programu FormIt znajdują się niezapisane zmiany. Jeśli istnieją niezapisane zmiany, Autozapis tworzy kopię zapasową pliku co określony czas.
 
-백업 파일은 원본 파일 옆에 저장되며 확장자는 `.axmb`입니다.
+Pliki kopii zapasowych są przechowywane obok oryginalnego pliku i mają rozszerzenie `.axmb`.
 
-예를 들어, 원본 FormIt 파일이 `C:/Users/<user>/FormIt/MyProject.axm`에 저장되어 있는 경우 백업 파일은 `C:/Users/<user>/FormIt/MyProject.axmb`에서 찾을 수 있습니다.
+Na przykład jeśli oryginalny plik programu FormIt jest przechowywany w lokalizacji `C:/Users/<user>/FormIt/MyProject.axm`, plik kopii zapasowej można znaleźć w lokalizacji `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-기존 파일을 열지 않고 새 FormIt 세션을 시작하는 경우 `C:/Users/<user>/Documents/Untitled.axmb`에서 저장되지 않은 변경사항을 찾을 수 있습니다. 새 모델을 다른 위치에 저장하면 백업은 위에 설명된 대로 새 위치 옆에 저장되지 않은 변경사항을 추가하기 시작합니다.
+Jeśli rozpoczynasz nową sesję programu FormIt, nie otwierając istniejącego pliku, niezapisane zmiany można znaleźć w lokalizacji `C:/Users/<user>/Documents/Untitled.axmb`. Po zapisaniu nowego modelu w innej lokalizacji funkcja tworzenia kopii zapasowej zacznie dodawać niezapisane zmiany obok nowej lokalizacji, jak wspomniano powyżej.
 
-변경사항을 원본 파일에 저장하면 백업이 현재 원본 파일보다 이전 버전이므로 자동 저장 기능이 백업 파일을 자동으로 삭제합니다. 그러나 저장된 파일을 계속 변경하면 자동 저장을 다시 실행하여 지정된 간격으로 백업을 시작하라는 메시지가 표시됩니다.
+Po zapisaniu zmian w oryginalnym pliku funkcja Autozapis automatycznie usuwa plik kopii zapasowej, ponieważ kopia zapasowa jest teraz starsza niż oryginalny plik. Jednak wprowadzanie kolejnych zmian w zapisanym pliku spowoduje ponowne rozpoczęcie wykonywania kopii zapasowych przez funkcję Autozapis w określonych odstępach czasu.
 
-작업 파일에 저장되지 않은 변경사항이 있는 상태에서 FormIt을 닫고 변경사항을 취소하도록 선택하면 자동 저장 백업이 삭제됩니다. 그러나 컴퓨터 종료 또는 응용프로그램 충돌로 인해 FormIt이 강제로 종료되면 자동 저장 백업 파일은 그대로 유지되며 나중에 데이터를 복구하는 데 사용할 수 있습니다.
+Jeśli plik roboczy zawiera niezapisane zmiany, ale wybierzesz zamknięcie programu FormIt i odrzucenie zmian, kopia zapasowa funkcji Autozapis zostanie usunięta. Jednak jeśli zamknięcie programu FormIt zostało wymuszone — przez wyłączenie komputera lub awarię aplikacji — plik kopii zapasowej funkcji Autozapis zostanie zachowany i będzie można użyć go później do odzyskania danych.
 
-### 자동 저장이 사용하도록 설정된 상태에서 작업
+### Praca z włączonym autozapisem
 
-FormIt은 별도의 프로세스로 백업을 실행하여 자동 저장이 성능에 미치는 잠재적인 영향을 최소화합니다. 파일의 크기가 작거나 중간인 경우 자동 저장 기능이 백업을 수행하는 것을 느끼지 못할 것입니다. 하지만 파일의 크기가 매우 큰(400MB 이상) 경우에는 FormIt에서 전체 모델을 복사하고 별도의 프로세스로 백업을 시작하는 동안 잠시 일시 중지되는 것을 느낄 수도 있습니다.
+Program FormIt minimalizuje potencjalny wpływ funkcji Autozapis na wydajność, wykonując kopię zapasową w ramach oddzielnego procesu. W przypadku plików o małych i średnich rozmiarach wykonywanie kopii zapasowej przez funkcję Autozapis powinno być niezauważalne. W przypadku bardzo dużych plików \(około 400 MB lub więcej\) można zauważyć zaledwie chwilową przerwę, gdy program FormIt kopiuje cały model i rozpoczyna wykonywanie kopii zapasowej w oddzielnym procesie.
 
-자동 저장 기능이 현재 백업을 수행하고 있는지 궁금한 경우 응용프로그램 왼쪽 아래의 상태 막대에서 "자동 저장 중..." 메시지가 잠깐 표시되는 것을 확인할 수 있습니다.
+Jeśli zastanawiasz się, czy funkcja Autozapis wykonuje w danej chwili kopię zapasową, możesz sprawdzić, czy na pasku stanu w lewym dolnym rogu aplikacji jest wyświetlany krótki komunikat „Automatyczne zapisywanie...”:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-상태 막대가 사용 안 함으로 설정되어 있으면 창 &gt; 상태 막대에서 또는 바로 가기 HS를 통해 상태 막대를 사용하도록 설정할 수 있습니다.
+Jeśli pasek stanu jest wyłączony, możesz go włączyć, wybierając opcje Okno &gt; Pasek stanu lub używając skrótu HS.
 
-### 자동 저장을 사용한 데이터 복구
+### Odzyskiwanie danych za pomocą funkcji Autozapis
 
-백업을 사용할 수 있는 FormIt 파일을 열면 FormIt에 백업 파일이 존재한다는 경고가 표시됩니다. 위에서 설명한 것처럼, 이러한 상황이 발생하는 것은 프로젝트를 마지막으로 편집했을 때 변경사항을 저장하지 않고 FormIt을 닫았거나 FormIt이 예기치 않게 닫혔기 때문일 수 있습니다.
+Podczas otwierania pliku programu FormIt z dostępną kopią zapasową program FormIt poinformuje o istnieniu pliku kopii zapasowej. Jak wspomniano powyżej, może to być spowodowane zamknięciem programu FormIt bez wybrania opcji zapisania zmian w tym projekcie podczas jego ostatniej edycji lub nieoczekiwanym zamknięciem programu FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-"이 파일을 여시겠습니까?" 하이퍼링크를 클릭하면 `.axmb` 백업 파일이 로드됩니다.
+Kliknięcie hiperłącza „Otworzyć?” spowoduje wczytanie pliku kopii zapasowej `.axmb`.
 
-마찬가지로 파일 &gt; 열기를 사용하고, 파일 탐색기에서 `.axmb` 파일을 수동으로 선택하여 백업을 열 수 있습니다.
+Aby otworzyć kopię zapasową, można również użyć poleceń Plik &gt; Otwórz i ręcznie wybrać plik `.axmb` z eksploratora plików.
 
-백업 파일이 열려 있으면 다음번에 저장할 때 FormIt에서 덮어쓸 다른 FormIt 파일\(`.axm`\)을 선택하도록 요구합니다. FormIt 백업 파일\(`.axmb`\)은 덮어쓸 수 없습니다.
+Po otwarciu pliku kopii zapasowej przy następnym zapisywaniu program FormIt będzie wymagał wybrania innego pliku FormIt \(`.axm`\) do zastąpienia. Nie można zastępować plików kopii zapasowej programu FormIt \(`.axmb`\).
 
 
 

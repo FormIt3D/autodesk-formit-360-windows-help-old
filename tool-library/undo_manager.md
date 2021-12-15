@@ -1,18 +1,18 @@
-# 실행취소 관리자
+# Menedżer cofania
 
-FormIt에는 고유한 실행취소/재실행 시스템이 있으며, 이 시스템은 그룹별로 또는 시간순 및 전역적으로 실행취소하는 두 가지 방법으로 사용할 수 있습니다.
+Program FormIt zawiera wyjątkowy system poleceń Cofnij/Wykonaj ponownie, którego można używać na dwa różne sposoby: do cofania według grupy lub chronologicznie i globalnie:
 
-* 내포된 그룹을 편집하는 동안 수행하는 실행취소/재실행은 해당 그룹 내의 변경 사항에만 영향을 줍니다.
-   * 즉, 이 그룹에서 변경한 후 다른 그룹에서 여러 사항을 변경하고 원래 그룹으로 돌아가서 더 최근에 다른 그룹에서 변경한 사항에 영향을 주지 않으면서 이 그룹에서 마지막으로 변경한 사항을 실행취소하는 옵션을 사용할 수 있습니다.
-* 주 스케치의 실행취소/재실행\(그룹을 편집하는 동안이 아님\)은 기존의 실행취소/재실행 시스템처럼 작동합니다. 즉, **임의** 그룹에서 마지막으로 변경한 사항이 시간 순서에 따라 실행취소됩니다.
+* Wybranie polecenia Cofnij/Wykonaj ponownie podczas edycji grupy zagnieżdżonej wpłynie tylko na zmiany wewnątrz tej grupy.
+   * Oznacza to, że można wprowadzić zmiany w tej grupie, a następnie wprowadzić wiele zmian w innych grupach i po powrocie do tej pierwszej grupy cofać ostatnie zmiany wprowadzone w tej grupie bez wpływu na zmiany wprowadzone później w innych miejscach.
+* Polecenie Cofnij/Wykonaj ponownie użyte w szkicu głównym \(a nie podczas edycji grupy\) działa podobnie jak tradycyjne systemy Cofnij/Wykonaj ponownie: cofnięta zostanie ostatnia zmiana wprowadzona w **dowolnej** grupie na podstawie kolejności chronologicznej.
 
-실행취소 관리자는 FormIt 모델의 모든 그룹 내에서 변경된 모든 사항(주 스케치에서 변경된 사항 포함)을 기록합니다. 이 기능은 모델의 그룹에서 실행 취소된 작업을 시각적으로 이해하는 데 유용합니다.
+Menedżer cofania rejestruje wszystkie zmiany w każdej grupie w modelu programu FormIt, w tym zmiany wprowadzone w szkicu głównym. Ułatwia to wizualne zrozumienie tego, które operacje zostały cofnięte w dowolnej grupie w modelu.
 
 ![](../.gitbook/assets/undo-manager.png)
 
-실행취소 관리자는 현재 상태뿐만 아니라 이 상태 이전의 모든 작업 및 이전에 존재했지만 이후에 실행취소된 모든 작업을 **굵게** 표시합니다.
+Menedżer cofania wyróżnia **pogrubieniem czcionki** stan bieżący, jak również wszystkie operacje poprzedzające ten stan oraz wszystkie operacje, które wykonano, ale cofnięto.
 
-상태를 마우스 오른쪽 버튼으로 클릭하고 "롤 대상"을 선택하여 필요에 따라 효과적으로 실행취소 또는 재실행을 수행하면 해당 모델 상태로 돌아갈 수 있습니다.
+Można kliknąć stan prawym przyciskiem myszy i wybrać opcję „Przełącz do”, aby odpowiednio cofnąć lub wykonać ponownie w celu powrócenia do tego stanu modelu.
 
-명시적으로 삭제되었거나 실행취소 또는 재실행으로 인해 더 이상 존재하지 않는 그룹은 \*비활성\*으로 표시됩니다. 이러한 항목은 상위 그룹 내에서 실행취소 또는 재실행하여 이전 상태로 복원할 수 있습니다.
+Grupy, które jawnie usunięto lub już nie istnieją z powodu cofnięcia lub ponownego wykonania operacji, są wyświetlane jako \*Nieaktywne\*. Można je przywrócić przez cofanie lub ponowne wykonywanie operacji w odpowiedniej grupie nadrzędnej do momentu ich ponownego pojawienia się.
 

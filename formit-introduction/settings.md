@@ -1,20 +1,20 @@
-# 설정
+# Ustawienia
 
-설정은 메뉴 또는 도구막대에서 액세스할 수 있습니다. FormIt이 닫히면 모든 설정이 저장됩니다.
+Dostęp do ustawień można uzyskać z poziomu menu lub paska narzędzi. Wszystkie ustawienia są zapisywane po zamknięciu programu FormIt.
 
 ![](../.gitbook/assets/settings_menu.png)
 
-* **단위**: 영국식 단위와 미터법 단위 간을 변경합니다.
-* **그리드로 스냅**: 도면 및 모델링 도구가 기본 지면 그리드로 스냅되는지 여부를 전환합니다.
-* **편집 가능한 치수 표시**: 그리기와 편집 중에 치수 표시를 전환합니다.
-* **편집된 그룹만 표시**: 이 설정을 켜면 다른 그룹이 편집되는 동안 다른 모든 그룹은 숨겨집니다.
-* **사전 선택 강조 표시**: 이 설정을 켠 상태에서 모든 객체, 모서리, 면 및 점 위에 마우스 커서를 놓으면 시각적 강조 표시가 나타납니다.
-* **큰 도구막대 버튼**: 큰 도구막대 버튼을 켜거나 끕니다.
-* **앱 주제**: 라이트, 다크 및 파란색 사용자 인터페이스 주제 간을 변경합니다.
+* **Jednostki**: Zmień jednostki z calowych na metryczne i odwrotnie.
+* **Przyciągaj do siatki**: Przełącz opcję przyciągania narzędzi do rysowania i modelowania do siatki bazowej płaszczyzny terenu.
+* **Wyświetl wymiary edytowalne**: Przełącz wyświetlanie wymiarów podczas rysowania i edycji.
+* **Pokaż tylko edytowane grupy**: Gdy ta opcja jest włączona, podczas edycji grupy wszystkie inne grupy są ukryte.
+* **Wyróżnij wstępnie wybrane elementy**: Gdy ta opcja jest włączona, po umieszczeniu wskaźnika myszy na wszystkich obiektach, krawędziach, powierzchniach i punktach zostają one wyróżnione wizualnie.
+* **Duże przyciski paska narzędzi**: Włącza i wyłącza duże przyciski paska narzędzi.
+* **Motyw aplikacji**: Przełączanie między motywami interfejsu użytkownika: jasnym, ciemnym i niebieskim.
 
-## 터치 모드
+## Tryb dotykowy
 
 ![](../.gitbook/assets/touch_mode_icon.png)
 
-터치 모드에서는 터치 스크린이 탑재된 Windows를 사용할 수 있습니다. 이 설정을 켜면 단일 터치와 끌기를 사용하여 도면, 모델링 및 수정 도구를 선택하고 상호 작용할 수 있습니다. **주: 터치 모드에서는 도면 및 수정 도구가 마우스를 통해 제대로 작동하지 않습니다.**
+Tryb dotykowy umożliwia korzystanie z okien na urządzeniach z ekranami dotykowymi. Gdy ta opcja jest włączona, można za pomocą pojedynczych naciśnięć i przeciągnięć wybierać narzędzia do rysowania, modelowania i modyfikowania oraz korzystać z nich. **Uwaga: w trybie dotykowym narzędzia do rysowania i modyfikowania nie współdziałają poprawnie z myszą.**
 

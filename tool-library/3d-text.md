@@ -1,119 +1,119 @@
-# 3D 문자
+# Tekst 3D
 
-## Dynamo에서 제공
+## Obsługiwane przez dodatek Dynamo
 
-FormIt 2021 이상에서는 Dynamo에서 제공하는 3D 문자 객체를 생성하고 수정할 수 있습니다. Dynamo를 사용하면 편집 작업이 필요할 때 문자를 다시 생성하고 위치를 변경할 필요 없이 문자의 글꼴, 크기 및 기타 특성을 그 자리에서 편집할 수 있습니다.
+W programie FormIt 2021 i jego nowszych wersjach można generować i modyfikować obiekty tekstu 3D obsługiwane przez dodatek Dynamo. Dodatek Dynamo umożliwia edycję czcionki, rozmiaru i innych właściwości tekstu lokalnie, bez konieczności ponownego generowania i zmiany położenia tekstu, gdy potrzebne są zmiany.
 
 ![](../.gitbook/assets/3d-text.gif)
 
-## 3D 문자 배치
+## Umieszczanie tekstu 3D
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Windows용 FormIt의 Dynamo 패널로 이동하여 현재 위치가 Dynamo Samples 디렉토리인지 확인합니다.
-* 3D Text 샘플을 클릭합니다.
-* 커서를 캔버스로 이동하면 3D 문자가 커서에 나타납니다.
-   * 배치하기 전에 형상 위에 마우스 커서를 놓으면 3D 문자 방향을 다르게 지정할 수 있습니다. 예를 들어 수직 표면에서 문자가 수직으로 정렬되도록 할 수 있습니다. Tab 키를 눌러 방향을 순환할 수도 있습니다.
-* 클릭하여 3D 문자를 배치합니다. 그러면 FormIt 그룹 내부에 해당 문자가 생성됩니다.
-* 배치 후에는 3D 문자에 사용할 수 있는 옵션이 표시되는 특성 패널이 나타납니다.
+* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
+* Kliknij przykładowy tekst 3D („3D Text”).
+* Przesuń kursor na obszar rysunku. Na kursorze pojawi się tekst 3D.
+   * Zanim umieścisz tekst, możesz ustawić kursor na geometrii, aby inaczej ustawić orientację tekstu 3D — na przykład na pionowej powierzchni, aby wyrównać tekst pionowo. Możesz również klikać klawisz Tab, aby przełączać się między orientacjami.
+* Kliknij, aby umieścić tekst 3D, który zostanie wygenerowany wewnątrz grupy FormIt.
+* Po umieszczeniu zostanie wyświetlony panel Właściwości zawierający opcje dostępne dla tekstu 3D.
 
-## 그 자리에서 반복
+## Iteracja lokalna
 
-Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 빠른 반복을 위해 문자를 현재 위치에 유지한다는 점입니다.
+Zaleta generowania tekstu 3D za pomocą dodatku Dynamo polega na tym, że edycja tekstu jest łatwa, a tekst pozostaje w bieżącym położeniu, co umożliwia szybką iterację.
 
-3D 문자 옵션은 3D 문자 그룹을 선택하거나 그룹을 편집할 때 특성 패널에서 사용할 수 있습니다.
+Opcje tekstu 3D są dostępne w panelu Właściwości po wybraniu grupy tekstu 3D lub podczas edycji grupy.
 
-3D 문자를 처음으로 배치하면 특성 패널이 자동으로 표시됩니다. 그룹을 선택하고 특성으로 직접 전환할 수 있고, 그룹을 두 번 클릭하여 자동으로 특성 패널로 전환할 수도 있습니다.
+Po wstępnym umieszczeniu tekstu 3D automatycznie zostanie wyświetlony panel Właściwości. Możesz również wybrać grupę i samodzielnie przełączyć się na panel Właściwości lub kliknąć dwukrotnie grupę, aby zrobić to automatycznie.
 
 ![](../.gitbook/assets/3d-text-options.png)
 
-### 문자
+### Text
 
-3D 문자 형상에 표시할 문자를 입력합니다. 이 필드는 선택한 글꼴과 맞춤을 미리 보여줍니다. 줄이 여러 개인 경우 Enter/Return 키를 누릅니다.
+Wprowadź tekst, który ma być wyświetlany w geometrii tekstu 3D. To pole zawiera również podgląd wybranej czcionki i wyrównania. Naciśnij klawisz Enter/Return, aby uzyskać wiele linii.
 
-### 글꼴
+### Czcionka
 
-3D 문자의 글꼴을 선택합니다. 이 리스트에는 시스템에서 사용할 수 있는 글꼴이 표시되며, 새 글꼴을 선택하면 문자 필드가 업데이트됩니다.
+Wybierz czcionkę dla tekstu 3D. Na tej liście zostaną wyświetlone czcionki dostępne na komputerze, a wybranie nowej czcionki spowoduje aktualizację pola Tekst.
 
-일부 글꼴에는 보다 복잡한 형상이 있으므로 Dynamo를 사용하여 생성하는 데 시간이 더 걸릴 수 있습니다.
+Pamiętaj, że niektóre czcionki mają bardziej złożoną geometrię i wygenerowanie ich za pomocą dodatku Dynamo może zająć więcej czasu.
 
-### 맞춤
+### Wyrównanie
 
-맞춤을 사용하면 문자가 이동되어 그룹의 로컬 좌표계 원점을 기준으로 정렬됩니다.
+Ta opcja spowoduje przesunięcie tekstu w celu wyrównania go względem początku lokalnego układu współrzędnych grupy.
 
-* 왼쪽을 선택하면 문자가 그룹의 원점에서 시작되고 오른쪽으로 확장됩니다.
-* 중심을 선택하면 문자가 항상 그룹의 원점을 중심으로 정렬됩니다.
-* 오른쪽을 선택하면 문자가 그룹의 원점에서 끝납니다.
+* Ustawienie Left zapewni, że tekst będzie zaczynał się na początku grupy i rozwijał w prawo.
+* Ustawienie Center zapewni, że tekst będzie zawsze wyśrodkowany względem początku grupy.
+* Ustawienie Right spowoduje, że tekst będzie kończył się na początku grupy.
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 
-### 문자 크기
+### Rozmiar tekstu
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-문자의 높이(현재 FormIt 단위)입니다.
+Wysokość tekstu w bieżących jednostkach programu FormIt.
 
-### 돌출 깊이
+### Extrusion Depth
 
-문자의 3D 돌출 크기(현재 FormIt 단위)입니다. 3D 문자는 솔리드로 설계되었으므로, 이 값은 0이 될 수 없지만 0에 매우 가깝게 설정할 수는 있으므로 돌출이 덜 명확합니다.
+Wielkość wyciągnięcia 3D tekstu w bieżących jednostkach programu FormIt. Tekst 3D jest zaprojektowany jako bryła, dlatego ta wartość nie może wynosić zero, natomiast może być bardzo bliska 0, aby jego wyciągnięcie nie było oczywiste.
 
-### 추적
+### Śledzenie
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-추적은 특정 글꼴의 문자 간 기본 간격을 조정하는 데 유용합니다. 현재 FormIt 단위를 사용하며 양수 또는 음수일 수 있습니다. 예를 들어, 피트로 0.25를 지정하면 각 문자 사이에 3인치 간격이 추가됩니다. 반대로 -0.25를 지정하면 모든 문자가 3인치씩 더 가까워집니다.
+Śledzenie przydaje się podczas dopasowywania domyślnych odstępów między literami z określonej czcionki. Ta wartość jest podawana w bieżących jednostkach programu FormIt i może być dodatnia lub ujemna. Na przykład w przypadku stóp wartość 0,25 spowoduje dodanie odstępu o szerokości 3" między poszczególnymi literami. I na odwrót: wartość -0,25 przybliży wszystkie litery do siebie o 3".
 
-### 여러 줄 간격
+### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-문자 필드에 여러 줄이 있는 경우 이 값은 각 문자 줄 사이의 공간을 제어합니다. 현재 FormIt 단위를 사용합니다.
+Jeśli w polu Tekst znajduje się wiele wierszy, ta wartość określa wielkość odstępu między poszczególnymi wierszami tekstu. Używane są bieżące jednostki programu FormIt.
 
-### 문자 반전
+### Invert Text
 
 ![](../.gitbook/assets/3d-text-inverted.png)
 
-참일 때 이 옵션은 문자 주위에 솔리드를 만들고, 솔리드에서 문자를 제거하여 문자가 재료에서 잘린 것처럼 "반전된" 문자를 제공합니다.
+Gdy ta opcja ma wartość True, wokół tekstu zostanie utworzona bryła, z której zostanie usunięty tekst, dając w rezultacie efekt „odwróconego” tekstu — jak gdyby tekst został wycięty z materiału.
 
-### 반전된 문자 경계
+### Inverted Text Border
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-문자 반전이 참인 경우에만 적용됩니다. 문자가 제거되는 솔리드에 사용할 문자 주위의 경계 크기를 지정합니다. 현재 FormIt 단위를 사용합니다.
+Ma zastosowanie tylko w sytuacji, gdy opcja Invert Text ma wartość True. Określa wielkość obramowania wokół tekstu używanego względem bryły, z której jest usuwany tekst. Używane są bieżące jednostki programu FormIt.
 
-### 곡선 면분할 품질
+### Curve Faceting Quality
 
-글꼴의 곡선은 3D 문자를 사용하여 선 세그먼트로 변환되므로 이 값은 곡선이 분할된 정도를 제어합니다.
+Krzywe z czcionek są przekształcane na segmenty linii za pomocą tekstu 3D, dlatego ta wartość określa, z jak wielu płaszczyzn składają się krzywe.
 
-숫자가 작을수록 면이 더 성기게 분할되고\(더 긴 세그먼트\) 숫자가 클수록 면이 더 세밀하게 분할됩니다\(더 짧은 세그먼트\). 이 값은 기본 설정에 포함된 FormIt의 곡선 및 표면 면분할 설정을 재정의합니다.
+Mniejsze liczby spowodują utworzenie mniej precyzyjnych płaszczyzn \(dłuższych segmentów\), a większe — bardziej precyzyjnych \(krótszych segmentów\). Ta wartość zastępuje ustawienia płaszczyzn krzywej i powierzchni w Preferencjach programu FormIt.
 
-### 실행
+### Uruchom
 
-옵션을 편집했으면 "실행" 버튼을 클릭하여 기본 Dynamo 그래프를 실행하고 새 결과를 생성합니다. 매개변수가 변경되면 이 버튼이 파란색으로 바뀌므로 최종 형상에서 업데이트를 보려면 "실행"을 클릭해야 합니다.‌
+Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy kliknąć przycisk „Run”, aby zobaczyć aktualizacje w końcowej geometrii.‌
 
-### 포함된 그래프 편집
+### Edit Embedded Graph
 
-이 옵션을 클릭하면 Dynamo 그래프 편집기 환경이 시작되므로 기본 Dynamo 그래프를 보고 편집하여 신속하게 매개변수를 변경하고 라이브 업데이트를 확인하거나 논리를 검사/조정할 수 있습니다. 이 옵션은 필수는 아니지만 문제 해결 시 또는 더 빠르게 편집할 때 유용할 수 있습니다. 자세한 내용은 아래를 참고하십시오.
+Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybkiej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki. Nie jest to wymagane, ale może się przydać do rozwiązywania problemów lub szybszej edycji. W dalszej części znajdują się dodatkowe informacje.
 
-## Dynamo에서 더 빠르게 반복
+## Szybsze iteracje w dodatku Dynamo
 
-3D 문자 옵션을 반복하는 경우 매개변수를 조정하고 실시간으로 변경사항을 확인할 수 있는 Dynamo 그래프 편집기를 시작하는 것이 더 빠를 수 있습니다. 문제가 있는 경우에는 그래프의 논리도 검사할 수 있습니다.
+Iteracja opcji tekstu 3D może być szybsza dzięki uruchomieniu edytora wykresów Dynamo, który umożliwi dostosowywanie parametrów i wyświetlanie zmian w czasie rzeczywistym. Umożliwia on również sprawdzanie logiki wykresu w przypadku wystąpienia problemów.
 
 ![](../.gitbook/assets/3d-text-edit-embedded.png)
 
-특성 패널에서 "포함된 그래프 편집" 버튼을 클릭하여 Dynamo 그래프 편집기를 시작할 수 있습니다.
+Aby uruchomić edytor wykresów Dynamo, można kliknąć przycisk Edytuj osadzony wykres w panelu Właściwości.
 
 ![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
 
-## 문제 해결
+## Rozwiązywanie problemów
 
-3D 문자는 Dynamo를 백그라운드에서 사용하며, Dynamo는 ASM이라는 모델링 커널을 사용하여 형상을 생성합니다. 생성된 형상은 FormIt으로 다시 전달됩니다.
+Dodatek Dynamo jest używany przez funkcję tekstu 3D w tle. Do generowania geometrii przekazywanej z powrotem do formatu FormIt służy jądro modelowania o nazwie ASM.
 
-일부 글꼴은 "자체 교차 곡선"을 작성하거나 ASM에서 오류를 유발하는 문제가 있는 기타 형상을 작성할 수 있습니다.
+Niektóre czcionki mogą powodować tworzenie „samoprzecinających się krzywych” lub innej problematycznej geometrii będącej przyczyną błędów w jądrze ASM.
 
-3D 문자를 실행하려고 할 때 오류가 발생하거나 문자가 사라지는 경우 "포함된 그래프 편집"을 클릭하여 그래프에 어떤 문제가 발생하고 있는지와 오류가 발생할 수 있는 위치를 확인하는 것이 좋습니다.
+Jeśli podczas próby uruchomienia tekstu 3D wystąpi błąd lub litery znikną, warto kliknąć opcję „Edit Embedded Graph”, aby zobaczyć, co dzieje się z wykresem i gdzie mógł wystąpić błąd.
 
-일부 글꼴에는 적절한 형상으로 변환되지 않는 알려진 문제가 있습니다. Bahnschrift가 이 예에 해당합니다. 문제가 있는 다른 글꼴을 접하게 되면 [포럼을 통해 알려주십시오](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). 특정 글꼴의 문제를 해결하기 위해 노력하겠습니다.
+Niektóre czcionki mają również znane problemy, które uniemożliwiają przekształcenie ich w prawidłową geometrię. Jednym z przykładów takiej czcionki jest Bahnschrift. Jeśli natrafisz na inną problematyczną czcionkę, [poinformuj nas o tym na forach ](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Zrobimy wszystko, co w naszej mocy, aby rozwiązać problemy z określonymi czcionkami.
 
 
 

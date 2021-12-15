@@ -1,10 +1,10 @@
-# 객체 이동
+# Przesuwanie obiektu
 
-1. **두 번 클릭**하여 전체 객체를 선택합니다\([면 모서리 및 점 수정](modifying-faces-edges-and-points.md)에 설명된 대로 면, 모서리 또는 정점을 한 번 클릭하여 선택)\)
-2. 정육면체를 **마우스 오른쪽 버튼으로 클릭**하고 **상황에 맞는 메뉴**에서 **그룹 이동** 도구를 선택합니다. ![](../.gitbook/assets/context-menu.png)
-3. 원을 클릭하여 **스냅 점** ![](../.gitbook/assets/snap-point.png)
-4. **클릭하고 끌기 시작합니다**. 이제 객체를 이동하면 미리 선택한 점이 스냅 점이 됩니다.   ![](../.gitbook/assets/move-object.png)
-5. **Tab 키**를 누릅니다. 이제 특정 거리를 입력하여 현재 축을 따라 해당 객체를 이동할 수 있습니다.
+1. **Kliknij dwukrotnie**, aby wybrać cały obiekt \(kliknij jednokrotnie, aby wybrać powierzchnię, krawędź lub wierzchołek — opisano to w temacie [Modyfikowanie powierzchni, krawędzi i punktów](modifying-faces-edges-and-points.md)\)
+2. **Kliknij prawym przyciskiem myszy** sześcian i wybierz narzędzie **Przesuń grupę** z **menu kontekstowego**. ![](../.gitbook/assets/context-menu.png)
+3. Kliknij i przesuń okrąg do punktu, który posłuży jako **punkt przyciągania.** ![](../.gitbook/assets/snap-point.png)
+4. **Kliknij, a następnie rozpocznij przeciąganie**. Teraz przesuwasz obiekt, a wstępnie wybrany punkt jest teraz punktem przyciągania. ![](../.gitbook/assets/move-object.png)
+5. Naciśnij klawisz **Tab.** Można teraz wpisać żądaną odległość, aby przesunąć obiekt wzdłuż bieżącej osi.
 
 \*\*\*\*
 

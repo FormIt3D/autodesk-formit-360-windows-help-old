@@ -1,30 +1,30 @@
-# 부울 결합
+# Łączenie logiczne
 
-결합 도구를 사용하여 객체 또는 그룹을 다른 객체 또는 그룹에 결합할 수 있습니다. 다음 두 가지 방법으로 결합 도구에 액세스할 수 있습니다.
+Za pomocą narzędzia Dołącz można połączyć jeden obiekt lub grupę z inną. Dostęp do narzędzia Dołącz można uzyskać na dwa sposoby:
 
-## 결합 명령 먼저 실행
+## Najpierw uruchomienie polecenia Dołącz
 
-키보드: J G
+Klawiatura: J G
 
 ![](../.gitbook/assets/boolean_join.png)
 
-결합 명령을 실행하고 화면 왼쪽 위에 있는 모드 지침을 따릅니다.
+Uruchom polecenie Dołącz i postępuj zgodnie z instrukcją trybu w lewym górnym rogu ekranu.
 
-한 번 클릭하여 결합할 객체를 선택합니다.
+Kliknij jednokrotnie, aby wybrać obiekt, do którego chcesz dołączyć.
 
 ![](../.gitbook/assets/cut_mode01.png)
 
-한 번 클릭하여 결합할 객체 또는 그룹을 선택합니다.
+Kliknij jednokrotnie, aby wybrać obiekt lub grupę do dołączenia.
 
 ![](../.gitbook/assets/cut_mode02.png)
 
-확인 표시를 클릭하여 명령을 완료합니다.
+Kliknij znacznik wyboru, aby wykonać polecenie.
 
-## 객체 먼저 선택
+## Najpierw wybranie obiektów
 
-1. 결합할 객체를 두 번 클릭하여 선택합니다\(그룹을 선택하려면 한 번 클릭\).
-2. **Ctrl 키**를 누른 상태에서 첫 번째 객체와 결합할 겹치는 객체를 두 번 클릭합니다.
-3. 객체를 마우스 오른쪽 버튼으로 클릭하고 상황에 맞는 메뉴에서 결합 도구를 선택합니다.
+1. Kliknij dwukrotnie, aby wybrać obiekt, który ma zostać dołączony \(w przypadku grupy kliknij jednokrotnie\).
+2. Trzymając naciśnięty klawisz **CTRL**, kliknij dwukrotnie nakładający się obiekt, który chcesz dołączyć do pierwszego obiektu.
+3. Kliknij prawym przyciskiem myszy jeden z tych obiektów i wybierz narzędzie Dołącz z menu kontekstowego.
 
 ![](../.gitbook/assets/join-tool.png)
 

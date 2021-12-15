@@ -1,8 +1,8 @@
-# 공동 작업
+# Współpraca
 
-FormIt을 사용하면 여러 사용자\(Windows, iOS 또는 웹 클라이언트의 모든 조합\)가 공동으로 FormIt 모델을 편집하면서 실시간으로 모든 변경 사항을 확인할 수 있습니다. 하나의 스케치에서 다른 사용자와 동시에 작업하거나 나중에 작업을 공유할 수 있습니다.
+Program FormIt umożliwia wielu użytkownikom \(korzystającym z dowolnego zestawu klientów z systemami Windows i iOS oraz klientów internetowych) wspólną edycję modelu programu FormIt z wyświetlaniem wszystkich zmian w czasie rzeczywistym. Pracuj jednocześnie z innymi użytkownikami nad tym samym szkicem lub udostępniaj swoją pracę później.
 
-**주:** 공동작업은 FormIt Pro를 활성화한 후에만 사용할 수 있습니다. 공동작업 아이콘을 클릭하면 FormIt Pro에 대한 권한이 있는 Autodesk 360 계정으로 로그인하라는 메시지가 표시됩니다.
+**Uwaga:** Współpraca jest dostępna tylko w przypadku aktywowania programu FormIt Pro. Kliknięcie ikony Współpraca spowoduje wyświetlenie monitu o zalogowanie się na koncie usługi AutoDesk 360 uprawnionym do korzystania z programu FormIt Pro.
 
-[공동작업 세션을 시작하는 방법을 알아보려면 클릭하십시오.](../tool-library/collaboration.md)
+[Kliknij, aby dowiedzieć się, jak rozpocząć sesję współpracy](../tool-library/collaboration.md)
 

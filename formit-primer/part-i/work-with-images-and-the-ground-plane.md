@@ -1,93 +1,93 @@
-# 1.2 - 이미지 및 그리드로 설정된 프로젝트
+# 1.2 — Konfiguracja projektu z obrazami i siatką
 
-_탐색 막대에서 파일 &gt; 가져오기를 선택하여 PNG 또는 JPG 이미지를 모델의 지면 면으로 가져올 수 있습니다. 그러나 가져온 이미지의 축척과 배치를 보다 잘 제어하기 위해 사용자 지정 재료를 작성하고 해당 재료를 직접 그린 직사각형에 적용할 수 있습니다._
+_Obrazy PNG lub JPG można importować na płaszczyznę terenu modelu, wybierając opcje Plik &gt; Importuj na pasku nawigacji. Aby jednak uzyskać większą kontrolę nad skalą i położeniem zaimportowanego obrazu, można utworzyć materiał niestandardowy i zastosować go do samodzielnie narysowanego prostokąta._
 
-_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.2 - Project Set Up with Images and Grid.axm**_ _파일을 다운로드하고 엽니다._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.2 - Project Set Up with Images and Grid.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **이미지 크기 계산**
+## **Obliczanie rozmiaru obrazu**
 
-제공된 **plan.png**는 폭이 3600픽셀이고 높이가 2400픽셀인 24" x 26" 시트\(ARCH D\)에 인쇄된 평면의 이미지입니다. 도면 축척 \(¼"=1'-0"\)과 이미지 치수를 알면 1’ = 25픽셀로 계산할 수 있습니다. 즉, FormIt으로 전체 축척으로 가져온 이미지는 144'x96'가 됩니다.
+Dostarczony plik **plan.png** jest obrazem rzutu drukowanym na arkuszu 24" x 26" \(ARCH D\) o szerokości 3600 pikseli i wysokości 2400 pikseli. Znając skalę rysunku \(¼"=1'-0"\) i wymiary obrazu, można obliczyć, że 1' = 25 pikseli, co oznacza, że obraz powinien mieć rozmiar 144' x 96' w przypadku zaimportowania do formatu programu FormIt w pełnej skali.
 
 ![](../../.gitbook/assets/0%20%281%29.png)
 
-## **축척할 이미지 가져오기**
+## **Importowanie obrazu w skali**
 
-1 - **부동 탐색 막대**에서 **평면도** 아이콘을 클릭하여 위에 장면을 봅니다.
+1 — Kliknij ikonę **Widok z góry** na **ruchomym pasku nawigacji**, aby wyświetlić scenę z góry.
 
 ![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - 3D 스케치 도구막대에서 **직사각형 도구\(R\)**를 선택합니다.
+2 — Wybierz **narzędzie Prostokąt \(R\)** na pasku narzędzi Szkic 3D.
 
 ![](../../.gitbook/assets/2%20%281%29.png)
 
-3 - 정확하게 **144’** x **96'**인 직사각형을 작성하려면 작업공간에서 아무 곳이나 클릭하여 시작점을 정의한 다음, 마우스를 이동하여 미리보면서 첫 번째 측면 길이를 정의합니다. 치수 값 입력을 시작하여 정확한 치수를 입력할 수 있는 대화상자에 액세스합니다. **확인**을 클릭하거나 **Enter** 키를 눌러 치수를 적용합니다. 이 프로세스를 반복하여 두 번째 측면의 길이를 설정하고 직사각형을 완료합니다.
+3 — W celu utworzenia prostokąta o długości dokładnie **144’** x **96’** kliknij w dowolnym miejscu w obszarze roboczym, aby zdefiniować punkt początkowy, a następnie przesuń wskaźnik myszy, aby wyświetlić podgląd i zdefiniować długość pierwszego boku. Rozpocznij wpisywanie wartości wymiaru, aby uzyskać dostęp do okna dialogowego, w którym można wprowadzić dokładny wymiar. Kliknij przycisk **OK** lub naciśnij klawisz **Enter**, aby zatwierdzić wymiar. Powtórz ten proces, aby ustawić długość drugiego boku i dokończyć prostokąt.
 
-![ 직사각형의 첫 번째 측면 길이를 입력합니다.](../../.gitbook/assets/3%20%281%29.png)
+![ Wprowadź długość pierwszego boku prostokąta.](../../.gitbook/assets/3%20%281%29.png)
 
-![직사각형의 두 번째 측면 길이를 입력합니다.](../../.gitbook/assets/4%20%281%29.png)
+![Wprowadź długość drugiego boku prostokąta.](../../.gitbook/assets/4%20%281%29.png)
 
-![직사각형을 완료합니다.](../../.gitbook/assets/5%20%281%29.png)
+![Dokończ prostokąt.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - 새 "평면도" 재료를 작성하려면 다음을 수행합니다.
+4 — Aby utworzyć nowy materiał „Floor Plan”:
 
-1. **재료 팔레트**를 엽니다.
-2. **+** 아이콘을 클릭하여 새 재료를 작성합니다.
-3. 새 재료의 이름을 "**평면도**
-4. **맵**에서 **텍스처** 미리보기 타일을 클릭하고 **판스워스 하우스 데이터세트 &gt; 지원 파일 &gt; 이미지** 폴더에서 **plan.png**를 찾습니다. 그런 다음, **열기**를 클릭합니다.
-5. **특성**에서 **수평 축척** 필드에 **144'**를 입력하고 **수직 축척** 필드에 **96'**를 입력하여 이미지의 축척을 변경합니다. 이미지 비율을 변경하는 값을 삽입하려면 수평 및 수직 축척\(**체인 링크** 아이콘\)을 잠금 해제해야 할 수 있습니다.
-6. **투명도**를 선택하고 절반 정도로 설정합니다. 이렇게 하면 가져온 평면도 이미지를 위성 이미지에 정렬할 수 있습니다.
-7. **확인**을 클릭하여 재료를 완료합니다.
+1. Otwórz **paletę Materiał**.
+2. Kliknij ikonę **+**, aby utworzyć nowy materiał.
+3. Nadaj nowemu materiałowi nazwę „**Floor Plan”.**
+4. W obszarze **MAPY** kliknij obszar podglądu **Tekstura** i przejdź do pliku **plan.png** w folderze **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Następnie kliknij przycisk **Otwórz**.
+5. W obszarze **WŁAŚCIWOŚCI** zmień skalę obrazu, wprowadzając wartość **144'** w polu **Skala pozioma** i wartość **96'** w polu **Skala pionowa**. Pamiętaj, że może być wymagane odblokowanie skali poziomej i pionowej \(ikona **ogniwa łańcucha**\) w celu wstawienia wartości, które zmieniają proporcje obrazu.
+6. Zaznacz pole wyboru **Przezroczystość** i ustaw jej wartość równą około połowie. Ułatwi to wyrównanie zaimportowanego obrazu rzutu kondygnacji względem obrazu satelitarnego.
+7. Kliknij przycisk **OK**, aby dokończyć materiał.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - 직사각형을 페인트하려면 다음을 수행합니다.
+5 — Aby pomalować prostokąt:
 
-1. **재료 팔레트**에서 **평면도 재료** 타일을 한 번 클릭하여 이 재료로 페인트합니다.
-2. 스케치한 직사각형을 클릭하여 페인트합니다. **Esc** 키를 눌러 페인트브러시 도구를 종료합니다.
+1. Na **palecie Materiał** kliknij jeden raz obszar **Materiał Floor Plan**, aby pomalować tym materiałem.
+2. Kliknij naszkicowany prostokąt, aby go pomalować. Naciśnij klawisz **Esc**, aby zakończyć pracę z narzędziem pędzla.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - 재료가 반전되거나 뒤로 보이는 경우 면을 반전해야 할 수 있습니다. 이 작업은 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스하고 면 반전\(FF\) 버튼을 선택하면 수행할 수 있습니다.
+6 — Jeśli materiał jest wyświetlany jako odwrócony, może być konieczne odwrócenie powierzchni. Można to zrobić, klikając prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego**, i wybierając przycisk Odwróć powierzchnię \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **위성 이미지에 가져온 이미지 정렬**
+## **Wyrównywanie zaimportowanego obrazu względem obrazu satelitarnego**
 
-1 - 이미지를 이동하려면 먼저 직사각형을 두 번 클릭하여 선택합니다. 그런 다음, 직사각형을 클릭하고 끌어 위성 이미지의 건물과 겹쳐질 때까지 이동합니다. 나중에 다시 돌아와서 완벽하게 정렬할 것이므로 지금은 비슷하게만 만듭니다.
+1 — Aby przesunąć obraz, najpierw wybierz prostokąt, klikając go dwukrotnie. Następnie kliknij i przeciągnij prostokąt i przesuwaj go, aż nałoży się na budynek na obrazie satelitarnym. O idealne wyrównanie zadbamy później, na razie wystarczy wyrównanie mniej więcej odpowiednie.
 
 ![](../../.gitbook/assets/9.png)
 
-2 - 직사각형을 회전하여 위성 이미지에 정렬하려면 다음을 수행합니다.
+2 — Aby obrócić prostokąt w celu wyrównania go względem obrazu satelitarnego:
 
-1. 직사각형을 마우스 오른쪽 버튼으로 클릭하여 상황에 맞는 메뉴를 표시합니다. **회전\(Q\)**
-2. **회전 위젯**이 직사각형 가운데에 나타납니다. 가운데의 주황색 그립을 한 번 클릭하여 위젯을 선택합니다. 위젯을 직사각형의 왼쪽 하단 코너로 이동합니다. 그러면 위젯이 코너로 스냅됩니다. 클릭하여 배치합니다.
-3. **9**를 입력합니다. 그러면 치수 상자가 나타납니다. **확인**을 클릭하여 직사각형을 시계 반대 방향으로 9도 회전합니다.
+1. Kliknij prawym przyciskiem myszy prostokąt, aby wywołać menu kontekstowe. Wybierz opcję **Obróć \(Q\).**
+2. W środku prostokąta zostanie wyświetlony **widżet obracania**. Wybierz widżet, klikając jeden raz pomarańczowy uchwyt w środku. Przesuń widżet do lewego dolnego narożnika prostokąta. Zostanie on przyciągnięty do narożnika. Kliknij, aby umieścić ten element.
+3. Wpisz **9**, a pojawi się pole wymiaru. Kliknij przycisk **OK**, aby obrócić prostokąt przeciwnie do ruchu wskazówek zegara o 9 stopni.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **위성 이미지에 그리드 정렬**
+## **Wyrównywanie siatki względem obrazu satelitarnego**
 
-1 - 이제 그리드를 위성 이미지 및 평면도에 정렬하겠습니다. **지반 면**의 아무 곳이나 마우스 오른쪽 버튼으로 클릭하고 **축 설정\(SZ\)**을 선택합니다.
+1 — Teraz wyrównamy siatkę względem obrazu satelitarnego i rzutu kondygnacji. Kliknij prawym przyciskiem myszy w dowolnym miejscu na **płaszczyźnie terenu** i wybierz opcję **Ustaw osie \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 - **축 설정** 위젯이 나타납니다. 축을 직사각형의 왼쪽 하단 코너로 이동합니다. 그러면 왼쪽 하단 코너로 스냅됩니다. 클릭하여 배치합니다.
+2 — Zostanie wyświetlony widżet **Ustaw oś**. Przesuń oś w lewy dolny narożnik prostokąta, do którego powinna zostać przyciągnięta. Kliknij, aby umieścić ten element.
 
 ![](../../.gitbook/assets/13.png)
 
-3 - 빨간색 축 끝에 있는 그립을 클릭합니다. 그립을 직사각형의 오른쪽 하단 코너로 이동하여 빨간색 축이 평면의 하단 모서리에 맞게 정렬되도록 합니다. 공간을 클릭하여 이 변경사항을 적용합니다.
+3 — Kliknij uchwyt na końcu czerwonej osi. Przesuń uchwyt do prawego dolnego narożnika prostokąta, tak aby czerwona oś była wyrównana względem dolnej krawędzi płaszczyzny. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.
 
 ![](../../.gitbook/assets/14.png)
 
-4 - 새 그리드에 맞게 뷰를 정렬하려면 탐색 막대에서 평면도 아이콘을 클릭하여 장면을 재설정합니다.
+4 — Aby wyrównać widok względem nowej siatki, kliknij ikonę Widok z góry na pasku nawigacji, aby zresetować scenę.
 
 ![](../../.gitbook/assets/15.png)
 
-5 - 두 이미지의 건물이 겹쳐지도록 하려면 평면을 선택하여 위성 이미지와 올바르게 겹쳐질 때까지 한 번 더 이동합니다.
+5 — Aby budynek na obu obrazach się nakładał, wybierz rzut, aby ponownie go przesuwać, aż właściwie nałoży się na obraz satelitarny.
 
 ![](../../.gitbook/assets/16.png)
 
-6 - 이제 위성 이미지, 직사각형 및 그리드가 정렬되어 3D 스케치가 단순화됩니다.
+6 — Obraz satelitarny, prostokąt i siatka są teraz wyrównane, co uprości szkicowanie 3D.
 

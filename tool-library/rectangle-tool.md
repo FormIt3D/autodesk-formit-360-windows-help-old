@@ -1,24 +1,24 @@
-# 직사각형
+# Prostokąt
 
-**스케치 작성** 도구막대 메뉴의 **직사각형** 도구를 사용하여 직사각형 면을 빠르게 그릴 수 있습니다. 면을 돌출시켜 직사각형 체적을 작성할 수도 있습니다.
+Narzędzie **Prostokąt** z menu paska narzędzi **Utwórz szkic** umożliwia szybkie rysowanie powierzchni prostokątnej. Wyciągnij tę powierzchnię, aby utworzyć bryłę prostokątną.
 
-키보드 바로 가기: R
+Skrót klawiaturowy: R
 
-축을 사용하여 올바른 방향으로 그리고 있는지 확인합니다.
+Za pomocą osi upewnij się, że rysunek jest wykonywany w odpowiednim kierunku:
 
-X, Y 또는 Z축에 직사각형을 그릴 수 있습니다. 그리는 동안 값을 입력하기만 하면 치수 편집 대화상자가 나타나므로 치수를 지정할 수 있습니다. Enter 키를 누르거나 확인을 눌러 치수를 승인합니다.
+Prostokąty można rysować na osi X, Y lub Z. Podczas rysowania można określić wymiar, wpisując wartość, co spowoduje wyświetlenie okna dialogowego Edycja wymiaru. Naciśnij klawisz Enter lub naciśnij przycisk OK, aby zaakceptować wymiar.
 
-직사각형을 그리려면 스케치의 첫 번째 점을 클릭하여 설정합니다.
+W celu narysowania prostokąta kliknij, aby ustawić pierwszy punkt w szkicu.
 
-축별 선 색상:
+Kolory linii według osi:
 
-* X = 빨간색
-* Y = 녹색
-* Z = 파란색
+* X = kolor czerwony
+* Y = kolor zielony
+* Z = kolor niebieski
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-직사각형 그리기를 마치면 직사각형은 돌출되어 체적을 작성할 수 있는 면이 됩니다.
+Po zakończeniu rysowania prostokąta staje się on powierzchnią, którą można wyciągnąć, aby utworzyć bryłę.
 

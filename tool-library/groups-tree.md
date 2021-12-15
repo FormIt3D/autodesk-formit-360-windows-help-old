@@ -1,12 +1,12 @@
-# 그룹 트리
+# Drzewo grup
 
-**그룹 트리** 팔레트에서는 파일의 모든 그룹을 관리할 수 있는 단일 위치를 제공합니다. 트리 뷰에는 내포된 그룹이 표시되고, 상태 열에는 현재 편집 중인 그룹, 해당 그룹의 출처가 Dynamo인지 아니면 Revit인지가 표시됩니다.
+Paleta **Drzewo grup** zapewnia jedno miejsce do zarządzania wszystkimi grupami w pliku. W widoku drzewa są wyświetlane grupy zagnieżdżone, a w kolumnie Stan są wyświetlane informacje o tym, czy grupa jest aktualnie edytowana, i o tym, czy pochodzi ona z dodatku Dynamo, czy z programu Revit.
 
-* **선택**: 각 인스턴스가 개별적으로 나열됩니다. 트리에서 인스턴스를 선택하면 3D 장면에서 인스턴스가 선택됩니다.
-* **편집**: 그룹을 편집하려면 팔레트 맨 위에 있는 펜 아이콘을 사용하거나 마우스 오른쪽 버튼을 클릭하고 편집을 선택합니다.
-* **이름 바꾸기**: 그룹 이름을 바꾸려면 이름을 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 이름 바꾸기를 선택합니다.
-* **삭제**: 그룹을 삭제하려면 팔레트 맨 위에 있는 \(**-**\) 아이콘을 사용하거나 마우스 오른쪽 버튼을 클릭하고 삭제를 선택합니다.
-* **카테고리 변경**: 그룹의 카테고리를 변경하려면 그룹을 선택하고 팔레트 맨 위에 있는 카테고리 드롭다운을 사용합니다.
+* **Wybieranie**: Każde wystąpienie jest prezentowane osobno. Wybierz wystąpienie w drzewie, a wystąpienie (lub wystąpienia) zostanie wybrane w scenie 3D.
+* **Edytowanie**: Aby edytować grupę, użyj ikony długopisu na górze palety lub kliknij prawym przyciskiem myszy i wybierz polecenie Edytuj.
+* **Zmiana nazwy**: Aby zmienić nazwę grupy, kliknij ją dwukrotnie lub kliknij prawym przyciskiem myszy i wybierz polecenie Zmień nazwę.
+* **Usuwanie**: Aby usunąć grupę, użyj ikony \(**-**\) na górze palety lub kliknij prawym przyciskiem myszy i wybierz polecenie Usuń.
+* **Zmiana kategorii**: Aby zmienić kategorię grupy, wybierz grupę i użyj listy rozwijanej Kategoria na górze palety.
 
 ![](../.gitbook/assets/groups.png)
 

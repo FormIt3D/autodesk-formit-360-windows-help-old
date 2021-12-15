@@ -1,34 +1,34 @@
-# 선택
+# Zaznaczenie
 
-## 직접 선택
+## Wybór bezpośredni
 
-**정점, 모서리 또는 면을 선택**하려면 객체 위에 마우스 커서를 놓은 다음, 한 번 클릭하여 선택합니다.
+Aby **wybrać wierzchołek, krawędź lub powierzchnię**, ustaw kursor na obiekcie, a następnie kliknij go jednokrotnie w celu wybrania go.
 
 ![](../.gitbook/assets/direct_selection1.png)
 
-**전체 객체를 선택**하거나 1개의 객체 및 객체에 연결된 항목을 선택하려면 객체를 두 번 클릭합니다.
+Aby **wybrać cały obiekt** lub obiekt i wszystkie elementy z nim połączone, kliknij dwukrotnie ten obiekt.
 
 ![](../.gitbook/assets/direct_selection2.png)
 
-또한 Ctrl 또는 Shift 키를 누른 상태에서 현재 선택한 항목에 요소를 추가하거나 해당 항목에서 제거할 수도 있습니다.
+Można również przytrzymać naciśnięty klawisz Ctrl lub Shift i dodać lub usunąć elementy z zestawu obecnie wybranych.
 
-## 선택 필터링
+## Filtrowanie wyboru
 
-면적 또는 올가미를 선택\(아래 참고\)하는 경우 유형을 기준으로 선택을 필터링할 수 있습니다.
+W przypadku wyboru powierzchni lub za pomocą narzędzia Lasso \(patrz poniżej\) można filtrować wybór na podstawie typu.
 
-이 기능은 매우 근접한 형상 유형이 혼합되어 있고, 면적 또는 올가미 선택을 사용하여 넓은 네트를 투영하고, 특정 유형의 형상만 검색하고 다른 유형은 제외하려고 하는 경우 특히 유용합니다.
+Jest to szczególnie przydatne, gdy na niewielkim obszarze znajduje się wiele typów geometrii, a wybór powierzchni lub za pomocą narzędzia Lasso ma posłużyć do uchwycenia wielu elementów, ale tylko o określonym typie geometrii, z wykluczeniem innych typów.
 
 ![](../.gitbook/assets/selection-filter.png)
 
-## 면적/창 선택
+## Wybór za pomocą obszaru/okna
 
-**여러 형상 조각을 동시에 선택**하려면 창 선택 도구를 사용합니다. 아무것도 선택하지 않았는지 확인한 다음, 클릭한 후 왼쪽에서 오른쪽으로 또는 오른쪽에서 왼쪽으로 마우스를 끌어 여러 조각을 캡처합니다.
+Aby **wybrać jednocześnie wiele elementów geometrii**, użyj narzędzia wyboru za pomocą okna. Upewnij się, że nic nie wybrano, a następnie kliknij i przeciągnij myszą od lewej strony do prawej lub od prawej do lewej, aby uchwycić wiele elementów.
 
 ![](../.gitbook/assets/direct_selection3.png)
 
-## 올가미 선택
+## Wybór za pomocą narzędzia Lasso
 
-여러 형상 조각을 동시에 선택할 때 **더욱 정밀하게 제어**하려면 올가미 도구를 사용합니다. 빈 캔버스를 마우스 오른쪽 버튼으로 클릭한 후 상황에 맞는 메뉴에서 올가미를 선택할 수 있습니다. 그런 다음, 원하는 선택 면적 주위에 경계를 그립니다.
+Aby **dokładniej sterować** podczas jednoczesnego wybierania wielu elementów geometrii, użyj narzędzia Lasso. Narzędzie to możesz wybrać z menu kontekstowego po kliknięciu prawym przyciskiem myszy pustego obszaru roboczego. Następnie narysuj obwiednię wokół żądanego obszaru wyboru.
 
 ![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)

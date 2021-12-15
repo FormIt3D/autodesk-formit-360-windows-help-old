@@ -1,20 +1,20 @@
-# 선
+# Linie
 
-선을 사용하여 면을 분할하고 형상을 구성할 수 있습니다.
+Za pomocą linii można dzielić powierzchnie i tworzyć geometrię.
 
-키보드: L
+Klawiatura: L
 
 ![](../.gitbook/assets/line_toolbar.png)
 
-X, Y, Z축은 물론 기존 형상에도 선을 그릴 수 있습니다. 축에 스냅하면 색상 선이 그리는 선 너머로 연장되어 어떤 축을 그리고 있는지 나타냅니다. 그릴 때 선의 길이를 볼 수 있으며, **Tab** 키를 눌러 특정 길이를 수동으로 입력하고 값을 입력할 수 있습니다.
+Linie można rysować na osiach X, Y oraz Z, a także na istniejącej geometrii. Podczas przyciągania do osi, rysowana linia jest przedłużana za pomocą kolorowej linii wskazującej, na której osi użytkownik rysuje. Długość linii jest widoczna podczas rysowania, ale można też ręcznie wprowadzić określoną długość, naciskając klawisz **Tab** i wprowadzając wartość.
 
-축별 선 색상:
+Kolory linii według osi:
 
-길이를 지정하려는 경우 치수 값을 입력하기만 하면 치수 편집 대화상자가 나타납니다. 확인을 누르거나 Enter 키를 눌러 값을 승인합니다.
+Aby określić długość, wystarczy wpisać wartość wymiaru, a zostanie wyświetlone okno dialogowe Edycja wymiaru. Naciśnij przycisk OK lub naciśnij klawisz Enter, aby zaakceptować tę wartość.
 
-* X = 빨간색
-* Y = 녹색
-* Z = 파란색
+* X = kolor czerwony
+* Y = kolor zielony
+* Z = kolor niebieski
 
 ![](../.gitbook/assets/lines.png)
 

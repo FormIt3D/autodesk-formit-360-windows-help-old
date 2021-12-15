@@ -1,22 +1,22 @@
-# 삭제, 편집, 이동
+# Usuwanie, edytowanie, przesuwanie
 
-객체를 제거하거나, 객체의 위치를 변경하거나, 객체의 특성을 수정할 수 있습니다.
+Usuń obiekt, zmień jego położenie lub zmień jego właściwości.
 
-## 삭제
+## Usuń
 
-먼저 형상을 선택합니다. 그런 다음, 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다. 여기에서 **삭제 도구**를 클릭하면 됩니다. 또는 키보드에서 delete 키를 눌러도 됩니다.
+Najpierw dokonaj wyboru geometrii. Następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe, w którym możesz kliknąć **narzędzie Usuń**. Możesz również nacisnąć klawisz Delete na klawiaturze.
 
 ![](../.gitbook/assets/delete%20%281%29.png)
 
-## 편집
+## Edytuj
 
-면 이동, 배열, 밀기/당기기 및 간격띄우기와 같은 여러 편집 도구를 사용할 때 파란색 치수 상자가 표시됩니다. 작업을 마친 후 이 치수를 클릭하고 특정 값을 입력할 수 있습니다. 숫자 값을 입력하여 치수 편집 대화상자에 액세스할 수도 있습니다. 또는 Tab 키를 눌러 치수 편집 대화상자를 표시할 수 있지만 Windows용 FormIt 17 이상 버전에서는 더 이상 Tab 키가 필요하지 않습니다.
+Podczas korzystania z wielu narzędzi edycji, takich jak narzędzia przesunięcia, szyku, pchnięcia/ciągnięcia powierzchni i odsunięcia, jest wyświetlana niebieska ramka wymiarowa. Po zakończeniu operacji można kliknąć ten wymiar i wprowadzić określoną wartość. Można również po prostu rozpocząć wpisywanie wartości liczbowej, aby uzyskać dostęp do okna dialogowego Edycja wymiaru. Ewentualnie można kliknąć klawisz Tab, aby wywołać okno dialogowe Edytuj wymiar, ale naciśnięcie klawisza Tab nie jest już wymagane w przypadku korzystania z programu FormIt dla systemu Windows 17 ani w nowszych wersjach.
 
 ![](../.gitbook/assets/edit_dimensions.png)
 
-## 모서리, 면 또는 객체 이동
+## Przesuwanie krawędzi, powierzchni lub obiektów
 
-먼저 모서리, 면 또는 객체를 선택합니다. 이동 도구가 자동으로 활성화됩니다. 마우스 커서를 가져가 스냅 및 추정 점을 표시하여 이동 작업을 시작할 위치를 지정하고 클릭하여 시작합니다. 이제 마우스 커서를 가져가면 객체를 이동할 위치에 대한 스냅 및 추정 점이 표시됩니다. 다시 클릭하여 객체를 배치합니다.
+Najpierw wybierz krawędź, powierzchnię lub obiekt. Narzędzie przesuwania zostanie automatycznie aktywowane. Ustaw kursor, aby wyświetlić punkty przyciągania i wnioskowania oraz określić, gdzie chcesz rozpocząć operację przesuwania. Kliknij, aby rozpocząć. Teraz umieść wskaźnik myszy, aby wyświetlić punkty przyciągania i wnioskowania dla położenia, do którego chcesz przesunąć obiekt. Kliknij ponownie, aby umieścić obiekt.
 
 ![](../.gitbook/assets/edit_edge.png)
 

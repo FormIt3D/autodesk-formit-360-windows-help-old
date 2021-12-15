@@ -1,108 +1,108 @@
-# 고급 모델링
+# Zaawansowane modelowanie
 
-판스워스 하우스 연습에서는 스케치, 면 끌기, 이동, 배열, 면 간격띄우기 등의 기본 모델링 도구를 중점적으로 다루었습니다. 그룹, 레이어, 재료 및 레벨과 관련된 필수 워크플로우도 살펴보았습니다. 이 섹션에서는 고급 모델링 도구 **스윕** 및 **모깎기**를 소개합니다.
+W naszych ćwiczeniach z modelem domu pani Farnsworth skupiliśmy się na podstawowych narzędziach modelowania, takich jak Szkicowanie, Przeciągnij powierzchnię, Przenieś, Szyk i Odsuń powierzchnię. Omówiliśmy również najważniejsze procesy robocze dotyczące grup, warstw, materiałów i poziomów. W tej sekcji przedstawimy zaawansowane narzędzia modelowania **Przeciągnięcie** i **Zaokrąglenie**
 
-마지막 섹션을 완료하지 않은 경우 [FormIt Primer 폴더](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442)에서 **farnsworth05.axm** 파일을 다운로드한 후 엽니다.
+Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik **farnsworth05.axm** z [folderu FormIt Primer](https://autodesk.app.box.com/s/thavswirrbflit27rbqzl26ljj7fu1uv/1/9025446442).
 
-## 스윕
+## Przeciągnięcie
 
-스윕 도구를 사용하여 지붕을 따라 처마를 작성합니다.
+Użyj narzędzia Przeciągnięcie, aby utworzyć gzyms wzdłuż dachu.
 
-1. **직사각형\(R\)** 도구를 사용하여 지붕의 코너에 **6" 높이 x 4 5/8"** 프로파일을 작성합니다.
+1. Za pomocą narzędzia **Prostokąt \(R\)** utwórz profil o **wysokości 6" na 4 5/8"** w dowolnym narożniku dachu.
 
    ![](../../.gitbook/assets/a7297208-cefe-42e7-95ca-1e8ea122ac38.png)
 
-2. 또 다른 **직사각형\(R\)** 프로파일을 **2" x 2"**
+2. Utwórz kolejny profil **Prostokąt \(R\)** o wymiarach **2" x 2".**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54.png)
 
-3. **한 번 클릭**하여 프로파일 사이의 선을 선택합니다. **Delete** 키를 사용하여 선을 제거합니다. 그러면 단일 윤곽이 작성됩니다.
+3. **Kliknij raz**, aby wybrać linię między profilami. Za pomocą klawisza **Delete** usuń linię — spowoduje to utworzenie pojedynczego konturu.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_2.png)
 
-4. [**고급 모델링 메뉴**](../../formit-introduction/tool-bars.md) 에서 [**스윕 도구 \(SW\)**](../../tool-library/cover-sweep-loft.md)를 선택합니다.
+4. Wybierz [**narzędzie Przeciągnięcie \(SW\)**](../../tool-library/cover-sweep-loft.md) z [**menu Zaawansowane modelowanie**](../../formit-introduction/tool-bars.md)**.**
 
    ![](../../.gitbook/assets/8a17017b-b824-48ac-ba24-064a24e7a6ad.png)
 
-5. **고급 형상** 도구막대가 도우미 텍스트 지침이 포함된 캔버스의 왼쪽 상단 코너에 나타납니다.
+5. W lewym górnym rogu obszaru rysunku zostanie wyświetlony pasek narzędzi **Zaawansowane narzędzia geometrii** wraz z pomocniczymi instrukcjami tekstowymi.
 
    ![](../../.gitbook/assets/e8badff2-acd9-4393-af5f-adae2424ad47.png)
 
-6. **한 번 클릭**하여 방금 그린 면을 선택합니다. 이 프로파일은 스윕하려는 **프로파일**입니다.
+6. **Kliknij raz**, aby wybrać właśnie narysowaną powierzchnię. Będzie to **profil**, który ma zostać przeciągnięty.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_3.png)
 
-7. 면을 선택하면 **고급 형상** 도구막대가 변경됩니다. 이제 스윕에 대해 **경로**를 선택하라는 메시지가 표시됩니다.
+7. Po wybraniu powierzchni pasek narzędzi **Zaawansowane narzędzia geometrii** ulegnie zmianie. Teraz zostanie wyświetlony monit o wybranie **ścieżki** do przeciągnięcia.
 
    ![](../../.gitbook/assets/df9fc338-15c0-4953-9ec1-c977117efc4d.png)
 
-8. **한 번 클릭**하여 **지붕 상단 면**을 선택합니다. 이 도구는 면의 모서리를 경로로 추정합니다. 지붕을 선택하면 스윕이 작성됩니다.
+8. **Kliknij raz**, aby wybrać **górną powierzchnię dachu**. Narzędzie traktuje krawędzie powierzchni jako ścieżkę. Po wybraniu dachu zostanie utworzone przeciągnięcie.
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_4.png)
 
-9. 두 번 클릭하여 전체 처마 요소를 선택합니다. 처마를 **그룹화\(G\)**합니다. 그룹을 편집하고 이름을 **코니스**
+9. Kliknij dwukrotnie, aby wybrać cały element gzymsu. **Zgrupuj \(G\)** gzyms. Przeprowadź edycję grupy i nadaj jej nazwę **gzyms.**
 
    ![](../../.gitbook/assets/5e1ad684-a3db-4c30-882c-6fdd9a1b9f54_5.png)
 
-10. 지붕에 맞게 **콘크리트 &gt; 흰색** 재료로 처마 그룹에 페인트를 적용합니다. **코니스 그룹**을 **지붕** 레이어에 추가합니다.
+10. Pomaluj grupę gzymsu materiałem **Concrete &gt; White**, aby dopasować ją do dachu. Dodaj **grupę gzymsu** do warstwy **dachu**.
 
-처마에서 끝나도록 **기둥의 높이**를 조정해야 합니다. 긴 기둥 그룹 중 하나를 편집하고, 상단 면을 선택한 다음, 올바른 높이로 내립니다. 또한 기둥이 슬래브에 플러시되도록 기둥의 위치를 조정해야 할 수도 있습니다. 지금이 이러한 사소한 조정을 수행할 적기입니다.
+Musisz dostosować **wysokość słupów** tak, aby kończyły się w gzymsie. Przeprowadź edycję jednej z grup wysokich słupów, wybierz górną powierzchnię i przesuń ją w dół na odpowiednią wysokość. Może być również konieczne dopasowanie położenia słupów tak, aby były równoległe do połaci. To dobry moment na wprowadzenie drobnych zmian
 
-## 모깎기
+## Zaokrąglenie
 
-이제 모깎기 도구로 둥근 모서리를 작성하여 가구를 좀 더 부드럽게 나타내는 방법을 살펴보겠습니다.
+Teraz poznasz narzędzie Zaokrąglenie, aby utworzyć zaokrągloną krawędź w celu uzyskania bardziej miękkiego wyglądu mebli
 
-1. 집 내부를 볼 수 있도록 **지붕** 레이어를 **끕니다**.
-2. 집의 북동쪽 코너에 **4' x 7'** **직사각형\(R\)**을 작성합니다. 면을 선택하고 **1'-6" 높이**
+1. **Wyłącz** warstwę **dachu**, aby zobaczyć wnętrze domu.
+2. Utwórz **Prostokąt \(R\)** o wymiarach **4' x 7'** w północno-wschodnim rogu domu. Wybierz powierzchnię i wyciągnij ją na wysokość **1'-6".**
 
    ![](../../.gitbook/assets/upperterracesketch_20.png)
 
-3. [**작업 도구막대**](../../formit-introduction/tool-bars.md)의 **고급 모델링 도구**에서 [**모깎기 도구\(FI\)**](../../tool-library/cover-sweep-loft.md)를 선택합니다.
+3. Wybierz [**narzędzie Zaokrąglenie \(FI\)**](../../tool-library/cover-sweep-loft.md) z **narzędzi Zaawansowane modelowanie** na [**pasku narzędzi operacji**](../../formit-introduction/tool-bars.md)**.**
 
    ![](../../.gitbook/assets/f7e388e3-4ad0-4fef-a701-0d3176adc2c5.png)
 
-4. 표시되는 대화상자에서 기본 **모깎기** 값을 1"로 변경합니다.
-5. 침대 상단 면을 **한 번 클릭**합니다. 면을 선택하면 모깎기가 자동으로 작성됩니다.
+4. W wyświetlonym oknie dialogowym zmień domyślną wartość **zaokrąglenia** na 1".
+5. **Kliknij raz** górną powierzchnię łóżka. Po wybraniu powierzchni automatycznie zostanie utworzone zaokrąglenie.
 
    ![](../../.gitbook/assets/upperterracesketch_21.png)
 
-## 그룹 트리
+## Drzewo grup
 
-그룹을 편집하여 이름을 지정하고 카테고리로 분류하는 대신, 여러 모델 관리 작업을 신속하게 수행할 수 있는 **그룹 트리**를 사용해 보겠습니다.
+Zamiast edytować grupę w celu nadania jej nazwy i kategorii, użyjmy **drzewa grup**, które umożliwia szybkie wykonywanie wielu zadań związanych z zarządzaniem modelem.
 
-1. **두 번 클릭**하여 전체 침대를 선택합니다. 침대를 **그룹\(G\)**
-2. 오른쪽의 팔레트에서 **그룹 트리** 아이콘을 클릭합니다.
+1. **Kliknij dwukrotnie**, aby wybrać całe łóżko. Dodaj łóżko do **grupy \(G\).**
+2. Kliknij ikonę **Drzewo grup** z palet po prawej stronie.
 
    ![](../../.gitbook/assets/groupstree.png)
 
-3. 캔버스에서 침대 그룹을 선택하면 **그룹 트리** 리스트에서 강조표시됩니다. 반대의 경우도 마찬가지입니다. 즉, 리스트에서 그룹을 선택하면 해당 그룹이 캔버스에서 강조표시됩니다.
-4. 리스트에서 이름을 **두 번 클릭**하여 **침대**로 변경할 수 있습니다. 이 경우 그룹의 모든 인스턴스(instance)가 업데이트됩니다. 여기에는 인스턴스(instance)가 1개만 있습니다.
-5. 리스트에서 **침대 그룹**을 선택하면 그룹 트리 팔레트 상단에 있는 드롭다운 리스트에서 카테고리를 **가구**로 설정할 수 있습니다.
+3. Jeśli wybierzesz grupę łóżka w obszarze rysunku, zostanie ona wyróżniona na liście **Drzewo grup** \(działa to również w drugą stronę — jeśli wybierzesz grupę na liście, zostanie ona wyróżniona w obszarze rysunku\).
+4. Możesz **kliknąć dwukrotnie** nazwę na liście i zmienić ją na **Bed** — wszystkie wystąpienia grupy zostaną zaktualizowane — w naszym przypadku jest tylko jedna.
+5. Gdy na liście jest wybrana **grupa Bed**, z listy rozwijanej u góry palety Drzewo grup możesz wybrać kategorię **Meble**.
 
    ![](../../.gitbook/assets/groupstree_palette.png)
 
-## 모서리 병합, 부드러운 모서리 및 선택 필터링
+## Scalanie krawędzi, wygładzanie krawędzi i filtrowanie wyboru
 
-이제 가구에서 원치 않는 모서리를 숨겨 더 부드럽고 보이도록 해보겠습니다.
+Teraz ukryjemy niepotrzebne krawędzie mebli, aby uzyskać gładszy i bardziej miękki wygląd.
 
-1. **두 번 클릭**하여 그룹을 편집합니다. **두 번 클릭**하여 전체 침대를 선택합니다. **마우스 오른쪽 버튼을 클릭**하고 상황에 맞는 메뉴에서 **병합\(MG\)**을 선택합니다.
+1. **Kliknij dwukrotnie**, aby edytować grupę. Wybierz całe łóżko **dwukrotnym kliknięciem**. **Kliknij prawym przyciskiem myszy** i z menu kontekstowego wybierz polecenie **Scal \(MG\)**.
 
    ![](../../.gitbook/assets/upperterracesketch_215.png)
 
-2. **선택 필터**를 사용하여 **모서리**
+2. Użyj opcji **Filtr wyboru**, aby ograniczyć wybór okna tylko do **krawędzi.**
 
    ![](../../.gitbook/assets/25b2428d-bc93-4ae4-9b8a-d8f3749ddb43.png)
 
-3. 왼쪽 상단에서 오른쪽 하단 코너로 **마우스를 끌어** **창 선택**을 수행합니다. 창에서 침대의 각 코너에 있는 호와 모서리가 선택됩니다. **Ctrl** 키 또는 **Shift** 키를 누른 상태로 선택 세트에 추가합니다.
-4. **마우스 오른쪽 버튼을 클릭**하고 **부드러운 모서리\(SE\)**를 선택합니다.
+3. **Przeciągnij wskaźnik myszy** od lewego górnego do prawego dolnego narożnika, aby dokonać **wyboru okna**. Wybierz w oknie łuk i krawędź w każdym narożniku łóżka. Przytrzymaj naciśnięty klawisz **Ctrl** lub **Shift**, aby dodać je do ustawionego wyboru.
+4. **Kliknij prawym przyciskiem myszy** i wybierz opcję **Wygładź krawędzie \(SE\)**
 
    ![](../../.gitbook/assets/upperterracesketch_216.png)
 
-5. 이러한 모서리를 다시 표시하려면 **한 번 클릭**하여 침대의 상단 면을 선택하고 **마우스 오른쪽 버튼을 클릭**한 후 **깍인면의 부드러운 모서리**\(UE\)를 선택합니다.
+5. Aby ponownie wyświetlić te krawędzie, **kliknij raz** w celu wybrania górnej powierzchni łóżka, **kliknij prawym przyciskiem myszy** i wybierz opcję **Powierzchnie wygładzone płaszczyzną** \(UE\).
 
    ![](../../.gitbook/assets/upperterracesketch_217.png)
 
-6. 면 및 그룹을 다시 포함하도록 **선택 필터**를 다시 변경합니다. **지붕** 레이어를 다시 켭니다. 판스워스 하우스 모델이 멋지게 구현되었습니다!
+6. Zmień jeszcze raz **Filtr wyboru**, aby znowu uwzględnić powierzchnie i grupy. Włącz z powrotem warstwę **dachu**. Twój model domu pani Farnsworth jest coraz ładniejszy.
 
    ![](../../.gitbook/assets/upperterracesketch_22.png)
 

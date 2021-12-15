@@ -1,11 +1,11 @@
-# 객체 축척
+# Skalowanie obiektu
 
-**축척 도구**를 사용하여 객체의 크기와 방향을 조정할 수 있습니다.
+**Narzędzie Skaluj** umożliwia dostosowanie rozmiaru i orientacji obiektów.
 
-1. 조정할 객체를 선택합니다.
-2. 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**를 시작합니다.
-3. 상황에 맞는 메뉴에서 **축척 도구**를 선택합니다.
-4. 마우스의 스크롤 휠을 사용하여 형상의 축척을 늘리거나 줄입니다.
+1. Wybierz obiekt, który chcesz dostosować.
+2. Kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**.
+3. Z menu kontekstowego wybierz **narzędzie Skala**.
+4. Za pomocą kółka przewijania myszy przeskaluj geometrię w górę lub w dół.
 
 ![](../.gitbook/assets/scale1.png)
 
